@@ -151,3 +151,22 @@ window.FINHOT_DATA = {
     { "title": "中国平安2025年健康险保费收入1590亿元 领跑全市场", "dotClass": "flash-dot-blue" }
   ]
 };
+
+// Category definitions
+window.CATEGORIES = [
+  { slug: "all", label: "全部" },
+  { slug: "regulatory", label: "监管政策" },
+  { slug: "products", label: "产品发布" },
+  { slug: "industry", label: "行业动态" },
+  { slug: "research", label: "研究报告" },
+  { slug: "insights", label: "技巧观点" }
+];
+
+// Category display config
+window.CATEGORY_CONFIG = {
+  regulatory: { label: "监管政策", tagClass: "tag-regulatory", accentClass: "accent-regulatory" },
+  products: { label: "产品发布", tagClass: "tag-products", accentClass: "accent-products" },
+  industry: { label: "行业动态", tagClass: "tag-industry", accentClass: "accent-industry" },
+  research: { label: "研究报告", tagClass: "tag-research", accentClass: "accent-research" },
+  insights: { label: "技巧观点", tagClass: "tag-insights", accentClass: "accent-insights" }
+};

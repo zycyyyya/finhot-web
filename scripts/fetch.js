@@ -135,6 +135,22 @@ async function main() {
 
   console.log(`// finhot auto-generated data — ${dateStr}`);
   console.log(`window.FINHOT_DATA = ${JSON.stringify(output, null, 2)};`);
+  console.log('');
+  console.log('window.CATEGORIES = ' + JSON.stringify([
+    { slug: 'all', label: '全部' },
+    { slug: 'regulatory', label: '监管政策' },
+    { slug: 'products', label: '产品发布' },
+    { slug: 'industry', label: '行业动态' },
+    { slug: 'research', label: '研究报告' },
+    { slug: 'insights', label: '技巧观点' }
+  ]) + ';');
+  console.log('window.CATEGORY_CONFIG = ' + JSON.stringify({
+    regulatory: { label: '监管政策', tagClass: 'tag-regulatory', accentClass: 'accent-regulatory' },
+    products: { label: '产品发布', tagClass: 'tag-products', accentClass: 'accent-products' },
+    industry: { label: '行业动态', tagClass: 'tag-industry', accentClass: 'accent-industry' },
+    research: { label: '研究报告', tagClass: 'tag-research', accentClass: 'accent-research' },
+    insights: { label: '技巧观点', tagClass: 'tag-insights', accentClass: 'accent-insights' }
+  }) + ';');
 }
 
 function formatTime(iso) {

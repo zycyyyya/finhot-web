@@ -33,6 +33,6 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "auto: update data $(date +%Y-%m-%d)"
+            git commit -m "auto: incremental update $(date +%Y-%m-%d)"
             git push
           fi

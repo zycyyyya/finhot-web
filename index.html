@@ -12,7 +12,7 @@
   <a href="index.html" class="header-logo">finhot</a>
   <div class="header-spacer"></div>
   <nav class="header-nav">
-    <a href="index.html" class="active">精选</a>
+    <a href="index.html" class="active" id="navFeatured">精选</a>
     <a href="daily.html">AI 日报</a>
     <a href="about.html">关于</a>
   </nav>
@@ -24,6 +24,7 @@
   <div class="content-wrapper">
     <div class="time-divider">
       <span class="time-label" id="timeLabel">加载中…</span>
+      <span class="time-label" id="countLabel" style="margin-left:auto;color:var(--text-dim);font-weight:400;"></span>
       <div class="time-line"></div>
     </div>
     <div id="newsFeed"></div>
@@ -38,7 +39,9 @@
   var config = window.CATEGORY_CONFIG;
 
   var timeLabel = document.getElementById('timeLabel');
+  var countLabel = document.getElementById('countLabel');
   var newsFeed = document.getElementById('newsFeed');
+  var navFeatured = document.getElementById('navFeatured');
 
   // Fallback: if data.js failed to load
   if (!data || !data.items) {
@@ -47,21 +50,69 @@
     return;
   }
 
-  // Category bar
+  // Build featured items set (score >= 70)
+  var featuredThreshold = 70;
+  var featuredItems = data.items.filter(function(i) { return i.score >= featuredThreshold; });
+
+  // Category bar — insert "精选" as first tab after "全部"
   var catBar = document.getElementById('categoryBar');
-  categories.forEach(function(cat) {
-    var tab = document.createElement('span');
-    tab.className = 'cat-tab' + (cat.slug === 'all' ? ' active' : '');
-    tab.textContent = cat.label;
-    tab.setAttribute('data-cat', cat.slug);
-    tab.addEventListener('click', function() {
-      var allTabs = document.querySelectorAll('.cat-tab');
-      for (var i = 0; i < allTabs.length; i++) allTabs[i].classList.remove('active');
-      tab.classList.add('active');
-      renderFeed(cat.slug);
+
+  function buildCategoryBar() {
+    catBar.innerHTML = '';
+    categories.forEach(function(cat) {
+      var tab = document.createElement('span');
+      tab.className = 'cat-tab' + (cat.slug === 'all' ? ' active' : '');
+      tab.textContent = cat.label;
+      tab.setAttribute('data-cat', cat.slug);
+      tab.addEventListener('click', function() {
+        activateTab(tab);
+        renderFeed(cat.slug);
+        // If switching away from featured, deactivate nav highlight
+        navFeatured.classList.remove('active');
+      });
+      catBar.appendChild(tab);
+      // Insert "精选" tab right after "全部"
+      if (cat.slug === 'all') {
+        var featuredTab = document.createElement('span');
+        featuredTab.className = 'cat-tab';
+        featuredTab.textContent = '精选';
+        featuredTab.setAttribute('data-cat', 'featured');
+        featuredTab.addEventListener('click', function() {
+          activateTab(featuredTab);
+          renderFeed('featured');
+          navFeatured.classList.add('active');
+        });
+        catBar.appendChild(featuredTab);
+      }
     });
-    catBar.appendChild(tab);
+  }
+
+  function activateTab(tab) {
+    var allTabs = document.querySelectorAll('.cat-tab');
+    for (var i = 0; i < allTabs.length; i++) allTabs[i].classList.remove('active');
+    tab.classList.add('active');
+  }
+
+  // Header nav "精选" click → show featured items
+  navFeatured.addEventListener('click', function(e) {
+    e.preventDefault();
+    navFeatured.classList.add('active');
+    var featuredTabEl = catBar.querySelector('.cat-tab[data-cat="featured"]');
+    if (featuredTabEl) {
+      activateTab(featuredTabEl);
+    }
+    renderFeed('featured');
   });
+
+  // Other nav links remove featured highlight
+  var otherNavLinks = document.querySelectorAll('.header-nav a:not(#navFeatured)');
+  for (var n = 0; n < otherNavLinks.length; n++) {
+    otherNavLinks[n].addEventListener('click', function() {
+      navFeatured.classList.remove('active');
+    });
+  }
+
+  buildCategoryBar();
 
   // Time label
   try {
@@ -76,13 +127,11 @@
       if (isNaN(d.getTime())) return '';
       var now = new Date();
       var diff = now - d;
-      // Fix negative diff: timestamp may be in Beijing time without Z
       if (diff < 0) {
-        // Try adding 8 hours (UTC+8 offset) as a fallback
         d = new Date(iso.replace('Z', '+08:00'));
         diff = now - d;
       }
-      if (diff < 0) return ''; // still in future, skip
+      if (diff < 0) return '';
       if (diff < 3600000) return Math.floor(diff / 60000) + '分钟前';
       if (diff < 86400000) return Math.floor(diff / 3600000) + '小时前';
       return (d.getMonth() + 1) + '月' + d.getDate() + '日';
@@ -103,14 +152,12 @@
     card.setAttribute('tabindex', '0');
     card.style.cursor = 'pointer';
 
-    // Robust click handler
     card.addEventListener('click', function(e) {
       if (item.sourceUrl && item.sourceUrl !== '#') {
         openLink(item.sourceUrl);
       }
     });
 
-    // Keyboard support
     card.addEventListener('keydown', function(e) {
       if (e.key === 'Enter' && item.sourceUrl && item.sourceUrl !== '#') {
         openLink(item.sourceUrl);
@@ -119,7 +166,7 @@
 
     var catCfg = config[item.category] || {};
     var tags = item.tags || [];
-    var scoreBadge = (item.score >= 70) ? ('<span class="card-score">精选 ' + item.score + '</span>') : '';
+    var scoreBadge = (item.score >= featuredThreshold) ? ('<span class="card-score">精选 ' + item.score + '</span>') : '';
 
     card.innerHTML =
       '<div class="card-meta">' +
@@ -139,14 +186,25 @@
 
   function renderFeed(filter) {
     newsFeed.innerHTML = '';
-    var items = filter === 'all' ? data.items : data.items.filter(function(i) { return i.category === filter; });
+    var items;
+    if (filter === 'all') {
+      items = data.items;
+    } else if (filter === 'featured') {
+      items = data.items.filter(function(i) { return i.score >= featuredThreshold; });
+    } else {
+      items = data.items.filter(function(i) { return i.category === filter; });
+    }
     items.forEach(function(item) { newsFeed.appendChild(createCard(item)); });
+    countLabel.textContent = items.length + ' 条';
     if (items.length === 0) {
       newsFeed.innerHTML = '<p style="color:var(--text-muted);text-align:center;padding:40px;">暂无相关资讯</p>';
+      countLabel.textContent = '';
     }
   }
 
+  // Default: show all on first load
   renderFeed('all');
+  countLabel.textContent = data.items.length + ' 条';
 })();
 </script>
 

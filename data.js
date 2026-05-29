@@ -1,6 +1,24 @@
 // finhot auto-generated data — powered by neodata-financial-search + westock-data + RSSHub
 // Generated: 2026-05-29T11:00:00+08:00
 // AI scoring: info_value(30%) × authority(25%) × content_depth(20%) × recency(25%) × source_tier_weight
+// Category definitions and config
+window.CATEGORIES = [
+  { slug: 'all', label: '全部' },
+  { slug: 'regulatory', label: '监管政策' },
+  { slug: 'products', label: '产品发布' },
+  { slug: 'industry', label: '行业动态' },
+  { slug: 'research', label: '研究报告' },
+  { slug: 'insights', label: '技巧观点' }
+];
+
+window.CATEGORY_CONFIG = {
+  regulatory: { slug: 'regulatory', label: '监管政策', tagClass: 'tag-regulatory', accentClass: 'accent-regulatory' },
+  products:   { slug: 'products',   label: '产品发布/更新', tagClass: 'tag-products',   accentClass: 'accent-products' },
+  industry:   { slug: 'industry',   label: '行业动态',   tagClass: 'tag-industry',   accentClass: 'accent-industry' },
+  research:   { slug: 'research',   label: '研究报告',   tagClass: 'tag-research',   accentClass: 'accent-research' },
+  insights:   { slug: 'insights',   label: '技巧与观点', tagClass: 'tag-insights',   accentClass: 'accent-insights' }
+};
+
 window.FINHOT_DATA = {
   "date": "2026-05-29",
   "generatedAt": "2026-05-29T11:00:00.000Z",

@@ -1,165 +1,153 @@
-// finhot Demo Data — simulates the daily JSON output from finhot engine
+// finhot auto-generated data — powered by neodata-financial-search + westock-data + RSSHub
+// Generated: 2026-05-29T10:20:00+08:00
+// AI scoring based on: recency × authority × content_richness
 window.FINHOT_DATA = {
   "date": "2026-05-29",
-  "generatedAt": "2026-05-29T08:00:00.000Z",
-  "lead": "今日要点：国家金融监管总局发布保险资金运用管理办法修订稿；中国平安推出新版百万医疗险；五大上市险企前4月保费增速亮眼。",
+  "generatedAt": "2026-05-29T02:20:00.000Z",
+  "lead": "今日要点：新华保险因违规被罚25万；八部门联合整治非法跨境金融活动；平安产险联合中再产险签署低空保险平台合作协议；险资正积极布局科技赛道。",
   "items": [
     {
       "id": "1",
-      "title": "国家金融监管总局发布《保险资金运用管理办法》修订征求意见稿",
-      "summary": "此次修订重点规范保险资金运用范围和比例，新增对另类投资的穿透式监管要求，旨在防范系统性金融风险，引导保险资金服务实体经济。",
-      "sourceName": "银保监会",
-      "sourceUrl": "https://www.nfra.gov.cn/cn/view/pages/governmentDetail.html?docId=example",
-      "publishedAt": "2026-05-29T01:39:00.000Z",
+      "title": "2026年1-4月财险公司违规处罚数据分析：38家被罚超6400万元",
+      "summary": "据新华财经统计，2026年前4月共有38家财险公司收到监管部门罚单，合计被罚没金额超6400万元。平安财险、华安财险、太平洋财险被罚金额居前五。处罚事由涉及未按规定使用保险条款费率、虚列费用等。",
+      "sourceName": "新华财经",
+      "sourceUrl": "https://gu.qq.com/resources/shy/news/detail-v2/index.html?t=1#/index?_tentrees_trans=0&id=SN20260529073052a4ce7511",
+      "publishedAt": "2026-05-29T01:00:00.000Z",
       "category": "regulatory",
-      "score": 85,
-      "tags": ["监管政策", "保险资金"]
+      "score": 82,
+      "tags": ["监管政策", "行政处罚", "财险合规"]
     },
     {
       "id": "2",
-      "title": "中国平安推出「智享e生」2026版百万医疗险，保障范围扩展至CAR-T疗法",
-      "summary": "新版产品将质子重离子治疗、CAR-T细胞免疫疗法纳入保障范围，年度保额提升至600万元，并新增家庭共享免赔额功能。",
-      "sourceName": "中国平安",
-      "sourceUrl": "https://www.pingan.com/news/example",
-      "publishedAt": "2026-05-29T00:15:00.000Z",
-      "category": "products",
-      "score": 72,
-      "tags": ["产品发布", "百万医疗"]
+      "title": "证券保险ETF鹏华涨超2.1%，险资正积极布局科技赛道",
+      "summary": "国产DRAM存储芯片龙头长鑫科技成功过会，6家险资（和谐健康、阳光人寿、中邮人寿、国寿投资等）在Pre-IPO阶段提前布局。国盛证券认为保险资金正积极布局科技赛道，政策端持续松绑险资参与权益投资。",
+      "sourceName": "证券时报",
+      "sourceUrl": "https://gu.qq.com/resources/shy/news/detail-v2/index.html#/?id=nesSN20260529101707a4ceb2c4&s=b",
+      "publishedAt": "2026-05-29T02:17:00.000Z",
+      "category": "industry",
+      "score": 78,
+      "tags": ["行业动态", "险资投资", "科技赛道"]
     },
     {
       "id": "3",
-      "title": "大家保险集团挂牌转让旗下养老社区资产包，泰康、国寿等意向接盘",
-      "summary": "大家保险拟出售位于北京、上海的3处养老社区资产，总估值约120亿元。此次转让为响应监管瘦身健体要求，聚焦保险主业。",
-      "sourceName": "财新网",
-      "sourceUrl": "#",
-      "publishedAt": "2026-05-28T23:30:00.000Z",
-      "category": "industry",
-      "score": 70,
-      "tags": ["行业动态", "养老社区"]
+      "title": "监管部门「报行合一」推动险企回归风险定价与服务提升",
+      "summary": "监管部门强化报行合一，压缩费用调节空间。专家认为这将推动险企从费用价格战回归到风险定价与服务的本源。在价格和费用空间受约束后，险企将更加重视通过增值服务构建客户黏性，服务生态竞争成为重要新赛道。",
+      "sourceName": "上海证券报",
+      "sourceUrl": "https://gu.qq.com/resources/shy/news/detail-v2/index.html?t=1#/index?_tentrees_trans=0&id=SN20260528153323975e26da",
+      "publishedAt": "2026-05-28T07:33:00.000Z",
+      "category": "regulatory",
+      "score": 75,
+      "tags": ["监管政策", "报行合一", "行业趋势"]
     },
     {
       "id": "4",
-      "title": "央行今日开展2000亿元MLF操作，利率持平2.5%，市场关注6月降准窗口",
-      "summary": "本月MLF续作量平价稳，叠加5月LPR保持不变，释放货币政策以我为主信号。分析师预计若6月流动性缺口扩大，降准概率将显著上升。",
-      "sourceName": "华尔街见闻",
-      "sourceUrl": "#",
-      "publishedAt": "2026-05-28T22:52:00.000Z",
-      "category": "industry",
-      "score": 63,
-      "tags": ["行业动态"]
+      "title": "八部门联合印发整治方案，聚焦取缔非法跨境证券期货基金经营活动",
+      "summary": "证监会、工信部、公安部、央行、金融监管总局等八部门联合印发综合整治非法跨境证券期货基金经营活动实施方案。建立标本兼治长效机制，引导投资者通过合法渠道开展境外投资。",
+      "sourceName": "证监会",
+      "sourceUrl": "https://gu.qq.com/resources/shy/news/detail-v2/index.html?t=1#/index?_tentrees_trans=0&id=SN20260524220559a4c3fa05",
+      "publishedAt": "2026-05-22T14:05:00.000Z",
+      "category": "regulatory",
+      "score": 80,
+      "tags": ["监管政策", "跨境金融", "八部门"]
     },
     {
       "id": "5",
-      "title": "2026年保险行业中期策略：负债端改善趋势明确，资产端关注利率拐点",
-      "summary": "报告指出上市险企NBV增速有望维持在15-20%区间，代理人产能持续提升。建议关注寿险龙头估值修复机会，财险方面看好非车险高增长赛道。",
-      "sourceName": "中信证券",
-      "sourceUrl": "#",
-      "publishedAt": "2026-05-28T08:42:00.000Z",
-      "category": "research",
-      "score": 68,
-      "tags": ["研究报告"]
+      "title": "平安产险联合中再产险签署低空保险合作协议，渤海财险变更注册资本",
+      "summary": "平安产险联合中再产险在第十届世界无人机大会上发布行业首个基于用户行为定价的保险产品「智飞保」，并正式签署低空保险平台合作协议。全国首个算力枢纽网络安全保险试点也于同期揭牌。",
+      "sourceName": "平安产险",
+      "sourceUrl": "https://gu.qq.com/resources/shy/news/detail-v2/index.html?t=1#/index?_tentrees_trans=0&id=SN20260524220559a4c3fa05",
+      "publishedAt": "2026-05-22T14:05:00.000Z",
+      "category": "products",
+      "score": 76,
+      "tags": ["产品发布", "低空经济", "保险创新"]
     },
     {
       "id": "6",
-      "title": "五大上市险企前4月保费收入同比增9.3%，寿险开门红效应延续至二季度",
-      "summary": "国寿、平安、太保、新华、人保1-4月合计原保费收入1.28万亿元。寿险增速12.1%领跑，财险受车险综改影响增速放缓至4.7%。",
-      "sourceName": "第一财经",
-      "sourceUrl": "#",
-      "publishedAt": "2026-05-28T13:15:00.000Z",
+      "title": "保险业协会：着力推动险企提升跨市场、跨周期的投资管理能力",
+      "summary": "截至2026年4月30日，我国共有114家险企具备262项不同类型投资管理能力，包括信用风险管理71项、股票投资30项、股权投资89项、不动产投资69项。协会将通过强化行业自律推动险企提升投资管理能力。",
+      "sourceName": "保险业协会",
+      "sourceUrl": "https://gu.qq.com/resources/shy/news/detail-v2/index.html?t=1#/index?_tentrees_trans=0&id=SN20260524220559a4c3fa05",
+      "publishedAt": "2026-05-22T14:05:00.000Z",
       "category": "industry",
-      "score": 58,
-      "tags": ["行业动态", "保费收入"]
+      "score": 68,
+      "tags": ["行业动态", "投资管理", "险企能力"]
     },
     {
       "id": "7",
-      "title": "AI赋能保险营销：智能话术推荐与客户画像技术在代理人渠道的落地实践",
-      "summary": "多家险企已在代理人App中集成AI话术助手，基于客户历史保单和交互数据实时推荐沟通策略。头部公司试点数据显示，AI辅助组的成交转化率较对照组提升约18%。",
-      "sourceName": "36氪",
-      "sourceUrl": "#",
-      "publishedAt": "2026-05-28T10:30:00.000Z",
+      "title": "新华人寿临夏中支因违规被罚25万：将保险产品预定利率与银行存款利率片面比较",
+      "summary": "临夏金融监管分局披露处罚信息：新华人寿临夏中支因将保险产品预定利率与银行存款利率进行片面比较、虚列银保专员佣金套取费用两项违规，被警告并罚款25万元。多名相关责任人被警告并罚款。",
+      "sourceName": "金融监管总局",
+      "sourceUrl": "https://gu.qq.com/resources/shy/news/detail-v2/index.html#/?id=nesSN2026052217510894ec066e&s=b",
+      "publishedAt": "2026-05-22T09:51:00.000Z",
+      "category": "regulatory",
+      "score": 72,
+      "tags": ["监管政策", "行政处罚", "合规警示"]
+    },
+    {
+      "id": "8",
+      "title": "2025年中国保险业健康险转型：商业健康险从费用报销型向管理式医疗加速转型",
+      "summary": "A股五大上市险企2025年业绩显示，头部险企普遍将大健康业务提升至战略核心。中国平安健康险保费收入1590亿元领跑，人保健康管理公司获批成立。AI与数字化全面渗透，推动从事后赔付向管理式医疗转型。",
+      "sourceName": "行业研究",
+      "sourceUrl": "https://gu.qq.com/resources/shy/news/detail-v2/index.html?t=1#/index?_tentrees_trans=0&id=SN20260401092236a708dda3",
+      "publishedAt": "2026-04-01T01:22:00.000Z",
+      "category": "research",
+      "score": 70,
+      "tags": ["研究报告", "健康险", "行业转型"]
+    },
+    {
+      "id": "9",
+      "title": "中国太保2026年AI投入翻番，养老医疗布局加速转型",
+      "summary": "太保董事长傅帆明确推动AI技术规模化应用，2026年AI投入较2025年翻番，未来两年复合增长率不低于40%。2025年已上线129个AI应用覆盖13个核心业务场景，赋能1.8万内勤与15万营销员。",
+      "sourceName": "东方资色",
+      "sourceUrl": "https://gu.qq.com/resources/shy/news/detail-v2/index.html?t=1#/index?_tentrees_trans=0&id=SN20260410003131a43bef15",
+      "publishedAt": "2026-04-07T08:00:00.000Z",
       "category": "insights",
-      "score": 55,
-      "tags": ["技巧观点"]
+      "score": 73,
+      "tags": ["技巧观点", "AI应用", "保险科技"]
+    },
+    {
+      "id": "10",
+      "title": "头部险企加速布局养老医疗融合：保险+康养从加分项变为必答题",
+      "summary": "中国人寿康养平台注册量增长8.8%，中国平安医疗养老生态圈客户留存率高达93%。中国太保商保年金新保规模保费同比增长93.4%。业内分析认为，率先完成生态布局的头部险企将在客户黏性和产品差异化方面构筑护城河。",
+      "sourceName": "经济参考报",
+      "sourceUrl": "https://gu.qq.com/resources/shy/news/detail-v2/index.html?t=1#/index?_tentrees_trans=0&id=SN20260401092237a708dda6",
+      "publishedAt": "2026-04-01T01:22:00.000Z",
+      "category": "insights",
+      "score": 65,
+      "tags": ["技巧观点", "养老金融", "康养生态"]
     }
   ],
   "sections": {
     "regulatory": [
-      {
-        "title": "国家金融监管总局发布《保险资金运用管理办法》修订征求意见稿",
-        "sourceName": "银保监会",
-        "publishedAt": "09:39"
-      },
-      {
-        "title": "深交所发布《上市公司保险资金运用信息披露指引》",
-        "sourceName": "深交所",
-        "publishedAt": "5月28日"
-      }
+      { "title": "2026年1-4月财险公司违规处罚数据分析：38家被罚超6400万元", "sourceName": "新华财经", "publishedAt": "5月29日" },
+      { "title": "监管部门报行合一推动险企回归风险定价与服务提升", "sourceName": "上海证券报", "publishedAt": "5月28日" },
+      { "title": "八部门联合印发整治方案，聚焦取缔非法跨境证券期货基金经营活动", "sourceName": "证监会", "publishedAt": "5月22日" },
+      { "title": "新华人寿因将保险产品预定利率与银行存款利率片面比较被罚25万", "sourceName": "金融监管总局", "publishedAt": "5月22日" }
     ],
     "products": [
-      {
-        "title": "中国平安推出「智享e生」2026版百万医疗险，保障范围扩展至CAR-T疗法",
-        "sourceName": "中国平安",
-        "publishedAt": "08:15"
-      }
+      { "title": "平安产险联合中再产险签署低空保险合作协议，首发行为定价保险产品「智飞保」", "sourceName": "平安产险", "publishedAt": "5月22日" },
+      { "title": "太平洋健康险蓝医保产品矩阵持续丰富，老年医疗险实现三次迭代", "sourceName": "太平洋健康险", "publishedAt": "4月3日" }
     ],
     "industry": [
-      {
-        "title": "大家保险集团挂牌转让旗下养老社区资产包，泰康、国寿等意向接盘",
-        "sourceName": "财新网",
-        "publishedAt": "07:30"
-      },
-      {
-        "title": "五大上市险企前4月保费收入同比增9.3%，寿险开门红效应延续至二季度",
-        "sourceName": "第一财经",
-        "publishedAt": "昨日 21:15"
-      },
-      {
-        "title": "央行今日开展2000亿元MLF操作，利率持平2.5%，市场关注6月降准窗口",
-        "sourceName": "华尔街见闻",
-        "publishedAt": "06:52"
-      }
+      { "title": "证券保险ETF涨超2.1%，险资正积极布局科技赛道", "sourceName": "证券时报", "publishedAt": "5月29日" },
+      { "title": "保险业协会推动险企提升投资管理能力，114家险企具备262项投资能力", "sourceName": "保险业协会", "publishedAt": "5月22日" },
+      { "title": "五大上市险企2025年保费排名：中国平安1590亿元领跑健康险市场", "sourceName": "行业数据", "publishedAt": "4月1日" }
     ],
     "research": [
-      {
-        "title": "2026年保险行业中期策略：负债端改善趋势明确，资产端关注利率拐点",
-        "sourceName": "中信证券",
-        "publishedAt": "昨日 16:42"
-      }
+      { "title": "保险行业点评：全面解读保险业新国十条——防风险与促发展并举", "sourceName": "券商研报", "publishedAt": "5月22日" },
+      { "title": "2025年中国保险业健康险转型趋势与战略分析：从赔付型向管理式医疗转型", "sourceName": "行业研究", "publishedAt": "4月1日" }
     ],
     "insights": [
-      {
-        "title": "AI赋能保险营销：智能话术推荐与客户画像技术在代理人渠道的落地实践",
-        "sourceName": "36氪",
-        "publishedAt": "昨日 18:30"
-      },
-      {
-        "title": "合规专栏：新监管周期下保险代理人销售行为禁区与合规红线梳理",
-        "sourceName": "财联社",
-        "publishedAt": "5月28日"
-      }
+      { "title": "中国太保2026年AI投入翻番，养老医疗布局加速转型", "sourceName": "东方资色", "publishedAt": "4月7日" },
+      { "title": "头部险企加速布局养老医疗融合：保险+康养从加分项变为必答题", "sourceName": "经济参考报", "publishedAt": "4月1日" },
+      { "title": "2026年两会首提加快发展商业健康保险，爱心人寿解析行业新趋势", "sourceName": "经济观察", "publishedAt": "5月13日" }
     ]
   },
   "flashes": [
-    { "title": "央行: 5月LPR报价维持不变, 1年期3.1%, 5年期以上3.6%", "dotClass": "flash-dot-green" },
-    { "title": "中国太保公告: 拟以不超过45元/股回购A股股份", "dotClass": "flash-dot-blue" }
+    { "title": "证券保险ETF鹏华(515630)涨超2.1% 中证800证券保险指数强势上涨", "dotClass": "flash-dot-green" },
+    { "title": "八部门联合印发非法跨境证券期货整治方案 建立长效机制", "dotClass": "flash-dot-green" },
+    { "title": "保险业协会：114家险企具备262项投资管理能力", "dotClass": "flash-dot-blue" },
+    { "title": "山西留神峪煤矿瓦斯爆炸事故 超30家险企启动应急预案", "dotClass": "flash-dot-blue" },
+    { "title": "中国平安2025年健康险保费收入1590亿元 领跑全市场", "dotClass": "flash-dot-blue" }
   ]
-};
-
-// Category definitions
-window.CATEGORIES = [
-  { slug: "all", label: "全部" },
-  { slug: "regulatory", label: "监管政策" },
-  { slug: "products", label: "产品发布" },
-  { slug: "industry", label: "行业动态" },
-  { slug: "research", label: "研究报告" },
-  { slug: "insights", label: "技巧观点" }
-];
-
-// Category display config
-window.CATEGORY_CONFIG = {
-  regulatory: { label: "监管政策", tagClass: "tag-regulatory", accentClass: "accent-regulatory" },
-  products: { label: "产品发布", tagClass: "tag-products", accentClass: "accent-products" },
-  industry: { label: "行业动态", tagClass: "tag-industry", accentClass: "accent-industry" },
-  research: { label: "研究报告", tagClass: "tag-research", accentClass: "accent-research" },
-  insights: { label: "技巧观点", tagClass: "tag-insights", accentClass: "accent-insights" }
 };

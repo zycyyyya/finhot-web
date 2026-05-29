@@ -76,6 +76,13 @@
       if (isNaN(d.getTime())) return '';
       var now = new Date();
       var diff = now - d;
+      // Fix negative diff: timestamp may be in Beijing time without Z
+      if (diff < 0) {
+        // Try adding 8 hours (UTC+8 offset) as a fallback
+        d = new Date(iso.replace('Z', '+08:00'));
+        diff = now - d;
+      }
+      if (diff < 0) return ''; // still in future, skip
       if (diff < 3600000) return Math.floor(diff / 60000) + '分钟前';
       if (diff < 86400000) return Math.floor(diff / 3600000) + '小时前';
       return (d.getMonth() + 1) + '月' + d.getDate() + '日';
@@ -112,12 +119,13 @@
 
     var catCfg = config[item.category] || {};
     var tags = item.tags || [];
+    var scoreBadge = (item.score >= 70) ? ('<span class="card-score">精选 ' + item.score + '</span>') : '';
 
     card.innerHTML =
       '<div class="card-meta">' +
         '<span class="card-time">' + formatTime(item.publishedAt) + '</span>' +
         '<span class="card-source">' + (item.sourceName || '') + '</span>' +
-        '<span class="card-score">精选 ' + (item.score || 0) + '</span>' +
+        scoreBadge +
         '<span class="meta-spacer"></span>' +
       '</div>' +
       '<h2 class="card-title">' + (item.title || '') + '</h2>' +

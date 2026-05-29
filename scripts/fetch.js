@@ -9,7 +9,7 @@ const { parseStringPromise } = require('xml2js');
 
 const UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36';
 const RSSHUB = 'https://rsshub.liumingye.cn';
-const MAX_ITEMS = 30;        // max items to keep
+const MAX_ITEMS = 35;        // max items to keep
 const MAX_AGE_DAYS = 7;      // auto-expire after 7 days
 const DATA_FILE = 'data.js'; // output file path
 

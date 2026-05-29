@@ -17,6 +17,7 @@ const SOURCES = [
   { route: '/caixin/latest',      sourceName: '财新网',    category: 'industry',    tier: 'T1.5', scoreBase: 60 },
   { route: '/wallstreetcn/news/global', sourceName: '华尔街见闻', category: 'industry', tier: 'T1.5', scoreBase: 55 },
   { route: '/yicai/news',         sourceName: '第一财经',  category: 'industry',    tier: 'T1.5', scoreBase: 50 },
+  { route: '/cls/telegraph',      sourceName: '财联社',    category: 'industry',    tier: 'T2',   scoreBase: 50 },
   { route: '/cls/depth',          sourceName: '财联社',    category: 'research',    tier: 'T2',   scoreBase: 55 },
   { route: '/36kr/newsflashes',   sourceName: '36氪',     category: 'insights',    tier: 'T2',   scoreBase: 45 },
   { route: '/szse/notice',        sourceName: '深交所',    category: 'regulatory',  tier: 'T1',   scoreBase: 60 },
@@ -102,13 +103,13 @@ function scoreItem(item, source) {
   return Math.round(dimScore * tierWeight);
 }
 
-// === Build sections ===
+// === Build sections with full metadata ===
 function buildSections(items) {
   const secs = { regulatory: [], products: [], industry: [], research: [], insights: [] };
   for (const i of items) {
     const sec = secs[i.category];
-    if (sec && sec.length < 5) {
-      sec.push({ title: i.title, sourceName: i.sourceName, publishedAt: fmtTime(i.publishedAt) });
+    if (sec && sec.length < 6) {
+      sec.push({ title: i.title, summary: i.summary || '', sourceName: i.sourceName, sourceUrl: i.sourceUrl, publishedAt: i.publishedAt });
     }
   }
   return secs;
@@ -116,9 +117,9 @@ function buildSections(items) {
 
 // === Build flashes ===
 function buildFlashes(items) {
-  return items.slice(0, 5).map(i => ({
+  return items.slice(0, 8).map(i => ({
     title: i.title.length > 60 ? i.title.substring(0, 60) + '…' : i.title,
-    dotClass: i.category === 'regulatory' ? 'flash-dot-green' : 'flash-dot-blue',
+    dotClass: i.score >= 80 ? 'flash-dot-green' : 'flash-dot-blue',
   }));
 }
 
@@ -182,11 +183,10 @@ async function main() {
   const totalNew = newItems.length;
   console.error(`\n[done] 新增 ${totalNew} 条，总计 ${allItems.length} 条`);
 
-  // Output data.js
-  console.log(`// finhot incremental data — ${dateStr}`);
-  console.log(`// 新增 ${totalNew} 条 | 总计 ${allItems.length} 条 | 7天自动过期`);
-  console.log(`window.FINHOT_DATA = ${JSON.stringify(output, null, 2)};`);
-  console.log('');
+  // Output data.js — CATEGORIES/CATEGORY_CONFIG FIRST (required by index.html)
+  console.log(`// finhot auto-generated data — powered by RSSHub + neodata-financial-search`);
+  console.log(`// Generated: ${now.toISOString()}`);
+  console.log(`// AI scoring: info_value(30%) × authority(25%) × content_depth(20%) × recency(25%) × source_tier_weight\n`);
   console.log(`window.CATEGORIES = ${JSON.stringify([
     { slug: 'all', label: '全部' },
     { slug: 'regulatory', label: '监管政策' },
@@ -194,14 +194,15 @@ async function main() {
     { slug: 'industry', label: '行业动态' },
     { slug: 'research', label: '研究报告' },
     { slug: 'insights', label: '技巧观点' },
-  ])};`);
+  ], null, 2)};\n`);
   console.log(`window.CATEGORY_CONFIG = ${JSON.stringify({
-    regulatory: { label: '监管政策', tagClass: 'tag-regulatory', accentClass: 'accent-regulatory' },
-    products: { label: '产品发布', tagClass: 'tag-products', accentClass: 'accent-products' },
-    industry: { label: '行业动态', tagClass: 'tag-industry', accentClass: 'accent-industry' },
-    research: { label: '研究报告', tagClass: 'tag-research', accentClass: 'accent-research' },
-    insights: { label: '技巧观点', tagClass: 'tag-insights', accentClass: 'accent-insights' },
-  })};`);
+    regulatory: { slug: 'regulatory', label: '监管政策', tagClass: 'tag-regulatory', accentClass: 'accent-regulatory' },
+    products:   { slug: 'products',   label: '产品发布/更新', tagClass: 'tag-products',   accentClass: 'accent-products' },
+    industry:   { slug: 'industry',   label: '行业动态',   tagClass: 'tag-industry',   accentClass: 'accent-industry' },
+    research:   { slug: 'research',   label: '研究报告',   tagClass: 'tag-research',   accentClass: 'accent-research' },
+    insights:   { slug: 'insights',   label: '技巧与观点', tagClass: 'tag-insights',   accentClass: 'accent-insights' },
+  }, null, 2)};\n`);
+  console.log(`window.FINHOT_DATA = ${JSON.stringify(output, null, 2)};`);
 }
 
 main().catch(e => { console.error(e); process.exit(1); });

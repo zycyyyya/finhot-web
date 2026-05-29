@@ -133,7 +133,7 @@ for idx, item in enumerate(raw):
 # filter by tier threshold
 THRESHOLDS = {"T1": 55, "T1.5": 60, "T2": 70}
 featured = [i for i in scored if i["score"] >= THRESHOLDS.get(i.pop("_tier", "T2"), 70)]
-featured.sort(key=lambda x: x["score"], reverse=True)
+featured.sort(key=lambda x: x["publishedAt"], reverse=True)  # time desc only, not by score
 for i, item in enumerate(featured):
     item["id"] = str(i + 1)
 

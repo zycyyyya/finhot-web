@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>finhot — 金融保险圈精选资讯</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="header">
+  <a href="index.html" class="header-logo">finhot</a>
+  <div class="header-spacer"></div>
+  <nav class="header-nav">
+    <a href="index.html" class="active">精选</a>
+    <a href="daily.html">AI 日报</a>
+    <a href="about.html">关于</a>
+  </nav>
+</header>
+
+<div class="category-bar" id="categoryBar"></div>
+
+<div class="content">
+  <div class="content-wrapper">
+    <div class="time-divider">
+      <span class="time-label" id="timeLabel">加载中…</span>
+      <div class="time-line"></div>
+    </div>
+    <div id="newsFeed"></div>
+  </div>
+</div>
+
+<script src="data.js"></script>
+<script>
+(function() {
+  const data = window.FINHOT_DATA;
+  const categories = window.CATEGORIES;
+  const config = window.CATEGORY_CONFIG;
+
+  // Category bar
+  const catBar = document.getElementById('categoryBar');
+  categories.forEach(cat => {
+    const tab = document.createElement('span');
+    tab.className = 'cat-tab' + (cat.slug === 'all' ? ' active' : '');
+    tab.textContent = cat.label;
+    tab.dataset.cat = cat.slug;
+    tab.addEventListener('click', () => {
+      document.querySelectorAll('.cat-tab').forEach(t => t.classList.remove('active'));
+      tab.classList.add('active');
+      renderFeed(cat.slug);
+    });
+    catBar.appendChild(tab);
+  });
+
+  // Time label
+  document.getElementById('timeLabel').textContent =
+    new Date(data.date).toLocaleDateString('zh-CN', { weekday: 'long', month: 'long', day: 'numeric' });
+
+  function formatTime(iso) {
+    const d = new Date(iso);
+    const now = new Date();
+    const diff = now - d;
+    if (diff < 3600000) return Math.floor(diff / 60000) + '分钟前';
+    if (diff < 86400000) return Math.floor(diff / 3600000) + '小时前';
+    if (diff < 172800000) return '昨天 ' + d.toLocaleTimeString('zh-CN', { hour: '2-digit', minute: '2-digit', hour12: false });
+    return (d.getMonth() + 1) + '月' + d.getDate() + '日';
+  }
+
+  function createCard(item) {
+    const card = document.createElement('a');
+    card.className = 'news-card';
+    card.href = item.sourceUrl;
+    card.target = '_blank';
+    card.rel = 'noopener';
+
+    const catCfg = config[item.category] || {};
+
+    card.innerHTML = `
+      <div class="card-meta">
+        <span class="card-time">${formatTime(item.publishedAt)}</span>
+        <span class="card-source">${item.sourceName}</span>
+        <span class="card-score">精选 ${item.score}</span>
+        <span class="meta-spacer"></span>
+      </div>
+      <h2 class="card-title">${item.title}</h2>
+      <p class="card-summary">${item.summary}</p>
+      <div class="tag-row">
+        ${(item.tags || []).map(t => `<span class="tag ${catCfg.tagClass || ''}">${t}</span>`).join('')}
+      </div>
+    `;
+    return card;
+  }
+
+  function renderFeed(filter) {
+    const feed = document.getElementById('newsFeed');
+    feed.innerHTML = '';
+    const items = filter === 'all' ? data.items : data.items.filter(i => i.category === filter);
+    items.forEach(item => feed.appendChild(createCard(item)));
+    if (items.length === 0) {
+      feed.innerHTML = '<p style="color:var(--text-muted);text-align:center;padding:40px;">暂无相关资讯</p>';
+    }
+  }
+
+  renderFeed('all');
+})();
+</script>
+
+</body>
+</html>

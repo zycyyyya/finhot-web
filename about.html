@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>关于 · finhot</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="header">
+  <a href="index.html" class="header-logo">finhot</a>
+  <div class="header-spacer"></div>
+  <nav class="header-nav">
+    <a href="index.html">精选</a>
+    <a href="daily.html">AI 日报</a>
+    <a href="about.html" class="active">关于</a>
+  </nav>
+</header>
+
+<div class="content">
+  <div class="about-content">
+    <h1 class="about-title">关于 finhot</h1>
+    <p class="about-desc">
+      finhot 是一个面向金融保险从业者的精选资讯聚合平台。
+      每日自动从多个权威信源采集行业动态，通过 AI 智能筛选与人工精编相结合的方式，
+      为你提供高质量的金融保险圈日报。
+    </p>
+
+    <div class="divider"></div>
+
+    <h2 style="font-family:var(--font-heading);font-size:20px;font-weight:700;color:var(--text-primary);">信源声明</h2>
+
+    <div class="source-grid">
+      <!-- 监管政策 -->
+      <div class="source-row">
+        <span class="source-cat-tag tag-regulatory">监管政策</span>
+        <span class="source-name">国家金融监督管理总局（银保监会）</span>
+        <span class="source-desc">官方发文、法规修订、行政许可、监管动态</span>
+      </div>
+      <div class="source-row">
+        <span class="source-cat-tag tag-regulatory">监管政策</span>
+        <span class="source-name">深圳证券交易所</span>
+        <span class="source-desc">上市公司公告、信息披露指引、监管措施</span>
+      </div>
+      <!-- 行业动态 -->
+      <div class="source-row">
+        <span class="source-cat-tag tag-industry">行业动态</span>
+        <span class="source-name">财新网</span>
+        <span class="source-desc">深度财经报道、行业分析、独家调查</span>
+      </div>
+      <div class="source-row">
+        <span class="source-cat-tag tag-industry">行业动态</span>
+        <span class="source-name">华尔街见闻</span>
+        <span class="source-desc">全球宏观、金融市场、实时快讯</span>
+      </div>
+      <div class="source-row">
+        <span class="source-cat-tag tag-industry">行业动态</span>
+        <span class="source-name">第一财经</span>
+        <span class="source-desc">财经快讯、市场数据、公司新闻</span>
+      </div>
+      <!-- 研究报告 -->
+      <div class="source-row">
+        <span class="source-cat-tag tag-research">研究报告</span>
+        <span class="source-name">中信证券 / 主流券商研究所</span>
+        <span class="source-desc">行业研报、策略报告、评级跟踪</span>
+      </div>
+      <!-- 技巧观点 -->
+      <div class="source-row">
+        <span class="source-cat-tag tag-insights">技巧观点</span>
+        <span class="source-name">36氪 / 财联社</span>
+        <span class="source-desc">科技快讯、行业观点、保险科技动态</span>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <h2 style="font-family:var(--font-heading);font-size:20px;font-weight:700;color:var(--text-primary);">技术说明</h2>
+    <p class="about-desc">
+      本站为静态站点，数据由 finhot 引擎自动采集聚合。每日定时更新，无人工干预。
+      所有内容链接均指向原始出处，本站不存储原文、不声明版权。
+      如有内容问题请联系原始发布方。
+    </p>
+
+    <div class="tech-items">
+      <div class="tech-row">
+        <div class="tech-dot"></div>
+        <span class="tech-text">数据采集: neodata-financial-search + RSSHub + westock-data</span>
+      </div>
+      <div class="tech-row">
+        <div class="tech-dot"></div>
+        <span class="tech-text">精选评分: AI 自动筛选 + 编辑复核，评分范围 0-100</span>
+      </div>
+      <div class="tech-row">
+        <div class="tech-dot"></div>
+        <span class="tech-text">更新频率: 每30分钟自动拉取一次</span>
+      </div>
+      <div class="tech-row">
+        <div class="tech-dot"></div>
+        <span class="tech-text">部署方式: 纯静态站点 + CloudStudio / GitHub Pages</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

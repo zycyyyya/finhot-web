@@ -30,8 +30,8 @@
   --cat-research: #EAB308;
   --cat-insights: #A855F7;
 
-  --font-heading: 'IBM Plex Sans', 'PingFang SC', 'Microsoft YaHei', sans-serif;
-  --font-body: 'IBM Plex Sans', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  --font-heading: 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif;
+  --font-body: 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue', Arial, sans-serif;
 
   --radius-sm: 2px;
   --radius-md: 4px;

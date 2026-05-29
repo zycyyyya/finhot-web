@@ -5,9 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>finhot — 金融保险圈精选资讯</title>
   <link rel="stylesheet" href="styles.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -36,19 +33,30 @@
 <script src="data.js"></script>
 <script>
 (function() {
-  const data = window.FINHOT_DATA;
-  const categories = window.CATEGORIES;
-  const config = window.CATEGORY_CONFIG;
+  var data = window.FINHOT_DATA;
+  var categories = window.CATEGORIES;
+  var config = window.CATEGORY_CONFIG;
+
+  var timeLabel = document.getElementById('timeLabel');
+  var newsFeed = document.getElementById('newsFeed');
+
+  // Fallback: if data.js failed to load
+  if (!data || !data.items) {
+    timeLabel.textContent = '数据加载失败';
+    newsFeed.innerHTML = '<p style="color:var(--text-muted);text-align:center;padding:40px;">数据加载失败，请稍后刷新页面</p>';
+    return;
+  }
 
   // Category bar
-  const catBar = document.getElementById('categoryBar');
-  categories.forEach(cat => {
-    const tab = document.createElement('span');
+  var catBar = document.getElementById('categoryBar');
+  categories.forEach(function(cat) {
+    var tab = document.createElement('span');
     tab.className = 'cat-tab' + (cat.slug === 'all' ? ' active' : '');
     tab.textContent = cat.label;
-    tab.dataset.cat = cat.slug;
-    tab.addEventListener('click', () => {
-      document.querySelectorAll('.cat-tab').forEach(t => t.classList.remove('active'));
+    tab.setAttribute('data-cat', cat.slug);
+    tab.addEventListener('click', function() {
+      var allTabs = document.querySelectorAll('.cat-tab');
+      for (var i = 0; i < allTabs.length; i++) allTabs[i].classList.remove('active');
       tab.classList.add('active');
       renderFeed(cat.slug);
     });
@@ -56,51 +64,77 @@
   });
 
   // Time label
-  document.getElementById('timeLabel').textContent =
-    new Date(data.date).toLocaleDateString('zh-CN', { weekday: 'long', month: 'long', day: 'numeric' });
+  try {
+    timeLabel.textContent = data.date || '今日';
+  } catch(e) {
+    timeLabel.textContent = '今日资讯';
+  }
 
   function formatTime(iso) {
-    const d = new Date(iso);
-    const now = new Date();
-    const diff = now - d;
-    if (diff < 3600000) return Math.floor(diff / 60000) + '分钟前';
-    if (diff < 86400000) return Math.floor(diff / 3600000) + '小时前';
-    if (diff < 172800000) return '昨天 ' + d.toLocaleTimeString('zh-CN', { hour: '2-digit', minute: '2-digit', hour12: false });
-    return (d.getMonth() + 1) + '月' + d.getDate() + '日';
+    try {
+      var d = new Date(iso);
+      if (isNaN(d.getTime())) return '';
+      var now = new Date();
+      var diff = now - d;
+      if (diff < 3600000) return Math.floor(diff / 60000) + '分钟前';
+      if (diff < 86400000) return Math.floor(diff / 3600000) + '小时前';
+      return (d.getMonth() + 1) + '月' + d.getDate() + '日';
+    } catch(e) {
+      return '';
+    }
+  }
+
+  function openLink(url) {
+    if (!url || url === '#') return;
+    window.open(url, '_blank', 'noopener');
   }
 
   function createCard(item) {
-    const card = document.createElement('a');
+    var card = document.createElement('div');
     card.className = 'news-card';
-    card.href = item.sourceUrl;
-    card.target = '_blank';
-    card.rel = 'noopener';
+    card.setAttribute('role', 'link');
+    card.setAttribute('tabindex', '0');
+    card.style.cursor = 'pointer';
 
-    const catCfg = config[item.category] || {};
+    // Robust click handler
+    card.addEventListener('click', function(e) {
+      if (item.sourceUrl && item.sourceUrl !== '#') {
+        openLink(item.sourceUrl);
+      }
+    });
 
-    card.innerHTML = `
-      <div class="card-meta">
-        <span class="card-time">${formatTime(item.publishedAt)}</span>
-        <span class="card-source">${item.sourceName}</span>
-        <span class="card-score">精选 ${item.score}</span>
-        <span class="meta-spacer"></span>
-      </div>
-      <h2 class="card-title">${item.title}</h2>
-      <p class="card-summary">${item.summary}</p>
-      <div class="tag-row">
-        ${(item.tags || []).map(t => `<span class="tag ${catCfg.tagClass || ''}">${t}</span>`).join('')}
-      </div>
-    `;
+    // Keyboard support
+    card.addEventListener('keydown', function(e) {
+      if (e.key === 'Enter' && item.sourceUrl && item.sourceUrl !== '#') {
+        openLink(item.sourceUrl);
+      }
+    });
+
+    var catCfg = config[item.category] || {};
+    var tags = item.tags || [];
+
+    card.innerHTML =
+      '<div class="card-meta">' +
+        '<span class="card-time">' + formatTime(item.publishedAt) + '</span>' +
+        '<span class="card-source">' + (item.sourceName || '') + '</span>' +
+        '<span class="card-score">精选 ' + (item.score || 0) + '</span>' +
+        '<span class="meta-spacer"></span>' +
+      '</div>' +
+      '<h2 class="card-title">' + (item.title || '') + '</h2>' +
+      '<p class="card-summary">' + (item.summary || '') + '</p>' +
+      '<div class="tag-row">' +
+        tags.map(function(t) { return '<span class="tag ' + (catCfg.tagClass || '') + '">' + t + '</span>'; }).join('') +
+      '</div>';
+
     return card;
   }
 
   function renderFeed(filter) {
-    const feed = document.getElementById('newsFeed');
-    feed.innerHTML = '';
-    const items = filter === 'all' ? data.items : data.items.filter(i => i.category === filter);
-    items.forEach(item => feed.appendChild(createCard(item)));
+    newsFeed.innerHTML = '';
+    var items = filter === 'all' ? data.items : data.items.filter(function(i) { return i.category === filter; });
+    items.forEach(function(item) { newsFeed.appendChild(createCard(item)); });
     if (items.length === 0) {
-      feed.innerHTML = '<p style="color:var(--text-muted);text-align:center;padding:40px;">暂无相关资讯</p>';
+      newsFeed.innerHTML = '<p style="color:var(--text-muted);text-align:center;padding:40px;">暂无相关资讯</p>';
     }
   }
 

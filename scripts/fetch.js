@@ -1,6 +1,6 @@
-#!/usr/bin/env node
+﻿#!/usr/bin/env node
 // finhot-web Incremental RSS Fetcher
-// Only adds NEW content — URL dedup, auto-expire old items, max 30 kept
+// Only adds NEW content 鈥?URL dedup, auto-expire old items, max 30 kept
 // Usage: node scripts/fetch.js > data.js
 
 const fs = require('fs');
@@ -14,32 +14,43 @@ const MAX_AGE_DAYS = 7;      // auto-expire after 7 days
 const DATA_FILE = 'data.js'; // output file path
 
 const SOURCES = [
-  { route: '/caixin/latest',      sourceName: '财新网',    category: 'industry',    tier: 'T1.5', scoreBase: 60 },
-  { route: '/wallstreetcn/news/global', sourceName: '华尔街见闻', category: 'industry', tier: 'T1.5', scoreBase: 55 },
-  { route: '/yicai/news',         sourceName: '第一财经',  category: 'industry',    tier: 'T1.5', scoreBase: 50 },
-  { route: '/cls/telegraph',      sourceName: '财联社',    category: 'industry',    tier: 'T2',   scoreBase: 50 },
-  { route: '/cls/depth',          sourceName: '财联社',    category: 'research',    tier: 'T2',   scoreBase: 55 },
-  { route: '/36kr/newsflashes',   sourceName: '36氪',     category: 'insights',    tier: 'T2',   scoreBase: 45 },
-  { route: '/szse/notice',        sourceName: '深交所',    category: 'regulatory',  tier: 'T1',   scoreBase: 60 },
+  { route: '/caixin/latest',      sourceName: '璐㈡柊缃?,    category: 'industry',    tier: 'T1.5', scoreBase: 60 },
+  { route: '/wallstreetcn/news/global', sourceName: '鍗庡皵琛楄闂?, category: 'industry', tier: 'T1.5', scoreBase: 55 },
+  { route: '/yicai/news',         sourceName: '绗竴璐㈢粡',  category: 'industry',    tier: 'T1.5', scoreBase: 50 },
+  { route: '/cls/telegraph',      sourceName: '璐㈣仈绀?,    category: 'industry',    tier: 'T2',   scoreBase: 50 },
+  { route: '/cls/depth',          sourceName: '璐㈣仈绀?,    category: 'research',    tier: 'T2',   scoreBase: 55 },
+  { route: '/36kr/newsflashes',   sourceName: '36姘?,     category: 'insights',    tier: 'T2',   scoreBase: 45 },
+  { route: '/szse/notice',        sourceName: '娣变氦鎵€',    category: 'regulatory',  tier: 'T1',   scoreBase: 60 },
 ];
 
 const CATEGORY_TAGS = {
-  regulatory: '监管政策', products: '产品发布', industry: '行业动态',
-  research: '研究报告', insights: '技巧观点',
+  regulatory: '鐩戠鏀跨瓥', products: '浜у搧鍙戝竷', industry: '琛屼笟鍔ㄦ€?,
+  research: '鐮旂┒鎶ュ憡', insights: '鎶€宸ц鐐?,
 };
 
 // === Existing data loader ===
 function loadExisting() {
   try {
     const raw = fs.readFileSync(DATA_FILE, 'utf8');
-    const match = raw.match(/window\.FINHOT_DATA\s*=\s*({[\s\S]*?});/);
-    if (!match) return { items: [], existingUrls: new Set() };
-    const data = JSON.parse(match[1]);
+    // Robust JSON extraction using brace-depth counting instead of regex
+    const assignIdx = raw.indexOf('window.FINHOT_DATA');
+    if (assignIdx === -1) return { items: [], existingUrls: new Set() };
+    const eqIdx = raw.indexOf('=', assignIdx);
+    if (eqIdx === -1) return { items: [], existingUrls: new Set() };
+    let start = raw.indexOf('{', eqIdx);
+    if (start === -1) return { items: [], existingUrls: new Set() };
+    let depth = 0, end = start;
+    for (; end < raw.length; end++) {
+      if (raw[end] === '{') depth++;
+      else if (raw[end] === '}') { depth--; if (depth === 0) { end++; break; } }
+    }
+    const jsonStr = raw.substring(start, end);
+    const data = JSON.parse(jsonStr);
     const urls = new Set((data.items || []).map(i => i.sourceUrl).filter(Boolean));
-    console.error(`[load] 已有 ${urls.size} 条记录`);
+    console.error([load] 已有  条记录);
     return { items: data.items || [], existingUrls: urls };
   } catch (e) {
-    console.error(`[load] 无现有数据，从头开始`);
+    console.error([load] 无现有数据，从头开始: );
     return { items: [], existingUrls: new Set() };
   }
 }
@@ -79,12 +90,12 @@ async function fetchRSS(route) {
 // === Content relevance filter ===
 function isFinanceRelated(item) {
   const keywords = [
-    '保险', '险企', '保费', '养老', '健康险', '寿险', '财险', '车险',
-    '银行', '央行', '利率', 'LPR', 'MLF', '降准', '降息', '金融',
-    '监管', '银保监', '金监总局', '证监会', '深交所', '上交所',
-    '基金', '理财', '证券', '信托', '资管', '投资',
-    '中国平安', '国寿', '太保', '人保', '新华保险', '泰康', '大家保险',
-    '人民币', '汇率', 'GDP', 'CPI', 'PMI', '宏观',
+    '淇濋櫓', '闄╀紒', '淇濊垂', '鍏昏€?, '鍋ュ悍闄?, '瀵块櫓', '璐㈤櫓', '杞﹂櫓',
+    '閾惰', '澶', '鍒╃巼', 'LPR', 'MLF', '闄嶅噯', '闄嶆伅', '閲戣瀺',
+    '鐩戠', '閾朵繚鐩?, '閲戠洃鎬诲眬', '璇佺洃浼?, '娣变氦鎵€', '涓婁氦鎵€',
+    '鍩洪噾', '鐞嗚储', '璇佸埜', '淇℃墭', '璧勭', '鎶曡祫',
+    '涓浗骞冲畨', '鍥藉', '澶繚', '浜轰繚', '鏂板崕淇濋櫓', '娉板悍', '澶у淇濋櫓',
+    '浜烘皯甯?, '姹囩巼', 'GDP', 'CPI', 'PMI', '瀹忚',
   ];
   const text = (item.title + ' ' + (item.summary || '')).toLowerCase();
   return keywords.some(k => text.includes(k));
@@ -118,14 +129,14 @@ function buildSections(items) {
 // === Build flashes ===
 function buildFlashes(items) {
   return items.slice(0, 8).map(i => ({
-    title: i.title.length > 60 ? i.title.substring(0, 60) + '…' : i.title,
+    title: i.title.length > 60 ? i.title.substring(0, 60) + '鈥? : i.title,
     dotClass: i.score >= 80 ? 'flash-dot-green' : 'flash-dot-blue',
   }));
 }
 
 function fmtTime(iso) {
   const d = new Date(iso);
-  return `${d.getMonth() + 1}月${d.getDate()}日`;
+  return `${d.getMonth() + 1}鏈?{d.getDate()}鏃;
 }
 
 // === Main ===
@@ -151,7 +162,7 @@ async function main() {
       existing.existingUrls.add(item.sourceUrl);
       added++;
     }
-    console.error(`  新增 ${added} 条 (跳过 ${items.length - added} 条重复)`);
+    console.error(`  鏂板 ${added} 鏉?(璺宠繃 ${items.length - added} 鏉￠噸澶?`);
   }
 
   // Build combined list: new items on top, then existing
@@ -161,11 +172,15 @@ async function main() {
     ...existing.items.filter(i => new Date(i.publishedAt).getTime() > cutoff),
   ].slice(0, MAX_ITEMS);
 
-  // Reassign IDs
-  allItems.forEach((item, idx) => { item.id = String(idx + 1); });
+  // Sort by time desc (timestamp comparison, handles edge cases)
+  allItems.sort((a, b) => {
+    const ta = new Date(a.publishedAt).getTime() || 0;
+    const tb = new Date(b.publishedAt).getTime() || 0;
+    return tb - ta;
+  });
 
-  // Sort by time desc
-  allItems.sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
+  // Reassign sequential IDs after sorting
+  allItems.forEach((item, idx) => { item.id = String(idx + 1); });
 
   const now = new Date();
   const dateStr = now.toISOString().split('T')[0];
@@ -173,36 +188,37 @@ async function main() {
     date: dateStr,
     generatedAt: now.toISOString(),
     lead: newItems.length > 0
-      ? `今日新增 ${newItems.length} 条，共 ${allItems.length} 条精选资讯`
-      : `暂无新增内容，当前共 ${allItems.length} 条精选资讯`,
+      ? `浠婃棩鏂板 ${newItems.length} 鏉★紝鍏?${allItems.length} 鏉＄簿閫夎祫璁痐
+      : `鏆傛棤鏂板鍐呭锛屽綋鍓嶅叡 ${allItems.length} 鏉＄簿閫夎祫璁痐,
     items: allItems,
     sections: buildSections(allItems),
     flashes: buildFlashes(allItems),
   };
 
   const totalNew = newItems.length;
-  console.error(`\n[done] 新增 ${totalNew} 条，总计 ${allItems.length} 条`);
+  console.error(`\n[done] 鏂板 ${totalNew} 鏉★紝鎬昏 ${allItems.length} 鏉);
 
-  // Output data.js — CATEGORIES/CATEGORY_CONFIG FIRST (required by index.html)
-  console.log(`// finhot auto-generated data — powered by RSSHub + neodata-financial-search`);
+  // Output data.js 鈥?CATEGORIES/CATEGORY_CONFIG FIRST (required by index.html)
+  console.log(`// finhot auto-generated data 鈥?powered by RSSHub + neodata-financial-search`);
   console.log(`// Generated: ${now.toISOString()}`);
-  console.log(`// AI scoring: info_value(30%) × authority(25%) × content_depth(20%) × recency(25%) × source_tier_weight\n`);
+  console.log(`// AI scoring: info_value(30%) 脳 authority(25%) 脳 content_depth(20%) 脳 recency(25%) 脳 source_tier_weight\n`);
   console.log(`window.CATEGORIES = ${JSON.stringify([
-    { slug: 'all', label: '全部' },
-    { slug: 'regulatory', label: '监管政策' },
-    { slug: 'products', label: '产品发布' },
-    { slug: 'industry', label: '行业动态' },
-    { slug: 'research', label: '研究报告' },
-    { slug: 'insights', label: '技巧观点' },
+    { slug: 'all', label: '鍏ㄩ儴' },
+    { slug: 'regulatory', label: '鐩戠鏀跨瓥' },
+    { slug: 'products', label: '浜у搧鍙戝竷' },
+    { slug: 'industry', label: '琛屼笟鍔ㄦ€? },
+    { slug: 'research', label: '鐮旂┒鎶ュ憡' },
+    { slug: 'insights', label: '鎶€宸ц鐐? },
   ], null, 2)};\n`);
   console.log(`window.CATEGORY_CONFIG = ${JSON.stringify({
-    regulatory: { slug: 'regulatory', label: '监管政策', tagClass: 'tag-regulatory', accentClass: 'accent-regulatory' },
-    products:   { slug: 'products',   label: '产品发布/更新', tagClass: 'tag-products',   accentClass: 'accent-products' },
-    industry:   { slug: 'industry',   label: '行业动态',   tagClass: 'tag-industry',   accentClass: 'accent-industry' },
-    research:   { slug: 'research',   label: '研究报告',   tagClass: 'tag-research',   accentClass: 'accent-research' },
-    insights:   { slug: 'insights',   label: '技巧与观点', tagClass: 'tag-insights',   accentClass: 'accent-insights' },
+    regulatory: { slug: 'regulatory', label: '鐩戠鏀跨瓥', tagClass: 'tag-regulatory', accentClass: 'accent-regulatory' },
+    products:   { slug: 'products',   label: '浜у搧鍙戝竷/鏇存柊', tagClass: 'tag-products',   accentClass: 'accent-products' },
+    industry:   { slug: 'industry',   label: '琛屼笟鍔ㄦ€?,   tagClass: 'tag-industry',   accentClass: 'accent-industry' },
+    research:   { slug: 'research',   label: '鐮旂┒鎶ュ憡',   tagClass: 'tag-research',   accentClass: 'accent-research' },
+    insights:   { slug: 'insights',   label: '鎶€宸т笌瑙傜偣', tagClass: 'tag-insights',   accentClass: 'accent-insights' },
   }, null, 2)};\n`);
   console.log(`window.FINHOT_DATA = ${JSON.stringify(output, null, 2)};`);
 }
 
 main().catch(e => { console.error(e); process.exit(1); });
+

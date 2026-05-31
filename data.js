@@ -1,5 +1,5 @@
 // finhot auto-generated data — powered by RSSHub + neodata-financial-search
-// Generated: 2026-05-30T13:57:36.032Z
+// Generated: 2026-05-31T04:26:16.120Z
 // AI scoring: info_value(30%) × authority(25%) × content_depth(20%) × recency(25%) × source_tier_weight
 
 window.CATEGORIES = [
@@ -63,8 +63,8 @@ window.CATEGORY_CONFIG = {
 };
 
 window.FINHOT_DATA = {
-  "date": "2026-05-30",
-  "generatedAt": "2026-05-30T13:57:36.032Z",
+  "date": "2026-05-31",
+  "generatedAt": "2026-05-31T04:26:16.120Z",
   "lead": "暂无新增内容，当前共 0 条精选资讯",
   "items": [],
   "sections": {

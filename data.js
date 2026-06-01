@@ -1,4 +1,4 @@
-// finhot-web data — generated 2026-06-01T12:28:03+08:00
+// finhot-web data — generated 2026-06-01T12:35:20+08:00
 // Items: 108
 
 window.CATEGORIES = [
@@ -15,7 +15,10 @@ window.CATEGORY_CONFIG = {
   maxItems: 120
 };
 
-window.FINHOT_DATA = [
+window.FINHOT_DATA = {
+  date: "2026-06-01",
+  generatedAt: "2026-06-01T12:35:20+08:00",
+  items: [
   {
     "id": "7e92035710ab",
     "score": 69.1,
@@ -1312,4 +1315,5 @@ window.FINHOT_DATA = [
     "tier": 2,
     "tags": []
   }
-];
+]
+};

@@ -1,593 +1,1233 @@
-// finhot-web data file - generated at 2026-06-01 17:56:34
-window.CATEGORIES = [
-  { slug: "all", label: "全部" },
-  { slug: "featured", label: "精选" },
-  { slug: "regulatory", label: "监管政策" },
-  { slug: "products", label: "产品发布" },
-  { slug: "industry", label: "行业动态" },
-  { slug: "research", label: "研究报告" },
-  { slug: "insights", label: "技巧观点" }
-];
-
-window.CATEGORY_CONFIG = {
-  "all": { icon: "🔥", color: "#ff6b35" },
-  "featured": { icon: "⭐", color: "#FFD700" },
-  "regulatory": { icon: "📜", color: "#e74c3c" },
-  "products": { icon: "🛡️", color: "#2ecc71" },
-  "industry": { icon: "📊", color: "#3498db" },
-  "research": { icon: "📝", color: "#9b59b6" },
-  "insights": { icon: "💡", color: "#f39c12" }
-};
+// finhot-web 金融保险资讯数据
+// 生成时间: 2026-06-02T16:31:13+08:00
 
 window.FINHOT_DATA = {
-  date: "2026-06-01",
-  generatedAt: "2026-06-01T17:56:34+08:00",
+  date: "2026-06-02",
+  generatedAt: "2026-06-02T16:31:13+08:00",
   items: [
   {
-    "id": "n1",
-    "title": "中央金融监管改革：优化架构与强化五大监管功能的系统部署",
-    "summary": "对中央金融监管改革做了系统部署，全面强化机构监管、行为监管、功能监管、穿透式监管、持续监管五大监管，将所有金融活动纳入监管。",
+    "id": "be19e65fb2c1",
+    "score": 81,
+    "title": "国务院参事室特约研究员胡学好：农业保险发展要不断适应现代农业的变革",
+    "summary": "上证报中国证券网讯（记者 何奎）记者近日获悉，在中国普惠保险国际研讨会上，国务院参事室特约研究员胡学好表示，过去很多年农业保险主要服务于小农户的散户经营，其特点是种植规模小、生产标准化程度低、风险管理需求相对单一；与之相适应，农业保险产品以保物化成本为主，服务方式以人工为主，覆盖面逐步扩大但保障深度有限。\n胡学好进一步表示，现代农业正在发生深刻变革。家庭农场、农民合作社、农业龙头企业等新型经营主体",
     "sourceName": "腾讯自选股",
-    "sourceUrl": "https://gu.qq.com/resources/shy/news/detail-v2/index.html?t=1#/index?_tentrees_trans=0&id=SN20260601102204a43a037c",
-    "publishedAt": "2026-06-01T18:09:00+08:00",
-    "category": "regulatory",
-    "tags": [
-      "金融监管",
-      "政策"
-    ],
-    "score": 80.0
+    "sourceUrl": "http://gu.qq.com/resources/shy/news/detail-v2/index.html#/?id=nesSN202606021539449851947d&s=b",
+    "publishedAt": "2026-06-02T15:34:17+08:00",
+    "category": "products",
+    "tier": "featured",
+    "tags": []
   },
   {
-    "id": "yc2",
-    "title": "上周新增IPO企业受理9家",
-    "summary": "上周新增IPO企业受理9家，IPO常态化审核持续推进。",
-    "sourceName": "第一财经",
-    "sourceUrl": "https://www.yicai.com/news/103210538.html",
-    "publishedAt": "2026-06-01T17:42:14+08:00",
-    "category": "industry",
-    "tags": [
-      "IPO",
-      "审核"
-    ],
-    "score": 63.2
-  },
-  {
-    "id": "cx1",
-    "title": "高盛称对冲基金以六个月来最快速度买入美股",
-    "summary": "高盛报告显示，对冲基金以六个月来最快速度买入美股，市场风险偏好有所回升。",
-    "sourceName": "财新",
-    "sourceUrl": "https://database.caixin.com/2026-06-01/102449802.html",
-    "publishedAt": "2026-06-01T17:42:09+08:00",
-    "category": "insights",
-    "tags": [
-      "对冲基金",
-      "美股",
-      "高盛"
-    ],
-    "score": 74.7
-  },
-  {
-    "id": "yc3",
-    "title": "国家能源局发布非化石能源电力消费核算指南",
-    "summary": "国家能源局发布非化石能源电力消费核算指南（试行），推动绿色电力消费核算体系建设。",
-    "sourceName": "第一财经",
-    "sourceUrl": "https://www.yicai.com/news/103210530.html",
-    "publishedAt": "2026-06-01T17:41:28+08:00",
-    "category": "regulatory",
-    "tags": [
-      "能源",
-      "绿电",
-      "政策"
-    ],
-    "score": 82.8
-  },
-  {
-    "id": "n4",
-    "title": "3岁儿童检出罕见疾病保险公司拒赔，法院调解后理赔48万元",
-    "summary": "海南法院审理一起保险合同纠纷，3岁儿童确诊罕见疾病后保险公司以证据不足拒赔，法院释明健康保险管理办法后促成调解，保险公司一次性赔付48万元。",
-    "sourceName": "南海网",
-    "sourceUrl": "http://gu.qq.com/resources/shy/news/detail-v2/index.html#/?id=nesSN20260601174019b61d9bdd&s=b",
-    "publishedAt": "2026-06-01T17:39:51+08:00",
-    "category": "industry",
-    "tags": [
-      "保险纠纷",
-      "司法案例"
-    ],
-    "score": 60.3
-  },
-  {
-    "id": "cx2",
-    "title": "贝恩调查发现AI降本效果不理想，四成受访公司成本降幅未超10%",
-    "summary": "贝恩公司调查显示AI降本效果不理想，40%受访公司成本降幅未超10%，AI投资回报率面临质疑。",
-    "sourceName": "财新",
-    "sourceUrl": "https://database.caixin.com/2026-06-01/102449796.html",
-    "publishedAt": "2026-06-01T17:38:01+08:00",
-    "category": "industry",
-    "tags": [
-      "AI",
-      "降本",
-      "贝恩"
-    ],
-    "score": 65.5
-  },
-  {
-    "id": "yc1",
-    "title": "6月首日复盘：科创50跌5%，低位轮动开启",
-    "summary": "6月首日科创50大跌5%，科技高位回落，低位板块轮动开启。",
-    "sourceName": "第一财经",
-    "sourceUrl": "https://www.yicai.com/video/103210483.html",
-    "publishedAt": "2026-06-01T17:36:00+08:00",
-    "category": "insights",
-    "tags": [
-      "A股",
-      "科创50",
-      "复盘"
-    ],
-    "score": 73.6
-  },
-  {
-    "id": "yc4",
-    "title": "北汽蓝谷5月销量21871辆，同比增长27.75%",
-    "summary": "北汽蓝谷5月销量21871辆，同比增长27.75%，新能源车市持续回暖。",
-    "sourceName": "第一财经",
-    "sourceUrl": "https://www.yicai.com/news/103210524.html",
-    "publishedAt": "2026-06-01T17:30:26+08:00",
-    "category": "industry",
-    "tags": [
-      "北汽蓝谷",
-      "新能源汽车",
-      "销量"
-    ],
-    "score": 64.0
-  },
-  {
-    "id": "cx3",
-    "title": "A股高质量因子量化策略月报（2026年5月）",
-    "summary": "A股高质量因子量化策略月报发布，分析5月市场因子表现与6月配置策略。",
-    "sourceName": "财新",
-    "sourceUrl": "https://database.caixin.com/2026-06-01/102449794.html",
-    "publishedAt": "2026-06-01T17:29:56+08:00",
+    "id": "bf99dceb1efb",
+    "score": 81,
+    "title": "券商多维践行“提质增效重回报”",
+    "summary": "此外，券商也持续完善分红机制，制定长期分红规划。5月28日晚间，中信证券发布的《未来三年（2026—2028年）股东回报规划》提到，如公司无重大投资计划或重大现金支出等事项发生，且满足公司正常经营的资金需求情况下，公司尽可能保证每年利润分配规模不低于当年实现的归属于母公司股东净利润的20%。西南证券、东方证券也均在股东回报规划中表示，公司每年以现金方式分配的利润不少于当年实现的可供分配利润的30%",
+    "sourceName": "腾讯自选股",
+    "sourceUrl": "http://gu.qq.com/resources/shy/news/detail-v2/index.html#/?id=nesSN20260602153616b61f1914&s=b",
+    "publishedAt": "2026-06-02T15:32:00+08:00",
     "category": "research",
-    "tags": [
-      "量化策略",
-      "因子",
-      "月报"
-    ],
-    "score": 74.8
+    "tier": "featured",
+    "tags": []
   },
   {
-    "id": "n2",
-    "title": "京东安联成长优享儿童高端医疗险2026版发布，部分年龄段保费降899元",
-    "summary": "京东安联旗下儿童高端医疗保险成长优享推出2026版，3-6周岁保费直降899元，新增京东母婴每月200元福利包，优化就医体验。",
+    "id": "06405b8e8f50",
+    "score": 81,
+    "title": "上海：支持保险资产管理机构完善长周期考核机制，提升多资产配置能力",
+    "summary": "上海市人民政府办公厅印发《关于深化上海全球资产管理中心建设的若干意见》的通知。其中提到，建设各具特色的资产管理机构体系。支持保险资产管理机构完善长周期考核机制，提升多资产配置能力。支持私募股权、创业投资提升专注于细分赛道与全周期赋能的投资能力，支持私募证券基金开发个性化投资策略。培育壮大自觉践行理性投资、价值投资、长期投资理念的资产管理机构队伍。推动中长期资金加大入市力度，全力营造“长钱长投”的市",
+    "sourceName": "腾讯自选股",
+    "sourceUrl": "https://gu.qq.com/resources/shy/news/detail-v2/index.html?t=1#/index?_tentrees_trans=0&id=SN2026060215132195009810",
+    "publishedAt": "2026-06-02T15:07:10+08:00",
+    "category": "insights",
+    "tier": "featured",
+    "tags": []
+  },
+  {
+    "id": "d45f42acab81",
+    "score": 81,
+    "title": "2026年6月投资策略：敬畏风险、稳中求进，规避三重压力",
+    "summary": "第四，紧盯关键时间节点，提前做好预案。重点锁定三个关键时间窗口：6月11日世界杯开幕、6月12日SpaceX上市、6月18日美联储议息决议。在关键节点来临前，提前减仓避险，兑现短线收益；节点落地后，不盲目抄底，等待市场情绪稳定、方向明确后再择机参与。尤其6月18日美联储决议落地前，保持极致轻仓，规避黑天鹅风险。第五，调整交易心态，降低盈利预期。投资者需主动降低月度盈利预期，接受“小赚、不亏就是赚”",
+    "sourceName": "腾讯自选股",
+    "sourceUrl": "https://gu.qq.com/resources/shy/news/detail-v2/index.html?t=1#/index?_tentrees_trans=0&id=SN20260602144650a72b4ff2",
+    "publishedAt": "2026-06-02T14:43:13+08:00",
+    "category": "insights",
+    "tier": "featured",
+    "tags": []
+  },
+  {
+    "id": "a44cb15f99db",
+    "score": 81,
+    "title": "6月A股市场风险共振分析及投资策略建议",
+    "summary": "一方面，降息属于宽松利好，但市场早已提前透支降息预期，利好落地即利空的概率极高；另一方面，超预期的缩表操作，会直接收紧全球美元流动性，推高美债收益率，引发全球资本回流美国。对于A股而言，美元流动性收紧会导致北向资金阶段性流出，压制大盘指数，同时拉高市场整体估值压力。除此之外，沃什作为新任主席，其政策风格、表态口径存在极强的不确定性。历史经验表明，美联储新任主席首次议息表态极易出现“鹰派超预期”情况",
+    "sourceName": "腾讯自选股",
+    "sourceUrl": "https://gu.qq.com/resources/shy/news/detail-v2/index.html?t=1#/index?_tentrees_trans=0&id=SN20260602144650a72b4ff2",
+    "publishedAt": "2026-06-02T14:43:13+08:00",
+    "category": "insights",
+    "tier": "featured",
+    "tags": []
+  },
+  {
+    "id": "206c188a9186",
+    "score": 81,
+    "title": "人保寿险IWP认证培训助力高管财税服务能力提升与财富管理优化",
+    "summary": "近期，中国人民人寿保险股份有限公司(以下简称“人保寿险”)有超400名“IWP保险财富规划师(以下简称IWP)”顺利通过认证考试，获得由毕马威企业咨询(中国)有限公司颁发的“企业高管财税服务能力认证培训”证书。这是继“健康管理能力认证”后，IWP综合素养与能力的再次升级，也是人保寿险通过持续的专业深耕与能力锻造，在加快建设金融强国的新时代浪潮中，践行“人民保险服务人民”这一金融国有控股企业使命与责",
+    "sourceName": "腾讯自选股",
+    "sourceUrl": "https://gu.qq.com/resources/shy/news/detail-v2/index.html?t=1#/index?_tentrees_trans=0&id=SN202606021607519851a04f",
+    "publishedAt": "2026-06-02T13:08:15+08:00",
+    "category": "insights",
+    "tier": "featured",
+    "tags": []
+  },
+  {
+    "id": "7cf768ac9638",
+    "score": 81,
+    "title": "儿童保险市场新趋势：保障优先与IP化营销分析",
+    "summary": "再次，购买少儿重疾险，主要解决孩子患病后的家庭收入损失、康复费用及特殊医疗需求。“最后考虑教育年金险，这必须是在前述基础保障配备齐全、家庭仍有长期闲置资金的前提下才考虑的选项。它的核心功能是强制储蓄和跨期财务规划，而非投资获取高收益。”李超补充表示。除了“保障优先”，先大人、后孩子也是家庭保险配置的底层逻辑。有保险销售人士表示，保险规划是面向整个家庭的风险防护体系，而非单一针对孩子。父母作为家庭的",
+    "sourceName": "腾讯自选股",
+    "sourceUrl": "https://gu.qq.com/resources/shy/news/detail-v2/index.html?t=1#/index?_tentrees_trans=0&id=SN20260602111651a43bc8a9",
+    "publishedAt": "2026-06-02T11:13:00+08:00",
+    "category": "products",
+    "tier": "featured",
+    "tags": []
+  },
+  {
+    "id": "5b12d07e9c7b",
+    "score": 79,
+    "title": "那时刻国际与ARC Group国际签署5000万美元战略投资意向函，助力中国人工智能赋能国际供应链和金融科技产业快速出海",
+    "summary": "来源：36 氪\n那时刻科技加速推倒工业品流通的“三堵墙”\n一笔大宗商品交易完成之后，买卖双方经常还要花数周时间来确认一件事：货到底在谁手里。\n这不是个例，在中国数十万亿规模的大宗商品流通市场里，信息不透明、产业链协同弱、履约效率低，三堵墙长期存在。\n过去十年，B2B平台解决了找货的问题，买卖双方可以在线上找到彼此，但这只是第一步。真正让人头疼的，还有找到货之后的“那段路”。\n订单签了，买家开始担心",
+    "sourceName": "腾讯自选股",
+    "sourceUrl": "http://gu.qq.com/resources/shy/news/detail-v2/index.html#/?id=nesSN20260602110534b61ec0ee&s=b",
+    "publishedAt": "2026-06-02T11:02:00+08:00",
+    "category": "research",
+    "tier": "featured",
+    "tags": []
+  },
+  {
+    "id": "6fcfaf292ed0",
+    "score": 78,
+    "title": "迈富时助力保险公司AI推荐率提升400%，新单转化率增150%分析",
+    "summary": "以迈富时为例，其帮助保险公司实现 AI 推荐率 400% 的增长，*终传导至新单转化率提升 150%。这种 1:6 的投入产出比远超传统媒介采购。在推荐GEO股票 的预算编制中，应包含语义资产开发费、大模型占位费以及持续性的合规监控费，通过 3 年期的现金流折现(DCF)模型来评估 推荐GEO股票 技术的真实含金量。  风险抵御成本与品牌溢价的综合权衡  忽视 推荐GEO股票 的财务风险在于品牌可",
+    "sourceName": "腾讯自选股",
+    "sourceUrl": "https://gu.qq.com/resources/shy/news/detail-v2/index.html?t=1#/index?_tentrees_trans=0&id=SN20260602101207b61eacd1",
+    "publishedAt": "2026-06-02T09:38:47+08:00",
+    "category": "insights",
+    "tier": "featured",
+    "tags": []
+  },
+  {
+    "id": "df29aea46b33",
+    "score": 80,
+    "title": "人身险与财产险公司意外险保费收入分化分析及未来趋势展望",
+    "summary": "国家金融监督管理总局近日发布的统计数据显示，今年前4个月，人身险公司取得意外险原保险保费（以下简称“保费”）收入135亿元，同比下降11.76%。同期，财产险公司的意外险保费收入为211亿元，同比增长8.2%。二者意外险保费收入同比呈明显的反向变化趋势。进一步看，2019年到2026年各年度的前4个月，人身险公司意外险收入分别为248亿元、230亿元、218亿元、193亿元、171亿元、161亿元",
+    "sourceName": "腾讯自选股",
+    "sourceUrl": "https://gu.qq.com/resources/shy/news/detail-v2/index.html?t=1#/index?_tentrees_trans=0&id=SN2026060209201797650999",
+    "publishedAt": "2026-06-02T09:20:11+08:00",
+    "category": "products",
+    "tier": "featured",
+    "tags": []
+  },
+  {
+    "id": "2abf713d41b1",
+    "score": 80,
+    "title": "人身险与财产险公司意外险保费收入分化：2023年前4月数据分析",
+    "summary": "国家金融监督管理总局近日发布的统计数据显示，今年前4个月，人身险公司取得意外险原保险保费（以下简称“保费”）收入135亿元，同比下降11.76%。同期，财产险公司的意外险保费收入为211亿元，同比增长8.2%。二者意外险保费收入同比呈明显的反向变化趋势。进一步看，2019年到2026年各年度的前4个月，人身险公司意外险收入分别为248亿元、230亿元、218亿元、193亿元、171亿元、161亿元",
+    "sourceName": "腾讯自选股",
+    "sourceUrl": "https://gu.qq.com/resources/shy/news/detail-v2/index.html?t=1#/index?_tentrees_trans=0&id=SN2026060209201797650999",
+    "publishedAt": "2026-06-02T09:20:11+08:00",
+    "category": "industry",
+    "tier": "featured",
+    "tags": []
+  },
+  {
+    "id": "6a806f122dcd",
+    "score": 78,
+    "title": "意外险市场分化趋势持续，险企差异化发展与业务品质提升分析",
+    "summary": "展望未来，杨帆认为，意外险市场分化趋势仍将持续，不同类型的险企将基于自身优势走差异化发展路线。人身险公司将进一步弱化意外险的独立销售属性，转而将其作为构建综合保障方案的附加模块，与重疾险、医疗险等产品深度融合，业务规模或将在低位企稳，更注重业务品质与客户留存。财产险公司则将继续发挥场景化与生态协同优势，深耕碎片化、定制化的意外险产品，预计其意外险业务将保持平稳增长。",
+    "sourceName": "腾讯自选股",
+    "sourceUrl": "https://gu.qq.com/resources/shy/news/detail-v2/index.html?t=1#/index?_tentrees_trans=0&id=SN2026060209201797650999",
+    "publishedAt": "2026-06-02T09:20:11+08:00",
+    "category": "insights",
+    "tier": "featured",
+    "tags": []
+  },
+  {
+    "id": "f33b72587e98",
+    "score": 78,
+    "title": "券商与保险板块估值分析：市场动态与投资建议（2026年4月）",
+    "summary": "券商板块估值与景气度错配，具备配置性价比；保险板块估值较低，进入二季度以来资产端修复预期有望得到巩固。一周动态市场数据：1）行情：5月25日-5月29日，申万非银行业指数下跌0.61%，券商指数下跌0.35%，保险指数下跌0.42%，多元金融指数下跌3.53%。2）经纪：市场日均股基成交额36,928亿元，环比放量4.53%。3）基金：公募基金新发行份额451亿份，环比增加82%，其中股票型和偏股",
+    "sourceName": "腾讯自选股",
+    "sourceUrl": "https://gu.qq.com/resources/shy/news/detail-v2/index.html?t=1#/index?_tentrees_trans=0&id=SN20260602070629b61e6a4f",
+    "publishedAt": "2026-06-02T07:00:00+08:00",
+    "category": "research",
+    "tier": "featured",
+    "tags": []
+  },
+  {
+    "id": "e99a200380de",
+    "score": 74,
+    "title": "2026年6月策略观点：基本面驱动下的三条主线",
+    "summary": "核心观点一：分化大于波动。 5月市场先抑后扬，市场分化程度明显，上证指数收跌。指数层面，科创类指数表现显著偏强；行业层面，通信、电子板块领涨市场；同时，年初以来个股表现也呈现明显分化，背后既受基本面分化驱动，也受资金流向差异影响。核心观点二：价格带动之下，企业盈利仍然是未来的支撑。展望6月，我们认为市场仍具备上行空间，基本面是最为稳健的底层支撑。其中价格是核心边际变化因素：PPI 同比处于持续回升",
+    "sourceName": "腾讯自选股",
+    "sourceUrl": "https://gu.qq.com/resources/shy/news/detail-v2/index.html?t=1#/index?_tentrees_trans=0&id=SN2026060211183697653bf1",
+    "publishedAt": "2026-06-02T00:00:00+08:00",
+    "category": "insights",
+    "tier": "featured",
+    "tags": []
+  },
+  {
+    "id": "cf55c4d74d3c",
+    "score": 74,
+    "title": "6月券商金股出炉！中国巨石成“团宠”，机构：赚钱还得看这些方向",
+    "summary": "进入6月，各大券商纷纷推出最新金股名单。据不完全统计，目前已有17家券商发布6月份金股名单。从个股推荐频次看，中国巨石、新易盛、宁德时代分别获6家、4家、4家券商推荐。展望6月，机构普遍认为A股整体运行基调保持不变，不过短期缺乏催化剂，6月市场将延续震荡格局，热点板块的轮动节奏主要由资金流向决定。光大证券策略首席分析师张宇生表示，近期市场的波动或主要与风险偏好变化有关，市场中长期上涨逻辑并未受到影",
+    "sourceName": "腾讯自选股",
+    "sourceUrl": "https://gu.qq.com/resources/shy/news/detail-v2/index.html?t=1#/index?_tentrees_trans=0&id=SN20260601223737b61dfd0a",
+    "publishedAt": "2026-06-01T22:45:13+08:00",
+    "category": "insights",
+    "tier": "featured",
+    "tags": []
+  },
+  {
+    "id": "cc59d0146da8",
+    "score": 83,
+    "title": "保险资管新规落地  监管明确“四个支柱”内容",
+    "summary": "中经记者 陈晶晶 北京报道近日，《中国经营报》记者获悉，国家金融监管总局围绕“四个支柱、四项目标、16项核心要素”对保险资管公司提出监管要求。据悉，第一支柱是受托责任和投资者保护。规范保险资管公司和投资者之间的关系，主要目标是解决信息不对称和代理问题，重点关注的四个核心要素包括规范履职尽责、强化信息披露、防范利益冲突、加强投资者教育。第二支柱是防范系统性风险。规范保险资管公司与金融市场之间的关系，",
+    "sourceName": "腾讯自选股",
+    "sourceUrl": "https://gu.qq.com/resources/shy/news/detail-v2/index.html?t=1#/index?_tentrees_trans=0&id=SN20260601221324a72a3f4d",
+    "publishedAt": "2026-06-01T22:11:11+08:00",
+    "category": "regulatory",
+    "tier": "featured",
+    "tags": []
+  },
+  {
+    "id": "ddd7de2a6b81",
+    "score": 80,
+    "title": "荷全保险资管管理层调整：朱爽离任，张梦姣接任董事长与总经理职责",
+    "summary": "之后，该集团高层更替后其离任。更早之前，朱爽曾在中银基金管理有限公司、交通银行总行、对外经济贸易大学等单位任职。多元化任职经历使其对保险资产管理链条有着较为深刻的理解，更兼具投资与行政管理双重背景。近期，荷全保险资管也发布了管理层调整的公告，公告显示，梁建刚因个人原因辞职，该公司董事长张梦姣担任临时负责人，直至聘任新总经理并获监管核准。梁建刚：1971年出生，2011年9月至2016年5月历任人保",
+    "sourceName": "腾讯自选股",
+    "sourceUrl": "https://gu.qq.com/resources/shy/news/detail-v2/index.html?t=1#/index?_tentrees_trans=0&id=SN2026060120194894ff5b9c",
+    "publishedAt": "2026-06-01T20:01:55+08:00",
+    "category": "industry",
+    "tier": "featured",
+    "tags": []
+  },
+  {
+    "id": "bf7afab90cff",
+    "score": 76,
+    "title": "荷全资管新任总经理朱爽与张梦姣战略布局分析及外资市场动态",
+    "summary": "此次总经理更替，朱爽与张梦姣形成明显差异化：一个是深耕保险资管领域十余年的“本土派”，一个是辗转外资投行、 金融科技 、国际保险集团的“少壮派”。目前获批的高管中，还有一位副总经理王阳，其同时兼任首席风险管理执行官、首席合规官。公开信息显示，王阳此前曾历任新华养老董事、新华资产副总经理、董事会秘书、合规负责人。此番履新，仍延续他深耕多年的风控合规主线。随着朱爽拟任总经理，荷全资管或将形成“战略掌舵",
+    "sourceName": "腾讯自选股",
+    "sourceUrl": "https://gu.qq.com/resources/shy/news/detail-v2/index.html?t=1#/index?_tentrees_trans=0&id=SN2026060120194894ff5b9c",
+    "publishedAt": "2026-06-01T20:01:55+08:00",
+    "category": "industry",
+    "tier": "featured",
+    "tags": []
+  },
+  {
+    "id": "ec954ca99ee8",
+    "score": 74,
+    "title": "招商信诺2025可持续发展报告：ESG实践与财务数据分析",
+    "summary": "随着ESG理念的普及，金融机构的可持续发展与社会责任实践越来越受到各界关注，作为民生保障核心载体的寿险企业，如何将ESG融入全经营链条，成为行业探索的重点。近日招商信诺人寿发布《2025可持续发展报告》，全方位展示了公司在环境、社会、治理维度的ESG实践成果，为国内寿险行业ESG建设提供了参考样本。招商信诺始终坚持将可持续发展融入企业战略，围绕2025-2027大健康转型战略，从治理、业务、投资、",
+    "sourceName": "腾讯自选股",
+    "sourceUrl": "https://gu.qq.com/resources/shy/news/detail-v2/index.html?t=1#/index?_tentrees_trans=0&id=SN20260601175425a729e98e",
+    "publishedAt": "2026-06-01T17:48:30+08:00",
+    "category": "products",
+    "tier": "featured",
+    "tags": []
+  },
+  {
+    "id": "f384576cfd92",
+    "score": 74,
+    "title": "六一官宣产品升级：京东安联旗下儿童高端医疗保险“成长优享”降899元",
+    "summary": "六一儿童节来临之际，京东安联保险旗下儿童高端医疗保险产品“成长优享”推出2026版。作为已连续销售九年、累计服务超过十万个家庭的产品系列。本次升级在保持原有保障品质的基础上，下调部分年龄段保费，新增京东母婴提供的相关福利，并依托京东自营医疗网络进一步优化就医体验与健康管理服务。在价格层面，成长优享2026版降低部分年龄段保费。针对3至6周岁的“成长计划”与“成长PRO计划”，每份保费直降899元，",
     "sourceName": "腾讯自选股",
     "sourceUrl": "https://gu.qq.com/resources/shy/news/detail-v2/index.html?t=1#/index?_tentrees_trans=0&id=SN2026060117312094ff2496",
     "publishedAt": "2026-06-01T17:28:00+08:00",
     "category": "products",
-    "tags": [
-      "保险产品",
-      "儿童保险"
-    ],
-    "score": 71.8
+    "tier": "featured",
+    "tags": []
   },
   {
-    "id": "yc5",
-    "title": "宏微科技NCB SiC模块实现小批量供货，切入高端算力电源供应链",
-    "summary": "宏微科技NCB SiC模块实现小批量供货，成功切入高端算力电源供应链。",
-    "sourceName": "第一财经",
-    "sourceUrl": "https://www.yicai.com/news/103210519.html",
-    "publishedAt": "2026-06-01T17:27:41+08:00",
-    "category": "industry",
-    "tags": [
-      "半导体",
-      "SiC",
-      "算力"
-    ],
-    "score": 64.3
-  },
-  {
-    "id": "n7",
-    "title": "晓数点丨券商6月金股出炉，涉及信息技术、能源等领域",
-    "summary": "逾10家券商公布6月金股组合，中国巨石获7家推荐居首，新易盛获5家、宁德时代获4家推荐。光模块龙头新易盛5月涨超34%创历史新高。",
-    "sourceName": "第一财经",
-    "sourceUrl": "http://gu.qq.com/resources/shy/news/detail-v2/index.html#/?id=nesSN2026060117211594ff210e&s=b",
-    "publishedAt": "2026-06-01T17:21:15+08:00",
-    "category": "research",
-    "tags": [
-      "券商金股",
-      "6月策略"
-    ],
-    "score": 74.5
-  },
-  {
-    "id": "cx4",
-    "title": "铜价延续涨势 因美国关税不确定性叠加供需紧张",
-    "summary": "铜价延续涨势，受美国关税不确定性叠加供需紧张影响。",
-    "sourceName": "财新",
-    "sourceUrl": "https://database.caixin.com/2026-06-01/102449798.html",
-    "publishedAt": "2026-06-01T17:20:07+08:00",
-    "category": "industry",
-    "tags": [
-      "铜价",
-      "大宗商品",
-      "关税"
-    ],
-    "score": 64.6
-  },
-  {
-    "id": "wsj1",
-    "title": "宇树科技IPO过会！科创板迎来人形机器人第一股",
-    "summary": "宇树科技科创板IPO成功过会，拟发行约4044.64万股，募资约42亿元。2025年营收16.99亿元，扣非净利5.91亿元，人形机器人出货量超5500台全球第一。",
-    "sourceName": "华尔街见闻",
-    "sourceUrl": "https://wallstreetcn.com/articles/3773573",
-    "publishedAt": "2026-06-01T17:15:06+08:00",
-    "category": "industry",
-    "tags": [
-      "IPO",
-      "人形机器人",
-      "科创板"
-    ],
-    "score": 64.0
-  },
-  {
-    "id": "wsj2",
-    "title": "长征十二号乙遥一运载火箭发射成功",
-    "summary": "北京时间6月1日16时40分，长征十二号乙遥一运载火箭在东风商业航天创新试验区发射升空，将千帆极轨08组卫星送入预定轨道，任务圆满成功。",
-    "sourceName": "华尔街见闻",
-    "sourceUrl": "https://wallstreetcn.com/livenews/3112319",
-    "publishedAt": "2026-06-01T17:14:21+08:00",
-    "category": "industry",
-    "tags": [
-      "航天",
-      "长征火箭"
-    ],
-    "score": 63.4
-  },
-  {
-    "id": "n3",
-    "title": "招商信诺推出金小葵少儿重疾险，首年25.88元/月起享50万保额",
-    "summary": "招商信诺推出金小葵少儿重疾险，首年25.88元/月起享50万保额，覆盖244种疾病，引入多倍赔付机制。与蚂蚁保合作推出少儿百万重疾险。",
+    "id": "9e13a9ba0838",
+    "score": 74,
+    "title": "招商信诺2025年推出儿童健康险产品，助力家庭防护儿童重疾风险",
+    "summary": "当社会将目光聚焦在少年儿童的健康成长，如何为亿万家庭筑牢儿童健康成长全周期防护墙，成为保险行业的重要命题。作为以健康保障为专长的寿险公司，招商信诺人寿保险有限公司(以下简称\"招商信诺\")持续夯实\"大健康\"战略实践根基，深耕产品创新、服务拓展及用户体验，用专业与温度为儿童健康成长保驾护航。创新产品供给，筑牢儿童健康防护网据国家癌症中心数据，我国15岁以下儿童恶性肿瘤年发病数达2.5万例。其中，白血病",
     "sourceName": "腾讯自选股",
     "sourceUrl": "https://gu.qq.com/resources/shy/news/detail-v2/index.html?t=1#/index?_tentrees_trans=0&id=SN2026060117193794ff206c",
     "publishedAt": "2026-06-01T17:07:00+08:00",
     "category": "products",
-    "tags": [
-      "保险产品",
-      "少儿保险",
-      "重疾险"
-    ],
-    "score": 71.7
+    "tier": "featured",
+    "tags": []
   },
   {
-    "id": "wsj3",
-    "title": "黄仁勋GTC台北：开源自动驾驶模型，PPT满屏中国车企",
-    "summary": "英伟达GTC台北2026上，黄仁勋推出开源自动驾驶模型Alpamayo 2，Hyperion系统联手全球80%车企，PPT展示大量中国品牌。",
-    "sourceName": "华尔街见闻",
-    "sourceUrl": "https://wallstreetcn.com/charts/41959155",
-    "publishedAt": "2026-06-01T16:52:23+08:00",
-    "category": "industry",
-    "tags": [
-      "英伟达",
-      "自动驾驶",
-      "GTC"
-    ],
-    "score": 64.0
+    "id": "9cc722e88ebf",
+    "score": 74,
+    "title": "招商信诺2026年推出儿童健康保障计划，聚焦白血病就医与心理健康支持",
+    "summary": "尤其是针对儿童高发的白血病，招商信诺与全球最大的造血干细胞移植中心之一——陆道培医疗集团达成合作，为患儿提供国内优质稀缺白血病就医资源，一站式就医安排服务。如家长有海外就医需求，招商信诺还可对接美国先进医疗资源。2026年，招商信诺进一步聚焦儿童就医体验，为0-14周岁(含)儿童定制\"宝贝医卡通\"，涵盖优质私立医院及公立医院门诊，打造双重灵活就医选择。该项服务可满足日常儿科门诊、急诊需求，同时切中",
+    "sourceName": "腾讯自选股",
+    "sourceUrl": "https://gu.qq.com/resources/shy/news/detail-v2/index.html?t=1#/index?_tentrees_trans=0&id=SN2026060117193794ff206c",
+    "publishedAt": "2026-06-01T17:07:00+08:00",
+    "category": "products",
+    "tier": "featured",
+    "tags": []
   },
   {
-    "id": "wsj4",
-    "title": "海思科与礼来签署研发合作协议，最高获8700万美元首付款",
-    "summary": "海思科公告与礼来签署研发合作协议，涉及最多五个靶点。公司有权获最高8700万美元首付款及29.67亿美元里程碑付款。",
-    "sourceName": "华尔街见闻",
-    "sourceUrl": "https://wallstreetcn.com/livenews/3112305",
-    "publishedAt": "2026-06-01T16:45:20+08:00",
-    "category": "industry",
-    "tags": [
-      "医药",
-      "研发合作",
-      "礼来"
-    ],
-    "score": 63.8
-  },
-  {
-    "id": "wsj5",
-    "title": "黄仁勋的棋局：AI算力的每一条路，都有英伟达在等候",
-    "summary": "黄仁勋在台北GTC将CUDA塞进笔记本，把万亿参数推理搬到桌边。发布Rubin Ultra GPU、开源自动驾驶模型，AI算力版图再扩张。",
-    "sourceName": "华尔街见闻",
-    "sourceUrl": "https://wallstreetcn.com/articles/3773569",
-    "publishedAt": "2026-06-01T16:19:54+08:00",
-    "category": "industry",
-    "tags": [
-      "英伟达",
-      "AI算力",
-      "GPU"
-    ],
-    "score": 63.9
-  },
-  {
-    "id": "cx5",
-    "title": "韬定律引爆A股，华为芯片技术路径含金量几何？",
-    "summary": "华为芯片技术路径韬定律引爆A股市场，分析其技术含金量及对半导体产业链的影响。",
-    "sourceName": "财新",
-    "sourceUrl": "https://www.caixin.com/2026-06-01/102449775.html",
-    "publishedAt": "2026-06-01T16:18:12+08:00",
-    "category": "industry",
-    "tags": [
-      "华为",
-      "芯片",
-      "半导体"
-    ],
-    "score": 64.9
-  },
-  {
-    "id": "wsj6",
-    "title": "英伟达Rubin Ultra GPU细节曝光：288GB HBM4、2027年登场",
-    "summary": "黄仁勋公布Rubin Ultra GPU，配备288GB HBM4显存，预计2027年推出。Blackwell Ultra NVL72已量产，升级版将于2026年底出货。",
-    "sourceName": "华尔街见闻",
-    "sourceUrl": "https://wallstreetcn.com/articles/3773579",
-    "publishedAt": "2026-06-01T16:12:39+08:00",
-    "category": "industry",
-    "tags": [
-      "英伟达",
-      "GPU",
-      "HBM"
-    ],
-    "score": 65.0
-  },
-  {
-    "id": "n14",
-    "title": "5月A股高位震荡分析：科技与防御板块机会并存",
-    "summary": "5月AI算力、半导体、CPO等科技方向领涨，月末资金开始转向公用事业、建筑材料等低位防御板块。6月建议采取哑铃型策略应对波动。",
+    "id": "578208d0a415",
+    "score": 70,
+    "title": "5月A股高位震荡分析：科技与防御板块机会并存，6月展望及投资策略建议",
+    "summary": "金鹰基金权益研究部策略研究员金达莱首席经济学家、基金经理杨刚5月A股高位震荡，机会在结构中孕育。月初随市场对美伊局势脱敏，风险偏好回升,赚钱效应在以CPO、半导体为代表的AI算力链扩散。月中，主线聚焦于半导体，纯概念性的主题炒作逐步退潮。月末，指数转入宽幅震荡，资金开始在高位科技、低位价值与防御板块之间切换。5月最强方向聚焦于高景气科技产业链，AI算力、半导体、CPO、PCB、存储等方向在海外AI",
     "sourceName": "腾讯自选股",
     "sourceUrl": "https://gu.qq.com/resources/shy/news/detail-v2/index.html?t=1#/index?_tentrees_trans=0&id=SN20260601161206984ff496",
-    "publishedAt": "2026-06-01T16:12:06+08:00",
+    "publishedAt": "2026-06-01T16:07:00+08:00",
     "category": "insights",
-    "tags": [
-      "月度回顾",
-      "投资策略",
-      "哑铃策略"
-    ],
-    "score": 71.1
+    "tier": "featured",
+    "tags": []
   },
   {
-    "id": "wsj7",
-    "title": "英伟达GTC台北：台式机将迎来CPU+GPU系统级AI升级",
-    "summary": "黄仁勋宣布Project DIGITS将迎来重大升级，新一代搭载联发科共同开发的CPU和Blackwell GPU，性能是上一代10倍。",
-    "sourceName": "华尔街见闻",
-    "sourceUrl": "https://wallstreetcn.com/livenews/3112284",
-    "publishedAt": "2026-06-01T15:58:15+08:00",
+    "id": "d495d40e412c",
+    "score": 70,
+    "title": "市场抱团加剧与风格反转分析：投资策略与风险展望",
+    "summary": "这一轮抱团更加严重，但行情集中程度有所缓解。从数据来看，这一阶段成交额排名前5%的个股成交额占比刷新前高，但沪深300指数跑输个股占比下滑至65%左右。两轮抱团行情的演绎路径有相似性，市场出现极端资金聚集往往对应着行情的后期。行情大致可分为五个阶段：阶段一：普涨启动。牛市初期，宏观环境改善驱动市场整体回暖，大部分行业和个股同步上涨。阶段二：结构分化。市场从普涨切换为结构性行情，核心主线共识逐步形成",
+    "sourceName": "腾讯自选股",
+    "sourceUrl": "https://gu.qq.com/resources/shy/news/detail-v2/index.html?t=1#/index?_tentrees_trans=0&id=SN20260601155157a43a71a6",
+    "publishedAt": "2026-06-01T15:51:54+08:00",
+    "category": "insights",
+    "tier": "featured",
+    "tags": []
+  },
+  {
+    "id": "f44cd85273d9",
+    "score": 70,
+    "title": "儿童保险市场新趋势：保障优先与IP化营销助力家庭风险防护",
+    "summary": "再次，购买少儿重疾险，主要解决孩子患病后的家庭收入损失、康复费用及特殊医疗需求。“最后考虑教育年金险，这必须是在前述基础保障配备齐全、家庭仍有长期闲置资金的前提下才考虑的选项。它的核心功能是强制储蓄和跨期财务规划，而非投资获取高收益。”李超补充表示。除了“保障优先”，先大人、后孩子也是家庭保险配置的底层逻辑。有保险销售人士表示，保险规划是面向整个家庭的风险防护体系，而非单一针对孩子。父母作为家庭的",
+    "sourceName": "腾讯自选股",
+    "sourceUrl": "https://gu.qq.com/resources/shy/news/detail-v2/index.html?t=1#/index?_tentrees_trans=0&id=SN20260601154317b61d6afc",
+    "publishedAt": "2026-06-01T15:43:04+08:00",
     "category": "products",
-    "tags": [
-      "英伟达",
-      "台式机",
-      "AI"
-    ],
-    "score": 74.1
+    "tier": "featured",
+    "tags": []
   },
   {
-    "id": "cx6",
-    "title": "估值修复还是盈利驱动：中日美股市比较",
-    "summary": "从中日美三地股市比较分析，当前行情究竟是估值修复还是盈利驱动。",
-    "sourceName": "财新",
-    "sourceUrl": "https://opinion.caixin.com/2026-06-01/102449740.html",
-    "publishedAt": "2026-06-01T15:56:06+08:00",
-    "category": "insights",
-    "tags": [
-      "中日美",
-      "股市比较",
-      "估值"
-    ],
-    "score": 71.5
+    "id": "f105e8b1f306",
+    "score": 70,
+    "title": "儿童节少儿保险市场分析：教育年金险受追捧，家长投保需优先保障",
+    "summary": "“一份保单一份爱”“为孩子储备教育的资金”“保险是儿童节最好的礼物”……随着儿童节的到来，保险行业的节日营销氛围愈发浓厚。在各大社交平台上，不少保险代理人正积极地推荐各类少儿保险产品。从高端医疗险到教育年金，险企也纷纷将目光投向“小客户”群体，试图在家庭资产配置中抢占先机。然而，面对市面上五花八门的少儿保险产品，许多家长在挑选时往往陷入“选择困难症”。业内人士提示，家长在为孩子投保时，必须理清正确",
+    "sourceName": "腾讯自选股",
+    "sourceUrl": "https://gu.qq.com/resources/shy/news/detail-v2/index.html?t=1#/index?_tentrees_trans=0&id=SN20260601154317b61d6afc",
+    "publishedAt": "2026-06-01T15:43:04+08:00",
+    "category": "products",
+    "tier": "featured",
+    "tags": []
   },
   {
-    "id": "wsj8",
-    "title": "吴清：更好发挥资本市场功能 助力中国经济持续回升向好",
-    "summary": "证监会主席吴清在求是撰文称，要更好发挥资本市场功能，助力中国经济持续回升向好。推动股票发行注册制走深走实。",
-    "sourceName": "华尔街见闻",
-    "sourceUrl": "https://wallstreetcn.com/livenews/3112281",
-    "publishedAt": "2026-06-01T15:46:58+08:00",
-    "category": "regulatory",
-    "tags": [
-      "证监会",
-      "资本市场",
-      "吴清"
-    ],
-    "score": 79.3
-  },
-  {
-    "id": "n9",
-    "title": "6月A股市场震荡回落，机构看好结构性机会与科技主线",
-    "summary": "6月首日三大指数集体下跌，沪指跌0.27%，深成指跌1.51%。机构认为6月全球央行超级月+中美大型IPO，市场短期高波动，建议关注科技主线与防御配置。",
+    "id": "35747008d9ec",
+    "score": 70,
+    "title": "6月A股市场震荡回落，机构看好结构性机会与“金股”配置建议",
+    "summary": "6月首个交易日，A股三大指数集体下跌，截至收盘，上证指数跌0.27%，深证成指跌1.51%，创业板指跌2.15%；北证50涨0.45%。沪深两市成交额约28774.88亿元，较前一个交易日缩量约4415.44亿元。全市场3776只股票上涨、1682只股票下跌，其中166只涨停、23只跌停。板块方面，煤炭、制冷剂、煤炭采选、出版、文化传媒等行业以及概念涨幅居前；玻纤、CPO、大基金系、半导体、电子、",
     "sourceName": "腾讯自选股",
     "sourceUrl": "https://gu.qq.com/resources/shy/news/detail-v2/index.html?t=1#/index?_tentrees_trans=0&id=SN20260601153945a43a6c4c",
-    "publishedAt": "2026-06-01T15:39:05+08:00",
+    "publishedAt": "2026-06-01T15:38:35+08:00",
     "category": "insights",
-    "tags": [
-      "A股",
-      "6月策略",
-      "震荡"
-    ],
-    "score": 68.5
+    "tier": "featured",
+    "tags": []
   },
   {
-    "id": "wsj9",
-    "title": "国务院公布对外投资规定，自7月1日起施行",
-    "summary": "李强总理签署第837号国务院令，公布国务院关于对外投资的规定。健全境外投资安全审查制度，明确鼓励、限制、禁止的对外投资。",
-    "sourceName": "华尔街见闻",
-    "sourceUrl": "https://wallstreetcn.com/articles/3773564",
-    "publishedAt": "2026-06-01T15:23:06+08:00",
+    "id": "859a9f6e19ff",
+    "score": 72,
+    "title": "胡晗获批出任信美人寿相互保险社董事长",
+    "summary": "近日，信美人寿相互保险社发布临时信息披露公告，根据该社第三届董事会第十四次临时会议决议，并经国家金融监督管理总局北京监管局核准，胡晗担任该社第三届董事会董事长，不再担任该社第三届董事会副董事长及总经理职务。简历显示，胡晗，信美人寿相互保险社董事长、管理执行委员会主席、首席执行官。1971年生，中央财经大学经济学学士、经济学硕士，中欧国际工商学院工商管理硕士，曾先后担任中国光大集团预算委员会秘书，中",
+    "sourceName": "腾讯自选股",
+    "sourceUrl": "https://gu.qq.com/resources/shy/news/detail-v2/index.html?t=1#/index?_tentrees_trans=0&id=SN20260601153514a43a6a7e",
+    "publishedAt": "2026-06-01T15:27:24+08:00",
+    "category": "industry",
+    "tier": "featured",
+    "tags": []
+  },
+  {
+    "id": "1e279894a2c2",
+    "score": 72,
+    "title": "恒安标准人寿董事长郑艺卸任，大卫·穆耶代行职责至新任上任",
+    "summary": "6月1日，恒安标准人寿发布公告，现任董事长郑艺任期届满卸任，公司董事大卫·穆耶暂代董事长职责，直至新任正式任命。公告显示，郑艺的任期定格于2026年5月30日，自5月31日起正式卸下帅印。公司已于5月27日召开第四届董事会第三十六次临时会议，审议通过推举董事David Mouille（大卫·穆耶）代为履行董事长职责的议案。代行职责的起点是5月31日，终点则是下一任董事长落座的那一天——这段过渡期，",
+    "sourceName": "腾讯自选股",
+    "sourceUrl": "https://gu.qq.com/resources/shy/news/detail-v2/index.html?t=1#/index?_tentrees_trans=0&id=SN20260601152637984fe0a5",
+    "publishedAt": "2026-06-01T14:54:04+08:00",
+    "category": "industry",
+    "tier": "featured",
+    "tags": []
+  },
+  {
+    "id": "8f8ac0622755",
+    "score": 70,
+    "title": "恒安标准人寿2025-2026年高管更替与经营数据分析",
+    "summary": "如今，郑艺挥别，谁来与吴爱军组成新任的“董事长+总经理”双核搭档？这已成为市场目光聚焦之处。管理层迭代加速，初代班底逐步退场此番董事长换届，正值公司核心管理层集中更替的关键周期。偿付能力报告显示，仅2025年至2026年上半年，已有数位高管相继离任：2025年一季度，年满60岁的副总经理贾孝林卸任——他从2003年11月起便担任副总经理，履职超过二十年，一度位列副总经理序列之首；2025年二季度，",
+    "sourceName": "腾讯自选股",
+    "sourceUrl": "https://gu.qq.com/resources/shy/news/detail-v2/index.html?t=1#/index?_tentrees_trans=0&id=SN20260601152637984fe0a5",
+    "publishedAt": "2026-06-01T14:54:04+08:00",
+    "category": "industry",
+    "tier": "featured",
+    "tags": []
+  },
+  {
+    "id": "75b9b96549e9",
+    "score": 72,
+    "title": "恒安标准人寿2025年保险收入120.95亿净利增217% 董事长人选成焦点",
+    "summary": "把目光拉回到2025年全年，恒安标准人寿实现保险业务收入120.95亿元，同比增长17.80%；净利润为3.72亿元，相较2024年的1.17亿元大幅增长217%，经营质效显著改善。如果说2024年的盈利是一粒破土的种子，那么2025年的业绩已是枝叶舒展的小树。随着董事大卫·穆耶代行董事长职责，恒安标准人寿的下一任董事长人选成为行业关注的焦点。作为中外各持股50%的合资寿险公司，新帅究竟由外方股东",
+    "sourceName": "腾讯自选股",
+    "sourceUrl": "https://gu.qq.com/resources/shy/news/detail-v2/index.html?t=1#/index?_tentrees_trans=0&id=SN20260601152637984fe0a5",
+    "publishedAt": "2026-06-01T14:54:04+08:00",
+    "category": "industry",
+    "tier": "featured",
+    "tags": []
+  },
+  {
+    "id": "1c669ad3636a",
+    "score": 70,
+    "title": "泰康在线升级“好效保・松青卫士”系列，填补血液肿瘤复发险市场空白",
+    "summary": "在我国多层次医疗保障体系持续完善、商业健康险加速向带病体群体倾斜的行业背景下，泰康在线旗下核心带病体保险产品“好效保・松青卫士”迎来里程碑式战略升级。近日，该产品从单一淋巴瘤复发险迭代为全谱系血液肿瘤复发险系列，并同步推出首款白血病专属保障产品——“好效保・松青卫士・白血病守护计划”，以专业化、精准化、系列化的保障方案，填补白血病患者复发保障的市场空白，为其家庭搭建更稳固的经济防护屏障。作为国内少",
+    "sourceName": "腾讯自选股",
+    "sourceUrl": "https://gu.qq.com/resources/shy/news/detail-v2/index.html?t=1#/index?_tentrees_trans=0&id=SN2026060114350494fede7d",
+    "publishedAt": "2026-06-01T14:31:55+08:00",
+    "category": "products",
+    "tier": "featured",
+    "tags": []
+  },
+  {
+    "id": "2dacfb0003ca",
+    "score": 70,
+    "title": "泰康在线推出“松青卫士”白血病复发险，三重保障助力患者减轻经济负担",
+    "summary": "基于对血液肿瘤患者需求的深度洞察，以及对带病体保险市场的前瞻性布局，泰康在线启动“松青卫士”战略升级计划，将其打造为血液肿瘤复发险专属系列。未来，“松青卫士”将针对不同血液肿瘤病种的复发规律、治疗特点、费用结构，定制专属保障方案，致力于让每一位血液肿瘤患者都能“有保可投、有保可依”。“白血病守护计划”重磅上线 三重核心亮点精准护航5月9日，泰康在线发布“好效保・松青卫士・白血病守护计划”，专为白血",
+    "sourceName": "腾讯自选股",
+    "sourceUrl": "https://gu.qq.com/resources/shy/news/detail-v2/index.html?t=1#/index?_tentrees_trans=0&id=SN2026060114350494fede7d",
+    "publishedAt": "2026-06-01T14:31:55+08:00",
+    "category": "products",
+    "tier": "featured",
+    "tags": []
+  },
+  {
+    "id": "4e31284c9d5d",
+    "score": 67,
+    "title": "中国大地保险不再设立监事会",
+    "summary": "中国大地保险发布公告称，近日，公司收到国家金融监督管理总局《关于中国大地财产保险股份有限公司修改公司章程的批复》(金复〔2026〕261号)，修订后的《公司章程》自2026年5月15日起核准生效。自《公司章程》核准之日起，公司不再设立监事会，由董事会审计委员会行使《公司法》及其他法律法规规定的监事会职权，原监事会成员不再履职。关键词阅读：中国大地保险 监事会责任编辑：栎树。",
+    "sourceName": "腾讯自选股",
+    "sourceUrl": "https://gu.qq.com/resources/shy/news/detail-v2/index.html?t=1#/index?_tentrees_trans=0&id=SN20260601114902b61d2279",
+    "publishedAt": "2026-06-01T11:43:16+08:00",
+    "category": "industry",
+    "tier": "normal",
+    "tags": []
+  },
+  {
+    "id": "0e102a826c50",
+    "score": 79,
+    "title": "中央金融监管改革：优化架构与强化五大监管功能的系统部署",
+    "summary": "五、金融监管理论：从金融组织架构优化走向监管功能最大化此轮金融监管改革需要系统性认识。此次党中央国务院的机构改革方案和中央金融工作会议，对金融监管改革做了较为系统的部署。在组织架构上，设立中央金融委员会和中央金融工作委员会，负责金融稳定和发展的顶层设计、统筹协调、组织建设等，重组金融监管机构；在监管实施上，全面强化“五大监管”——机构监管、行为监管、功能监管、穿透式监管、持续监管；在监管范围上，将",
+    "sourceName": "腾讯自选股",
+    "sourceUrl": "https://gu.qq.com/resources/shy/news/detail-v2/index.html?t=1#/index?_tentrees_trans=0&id=SN20260601102204a43a037c",
+    "publishedAt": "2026-06-01T10:09:00+08:00",
     "category": "regulatory",
-    "tags": [
-      "对外投资",
-      "国务院",
-      "政策"
-    ],
-    "score": 79.5
+    "tier": "featured",
+    "tags": []
   },
   {
-    "id": "wsj10",
-    "title": "宇树科技IPO：人形机器人出货量全球第一 但增速骤降",
-    "summary": "宇树科技招股书显示Q1营收增速由332.64%骤降至68.49%，扣非净利同比降52.55%。预计上半年营收10.52-11.28亿元，同比增35-45%。",
-    "sourceName": "华尔街见闻",
-    "sourceUrl": "https://wallstreetcn.com/livenews/3112261",
-    "publishedAt": "2026-06-01T15:10:19+08:00",
-    "category": "industry",
-    "tags": [
-      "IPO",
-      "人形机器人",
-      "业绩"
-    ],
-    "score": 61.1
-  },
-  {
-    "id": "wsj11",
-    "title": "MiniMax启动A股科创板IPO，新模型大幅涨价",
-    "summary": "AI初创公司MiniMax正式启动A股科创板IPO，最新模型大幅涨价。标志着国产AI大模型公司进入资本市场新阶段。",
-    "sourceName": "华尔街见闻",
-    "sourceUrl": "https://wallstreetcn.com/livenews/3112240",
-    "publishedAt": "2026-06-01T14:33:23+08:00",
-    "category": "industry",
-    "tags": [
-      "AI",
-      "IPO",
-      "大模型"
-    ],
-    "score": 60.6
-  },
-  {
-    "id": "cx7",
-    "title": "MiniMax启动A股科创板IPO 新模型大幅涨价",
-    "summary": "AI初创公司MiniMax正式启动科创板IPO，最新模型大幅涨价。",
-    "sourceName": "财新",
-    "sourceUrl": "https://www.caixin.com/2026-06-01/102449721.html",
-    "publishedAt": "2026-06-01T14:26:52+08:00",
-    "category": "industry",
-    "tags": [
-      "AI",
-      "IPO",
-      "科创板"
-    ],
-    "score": 61.9
-  },
-  {
-    "id": "n15",
-    "title": "中国财经媒体平台2026年智能决策服务转型趋势分析",
-    "summary": "财经媒体平台从信息聚合向AI智能决策服务跃迁，东方财富、同花顺等头部平台已构建流量-数据-AI-交易商业闭环。GEO成为核心战略能力。",
+    "id": "aa5c340ab5a5",
+    "score": 70,
+    "title": "6月金融市场分析：科技主线与周期板块投资策略及金股推荐",
+    "summary": "机械设备板块同样受到券商重点关注，热点聚焦AI算力基础设施（数据中心燃气轮机、液冷服务器零部件等）与机器人产业链。代表性金股有杰瑞股份（光大证券、国联民生推荐）、恒立液压（国金证券推荐）、应流股份（国金证券推荐）、燕麦科技（中泰证券推荐）等。电力设备板块同样汇集多只金股，主要围绕全球锂电龙头、储能及AIDC电源领域。宁德时代人气居首，获开源证券、光大证券、中原证券、东北证券等多家机构联合推荐；新雷",
     "sourceName": "腾讯自选股",
-    "sourceUrl": "https://gu.qq.com/resources/shy/news/detail-v2/index.html?t=1#/index?_tentrees_trans=0&id=SN20260601133259a43a4390",
-    "publishedAt": "2026-06-01T13:32:59+08:00",
+    "sourceUrl": "https://gu.qq.com/resources/shy/news/detail-v2/index.html?t=1#/index?_tentrees_trans=0&id=SN20260601110804984f906f",
+    "publishedAt": "2026-06-01T09:16:00+08:00",
     "category": "insights",
-    "tags": [
-      "财经媒体",
-      "AI",
-      "行业趋势"
-    ],
-    "score": 68.3
+    "tier": "featured",
+    "tags": []
   },
   {
-    "id": "cx8",
-    "title": "零一汽车递表港交所 两家电动重卡企业同月启动IPO",
-    "summary": "零一汽车递表港交所，电动重卡领域两家企业同月启动IPO。",
-    "sourceName": "财新",
-    "sourceUrl": "https://companies.caixin.com/2026-06-01/102449708.html",
-    "publishedAt": "2026-06-01T13:32:10+08:00",
-    "category": "industry",
-    "tags": [
-      "电动重卡",
-      "IPO",
-      "港交所"
-    ],
-    "score": 61.8
-  },
-  {
-    "id": "n5",
-    "title": "保险行业1-4月保费增速放缓，资金面压制估值，关注中国平安与中国太保",
-    "summary": "人身险公司和财产险公司原保费1-4月累计同比+6.3%/+2.2%，增速较一季度放缓。存款迁移带来负债端高景气，推荐中国平安和中国太保。",
+    "id": "88f874550681",
+    "score": 72,
+    "title": "6月市场展望：科技成长与AI产业链主导，关注资源配置与政策动态",
+    "summary": "二是调整相对充分的HALO资产，PPI上行趋势较为明确，美债利率4.6%水平继续向上动力不足，关键资源供应链强化+能源价格中枢上行的背景下，核心资源（有色金属+化工）和泛能源（煤炭、电力、石油石化）目前处于左侧布局的阶段，等待6月沃什议息会议纠偏市场较为激进的加息预期。此外，阶段性可以关注中美缓和，关税下调预期下的对美出口链，以及市场交投进一步活跃，题材股的阶段性行情，重点考虑政策和消息共振的算电",
     "sourceName": "腾讯自选股",
-    "sourceUrl": "https://gu.qq.com/resources/shy/news/detail-v2/index.html?t=1#/index?_tentrees_trans=0&id=SN202606011327059763ba71",
-    "publishedAt": "2026-06-01T13:27:05+08:00",
-    "category": "research",
-    "tags": [
-      "保险",
-      "研报",
-      "中国平安",
-      "中国太保"
-    ],
-    "score": 68.8
-  },
-  {
-    "id": "n10",
-    "title": "6月A股投资展望：科技主线与防御配置策略分析",
-    "summary": "多家券商建议采取科技聚焦+防御配置均衡布局。关注通信设备、算力、半导体等科技核心主线，同时布局煤炭、电力、银行等防御性板块。",
-    "sourceName": "腾讯自选股",
-    "sourceUrl": "https://gu.qq.com/resources/shy/news/detail-v2/index.html?t=1#/index?_tentrees_trans=0&id=SN20260531214100a4396407",
-    "publishedAt": "2026-06-01T10:14:53+08:00",
-    "category": "research",
-    "tags": [
-      "A股策略",
-      "科技主线",
-      "防御配置"
-    ],
-    "score": 64.1
-  },
-  {
-    "id": "n11",
-    "title": "机构策略：6月A股大概率将步入宽幅震荡阶段",
-    "summary": "中信建投、东方证券、财信证券等认为6月A股宽幅震荡，科技板块面临获利兑现压力，低位板块受制于内需偏弱，建议控制仓位静待企稳。",
-    "sourceName": "腾讯自选股",
-    "sourceUrl": "https://gu.qq.com/resources/shy/news/detail-v2/index.html?t=1#/index?_tentrees_trans=0&id=SN20260601091940b61ce193",
-    "publishedAt": "2026-06-01T09:19:00+08:00",
+    "sourceUrl": "https://gu.qq.com/resources/shy/news/detail-v2/index.html?t=1#/index?_tentrees_trans=0&id=SN20260601083701a439d673",
+    "publishedAt": "2026-06-01T08:35:00+08:00",
     "category": "insights",
-    "tags": [
-      "A股",
-      "震荡",
-      "机构观点"
-    ],
-    "score": 64.0
+    "tier": "featured",
+    "tags": []
   },
   {
-    "id": "n12",
-    "title": "2026年6月大类资产配置月报：美联储政策与地缘局势影响分析",
-    "summary": "地缘局势仍是最大变量，美伊谈判反复。美联储新主席沃什6月17日FOMC首秀成核心事件。建议关注AI算力主线和上游能源资源品。",
-    "sourceName": "腾讯自选股",
-    "sourceUrl": "https://gu.qq.com/resources/shy/news/detail-v2/index.html?t=1#/index?_tentrees_trans=0&id=SN20260601084625a7291eb7",
-    "publishedAt": "2026-06-01T08:46:25+08:00",
-    "category": "insights",
-    "tags": [
-      "大类资产",
-      "美联储",
-      "地缘政治"
-    ],
-    "score": 64.5
-  },
-  {
-    "id": "n13",
+    "id": "4090e38547ce",
+    "score": 70,
     "title": "六月A股震荡偏强，科技主线持续，流动性宽松与风格切换并存",
-    "summary": "华金、东吴、浙商等多家券商认为6月A股延续震荡偏强。科技仍是主线但板块内轮动加快，建议关注成长扩散+大盘价值的哑铃策略。",
+    "summary": "华金策略：六月继续震荡偏强 科技主线不变今年6月A股可能延续震荡偏强趋势，受世界杯等因素影响有限。(1)6月外部风险可能缓和，政策可能偏积极。一是6月外部风险可能缓和：首先，6月美伊冲突的风险可能缓和；其次，6月中美关系可能维持平稳。二是6月积极的政策仍可能进一步落地实施。(2)6月经济和盈利可能延续回升趋势。一是6月经济可能继续企稳有所回升：首先，6月消费增速可能企稳有所改善；其次，6月出口可能",
     "sourceName": "腾讯自选股",
     "sourceUrl": "https://gu.qq.com/resources/shy/news/detail-v2/index.html?t=1#/index?_tentrees_trans=0&id=SN20260601081127b61ccd05",
-    "publishedAt": "2026-06-01T08:11:27+08:00",
+    "publishedAt": "2026-06-01T08:00:34+08:00",
     "category": "insights",
-    "tags": [
-      "券商观点",
-      "A股",
-      "科技主线"
-    ],
-    "score": 64.3
+    "tier": "featured",
+    "tags": []
   },
   {
-    "id": "n6",
-    "title": "头部券商26Q1业绩超预期，保险净利和净资产优于预期",
-    "summary": "39家样本券商26Q1扣非净利润同比+39%，年化ROE 7.3%。保险Q1净利、投资收益和净资产超预期，NBV延续高质量增长。",
+    "id": "ed82275f23c7",
+    "score": 70,
+    "title": "国金策略：6月市场震荡待验牌，关注宏观修复与AI投资机会",
+    "summary": "国金策略：6月市场将在震荡中等待验牌时刻6月，市场将在震荡中等待验牌时刻。如果霍尔木兹海峡重开，市场将更有可能重回HALO交易；如果尾部风险情境出现，当前的景气领域也难以独善其身。在此我们做出推荐如下：第一，关注宏观修复与AI人工智能投资往传统经济部门的扩散和价格传导两条主线：工业金属(铜、铝、锂)，化工(AI上游材料、炼化等)，能源补库与其他大宗品安全库存构建周期的受益品种(油运、干散货)；第二",
     "sourceName": "腾讯自选股",
-    "sourceUrl": "https://gu.qq.com/resources/shy/news/detail-v2/index.html#/?id=res831324915875",
-    "publishedAt": "2026-05-05T08:00:00+08:00",
+    "sourceUrl": "https://gu.qq.com/resources/shy/news/detail-v2/index.html?t=1#/index?_tentrees_trans=0&id=SN20260601081127b61ccd05",
+    "publishedAt": "2026-06-01T08:00:34+08:00",
+    "category": "insights",
+    "tier": "featured",
+    "tags": []
+  },
+  {
+    "id": "8c420a1d1d99",
+    "score": 70,
+    "title": "招商证券2026年6月A股市场观点：盈利驱动上行，行业配置建议分析",
+    "summary": "本资料由招商证券研究发展中心汇编而成，仅供客户中的专业投资者参考。具体投资观点请以研究报告的完整内容为准，投研活动信息等请联系对口销售。为保证服务质量、控制投资风险，敬请阅知页末的特别提示和一般声明。感谢您给予的理解和配合。音频版请见文末01丨  合集荐读招商研究丨A股月度观点及配置建议系列专题最新收录：景气强化，震荡上行——A股2026年6月观点及配置建议查看合集02丨  今日研选策略研究：景气",
+    "sourceName": "腾讯自选股",
+    "sourceUrl": "https://gu.qq.com/resources/shy/news/detail-v2/index.html?t=1#/index?_tentrees_trans=0&id=SN20260601075415a439cac9",
+    "publishedAt": "2026-06-01T07:30:00+08:00",
+    "category": "insights",
+    "tier": "featured",
+    "tags": []
+  },
+  {
+    "id": "7b488cb08e50",
+    "score": 72,
+    "title": "2026年6月大类资产配置月报：美联储政策与地缘局势影响分析",
+    "summary": "当前低拥挤：非银、食品饮料、汽车、消费者服务、银行。风险提示：以上结论均基于历史数据和统计模型的测算，如果未来市场环境发生明显改变，不排除模型失效的可能性。固收|美元流动性冲击下的资产分化——大类资产配置月报2026.61、展望6月：地缘局势的演变仍是最大变量，美伊谈判反复，多资产的短期方向将随之波动；而美联储新主席沃什的政策立场将成为核心宏观事件。海外方面，AI与科技行业景气度为美股提供结构性支",
+    "sourceName": "腾讯自选股",
+    "sourceUrl": "https://gu.qq.com/resources/shy/news/detail-v2/index.html?t=1#/index?_tentrees_trans=0&id=SN2026060108001594fe557a",
+    "publishedAt": "2026-06-01T07:28:43+08:00",
+    "category": "insights",
+    "tier": "featured",
+    "tags": []
+  },
+  {
+    "id": "3a29a12d47a7",
+    "score": 72,
+    "title": "2026年6月金融市场展望：美联储政策与地缘局势影响资产配置",
+    "summary": "当前低拥挤：非银、食品饮料、汽车、消费者服务、银行。风险提示：以上结论均基于历史数据和统计模型的测算，如果未来市场环境发生明显改变，不排除模型失效的可能性。固收|美元流动性冲击下的资产分化——大类资产配置月报2026.61、展望6月：地缘局势的演变仍是最大变量，美伊谈判反复，多资产的短期方向将随之波动；而美联储新主席沃什的政策立场将成为核心宏观事件。海外方面，AI与科技行业景气度为美股提供结构性支",
+    "sourceName": "腾讯自选股",
+    "sourceUrl": "https://gu.qq.com/resources/shy/news/detail-v2/index.html?t=1#/index?_tentrees_trans=0&id=SN20260601084625a7291eb7",
+    "publishedAt": "2026-06-01T07:28:00+08:00",
+    "category": "insights",
+    "tier": "featured",
+    "tags": []
+  },
+  {
+    "id": "addee870d56c",
+    "score": 70,
+    "title": "2026年人身险行业供需稳健，非银板块投资价值分析与风险提示",
+    "summary": "2、非银：1）保险：居民储蓄需求仍旺，2026年人身险行业有望保持供需两旺，预计板块资负两端业绩稳健增长。保险股beta属性明显，具备弹性，且分红水平稳健，看好行业长期配置价值。2)证券:市场交投活跃度维持高位，板块业绩和估值具备投资属性，资本市场投融资功能不断健全完善，头部券商将更为受益风险提示1）金融政策监管风险：目前金融科技已纳入严监管，与银、证、险相似，业务对监管政策敏感度高，相关监管政策",
+    "sourceName": "腾讯自选股",
+    "sourceUrl": "https://gu.qq.com/resources/shy/news/detail-v2/index.html?t=1#/index?_tentrees_trans=0&id=SN20260601200143a72a12a8",
+    "publishedAt": "2026-06-01T00:00:00+08:00",
     "category": "research",
-    "tags": [
-      "券商",
-      "保险",
-      "季报",
-      "研报"
-    ],
-    "score": 49.3
+    "tier": "featured",
+    "tags": []
+  },
+  {
+    "id": "6a3389951fa2",
+    "score": 70,
+    "title": "金融行业周报：把握交投持续活跃下金融机会",
+    "summary": "投资机会方面证券>银行>保险。上周市场震荡，交易活跃度仍保持较高水平，A 股日均成交额3.22 万亿元，周环比+6%；融资余额再创新高、突破2.9 万亿元。大行通过二永债低成本融资与财政注资协同，破解内生资本不足的瓶颈，增强逆周期调节力，定向支持科技、绿色、普惠及重大项目建设。保险板块在五一假期之后连续第三周下跌，跌势有所收窄。市场结构性行情仍在延续，但周五包括保险板块在内的非科技行业反弹值得关注",
+    "sourceName": "腾讯自选股",
+    "sourceUrl": "https://gu.qq.com/resources/shy/news/detail-v2/index.html?t=1#/index?_tentrees_trans=0&id=SN20260601132123b61d3dab",
+    "publishedAt": "2026-06-01T00:00:00+08:00",
+    "category": "research",
+    "tier": "featured",
+    "tags": []
+  },
+  {
+    "id": "4a9dedb12ac1",
+    "score": 67,
+    "title": "6月投资策略及金股组合",
+    "summary": "国内经济分化明显。4月经济数据多数回落，结构分化也较为明显。消费来看，社零增速延续回落，限额以上受以旧换新品类的基数拖累影响较大，限额以下相对稳健。生产来看，内外需的影响分化明显，出口交货值高增。投资增速下滑明显，一是靠前发力需求前置，二是财政支出的阶段性下滑，三是中东局势影响下资本开支扩张的信心下降。受输入性通胀影响，二季度价格水平回升斜率较高，名义GDP增速可能继续上升，但实际GDP增速可能受",
+    "sourceName": "腾讯自选股",
+    "sourceUrl": "https://gu.qq.com/resources/shy/news/detail-v2/index.html?t=1#/index?_tentrees_trans=0&id=SN2026060109134797635aae",
+    "publishedAt": "2026-06-01T00:00:00+08:00",
+    "category": "insights",
+    "tier": "normal",
+    "tags": []
+  },
+  {
+    "id": "e09fe8662e21",
+    "score": 62,
+    "title": "中国保险行业2025年展望：四大集团规模与定位分析",
+    "summary": ". 1996-2005：分业筑基期，主体扩容、监管成型、偿付能力框架建立. 2006-2015：集团扩张期，综合金融、资管赋能、海外布局加速. 2016-2025：高质量转型期，严监管、防风险、回归保障、养老与健康生态化(二)四大样本集团定位与基因1.中国人寿：国有寿险龙头、综合金融旗舰，财政部控股，覆盖寿险、养老、资管、银行、健康投资，行业压舱石2.中再集团：再保险国家队、行业风险稳定器，汇金+",
+    "sourceName": "腾讯自选股",
+    "sourceUrl": "https://gu.qq.com/resources/shy/news/detail-v2/index.html?t=1#/index?_tentrees_trans=0&id=SN20260528141253a723ae24",
+    "publishedAt": "2026-05-28T11:17:07+08:00",
+    "category": "industry",
+    "tier": "normal",
+    "tags": []
+  },
+  {
+    "id": "8e78ea16930e",
+    "score": 62,
+    "title": "中国保险行业2025年展望：人寿引领、泰康追赶、再保险稳固",
+    "summary": "· 1996-2005：分业筑基期，主体扩容、监管成型、偿付能力框架建立· 2006-2015：集团扩张期，综合金融、资管赋能、海外布局加速· 2016-2025：高质量转型期，严监管、防风险、回归保障、养老与健康生态化（二）四大样本集团定位与基因1.中国人寿：国有寿险龙头、综合金融旗舰，财政部控股，覆盖寿险、养老、资管、银行、健康投资，行业压舱石2.中再集团：再保险国家队、行业风险稳定器，汇金+",
+    "sourceName": "腾讯自选股",
+    "sourceUrl": "https://gu.qq.com/resources/shy/news/detail-v2/index.html?t=1#/index?_tentrees_trans=0&id=SN2026052811215594f8c0c3",
+    "publishedAt": "2026-05-28T11:12:40+08:00",
+    "category": "industry",
+    "tier": "normal",
+    "tags": []
+  },
+  {
+    "id": "c30238c508ec",
+    "score": 59,
+    "title": "因将保险产品预定利率与银行存款利率进行片面比较、虚列银保专员佣金套取费用，新华人寿保险股份有限公司临夏中心支公司被警告并罚款人民币25万元",
+    "summary": "2026年05月22日，临夏金融监管分局发布行政处罚信息公开表，新华人寿保险股份有限公司临夏中心支公司因\"将保险产品预定利率与银行存款利率进行片面比较\"、\"虚列银保专员佣金套取费用\"，被监管部门做出\"警告并罚款人民币25万元\"的处罚决定。时任新华人寿保险股份有限公司临夏中心支公司总经理助理、副总经理魏莉因\"虚列银保专员佣金套取费用\"，被监管部门做出\"警告并罚款人民币5万元\"的处罚决定。时任新华人寿",
+    "sourceName": "腾讯自选股",
+    "sourceUrl": "http://gu.qq.com/resources/shy/news/detail-v2/index.html#/?id=nesSN2026052217510894ec066e&s=b",
+    "publishedAt": "2026-05-22T17:44:12+08:00",
+    "category": "industry",
+    "tier": "normal",
+    "tags": []
+  },
+  {
+    "id": "52598604656e",
+    "score": 59,
+    "title": "水滴公司推出AI核保专家“KEYI.AI”，提升保险效率与准确率至99.8%",
+    "summary": "这种拟人化的交互节奏与高效精准的业务处理能力，不仅大幅降低了用户因问题流转而产生的等待时间，更让AI真正成为了有温度、懂思考的“服务伙伴”。“KEYI.AI”秒级决策重塑投保体验，核保准确率99.8%核保作为保险风控的核心环节，却常因医疗记录非标准化、条款晦涩复杂等问题，影响用户体验。传统核保环节主要由人工进行审核，解读和判断海量非结构化的医疗记录，不仅周期冗长效率低下，且主观性强容易出现误差。水",
+    "sourceName": "腾讯自选股",
+    "sourceUrl": "https://gu.qq.com/resources/shy/news/detail-v2/index.html?t=1#/index?_tentrees_trans=0&id=SN2026052018553994e6d2a3",
+    "publishedAt": "2026-05-20T16:39:30+08:00",
+    "category": "industry",
+    "tier": "normal",
+    "tags": []
+  },
+  {
+    "id": "d2e65107db90",
+    "score": 61,
+    "title": "2026清华五道口全球金融论坛发布AI保险应用白皮书，推动行业智能化转型",
+    "summary": "【环球网保险综合报道】5月18日，由清华大学主办、清华大学五道口金融学院承办的“2026清华五道口全球金融论坛”在成都开幕，论坛邀请全球央行领导、诺贝尔经济学奖得主、知名学者以及顶尖专家齐聚，旨在关注全球金融发展的新思想、新趋势、新实践、新动力，为实现金融高质量发展，助力金融强国建设建言献策。论坛中，《AI保险行业应用创新白皮书》（以下简称《白皮书》）发布，该《白皮书》由清华大学五道口金融学院中国",
+    "sourceName": "腾讯自选股",
+    "sourceUrl": "https://gu.qq.com/resources/shy/news/detail-v2/index.html?t=1#/index?_tentrees_trans=0&id=SN20260520150255a4baa882",
+    "publishedAt": "2026-05-20T15:01:29+08:00",
+    "category": "industry",
+    "tier": "normal",
+    "tags": []
+  },
+  {
+    "id": "5bf3bfeadd79",
+    "score": 59,
+    "title": "水滴公司推出KEYI.AI，重塑保险核保体验，提升效率与准确率",
+    "summary": "这种拟人化的交互节奏与高效精准的业务处理能力，不仅大幅降低了用户因问题流转而产生的等待时间，更让AI真正成为了有温度、懂思考的“服务伙伴”。“KEYI.AI”秒级决策重塑投保体验，核保准确率99.8%核保作为保险风控的核心环节，却常因医疗记录非标准化、条款晦涩复杂等问题，影响用户体验。传统核保环节主要由人工进行审核，解读和判断海量非结构化的医疗记录，不仅周期冗长效率低下，且主观性强容易出现误差。水",
+    "sourceName": "腾讯自选股",
+    "sourceUrl": "https://gu.qq.com/resources/shy/news/detail-v2/index.html?t=1#/index?_tentrees_trans=0&id=SN20260520150255a4baa882",
+    "publishedAt": "2026-05-20T15:01:29+08:00",
+    "category": "industry",
+    "tier": "normal",
+    "tags": []
+  },
+  {
+    "id": "6096e4c896f9",
+    "score": 59,
+    "title": "保险AI技能洞察报告：理赔与合规占比超53%，推动行业智能化转型",
+    "summary": "近日发布的《保险“龙虾”技能洞察报告》显示，在对539个公开技能（Skill）样本的测评中，理赔类技能占比13.65%、监管与合规类占比13.54%，两类合计达27.19%，风险管理类技能占比13%，三者合计占比超53%。报告由复旦大学经济学院许闲教授研究团队完成，基于保险AI智能体可调用的结构化能力模块进行统计分析。所谓Skill，指智能体完成特定任务时可直接调用的专业能力模块，涵盖业务知识、执",
+    "sourceName": "腾讯自选股",
+    "sourceUrl": "https://gu.qq.com/resources/shy/news/detail-v2/index.html?t=1#/index?_tentrees_trans=0&id=SN20260506001235a6f0dda2",
+    "publishedAt": "2026-05-06T00:06:02+08:00",
+    "category": "industry",
+    "tier": "normal",
+    "tags": []
+  },
+  {
+    "id": "cc15f3bd1e94",
+    "score": 59,
+    "title": "保险行业AI智能体发展现状：理赔与合规技能占比超24%",
+    "summary": "日前，大模型应用正从“能聊天”迈向“能办事”。以AI智能体（Agent）为核心的“龙虾”概念热潮席卷各行业，保险领域的“龙虾”应用究竟走到了哪一步？5月5日，北京商报记者了解到，近日发布的《保险“龙虾”技能洞察报告》公布了一组值得关注的数据：在对539个公开技能（Skill）样本的测评中，理赔（13.65%）、监管与合规（13.54%）两类技能合计占比超过24%，风险管理类也达到13%，成为保险A",
+    "sourceName": "腾讯自选股",
+    "sourceUrl": "https://gu.qq.com/resources/shy/news/detail-v2/index.html?t=1#/index?_tentrees_trans=0&id=SN20260505234214a6f0cdf9",
+    "publishedAt": "2026-05-05T23:42:08+08:00",
+    "category": "industry",
+    "tier": "normal",
+    "tags": []
+  },
+  {
+    "id": "2636c3b0a0f3",
+    "score": 59,
+    "title": "恒安标准人寿获评“年度保险中介值得信赖供应商”",
+    "summary": "近日，由《今日保》与今日保研究院联合发起主办的第七届“今日保·保险中介榜”评选结果正式揭晓，恒安标准人寿获评“年度保险中介值得信赖供应商”。作为保险行业知名媒体之一，《今日保》始终以专业洞察力引领市场风尚，持续以案例+数据记录并放大专业价值，推动市场认同与社会公信力提升。本届评选聚焦转型期的韧性突围与创新实践，通过数据与专家评审的立体评估，甄选以专业重塑价值、科技升级服务、生态创造增量的标杆机构。",
+    "sourceName": "腾讯自选股",
+    "sourceUrl": "https://gu.qq.com/resources/shy/news/detail-v2/index.html?t=1#/index?_tentrees_trans=0&id=SN20260501114747a48d9b65",
+    "publishedAt": "2026-04-30T11:47:32+08:00",
+    "category": "industry",
+    "tier": "normal",
+    "tags": []
+  },
+  {
+    "id": "6ab3df7d8a54",
+    "score": 61,
+    "title": "【研报】非银金融行业周报：券商1Q26业绩高增逐步兑现 保险1Q26预定利率研究值环比+4BPS",
+    "summary": "券商：本周申万证券II 指数收跌1.84%，跑输沪深300 指数2.70pct。1）1Q26 业绩高增逐步兑现，关注下周1Q26 密集披露期。本周中信证券、国泰海通、东方财富等11 家券商披露1Q26 业绩，中信证券归母净利润同比+54.6%、国泰海通扣非归母净利润同比+73.4%、东方财富归母净利润同比+37.7%，其余财通证券、东北证券、华西证券、国金证券、南京证券、西部证券、华林证券、西",
+    "sourceName": "腾讯自选股",
+    "sourceUrl": "https://gu.qq.com/resources/shy/news/detail-v2/index.html#/?id=res830530931953",
+    "publishedAt": "2026-04-26T00:00:00+08:00",
+    "category": "research",
+    "tier": "normal",
+    "tags": []
+  },
+  {
+    "id": "cbee17bbacbd",
+    "score": 54,
+    "title": "【内部研报】金融行业周报（第十七周）：银行业绩改善，券商延续高增",
+    "summary": "投资机会方面证券>银行>保险。上周市场交易活跃度进一步提升，A股日均成交额2.62万亿元，周环比+11%；融资余额回升至2.7万亿元以上的较高水平。深交所正式发布深化创业板改革首批配套业务规则，进一步提高创业板制度的包容性、适应性；同时沪深北交易所修订发布交易规则，优化盘后固定价格交易规则，调整主板风险警示股票涨跌幅比例限制等。银行业26Q1盈利能力整体回升，区域行业绩突出，行业息差压力缓解带动利",
+    "sourceName": "金融资讯",
+    "sourceUrl": "#",
+    "publishedAt": "2026-04-26T00:00:00+08:00",
+    "category": "research",
+    "tier": "normal",
+    "tags": []
+  },
+  {
+    "id": "fa6e3c7bfe63",
+    "score": 59,
+    "title": "【研报】保险行业双周报第三期：25业绩整体符合预期 保险股配置价值凸显",
+    "summary": "本报告导读：\r　　上市险企25 年业绩整体符合预期，预计股价充分反应交易层面的负面因素；行业1-2 月人身险保费景气增长，财险保费缓慢增长；分红险演示利率预计将再次下调。\r　　投资要点：\r　　基本面稳健 而交易因素扰动下保险股股价持续下跌，配置价值凸显。3 月13 日至3 月27 日，申万保险指数（801194.SI）由1369.48下跌至1268.21，区间跌幅-7.39%。同期沪深300",
+    "sourceName": "腾讯自选股",
+    "sourceUrl": "https://gu.qq.com/resources/shy/news/detail-v2/index.html#/?id=res828301066295",
+    "publishedAt": "2026-03-31T00:00:00+08:00",
+    "category": "industry",
+    "tier": "normal",
+    "tags": []
+  },
+  {
+    "id": "abdec8ec945c",
+    "score": 54,
+    "title": "【内部研报】保险行业月报（2026年1~2月）：寿险开门红亮眼，产险略有承压",
+    "summary": "行业概述：2026年1-2月保费快增，或因春节影响增幅环比有所收敛。2026年1-2月保险行业实现原保费收入16422亿元，同比+8.4%，增幅环比-3.2pct。其中，人身险（包含财产险公司的健康险、意外险）合计保费14017亿元，同比+10.2%；财产险保费2405亿元，同比-1.4%。人身险、财产险保费增速均环比下降，预计部分受春节影响。2026年1-2月寿险保费11323亿元，同比+10.",
+    "sourceName": "金融资讯",
+    "sourceUrl": "#",
+    "publishedAt": "2026-03-29T00:00:00+08:00",
+    "category": "industry",
+    "tier": "normal",
+    "tags": []
+  },
+  {
+    "id": "04b3f0a570eb",
+    "score": 61,
+    "title": "众安保险2025年度业绩：总保费357.35亿，净利润18亿，同比增长198.3%",
+    "summary": "中国网财经3月20日讯 近日，众安保险发布2025年度业绩报告。报告显示，2025年，众安保险实现总保费人民币357.35亿元，同比增长6.9%；实现保险服务收入人民币334.85亿元，同比增长5.5%。按总保费计，众安保险2025年在国内财险行业的排名为第8名，市场份额进一步提升。2025年，众安保险承保综合成本率为95.8%，较2024年同期改善1.1个百分点，其中综合赔付率为57.1%，综合",
+    "sourceName": "腾讯自选股",
+    "sourceUrl": "https://gu.qq.com/resources/shy/news/detail-v2/index.html?t=1#/index?_tentrees_trans=0&id=SN20260320104437a6d6bc5e",
+    "publishedAt": "2026-03-20T10:39:00+08:00",
+    "category": "industry",
+    "tier": "normal",
+    "tags": []
+  },
+  {
+    "id": "842c7696419d",
+    "score": 59,
+    "title": "2025年保险业新主体开业：富泽人寿与东吴财险等六家机构入场",
+    "summary": "过去一年，保险业迎来六家新主体“入场”。据券商中国记者梳理，过去一年内，富泽人寿、东吴财险、保德信资管、法巴天星保险、荷全资管、友邦资管迎来开业。与近年一致，新设保险机构往往有两大背景，一类与化险相关，另一类为外资机构加码布局中国市场。两家地方国资系险企开业2025年，分别注册在山东济南和江苏苏州的新的寿险公司、财险公司迎来开业。2025年6月10日，山东金融监管局批复同意富泽人寿保险股份有限公司",
+    "sourceName": "腾讯自选股",
+    "sourceUrl": "https://gu.qq.com/resources/shy/news/detail-v2/index.html?t=1#/index?_tentrees_trans=0&id=SN20260228150109a43a2757",
+    "publishedAt": "2026-02-28T14:52:00+08:00",
+    "category": "industry",
+    "tier": "normal",
+    "tags": []
+  },
+  {
+    "id": "6ebe133f67d3",
+    "score": 61,
+    "title": "2025保险资管业绩亮眼，市场扩容至36家",
+    "summary": "财联社1月9日讯（编辑王蔚）2025已经收官，保险资管“战绩”如何？\n主体上看，保险资管“扩容”。在2025年的最后一天，两家外资全资控股的保险公司：友邦保险有限公司（以下简称“友邦保险资管”）、荷全保险资产管理有限公司（以下简称“荷全保险资管”）被核准正式开业。目前，市场共有36家保险资管公司。\n政策上看，2025年，险资围绕入市这一主线推动开展。2025年，相关部门共下发6次政策，引导商业保险",
+    "sourceName": "腾讯自选股",
+    "sourceUrl": "https://gu.qq.com/resources/shy/news/detail-v2/index.html?t=1#/index?_tentrees_trans=0&id=SN20260109191422a4b02096",
+    "publishedAt": "2026-01-09T19:14:00+08:00",
+    "category": "industry",
+    "tier": "normal",
+    "tags": []
+  },
+  {
+    "id": "d1b52b3ca554",
+    "score": 59,
+    "title": "【研报】保险行业2024年一季报综述：寿险持续改善 产险有所承压",
+    "summary": "一、行业总览：总保费增速分化、利润表现好于预期。24Q1人身险保费增速差异性较大，产险保费保持稳健增长；投资导致险企净利润分化，但总体净利润增速好于市场预期。\r    二、寿险：储蓄险拉动新单与NBV增长\r    1）新单：主要上市险企总新单普遍下滑，结构改善明显。个险转型成效持续显现，24Q1个险总新单普遍增长较好。银保坚持高质量发展，新单受“报行合一”政策影响显著下滑但结构有所改善。",
+    "sourceName": "腾讯自选股",
+    "sourceUrl": "https://gu.qq.com/resources/shy/news/detail-v2/index.html#/?id=res768394114760",
+    "publishedAt": "2024-05-07T00:00:00+08:00",
+    "category": "industry",
+    "tier": "normal",
+    "tags": []
+  },
+  {
+    "id": "80ea2ea136ff",
+    "score": 56,
+    "title": "黄仁勋：Marvell可能会成为“下一家万亿美元公司”",
+    "summary": "2026年台北Computex进行到第二天，Jensen Huang 与 Marvell Technology CEO Matt Murphy 同台对谈时，公开称Marvell可能会成为“下一家万亿美元公司”，引发AI基础设施市场高度关注。\n黄仁勋表示，随着Agent AI开始大规模落地，AI计算正在从“单个模型竞争”，进入“整个数据中心协同计",
+    "sourceName": "华尔街见闻",
+    "sourceUrl": "https://wallstreetcn.com/articles/3773635",
+    "publishedAt": "2026-06-02T16:31:13+08:00",
+    "category": "industry",
+    "tier": "normal",
+    "tags": []
+  },
+  {
+    "id": "7e5bb2b5dccc",
+    "score": 54,
+    "title": "特朗普操纵“美伊叙事”：先说“不在乎谈判成不成”，后发帖“预计一周内达成协议”，称“以黎停火”，但以色列要继续行动",
+    "summary": "美国总统特朗普正就脆弱的美伊和平谈判释放出相互矛盾的信号，其立场在公开漠视与极度乐观之间剧烈摇摆。与此同时，以色列与黎巴嫩真主党之间持续的军事冲突，正严重威胁中东地区更广泛的停火努力。\n据媒体报道，当地时间6月1日，特朗普在接受采访时称，若与伊朗的谈判破裂，他\"毫不在乎\"；但约半小时后，他又在社交媒体上发文称谈判正在\"快速推进\"，并预计将在\"未来一周内\"与伊朗达",
+    "sourceName": "华尔街见闻",
+    "sourceUrl": "https://wallstreetcn.com/articles/3773609",
+    "publishedAt": "2026-06-02T16:31:13+08:00",
+    "category": "industry",
+    "tier": "normal",
+    "tags": []
+  },
+  {
+    "id": "2327927745ac",
+    "score": 56,
+    "title": "罕见增发！谷歌募资800亿美元砸AI基建，伯克希尔百亿入局",
+    "summary": "Alphabet拟募资800亿美元支持AI资本开支，伯克希尔以折扣价入股100亿。\n6月1日，谷歌母公司Alphabet宣布，计划通过股权融资筹集最高800亿美元，用于支撑其大规模AI基础设施投资。\n此次融资由三部分构成：400亿美元的按市价销售（ATM）计划、300亿美元的承销发行（含强制可转换优先股），以及向伯",
+    "sourceName": "华尔街见闻",
+    "sourceUrl": "https://wallstreetcn.com/articles/3773607",
+    "publishedAt": "2026-06-02T16:31:13+08:00",
+    "category": "industry",
+    "tier": "normal",
+    "tags": []
+  },
+  {
+    "id": "a3af7caf21a6",
+    "score": 56,
+    "title": "中东局势与AI热潮交织，标普纳指八连涨再新高，英伟达和Arm大涨，美油一度涨超8%",
+    "summary": "特朗普宣布美伊谈判仍在继续，科技股领涨推动标普500指数录得八连涨，创逾一年最长连涨纪录。然而美股小盘股、公用事业及消费品等其余绝大多数板块下跌。\n油价大幅攀升、美债收益率走高，黄金与比特币双双下挫，市场内部分歧信号明显。\n<img class=\" wscnph\" src=\"https://wpimg-wsc",
+    "sourceName": "华尔街见闻",
+    "sourceUrl": "https://wallstreetcn.com/articles/3773537",
+    "publishedAt": "2026-06-02T16:31:13+08:00",
+    "category": "industry",
+    "tier": "normal",
+    "tags": []
+  },
+  {
+    "id": "44d814d15a7a",
+    "score": 56,
+    "title": "华尔街见闻早餐FM-Radio | 2026年6月2日",
+    "summary": "华见早安之声\n请各位听众升级为见闻最新版APP，以便成功收听以下音频。\n<img class=\"wscnph editor-placeholder\" src=\"https://wdl-wscn.awtmt.com/2ed0c8c8-fb82-499d-b81c-3fd1de114eae\" data-wscntype=\"a",
+    "sourceName": "华尔街见闻",
+    "sourceUrl": "https://wallstreetcn.com/articles/3773598",
+    "publishedAt": "2026-06-02T16:31:13+08:00",
+    "category": "industry",
+    "tier": "normal",
+    "tags": []
+  },
+  {
+    "id": "23ea0b092931",
+    "score": 56,
+    "title": "紧跟戴尔、联想步伐，“服务器巨头”慧与科技营收远超预期，大幅上调指引，盘后一度暴涨40%｜财报见闻",
+    "summary": "慧与科技Q2营收与盈利双双大幅超越预期，AI与网络基础设施的爆发性需求正推动这家老牌科技公司全力加速。\n6月1日美股盘后，慧与科技（HPE）发布第二财季业绩，Q2营收达107亿美元，同比增长40%，超出分析师预期约9亿美元。\n其中网络业务营收同比激增148%，服务器业务同样超预期近10亿美元。调整后每股收益</st",
+    "sourceName": "华尔街见闻",
+    "sourceUrl": "https://wallstreetcn.com/articles/3773608",
+    "publishedAt": "2026-06-02T16:31:13+08:00",
+    "category": "industry",
+    "tier": "normal",
+    "tags": []
+  },
+  {
+    "id": "bdd6ff2f9333",
+    "score": 53,
+    "title": "抗议以军扩大在黎行动，伊朗据称将暂停与美沟通，计划彻底封锁霍尔木兹海峡",
+    "summary": "伊朗宣布中止与美国的间接对话，并威胁完全封锁霍尔木兹海峡，地缘政治风险急剧升温，全球能源市场面临新的重大不确定性。\n据新华社，据伊朗媒体6月1日报道，鉴于以色列在黎巴嫩的持续军事行动，",
+    "sourceName": "华尔街见闻",
+    "sourceUrl": "https://wallstreetcn.com/articles/3773592",
+    "publishedAt": "2026-06-02T16:31:13+08:00",
+    "category": "industry",
+    "tier": "normal",
+    "tags": []
+  },
+  {
+    "id": "b1301bf46f82",
+    "score": 56,
+    "title": "打破\"只买不卖\"惯例！MSTR首度出售比特币，套现250万美元",
+    "summary": "全球最大企业比特币持有者Strategy打破\"只买不卖\"惯例，首次披露出售比特币所得用于支付优先股分红，出售均价高于持仓成本，但低于当前市价的局面引发市场关注。\n根据周一提交的8-K文件，Strategy于5月26日至31日间以平均每枚77135美元的净价出售了32枚比特币，总金额约250万美元。文件脚注显示，此次出售所得将专门用于支付公司优先",
+    "sourceName": "华尔街见闻",
+    "sourceUrl": "https://wallstreetcn.com/articles/3773584",
+    "publishedAt": "2026-06-02T16:31:13+08:00",
+    "category": "industry",
+    "tier": "normal",
+    "tags": []
+  },
+  {
+    "id": "0a53c83128d0",
+    "score": 44,
+    "title": "美团Q1营收同比增5.6%超预期，环比大幅减亏超百亿｜财报见闻",
+    "summary": "\n美团一季度仍",
+    "sourceName": "华尔街见闻",
+    "sourceUrl": "https://wallstreetcn.com/articles/3773571",
+    "publishedAt": "2026-06-02T16:31:13+08:00",
+    "category": "industry",
+    "tier": "normal",
+    "tags": []
+  },
+  {
+    "id": "e173dc8c508e",
+    "score": 56,
+    "title": "黄仁勋的棋局：AI算力的每一条路，都有英伟达在等候",
+    "summary": "黄仁勋今天在中国台北做了两件事：把 CUDA 塞进了笔记本，把万亿参数推理搬到了桌边。\n<img class=\" wscnph\" src=\"https://wpimg-wscn.awtmt.com/4231f02c-d340-4540-8212-32fcbb8a0843.png\" data-wscntype=\"image\" d",
+    "sourceName": "华尔街见闻",
+    "sourceUrl": "https://wallstreetcn.com/articles/3773569",
+    "publishedAt": "2026-06-02T16:31:13+08:00",
+    "category": "industry",
+    "tier": "normal",
+    "tags": []
+  },
+  {
+    "id": "ae67945cf95c",
+    "score": 44,
+    "title": "直击业绩会 | 力鼎光电2025年年度暨2026年第一季度业绩说明会",
+    "summary": "力鼎光电2025年年度暨202",
+    "sourceName": "第一财经",
+    "sourceUrl": "https://www.yicai.com/live/103212295.html",
+    "publishedAt": "2026-06-02T16:31:13+08:00",
+    "category": "industry",
+    "tier": "normal",
+    "tags": []
+  },
+  {
+    "id": "8fa623f0033c",
+    "score": 53,
+    "title": "今日这些个股异动 主力加仓电子、通信板块",
+    "summary": "今日这些个股异动 主力加仓电子、通信板块【振幅大】-今日A股共有21只个股振幅超过20%；-惠丰钻石、胜业电气、龙辰科技等个股振幅居前；【换手率高】-今日A股共有7只个股换手率超过40%；-云汉芯城、信音电子、*ST元道等个股换手率居前；【主力资金】-主力资金今日净流",
+    "sourceName": "第一财经",
+    "sourceUrl": "https://www.yicai.com/news/103212328.html",
+    "publishedAt": "2026-06-02T16:31:13+08:00",
+    "category": "industry",
+    "tier": "normal",
+    "tags": []
+  },
+  {
+    "id": "af1ad92c508f",
+    "score": 56,
+    "title": "乌称打击俄多处重要军事及能源目标",
+    "summary": "乌称打击俄多处重要军事及能源目标据央视新闻，当地时间6月2日，乌克兰武装部队总参谋部通报称，乌国防力量于1日夜间至2日凌晨，对俄罗斯境内多处重要目标实施打击。本次打击覆盖多处关键设施与军事装备，位于俄罗斯克拉斯诺达尔边疆区的伊利斯基炼油厂遭袭后起火，具体损失情况仍有待核实。此外，乌方还打击了俄方“铠甲-S1”弹炮合一防空系统、一艘军用舰船等目标。",
+    "sourceName": "第一财经",
+    "sourceUrl": "https://www.yicai.com/news/103212326.html",
+    "publishedAt": "2026-06-02T16:31:13+08:00",
+    "category": "industry",
+    "tier": "normal",
+    "tags": []
+  },
+  {
+    "id": "f6e461c2322e",
+    "score": 44,
+    "title": "直击业绩会 | 国金证券2025年年度暨2026年第一季度业绩暨现金分红说明会",
+    "summary": "国金证券2025年年",
+    "sourceName": "第一财经",
+    "sourceUrl": "https://www.yicai.com/live/103212322.html",
+    "publishedAt": "2026-06-02T16:31:13+08:00",
+    "category": "industry",
+    "tier": "normal",
+    "tags": []
+  },
+  {
+    "id": "cbf27f73b755",
+    "score": 56,
+    "title": "欧盟拟出台新规 限制美国大型科技公司参与战略性项目招标",
+    "summary": "欧盟拟出台新规 限制美国大型科技公司参与战略性项目招标据央视新闻援引路透社6月1日报道，相关文件显示，欧盟计划针对关键政府公共采购项目中的云计算服务出台严苛准入标准，此举或将把亚马逊、微软与谷歌三大美国科技企业排除在相关项目之外。据报道，该提案是欧盟委员会《云计算与人工智能发展法案》的组成内容。欧盟数字事务专员亨娜·维尔库宁将于6月3日正式公布该提案的内容及配套",
+    "sourceName": "第一财经",
+    "sourceUrl": "https://www.yicai.com/news/103212324.html",
+    "publishedAt": "2026-06-02T16:31:13+08:00",
+    "category": "industry",
+    "tier": "normal",
+    "tags": []
+  },
+  {
+    "id": "bc3e6225316a",
+    "score": 53,
+    "title": "三川智慧：拟转让景川水务57.7634%股权",
+    "summary": "三川智慧：拟转让景川水务57.7634%股权三川智慧公告，公司拟将所持有的鹰潭市景川水务有限公司（简称“景川水务”）57.7634%的股权，以评估价369.37万元，转让给鹰潭市龙虎山景区龙兴国有资产运营管理（集团）有限公司。交易完成后，公司将不再持有景川水务的股权。",
+    "sourceName": "第一财经",
+    "sourceUrl": "https://www.yicai.com/news/103212320.html",
+    "publishedAt": "2026-06-02T16:31:13+08:00",
+    "category": "industry",
+    "tier": "normal",
+    "tags": []
+  },
+  {
+    "id": "144562898de2",
+    "score": 53,
+    "title": "泽连斯基说俄大规模袭击致至少13人死亡",
+    "summary": "泽连斯基说俄大规模袭击致至少13人死亡据新华社，乌克兰总统泽连斯基2日说，乌国家紧急情况局已出动500多人应对俄罗斯1日晚至2日清晨发动的大规模袭击。袭击已造成至少13人死亡、数十人受伤。其中，首都基辅至少有4人死亡，38人正在接受治疗；第聂伯市9人死亡，35人受伤，另有6人下落不明。",
+    "sourceName": "第一财经",
+    "sourceUrl": "https://www.yicai.com/news/103212318.html",
+    "publishedAt": "2026-06-02T16:31:13+08:00",
+    "category": "industry",
+    "tier": "normal",
+    "tags": []
+  },
+  {
+    "id": "6b60f3f5ccf8",
+    "score": 53,
+    "title": "科大智能：作为供货方与华西能源签署约1.3亿美元设备采购框架合同",
+    "summary": "科大智能：作为供货方与华西能源签署约1.3亿美元设备采购框架合同科大智能公告，公司作为供货方与采购方华西能源工业股份有限公司（简称“华西能源”）签署了《伊拉克巴格达Al-Daura热电厂4×160MW燃油发电重建项目设备采购框架合同》，合同暂估总价约为1.3亿美元。",
+    "sourceName": "第一财经",
+    "sourceUrl": "https://www.yicai.com/news/103212314.html",
+    "publishedAt": "2026-06-02T16:31:13+08:00",
+    "category": "industry",
+    "tier": "normal",
+    "tags": []
+  },
+  {
+    "id": "c08c55405d30",
+    "score": 53,
+    "title": "星汗资产管理行政总裁王荣昆：港股业绩增长乏力 估值优势减弱 AI板块与高息股成资金避风港丨港股收市",
+    "summary": "<source src=\"https://vms1.yicai.com/vms-new/2026/06/bff3170a-9fd3-4d00-aa6e-cd4a27034929.",
+    "sourceName": "第一财经",
+    "sourceUrl": "https://www.yicai.com/video/103212312.html",
+    "publishedAt": "2026-06-02T16:31:13+08:00",
+    "category": "industry",
+    "tier": "normal",
+    "tags": []
+  },
+  {
+    "id": "0854aaf5632e",
+    "score": 48,
+    "title": "迈威尔科技美股盘前大涨25%",
+    "summary": "迈威尔科技美股盘前大涨25%迈威尔科技美股盘前大涨25%，此前黄仁勋称迈威尔科技将成为下一个万亿美元公司。",
+    "sourceName": "第一财经",
+    "sourceUrl": "https://www.yicai.com/news/103212311.html",
+    "publishedAt": "2026-06-02T16:31:13+08:00",
+    "category": "industry",
+    "tier": "normal",
+    "tags": []
+  },
+  {
+    "id": "9658f4dd4a2b",
+    "score": 53,
+    "title": "专访欧洲议会议员翁德热伊·多斯塔尔：欧洲应更务实看待中国市场 双方可在产业与治理中加强合作",
+    "summary": "<source src=\"https://vms1.yicai.com/vms-new/2026/06/213d5ed0-52fa-4197-a0c6-3b6a59747271.",
+    "sourceName": "第一财经",
+    "sourceUrl": "https://www.yicai.com/video/103212307.html",
+    "publishedAt": "2026-06-02T16:31:13+08:00",
+    "category": "industry",
+    "tier": "normal",
+    "tags": []
+  },
+  {
+    "id": "11573a97495c",
+    "score": 58,
+    "title": "我国牵头制定的安全协议测试国际标准发布",
+    "summary": "我国牵头制定的安全协议测试国际标准发布据央视新闻，记者今天从国家标准委了解到国际标准《信息技术 安全服务密码套件一致性测试方法 第16部分：ECDSA-ECDH密码套件》发布。该标准由我国牵头主导制定，拥有完全自主知识产权，是我国信息安全服务领域的重要创新成果，为国际密码套件合规应用、安全测评提供了统一技术规范。射频识别（RFID）技术和自动识别与数据采集（AI",
+    "sourceName": "第一财经",
+    "sourceUrl": "https://www.yicai.com/news/103212297.html",
+    "publishedAt": "2026-06-02T16:31:13+08:00",
+    "category": "industry",
+    "tier": "normal",
+    "tags": []
+  },
+  {
+    "id": "e51993472837",
+    "score": 56,
+    "title": "美国下调部分钢铝铜产品进口关税",
+    "summary": "美国下调部分钢铝铜产品进口关税据央视新闻，美国白宫当地时间6月1日发布公告说，美国总统特朗普当天签署文件，依据《1962年贸易扩展法》第232条款，暂时调整部分进口钢铝铜产品关税。根据该文件，收割机和一些其他农业机械适用的进口从价关税从25%下调至15%。白宫还调整了今年4月2日发布的钢铝铜关税文件中关于进口产品是否“完全”使用美国产钢铝铜制造的",
+    "sourceName": "第一财经",
+    "sourceUrl": "https://www.yicai.com/news/103212294.html",
+    "publishedAt": "2026-06-02T16:31:13+08:00",
+    "category": "industry",
+    "tier": "normal",
+    "tags": []
+  },
+  {
+    "id": "93b37ec8d2c7",
+    "score": 53,
+    "title": "腾讯云：下调DeepSeek-V4系列模型价格 最高降幅97.5%",
+    "summary": "腾讯云：下调DeepSeek-V4系列模型价格 最高降幅97.5%腾讯云公告，为持续降低用户使用成本，腾讯云智能体开发平台将于北京时间2026年6月3日00:00对DeepSeek-V4系列模型价格进行下调，最高降幅达97.5%。",
+    "sourceName": "第一财经",
+    "sourceUrl": "https://www.yicai.com/news/103212292.html",
+    "publishedAt": "2026-06-02T16:31:13+08:00",
+    "category": "industry",
+    "tier": "normal",
+    "tags": []
+  },
+  {
+    "id": "febe2791de45",
+    "score": 53,
+    "title": "全球瞭望：日本外汇干预规模创历史新高 日元成为“全球最弱货币”？",
+    "summary": "<source src=\"https://vms1.yicai.com/vms-new/2026/06/be0196bc-250b-4eff-8630-5771827d027e.",
+    "sourceName": "第一财经",
+    "sourceUrl": "https://www.yicai.com/video/103212290.html",
+    "publishedAt": "2026-06-02T16:31:13+08:00",
+    "category": "industry",
+    "tier": "normal",
+    "tags": []
+  },
+  {
+    "id": "cdedeb7231cc",
+    "score": 53,
+    "title": "港股收盘丨恒指涨2.52% 腾讯控股大涨逾10%",
+    "summary": "港股收盘丨恒指涨2.52% 腾讯控股大涨逾10%恒指涨2.52%，恒生科技指数涨4.72%。腾讯控股大涨逾10%，美团涨逾9%，蔚来涨逾8%，阿里巴巴、比亚迪股份、小鹏集团、京东集团等多股涨逾6%。",
+    "sourceName": "第一财经",
+    "sourceUrl": "https://www.yicai.com/news/103212289.html",
+    "publishedAt": "2026-06-02T16:31:13+08:00",
+    "category": "industry",
+    "tier": "normal",
+    "tags": []
+  },
+  {
+    "id": "d49f248b64d2",
+    "score": 53,
+    "title": "刘刚：沪指阶段调整基本到位 短期迎来反弹机会",
+    "summary": "<source src=\"https://vms1.yicai.com/vms-new/2026/06/82b11692-f4e0-4e13-9d00-0e2a772f0d54.",
+    "sourceName": "第一财经",
+    "sourceUrl": "https://www.yicai.com/video/103212285.html",
+    "publishedAt": "2026-06-02T16:31:13+08:00",
+    "category": "industry",
+    "tier": "normal",
+    "tags": []
+  },
+  {
+    "id": "e26868af7692",
+    "score": 53,
+    "title": "尾市盘点：主要股指全线收红 双创指数领涨 沪指阶段调整基本到位？",
+    "summary": "<source src=\"https://vms1.yicai.com/vms-new/2026/06/e432cc06-a45a-4e98-869c-8610b2512713.m",
+    "sourceName": "第一财经",
+    "sourceUrl": "https://www.yicai.com/video/103212284.html",
+    "publishedAt": "2026-06-02T16:31:13+08:00",
+    "category": "industry",
+    "tier": "normal",
+    "tags": []
+  },
+  {
+    "id": "f871de0291e8",
+    "score": 53,
+    "title": "刘刚：双创指数高位震荡 调整格局",
+    "summary": "<source src=\"https://vms1.yicai.com/vms-new/2026/06/9b116050-8ed2-45b7-ab8b-5e87d77c4eec.",
+    "sourceName": "第一财经",
+    "sourceUrl": "https://www.yicai.com/video/103212282.html",
+    "publishedAt": "2026-06-02T16:31:13+08:00",
+    "category": "industry",
+    "tier": "normal",
+    "tags": []
+  },
+  {
+    "id": "a8e69cb047a4",
+    "score": 53,
+    "title": "凡明：大盘短期反弹 但高度有限 关注有色金属 消费 券商",
+    "summary": "<source src=\"https://vms1.yicai.com/vms-new/2026/06/b2b3adb5-669f-489d-b264-2154371243ab.",
+    "sourceName": "第一财经",
+    "sourceUrl": "https://www.yicai.com/video/103212280.html",
+    "publishedAt": "2026-06-02T16:31:13+08:00",
+    "category": "industry",
+    "tier": "normal",
+    "tags": []
+  },
+  {
+    "id": "d0902767d952",
+    "score": 56,
+    "title": "巨化股份：公司建有PTFE产能2.8万吨/年 在建3.7万吨/年",
+    "summary": "巨化股份：公司建有PTFE产能2.8万吨/年 在建3.7万吨/年巨化股份在互动平台表示，PTFE（聚四氟乙烯）具备优良的耐热性，耐化学性、阻燃性等，主要应用在国防、航天、电子、电气、化工、机械、仪器、建筑、医疗等领域。截至2025年底，公司建有PTFE产能2.8万吨/年，在建3.7万吨/年。目前公司正积极推进与电子、半导体领域客户的合作。",
+    "sourceName": "第一财经",
+    "sourceUrl": "https://www.yicai.com/news/103212279.html",
+    "publishedAt": "2026-06-02T16:31:13+08:00",
+    "category": "industry",
+    "tier": "normal",
+    "tags": []
+  },
+  {
+    "id": "ce01f92b9a78",
+    "score": 53,
+    "title": "赵冬梅：分化加大 市场处于调整周期中",
+    "summary": "<source src=\"https://vms1.yicai.com/vms-new/2026/06/32049abc-cdfd-40c9-a5f8-322a917bc3ac.",
+    "sourceName": "第一财经",
+    "sourceUrl": "https://www.yicai.com/video/103212277.html",
+    "publishedAt": "2026-06-02T16:31:13+08:00",
+    "category": "industry",
+    "tier": "normal",
+    "tags": []
+  },
+  {
+    "id": "b8931b720aa8",
+    "score": 53,
+    "title": "国家开发银行原行务委员蒋志刚接受审查调查",
+    "summary": "国家开发银行原行务委员蒋志刚接受审查调查据中央纪委国家监委驻国家开发银行纪检监察组、安徽省纪委监委消息：国家开发银行原行务委员、专家委员会原资深专家蒋志刚涉嫌严重违纪违法，目前正接受中央纪委国家监委驻国家开发银行纪检监察组纪律审查和安徽省宿州市监察委员会监察调查。",
+    "sourceName": "第一财经",
+    "sourceUrl": "https://www.yicai.com/news/103212270.html",
+    "publishedAt": "2026-06-02T16:31:13+08:00",
+    "category": "industry",
+    "tier": "normal",
+    "tags": []
+  },
+  {
+    "id": "980ce35c7667",
+    "score": 53,
+    "title": "2026年6月2日《市场零距离》下午",
+    "summary": "<source src=\"https://ycalvod.yicai.com/record/live/cbn/f94f1f7b-28b2-4d88-b330-cf41f798fd7",
+    "sourceName": "第一财经",
+    "sourceUrl": "https://www.yicai.com/video/103212267.html",
+    "publishedAt": "2026-06-02T16:31:13+08:00",
+    "category": "industry",
+    "tier": "normal",
+    "tags": []
+  },
+  {
+    "id": "eca5f403a377",
+    "score": 44,
+    "title": "逛展看新品，对谈聊消费丨财经视角探访2026上海老博会",
+    "summary": "2026 上海国际养老博览会重磅启幕，第一财",
+    "sourceName": "第一财经",
+    "sourceUrl": "https://www.yicai.com/topic/103212264/",
+    "publishedAt": "2026-06-02T16:31:13+08:00",
+    "category": "industry",
+    "tier": "normal",
+    "tags": []
+  },
+  {
+    "id": "eca5f403a377",
+    "score": 44,
+    "title": "逛展看新品，对谈聊消费丨财经视角探访2026上海老博会-下午场",
+    "summary": "2026 上海国际养老博览会重磅启幕",
+    "sourceName": "第一财经",
+    "sourceUrl": "https://www.yicai.com/live/103212263.html",
+    "publishedAt": "2026-06-02T16:31:13+08:00",
+    "category": "industry",
+    "tier": "normal",
+    "tags": []
+  },
+  {
+    "id": "eca5f403a377",
+    "score": 44,
+    "title": "逛展看新品，对谈聊消费丨财经视角探访2026上海老博会-上午场",
+    "summary": "2026 上海国际养老博览会重磅启幕",
+    "sourceName": "第一财经",
+    "sourceUrl": "https://www.yicai.com/live/103212255.html",
+    "publishedAt": "2026-06-02T16:31:13+08:00",
+    "category": "industry",
+    "tier": "normal",
+    "tags": []
+  },
+  {
+    "id": "a49db626dd75",
+    "score": 56,
+    "title": "新诺威：控股子公司在2026年美国临床肿瘤学会年会公布SYS6043研究成果",
+    "summary": "新诺威：控股子公司在2026年美国临床肿瘤学会年会公布SYS6043研究成果新诺威公告，公司控股子公司石药集团巨石生物制药有限公司（简称“巨石生物”）在2026年5月29日—6月2日于芝加哥举行的2026年美国临床肿瘤学会（ASCO）年会中，以口头报告形式公布SYS6043的I期临床研究数据。SYS6043是一款新型B7-H3靶向ADC，载荷为拓扑异构酶I抑制剂，药物抗体比（D",
+    "sourceName": "第一财经",
+    "sourceUrl": "https://www.yicai.com/news/103212262.html",
+    "publishedAt": "2026-06-02T16:31:13+08:00",
+    "category": "industry",
+    "tier": "normal",
+    "tags": []
+  },
+  {
+    "id": "32ef34599a13",
+    "score": 44,
+    "title": "专家观点：烟草税提税进入窗口期",
+    "summary": "并非整体加税，而是结构性税负调整，以压缩低价烟空间近日",
+    "sourceName": "第一财经",
+    "sourceUrl": "https://www.yicai.com/news/103212248.html",
+    "publishedAt": "2026-06-02T16:31:13+08:00",
+    "category": "industry",
+    "tier": "normal",
+    "tags": []
+  },
+  {
+    "id": "ec7c2a8e047f",
+    "score": 53,
+    "title": "欧洲议会投票通过欧美贸易协议",
+    "summary": "欧洲议会投票通过欧美贸易协议据央视新闻，当地时间6月2日，欧洲议会国际贸易委员会投票通过欧美贸易协议。2025年7月，美国总统特朗普和欧盟委员会主席冯德莱恩在英国宣布美欧达成新贸易协议，但后来双方因美国索要丹麦自治领地格陵兰岛引发关系紧张，加之美国最高法院裁定美国政府大规模关税政策违法等原因，欧盟对协议的批准经历数月延迟。今年3月26日，欧洲议会投票支持有条件执",
+    "sourceName": "第一财经",
+    "sourceUrl": "https://www.yicai.com/news/103212257.html",
+    "publishedAt": "2026-06-02T16:31:13+08:00",
+    "category": "industry",
+    "tier": "normal",
+    "tags": []
   }
 ]
 };

@@ -71,19 +71,7 @@
         navFeatured.classList.remove('active');
       });
       catBar.appendChild(tab);
-      // Insert "精选" tab right after "全部"
-      if (cat.slug === 'all') {
-        var featuredTab = document.createElement('span');
-        featuredTab.className = 'cat-tab';
-        featuredTab.textContent = '精选';
-        featuredTab.setAttribute('data-cat', 'featured');
-        featuredTab.addEventListener('click', function() {
-          activateTab(featuredTab);
-          renderFeed('featured');
-          navFeatured.classList.add('active');
-        });
-        catBar.appendChild(featuredTab);
-      }
+      // "精选" tab comes from CATEGORIES data already, no need to insert manually
     });
   }
 
@@ -166,7 +154,9 @@
 
     var catCfg = config[item.category] || {};
     var tags = item.tags || [];
-    var scoreBadge = (item.score >= featuredThreshold) ? ('<span class="card-score">精选 ' + item.score + '</span>') : '';
+    var scoreBadge = item.score >= featuredThreshold
+      ? '<span class="card-score card-score-featured">' + item.score + '</span>'
+      : '<span class="card-score">' + item.score + '</span>';
 
     card.innerHTML =
       '<div class="card-meta">' +

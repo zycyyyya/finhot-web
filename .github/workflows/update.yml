@@ -1,10 +1,6 @@
-name: Daily Update
+name: Manual Update
 
 on:
-  schedule:
-    # 每天北京时间 8:00 和 20:00 自动执行
-    - cron: '0 0 * * *'
-    - cron: '0 12 * * *'
   workflow_dispatch:  # 手动触发
 
 jobs:
@@ -14,25 +10,5 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
-
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 22
-
-      - name: Install dependencies
-        run: npm install xml2js
-
-      - name: Fetch latest data
-        run: node scripts/fetch.js > data.js
-
-      - name: Commit and push if changed
-        run: |
-          git config user.name "finhot-bot"
-          git config user.email "bot@finhot.dev"
-          git add data.js
-          if git diff --staged --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "auto: incremental update $(date +%Y-%m-%d)"
-            git push
-          fi
+      - name: Placeholder
+        run: echo "Data updates handled by WorkBuddy automation (build_data.py). Manual trigger only."

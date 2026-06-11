@@ -271,20 +271,14 @@ filtered.sort(key=lambda x: datetime.fromisoformat(x["publishedAt"].replace("Z",
 sections = {"regulatory": [], "products": [], "industry": [], "research": [], "insights": []}
 for it in filtered:
     cat = it["category"]
-    if cat in sections:
-        sections[cat].append({
-            "title": it["title"],
-            "summary": it["summary"],
-            "sourceName": it["sourceName"],
-            "sourceUrl": it["sourceUrl"],
-            "publishedAt": it["publishedAt"]
-        })
+    if cat in sections and len(sections[cat]) < 6:
+        sections[cat].append(it["id"])
 
 # 鈹€鈹€ Build flashes (top 8 by recency) 鈹€鈹€
 flashes = []
 for it in filtered[:8]:
     flashes.append({
-        "title": it["title"],
+        "id": it["id"],
         "dotClass": "flash-dot-blue"
     })
 
@@ -324,7 +318,7 @@ window.FINHOT_DATA = {{
 }};
 """
 
-with open("C:/Users/EDY/WorkBuddy/2026-05-29-10-28-44/finhot-site/data.js", "w", encoding="utf-8") as f:
+with open("data.js", "w", encoding="utf-8") as f:
     f.write(output)
 
 print(f"鉁?data.js generated 鈥?{len(filtered)} items, {sum(len(v) for v in sections.values())} section entries")

@@ -1,0 +1,12 @@
+﻿{
+  "name": "finhot-web",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Financial insurance news aggregation site",
+  "scripts": {
+    "fetch": "node scripts/fetch.js > data.js"
+  },
+  "dependencies": {
+    "xml2js": "^0.6.0"
+  }
+}

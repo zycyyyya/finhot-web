@@ -38,6 +38,17 @@
   var categories = window.CATEGORIES;
   var config = window.CATEGORY_CONFIG;
 
+  // XSS protection
+  function escapeHtml(str) {
+    if (!str) return '';
+    return String(str).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+  }
+
+  // Pagination
+  var PAGE_SIZE = 20;
+  var currentFiltered = [];
+  var currentPage = 0;
+
   var timeLabel = document.getElementById('timeLabel');
   var countLabel = document.getElementById('countLabel');
   var newsFeed = document.getElementById('newsFeed');
@@ -66,7 +77,7 @@
       tab.setAttribute('data-cat', cat.slug);
       tab.addEventListener('click', function() {
         activateTab(tab);
-        renderFeed(cat.slug);
+        renderFeed(cat.slug, false);
         // If switching away from featured, deactivate nav highlight
         navFeatured.classList.remove('active');
       });
@@ -89,7 +100,7 @@
     if (featuredTabEl) {
       activateTab(featuredTabEl);
     }
-    renderFeed('featured');
+    renderFeed('featured', false);
   });
 
   // Other nav links remove featured highlight
@@ -161,12 +172,12 @@
     card.innerHTML =
       '<div class="card-meta">' +
         '<span class="card-time">' + formatTime(item.publishedAt) + '</span>' +
-        '<span class="card-source">' + (item.sourceName || '') + '</span>' +
+        '<span class="card-source">' + escapeHtml(item.sourceName || '') + '</span>' +
         scoreBadge +
         '<span class="meta-spacer"></span>' +
       '</div>' +
-      '<h2 class="card-title">' + (item.title || '') + '</h2>' +
-      '<p class="card-summary">' + (item.summary || '') + '</p>' +
+      '<h2 class="card-title">' + escapeHtml(item.title || '') + '</h2>' +
+      '<p class="card-summary">' + escapeHtml(item.summary || '') + '</p>' +
       '<div class="tag-row">' +
         tags.map(function(t) { return '<span class="tag ' + (catCfg.tagClass || '') + '">' + t + '</span>'; }).join('') +
       '</div>';
@@ -182,20 +193,40 @@
     });
   }
 
-  function renderFeed(filter) {
-    newsFeed.innerHTML = '';
-    var items;
-    if (filter === 'all') {
-      items = data.items;
-    } else if (filter === 'featured') {
-      items = data.items.filter(function(i) { return i.score >= featuredThreshold; });
-    } else {
-      items = data.items.filter(function(i) { return i.category === filter; });
+  function renderFeed(filter, append) {
+    if (!append) {
+      newsFeed.innerHTML = '';
+      currentPage = 0;
+      if (filter === 'all') {
+        currentFiltered = data.items;
+      } else if (filter === 'featured') {
+        currentFiltered = data.items.filter(function(i) { return i.score >= featuredThreshold; });
+      } else {
+        currentFiltered = data.items.filter(function(i) { return i.category === filter; });
+      }
+      currentFiltered = sortByTimeDesc(currentFiltered);
+      countLabel.textContent = currentFiltered.length + ' 条';
     }
-    items = sortByTimeDesc(items);
-    items.forEach(function(item) { newsFeed.appendChild(createCard(item)); });
-    countLabel.textContent = items.length + ' 条';
-    if (items.length === 0) {
+
+    var start = currentPage * PAGE_SIZE;
+    var end = start + PAGE_SIZE;
+    var pageItems = currentFiltered.slice(start, end);
+    pageItems.forEach(function(item) { newsFeed.appendChild(createCard(item)); });
+    currentPage++;
+
+    var oldBtn = document.getElementById('loadMoreBtn');
+    if (oldBtn) oldBtn.remove();
+
+    if (end < currentFiltered.length) {
+      var btn = document.createElement('button');
+      btn.id = 'loadMoreBtn';
+      btn.className = 'load-more-btn';
+      btn.textContent = '加载更多 (' + (currentFiltered.length - end) + ' 条)';
+      btn.addEventListener('click', function() { renderFeed(null, true); });
+      newsFeed.appendChild(btn);
+    }
+
+    if (currentFiltered.length === 0) {
       newsFeed.innerHTML = '<p style="color:var(--text-muted);text-align:center;padding:40px;">暂无相关资讯</p>';
       countLabel.textContent = '';
     }

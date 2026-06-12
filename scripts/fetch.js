@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env node
+#!/usr/bin/env node
 // finhot-web Incremental RSS Fetcher
 // Only adds NEW content - URL dedup, title dedup, auto-expire old items, max 35 kept
 // Usage: node scripts/fetch.js > data.js

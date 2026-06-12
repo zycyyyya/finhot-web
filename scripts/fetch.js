@@ -10,7 +10,7 @@ const { parseStringPromise } = require('xml2js');
 
 const UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36';
 const RSSHUB = 'https://rsshub.liumingye.cn';
-const MAX_ITEMS = 35;
+const MAX_ITEMS = 150;
 const MAX_AGE_DAYS = 7;
 const DATA_FILE = 'data.js';
 const FETCH_TIMEOUT = 15000; // 15s per request
@@ -114,7 +114,7 @@ async function fetchRSS(route) {
     const channel = data.rss?.channel;
     if (!channel?.item) return [];
     const items = Array.isArray(channel.item) ? channel.item : [channel.item];
-    return items.filter(i => i.title && i.link).slice(0, 8).map(i => ({
+    return items.filter(i => i.title && i.link).slice(0, 12).map(i => ({
       title: (i.title || '').replace(/<[^>]*>/g, '').trim(),
       sourceUrl: i.link || '',
       publishedAt: i.pubDate ? new Date(i.pubDate).toISOString() : new Date().toISOString(),

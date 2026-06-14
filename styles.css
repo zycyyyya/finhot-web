@@ -233,6 +233,7 @@ a {
   display: flex;
   align-items: center;
   gap: 10px;
+  flex-wrap: wrap;
 }
 
 .card-time {
@@ -262,6 +263,16 @@ a {
 
 .card-score-featured {
   color: var(--accent-green);
+}
+
+.source-tier {
+  padding: 1px 6px;
+  border-radius: var(--radius-sm);
+  background: rgba(59, 130, 246, 0.12);
+  font-size: 11px;
+  font-weight: 600;
+  color: #60a5fa;
+  white-space: nowrap;
 }
 
 .meta-spacer {
@@ -303,6 +314,23 @@ a {
 .tag-industry { color: var(--cat-industry); }
 .tag-research { color: var(--cat-research); }
 .tag-insights { color: var(--cat-insights); }
+
+.why-row {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.why-chip {
+  padding: 2px 8px;
+  border-radius: var(--radius-sm);
+  background: rgba(34, 197, 94, 0.08);
+  border: 1px solid rgba(34, 197, 94, 0.14);
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--text-secondary);
+  line-height: 1.4;
+}
 
 /* === Load More Button === */
 .load-more-btn {
@@ -535,6 +563,17 @@ a {
   color: var(--text-secondary);
 }
 
+.source-note {
+  margin-top: 14px;
+  padding: 14px;
+  border-radius: var(--radius-md);
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  font-size: 13px;
+  line-height: 1.65;
+  color: var(--text-secondary);
+}
+
 .tech-items {
   display: flex;
   flex-direction: column;
@@ -560,5 +599,3 @@ a {
   font-weight: 400;
   color: var(--text-secondary);
 }
-
-

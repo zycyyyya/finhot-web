@@ -17,19 +17,35 @@ const FETCH_TIMEOUT = 15000; // 15s per request
 const MAX_RETRIES = 3;
 
 const SOURCES = [
-  { route: '/caixin/latest',            sourceName: '\u8d22\u65b0\u7f51',    category: 'industry',    tier: 'T1.5', scoreBase: 60 },
-  { route: '/wallstreetcn/news/global', sourceName: '\u534e\u5c14\u8857\u89c1\u95fb', category: 'industry', tier: 'T1.5', scoreBase: 55 },
-  { route: '/yicai/news',               sourceName: '\u7b2c\u4e00\u8d22\u7ecf',  category: 'industry',    tier: 'T1.5', scoreBase: 50 },
-  { route: '/cls/telegraph',            sourceName: '\u8d22\u8054\u793e',    category: 'industry',    tier: 'T2',   scoreBase: 50 },
-  { route: '/cls/depth',                sourceName: '\u8d22\u8054\u793e',    category: 'research',    tier: 'T2',   scoreBase: 55 },
-  { route: '/36kr/newsflashes',         sourceName: '36\u6c2a',     category: 'insights',    tier: 'T2',   scoreBase: 45 },
-  { route: '/szse/notice',              sourceName: '\u6df1\u4ea4\u6240',    category: 'regulatory',  tier: 'T1',   scoreBase: 60 },
+  { route: '/caixin/latest',            sourceName: '\u8d22\u65b0\u7f51',    category: 'industry',    tier: 'S2', evidenceType: 'financial_media' },
+  { route: '/wallstreetcn/news/global', sourceName: '\u534e\u5c14\u8857\u89c1\u95fb', category: 'industry', tier: 'S2', evidenceType: 'financial_media' },
+  { route: '/yicai/news',               sourceName: '\u7b2c\u4e00\u8d22\u7ecf',  category: 'industry',    tier: 'S2', evidenceType: 'financial_media' },
+  { route: '/cls/telegraph',            sourceName: '\u8d22\u8054\u793e',    category: 'industry',    tier: 'S3', evidenceType: 'news_flash' },
+  { route: '/cls/depth',                sourceName: '\u8d22\u8054\u793e',    category: 'research',    tier: 'S2', evidenceType: 'financial_media' },
+  { route: '/36kr/newsflashes',         sourceName: '36\u6c2a',     category: 'insights',    tier: 'S3', evidenceType: 'news_flash' },
+  { route: '/szse/notice',              sourceName: '\u6df1\u4ea4\u6240',    category: 'regulatory',  tier: 'S0', evidenceType: 'official_notice' },
 ];
+
+const TIER_LABELS = {
+  S0: '\u6743\u5a01\u539f\u59cb\u6e90',
+  S1: '\u7ed3\u6784\u5316\u6570\u636e\u6e90',
+  S2: '\u4e13\u4e1a\u8d22\u7ecf\u5a92\u4f53',
+  S3: '\u5feb\u8baf/\u89c2\u70b9\u7ebf\u7d22',
+};
 
 const CATEGORY_TAGS = {
   regulatory: '\u76d1\u7ba1\u653f\u7b56', products: '\u4ea7\u54c1\u53d1\u5e03', industry: '\u884c\u4e1a\u52a8\u6001',
   research: '\u7814\u7a76\u62a5\u544a', insights: '\u89c2\u70b9',
 };
+
+function sourceForItem(item) {
+  return SOURCES.find(src => src.sourceName === item.sourceName) || {
+    sourceName: item.sourceName || '\u672a\u77e5\u6765\u6e90',
+    category: item.category || 'industry',
+    tier: item.sourceTier || item.tier || 'S3',
+    evidenceType: item.evidenceType || 'unknown',
+  };
+}
 
 // === Title dedup helpers ===
 function normalizeTitle(t) {
@@ -155,16 +171,101 @@ function isLowQuality(item) {
   return false;
 }
 
-// === Simple AI scoring (local heuristic) ===
+function hasAny(text, keywords) {
+  const lower = (text || '').toLowerCase();
+  return keywords.some(k => lower.includes(k.toLowerCase()));
+}
+
+function clamp(num, min, max) {
+  return Math.max(min, Math.min(max, num));
+}
+
+function scoreByKeywords(text, groups, fallback) {
+  let score = fallback;
+  for (const group of groups) {
+    if (hasAny(text, group.keywords)) score = Math.max(score, group.score);
+  }
+  return score;
+}
+
+function buildWhy(scoreBreakdown, item, source) {
+  const why = [];
+  if (source.tier === 'S0') why.push('\u6743\u5a01\u539f\u59cb\u6765\u6e90');
+  if (source.tier === 'S2') why.push('\u4e13\u4e1a\u8d22\u7ecf\u5a92\u4f53\u8ddf\u8fdb');
+  if (source.tier === 'S3') why.push('\u5feb\u8baf\u7ebf\u7d22\uff0c\u9700\u7ed3\u5408\u539f\u6587\u5224\u65ad');
+  if (scoreBreakdown.impact >= 16) why.push('\u5bf9\u5c55\u4e1a/\u914d\u7f6e/\u5408\u89c4\u6709\u76f4\u63a5\u5f71\u54cd');
+  if (scoreBreakdown.actionability >= 8) why.push('\u53ef\u8f6c\u5316\u4e3a\u5ba2\u6237\u6c9f\u901a\u6216\u6295\u7814\u5173\u6ce8');
+  if (scoreBreakdown.recency >= 13) why.push('\u65f6\u6548\u6027\u9ad8');
+  if ((item.summary || '').length > 150) why.push('\u6458\u8981\u4fe1\u606f\u8f83\u5b8c\u6574');
+  return why.slice(0, 3);
+}
+
+function confidenceFor(source, scoreBreakdown) {
+  if (source.tier === 'S0') return 'high';
+  if (scoreBreakdown.authority >= 16 && scoreBreakdown.depth >= 7) return 'medium';
+  return 'low';
+}
+
+// === Practitioner value scoring ===
 function scoreItem(item, source) {
+  const text = `${item.title || ''} ${item.summary || ''}`;
   const ageHours = (Date.now() - new Date(item.publishedAt).getTime()) / 3600000;
-  const timeliness = ageHours < 6 ? 98 : ageHours < 24 ? 88 : ageHours < 72 ? 75 : ageHours < 168 ? 60 : 45;
-  const authority = source.tier === 'T1' ? 95 : source.tier === 'T1.5' ? 78 : 62;
-  const depth = (item.summary || '').length > 150 ? 82 : (item.summary || '').length > 80 ? 68 : 52;
-  const infoVal = item.title.length > 20 ? 78 : 62;
-  const dimScore = infoVal * 0.30 + authority * 0.25 + depth * 0.20 + timeliness * 0.25;
-  const tierWeight = source.tier === 'T1' ? 1.0 : source.tier === 'T1.5' ? 0.85 : 0.70;
-  return Math.round(dimScore * tierWeight);
+  const recency = ageHours < 6 ? 15 : ageHours < 24 ? 13 : ageHours < 72 ? 10 : ageHours < 168 ? 7 : 4;
+  const authority = source.tier === 'S0' ? 20 : source.tier === 'S1' ? 18 : source.tier === 'S2' ? 15 : 9;
+  const summaryLen = (item.summary || '').length;
+  const depth = source.tier === 'S0' ? 8 : summaryLen > 180 ? 10 : summaryLen > 100 ? 8 : summaryLen > 40 ? 6 : 3;
+  const relevance = scoreByKeywords(text, [
+    { score: 25, keywords: ['\u4fdd\u9669', '\u9669\u4f01', '\u9669\u8d44', '\u5bff\u9669', '\u8d22\u9669', '\u5065\u5eb7\u9669', '\u91d1\u76d1\u603b\u5c40', '\u507f\u4ed8', '\u7cbe\u7b97'] },
+    { score: 22, keywords: ['\u57fa\u91d1', '\u79c1\u52df', '\u8d44\u7ba1', '\u7406\u8d22', '\u503a\u5238', 'ETF', '\u8bc1\u5238'] },
+    { score: 18, keywords: ['\u94f6\u884c', '\u5229\u7387', '\u592e\u884c', '\u8bc1\u76d1\u4f1a', '\u964d\u51c6', '\u964d\u606f', 'LPR', 'MLF'] },
+  ], source.category === 'regulatory' ? 18 : 12);
+  const impact = scoreByKeywords(text, [
+    { score: 20, keywords: ['\u76d1\u7ba1', '\u5904\u7f5a', '\u6cd5\u89c4', '\u901a\u77e5', '\u6279\u590d', '\u507f\u4ed8\u80fd\u529b', '\u964d\u606f', '\u964d\u51c6'] },
+    { score: 17, keywords: ['\u4e1a\u7ee9', '\u4fdd\u8d39', '\u8d54\u4ed8', '\u5e76\u8d2d', '\u589e\u8d44', '\u8d44\u4ea7\u914d\u7f6e', '\u80a1\u503a'] },
+    { score: 14, keywords: ['\u4ea7\u54c1', '\u65b0\u57fa\u91d1', '\u7406\u8d22\u4ea7\u54c1', '\u5e74\u91d1', '\u517b\u8001'] },
+  ], 8);
+  const actionability = scoreByKeywords(text, [
+    { score: 10, keywords: ['\u98ce\u9669\u63d0\u793a', '\u5408\u89c4', '\u5ba2\u6237', '\u914d\u7f6e', '\u7406\u8d22', '\u5e74\u91d1', '\u517b\u8001', '\u4ea7\u54c1'] },
+    { score: 8, keywords: ['\u5229\u7387', '\u4fdd\u8d39', '\u507f\u4ed8', '\u7814\u62a5', '\u8bc4\u7ea7', '\u8d44\u91d1\u6d41\u5411'] },
+  ], 4);
+  const scoreBreakdown = {
+    relevance,
+    authority,
+    impact,
+    recency,
+    depth,
+    actionability,
+  };
+  let score = Object.values(scoreBreakdown).reduce((sum, val) => sum + val, 0);
+  if (source.tier === 'S3') score = Math.min(score, 75);
+  if (source.tier !== 'S0' && hasAny(text, ['\u76d1\u7ba1', '\u5904\u7f5a', '\u6cd5\u89c4', '\u6279\u590d'])) score = Math.min(score, 82);
+  score = clamp(Math.round(score), 0, 100);
+  return {
+    score,
+    scoreLabel: '\u4ece\u4e1a\u4ef7\u503c',
+    scoreBreakdown,
+    confidence: confidenceFor(source, scoreBreakdown),
+    why: buildWhy(scoreBreakdown, item, source),
+  };
+}
+
+function enrichItem(item) {
+  const src = sourceForItem(item);
+  item.category = item.category || src.category;
+  item.tier = src.tier;
+  item.sourceTier = src.tier;
+  item.sourceTierLabel = TIER_LABELS[src.tier] || '';
+  item.evidenceType = item.evidenceType || src.evidenceType;
+  item.discoveredVia = item.discoveredVia || 'RSSHub';
+  if (!item.scoreBreakdown || !item.why) {
+    const scoreMeta = scoreItem(item, src);
+    item.score = scoreMeta.score;
+    item.scoreLabel = scoreMeta.scoreLabel;
+    item.scoreBreakdown = scoreMeta.scoreBreakdown;
+    item.confidence = scoreMeta.confidence;
+    item.why = scoreMeta.why;
+  }
+  return item;
 }
 
 // === Build sections (store IDs only to reduce data size) ===
@@ -205,10 +306,9 @@ async function main() {
       if (isLowQuality(item)) continue;
       item.sourceName = src.sourceName;
       item.category = src.category;
-      item.tier = src.tier;
-      item.score = scoreItem(item, src);
       item.tags = [CATEGORY_TAGS[src.category]];
       item.id = '';
+      enrichItem(item);
       newItems.push(item);
       existing.existingUrls.add(item.sourceUrl);
       existing.titleSet.add(titleHash);
@@ -229,6 +329,7 @@ async function main() {
     return tb - ta;
   });
 
+  allItems.forEach(enrichItem);
   allItems.forEach((item, idx) => { item.id = String(idx + 1); });
 
   const now = new Date();
@@ -248,7 +349,7 @@ async function main() {
 
   console.log(`// finhot auto-generated data - powered by RSSHub + financial sources`);
   console.log(`// Generated: ${now.toISOString()}`);
-  console.log(`// AI scoring: info_value(30%) x authority(25%) x content_depth(20%) x recency(25%) x source_tier_weight\n`);
+  console.log(`// Practitioner value scoring: relevance(25) + authority(20) + impact(20) + recency(15) + depth(10) + actionability(10)\n`);
   console.log(`window.CATEGORIES = ${JSON.stringify([
     { slug: 'all', label: '\u5168\u90e8' },
     { slug: 'featured', label: '\u7cbe\u9009' },

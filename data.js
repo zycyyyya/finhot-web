@@ -1,6 +1,6 @@
 // finhot auto-generated data - powered by RSSHub + financial sources
-// Generated: 2026-06-12T09:00:00.407Z
-// AI scoring: info_value(30%) x authority(25%) x content_depth(20%) x recency(25%) x source_tier_weight
+// Generated: 2026-06-14T12:29:30.003Z
+// Practitioner value scoring: relevance(25) + authority(20) + impact(20) + recency(15) + depth(10) + actionability(10)
 
 window.CATEGORIES = [
   {
@@ -67,233 +67,599 @@ window.CATEGORY_CONFIG = {
 };
 
 window.FINHOT_DATA = {
-  "date": "2026-06-12",
-  "generatedAt": "2026-06-12T09:00:00.407Z",
-  "lead": "今日新增 18 条，共 18 条精选资讯",
+  "date": "2026-06-14",
+  "generatedAt": "2026-06-14T12:29:30.003Z",
+  "lead": "今日新增 28 条，共 28 条精选资讯",
   "items": [
     {
-      "title": "京东方旗下视延科技增资至2.6亿",
-      "sourceUrl": "https://www.36kr.com/newsflashes/3849948623312137",
-      "publishedAt": "2026-06-12T08:50:15.000Z",
-      "summary": "36氪获悉，天眼查App显示，近日，北京视延科技有限公司发生工商变更，注册资本由2.29亿人民币增至约2.6亿人民币，增幅约14%。该公司成立于2023年4月，法定代表人为董学，经营范围包括计算机软硬件及外围设备制造、电子元器件制造、光电子器件制造，由京东方、北京汇视芯科技合伙企业（有限合伙）、北京聚视芯科技合伙企业（有限合伙）等共同持股。",
-      "sourceName": "36氪",
-      "category": "insights",
-      "tier": "T2",
-      "score": 53,
+      "title": "6000亿买断式逆回购等量续作，央行终结三连回笼释放何信号？",
+      "sourceUrl": "https://www.yicai.com/news/103229122.html",
+      "publishedAt": "2026-06-14T12:18:55.000Z",
+      "summary": "资金利率低位运行2个多月后，于近日重回政策利率上方。日前，人民银行发布公告称，将在15日以固定数量、利率招标、多重价位中标方式开展6000亿元买断式逆回购操作，期限为6个月（183天）。由于该品种同期到期规模同样为6000亿元，本次操作实现等量续作，终结该期限品种连续三个月的净回笼态势。\n\n不过综合6月两档买断式逆回购操作来看，当月整体仍合计净回笼资金5000亿元，这也是这一工具连续第四个月呈现净",
+      "sourceName": "第一财经",
+      "category": "industry",
       "tags": [
-        "观点"
+        "行业动态"
       ],
-      "id": "1"
+      "id": "1",
+      "tier": "S2",
+      "sourceTier": "S2",
+      "sourceTierLabel": "专业财经媒体",
+      "evidenceType": "financial_media",
+      "discoveredVia": "RSSHub",
+      "score": 74,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 18,
+        "authority": 15,
+        "impact": 8,
+        "recency": 15,
+        "depth": 10,
+        "actionability": 8
+      },
+      "confidence": "low",
+      "why": [
+        "专业财经媒体跟进",
+        "可转化为客户沟通或投研关注",
+        "时效性高"
+      ]
     },
     {
-      "title": "富力地产：2026年前5个月累计销售49.8亿元",
-      "sourceUrl": "https://www.36kr.com/newsflashes/3849942085587970",
-      "publishedAt": "2026-06-12T08:43:36.000Z",
-      "summary": "36氪获悉，富力地产公告，2026年5月总销售收入共约人民币 10.3亿元，销售面积达约 7.9300万平方米。累计至二零二六年五月底，总销售收入约人民币 49.8 亿元，销售面积达约 50.84万平方米。",
-      "sourceName": "36氪",
-      "category": "insights",
-      "tier": "T2",
-      "score": 54,
+      "title": "“摘星脱帽”潮来临！8只ST股下周集体撤销风险警示",
+      "sourceUrl": "https://www.yicai.com/news/103229092.html",
+      "publishedAt": "2026-06-14T11:42:46.000Z",
+      "summary": "一些公司虽暂时脱离退市边缘，基本面却未持续向好，仍深陷亏损。A股市场即将迎来一波“摘星脱帽”潮。\n\n公告显示，下周（6月15日至19日）共计8家A股公司将撤销ST或*ST，涉及*ST海源（002529.SZ）、ST联创（300343.SZ）等。率先“摘星脱帽”的是*ST海源、*ST威尔（002058.SZ），2家公司均将在明日（6月15日）撤销退市风险警示，股票简称分别变更为海源复材、威尔泰。ST",
+      "sourceName": "第一财经",
+      "category": "industry",
       "tags": [
-        "观点"
+        "行业动态"
       ],
-      "id": "2"
+      "id": "2",
+      "tier": "S2",
+      "sourceTier": "S2",
+      "sourceTierLabel": "专业财经媒体",
+      "evidenceType": "financial_media",
+      "discoveredVia": "RSSHub",
+      "score": 64,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 12,
+        "authority": 15,
+        "impact": 8,
+        "recency": 15,
+        "depth": 10,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "专业财经媒体跟进",
+        "时效性高",
+        "摘要信息较完整"
+      ]
     },
     {
-      "title": "SpaceX上市倒计时，美股期指转涨，太空概念股盘前普涨，美伊协议现曙光，布油大跌5%",
-      "sourceUrl": "https://wallstreetcn.com/articles/3774481",
-      "publishedAt": "2026-06-12T08:42:20.000Z",
-      "summary": "美伊延长停火并重回谈判桌，叠加SpaceX IPO临近，双重利好提振市场风险情绪。\n周五，美股期指集体转涨。美股盘前，存储芯片概念股走低，太空概念股普涨。欧股高开，亚太股市普遍走高，MSCI亚太指数涨约2.7%，韩国首尔综指收涨4.49%。但受全球主要投行限制对冲基金对SK海力士、三星电子等芯片股杠杆押注的消息影响，指数部分涨幅有所回吐。\n债汇方面，美债收益率整体下行，美元指数微涨0.1%，非美货",
+      "title": "AI债务浪潮悄然成为全球信贷脉冲飙升的最大推手",
+      "sourceUrl": "https://wallstreetcn.com/articles/3774624",
+      "publishedAt": "2026-06-14T11:00:11.000Z",
+      "summary": "人工智能基础设施建设所催生的大规模举债浪潮，正在深刻重塑全球信贷格局。\n据瑞银首席全球策略师Arend Kapteyn最新研究，作为衡量实体经济内需的有效指标，全球信贷脉冲（过去12个月净新增信贷占GDP比例的变化）已升至+1.3%，意味着过去一年全球新增信贷规模较上年多出相当于GDP 1.3%的增量。\nAI资本支出扩张是此轮信贷加速的核心动力。瑞银预计，超大规模云计算企业（hyperscaler",
       "sourceName": "华尔街见闻",
       "category": "industry",
-      "tier": "T1.5",
-      "score": 71,
       "tags": [
         "行业动态"
       ],
-      "id": "3"
+      "id": "3",
+      "tier": "S2",
+      "sourceTier": "S2",
+      "sourceTierLabel": "专业财经媒体",
+      "evidenceType": "financial_media",
+      "discoveredVia": "RSSHub",
+      "score": 64,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 12,
+        "authority": 15,
+        "impact": 8,
+        "recency": 15,
+        "depth": 10,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "专业财经媒体跟进",
+        "时效性高",
+        "摘要信息较完整"
+      ]
     },
     {
-      "title": "聚力惠民提质 零售再攀新高 江苏银行零售AUM突破1.8万亿元",
-      "sourceUrl": "https://www.yicai.com/news/103227858.html",
-      "publishedAt": "2026-06-12T08:36:30.000Z",
-      "summary": "江苏银行个人金融业务再迎关键增长，全行零售资产管理规模（AUM）成功突破1.8万亿元，年增量超1500亿元，规模、增量均稳居全国城商行第一，跑出零售业务高质量发展加速度。规模稳步攀升的背后，是江苏银行长期坚持“以客户为中心”，做强财富管理、深耕客群服务、做优场景生态的扎实成果。\n\n初心：客户为本，专业服务夯实发展根基\n\n江苏银行坚持“金融为民”的初心，紧扣全年龄段、多层次居民差异化金融诉求，精准匹",
+      "title": "晚间公告丨6月14日这些公告有看头",
+      "sourceUrl": "https://www.yicai.com/news/103229087.html",
+      "publishedAt": "2026-06-14T10:48:36.000Z",
+      "summary": "以下是第一财经对一些重要公告的汇总，供投资者参考。【品大事】\n\n4连板和远气体：公司规划的电子级六氟化钨等电子特气产品尚处于试生产阶段\n\n和远气体发布股票交易异常波动公告，近日，公司关注到部分媒体及股吧等网络平台，将公司列为“电子特气”热门概念股，并出现不实传闻。公司对此高度关注，针对市场概念炒作及不实传闻，再次澄清如下：公司已在2025年度报告中详细说明，目前公司宜昌和潜江两大电子特气产业园规划",
       "sourceName": "第一财经",
       "category": "industry",
-      "tier": "T1.5",
-      "score": 71,
       "tags": [
         "行业动态"
       ],
-      "id": "4"
+      "id": "4",
+      "tier": "S2",
+      "sourceTier": "S2",
+      "sourceTierLabel": "专业财经媒体",
+      "evidenceType": "financial_media",
+      "discoveredVia": "RSSHub",
+      "score": 76,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 12,
+        "authority": 15,
+        "impact": 14,
+        "recency": 15,
+        "depth": 10,
+        "actionability": 10
+      },
+      "confidence": "low",
+      "why": [
+        "专业财经媒体跟进",
+        "可转化为客户沟通或投研关注",
+        "时效性高"
+      ]
     },
     {
-      "title": "外卖配送费或降至每单1美元？巴克莱：欧美2030年前有望普及自动驾驶配送",
-      "sourceUrl": "https://wallstreetcn.com/articles/3774495",
-      "publishedAt": "2026-06-12T08:27:28.000Z",
-      "summary": "外卖平台高昂的配送费与小费正将越来越多的消费者拒之门外。巴克莱最新研究指出，自动驾驶配送技术有望在本十年末彻底重塑这一成本结构，将每单费用压缩至1美元。\n巴克莱互联网股票分析师Ross Sandler周三发布研究报告，题为《自动化食品配送有望在2030年前达到临界规模》。报告指出，自动化末端配送技术的成熟，有望将目前每单8至10美元的平台配送成本，以及消费者每单约5美��的小费支出，双双压降至最低",
+      "title": "汇兑损失侵蚀利润，政策赋能让外贸企业告别“汇率赌行情”",
+      "sourceUrl": "https://www.yicai.com/news/103229078.html",
+      "publishedAt": "2026-06-14T10:44:47.000Z",
+      "summary": "“今年企业对汇率避险工具的接受度，和前两年相比出现明显转变。”\n\n\n今年以来，全球经贸格局深度调整，年初至今，美元指数高位震荡，在岸人民币对美元汇率逆势升值逾3%。\n\n汇率波动的加剧，让众多外贸企业陷入汇兑损失困扰，企业汇率风险管理难度明显上升。从上市企业到中小外贸工厂，汇兑风险成为普遍的经营难题，长账期结算、币种单一、风险敞口偏大等问题，进一步放大了经营压力。\n\n在此背景下，远期结售汇等汇率避险",
+      "sourceName": "第一财经",
+      "category": "industry",
+      "tags": [
+        "行业动态"
+      ],
+      "id": "5",
+      "tier": "S2",
+      "sourceTier": "S2",
+      "sourceTierLabel": "专业财经媒体",
+      "evidenceType": "financial_media",
+      "discoveredVia": "RSSHub",
+      "score": 64,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 12,
+        "authority": 15,
+        "impact": 8,
+        "recency": 15,
+        "depth": 10,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "专业财经媒体跟进",
+        "时效性高",
+        "摘要信息较完整"
+      ]
+    },
+    {
+      "title": "机构论后市丨风格再平衡已经开始；资金长期聚焦的大科技是关注重点",
+      "sourceUrl": "https://www.yicai.com/news/103229074.html",
+      "publishedAt": "2026-06-14T10:21:28.000Z",
+      "summary": "A股后市怎么走？看看机构怎么说。沪指本周累计涨0.09%，深证成指跌2.29%，创业板指跌3.22%，科创综指涨0.20%。A股后市怎么走？看看机构怎么说：\n\n①中信证券：风格再平衡已经开始 在配置上仍需聚焦有清晰业绩逻辑的方向\n\n中信证券策略指出，近期科技板块的降温，可能与长鑫科技上市在即、以及海外模型大厂ARR增速放缓有关，市场一是担心长鑫科技上市或对国内科技板块的流动性造成比较大的短期冲击因",
+      "sourceName": "第一财经",
+      "category": "industry",
+      "tags": [
+        "行业动态"
+      ],
+      "id": "6",
+      "tier": "S2",
+      "sourceTier": "S2",
+      "sourceTierLabel": "专业财经媒体",
+      "evidenceType": "financial_media",
+      "discoveredVia": "RSSHub",
+      "score": 89,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 22,
+        "authority": 15,
+        "impact": 17,
+        "recency": 15,
+        "depth": 10,
+        "actionability": 10
+      },
+      "confidence": "low",
+      "why": [
+        "专业财经媒体跟进",
+        "对展业/配置/合规有直接影响",
+        "可转化为客户沟通或投研关注"
+      ]
+    },
+    {
+      "title": "A股重要指数明日调整，牛股批量入选",
+      "sourceUrl": "https://www.yicai.com/news/103229072.html",
+      "publishedAt": "2026-06-14T10:05:22.000Z",
+      "summary": "深证成指、创业板指、深证100、创业板50等指数实施样本股定期调整根据指数编制规则，深交所和深圳证券信息有限公司决定于2026年6月15日对深证成指、创业板指、深证100、创业板50等指数实施样本股定期调整。第一财经记者梳理发现，在调入的样本股中，牛股辈出，今年以来行情火爆的存储概念股批量入选。\n\n牛股批量入选\n\n具体来看，深证成指调入安泰科技（000969.SZ）、佛塑科技（000973.SZ）",
+      "sourceName": "第一财经",
+      "category": "industry",
+      "tags": [
+        "行业动态"
+      ],
+      "id": "7",
+      "tier": "S2",
+      "sourceTier": "S2",
+      "sourceTierLabel": "专业财经媒体",
+      "evidenceType": "financial_media",
+      "discoveredVia": "RSSHub",
+      "score": 74,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 22,
+        "authority": 15,
+        "impact": 8,
+        "recency": 15,
+        "depth": 10,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "专业财经媒体跟进",
+        "时效性高",
+        "摘要信息较完整"
+      ]
+    },
+    {
+      "title": "宿迁联盛跨界磷化铟：8天6板后披露合作方为“空壳公司”",
+      "sourceUrl": "https://www.yicai.com/news/103229061.html",
+      "publishedAt": "2026-06-14T09:46:07.000Z",
+      "summary": "这家零人员、零收入、零专利的空壳公司，如何能在\"零起点\"情况下开展高门槛的磷化铟衬底业务，成为市场关注焦点。6月12日深夜，宿迁联盛（603065.SH）发布对上交所问询函的回复公告，就公司跨界投资磷化铟衬底项目相关具体信息作出说明。\n\n自6月8日晚间宣布切入AI光模块上游热门赛道以来，该股8个交易日内收获6个涨停，近四个交易日更是连续4个一字涨停，6月以来宿迁联盛股价已大涨84.3%。\n\n然而，",
+      "sourceName": "第一财经",
+      "category": "industry",
+      "tags": [
+        "行业动态"
+      ],
+      "id": "8",
+      "tier": "S2",
+      "sourceTier": "S2",
+      "sourceTierLabel": "专业财经媒体",
+      "evidenceType": "financial_media",
+      "discoveredVia": "RSSHub",
+      "score": 64,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 12,
+        "authority": 15,
+        "impact": 8,
+        "recency": 15,
+        "depth": 10,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "专业财经媒体跟进",
+        "时效性高",
+        "摘要信息较完整"
+      ]
+    },
+    {
+      "title": "美景气走强带来再通胀压力，欧央行近三年首次加息25bp---W24海外宏观脱水",
+      "sourceUrl": "https://wallstreetcn.com/member/articles/3774617",
+      "publishedAt": "2026-06-14T09:25:35.000Z",
+      "summary": "预计美联储短期仍偏观望，当前实际利率与GDP增速差值偏窄，加息动力不足。市场预期短期加息有限，但年底抬升。美国景气走强带来再通胀压力，但通胀贡献仍以能源为主，长期通胀尚未明确验证。\n欧央行近三年来首次加息25bp，主因能源推升通胀。欧央行预计今年总体通胀3%，2028年回落至2%，同时下调2026年经济增长至0.8%，滞胀风险加大。市场预期7月或暂停加息，若通胀持续，年内可能再加两次。",
       "sourceName": "华尔街见闻",
       "category": "industry",
-      "tier": "T1.5",
-      "score": 71,
       "tags": [
         "行业动态"
       ],
-      "id": "5"
+      "id": "9",
+      "tier": "S2",
+      "sourceTier": "S2",
+      "sourceTierLabel": "专业财经媒体",
+      "evidenceType": "financial_media",
+      "discoveredVia": "RSSHub",
+      "score": 74,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 18,
+        "authority": 15,
+        "impact": 8,
+        "recency": 15,
+        "depth": 10,
+        "actionability": 8
+      },
+      "confidence": "low",
+      "why": [
+        "专业财经媒体跟进",
+        "可转化为客户沟通或投研关注",
+        "时效性高"
+      ]
     },
     {
-      "title": "火山引擎在武汉成立科技公司",
-      "sourceUrl": "https://www.36kr.com/newsflashes/3849923315619075",
-      "publishedAt": "2026-06-12T08:24:31.000Z",
-      "summary": "36氪获悉，天眼查 App 显示，近日，武汉矢量引擎科技有限公司成立，法定代表人为王峥，注册资本1000万人民币，经营范围包括计算机系统服务、数据处理服务、社会经济咨询服务等，由北京火山引擎科技有限公司全资持股。",
-      "sourceName": "36氪",
-      "category": "insights",
-      "tier": "T2",
-      "score": 51,
-      "tags": [
-        "观点"
-      ],
-      "id": "6"
-    },
-    {
-      "title": "长江证券：陈佳辞任副董事长",
-      "sourceUrl": "https://www.36kr.com/newsflashes/3849915883656199",
-      "publishedAt": "2026-06-12T08:16:57.000Z",
-      "summary": "36氪获悉，长江证券公告，公司董事会收到副董事长陈佳的书面辞职报告，因个人原因，陈佳申请辞去公司董事、副董事长等职务。陈佳的辞职报告自送达董事会时即生效，辞职后将不再担任公司任何职务。",
-      "sourceName": "36氪",
-      "category": "insights",
-      "tier": "T2",
-      "score": 51,
-      "tags": [
-        "观点"
-      ],
-      "id": "7"
-    },
-    {
-      "title": "外国投资者交易A股热情提升 港交所陈翊庭盼互联互通扩容",
-      "sourceUrl": "https://topics.caixin.com/2026-06-12/102453543.html",
-      "publishedAt": "2026-06-12T08:11:02.000Z",
-      "summary": "陈翊庭指出，互联互通还有很多领域等待扩容，会“一件一件逐步落地”，包括REITs，衍生产品、大宗商品等\n    \n     \n     香港交易所集团行政总裁陈翊庭在6月12日于香港举办的2026年财新夏季峰会���发表讲话。图：财新\n    \n   \n       　　【财新网】香港交易所集团行政总裁陈翊庭在6月12日于香港举办的2026年财新夏季峰会上称，2026年内地与香港股票市场互联互通“",
-      "sourceName": "财新网",
-      "category": "industry",
-      "tier": "T1.5",
-      "score": 71,
-      "tags": [
-        "行业动态"
-      ],
-      "id": "8"
-    },
-    {
-      "title": "广发基金：主动融入高水平制度型开放大局 助力国际化现代资管行业建设",
-      "sourceUrl": "https://www.yicai.com/news/103227799.html",
-      "publishedAt": "2026-06-12T08:02:48.000Z",
-      "summary": "稳步扩大资本市场高水平制度型开放，是“十五五”时期资本市场改革发展的重点任务，也是推动公募基金行业高质量发展、建设金融强国的关键举措。当前，得益于中国经济的韧性和活力、人民币资产的估值修复，以及全球市场波动加剧背景下对资产配置均衡性的关注，全球资本投资中国市场的意愿持续增强。公募基金作为投资机构，需要将自身置于国家战略部署和资本市场改革发展的大背景下，适应国际格局的深刻变化，在全球资本再配置的过程",
-      "sourceName": "第一财经",
-      "category": "industry",
-      "tier": "T1.5",
-      "score": 71,
-      "tags": [
-        "行业动态"
-      ],
-      "id": "9"
-    },
-    {
-      "title": "智元机器人等入股蓝点触控",
-      "sourceUrl": "https://www.36kr.com/newsflashes/3849899016246280",
-      "publishedAt": "2026-06-12T07:59:48.000Z",
-      "summary": "36氪获悉，天眼查 App 显示，近日，蓝点触控（北京）科技有限公司发生工商变更，新增智元机器人关联公司智元创新（上海）科技股份有限公司、宁德时代参投的福建时代泽远股权投资基金合伙企业（有限合伙）等为股东，同时，注册资本由约500.3万人民币增至约525.5万人民币。",
-      "sourceName": "36氪",
-      "category": "insights",
-      "tier": "T2",
-      "score": 51,
-      "tags": [
-        "观点"
-      ],
-      "id": "10"
-    },
-    {
-      "title": "银龄反诈筑防线 光影同行暖申城——平安银行上海分行联合多方力量，以创新宣教模式守护老年群体“钱袋子”",
-      "sourceUrl": "https://www.yicai.com/news/103227793.html",
-      "publishedAt": "2026-06-12T07:57:33.000Z",
-      "summary": "6月12日，一场别开生面的金融安全课在上海老年大学温情开讲。近两百名银发学员和教职工齐聚一堂，集体参加由平安集团、平安银行上海分行、上海老年大学、上海市公安局黄浦分局反诈中心共同举办的“银龄防诈，光影同行”消费者权益保护教育宣传活动。沉浸式的反诈宣讲、生动的科普短视频、寓教于乐的互动游戏。现场气氛热烈，老年朋友们在轻松的氛围中提升了金融风险防范意识。\n\n此次活动正是平安银行上海分行深入贯彻2026",
-      "sourceName": "第一财经",
-      "category": "industry",
-      "tier": "T1.5",
-      "score": 71,
-      "tags": [
-        "行业动态"
-      ],
-      "id": "11"
-    },
-    {
-      "title": "王占刚任老白干酒董事长",
-      "sourceUrl": "https://www.36kr.com/newsflashes/3849891654243588",
-      "publishedAt": "2026-06-12T07:52:18.000Z",
-      "summary": "36氪获悉，天眼查App显示，近日，老白干酒发生工商变更，刘彦龙卸任法定代表人、董事长，由王占刚接任。该公司成立于1999年12月，注册资本约9.1亿人民币，经营范围包括酒制品生产、酒类经营、食品生产、食品销售等，由河北衡水老白干酿酒（集团）有限公司、中国银行股份有限公司-招商中证白酒指数分级证券投资基金等共同持股。",
-      "sourceName": "36氪",
-      "category": "insights",
-      "tier": "T2",
-      "score": 53,
-      "tags": [
-        "观点"
-      ],
-      "id": "12"
-    },
-    {
-      "title": "收盘｜沪指涨超1%，有色金属板块集体走强",
-      "sourceUrl": "https://www.yicai.com/news/103227692.html",
-      "publishedAt": "2026-06-12T07:25:23.000Z",
-      "summary": "沪深两市成交额3.21万亿，较上一个交易日放量6629亿。6月12日，A股四大股指收盘涨跌不一，上证指数报收4031.51点，涨1.12%，深成指报收14963.41点，涨0.75%，创业板指报收3830.35点，涨0.5%，科创综指报收2029.33点，跌0.24%。\n\n\n\n盘面上，有色金属板块集体走强，黄金股大涨，大金融板块活跃，军工、机场航运、锂矿概念、零售、商业航天、创新药板块涨幅居前；工",
-      "sourceName": "第一财经",
-      "category": "industry",
-      "tier": "T1.5",
-      "score": 67,
-      "tags": [
-        "行业动态"
-      ],
-      "id": "13"
-    },
-    {
-      "title": "赵国富：证监会将全面推进实施新一轮资本市场改革开放 进一步发挥科创板改革“试验田”作用",
-      "sourceUrl": "https://wallstreetcn.com/livenews/3118688",
-      "publishedAt": "2026-06-12T07:25:12.000Z",
-      "summary": "中国证监会上海监管局副局长赵国富在6月12日举行的上海市新闻发布会上表示，今年是“十五五”开局之年。证监会将会同各方深入贯彻落实国家“十五五”规划纲要的部署要求，以深化资本市场投融资综合改革为牵引，全面推进实施新一轮资本市场改革开放，进一步发挥科创板改革“试验田”作用，持续增强我国资本市场制度的包容性、适应性和吸引力、竞争力，优化对科技型企业的全链条全生命周期金融服务，更好助力金融强国和中国式现代",
+      "title": "国内5月信贷仍待修复，中国经济处新旧动能并行期---W24国内宏观脱水",
+      "sourceUrl": "https://wallstreetcn.com/member/articles/3774619",
+      "publishedAt": "2026-06-14T09:25:19.000Z",
+      "summary": "国内5月贷款增5200亿超预期，但同比少增，居民贷款减少，企业贷款多增。政府债券拖累社融，企业债和股票补位。M1回升至5.5%，M2持平8.6%，居民存款多减，资金持续向非银迁移。\n中国经济处于新旧动能并行阶段，新动能增速快，但占比仍低，而旧动能放缓，在投资和就业形成拖累。未来切换完成后，新动能将在生产、投资、出口、就业、收入、利润和税收等方面全面支撑。",
       "sourceName": "华尔街见闻",
       "category": "industry",
-      "tier": "T1.5",
-      "score": 71,
       "tags": [
         "行业动态"
       ],
-      "id": "14"
+      "id": "10",
+      "tier": "S2",
+      "sourceTier": "S2",
+      "sourceTierLabel": "专业财经媒体",
+      "evidenceType": "financial_media",
+      "discoveredVia": "RSSHub",
+      "score": 72,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 22,
+        "authority": 15,
+        "impact": 8,
+        "recency": 15,
+        "depth": 8,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "专业财经媒体跟进",
+        "时效性高",
+        "摘要信息较完整"
+      ]
     },
     {
-      "title": "【市场动态】欧洲央行官员Dolenc：数据发出通胀警报 加息是必要之举",
-      "sourceUrl": "https://database.caixin.com/2026-06-12/102453479.html",
-      "publishedAt": "2026-06-12T07:17:47.000Z",
-      "summary": "他表示，虽然在前两次会议上没有足够的证据支持加息，但目前可获得的确凿数据显示，“很明显，通货膨胀将会更高，经济增长将会更低。”",
-      "sourceName": "财新网",
+      "title": "美债收益率压制股市的关键门槛���高盛：沃什时代首次FOMC会议或成试金石",
+      "sourceUrl": "https://wallstreetcn.com/articles/3774620",
+      "publishedAt": "2026-06-14T09:18:07.000Z",
+      "summary": "在AI热潮持续推动美股走高的背景下，债券市场正成为华尔街越来越关注的风险源头。随着美联储主席沃什即将主持上任以来的首场FOMC会议，投资者反复追问同一个问题：美债收益率究竟要涨到多高，才会真正威胁当前的美股？\n高盛交易业务主管Tony Pasquariello表示，根据历史经验，答案大约是10年期美债收益率触及5%。他指出，近期客户最常提及的担忧之一，正是长期国债收益率是否将开始压制股票估值。针对",
+      "sourceName": "华尔街见闻",
       "category": "industry",
-      "tier": "T1.5",
-      "score": 66,
       "tags": [
         "行业动态"
       ],
-      "id": "15"
+      "id": "11",
+      "tier": "S2",
+      "sourceTier": "S2",
+      "sourceTierLabel": "专业财经媒体",
+      "evidenceType": "financial_media",
+      "discoveredVia": "RSSHub",
+      "score": 80,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 22,
+        "authority": 15,
+        "impact": 8,
+        "recency": 15,
+        "depth": 10,
+        "actionability": 10
+      },
+      "confidence": "low",
+      "why": [
+        "专业财经媒体跟进",
+        "可转化为客户沟通或投研关注",
+        "时效性高"
+      ]
     },
     {
-      "title": "【市场动态】丹麦养老基金首席投资官称追捧SpaceX的散户投资者是害怕错失",
-      "sourceUrl": "https://database.caixin.com/2026-06-12/102453477.html",
-      "publishedAt": "2026-06-12T07:16:11.000Z",
-      "summary": "该基金首席投资官表示，考虑到估值和治理风险，散户投资者对SpaceX表现出的浓厚兴趣令人担忧\n    \n     \n     美国佛罗里达州卡纳维拉尔角肯尼迪航天中心，一座建筑物上展示着SpaceX的标志。图：视觉中国",
+      "title": "剑指微信！报道：支付宝酝酿重大改版，将引入AI助手\"阿宝\"，叫车点餐买基金一口气搞定",
+      "sourceUrl": "https://wallstreetcn.com/articles/3774621",
+      "publishedAt": "2026-06-14T09:10:57.000Z",
+      "summary": "支付宝正酝酿重大改版，计划引入AI智能体界面，向拥有同等量级用户的微信发起正面挑战。\n据彭博报道，此次改版将在支付宝中推出AI助手\"阿宝\"，用户可通过语音或文字指令完成叫车、点咖啡、订外卖等日常任务，并可在授权后执行购买基金等理财操作。知情人士表示，该版本目前仍处于内部测试阶段，正式发布时间尚未确定。\n此次升级将直接加剧蚂蚁与腾讯之间的竞争——后者同样正在微信内测AI智能体原型。支付宝与微信均拥有",
+      "sourceName": "华尔街见闻",
+      "category": "industry",
+      "tags": [
+        "行业动态"
+      ],
+      "id": "12",
+      "tier": "S2",
+      "sourceTier": "S2",
+      "sourceTierLabel": "专业财经媒体",
+      "evidenceType": "financial_media",
+      "discoveredVia": "RSSHub",
+      "score": 80,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 22,
+        "authority": 15,
+        "impact": 8,
+        "recency": 15,
+        "depth": 10,
+        "actionability": 10
+      },
+      "confidence": "low",
+      "why": [
+        "专业财经媒体跟进",
+        "可转化为客户沟通或投研关注",
+        "时效性高"
+      ]
+    },
+    {
+      "title": "养猪业务未能找到接盘方 深铁再出借超10亿元帮助万科",
+      "sourceUrl": "https://www.caixin.com/2026-06-14/102454055.html",
+      "publishedAt": "2026-06-14T05:50:23.000Z",
+      "summary": "为了兑现多笔展期债券的首付款，2026年以来，深圳地铁累计向万科出借了约38.7亿元\n    \n     \n     2025年10月，深圳龙岗，万科万致天地。2025年前11个月，深圳地铁先后13次出手，累计向万科提供了314.6亿元借款。图：视觉中国\n    \n   \n       　　【财新网】万科集团（000002.SZ/02202.HK，下称“万科”）继续依靠国资股东“输血”化债攻坚。6",
       "sourceName": "财新网",
       "category": "industry",
-      "tier": "T1.5",
+      "tags": [
+        "行业动态"
+      ],
+      "id": "13",
+      "tier": "S2",
+      "sourceTier": "S2",
+      "sourceTierLabel": "专业财经媒体",
+      "evidenceType": "financial_media",
+      "discoveredVia": "RSSHub",
+      "score": 72,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 22,
+        "authority": 15,
+        "impact": 8,
+        "recency": 13,
+        "depth": 10,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "专业财经媒体跟进",
+        "时效性高",
+        "摘要信息较完整"
+      ]
+    },
+    {
+      "title": "财新闻｜男子意外离世留下27万元逾期贷款，银行起诉家属还款，法院判了",
+      "sourceUrl": "https://mini.caixin.com/2026-06-14/102454016.html",
+      "publishedAt": "2026-06-14T01:22:54.000Z",
+      "summary": "东莞地铁通报“多人翻越闸机疑逃票”；世界杯期间英格兰队装备遭窃 大部分已被追回；卡塔尔补时���平瑞士 收获队史首个世界杯积分；特朗普称美伊协议计划6月14日签署；时隔20年，“太阳神鸟”再次亮相国博\n    \n     \n     图：视觉中国\n    \n   \n       \n\n广东将防汛应急响应提升至Ⅲ级 \n根据广东省气象、水文部门监测预报，未来几天广东省强降雨过程仍将持续。目前广东省土壤含",
+      "sourceName": "财新网",
+      "category": "industry",
+      "tags": [
+        "行业动态"
+      ],
+      "id": "14",
+      "tier": "S2",
+      "sourceTier": "S2",
+      "sourceTierLabel": "专业财经媒体",
+      "evidenceType": "financial_media",
+      "discoveredVia": "RSSHub",
+      "score": 68,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 18,
+        "authority": 15,
+        "impact": 8,
+        "recency": 13,
+        "depth": 10,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "专业财经媒体跟进",
+        "时效性高",
+        "摘要信息较完整"
+      ]
+    },
+    {
+      "title": "关于深圳国华网安科技股份有限公司股票终止上市的公告",
+      "sourceUrl": "http://www.szse.cn/disclosure/notice/company/t20260612_621020.html",
+      "publishedAt": "2026-06-11T16:00:00.000Z",
+      "summary": "2025年4月30日，深圳国华网安科技股份有限公司（以下简称公司）因2024年度经审计的利润总额、净利润、扣除非经常性损益后的净利润（以下简称扣非后净利润）三者孰低为负值，且扣除后的营业收入低于3亿元，公司股票交易被实施退市风险警示。\n2026年4月28日，公司股票交易被实施退市风险警示后披露的首个年度报告显示，公司2025年度经审计的扣非后净利润为-1622.39万元，扣除后的营业收入为1.64",
+      "sourceName": "深交所",
+      "category": "regulatory",
+      "tags": [
+        "监管政策"
+      ],
+      "id": "15",
+      "tier": "S0",
+      "sourceTier": "S0",
+      "sourceTierLabel": "权威原始源",
+      "evidenceType": "official_notice",
+      "discoveredVia": "RSSHub",
+      "score": 68,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 18,
+        "authority": 20,
+        "impact": 8,
+        "recency": 10,
+        "depth": 8,
+        "actionability": 4
+      },
+      "confidence": "high",
+      "why": [
+        "权威原始来源",
+        "摘要信息较完整"
+      ]
+    },
+    {
+      "title": "关于苏州恒久光电科技股份有限公司股票终止上市的公告",
+      "sourceUrl": "http://www.szse.cn/disclosure/notice/company/t20260612_621019.html",
+      "publishedAt": "2026-06-11T16:00:00.000Z",
+      "summary": "苏州恒久光电科技股份有限公司（以下简称公司）因2024年度利润总额、归属于母公司股东的净利润、扣除非经常性损益后的净利润均为负值且扣除后营业收入低于3亿元，股票交易自2025年4月25日起被实施退市风险警示。\n2026年4月30日，公司披露被实施退市风险警示后的首个年度报告显示，其2025年度财务会计报告被出具无法表示意见的审计报告，财务报告内部控制被出具无法表示意见的审计报告，触及本所《股票上市",
+      "sourceName": "深交所",
+      "category": "regulatory",
+      "tags": [
+        "监管政策"
+      ],
+      "id": "16",
+      "tier": "S0",
+      "sourceTier": "S0",
+      "sourceTierLabel": "权威原始源",
+      "evidenceType": "official_notice",
+      "discoveredVia": "RSSHub",
+      "score": 68,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 18,
+        "authority": 20,
+        "impact": 8,
+        "recency": 10,
+        "depth": 8,
+        "actionability": 4
+      },
+      "confidence": "high",
+      "why": [
+        "权威原始来源",
+        "摘要信息较完整"
+      ]
+    },
+    {
+      "title": "关于江苏华盛天龙光电设备股份有限公司股票终止上市的公告",
+      "sourceUrl": "http://www.szse.cn/disclosure/notice/company/t20260610_620970.html",
+      "publishedAt": "2026-06-09T16:00:00.000Z",
+      "summary": "2025年4月22日，江苏华盛天龙光电设备股份有限公司（以下简称公司）因2024年度经审计的期末净资产为负值，公司股票交易被实施退市风险警示。\n2026年4月30日，公司股票交易被实施退市风险警示后的首个会计年度报告显示，公司2025年度经审计的期末净资产为负值，财务报告内部控制被出具否定意见的审计报告。\n公司触及本所《创业板股票上市规则（2026年修订）》第10.3.11条第二项、第五项规定的股",
+      "sourceName": "深交所",
+      "category": "regulatory",
+      "tags": [
+        "监管政策"
+      ],
+      "id": "17",
+      "tier": "S0",
+      "sourceTier": "S0",
+      "sourceTierLabel": "权威原始源",
+      "evidenceType": "official_notice",
+      "discoveredVia": "RSSHub",
+      "score": 65,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 18,
+        "authority": 20,
+        "impact": 8,
+        "recency": 7,
+        "depth": 8,
+        "actionability": 4
+      },
+      "confidence": "high",
+      "why": [
+        "权威原始来源",
+        "摘要信息较完整"
+      ]
+    },
+    {
+      "title": "关于杭州高特电子设备股份有限公司股票上市交易的公告",
+      "sourceUrl": "http://www.szse.cn/disclosure/notice/company/t20260608_620918.html",
+      "publishedAt": "2026-06-07T16:00:00.000Z",
+      "summary": "杭州高特电子设备股份有限公司人民币普通股股票将于2026年6月9日在本所上市。证券简称为“高特电子”,证券代码为“301669”。公司人民币普通股股份总数为480,000,000股，其中81,887,545股股票自上市之日起开始上市交易。\n&nbsp; &nbsp;\n深圳证券交易所\n2026年06月05日\n&nbsp;",
+      "sourceName": "深交所",
+      "category": "regulatory",
+      "tags": [
+        "监管政策"
+      ],
+      "id": "18",
+      "tier": "S0",
+      "sourceTier": "S0",
+      "sourceTierLabel": "权威原始源",
+      "evidenceType": "official_notice",
+      "discoveredVia": "RSSHub",
       "score": 69,
-      "tags": [
-        "行业动态"
-      ],
-      "id": "16"
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 22,
+        "authority": 20,
+        "impact": 8,
+        "recency": 7,
+        "depth": 8,
+        "actionability": 4
+      },
+      "confidence": "high",
+      "why": [
+        "权威原始来源",
+        "摘要信息较完整"
+      ]
     },
     {
       "title": "乌鲁木齐通报药店销售“回流药”、串换药品套取医保基金等问题",
@@ -302,12 +668,30 @@ window.FINHOT_DATA = {
       "summary": "【乌鲁木齐通报药店销售“回流药”、串换药品套取医保基金等问题】财联社5月28日电，乌鲁木齐市医疗保障局发布情况通报：近日，在国家医保局对定点零售药店违法违规使用医保基金开展的专项飞行检查中，发现乌鲁木齐市颐仁堂养心和大药房存在销售“回流药”问题，乌鲁木齐市健民康药业有限公司存在串换药品套取医保基金等问题。乌鲁木齐市医保局及天山区 、高新技术产业开发区（新市区）医保部门快速响应、即刻处置，严格依据医",
       "sourceName": "财联社",
       "category": "industry",
-      "tier": "T2",
-      "score": 47,
       "tags": [
         "行业动态"
       ],
-      "id": "17"
+      "id": "19",
+      "tier": "S3",
+      "sourceTier": "S3",
+      "sourceTierLabel": "快讯/观点线索",
+      "evidenceType": "news_flash",
+      "discoveredVia": "RSSHub",
+      "score": 57,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 22,
+        "authority": 9,
+        "impact": 8,
+        "recency": 4,
+        "depth": 10,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "快讯线索，需结合原文判断",
+        "摘要信息较完整"
+      ]
     },
     {
       "title": "财联社5月28日电，伦敦证券交易所集团（LSEG）数据显示，德国日前基本负荷电力价格下跌9.57%，至每兆瓦时104欧元。",
@@ -316,34 +700,303 @@ window.FINHOT_DATA = {
       "summary": "财联社5月28日电，伦敦证券交易所集团（LSEG）数据显示，德国日前基本负荷电力价格下跌9.57%，至每兆瓦时104欧元。",
       "sourceName": "财联社",
       "category": "industry",
-      "tier": "T2",
-      "score": 42,
       "tags": [
         "行业动态"
       ],
-      "id": "18"
+      "id": "20",
+      "tier": "S3",
+      "sourceTier": "S3",
+      "sourceTierLabel": "快讯/观点线索",
+      "evidenceType": "news_flash",
+      "discoveredVia": "RSSHub",
+      "score": 53,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 22,
+        "authority": 9,
+        "impact": 8,
+        "recency": 4,
+        "depth": 6,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "快讯线索，需结合原文判断"
+      ]
+    },
+    {
+      "title": "关于万方城镇投资发展股份有限公司股票终止上市的公告",
+      "sourceUrl": "http://www.szse.cn/disclosure/notice/company/t20260525_620692.html",
+      "publishedAt": "2026-05-24T16:00:00.000Z",
+      "summary": "2026年3月16日至2026年4月13日期间，万方城镇投资发展股份有限公司（以下简称公司）在连续二十个交易日的股票收盘总市值均低于5亿元，触及本所《股票上市规则（2025年修订）》第9.2.1条第一款第六项规定的股票终止上市情形。\n根据本所《股票上市规则（2025年修订）》第9.2.7条的规定以及本所上市审核委员会的审议意见，本所决定公司股票终止上市。根据本所《股票上市规则（2025年修订）》第",
+      "sourceName": "深交所",
+      "category": "regulatory",
+      "tags": [
+        "监管政策"
+      ],
+      "id": "21",
+      "tier": "S0",
+      "sourceTier": "S0",
+      "sourceTierLabel": "权威原始源",
+      "evidenceType": "official_notice",
+      "discoveredVia": "RSSHub",
+      "score": 62,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 18,
+        "authority": 20,
+        "impact": 8,
+        "recency": 4,
+        "depth": 8,
+        "actionability": 4
+      },
+      "confidence": "high",
+      "why": [
+        "权威原始来源",
+        "摘要信息较完整"
+      ]
+    },
+    {
+      "title": "关于宁波惠康工业科技股份有限公司股票上市交易的公告",
+      "sourceUrl": "http://www.szse.cn/disclosure/notice/company/t20260521_620603.html",
+      "publishedAt": "2026-05-20T16:00:00.000Z",
+      "summary": "宁波惠康工业科技股份有限公司人民币普通股股票将于2026年5月22日在本所上市。证券简称为“惠康科技”,证券代码为“001237”。公司人民币普通股股份总数为148,351,430股，其中34,856,028股股票自上市之日起开始上市交易。\n&nbsp; &nbsp;&nbsp;\n深圳证券交易所\n2026年05月20日\n&nbsp;",
+      "sourceName": "深交所",
+      "category": "regulatory",
+      "tags": [
+        "监管政策"
+      ],
+      "id": "22",
+      "tier": "S0",
+      "sourceTier": "S0",
+      "sourceTierLabel": "权威原始源",
+      "evidenceType": "official_notice",
+      "discoveredVia": "RSSHub",
+      "score": 66,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 22,
+        "authority": 20,
+        "impact": 8,
+        "recency": 4,
+        "depth": 8,
+        "actionability": 4
+      },
+      "confidence": "high",
+      "why": [
+        "权威原始来源",
+        "摘要信息较完整"
+      ]
+    },
+    {
+      "title": "关于天海汽车电子集团股份有限公司股票上市交易的公告",
+      "sourceUrl": "http://www.szse.cn/disclosure/notice/company/t20260515_620516.html",
+      "publishedAt": "2026-05-14T16:00:00.000Z",
+      "summary": "天海汽车电子集团股份有限公司人民币普通股股票将于2026年5月18日在本所上市。证券简称为“天海电子”,证券代码为“001365”。公司人民币普通股股份总数为525,000,000股，其中57,505,646股股票自上市之日起开始上市交易。\n&nbsp; &nbsp;\n深圳证券交易所\n2026年05月14日\n&nbsp;",
+      "sourceName": "深交所",
+      "category": "regulatory",
+      "tags": [
+        "监管政策"
+      ],
+      "id": "23",
+      "tier": "S0",
+      "sourceTier": "S0",
+      "sourceTierLabel": "权威原始源",
+      "evidenceType": "official_notice",
+      "discoveredVia": "RSSHub",
+      "score": 66,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 22,
+        "authority": 20,
+        "impact": 8,
+        "recency": 4,
+        "depth": 8,
+        "actionability": 4
+      },
+      "confidence": "high",
+      "why": [
+        "权威原始来源",
+        "摘要信息较完整"
+      ]
+    },
+    {
+      "title": "关于北京维通利电气股份有限公司股票上市交易的公告",
+      "sourceUrl": "http://www.szse.cn/disclosure/notice/company/t20260514_620504.html",
+      "publishedAt": "2026-05-13T16:00:00.000Z",
+      "summary": "北京维通利电气股份有限公司人民币普通股股票将于2026年5月15日在本所上市。证券简称为“维通利”,证券代码为“001393”。公司人民币普通股股份总数为249,333,334股，其中48,040,181股股票自上市之日起开始上市交易。\n&nbsp; &nbsp;&nbsp;\n深圳证券交易所\n2026年05月13日\n&nbsp;",
+      "sourceName": "深交所",
+      "category": "regulatory",
+      "tags": [
+        "监管政策"
+      ],
+      "id": "24",
+      "tier": "S0",
+      "sourceTier": "S0",
+      "sourceTierLabel": "权威原始源",
+      "evidenceType": "official_notice",
+      "discoveredVia": "RSSHub",
+      "score": 66,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 22,
+        "authority": 20,
+        "impact": 8,
+        "recency": 4,
+        "depth": 8,
+        "actionability": 4
+      },
+      "confidence": "high",
+      "why": [
+        "权威原始来源",
+        "摘要信息较完整"
+      ]
+    },
+    {
+      "title": "关于山东春光科技集团股份有限公司股票上市交易的公告",
+      "sourceUrl": "http://www.szse.cn/disclosure/notice/company/t20260508_620407.html",
+      "publishedAt": "2026-05-07T16:00:00.000Z",
+      "summary": "山东春光科技集团股份有限公司人民币普通股股票将于2026年5月11日在本所上市。证券简称为“春光集团”,证券代码为“301531”。公司人民币普通股股份总数为219,733,340股，其中46,883,653股股票自上市之日起开始上市交易。\n深圳证券交易所\n2026年05月07日\n&nbsp;",
+      "sourceName": "深交所",
+      "category": "regulatory",
+      "tags": [
+        "监管政策"
+      ],
+      "id": "25",
+      "tier": "S0",
+      "sourceTier": "S0",
+      "sourceTierLabel": "权威原始源",
+      "evidenceType": "official_notice",
+      "discoveredVia": "RSSHub",
+      "score": 66,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 22,
+        "authority": 20,
+        "impact": 8,
+        "recency": 4,
+        "depth": 8,
+        "actionability": 4
+      },
+      "confidence": "high",
+      "why": [
+        "权威原始来源"
+      ]
+    },
+    {
+      "title": "关于无锡理奇智能装备股份有限公司股票上市交易的公告",
+      "sourceUrl": "http://www.szse.cn/disclosure/notice/company/t20260429_620266.html",
+      "publishedAt": "2026-04-28T16:00:00.000Z",
+      "summary": "无锡理奇智能装备股份有限公司人民币普通股股票将于2026年4月30日在本所上市。证券简称为“理奇智能”,证券代码为“301599”。公司人民币普通股股份总数为431,600,000股，其中54,700,536股股票自上市之日起开始上市交易。\n深圳证券交易所\n2026年04月28日",
+      "sourceName": "深交所",
+      "category": "regulatory",
+      "tags": [
+        "监管政策"
+      ],
+      "id": "26",
+      "tier": "S0",
+      "sourceTier": "S0",
+      "sourceTierLabel": "权威原始源",
+      "evidenceType": "official_notice",
+      "discoveredVia": "RSSHub",
+      "score": 66,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 22,
+        "authority": 20,
+        "impact": 8,
+        "recency": 4,
+        "depth": 8,
+        "actionability": 4
+      },
+      "confidence": "high",
+      "why": [
+        "权威原始来源"
+      ]
+    },
+    {
+      "title": "关于杭州福恩股份有限公司股票上市交易的公告",
+      "sourceUrl": "http://www.szse.cn/disclosure/notice/company/t20260420_620054.html",
+      "publishedAt": "2026-04-19T16:00:00.000Z",
+      "summary": "杭州福恩股份有限公司人民币普通股股票将于2026年4月21日在本所上市。证券简称为“福恩股份”,证券代码为“001312”。公司人民币普通股股份总数为233,333,334股，其中57,160,269股股票自上市之日起开始上市交易。\n深圳证券交易所\n2026年04月17日\n&nbsp;",
+      "sourceName": "深交所",
+      "category": "regulatory",
+      "tags": [
+        "监管政策"
+      ],
+      "id": "27",
+      "tier": "S0",
+      "sourceTier": "S0",
+      "sourceTierLabel": "权威原始源",
+      "evidenceType": "official_notice",
+      "discoveredVia": "RSSHub",
+      "score": 66,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 22,
+        "authority": 20,
+        "impact": 8,
+        "recency": 4,
+        "depth": 8,
+        "actionability": 4
+      },
+      "confidence": "high",
+      "why": [
+        "权威原始来源"
+      ]
+    },
+    {
+      "title": "关于深圳市尚水智能股份有限公司股票上市交易的公告",
+      "sourceUrl": "http://www.szse.cn/disclosure/notice/company/t20260416_619990.html",
+      "publishedAt": "2026-04-15T16:00:00.000Z",
+      "summary": "深圳市尚水智能股份有限公司人民币普通股股票将于2026年4月17日在本所上市。证券简称为“尚水智能”,证券代码为“301513”。公司人民币普通股股份总数为100,000,000股，其中20,148,989股股票自上市之日起开始上市交易。\n深圳证券交易所\n2026年04月15日\n&nbsp;",
+      "sourceName": "深交所",
+      "category": "regulatory",
+      "tags": [
+        "监管政策"
+      ],
+      "id": "28",
+      "tier": "S0",
+      "sourceTier": "S0",
+      "sourceTierLabel": "权威原始源",
+      "evidenceType": "official_notice",
+      "discoveredVia": "RSSHub",
+      "score": 66,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 22,
+        "authority": 20,
+        "impact": 8,
+        "recency": 4,
+        "depth": 8,
+        "actionability": 4
+      },
+      "confidence": "high",
+      "why": [
+        "权威原始来源"
+      ]
     }
   ],
   "sections": {
-    "regulatory": [],
+    "regulatory": [
+      "15",
+      "16",
+      "17",
+      "18",
+      "21",
+      "22"
+    ],
     "products": [],
     "industry": [
+      "1",
+      "2",
       "3",
       "4",
       "5",
-      "8",
-      "9",
-      "11"
+      "6"
     ],
     "research": [],
-    "insights": [
-      "1",
-      "2",
-      "6",
-      "7",
-      "10",
-      "12"
-    ]
+    "insights": []
   },
   "flashes": [
     {
@@ -368,7 +1021,7 @@ window.FINHOT_DATA = {
     },
     {
       "id": "6",
-      "dotClass": "flash-dot-blue"
+      "dotClass": "flash-dot-green"
     },
     {
       "id": "7",

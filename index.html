@@ -165,19 +165,26 @@
 
     var catCfg = config[item.category] || {};
     var tags = item.tags || [];
+    var sourceTier = item.sourceTierLabel || item.sourceTier || '';
+    var why = item.why || [];
+    var scoreTitle = item.scoreBreakdown
+      ? '相关性 ' + item.scoreBreakdown.relevance + '/25，权威性 ' + item.scoreBreakdown.authority + '/20，业务影响 ' + item.scoreBreakdown.impact + '/20，时效 ' + item.scoreBreakdown.recency + '/15，深度 ' + item.scoreBreakdown.depth + '/10，可行动性 ' + item.scoreBreakdown.actionability + '/10'
+      : '';
     var scoreBadge = item.score >= featuredThreshold
-      ? '<span class="card-score card-score-featured">' + item.score + '</span>'
-      : '<span class="card-score">' + item.score + '</span>';
+      ? '<span class="card-score card-score-featured" title="' + escapeHtml(scoreTitle) + '">' + escapeHtml(item.scoreLabel || '从业价值') + ' ' + item.score + '</span>'
+      : '<span class="card-score" title="' + escapeHtml(scoreTitle) + '">' + escapeHtml(item.scoreLabel || '从业价值') + ' ' + item.score + '</span>';
 
     card.innerHTML =
       '<div class="card-meta">' +
         '<span class="card-time">' + formatTime(item.publishedAt) + '</span>' +
         '<span class="card-source">' + escapeHtml(item.sourceName || '') + '</span>' +
+        (sourceTier ? '<span class="source-tier">' + escapeHtml(sourceTier) + '</span>' : '') +
         scoreBadge +
         '<span class="meta-spacer"></span>' +
       '</div>' +
       '<h2 class="card-title">' + escapeHtml(item.title || '') + '</h2>' +
       '<p class="card-summary">' + escapeHtml(item.summary || '') + '</p>' +
+      (why.length ? '<div class="why-row">' + why.map(function(w) { return '<span class="why-chip">' + escapeHtml(w) + '</span>'; }).join('') + '</div>' : '') +
       '<div class="tag-row">' +
         tags.map(function(t) { return '<span class="tag ' + (catCfg.tagClass || '') + '">' + t + '</span>'; }).join('') +
       '</div>';

@@ -23,54 +23,69 @@
     <h1 class="about-title">关于 finhot</h1>
     <p class="about-desc">
       finhot 是一个面向金融保险从业者的精选资讯聚合平台。
-      每日自动从多个权威信源采集行业动态，通过 AI 智能筛选与人工精编相结合的方式，
-      为你提供高质量的金融保险圈日报。
+      每日自动从多个公开信源采集行业动态，通过来源分层、从业价值评分与去重过滤，
+      为保险规划师、私募基金经理提供更容易判断轻重缓急的金融保险圈日报。
     </p>
 
     <div class="divider"></div>
 
     <h2 style="font-family:var(--font-heading);font-size:20px;font-weight:700;color:var(--text-primary);">信源声明</h2>
 
+    <p class="about-desc">
+      finhot 将信源分为四层：S0 权威原始源、S1 结构化数据源、S2 专业财经媒体、S3 快讯/观点线索。
+      监管、公告、产品类信息优先参考原始出处；媒体与快讯主要用于发现线索和补充背景。
+    </p>
+
     <div class="source-grid">
       <!-- 监管政策 -->
       <div class="source-row">
-        <span class="source-cat-tag tag-regulatory">监管政策</span>
+        <span class="source-cat-tag tag-regulatory">S0 原始源</span>
         <span class="source-name">国家金融监督管理总局（银保监会）</span>
         <span class="source-desc">官方发文、法规修订、行政许可、监管动态</span>
       </div>
       <div class="source-row">
-        <span class="source-cat-tag tag-regulatory">监管政策</span>
+        <span class="source-cat-tag tag-regulatory">S0 原始源</span>
         <span class="source-name">深圳证券交易所</span>
         <span class="source-desc">上市公司公告、信息披露指引、监管措施</span>
       </div>
+      <div class="source-row">
+        <span class="source-cat-tag tag-regulatory">S0 原始源</span>
+        <span class="source-name">央行 / 证监会 / 行业协会</span>
+        <span class="source-desc">货币政策、证券监管、保险与基金行业信息披露</span>
+      </div>
       <!-- 行业动态 -->
       <div class="source-row">
-        <span class="source-cat-tag tag-industry">行业动态</span>
+        <span class="source-cat-tag tag-industry">S2 媒体</span>
         <span class="source-name">财新网</span>
         <span class="source-desc">深度财经报道、行业分析、独家调查</span>
       </div>
       <div class="source-row">
-        <span class="source-cat-tag tag-industry">行业动态</span>
+        <span class="source-cat-tag tag-industry">S2 媒体</span>
         <span class="source-name">华尔街见闻</span>
         <span class="source-desc">全球宏观、金融市场、实时快讯</span>
       </div>
       <div class="source-row">
-        <span class="source-cat-tag tag-industry">行业动态</span>
+        <span class="source-cat-tag tag-industry">S2 媒体</span>
         <span class="source-name">第一财经</span>
         <span class="source-desc">财经快讯、市场数据、公司新闻</span>
       </div>
       <!-- 研究报告 -->
       <div class="source-row">
-        <span class="source-cat-tag tag-research">研究报告</span>
+        <span class="source-cat-tag tag-research">S1/S2 数据</span>
         <span class="source-name">中信证券 / 主流券商研究所</span>
         <span class="source-desc">行业研报、策略报告、评级跟踪</span>
       </div>
       <!-- 技巧观点 -->
       <div class="source-row">
-        <span class="source-cat-tag tag-insights">技巧观点</span>
+        <span class="source-cat-tag tag-insights">S3 线索</span>
         <span class="source-name">36氪 / 财联社</span>
         <span class="source-desc">科技快讯、行业观点、保险科技动态</span>
       </div>
+    </div>
+
+    <div class="source-note">
+      从业价值分由六项组成：行业相关性 25 分、来源权威性 20 分、业务影响 20 分、时效性 15 分、内容深度 10 分、可行动性 10 分。
+      S3 快讯源单条最高不超过 75 分；涉及监管、处罚、法规、批复的媒体转述最高不超过 82 分，优先等待或补充原始出处。
     </div>
 
     <div class="divider"></div>
@@ -89,7 +104,7 @@
       </div>
       <div class="tech-row">
         <div class="tech-dot"></div>
-        <span class="tech-text">精选评分: AI 自动筛选 + 编辑复核，评分范围 0-100</span>
+        <span class="tech-text">精选评分: 来源分层 + 从业价值评分，评分范围 0-100</span>
       </div>
       <div class="tech-row">
         <div class="tech-dot"></div>

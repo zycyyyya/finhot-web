@@ -1,5 +1,5 @@
 // finhot auto-generated data - powered by RSSHub + financial sources
-// Generated: 2026-06-18T08:03:53.911Z
+// Generated: 2026-06-22T08:05:44.350Z
 // Practitioner value scoring: relevance(25) + authority(20) + impact(20) + recency(15) + depth(10) + actionability(10)
 
 window.CATEGORIES = [
@@ -67,21 +67,87 @@ window.CATEGORY_CONFIG = {
 };
 
 window.FINHOT_DATA = {
-  "date": "2026-06-18",
-  "generatedAt": "2026-06-18T08:03:53.911Z",
-  "lead": "今日新增 32 条，共 32 条精选资讯",
+  "date": "2026-06-22",
+  "generatedAt": "2026-06-22T08:05:44.350Z",
+  "lead": "今日新增 29 条，共 29 条精选资讯",
   "items": [
     {
-      "title": "市场监管总局督导货拉拉落实反垄断合规整改",
-      "sourceUrl": "https://www.36kr.com/newsflashes/3858395073664261",
-      "publishedAt": "2026-06-18T08:02:26.000Z",
-      "summary": "前期，市场监管总局依据《中华人民共和国反垄断法》公开约谈货拉拉，要求其停止利用算法不合理压低货运价格、利用平台规则实施强制独家车贴等行为，全面开展自查整改，依法合规经营，主动回应各方关切，自觉接受社会监督。市场监管总局加强对货拉拉反垄断合规整改的全过程督导，压实平台主体责任，督促其严格落实整改要求，具体包括：停止利用算法不合理压低货运价格，严格控制多因素计价订单占比，公平合理运用调价算法，推动平均",
+      "title": "多部门成立联合调查组 核查“婴幼儿纸尿裤甲酰胺问题”",
+      "sourceUrl": "https://wallstreetcn.com/livenews/3122654",
+      "publishedAt": "2026-06-22T08:01:39.000Z",
+      "summary": "针对媒体反映的“婴幼儿纸尿裤甲酰胺问题”，市场监管总局、工业和信息化部、国家卫生健康委、国家疾控局高度重视，成立联合调查组核查婴幼儿纸尿裤甲酰胺有关问题，并依法依规处理。有关情况将及时公布。（央视新闻）",
+      "sourceName": "华尔街见闻",
+      "category": "industry",
+      "tags": [
+        "行业动态"
+      ],
+      "id": "1",
+      "tier": "S2",
+      "sourceTier": "S2",
+      "sourceTierLabel": "专业财经媒体",
+      "evidenceType": "financial_media",
+      "discoveredVia": "RSSHub",
+      "score": 74,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 12,
+        "authority": 15,
+        "impact": 20,
+        "recency": 15,
+        "depth": 8,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "专业财经媒体跟进",
+        "对展业/配置/合规有直接影响",
+        "时效性高"
+      ]
+    },
+    {
+      "title": "平头哥上海半导体技术公司增资至10亿，增幅约233%",
+      "sourceUrl": "https://www.36kr.com/newsflashes/3864055743337735",
+      "publishedAt": "2026-06-22T08:00:46.000Z",
+      "summary": "36氪获悉，天眼查App显示，近日，平头哥（上海）半导体技术有限公司发生工商变更，注册资本由3亿人民币增至10亿人民币，增幅约233%。该公司成立于2018年11月，法定代表人为包文俊，经营范围包括半导体科技、电子科技、集成电路科技领域的技术开发、技术转让、技术咨询、技术服务，软件开发，电子产品、半导体元器件、集成电路、仪器仪表的研发、销售等，由平头哥（上海）电子技术有限公司全资持股。",
       "sourceName": "36氪",
       "category": "insights",
       "tags": [
         "观点"
       ],
-      "id": "1",
+      "id": "2",
+      "tier": "S3",
+      "sourceTier": "S3",
+      "sourceTierLabel": "快讯/观点线索",
+      "evidenceType": "news_flash",
+      "discoveredVia": "RSSHub",
+      "score": 73,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 12,
+        "authority": 9,
+        "impact": 17,
+        "recency": 15,
+        "depth": 10,
+        "actionability": 10
+      },
+      "confidence": "low",
+      "why": [
+        "快讯线索，需结合原文判断",
+        "对展业/配置/合规有直接影响",
+        "可转化为客户沟通或投研关注"
+      ]
+    },
+    {
+      "title": "英国央行发布系统重要性稳定币监管框架，2027年起允许稳定币在英国合规运营",
+      "sourceUrl": "https://www.36kr.com/newsflashes/3864048711128070",
+      "publishedAt": "2026-06-22T07:53:36.000Z",
+      "summary": "英格兰银行（英国央行）6月22日发布针对系统重要性稳定币发行商的政策声明及《行为准则》（规则）草案，标志着英国稳定币监管框架建设迈出关键一步。核心政策方面，框架作出两项重要调整：其一，稳定币储备资产中利息计息资产（短期英国国债）的最高比例从60%上调至70%，其余须存放于央行存款；其二，以发行上限取代此前咨询中提出的临时持有限额，每种系统重要性稳定币初始发行上限设为400亿英镑，该上限将定期审查，",
+      "sourceName": "36氪",
+      "category": "insights",
+      "tags": [
+        "观点"
+      ],
+      "id": "3",
       "tier": "S3",
       "sourceTier": "S3",
       "sourceTierLabel": "快讯/观点线索",
@@ -90,7 +156,7 @@ window.FINHOT_DATA = {
       "score": 75,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
-        "relevance": 12,
+        "relevance": 18,
         "authority": 9,
         "impact": 20,
         "recency": 15,
@@ -105,181 +171,16 @@ window.FINHOT_DATA = {
       ]
     },
     {
-      "title": "五问+一图，读懂《促进平台经济大中小企业协同发展行动方案（2026—2028年）》",
-      "sourceUrl": "https://wallstreetcn.com/articles/3775005",
-      "publishedAt": "2026-06-18T07:52:23.000Z",
-      "summary": "《促进平台经济大中小企业协同发展行动方案（2026-2028年）》解读\n近日，工业和信息化部、中央网信办、国家发展改革委、科技部、商务部、市场监管总局、国家数据局联合印发《促进平台经济大中小企业协同发展行动方案（2026—2028年）》（以下简称《行动方案》），为更好理解和落实《行动方案》，现就有关内容解读如下。\n一、《行动方案》的出台背景是什么？\n平台经济是以互联网平台为载体、大中小企业共生的新",
-      "sourceName": "华尔街见闻",
-      "category": "industry",
-      "tags": [
-        "行业动态"
-      ],
-      "id": "2",
-      "tier": "S2",
-      "sourceTier": "S2",
-      "sourceTierLabel": "专业财经媒体",
-      "evidenceType": "financial_media",
-      "discoveredVia": "RSSHub",
-      "score": 76,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 12,
-        "authority": 15,
-        "impact": 20,
-        "recency": 15,
-        "depth": 10,
-        "actionability": 4
-      },
-      "confidence": "low",
-      "why": [
-        "专业财经媒体跟进",
-        "对展业/配置/合规有直接影响",
-        "时效性高"
-      ]
-    },
-    {
-      "title": "世界模型公司融资潮起 中国流形空间、美国Odyssey获大额融资",
-      "sourceUrl": "https://www.caixin.com/2026-06-18/102455446.html",
-      "publishedAt": "2026-06-18T07:42:36.000Z",
-      "summary": "具身智能公司纷纷发布世界模型，而世界模型公司也频繁切入具身智能赛道\n       　　【财新网】“世界模型”成为具身智能公司融资的“金字招牌”。6月18日，具身智能公司流形空间（Manifold AI）宣布完成新一轮数亿元融资，本轮新投资方包括中国国新旗下国新基金，淡马锡旗下毅峰资本，产业资本北汽产投、芯能创��，同时四家老股东超额追加投资。\n　　流形空间成立1年完成6轮融资，Pre-A轮融资总金",
-      "sourceName": "财新网",
-      "category": "industry",
-      "tags": [
-        "行业动态"
-      ],
-      "id": "3",
-      "tier": "S2",
-      "sourceTier": "S2",
-      "sourceTierLabel": "专业财经媒体",
-      "evidenceType": "financial_media",
-      "discoveredVia": "RSSHub",
-      "score": 80,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 22,
-        "authority": 15,
-        "impact": 14,
-        "recency": 15,
-        "depth": 10,
-        "actionability": 4
-      },
-      "confidence": "low",
-      "why": [
-        "专业财经媒体跟进",
-        "时效性高",
-        "摘要信息较完整"
-      ]
-    },
-    {
-      "title": "智谱科创板IPO辅导验收 新模型刺激市值破8800亿港元",
-      "sourceUrl": "https://www.caixin.com/2026-06-18/102455438.html",
-      "publishedAt": "2026-06-18T07:40:22.000Z",
-      "summary": "GLM-5.2上线开源，发布当日上涨12.62%，次日最高价触及1985港元/股，市值再次突破8800亿港元\n    \n     \n     6月17日当天上午，智谱AI上线并开源其最新大模型GLM-5.2。图：视觉中国\n    \n   \n       　　【财新网】6月17日，证监会官网显示，北京智谱华章科技股份有限公司科创板IPO辅导状态变更为“辅导验收”，辅导券商为国泰海通证券，此前另一辅导",
-      "sourceName": "财新网",
-      "category": "industry",
-      "tags": [
-        "行业动态"
-      ],
-      "id": "4",
-      "tier": "S2",
-      "sourceTier": "S2",
-      "sourceTierLabel": "专业财经媒体",
-      "evidenceType": "financial_media",
-      "discoveredVia": "RSSHub",
-      "score": 74,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 22,
-        "authority": 15,
-        "impact": 8,
-        "recency": 15,
-        "depth": 10,
-        "actionability": 4
-      },
-      "confidence": "low",
-      "why": [
-        "专业财经媒体跟进",
-        "时效性高",
-        "摘要信息较完整"
-      ]
-    },
-    {
-      "title": "陆家嘴论坛共话科技创新投资：全球资本加码中国市场不是可选是首选",
-      "sourceUrl": "https://www.yicai.com/news/103236906.html",
-      "publishedAt": "2026-06-18T07:38:43.000Z",
-      "summary": "“现在非常支持投资中国资本市场，因为市场前景向好。”在科技革新、全球资本市场互联互通日益深化的背景下，如何提升资本市场的包容性、适应性，如何提升本土资本市场的国际吸引力与服务效率，成为市场各方的探讨重点。\n\n6月17日，在2026陆家嘴论坛全体大会上，上海证券交易所理事长邱勇表示，将更大力度支持科技创新，更好发挥科创板试验田作用，落实好新发布的人工智能领域的配套规则，推动更多创新示范案例落地，同时",
-      "sourceName": "第一财经",
-      "category": "industry",
-      "tags": [
-        "行业动态"
-      ],
-      "id": "5",
-      "tier": "S2",
-      "sourceTier": "S2",
-      "sourceTierLabel": "专业财经媒体",
-      "evidenceType": "financial_media",
-      "discoveredVia": "RSSHub",
-      "score": 74,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 22,
-        "authority": 15,
-        "impact": 8,
-        "recency": 15,
-        "depth": 10,
-        "actionability": 4
-      },
-      "confidence": "low",
-      "why": [
-        "专业财经媒体跟进",
-        "时效性高",
-        "摘要信息较完整"
-      ]
-    },
-    {
-      "title": "收盘｜创业板指涨逾2%，中际旭创总市值超越贵州茅台",
-      "sourceUrl": "https://www.yicai.com/news/103236926.html",
-      "publishedAt": "2026-06-18T07:38:05.000Z",
-      "summary": "沪指跌0.43%。6月18日，截至收盘，沪指跌0.43%，深成指涨0.94%，创业板指涨2.05%，科创综指涨3.29%。\n\n\n\n盘面上看，培育钻石、稀土永磁、半导体、CPO等板块涨幅居前，保险、电力、煤炭、证券等板块跌幅居前。\n\n具体来看，半导体板块持续走强，寒武���涨超14%，股价盘中创历史新高；晶升股份、裕太微20%涨停，领先股份涨停，明微电子、富满微等多股涨超10%。\n\n\n\n下跌方面，保",
-      "sourceName": "第一财经",
-      "category": "industry",
-      "tags": [
-        "行业动态"
-      ],
-      "id": "6",
-      "tier": "S2",
-      "sourceTier": "S2",
-      "sourceTierLabel": "专业财经媒体",
-      "evidenceType": "financial_media",
-      "discoveredVia": "RSSHub",
-      "score": 77,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 25,
-        "authority": 15,
-        "impact": 8,
-        "recency": 15,
-        "depth": 10,
-        "actionability": 4
-      },
-      "confidence": "low",
-      "why": [
-        "专业财经媒体跟进",
-        "时效性高",
-        "摘要信息较完整"
-      ]
-    },
-    {
-      "title": "中广天择：筹划控股股东变更继续停牌，预计不超过3个交易日",
-      "sourceUrl": "https://www.36kr.com/newsflashes/3858369671238914",
-      "publishedAt": "2026-06-18T07:36:35.000Z",
-      "summary": "36氪获悉，中广天择公告，公司控股股东长沙广播电视集团有限公司正在筹划涉及所持有公司股份转让事宜，该事项可能导致公司控股股东发生变更。鉴于该事项仍在讨论中，具有较大不确定性，公司股票已于2026年6月17日、6月18日停牌，现申请自2026年6月22日开市起继续停牌，预计停牌时间不超过3个交易日。",
+      "title": "宁德时代在珠海成立新能源公司，注册资本319万",
+      "sourceUrl": "https://www.36kr.com/newsflashes/3864040960824325",
+      "publishedAt": "2026-06-22T07:45:43.000Z",
+      "summary": "36氪获悉，天眼查App显示，近日，珠海润开新能源有限公司成立，法定代表人为张余，注册资本319万人民币，经营范围包括太阳能发电技术服务、工程和技术研究和试验发展、新兴能源技术研发等，由宁德时代旗下时代绿色能源有限公司全资持股。",
       "sourceName": "36氪",
       "category": "insights",
       "tags": [
         "观点"
       ],
-      "id": "7",
+      "id": "4",
       "tier": "S3",
       "sourceTier": "S3",
       "sourceTierLabel": "快讯/观点线索",
@@ -302,27 +203,60 @@ window.FINHOT_DATA = {
       ]
     },
     {
-      "title": "7部门联合发文，促进平台经济大中小企业协同发展",
-      "sourceUrl": "https://www.yicai.com/news/103236877.html",
-      "publishedAt": "2026-06-18T07:35:24.000Z",
-      "summary": "创新、生态、开放三大协同体系构建了清晰的行动框架。18日，工业和信息化部、中央网信办、国家发展改革委、科技部、商务部、市场监管总局、国家数据局联合印发《促进平台经济大中小企业协同发展行动方案（2026—2028年）》（以下简称《行动方案》）。\n\n《行动方案》围绕强化创新协同引领、健全生态协同体系、深化开放协同联动等三方面，部署重点任务及专项行动。积极推动“破壁垒、促开放、强协同”，构建更加公平、更",
+      "title": "野村控股CEO薪酬上调至1000万美元，公司净利润创历史新高",
+      "sourceUrl": "https://www.36kr.com/newsflashes/3864038308762626",
+      "publishedAt": "2026-06-22T07:43:01.000Z",
+      "summary": "野村控股6月22日公告显示，截至3月31日这一财年，首席执行官奥田健太郎薪酬上调36%，增至16亿日元（约合1000万美元）。批发业务部门负责人Christopher Willcox作为公司薪酬最高的高管，其薪酬增长13%至1700万美元。在奥田的领导下，日本这家最大的券商连续第二年净利润创下纪录，主要得益于日本金融市场的反弹和交易量激增。随着奥田推动在周期低迷时期也保持稳定增长，野村上调其中期利",
+      "sourceName": "36氪",
+      "category": "insights",
+      "tags": [
+        "观点"
+      ],
+      "id": "5",
+      "tier": "S3",
+      "sourceTier": "S3",
+      "sourceTierLabel": "快讯/观点线索",
+      "evidenceType": "news_flash",
+      "discoveredVia": "RSSHub",
+      "score": 58,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 12,
+        "authority": 9,
+        "impact": 8,
+        "recency": 15,
+        "depth": 10,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "快讯线索，需结合原文判断",
+        "时效性高",
+        "摘要信息较完整"
+      ]
+    },
+    {
+      "title": "韩国央行预警芯片企业“天价奖金”恐成通胀新引擎，三路径传导风险",
+      "sourceUrl": "https://www.yicai.com/news/103239913.html",
+      "publishedAt": "2026-06-22T07:38:26.000Z",
+      "summary": "权孝成认为，服务业通胀的粘性通常远高于商品通胀，更难通过货币政策快速遏制。  韩国芯片巨头三星与SK海力士的天价奖金风波虽已告一段落，但相关溢出消息正引发韩国央行的密切关注。\n\n近日，韩国央行在6月《物价稳定报告》中预警，部分受益于人工智能（AI）热潮的芯片企业发放异常丰厚的奖金，可能推高更广泛领域的薪资增长压力，进而刺激消费需求并增加企业成本，“如果薪资增长从科技行业扩散至其他行业，将与高企的能",
       "sourceName": "第一财经",
       "category": "industry",
       "tags": [
         "行业动态"
       ],
-      "id": "8",
+      "id": "6",
       "tier": "S2",
       "sourceTier": "S2",
       "sourceTierLabel": "专业财经媒体",
       "evidenceType": "financial_media",
       "discoveredVia": "RSSHub",
-      "score": 76,
+      "score": 70,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
-        "relevance": 12,
+        "relevance": 18,
         "authority": 15,
-        "impact": 20,
+        "impact": 8,
         "recency": 15,
         "depth": 10,
         "actionability": 4
@@ -330,219 +264,87 @@ window.FINHOT_DATA = {
       "confidence": "low",
       "why": [
         "专业财经媒体跟进",
+        "时效性高",
+        "摘要信息较完整"
+      ]
+    },
+    {
+      "title": "文远知行增资至45亿，增幅约13%",
+      "sourceUrl": "https://www.36kr.com/newsflashes/3864029473133570",
+      "publishedAt": "2026-06-22T07:34:02.000Z",
+      "summary": "36氪获悉，天眼查App显示，近日，广州文远知行科技有限公司发生工商变更，注册资本由40亿人民币增至45亿人民币，增幅约13%。该公司成立于2018年1月，法定代表人为韩旭，经营范围包括物联网技术研发、软件开发、人工智能基础软件开发等，由WeRide HongKong Limited全资持股。",
+      "sourceName": "36氪",
+      "category": "insights",
+      "tags": [
+        "观点"
+      ],
+      "id": "7",
+      "tier": "S3",
+      "sourceTier": "S3",
+      "sourceTierLabel": "快讯/观点线索",
+      "evidenceType": "news_flash",
+      "discoveredVia": "RSSHub",
+      "score": 65,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 12,
+        "authority": 9,
+        "impact": 17,
+        "recency": 15,
+        "depth": 8,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "快讯线索，需结合原文判断",
         "对展业/配置/合规有直接影响",
         "时效性高"
       ]
     },
     {
-      "title": "商保创新药目录申报数量不及去年一半，药企为何不再跟风",
-      "sourceUrl": "https://www.yicai.com/news/103236788.html",
-      "publishedAt": "2026-06-18T07:34:21.000Z",
-      "summary": "进入商保目录的药品短期内难以快速以价换量2026年国家基本医疗保险、生育保险和工伤保险药品目录（下称基本目录）及商业健康保险创新药品目录（下称商保创新药目录）调整申报已于近日完成。根据国家医保局公布的信息，收到的目录外药品单独申报商保创新药目录17份，同时申报基本目录和商保目录44份，这样合计起来申报商保创新药目录的共有61份，该数量不及2025年商保创新药目录申报数量的一半，后者达到141份。如",
+      "title": "中创新航、湖南盐业集团等在湖北成立新股权投资基金，出资额1.05亿",
+      "sourceUrl": "https://www.36kr.com/newsflashes/3864028645774594",
+      "publishedAt": "2026-06-22T07:33:12.000Z",
+      "summary": "36氪获悉，天眼查App显示，近日，凯博晟富（湖北）股权投资基金合伙企业（有限合伙）成立，执行事务合伙人为凯博（湖北）私募基金管理有限公司，出资额1.05亿人民币，经营范围为创业投资、以自有资金从事投资活动。合伙人信息显示，该基金由中创新航、湖南盐业集团旗下湖南轻盐晟富创业投资管理有限公司、凯博（湖北）私募基金管理有限公司共同出资。",
+      "sourceName": "36氪",
+      "category": "insights",
+      "tags": [
+        "观点"
+      ],
+      "id": "8",
+      "tier": "S3",
+      "sourceTier": "S3",
+      "sourceTierLabel": "快讯/观点线索",
+      "evidenceType": "news_flash",
+      "discoveredVia": "RSSHub",
+      "score": 66,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 22,
+        "authority": 9,
+        "impact": 8,
+        "recency": 15,
+        "depth": 8,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "快讯线索，需结合原文判断",
+        "时效性高",
+        "摘要信息较完整"
+      ]
+    },
+    {
+      "title": "多重变量交织：地缘政治、AI如何改写全球私募配置决策",
+      "sourceUrl": "https://www.yicai.com/news/103239887.html",
+      "publishedAt": "2026-06-22T07:24:36.000Z",
+      "summary": "报告显示，67%的LP预期AI将拉大头部基金与尾部基金的回报差距。地缘政治正较以往更加深刻地影响投资者的私募市场配置决策，这是22日全球私募资本管理机构科勒资本（Coller Capital）发布的第44期《全球私募资本晴雨表》中得出的结论。报告还称，受访的有限合伙人（LP）在配置资本时，对普通合伙人（GP）的遴选愈发审慎。\n\n这份覆盖全球108家LP的调研发现，超过三分之一（37%）的受访LP表",
       "sourceName": "第一财经",
       "category": "industry",
       "tags": [
         "行业动态"
       ],
       "id": "9",
-      "tier": "S2",
-      "sourceTier": "S2",
-      "sourceTierLabel": "专业财经媒体",
-      "evidenceType": "financial_media",
-      "discoveredVia": "RSSHub",
-      "score": 77,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 25,
-        "authority": 15,
-        "impact": 8,
-        "recency": 15,
-        "depth": 10,
-        "actionability": 4
-      },
-      "confidence": "low",
-      "why": [
-        "专业财经媒体跟进",
-        "时效性高",
-        "摘要信息较完整"
-      ]
-    },
-    {
-      "title": "寒武纪再创新高，否认向互联网厂商大量供货",
-      "sourceUrl": "https://wallstreetcn.com/livenews/3121504",
-      "publishedAt": "2026-06-18T07:27:30.000Z",
-      "summary": "6月18日盘中，寒武纪股价涨超16%，创历史新高，盘中市值达到9656亿元，望向万亿市值。消息面上，近期有关于国内互联网公司采购国产算力的消息。行业人士称字节跳动正在与天数智芯讨论采购至少5万颗AI芯片，主要用于推理工作，华为、寒武纪也是字节跳动的供应商。\n\n就上述交流纪要内容，记者以投资者身份拨打寒武纪证券事务代表电话。相关负责人表示，这是网上流传的“小作文”，请投资者注意甄别，还是以官方发布的",
-      "sourceName": "华尔街见闻",
-      "category": "industry",
-      "tags": [
-        "行业动态"
-      ],
-      "id": "10",
-      "tier": "S2",
-      "sourceTier": "S2",
-      "sourceTierLabel": "专业财经媒体",
-      "evidenceType": "financial_media",
-      "discoveredVia": "RSSHub",
-      "score": 74,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 22,
-        "authority": 15,
-        "impact": 8,
-        "recency": 15,
-        "depth": 10,
-        "actionability": 4
-      },
-      "confidence": "low",
-      "why": [
-        "专业财经媒体跟进",
-        "时效性高",
-        "摘要信息较完整"
-      ]
-    },
-    {
-      "title": "工信部等七部门：鼓励平台企业探索数据资源共享与流通利用模式，加快企业数据开发利用",
-      "sourceUrl": "https://www.36kr.com/newsflashes/3858353757754370",
-      "publishedAt": "2026-06-18T07:20:24.000Z",
-      "summary": "36氪获悉，工业和信息化部、中央网信办、市场监管总局等七部门日前联合印发《促进平台经济大中小企业协同发展行动方案（2026—2028年）》。《行动方案》提出，���进数据要素开放。推动数据资源开放，引导平台企业打造可信数据空间，高效开发利用和管理数据资源。鼓励平台企业探索数据资源共享与流通利用模式，加快企业数据开发利用，打造行业高质量数据集。鼓励平台企业协同上下游企业开展数据管理国家标准贯标工作，",
-      "sourceName": "36氪",
-      "category": "insights",
-      "tags": [
-        "观点"
-      ],
-      "id": "11",
-      "tier": "S3",
-      "sourceTier": "S3",
-      "sourceTierLabel": "快讯/观点线索",
-      "evidenceType": "news_flash",
-      "discoveredVia": "RSSHub",
-      "score": 70,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 12,
-        "authority": 9,
-        "impact": 20,
-        "recency": 15,
-        "depth": 10,
-        "actionability": 4
-      },
-      "confidence": "low",
-      "why": [
-        "快讯线索，需结合原文判断",
-        "对展业/配置/合规有直接影响",
-        "时效性高"
-      ]
-    },
-    {
-      "title": "大摩亚洲CEO高浩灃：中国AI生态有潜力创造数万亿美元增量市场",
-      "sourceUrl": "https://www.yicai.com/news/103236725.html",
-      "publishedAt": "2026-06-18T07:20:08.000Z",
-      "summary": "“应流入”资金远未到位。全球投资者对中国市场的兴趣正变得日益浓厚。\n\n6月17日，在2026陆家嘴论坛全体大会上，摩根士丹利亚洲首席执行官兼股票部全球联席主管高浩灃（Gokul Laroia）表示，中国是除美国外唯一拥有独立且全面AI生态系统的市场，有潜力创造3万亿至4万亿美元的增量市值。\n\n\n\n“尽管资本已经开始流入，但流入规模与实际需要量相比只是很小一部分。”高浩灃提出了推动市场机构化、丰富产",
-      "sourceName": "第一财经",
-      "category": "industry",
-      "tags": [
-        "行业动态"
-      ],
-      "id": "12",
-      "tier": "S2",
-      "sourceTier": "S2",
-      "sourceTierLabel": "专业财经媒体",
-      "evidenceType": "financial_media",
-      "discoveredVia": "RSSHub",
-      "score": 64,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 12,
-        "authority": 15,
-        "impact": 8,
-        "recency": 15,
-        "depth": 10,
-        "actionability": 4
-      },
-      "confidence": "low",
-      "why": [
-        "专业财经媒体跟进",
-        "时效性高",
-        "摘要信息较完整"
-      ]
-    },
-    {
-      "title": "工信部等七部门：推动算力资源开放，引导平台企业联通分布式算力资源及纳管平台",
-      "sourceUrl": "https://www.36kr.com/newsflashes/3858352708769024",
-      "publishedAt": "2026-06-18T07:19:20.000Z",
-      "summary": "36氪获悉，工业和信息化部、中央网信办、市场监管总局等七部门日前联合印发《促进平台经济大中小企业协同发展行动方案（2026—2028年）》。《行动方案》提出，深入开展算力基础设施高质量发展和算力互联互通行动计划。推动算力资源开放，开展算力并网池化及互联工作，引导平台企业联通分布式算力资源及纳管平台，提升算力资源配置效率。推进全国一体化算力监测调度服务平台建设。提升平台企业词元（Token）普惠服务",
-      "sourceName": "36氪",
-      "category": "insights",
-      "tags": [
-        "观点"
-      ],
-      "id": "13",
-      "tier": "S3",
-      "sourceTier": "S3",
-      "sourceTierLabel": "快讯/观点线索",
-      "evidenceType": "news_flash",
-      "discoveredVia": "RSSHub",
-      "score": 75,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 12,
-        "authority": 9,
-        "impact": 20,
-        "recency": 15,
-        "depth": 10,
-        "actionability": 10
-      },
-      "confidence": "low",
-      "why": [
-        "快讯线索，需结合原文判断",
-        "对展业/配置/合规有直接影响",
-        "可转化为客户沟通或投研关注"
-      ]
-    },
-    {
-      "title": "Transformer先驱离开谷歌加入OpenAI，奥尔特曼：等了10年",
-      "sourceUrl": "https://www.yicai.com/news/103236710.html",
-      "publishedAt": "2026-06-18T07:14:57.000Z",
-      "summary": "奥尔特曼称是“自OpenAI创立之初最想合作的人之一”。在硅谷，顶尖AI人才的流向往往备受关注，这甚至可能预示着几家公司在模型座次上的变动。北京时间6月18日，谷歌DeepMind的核心人物、Gemini模型的联合负责人诺姆·沙泽尔（Noam Shazeer）在社交媒体上宣布，他将离开谷歌，加入OpenAI的阵营。消息很快在AI圈刷屏，引来众多讨论，有行业人士评论“这可能是今年最重要的AI人才流动",
-      "sourceName": "第一财经",
-      "category": "industry",
-      "tags": [
-        "行业动态"
-      ],
-      "id": "14",
-      "tier": "S2",
-      "sourceTier": "S2",
-      "sourceTierLabel": "专业财经媒体",
-      "evidenceType": "financial_media",
-      "discoveredVia": "RSSHub",
-      "score": 64,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 12,
-        "authority": 15,
-        "impact": 8,
-        "recency": 15,
-        "depth": 10,
-        "actionability": 4
-      },
-      "confidence": "low",
-      "why": [
-        "专业财经媒体跟进",
-        "时效性高",
-        "摘要信息较完整"
-      ]
-    },
-    {
-      "title": "大盘涨了账户却亏了？理财通线上私享会带你读透芯片+商业航天两大核心方向",
-      "sourceUrl": "https://wallstreetcn.com/articles/3775001",
-      "publishedAt": "2026-06-18T07:14:44.000Z",
-      "summary": "2026年上半年，不少投资者心里都憋着一股劲儿：大盘明明涨得挺欢，可自己的账户却怎么也乐不起来。市场热火朝天，自己的收益却像被冻住了一样。\n这真不是你一个人的问题——这背后真正的本质是，如果你没有在今年上半年没搭上科技这趟快车，想在市场里赚到超额收益确实挺难的。\n转眼2026年已经过半，科技投资的风向是不是又要变天了？\n从年初大家疯抢显卡堆算力，到现在存储芯片成了香饽饽；从SpaceX搞出史上最大",
-      "sourceName": "华尔街见闻",
-      "category": "industry",
-      "tags": [
-        "行业动态"
-      ],
-      "id": "15",
       "tier": "S2",
       "sourceTier": "S2",
       "sourceTierLabel": "专业财经媒体",
@@ -566,27 +368,93 @@ window.FINHOT_DATA = {
       ]
     },
     {
-      "title": "72家A股公司连夜提示风险！“概念当道则鸡犬升天”之风可以休矣",
-      "sourceUrl": "https://wallstreetcn.com/articles/3774997",
-      "publishedAt": "2026-06-18T07:05:40.000Z",
-      "summary": "6月17日晚间，72家A股公司发布股票交易异常波动或股票交易风险提示公告，其中包括大量最近被爆炒的热门概念股。按照和热门概念的相关度，这些公告大致可以分为三类。\n一类是确实与概念直接相关但收益难以量化的类型，比如杭电股份、永鼎股份均表示，光纤光缆行业本身会有波动，所以公司这部分业务的业绩是不确定的。\n还有一类是弱相关型，即与热门概念相关的业务和产品要么占比很小、毛利很低，要么还处于在非常前期的研发",
-      "sourceName": "华尔街见闻",
+      "title": "收盘｜创业板指涨2.52% 保险、券商股大涨",
+      "sourceUrl": "https://www.yicai.com/news/103239877.html",
+      "publishedAt": "2026-06-22T07:18:02.000Z",
+      "summary": "全市场超2900只个股上涨。6月22日，四大股指集体收涨，沪指报收4163.1点，涨1.78%，深成指报收16372.5点，涨2.13%，创业板指报收4359.39点，涨2.52%，科创综指报收2308.94点，涨0.48%。\n\n\n\n盘面上，大金融板块走强，保险、券商股领涨；培育钻石板块大涨，化工、有色金属、电池、游戏等板块表现活跃。军工、汽车零部件、教育、人形机器人板块跌幅居前。\n\n具体来看，券",
+      "sourceName": "第一财经",
       "category": "industry",
       "tags": [
         "行业动态"
       ],
-      "id": "16",
+      "id": "10",
       "tier": "S2",
       "sourceTier": "S2",
       "sourceTierLabel": "专业财经媒体",
       "evidenceType": "financial_media",
       "discoveredVia": "RSSHub",
-      "score": 79,
+      "score": 77,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 25,
+        "authority": 15,
+        "impact": 8,
+        "recency": 15,
+        "depth": 10,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "专业财经媒体跟进",
+        "时效性高",
+        "摘要信息较完整"
+      ]
+    },
+    {
+      "title": "降薪、递延、终身追责：超30家券商大改薪酬，金融高管告别“赚快钱”",
+      "sourceUrl": "https://wallstreetcn.com/articles/3775175",
+      "publishedAt": "2026-06-22T07:17:04.000Z",
+      "summary": "6月15日，国联民生证券召开2025年度股东大会，审议通过《国联民生证券董事、高级管理人员薪酬管理制度》议案，其中同意票数占比99.82%，反对票数占比0.17%。\n国联民生证券董事、高级管理人员薪酬管理制度规定，公司内部董事、高级管理人员的薪酬由基本薪酬、绩效薪酬、福利、津补贴和中长期激励收入组成，其中绩效薪酬占比原则上不低于基本薪酬与绩效薪酬总额的百分之五十。公司董事、高级管理人员绩效薪酬的4",
+      "sourceName": "华尔街见闻",
+      "category": "industry",
+      "tags": [
+        "行业动态"
+      ],
+      "id": "11",
+      "tier": "S2",
+      "sourceTier": "S2",
+      "sourceTierLabel": "专业财经媒体",
+      "evidenceType": "financial_media",
+      "discoveredVia": "RSSHub",
+      "score": 74,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 22,
+        "authority": 15,
+        "impact": 8,
+        "recency": 15,
+        "depth": 10,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "专业财经媒体跟进",
+        "时效性高",
+        "摘要信息较完整"
+      ]
+    },
+    {
+      "title": "把律师当桌椅板凳买：中资企业出海的危险短板",
+      "sourceUrl": "https://opinion.caixin.com/2026-06-22/102456237.html",
+      "publishedAt": "2026-06-22T06:48:44.000Z",
+      "summary": "这一轮中资企业出海，很多企业并不缺产品，不缺产能，也不缺野心。真正稀缺的，是对法律、规则和专业的基本敬畏\n    \n     \n     企业一旦真正走出去，面对的就不只是客户和竞争对手，而是一整套别人制定、别人解释、别人执行的规则体系。图：IC photo\n    \n   \n       　　今天很多中国企业在海外遇到的麻烦，并不只是外部环境更严，也不只是欧美监管更密，而是企业自身没有完成观念升",
+      "sourceName": "财新网",
+      "category": "industry",
+      "tags": [
+        "行业动态"
+      ],
+      "id": "12",
+      "tier": "S2",
+      "sourceTier": "S2",
+      "sourceTierLabel": "专业财经媒体",
+      "evidenceType": "financial_media",
+      "discoveredVia": "RSSHub",
+      "score": 82,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 12,
         "authority": 15,
-        "impact": 17,
+        "impact": 20,
         "recency": 15,
         "depth": 10,
         "actionability": 10
@@ -599,30 +467,30 @@ window.FINHOT_DATA = {
       ]
     },
     {
-      "title": "【华尔街原声】冈拉克：秋季之前美联储都将维持利率不变",
-      "sourceUrl": "https://database.caixin.com/2026-06-18/102455400.html",
-      "publishedAt": "2026-06-18T06:50:48.000Z",
-      "summary": "双线资本（DoubleLine Capital）首席执行官冈拉克表示，美联储新成立的五个工作组预计将在未来几周内展开运作，并可能在今年秋季得出结论或提出建议。基于这一时间表，短期内美联储改变利率路径的可能性微乎其微，真正的政策调整节点或将延后至秋季",
-      "sourceName": "财新网",
+      "title": "“融房超贷”借道闲鱼疯狂揽客，空手套房还能倒拿50万？",
+      "sourceUrl": "https://www.yicai.com/news/103239670.html",
+      "publishedAt": "2026-06-22T06:18:01.000Z",
+      "summary": "布满陷阱的高危雷区，参与各方均有可能涉刑。“零首付买房，还能倒拿30万至50万。”这一诱人话术背后，隐藏的是典型的“融房超贷”模式。此前，这一游走在灰色地带的金融操作，如今正悄然从暗处走向台前，堂而皇之地涌入原本用于闲置物品流转的二手交易平台：闲鱼，融房中介伪装成卖家，大肆招揽客户。\n\n律师提醒，购房者一旦被此类宣传吸引并实际参与“融房超贷”业务，不仅面临资金链断裂、高额隐性收费等经济损失，更可能",
+      "sourceName": "第一财经",
       "category": "industry",
       "tags": [
         "行业动态"
       ],
-      "id": "17",
+      "id": "13",
       "tier": "S2",
       "sourceTier": "S2",
       "sourceTierLabel": "专业财经媒体",
       "evidenceType": "financial_media",
       "discoveredVia": "RSSHub",
-      "score": 72,
+      "score": 70,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
-        "relevance": 18,
+        "relevance": 12,
         "authority": 15,
         "impact": 8,
         "recency": 15,
-        "depth": 8,
-        "actionability": 8
+        "depth": 10,
+        "actionability": 10
       },
       "confidence": "low",
       "why": [
@@ -632,25 +500,58 @@ window.FINHOT_DATA = {
       ]
     },
     {
-      "title": "稳就业｜国务院五年规划“就业优先”如何落地？",
-      "sourceUrl": "https://www.caixin.com/2026-06-18/102455398.html",
-      "publishedAt": "2026-06-18T06:50:12.000Z",
-      "summary": "主要指标突出社会保障；要求做好宏观政策取向一致性评估，“慎重出台对就业有明显收缩效应的政策”；明确强调国企吸纳就业责任；灵活就业单独成章；更全面应对人工智能\n    \n     \n     2026年6月10日，甘肃张掖，甘州区桦晨职业培训学校养老护理员就业技能培训班。图：视觉中国\n    \n   \n       　　【财新网】事关就业，一项重磅文件最新出台。6月17日，国务院印发《实施就业优先战",
-      "sourceName": "财新网",
+      "title": "斯塔默被曝将辞职？英债市场提前定价政治和财政不确定性",
+      "sourceUrl": "https://www.yicai.com/news/103239623.html",
+      "publishedAt": "2026-06-22T05:55:47.000Z",
+      "summary": "哈维表示，持续的政治和财政风险溢价意味着英国国债对全球市场的波动更加敏感。若政治环境趋于稳定，近期长端收益率的大幅调整或会带来具有吸引力的配置时机。据央视新闻报道，英国方面消息称，工党有高层人士预计英国首相斯塔默最早或于当地时间6月22日就是否辞职发布“声明”。此前，工党大曼彻斯特市长安迪·伯纳姆通过补选赢得下院议员席位、为竞选工党党首铺好路后，英国首相斯塔默认为自己难以继续留任，已着手制定离任时",
+      "sourceName": "第一财经",
       "category": "industry",
       "tags": [
         "行业动态"
       ],
-      "id": "18",
+      "id": "14",
       "tier": "S2",
       "sourceTier": "S2",
       "sourceTierLabel": "专业财经媒体",
       "evidenceType": "financial_media",
       "discoveredVia": "RSSHub",
-      "score": 76,
+      "score": 70,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 12,
+        "authority": 15,
+        "impact": 8,
+        "recency": 15,
+        "depth": 10,
+        "actionability": 10
+      },
+      "confidence": "low",
+      "why": [
+        "专业财经媒体跟进",
+        "可转化为客户沟通或投研关注",
+        "时效性高"
+      ]
+    },
+    {
+      "title": "信息经济下半场：数字经济往哪走（3）",
+      "sourceUrl": "https://opinion.caixin.com/2026-06-22/102456183.html",
+      "publishedAt": "2026-06-22T05:40:00.000Z",
+      "summary": "上半场，互联网平台打��了传统经济关系的信息不对称，下半场，打破旧垄断的力量自身成为新的垄断者\n    \n     \n     平台积累了供需双方的全部行为数据、交易记录和社交图谱——它比你自己还了解你的消费习惯，但你对算法如何决策几乎一无所知。图：视觉中国\n    \n   \n       　　2013年6月，一款名叫\"余额宝\"的理财产品上线了。它做的不是金融创新——货币基金早就存在，收益比活期存",
+      "sourceName": "财新网",
+      "category": "industry",
+      "tags": [
+        "行业动态"
+      ],
+      "id": "15",
+      "tier": "S2",
+      "sourceTier": "S2",
+      "sourceTierLabel": "专业财经媒体",
+      "evidenceType": "financial_media",
+      "discoveredVia": "RSSHub",
+      "score": 86,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 22,
         "authority": 15,
         "impact": 14,
         "recency": 15,
@@ -674,19 +575,19 @@ window.FINHOT_DATA = {
       "tags": [
         "监管政策"
       ],
-      "id": "19",
+      "id": "16",
       "tier": "S0",
       "sourceTier": "S0",
       "sourceTierLabel": "权威原始源",
       "evidenceType": "official_notice",
       "discoveredVia": "RSSHub",
-      "score": 68,
+      "score": 65,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 18,
         "authority": 20,
         "impact": 8,
-        "recency": 10,
+        "recency": 7,
         "depth": 8,
         "actionability": 4
       },
@@ -706,19 +607,19 @@ window.FINHOT_DATA = {
       "tags": [
         "监管政策"
       ],
-      "id": "20",
+      "id": "17",
       "tier": "S0",
       "sourceTier": "S0",
       "sourceTierLabel": "权威原始源",
       "evidenceType": "official_notice",
       "discoveredVia": "RSSHub",
-      "score": 65,
+      "score": 62,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 18,
         "authority": 20,
         "impact": 8,
-        "recency": 7,
+        "recency": 4,
         "depth": 8,
         "actionability": 4
       },
@@ -738,19 +639,19 @@ window.FINHOT_DATA = {
       "tags": [
         "监管政策"
       ],
-      "id": "21",
+      "id": "18",
       "tier": "S0",
       "sourceTier": "S0",
       "sourceTierLabel": "权威原始源",
       "evidenceType": "official_notice",
       "discoveredVia": "RSSHub",
-      "score": 65,
+      "score": 62,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 18,
         "authority": 20,
         "impact": 8,
-        "recency": 7,
+        "recency": 4,
         "depth": 8,
         "actionability": 4
       },
@@ -770,7 +671,7 @@ window.FINHOT_DATA = {
       "tags": [
         "监管政策"
       ],
-      "id": "22",
+      "id": "19",
       "tier": "S0",
       "sourceTier": "S0",
       "sourceTierLabel": "权威原始源",
@@ -802,7 +703,7 @@ window.FINHOT_DATA = {
       "tags": [
         "监管政策"
       ],
-      "id": "23",
+      "id": "20",
       "tier": "S0",
       "sourceTier": "S0",
       "sourceTierLabel": "权威原始源",
@@ -834,7 +735,7 @@ window.FINHOT_DATA = {
       "tags": [
         "行业动态"
       ],
-      "id": "24",
+      "id": "21",
       "tier": "S3",
       "sourceTier": "S3",
       "sourceTierLabel": "快讯/观点线索",
@@ -866,7 +767,7 @@ window.FINHOT_DATA = {
       "tags": [
         "行业动态"
       ],
-      "id": "25",
+      "id": "22",
       "tier": "S3",
       "sourceTier": "S3",
       "sourceTierLabel": "快讯/观点线索",
@@ -897,7 +798,7 @@ window.FINHOT_DATA = {
       "tags": [
         "监管政策"
       ],
-      "id": "26",
+      "id": "23",
       "tier": "S0",
       "sourceTier": "S0",
       "sourceTierLabel": "权威原始源",
@@ -929,7 +830,7 @@ window.FINHOT_DATA = {
       "tags": [
         "监管政策"
       ],
-      "id": "27",
+      "id": "24",
       "tier": "S0",
       "sourceTier": "S0",
       "sourceTierLabel": "权威原始源",
@@ -961,7 +862,7 @@ window.FINHOT_DATA = {
       "tags": [
         "监管政策"
       ],
-      "id": "28",
+      "id": "25",
       "tier": "S0",
       "sourceTier": "S0",
       "sourceTierLabel": "权威原始源",
@@ -993,7 +894,7 @@ window.FINHOT_DATA = {
       "tags": [
         "监管政策"
       ],
-      "id": "29",
+      "id": "26",
       "tier": "S0",
       "sourceTier": "S0",
       "sourceTierLabel": "权威原始源",
@@ -1025,7 +926,7 @@ window.FINHOT_DATA = {
       "tags": [
         "监管政策"
       ],
-      "id": "30",
+      "id": "27",
       "tier": "S0",
       "sourceTier": "S0",
       "sourceTierLabel": "权威原始源",
@@ -1056,7 +957,7 @@ window.FINHOT_DATA = {
       "tags": [
         "监管政策"
       ],
-      "id": "31",
+      "id": "28",
       "tier": "S0",
       "sourceTier": "S0",
       "sourceTierLabel": "权威原始源",
@@ -1087,7 +988,7 @@ window.FINHOT_DATA = {
       "tags": [
         "监管政策"
       ],
-      "id": "32",
+      "id": "29",
       "tier": "S0",
       "sourceTier": "S0",
       "sourceTierLabel": "权威原始源",
@@ -1111,28 +1012,30 @@ window.FINHOT_DATA = {
   ],
   "sections": {
     "regulatory": [
+      "16",
+      "17",
+      "18",
       "19",
       "20",
-      "21",
-      "22",
-      "23",
-      "26"
+      "23"
     ],
     "products": [],
     "industry": [
+      "1",
+      "6",
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "research": [],
+    "insights": [
       "2",
       "3",
       "4",
       "5",
-      "6",
-      "8"
-    ],
-    "research": [],
-    "insights": [
-      "1",
       "7",
-      "11",
-      "13"
+      "8"
     ]
   },
   "flashes": [
@@ -1146,7 +1049,7 @@ window.FINHOT_DATA = {
     },
     {
       "id": "3",
-      "dotClass": "flash-dot-green"
+      "dotClass": "flash-dot-blue"
     },
     {
       "id": "4",

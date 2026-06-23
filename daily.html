@@ -26,6 +26,8 @@
       <p class="report-lead" id="reportLead"></p>
     </div>
     <div class="divider"></div>
+    <div id="aiAnalysisArea"></div>
+    <div class="divider"></div>
     <div id="reportSections"></div>
     <div class="divider"></div>
     <div id="flashSection"></div>
@@ -109,6 +111,76 @@
       }).join('')}
     `;
   }
+  // === AI Analysis Sections ===
+  (function renderAIAnalysis(analysis) {
+    if (!analysis) return;
+
+    var sections = [
+      {
+        key: 'insurancePlanner',
+        icon: '🛡',
+        label: '保险规划师参考话术',
+        accentClass: 'accent-ai-insurance',
+        desc: analysis.insurancePlanner && analysis.insurancePlanner.summary ? analysis.insurancePlanner.summary : '暂无内容'
+      },
+      {
+        key: 'peOperations',
+        icon: '📊',
+        label: '私募运营参考话术',
+        accentClass: 'accent-ai-pe',
+        desc: analysis.peOperations && analysis.peOperations.summary ? analysis.peOperations.summary : '暂无内容'
+      },
+      {
+        key: 'marketOutlook',
+        icon: '📈',
+        label: '市场理解与展望',
+        accentClass: 'accent-ai-market',
+        desc: analysis.marketOutlook && analysis.marketOutlook.summary ? analysis.marketOutlook.summary : '暂无内容'
+      }
+    ];
+
+    var container = document.getElementById('aiAnalysisArea');
+    if (!container) return;
+
+    var html = '';
+    sections.forEach(function(sec) {
+      var secData = analysis[sec.key];
+      if (!secData) return;
+
+      // talkingPoints for insurance & PE, outlooks for market
+      var items = secData.talkingPoints || secData.outlooks || [];
+      if (items.length === 0) return;
+
+      html += '<div class="ai-section">';
+      html += '  <div class="section-header">';
+      html += '    <div class="accent-bar ' + sec.accentClass + '"></div>';
+      html += '    <h2 class="section-title">' + sec.icon + ' ' + sec.label + '</h2>';
+      html += '  </div>';
+      html += '  <p class="ai-section-desc">' + escapeHtml(sec.desc) + '</p>';
+      html += '  <div class="ai-points">';
+
+      items.forEach(function(item) {
+        var topic = escapeHtml(item.topic || '');
+        var point = escapeHtml(item.point || item.content || '');
+        var action = item.action ? escapeHtml(item.action) : '';
+
+        html += '<div class="ai-point-card">';
+        html += '  <div class="ai-point-topic">' + topic + '</div>';
+        html += '  <div class="ai-point-body">' + point + '</div>';
+        if (action) {
+          html += '  <div class="ai-point-action"><span class="ai-action-label">建议行动</span>' + action + '</div>';
+        }
+        html += '</div>';
+      });
+
+      html += '  </div>';
+      html += '</div>';
+    });
+
+    if (html) {
+      container.innerHTML = html;
+    }
+  })(data.aiAnalysis);
 })();
 </script>
 

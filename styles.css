@@ -420,6 +420,11 @@ a {
 .accent-research { background: var(--cat-research); }
 .accent-insights { background: var(--cat-insights); }
 
+/* === AI Accent Colors === */
+.accent-ai-insurance { background: #F97316; }
+.accent-ai-pe { background: #06B6D4; }
+.accent-ai-market { background: #8B5CF6; }
+
 .section-title {
   font-family: var(--font-heading);
   font-size: 18px;
@@ -460,6 +465,84 @@ a {
   font-size: 12px;
   font-weight: 400;
   color: var(--text-dim);
+}
+
+/* === AI Analysis Sections === */
+.ai-section {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 4px 0;
+}
+
+.ai-section-desc {
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  padding: 0 0 4px 14px;
+}
+
+.ai-points {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.ai-point-card {
+  padding: 14px 16px;
+  border-radius: var(--radius-md);
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  transition: border-color var(--transition-fast);
+}
+
+.ai-point-card:hover {
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+.ai-point-topic {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-primary);
+  line-height: 1.5;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.ai-point-body {
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+.ai-point-action {
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--text-muted);
+  line-height: 1.5;
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+  padding: 6px 8px;
+  margin-top: 2px;
+  border-radius: var(--radius-sm);
+  background: rgba(59, 130, 246, 0.06);
+  border: 1px solid rgba(59, 130, 246, 0.1);
+}
+
+.ai-action-label {
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--accent-blue);
+  white-space: nowrap;
+  flex-shrink: 0;
+  padding: 1px 0;
 }
 
 /* === Flash Section === */

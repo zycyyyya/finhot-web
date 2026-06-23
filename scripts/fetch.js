@@ -288,6 +288,126 @@ function buildFlashes(items) {
   }));
 }
 
+// === AI Analysis Generator ===
+function hasText(text, keywords) {
+  const lower = (text || '').toLowerCase();
+  return keywords.some(k => lower.includes(k.toLowerCase()));
+}
+
+function pickTemplate(templates, item) {
+  const text = `${item.title || ''} ${item.summary || ''}`;
+  for (const t of templates) {
+    if (t.match && hasText(text, t.match)) return { point: t.point, action: t.action };
+  }
+  return { point: templates[templates.length - 1].point, action: templates[templates.length - 1].action };
+}
+
+function generateInsuranceAnalysis(items) {
+  const insuranceItems = items.filter(i =>
+    hasText(i.title + ' ' + (i.summary || ''), ['保险', '险企', '保费', '养老', '健康险', '寿险', '年金', '车险', '财险', '理赔', '精算', '偿付'])
+  );
+  if (insuranceItems.length === 0) {
+    return { summary: '今日暂无专项保险资讯', talkingPoints: [] };
+  }
+  const templates = [
+    { match: ['养老', '年金', '退休'], point: '养老金/年金市场动态，可用于退休规划客户的需求唤醒沟通', action: '整理目标客户名单，准备年金利益演示' },
+    { match: ['健康险', '医疗', '重疾', '护理'], point: '健康险领域变化，适合作为客户保单年检中的风险缺口沟通素材', action: '梳理在售健康险产品矩阵，标记优势产品' },
+    { match: ['利率', '降息', 'LPR', '定价', '费率'], point: '利率环境变动直接影响保险产品定价和客户购买决策', action: '测算利率变动对在售产品IRR/保额的影响' },
+    { match: ['监管', '新规', '办法', '通知', '合规', '偿付能力'], point: '监管政策更新，需评估对产品设计、销售流程和客户沟通的合规影响', action: '研读新规要点，更新合规培训材料' },
+    { match: ['保费', '业绩', '增长', '市场'], point: '保险行业经营数据发布，可作为与客户沟通时增强行业信心的素材', action: '摘取关键数据，制作简洁的行业趋势卡片' },
+    { match: ['科技', '创新', '数字化', 'AI'], point: '保险科技/数字化转型进展，适合与高净值客户探讨行业前沿趋势', action: '整理科技赋能案例，丰富客户沟通深度' },
+  ];
+  const talkingPoints = insuranceItems.slice(0, 4).map(item => {
+    const tpl = pickTemplate(templates, item);
+    return {
+      topic: (item.title || '').substring(0, 48),
+      point: tpl.point,
+      action: tpl.action,
+    };
+  });
+  return {
+    summary: `今日 ${insuranceItems.length} 条保险相关资讯，以下为规划师客户沟通参考`,
+    talkingPoints,
+  };
+}
+
+function generatePEAnalysis(items) {
+  const peItems = items.filter(i =>
+    hasText(i.title + ' ' + (i.summary || ''), ['基金', '私募', '资管', '证券', 'ETF', '债券', '理财', '信托', '仓位', '净值', '量化', '对冲', 'FOF'])
+  );
+  if (peItems.length === 0) {
+    return { summary: '今日暂无专项私募/基金资讯', talkingPoints: [] };
+  }
+  const templates = [
+    { match: ['监管', '合规', '新规', '备案', '托管', '募集'], point: '监管动态影响产品发行和运营流程，需同步更新合规手册', action: '梳理监管要点对现有产品的影响，准备合规简报' },
+    { match: ['市场', '行情', '震荡', '波动', '回撤', '仓位'], point: '市场波动时期，需主动沟通投资策略和风控措施', action: '准备投资者沟通话术，强调风控纪律和长期视角' },
+    { match: ['ETF', '指数', '量化', '策略'], point: '投资策略/工具创新，可作为投教内容和客户沟通差异化素材', action: '研究新策略逻辑，评估与现有产品线的互补性' },
+    { match: ['业绩', '净值', '收益', '分红', '排名'], point: '基金/产品业绩数据，是投资人沟通和维护的重要参考', action: '整理同类产品对比，准备业绩归因分析' },
+    { match: ['债券', '利率债', '信用债', '久期'], point: '债券市场变化影响固收类产品表现，需评估组合风险暴露', action: '更新固收策略展望，调整投资建议中的资产配置比例' },
+    { match: ['资金', '发行', '募集', '规模'], point: '基金发行和资金流向反映市场情绪，影响渠道策略', action: '关注资金流向变化，调整渠道推广节奏和重点' },
+  ];
+  const talkingPoints = peItems.slice(0, 4).map(item => {
+    const tpl = pickTemplate(templates, item);
+    return {
+      topic: (item.title || '').substring(0, 48),
+      point: tpl.point,
+      action: tpl.action,
+    };
+  });
+  return {
+    summary: `今日 ${peItems.length} 条基金/资管相关资讯，以下为运营参考`,
+    talkingPoints,
+  };
+}
+
+function generateMarketOutlook(items) {
+  const macroItems = items.filter(i =>
+    hasText(i.title + ' ' + (i.summary || ''), ['央行', '利率', '降准', '降息', 'LPR', 'MLF', 'GDP', 'CPI', 'PMI', '汇率', '人民币', '货币政策', '财政', '经济数据', '通胀', '出口', '消费', '投资', '房地产'])
+  );
+  if (macroItems.length === 0 && items.length === 0) {
+    return { summary: '暂无数据，待明日更新', outlooks: [] };
+  }
+  if (macroItems.length === 0) {
+    return {
+      summary: '今日宏观政策类资讯较少，以下基于精选资讯的整体市场判断',
+      outlooks: [{
+        topic: '资讯概览',
+        content: '今日资讯聚焦行业微观动态，宏观层面信号不多，建议结合近期政策主线做趋势判断',
+      }],
+    };
+  }
+  const outlooks = macroItems.slice(0, 4).map(item => {
+    const text = `${item.title || ''} ${item.summary || ''}`;
+    let content = '该动态反映当前政策/市场走向，建议结合自身持仓和策略评估影响';
+    if (hasText(text, ['降准', '降息', 'LPR'])) {
+      content = '货币政策宽松信号，流动性充裕预期利好债市和权益市场估值，关注进一步宽松空间';
+    } else if (hasText(text, ['GDP', '经济', '增长', '复苏', 'PMI'])) {
+      content = '宏观经济数据反映基本面修复节奏，是判断大类资产配置方向的底层参考';
+    } else if (hasText(text, ['汇率', '人民币', '外汇'])) {
+      content = '汇率波动影响跨境资本流动和出口导向型企业盈利，关注对相关持仓的影响';
+    } else if (hasText(text, ['通胀', 'CPI', 'PPI'])) {
+      content = '通胀数据影响货币政策节奏和实际利率水平，关注对债券久期策略的传导';
+    } else if (hasText(text, ['房地产', '地产'])) {
+      content = '房地产行业政策走向影响信用风险定价和银行资产质量，持续关注边际变化';
+    } else if (hasText(text, ['财政', '专项债', '发债'])) {
+      content = '财政政策发力影响基建投资和信用扩张节奏，关注配套政策的落地效果';
+    }
+    return { topic: (item.title || '').substring(0, 48), content };
+  });
+  return {
+    summary: `今日 ${macroItems.length} 条宏观经济/政策相关资讯`,
+    outlooks,
+  };
+}
+
+function generateAIAnalysis(items) {
+  return {
+    insurancePlanner: generateInsuranceAnalysis(items),
+    peOperations: generatePEAnalysis(items),
+    marketOutlook: generateMarketOutlook(items),
+  };
+}
+
 // === Main ===
 async function main() {
   const existing = loadExisting();
@@ -343,6 +463,7 @@ async function main() {
     items: allItems,
     sections: buildSections(allItems),
     flashes: buildFlashes(allItems),
+    aiAnalysis: generateAIAnalysis(allItems),
   };
 
   console.error(`\n[done] +${newItems.length} new, total ${allItems.length}`);

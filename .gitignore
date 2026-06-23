@@ -1,2 +1,7 @@
+# API Keys / credentials
+.env
+.env.local
+
+# Node
 node_modules/
-*.log
+npm-debug.log*

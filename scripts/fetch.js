@@ -289,6 +289,107 @@ function buildFlashes(items) {
 }
 
 // === AI Analysis Generator ===
+// Uses LongCat LLM API when LONGCAT_API_KEY env var is set; falls back to rule-based
+const LLM_API_HOST = 'api.longcat.chat';
+const LLM_API_PATH = '/openai/v1/chat/completions';
+const LLM_TIMEOUT_MS = 60000;
+
+function httpsPost(host, path, data, apiKey, timeout) {
+  return new Promise((resolve, reject) => {
+    const body = JSON.stringify(data);
+    const req = https.request({
+      hostname: host,
+      path: path,
+      method: 'POST',
+      rejectUnauthorized: false, // Required for some environments
+      headers: {
+        'Content-Type': 'application/json',
+        'Authorization': `Bearer ${apiKey}`,
+        'Content-Length': Buffer.byteLength(body),
+      },
+      timeout: timeout || LLM_TIMEOUT_MS,
+    }, res => {
+      let respBody = '';
+      res.on('data', d => respBody += d);
+      res.on('end', () => {
+        if (res.statusCode >= 200 && res.statusCode < 300) {
+          resolve(respBody);
+        } else {
+          reject(new Error(`HTTP ${res.statusCode}: ${respBody.substring(0, 100)}`));
+        }
+      });
+      res.on('error', reject);
+    });
+    req.on('timeout', () => { req.destroy(); reject(new Error('LLM timeout')); });
+    req.on('error', reject);
+    req.write(body);
+    req.end();
+  });
+}
+
+async function callLLM(messages, apiKey) {
+  const raw = await httpsPost(LLM_API_HOST, LLM_API_PATH, {
+    model: 'LongCat-2.0-Preview',
+    messages,
+    temperature: 0.7,
+    max_tokens: 2000,
+  }, apiKey, LLM_TIMEOUT_MS);
+  const data = JSON.parse(raw);
+  return data.choices[0].message.content;
+}
+
+async function generateAIAnalysisWithLLM(items, apiKey) {
+  const topItems = [...items]
+    .sort((a, b) => (b.score || 0) - (a.score || 0))
+    .slice(0, 12); // Top 12 highest-scored items for the LLM
+
+  const articlesText = topItems.map((item, i) =>
+    `[${i+1}] 标题: ${item.title}\n来源: ${item.sourceName}\n分类: ${item.category}\n评分: ${item.score}\n摘要: ${(item.summary || '').substring(0, 80)}`
+  ).join('\n\n');
+
+  const raw = await callLLM([
+    {
+      role: 'system',
+      content: '你是金融保险资讯分析师。根据今日新闻，生成3个板块的分析内容。回答必须是合法的JSON格式，不要包含任何markdown标记或额外文字。',
+    },
+    {
+      role: 'user',
+      content: `以下是今日金融保险资讯（按价值评分排序前20条）：\n\n${articlesText}\n\n请生成以下JSON结构（仅JSON，无其他文字）：\n{\n  "insurancePlanner": {\n    "summary": "今日保险相关资讯概述（一句话概括）",\n    "talkingPoints": [\n      { "topic": "话题（不超过48字）", "point": "对保险规划师的具体客户沟通要点与话术思路", "action": "建议行动（具体可执行的动作）" }\n    ]\n  },\n  "peOperations": {\n    "summary": "今日私募/基金相关资讯概述（一句话概括）",\n    "talkingPoints": [\n      { "topic": "话题（不超过48字）", "point": "对私募运营人员的参考话术与沟通要点", "action": "建议行动（具体可执行的动作）" }\n    ]\n  },\n  "marketOutlook": {\n    "summary": "今日市场展望概述（一句话概括）",\n    "outlooks": [\n      { "topic": "话题（不超过48字）", "content": "市场判断与展望分析" }\n    ]\n  }\n}\n要求：\n1. 三条talkingPoint/outlook各限3条以内\n2. topic控制在48字以内\n3. 如果某板块无相关资讯，summary写"暂无相关内容"，数组为空\n4. 话术部分要求可直接用于实际客户沟通场景`,
+    },
+  ], apiKey);
+
+  // Robust JSON extraction: strip markdown fences, then find first { and last }
+  let jsonStr = raw.replace(/```json\s*\n?/g, '').replace(/\n?\s*```/g, '').trim();
+  const firstBrace = jsonStr.indexOf('{');
+  const lastBrace = jsonStr.lastIndexOf('}');
+  if (firstBrace !== -1 && lastBrace > firstBrace) {
+    jsonStr = jsonStr.substring(firstBrace, lastBrace + 1);
+  }
+  const parsed = JSON.parse(jsonStr);
+  return {
+    insurancePlanner: parsed.insurancePlanner || { summary: '暂无相关内容', talkingPoints: [] },
+    peOperations: parsed.peOperations || { summary: '暂无相关内容', talkingPoints: [] },
+    marketOutlook: parsed.marketOutlook || { summary: '暂无相关内容', outlooks: [] },
+  };
+}
+
+async function generateAIAnalysisWithFallback(items) {
+  const apiKey = process.env.LONGCAT_API_KEY;
+  if (apiKey) {
+    try {
+      console.error('[llm] generating AI analysis with LongCat API...');
+      const result = await generateAIAnalysisWithLLM(items, apiKey);
+      console.error('[llm] AI analysis generated successfully');
+      return result;
+    } catch (e) {
+      console.error(`[llm] LLM failed: ${e.message}, falling back to rule-based`);
+    }
+  } else {
+    console.error('[llm] LONGCAT_API_KEY not set, using rule-based analysis');
+  }
+  return generateAIAnalysis(items);
+}
+
 function hasText(text, keywords) {
   const lower = (text || '').toLowerCase();
   return keywords.some(k => lower.includes(k.toLowerCase()));
@@ -463,7 +564,7 @@ async function main() {
     items: allItems,
     sections: buildSections(allItems),
     flashes: buildFlashes(allItems),
-    aiAnalysis: generateAIAnalysis(allItems),
+    aiAnalysis: await generateAIAnalysisWithFallback(allItems),
   };
 
   console.error(`\n[done] +${newItems.length} new, total ${allItems.length}`);

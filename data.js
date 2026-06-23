@@ -1,5 +1,5 @@
 // finhot auto-generated data - powered by RSSHub + financial sources
-// Generated: 2026-06-23T07:15:23.870Z
+// Generated: 2026-06-23T07:59:10.139Z
 // Practitioner value scoring: relevance(25) + authority(20) + impact(20) + recency(15) + depth(10) + actionability(10)
 
 window.CATEGORIES = [
@@ -68,9 +68,207 @@ window.CATEGORY_CONFIG = {
 
 window.FINHOT_DATA = {
   "date": "2026-06-23",
-  "generatedAt": "2026-06-23T07:15:23.870Z",
-  "lead": "今日新增 35 条，共 35 条精选资讯",
+  "generatedAt": "2026-06-23T07:59:10.139Z",
+  "lead": "今日新增 27 条，共 27 条精选资讯",
   "items": [
+    {
+      "title": "极端天气频发，如何搭建应对“安全网”",
+      "sourceUrl": "https://opinion.caixin.com/2026-06-23/102456675.html",
+      "publishedAt": "2026-06-23T07:47:46.000Z",
+      "summary": "气候风险治理不能仅依赖保险机制在灾后承担赔付责任，需要从更广泛的风险治理角度出发，推动保险体系从“灾后补偿”向“风险预防、风险分散”相结合的方向转型，提���保险体系的长期韧性与财务可持续性\n       　　去年的美国洛杉矶大火摧毁了超16000栋建筑，经济损失超2500亿美元，重建工作迄今仍举步维艰。随着极端天气频次和强度的增加，如何通过有效的风险防范措施与分担机制，缓解灾害带来的经济社会风险",
+      "sourceName": "财新网",
+      "category": "industry",
+      "tags": [
+        "行业动态"
+      ],
+      "id": "1",
+      "tier": "S2",
+      "sourceTier": "S2",
+      "sourceTierLabel": "专业财经媒体",
+      "evidenceType": "financial_media",
+      "discoveredVia": "RSSHub",
+      "score": 86,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 25,
+        "authority": 15,
+        "impact": 17,
+        "recency": 15,
+        "depth": 10,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "专业财经媒体跟进",
+        "对展业/配置/合规有直接影响",
+        "时效性高"
+      ]
+    },
+    {
+      "title": "小作文带崩韩股？韩媒：国会议员讨论将股票、房地产未实现收益纳入综合征税",
+      "sourceUrl": "https://wallstreetcn.com/articles/3775281",
+      "publishedAt": "2026-06-23T07:44:59.000Z",
+      "summary": "一份关于将股票和房地产未实现收益纳入综合征税体系的政策讨论文件，令已处于高估值区间的韩国股市在6月23日骤然崩跌，KOSPI触发熔断，三星电子与SK海力士领跌。\n据韩联社报道，6月23日上午，韩国共同民主党、进步党、社会民主党等多党派国会议员联合参与税制改革论坛。论坛核心主张是推动\"所得税综合主义\"转型——无论资产是否出售，均以实质性净资产增值为课税依据，股票与房地产等投资资产的未实现收益亦在征税",
+      "sourceName": "华尔街见闻",
+      "category": "industry",
+      "tags": [
+        "行业动态"
+      ],
+      "id": "2",
+      "tier": "S2",
+      "sourceTier": "S2",
+      "sourceTierLabel": "专业财经媒体",
+      "evidenceType": "financial_media",
+      "discoveredVia": "RSSHub",
+      "score": 64,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 12,
+        "authority": 15,
+        "impact": 8,
+        "recency": 15,
+        "depth": 10,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "专业财经媒体跟进",
+        "时效性高",
+        "摘要信息较完整"
+      ]
+    },
+    {
+      "title": "3D生成模型公司获数亿元融资，海外收入占八成",
+      "sourceUrl": "https://www.yicai.com/news/103242038.html",
+      "publishedAt": "2026-06-23T07:43:30.000Z",
+      "summary": "现阶段将3D直接用在普通用户身上不现实。6月23日，3D生成大模型公司影眸科技宣布完成新一轮数亿元人民币融资。本轮融资由凯辉基金、上海国投先导领投，老股东持续跟投，光源资本担任独家财务顾问。此前，字节跳动、美团龙珠、红杉、蓝驰等机构曾投资该公司。据披露，该轮融资将用于公司推进3D大模型前沿探索，加速核心产品Hyper3D Rodin在全球市场的商业化拓展，加速落地游戏、电商、3D打印、工业设计、具",
+      "sourceName": "第一财经",
+      "category": "industry",
+      "tags": [
+        "行业动态"
+      ],
+      "id": "3",
+      "tier": "S2",
+      "sourceTier": "S2",
+      "sourceTierLabel": "专业财经媒体",
+      "evidenceType": "financial_media",
+      "discoveredVia": "RSSHub",
+      "score": 86,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 22,
+        "authority": 15,
+        "impact": 14,
+        "recency": 15,
+        "depth": 10,
+        "actionability": 10
+      },
+      "confidence": "low",
+      "why": [
+        "专业财经媒体跟进",
+        "可转化为客户沟通或投研关注",
+        "时效性高"
+      ]
+    },
+    {
+      "title": "巴斯夫中国退出与中国石油合资公司",
+      "sourceUrl": "https://www.36kr.com/newsflashes/3865440309433608",
+      "publishedAt": "2026-06-23T07:29:13.000Z",
+      "summary": "36氪获悉，天眼查App显示，近日，巴斯夫吉化新戊二醇有限公司发生工商变更，原股东巴斯夫（中国）有限公司、巴斯夫欧洲公司退出，注册资本由1.5亿人民币减至6000万人民币。该公司成立���1995年11月，法定代表人为陈建军，经营范围为基础化学原料制造、专用化学产品制造、专用化学产品销售等，现由中国石油全资持股。",
+      "sourceName": "36氪",
+      "category": "insights",
+      "tags": [
+        "观点"
+      ],
+      "id": "4",
+      "tier": "S3",
+      "sourceTier": "S3",
+      "sourceTierLabel": "快讯/观点线索",
+      "evidenceType": "news_flash",
+      "discoveredVia": "RSSHub",
+      "score": 68,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 12,
+        "authority": 9,
+        "impact": 14,
+        "recency": 15,
+        "depth": 8,
+        "actionability": 10
+      },
+      "confidence": "low",
+      "why": [
+        "快讯线索，需结合原文判断",
+        "可转化为客户沟通或投研关注",
+        "时效性高"
+      ]
+    },
+    {
+      "title": "罕见亏损！量化指增产品负超额扩大，什么原因？",
+      "sourceUrl": "https://wallstreetcn.com/articles/3775279",
+      "publishedAt": "2026-06-23T07:23:05.000Z",
+      "summary": "AI科技赛道“大热”带来的极致行情，也在私募产品中有所显现。\n今年4月以来，私募产品也持续呈现结构性分化特征。特别是量化指增产品，5月出现罕见阶段性亏损之后，6月最新数据显示，量��指增产品的负超额有所扩大。\n当市场收益高度绑定单一赛道贝塔，私募参与ETF产品已从辅助工具升级为核心赛道配置载体，市场参与度出现跨越式提升。行业ETF占私募新发ETF持仓超两成，是唯一持续增配主线。多家量化机构已将行业",
+      "sourceName": "华尔街见闻",
+      "category": "industry",
+      "tags": [
+        "行业动态"
+      ],
+      "id": "5",
+      "tier": "S2",
+      "sourceTier": "S2",
+      "sourceTierLabel": "专业财经媒体",
+      "evidenceType": "financial_media",
+      "discoveredVia": "RSSHub",
+      "score": 86,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 22,
+        "authority": 15,
+        "impact": 14,
+        "recency": 15,
+        "depth": 10,
+        "actionability": 10
+      },
+      "confidence": "low",
+      "why": [
+        "专业财经媒体跟进",
+        "可转化为客户沟通或投研关注",
+        "时效性高"
+      ]
+    },
+    {
+      "title": "美伊谈判取得重大进展，市场为何反应冷淡？",
+      "sourceUrl": "https://wallstreetcn.com/articles/3775275",
+      "publishedAt": "2026-06-23T07:20:01.000Z",
+      "summary": "美伊阶段性协议落地，油价大幅回落，但风险资产的反弹却令市场人士大失所望。\n据追风交易台，德意志银行宏观策略师Henry Allen在最新研究报告中指出，美联储鹰派转向、市场预期已提前消化利好、估值过度高估以及霍尔木兹海峡通行尚未实质恢复，四重压力叠加，共同压制了这场本应更为强劲的解脱行情。\n美联储上周三的政策决定成为最直接的\"对冲力量\"。点阵图显示，半数官员预计今年至少加息一次，新任主席Warsh",
+      "sourceName": "华尔街见闻",
+      "category": "industry",
+      "tags": [
+        "行业动态"
+      ],
+      "id": "6",
+      "tier": "S2",
+      "sourceTier": "S2",
+      "sourceTierLabel": "专业财经媒体",
+      "evidenceType": "financial_media",
+      "discoveredVia": "RSSHub",
+      "score": 77,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 25,
+        "authority": 15,
+        "impact": 8,
+        "recency": 15,
+        "depth": 10,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "专业财经媒体跟进",
+        "时效性高",
+        "摘要信息较完整"
+      ]
+    },
     {
       "title": "收盘｜沪指跌1.37% 贵金属板块下挫",
       "sourceUrl": "https://www.yicai.com/news/103241996.html",
@@ -81,7 +279,7 @@ window.FINHOT_DATA = {
       "tags": [
         "行业动态"
       ],
-      "id": "1",
+      "id": "7",
       "tier": "S2",
       "sourceTier": "S2",
       "sourceTierLabel": "专业财经媒体",
@@ -108,13 +306,13 @@ window.FINHOT_DATA = {
       "title": "好奇供应商卫星化学涨停！多家纸尿裤供应商毛利率超20%",
       "sourceUrl": "https://www.yicai.com/news/103241972.html",
       "publishedAt": "2026-06-23T07:09:43.000Z",
-      "summary": "有业内人士呼吁，应从纸尿裤供应链源头开始，彻查整条产业链，并进行大样本抽样分析以及临床样本检测等溯源工作。6月23日，纸尿裤核心原料高吸水性树脂（SAP）生产商卫星化学（002648.SZ）股价涨停，终止了连续一周的跌势。据卫星化学投资者关系平台信息，该公司为国内外主要纸尿裤平台的全球供应商，包括好奇、安儿乐等。当天，其他纸尿裤供应商股价也纷纷出现上涨。Babycare代工企业之一豪悦护理（605",
+      "summary": "有业内人士呼吁，应从纸尿裤供应链源头开始，彻查整条产业链，并进行大样本抽样分析以及临床样本检测等溯源工作。6月23日，纸尿裤核心原料高吸水性树脂（SAP）生产商卫星化学（002648.SZ）股价涨停，终止了连续一周的跌势。据卫星化学投资者关系平台信息，该公司为国内外主要纸尿裤平台的全球供应商，包括好��、安儿乐等。当天，其他纸尿裤供应商股价也纷纷出现上涨。Babycare代工企业之一豪悦护理（60",
       "sourceName": "第一财经",
       "category": "industry",
       "tags": [
         "行业动态"
       ],
-      "id": "2",
+      "id": "8",
       "tier": "S2",
       "sourceTier": "S2",
       "sourceTierLabel": "专业财经媒体",
@@ -147,7 +345,7 @@ window.FINHOT_DATA = {
       "tags": [
         "观点"
       ],
-      "id": "3",
+      "id": "9",
       "tier": "S3",
       "sourceTier": "S3",
       "sourceTierLabel": "快讯/观点线索",
@@ -174,13 +372,13 @@ window.FINHOT_DATA = {
       "title": "美伊就霍尔木兹航线发出矛盾指令，船东面临制裁与扣押双重威胁",
       "sourceUrl": "https://wallstreetcn.com/articles/3775271",
       "publishedAt": "2026-06-23T07:02:38.000Z",
-      "summary": "美伊在霍尔木兹海峡的通航指令正出现严重对立。尽管宏观层面的停火协议推动海峡通航���创下冲突以来新高，但微观层面的航线博弈正将国际船东与保险商推入制裁合规与物理安全的双重死角。\n据英国《金融时报》周二报道，美国推出了受美军空中掩护的阿曼侧“守护天使”护航航线，而伊朗则强硬要求船只必须靠近其海岸航行并支付通行费。这种截然相反的指令，直接打破了宏观谅解备忘录带来的乐观预期，令航运市场的实际操作充满不确",
+      "summary": "美伊在霍尔木兹海峡的通航指令正出现严重对立。尽管宏观层面的停火协议推动海峡通航量创下冲突以来新高，但微观层面的航线博弈正将国际船东与保险商推入制裁合规与物理安全的双重死角。\n据英国《金融时报》周二报道，美国推出了受美军空中掩护的阿曼侧“守护天使”护航航线，而伊朗则强硬要求船只必须靠近其海岸航行并支付通行费。这种截然相反的指令，直接打破了宏观谅解备忘录带来的乐观预期，令航运市场的实际操作充满不确定性",
       "sourceName": "华尔街见闻",
       "category": "industry",
       "tags": [
         "行业动态"
       ],
-      "id": "4",
+      "id": "10",
       "tier": "S2",
       "sourceTier": "S2",
       "sourceTierLabel": "专业财经媒体",
@@ -213,7 +411,7 @@ window.FINHOT_DATA = {
       "tags": [
         "行业动态"
       ],
-      "id": "5",
+      "id": "11",
       "tier": "S2",
       "sourceTier": "S2",
       "sourceTierLabel": "专业财经媒体",
@@ -237,82 +435,16 @@ window.FINHOT_DATA = {
       ]
     },
     {
-      "title": "高盛之后，德银也大砍金价预期，最高下调22%",
-      "sourceUrl": "https://wallstreetcn.com/articles/3775274",
-      "publishedAt": "2026-06-23T06:36:11.000Z",
-      "summary": "华尔街主要投行对黄金的看法正在集体降温。继高盛上周大幅���调金价目标后，德意志银行周一跟进，将黄金价格预测最高下调22%，成为近期看多情绪退潮的最新注脚。\n据彭博报道，德意志银行研究分析师Michael Hsueh在报告中将三季度金价预测下调至每盎司4300美元，较此前预期低逾五分之一；四季度目标价则下调17%至4800美元。尽管两项修正后的目标仍高于当前约4140美元的市场价格，但较此前的预测",
-      "sourceName": "华尔街见闻",
-      "category": "industry",
-      "tags": [
-        "行业动态"
-      ],
-      "id": "6",
-      "tier": "S2",
-      "sourceTier": "S2",
-      "sourceTierLabel": "专业财经媒体",
-      "evidenceType": "financial_media",
-      "discoveredVia": "RSSHub",
-      "score": 70,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 18,
-        "authority": 15,
-        "impact": 8,
-        "recency": 15,
-        "depth": 10,
-        "actionability": 4
-      },
-      "confidence": "low",
-      "why": [
-        "专业财经媒体跟进",
-        "时效性高",
-        "摘要信息较完整"
-      ]
-    },
-    {
-      "title": "韩国将要求所有上市公司披露库存股详情",
-      "sourceUrl": "https://www.36kr.com/newsflashes/3865375052993799",
-      "publishedAt": "2026-06-23T06:22:50.000Z",
-      "summary": "韩国金融监管机构周二表示，根据内阁批准的《商业法》实施细则修订案，所有上市公司将被要求披露其库存股的详细信息。这项修订案已于2月底获得韩国议会批准，根据该修订案，所有上市公司必须在购入库存股后一年内注销，并在18个月内回购其现有的库存股。此前，只有持有库存股超过流通股1%的公司才需要披露其持有的库存股数量及其使用计划。（新浪财经）",
-      "sourceName": "36氪",
-      "category": "insights",
-      "tags": [
-        "观点"
-      ],
-      "id": "7",
-      "tier": "S3",
-      "sourceTier": "S3",
-      "sourceTierLabel": "快讯/观点线索",
-      "evidenceType": "news_flash",
-      "discoveredVia": "RSSHub",
-      "score": 68,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 12,
-        "authority": 9,
-        "impact": 20,
-        "recency": 15,
-        "depth": 8,
-        "actionability": 4
-      },
-      "confidence": "low",
-      "why": [
-        "快讯线索，需结合原文判断",
-        "对展业/配置/合规有直接影响",
-        "时效性高"
-      ]
-    },
-    {
       "title": "全球股市现抛售潮 韩国股市大跌近10%一度触发熔断",
       "sourceUrl": "https://international.caixin.com/2026-06-23/102456625.html",
       "publishedAt": "2026-06-23T06:21:59.000Z",
-      "summary": "由于缺乏美联储对利率预期的明确指引，投资者表示，市场波动性可��会加剧\n    \n     \n     当地时间2026年6月23日，韩国首尔，中구一家银行交易大厅的显示屏上显示着KOSPI指数等信息。图：视觉中国\n    \n   \n       　　【财新网】在美国长期国债收益率上行的压力下，全球股市出现抛售，其中韩国股市抛售情况最为严重。北京时间6月23日，韩国股市收跌9.99%，报8204.",
+      "summary": "由于缺乏美联储对利率预期的明确指引，投资者表示，市场波动性可能会加剧\n    \n     \n     当地时间2026年6月23日，韩国首尔，中구一家银行交易大厅的显示屏上显示着KOSPI指数等信息。���：视觉中国\n    \n   \n       　　【财新网】在美国长期国债收益率上行的压力下，全球股市出现抛售，其中韩国股市抛售情况最为严重。北京时间6月23日，韩国股市收跌9.99%，报8204",
       "sourceName": "财新网",
       "category": "industry",
       "tags": [
         "行业动态"
       ],
-      "id": "8",
+      "id": "12",
       "tier": "S2",
       "sourceTier": "S2",
       "sourceTierLabel": "专业财经媒体",
@@ -339,13 +471,13 @@ window.FINHOT_DATA = {
       "title": "保证金比例最高升至140% 银行代理个人贵金属存量业务变相“劝退”",
       "sourceUrl": "https://finance.caixin.com/2026-06-23/102456614.html",
       "publishedAt": "2026-06-23T06:12:51.000Z",
-      "summary": "2020年以来，银行代理个人贵金属业务一直处于暂停新增、消化存量的过程中\n    \n     \n     近期代理上金所个人贵金属交易业务的收紧并非个例。图：视觉中国\n    \n   \n       　　【财新网】过去六年，银行代理个人上海黄金交易所贵金属交易业务经历了暂停新户签约、暂停新开仓交易、清退“不动户”等多轮收紧。近期多家银行将保证金比例上调至100%以上，相当于变相“劝退��，且有银行",
+      "summary": "2020年以来，银行代理个人贵金���业务一直处于暂停新增、消化存量的过程中\n    \n     \n     近期代理上金所个人贵金属交易业务的收紧并非个例。图：视觉中国\n    \n   \n       　　【财新网】过去六年，银行代理个人上海黄金交易所贵金属交易业务经历了暂停新户签约、暂停新开仓交易、清退“不动户”等多轮收紧。近期多家银行将保证金比例上调至100%以上，相当于变相“劝退”，且有银",
       "sourceName": "财新网",
       "category": "industry",
       "tags": [
         "行业动态"
       ],
-      "id": "9",
+      "id": "13",
       "tier": "S2",
       "sourceTier": "S2",
       "sourceTierLabel": "专业财经媒体",
@@ -369,39 +501,6 @@ window.FINHOT_DATA = {
       ]
     },
     {
-      "title": "白云山换帅完成工商变更",
-      "sourceUrl": "https://www.36kr.com/newsflashes/3865361450701828",
-      "publishedAt": "2026-06-23T06:09:00.000Z",
-      "summary": "36氪获悉，天眼查App显示，近日，白云山、发生工商变更，李小军卸任法定代表人、董事长，由陈杰辉接任。该公司成立于1997年9月，注册资本约16.3亿人民币，经营范围包括停车场经营、西药批发、医疗诊断、监护及治疗设备批发等，由广州医药集团有限公司、HKSCC Nominees Limited、广州国寿城市发展产业投资企业（有限合伙）等共同持股据媒体报道，此前，陈杰辉当选该公司董事长，原董事长李小军",
-      "sourceName": "36氪",
-      "category": "insights",
-      "tags": [
-        "观点"
-      ],
-      "id": "10",
-      "tier": "S3",
-      "sourceTier": "S3",
-      "sourceTierLabel": "快讯/观点线索",
-      "evidenceType": "news_flash",
-      "discoveredVia": "RSSHub",
-      "score": 58,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 12,
-        "authority": 9,
-        "impact": 8,
-        "recency": 15,
-        "depth": 10,
-        "actionability": 4
-      },
-      "confidence": "low",
-      "why": [
-        "快讯线索，需结合原文判断",
-        "时效性高",
-        "摘要信息较完整"
-      ]
-    },
-    {
       "title": "油价下跌，美债为什么不跟",
       "sourceUrl": "https://opinion.caixin.com/2026-06-23/102456574.html",
       "publishedAt": "2026-06-23T05:44:04.000Z",
@@ -411,7 +510,7 @@ window.FINHOT_DATA = {
       "tags": [
         "行业动态"
       ],
-      "id": "11",
+      "id": "14",
       "tier": "S2",
       "sourceTier": "S2",
       "sourceTierLabel": "专业财经媒体",
@@ -444,303 +543,7 @@ window.FINHOT_DATA = {
       "tags": [
         "行业动态"
       ],
-      "id": "12",
-      "tier": "S2",
-      "sourceTier": "S2",
-      "sourceTierLabel": "专业财经媒体",
-      "evidenceType": "financial_media",
-      "discoveredVia": "RSSHub",
-      "score": 70,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 18,
-        "authority": 15,
-        "impact": 8,
-        "recency": 15,
-        "depth": 10,
-        "actionability": 4
-      },
-      "confidence": "low",
-      "why": [
-        "专业财经媒体跟进",
-        "时效性高",
-        "摘要信息较完整"
-      ]
-    },
-    {
-      "title": "六氟化钨暴涨：一条被忽略的半导体上游咽喉",
-      "sourceUrl": "https://wallstreetcn.com/articles/3775267",
-      "publishedAt": "2026-06-23T05:11:23.000Z",
-      "summary": "2026年上半年的A股，如果有人问你\"谁是今年最牛的股票\"，答案很可能不是AI，不是机器人，而是一家做特种气体的公司。\n中船特气，年内累计涨幅865%，全A第一。中巨芯，30个交易日内涨超180%。昊华科技，翻倍。和远气体，五天三板。\n这些公司只有一个共同标签：六氟化钨。\n一种绝大多数投资者从未听说过名字的气体，正在A股掀起一场风暴。而风暴的源头，是日本两家六氟化钨生产商——关东电化与中央硝子——",
-      "sourceName": "华尔街见闻",
-      "category": "industry",
-      "tags": [
-        "行业动态"
-      ],
-      "id": "13",
-      "tier": "S2",
-      "sourceTier": "S2",
-      "sourceTierLabel": "专业财经媒体",
-      "evidenceType": "financial_media",
-      "discoveredVia": "RSSHub",
-      "score": 64,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 12,
-        "authority": 15,
-        "impact": 8,
-        "recency": 15,
-        "depth": 10,
-        "actionability": 4
-      },
-      "confidence": "low",
-      "why": [
-        "专业财经媒体跟进",
-        "时效性高",
-        "摘要信息较完整"
-      ]
-    },
-    {
-      "title": "甲骨文一年裁员2.1万人，承认AI取代部分岗位",
-      "sourceUrl": "https://wallstreetcn.com/articles/3775269",
-      "publishedAt": "2026-06-23T05:10:38.000Z",
-      "summary": "甲骨文公司过去12个月大规模削减人员，裁员规模远超此前外界所知，并首次在监管文件中公开承认人工智能技术已导致部分岗位消失。\n甲骨文周一在年度财务监管文件中表示，\"AI技术在公司运营中的采用与部署已导致，且未来可能持续导致员工人数减少。\"截至5月31日财年结束，公司全球全职员工总数降至14.1万人，较一年前的16.2万人减少约2.1万人，降幅达13%。本轮裁员带来约18亿美元的重组成本。\n此次裁员与",
-      "sourceName": "华尔街见闻",
-      "category": "industry",
-      "tags": [
-        "行业动态"
-      ],
-      "id": "14",
-      "tier": "S2",
-      "sourceTier": "S2",
-      "sourceTierLabel": "专业财经媒体",
-      "evidenceType": "financial_media",
-      "discoveredVia": "RSSHub",
-      "score": 76,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 12,
-        "authority": 15,
-        "impact": 20,
-        "recency": 15,
-        "depth": 10,
-        "actionability": 4
-      },
-      "confidence": "low",
-      "why": [
-        "专业财经媒体跟进",
-        "对展业/配置/合规有直接影响",
-        "时效性高"
-      ]
-    },
-    {
-      "title": "【数据图解】韩国股市散户疯狂入市，外资还在离场",
-      "sourceUrl": "https://database.caixin.com/2026-06-23/102456555.html",
-      "publishedAt": "2026-06-23T05:07:21.000Z",
-      "summary": "随着韩国KOSPI指数飙涨，韩国股市在全球和新兴市场基准指数中的权重急剧增加，迫使许多主动型基金经理削减头寸；可散户的入市热情依然高涨，多项投资数据仍在高位\n    \n     \n     韩国��市的经纪应收账款在6月19日达到19240.89亿韩元，创下自2006年以来的最高纪录，显示出韩国散户的入市热情持续高涨。",
-      "sourceName": "财新网",
-      "category": "industry",
-      "tags": [
-        "行业动态"
-      ],
       "id": "15",
-      "tier": "S2",
-      "sourceTier": "S2",
-      "sourceTierLabel": "专业财经媒体",
-      "evidenceType": "financial_media",
-      "discoveredVia": "RSSHub",
-      "score": 72,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 22,
-        "authority": 15,
-        "impact": 8,
-        "recency": 15,
-        "depth": 8,
-        "actionability": 4
-      },
-      "confidence": "low",
-      "why": [
-        "专业财经媒体跟进",
-        "时效性高",
-        "摘要信息较完整"
-      ]
-    },
-    {
-      "title": "英伟达“全液冷”官宣，A股多股涨停！",
-      "sourceUrl": "https://www.yicai.com/news/103241665.html",
-      "publishedAt": "2026-06-23T04:55:48.000Z",
-      "summary": "预计2027年全球AIDC服务器液冷市场空间将达到218亿美元。6月23日，A股液冷概念板块上涨，多只股票收获涨停板。截至午间收盘，方盛股份（920662）“30cm”涨停，圣阳股份（002580）、大元泵业（603757）、卫星化学（002648）等涨超10%，英特科技（301399）、英维克（002837）、曙光数创（920808）、高澜股份（300499）、立讯精密（002475）等个股跟涨",
-      "sourceName": "第一财经",
-      "category": "industry",
-      "tags": [
-        "行业动态"
-      ],
-      "id": "16",
-      "tier": "S2",
-      "sourceTier": "S2",
-      "sourceTierLabel": "专业财经媒体",
-      "evidenceType": "financial_media",
-      "discoveredVia": "RSSHub",
-      "score": 64,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 12,
-        "authority": 15,
-        "impact": 8,
-        "recency": 15,
-        "depth": 10,
-        "actionability": 4
-      },
-      "confidence": "low",
-      "why": [
-        "专业财经媒体跟进",
-        "时效性高",
-        "摘要信息较完整"
-      ]
-    },
-    {
-      "title": "长安责任保险风险处置再进一程 安徽国资筹建新公司",
-      "sourceUrl": "https://finance.caixin.com/2026-06-23/102456548.html",
-      "publishedAt": "2026-06-23T04:52:20.000Z",
-      "summary": "国元金控集团会同安徽省国金公司、省投资集团、省国控集团、合肥兴泰集团、合肥建投集团、合肥产投集团筹建中安财险，以防范化解金融风险\n    \n     \n     长安责任保险是2007年成立的国内惟一一家专业的责任险公司，其在2017年因踩雷P2P履约险陷入巨亏，随后虽然获得注资挽救但仍然深陷财务泥潭。\n    \n   \n       　　【财新网】国元金控集团发布公告称，6月18日，安徽中安财产",
-      "sourceName": "财新网",
-      "category": "industry",
-      "tags": [
-        "行业动态"
-      ],
-      "id": "17",
-      "tier": "S2",
-      "sourceTier": "S2",
-      "sourceTierLabel": "专业财经媒体",
-      "evidenceType": "financial_media",
-      "discoveredVia": "RSSHub",
-      "score": 77,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 25,
-        "authority": 15,
-        "impact": 8,
-        "recency": 15,
-        "depth": 10,
-        "actionability": 4
-      },
-      "confidence": "low",
-      "why": [
-        "专业财经媒体跟进",
-        "时效性高",
-        "摘要信息较完整"
-      ]
-    },
-    {
-      "title": "从卖基金到全景财务规划顾问，如何转型",
-      "sourceUrl": "https://opinion.caixin.com/2026-06-23/102456546.html",
-      "publishedAt": "2026-06-23T04:47:45.000Z",
-      "summary": "从卖基金到全景财务规划顾问,表面上是一次知识和技能的升级,本质上是一次职业身份和价值创造逻辑的根本转变\n    \n     \n     从卖基金到全景财务规划顾问，表面上是一次知识和技能的升级，本质上是一次职业身份和价值创造逻辑的根本转变。图：IC photo\n    \n   \n       　　美国资产管理业过去20年最深刻的变化，并非发生在投资策略层面，而是发生在”谁来为客户做决策”这个环节。",
-      "sourceName": "财新网",
-      "category": "industry",
-      "tags": [
-        "行业动态"
-      ],
-      "id": "18",
-      "tier": "S2",
-      "sourceTier": "S2",
-      "sourceTierLabel": "专业财经媒体",
-      "evidenceType": "financial_media",
-      "discoveredVia": "RSSHub",
-      "score": 80,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 22,
-        "authority": 15,
-        "impact": 8,
-        "recency": 15,
-        "depth": 10,
-        "actionability": 10
-      },
-      "confidence": "low",
-      "why": [
-        "专业财经媒体跟进",
-        "可转化为客户沟通或投研关注",
-        "时效性高"
-      ]
-    },
-    {
-      "title": "【市场动态】泰国流行奶茶等日常消费“先买后付” 央行行长担心加剧债务问题",
-      "sourceUrl": "https://database.caixin.com/2026-06-23/102456543.html",
-      "publishedAt": "2026-06-23T04:45:39.000Z",
-      "summary": "行长Vitai Ratanakorn正采取措施遏制“先买后付”服务的快速增长，这类服务越来越多地允许消费者将日常消费分期付款",
-      "sourceName": "财新网",
-      "category": "industry",
-      "tags": [
-        "行业动态"
-      ],
-      "id": "19",
-      "tier": "S2",
-      "sourceTier": "S2",
-      "sourceTierLabel": "专业财经媒体",
-      "evidenceType": "financial_media",
-      "discoveredVia": "RSSHub",
-      "score": 66,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 18,
-        "authority": 15,
-        "impact": 8,
-        "recency": 15,
-        "depth": 6,
-        "actionability": 4
-      },
-      "confidence": "low",
-      "why": [
-        "专业财经媒体跟进",
-        "时效性高"
-      ]
-    },
-    {
-      "title": "【市场动态】SpaceX的高评级引发质疑 宏大叙事考验债券投资者信心",
-      "sourceUrl": "https://database.caixin.com/2026-06-23/102456541.html",
-      "publishedAt": "2026-06-23T04:44:02.000Z",
-      "summary": "穆迪同样对埃隆·马斯克的SpaceX给予Baa1评级，尽管其公开的财务记录有限，“自由现金流持续为负”，以及未来几年仍需进行大量资本支出\n    \n     \n     当地时间2026年6月8日，美国加利福尼亚州霍桑，太空探索技术公司（SpaceX）。图：视觉中国",
-      "sourceName": "财新网",
-      "category": "industry",
-      "tags": [
-        "行业动态"
-      ],
-      "id": "20",
-      "tier": "S2",
-      "sourceTier": "S2",
-      "sourceTierLabel": "专业财经媒体",
-      "evidenceType": "financial_media",
-      "discoveredVia": "RSSHub",
-      "score": 76,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 22,
-        "authority": 15,
-        "impact": 8,
-        "recency": 15,
-        "depth": 8,
-        "actionability": 8
-      },
-      "confidence": "low",
-      "why": [
-        "专业财经媒体跟进",
-        "可转化为客户沟通或投研关注",
-        "时效性高"
-      ]
-    },
-    {
-      "title": "火线评论｜王烁：格林斯潘功业的两面",
-      "sourceUrl": "https://opinion.caixin.com/2026-06-23/102456539.html",
-      "publishedAt": "2026-06-23T04:42:33.000Z",
-      "summary": "只有人与制度相互扶持，才能保有跨越时间的央行独立性\n    \n     \n     资料图：格林斯潘。图：视觉中国\n    \n   \n       　　【财新网】/火线评论\n　　格林斯潘去世，一生功业评说不外乎围绕两点展开。一是金融危机管控。二是央行独立性。两点都有两面。\n　　先谈危机管控。格林斯潘在1987年黑色星期一股市崩盘后的应对，树立了全球中央银行应对金融危机的范式。一言以蔽之，即宣称用无",
-      "sourceName": "财新网",
-      "category": "industry",
-      "tags": [
-        "行业动态"
-      ],
-      "id": "21",
       "tier": "S2",
       "sourceTier": "S2",
       "sourceTierLabel": "专业财经媒体",
@@ -773,7 +576,7 @@ window.FINHOT_DATA = {
       "tags": [
         "监管政策"
       ],
-      "id": "22",
+      "id": "16",
       "tier": "S0",
       "sourceTier": "S0",
       "sourceTierLabel": "权威原始源",
@@ -799,13 +602,13 @@ window.FINHOT_DATA = {
       "title": "关于深圳国华网安科技股份有限公司股票终止上市的公告",
       "sourceUrl": "http://www.szse.cn/disclosure/notice/company/t20260612_621020.html",
       "publishedAt": "2026-06-11T16:00:00.000Z",
-      "summary": "2025年4月30日，深圳国华网安科技股份有限公司（以下简称公司）因2024年度经审计的利润总额、净利润、扣除非经常性损益后的净利润（以下简称扣非后净利润）三者孰低为负值，且扣除后的营业收入低于3亿元，公司股票交易被实施退市风险警示。\n2026年4月28日，公司股票交易被实施退市风险警示后披露的首个年度报告显示，公司2025年度经审计的扣非后净利润为-1622.39万元，扣除后的营业收入为1.64",
+      "summary": "2025年4月30��，深圳国华网安科技股份有限公司（以下简称公司）因2024年度经审计的利润总额、净利润、扣除非经常性损益后的净利润（以下简称扣非后净利润）三者孰低为负值，且扣除后的营业收入低于3亿元，公司股票交易被实施退市风险警示。\n2026年4月28日，公司股票交易被实施退市风险警示后披露的首个年度报告显示，公司2025年度经审计的扣非后净利润为-1622.39万元，扣除后的营业收入为1.6",
       "sourceName": "深交所",
       "category": "regulatory",
       "tags": [
         "监管政策"
       ],
-      "id": "23",
+      "id": "17",
       "tier": "S0",
       "sourceTier": "S0",
       "sourceTierLabel": "权威原始源",
@@ -837,7 +640,7 @@ window.FINHOT_DATA = {
       "tags": [
         "监管政策"
       ],
-      "id": "24",
+      "id": "18",
       "tier": "S0",
       "sourceTier": "S0",
       "sourceTierLabel": "权威原始源",
@@ -869,7 +672,7 @@ window.FINHOT_DATA = {
       "tags": [
         "监管政策"
       ],
-      "id": "25",
+      "id": "19",
       "tier": "S0",
       "sourceTier": "S0",
       "sourceTierLabel": "权威原始源",
@@ -901,7 +704,7 @@ window.FINHOT_DATA = {
       "tags": [
         "监管政策"
       ],
-      "id": "26",
+      "id": "20",
       "tier": "S0",
       "sourceTier": "S0",
       "sourceTierLabel": "权威原始源",
@@ -924,69 +727,6 @@ window.FINHOT_DATA = {
       ]
     },
     {
-      "title": "乌鲁木齐通报药店销售“回流药”、串换药品套取医保基金等问题",
-      "sourceUrl": "https://api3.cls.cn/share/article/2384152?os=web&sv=8.4.6&app=CailianpressWeb",
-      "publishedAt": "2026-05-28T07:32:42.000Z",
-      "summary": "【乌鲁木齐通报药店销售“回流药”、串换药品套取医保基金等问题】财联社5月28日电，乌鲁木齐市医疗保障局发布情况通报：近日，在国家医保局对定点零售药店违法违规使用医保基金开展的专项飞行检查中，发现乌鲁木齐市颐仁堂养心和大药房存在销售“回流药”问题，乌鲁木齐市健民康药业有限公司存在串换药品套取医保基金等问题。乌鲁木齐市医保局及天山区 、高新技术产业开发区（新市区）医保部门快速响应、即刻处置，严格依据医",
-      "sourceName": "财联社",
-      "category": "industry",
-      "tags": [
-        "行业动态"
-      ],
-      "id": "27",
-      "tier": "S3",
-      "sourceTier": "S3",
-      "sourceTierLabel": "快讯/观点线索",
-      "evidenceType": "news_flash",
-      "discoveredVia": "RSSHub",
-      "score": 57,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 22,
-        "authority": 9,
-        "impact": 8,
-        "recency": 4,
-        "depth": 10,
-        "actionability": 4
-      },
-      "confidence": "low",
-      "why": [
-        "快讯线索，需结合原文判断",
-        "摘要信息较完整"
-      ]
-    },
-    {
-      "title": "财联社5月28日电，伦敦证券交易所集团（LSEG）数据显示，德国日前基本负荷电力价格下跌9.57%，至每兆瓦时104欧元。",
-      "sourceUrl": "https://api3.cls.cn/share/article/2384138?os=web&sv=8.4.6&app=CailianpressWeb",
-      "publishedAt": "2026-05-28T07:26:26.000Z",
-      "summary": "财联社5月28日电，伦敦证券交易所集团（LSEG）数据显示，德国日前基本负荷电力价格下跌9.57%，至每兆瓦时104欧元。",
-      "sourceName": "财联社",
-      "category": "industry",
-      "tags": [
-        "行业动态"
-      ],
-      "id": "28",
-      "tier": "S3",
-      "sourceTier": "S3",
-      "sourceTierLabel": "快讯/观点线索",
-      "evidenceType": "news_flash",
-      "discoveredVia": "RSSHub",
-      "score": 53,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 22,
-        "authority": 9,
-        "impact": 8,
-        "recency": 4,
-        "depth": 6,
-        "actionability": 4
-      },
-      "confidence": "low",
-      "why": [
-        "快讯线索，需结合原文判断"
-      ]
-    },
-    {
       "title": "关于万方城镇投资发展股份有限公司股票终止上市的公告",
       "sourceUrl": "http://www.szse.cn/disclosure/notice/company/t20260525_620692.html",
       "publishedAt": "2026-05-24T16:00:00.000Z",
@@ -996,7 +736,7 @@ window.FINHOT_DATA = {
       "tags": [
         "监管政策"
       ],
-      "id": "29",
+      "id": "21",
       "tier": "S0",
       "sourceTier": "S0",
       "sourceTierLabel": "权威原始源",
@@ -1028,7 +768,7 @@ window.FINHOT_DATA = {
       "tags": [
         "监管政策"
       ],
-      "id": "30",
+      "id": "22",
       "tier": "S0",
       "sourceTier": "S0",
       "sourceTierLabel": "权威原始源",
@@ -1060,7 +800,7 @@ window.FINHOT_DATA = {
       "tags": [
         "监管政策"
       ],
-      "id": "31",
+      "id": "23",
       "tier": "S0",
       "sourceTier": "S0",
       "sourceTierLabel": "权威原始源",
@@ -1092,7 +832,7 @@ window.FINHOT_DATA = {
       "tags": [
         "监管政策"
       ],
-      "id": "32",
+      "id": "24",
       "tier": "S0",
       "sourceTier": "S0",
       "sourceTierLabel": "权威原始源",
@@ -1124,7 +864,7 @@ window.FINHOT_DATA = {
       "tags": [
         "监管政策"
       ],
-      "id": "33",
+      "id": "25",
       "tier": "S0",
       "sourceTier": "S0",
       "sourceTierLabel": "权威原始源",
@@ -1155,7 +895,7 @@ window.FINHOT_DATA = {
       "tags": [
         "监管政策"
       ],
-      "id": "34",
+      "id": "26",
       "tier": "S0",
       "sourceTier": "S0",
       "sourceTierLabel": "权威原始源",
@@ -1186,7 +926,7 @@ window.FINHOT_DATA = {
       "tags": [
         "监管政策"
       ],
-      "id": "35",
+      "id": "27",
       "tier": "S0",
       "sourceTier": "S0",
       "sourceTierLabel": "权威原始源",
@@ -1210,33 +950,32 @@ window.FINHOT_DATA = {
   ],
   "sections": {
     "regulatory": [
-      "22",
-      "23",
-      "24",
-      "25",
-      "26",
-      "29"
+      "16",
+      "17",
+      "18",
+      "19",
+      "20",
+      "21"
     ],
     "products": [],
     "industry": [
       "1",
       "2",
-      "4",
+      "3",
       "5",
       "6",
-      "8"
+      "7"
     ],
     "research": [],
     "insights": [
-      "3",
-      "7",
-      "10"
+      "4",
+      "9"
     ]
   },
   "flashes": [
     {
       "id": "1",
-      "dotClass": "flash-dot-blue"
+      "dotClass": "flash-dot-green"
     },
     {
       "id": "2",
@@ -1244,11 +983,11 @@ window.FINHOT_DATA = {
     },
     {
       "id": "3",
-      "dotClass": "flash-dot-blue"
+      "dotClass": "flash-dot-green"
     },
     {
       "id": "4",
-      "dotClass": "flash-dot-green"
+      "dotClass": "flash-dot-blue"
     },
     {
       "id": "5",
@@ -1269,59 +1008,59 @@ window.FINHOT_DATA = {
   ],
   "aiAnalysis": {
     "insurancePlanner": {
-      "summary": "今日保险相关资讯涵盖风险处置、产业供应链及AI对行业影响，保险规划师可结合风险管理与科技变革话题与客户沟通。",
+      "summary": "极端天气频发凸显保险体系需从灾后补偿向风险预防与分散转型，同时地缘冲突推高航运风险，银行贵金属代理业务收紧。",
       "talkingPoints": [
         {
-          "topic": "长安责任保险风险处置与安徽国资筹建新公司",
-          "point": "保险行业持续进行风险处置与资源整合，部分问题险企通过国资介入实现平稳过渡，保单持有人的合法权益得到制度保障。与客户沟通时可强调保险监管体系的安全性，增强客户对行业长期稳健发展的信心。",
-          "action": "梳理客户持有的保单公司背景，主动向客户说明保险保障基金制度及监管安全性，消除疑虑。"
+          "topic": "极端天气频发，保险转型风险预防",
+          "point": "近期极端天气频繁发生，保险不能只靠灾后赔付，建议您配置财产险和营业中断险时关注是否涵盖气候风险预防措施，将风险管理前置，降低潜在损失。",
+          "action": "梳理客户财产险保单，检查气候风险保障缺口，准备风险预防型保险方案建议书"
         },
         {
-          "topic": "甲骨文承认AI取代部分岗位，科技变革加速",
-          "point": "AI技术正在重塑各行各业，包括保险行业。AI将提升核保、理赔效率，但人类的财务规划与风险判断仍不可替代。建议客户在配置保险时注重长期保障型产品，以应对未来不确定性。",
-          "action": "为客户检视现有保障缺口，重点推荐重疾险、医疗险等长期保障型产品，强化风险对冲功能。"
+          "topic": "霍尔木兹海峡冲突，航运保险成本上升",
+          "point": "美伊在霍尔木兹海峡的指令矛盾推高了航运制裁与扣押风险，若您有进出口或物流相关需求，建议重新评估货运险和贸易信用险的保额是否充足。",
+          "action": "联系航运险供应商获取最新费率报价，评估客户供应链风险敞口"
         },
         {
-          "topic": "纸尿裤产业链溯源，供应链风险管控",
-          "point": "产业链安全问题引发广泛关注，企业风险管理意识增强。可类比引导客户思考个人与家庭风险链条的识别，提醒客户保险是转移不确定风险的核心工具。",
-          "action": "为客户进行家庭风险评估问卷，识别潜在风险点，制定对应保险方案。"
+          "topic": "银行贵金属代理业务收紧，保证金比例提升",
+          "point": "银行代理个人贵金属业务保证金比例最高升至140%，实质上在劝退散户。建议客户通过多元化资产配置替代贵金属投机，关注结构性产品的风险收益特征。",
+          "action": "为持有贵金属头寸的客户制定分散配置方案，降低单一资产集中度"
         }
       ]
     },
     "peOperations": {
-      "summary": "今日资讯涵盖市场剧烈波动、金价大幅下调及SpaceX高评级发债，私募运营需关注风险偏好变化与资产配置调整。",
+      "summary": "量化指增产品出现罕见阶段性亏损，AI科技赛道极致行情加剧私募产品结构性分化，3D生成模型赛道获大额融资。",
       "talkingPoints": [
         {
-          "topic": "全球股市抛售潮，韩国股市触发熔断",
-          "point": "全球市场波动加剧，韩国KOSPI指数一度触发熔断，外资持续离场而散户大量入市，市场情绪极度分化。建议投资者保持冷静，避免追涨杀跌，私募产品应强调风控纪律与仓位管理。",
-          "action": "向客户发送市场异动速评，说明当前仓位控制策略，建议客户在市场波动期保持定投节奏，避免情绪化操作。"
+          "topic": "量化指增产品罕见亏损，超额收益收窄",
+          "point": "5月以来量化指增产品出现阶段性负超额，主因AI科技赛道极致行情打乱了因子模型。建议向客户说明短期波动原因，强调量化策略的长期配置价值，避免情绪化赎回。",
+          "action": "准备量化策略归因分析报告，梳理备选中性策略或套利策略产品"
         },
         {
-          "topic": "德银大砍金价预期，贵金属板块重挫",
-          "point": "高盛之后德意志银行将金价预测最高下调22%，贵金属板块大幅走弱。黄金作为避险资产的叙事正在发生变化，需重新评估黄金在组合中的作用。建议与客户沟通黄金配置的合理比例，不宜过度集中。",
-          "action": "为客户重新梳理资产配置结构，适度降低黄金类资产占比，增配债券或量化对冲类产品以分散风险。"
+          "topic": "AI赛道过热加剧私募产品结构性分化",
+          "point": "AI科技赛道大热带来极致分化行情，建议客户关注配置均衡性，适当搭配多策略产品降低单一赛道风险，同时关注被低估板块的配置机会。",
+          "action": "构建多策略组合方案，筛选低相关性的另类策略产品补充配置"
         },
         {
-          "topic": "SpaceX获穆迪Baa1评级，宏大叙事考验信心",
-          "point": "SpaceX获得Baa1评级但自由现金流持续为负，市场对高估值科技企业的债券定价存在分歧。私募投资需警惕叙事驱动型估值的流动性风险，回归现金流与基本面分析。",
-          "action": "对持仓中涉及高估值叙事型标的进行压力测试，向客户说明当前估值安全边际情况，制定分批止盈或减仓预案。"
+          "topic": "3D生成模型公司获数亿元融资",
+          "point": "影眸科技完成数亿元融资，海外收入占比八成显示出海能力增强。建议关注AI应用层投资机会，特别是具备商业化落地能力和海外营收支撑的3D生成模型企业。",
+          "action": "跟踪3D生成模型产业链投资机会，储备相关主题基金或直投标的"
         }
       ]
     },
     "marketOutlook": {
-      "summary": "今日市场呈现全球股市大幅下挫、贵金属板块走弱、油价与国债走势背离的复杂格局，利率定价机制正在切换。",
+      "summary": "美伊谈判取得进展但市场反应冷淡，全球股市现抛售潮，贵金属板块大幅下挫，港股科技指数跌破关键点位。",
       "outlooks": [
         {
-          "topic": "全球股市下跌，市场波动性加剧",
-          "point": "美国股市承压，韩国股市一度触发熔断，全球抛售潮蔓延。缺乏美联储对利率预期的明确指引，市场波动性预计将加剧。短期建议以防御为主，关注防御性板块与现金管理，等待政策信号明朗后再做方向性判断。"
+          "topic": "美伊协议落地但市场反应冷淡",
+          "point": "美伊阶段性协议推动油价大幅回落，但风险资产反弹乏力，反映市场对宏观前景的深层担忧。美联储鹰派信号可能成为近期主导因素，需等待更明确的利率路径指引。"
         },
         {
-          "topic": "金价预期集体下调，避险逻辑生变",
-          "point": "高盛、德银相继大幅下调金价目标，贵金属板块重挫，显示华尔街对黄金的看多情绪快速退潮。金价可能进入震荡调整阶段，建议降低黄金在资产配置中的权重，转向多元化对冲策略。"
+          "topic": "全球抛售潮蔓延，韩国股市触发熔断",
+          "point": "韩国股市大跌近10%一度触发熔断，全球风险资产承压。缺乏美联储明确利率指引的情况下，市场波动性将持续加剧，建议保持谨慎防御姿态。"
         },
         {
-          "topic": "油价下跌而美债不涨，利率定价机制切换",
-          "point": "本轮油价大跌但债市未同步上涨，并非异常现象，而是利率定价机制从通胀预期转向增长预期或政策预期的体现。意味着传统股债商品联动逻辑发生变化，需重新审视宏观配置框架，关注实际利率走势与政策拐点。"
+          "topic": "沪指跌1.37%，贵金属板块重挫",
+          "point": "A股四大股指集体收跌，贵金属板块领跌。银行收紧个人贵金属交易保证金至140%，叠加贵金属价格回调，短期贵金属资产面临双重压力，建议暂缓追多。"
         }
       ]
     }

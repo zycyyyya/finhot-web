@@ -403,59 +403,89 @@ function httpsPost(host, path, data, apiKey, timeout) {
   });
 }
 
-async function callLLM(messages, apiKey) {
+async function callLLM(messages, apiKey, maxTokens) {
   const raw = await httpsPost(LLM_API_HOST, LLM_API_PATH, {
     model: 'LongCat-2.0-Preview',
     messages,
     temperature: 0.7,
-    max_tokens: 3500,
+    max_tokens: maxTokens || 3500,
   }, apiKey, LLM_TIMEOUT_MS);
   const data = JSON.parse(raw);
   return data.choices[0].message.content;
 }
 
-async function generateAIAnalysisWithLLM(items, apiKey) {
-  const topItems = [...items]
-    .sort((a, b) => (b.score || 0) - (a.score || 0))
-    .slice(0, 20); // Top 20 highest-scored items for context
-
-  const articlesText = topItems.map((item, i) =>
-    `[${i+1}] 标题: ${item.title}\n来源: ${item.sourceName}\n日期: ${(item.publishedAt || '').substring(0, 10)}\n分类: ${item.category}\n评分: ${item.score}\n摘要: ${(item.summary || '').substring(0, 80)}`
-  ).join('\n\n');
-
-  // Weekly context: all items with date + title only (lightweight for trend analysis)
-  const weeklyContext = items
-    .sort((a, b) => (b.score || 0) - (a.score || 0))
-    .map(i => `[${(i.publishedAt || '').substring(0, 10)}] ${i.title}`)
-    .join('\n');
-
-  const raw = await callLLM([
-    {
-      role: 'system',
-      content: '你是金融保险资讯分析师。根据今日及近一周的新闻数据，生成多维度的分析内容。回答必须是合法的JSON格式，不要包含任何markdown标记或额外文字。',
-    },
-    {
-      role: 'user',
-      content: `以下是今日高分资讯（按价值评分排序，前20条）：\n\n${articlesText}\n\n=====\n以下是近7天全部 ${items.length} 条资讯的标题时间线（用于趋势分析）：\n\n${weeklyContext}\n\n=====\n请生成以下JSON结构（仅JSON，无其他文字，topic不超过48字）：\n{\n  "dailySummary": {\n    "highlights": ["核心要点1（一句话，不超过60字）", "核心要点2", "核心要点3"]\n  },\n  "eventChain": {\n    "summary": "今日事件关联概述（一句话）",\n    "chains": [\n      { "title": "事件链标题", "nodes": ["关联事件A", "关联事件B"], "causalLink": "因果关系或时序逻辑说明" }\n    ]\n  },\n  "industryImpact": {\n    "quadrants": {\n      "insurance": { "level": "high|medium|low|none", "summary": "对保险行业的影响概述", "items": ["具体影响描述"] },\n      "pe": { "level": "high|medium|low|none", "summary": "对私募行业的影响概述", "items": ["具体影响描述"] },\n      "banking": { "level": "high|medium|low|none", "summary": "对银行业的影响概述", "items": ["具体影响描述"] },\n      "trust": { "level": "high|medium|low|none", "summary": "对信托/财富管理行业的影响概述", "items": ["具体影响描述"] }\n    }\n  },\n  "weeklyTrends": {\n    "summary": "本周趋势信号摘要（一句话）",\n    "trends": [\n      { "topic": "趋势主题", "direction": "上升|下降|平稳", "evidence": "基于数据的趋势支撑说明" }\n    ]\n  },\n  "insurancePlanner": {\n    "summary": "今日保险相关资讯概述",\n    "talkingPoints": [\n      { "topic": "话题", "point": "客户沟通要点", "action": "建议行动" }\n    ]\n  },\n  "peOperations": {\n    "summary": "今日私募/基金相关资讯概述",\n    "talkingPoints": [\n      { "topic": "话题", "point": "运营参考要点", "action": "建议行动" }\n    ]\n  },\n  "marketOutlook": {\n    "summary": "市场展望概述",\n    "outlooks": [\n      { "topic": "话题", "content": "市场判断与展望分析" }\n    ]\n  }\n}\n要求：\n1. dailySummary取3条最重要的核心结论\n2. eventChain识别2-3组因果/时序关联的事件链，每组2-4个事件节点\n3. industryImpact四象限各标注影响级别和具体影响\n4. weeklyTrends从7天数据中检测2-3个热度趋势信号\n5. 保险/私募/市场各限3条以内\n6. 无相关内容的板块summary写"暂无相关内容"，数组为空`,
-    },
-  ], apiKey);
-
-  // Robust JSON extraction
+// Safe JSON extraction: strips markdown fences, finds first { last }, attempts repair on failure
+function extractJSON(raw, fallback) {
   let jsonStr = raw.replace(/```json\s*\n?/g, '').replace(/\n?\s*```/g, '').trim();
   const firstBrace = jsonStr.indexOf('{');
   const lastBrace = jsonStr.lastIndexOf('}');
   if (firstBrace !== -1 && lastBrace > firstBrace) {
     jsonStr = jsonStr.substring(firstBrace, lastBrace + 1);
   }
-  const parsed = JSON.parse(jsonStr);
+  try {
+    return JSON.parse(jsonStr);
+  } catch (e) {
+    // Attempt repair: truncation mitigation — close unclosed braces/brackets
+    let repaired = jsonStr;
+    let openBraces = 0, openBrackets = 0;
+    for (const ch of repaired) {
+      if (ch === '{') openBraces++;
+      else if (ch === '}') openBraces--;
+      else if (ch === '[') openBrackets++;
+      else if (ch === ']') openBrackets--;
+    }
+    while (openBrackets > 0) { repaired += ']'; openBrackets--; }
+    while (openBraces > 0) { repaired += '}'; openBraces--; }
+    try {
+      return JSON.parse(repaired);
+    } catch {
+      return fallback;
+    }
+  }
+}
+
+async function generateAIAnalysisWithLLM(items, apiKey) {
+  const topItems = [...items]
+    .sort((a, b) => (b.score || 0) - (a.score || 0))
+    .slice(0, 20);
+
+  const articlesText = topItems.map((item, i) =>
+    `[${i+1}] 标题: ${item.title}\n来源: ${item.sourceName}\n日期: ${(item.publishedAt || '').substring(0, 10)}\n分类: ${item.category}\n评分: ${item.score}\n摘要: ${(item.summary || '').substring(0, 80)}`
+  ).join('\n\n');
+
+  // Weekly timeline: top 30 by score to keep context lean
+  const weeklyContext = items
+    .sort((a, b) => (b.score || 0) - (a.score || 0))
+    .slice(0, 30)
+    .map(i => `[${(i.publishedAt || '').substring(0, 10)}] ${i.title}`)
+    .join('\n');
+
+  // === Call 1: Lightweight — summaries, chains, matrix, trends (max_tokens: 2000) ===
+  console.error('[llm] call 1/2: summary + trends...');
+  const raw1 = await callLLM([
+    { role: 'system', content: '你是金融保险资讯分析师。回答必须是合法的JSON格式，不要包含markdown标记或额外文字。' },
+    { role: 'user', content: `高分资讯（前20条）：\n${articlesText}\n\n=====\n近7天时间线（前30条）：\n${weeklyContext}\n\n=====\n生成JSON（topic≤48字，每板块2-3项，紧凑输出）：\n{\n  "dailySummary": { "highlights": ["核心1", "核心2", "核心3"] },\n  "eventChain": { "summary": "概述", "chains": [{ "title": "链标题", "nodes": ["A", "B"], "causalLink": "因果逻辑" }] },\n  "industryImpact": {\n    "quadrants": {\n      "insurance": { "level": "high|medium|low|none", "summary": "概述", "items": [] },\n      "pe": { "level": "high|medium|low|none", "summary": "概述", "items": [] },\n      "banking": { "level": "high|medium|low|none", "summary": "概述", "items": [] },\n      "trust": { "level": "high|medium|low|none", "summary": "概述", "items": [] }\n    }\n  },\n  "weeklyTrends": { "summary": "概述", "trends": [{ "topic": "主题", "direction": "上升|下降|平稳", "evidence": "证据" }] }\n}` },
+  ], apiKey, 2000);
+
+  const parsed1 = extractJSON(raw1, { dailySummary: { highlights: [] }, eventChain: { summary: '生成失败', chains: [] }, industryImpact: { quadrants: {} }, weeklyTrends: { summary: '生成失败', trends: [] } });
+
+  // === Call 2: Talking points — insurance, PE, market (max_tokens: 1500) ===
+  console.error('[llm] call 2/2: talking points...');
+  const raw2 = await callLLM([
+    { role: 'system', content: '你是金融保险资讯分析师，擅长将新闻转化为可直接使用的客户沟通话术。回答必须是合法的JSON格式，不要包含markdown标记或额外文字。' },
+    { role: 'user', content: `高分资讯：\n${articlesText}\n\n=====\n生成JSON（topic≤48字，每板块2-3条）：\n{\n  "insurancePlanner": { "summary": "概述", "talkingPoints": [{ "topic": "话题", "point": "沟通要点", "action": "建议行动" }] },\n  "peOperations": { "summary": "概述", "talkingPoints": [{ "topic": "话题", "point": "运营参考", "action": "建议行动" }] },\n  "marketOutlook": { "summary": "概述", "outlooks": [{ "topic": "话题", "content": "市场展望" }] }\n}\n要求：话术直接可用于客户沟通场景，action具体可执行，无相关内容则数组为空。` },
+  ], apiKey, 1500);
+
+  const parsed2 = extractJSON(raw2, { insurancePlanner: { summary: '生成失败', talkingPoints: [] }, peOperations: { summary: '生成失败', talkingPoints: [] }, marketOutlook: { summary: '生成失败', outlooks: [] } });
+
   return {
-    dailySummary: parsed.dailySummary || { highlights: [] },
-    eventChain: parsed.eventChain || { summary: '暂无事件关联分析', chains: [] },
-    industryImpact: parsed.industryImpact || { quadrants: { insurance: { level: 'none', summary: '暂无', items: [] }, pe: { level: 'none', summary: '暂无', items: [] }, banking: { level: 'none', summary: '暂无', items: [] }, trust: { level: 'none', summary: '暂无', items: [] } } },
-    weeklyTrends: parsed.weeklyTrends || { summary: '暂无趋势信号', trends: [] },
-    insurancePlanner: parsed.insurancePlanner || { summary: '暂无相关内容', talkingPoints: [] },
-    peOperations: parsed.peOperations || { summary: '暂无相关内容', talkingPoints: [] },
-    marketOutlook: parsed.marketOutlook || { summary: '暂无相关内容', outlooks: [] },
+    dailySummary: parsed1.dailySummary || { highlights: [] },
+    eventChain: parsed1.eventChain || { summary: '暂无', chains: [] },
+    industryImpact: parsed1.industryImpact || { quadrants: { insurance: { level: 'none', summary: '暂无', items: [] }, pe: { level: 'none', summary: '暂无', items: [] }, banking: { level: 'none', summary: '暂无', items: [] }, trust: { level: 'none', summary: '暂无', items: [] } } },
+    weeklyTrends: parsed1.weeklyTrends || { summary: '暂无趋势信号', trends: [] },
+    insurancePlanner: parsed2.insurancePlanner || { summary: '暂无相关内容', talkingPoints: [] },
+    peOperations: parsed2.peOperations || { summary: '暂无相关内容', talkingPoints: [] },
+    marketOutlook: parsed2.marketOutlook || { summary: '暂无相关内容', outlooks: [] },
   };
 }
 
@@ -468,7 +498,7 @@ async function generateAIAnalysisWithFallback(items) {
       console.error('[llm] AI analysis generated successfully');
       return result;
     } catch (e) {
-      console.error(`[llm] LLM failed: ${e.message}, falling back to rule-based`);
+      console.error(`[llm] LLM both calls failed: ${e.message}, falling back to rule-based`);
     }
   } else {
     console.error('[llm] LONGCAT_API_KEY not set, using rule-based analysis');

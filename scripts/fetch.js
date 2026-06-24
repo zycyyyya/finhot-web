@@ -142,19 +142,75 @@ async function fetchRSS(route) {
   }
 }
 
-// === Content relevance filter (tightened) ===
+// === Content relevance filter ===
+// Domain keyword taxonomy — organized by sector for easy audit & expansion
+// All keywords sourced from real financial insurance domain usage patterns
+const FINANCE_KEYWORD_MAP = {
+  insurance: [
+    // 保险通用
+    '保险', '险企', '保费', '赔付', '理赔', '精算', '偿付能力', '保额', '保单', '再保险',
+    '保险业', '保险法', '保险公司', '保险产品', '保险销售', '保险中介', '互联网保险',
+    // 人身险
+    '养老', '养老金', '年金', '个人养老金', '第三支柱', '退休',
+    '健康险', '重疾险', '寿险', '终身寿险', '增额终身寿', '分红险', '万能险', '投连险',
+    '百万医疗', '惠民保',
+    // 财产险
+    '车险', '财险', '责任险', '意外险', '医疗险', '农业保险', '信用保险',
+    // 险企品牌
+    '中国平安', '国寿', '太保', '人保', '新华保险', '泰康', '大家保险', '友邦',
+    '太平人寿', '阳光保险', '中华联合', '大地保险',
+  ],
+  banking: [
+    '银行', '央行', '商业银行', '城商行', '农商行', '村镇银行', '民营银行',
+    '利率', '贷款利率', '存款利率', 'LPR', 'MLF', 'SLF', '逆回购', '降准', '降息', '加息',
+    '流动性', '准备金', '净息差', '拨备',
+    '房贷', '按揭', '消费贷', '经营贷', '信用贷',
+    '存款', '大额存单', '结构性存款', '通知存款',
+    '理财', '理财产品', '净值化', '破净',
+  ],
+  securities: [
+    '股票', 'A股', '港股', '美股', '大盘', '指数', '沪深300', '中证500', '中证1000',
+    'ETF', 'LOF', '公募基金', '私募基金', '对冲基金', '量化',
+    '债券', '国债', '信用债', '可转债', '公司债', '城投债', '地方债', '利率债',
+    '期货', '期权', '衍生品', '融资融券',
+    'IPO', '上市', '退市', '打新', '定增', '减持', '增持', '回购',
+    '券商', '投行', '自营', '经纪', '做市',
+    '投资者', '散户', '机构', '北向资金', '南向资金',
+  ],
+  regulation: [
+    '监管', '金融监管', '银保监', '金监总局', '证监会', '央行', '金融委',
+    '深交所', '上交所', '北交所', '新三板', '港交所', '交易商协会', '基金业协会',
+    '合规', '处罚', '罚单', '问责', '整改', '取缔', '约谈', '通报',
+    '条款', '办法', '通知', '指引', '意见', '规定', '条例', '法规', '解读',
+    '牌照', '资质', '返佣', '飞单', '误导销售',
+  ],
+  macro: [
+    '经济', '宏观经济', '经济运行', '稳增长', '保就业', '高质量发展',
+    'GDP', 'CPI', 'PPI', 'PMI', 'M2', '社融', '信贷', '外贸',
+    '货币政策', '财政政策', '产业政策', '宏观调控', '逆周期', '跨周期',
+    '汇率', '人民币', '外汇', '跨境', '离岸', '在岸',
+    '通胀', '通缩', '滞胀', '衰退', '复苏',
+    '房地产', '地产', '楼市', '住房', '保障房', '收储', '限购', '限贷',
+    '消费', '投资', '出口', '进出口', '贸易', '产业链', '供应链',
+    '就业', '失业', '收入', '居民杠杆', '共同富裕',
+  ],
+  trust_wealth: [
+    '信托', '家族信托', '资产配置', '财富管理', '私人银行',
+    '资管', '净值', 'FOF', 'MOM', 'CTA',
+    '非标', '标品', '固收', '现金管理', '权益', '另类', '多资产',
+    '净值型', '预期收益', '业绩基准', '年化', 'IRR', '夏普',
+    '募集', '认购', '赎回', '开放日', '封闭期', '锁定期',
+  ],
+};
+
+// Flatten all keywords and deduplicate
+const ALL_FINANCE_KEYWORDS = [...new Set(
+  Object.values(FINANCE_KEYWORD_MAP).flat()
+)];
+
 function isFinanceRelated(item) {
-  const keywords = [
-    '\u4fdd\u9669', '\u9669\u4f01', '\u4fdd\u8d39', '\u517b\u8001', '\u5065\u5eb7\u9669', '\u5bff\u9669', '\u8d22\u9669', '\u8f66\u9669',
-    '\u94f6\u884c', '\u592e\u884c', '\u5229\u7387', 'LPR', 'MLF', '\u964d\u51c6', '\u964d\u606f', '\u91d1\u878d',
-    '\u76d1\u7ba1', '\u94f6\u4fdd\u76d1', '\u91d1\u76d1\u603b\u5c40', '\u8bc1\u76d1\u4f1a', '\u6df1\u4ea4\u6240', '\u4e0a\u4ea4\u6240',
-    '\u57fa\u91d1', '\u7406\u8d22', '\u8bc1\u5238', '\u4fe1\u6258', '\u8d44\u7ba1',
-    '\u4e2d\u56fd\u5e73\u5b89', '\u56fd\u5bff', '\u592a\u4fdd', '\u4eba\u4fdd', '\u65b0\u534e\u4fdd\u9669', '\u6cf0\u5eb7', '\u5927\u5bb6\u4fdd\u9669',
-    '\u4eba\u6c11\u5e01', '\u6c47\u7387', 'GDP', 'CPI', 'PMI',
-    'ETF', '\u80a1\u7968', '\u503a\u5238', '\u56fd\u503a', '\u623f\u5730\u4ea7',
-  ];
   const text = (item.title + ' ' + (item.summary || '')).toLowerCase();
-  return keywords.some(k => text.includes(k.toLowerCase()));
+  return ALL_FINANCE_KEYWORDS.some(k => text.includes(k.toLowerCase()));
 }
 
 // === Content quality filter ===
@@ -286,6 +342,26 @@ function buildFlashes(items) {
     id: i.id,
     dotClass: i.score >= 80 ? 'flash-dot-green' : 'flash-dot-blue',
   }));
+}
+
+// === Keyword index builder ===
+// Inverted index: domain keyword → [item IDs]; auto-generated each fetch
+// Based on the FINANCE_KEYWORD_MAP taxonomy — covers insurance/banking/securities/regulation/macro/wealth
+function buildKeywordIndex(items) {
+  const index = {};
+
+  ALL_FINANCE_KEYWORDS.forEach(kw => {
+    const kl = kw.toLowerCase();
+    items.forEach(item => {
+      const text = (item.title + ' ' + (item.summary || '') + ' ' + (item.sourceName || '')).toLowerCase();
+      if (text.includes(kl)) {
+        if (!index[kw]) index[kw] = [];
+        if (!index[kw].includes(item.id)) index[kw].push(item.id);
+      }
+    });
+  });
+
+  return index;
 }
 
 // === AI Analysis Generator ===
@@ -564,6 +640,7 @@ async function main() {
     items: allItems,
     sections: buildSections(allItems),
     flashes: buildFlashes(allItems),
+    keywordIndex: buildKeywordIndex(allItems),
     aiAnalysis: await generateAIAnalysisWithFallback(allItems),
   };
 
@@ -589,6 +666,8 @@ async function main() {
     insights:   { slug: 'insights',   label: '\u89c2\u70b9', tagClass: 'tag-insights',   accentClass: 'accent-insights' },
   }, null, 2)};\n`);
   console.log(`window.FINHOT_DATA = ${JSON.stringify(output, null, 2)};`);
+  // Extract keywordIndex for convenient global access
+  console.log(`window.KEYWORD_INDEX = ${JSON.stringify(output.keywordIndex, null, 2)};`);
 }
 
 main().catch(e => { console.error(e); process.exit(1); });

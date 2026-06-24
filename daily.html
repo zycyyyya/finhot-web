@@ -27,10 +27,6 @@
     </div>
     <div class="divider"></div>
     <div id="aiAnalysisArea"></div>
-    <div class="divider"></div>
-    <div id="reportSections"></div>
-    <div class="divider"></div>
-    <div id="flashSection"></div>
   </div>
 </div>
 
@@ -38,7 +34,6 @@
 <script>
 (function() {
   const data = window.FINHOT_DATA;
-  const config = window.CATEGORY_CONFIG;
 
   // XSS protection
   function escapeHtml(str) {
@@ -46,71 +41,11 @@
     return String(str).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
   }
 
-  // Build item map for ID-based section resolution
-  var itemMap = {};
-  (data.items || []).forEach(function(item) { itemMap[item.id] = item; });
-
-  // Resolve section items (supports both ID strings and legacy full objects)
-  function resolveSectionItems(sectionData) {
-    if (!sectionData || sectionData.length === 0) return [];
-    if (typeof sectionData[0] === 'string') {
-      return sectionData.map(function(id) { return itemMap[id]; }).filter(Boolean);
-    }
-    return sectionData; // legacy format: already full objects
-  }
-
   document.getElementById('reportDate').textContent =
     new Date(data.date).toLocaleDateString('zh-CN', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
 
   document.getElementById('reportLead').textContent = data.lead;
 
-  const sectionOrder = ['regulatory', 'products', 'industry', 'research', 'insights'];
-  const sectionsEl = document.getElementById('reportSections');
-
-  sectionOrder.forEach(slug => {
-    var items = resolveSectionItems(data.sections[slug]);
-    if (!items || items.length === 0) return;
-    // Sort items within each section by time desc
-    items = items.slice().sort(function(a, b) {
-      var ta = new Date(a.publishedAt).getTime() || 0;
-      var tb = new Date(b.publishedAt).getTime() || 0;
-      return tb - ta;
-    });
-    const cfg = config[slug];
-
-    const section = document.createElement('div');
-    section.className = 'report-section';
-    section.innerHTML = `
-      <div class="section-header">
-        <div class="accent-bar ${cfg.accentClass}"></div>
-        <h2 class="section-title">${cfg.label}</h2>
-      </div>
-      ${items.map(item => `
-        <div class="report-item">
-          <h3 class="item-title">${escapeHtml(item.title)}</h3>
-          <div class="item-meta">
-            <span class="item-source">${escapeHtml(item.sourceName)}</span>
-            <span class="item-time">${item.publishedAt}</span>
-          </div>
-        </div>
-      `).join('')}
-    `;
-    sectionsEl.appendChild(section);
-  });
-
-  const flashSection = document.getElementById('flashSection');
-  if (data.flashes && data.flashes.length > 0) {
-    flashSection.className = 'flash-section';
-    flashSection.innerHTML = `
-      <h3 class="flash-head">快讯</h3>
-      ${data.flashes.map(f => {
-        var flashItem = f.id ? itemMap[f.id] : f;
-        var title = flashItem ? flashItem.title : (f.title || '');
-        var dotClass = f.dotClass || 'flash-dot-green';
-        return '<div class="flash-item"><div class="flash-dot ' + dotClass + '"></div><p class="flash-text">' + escapeHtml(title.length > 60 ? title.substring(0, 60) + '…' : title) + '</p></div>';
-      }).join('')}
-    `;
-  }
   // === AI Analysis Sections ===
   (function renderAIAnalysis(analysis) {
     if (!analysis) return;

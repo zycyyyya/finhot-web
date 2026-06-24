@@ -408,7 +408,7 @@ async function callLLM(messages, apiKey) {
     model: 'LongCat-2.0-Preview',
     messages,
     temperature: 0.7,
-    max_tokens: 2000,
+    max_tokens: 3500,
   }, apiKey, LLM_TIMEOUT_MS);
   const data = JSON.parse(raw);
   return data.choices[0].message.content;
@@ -417,24 +417,30 @@ async function callLLM(messages, apiKey) {
 async function generateAIAnalysisWithLLM(items, apiKey) {
   const topItems = [...items]
     .sort((a, b) => (b.score || 0) - (a.score || 0))
-    .slice(0, 12); // Top 12 highest-scored items for the LLM
+    .slice(0, 20); // Top 20 highest-scored items for context
 
   const articlesText = topItems.map((item, i) =>
-    `[${i+1}] 标题: ${item.title}\n来源: ${item.sourceName}\n分类: ${item.category}\n评分: ${item.score}\n摘要: ${(item.summary || '').substring(0, 80)}`
+    `[${i+1}] 标题: ${item.title}\n来源: ${item.sourceName}\n日期: ${(item.publishedAt || '').substring(0, 10)}\n分类: ${item.category}\n评分: ${item.score}\n摘要: ${(item.summary || '').substring(0, 80)}`
   ).join('\n\n');
+
+  // Weekly context: all items with date + title only (lightweight for trend analysis)
+  const weeklyContext = items
+    .sort((a, b) => (b.score || 0) - (a.score || 0))
+    .map(i => `[${(i.publishedAt || '').substring(0, 10)}] ${i.title}`)
+    .join('\n');
 
   const raw = await callLLM([
     {
       role: 'system',
-      content: '你是金融保险资讯分析师。根据今日新闻，生成3个板块的分析内容。回答必须是合法的JSON格式，不要包含任何markdown标记或额外文字。',
+      content: '你是金融保险资讯分析师。根据今日及近一周的新闻数据，生成多维度的分析内容。回答必须是合法的JSON格式，不要包含任何markdown标记或额外文字。',
     },
     {
       role: 'user',
-      content: `以下是今日金融保险资讯（按价值评分排序前20条）：\n\n${articlesText}\n\n请生成以下JSON结构（仅JSON，无其他文字）：\n{\n  "insurancePlanner": {\n    "summary": "今日保险相关资讯概述（一句话概括）",\n    "talkingPoints": [\n      { "topic": "话题（不超过48字）", "point": "对保险规划师的具体客户沟通要点与话术思路", "action": "建议行动（具体可执行的动作）" }\n    ]\n  },\n  "peOperations": {\n    "summary": "今日私募/基金相关资讯概述（一句话概括）",\n    "talkingPoints": [\n      { "topic": "话题（不超过48字）", "point": "对私募运营人员的参考话术与沟通要点", "action": "建议行动（具体可执行的动作）" }\n    ]\n  },\n  "marketOutlook": {\n    "summary": "今日市场展望概述（一句话概括）",\n    "outlooks": [\n      { "topic": "话题（不超过48字）", "content": "市场判断与展望分析" }\n    ]\n  }\n}\n要求：\n1. 三条talkingPoint/outlook各限3条以内\n2. topic控制在48字以内\n3. 如果某板块无相关资讯，summary写"暂无相关内容"，数组为空\n4. 话术部分要求可直接用于实际客户沟通场景`,
+      content: `以下是今日高分资讯（按价值评分排序，前20条）：\n\n${articlesText}\n\n=====\n以下是近7天全部 ${items.length} 条资讯的标题时间线（用于趋势分析）：\n\n${weeklyContext}\n\n=====\n请生成以下JSON结构（仅JSON，无其他文字，topic不超过48字）：\n{\n  "dailySummary": {\n    "highlights": ["核心要点1（一句话，不超过60字）", "核心要点2", "核心要点3"]\n  },\n  "eventChain": {\n    "summary": "今日事件关联概述（一句话）",\n    "chains": [\n      { "title": "事件链标题", "nodes": ["关联事件A", "关联事件B"], "causalLink": "因果关系或时序逻辑说明" }\n    ]\n  },\n  "industryImpact": {\n    "quadrants": {\n      "insurance": { "level": "high|medium|low|none", "summary": "对保险行业的影响概述", "items": ["具体影响描述"] },\n      "pe": { "level": "high|medium|low|none", "summary": "对私募行业的影响概述", "items": ["具体影响描述"] },\n      "banking": { "level": "high|medium|low|none", "summary": "对银行业的影响概述", "items": ["具体影响描述"] },\n      "trust": { "level": "high|medium|low|none", "summary": "对信托/财富管理行业的影响概述", "items": ["具体影响描述"] }\n    }\n  },\n  "weeklyTrends": {\n    "summary": "本周趋势信号摘要（一句话）",\n    "trends": [\n      { "topic": "趋势主题", "direction": "上升|下降|平稳", "evidence": "基于数据的趋势支撑说明" }\n    ]\n  },\n  "insurancePlanner": {\n    "summary": "今日保险相关资讯概述",\n    "talkingPoints": [\n      { "topic": "话题", "point": "客户沟通要点", "action": "建议行动" }\n    ]\n  },\n  "peOperations": {\n    "summary": "今日私募/基金相关资讯概述",\n    "talkingPoints": [\n      { "topic": "话题", "point": "运营参考要点", "action": "建议行动" }\n    ]\n  },\n  "marketOutlook": {\n    "summary": "市场展望概述",\n    "outlooks": [\n      { "topic": "话题", "content": "市场判断与展望分析" }\n    ]\n  }\n}\n要求：\n1. dailySummary取3条最重要的核心结论\n2. eventChain识别2-3组因果/时序关联的事件链，每组2-4个事件节点\n3. industryImpact四象限各标注影响级别和具体影响\n4. weeklyTrends从7天数据中检测2-3个热度趋势信号\n5. 保险/私募/市场各限3条以内\n6. 无相关内容的板块summary写"暂无相关内容"，数组为空`,
     },
   ], apiKey);
 
-  // Robust JSON extraction: strip markdown fences, then find first { and last }
+  // Robust JSON extraction
   let jsonStr = raw.replace(/```json\s*\n?/g, '').replace(/\n?\s*```/g, '').trim();
   const firstBrace = jsonStr.indexOf('{');
   const lastBrace = jsonStr.lastIndexOf('}');
@@ -443,6 +449,10 @@ async function generateAIAnalysisWithLLM(items, apiKey) {
   }
   const parsed = JSON.parse(jsonStr);
   return {
+    dailySummary: parsed.dailySummary || { highlights: [] },
+    eventChain: parsed.eventChain || { summary: '暂无事件关联分析', chains: [] },
+    industryImpact: parsed.industryImpact || { quadrants: { insurance: { level: 'none', summary: '暂无', items: [] }, pe: { level: 'none', summary: '暂无', items: [] }, banking: { level: 'none', summary: '暂无', items: [] }, trust: { level: 'none', summary: '暂无', items: [] } } },
+    weeklyTrends: parsed.weeklyTrends || { summary: '暂无趋势信号', trends: [] },
     insurancePlanner: parsed.insurancePlanner || { summary: '暂无相关内容', talkingPoints: [] },
     peOperations: parsed.peOperations || { summary: '暂无相关内容', talkingPoints: [] },
     marketOutlook: parsed.marketOutlook || { summary: '暂无相关内容', outlooks: [] },
@@ -579,6 +589,10 @@ function generateMarketOutlook(items) {
 
 function generateAIAnalysis(items) {
   return {
+    dailySummary: { highlights: [] },
+    eventChain: { summary: 'LLM 未调用，暂无事件关联分析', chains: [] },
+    industryImpact: { quadrants: { insurance: { level: 'none', summary: '暂无', items: [] }, pe: { level: 'none', summary: '暂无', items: [] }, banking: { level: 'none', summary: '暂无', items: [] }, trust: { level: 'none', summary: '暂无', items: [] } } },
+    weeklyTrends: { summary: 'LLM 未调用，暂无趋势信号', trends: [] },
     insurancePlanner: generateInsuranceAnalysis(items),
     peOperations: generatePEAnalysis(items),
     marketOutlook: generateMarketOutlook(items),

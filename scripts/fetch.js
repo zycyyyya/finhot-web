@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // finhot-web Incremental RSS Fetcher
-// Only adds NEW content - URL dedup, title dedup, auto-expire old items, max 35 kept
+// Only adds NEW content - URL dedup, title dedup, auto-expire old items, max 150 kept
 // Usage: node scripts/fetch.js > data.js
 
 const fs = require('fs');
@@ -273,7 +273,7 @@ function buildSections(items) {
   const secs = { regulatory: [], products: [], industry: [], research: [], insights: [] };
   for (const i of items) {
     const sec = secs[i.category];
-    if (sec && sec.length < 6) {
+    if (sec && sec.length < 10) {
       sec.push(i.id);
     }
   }

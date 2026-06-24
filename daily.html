@@ -188,7 +188,15 @@
           if (qItems.length > 0) {
             html += '  <ul class="impact-quadrant-items">';
             qItems.forEach(function(it) {
-              html += '<li>' + escapeHtml(it) + '</li>';
+              if (typeof it === 'string') {
+                html += '<li>' + escapeHtml(it) + '</li>';
+              } else if (typeof it === 'object' && it !== null) {
+                html += '<li class="impact-item-object">';
+                html += '  <div class="impact-item-title"><strong>' + escapeHtml(it.title || '') + '</strong></div>';
+                if (it.impact) html += '  <div class="impact-item-impact">影响：' + escapeHtml(it.impact) + '</div>';
+                if (it.suggestion) html += '  <div class="impact-item-suggestion">建议：' + escapeHtml(it.suggestion) + '</div>';
+                html += '</li>';
+              }
             });
             html += '  </ul>';
           }

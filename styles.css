@@ -819,6 +819,32 @@ a {
   padding-left: 12px;
 }
 
+.impact-item-object {
+  margin-bottom: 8px;
+  list-style: none;
+  padding: 8px;
+  background: var(--bg-card-hover, rgba(255,255,255,0.03));
+  border-radius: 6px;
+  border-left: 2px solid var(--border-subtle);
+}
+.impact-item-title {
+  font-size: 12px;
+  margin-bottom: 3px;
+}
+.impact-item-title strong {
+  color: var(--text-primary);
+}
+.impact-item-impact {
+  font-size: 11px;
+  color: var(--text-secondary);
+  margin-top: 2px;
+}
+.impact-item-suggestion {
+  font-size: 11px;
+  color: var(--text-accent, #3b82f6);
+  margin-top: 2px;
+}
+
 /* === Weekly Trends === */
 .weekly-trend-card {
   padding: 14px 16px;

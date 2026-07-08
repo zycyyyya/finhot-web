@@ -24,6 +24,10 @@ const SOURCES = [
   { route: '/cls/depth',                sourceName: '\u8d22\u8054\u793e',    category: 'research',    tier: 'S2', evidenceType: 'financial_media' },
   { route: '/36kr/newsflashes',         sourceName: '36\u6c2a',     category: 'insights',    tier: 'S3', evidenceType: 'news_flash' },
   { route: '/szse/notice',              sourceName: '\u6df1\u4ea4\u6240',    category: 'regulatory',  tier: 'S0', evidenceType: 'official_notice' },
+  // Direct RSS — 英为财情 (Investing.com)
+  // 替换为市场资讯+技术分析，提升内容深度
+  { directUrl: 'https://cn.investing.com/rss/news_25.rss',             sourceName: '\u82f1\u4e3a\u8d22\u60c5', category: 'industry',  tier: 'S2', evidenceType: 'financial_media' },
+  { directUrl: 'https://cn.investing.com/rss/stock_Technical.rss',     sourceName: '\u82f1\u4e3a\u8d22\u60c5', category: 'research',   tier: 'S2', evidenceType: 'analysis' },
 ];
 
 const TIER_LABELS = {
@@ -90,12 +94,13 @@ function loadExisting() {
 }
 
 // === HTTP fetch with timeout ===
-function httpGet(url, timeout) {
+function httpGet(url, timeout, opts) {
   return new Promise((resolve, reject) => {
     const mod = url.startsWith('https') ? https : http;
-    const req = mod.get(url, { headers: { 'User-Agent': UA }, timeout: timeout || FETCH_TIMEOUT }, res => {
+    const options = Object.assign({ headers: { 'User-Agent': UA }, timeout: timeout || FETCH_TIMEOUT }, opts || {});
+    const req = mod.get(url, options, res => {
       if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
-        httpGet(res.headers.location, timeout).then(resolve, reject);
+        httpGet(res.headers.location, timeout, opts).then(resolve, reject);
         return;
       }
       let body = '';
@@ -109,11 +114,11 @@ function httpGet(url, timeout) {
 }
 
 // === HTTP fetch with retry ===
-async function fetchWithRetry(url, retries) {
+async function fetchWithRetry(url, retries, opts) {
   let lastErr;
   for (let i = 0; i < (retries || MAX_RETRIES); i++) {
     try {
-      return await httpGet(url);
+      return await httpGet(url, FETCH_TIMEOUT, opts);
     } catch (e) {
       lastErr = e;
       if (i < retries - 1) await new Promise(r => setTimeout(r, 1000 * (i + 1)));
@@ -138,6 +143,28 @@ async function fetchRSS(route) {
     }));
   } catch (e) {
     console.error(`[fetch error] ${route}: ${e.message}`);
+    return [];
+  }
+}
+
+// === Direct RSS fetcher (not via RSSHub) ===
+// Supports investing.com / other standalone RSS endpoints
+// Uses rejectUnauthorized: false for environments with TLS issues
+async function fetchDirectRSS(directUrl) {
+  try {
+    const xml = await fetchWithRetry(directUrl, MAX_RETRIES, { rejectUnauthorized: false });
+    const data = await parseStringPromise(xml, { explicitArray: false });
+    const channel = data.rss?.channel;
+    if (!channel?.item) return [];
+    const items = Array.isArray(channel.item) ? channel.item : [channel.item];
+    return items.filter(i => i.title && i.link).slice(0, 12).map(i => ({
+      title: (i.title || '').replace(/<[^>]*>/g, '').replace(/&amp;/g, '&').trim(),
+      sourceUrl: i.link || '',
+      publishedAt: i.pubDate ? new Date(i.pubDate).toISOString() : new Date().toISOString(),
+      summary: (i.description || '').replace(/<[^>]*>/g, '').replace(/&amp;/g, '&').trim().substring(0, 200),
+    }));
+  } catch (e) {
+    console.error(`[direct fetch error] ${directUrl}: ${e.message}`);
     return [];
   }
 }
@@ -188,11 +215,13 @@ const FINANCE_KEYWORD_MAP = {
     '经济', '宏观经济', '经济运行', '稳增长', '保就业', '高质量发展',
     'GDP', 'CPI', 'PPI', 'PMI', 'M2', '社融', '信贷', '外贸',
     '货币政策', '财政政策', '产业政策', '宏观调控', '逆周期', '跨周期',
-    '汇率', '人民币', '外汇', '跨境', '离岸', '在岸',
+    '汇率', '人民币', '外汇', '跨境', '离岸', '在岸', '美元', '欧元', '日元',
     '通胀', '通缩', '滞胀', '衰退', '复苏',
     '房地产', '地产', '楼市', '住房', '保障房', '收储', '限购', '限贷',
-    '消费', '投资', '出口', '进出口', '贸易', '产业链', '供应链',
+    '消费', '投资', '出口', '进口', '进出口', '贸易', '产业链', '供应链',
     '就业', '失业', '收入', '居民杠杆', '共同富裕',
+    // 全球市场 / 大宗商品
+    '黄金', '金价', '原油', '大宗商品', '工业', '利润', '股市', '美联储', '财报', '欧央行',
   ],
   trust_wealth: [
     '信托', '家族信托', '资产配置', '财富管理', '私人银行',
@@ -217,8 +246,10 @@ function isFinanceRelated(item) {
 function isLowQuality(item) {
   const t = item.title || '';
   const s = item.summary || '';
-  // Truncated or too short
-  if (t.length < 8 || s.length < 20) return true;
+  // Too short: reject if both title and summary are too brief
+  if (t.length < 8 && s.length < 20) return true;
+  // Bare title only (summary empty but title ok): allow (analysis RSS often has no description)
+  if (t.length < 4) return true;
   // Marketing / promo patterns
   const promoPatterns = ['\u76f4\u64ad', '\u8bfe\u7a0b', '\u62a5\u540d', '\u6d3b\u52a8\u62a5\u540d', '\u5fae\u4fe1\u53f7', '\u626b\u7801', '\u70b9\u51fb\u67e5\u770b\u66f4\u591a'];
   if (promoPatterns.some(p => t.includes(p) || s.includes(p))) return true;
@@ -365,9 +396,9 @@ function buildKeywordIndex(items) {
 }
 
 // === AI Analysis Generator ===
-// Uses LongCat LLM API when LONGCAT_API_KEY env var is set; falls back to rule-based
-const LLM_API_HOST = 'api.longcat.chat';
-const LLM_API_PATH = '/openai/v1/chat/completions';
+// Uses SenseNova API when LLM_API_KEY env var is set; falls back to rule-based
+const LLM_API_HOST = 'token.sensenova.cn';
+const LLM_API_PATH = '/v1/chat/completions';
 const LLM_TIMEOUT_MS = 60000;
 
 function httpsPost(host, path, data, apiKey, timeout) {
@@ -405,7 +436,7 @@ function httpsPost(host, path, data, apiKey, timeout) {
 
 async function callLLM(messages, apiKey, maxTokens) {
   const raw = await httpsPost(LLM_API_HOST, LLM_API_PATH, {
-    model: 'LongCat-2.0-Preview',
+    model: 'deepseek-v4-flash',
     messages,
     temperature: 0.7,
     max_tokens: maxTokens || 3500,
@@ -490,18 +521,18 @@ async function generateAIAnalysisWithLLM(items, apiKey) {
 }
 
 async function generateAIAnalysisWithFallback(items) {
-  const apiKey = process.env.LONGCAT_API_KEY;
+  const apiKey = process.env.DEEPSEEK_API_KEY;
   if (apiKey) {
     try {
-      console.error('[llm] generating AI analysis with LongCat API...');
+      console.error('[llm] generating AI analysis with SenseNova API...');
       const result = await generateAIAnalysisWithLLM(items, apiKey);
       console.error('[llm] AI analysis generated successfully');
       return result;
     } catch (e) {
-      console.error(`[llm] LLM both calls failed: ${e.message}, falling back to rule-based`);
+      console.error(`[llm] LLM all calls failed: ${e.message}, falling back to rule-based`);
     }
   } else {
-    console.error('[llm] LONGCAT_API_KEY not set, using rule-based analysis');
+    console.error('[llm] DEEPSEEK_API_KEY not set, using rule-based analysis');
   }
   return generateAIAnalysis(items);
 }
@@ -636,7 +667,7 @@ async function main() {
   let newItems = [];
   for (const src of SOURCES) {
     console.error(`[fetching] ${src.sourceName}...`);
-    const items = await fetchRSS(src.route);
+    const items = src.directUrl ? await fetchDirectRSS(src.directUrl) : await fetchRSS(src.route);
     let added = 0;
     for (const item of items) {
       if (!item.sourceUrl || existing.existingUrls.has(item.sourceUrl)) continue;
@@ -648,6 +679,8 @@ async function main() {
       item.sourceName = src.sourceName;
       item.category = src.category;
       item.tags = [CATEGORY_TAGS[src.category]];
+      item.evidenceType = src.evidenceType;
+      item.discoveredVia = src.directUrl ? 'Investing.com' : 'RSSHub';
       item.id = '';
       enrichItem(item);
       newItems.push(item);

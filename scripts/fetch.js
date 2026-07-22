@@ -648,12 +648,227 @@ function generateMarketOutlook(items) {
   };
 }
 
+// === Rule-based fallback: daily highlights ===
+function generateDailyHighlights(items) {
+  if (items.length === 0) return { highlights: ['暂无资讯数据'] };
+  const sorted = [...items].sort((a, b) => (b.score || 0) - (a.score || 0));
+  const highlights = sorted.slice(0, 4).map(item =>
+    `[${item.score}] ${item.title} — ${(item.summary || '').substring(0, 60)}`
+  );
+  return { highlights };
+}
+
+// === Rule-based fallback: event chains ===
+function generateEventChains(items) {
+  if (items.length < 3) return { summary: '暂无足够数据进行关联分析', chains: [] };
+  // Group by source, pick top-2 sources with most items
+  const sourceCount = {};
+  for (const i of items) {
+    sourceCount[i.sourceName] = (sourceCount[i.sourceName] || 0) + 1;
+  }
+  const topSources = Object.entries(sourceCount)
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 3)
+    .map(([name]) => name);
+
+  const chains = [];
+  for (const src of topSources) {
+    const srcItems = items.filter(i => i.sourceName === src).slice(0, 5);
+    if (srcItems.length < 2) continue;
+    chains.push({
+      title: `${src}连续报道`,
+      nodes: srcItems.map(i => i.title.substring(0, 40)),
+      causalLink: '同一信源当日连续性报道，反映该领域密集动态',
+    });
+  }
+  // Cross-source chain: regulatory or macro clustering
+  const regulatoryItems = items.filter(i => i.category === 'regulatory').slice(0, 3);
+  const macroItems = items.filter(i => i.category === 'industry' && hasText(i.title + ' ' + (i.summary || ''), ['央行', '降息', '利率', 'LPR', 'MLF', 'GDP', 'CPI'])).slice(0, 3);
+  if (regulatoryItems.length >= 2) {
+    chains.push({
+      title: '监管政策密集发布',
+      nodes: regulatoryItems.map(i => i.title.substring(0, 40)),
+      causalLink: '多源同步报道监管动态，政策信号集中释放',
+    });
+  }
+  if (macroItems.length >= 2) {
+    chains.push({
+      title: '宏观经济数据/政策跟踪',
+      nodes: macroItems.map(i => i.title.substring(0, 40)),
+      causalLink: '宏观基本面信号集中披露，市场关注度上升',
+    });
+  }
+  return {
+    summary: `基于 ${items.length} 条资讯自动识别 ${chains.length} 条事件链`,
+    chains,
+  };
+}
+
+// === Rule-based fallback: industry impact quadrants ===
+function generateIndustryImpact(items) {
+  const quadrants = {
+    insurance: { level: 'none', summary: '暂无保险相关资讯', items: [] },
+    pe: { level: 'none', summary: '暂无私募/基金相关资讯', items: [] },
+    banking: { level: 'none', summary: '暂无银行/利率相关资讯', items: [] },
+    trust: { level: 'none', summary: '暂无信托/财富管理相关资讯', items: [] },
+  };
+
+  // Insurance
+  const insItems = items.filter(i => hasText(i.title + ' ' + (i.summary || ''), ['保险', '险企', '保费', '养老', '年金', '寿险', '健康险', '偿付能力']));
+  if (insItems.length > 0) {
+    const maxScore = Math.max(...insItems.map(i => i.score || 0));
+    quadrants.insurance = {
+      level: insItems.length >= 5 ? 'high' : insItems.length >= 2 ? 'medium' : 'low',
+      summary: `${insItems.length} 条保险相关资讯`,
+      items: insItems.slice(0, 3).map(i => ({
+        title: (i.title || '').substring(0, 48),
+        impact: hasText(i.title + ' ' + (i.summary || ''), ['监管', '新规', '处罚', '偿付能力']) ? '监管层面影响，需评估合规应对' : '行业动态，适合客户沟通素材',
+        suggestion: i.score >= 80 ? '重点关注，纳入今日客户沟通议题' : '持续跟踪，视客户情况选择性沟通',
+      })),
+    };
+  }
+
+  // PE / Fund
+  const peItems = items.filter(i => hasText(i.title + ' ' + (i.summary || ''), ['基金', '私募', '资管', '证券', 'ETF', '债券', '量化', '对冲', 'FOF']));
+  if (peItems.length > 0) {
+    quadrants.pe = {
+      level: peItems.length >= 5 ? 'high' : peItems.length >= 2 ? 'medium' : 'low',
+      summary: `${peItems.length} 条基金/资管相关资讯`,
+      items: peItems.slice(0, 3).map(i => ({
+        title: (i.title || '').substring(0, 48),
+        impact: hasText(i.title + ' ' + (i.summary || ''), ['监管', '合规', '备案']) ? '监管合规层面影响，需更新运营流程' : hasText(i.title + ' ' + (i.summary || ''), ['市场', '行情', '波动', '收益', '净值']) ? '市场表现影响，可用于投资人沟通' : '行业生态变化，关注中长期趋势',
+        suggestion: i.score >= 80 ? '优先阅读原文，评估影响范围' : '简要了解，视情况纳入周报',
+      })),
+    };
+  }
+
+  // Banking
+  const bankItems = items.filter(i => hasText(i.title + ' ' + (i.summary || ''), ['银行', '央行', '利率', '降准', '降息', 'LPR', 'MLF', '流动性']));
+  if (bankItems.length > 0) {
+    quadrants.banking = {
+      level: bankItems.length >= 4 ? 'high' : bankItems.length >= 2 ? 'medium' : 'low',
+      summary: `${bankItems.length} 条银行/货币政策相关资讯`,
+      items: bankItems.slice(0, 3).map(i => ({
+        title: (i.title || '').substring(0, 48),
+        impact: hasText(i.title + ' ' + (i.summary || ''), ['降息', '降准', 'LPR']) ? '货币政策信号，影响资产定价和配置策略' : '银行经营动态，关注对信用风险的传导',
+        suggestion: hasText(i.title + ' ' + (i.summary || ''), ['降息', '降准']) ? '评估利率变动对固收类产品的影响，及时调整建议' : '持续跟踪，关注对行业整体信用环境的边际影响',
+      })),
+    };
+  }
+
+  // Trust / Wealth
+  const trustItems = items.filter(i => hasText(i.title + ' ' + (i.summary || ''), ['信托', '家族信托', '财富管理', '资产配置', '资管', 'FOF']));
+  if (trustItems.length > 0) {
+    quadrants.trust = {
+      level: trustItems.length >= 3 ? 'high' : trustItems.length >= 1 ? 'medium' : 'low',
+      summary: `${trustItems.length} 条信托/财富管理相关资讯`,
+      items: trustItems.slice(0, 3).map(i => ({
+        title: (i.title || '').substring(0, 48),
+        impact: hasText(i.title + ' ' + (i.summary || ''), ['监管', '新规', '办法']) ? '监管政策调整，需重新评估合规方案' : '行业发展动态，关注业务机会',
+        suggestion: '视相关内容与自身业务关联度决定优先级',
+      })),
+    };
+  }
+
+  return { quadrants };
+}
+
+// === Rule-based fallback: weekly trends ===
+function generateWeeklyTrends(items) {
+  if (items.length === 0) return { summary: '暂无数据', trends: [] };
+
+  // Category distribution
+  const catCount = {};
+  for (const i of items) { catCount[i.category] = (catCount[i.category] || 0) + 1; }
+
+  // Keyword frequency across all items
+  const keywordHits = {};
+  const TREND_KEYWORDS = {
+    regulatory: ['监管', '处罚', '新规', '合规', '整顿', '通知'],
+    monetary: ['降息', '降准', 'LPR', 'MLF', '利率', '央行', '流动性'],
+    insurance: ['保险', '险企', '保费', '养老', '年金', '健康险', '偿付能力'],
+    market: ['市场', '股市', 'A股', '行情', '震荡', '波动', '上涨', '下跌'],
+    realestate: ['房地产', '地产', '楼市', '住房', '限购'],
+  };
+  for (const [topic, keywords] of Object.entries(TREND_KEYWORDS)) {
+    let count = 0;
+    for (const i of items) {
+      if (hasText(i.title + ' ' + (i.summary || ''), keywords)) count++;
+    }
+    if (count > 0) keywordHits[topic] = count;
+  }
+
+  // Build trend items
+  const trends = [];
+
+  // Category-based trend
+  if (catCount.regulatory && catCount.regulatory >= 3) {
+    trends.push({
+      topic: '监管政策密集度上升',
+      direction: '上升',
+      evidence: `今日 ${catCount.regulatory} 条监管类资讯，监管层信号集中释放，关注政策落地节奏`,
+    });
+  }
+  if (catCount.industry && catCount.industry >= 6) {
+    trends.push({
+      topic: '行业动态活跃',
+      direction: '平稳',
+      evidence: `今日 ${catCount.industry} 条行业动态资讯，行业层面信息充分，涉及多家机构/产品`,
+    });
+  }
+
+  // Keyword-based trends
+  if (keywordHits.monetary && keywordHits.monetary >= 2) {
+    trends.push({
+      topic: '货币政策信号',
+      direction: keywordHits.monetary >= 4 ? '上升' : '平稳',
+      evidence: `出现 ${keywordHits.monetary} 次货币政策相关关键词，关注利率/流动性走向`,
+    });
+  }
+  if (keywordHits.insurance && keywordHits.insurance >= 3) {
+    trends.push({
+      topic: '保险行业关注度',
+      direction: keywordHits.insurance >= 6 ? '上升' : '平稳',
+      evidence: `出现 ${keywordHits.insurance} 条保险相关资讯，覆盖监管/市场/产品多维度`,
+    });
+  }
+  if (keywordHits.market && keywordHits.market >= 4) {
+    trends.push({
+      topic: '市场行情波动',
+      direction: '上升',
+      evidence: `出现 ${keywordHits.market} 条市场行情相关资讯，市场关注度提升`,
+    });
+  }
+  if (keywordHits.realestate && keywordHits.realestate >= 2) {
+    trends.push({
+      topic: '房地产政策动向',
+      direction: '平稳',
+      evidence: `出现 ${keywordHits.realestate} 条地产相关资讯，政策边际变化值得关注`,
+    });
+  }
+
+  // Source diversity trend
+  const uniqueSources = new Set(items.map(i => i.sourceName)).size;
+  if (uniqueSources >= 5) {
+    trends.push({
+      topic: '信源覆盖度',
+      direction: '平稳',
+      evidence: `覆盖 ${uniqueSources} 个信源，信息维度较全面`,
+    });
+  }
+
+  return {
+    summary: `今日 ${items.length} 条资讯，覆盖 ${Object.keys(catCount).length} 个分类、${uniqueSources} 个信源`,
+    trends: trends.length > 0 ? trends.slice(0, 5) : [{ topic: '资讯结构稳定', direction: '平稳', evidence: '今日资讯未形成明显趋势信号，建议结合多日数据做趋势判断' }],
+  };
+}
+
 function generateAIAnalysis(items) {
   return {
-    dailySummary: { highlights: [] },
-    eventChain: { summary: 'LLM 未调用，暂无事件关联分析', chains: [] },
-    industryImpact: { quadrants: { insurance: { level: 'none', summary: '暂无', items: [] }, pe: { level: 'none', summary: '暂无', items: [] }, banking: { level: 'none', summary: '暂无', items: [] }, trust: { level: 'none', summary: '暂无', items: [] } } },
-    weeklyTrends: { summary: 'LLM 未调用，暂无趋势信号', trends: [] },
+    dailySummary: generateDailyHighlights(items),
+    eventChain: generateEventChains(items),
+    industryImpact: generateIndustryImpact(items),
+    weeklyTrends: generateWeeklyTrends(items),
     insurancePlanner: generateInsuranceAnalysis(items),
     peOperations: generatePEAnalysis(items),
     marketOutlook: generateMarketOutlook(items),

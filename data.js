@@ -1,5 +1,5 @@
 // finhot auto-generated data - powered by RSSHub + financial sources
-// Generated: 2026-07-24T09:08:33.848Z
+// Generated: 2026-07-24T09:34:42.353Z
 // Practitioner value scoring: relevance(25) + authority(20) + impact(20) + recency(15) + depth(10) + actionability(10)
 
 window.CATEGORIES = [
@@ -68,8 +68,8 @@ window.CATEGORY_CONFIG = {
 
 window.FINHOT_DATA = {
   "date": "2026-07-24",
-  "generatedAt": "2026-07-24T09:08:33.848Z",
-  "lead": "今日新增 42 条，共 42 条精选资讯",
+  "generatedAt": "2026-07-24T09:34:42.353Z",
+  "lead": "今日新增 12 条，共 54 条精选资讯",
   "items": [
     {
       "title": "历史规律失效还是风险迟到？中期选举临近，美股三季度如何跨越“波动区间”",
@@ -83,7 +83,7 @@ window.FINHOT_DATA = {
       ],
       "evidenceType": "financial_media",
       "discoveredVia": "RSSHub",
-      "id": "21",
+      "id": "31",
       "tier": "S2",
       "sourceTier": "S2",
       "sourceTierLabel": "专业财经媒体",
@@ -116,7 +116,7 @@ window.FINHOT_DATA = {
       ],
       "evidenceType": "financial_media",
       "discoveredVia": "RSSHub",
-      "id": "19",
+      "id": "29",
       "tier": "S2",
       "sourceTier": "S2",
       "sourceTierLabel": "专业财经媒体",
@@ -149,7 +149,7 @@ window.FINHOT_DATA = {
       ],
       "evidenceType": "financial_media",
       "discoveredVia": "RSSHub",
-      "id": "11",
+      "id": "21",
       "tier": "S2",
       "sourceTier": "S2",
       "sourceTierLabel": "专业财经媒体",
@@ -182,7 +182,7 @@ window.FINHOT_DATA = {
       ],
       "evidenceType": "financial_media",
       "discoveredVia": "RSSHub",
-      "id": "33",
+      "id": "43",
       "tier": "S2",
       "sourceTier": "S2",
       "sourceTierLabel": "专业财经媒体",
@@ -215,7 +215,7 @@ window.FINHOT_DATA = {
       ],
       "evidenceType": "financial_media",
       "discoveredVia": "RSSHub",
-      "id": "18",
+      "id": "28",
       "tier": "S2",
       "sourceTier": "S2",
       "sourceTierLabel": "专业财经媒体",
@@ -248,7 +248,7 @@ window.FINHOT_DATA = {
       ],
       "evidenceType": "financial_media",
       "discoveredVia": "RSSHub",
-      "id": "16",
+      "id": "26",
       "tier": "S2",
       "sourceTier": "S2",
       "sourceTierLabel": "专业财经媒体",
@@ -281,7 +281,7 @@ window.FINHOT_DATA = {
       ],
       "evidenceType": "financial_media",
       "discoveredVia": "RSSHub",
-      "id": "32",
+      "id": "42",
       "tier": "S2",
       "sourceTier": "S2",
       "sourceTierLabel": "专业财经媒体",
@@ -314,7 +314,7 @@ window.FINHOT_DATA = {
       ],
       "evidenceType": "financial_media",
       "discoveredVia": "Investing.com",
-      "id": "42",
+      "id": "52",
       "tier": "S2",
       "sourceTier": "S2",
       "sourceTierLabel": "专业财经媒体",
@@ -336,6 +336,39 @@ window.FINHOT_DATA = {
       ]
     },
     {
+      "title": "高温“趴窝”风波后，小鹏X9主动召回超3.3万辆",
+      "sourceUrl": "https://www.yicai.com/news/103291278.html",
+      "publishedAt": "2026-07-24T09:22:35.000Z",
+      "summary": "该召回计划将于2026年8月28日正式启动。今年夏季小鹏X9空气悬架 “趴窝” 一事引发了业内广泛议论，如今这场风波划下了一个阶段性的句号。\n\n7月24日，国家市场监管总局发布公告称，小鹏汽车备案了召回计划：召回2023年8月8日至2025年8月11日生产的部分小鹏X9汽车，共计33473辆。本次召回编号为S2026M0082V，末尾字母 V 代表该次召回属于小鹏汽车主动备案实施的安全缺陷召回，并",
+      "sourceName": "第一财经",
+      "category": "industry",
+      "tags": [
+        "行业动态"
+      ],
+      "evidenceType": "financial_media",
+      "discoveredVia": "RSSHub",
+      "id": "2",
+      "tier": "S2",
+      "sourceTier": "S2",
+      "sourceTierLabel": "专业财经媒体",
+      "score": 76,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 12,
+        "authority": 15,
+        "impact": 20,
+        "recency": 15,
+        "depth": 10,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "专业财经媒体跟进",
+        "对展业/配置/合规有直接影响",
+        "时效性高"
+      ]
+    },
+    {
       "title": "国家网信办、公安部联合公布《小型个人信息处理者个人信息保护简化措施规定》",
       "sourceUrl": "https://wallstreetcn.com/livenews/3139373",
       "publishedAt": "2026-07-24T09:05:22.000Z",
@@ -347,7 +380,7 @@ window.FINHOT_DATA = {
       ],
       "evidenceType": "financial_media",
       "discoveredVia": "RSSHub",
-      "id": "2",
+      "id": "11",
       "tier": "S2",
       "sourceTier": "S2",
       "sourceTierLabel": "专业财经媒体",
@@ -380,7 +413,7 @@ window.FINHOT_DATA = {
       ],
       "evidenceType": "financial_media",
       "discoveredVia": "RSSHub",
-      "id": "13",
+      "id": "23",
       "tier": "S2",
       "sourceTier": "S2",
       "sourceTierLabel": "专业财经媒体",
@@ -413,7 +446,7 @@ window.FINHOT_DATA = {
       ],
       "evidenceType": "financial_media",
       "discoveredVia": "RSSHub",
-      "id": "28",
+      "id": "38",
       "tier": "S2",
       "sourceTier": "S2",
       "sourceTierLabel": "专业财经媒体",
@@ -446,7 +479,7 @@ window.FINHOT_DATA = {
       ],
       "evidenceType": "financial_media",
       "discoveredVia": "RSSHub",
-      "id": "30",
+      "id": "40",
       "tier": "S2",
       "sourceTier": "S2",
       "sourceTierLabel": "专业财经媒体",
@@ -468,6 +501,72 @@ window.FINHOT_DATA = {
       ]
     },
     {
+      "title": "首批8只北交所三个月持有期主题基金即将正式上报",
+      "sourceUrl": "https://www.36kr.com/newsflashes/3909423434552712",
+      "publishedAt": "2026-07-24T09:11:10.000Z",
+      "summary": "7月24日，记者从北交所了解到，首批北交所三个月持有期主题基金已确定8家管理人，包括华夏、汇添富、易方达、南方、嘉实、东财、富国、中信建投基金。7月24日起，相关基金管理人将向证监会正式递交产品注册申请材料。（证券时报）",
+      "sourceName": "36氪",
+      "category": "insights",
+      "tags": [
+        "观点"
+      ],
+      "evidenceType": "news_flash",
+      "discoveredVia": "RSSHub",
+      "id": "7",
+      "tier": "S3",
+      "sourceTier": "S3",
+      "sourceTierLabel": "快讯/观点线索",
+      "score": 75,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 22,
+        "authority": 9,
+        "impact": 14,
+        "recency": 15,
+        "depth": 8,
+        "actionability": 10
+      },
+      "confidence": "low",
+      "why": [
+        "快讯线索，需结合原文判断",
+        "可转化为客户沟通或投研关注",
+        "时效性高"
+      ]
+    },
+    {
+      "title": "武汉高官之子香港洗钱逾6400万港元 被判入狱6年9个月",
+      "sourceUrl": "https://china.caixin.com/2026-07-24/102467717.html",
+      "publishedAt": "2026-07-24T09:13:23.000Z",
+      "summary": "辩方求情称，肖锐来港涉足的证券、房地产生意均告失败，亏损数千万\n       　　【财新网】武汉市监委原委员肖军之子肖锐通过地下钱庄洗钱超过6400万港元，同时以虚假资料骗取香港居留权。7月23日，香港区域法院宣判，37岁的肖锐因四项“洗黑钱”罪及一项“使用虚假文书的副本”罪全部成立，被判处监禁6年9个月。\n　　在判刑的聆讯中，辩方求情称肖锐自从被起诉后与家人分离，独自在港生活孤独，且此前无案底，",
+      "sourceName": "财新网",
+      "category": "industry",
+      "tags": [
+        "行业动态"
+      ],
+      "evidenceType": "financial_media",
+      "discoveredVia": "RSSHub",
+      "id": "5",
+      "tier": "S2",
+      "sourceTier": "S2",
+      "sourceTierLabel": "专业财经媒体",
+      "score": 74,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 22,
+        "authority": 15,
+        "impact": 8,
+        "recency": 15,
+        "depth": 10,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "专业财经媒体跟进",
+        "时效性高",
+        "摘要信息较完整"
+      ]
+    },
+    {
       "title": "中国央行将在7月29日至7月31日、8月3日开展隔夜逆回购操作",
       "sourceUrl": "https://wallstreetcn.com/livenews/3139365",
       "publishedAt": "2026-07-24T09:02:21.000Z",
@@ -479,7 +578,7 @@ window.FINHOT_DATA = {
       ],
       "evidenceType": "financial_media",
       "discoveredVia": "RSSHub",
-      "id": "5",
+      "id": "14",
       "tier": "S2",
       "sourceTier": "S2",
       "sourceTierLabel": "专业财经媒体",
@@ -512,7 +611,7 @@ window.FINHOT_DATA = {
       ],
       "evidenceType": "news_flash",
       "discoveredVia": "RSSHub",
-      "id": "7",
+      "id": "17",
       "tier": "S3",
       "sourceTier": "S3",
       "sourceTierLabel": "快讯/观点线索",
@@ -545,7 +644,7 @@ window.FINHOT_DATA = {
       ],
       "evidenceType": "news_flash",
       "discoveredVia": "RSSHub",
-      "id": "20",
+      "id": "30",
       "tier": "S3",
       "sourceTier": "S3",
       "sourceTierLabel": "快讯/观点线索",
@@ -578,7 +677,7 @@ window.FINHOT_DATA = {
       ],
       "evidenceType": "financial_media",
       "discoveredVia": "RSSHub",
-      "id": "22",
+      "id": "32",
       "tier": "S2",
       "sourceTier": "S2",
       "sourceTierLabel": "专业财经媒体",
@@ -611,7 +710,7 @@ window.FINHOT_DATA = {
       ],
       "evidenceType": "financial_media",
       "discoveredVia": "RSSHub",
-      "id": "25",
+      "id": "35",
       "tier": "S2",
       "sourceTier": "S2",
       "sourceTierLabel": "专业财经媒体",
@@ -644,7 +743,7 @@ window.FINHOT_DATA = {
       ],
       "evidenceType": "financial_media",
       "discoveredVia": "RSSHub",
-      "id": "34",
+      "id": "44",
       "tier": "S2",
       "sourceTier": "S2",
       "sourceTierLabel": "专业财经媒体",
@@ -677,7 +776,7 @@ window.FINHOT_DATA = {
       ],
       "evidenceType": "financial_media",
       "discoveredVia": "Investing.com",
-      "id": "37",
+      "id": "49",
       "tier": "S2",
       "sourceTier": "S2",
       "sourceTierLabel": "专业财经媒体",
@@ -710,7 +809,7 @@ window.FINHOT_DATA = {
       ],
       "evidenceType": "news_flash",
       "discoveredVia": "RSSHub",
-      "id": "3",
+      "id": "12",
       "tier": "S3",
       "sourceTier": "S3",
       "sourceTierLabel": "快讯/观点线索",
@@ -743,7 +842,7 @@ window.FINHOT_DATA = {
       ],
       "evidenceType": "news_flash",
       "discoveredVia": "RSSHub",
-      "id": "10",
+      "id": "20",
       "tier": "S3",
       "sourceTier": "S3",
       "sourceTierLabel": "快讯/观点线索",
@@ -776,7 +875,7 @@ window.FINHOT_DATA = {
       ],
       "evidenceType": "news_flash",
       "discoveredVia": "RSSHub",
-      "id": "4",
+      "id": "13",
       "tier": "S3",
       "sourceTier": "S3",
       "sourceTierLabel": "快讯/观点线索",
@@ -798,6 +897,39 @@ window.FINHOT_DATA = {
       ]
     },
     {
+      "title": "44万亿公共采购，如何从“压舱石”变为“创新策源地”？",
+      "sourceUrl": "https://www.yicai.com/news/103291273.html",
+      "publishedAt": "2026-07-24T09:22:26.000Z",
+      "summary": "2025年，全国公共采购总额达44万亿元，其中央企采购约18万亿元。如何从“规模驱动”迈向“创新驱动”，是摆在当前众多国有企业面前的必答题。近日，《中国公共采购发展报告（2025）》在第七届国有企业数智化采购与供应链大会上发布。该报告披露了关键的产业数据：2025年全国公共采购总额44万亿元，中央企业采购总金额18万亿元。手握万亿研发资金、海量科研人才及超18万亿元年度采购市场，国有企业本应成为原",
+      "sourceName": "第一财经",
+      "category": "industry",
+      "tags": [
+        "行业动态"
+      ],
+      "evidenceType": "financial_media",
+      "discoveredVia": "RSSHub",
+      "id": "3",
+      "tier": "S2",
+      "sourceTier": "S2",
+      "sourceTierLabel": "专业财经媒体",
+      "score": 64,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 12,
+        "authority": 15,
+        "impact": 8,
+        "recency": 15,
+        "depth": 10,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "专业财经媒体跟进",
+        "时效性高",
+        "摘要信息较完整"
+      ]
+    },
+    {
       "title": "中旅集团原董事长王海民出任华润集团“一把手”",
       "sourceUrl": "https://www.caixin.com/2026-07-24/102467704.html",
       "publishedAt": "2026-07-24T09:05:58.000Z",
@@ -809,7 +941,40 @@ window.FINHOT_DATA = {
       ],
       "evidenceType": "financial_media",
       "discoveredVia": "RSSHub",
-      "id": "1",
+      "id": "10",
+      "tier": "S2",
+      "sourceTier": "S2",
+      "sourceTierLabel": "专业财经媒体",
+      "score": 64,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 12,
+        "authority": 15,
+        "impact": 8,
+        "recency": 15,
+        "depth": 10,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "专业财经媒体跟进",
+        "时效性高",
+        "摘要信息较完整"
+      ]
+    },
+    {
+      "title": "Token，带火了这门8700亿生意",
+      "sourceUrl": "https://wallstreetcn.com/articles/3777873",
+      "publishedAt": "2026-07-24T09:01:35.000Z",
+      "summary": "一门藏在角落里的生意，火了。\n这就是给AI服务器散热。\n美国数据中心电力和温控巨头维谛技术，2026年一季度营收达到26.5亿美元，同比增长30%，它卖的不是GPU，而是为GPU提供电力、制冷和机柜基础设施。\n做汽车散热器的摩丁制造，2025年一次性拿到一家AI基础设施开发商价值1.8亿美元的冷却系统订单，2026年一季度AI数据中心冷却业务营收暴涨158%。\n做数据中心温控设备的英维克，2025",
+      "sourceName": "华尔街见闻",
+      "category": "industry",
+      "tags": [
+        "行业动态"
+      ],
+      "evidenceType": "financial_media",
+      "discoveredVia": "RSSHub",
+      "id": "15",
       "tier": "S2",
       "sourceTier": "S2",
       "sourceTierLabel": "专业财经媒体",
@@ -842,7 +1007,7 @@ window.FINHOT_DATA = {
       ],
       "evidenceType": "financial_media",
       "discoveredVia": "RSSHub",
-      "id": "9",
+      "id": "19",
       "tier": "S2",
       "sourceTier": "S2",
       "sourceTierLabel": "专业财经媒体",
@@ -875,7 +1040,7 @@ window.FINHOT_DATA = {
       ],
       "evidenceType": "financial_media",
       "discoveredVia": "RSSHub",
-      "id": "23",
+      "id": "33",
       "tier": "S2",
       "sourceTier": "S2",
       "sourceTierLabel": "专业财经媒体",
@@ -908,7 +1073,7 @@ window.FINHOT_DATA = {
       ],
       "evidenceType": "financial_media",
       "discoveredVia": "RSSHub",
-      "id": "24",
+      "id": "34",
       "tier": "S2",
       "sourceTier": "S2",
       "sourceTierLabel": "专业财经媒体",
@@ -941,7 +1106,7 @@ window.FINHOT_DATA = {
       ],
       "evidenceType": "financial_media",
       "discoveredVia": "RSSHub",
-      "id": "26",
+      "id": "36",
       "tier": "S2",
       "sourceTier": "S2",
       "sourceTierLabel": "专业财经媒体",
@@ -974,7 +1139,7 @@ window.FINHOT_DATA = {
       ],
       "evidenceType": "financial_media",
       "discoveredVia": "RSSHub",
-      "id": "27",
+      "id": "37",
       "tier": "S2",
       "sourceTier": "S2",
       "sourceTierLabel": "专业财经媒体",
@@ -1007,7 +1172,7 @@ window.FINHOT_DATA = {
       ],
       "evidenceType": "financial_media",
       "discoveredVia": "RSSHub",
-      "id": "29",
+      "id": "39",
       "tier": "S2",
       "sourceTier": "S2",
       "sourceTierLabel": "专业财经媒体",
@@ -1040,7 +1205,7 @@ window.FINHOT_DATA = {
       ],
       "evidenceType": "financial_media",
       "discoveredVia": "RSSHub",
-      "id": "31",
+      "id": "41",
       "tier": "S2",
       "sourceTier": "S2",
       "sourceTierLabel": "专业财经媒体",
@@ -1073,7 +1238,7 @@ window.FINHOT_DATA = {
       ],
       "evidenceType": "financial_media",
       "discoveredVia": "RSSHub",
-      "id": "35",
+      "id": "45",
       "tier": "S2",
       "sourceTier": "S2",
       "sourceTierLabel": "专业财经媒体",
@@ -1106,7 +1271,7 @@ window.FINHOT_DATA = {
       ],
       "evidenceType": "financial_media",
       "discoveredVia": "RSSHub",
-      "id": "6",
+      "id": "16",
       "tier": "S2",
       "sourceTier": "S2",
       "sourceTierLabel": "专业财经媒体",
@@ -1139,7 +1304,7 @@ window.FINHOT_DATA = {
       ],
       "evidenceType": "financial_media",
       "discoveredVia": "RSSHub",
-      "id": "17",
+      "id": "27",
       "tier": "S2",
       "sourceTier": "S2",
       "sourceTierLabel": "专业财经媒体",
@@ -1171,7 +1336,7 @@ window.FINHOT_DATA = {
       ],
       "evidenceType": "financial_media",
       "discoveredVia": "Investing.com",
-      "id": "39",
+      "id": "50",
       "tier": "S2",
       "sourceTier": "S2",
       "sourceTierLabel": "专业财经媒体",
@@ -1192,6 +1357,38 @@ window.FINHOT_DATA = {
       ]
     },
     {
+      "title": "证监会同意热轧卷板、不锈钢期权注册",
+      "sourceUrl": "https://www.36kr.com/newsflashes/3909419187246214",
+      "publishedAt": "2026-07-24T09:06:50.000Z",
+      "summary": "36氪获悉，近日，证监会同意上海期货交易所热轧卷板、不锈钢期权注册。证监会将督促上海期货交易所做好各项准备工作，确保热轧卷板、不锈钢期权的平稳推出和稳健运行。",
+      "sourceName": "36氪",
+      "category": "insights",
+      "tags": [
+        "观点"
+      ],
+      "evidenceType": "news_flash",
+      "discoveredVia": "RSSHub",
+      "id": "9",
+      "tier": "S3",
+      "sourceTier": "S3",
+      "sourceTierLabel": "快讯/观点线索",
+      "score": 60,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 18,
+        "authority": 9,
+        "impact": 8,
+        "recency": 15,
+        "depth": 6,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "快讯线索，需结合原文判断",
+        "时效性高"
+      ]
+    },
+    {
       "title": "连板股追踪丨A股今日共43只个股涨停 长缆科技4连板",
       "sourceUrl": "https://www.yicai.com/news/103291234.html",
       "publishedAt": "2026-07-24T08:49:06.000Z",
@@ -1203,7 +1400,7 @@ window.FINHOT_DATA = {
       ],
       "evidenceType": "financial_media",
       "discoveredVia": "RSSHub",
-      "id": "12",
+      "id": "22",
       "tier": "S2",
       "sourceTier": "S2",
       "sourceTierLabel": "专业财经媒体",
@@ -1224,10 +1421,10 @@ window.FINHOT_DATA = {
       ]
     },
     {
-      "title": "软银拟收购瑞士AI机器人初创公司Gravis，估值或逾5亿美元",
-      "sourceUrl": "https://www.36kr.com/newsflashes/3909405612905858",
-      "publishedAt": "2026-07-24T08:53:02.000Z",
-      "summary": "7月24日，据报道，日本软银集团正考虑收购瑞士AI机器人初创公司Gravis Robotics AG，旨在进一步加码支撑机器人技术的具身智能与人工智能领域。软银计划对这家初创公司建立大量股权头寸，并将其归入其正在筹建的新AI及机器人实体公司“Roze”旗下。交易可能分阶段推进，包括购买现有股份以及随着时间推移注入新资金，最终对Gravis的估值可能超过5亿美元。目前，关于交易规模与架构的最终方案尚",
+      "title": "国家网信办、公安部发布《小型个人信息处理者个人信息保护简化措施规定》",
+      "sourceUrl": "https://www.36kr.com/newsflashes/3909420153083014",
+      "publishedAt": "2026-07-24T09:07:49.000Z",
+      "summary": "近日，国家网信办、公安部联合公布《小型个人信息处理者个人信息保护简化措施规定》（以下简称《规定》），自2026年9月1日起施行。国家网信办有关负责人表示，《个人信息保护法》规定，国家网信部门统筹协调有关部门针对小型个人信息处理者，制定专门的个人信息保护规则、标准。制定《规定》，是贯彻落实党中央决策部署，落实《个人信息保护法》有关要求的重要举措，有利于在坚守个人信息安全底线的同时，降低小型个人信息处",
       "sourceName": "36氪",
       "category": "insights",
       "tags": [
@@ -1257,10 +1454,10 @@ window.FINHOT_DATA = {
       ]
     },
     {
-      "title": "三菱汽车拟投4.75亿美元拓展泰国生产基地",
-      "sourceUrl": "https://www.36kr.com/newsflashes/3909395365303680",
-      "publishedAt": "2026-07-24T08:42:36.000Z",
-      "summary": "泰国投资促进委员会（BOI）秘书长纳立7月24日表示，三菱汽车计划投资160亿泰铢（约合4.75亿美元），用于扩大其在泰国的混合动力汽车（HEV）生产能力，以进一步巩固泰国作为其核心制造与出口基地的地位。（界面）",
+      "title": "软银拟收购瑞士AI机器人初创公司Gravis，估值或逾5亿美元",
+      "sourceUrl": "https://www.36kr.com/newsflashes/3909405612905858",
+      "publishedAt": "2026-07-24T08:53:02.000Z",
+      "summary": "7月24日，据报道，日本软银集团正考虑收购瑞士AI机器人初创公司Gravis Robotics AG，旨在进一步加码支撑机器人技术的具身智能与人工智能领域。软银计划对这家初创公司建立大量股权头寸，并将其归入其正在筹建的新AI及机器人实体公司“Roze”旗下。交易可能分阶段推进，包括购买现有股份以及随着时间推移注入新资金，最终对Gravis的估值可能超过5亿美元。目前，关于交易规模与架构的最终方案尚",
       "sourceName": "36氪",
       "category": "insights",
       "tags": [
@@ -1268,7 +1465,40 @@ window.FINHOT_DATA = {
       ],
       "evidenceType": "news_flash",
       "discoveredVia": "RSSHub",
-      "id": "14",
+      "id": "18",
+      "tier": "S3",
+      "sourceTier": "S3",
+      "sourceTierLabel": "快讯/观点线索",
+      "score": 58,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 12,
+        "authority": 9,
+        "impact": 8,
+        "recency": 15,
+        "depth": 10,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "快讯线索，需结合原文判断",
+        "时效性高",
+        "摘要信息较完整"
+      ]
+    },
+    {
+      "title": "中重科技：实控人增持10万股公司股份",
+      "sourceUrl": "https://www.36kr.com/newsflashes/3909437418870144",
+      "publishedAt": "2026-07-24T09:25:23.000Z",
+      "summary": "36氪获悉，中重科技公告，公司实际控股人、副董事长谷峰兰基于对公司未来发展的信心以及对公司长期投资价值的认可，于2026年7月24日通过上交所交易系统以集中竞价的方式增持公司股份10万股，约占公司总股本的0.01577%，累计增持金额83.5万元（不含交易费用）。",
+      "sourceName": "36氪",
+      "category": "insights",
+      "tags": [
+        "观点"
+      ],
+      "evidenceType": "news_flash",
+      "discoveredVia": "RSSHub",
+      "id": "1",
       "tier": "S3",
       "sourceTier": "S3",
       "sourceTierLabel": "快讯/观点线索",
@@ -1289,6 +1519,134 @@ window.FINHOT_DATA = {
       ]
     },
     {
+      "title": "上半年全国营业性演出票房收入超304亿元",
+      "sourceUrl": "https://www.36kr.com/newsflashes/3909425199518857",
+      "publishedAt": "2026-07-24T09:12:57.000Z",
+      "summary": "中国演出行业协会7月24日发布2026年上半年全国演出市场发展简报。简报显示，2026年上半年全国营业性演出（不含娱乐场所演出）票房收入304.08亿元，同比增长9.41%；观众人数9881.18万人次，同比增长5.28%。（央视新闻）",
+      "sourceName": "36氪",
+      "category": "insights",
+      "tags": [
+        "观点"
+      ],
+      "evidenceType": "news_flash",
+      "discoveredVia": "RSSHub",
+      "id": "6",
+      "tier": "S3",
+      "sourceTier": "S3",
+      "sourceTierLabel": "快讯/观点线索",
+      "score": 56,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 12,
+        "authority": 9,
+        "impact": 8,
+        "recency": 15,
+        "depth": 8,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "快讯线索，需结合原文判断",
+        "时效性高"
+      ]
+    },
+    {
+      "title": "三菱汽车拟投4.75亿美元拓展泰国生产基地",
+      "sourceUrl": "https://www.36kr.com/newsflashes/3909395365303680",
+      "publishedAt": "2026-07-24T08:42:36.000Z",
+      "summary": "泰国投资促进委员会（BOI）秘书长纳立7月24日表示，三菱汽车计划投资160亿泰铢（约合4.75亿美元），用于扩大其在泰国的混合动力汽车（HEV）生产能力，以进一步巩固泰国作为其核心制造与出口基地的地位。（界面）",
+      "sourceName": "36氪",
+      "category": "insights",
+      "tags": [
+        "观点"
+      ],
+      "evidenceType": "news_flash",
+      "discoveredVia": "RSSHub",
+      "id": "24",
+      "tier": "S3",
+      "sourceTier": "S3",
+      "sourceTierLabel": "快讯/观点线索",
+      "score": 56,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 12,
+        "authority": 9,
+        "impact": 8,
+        "recency": 15,
+        "depth": 8,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "快讯线索，需结合原文判断",
+        "时效性高"
+      ]
+    },
+    {
+      "title": "美股盘前，英特尔绩后升5%！布油破百后跳水，黄金反弹升至4050美元",
+      "sourceUrl": "https://cn.investing.com/news/stock-market-news/article-3477477",
+      "publishedAt": "2026-07-24T01:07:24.000Z",
+      "summary": "",
+      "sourceName": "英为财情",
+      "category": "industry",
+      "tags": [
+        "行业动态"
+      ],
+      "evidenceType": "financial_media",
+      "discoveredVia": "Investing.com",
+      "id": "46",
+      "tier": "S2",
+      "sourceTier": "S2",
+      "sourceTierLabel": "专业财经媒体",
+      "score": 55,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 12,
+        "authority": 15,
+        "impact": 8,
+        "recency": 13,
+        "depth": 3,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "专业财经媒体跟进",
+        "时效性高"
+      ]
+    },
+    {
+      "title": "美股异动｜艾马克技术盘前大涨9%，与英伟达签署15亿美元芯片封装协议",
+      "sourceUrl": "https://cn.investing.com/news/stock-market-news/article-3477380",
+      "publishedAt": "2026-07-24T01:05:53.000Z",
+      "summary": "",
+      "sourceName": "英为财情",
+      "category": "industry",
+      "tags": [
+        "行业动态"
+      ],
+      "evidenceType": "financial_media",
+      "discoveredVia": "Investing.com",
+      "id": "47",
+      "tier": "S2",
+      "sourceTier": "S2",
+      "sourceTierLabel": "专业财经媒体",
+      "score": 55,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 12,
+        "authority": 15,
+        "impact": 8,
+        "recency": 13,
+        "depth": 3,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "专业财经媒体跟进",
+        "时效性高"
+      ]
+    },
+    {
       "title": "中国水务(00855)完成根据特别授权配售非上市认股权证",
       "sourceUrl": "https://cn.investing.com/news/stock-market-news/article-3477454",
       "publishedAt": "2026-07-24T01:05:26.000Z",
@@ -1300,7 +1658,7 @@ window.FINHOT_DATA = {
       ],
       "evidenceType": "financial_media",
       "discoveredVia": "Investing.com",
-      "id": "36",
+      "id": "48",
       "tier": "S2",
       "sourceTier": "S2",
       "sourceTierLabel": "专业财经媒体",
@@ -1332,7 +1690,7 @@ window.FINHOT_DATA = {
       ],
       "evidenceType": "financial_media",
       "discoveredVia": "Investing.com",
-      "id": "38",
+      "id": "51",
       "tier": "S2",
       "sourceTier": "S2",
       "sourceTierLabel": "专业财经媒体",
@@ -1364,7 +1722,7 @@ window.FINHOT_DATA = {
       ],
       "evidenceType": "financial_media",
       "discoveredVia": "Investing.com",
-      "id": "40",
+      "id": "53",
       "tier": "S2",
       "sourceTier": "S2",
       "sourceTierLabel": "专业财经媒体",
@@ -1396,7 +1754,7 @@ window.FINHOT_DATA = {
       ],
       "evidenceType": "financial_media",
       "discoveredVia": "Investing.com",
-      "id": "41",
+      "id": "54",
       "tier": "S2",
       "sourceTier": "S2",
       "sourceTierLabel": "专业财经媒体",
@@ -1417,6 +1775,38 @@ window.FINHOT_DATA = {
       ]
     },
     {
+      "title": "长源东谷：拟1.5亿元—3亿元回购股份",
+      "sourceUrl": "https://www.36kr.com/newsflashes/3909430240564614",
+      "publishedAt": "2026-07-24T09:18:05.000Z",
+      "summary": "36氪获悉，长源东谷公告，公司拟以1.5亿元—3亿元回购股份，用于维护公司市场价值及股东权益。回购价格不超过70元/股（含）。",
+      "sourceName": "36氪",
+      "category": "insights",
+      "tags": [
+        "观点"
+      ],
+      "evidenceType": "news_flash",
+      "discoveredVia": "RSSHub",
+      "id": "4",
+      "tier": "S3",
+      "sourceTier": "S3",
+      "sourceTierLabel": "快讯/观点线索",
+      "score": 54,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 12,
+        "authority": 9,
+        "impact": 8,
+        "recency": 15,
+        "depth": 6,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "快讯线索，需结合原文判断",
+        "时效性高"
+      ]
+    },
+    {
       "title": "海康威视：上半年净利润78.96亿元，同比增长39.57%",
       "sourceUrl": "https://www.36kr.com/newsflashes/3909391205241986",
       "publishedAt": "2026-07-24T08:38:23.000Z",
@@ -1428,7 +1818,7 @@ window.FINHOT_DATA = {
       ],
       "evidenceType": "news_flash",
       "discoveredVia": "RSSHub",
-      "id": "15",
+      "id": "25",
       "tier": "S3",
       "sourceTier": "S3",
       "sourceTierLabel": "快讯/观点线索",
@@ -1453,27 +1843,29 @@ window.FINHOT_DATA = {
     "regulatory": [],
     "products": [],
     "industry": [
-      "1",
       "2",
+      "3",
       "5",
-      "6",
-      "9",
+      "10",
       "11",
-      "12",
-      "13",
+      "14",
+      "15",
       "16",
-      "17"
+      "19",
+      "21"
     ],
     "research": [],
     "insights": [
-      "3",
+      "1",
       "4",
+      "6",
       "7",
       "8",
-      "10",
-      "14",
-      "15",
-      "20"
+      "9",
+      "12",
+      "13",
+      "17",
+      "18"
     ]
   },
   "flashes": [
@@ -1512,266 +1904,286 @@ window.FINHOT_DATA = {
   ],
   "keywordIndex": {
     "保险": [
-      "16",
-      "21",
-      "32"
+      "26",
+      "31",
+      "42"
     ],
     "保费": [
-      "37"
+      "49"
     ],
     "互联网保险": [
-      "32"
+      "42"
     ],
     "年金": [
-      "21"
+      "31"
     ],
     "退休": [
-      "1"
-    ],
-    "银行": [
-      "3",
-      "5",
-      "34",
-      "42"
-    ],
-    "央行": [
-      "3",
-      "5",
-      "34"
-    ],
-    "利率": [
-      "3",
-      "5",
-      "19"
-    ],
-    "MLF": [
-      "34"
-    ],
-    "逆回购": [
-      "3",
-      "5",
-      "34"
-    ],
-    "流动性": [
-      "3",
-      "34"
-    ],
-    "理财": [
-      "42"
-    ],
-    "理财产品": [
-      "42"
-    ],
-    "股票": [
-      "23"
-    ],
-    "A股": [
-      "12"
-    ],
-    "港股": [
-      "40"
-    ],
-    "美股": [
-      "21"
-    ],
-    "指数": [
-      "9",
-      "21"
-    ],
-    "私募基金": [
       "10"
     ],
+    "银行": [
+      "12",
+      "14",
+      "44",
+      "52"
+    ],
+    "央行": [
+      "12",
+      "14",
+      "44"
+    ],
+    "利率": [
+      "12",
+      "14",
+      "29"
+    ],
+    "MLF": [
+      "44"
+    ],
+    "逆回购": [
+      "12",
+      "14",
+      "44"
+    ],
+    "流动性": [
+      "12",
+      "44"
+    ],
+    "理财": [
+      "52"
+    ],
+    "理财产品": [
+      "52"
+    ],
+    "股票": [
+      "33"
+    ],
+    "A股": [
+      "22"
+    ],
+    "港股": [
+      "53"
+    ],
+    "美股": [
+      "31",
+      "46",
+      "47"
+    ],
+    "指数": [
+      "19",
+      "31"
+    ],
+    "私募基金": [
+      "20"
+    ],
     "债券": [
-      "19"
+      "29"
     ],
     "公司债": [
-      "19"
+      "29"
     ],
     "期货": [
+      "9",
+      "19"
+    ],
+    "期权": [
       "9"
     ],
     "IPO": [
-      "23",
-      "39"
+      "33",
+      "50"
     ],
     "上市": [
-      "15",
-      "36"
+      "25",
+      "48"
+    ],
+    "增持": [
+      "1"
     ],
     "回购": [
-      "3",
-      "5",
-      "34",
-      "41"
+      "4",
+      "12",
+      "14",
+      "44",
+      "54"
     ],
     "投资者": [
-      "11",
-      "19",
-      "21"
-    ],
-    "机构": [
-      "7"
-    ],
-    "监管": [
-      "11",
-      "13",
-      "33"
-    ],
-    "证监会": [
-      "11",
-      "39"
-    ],
-    "深交所": [
-      "39"
-    ],
-    "北交所": [
-      "19"
-    ],
-    "条款": [
-      "25"
-    ],
-    "意见": [
-      "25"
-    ],
-    "规定": [
-      "2",
-      "11",
-      "20"
-    ],
-    "条例": [
-      "20"
-    ],
-    "法规": [
-      "2",
-      "20"
-    ],
-    "经济": [
-      "10",
-      "13",
       "21",
-      "26",
-      "35"
-    ],
-    "宏观经济": [
-      "21"
-    ],
-    "PMI": [
+      "29",
       "31"
     ],
-    "人民币": [
-      "4",
-      "10"
-    ],
-    "跨境": [
-      "13"
-    ],
-    "离岸": [
-      "25"
-    ],
-    "美元": [
-      "8",
-      "14",
-      "18",
-      "24",
-      "27"
-    ],
-    "房地产": [
-      "12"
-    ],
-    "地产": [
-      "12"
-    ],
-    "投资": [
-      "10",
-      "11",
-      "13",
-      "14",
-      "19",
-      "21",
-      "22",
-      "25",
-      "28",
-      "35"
-    ],
-    "出口": [
-      "14",
-      "20",
-      "30"
-    ],
-    "进口": [
-      "29"
-    ],
-    "贸易": [
-      "6",
-      "29"
-    ],
-    "收入": [
-      "15",
+    "机构": [
       "17"
     ],
+    "监管": [
+      "2",
+      "21",
+      "23",
+      "43"
+    ],
+    "证监会": [
+      "7",
+      "9",
+      "21",
+      "50"
+    ],
+    "深交所": [
+      "50"
+    ],
+    "上交所": [
+      "1"
+    ],
+    "北交所": [
+      "7",
+      "29"
+    ],
+    "条款": [
+      "35"
+    ],
+    "意见": [
+      "35"
+    ],
+    "规定": [
+      "8",
+      "11",
+      "21",
+      "30"
+    ],
+    "条例": [
+      "30"
+    ],
+    "法规": [
+      "11",
+      "30"
+    ],
+    "经济": [
+      "20",
+      "23",
+      "31",
+      "36",
+      "45"
+    ],
+    "宏观经济": [
+      "31"
+    ],
+    "PMI": [
+      "41"
+    ],
+    "人民币": [
+      "13",
+      "20"
+    ],
+    "跨境": [
+      "23"
+    ],
+    "离岸": [
+      "35"
+    ],
+    "美元": [
+      "15",
+      "18",
+      "24",
+      "28",
+      "34",
+      "37",
+      "46",
+      "47"
+    ],
+    "房地产": [
+      "5",
+      "22"
+    ],
+    "地产": [
+      "5",
+      "22"
+    ],
+    "投资": [
+      "1",
+      "20",
+      "21",
+      "23",
+      "24",
+      "29",
+      "31",
+      "32",
+      "35",
+      "38",
+      "45"
+    ],
+    "出口": [
+      "24",
+      "30",
+      "40"
+    ],
+    "进口": [
+      "39"
+    ],
+    "贸易": [
+      "16",
+      "39"
+    ],
+    "供应链": [
+      "3"
+    ],
+    "收入": [
+      "6",
+      "25",
+      "27"
+    ],
     "黄金": [
-      "32"
+      "42",
+      "46"
     ],
     "原油": [
-      "16",
-      "18"
+      "26",
+      "28"
     ],
     "工业": [
-      "7"
+      "17"
     ],
     "利润": [
-      "15",
-      "17",
-      "38"
+      "25",
+      "27",
+      "51"
     ],
     "股市": [
-      "12"
+      "22"
     ],
     "信托": [
-      "25"
+      "35"
     ],
     "资管": [
-      "10"
+      "20"
     ],
     "权益": [
-      "2",
-      "6"
+      "4",
+      "11",
+      "16"
     ],
     "认购": [
-      "19",
-      "42"
+      "29",
+      "52"
     ]
   },
   "aiAnalysis": {
     "dailySummary": {
       "highlights": [
-        "地缘冲突升级：霍尔木兹二次封锁，油价逼近100美元，中国超级油轮暂停红海运油",
-        "市场波动加剧：美股中期选举临近，A股沪指跌1.61%，成交额跌破2万亿",
-        "央行流动性操作：逆回购和MLF净投放8000亿，扭转连续四个月回笼态势"
+        "中期选举临近，美股三季度波动风险上升",
+        "霍尔木兹二次封锁，布伦特原油逼近100美元",
+        "沪指跌1.61%，两市成交额跌破2万亿元"
       ]
     },
     "eventChain": {
-      "summary": "地缘政治与能源供应链风险传导至金融市场，引发市场避险情绪和流动性调整。",
+      "summary": "地缘政治冲突升级，霍尔木兹海峡再次封锁，引发能源价格飙升和航运中断，连带影响全球股市和大宗商品市场。",
       "chains": [
         {
-          "title": "霍尔木兹海峡封锁与能源市场动荡",
+          "title": "霍尔木兹二次封锁与能源供应链冲击",
           "nodes": [
-            "美伊冲突升级，霍尔木兹海峡二次封锁",
+            "霍尔木兹海峡二次封锁",
             "布伦特原油逼近100美元/桶",
-            "中国超级油轮暂停红海运油，保险费率上升",
-            "全球能源安全担忧加剧，股市承压"
+            "中国超级油轮暂停红海运油",
+            "地缘冲突+恶劣天气，小麦期货逼近三年新高"
           ],
-          "causalLink": "地缘冲突直接威胁原油供应，导致油价飙升，进而影响航运安全和市场信心，引发股市下跌。"
-        },
-        {
-          "title": "央行���动性投放与市场稳定",
-          "nodes": [
-            "央行公告7月29日至8月3日开展隔夜逆回购",
-            "7月中期流动性净投放8000亿元",
-            "MLF与买断式逆回购同步加量",
-            "市场资金面预期改善，但A股仍下跌"
-          ],
-          "causalLink": "央行通过逆回购和MLF加量投放流动性，意在缓解资金面紧张，但市场受地缘风险影响，未能止跌。"
+          "causalLink": "美伊冲突升级导致霍尔木兹海峡封锁，国际油价迅速攀升，中国油轮公司评估安全风险暂停红海运输，同时地缘政治紧张叠加天气因素推高粮食价格，全球供应链风险加剧。"
         }
       ]
     },
@@ -1779,144 +2191,124 @@ window.FINHOT_DATA = {
       "quadrants": {
         "insurance": {
           "level": "medium",
-          "summary": "地缘风险推升航运保险成本，香港保监局数据显示保费增长显著，离岸信托税收新规影响保险信托产品设计。",
+          "summary": "地缘冲突导致航运风险上升，红海区域保险费率大幅上涨，影响航运保险及相关再保险业务。",
           "items": [
             {
-              "title": "香港保监局：2026年首季毛保费总额达2916亿港元 同比上升32.3%",
-              "impact": "保费增长强劲，反映行业景气度上升，但地缘风险可能增加赔付压力。",
-              "suggestion": "关注航运保险承保风险，优化再保险安排，利用增长窗口拓展业务。"
-            },
-            {
-              "title": "两部门：对于居民个人装入财产的离岸信托存续期间产生的收益，以居民个人为纳税人...",
-              "impact": "税收新规明确离岸信托收益征税，影响保险金信托及高净值客户财富规划。",
-              "suggestion": "调整保险信托产品结构，为客户提供合规税务筹划建议。"
+              "title": "特稿｜中国超级油轮暂停红海运油 局势波诡云谲会否持续升级？",
+              "impact": "红海内船舶保险费率大幅上升，中国油轮公司暂停运油，航运保险承保压力和理赔风险增加。",
+              "suggestion": "保险公司应密切监测地缘政治风险，重新评估航运保险条款与费率，加强再保险安排以分散风险。"
             }
           ]
         },
         "pe": {
-          "level": "high",
-          "summary": "AI投资成为FDI监管重点，大模型行业收敛，汽车产业洗牌，出口管制影响跨境投资。",
+          "level": "medium",
+          "summary": "AI领域监管趋严，外资审查重点转向数据与算法，影响私募股权对AI及跨境科技公司的投资策略。",
           "items": [
             {
               "title": "AI相关投资成各国FDI监管重点 企业对外投资如何顺利落地？",
-              "impact": "AI领域跨境投资审查趋严，数据、算法、算力成为监管核心，增加投资不确定性。",
-              "suggestion": "加强合规尽调，关注目标国监管动态，采用合资或技术授权降低风险。"
-            },
-            {
-              "title": "大模型的牌桌正在收敛，投资人的钱还在往哪里涌？",
-              "impact": "大模型行业格局收敛，投资趋向头部企业，资本退出路径更为关键。",
-              "suggestion": "聚焦有商业化落地能力的AI初创，关注应用层和基础设施投资机会。"
+              "impact": "外资审查从物理资产转向数据、算法、算力等AI基础设施，增加跨境投资的不确定性和合规成本。",
+              "suggestion": "私募股权机构应加强尽职调查，关注目标公司数据合规与国家安全审查，优化投资架构以降低监管风险。"
             }
           ]
         },
         "banking": {
-          "level": "high",
-          "summary": "央行流动性操作影响银行间市场，北交所债券创新助力银行间市场联动，地缘风险推升避险需求。",
+          "level": "medium",
+          "summary": "央行加大流动性投放，北交所债券市场创新扩容，银行面临流动性管理及资产配置新机遇。",
           "items": [
             {
-              "title": "中国央行将在7月29日至7月31日、8月3日开展隔夜逆回购操作",
-              "impact": "短期流动性投放增加，银行间资金利率有望下行，缓解银行负债成本。",
-              "suggestion": "银行应把握低成本资金窗口，加大信贷投放，同时管理期限错配风险。"
+              "title": "北交所债券市场再“上新”，首单信用增进公司债券发行",
+              "impact": "北交所债券市场深化股债联动，信用增进工具创新，为银行提供新的投资标的和风险管理工具。",
+              "suggestion": "银行应关注北交所信用增进债券发行，探索多元化资产配置，并利用信用增进工具优化风险敞口。"
             },
             {
-              "title": "北交所债券市场再“上新”，首单信用增进公司债券发行",
-              "impact": "股债联动深化，为银行提供新的债券投资和信用增进业务机会。",
-              "suggestion": "积极参与北交所信用增进债券投资，拓展中小企业融资服务。"
+              "title": "中国央行将在7月29日至7月31日、8月3日开展隔夜逆回购操作",
+              "impact": "央行开展巨额逆回购操作，释放流动性，短期资金面宽松，有利于银行缓解负债成本压力。",
+              "suggestion": "银行应合理规划资金头寸，积极参与逆回购操作，同时防范期限错配风险，保持流动性适度充裕。"
             }
           ]
         },
         "trust": {
-          "level": "medium",
-          "summary": "离岸信托税收新规明确征税规则，北交所信用增进债为信托提供新底层资产，地缘风险增加信托资产配置挑战。",
+          "level": "high",
+          "summary": "两部门发布离岸信托收益征税新规，明确居民个人需按收益性质缴纳个税，对信托税务筹划产生重大影响。",
           "items": [
             {
-              "title": "两部门：对于居民个人装入财产的离岸信托存续期间产生的收益，以居民个人为纳税人...",
-              "impact": "离岸信托税收成本上升，可能导致部分高净值��户转向国内信托架构。",
-              "suggestion": "提前为客户设计合规的国内信托方案，针对收益性质分类提供税务优化建议。"
-            },
-            {
-              "title": "北交所债券市场再“上新”，首单信用增进公司债券发行",
-              "impact": "信用增进债券为信托产品提供高信用等级资产，丰富信托投资标的。",
-              "suggestion": "关注北交所信用增进债发行，评估其作为信托底层资产的风险收益特征。"
+              "title": "两部门：对于居民个人装入财产的离岸信托存续期间产生的收益，以居民个人为纳税人，根据收益性质分别按照“财产转让所得”和“利息、股息、红利所得”，按年计算...",
+              "impact": "新规明确离岸信托收益在税务上穿透至居民个人，按个税缴纳，增加了海外信托的税务成本和合规要求。",
+              "suggestion": "信托公司应协助客户审查现有离岸信托架构，评估税务影响，调整产品设计以符合新规，并提供合规筹划建议。"
             }
           ]
         }
       }
     },
     "weeklyTrends": {
-      "summary": "本周地缘政治风险显著上升，市场波动加大，央行流动性操作转向宽松，产业监管呈分化态势。",
+      "summary": "本周地缘政治风险显著升温，资本市场波动加大，AI监管政策密集出台，市场不确定性与政策调整并存。",
       "trends": [
         {
-          "topic": "地缘政治风险",
+          "topic": "地缘政治风险升温",
           "direction": "上升",
-          "evidence": "霍尔木兹二次封锁、中国超级油轮暂停红海运油、美伊冲突升级，油价逼近100美元。"
+          "evidence": "霍尔木兹二次封锁、中国油轮暂停红海、小麦期货逼近三年新高，地缘冲突与天气因素叠加推高大宗商品价格。"
         },
         {
-          "topic": "市场波动性",
-          "direction": "上升",
-          "evidence": "美股中期选举临近，A股沪指跌1.61%，成交额跌破2万亿元，市场避险情绪浓厚。"
-        },
-        {
-          "topic": "央行流动性宽松",
-          "direction": "上升",
-          "evidence": "7月中期流动性净投放8000亿，扭转连续四个月回笼态势，并宣布隔夜逆回购操作。"
+          "topic": "资本市场波动加大",
+          "direction": "下降",
+          "evidence": "沪指���1.61%成交额跌破2万亿，美股中期选举前波动区间扩大，投资者避险情绪上升。"
         }
       ]
     },
     "insurancePlanner": {
-      "summary": "今日资讯中，香港保监局披露首季毛保费同比增32.3%，离岸信托税务新规明确征税规则，北交所首单信用增进公司债券发行，为保险资金配置提供新选项。",
+      "summary": "近期政策与地缘风险事件频发，对高净值客户财富管理与保险配置影响显著。",
       "talkingPoints": [
         {
-          "topic": "香港保险市场增长与客户需求匹配",
-          "point": "香港保监局数据显示2026年首季毛保费达2916亿港元，同比增32.3%，反映内地客户对香港保险产品需求强劲。可借此向客户强调香港保险的保障与收益优势，建议结合个人税务规划进行配置。",
-          "action": "整理香港保险产品对比表，向年缴保费50万以上客户重点推荐，并预约一对一税务规划咨询。"
+          "topic": "离岸信托税务新规：居民个人信托收益需年度申报纳税",
+          "point": "两部门新规明确，居民个人装入财产的离岸信托存续期间产生的收益需按年缴纳个人所得税，改变了过去信息不对称的税务处理方式。",
+          "action": "建议尽快联系高净值客户，梳理其离岸信托结构，重新评估税务合规成本，推荐增设税务筹划型保险产品（如年金险、终身寿险）以优化税负。"
         },
         {
-          "topic": "离岸信托税务新规对高净值客户的影响",
-          "point": "两部门明确离岸信托收益按财产转让所得或利息股息红利所得征税，需每年申报。这会影响已设立或计划设立离岸信托的客户，建议提前进行税务合规调整。",
-          "action": "梳理客户名单中已设立离岸信托的客户，发送新规解读邮件，并安排税务律师线上讲座，协助客户评估税务影响。"
+          "topic": "霍尔木兹二次封锁逼近100美元，通胀与风险双重压力",
+          "point": "布伦特原油逼近100美元，全球能源成本上升可能推高通胀，进而影响利率预期和资产价格。同时，海运风险加剧，货物及运输保险需求激增。",
+          "action": "主动向企业客户提示海运保险及能源相关保险的重要性，推荐短期货物运输险、能源价格衍生品保险方案，并建议客户分散资产配置以对冲通胀风险。"
         },
         {
-          "topic": "北交所债券为保险资金提供新选项",
-          "point": "北交所首单信用增进公司债券发行，股债联动深化，为保险资金固收配置提供更高收益可能。可建议客户关注信用增进债的增信措施与风险收益特征。",
-          "action": "将北交所信用增进债纳入固收产品推荐清单，向偏好稳健收益的客户发送产品说明书，并提示信用风险与流动性。"
+          "topic": "红海局势波诡云谲，中国油轮暂停装运",
+          "point": "红海内船舶保险费率大幅上升，中国油轮公司暂停延布港装运，地缘紧张局势升级可能持续影响全球供应链。",
+          "action": "针对有海外业务或航运保险需求的客户，更新其保单条款中的战争险和罢工险范围，建议提前续保并增加保额，同时提供供应链中断保险方案。"
         }
       ]
     },
     "peOperations": {
-      "summary": "AI相关投资成为FDI监管重点，大模型行业格局收敛，腾讯合并多模态部门，为私募股权运营提供方向参考。",
+      "summary": "北交所债市创新与监管动态为私募运营提供新方向，同时AI投资审查趋严需关注合规。",
       "talkingPoints": [
         {
-          "topic": "AI投资FDI监管新动向",
-          "point": "外资审查重点从物理资产转向数据、算法、算力，企业对外投资需提前评估合规风险。可建议被投企业完善数据安全合规体系，特别是涉及跨境数据传输的项目。",
-          "action": "组织内部投后团队学习新规，对已投AI项目进行数据合规自查，并制定三季度合规整改时间表。"
+          "topic": "北交所首单信用增进公司债券发行，股债联动深化",
+          "point": "北交所首单信用增进公司债券成功发行，标志着其债券市场功能进一步丰富，为私募机构提供新的固收配置工具。",
+          "action": "建议运营团队评估将北交所信用增进债纳入私募固收组合的可行性，研究其风险收益特征，并准备相应的投资策略报告向LP沟通。"
         },
         {
-          "topic": "大模型格局收敛中的投资机会",
-          "point": "大模型行业处于收敛与混战交界，客户为结果买单，资本追问退出路径。建议关注能实现商业化闭环的垂直应用公司，而非单纯基础模型。",
-          "action": "梳理已投大模型企业商业化进展，重点跟进有明确客户订单和收入增长的项目，安排投后复盘会议。"
+          "topic": "首批8只北交所三个月持有期主题基金即将上报",
+          "point": "华夏、汇添富等8家管理人确定，北交所主题基金再次扩容，三个月持有期设计适合短期资金配置。",
+          "action": "关注基金上报及后续募集进度，评估是否通过FOF或直接认购方式参与，同时向客户推荐作为北交所投资渠道，增强产品多样性。"
         },
         {
-          "topic": "腾讯组织调整对AI赛道的影响",
-          "point": "腾讯合并混元多模态和大语言模型部门，由姚顺雨带队，旨在提升研发效率。这显示头部企业加速整合，可能挤压中小创业公司空间。",
-          "action": "对AI赛道被投企业进行竞争压力评估，结合腾讯新动向调整投资组合，建议考虑差异化定位或寻求并购机会。"
+          "topic": "AI相关投资成各国FDI监管重点，跨境投资需合规落地",
+          "point": "外资审查从物理资产转向数据、算法、算力，AI领域投资合规门槛提高。",
+          "action": "建议私募基金在投资AI企业前，由法务团队进行外资审查风险预评估，并在投资协议中增加合规保护条款，同时关注被投企业的数据出境合规情况。"
         }
       ]
     },
     "marketOutlook": {
-      "summary": "今日市场关注美股中期选举前波动风险、地缘冲突推升油价、A股下跌及央行流动性操作，需综合评估三季度投资策略。",
+      "summary": "市场短期波动加剧，地缘政治与政策不确定性主导情绪，中长期需关注结构性机会。",
       "outlooks": [
         {
-          "topic": "美股中期选举前波动区间风险",
-          "content": "NDR提示市场未定价8-10月可能出现的第二轮走���，美股中期选举前不确定性增加。建议客户降低美股权益仓位，转向防御性资产如公用事业或黄金ETF，或配置对冲工具。"
+          "topic": "美股中期选举前波动区间：历史规律失效还是风险迟到？",
+          "content": "NDR指出市场未定价8-10月第二轮走弱，美国中期选举临近，华盛顿权力格局变化可能��发政策调整，美股三季度大概率维持高波动。建议客户保持防御性仓位，增配高股息及公用事业板块。"
         },
         {
-          "topic": "霍尔木兹二次封锁与油价冲击",
-          "content": "布伦特原油逼近100美元，二次封锁杀伤力可能更大，因全球能源库存偏低。建议客户增加能源板块配置，同时关注通胀敏感资产如TIPS，并考虑商品期货多头策略。"
+          "topic": "A股情绪低迷：沪指跌1.61%，成交额跌破2万亿",
+          "content": "7月24日四大股指集体收跌，兵装重组概念虽领涨但难改弱势，市场成交额萎缩显示信心不足。短期需关注政策托底信号，如央行逆回购操作（7月29日起每日6000亿）可能缓解流动性担忧。"
         },
         {
-          "topic": "中国央行流动性操作与市场影响",
-          "content": "央行7月中期净投放8000亿，并计划隔夜逆回购操作，扭转连续四个月回笼态势。短期资金面有望宽松，但A股今日下跌1.61%，显示市场对经济基本面担忧。建议客户关注LPR是否调降，债券可配置中短久期品种。"
+          "topic": "地缘风险与能源冲击：霍尔木兹二次封锁或成二季度核心变量",
+          "content": "布伦特原油逼近100美元，全球能源成本上升将传导至通胀和货币政策，A股能源板块及航运板块短期受益，但需警惕输入性通胀对消费和制造业的压制。建议均衡配置能源与防御性资产。"
         }
       ]
     }
@@ -1924,233 +2316,263 @@ window.FINHOT_DATA = {
 };
 window.KEYWORD_INDEX = {
   "保险": [
-    "16",
-    "21",
-    "32"
+    "26",
+    "31",
+    "42"
   ],
   "保费": [
-    "37"
+    "49"
   ],
   "互联网保险": [
-    "32"
+    "42"
   ],
   "年金": [
-    "21"
+    "31"
   ],
   "退休": [
-    "1"
-  ],
-  "银行": [
-    "3",
-    "5",
-    "34",
-    "42"
-  ],
-  "央行": [
-    "3",
-    "5",
-    "34"
-  ],
-  "利率": [
-    "3",
-    "5",
-    "19"
-  ],
-  "MLF": [
-    "34"
-  ],
-  "逆回购": [
-    "3",
-    "5",
-    "34"
-  ],
-  "流动性": [
-    "3",
-    "34"
-  ],
-  "理财": [
-    "42"
-  ],
-  "理财产品": [
-    "42"
-  ],
-  "股票": [
-    "23"
-  ],
-  "A股": [
-    "12"
-  ],
-  "港股": [
-    "40"
-  ],
-  "美股": [
-    "21"
-  ],
-  "指数": [
-    "9",
-    "21"
-  ],
-  "私募基金": [
     "10"
   ],
+  "银行": [
+    "12",
+    "14",
+    "44",
+    "52"
+  ],
+  "央行": [
+    "12",
+    "14",
+    "44"
+  ],
+  "利率": [
+    "12",
+    "14",
+    "29"
+  ],
+  "MLF": [
+    "44"
+  ],
+  "逆回购": [
+    "12",
+    "14",
+    "44"
+  ],
+  "流动性": [
+    "12",
+    "44"
+  ],
+  "理财": [
+    "52"
+  ],
+  "理财产品": [
+    "52"
+  ],
+  "股票": [
+    "33"
+  ],
+  "A股": [
+    "22"
+  ],
+  "港股": [
+    "53"
+  ],
+  "美股": [
+    "31",
+    "46",
+    "47"
+  ],
+  "指数": [
+    "19",
+    "31"
+  ],
+  "私募基金": [
+    "20"
+  ],
   "债券": [
-    "19"
+    "29"
   ],
   "公司债": [
-    "19"
+    "29"
   ],
   "期货": [
+    "9",
+    "19"
+  ],
+  "期权": [
     "9"
   ],
   "IPO": [
-    "23",
-    "39"
+    "33",
+    "50"
   ],
   "上市": [
-    "15",
-    "36"
+    "25",
+    "48"
+  ],
+  "增持": [
+    "1"
   ],
   "回购": [
-    "3",
-    "5",
-    "34",
-    "41"
+    "4",
+    "12",
+    "14",
+    "44",
+    "54"
   ],
   "投资者": [
-    "11",
-    "19",
-    "21"
-  ],
-  "机构": [
-    "7"
-  ],
-  "监管": [
-    "11",
-    "13",
-    "33"
-  ],
-  "证监会": [
-    "11",
-    "39"
-  ],
-  "深交所": [
-    "39"
-  ],
-  "北交所": [
-    "19"
-  ],
-  "条款": [
-    "25"
-  ],
-  "意见": [
-    "25"
-  ],
-  "规定": [
-    "2",
-    "11",
-    "20"
-  ],
-  "条例": [
-    "20"
-  ],
-  "法规": [
-    "2",
-    "20"
-  ],
-  "经济": [
-    "10",
-    "13",
     "21",
-    "26",
-    "35"
-  ],
-  "宏观经济": [
-    "21"
-  ],
-  "PMI": [
+    "29",
     "31"
   ],
-  "人民币": [
-    "4",
-    "10"
-  ],
-  "跨境": [
-    "13"
-  ],
-  "离岸": [
-    "25"
-  ],
-  "美元": [
-    "8",
-    "14",
-    "18",
-    "24",
-    "27"
-  ],
-  "房地产": [
-    "12"
-  ],
-  "地产": [
-    "12"
-  ],
-  "投资": [
-    "10",
-    "11",
-    "13",
-    "14",
-    "19",
-    "21",
-    "22",
-    "25",
-    "28",
-    "35"
-  ],
-  "出口": [
-    "14",
-    "20",
-    "30"
-  ],
-  "进口": [
-    "29"
-  ],
-  "贸易": [
-    "6",
-    "29"
-  ],
-  "收入": [
-    "15",
+  "机构": [
     "17"
   ],
+  "监管": [
+    "2",
+    "21",
+    "23",
+    "43"
+  ],
+  "证监会": [
+    "7",
+    "9",
+    "21",
+    "50"
+  ],
+  "深交所": [
+    "50"
+  ],
+  "上交所": [
+    "1"
+  ],
+  "北交所": [
+    "7",
+    "29"
+  ],
+  "条款": [
+    "35"
+  ],
+  "意见": [
+    "35"
+  ],
+  "规定": [
+    "8",
+    "11",
+    "21",
+    "30"
+  ],
+  "条例": [
+    "30"
+  ],
+  "法规": [
+    "11",
+    "30"
+  ],
+  "经济": [
+    "20",
+    "23",
+    "31",
+    "36",
+    "45"
+  ],
+  "宏观经济": [
+    "31"
+  ],
+  "PMI": [
+    "41"
+  ],
+  "人民币": [
+    "13",
+    "20"
+  ],
+  "跨境": [
+    "23"
+  ],
+  "离岸": [
+    "35"
+  ],
+  "美元": [
+    "15",
+    "18",
+    "24",
+    "28",
+    "34",
+    "37",
+    "46",
+    "47"
+  ],
+  "房地产": [
+    "5",
+    "22"
+  ],
+  "地产": [
+    "5",
+    "22"
+  ],
+  "投资": [
+    "1",
+    "20",
+    "21",
+    "23",
+    "24",
+    "29",
+    "31",
+    "32",
+    "35",
+    "38",
+    "45"
+  ],
+  "出口": [
+    "24",
+    "30",
+    "40"
+  ],
+  "进口": [
+    "39"
+  ],
+  "贸易": [
+    "16",
+    "39"
+  ],
+  "供应链": [
+    "3"
+  ],
+  "收入": [
+    "6",
+    "25",
+    "27"
+  ],
   "黄金": [
-    "32"
+    "42",
+    "46"
   ],
   "原油": [
-    "16",
-    "18"
+    "26",
+    "28"
   ],
   "工业": [
-    "7"
+    "17"
   ],
   "利润": [
-    "15",
-    "17",
-    "38"
+    "25",
+    "27",
+    "51"
   ],
   "股市": [
-    "12"
+    "22"
   ],
   "信托": [
-    "25"
+    "35"
   ],
   "资管": [
-    "10"
+    "20"
   ],
   "权益": [
-    "2",
-    "6"
+    "4",
+    "11",
+    "16"
   ],
   "认购": [
-    "19",
-    "42"
+    "29",
+    "52"
   ]
 };

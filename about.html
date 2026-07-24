@@ -40,18 +40,8 @@
       <!-- 监管政策 -->
       <div class="source-row">
         <span class="source-cat-tag tag-regulatory">S0 原始源</span>
-        <span class="source-name">国家金融监督管理总局（银保监会）</span>
-        <span class="source-desc">官方发文、法规修订、行政许可、监管动态</span>
-      </div>
-      <div class="source-row">
-        <span class="source-cat-tag tag-regulatory">S0 原始源</span>
         <span class="source-name">深圳证券交易所</span>
-        <span class="source-desc">上市公司公告、信息披露指引、监管措施</span>
-      </div>
-      <div class="source-row">
-        <span class="source-cat-tag tag-regulatory">S0 原始源</span>
-        <span class="source-name">央行 / 证监会 / 行业协会</span>
-        <span class="source-desc">货币政策、证券监管、保险与基金行业信息披露</span>
+        <span class="source-desc">监管措施、处罚公告（上市/退市类行政公告已过滤）</span>
       </div>
       <!-- 行业动态 -->
       <div class="source-row">
@@ -69,17 +59,22 @@
         <span class="source-name">第一财经</span>
         <span class="source-desc">财经快讯、市场数据、公司新闻</span>
       </div>
+      <div class="source-row">
+        <span class="source-cat-tag tag-industry">S2 媒体</span>
+        <span class="source-name">英为财情 Investing.com</span>
+        <span class="source-desc">股市资讯、技术分析</span>
+      </div>
       <!-- 研究报告 -->
       <div class="source-row">
-        <span class="source-cat-tag tag-research">S1/S2 数据</span>
-        <span class="source-name">中信证券 / 主流券商研究所</span>
-        <span class="source-desc">行业研报、策略报告、评级跟踪</span>
+        <span class="source-cat-tag tag-research">S2 媒体</span>
+        <span class="source-name">财联社（深度）</span>
+        <span class="source-desc">深度报道、市场解读</span>
       </div>
       <!-- 技巧观点 -->
       <div class="source-row">
         <span class="source-cat-tag tag-insights">S3 线索</span>
-        <span class="source-name">36氪 / 财联社</span>
-        <span class="source-desc">科技快讯、行业观点、保险科技动态</span>
+        <span class="source-name">36氪 / 财联社快讯</span>
+        <span class="source-desc">科技快讯、行业观点、市场线索</span>
       </div>
     </div>
 
@@ -100,7 +95,7 @@
     <div class="tech-items">
       <div class="tech-row">
         <div class="tech-dot"></div>
-        <span class="tech-text">数据采集: neodata-financial-search + RSSHub + westock-data</span>
+        <span class="tech-text">数据采集: RSSHub 多实例容错 + Investing.com 直采，URL/标题双重去重，7 天自动淘汰</span>
       </div>
       <div class="tech-row">
         <div class="tech-dot"></div>
@@ -108,11 +103,15 @@
       </div>
       <div class="tech-row">
         <div class="tech-dot"></div>
-        <span class="tech-text">更新频率: 每30分钟自动拉取一次</span>
+        <span class="tech-text">AI 分析: SenseNova DeepSeek-v4-Flash 生成行业影响矩阵与展业话术</span>
       </div>
       <div class="tech-row">
         <div class="tech-dot"></div>
-        <span class="tech-text">部署方式: 纯静态站点 + CloudStudio / GitHub Pages</span>
+        <span class="tech-text">更新频率: 每日定时自动更新</span>
+      </div>
+      <div class="tech-row">
+        <div class="tech-dot"></div>
+        <span class="tech-text">部署方式: 纯静态站点 + GitHub Pages</span>
       </div>
     </div>
   </div>

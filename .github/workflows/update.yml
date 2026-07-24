@@ -11,4 +11,4 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Placeholder
-        run: echo "Data updates handled by WorkBuddy automation (build_data.py). Manual trigger only."
+        run: echo "Data updates handled by WorkBuddy automation (scripts/fetch.js). Manual trigger only."

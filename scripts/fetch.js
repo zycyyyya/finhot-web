@@ -9,7 +9,12 @@ const http = require('http');
 const { parseStringPromise } = require('xml2js');
 
 const UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36';
-const RSSHUB = 'https://rsshub.liumingye.cn';
+// RSSHub instances — tried in order per route. First instance serving a FRESH feed wins.
+// (liumingye instance was found serving 2-month-stale cache for /cls/telegraph on 2026-07-24)
+const RSSHUB_INSTANCES = [
+  'https://rsshub.rssforever.com',
+  'https://rsshub.liumingye.cn',
+];
 const MAX_ITEMS = 150;
 const MAX_AGE_DAYS = 7;
 const DATA_FILE = 'data.js';
@@ -127,24 +132,42 @@ async function fetchWithRetry(url, retries, opts) {
   throw lastErr;
 }
 
-// === RSS parser ===
+// === RSS parser — multi-instance with stale-feed detection ===
+// Tries each RSSHub instance in order. A feed whose newest item is older than
+// MAX_AGE_DAYS is treated as stale cache and the next instance is tried.
 async function fetchRSS(route) {
-  try {
-    const xml = await fetchWithRetry(`${RSSHUB}${route}`, MAX_RETRIES);
-    const data = await parseStringPromise(xml, { explicitArray: false });
-    const channel = data.rss?.channel;
-    if (!channel?.item) return [];
-    const items = Array.isArray(channel.item) ? channel.item : [channel.item];
-    return items.filter(i => i.title && i.link).slice(0, 12).map(i => ({
-      title: (i.title || '').replace(/<[^>]*>/g, '').trim(),
-      sourceUrl: i.link || '',
-      publishedAt: i.pubDate ? new Date(i.pubDate).toISOString() : new Date().toISOString(),
-      summary: (i.description || '').replace(/<[^>]*>/g, '').trim().substring(0, 200),
-    }));
-  } catch (e) {
-    console.error(`[fetch error] ${route}: ${e.message}`);
-    return [];
+  const staleCutoff = Date.now() - MAX_AGE_DAYS * 86400000;
+  for (const base of RSSHUB_INSTANCES) {
+    try {
+      const xml = await fetchWithRetry(`${base}${route}`, MAX_RETRIES);
+      const data = await parseStringPromise(xml, { explicitArray: false });
+      const channel = data.rss?.channel;
+      if (!channel?.item) {
+        console.error(`[fetch warn] ${route} via ${base}: empty feed, trying next instance`);
+        continue;
+      }
+      const items = Array.isArray(channel.item) ? channel.item : [channel.item];
+      // Staleness check: if ALL items predate the cutoff, this instance is serving stale cache
+      const newest = Math.max(...items.map(i => {
+        const t = i.pubDate ? new Date(i.pubDate).getTime() : 0;
+        return isNaN(t) ? 0 : t;
+      }));
+      if (newest > 0 && newest < staleCutoff) {
+        console.error(`[stale feed] ${route} via ${base}: newest item ${new Date(newest).toISOString().substring(0, 10)}, trying next instance`);
+        continue;
+      }
+      if (base !== RSSHUB_INSTANCES[0]) console.error(`[fallback] ${route} served by ${base}`);
+      return items.filter(i => i.title && i.link).slice(0, 12).map(i => ({
+        title: (i.title || '').replace(/<[^>]*>/g, '').trim(),
+        sourceUrl: i.link || '',
+        publishedAt: i.pubDate ? new Date(i.pubDate).toISOString() : new Date().toISOString(),
+        summary: (i.description || '').replace(/<[^>]*>/g, '').trim().substring(0, 200),
+      }));
+    } catch (e) {
+      console.error(`[fetch error] ${route} via ${base}: ${e.message}`);
+    }
   }
+  return [];
 }
 
 // === Direct RSS fetcher (not via RSSHub) ===
@@ -958,10 +981,14 @@ async function main() {
 
   console.error(`\n[done] +${newItems.length} new, total ${allItems.length}`);
 
-  console.log(`// finhot auto-generated data - powered by RSSHub + financial sources`);
-  console.log(`// Generated: ${now.toISOString()}`);
-  console.log(`// Practitioner value scoring: relevance(25) + authority(20) + impact(20) + recency(15) + depth(10) + actionability(10)\n`);
-  console.log(`window.CATEGORIES = ${JSON.stringify([
+  // Write data.js directly — CRITICAL: do NOT rely on shell stdout redirect
+  // (`node fetch.js > data.js` truncates the file BEFORE loadExisting() reads it,
+  //  which silently disables all incremental dedup logic)
+  const lines = [];
+  lines.push(`// finhot auto-generated data - powered by RSSHub + financial sources`);
+  lines.push(`// Generated: ${now.toISOString()}`);
+  lines.push(`// Practitioner value scoring: relevance(25) + authority(20) + impact(20) + recency(15) + depth(10) + actionability(10)\n`);
+  lines.push(`window.CATEGORIES = ${JSON.stringify([
     { slug: 'all', label: '\u5168\u90e8' },
     { slug: 'featured', label: '\u7cbe\u9009' },
     { slug: 'regulatory', label: '\u76d1\u7ba1\u653f\u7b56' },
@@ -970,16 +997,19 @@ async function main() {
     { slug: 'research', label: '\u7814\u7a76\u62a5\u544a' },
     { slug: 'insights', label: '\u89c2\u70b9' },
   ], null, 2)};\n`);
-  console.log(`window.CATEGORY_CONFIG = ${JSON.stringify({
-    regulatory: { slug: 'regulatory', label: '\u76d1\u7ba1\u653f\u7b56', tagClass: 'tag-regulatory', accentClass: 'accent-regulatory' },
-    products:   { slug: 'products',   label: '\u4ea7\u54c1\u53d1\u5e03/\u66f4\u65b0', tagClass: 'tag-products',   accentClass: 'accent-products' },
-    industry:   { slug: 'industry',   label: '\u884c\u4e1a\u52a8\u6001',   tagClass: 'tag-industry',   accentClass: 'accent-industry' },
-    research:   { slug: 'research',   label: '\u7814\u7a76\u62a5\u544a',   tagClass: 'tag-research',   accentClass: 'accent-research' },
-    insights:   { slug: 'insights',   label: '\u89c2\u70b9', tagClass: 'tag-insights',   accentClass: 'accent-insights' },
+  lines.push(`window.CATEGORY_CONFIG = ${JSON.stringify({
+    regulatory: { slug: 'regulatory', label: '监管政策', tagClass: 'tag-regulatory', accentClass: 'accent-regulatory' },
+    products:   { slug: 'products',   label: '产品发布/更新', tagClass: 'tag-products',   accentClass: 'accent-products' },
+    industry:   { slug: 'industry',   label: '行业动态',   tagClass: 'tag-industry',   accentClass: 'accent-industry' },
+    research:   { slug: 'research',   label: '研究报告',   tagClass: 'tag-research',   accentClass: 'accent-research' },
+    insights:   { slug: 'insights',   label: '观点', tagClass: 'tag-insights',   accentClass: 'accent-insights' },
   }, null, 2)};\n`);
-  console.log(`window.FINHOT_DATA = ${JSON.stringify(output, null, 2)};`);
+  lines.push(`window.FINHOT_DATA = ${JSON.stringify(output, null, 2)};`);
   // Extract keywordIndex for convenient global access
-  console.log(`window.KEYWORD_INDEX = ${JSON.stringify(output.keywordIndex, null, 2)};`);
+  lines.push(`window.KEYWORD_INDEX = ${JSON.stringify(output.keywordIndex, null, 2)};`);
+
+  fs.writeFileSync(DATA_FILE, lines.join('\n') + '\n', 'utf8');
+  console.error(`[write] ${DATA_FILE} written (${allItems.length} items)`);
 }
 
 main().catch(e => { console.error(e); process.exit(1); });

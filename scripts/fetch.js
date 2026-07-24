@@ -890,6 +890,7 @@ function generateAIAnalysis(items) {
 // === Main ===
 async function main() {
   const existing = loadExisting();
+  const cutoff = Date.now() - MAX_AGE_DAYS * 86400000;
 
   let newItems = [];
   for (const src of SOURCES) {
@@ -901,6 +902,8 @@ async function main() {
       // Title dedup: check normalized title prefix
       const titleHash = normalizeTitle(item.title);
       if (titleHash.length >= 6 && existing.titleSet.has(titleHash)) continue;
+      // Age check: skip items older than MAX_AGE_DAYS (applies to all sources, not just cache)
+      if (new Date(item.publishedAt).getTime() < cutoff) continue;
       if (!isFinanceRelated(item)) continue;
       if (isLowQuality(item)) continue;
       // Set source metadata before source-specific filters
@@ -919,8 +922,6 @@ async function main() {
     }
     console.error(`  +${added} new (${items.length - added} skipped as dup/filtered)`);
   }
-
-  const cutoff = Date.now() - MAX_AGE_DAYS * 86400000;
   // Merge new + existing, filtering out source-specific noise from cache
   const allItems = [
     ...newItems,

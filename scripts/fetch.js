@@ -258,6 +258,18 @@ function isLowQuality(item) {
   return false;
 }
 
+// === Source-specific noise filter ===
+// Filters out administrative/boilerplate content from specific sources
+// that passes general relevance checks but has zero practitioner value
+function isSourceNoise(item) {
+  const t = item.title || '';
+  // 深交所：排除上市/退市类行政公告（对私募从业者无参考价值）
+  if (item.sourceName === '\u6df1\u4ea4\u6240') {
+    if (/\u4e0a\u5e02\u4ea4\u6613|\u7ec8\u6b62\u4e0a\u5e02/.test(t)) return true;
+  }
+  return false;
+}
+
 function hasAny(text, keywords) {
   const lower = (text || '').toLowerCase();
   return keywords.some(k => lower.includes(k.toLowerCase()));
@@ -891,7 +903,9 @@ async function main() {
       if (titleHash.length >= 6 && existing.titleSet.has(titleHash)) continue;
       if (!isFinanceRelated(item)) continue;
       if (isLowQuality(item)) continue;
+      // Set source metadata before source-specific filters
       item.sourceName = src.sourceName;
+      if (isSourceNoise(item)) continue;
       item.category = src.category;
       item.tags = [CATEGORY_TAGS[src.category]];
       item.evidenceType = src.evidenceType;
@@ -907,9 +921,14 @@ async function main() {
   }
 
   const cutoff = Date.now() - MAX_AGE_DAYS * 86400000;
+  // Merge new + existing, filtering out source-specific noise from cache
   const allItems = [
     ...newItems,
-    ...existing.items.filter(i => new Date(i.publishedAt).getTime() > cutoff),
+    ...existing.items.filter(i => {
+      if (new Date(i.publishedAt).getTime() <= cutoff) return false;
+      if (isSourceNoise(i)) return false;
+      return true;
+    }),
   ].slice(0, MAX_ITEMS);
 
   allItems.sort((a, b) => {

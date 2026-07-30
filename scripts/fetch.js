@@ -24,6 +24,15 @@ const {
   normalizeAIAnalysis,
   stableItemId,
 } = require('./analysis');
+const {
+  assertPublicationGate,
+  buildSourceHealth,
+  publicationGateErrors,
+  publicSourceHealth,
+  resolveThresholds,
+  sanitizeError,
+  summarizeSourceHealth,
+} = require('./health');
 
 const UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36';
 // RSSHub instances — tried in order per route. First instance serving a FRESH feed wins.
@@ -35,6 +44,8 @@ const RSSHUB_INSTANCES = [
 const MAX_ITEMS = 150;
 const MAX_AGE_DAYS = 7;
 const DATA_FILE = path.resolve(__dirname, '..', 'data.js');
+const REPORT_DIR = path.resolve(__dirname, '..', 'reports');
+const HEALTH_REPORT_FILE = path.join(REPORT_DIR, 'source-health.json');
 const FETCH_TIMEOUT = 15000; // 15s per request
 const MAX_RETRIES = 3;
 
@@ -162,12 +173,13 @@ function httpGet(url, timeout, opts, redirectCount) {
 // === HTTP fetch with retry ===
 async function fetchWithRetry(url, retries, opts) {
   let lastErr;
-  for (let i = 0; i < (retries || MAX_RETRIES); i++) {
+  const retryCount = Number.isInteger(retries) && retries > 0 ? retries : MAX_RETRIES;
+  for (let i = 0; i < retryCount; i++) {
     try {
       return await httpGet(url, FETCH_TIMEOUT, opts);
     } catch (e) {
       lastErr = e;
-      if (i < retries - 1) await new Promise(r => setTimeout(r, 1000 * (i + 1)));
+      if (i < retryCount - 1) await new Promise(r => setTimeout(r, 1000 * (i + 1)));
     }
   }
   throw lastErr;
@@ -176,64 +188,143 @@ async function fetchWithRetry(url, retries, opts) {
 // === RSS parser — multi-instance with stale-feed detection ===
 // Tries each RSSHub instance in order. A feed whose newest item is older than
 // MAX_AGE_DAYS is treated as stale cache and the next instance is tried.
-async function fetchRSS(route) {
+async function fetchRSS(source) {
+  const route = source.route;
+  const startedAt = Date.now();
   const staleCutoff = Date.now() - MAX_AGE_DAYS * 86400000;
+  const attempts = [];
+  let lastError = '';
+  let sawStaleFeed = false;
+
   for (const base of RSSHUB_INSTANCES) {
+    const endpoint = `${base}${route}`;
+    const attemptStartedAt = Date.now();
     try {
-      const xml = await fetchWithRetry(`${base}${route}`, MAX_RETRIES);
+      const xml = await fetchWithRetry(endpoint, MAX_RETRIES);
       const data = await parseStringPromise(xml, { explicitArray: false });
       const channel = data.rss?.channel;
       if (!channel?.item) {
+        lastError = 'empty feed';
+        attempts.push({ endpoint, success: false, stale: false, durationMs: Date.now() - attemptStartedAt, itemCount: 0, errorSummary: lastError });
         console.error(`[fetch warn] ${route} via ${base}: empty feed, trying next instance`);
         continue;
       }
-      const items = Array.isArray(channel.item) ? channel.item : [channel.item];
-      // Staleness check: if ALL items predate the cutoff, this instance is serving stale cache
-      const newest = Math.max(...items.map(i => {
-        const t = i.pubDate ? new Date(i.pubDate).getTime() : 0;
-        return isNaN(t) ? 0 : t;
+      const rawItems = Array.isArray(channel.item) ? channel.item : [channel.item];
+      const newest = Math.max(0, ...rawItems.map(item => {
+        const timestamp = item.pubDate ? new Date(item.pubDate).getTime() : 0;
+        return Number.isNaN(timestamp) ? 0 : timestamp;
       }));
-      if (newest > 0 && newest < staleCutoff) {
-        console.error(`[stale feed] ${route} via ${base}: newest item ${new Date(newest).toISOString().substring(0, 10)}, trying next instance`);
+      const latestPublishedAt = newest > 0 ? new Date(newest).toISOString() : null;
+      const stale = newest > 0 && newest < staleCutoff;
+      attempts.push({ endpoint, success: true, stale, durationMs: Date.now() - attemptStartedAt, itemCount: rawItems.length, latestPublishedAt });
+      if (stale) {
+        sawStaleFeed = true;
+        lastError = `stale feed: newest item ${latestPublishedAt}`;
+        console.error(`[stale feed] ${route} via ${base}: newest item ${latestPublishedAt.substring(0, 10)}, trying next instance`);
         continue;
       }
       if (base !== RSSHUB_INSTANCES[0]) console.error(`[fallback] ${route} served by ${base}`);
-      return items.filter(i => i.title && i.link).slice(0, 12).map(i => ({
-        title: (i.title || '').replace(/<[^>]*>/g, '').trim(),
-        sourceUrl: i.link || '',
-        publishedAt: normalizePublishedAt(i.pubDate),
-        fetchedAt: new Date().toISOString(),
-        timeConfidence: normalizePublishedAt(i.pubDate) ? 'source' : 'unknown',
-        summary: (i.description || '').replace(/<[^>]*>/g, '').trim().substring(0, 200),
-      }));
-    } catch (e) {
-      console.error(`[fetch error] ${route} via ${base}: ${e.message}`);
+      const items = rawItems.filter(item => item.title && item.link).slice(0, 12).map(item => {
+        const publishedAt = normalizePublishedAt(item.pubDate);
+        return {
+          title: (item.title || '').replace(/<[^>]*>/g, '').trim(),
+          sourceUrl: item.link || '',
+          publishedAt,
+          fetchedAt: new Date().toISOString(),
+          timeConfidence: publishedAt ? 'source' : 'unknown',
+          summary: (item.description || '').replace(/<[^>]*>/g, '').trim().substring(0, 200),
+        };
+      });
+      return {
+        items,
+        health: buildSourceHealth(source, {
+          items,
+          success: true,
+          usable: items.length > 0,
+          stale: false,
+          durationMs: Date.now() - startedAt,
+          latestPublishedAt,
+          usedEndpoint: base,
+          attempts,
+        }),
+      };
+    } catch (error) {
+      lastError = sanitizeError(error);
+      attempts.push({ endpoint, success: false, stale: false, durationMs: Date.now() - attemptStartedAt, itemCount: 0, errorSummary: lastError });
+      console.error(`[fetch error] ${route} via ${base}: ${lastError}`);
     }
   }
-  return [];
+  return {
+    items: [],
+    health: buildSourceHealth(source, {
+      items: [],
+      success: false,
+      usable: false,
+      stale: sawStaleFeed,
+      durationMs: Date.now() - startedAt,
+      errorSummary: lastError || 'all RSSHub instances failed',
+      attempts,
+    }),
+  };
 }
 
 // === Direct RSS fetcher (not via RSSHub) ===
 // Supports investing.com / other standalone RSS endpoints.
 // TLS certificate verification remains enabled; certificate failures must be fixed at environment level.
-async function fetchDirectRSS(directUrl) {
+async function fetchDirectRSS(source) {
+  const directUrl = source.directUrl;
+  const startedAt = Date.now();
+  const attemptStartedAt = Date.now();
   try {
     const xml = await fetchWithRetry(directUrl, MAX_RETRIES);
     const data = await parseStringPromise(xml, { explicitArray: false });
     const channel = data.rss?.channel;
-    if (!channel?.item) return [];
-    const items = Array.isArray(channel.item) ? channel.item : [channel.item];
-    return items.filter(i => i.title && i.link).slice(0, 12).map(i => ({
-      title: (i.title || '').replace(/<[^>]*>/g, '').replace(/&amp;/g, '&').trim(),
-      sourceUrl: i.link || '',
-      publishedAt: normalizePublishedAt(i.pubDate),
-      fetchedAt: new Date().toISOString(),
-      timeConfidence: normalizePublishedAt(i.pubDate) ? 'source' : 'unknown',
-      summary: (i.description || '').replace(/<[^>]*>/g, '').replace(/&amp;/g, '&').trim().substring(0, 200),
-    }));
-  } catch (e) {
-    console.error(`[direct fetch error] ${directUrl}: ${e.message}`);
-    return [];
+    if (!channel?.item) throw new Error('empty feed');
+    const rawItems = Array.isArray(channel.item) ? channel.item : [channel.item];
+    const items = rawItems.filter(item => item.title && item.link).slice(0, 12).map(item => {
+      const publishedAt = normalizePublishedAt(item.pubDate);
+      return {
+        title: (item.title || '').replace(/<[^>]*>/g, '').replace(/&amp;/g, '&').trim(),
+        sourceUrl: item.link || '',
+        publishedAt,
+        fetchedAt: new Date().toISOString(),
+        timeConfidence: publishedAt ? 'source' : 'unknown',
+        summary: (item.description || '').replace(/<[^>]*>/g, '').replace(/&amp;/g, '&').trim().substring(0, 200),
+      };
+    });
+    const newest = Math.max(0, ...items.map(item => item.publishedAt ? new Date(item.publishedAt).getTime() : 0));
+    const latestPublishedAt = newest > 0 ? new Date(newest).toISOString() : null;
+    const stale = newest > 0 && newest < Date.now() - MAX_AGE_DAYS * 86400000;
+    const attempts = [{ endpoint: directUrl, success: true, stale, durationMs: Date.now() - attemptStartedAt, itemCount: items.length, latestPublishedAt }];
+    if (stale) console.error(`[stale feed] ${source.sourceName}: newest item ${latestPublishedAt.substring(0, 10)}`);
+    return {
+      items,
+      health: buildSourceHealth(source, {
+        items,
+        success: true,
+        usable: items.length > 0 && !stale,
+        stale,
+        durationMs: Date.now() - startedAt,
+        latestPublishedAt,
+        usedEndpoint: directUrl,
+        attempts,
+      }),
+    };
+  } catch (error) {
+    const errorSummary = sanitizeError(error);
+    console.error(`[direct fetch error] ${source.sourceName}: ${errorSummary}`);
+    return {
+      items: [],
+      health: buildSourceHealth(source, {
+        items: [],
+        success: false,
+        usable: false,
+        stale: false,
+        durationMs: Date.now() - startedAt,
+        errorSummary,
+        attempts: [{ endpoint: directUrl, success: false, stale: false, durationMs: Date.now() - attemptStartedAt, itemCount: 0, errorSummary }],
+      }),
+    };
   }
 }
 
@@ -1018,15 +1109,30 @@ function sanitizeCachedItem(item) {
   };
 }
 
+function writeHealthReport(report) {
+  fs.mkdirSync(REPORT_DIR, { recursive: true });
+  fs.writeFileSync(HEALTH_REPORT_FILE, `${JSON.stringify(report, null, 2)}\n`, 'utf8');
+  console.error(`[health] diagnostic written: ${HEALTH_REPORT_FILE}`);
+}
+
+function latestItemPublishedAt(items) {
+  const timestamps = (Array.isArray(items) ? items : [])
+    .map(item => item && item.publishedAt ? new Date(item.publishedAt).getTime() : NaN)
+    .filter(Number.isFinite);
+  return timestamps.length > 0 ? new Date(Math.max(...timestamps)).toISOString() : null;
+}
+
 // === Main ===
 async function main() {
   const existing = loadExisting();
   const cutoff = Date.now() - MAX_AGE_DAYS * 86400000;
 
   let newItems = [];
+  const sourceHealthRecords = [];
   for (const src of SOURCES) {
     console.error(`[fetching] ${src.sourceName}...`);
-    const items = src.directUrl ? await fetchDirectRSS(src.directUrl) : await fetchRSS(src.route);
+    const fetchResult = src.directUrl ? await fetchDirectRSS(src) : await fetchRSS(src);
+    const items = fetchResult.items;
     let added = 0;
     for (const item of items) {
       if (!isSafeHttpUrl(item.sourceUrl) || existing.existingUrls.has(item.sourceUrl)) continue;
@@ -1054,6 +1160,8 @@ async function main() {
       existing.titleSet.add(titleHash);
       added++;
     }
+    fetchResult.health.addedCount = added;
+    sourceHealthRecords.push(fetchResult.health);
     console.error(`  +${added} new (${items.length - added} skipped as dup/filtered)`);
   }
   // Merge new + existing, then sort before truncating so newer cached items are never lost.
@@ -1079,6 +1187,37 @@ async function main() {
   assertDataQuality(allItems);
 
   const now = new Date();
+  const sourceHealthSummary = summarizeSourceHealth(sourceHealthRecords, now.toISOString());
+  const thresholds = resolveThresholds();
+  const gateInput = {
+    summary: sourceHealthSummary,
+    itemCount: allItems.length,
+    previousItemCount: existing.items.length,
+    freshestPublishedAt: latestItemPublishedAt(allItems),
+    now,
+    thresholds,
+  };
+  const gateErrors = publicationGateErrors(gateInput);
+  const baseHealthReport = {
+    generatedAt: now.toISOString(),
+    published: false,
+    thresholds,
+    gateErrors,
+    summary: sourceHealthSummary,
+    sources: sourceHealthRecords,
+    itemCounts: {
+      previous: existing.items.length,
+      new: newItems.length,
+      candidate: allItems.length,
+    },
+    ai: {
+      keyConfigured: Boolean(process.env.DEEPSEEK_API_KEY),
+      generatedBy: null,
+    },
+  };
+  writeHealthReport(baseHealthReport);
+  assertPublicationGate(gateInput);
+
   const dateStr = beijingDateString(now);
   const output = {
     date: dateStr,
@@ -1090,6 +1229,7 @@ async function main() {
     sections: buildSections(allItems),
     flashes: buildFlashes(allItems),
     keywordIndex: buildKeywordIndex(allItems),
+    sourceHealth: publicSourceHealth(sourceHealthSummary, sourceHealthRecords),
     aiAnalysis: await generateAIAnalysisWithFallback(allItems),
   };
 
@@ -1123,6 +1263,15 @@ async function main() {
   lines.push(`window.KEYWORD_INDEX = ${JSON.stringify(output.keywordIndex, null, 2)};`);
 
   fs.writeFileSync(DATA_FILE, lines.join('\n') + '\n', 'utf8');
+  writeHealthReport({
+    ...baseHealthReport,
+    published: true,
+    gateErrors: [],
+    ai: {
+      keyConfigured: Boolean(process.env.DEEPSEEK_API_KEY),
+      generatedBy: output.aiAnalysis.generatedBy || 'unknown',
+    },
+  });
   console.error(`[write] ${DATA_FILE} written (${allItems.length} items)`);
 }
 

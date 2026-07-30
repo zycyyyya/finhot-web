@@ -29,14 +29,30 @@ jobs:
         run: npm run check
 
       - name: Fetch and validate data
+        id: fetch
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
         run: npm run fetch
 
+      - name: Write data health summary
+        if: always()
+        run: node scripts/health-summary.js >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload failed-run diagnostics
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: finhot-source-health-${{ github.run_id }}
+          path: reports/source-health.json
+          if-no-files-found: ignore
+          retention-days: 14
+
       - name: Re-run validation after generation
+        if: success()
         run: npm run check
 
       - name: Commit updated data when changed
+        if: success()
         run: |
           if git diff --quiet -- data.js; then
             echo "No data changes"

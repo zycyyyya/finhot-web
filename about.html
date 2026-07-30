@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>关于 · finhot</title>
   <link rel="stylesheet" href="styles.css">
+  <script src="data.js" defer></script>
+  <script src="scripts/health-view.js" defer></script>
 </head>
 <body>
 
@@ -29,7 +31,26 @@
 
     <div class="divider"></div>
 
-    <h2 style="font-family:var(--font-heading);font-size:20px;font-weight:700;color:var(--text-primary);">信源声明</h2>
+    <section aria-labelledby="health-title">
+      <h2 id="health-title" class="about-section-title">数据健康状态</h2>
+      <div id="source-health" class="health-card" aria-live="polite">
+        <div class="health-card-header">
+          <span id="health-status" class="health-status health-status-unknown">暂无健康数据</span>
+          <span id="health-updated" class="health-updated">等待下一次数据更新</span>
+        </div>
+        <div class="health-metrics">
+          <div class="health-metric"><span class="health-metric-label">来源覆盖率</span><strong id="health-coverage">—</strong></div>
+          <div class="health-metric"><span class="health-metric-label">可用来源</span><strong id="health-usable">—</strong></div>
+          <div class="health-metric"><span class="health-metric-label">失败来源</span><strong id="health-failed">—</strong></div>
+          <div class="health-metric"><span class="health-metric-label">陈旧来源</span><strong id="health-stale">—</strong></div>
+        </div>
+        <p id="health-detail" class="health-detail">旧版数据不包含来源健康字段，不影响资讯浏览。</p>
+      </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <h2 class="about-section-title">信源声明</h2>
 
     <p class="about-desc">
       finhot 将信源分为四层：S0 权威原始源、S1 结构化数据源、S2 专业财经媒体、S3 快讯/观点线索。
@@ -90,7 +111,7 @@
 
     <div class="divider"></div>
 
-    <h2 style="font-family:var(--font-heading);font-size:20px;font-weight:700;color:var(--text-primary);">使用与合规边界</h2>
+    <h2 class="about-section-title">使用与合规边界</h2>
     <div class="source-note">
       <strong>重要提示：</strong>finhot 仅提供公开信息聚合、分类、评分与 AI 辅助摘要，不构成任何投资建议、资产配置建议、保险产品推荐、收益预测或收益承诺。任何决策均应以监管机构、交易所、发行人及原始发布方的正式披露为准，并结合自身风险承受能力独立判断。
     </div>
@@ -104,7 +125,7 @@
 
     <div class="divider"></div>
 
-    <h2 style="font-family:var(--font-heading);font-size:20px;font-weight:700;color:var(--text-primary);">技术说明</h2>
+    <h2 class="about-section-title">技术说明</h2>
     <p class="about-desc">
       本站为静态站点，数据由 finhot 引擎自动采集聚合，每日定时更新。
       自动流程包含协议与字段校验、稳定资讯 ID、去重、三场景适配度评分、事件聚类及 AI 证据引用校验。

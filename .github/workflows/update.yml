@@ -1,7 +1,13 @@
-name: Manual Update
+name: Validate and Update Data
 
 on:
-  workflow_dispatch:  # 手动触发
+  workflow_dispatch:
+  schedule:
+    - cron: "15 0 * * *"
+
+concurrency:
+  group: finhot-data-update
+  cancel-in-progress: false
 
 jobs:
   update:
@@ -10,5 +16,34 @@ jobs:
       contents: write
     steps:
       - uses: actions/checkout@v4
-      - name: Placeholder
-        run: echo "Data updates handled by WorkBuddy automation (scripts/fetch.js). Manual trigger only."
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+
+      - name: Install locked dependencies
+        run: npm ci
+
+      - name: Run validation tests
+        run: npm run check
+
+      - name: Fetch and validate data
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+        run: npm run fetch
+
+      - name: Re-run validation after generation
+        run: npm run check
+
+      - name: Commit updated data when changed
+        run: |
+          if git diff --quiet -- data.js; then
+            echo "No data changes"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data.js
+          git commit -m "chore: update finhot data"
+          git push

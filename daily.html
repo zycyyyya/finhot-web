@@ -39,14 +39,27 @@
 
   // XSS protection
   function escapeHtml(str) {
-    if (!str) return '';
-    return String(str).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+    if (str === null || str === undefined) return '';
+    return String(str)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#39;');
   }
 
-  document.getElementById('reportDate').textContent =
-    new Date(data.date).toLocaleDateString('zh-CN', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+  if (!data || !data.aiAnalysis) {
+    document.getElementById('reportDate').textContent = '数据加载失败';
+    document.getElementById('reportLead').textContent = '日报数据不可用，请稍后刷新页面。';
+    return;
+  }
 
-  document.getElementById('reportLead').textContent = data.lead;
+  var reportDate = new Date(data.date);
+  document.getElementById('reportDate').textContent = Number.isNaN(reportDate.getTime())
+    ? (data.date || '日期未知')
+    : reportDate.toLocaleDateString('zh-CN', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
+
+  document.getElementById('reportLead').textContent = data.lead || '';
 
   // === Daily Summary (3-line takeaways) ===
   (function renderSummary(analysis) {
@@ -133,7 +146,7 @@
         if (chains.length === 0) return;
         html += '<div class="ai-section">';
         html += '  <div class="section-header">';
-        html += '    <div class="accent-bar ' + sec.accentClass + '"></div>';
+        html += '    <div class="accent-bar ' + escapeHtml(sec.accentClass) + '"></div>';
         html += '    <h2 class="section-title">' + sec.icon + ' ' + sec.label + '</h2>';
         html += '  </div>';
         html += '  <p class="ai-section-desc">' + escapeHtml(sec.desc) + '</p>';
@@ -169,16 +182,17 @@
         if (!hasAny) return;
         html += '<div class="ai-section">';
         html += '  <div class="section-header">';
-        html += '    <div class="accent-bar ' + sec.accentClass + '"></div>';
+        html += '    <div class="accent-bar ' + escapeHtml(sec.accentClass) + '"></div>';
         html += '    <h2 class="section-title">' + sec.icon + ' ' + sec.label + '</h2>';
         html += '  </div>';
         html += '  <p class="ai-section-desc">' + escapeHtml(sec.desc) + '</p>';
         html += '  <div class="impact-matrix">';
         quadKeys.forEach(function(q) {
           var qd = quadrants[q.key] || { level: 'none', summary: '暂无', items: [] };
+          var safeLevel = ['high', 'medium', 'low', 'none'].indexOf(qd.level) >= 0 ? qd.level : 'none';
           html += '<div class="impact-quadrant">';
           html += '  <div class="impact-quadrant-header">';
-          html += '    <span class="impact-level impact-level-' + (qd.level || 'none') + '">' + (qd.level || 'none').toUpperCase() + '</span>';
+          html += '    <span class="impact-level impact-level-' + safeLevel + '">' + safeLevel.toUpperCase() + '</span>';
           html += '    <span class="impact-quadrant-label">' + q.icon + ' ' + q.label + '</span>';
           html += '  </div>';
           if (qd.summary) {
@@ -215,7 +229,7 @@
         }
         html += '<div class="ai-section">';
         html += '  <div class="section-header">';
-        html += '    <div class="accent-bar ' + sec.accentClass + '"></div>';
+        html += '    <div class="accent-bar ' + escapeHtml(sec.accentClass) + '"></div>';
         html += '    <h2 class="section-title">' + sec.icon + ' ' + sec.label + '</h2>';
         html += '  </div>';
         html += '  <p class="ai-section-desc">' + escapeHtml(sec.desc) + '</p>';
@@ -240,7 +254,7 @@
 
         html += '<div class="ai-section">';
         html += '  <div class="section-header">';
-        html += '    <div class="accent-bar ' + sec.accentClass + '"></div>';
+        html += '    <div class="accent-bar ' + escapeHtml(sec.accentClass) + '"></div>';
         html += '    <h2 class="section-title">' + sec.icon + ' ' + sec.label + '</h2>';
         html += '  </div>';
         html += '  <p class="ai-section-desc">' + escapeHtml(sec.desc) + '</p>';

@@ -1,12 +1,24 @@
 #!/usr/bin/env node
 // finhot-web Incremental RSS Fetcher
 // Only adds NEW content - URL dedup, title dedup, auto-expire old items, max 150 kept
-// Usage: node scripts/fetch.js > data.js
+// Usage: node scripts/fetch.js
 
 const fs = require('fs');
+const path = require('path');
 const https = require('https');
 const http = require('http');
 const { parseStringPromise } = require('xml2js');
+const {
+  MAX_REDIRECTS,
+  MAX_RESPONSE_BYTES,
+  assertDataQuality,
+  beijingDateString,
+  containsCorruptedText,
+  isSafeHttpUrl,
+  normalizePublishedAt,
+  normalizeTitle,
+  sortAndLimit,
+} = require('./core');
 
 const UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36';
 // RSSHub instances — tried in order per route. First instance serving a FRESH feed wins.
@@ -17,7 +29,7 @@ const RSSHUB_INSTANCES = [
 ];
 const MAX_ITEMS = 150;
 const MAX_AGE_DAYS = 7;
-const DATA_FILE = 'data.js';
+const DATA_FILE = path.resolve(__dirname, '..', 'data.js');
 const FETCH_TIMEOUT = 15000; // 15s per request
 const MAX_RETRIES = 3;
 
@@ -29,6 +41,7 @@ const SOURCES = [
   { route: '/cls/depth',                sourceName: '\u8d22\u8054\u793e',    category: 'research',    tier: 'S2', evidenceType: 'financial_media' },
   { route: '/36kr/newsflashes',         sourceName: '36\u6c2a',     category: 'insights',    tier: 'S3', evidenceType: 'news_flash' },
   { route: '/szse/notice',              sourceName: '\u6df1\u4ea4\u6240',    category: 'regulatory',  tier: 'S0', evidenceType: 'official_notice' },
+  { route: '/gov/csrc/news/c100028/common_xq_list.shtml', sourceName: '\u8bc1\u76d1\u4f1a', category: 'regulatory', tier: 'S0', evidenceType: 'official_notice' },
   // Direct RSS — 英为财情 (Investing.com)
   // 替换为市场资讯+技术分析，提升内容深度
   { directUrl: 'https://cn.investing.com/rss/news_25.rss',             sourceName: '\u82f1\u4e3a\u8d22\u60c5', category: 'industry',  tier: 'S2', evidenceType: 'financial_media' },
@@ -57,10 +70,6 @@ function sourceForItem(item) {
 }
 
 // === Title dedup helpers ===
-function normalizeTitle(t) {
-  return (t || '').replace(/[\s\u3000|｜\-—:：·,.，。!！?？\u200b]/g, '').substring(0, 16);
-}
-
 function buildTitleSet(items) {
   const s = new Set();
   for (const i of items) {
@@ -98,18 +107,45 @@ function loadExisting() {
   }
 }
 
-// === HTTP fetch with timeout ===
-function httpGet(url, timeout, opts) {
+// === HTTP fetch with timeout, redirect and response-size limits ===
+function httpGet(url, timeout, opts, redirectCount) {
   return new Promise((resolve, reject) => {
-    const mod = url.startsWith('https') ? https : http;
+    if (!isSafeHttpUrl(url)) {
+      reject(new Error(`unsafe URL: ${url}`));
+      return;
+    }
+
+    const redirects = redirectCount || 0;
+    const mod = url.startsWith('https:') ? https : http;
     const options = Object.assign({ headers: { 'User-Agent': UA }, timeout: timeout || FETCH_TIMEOUT }, opts || {});
     const req = mod.get(url, options, res => {
       if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
-        httpGet(res.headers.location, timeout, opts).then(resolve, reject);
+        res.resume();
+        if (redirects >= MAX_REDIRECTS) {
+          reject(new Error(`too many redirects: ${url}`));
+          return;
+        }
+        const nextUrl = new URL(res.headers.location, url).toString();
+        httpGet(nextUrl, timeout, opts, redirects + 1).then(resolve, reject);
         return;
       }
+      if (res.statusCode < 200 || res.statusCode >= 300) {
+        res.resume();
+        reject(new Error(`HTTP ${res.statusCode}: ${url}`));
+        return;
+      }
+
       let body = '';
-      res.on('data', d => body += d);
+      let receivedBytes = 0;
+      res.setEncoding('utf8');
+      res.on('data', chunk => {
+        receivedBytes += Buffer.byteLength(chunk, 'utf8');
+        if (receivedBytes > MAX_RESPONSE_BYTES) {
+          res.destroy(new Error(`response too large: ${url}`));
+          return;
+        }
+        body += chunk;
+      });
       res.on('end', () => resolve(body));
       res.on('error', reject);
     });
@@ -160,7 +196,9 @@ async function fetchRSS(route) {
       return items.filter(i => i.title && i.link).slice(0, 12).map(i => ({
         title: (i.title || '').replace(/<[^>]*>/g, '').trim(),
         sourceUrl: i.link || '',
-        publishedAt: i.pubDate ? new Date(i.pubDate).toISOString() : new Date().toISOString(),
+        publishedAt: normalizePublishedAt(i.pubDate),
+        fetchedAt: new Date().toISOString(),
+        timeConfidence: normalizePublishedAt(i.pubDate) ? 'source' : 'unknown',
         summary: (i.description || '').replace(/<[^>]*>/g, '').trim().substring(0, 200),
       }));
     } catch (e) {
@@ -171,11 +209,11 @@ async function fetchRSS(route) {
 }
 
 // === Direct RSS fetcher (not via RSSHub) ===
-// Supports investing.com / other standalone RSS endpoints
-// Uses rejectUnauthorized: false for environments with TLS issues
+// Supports investing.com / other standalone RSS endpoints.
+// TLS certificate verification remains enabled; certificate failures must be fixed at environment level.
 async function fetchDirectRSS(directUrl) {
   try {
-    const xml = await fetchWithRetry(directUrl, MAX_RETRIES, { rejectUnauthorized: false });
+    const xml = await fetchWithRetry(directUrl, MAX_RETRIES);
     const data = await parseStringPromise(xml, { explicitArray: false });
     const channel = data.rss?.channel;
     if (!channel?.item) return [];
@@ -183,7 +221,9 @@ async function fetchDirectRSS(directUrl) {
     return items.filter(i => i.title && i.link).slice(0, 12).map(i => ({
       title: (i.title || '').replace(/<[^>]*>/g, '').replace(/&amp;/g, '&').trim(),
       sourceUrl: i.link || '',
-      publishedAt: i.pubDate ? new Date(i.pubDate).toISOString() : new Date().toISOString(),
+      publishedAt: normalizePublishedAt(i.pubDate),
+      fetchedAt: new Date().toISOString(),
+      timeConfidence: normalizePublishedAt(i.pubDate) ? 'source' : 'unknown',
       summary: (i.description || '').replace(/<[^>]*>/g, '').replace(/&amp;/g, '&').trim().substring(0, 200),
     }));
   } catch (e) {
@@ -290,6 +330,10 @@ function isSourceNoise(item) {
   if (item.sourceName === '\u6df1\u4ea4\u6240') {
     if (/\u4e0a\u5e02\u4ea4\u6613|\u7ec8\u6b62\u4e0a\u5e02/.test(t)) return true;
   }
+  // \u8bc1\u76d1\u4f1a\uff1a\u6392\u9664\u515a\u5efa/\u8868\u5f70/\u4eba\u4e8b/\u8bfe\u9898\u7c7b\u884c\u653f\u516c\u544a\uff08\u65e0\u4ece\u4e1a\u4ef7\u503c\uff09
+  if (item.sourceName === '\u8bc1\u76d1\u4f1a') {
+    if (/\u515a\u5efa|\u8868\u5f70|\u515a\u8bfe|\u8bfe\u9898|\u4eba\u4e8b|\u4efb\u547d|\u514d\u804c|\u9000\u4f11|\u901d\u4e16|\u8ba3\u544a|\u6170\u95ee|\u5ea7\u8c08|\u5b66\u4e60|\u51b3\u7b97/.test(t)) return true;
+  }
   return false;
 }
 
@@ -331,8 +375,9 @@ function confidenceFor(source, scoreBreakdown) {
 // === Practitioner value scoring ===
 function scoreItem(item, source) {
   const text = `${item.title || ''} ${item.summary || ''}`;
-  const ageHours = (Date.now() - new Date(item.publishedAt).getTime()) / 3600000;
-  const recency = ageHours < 6 ? 15 : ageHours < 24 ? 13 : ageHours < 72 ? 10 : ageHours < 168 ? 7 : 4;
+  const publishedTimestamp = item.publishedAt ? new Date(item.publishedAt).getTime() : NaN;
+  const ageHours = Number.isNaN(publishedTimestamp) ? Infinity : (Date.now() - publishedTimestamp) / 3600000;
+  const recency = ageHours < 6 ? 15 : ageHours < 24 ? 13 : ageHours < 72 ? 10 : ageHours < 168 ? 7 : 0;
   const authority = source.tier === 'S0' ? 20 : source.tier === 'S1' ? 18 : source.tier === 'S2' ? 15 : 9;
   const summaryLen = (item.summary || '').length;
   const depth = source.tier === 'S0' ? 8 : summaryLen > 180 ? 10 : summaryLen > 100 ? 8 : summaryLen > 40 ? 6 : 3;
@@ -389,6 +434,39 @@ function enrichItem(item) {
   }
   return item;
 }
+// === Content-based reclassification ===
+// Re-tags items from industry/insights to regulatory/products based on content keywords.
+// Root cause: category was assigned at SOURCE level, so media reports about regulation
+// or product launches were incorrectly tagged as 'industry' or 'insights'.
+// Only reclassifies industry/insights; never touches research.
+function reclassifyCategory(item) {
+  if (item.category !== 'industry' && item.category !== 'insights') return;
+
+  const text = (item.title + ' ' + (item.summary || '')).toLowerCase();
+
+  // Regulatory: core regulator names + regulatory action/document keywords
+  const REG_BODY = ['证监会','金监总局','银保监','金融监管总局','基金业协会','保险业协会','交易商协会','外管局','金融监管'];
+  const REG_ACTION = ['处罚','罚单','整改','约谈','通报批评','警示函','立案','问询','监管框架','监管要求','偿付能力','合规','牌照','征求意见稿','批复','核准','备案','办法','指引','条例','规定','细则'];
+  const regBodyHits = REG_BODY.filter(k => text.includes(k)).length;
+  const regActionHits = REG_ACTION.filter(k => text.includes(k)).length;
+  const regScore = regBodyHits * 2 + regActionHits; // body names weighted higher
+
+  // Products: product type + product event keywords
+  const PROD_TYPE = ['新基金','基金发行','分红险','增额终身寿','年金保险','万能险','投连险','etf','lof','fof','qdii','reits','理财产品','净值型','保险新品','保险产品','基金产品','养老理财'];
+  const PROD_EVENT = ['首单','首批','首发','获批','产品获批','募集','认购','申报','上报','成立','发行','上架','推出'];
+  const prodTypeHits = PROD_TYPE.filter(k => text.includes(k)).length;
+  const prodEventHits = PROD_EVENT.filter(k => text.includes(k)).length;
+  const prodScore = prodTypeHits * 2 + prodEventHits; // type names weighted higher
+
+  // Reclassify: regulatory takes precedence over products
+  if (regScore >= 3) {
+    item.category = 'regulatory';
+    item.tags = [CATEGORY_TAGS['regulatory']];
+  } else if (prodScore >= 3) {
+    item.category = 'products';
+    item.tags = [CATEGORY_TAGS['products']];
+  }
+}
 
 // === Build sections (store IDs only to reduce data size) ===
 function buildSections(items) {
@@ -431,7 +509,7 @@ function buildKeywordIndex(items) {
 }
 
 // === AI Analysis Generator ===
-// Uses SenseNova API when LLM_API_KEY env var is set; falls back to rule-based
+// Uses SenseNova API when DEEPSEEK_API_KEY is set; falls back to rule-based
 const LLM_API_HOST = 'token.sensenova.cn';
 const LLM_API_PATH = '/v1/chat/completions';
 const LLM_TIMEOUT_MS = 60000;
@@ -443,7 +521,6 @@ function httpsPost(host, path, data, apiKey, timeout) {
       hostname: host,
       path: path,
       method: 'POST',
-      rejectUnauthorized: false, // Required for some environments
       headers: {
         'Content-Type': 'application/json',
         'Authorization': `Bearer ${apiKey}`,
@@ -452,7 +529,16 @@ function httpsPost(host, path, data, apiKey, timeout) {
       timeout: timeout || LLM_TIMEOUT_MS,
     }, res => {
       let respBody = '';
-      res.on('data', d => respBody += d);
+      let receivedBytes = 0;
+      res.setEncoding('utf8');
+      res.on('data', chunk => {
+        receivedBytes += Buffer.byteLength(chunk, 'utf8');
+        if (receivedBytes > MAX_RESPONSE_BYTES) {
+          res.destroy(new Error('LLM response too large'));
+          return;
+        }
+        respBody += chunk;
+      });
       res.on('end', () => {
         if (res.statusCode >= 200 && res.statusCode < 300) {
           resolve(respBody);
@@ -910,6 +996,17 @@ function generateAIAnalysis(items) {
   };
 }
 
+function sanitizeCachedItem(item) {
+  if (!item || !isSafeHttpUrl(item.sourceUrl)) return null;
+  if (containsCorruptedText(item.title) || containsCorruptedText(item.summary || '')) return null;
+  const publishedAt = normalizePublishedAt(item.publishedAt);
+  return {
+    ...item,
+    publishedAt,
+    timeConfidence: publishedAt ? (item.timeConfidence || 'source') : 'unknown',
+  };
+}
+
 // === Main ===
 async function main() {
   const existing = loadExisting();
@@ -921,12 +1018,14 @@ async function main() {
     const items = src.directUrl ? await fetchDirectRSS(src.directUrl) : await fetchRSS(src.route);
     let added = 0;
     for (const item of items) {
-      if (!item.sourceUrl || existing.existingUrls.has(item.sourceUrl)) continue;
+      if (!isSafeHttpUrl(item.sourceUrl) || existing.existingUrls.has(item.sourceUrl)) continue;
+      if (containsCorruptedText(item.title) || containsCorruptedText(item.summary || '')) continue;
       // Title dedup: check normalized title prefix
       const titleHash = normalizeTitle(item.title);
       if (titleHash.length >= 6 && existing.titleSet.has(titleHash)) continue;
-      // Age check: skip items older than MAX_AGE_DAYS (applies to all sources, not just cache)
-      if (new Date(item.publishedAt).getTime() < cutoff) continue;
+      // Time integrity: undated items are retained as low-confidence leads, but never receive recency points.
+      const publishedTimestamp = item.publishedAt ? new Date(item.publishedAt).getTime() : NaN;
+      if (!Number.isNaN(publishedTimestamp) && publishedTimestamp < cutoff) continue;
       if (!isFinanceRelated(item)) continue;
       if (isLowQuality(item)) continue;
       // Set source metadata before source-specific filters
@@ -938,6 +1037,7 @@ async function main() {
       item.discoveredVia = src.directUrl ? 'Investing.com' : 'RSSHub';
       item.id = '';
       enrichItem(item);
+      reclassifyCategory(item);
       newItems.push(item);
       existing.existingUrls.add(item.sourceUrl);
       existing.titleSet.add(titleHash);
@@ -945,27 +1045,27 @@ async function main() {
     }
     console.error(`  +${added} new (${items.length - added} skipped as dup/filtered)`);
   }
-  // Merge new + existing, filtering out source-specific noise from cache
-  const allItems = [
+  // Merge new + existing, then sort before truncating so newer cached items are never lost.
+  const mergedItems = [
     ...newItems,
-    ...existing.items.filter(i => {
-      if (new Date(i.publishedAt).getTime() <= cutoff) return false;
+    ...existing.items.map(sanitizeCachedItem).filter(i => {
+      if (!i) return false;
+      const publishedTimestamp = i.publishedAt ? new Date(i.publishedAt).getTime() : NaN;
+      if (!Number.isNaN(publishedTimestamp) && publishedTimestamp <= cutoff) return false;
       if (isSourceNoise(i)) return false;
       return true;
     }),
-  ].slice(0, MAX_ITEMS);
-
-  allItems.sort((a, b) => {
-    const ta = new Date(a.publishedAt).getTime() || 0;
-    const tb = new Date(b.publishedAt).getTime() || 0;
-    return tb - ta;
-  });
+  ];
+  const allItems = sortAndLimit(mergedItems, MAX_ITEMS);
 
   allItems.forEach(enrichItem);
+  allItems.forEach(reclassifyCategory);
   allItems.forEach((item, idx) => { item.id = String(idx + 1); });
 
+  assertDataQuality(allItems);
+
   const now = new Date();
-  const dateStr = now.toISOString().split('T')[0];
+  const dateStr = beijingDateString(now);
   const output = {
     date: dateStr,
     generatedAt: now.toISOString(),

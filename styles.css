@@ -141,8 +141,12 @@ a {
 }
 
 .cat-tab {
+  appearance: none;
   padding: 4px 10px;
+  border: 0;
   border-radius: var(--radius-md);
+  background: transparent;
+  font: inherit;
   font-size: 13px;
   font-weight: 500;
   color: var(--text-secondary);
@@ -209,8 +213,20 @@ a {
   display: flex;
   flex-direction: column;
   gap: 12px;
+  color: inherit;
+  text-decoration: none;
   transition: all var(--transition-normal);
   cursor: pointer;
+}
+
+.news-card-disabled {
+  cursor: default;
+}
+
+.empty-message {
+  color: var(--text-muted);
+  text-align: center;
+  padding: 40px;
 }
 
 .news-card:hover {
@@ -227,6 +243,15 @@ a {
   border-color: rgba(34, 197, 94, 0.3);
   box-shadow: none;
   transform: translateY(0);
+}
+
+.cat-tab:focus-visible,
+.news-card:focus-visible,
+.header-nav a:focus-visible,
+.header-logo:focus-visible,
+.load-more-btn:focus-visible {
+  outline: 2px solid var(--accent-green);
+  outline-offset: 3px;
 }
 
 .card-meta {

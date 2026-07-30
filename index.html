@@ -40,8 +40,23 @@
 
   // XSS protection
   function escapeHtml(str) {
-    if (!str) return '';
-    return String(str).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+    if (str === null || str === undefined) return '';
+    return String(str)
+      .replace(/&/g, '&amp;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;')
+      .replace(/"/g, '&quot;')
+      .replace(/'/g, '&#39;');
+  }
+
+  function safeHttpUrl(value) {
+    if (typeof value !== 'string' || !value.trim()) return '';
+    try {
+      var parsed = new URL(value, window.location.href);
+      return parsed.protocol === 'http:' || parsed.protocol === 'https:' ? parsed.href : '';
+    } catch(e) {
+      return '';
+    }
   }
 
   // Pagination
@@ -55,31 +70,34 @@
   var navFeatured = document.getElementById('navFeatured');
 
   // Fallback: if data.js failed to load
-  if (!data || !data.items) {
+  if (!data || !Array.isArray(data.items) || !Array.isArray(categories) || !config) {
     timeLabel.textContent = '数据加载失败';
-    newsFeed.innerHTML = '<p style="color:var(--text-muted);text-align:center;padding:40px;">数据加载失败，请稍后刷新页面</p>';
+    var errorMessage = document.createElement('p');
+    errorMessage.className = 'empty-message';
+    errorMessage.textContent = '数据加载失败，请稍后刷新页面';
+    newsFeed.replaceChildren(errorMessage);
     return;
   }
 
-  // Build featured items set (score >= 70)
+  // Featured threshold
   var featuredThreshold = 70;
-  var featuredItems = data.items.filter(function(i) { return i.score >= featuredThreshold; });
 
   // Category bar — insert "精选" as first tab after "全部"
   var catBar = document.getElementById('categoryBar');
 
   function buildCategoryBar() {
-    catBar.innerHTML = '';
+    catBar.replaceChildren();
     categories.forEach(function(cat) {
-      var tab = document.createElement('span');
-      tab.className = 'cat-tab' + (cat.slug === 'all' ? ' active' : '');
+      var tab = document.createElement('button');
+      tab.type = 'button';
+      tab.className = 'cat-tab' + (cat.slug === 'featured' ? ' active' : '');
       tab.textContent = cat.label;
       tab.setAttribute('data-cat', cat.slug);
+      tab.setAttribute('aria-pressed', cat.slug === 'featured' ? 'true' : 'false');
       tab.addEventListener('click', function() {
         activateTab(tab);
         renderFeed(cat.slug, false);
-        // If switching away from featured, deactivate nav highlight
-        navFeatured.classList.remove('active');
+        navFeatured.classList.toggle('active', cat.slug === 'featured');
       });
       catBar.appendChild(tab);
       // "精选" tab comes from CATEGORIES data already, no need to insert manually
@@ -88,8 +106,12 @@
 
   function activateTab(tab) {
     var allTabs = document.querySelectorAll('.cat-tab');
-    for (var i = 0; i < allTabs.length; i++) allTabs[i].classList.remove('active');
+    for (var i = 0; i < allTabs.length; i++) {
+      allTabs[i].classList.remove('active');
+      allTabs[i].setAttribute('aria-pressed', 'false');
+    }
     tab.classList.add('active');
+    tab.setAttribute('aria-pressed', 'true');
   }
 
   // Header nav "精选" click → show featured items
@@ -139,34 +161,24 @@
     }
   }
 
-  function openLink(url) {
-    if (!url || url === '#') return;
-    window.open(url, '_blank', 'noopener');
-  }
-
   function createCard(item) {
-    var card = document.createElement('div');
+    var safeUrl = safeHttpUrl(item.sourceUrl);
+    var card = document.createElement(safeUrl ? 'a' : 'article');
     card.className = 'news-card';
-    card.setAttribute('role', 'link');
-    card.setAttribute('tabindex', '0');
-    card.style.cursor = 'pointer';
-
-    card.addEventListener('click', function(e) {
-      if (item.sourceUrl && item.sourceUrl !== '#') {
-        openLink(item.sourceUrl);
-      }
-    });
-
-    card.addEventListener('keydown', function(e) {
-      if (e.key === 'Enter' && item.sourceUrl && item.sourceUrl !== '#') {
-        openLink(item.sourceUrl);
-      }
-    });
+    if (safeUrl) {
+      card.href = safeUrl;
+      card.target = '_blank';
+      card.rel = 'noopener noreferrer';
+    } else {
+      card.classList.add('news-card-disabled');
+    }
 
     var catCfg = config[item.category] || {};
-    var tags = item.tags || [];
+    var allowedTagClasses = ['tag-regulatory', 'tag-products', 'tag-industry', 'tag-research', 'tag-insights'];
+    var tagClass = allowedTagClasses.indexOf(catCfg.tagClass) >= 0 ? catCfg.tagClass : '';
+    var tags = Array.isArray(item.tags) ? item.tags : [];
     var sourceTier = item.sourceTierLabel || item.sourceTier || '';
-    var why = item.why || [];
+    var why = Array.isArray(item.why) ? item.why : [];
     var scoreTitle = item.scoreBreakdown
       ? '相关性 ' + item.scoreBreakdown.relevance + '/25，权威性 ' + item.scoreBreakdown.authority + '/20，业务影响 ' + item.scoreBreakdown.impact + '/20，时效 ' + item.scoreBreakdown.recency + '/15，深度 ' + item.scoreBreakdown.depth + '/10，可行动性 ' + item.scoreBreakdown.actionability + '/10'
       : '';
@@ -186,7 +198,7 @@
       '<p class="card-summary">' + escapeHtml(item.summary || '') + '</p>' +
       (why.length ? '<div class="why-row">' + why.map(function(w) { return '<span class="why-chip">' + escapeHtml(w) + '</span>'; }).join('') + '</div>' : '') +
       '<div class="tag-row">' +
-        tags.map(function(t) { return '<span class="tag ' + (catCfg.tagClass || '') + '">' + t + '</span>'; }).join('') +
+        tags.map(function(t) { return '<span class="tag ' + tagClass + '">' + escapeHtml(t) + '</span>'; }).join('') +
       '</div>';
 
     return card;
@@ -202,7 +214,7 @@
 
   function renderFeed(filter, append) {
     if (!append) {
-      newsFeed.innerHTML = '';
+      newsFeed.replaceChildren();
       currentPage = 0;
       if (filter === 'all') {
         currentFiltered = data.items;
@@ -234,14 +246,18 @@
     }
 
     if (currentFiltered.length === 0) {
-      newsFeed.innerHTML = '<p style="color:var(--text-muted);text-align:center;padding:40px;">暂无相关资讯</p>';
+      var emptyMessage = document.createElement('p');
+      emptyMessage.className = 'empty-message';
+      emptyMessage.textContent = '暂无相关资讯';
+      newsFeed.replaceChildren(emptyMessage);
       countLabel.textContent = '';
     }
   }
 
-  // Default: show all on first load
-  renderFeed('all');
-  countLabel.textContent = data.items.length + ' 条';
+  // Default state matches the highlighted header navigation.
+  var initialTab = catBar.querySelector('.cat-tab[data-cat="featured"]');
+  if (initialTab) activateTab(initialTab);
+  renderFeed('featured');
 })();
 </script>
 

@@ -19,6 +19,11 @@ const {
   normalizeTitle,
   sortAndLimit,
 } = require('./core');
+const {
+  buildScenarioScores,
+  normalizeAIAnalysis,
+  stableItemId,
+} = require('./analysis');
 
 const UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36';
 // RSSHub instances — tried in order per route. First instance serving a FRESH feed wins.
@@ -424,6 +429,7 @@ function enrichItem(item) {
   item.sourceTierLabel = TIER_LABELS[src.tier] || '';
   item.evidenceType = item.evidenceType || src.evidenceType;
   item.discoveredVia = item.discoveredVia || 'RSSHub';
+  item.id = stableItemId(item);
   if (!item.scoreBreakdown || !item.why) {
     const scoreMeta = scoreItem(item, src);
     item.score = scoreMeta.score;
@@ -432,6 +438,7 @@ function enrichItem(item) {
     item.confidence = scoreMeta.confidence;
     item.why = scoreMeta.why;
   }
+  item.scenarioScores = buildScenarioScores(item);
   return item;
 }
 // === Content-based reclassification ===
@@ -602,21 +609,21 @@ async function generateAIAnalysisWithLLM(items, apiKey) {
     .slice(0, 20);
 
   const articlesText = topItems.map((item, i) =>
-    `[${i+1}] 标题: ${item.title}\n来源: ${item.sourceName}\n日期: ${(item.publishedAt || '').substring(0, 10)}\n分类: ${item.category}\n评分: ${item.score}\n摘要: ${(item.summary || '').substring(0, 80)}`
+    `[ID:${item.id}] 标题: ${item.title}\n来源: ${item.sourceName}\n日期: ${(item.publishedAt || '').substring(0, 10)}\n分类: ${item.category}\n评分: ${item.score}\n摘要: ${(item.summary || '').substring(0, 80)}`
   ).join('\n\n');
 
   // Weekly timeline: top 30 by score to keep context lean
-  const weeklyContext = items
+  const weeklyContext = [...items]
     .sort((a, b) => (b.score || 0) - (a.score || 0))
     .slice(0, 30)
-    .map(i => `[${(i.publishedAt || '').substring(0, 10)}] ${i.title}`)
+    .map(i => `[ID:${i.id}][${(i.publishedAt || '').substring(0, 10)}] ${i.title}`)
     .join('\n');
 
   // === Call 1: Lightweight — summaries, chains, matrix, trends (max_tokens: 2000) ===
   console.error('[llm] call 1/2: summary + trends...');
   const raw1 = await callLLM([
     { role: 'system', content: '你是金融保险资讯分析师。回答必须是合法的JSON格式，不要包含markdown标记或额外文字。' },
-    { role: 'user', content: `高分资讯（前20条）：\n${articlesText}\n\n=====\n近7天时间线（前30条）：\n${weeklyContext}\n\n=====\n生成JSON（topic≤48字，每板块2-3项，紧凑输出）：\n{\n  "dailySummary": { "highlights": ["核心1", "核心2", "核心3"] },\n  "eventChain": { "summary": "概述", "chains": [{ "title": "链标题", "nodes": ["A", "B"], "causalLink": "因果逻辑" }] },\n  "industryImpact": {\n    "quadrants": {\n      "insurance": { "level": "high|medium|low|none", "summary": "概述", "items": [{ "title": "新闻标题", "impact": "影响描述", "suggestion": "建议" }] },\n      "pe": { "level": "high|medium|low|none", "summary": "概述", "items": [{ "title": "新闻标题", "impact": "影响描述", "suggestion": "建议" }] },\n      "banking": { "level": "high|medium|low|none", "summary": "概述", "items": [{ "title": "新闻标题", "impact": "影响描述", "suggestion": "建议" }] },\n      "trust": { "level": "high|medium|low|none", "summary": "概述", "items": [{ "title": "新闻标题", "impact": "影响描述", "suggestion": "建议" }] }\n    }\n  },\n  "weeklyTrends": { "summary": "概述", "trends": [{ "topic": "主题", "direction": "上升|下降|平稳", "evidence": "证据" }] }\n}\n注意：industryImpact下各quadrant的items必须是对象数组，每个对象含title/impact/suggestion三个字符串字段，不可返回纯字符串。` },
+    { role: 'user', content: `高分资讯（前20条）：\n${articlesText}\n\n=====\n近7天时间线（前30条）：\n${weeklyContext}\n\n=====\n生成JSON（topic≤48字，每板块2-3项，紧凑输出）：\n{\n  "dailySummary": { "highlights": [{ "text": "核心1", "evidenceItemIds": ["news_xxx"] }] },\n  "eventChain": { "summary": "概述", "chains": [{ "title": "链标题", "nodes": ["A", "B"], "causalLink": "仅描述证据支持的关联", "evidenceItemIds": ["news_xxx"] }] },\n  "industryImpact": {\n    "quadrants": {\n      "insurance": { "level": "high|medium|low|none", "summary": "概述", "items": [{ "title": "新闻标题", "impact": "影响描述", "suggestion": "建议", "evidenceItemIds": ["news_xxx"] }] },\n      "pe": { "level": "high|medium|low|none", "summary": "概述", "items": [{ "title": "新闻标题", "impact": "影响描述", "suggestion": "建议", "evidenceItemIds": ["news_xxx"] }] },\n      "banking": { "level": "high|medium|low|none", "summary": "概述", "items": [{ "title": "新闻标题", "impact": "影响描述", "suggestion": "建议", "evidenceItemIds": ["news_xxx"] }] },\n      "trust": { "level": "high|medium|low|none", "summary": "概述", "items": [{ "title": "新闻标题", "impact": "影响描述", "suggestion": "建议", "evidenceItemIds": ["news_xxx"] }] }\n    }\n  },\n  "weeklyTrends": { "summary": "概述", "trends": [{ "topic": "主题", "direction": "上升|下降|平稳", "evidence": "证据", "evidenceItemIds": ["news_xxx"] }] }\n}\n注意：每个结论必须包含 evidenceItemIds，只能引用输入中明确提供的 news_ ID；不得虚构 ID。industryImpact 下各 quadrant 的 items 必须是对象数组，不可返回纯字符串。事件链只能表达多条原文共同支持的关联，不能把同媒体连续报道写成因果。` },
   ], apiKey, 2000);
 
   const parsed1 = extractJSON(raw1, { dailySummary: { highlights: [] }, eventChain: { summary: '生成失败', chains: [] }, industryImpact: { quadrants: {} }, weeklyTrends: { summary: '生成失败', trends: [] } });
@@ -625,7 +632,7 @@ async function generateAIAnalysisWithLLM(items, apiKey) {
   console.error('[llm] call 2/2: talking points...');
   const raw2 = await callLLM([
     { role: 'system', content: '你是金融保险资讯分析师，擅长将新闻转化为可直接使用的客户沟通话术。回答必须是合法的JSON格式，不要包含markdown标记或额外文字。' },
-    { role: 'user', content: `高分资讯：\n${articlesText}\n\n=====\n生成JSON（topic≤48字，每板块2-3条）：\n{\n  "insurancePlanner": { "summary": "概述", "talkingPoints": [{ "topic": "话题", "point": "沟通要点", "action": "建议行动" }] },\n  "peOperations": { "summary": "概述", "talkingPoints": [{ "topic": "话题", "point": "运营参考", "action": "建议行动" }] },\n  "marketOutlook": { "summary": "概述", "outlooks": [{ "topic": "话题", "content": "市场展望" }] }\n}\n要求：话术直接可用于客户沟通场景，action具体可执行，无相关内容则数组为空。` },
+    { role: 'user', content: `高分资讯：\n${articlesText}\n\n=====\n生成JSON（topic≤48字，每板块2-3条）：\n{\n  "insurancePlanner": { "summary": "概述", "talkingPoints": [{ "topic": "话题", "point": "沟通要点", "action": "建议行动", "evidenceItemIds": ["news_xxx"] }] },\n  "peOperations": { "summary": "概述", "talkingPoints": [{ "topic": "话题", "point": "运营参考", "action": "建议行动", "evidenceItemIds": ["news_xxx"] }] },\n  "marketOutlook": { "summary": "概述", "outlooks": [{ "topic": "话题", "content": "市场展望", "evidenceItemIds": ["news_xxx"] }] }\n}\n要求：每项必须包含 evidenceItemIds，只能引用输入中提供的 news_ ID，不得虚构；话术仅作为内部沟通参考，不得写收益承诺，无相关内容则数组为空。` },
   ], apiKey, 1500);
 
   const parsed2 = extractJSON(raw2, { insurancePlanner: { summary: '生成失败', talkingPoints: [] }, peOperations: { summary: '生成失败', talkingPoints: [] }, marketOutlook: { summary: '生成失败', outlooks: [] } });
@@ -643,19 +650,21 @@ async function generateAIAnalysisWithLLM(items, apiKey) {
 
 async function generateAIAnalysisWithFallback(items) {
   const apiKey = process.env.DEEPSEEK_API_KEY;
+  const ruleBased = generateAIAnalysis(items);
   if (apiKey) {
     try {
       console.error('[llm] generating AI analysis with SenseNova API...');
       const result = await generateAIAnalysisWithLLM(items, apiKey);
-      console.error('[llm] AI analysis generated successfully');
-      return result;
+      const normalized = normalizeAIAnalysis(result, items, ruleBased, 'llm');
+      console.error('[llm] AI analysis generated and evidence-validated successfully');
+      return normalized;
     } catch (e) {
       console.error(`[llm] LLM all calls failed: ${e.message}, falling back to rule-based`);
     }
   } else {
     console.error('[llm] DEEPSEEK_API_KEY not set, using rule-based analysis');
   }
-  return generateAIAnalysis(items);
+  return normalizeAIAnalysis(ruleBased, items, ruleBased, 'rules');
 }
 
 function hasText(text, keywords) {
@@ -692,6 +701,7 @@ function generateInsuranceAnalysis(items) {
       topic: (item.title || '').substring(0, 48),
       point: tpl.point,
       action: tpl.action,
+      evidenceItemIds: [item.id],
     };
   });
   return {
@@ -721,6 +731,7 @@ function generatePEAnalysis(items) {
       topic: (item.title || '').substring(0, 48),
       point: tpl.point,
       action: tpl.action,
+      evidenceItemIds: [item.id],
     };
   });
   return {
@@ -742,6 +753,7 @@ function generateMarketOutlook(items) {
       outlooks: [{
         topic: '资讯概览',
         content: '今日资讯聚焦行业微观动态，宏观层面信号不多，建议结合近期政策主线做趋势判断',
+        evidenceItemIds: items.slice(0, 3).map(item => item.id),
       }],
     };
   }
@@ -761,7 +773,7 @@ function generateMarketOutlook(items) {
     } else if (hasText(text, ['财政', '专项债', '发债'])) {
       content = '财政政策发力影响基建投资和信用扩张节奏，关注配套政策的落地效果';
     }
-    return { topic: (item.title || '').substring(0, 48), content };
+    return { topic: (item.title || '').substring(0, 48), content, evidenceItemIds: [item.id] };
   });
   return {
     summary: `今日 ${macroItems.length} 条宏观经济/政策相关资讯`,
@@ -771,57 +783,32 @@ function generateMarketOutlook(items) {
 
 // === Rule-based fallback: daily highlights ===
 function generateDailyHighlights(items) {
-  if (items.length === 0) return { highlights: ['暂无资讯数据'] };
+  if (items.length === 0) return { highlights: [] };
   const sorted = [...items].sort((a, b) => (b.score || 0) - (a.score || 0));
-  const highlights = sorted.slice(0, 4).map(item =>
-    `[${item.score}] ${item.title} — ${(item.summary || '').substring(0, 60)}`
-  );
+  const highlights = sorted.slice(0, 4).map(item => ({
+    text: `[${item.score}] ${item.title} — ${(item.summary || '').substring(0, 60)}`,
+    evidenceItemIds: [item.id],
+  }));
   return { highlights };
 }
 
-// === Rule-based fallback: event chains ===
+// === Rule-based fallback: evidence-backed event associations ===
 function generateEventChains(items) {
-  if (items.length < 3) return { summary: '暂无足够数据进行关联分析', chains: [] };
-  // Group by source, pick top-2 sources with most items
-  const sourceCount = {};
-  for (const i of items) {
-    sourceCount[i.sourceName] = (sourceCount[i.sourceName] || 0) + 1;
-  }
-  const topSources = Object.entries(sourceCount)
-    .sort((a, b) => b[1] - a[1])
-    .slice(0, 3)
-    .map(([name]) => name);
-
-  const chains = [];
-  for (const src of topSources) {
-    const srcItems = items.filter(i => i.sourceName === src).slice(0, 5);
-    if (srcItems.length < 2) continue;
-    chains.push({
-      title: `${src}连续报道`,
-      nodes: srcItems.map(i => i.title.substring(0, 40)),
-      causalLink: '同一信源当日连续性报道，反映该领域密集动态',
-    });
-  }
-  // Cross-source chain: regulatory or macro clustering
-  const regulatoryItems = items.filter(i => i.category === 'regulatory').slice(0, 3);
-  const macroItems = items.filter(i => i.category === 'industry' && hasText(i.title + ' ' + (i.summary || ''), ['央行', '降息', '利率', 'LPR', 'MLF', 'GDP', 'CPI'])).slice(0, 3);
-  if (regulatoryItems.length >= 2) {
-    chains.push({
-      title: '监管政策密集发布',
-      nodes: regulatoryItems.map(i => i.title.substring(0, 40)),
-      causalLink: '多源同步报道监管动态，政策信号集中释放',
-    });
-  }
-  if (macroItems.length >= 2) {
-    chains.push({
-      title: '宏观经济数据/政策跟踪',
-      nodes: macroItems.map(i => i.title.substring(0, 40)),
-      causalLink: '宏观基本面信号集中披露，市场关注度上升',
-    });
-  }
+  const clusters = require('./analysis').clusterEvents(items);
+  if (clusters.length === 0) return { summary: '暂无足够的跨资讯证据进行事件关联分析', chains: [] };
   return {
-    summary: `基于 ${items.length} 条资讯自动识别 ${chains.length} 条事件链`,
-    chains,
+    summary: `基于标题主题相似度和来源层级识别 ${clusters.length} 组关联事件；仅表示内容相关，不代表已确认因果`,
+    chains: clusters.slice(0, 5).map(cluster => {
+      const related = cluster.evidenceItemIds
+        .map(id => items.find(item => item.id === id))
+        .filter(Boolean);
+      return {
+        title: cluster.title,
+        nodes: related.map(item => (item.title || '').substring(0, 60)),
+        causalLink: '多条原文围绕同一主题形成交叉印证；具体因果关系需以原始披露和后续事实为准',
+        evidenceItemIds: cluster.evidenceItemIds,
+      };
+    }),
   };
 }
 
@@ -845,6 +832,7 @@ function generateIndustryImpact(items) {
         title: (i.title || '').substring(0, 48),
         impact: hasText(i.title + ' ' + (i.summary || ''), ['监管', '新规', '处罚', '偿付能力']) ? '监管层面影响，需评估合规应对' : '行业动态，适合客户沟通素材',
         suggestion: i.score >= 80 ? '重点关注，纳入今日客户沟通议题' : '持续跟踪，视客户情况选择性沟通',
+        evidenceItemIds: [i.id],
       })),
     };
   }
@@ -859,6 +847,7 @@ function generateIndustryImpact(items) {
         title: (i.title || '').substring(0, 48),
         impact: hasText(i.title + ' ' + (i.summary || ''), ['监管', '合规', '备案']) ? '监管合规层面影响，需更新运营流程' : hasText(i.title + ' ' + (i.summary || ''), ['市场', '行情', '波动', '收益', '净值']) ? '市场表现影响，可用于投资人沟通' : '行业生态变化，关注中长期趋势',
         suggestion: i.score >= 80 ? '优先阅读原文，评估影响范围' : '简要了解，视情况纳入周报',
+        evidenceItemIds: [i.id],
       })),
     };
   }
@@ -873,6 +862,7 @@ function generateIndustryImpact(items) {
         title: (i.title || '').substring(0, 48),
         impact: hasText(i.title + ' ' + (i.summary || ''), ['降息', '降准', 'LPR']) ? '货币政策信号，影响资产定价和配置策略' : '银行经营动态，关注对信用风险的传导',
         suggestion: hasText(i.title + ' ' + (i.summary || ''), ['降息', '降准']) ? '评估利率变动对固收类产品的影响，及时调整建议' : '持续跟踪，关注对行业整体信用环境的边际影响',
+        evidenceItemIds: [i.id],
       })),
     };
   }
@@ -887,11 +877,20 @@ function generateIndustryImpact(items) {
         title: (i.title || '').substring(0, 48),
         impact: hasText(i.title + ' ' + (i.summary || ''), ['监管', '新规', '办法']) ? '监管政策调整，需重新评估合规方案' : '行业发展动态，关注业务机会',
         suggestion: '视相关内容与自身业务关联度决定优先级',
+        evidenceItemIds: [i.id],
       })),
     };
   }
 
   return { quadrants };
+}
+
+function matchingEvidenceIds(items, keywords, maxItems) {
+  return items
+    .filter(item => !keywords || hasText(item.title + ' ' + (item.summary || ''), keywords))
+    .sort((a, b) => (b.score || 0) - (a.score || 0))
+    .slice(0, maxItems || 3)
+    .map(item => item.id);
 }
 
 // === Rule-based fallback: weekly trends ===
@@ -928,6 +927,7 @@ function generateWeeklyTrends(items) {
       topic: '监管政策密集度上升',
       direction: '上升',
       evidence: `今日 ${catCount.regulatory} 条监管类资讯，监管层信号集中释放，关注政策落地节奏`,
+      evidenceItemIds: items.filter(item => item.category === 'regulatory').slice(0, 3).map(item => item.id),
     });
   }
   if (catCount.industry && catCount.industry >= 6) {
@@ -935,6 +935,7 @@ function generateWeeklyTrends(items) {
       topic: '行业动态活跃',
       direction: '平稳',
       evidence: `今日 ${catCount.industry} 条行业动态资讯，行业层面信息充分，涉及多家机构/产品`,
+      evidenceItemIds: items.filter(item => item.category === 'industry').slice(0, 3).map(item => item.id),
     });
   }
 
@@ -944,6 +945,7 @@ function generateWeeklyTrends(items) {
       topic: '货币政策信号',
       direction: keywordHits.monetary >= 4 ? '上升' : '平稳',
       evidence: `出现 ${keywordHits.monetary} 次货币政策相关关键词，关注利率/流动性走向`,
+      evidenceItemIds: matchingEvidenceIds(items, TREND_KEYWORDS.monetary, 3),
     });
   }
   if (keywordHits.insurance && keywordHits.insurance >= 3) {
@@ -951,6 +953,7 @@ function generateWeeklyTrends(items) {
       topic: '保险行业关注度',
       direction: keywordHits.insurance >= 6 ? '上升' : '平稳',
       evidence: `出现 ${keywordHits.insurance} 条保险相关资讯，覆盖监管/市场/产品多维度`,
+      evidenceItemIds: matchingEvidenceIds(items, TREND_KEYWORDS.insurance, 3),
     });
   }
   if (keywordHits.market && keywordHits.market >= 4) {
@@ -958,6 +961,7 @@ function generateWeeklyTrends(items) {
       topic: '市场行情波动',
       direction: '上升',
       evidence: `出现 ${keywordHits.market} 条市场行情相关资讯，市场关注度提升`,
+      evidenceItemIds: matchingEvidenceIds(items, TREND_KEYWORDS.market, 3),
     });
   }
   if (keywordHits.realestate && keywordHits.realestate >= 2) {
@@ -965,6 +969,7 @@ function generateWeeklyTrends(items) {
       topic: '房地产政策动向',
       direction: '平稳',
       evidence: `出现 ${keywordHits.realestate} 条地产相关资讯，政策边际变化值得关注`,
+      evidenceItemIds: matchingEvidenceIds(items, TREND_KEYWORDS.realestate, 3),
     });
   }
 
@@ -975,12 +980,18 @@ function generateWeeklyTrends(items) {
       topic: '信源覆盖度',
       direction: '平稳',
       evidence: `覆盖 ${uniqueSources} 个信源，信息维度较全面`,
+      evidenceItemIds: items.slice(0, 3).map(item => item.id),
     });
   }
 
   return {
     summary: `今日 ${items.length} 条资讯，覆盖 ${Object.keys(catCount).length} 个分类、${uniqueSources} 个信源`,
-    trends: trends.length > 0 ? trends.slice(0, 5) : [{ topic: '资讯结构稳定', direction: '平稳', evidence: '今日资讯未形成明显趋势信号，建议结合多日数据做趋势判断' }],
+    trends: trends.length > 0 ? trends.slice(0, 5) : [{
+      topic: '资讯结构稳定',
+      direction: '平稳',
+      evidence: '今日资讯未形成明显趋势信号，建议结合多日数据做趋势判断',
+      evidenceItemIds: items.slice(0, 3).map(item => item.id),
+    }],
   };
 }
 
@@ -1060,7 +1071,10 @@ async function main() {
 
   allItems.forEach(enrichItem);
   allItems.forEach(reclassifyCategory);
-  allItems.forEach((item, idx) => { item.id = String(idx + 1); });
+  allItems.forEach(item => {
+    item.id = stableItemId(item);
+    item.scenarioScores = buildScenarioScores(item);
+  });
 
   assertDataQuality(allItems);
 

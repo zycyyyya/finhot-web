@@ -40,15 +40,24 @@ assert.deepStrictEqual(sorted.map(item => item.title), ['new', 'middle']);
 assert.strictEqual(beijingDateString(new Date('2026-07-30T16:30:00Z')), '2026-07-31');
 
 const validItem = {
+  id: 'news_a1b2c3d4e5f6',
   title: '中国人民银行发布金融数据通知',
   sourceUrl: 'https://example.com/news/1',
   category: 'regulatory',
   publishedAt: '2026-07-30T08:00:00Z',
   summary: '正常摘要',
+  scenarioScores: {
+    insurance: { score: 10, reasons: ['弱相关'] },
+    marketEducation: { score: 80, reasons: ['核心主题'] },
+    privateFundSales: { score: 60, reasons: ['关联主题'] },
+  },
 };
 assert.deepStrictEqual(qualityErrors([validItem]), []);
 assert.ok(qualityErrors([{ ...validItem, sourceUrl: 'javascript:alert(1)' }]).some(e => e.includes('sourceUrl')));
 assert.ok(qualityErrors([{ ...validItem, title: '盘前��读' }]).some(e => e.includes('corrupted')));
 assert.ok(qualityErrors([validItem, { ...validItem }]).some(e => e.includes('duplicate URL')));
+assert.ok(qualityErrors([{ ...validItem, id: '1' }]).some(e => e.includes('stable ID')));
+assert.ok(qualityErrors([validItem, { ...validItem, sourceUrl: 'https://example.com/news/2' }]).some(e => e.includes('duplicate stable ID')));
+assert.ok(qualityErrors([{ ...validItem, scenarioScores: null }]).some(e => e.includes('scenarioScores')));
 
 console.log('core tests passed');

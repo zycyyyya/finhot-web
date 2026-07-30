@@ -50,6 +50,7 @@ function sortAndLimit(items, maxItems) {
 function qualityErrors(items) {
   const errors = [];
   const seenUrls = new Set();
+  const seenIds = new Set();
 
   items.forEach((item, index) => {
     const prefix = `items[${index}]`;
@@ -59,6 +60,13 @@ function qualityErrors(items) {
     }
     if (typeof item.title !== 'string' || item.title.trim().length < 4) {
       errors.push(`${prefix}.title: missing or too short`);
+    }
+    if (typeof item.id !== 'string' || !/^news_[a-f0-9]{12}$/.test(item.id)) {
+      errors.push(`${prefix}.id: invalid stable ID`);
+    } else if (seenIds.has(item.id)) {
+      errors.push(`${prefix}.id: duplicate stable ID`);
+    } else {
+      seenIds.add(item.id);
     }
     if (!isSafeHttpUrl(item.sourceUrl)) {
       errors.push(`${prefix}.sourceUrl: unsafe or invalid URL`);
@@ -75,6 +83,13 @@ function qualityErrors(items) {
     }
     if (containsCorruptedText(item.title) || containsCorruptedText(item.summary || '')) {
       errors.push(`${prefix}: corrupted replacement characters detected`);
+    }
+    const scenarioKeys = ['insurance', 'marketEducation', 'privateFundSales'];
+    if (!item.scenarioScores || scenarioKeys.some(key => {
+      const value = item.scenarioScores[key];
+      return !value || !Number.isFinite(value.score) || value.score < 0 || value.score > 100 || !Array.isArray(value.reasons);
+    })) {
+      errors.push(`${prefix}.scenarioScores: invalid or incomplete`);
     }
   });
 

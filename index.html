@@ -185,6 +185,19 @@
     var scoreBadge = item.score >= featuredThreshold
       ? '<span class="card-score card-score-featured" title="' + escapeHtml(scoreTitle) + '">' + escapeHtml(item.scoreLabel || '从业价值') + ' ' + item.score + '</span>'
       : '<span class="card-score" title="' + escapeHtml(scoreTitle) + '">' + escapeHtml(item.scoreLabel || '从业价值') + ' ' + item.score + '</span>';
+    var scenarioScores = item.scenarioScores || {};
+    var scenarioLabels = [
+      ['insurance', '保险'],
+      ['marketEducation', '投教'],
+      ['privateFundSales', '私募']
+    ];
+    var scenarioBadges = scenarioLabels.map(function(pair) {
+      var value = scenarioScores[pair[0]];
+      if (!value || typeof value.score !== 'number') return '';
+      var reasons = Array.isArray(value.reasons) ? value.reasons.join('；') : '';
+      var className = value.score >= 70 ? 'scenario-score scenario-score-high' : 'scenario-score';
+      return '<span class="' + className + '" title="' + escapeHtml(reasons) + '">' + pair[1] + ' ' + value.score + '</span>';
+    }).join('');
 
     card.innerHTML =
       '<div class="card-meta">' +
@@ -196,6 +209,7 @@
       '</div>' +
       '<h2 class="card-title">' + escapeHtml(item.title || '') + '</h2>' +
       '<p class="card-summary">' + escapeHtml(item.summary || '') + '</p>' +
+      (scenarioBadges ? '<div class="scenario-score-row">' + scenarioBadges + '</div>' : '') +
       (why.length ? '<div class="why-row">' + why.map(function(w) { return '<span class="why-chip">' + escapeHtml(w) + '</span>'; }).join('') + '</div>' : '') +
       '<div class="tag-row">' +
         tags.map(function(t) { return '<span class="tag ' + tagClass + '">' + escapeHtml(t) + '</span>'; }).join('') +

@@ -48,6 +48,33 @@
       .replace(/'/g, '&#39;');
   }
 
+  function safeHttpUrl(value) {
+    if (typeof value !== 'string' || !value.trim()) return '';
+    try {
+      var parsed = new URL(value, window.location.href);
+      return parsed.protocol === 'http:' || parsed.protocol === 'https:' ? parsed.href : '';
+    } catch (e) {
+      return '';
+    }
+  }
+
+  var itemById = {};
+  (data && Array.isArray(data.items) ? data.items : []).forEach(function(item) {
+    if (item && item.id) itemById[item.id] = item;
+  });
+
+  function renderEvidence(ids) {
+    var safeIds = Array.isArray(ids) ? ids.slice(0, 3) : [];
+    var links = safeIds.map(function(id) {
+      var item = itemById[id];
+      var href = item ? safeHttpUrl(item.sourceUrl) : '';
+      if (!item || !href) return '';
+      return '<a class="evidence-link" href="' + escapeHtml(href) + '" target="_blank" rel="noopener noreferrer">' + escapeHtml(item.sourceName || '原文') + '：' + escapeHtml((item.title || '').substring(0, 36)) + '</a>';
+    }).filter(Boolean);
+    if (links.length === 0) return '<div class="evidence-empty">未绑定原文依据</div>';
+    return '<div class="evidence-box"><span class="evidence-label">原文依据</span>' + links.join('') + '</div>';
+  }
+
   if (!data || !data.aiAnalysis) {
     document.getElementById('reportDate').textContent = '数据加载失败';
     document.getElementById('reportLead').textContent = '日报数据不可用，请稍后刷新页面。';
@@ -70,7 +97,9 @@
     }
     var html = '<div class="daily-highlights">';
     highlights.forEach(function(h) {
-      html += '<div class="daily-highlight-item"><span class="highlight-dot"></span><span>' + escapeHtml(h) + '</span></div>';
+      var highlightText = typeof h === 'string' ? h : (h && h.text ? h.text : '');
+      var highlightEvidence = h && typeof h === 'object' ? h.evidenceItemIds : [];
+      html += '<div class="daily-highlight-item"><span class="highlight-dot"></span><div><span>' + escapeHtml(highlightText) + '</span>' + renderEvidence(highlightEvidence) + '</div></div>';
     });
     html += '</div>';
     document.getElementById('dailySummaryArea').innerHTML = html;
@@ -162,6 +191,7 @@
           });
           html += '  </div>';
           html += '  <div class="event-chain-causal">' + escapeHtml(chain.causalLink || '') + '</div>';
+          html += renderEvidence(chain.evidenceItemIds);
           html += '</div>';
         });
         html += '  </div>';
@@ -209,6 +239,7 @@
                 html += '  <div class="impact-item-title"><strong>' + escapeHtml(it.title || '') + '</strong></div>';
                 if (it.impact) html += '  <div class="impact-item-impact">影响：' + escapeHtml(it.impact) + '</div>';
                 if (it.suggestion) html += '  <div class="impact-item-suggestion">建议：' + escapeHtml(it.suggestion) + '</div>';
+                html += renderEvidence(it.evidenceItemIds);
                 html += '</li>';
               }
             });
@@ -243,6 +274,7 @@
           html += '    <span style="font-size:14px;font-weight:600;color:var(--text-primary);">' + escapeHtml(trend.topic || '') + '</span>';
           html += '  </div>';
           html += '  <div class="weekly-trend-evidence">' + escapeHtml(trend.evidence || '') + '</div>';
+          html += renderEvidence(trend.evidenceItemIds);
           html += '</div>';
         });
         html += '  </div>';
@@ -271,6 +303,7 @@
           if (action) {
             html += '  <div class="ai-point-action"><span class="ai-action-label">建议行动</span>' + action + '</div>';
           }
+          html += renderEvidence(item.evidenceItemIds);
           html += '</div>';
         });
 

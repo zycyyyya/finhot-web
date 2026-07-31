@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-07-31T02:35:11.162Z",
+  "generatedAt": "2026-07-31T02:43:30.494Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -8,7 +8,7 @@
       "eventId": "event_e19822419452",
       "title": "国家统计局：7月份中国采购经理指数有所回落",
       "firstSeenAt": "2026-07-31T02:27:13.623Z",
-      "lastSeenAt": "2026-07-31T02:35:11.162Z",
+      "lastSeenAt": "2026-07-31T02:43:30.494Z",
       "primaryItemId": "news_1e1eb7294fe1",
       "evidenceItemIds": [
         "news_1e1eb7294fe1",
@@ -19,13 +19,14 @@
     },
     {
       "eventId": "event_46bb74f23205",
-      "title": "国家统计局：7月制造业PMI为49.2%",
+      "title": "国家统计局：7月PMI为49.2% 比上月下降1.1个百分点",
       "firstSeenAt": "2026-07-31T02:27:13.623Z",
-      "lastSeenAt": "2026-07-31T02:35:11.162Z",
-      "primaryItemId": "news_aec6cbc95654",
+      "lastSeenAt": "2026-07-31T02:43:30.494Z",
+      "primaryItemId": "news_608f31868d76",
       "evidenceItemIds": [
         "news_aec6cbc95654",
-        "news_cfea1d75eb52"
+        "news_cfea1d75eb52",
+        "news_608f31868d76"
       ],
       "status": "developing"
     },
@@ -33,7 +34,7 @@
       "eventId": "event_d0a4f7f6abd4",
       "title": "A股三大指数集体高开，创业板指涨逾5%",
       "firstSeenAt": "2026-07-31T02:27:13.623Z",
-      "lastSeenAt": "2026-07-31T02:35:11.162Z",
+      "lastSeenAt": "2026-07-31T02:43:30.494Z",
       "primaryItemId": "news_69277baadba1",
       "evidenceItemIds": [
         "news_69277baadba1",
@@ -45,7 +46,7 @@
       "eventId": "event_98e117d09619",
       "title": "滚动更新丨韩国KOSPI指数日内暴涨15%，SK海力士涨超26%",
       "firstSeenAt": "2026-07-31T02:27:13.623Z",
-      "lastSeenAt": "2026-07-31T02:35:11.162Z",
+      "lastSeenAt": "2026-07-31T02:43:30.494Z",
       "primaryItemId": "news_1b9ca1fe3217",
       "evidenceItemIds": [
         "news_1b9ca1fe3217",
@@ -57,7 +58,7 @@
       "eventId": "event_dafb26c31c48",
       "title": "“适时调整”的内涵",
       "firstSeenAt": "2026-07-31T02:27:13.623Z",
-      "lastSeenAt": "2026-07-31T02:35:11.162Z",
+      "lastSeenAt": "2026-07-31T02:43:30.494Z",
       "primaryItemId": "news_3ca3918499be",
       "evidenceItemIds": [
         "news_3ca3918499be",
@@ -69,7 +70,7 @@
       "eventId": "event_944d31548386",
       "title": "受进口猛增拖累 美国二季度GDP环比增长1.5%",
       "firstSeenAt": "2026-07-31T02:27:13.623Z",
-      "lastSeenAt": "2026-07-31T02:35:11.162Z",
+      "lastSeenAt": "2026-07-31T02:43:30.494Z",
       "primaryItemId": "news_a2920805de34",
       "evidenceItemIds": [
         "news_a2920805de34",
@@ -81,7 +82,7 @@
       "eventId": "event_a56bdf6448cd",
       "title": "政治局会议: 发力提效的几个信号",
       "firstSeenAt": "2026-07-31T02:27:13.623Z",
-      "lastSeenAt": "2026-07-31T02:35:11.162Z",
+      "lastSeenAt": "2026-07-31T02:43:30.494Z",
       "primaryItemId": "news_bbf70ca049cf",
       "evidenceItemIds": [
         "news_bbf70ca049cf",
@@ -93,11 +94,143 @@
       "eventId": "event_ae80fea7e120",
       "title": "北森控股(09669)7月30日斥资62.83万港元回购20万股",
       "firstSeenAt": "2026-07-31T02:27:13.623Z",
-      "lastSeenAt": "2026-07-31T02:35:11.162Z",
+      "lastSeenAt": "2026-07-31T02:43:30.494Z",
       "primaryItemId": "news_b22af70834e0",
       "evidenceItemIds": [
         "news_b22af70834e0",
         "news_c64fd5d8ca3b"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_63eddee6efd8",
+      "title": "财经早知道｜中共中央政治局：深化投融资综合改革 提升资本市场韧性和信心",
+      "firstSeenAt": "2026-07-31T02:43:30.494Z",
+      "lastSeenAt": "2026-07-31T02:43:30.494Z",
+      "primaryItemId": "news_2a37bfb53074",
+      "evidenceItemIds": [
+        "news_2a37bfb53074",
+        "news_02f7ff4d6ae8"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_a70cbef2f697",
+      "title": "韩国拟向主权财富基金注资140亿美元，押注AI与数据中心",
+      "firstSeenAt": "2026-07-31T02:43:30.494Z",
+      "lastSeenAt": "2026-07-31T02:43:30.494Z",
+      "primaryItemId": "news_7aa9ca76df9d",
+      "evidenceItemIds": [
+        "news_7aa9ca76df9d",
+        "news_07ff01899efc"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_529af3584dc2",
+      "title": "恒指收涨0.2%，恒生科技指数跌1.25%",
+      "firstSeenAt": "2026-07-31T02:43:30.494Z",
+      "lastSeenAt": "2026-07-31T02:43:30.494Z",
+      "primaryItemId": "news_1dd2743eb007",
+      "evidenceItemIds": [
+        "news_1dd2743eb007",
+        "news_af1364619b24"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_67c8637246d3",
+      "title": "VF威富集团：2027财年第一季度营收16.69亿美元，同比增长1%",
+      "firstSeenAt": "2026-07-31T02:43:30.494Z",
+      "lastSeenAt": "2026-07-31T02:43:30.494Z",
+      "primaryItemId": "news_958b9ad21508",
+      "evidenceItemIds": [
+        "news_958b9ad21508",
+        "news_01db26bd0047"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_ad804fc21cde",
+      "title": "中研股份(688716.SH)拟5000万元至1亿元回购股份",
+      "firstSeenAt": "2026-07-31T02:43:30.494Z",
+      "lastSeenAt": "2026-07-31T02:43:30.494Z",
+      "primaryItemId": "news_4a997a5be7c9",
+      "evidenceItemIds": [
+        "news_4a997a5be7c9",
+        "news_89ea161de78a"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_39b5734bfd24",
+      "title": "太平鸟：上半年净利润1.02亿元，同比增长30.89%",
+      "firstSeenAt": "2026-07-31T02:43:30.494Z",
+      "lastSeenAt": "2026-07-31T02:43:30.494Z",
+      "primaryItemId": "news_4b97eac4af23",
+      "evidenceItemIds": [
+        "news_4b97eac4af23",
+        "news_7310dc7190ba"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_b451a9c672f6",
+      "title": "五角大楼拟购约1700亿美元导弹和核潜艇",
+      "firstSeenAt": "2026-07-31T02:43:30.494Z",
+      "lastSeenAt": "2026-07-31T02:43:30.494Z",
+      "primaryItemId": "news_703553b8b570",
+      "evidenceItemIds": [
+        "news_703553b8b570",
+        "news_b855ea86a7e0"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_54561251b8e8",
+      "title": "中际旭创港股首日“破发”，主因发行价太贵？｜市场观察",
+      "firstSeenAt": "2026-07-31T02:43:30.494Z",
+      "lastSeenAt": "2026-07-31T02:43:30.494Z",
+      "primaryItemId": "news_01d33e28caa8",
+      "evidenceItemIds": [
+        "news_01d33e28caa8",
+        "news_d7b86f5fcbb7"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_f29673abea85",
+      "title": "天赐材料在山东成立新公司，注册资本1.5亿",
+      "firstSeenAt": "2026-07-31T02:43:30.494Z",
+      "lastSeenAt": "2026-07-31T02:43:30.494Z",
+      "primaryItemId": "news_e5ffea4c7fbe",
+      "evidenceItemIds": [
+        "news_e5ffea4c7fbe",
+        "news_4cda31d4402c"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_0737eac2cabb",
+      "title": "连板股追踪丨A股今日共56只个股涨停 明新旭腾4连板",
+      "firstSeenAt": "2026-07-31T02:43:30.494Z",
+      "lastSeenAt": "2026-07-31T02:43:30.494Z",
+      "primaryItemId": "news_cf2b97a75d61",
+      "evidenceItemIds": [
+        "news_cf2b97a75d61",
+        "news_6b2b1bbc6628"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_82b03f8ac874",
+      "title": "商务部介绍近期中欧密集磋商进展：就“稳定、平衡的中欧关键贸易伙伴”新定位达成共识",
+      "firstSeenAt": "2026-07-31T02:43:30.494Z",
+      "lastSeenAt": "2026-07-31T02:43:30.494Z",
+      "primaryItemId": "news_336aeb0a3766",
+      "evidenceItemIds": [
+        "news_336aeb0a3766",
+        "news_4f6e9fe1a44c"
       ],
       "status": "developing"
     }

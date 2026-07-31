@@ -116,7 +116,9 @@ function preferredMain(a, b) {
   return at >= bt ? a : b;
 }
 
-function clusterEvents(items) {
+function clusterEvents(items, options) {
+  const settings = options || {};
+  const maxClusters = Number.isInteger(settings.maxClusters) && settings.maxClusters > 0 ? settings.maxClusters : 10;
   const prepared = items.filter(item => item && item.id && item.title).map(item => ({ item, tokens: eventTokens(item) }));
   const visited = new Set();
   const clusters = [];
@@ -145,7 +147,7 @@ function clusterEvents(items) {
       evidenceItemIds: [main.id, ...relatedItemIds].slice(0, 5),
     });
   }
-  return clusters.slice(0, 10);
+  return clusters.slice(0, maxClusters);
 }
 
 function text(value, maxLength, fallback) {
@@ -164,7 +166,7 @@ function normalizeList(value, maxItems, normalizeItem, fallback) {
   return value.slice(0, maxItems).map(normalizeItem).filter(Boolean);
 }
 
-function normalizeAIAnalysis(result, items, fallback, generatedBy) {
+function normalizeAIAnalysis(result, items, fallback, generatedBy, eventClusters) {
   const source = result && typeof result === 'object' ? result : {};
   const safeFallback = fallback && typeof fallback === 'object' ? fallback : {};
   const validIds = new Set(items.map(item => item.id));
@@ -196,7 +198,7 @@ function normalizeAIAnalysis(result, items, fallback, generatedBy) {
   return {
     schemaVersion: '2.0',
     generatedBy: generatedBy === 'llm' ? 'llm' : 'rules',
-    eventClusters: clusterEvents(items),
+    eventClusters: Array.isArray(eventClusters) ? eventClusters.slice(0, 10) : clusterEvents(items),
     dailySummary: {
       highlights: normalizeList(daily.highlights, 4, entry => {
         if (typeof entry === 'string') {

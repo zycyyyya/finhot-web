@@ -13,15 +13,18 @@ function percent(value) {
 function buildMarkdown(report) {
   const summary = report && report.summary ? report.summary : {};
   const ai = report && report.ai ? report.ai : {};
+  const trigger = report && report.trigger ? report.trigger : {};
+  const counts = report && report.itemCounts ? report.itemCounts : {};
   const lines = [
     '## finhot 数据更新诊断',
     '',
     `- 发布结果：${report && report.published ? '已通过质量门并生成数据' : '未发布，已保留上一版数据'}`,
+    `- 触发方式：${trigger.event || 'unknown'}${trigger.schedule ? `（cron ${trigger.schedule}）` : ''}${trigger.runId ? `；Run ${trigger.runId}` : ''}`,
     `- 来源状态：${summary.status || 'unknown'}`,
     `- 来源覆盖率：${percent(summary.coverageRate)}（可用 ${summary.usableSources || 0}/${summary.totalSources || 0}）`,
-    `- 失败来源：${summary.failedSources || 0}；陈旧来源：${summary.staleSources || 0}`,
-    `- 候选资讯：${report && report.itemCounts ? report.itemCounts.candidate : 0} 条；新增：${report && report.itemCounts ? report.itemCounts.new : 0} 条`,
-    `- AI Key：${ai.keyConfigured ? '已注入' : '未注入'}；实际生成：${ai.generatedBy || '未执行'}`,
+    `- 失败来源：${summary.failedSources || 0}；陈旧来源：${summary.staleSources || 0}；抓取触顶：${summary.fetchLimitReachedSources || 0}`,
+    `- 候选资讯：${counts.candidate || 0} 条；前台：${counts.frontend || 0} 条；新增：${counts.new || 0} 条；历史证据：${counts.history || 0} 条；事件：${counts.events || 0} 个`,
+    `- AI Key：${ai.keyConfigured ? '已注入' : '未注入'}；分析状态：${ai.generatedBy || '未执行'}`,
   ];
   const errors = report && Array.isArray(report.gateErrors) ? report.gateErrors : [];
   if (errors.length > 0) {

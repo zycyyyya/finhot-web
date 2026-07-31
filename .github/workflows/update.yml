@@ -3,7 +3,12 @@ name: Validate and Update Data
 on:
   workflow_dispatch:
   schedule:
-    - cron: "15 0 * * *"
+    # GitHub schedule is best-effort rather than a precise clock. Keep the 08:15
+    # Beijing primary run and add three off-peak safety runs to reduce missed feeds.
+    - cron: "15 0 * * *"  # 08:15 Asia/Shanghai (primary)
+    - cron: "17 4 * * *"  # 12:17 Asia/Shanghai
+    - cron: "19 8 * * *"  # 16:19 Asia/Shanghai
+    - cron: "21 12 * * *" # 20:21 Asia/Shanghai
 
 concurrency:
   group: finhot-data-update
@@ -32,6 +37,12 @@ jobs:
         id: fetch
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          FINHOT_TRIGGER_EVENT: ${{ github.event_name }}
+          FINHOT_SCHEDULE: ${{ github.event.schedule || '' }}
+          FINHOT_RUN_ID: ${{ github.run_id }}
+          # Run the LLM on the 08:15 primary schedule and manual runs. Safety
+          # schedules update feeds/history while reusing evidence-validated AI output.
+          FINHOT_ANALYSIS_MODE: ${{ (github.event_name == 'workflow_dispatch' || github.event.schedule == '15 0 * * *') && 'full' || 'cached' }}
         run: npm run fetch
 
       - name: Write data health summary
@@ -54,12 +65,12 @@ jobs:
       - name: Commit updated data when changed
         if: success()
         run: |
-          if git diff --quiet -- data.js; then
+          if git diff --quiet -- data.js data/history.json data/events.json; then
             echo "No data changes"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data.js
+          git add data.js data/history.json data/events.json
           git commit -m "chore: update finhot data"
           git push

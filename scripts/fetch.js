@@ -33,6 +33,14 @@ const {
   sanitizeError,
   summarizeSourceHealth,
 } = require('./health');
+const {
+  loadEvents,
+  loadHistory,
+  mergeHistory,
+  projectActiveEventClusters,
+  reconcileEvents,
+  writeHistoryFiles,
+} = require('./history');
 
 const UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36';
 // RSSHub instances — tried in order per route. First instance serving a FRESH feed wins.
@@ -43,6 +51,7 @@ const RSSHUB_INSTANCES = [
 ];
 const MAX_ITEMS = 150;
 const MAX_AGE_DAYS = 7;
+const PER_SOURCE_FETCH_LIMIT = 30;
 const DATA_FILE = path.resolve(__dirname, '..', 'data.js');
 const REPORT_DIR = path.resolve(__dirname, '..', 'reports');
 const HEALTH_REPORT_FILE = path.join(REPORT_DIR, 'source-health.json');
@@ -100,11 +109,11 @@ function loadExisting() {
   try {
     const raw = fs.readFileSync(DATA_FILE, 'utf8');
     const assignIdx = raw.indexOf('window.FINHOT_DATA');
-    if (assignIdx === -1) return { items: [], existingUrls: new Set(), titleSet: new Set() };
+    if (assignIdx === -1) return { items: [], existingUrls: new Set(), titleSet: new Set(), aiAnalysis: null };
     const eqIdx = raw.indexOf('=', assignIdx);
-    if (eqIdx === -1) return { items: [], existingUrls: new Set(), titleSet: new Set() };
+    if (eqIdx === -1) return { items: [], existingUrls: new Set(), titleSet: new Set(), aiAnalysis: null };
     let start = raw.indexOf('{', eqIdx);
-    if (start === -1) return { items: [], existingUrls: new Set(), titleSet: new Set() };
+    if (start === -1) return { items: [], existingUrls: new Set(), titleSet: new Set(), aiAnalysis: null };
     let depth = 0, end = start;
     for (; end < raw.length; end++) {
       if (raw[end] === '{') depth++;
@@ -116,10 +125,10 @@ function loadExisting() {
     const urls = new Set(items.map(i => i.sourceUrl).filter(Boolean));
     const titleSet = buildTitleSet(items);
     console.error(`[load] already ${items.length} records, ${titleSet.size} title hashes`);
-    return { items, existingUrls: urls, titleSet };
+    return { items, existingUrls: urls, titleSet, aiAnalysis: data.aiAnalysis || null };
   } catch (e) {
     console.error(`[load] no existing data, starting fresh: ${e.message}`);
-    return { items: [], existingUrls: new Set(), titleSet: new Set() };
+    return { items: [], existingUrls: new Set(), titleSet: new Set(), aiAnalysis: null };
   }
 }
 
@@ -224,7 +233,9 @@ async function fetchRSS(source) {
         continue;
       }
       if (base !== RSSHUB_INSTANCES[0]) console.error(`[fallback] ${route} served by ${base}`);
-      const items = rawItems.filter(item => item.title && item.link).slice(0, 12).map(item => {
+      const acceptedRawItems = rawItems.filter(item => item.title && item.link);
+      const fetchLimitReached = acceptedRawItems.length >= PER_SOURCE_FETCH_LIMIT;
+      const items = acceptedRawItems.slice(0, PER_SOURCE_FETCH_LIMIT).map(item => {
         const publishedAt = normalizePublishedAt(item.pubDate);
         return {
           title: (item.title || '').replace(/<[^>]*>/g, '').trim(),
@@ -245,6 +256,10 @@ async function fetchRSS(source) {
           durationMs: Date.now() - startedAt,
           latestPublishedAt,
           usedEndpoint: base,
+          rawItemCount: rawItems.length,
+          acceptedItemCount: acceptedRawItems.length,
+          fetchLimit: PER_SOURCE_FETCH_LIMIT,
+          fetchLimitReached,
           attempts,
         }),
       };
@@ -281,7 +296,9 @@ async function fetchDirectRSS(source) {
     const channel = data.rss?.channel;
     if (!channel?.item) throw new Error('empty feed');
     const rawItems = Array.isArray(channel.item) ? channel.item : [channel.item];
-    const items = rawItems.filter(item => item.title && item.link).slice(0, 12).map(item => {
+    const acceptedRawItems = rawItems.filter(item => item.title && item.link);
+    const fetchLimitReached = acceptedRawItems.length >= PER_SOURCE_FETCH_LIMIT;
+    const items = acceptedRawItems.slice(0, PER_SOURCE_FETCH_LIMIT).map(item => {
       const publishedAt = normalizePublishedAt(item.pubDate);
       return {
         title: (item.title || '').replace(/<[^>]*>/g, '').replace(/&amp;/g, '&').trim(),
@@ -307,6 +324,10 @@ async function fetchDirectRSS(source) {
         durationMs: Date.now() - startedAt,
         latestPublishedAt,
         usedEndpoint: directUrl,
+        rawItemCount: rawItems.length,
+        acceptedItemCount: acceptedRawItems.length,
+        fetchLimit: PER_SOURCE_FETCH_LIMIT,
+        fetchLimitReached,
         attempts,
       }),
     };
@@ -739,14 +760,21 @@ async function generateAIAnalysisWithLLM(items, apiKey) {
   };
 }
 
-async function generateAIAnalysisWithFallback(items) {
+async function generateAIAnalysisWithFallback(items, eventClusters, cachedAnalysis) {
   const apiKey = process.env.DEEPSEEK_API_KEY;
+  const analysisMode = process.env.FINHOT_ANALYSIS_MODE || 'full';
   const ruleBased = generateAIAnalysis(items);
+  if (analysisMode === 'cached' && cachedAnalysis && typeof cachedAnalysis === 'object') {
+    console.error('[llm] safety schedule: reusing validated AI text and refreshing evidence links');
+    const cachedGeneratedBy = cachedAnalysis.sourceGeneratedBy === 'llm' || cachedAnalysis.generatedBy === 'llm' ? 'llm' : 'rules';
+    const normalized = normalizeAIAnalysis(cachedAnalysis, items, ruleBased, cachedGeneratedBy, eventClusters);
+    return { ...normalized, generatedBy: 'cached', sourceGeneratedBy: cachedGeneratedBy };
+  }
   if (apiKey) {
     try {
       console.error('[llm] generating AI analysis with SenseNova API...');
       const result = await generateAIAnalysisWithLLM(items, apiKey);
-      const normalized = normalizeAIAnalysis(result, items, ruleBased, 'llm');
+      const normalized = normalizeAIAnalysis(result, items, ruleBased, 'llm', eventClusters);
       console.error('[llm] AI analysis generated and evidence-validated successfully');
       return normalized;
     } catch (e) {
@@ -755,7 +783,7 @@ async function generateAIAnalysisWithFallback(items) {
   } else {
     console.error('[llm] DEEPSEEK_API_KEY not set, using rule-based analysis');
   }
-  return normalizeAIAnalysis(ruleBased, items, ruleBased, 'rules');
+  return normalizeAIAnalysis(ruleBased, items, ruleBased, 'rules', eventClusters);
 }
 
 function hasText(text, keywords) {
@@ -1175,18 +1203,25 @@ async function main() {
       return true;
     }),
   ];
-  const allItems = sortAndLimit(mergedItems, MAX_ITEMS);
-
-  allItems.forEach(enrichItem);
-  allItems.forEach(reclassifyCategory);
-  allItems.forEach(item => {
+  mergedItems.forEach(enrichItem);
+  mergedItems.forEach(reclassifyCategory);
+  mergedItems.forEach(item => {
     item.id = stableItemId(item);
     item.scenarioScores = buildScenarioScores(item);
   });
+  const allItems = sortAndLimit(mergedItems, MAX_ITEMS);
 
   assertDataQuality(allItems);
 
   const now = new Date();
+  const existingHistory = loadHistory();
+  const existingEvents = loadEvents();
+  // Use the full valid candidate pool for archival/event matching before the
+  // frontend is capped at MAX_ITEMS, otherwise low-ranked valid items vanish.
+  const eventState = reconcileEvents(mergedItems, existingHistory, existingEvents, now);
+  const historyItems = mergeHistory(existingHistory, mergedItems, eventState.itemEventIds, now);
+  const activeEventClusters = projectActiveEventClusters(eventState.events, allItems);
+  allItems.forEach(item => { item.eventId = eventState.itemEventIds.get(item.id) || null; });
   const sourceHealthSummary = summarizeSourceHealth(sourceHealthRecords, now.toISOString());
   const thresholds = resolveThresholds();
   const gateInput = {
@@ -1201,6 +1236,11 @@ async function main() {
   const baseHealthReport = {
     generatedAt: now.toISOString(),
     published: false,
+    trigger: {
+      event: process.env.FINHOT_TRIGGER_EVENT || 'local',
+      schedule: process.env.FINHOT_SCHEDULE || null,
+      runId: process.env.FINHOT_RUN_ID || null,
+    },
     thresholds,
     gateErrors,
     summary: sourceHealthSummary,
@@ -1208,7 +1248,10 @@ async function main() {
     itemCounts: {
       previous: existing.items.length,
       new: newItems.length,
-      candidate: allItems.length,
+      candidate: mergedItems.length,
+      frontend: allItems.length,
+      history: historyItems.length,
+      events: eventState.events.length,
     },
     ai: {
       keyConfigured: Boolean(process.env.DEEPSEEK_API_KEY),
@@ -1230,7 +1273,12 @@ async function main() {
     flashes: buildFlashes(allItems),
     keywordIndex: buildKeywordIndex(allItems),
     sourceHealth: publicSourceHealth(sourceHealthSummary, sourceHealthRecords),
-    aiAnalysis: await generateAIAnalysisWithFallback(allItems),
+    historyStats: {
+      itemCount: historyItems.length,
+      eventCount: eventState.events.length,
+      retentionDays: 90,
+    },
+    aiAnalysis: await generateAIAnalysisWithFallback(allItems, activeEventClusters, existing.aiAnalysis),
   };
 
   console.error(`\n[done] +${newItems.length} new, total ${allItems.length}`);
@@ -1262,6 +1310,9 @@ async function main() {
   // Extract keywordIndex for convenient global access
   lines.push(`window.KEYWORD_INDEX = ${JSON.stringify(output.keywordIndex, null, 2)};`);
 
+  // Persist supporting history first and publish data.js last. A history/event
+  // write failure therefore cannot replace the last known-good frontend payload.
+  writeHistoryFiles(historyItems, eventState.events, now.toISOString());
   fs.writeFileSync(DATA_FILE, lines.join('\n') + '\n', 'utf8');
   writeHealthReport({
     ...baseHealthReport,

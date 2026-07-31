@@ -5,8 +5,8 @@
   "description": "Financial insurance news aggregation site",
   "scripts": {
     "fetch": "node scripts/fetch.js",
-    "test": "node tests/core.test.js && node tests/analysis.test.js && node tests/health.test.js",
-    "check": "node --check scripts/core.js && node --check scripts/analysis.js && node --check scripts/health.js && node --check scripts/health-summary.js && node --check scripts/health-view.js && node --check scripts/fetch.js && npm test"
+    "test": "node tests/core.test.js && node tests/analysis.test.js && node tests/health.test.js && node tests/history.test.js",
+    "check": "node --check scripts/core.js && node --check scripts/analysis.js && node --check scripts/health.js && node --check scripts/history.js && node --check scripts/health-summary.js && node --check scripts/health-view.js && node --check scripts/fetch.js && npm test"
   },
   "engines": {
     "node": ">=18"

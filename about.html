@@ -43,6 +43,7 @@
           <div class="health-metric"><span class="health-metric-label">可用来源</span><strong id="health-usable">—</strong></div>
           <div class="health-metric"><span class="health-metric-label">失败来源</span><strong id="health-failed">—</strong></div>
           <div class="health-metric"><span class="health-metric-label">陈旧来源</span><strong id="health-stale">—</strong></div>
+          <div class="health-metric"><span class="health-metric-label">抓取触顶</span><strong id="health-limit-reached">—</strong></div>
         </div>
         <p id="health-detail" class="health-detail">旧版数据不包含来源健康字段，不影响资讯浏览。</p>
       </div>
@@ -127,7 +128,7 @@
 
     <h2 class="about-section-title">技术说明</h2>
     <p class="about-desc">
-      本站为静态站点，数据由 finhot 引擎自动采集聚合，每日定时更新。
+      本站为静态站点，数据由 finhot 引擎自动采集聚合，每日分时自动更新。
       自动流程包含协议与字段校验、稳定资讯 ID、去重、三场景适配度评分、事件聚类及 AI 证据引用校验。
       所有外部内容链接均指向原始出处；涉及重要事实时，应打开“原文依据”核对完整上下文。
     </p>
@@ -135,7 +136,7 @@
     <div class="tech-items">
       <div class="tech-row">
         <div class="tech-dot"></div>
-        <span class="tech-text">数据采集: RSSHub 多实例容错 + Investing.com 直采，URL/标题双重去重，7 天自动淘汰</span>
+        <span class="tech-text">数据采集: RSSHub 多实例容错 + Investing.com 直采，单源最多读取 30 条并监控触顶，前台保留 7 天精选资讯</span>
       </div>
       <div class="tech-row">
         <div class="tech-dot"></div>
@@ -143,11 +144,15 @@
       </div>
       <div class="tech-row">
         <div class="tech-dot"></div>
+        <span class="tech-text">历史关联: 前台维持轻量展示，后台独立保存最多 5,000 条、90 天的历史证据，并持久化事件 ID 追踪跨日进展</span>
+      </div>
+      <div class="tech-row">
+        <div class="tech-dot"></div>
         <span class="tech-text">AI 分析: SenseNova DeepSeek-v4-Flash 生成辅助摘要；所有输出经结构、枚举、长度及原文证据 ID 校验，异常时回退规则分析</span>
       </div>
       <div class="tech-row">
         <div class="tech-dot"></div>
-        <span class="tech-text">更新频率: 每日定时自动更新</span>
+        <span class="tech-text">更新频率: 北京时间 08:15 主运行，并在 12:17、16:19、20:21 增加错峰保底运行</span>
       </div>
       <div class="tech-row">
         <div class="tech-dot"></div>

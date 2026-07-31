@@ -7,7 +7,7 @@ node_modules/
 npm-debug.log*
 
 # Generated diagnostics (uploaded as Actions artifacts, not committed)
-reports/source-health.json
+reports/
 
 # WorkBuddy local metadata
 .workbuddy/

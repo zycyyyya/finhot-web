@@ -1,0 +1,105 @@
+{
+  "schemaVersion": "1.0",
+  "generatedAt": "2026-07-31T02:35:11.162Z",
+  "retentionDays": 120,
+  "maxEvents": 1000,
+  "events": [
+    {
+      "eventId": "event_e19822419452",
+      "title": "国家统计局：7月份中国采购经理指数有所回落",
+      "firstSeenAt": "2026-07-31T02:27:13.623Z",
+      "lastSeenAt": "2026-07-31T02:35:11.162Z",
+      "primaryItemId": "news_1e1eb7294fe1",
+      "evidenceItemIds": [
+        "news_1e1eb7294fe1",
+        "news_52fa5fbcca93",
+        "news_4b628ba757ac"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_46bb74f23205",
+      "title": "国家统计局：7月制造业PMI为49.2%",
+      "firstSeenAt": "2026-07-31T02:27:13.623Z",
+      "lastSeenAt": "2026-07-31T02:35:11.162Z",
+      "primaryItemId": "news_aec6cbc95654",
+      "evidenceItemIds": [
+        "news_aec6cbc95654",
+        "news_cfea1d75eb52"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_d0a4f7f6abd4",
+      "title": "A股三大指数集体高开，创业板指涨逾5%",
+      "firstSeenAt": "2026-07-31T02:27:13.623Z",
+      "lastSeenAt": "2026-07-31T02:35:11.162Z",
+      "primaryItemId": "news_69277baadba1",
+      "evidenceItemIds": [
+        "news_69277baadba1",
+        "news_ad373c949e7b"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_98e117d09619",
+      "title": "滚动更新丨韩国KOSPI指数日内暴涨15%，SK海力士涨超26%",
+      "firstSeenAt": "2026-07-31T02:27:13.623Z",
+      "lastSeenAt": "2026-07-31T02:35:11.162Z",
+      "primaryItemId": "news_1b9ca1fe3217",
+      "evidenceItemIds": [
+        "news_1b9ca1fe3217",
+        "news_015f43b2241c"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_dafb26c31c48",
+      "title": "“适时调整”的内涵",
+      "firstSeenAt": "2026-07-31T02:27:13.623Z",
+      "lastSeenAt": "2026-07-31T02:35:11.162Z",
+      "primaryItemId": "news_3ca3918499be",
+      "evidenceItemIds": [
+        "news_3ca3918499be",
+        "news_496d1f811a82"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_944d31548386",
+      "title": "受进口猛增拖累 美国二季度GDP环比增长1.5%",
+      "firstSeenAt": "2026-07-31T02:27:13.623Z",
+      "lastSeenAt": "2026-07-31T02:35:11.162Z",
+      "primaryItemId": "news_a2920805de34",
+      "evidenceItemIds": [
+        "news_a2920805de34",
+        "news_8b48ff912b2b"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_a56bdf6448cd",
+      "title": "政治局会议: 发力提效的几个信号",
+      "firstSeenAt": "2026-07-31T02:27:13.623Z",
+      "lastSeenAt": "2026-07-31T02:35:11.162Z",
+      "primaryItemId": "news_bbf70ca049cf",
+      "evidenceItemIds": [
+        "news_bbf70ca049cf",
+        "news_5d8b3add3d0c"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_ae80fea7e120",
+      "title": "北森控股(09669)7月30日斥资62.83万港元回购20万股",
+      "firstSeenAt": "2026-07-31T02:27:13.623Z",
+      "lastSeenAt": "2026-07-31T02:35:11.162Z",
+      "primaryItemId": "news_b22af70834e0",
+      "evidenceItemIds": [
+        "news_b22af70834e0",
+        "news_c64fd5d8ca3b"
+      ],
+      "status": "developing"
+    }
+  ]
+}

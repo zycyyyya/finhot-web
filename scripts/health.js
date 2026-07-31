@@ -88,6 +88,10 @@ function buildSourceHealth(source, result) {
     usable: details.usable !== undefined ? Boolean(details.usable) : success && !stale && items.length > 0,
     stale,
     itemCount: items.length,
+    rawItemCount: Math.max(items.length, Math.round(safeNumber(details.rawItemCount, items.length, { min: 0 }))),
+    acceptedItemCount: Math.max(0, Math.round(safeNumber(details.acceptedItemCount, items.length, { min: 0 }))),
+    fetchLimit: Math.max(1, Math.round(safeNumber(details.fetchLimit, items.length || 1, { min: 1 }))),
+    fetchLimitReached: Boolean(details.fetchLimitReached),
     addedCount: Math.max(0, Math.round(safeNumber(details.addedCount, 0, { min: 0 }))),
     durationMs: Math.max(0, Math.round(safeNumber(details.durationMs, 0, { min: 0 }))),
     latestPublishedAt: newest,
@@ -104,6 +108,7 @@ function summarizeSourceHealth(records, generatedAt) {
   const usableSources = sources.filter(source => source.usable).length;
   const failedSources = sources.filter(source => !source.success).length;
   const staleSources = sources.filter(source => source.stale).length;
+  const fetchLimitReachedSources = sources.filter(source => source.fetchLimitReached).length;
   const coverageRate = totalSources > 0 ? usableSources / totalSources : 0;
   const freshestPublishedAt = latestPublishedAt(sources.map(source => ({ publishedAt: source.latestPublishedAt })));
   const status = usableSources === 0 ? 'unavailable' : coverageRate >= 0.60 ? 'healthy' : 'degraded';
@@ -115,6 +120,7 @@ function summarizeSourceHealth(records, generatedAt) {
     usableSources,
     failedSources,
     staleSources,
+    fetchLimitReachedSources,
     coverageRate: Number(coverageRate.toFixed(4)),
     freshestPublishedAt,
   };
@@ -171,6 +177,10 @@ function publicSourceHealth(summary, records) {
       usable: source.usable,
       stale: source.stale,
       itemCount: source.itemCount,
+      rawItemCount: source.rawItemCount,
+      acceptedItemCount: source.acceptedItemCount,
+      fetchLimit: source.fetchLimit,
+      fetchLimitReached: source.fetchLimitReached,
       addedCount: source.addedCount,
       durationMs: source.durationMs,
       latestPublishedAt: source.latestPublishedAt,

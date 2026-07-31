@@ -62,6 +62,10 @@ assert.strictEqual(normalized.industryImpact.quadrants.insurance.level, 'none');
 assert.strictEqual(normalized.weeklyTrends.trends[0].direction, '平稳');
 assert.ok(normalized.eventClusters.length >= 1);
 
+const customClusters = [{ eventId: 'event_stable', mainItemId: 'news_a00000000001', relatedItemIds: ['news_a00000000002'], evidenceItemIds: ['news_a00000000001', 'news_a00000000002'] }];
+const customClusterAnalysis = normalizeAIAnalysis({}, items, fallback, 'rules', customClusters);
+assert.strictEqual(customClusterAnalysis.eventClusters[0].eventId, 'event_stable');
+
 const noEvidence = normalizeAIAnalysis({
   dailySummary: { highlights: [{ text: '无来源结论', evidenceItemIds: ['invalid'] }] },
   eventChain: { summary: '无来源', chains: [{ title: '无来源', causalLink: '无来源', evidenceItemIds: [] }] },

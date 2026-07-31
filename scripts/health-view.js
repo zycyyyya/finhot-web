@@ -40,6 +40,7 @@
   const usable = Number.isFinite(health.usableSources) ? health.usableSources : 0;
   const failed = Number.isFinite(health.failedSources) ? health.failedSources : 0;
   const stale = Number.isFinite(health.staleSources) ? health.staleSources : 0;
+  const fetchLimitReached = Number.isFinite(health.fetchLimitReachedSources) ? health.fetchLimitReachedSources : 0;
   const coverage = Number.isFinite(health.coverageRate) ? Math.round(health.coverageRate * 100) : 0;
   const problemNames = Array.isArray(health.sources)
     ? health.sources.filter(source => !source.usable).map(source => String(source.sourceName || '')).filter(Boolean).slice(0, 5)
@@ -50,7 +51,14 @@
   setText('health-usable', `${usable}/${total}`);
   setText('health-failed', String(failed));
   setText('health-stale', String(stale));
-  setText('health-detail', problemNames.length > 0
-    ? `当前需关注来源：${problemNames.join('、')}。页面不展示内部错误详情。`
-    : '全部已记录来源均可用；重要事实仍应以原始披露为准。');
+  setText('health-limit-reached', String(fetchLimitReached));
+  const limitNames = Array.isArray(health.sources)
+    ? health.sources.filter(source => source.fetchLimitReached).map(source => String(source.sourceName || '')).filter(Boolean).slice(0, 5)
+    : [];
+  const notes = [];
+  if (problemNames.length > 0) notes.push(`当前需关注来源：${problemNames.join('、')}`);
+  if (limitNames.length > 0) notes.push(`可能仍有更多条目的来源：${limitNames.join('、')}`);
+  setText('health-detail', notes.length > 0
+    ? `${notes.join('；')}。页面不展示内部错误详情。`
+    : '全部已记录来源均可用且未触及单源抓取上限；重要事实仍应以原始披露为准。');
 })();

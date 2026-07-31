@@ -10,6 +10,20 @@ const DEFAULT_THRESHOLDS = Object.freeze({
   maxNewestAgeHours: 72,
 });
 
+function adaptiveFetchWindow(acceptedCount, initialLimit, expandedLimit) {
+  const accepted = Math.max(0, Math.round(safeNumber(acceptedCount, 0, { min: 0 })));
+  const initial = Math.max(1, Math.round(safeNumber(initialLimit, 30, { min: 1 })));
+  const expanded = Math.max(initial, Math.round(safeNumber(expandedLimit, 50, { min: initial })));
+  const fetchLimitExpanded = accepted >= initial;
+  const fetchLimit = fetchLimitExpanded ? expanded : initial;
+  return {
+    initialFetchLimit: initial,
+    fetchLimit,
+    fetchLimitExpanded,
+    fetchLimitReached: accepted >= fetchLimit,
+  };
+}
+
 function safeNumber(value, fallback, options) {
   const number = Number(value);
   const min = options && Number.isFinite(options.min) ? options.min : -Infinity;
@@ -90,7 +104,9 @@ function buildSourceHealth(source, result) {
     itemCount: items.length,
     rawItemCount: Math.max(items.length, Math.round(safeNumber(details.rawItemCount, items.length, { min: 0 }))),
     acceptedItemCount: Math.max(0, Math.round(safeNumber(details.acceptedItemCount, items.length, { min: 0 }))),
+    initialFetchLimit: Math.max(1, Math.round(safeNumber(details.initialFetchLimit, details.fetchLimit || items.length || 1, { min: 1 }))),
     fetchLimit: Math.max(1, Math.round(safeNumber(details.fetchLimit, items.length || 1, { min: 1 }))),
+    fetchLimitExpanded: Boolean(details.fetchLimitExpanded),
     fetchLimitReached: Boolean(details.fetchLimitReached),
     addedCount: Math.max(0, Math.round(safeNumber(details.addedCount, 0, { min: 0 }))),
     durationMs: Math.max(0, Math.round(safeNumber(details.durationMs, 0, { min: 0 }))),
@@ -179,7 +195,9 @@ function publicSourceHealth(summary, records) {
       itemCount: source.itemCount,
       rawItemCount: source.rawItemCount,
       acceptedItemCount: source.acceptedItemCount,
+      initialFetchLimit: source.initialFetchLimit,
       fetchLimit: source.fetchLimit,
+      fetchLimitExpanded: source.fetchLimitExpanded,
       fetchLimitReached: source.fetchLimitReached,
       addedCount: source.addedCount,
       durationMs: source.durationMs,
@@ -191,6 +209,7 @@ function publicSourceHealth(summary, records) {
 
 module.exports = {
   DEFAULT_THRESHOLDS,
+  adaptiveFetchWindow,
   assertPublicationGate,
   buildSourceHealth,
   publicationGateErrors,

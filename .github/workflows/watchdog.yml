@@ -1,0 +1,111 @@
+name: Monitor Scheduled Data Runs
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Check independently from the data workflow. The 53rd minute avoids the
+    # busier top-of-hour window and evaluates the latest slot after 90 minutes.
+    - cron: "53 * * * *"
+
+concurrency:
+  group: finhot-schedule-watchdog
+  cancel-in-progress: true
+
+jobs:
+  watchdog:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Detect a missing scheduled run
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const path = require('path');
+            const {
+              findMissingSchedule,
+            } = require(path.join(
+              process.env.GITHUB_WORKSPACE,
+              'scripts',
+              'schedule-watch.js'
+            ));
+
+            const fs = require('fs');
+            const stateFile = path.join(
+              process.env.GITHUB_WORKSPACE,
+              'data',
+              'alert-state.json'
+            );
+            let state = { scheduleRuns: {} };
+            try {
+              state = JSON.parse(fs.readFileSync(stateFile, 'utf8'));
+            } catch (error) {
+              core.warning(`Unable to read alert state: ${error.message}`);
+            }
+            const missing = findMissingSchedule(
+              state.scheduleRuns || {},
+              new Date().toISOString(),
+              90
+            );
+            if (!missing) {
+              core.info('The latest expected data schedule has a matching run.');
+              return;
+            }
+
+            const labelName = 'finhot-alert';
+            try {
+              await github.rest.issues.getLabel({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                name: labelName,
+              });
+            } catch (error) {
+              if (error.status !== 404) throw error;
+              await github.rest.issues.createLabel({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                name: labelName,
+                color: 'B60205',
+                description: 'finhot 自动数据健康告警',
+              });
+            }
+
+            const marker = `<!-- finhot-missing-schedule:${missing.expectedAt} -->`;
+            const detail = [
+              marker,
+              '## finhot 定时任务缺失告警',
+              '',
+              `- 应触发时间：${missing.expectedAt}`,
+              `- 对应 cron：${missing.schedule}`,
+              '- 检查阈值：计划时间后 90 分钟',
+              `- Watchdog Run ID：${context.runId}`,
+              '',
+              '在阈值窗口内未查询到 `Validate and Update Data` 的 schedule 运行。',
+              '请检查 GitHub Actions 调度状态；必要时手动触发主数据工作流。',
+            ].join('\n');
+
+            const { data: issues } = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              labels: labelName,
+              per_page: 20,
+            });
+            const duplicate = issues.find(issue =>
+              (issue.body || '').includes(marker)
+            );
+            if (duplicate) {
+              core.info(`Missing schedule already reported in issue #${duplicate.number}.`);
+              return;
+            }
+
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: '[finhot-alert] 严重：定时采集任务未按窗口启动',
+              body: detail,
+              labels: [labelName],
+            });

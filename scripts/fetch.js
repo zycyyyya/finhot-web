@@ -25,6 +25,7 @@ const {
   stableItemId,
 } = require('./analysis');
 const {
+  adaptiveFetchWindow,
   assertPublicationGate,
   buildSourceHealth,
   publicationGateErrors,
@@ -47,11 +48,13 @@ const UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (
 // (liumingye instance was found serving 2-month-stale cache for /cls/telegraph on 2026-07-24)
 const RSSHUB_INSTANCES = [
   'https://rsshub.rssforever.com',
+  'https://rsshub-balancer.virworks.moe',
   'https://rsshub.liumingye.cn',
 ];
 const MAX_ITEMS = 150;
 const MAX_AGE_DAYS = 7;
-const PER_SOURCE_FETCH_LIMIT = 30;
+const INITIAL_SOURCE_FETCH_LIMIT = 30;
+const EXPANDED_SOURCE_FETCH_LIMIT = 50;
 const DATA_FILE = path.resolve(__dirname, '..', 'data.js');
 const REPORT_DIR = path.resolve(__dirname, '..', 'reports');
 const HEALTH_REPORT_FILE = path.join(REPORT_DIR, 'source-health.json');
@@ -66,11 +69,11 @@ const SOURCES = [
   { route: '/cls/depth',                sourceName: '\u8d22\u8054\u793e',    category: 'research',    tier: 'S2', evidenceType: 'financial_media' },
   { route: '/36kr/newsflashes',         sourceName: '36\u6c2a',     category: 'insights',    tier: 'S3', evidenceType: 'news_flash' },
   { route: '/szse/notice',              sourceName: '\u6df1\u4ea4\u6240',    category: 'regulatory',  tier: 'S0', evidenceType: 'official_notice' },
-  { route: '/gov/csrc/news/c100028/common_xq_list.shtml', sourceName: '\u8bc1\u76d1\u4f1a', category: 'regulatory', tier: 'S0', evidenceType: 'official_notice' },
+  { route: '/gov/csrc/news/c100028/common_xq_list.shtml', sourceName: '\u8bc1\u76d1\u4f1a', category: 'regulatory', tier: 'S0', evidenceType: 'official_notice', maxAgeDays: 14 },
   // Direct RSS — 英为财情 (Investing.com)
   // 替换为市场资讯+技术分析，提升内容深度
   { directUrl: 'https://cn.investing.com/rss/news_25.rss',             sourceName: '\u82f1\u4e3a\u8d22\u60c5', category: 'industry',  tier: 'S2', evidenceType: 'financial_media' },
-  { directUrl: 'https://cn.investing.com/rss/stock_Technical.rss',     sourceName: '\u82f1\u4e3a\u8d22\u60c5', category: 'research',   tier: 'S2', evidenceType: 'analysis' },
+  { directUrl: 'https://cn.investing.com/rss/news_95.rss',            sourceName: '\u82f1\u4e3a\u8d22\u60c5', category: 'research',   tier: 'S2', evidenceType: 'financial_media' },
 ];
 
 const TIER_LABELS = {
@@ -84,6 +87,33 @@ const CATEGORY_TAGS = {
   regulatory: '\u76d1\u7ba1\u653f\u7b56', products: '\u4ea7\u54c1\u53d1\u5e03', industry: '\u884c\u4e1a\u52a8\u6001',
   research: '\u7814\u7a76\u62a5\u544a', insights: '\u89c2\u70b9',
 };
+
+function sourceFetchWindow(acceptedCount) {
+  return adaptiveFetchWindow(acceptedCount, INITIAL_SOURCE_FETCH_LIMIT, EXPANDED_SOURCE_FETCH_LIMIT);
+}
+
+function withFetchLimit(value, limit) {
+  const url = new URL(value);
+  url.searchParams.set('limit', String(limit));
+  return url.toString();
+}
+
+function parseFeed(xml) {
+  return parseStringPromise(xml, { explicitArray: false }).then(data => {
+    const channel = data.rss?.channel;
+    if (!channel?.item) throw new Error('empty feed');
+    const rawItems = Array.isArray(channel.item) ? channel.item : [channel.item];
+    const newest = Math.max(0, ...rawItems.map(item => {
+      const timestamp = item.pubDate ? new Date(item.pubDate).getTime() : 0;
+      return Number.isNaN(timestamp) ? 0 : timestamp;
+    }));
+    return {
+      rawItems,
+      newest,
+      latestPublishedAt: newest > 0 ? new Date(newest).toISOString() : null,
+    };
+  });
+}
 
 function sourceForItem(item) {
   return SOURCES.find(src => src.sourceName === item.sourceName) || {
@@ -200,7 +230,7 @@ async function fetchWithRetry(url, retries, opts) {
 async function fetchRSS(source) {
   const route = source.route;
   const startedAt = Date.now();
-  const staleCutoff = Date.now() - MAX_AGE_DAYS * 86400000;
+  const staleCutoff = Date.now() - (source.maxAgeDays || MAX_AGE_DAYS) * 86400000;
   const attempts = [];
   let lastError = '';
   let sawStaleFeed = false;
@@ -210,22 +240,39 @@ async function fetchRSS(source) {
     const attemptStartedAt = Date.now();
     try {
       const xml = await fetchWithRetry(endpoint, MAX_RETRIES);
-      const data = await parseStringPromise(xml, { explicitArray: false });
-      const channel = data.rss?.channel;
-      if (!channel?.item) {
-        lastError = 'empty feed';
-        attempts.push({ endpoint, success: false, stale: false, durationMs: Date.now() - attemptStartedAt, itemCount: 0, errorSummary: lastError });
-        console.error(`[fetch warn] ${route} via ${base}: empty feed, trying next instance`);
-        continue;
+      let parsed = await parseFeed(xml);
+      let rawItems = parsed.rawItems;
+      let acceptedRawItems = rawItems.filter(item => item.title && item.link);
+      let fetchWindow = sourceFetchWindow(acceptedRawItems.length);
+      let expandedRequestError = '';
+      if (fetchWindow.fetchLimitExpanded) {
+        const expandedEndpoint = withFetchLimit(endpoint, EXPANDED_SOURCE_FETCH_LIMIT);
+        try {
+          const expandedXml = await fetchWithRetry(expandedEndpoint, 1);
+          const expandedParsed = await parseFeed(expandedXml);
+          const expandedAccepted = expandedParsed.rawItems.filter(item => item.title && item.link);
+          if (expandedAccepted.length >= acceptedRawItems.length) {
+            parsed = expandedParsed;
+            rawItems = expandedParsed.rawItems;
+            acceptedRawItems = expandedAccepted;
+            fetchWindow = sourceFetchWindow(acceptedRawItems.length);
+          }
+        } catch (error) {
+          expandedRequestError = sanitizeError(error);
+          console.error(`[expand warn] ${route} via ${base}: ${expandedRequestError}; keeping initial feed`);
+        }
       }
-      const rawItems = Array.isArray(channel.item) ? channel.item : [channel.item];
-      const newest = Math.max(0, ...rawItems.map(item => {
-        const timestamp = item.pubDate ? new Date(item.pubDate).getTime() : 0;
-        return Number.isNaN(timestamp) ? 0 : timestamp;
-      }));
-      const latestPublishedAt = newest > 0 ? new Date(newest).toISOString() : null;
-      const stale = newest > 0 && newest < staleCutoff;
-      attempts.push({ endpoint, success: true, stale, durationMs: Date.now() - attemptStartedAt, itemCount: rawItems.length, latestPublishedAt });
+      const latestPublishedAt = parsed.latestPublishedAt;
+      const stale = parsed.newest > 0 && parsed.newest < staleCutoff;
+      attempts.push({
+        endpoint,
+        success: true,
+        stale,
+        durationMs: Date.now() - attemptStartedAt,
+        itemCount: rawItems.length,
+        latestPublishedAt,
+        expandedRequestError,
+      });
       if (stale) {
         sawStaleFeed = true;
         lastError = `stale feed: newest item ${latestPublishedAt}`;
@@ -233,9 +280,7 @@ async function fetchRSS(source) {
         continue;
       }
       if (base !== RSSHUB_INSTANCES[0]) console.error(`[fallback] ${route} served by ${base}`);
-      const acceptedRawItems = rawItems.filter(item => item.title && item.link);
-      const fetchLimitReached = acceptedRawItems.length >= PER_SOURCE_FETCH_LIMIT;
-      const items = acceptedRawItems.slice(0, PER_SOURCE_FETCH_LIMIT).map(item => {
+      const items = acceptedRawItems.slice(0, fetchWindow.fetchLimit).map(item => {
         const publishedAt = normalizePublishedAt(item.pubDate);
         return {
           title: (item.title || '').replace(/<[^>]*>/g, '').trim(),
@@ -258,8 +303,7 @@ async function fetchRSS(source) {
           usedEndpoint: base,
           rawItemCount: rawItems.length,
           acceptedItemCount: acceptedRawItems.length,
-          fetchLimit: PER_SOURCE_FETCH_LIMIT,
-          fetchLimitReached,
+          ...fetchWindow,
           attempts,
         }),
       };
@@ -297,8 +341,8 @@ async function fetchDirectRSS(source) {
     if (!channel?.item) throw new Error('empty feed');
     const rawItems = Array.isArray(channel.item) ? channel.item : [channel.item];
     const acceptedRawItems = rawItems.filter(item => item.title && item.link);
-    const fetchLimitReached = acceptedRawItems.length >= PER_SOURCE_FETCH_LIMIT;
-    const items = acceptedRawItems.slice(0, PER_SOURCE_FETCH_LIMIT).map(item => {
+    const fetchWindow = sourceFetchWindow(acceptedRawItems.length);
+    const items = acceptedRawItems.slice(0, fetchWindow.fetchLimit).map(item => {
       const publishedAt = normalizePublishedAt(item.pubDate);
       return {
         title: (item.title || '').replace(/<[^>]*>/g, '').replace(/&amp;/g, '&').trim(),
@@ -311,7 +355,7 @@ async function fetchDirectRSS(source) {
     });
     const newest = Math.max(0, ...items.map(item => item.publishedAt ? new Date(item.publishedAt).getTime() : 0));
     const latestPublishedAt = newest > 0 ? new Date(newest).toISOString() : null;
-    const stale = newest > 0 && newest < Date.now() - MAX_AGE_DAYS * 86400000;
+    const stale = newest > 0 && newest < Date.now() - (source.maxAgeDays || MAX_AGE_DAYS) * 86400000;
     const attempts = [{ endpoint: directUrl, success: true, stale, durationMs: Date.now() - attemptStartedAt, itemCount: items.length, latestPublishedAt }];
     if (stale) console.error(`[stale feed] ${source.sourceName}: newest item ${latestPublishedAt.substring(0, 10)}`);
     return {
@@ -326,8 +370,7 @@ async function fetchDirectRSS(source) {
         usedEndpoint: directUrl,
         rawItemCount: rawItems.length,
         acceptedItemCount: acceptedRawItems.length,
-        fetchLimit: PER_SOURCE_FETCH_LIMIT,
-        fetchLimitReached,
+        ...fetchWindow,
         attempts,
       }),
     };
@@ -1240,6 +1283,7 @@ async function main() {
       event: process.env.FINHOT_TRIGGER_EVENT || 'local',
       schedule: process.env.FINHOT_SCHEDULE || null,
       runId: process.env.FINHOT_RUN_ID || null,
+      runCreatedAt: process.env.FINHOT_RUN_CREATED_AT || now.toISOString(),
     },
     thresholds,
     gateErrors,
@@ -1312,7 +1356,21 @@ async function main() {
 
   // Persist supporting history first and publish data.js last. A history/event
   // write failure therefore cannot replace the last known-good frontend payload.
-  writeHistoryFiles(historyItems, eventState.events, now.toISOString());
+  try {
+    writeHistoryFiles(historyItems, eventState.events, now.toISOString());
+  } catch (error) {
+    writeHealthReport({
+      ...baseHealthReport,
+      historyWriteError: sanitizeError(error),
+      ai: {
+        keyConfigured: Boolean(process.env.DEEPSEEK_API_KEY),
+        requestedMode: process.env.FINHOT_ANALYSIS_MODE || 'full',
+        generatedBy: output.aiAnalysis.generatedBy || 'unknown',
+        sourceGeneratedBy: output.aiAnalysis.sourceGeneratedBy || output.aiAnalysis.generatedBy || 'unknown',
+      },
+    });
+    throw error;
+  }
   fs.writeFileSync(DATA_FILE, lines.join('\n') + '\n', 'utf8');
   writeHealthReport({
     ...baseHealthReport,
@@ -1320,7 +1378,9 @@ async function main() {
     gateErrors: [],
     ai: {
       keyConfigured: Boolean(process.env.DEEPSEEK_API_KEY),
+      requestedMode: process.env.FINHOT_ANALYSIS_MODE || 'full',
       generatedBy: output.aiAnalysis.generatedBy || 'unknown',
+      sourceGeneratedBy: output.aiAnalysis.sourceGeneratedBy || output.aiAnalysis.generatedBy || 'unknown',
     },
   });
   console.error(`[write] ${DATA_FILE} written (${allItems.length} items)`);

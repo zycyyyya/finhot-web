@@ -19,6 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      issues: write
     steps:
       - uses: actions/checkout@v4
 
@@ -26,6 +27,11 @@ jobs:
         with:
           node-version: "22"
           cache: npm
+
+      - name: Capture run start time
+        id: run-meta
+        shell: bash
+        run: echo "created_at=$(date -u +%Y-%m-%dT%H:%M:%SZ)" >> "$GITHUB_OUTPUT"
 
       - name: Install locked dependencies
         run: npm ci
@@ -40,10 +46,83 @@ jobs:
           FINHOT_TRIGGER_EVENT: ${{ github.event_name }}
           FINHOT_SCHEDULE: ${{ github.event.schedule || '' }}
           FINHOT_RUN_ID: ${{ github.run_id }}
+          FINHOT_RUN_CREATED_AT: ${{ steps.run-meta.outputs.created_at }}
           # Run the LLM on the 08:15 primary schedule and manual runs. Safety
           # schedules update feeds/history while reusing evidence-validated AI output.
           FINHOT_ANALYSIS_MODE: ${{ (github.event_name == 'workflow_dispatch' || github.event.schedule == '15 0 * * *') && 'full' || 'cached' }}
         run: npm run fetch
+
+      - name: Re-run validation after generation
+        id: post-check
+        if: success()
+        run: npm run check
+
+      - name: Evaluate data alerts
+        if: always()
+        id: alerts
+        env:
+          FINHOT_TRIGGER_EVENT: ${{ github.event_name }}
+          FINHOT_SCHEDULE: ${{ github.event.schedule || '' }}
+          FINHOT_RUN_ID: ${{ github.run_id }}
+          FINHOT_RUN_CREATED_AT: ${{ steps.run-meta.outputs.created_at }}
+          FINHOT_ANALYSIS_MODE: ${{ (github.event_name == 'workflow_dispatch' || github.event.schedule == '15 0 * * *') && 'full' || 'cached' }}
+          FINHOT_WORKFLOW_FAILED: ${{ steps.fetch.outcome == 'failure' || steps.post-check.outcome == 'failure' }}
+        run: node scripts/alerts.js
+
+      - name: Ensure alert label exists
+        if: always() && steps.alerts.outputs.should_alert == 'true'
+        continue-on-error: true
+        uses: actions/github-script@v7
+        with:
+          script: |
+            try {
+              await github.rest.issues.getLabel({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                name: 'finhot-alert',
+              });
+            } catch (error) {
+              if (error.status !== 404) throw error;
+              await github.rest.issues.createLabel({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                name: 'finhot-alert',
+                color: 'B60205',
+                description: 'finhot 自动数据健康告警',
+              });
+            }
+
+      - name: Check for existing open alert
+        if: always() && steps.alerts.outputs.should_alert == 'true'
+        id: existing-alert
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const { data } = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              per_page: 100,
+            });
+            const found = data.some(issue =>
+              (issue.title || '').startsWith('[finhot-alert]')
+            );
+            core.setOutput('found', found ? 'true' : 'false');
+
+      - name: Create deduplicated alert issue
+        if: always() && steps.alerts.outputs.should_alert == 'true' && steps.existing-alert.outputs.found != 'true'
+        uses: actions/github-script@v7
+        env:
+          ISSUE_TITLE: ${{ steps.alerts.outputs.issue_title }}
+          ISSUE_BODY: ${{ steps.alerts.outputs.issue_body }}
+        with:
+          script: |
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: process.env.ISSUE_TITLE,
+              body: process.env.ISSUE_BODY,
+            });
 
       - name: Write data health summary
         if: always()
@@ -58,19 +137,27 @@ jobs:
           if-no-files-found: ignore
           retention-days: 14
 
-      - name: Re-run validation after generation
-        if: success()
-        run: npm run check
+      - name: Persist alert state after failed run
+        if: failure() && hashFiles('data/alert-state.json') != ''
+        run: |
+          if git diff --quiet -- data/alert-state.json; then
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/alert-state.json
+          git commit -m "chore: persist finhot alert state"
+          git push
 
       - name: Commit updated data when changed
         if: success()
         run: |
-          if git diff --quiet -- data.js data/history.json data/events.json; then
+          if git diff --quiet -- data.js data/history.json data/events.json data/alert-state.json; then
             echo "No data changes"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data.js data/history.json data/events.json
+          git add data.js data/history.json data/events.json data/alert-state.json
           git commit -m "chore: update finhot data"
           git push

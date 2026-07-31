@@ -136,7 +136,7 @@
     <div class="tech-items">
       <div class="tech-row">
         <div class="tech-dot"></div>
-        <span class="tech-text">数据采集: RSSHub 多实例容错 + Investing.com 直采，单源最多读取 30 条并监控触顶，前台保留 7 天精选资讯</span>
+        <span class="tech-text">数据采集: RSSHub 多实例容错 + Investing.com 直采，单源默认 30 条、触顶自适应至 50 条并持续监控，前台保留 7 天精选资讯</span>
       </div>
       <div class="tech-row">
         <div class="tech-dot"></div>
@@ -149,6 +149,10 @@
       <div class="tech-row">
         <div class="tech-dot"></div>
         <span class="tech-text">AI 分析: SenseNova DeepSeek-v4-Flash 生成辅助摘要；所有输出经结构、枚举、长度及原文证据 ID 校验，异常时回退规则分析</span>
+      </div>
+      <div class="tech-row">
+        <div class="tech-dot"></div>
+        <span class="tech-text">自动监控: 对连续失败、覆盖率过低、数据陈旧、主运行 AI 回退、连续触顶和调度延迟进行告警，GitHub Issue 自动去重</span>
       </div>
       <div class="tech-row">
         <div class="tech-dot"></div>

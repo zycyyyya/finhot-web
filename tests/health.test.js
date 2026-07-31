@@ -2,6 +2,7 @@
 
 const assert = require('assert');
 const {
+  adaptiveFetchWindow,
   assertPublicationGate,
   buildSourceHealth,
   publicationGateErrors,
@@ -10,6 +11,10 @@ const {
   sanitizeError,
   summarizeSourceHealth,
 } = require('../scripts/health');
+
+assert.deepStrictEqual(adaptiveFetchWindow(29, 30, 50), { initialFetchLimit: 30, fetchLimit: 30, fetchLimitExpanded: false, fetchLimitReached: false });
+assert.deepStrictEqual(adaptiveFetchWindow(30, 30, 50), { initialFetchLimit: 30, fetchLimit: 50, fetchLimitExpanded: true, fetchLimitReached: false });
+assert.deepStrictEqual(adaptiveFetchWindow(50, 30, 50), { initialFetchLimit: 30, fetchLimit: 50, fetchLimitExpanded: true, fetchLimitReached: true });
 
 const redacted = sanitizeError('HTTP 401 https://example.com/feed?api_key=secret Bearer abc.def sk-abcdefghijk token=visible');
 assert.strictEqual(redacted.includes('secret'), false);
@@ -21,15 +26,17 @@ assert.ok(redacted.includes('https://example.com/feed'));
 const freshItem = { publishedAt: '2026-07-30T08:00:00Z' };
 const usable = buildSourceHealth(
   { sourceName: '测试源', route: '/test', category: 'industry', tier: 'S2' },
-  { items: [freshItem], success: true, stale: false, usedEndpoint: 'https://rss.example.com/test?token=x', durationMs: 125, rawItemCount: 30, acceptedItemCount: 30, fetchLimit: 30, fetchLimitReached: true, attempts: [{ endpoint: 'https://rss.example.com/test?key=x', success: true, itemCount: 30 }] },
+  { items: [freshItem], success: true, stale: false, usedEndpoint: 'https://rss.example.com/test?token=x', durationMs: 125, rawItemCount: 50, acceptedItemCount: 50, initialFetchLimit: 30, fetchLimit: 50, fetchLimitExpanded: true, fetchLimitReached: true, attempts: [{ endpoint: 'https://rss.example.com/test?key=x', success: true, itemCount: 50 }] },
 );
 assert.match(usable.sourceId, /^source_[a-f0-9]{10}$/);
 assert.strictEqual(usable.usedEndpoint, 'rss.example.com');
 assert.strictEqual(usable.usable, true);
 assert.strictEqual(usable.attempts[0].endpoint, 'rss.example.com');
-assert.strictEqual(usable.rawItemCount, 30);
-assert.strictEqual(usable.acceptedItemCount, 30);
-assert.strictEqual(usable.fetchLimit, 30);
+assert.strictEqual(usable.rawItemCount, 50);
+assert.strictEqual(usable.acceptedItemCount, 50);
+assert.strictEqual(usable.initialFetchLimit, 30);
+assert.strictEqual(usable.fetchLimit, 50);
+assert.strictEqual(usable.fetchLimitExpanded, true);
 assert.strictEqual(usable.fetchLimitReached, true);
 
 const stale = buildSourceHealth(

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-07-31T03:54:17.991Z",
+  "generatedAt": "2026-07-31T05:34:03.637Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -8,7 +8,7 @@
       "eventId": "event_e19822419452",
       "title": "国家统计局：7月份非制造业商务活动指数为49.0%",
       "firstSeenAt": "2026-07-31T02:27:13.623Z",
-      "lastSeenAt": "2026-07-31T03:54:17.991Z",
+      "lastSeenAt": "2026-07-31T05:34:03.637Z",
       "primaryItemId": "news_cfea1d75eb52",
       "evidenceItemIds": [
         "news_1e1eb7294fe1",
@@ -20,15 +20,16 @@
     },
     {
       "eventId": "event_46bb74f23205",
-      "title": "7月统计局制造业PMI降至49.2 供需均收缩导致生产经营活动放缓",
+      "title": "中国7月制造业PMI意外跌入收缩区间",
       "firstSeenAt": "2026-07-31T02:27:13.623Z",
-      "lastSeenAt": "2026-07-31T03:54:17.991Z",
-      "primaryItemId": "news_fcbba33b4cab",
+      "lastSeenAt": "2026-07-31T05:34:03.637Z",
+      "primaryItemId": "news_a126000f27c6",
       "evidenceItemIds": [
         "news_aec6cbc95654",
         "news_cfea1d75eb52",
         "news_608f31868d76",
-        "news_fcbba33b4cab"
+        "news_fcbba33b4cab",
+        "news_a126000f27c6"
       ],
       "status": "developing"
     },
@@ -36,7 +37,7 @@
       "eventId": "event_d0a4f7f6abd4",
       "title": "A股三大指数集体高开，创业板指涨逾5%",
       "firstSeenAt": "2026-07-31T02:27:13.623Z",
-      "lastSeenAt": "2026-07-31T03:54:17.991Z",
+      "lastSeenAt": "2026-07-31T05:34:03.637Z",
       "primaryItemId": "news_69277baadba1",
       "evidenceItemIds": [
         "news_69277baadba1",
@@ -48,7 +49,7 @@
       "eventId": "event_98e117d09619",
       "title": "滚动更新丨韩国KOSPI指数日内暴涨15%，SK海力士涨超26%",
       "firstSeenAt": "2026-07-31T02:27:13.623Z",
-      "lastSeenAt": "2026-07-31T03:54:17.991Z",
+      "lastSeenAt": "2026-07-31T05:34:03.637Z",
       "primaryItemId": "news_1b9ca1fe3217",
       "evidenceItemIds": [
         "news_1b9ca1fe3217",
@@ -60,7 +61,7 @@
       "eventId": "event_dafb26c31c48",
       "title": "“适时调整”的内涵",
       "firstSeenAt": "2026-07-31T02:27:13.623Z",
-      "lastSeenAt": "2026-07-31T03:54:17.991Z",
+      "lastSeenAt": "2026-07-31T05:34:03.637Z",
       "primaryItemId": "news_3ca3918499be",
       "evidenceItemIds": [
         "news_3ca3918499be",
@@ -70,25 +71,30 @@
     },
     {
       "eventId": "event_944d31548386",
-      "title": "受进口猛增拖累 美国二季度GDP环比增长1.5%",
+      "title": "7月31日会员早报：美国二季度GDP放缓至1.5% 美国6月PCE六年来首现环比负增长",
       "firstSeenAt": "2026-07-31T02:27:13.623Z",
-      "lastSeenAt": "2026-07-31T03:54:17.991Z",
-      "primaryItemId": "news_a2920805de34",
+      "lastSeenAt": "2026-07-31T05:34:03.637Z",
+      "primaryItemId": "news_8b48ff912b2b",
       "evidenceItemIds": [
         "news_a2920805de34",
-        "news_8b48ff912b2b"
+        "news_8b48ff912b2b",
+        "news_d30dbd59e5d3",
+        "news_4bb3873e3ee2",
+        "news_50f4879177ed",
+        "news_241da0881c4d"
       ],
       "status": "developing"
     },
     {
       "eventId": "event_a56bdf6448cd",
-      "title": "政治局会议: 发力提效的几个信号",
+      "title": "下半年宏观政策发力提效，国家发改委详解",
       "firstSeenAt": "2026-07-31T02:27:13.623Z",
-      "lastSeenAt": "2026-07-31T03:54:17.991Z",
-      "primaryItemId": "news_bbf70ca049cf",
+      "lastSeenAt": "2026-07-31T05:34:03.637Z",
+      "primaryItemId": "news_f28a9c998dae",
       "evidenceItemIds": [
         "news_bbf70ca049cf",
-        "news_5d8b3add3d0c"
+        "news_5d8b3add3d0c",
+        "news_f28a9c998dae"
       ],
       "status": "developing"
     },
@@ -96,7 +102,7 @@
       "eventId": "event_ae80fea7e120",
       "title": "北森控股(09669)7月30日斥资62.83万港元回购20万股",
       "firstSeenAt": "2026-07-31T02:27:13.623Z",
-      "lastSeenAt": "2026-07-31T03:54:17.991Z",
+      "lastSeenAt": "2026-07-31T05:34:03.637Z",
       "primaryItemId": "news_b22af70834e0",
       "evidenceItemIds": [
         "news_b22af70834e0",
@@ -108,7 +114,7 @@
       "eventId": "event_63eddee6efd8",
       "title": "财经早知道｜中共中央政治局：深化投融资综合改革 提升资本市场韧性和信心",
       "firstSeenAt": "2026-07-31T02:43:30.494Z",
-      "lastSeenAt": "2026-07-31T03:54:17.991Z",
+      "lastSeenAt": "2026-07-31T05:34:03.637Z",
       "primaryItemId": "news_2a37bfb53074",
       "evidenceItemIds": [
         "news_2a37bfb53074",
@@ -120,7 +126,7 @@
       "eventId": "event_a70cbef2f697",
       "title": "韩国拟向主权财富基金注资140亿美元，押注AI与数据中心",
       "firstSeenAt": "2026-07-31T02:43:30.494Z",
-      "lastSeenAt": "2026-07-31T03:54:17.991Z",
+      "lastSeenAt": "2026-07-31T05:34:03.637Z",
       "primaryItemId": "news_7aa9ca76df9d",
       "evidenceItemIds": [
         "news_7aa9ca76df9d",
@@ -130,13 +136,14 @@
     },
     {
       "eventId": "event_529af3584dc2",
-      "title": "恒指开盘跌0.08%，恒生科技指数涨0.3%",
+      "title": "恒指午间休盘跌0.11%，恒生科技指数涨0.7%",
       "firstSeenAt": "2026-07-31T02:43:30.494Z",
-      "lastSeenAt": "2026-07-31T03:54:17.991Z",
-      "primaryItemId": "news_af1364619b24",
+      "lastSeenAt": "2026-07-31T05:34:03.637Z",
+      "primaryItemId": "news_e170ace73dc0",
       "evidenceItemIds": [
         "news_1dd2743eb007",
-        "news_af1364619b24"
+        "news_af1364619b24",
+        "news_e170ace73dc0"
       ],
       "status": "developing"
     },
@@ -144,11 +151,73 @@
       "eventId": "event_67c8637246d3",
       "title": "好未来：2027财年第一季度净收入7.58亿美元",
       "firstSeenAt": "2026-07-31T02:43:30.494Z",
-      "lastSeenAt": "2026-07-31T03:54:17.991Z",
+      "lastSeenAt": "2026-07-31T05:34:03.637Z",
       "primaryItemId": "news_01db26bd0047",
       "evidenceItemIds": [
         "news_958b9ad21508",
         "news_01db26bd0047"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_a8100d5723df",
+      "title": "日本央行维持利率在1%不变，符合预期",
+      "firstSeenAt": "2026-07-31T03:54:17.991Z",
+      "lastSeenAt": "2026-07-31T05:34:03.637Z",
+      "primaryItemId": "news_324cbc62a29f",
+      "evidenceItemIds": [
+        "news_324cbc62a29f",
+        "news_afda7369f757",
+        "news_08d810415563"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_80081588356b",
+      "title": "A股三大指数午间休盘集体上涨，卓易信息涨超19%",
+      "firstSeenAt": "2026-07-31T03:54:17.991Z",
+      "lastSeenAt": "2026-07-31T05:34:03.637Z",
+      "primaryItemId": "news_84c31f5e4972",
+      "evidenceItemIds": [
+        "news_84c31f5e4972",
+        "news_f167d388d32c"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_f483be5cfaad",
+      "title": "宇树科技：8月10日打新，预计上半年营业收入10.52亿元至11.28亿元",
+      "firstSeenAt": "2026-07-31T05:34:03.637Z",
+      "lastSeenAt": "2026-07-31T05:34:03.637Z",
+      "primaryItemId": "news_d2929acda370",
+      "evidenceItemIds": [
+        "news_d2929acda370",
+        "news_4da50df35f78",
+        "news_afaf6c155cfa"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_29abbb46b383",
+      "title": "AWS增速加快，亚马逊上调全年资本支出至2200亿美元",
+      "firstSeenAt": "2026-07-31T05:34:03.637Z",
+      "lastSeenAt": "2026-07-31T05:34:03.637Z",
+      "primaryItemId": "news_280aca5b5457",
+      "evidenceItemIds": [
+        "news_280aca5b5457",
+        "news_8c4009e8163e"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_1412a5a5326b",
+      "title": "国家发改委：有关机构测算“十五五”时期算力网建设将新增直接投资4万亿元",
+      "firstSeenAt": "2026-07-31T05:34:03.637Z",
+      "lastSeenAt": "2026-07-31T05:34:03.637Z",
+      "primaryItemId": "news_570f40a4130e",
+      "evidenceItemIds": [
+        "news_570f40a4130e",
+        "news_73e2727d88f6"
       ],
       "status": "developing"
     },
@@ -185,30 +254,6 @@
       "evidenceItemIds": [
         "news_703553b8b570",
         "news_b855ea86a7e0"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_a8100d5723df",
-      "title": "日本央行维持利率在1%不变，符合预期",
-      "firstSeenAt": "2026-07-31T03:54:17.991Z",
-      "lastSeenAt": "2026-07-31T03:54:17.991Z",
-      "primaryItemId": "news_324cbc62a29f",
-      "evidenceItemIds": [
-        "news_324cbc62a29f",
-        "news_afda7369f757"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_80081588356b",
-      "title": "A股三大指数午间休盘集体上涨，卓易信息涨超19%",
-      "firstSeenAt": "2026-07-31T03:54:17.991Z",
-      "lastSeenAt": "2026-07-31T03:54:17.991Z",
-      "primaryItemId": "news_84c31f5e4972",
-      "evidenceItemIds": [
-        "news_84c31f5e4972",
-        "news_f167d388d32c"
       ],
       "status": "developing"
     },

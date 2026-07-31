@@ -1,7 +1,18 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": null,
+  "updatedAt": "2026-07-31T05:34:03.637Z",
   "consecutiveFailures": 0,
-  "sourceLimitRuns": {},
+  "sourceLimitRuns": {
+    "source_a6a2153c0b": 0,
+    "source_6a677efcc2": 0,
+    "source_71b645ddf5": 1,
+    "source_dae28d24f5": 0,
+    "source_7b954bfc72": 0,
+    "source_4087f16353": 0,
+    "source_0ac92ff106": 0,
+    "source_adf9a67b7f": 0,
+    "source_0936db37cf": 0,
+    "source_9eb00b3a63": 0
+  },
   "scheduleRuns": {}
 }

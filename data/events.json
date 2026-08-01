@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-08-01T06:41:32.204Z",
+  "generatedAt": "2026-08-01T10:14:03.322Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -8,7 +8,7 @@
       "eventId": "event_e19822419452",
       "title": "国家统计局解读：7月份中国采购经理指数有所回落",
       "firstSeenAt": "2026-07-31T02:27:13.623Z",
-      "lastSeenAt": "2026-08-01T06:41:32.204Z",
+      "lastSeenAt": "2026-08-01T10:14:03.322Z",
       "primaryItemId": "news_4b628ba757ac",
       "evidenceItemIds": [
         "news_1e1eb7294fe1",
@@ -22,7 +22,7 @@
       "eventId": "event_46bb74f23205",
       "title": "国家统计局：7月PMI为49.2% 比上月下降1.1个百分点",
       "firstSeenAt": "2026-07-31T02:27:13.623Z",
-      "lastSeenAt": "2026-08-01T06:41:32.204Z",
+      "lastSeenAt": "2026-08-01T10:14:03.322Z",
       "primaryItemId": "news_608f31868d76",
       "evidenceItemIds": [
         "news_aec6cbc95654",
@@ -37,7 +37,7 @@
       "eventId": "event_944d31548386",
       "title": "美国第二季度GDP增速放缓至1.5%",
       "firstSeenAt": "2026-07-31T02:27:13.623Z",
-      "lastSeenAt": "2026-08-01T06:41:32.204Z",
+      "lastSeenAt": "2026-08-01T10:14:03.322Z",
       "primaryItemId": "news_d30dbd59e5d3",
       "evidenceItemIds": [
         "news_a2920805de34",
@@ -46,6 +46,176 @@
         "news_4bb3873e3ee2",
         "news_50f4879177ed",
         "news_241da0881c4d"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_2cb0c5891582",
+      "title": "中国证监会同意焦炭期权注册",
+      "firstSeenAt": "2026-07-31T11:02:55.182Z",
+      "lastSeenAt": "2026-08-01T10:14:03.322Z",
+      "primaryItemId": "news_b7d50c00dd11",
+      "evidenceItemIds": [
+        "news_b7d50c00dd11",
+        "news_b99a2b6dea4d",
+        "news_7ed2f395e7fe"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_314ca34d11c6",
+      "title": "香港经济二季度同比增长4.3%",
+      "firstSeenAt": "2026-07-31T11:02:55.182Z",
+      "lastSeenAt": "2026-08-01T10:14:03.322Z",
+      "primaryItemId": "news_48745b944496",
+      "evidenceItemIds": [
+        "news_48745b944496",
+        "news_54ae96781e4e"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_67c8637246d3",
+      "title": "艾伯维第二季度净营收169.9亿美元",
+      "firstSeenAt": "2026-07-31T02:43:30.494Z",
+      "lastSeenAt": "2026-08-01T10:14:03.322Z",
+      "primaryItemId": "news_2d197422d23e",
+      "evidenceItemIds": [
+        "news_958b9ad21508",
+        "news_01db26bd0047",
+        "news_2d197422d23e"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_274777a299d4",
+      "title": "实控人减持、公司回购 兆易创新拟最高20亿元回购股份并注销",
+      "firstSeenAt": "2026-07-31T14:43:32.623Z",
+      "lastSeenAt": "2026-08-01T10:14:03.322Z",
+      "primaryItemId": "news_a4ff46a1602a",
+      "evidenceItemIds": [
+        "news_a4ff46a1602a",
+        "news_112d02c83ae9"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_d7013fee7f33",
+      "title": "国家再核准8台核电机组，投资超1600亿",
+      "firstSeenAt": "2026-07-31T14:43:32.623Z",
+      "lastSeenAt": "2026-08-01T10:14:03.322Z",
+      "primaryItemId": "news_4a73c5f901f9",
+      "evidenceItemIds": [
+        "news_db90b0e4d445",
+        "news_4a73c5f901f9"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_202dd878fa19",
+      "title": "晚间公告｜7月31日这些公告有看头",
+      "firstSeenAt": "2026-07-31T14:43:32.623Z",
+      "lastSeenAt": "2026-08-01T10:14:03.322Z",
+      "primaryItemId": "news_eaf56a2f5345",
+      "evidenceItemIds": [
+        "news_eaf56a2f5345",
+        "news_8b256f193830"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_33f39b4e9e62",
+      "title": "AI神经渲染重构游戏开发范式 垂直世界模型或成行业新方向｜直击2026Chinajoy",
+      "firstSeenAt": "2026-07-31T14:43:32.623Z",
+      "lastSeenAt": "2026-08-01T10:14:03.322Z",
+      "primaryItemId": "news_9afa642f95ca",
+      "evidenceItemIds": [
+        "news_23182433c2f5",
+        "news_9afa642f95ca"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_0d61136f075d",
+      "title": "商务部就美国将中国企业列入所谓涉疆法案实体清单答问",
+      "firstSeenAt": "2026-08-01T03:54:06.184Z",
+      "lastSeenAt": "2026-08-01T10:14:03.322Z",
+      "primaryItemId": "news_597817d0d245",
+      "evidenceItemIds": [
+        "news_597817d0d245",
+        "news_c683bd25c4d7"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_91fb625edcc6",
+      "title": "华尔街见闻早餐FM-Radio | 2026年8月1日",
+      "firstSeenAt": "2026-08-01T03:54:06.184Z",
+      "lastSeenAt": "2026-08-01T10:14:03.322Z",
+      "primaryItemId": "news_17edaa318161",
+      "evidenceItemIds": [
+        "news_17edaa318161",
+        "news_98deb5260008"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_c4f878eae87a",
+      "title": "报道：OpenAI向美国监管机构演示新一代\"Astra\"AI模型",
+      "firstSeenAt": "2026-08-01T03:54:06.184Z",
+      "lastSeenAt": "2026-08-01T10:14:03.322Z",
+      "primaryItemId": "news_7f3c1e0f85ae",
+      "evidenceItemIds": [
+        "news_7f3c1e0f85ae",
+        "news_e277a80bcb77"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_5ba08d5f6930",
+      "title": "美联储按兵不动的底气？美国通胀降温信号增多！",
+      "firstSeenAt": "2026-08-01T03:54:06.184Z",
+      "lastSeenAt": "2026-08-01T10:14:03.322Z",
+      "primaryItemId": "news_0f0e6ab0e56a",
+      "evidenceItemIds": [
+        "news_0f0e6ab0e56a",
+        "news_3550dfd7aaf2"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_42afa06cfdba",
+      "title": "报道：沃什考虑减少美联储政策会议的频率",
+      "firstSeenAt": "2026-08-01T03:54:06.184Z",
+      "lastSeenAt": "2026-08-01T10:14:03.322Z",
+      "primaryItemId": "news_db8cba5f7ea1",
+      "evidenceItemIds": [
+        "news_db8cba5f7ea1",
+        "news_373bb61b0f0e"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_ed00cefb2d01",
+      "title": "多家银行重启五年期大额存单发行",
+      "firstSeenAt": "2026-08-01T03:54:06.184Z",
+      "lastSeenAt": "2026-08-01T10:14:03.322Z",
+      "primaryItemId": "news_a761d45601ad",
+      "evidenceItemIds": [
+        "news_a761d45601ad",
+        "news_c4a6a0346577"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_01118fb5b195",
+      "title": "财联社汽车早报【8月1日】",
+      "firstSeenAt": "2026-08-01T03:54:06.184Z",
+      "lastSeenAt": "2026-08-01T10:14:03.322Z",
+      "primaryItemId": "news_11bf098d57d9",
+      "evidenceItemIds": [
+        "news_11bf098d57d9",
+        "news_352d957a2426"
       ],
       "status": "developing"
     },
@@ -76,92 +246,6 @@
       "status": "developing"
     },
     {
-      "eventId": "event_2cb0c5891582",
-      "title": "中国证监会同意焦炭期权注册",
-      "firstSeenAt": "2026-07-31T11:02:55.182Z",
-      "lastSeenAt": "2026-08-01T06:41:32.204Z",
-      "primaryItemId": "news_b7d50c00dd11",
-      "evidenceItemIds": [
-        "news_b7d50c00dd11",
-        "news_b99a2b6dea4d",
-        "news_7ed2f395e7fe"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_314ca34d11c6",
-      "title": "香港经济二季度同比增长4.3%",
-      "firstSeenAt": "2026-07-31T11:02:55.182Z",
-      "lastSeenAt": "2026-08-01T06:41:32.204Z",
-      "primaryItemId": "news_48745b944496",
-      "evidenceItemIds": [
-        "news_48745b944496",
-        "news_54ae96781e4e"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_67c8637246d3",
-      "title": "艾伯维第二季度净营收169.9亿美元",
-      "firstSeenAt": "2026-07-31T02:43:30.494Z",
-      "lastSeenAt": "2026-08-01T06:41:32.204Z",
-      "primaryItemId": "news_2d197422d23e",
-      "evidenceItemIds": [
-        "news_958b9ad21508",
-        "news_01db26bd0047",
-        "news_2d197422d23e"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_274777a299d4",
-      "title": "实控人减持、公司回购 兆易创新拟最高20亿元回购股份并注销",
-      "firstSeenAt": "2026-07-31T14:43:32.623Z",
-      "lastSeenAt": "2026-08-01T06:41:32.204Z",
-      "primaryItemId": "news_a4ff46a1602a",
-      "evidenceItemIds": [
-        "news_a4ff46a1602a",
-        "news_112d02c83ae9"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_d7013fee7f33",
-      "title": "我国新核准8台核电机组，项目总投资超1700亿元",
-      "firstSeenAt": "2026-07-31T14:43:32.623Z",
-      "lastSeenAt": "2026-08-01T06:41:32.204Z",
-      "primaryItemId": "news_db90b0e4d445",
-      "evidenceItemIds": [
-        "news_db90b0e4d445",
-        "news_4a73c5f901f9"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_202dd878fa19",
-      "title": "晚间公告｜7月31日这些公告有看头",
-      "firstSeenAt": "2026-07-31T14:43:32.623Z",
-      "lastSeenAt": "2026-08-01T06:41:32.204Z",
-      "primaryItemId": "news_eaf56a2f5345",
-      "evidenceItemIds": [
-        "news_eaf56a2f5345",
-        "news_8b256f193830"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_33f39b4e9e62",
-      "title": "AI神经渲染重构游戏开发范式 垂直世界模型或成行业新方向｜直击2026Chinajoy",
-      "firstSeenAt": "2026-07-31T14:43:32.623Z",
-      "lastSeenAt": "2026-08-01T06:41:32.204Z",
-      "primaryItemId": "news_9afa642f95ca",
-      "evidenceItemIds": [
-        "news_23182433c2f5",
-        "news_9afa642f95ca"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_2a80b3265e94",
       "title": "铭普光磁：拟定增募资不超12.83亿元，用于高速光模块智能制造项目等",
       "firstSeenAt": "2026-07-31T14:43:32.623Z",
@@ -170,90 +254,6 @@
       "evidenceItemIds": [
         "news_419e72430b12",
         "news_7d0d012c49c4"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_0d61136f075d",
-      "title": "商务部就美国将中国企业列入所谓涉疆法案实体清单答问",
-      "firstSeenAt": "2026-08-01T03:54:06.184Z",
-      "lastSeenAt": "2026-08-01T06:41:32.204Z",
-      "primaryItemId": "news_597817d0d245",
-      "evidenceItemIds": [
-        "news_597817d0d245",
-        "news_c683bd25c4d7"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_91fb625edcc6",
-      "title": "华尔街见闻早餐FM-Radio | 2026年8月1日",
-      "firstSeenAt": "2026-08-01T03:54:06.184Z",
-      "lastSeenAt": "2026-08-01T06:41:32.204Z",
-      "primaryItemId": "news_17edaa318161",
-      "evidenceItemIds": [
-        "news_17edaa318161",
-        "news_98deb5260008"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_c4f878eae87a",
-      "title": "报道：OpenAI向美国监管机构演示新一代\"Astra\"AI模型",
-      "firstSeenAt": "2026-08-01T03:54:06.184Z",
-      "lastSeenAt": "2026-08-01T06:41:32.204Z",
-      "primaryItemId": "news_7f3c1e0f85ae",
-      "evidenceItemIds": [
-        "news_7f3c1e0f85ae",
-        "news_e277a80bcb77"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_5ba08d5f6930",
-      "title": "美联储按兵不动的底气？美国通胀降温信号增多！",
-      "firstSeenAt": "2026-08-01T03:54:06.184Z",
-      "lastSeenAt": "2026-08-01T06:41:32.204Z",
-      "primaryItemId": "news_0f0e6ab0e56a",
-      "evidenceItemIds": [
-        "news_0f0e6ab0e56a",
-        "news_3550dfd7aaf2"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_42afa06cfdba",
-      "title": "报道：沃什考虑减少美联储政策会议的频率",
-      "firstSeenAt": "2026-08-01T03:54:06.184Z",
-      "lastSeenAt": "2026-08-01T06:41:32.204Z",
-      "primaryItemId": "news_db8cba5f7ea1",
-      "evidenceItemIds": [
-        "news_db8cba5f7ea1",
-        "news_373bb61b0f0e"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_ed00cefb2d01",
-      "title": "多家银行重启五年期大额存单发行",
-      "firstSeenAt": "2026-08-01T03:54:06.184Z",
-      "lastSeenAt": "2026-08-01T06:41:32.204Z",
-      "primaryItemId": "news_a761d45601ad",
-      "evidenceItemIds": [
-        "news_a761d45601ad",
-        "news_c4a6a0346577"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_01118fb5b195",
-      "title": "财联社汽车早报【8月1日】",
-      "firstSeenAt": "2026-08-01T03:54:06.184Z",
-      "lastSeenAt": "2026-08-01T06:41:32.204Z",
-      "primaryItemId": "news_11bf098d57d9",
-      "evidenceItemIds": [
-        "news_11bf098d57d9",
-        "news_352d957a2426"
       ],
       "status": "developing"
     },

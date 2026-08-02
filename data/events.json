@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-08-02T10:15:21.326Z",
+  "generatedAt": "2026-08-02T14:05:44.674Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -8,7 +8,7 @@
       "eventId": "event_e19822419452",
       "title": "国家统计局解读：7月份中国采购经理指数有所回落",
       "firstSeenAt": "2026-07-31T02:27:13.623Z",
-      "lastSeenAt": "2026-08-02T10:15:21.326Z",
+      "lastSeenAt": "2026-08-02T14:05:44.674Z",
       "primaryItemId": "news_4b628ba757ac",
       "evidenceItemIds": [
         "news_1e1eb7294fe1",
@@ -22,7 +22,7 @@
       "eventId": "event_46bb74f23205",
       "title": "国家统计局：7月PMI为49.2% 比上月下降1.1个百分点",
       "firstSeenAt": "2026-07-31T02:27:13.623Z",
-      "lastSeenAt": "2026-08-02T10:15:21.326Z",
+      "lastSeenAt": "2026-08-02T14:05:44.674Z",
       "primaryItemId": "news_608f31868d76",
       "evidenceItemIds": [
         "news_aec6cbc95654",
@@ -37,7 +37,7 @@
       "eventId": "event_944d31548386",
       "title": "美国第二季度GDP增速放缓至1.5%",
       "firstSeenAt": "2026-07-31T02:27:13.623Z",
-      "lastSeenAt": "2026-08-02T10:15:21.326Z",
+      "lastSeenAt": "2026-08-02T14:05:44.674Z",
       "primaryItemId": "news_d30dbd59e5d3",
       "evidenceItemIds": [
         "news_a2920805de34",
@@ -53,7 +53,7 @@
       "eventId": "event_2cb0c5891582",
       "title": "中国证监会同意焦炭期权注册",
       "firstSeenAt": "2026-07-31T11:02:55.182Z",
-      "lastSeenAt": "2026-08-02T10:15:21.326Z",
+      "lastSeenAt": "2026-08-02T14:05:44.674Z",
       "primaryItemId": "news_b7d50c00dd11",
       "evidenceItemIds": [
         "news_b7d50c00dd11",
@@ -66,11 +66,239 @@
       "eventId": "event_314ca34d11c6",
       "title": "香港经济二季度同比增长4.3%",
       "firstSeenAt": "2026-07-31T11:02:55.182Z",
-      "lastSeenAt": "2026-08-02T10:15:21.326Z",
+      "lastSeenAt": "2026-08-02T14:05:44.674Z",
       "primaryItemId": "news_48745b944496",
       "evidenceItemIds": [
         "news_48745b944496",
         "news_54ae96781e4e"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_c4f878eae87a",
+      "title": "OpenAI确认下一代模型Astra存在，以2000美元算力成本破解十项数学未解难题，正向监管层展示",
+      "firstSeenAt": "2026-08-01T03:54:06.184Z",
+      "lastSeenAt": "2026-08-02T14:05:44.674Z",
+      "primaryItemId": "news_bb55e30e57a0",
+      "evidenceItemIds": [
+        "news_7f3c1e0f85ae",
+        "news_e277a80bcb77",
+        "news_bb55e30e57a0"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_2f9c3e8e22d3",
+      "title": "新股消息｜奕斯伟计算再度递表港交所",
+      "firstSeenAt": "2026-08-01T14:02:14.101Z",
+      "lastSeenAt": "2026-08-02T14:05:44.674Z",
+      "primaryItemId": "news_9a2615cb6381",
+      "evidenceItemIds": [
+        "news_9a2615cb6381",
+        "news_120c6d970c9e"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_3811ac80ef48",
+      "title": "四大行5年期大额存单集体回归，最高利率1.6%",
+      "firstSeenAt": "2026-08-02T03:56:00.339Z",
+      "lastSeenAt": "2026-08-02T14:05:44.674Z",
+      "primaryItemId": "news_d03772295040",
+      "evidenceItemIds": [
+        "news_d03772295040",
+        "news_d83dc4b96029",
+        "news_330be5ebbbcc"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_ef0f08120c87",
+      "title": "Citadel抄底“AI股神”，对市场是好事吗？",
+      "firstSeenAt": "2026-08-02T03:56:00.339Z",
+      "lastSeenAt": "2026-08-02T14:05:44.674Z",
+      "primaryItemId": "news_8fcf6c6d81bf",
+      "evidenceItemIds": [
+        "news_638b65eaeab9",
+        "news_8fcf6c6d81bf"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_655c070e7c1b",
+      "title": "科技周报|长鑫科技上市首日市值登顶A股；京沪抢抓太空算力未来产业",
+      "firstSeenAt": "2026-08-02T03:56:00.339Z",
+      "lastSeenAt": "2026-08-02T14:05:44.674Z",
+      "primaryItemId": "news_7ade1602c23d",
+      "evidenceItemIds": [
+        "news_7ade1602c23d",
+        "news_47a433416f71"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_9bdef86542f7",
+      "title": "今年上半年北京“双枢纽”机场进出口超4000亿元",
+      "firstSeenAt": "2026-08-02T03:56:00.339Z",
+      "lastSeenAt": "2026-08-02T14:05:44.674Z",
+      "primaryItemId": "news_a2ae42fdcc8c",
+      "evidenceItemIds": [
+        "news_a2ae42fdcc8c",
+        "news_7cfd3aa53210"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_274777a299d4",
+      "title": "兆易创新：拟以10亿元-20亿元回购公司股份",
+      "firstSeenAt": "2026-07-31T14:43:32.623Z",
+      "lastSeenAt": "2026-08-02T14:05:44.674Z",
+      "primaryItemId": "news_112d02c83ae9",
+      "evidenceItemIds": [
+        "news_a4ff46a1602a",
+        "news_112d02c83ae9",
+        "news_c86d8e270915"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_a8100d5723df",
+      "title": "日本央行维持政策利率1.0%不变！美日配合干预，日元后市怎么走？",
+      "firstSeenAt": "2026-07-31T03:54:17.991Z",
+      "lastSeenAt": "2026-08-02T14:05:44.674Z",
+      "primaryItemId": "news_602c069a0d20",
+      "evidenceItemIds": [
+        "news_324cbc62a29f",
+        "news_afda7369f757",
+        "news_08d810415563",
+        "news_602c069a0d20"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_dafb26c31c48",
+      "title": "部署下半年八大重点！央行定调：适时调整、加力扩内需",
+      "firstSeenAt": "2026-07-31T02:27:13.623Z",
+      "lastSeenAt": "2026-08-02T14:05:44.674Z",
+      "primaryItemId": "news_783ca4649da3",
+      "evidenceItemIds": [
+        "news_3ca3918499be",
+        "news_496d1f811a82",
+        "news_783ca4649da3"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_9290628fe25b",
+      "title": "7月财新中国新经济指数微降至33.8 主要受资本投入下降影响",
+      "firstSeenAt": "2026-08-02T10:15:21.326Z",
+      "lastSeenAt": "2026-08-02T14:05:44.674Z",
+      "primaryItemId": "news_9a1c44296596",
+      "evidenceItemIds": [
+        "news_9a1c44296596",
+        "news_58dd9dcb7cf8"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_9623f6df707a",
+      "title": "机构论后市丨调整基本结束，8月修复可期",
+      "firstSeenAt": "2026-08-02T10:15:21.326Z",
+      "lastSeenAt": "2026-08-02T14:05:44.674Z",
+      "primaryItemId": "news_d120ccff890a",
+      "evidenceItemIds": [
+        "news_47946b866d43",
+        "news_b570a234a4c0",
+        "news_d120ccff890a"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_63d8b3ea9ea5",
+      "title": "欣天科技：控股股东将变更为深圳元启 明起复牌",
+      "firstSeenAt": "2026-08-02T10:15:21.326Z",
+      "lastSeenAt": "2026-08-02T14:05:44.674Z",
+      "primaryItemId": "news_6ca48a0b4eb0",
+      "evidenceItemIds": [
+        "news_6ca48a0b4eb0",
+        "news_8707b2704511"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_d529aee5a2d8",
+      "title": "朝阳科技(002981.SZ)发布上半年业绩，归母净利润741.07万元，同比下降85.87%",
+      "firstSeenAt": "2026-08-02T10:15:21.326Z",
+      "lastSeenAt": "2026-08-02T14:05:44.674Z",
+      "primaryItemId": "news_9680dbf8a999",
+      "evidenceItemIds": [
+        "news_9680dbf8a999",
+        "news_e3714533b7fe",
+        "news_07dbfa44f953"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_202dd878fa19",
+      "title": "晚间公告丨8月2日这些公告有看头",
+      "firstSeenAt": "2026-07-31T14:43:32.623Z",
+      "lastSeenAt": "2026-08-02T14:05:44.674Z",
+      "primaryItemId": "news_58fdd88ca5ff",
+      "evidenceItemIds": [
+        "news_eaf56a2f5345",
+        "news_8b256f193830",
+        "news_58fdd88ca5ff"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_6b0dd34e3b24",
+      "title": "沙特阿拉伯股市上涨；截至收盘沙特阿拉伯TASI指数上涨1.10%",
+      "firstSeenAt": "2026-07-31T07:13:50.095Z",
+      "lastSeenAt": "2026-08-02T14:05:44.674Z",
+      "primaryItemId": "news_1d4bd1ed2860",
+      "evidenceItemIds": [
+        "news_a3a7db1b8baa",
+        "news_be2c5a5fdbc5",
+        "news_1d4bd1ed2860"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_f483be5cfaad",
+      "title": "IPO周报：宇树科技将于8月5日询价，韬盛科技陷侵害技术秘密纠纷",
+      "firstSeenAt": "2026-07-31T05:34:03.637Z",
+      "lastSeenAt": "2026-08-02T14:05:44.674Z",
+      "primaryItemId": "news_5413c2bb073f",
+      "evidenceItemIds": [
+        "news_d2929acda370",
+        "news_4da50df35f78",
+        "news_afaf6c155cfa",
+        "news_5413c2bb073f"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_97c13bfd9870",
+      "title": "金融机构治理新规：“关键少数”涉重大问题终身问责",
+      "firstSeenAt": "2026-08-02T14:05:44.674Z",
+      "lastSeenAt": "2026-08-02T14:05:44.674Z",
+      "primaryItemId": "news_58b1b5ca4896",
+      "evidenceItemIds": [
+        "news_58b1b5ca4896",
+        "news_91430da09761"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_0ffe484a6836",
+      "title": "政治局会议首提“新兴支柱产业”，释放哪些信号？",
+      "firstSeenAt": "2026-08-02T14:05:44.674Z",
+      "lastSeenAt": "2026-08-02T14:05:44.674Z",
+      "primaryItemId": "news_7ba480cf8dcd",
+      "evidenceItemIds": [
+        "news_7ba480cf8dcd",
+        "news_a5a12bef46ea"
       ],
       "status": "developing"
     },
@@ -83,19 +311,6 @@
       "evidenceItemIds": [
         "news_597817d0d245",
         "news_c683bd25c4d7"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_c4f878eae87a",
-      "title": "OpenAI确认下一代模型Astra存在，以2000美元算力成本破解十项数学未解难题，正向监管层展示",
-      "firstSeenAt": "2026-08-01T03:54:06.184Z",
-      "lastSeenAt": "2026-08-02T10:15:21.326Z",
-      "primaryItemId": "news_bb55e30e57a0",
-      "evidenceItemIds": [
-        "news_7f3c1e0f85ae",
-        "news_e277a80bcb77",
-        "news_bb55e30e57a0"
       ],
       "status": "developing"
     },
@@ -136,155 +351,6 @@
       "status": "developing"
     },
     {
-      "eventId": "event_2f9c3e8e22d3",
-      "title": "新股消息｜奕斯伟计算再度递表港交所",
-      "firstSeenAt": "2026-08-01T14:02:14.101Z",
-      "lastSeenAt": "2026-08-02T10:15:21.326Z",
-      "primaryItemId": "news_9a2615cb6381",
-      "evidenceItemIds": [
-        "news_9a2615cb6381",
-        "news_120c6d970c9e"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_3811ac80ef48",
-      "title": "四大行5年期大额存单集体回归，最高利率1.6%",
-      "firstSeenAt": "2026-08-02T03:56:00.339Z",
-      "lastSeenAt": "2026-08-02T10:15:21.326Z",
-      "primaryItemId": "news_d03772295040",
-      "evidenceItemIds": [
-        "news_d03772295040",
-        "news_d83dc4b96029"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_ef0f08120c87",
-      "title": "拯救AI交易？Citadel接盘“AI股神”持仓，投行策略师“终于搞明白大跌原因，现在可以往前看了”",
-      "firstSeenAt": "2026-08-02T03:56:00.339Z",
-      "lastSeenAt": "2026-08-02T10:15:21.326Z",
-      "primaryItemId": "news_638b65eaeab9",
-      "evidenceItemIds": [
-        "news_638b65eaeab9",
-        "news_8fcf6c6d81bf"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_655c070e7c1b",
-      "title": "科技周报|长鑫科技上市首日市值登顶A股；京沪抢抓太空算力未来产业",
-      "firstSeenAt": "2026-08-02T03:56:00.339Z",
-      "lastSeenAt": "2026-08-02T10:15:21.326Z",
-      "primaryItemId": "news_7ade1602c23d",
-      "evidenceItemIds": [
-        "news_7ade1602c23d",
-        "news_47a433416f71"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_9bdef86542f7",
-      "title": "今年上半年北京“双枢纽”机场进出口超4000亿元",
-      "firstSeenAt": "2026-08-02T03:56:00.339Z",
-      "lastSeenAt": "2026-08-02T10:15:21.326Z",
-      "primaryItemId": "news_a2ae42fdcc8c",
-      "evidenceItemIds": [
-        "news_a2ae42fdcc8c",
-        "news_7cfd3aa53210"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_274777a299d4",
-      "title": "兆易创新：拟以10亿元-20亿元回购公司股份",
-      "firstSeenAt": "2026-07-31T14:43:32.623Z",
-      "lastSeenAt": "2026-08-02T10:15:21.326Z",
-      "primaryItemId": "news_112d02c83ae9",
-      "evidenceItemIds": [
-        "news_a4ff46a1602a",
-        "news_112d02c83ae9",
-        "news_c86d8e270915"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_a8100d5723df",
-      "title": "日本央行维持政策利率1.0%不变！美日配合干预，日元后市怎么走？",
-      "firstSeenAt": "2026-07-31T03:54:17.991Z",
-      "lastSeenAt": "2026-08-02T10:15:21.326Z",
-      "primaryItemId": "news_602c069a0d20",
-      "evidenceItemIds": [
-        "news_324cbc62a29f",
-        "news_afda7369f757",
-        "news_08d810415563",
-        "news_602c069a0d20"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_dafb26c31c48",
-      "title": "部署下半年八大重点！央行定调：适时调整、加力扩内需",
-      "firstSeenAt": "2026-07-31T02:27:13.623Z",
-      "lastSeenAt": "2026-08-02T10:15:21.326Z",
-      "primaryItemId": "news_783ca4649da3",
-      "evidenceItemIds": [
-        "news_3ca3918499be",
-        "news_496d1f811a82",
-        "news_783ca4649da3"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_9290628fe25b",
-      "title": "7月财新中国新经济指数微降至33.8 主要受资本投入下降影响",
-      "firstSeenAt": "2026-08-02T10:15:21.326Z",
-      "lastSeenAt": "2026-08-02T10:15:21.326Z",
-      "primaryItemId": "news_9a1c44296596",
-      "evidenceItemIds": [
-        "news_9a1c44296596",
-        "news_58dd9dcb7cf8"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_9623f6df707a",
-      "title": "中信：A股调整基本结束，8月修复可期",
-      "firstSeenAt": "2026-08-02T10:15:21.326Z",
-      "lastSeenAt": "2026-08-02T10:15:21.326Z",
-      "primaryItemId": "news_47946b866d43",
-      "evidenceItemIds": [
-        "news_47946b866d43",
-        "news_b570a234a4c0"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_63d8b3ea9ea5",
-      "title": "欣天科技：控股股东将变更为深圳元启 明起复牌",
-      "firstSeenAt": "2026-08-02T10:15:21.326Z",
-      "lastSeenAt": "2026-08-02T10:15:21.326Z",
-      "primaryItemId": "news_6ca48a0b4eb0",
-      "evidenceItemIds": [
-        "news_6ca48a0b4eb0",
-        "news_8707b2704511"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_d529aee5a2d8",
-      "title": "朝阳科技(002981.SZ)发布上半年业绩，归母净利润741.07万元，同比下降85.87%",
-      "firstSeenAt": "2026-08-02T10:15:21.326Z",
-      "lastSeenAt": "2026-08-02T10:15:21.326Z",
-      "primaryItemId": "news_9680dbf8a999",
-      "evidenceItemIds": [
-        "news_9680dbf8a999",
-        "news_e3714533b7fe",
-        "news_07dbfa44f953"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_91fb625edcc6",
       "title": "华尔街见闻早餐FM-Radio | 2026年8月1日",
       "firstSeenAt": "2026-08-01T03:54:06.184Z",
@@ -317,18 +383,6 @@
       "evidenceItemIds": [
         "news_db90b0e4d445",
         "news_4a73c5f901f9"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_202dd878fa19",
-      "title": "晚间公告｜7月31日这些公告有看头",
-      "firstSeenAt": "2026-07-31T14:43:32.623Z",
-      "lastSeenAt": "2026-08-01T14:02:14.101Z",
-      "primaryItemId": "news_eaf56a2f5345",
-      "evidenceItemIds": [
-        "news_eaf56a2f5345",
-        "news_8b256f193830"
       ],
       "status": "developing"
     },
@@ -499,18 +553,6 @@
       "status": "developing"
     },
     {
-      "eventId": "event_6b0dd34e3b24",
-      "title": "日本股市上涨；截至收盘日经225指数上涨3.86%",
-      "firstSeenAt": "2026-07-31T07:13:50.095Z",
-      "lastSeenAt": "2026-07-31T14:43:32.623Z",
-      "primaryItemId": "news_a3a7db1b8baa",
-      "evidenceItemIds": [
-        "news_a3a7db1b8baa",
-        "news_be2c5a5fdbc5"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_35f644762551",
       "title": "阿尔法银行2026年第二季度业绩超预期",
       "firstSeenAt": "2026-07-31T07:13:50.095Z",
@@ -557,19 +599,6 @@
         "news_1dd2743eb007",
         "news_af1364619b24",
         "news_e170ace73dc0"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_f483be5cfaad",
-      "title": "宇树科技：8月10日打新，预计上半年营业收入10.52亿元至11.28亿元",
-      "firstSeenAt": "2026-07-31T05:34:03.637Z",
-      "lastSeenAt": "2026-07-31T11:02:55.182Z",
-      "primaryItemId": "news_d2929acda370",
-      "evidenceItemIds": [
-        "news_d2929acda370",
-        "news_4da50df35f78",
-        "news_afaf6c155cfa"
       ],
       "status": "developing"
     },

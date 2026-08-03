@@ -1,9 +1,406 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-08-03T07:46:07.010Z",
+  "generatedAt": "2026-08-03T11:50:30.990Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
+    {
+      "eventId": "event_2cb0c5891582",
+      "title": "中国证监会同意焦炭期权注册",
+      "firstSeenAt": "2026-07-31T11:02:55.182Z",
+      "lastSeenAt": "2026-08-03T11:50:30.990Z",
+      "primaryItemId": "news_b7d50c00dd11",
+      "evidenceItemIds": [
+        "news_b7d50c00dd11",
+        "news_b99a2b6dea4d",
+        "news_7ed2f395e7fe"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_c4f878eae87a",
+      "title": "OpenAI确认下一代模型Astra存在，以2000美元算力成本破解十项数学未解难题，正向监管层展示",
+      "firstSeenAt": "2026-08-01T03:54:06.184Z",
+      "lastSeenAt": "2026-08-03T11:50:30.990Z",
+      "primaryItemId": "news_bb55e30e57a0",
+      "evidenceItemIds": [
+        "news_7f3c1e0f85ae",
+        "news_e277a80bcb77",
+        "news_bb55e30e57a0",
+        "news_baeb13299e6c"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_3811ac80ef48",
+      "title": "又一家大行5年期大额存单上新，负债策略阶段性切换？",
+      "firstSeenAt": "2026-08-02T03:56:00.339Z",
+      "lastSeenAt": "2026-08-03T11:50:30.990Z",
+      "primaryItemId": "news_330be5ebbbcc",
+      "evidenceItemIds": [
+        "news_d03772295040",
+        "news_d83dc4b96029",
+        "news_330be5ebbbcc"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_274777a299d4",
+      "title": "T早报｜小米多款手机涨价；兆易创新拟最高20亿元回购股份并注销；DeepSeek-V4-Flash正式版发布",
+      "firstSeenAt": "2026-07-31T14:43:32.623Z",
+      "lastSeenAt": "2026-08-03T11:50:30.990Z",
+      "primaryItemId": "news_cbed6a25d17b",
+      "evidenceItemIds": [
+        "news_a4ff46a1602a",
+        "news_112d02c83ae9",
+        "news_c86d8e270915",
+        "news_cbed6a25d17b",
+        "news_ef1d7bb91b00"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_a8100d5723df",
+      "title": "债市早参8月3日|央行部署下半年工作：继续实施好适度宽松的货币政策；首只离岸人民币国债期货今日在香港上市",
+      "firstSeenAt": "2026-07-31T03:54:17.991Z",
+      "lastSeenAt": "2026-08-03T11:50:30.990Z",
+      "primaryItemId": "news_09f84fc6e349",
+      "evidenceItemIds": [
+        "news_324cbc62a29f",
+        "news_afda7369f757",
+        "news_08d810415563",
+        "news_602c069a0d20",
+        "news_09f84fc6e349",
+        "news_6abd255be7c4"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_202dd878fa19",
+      "title": "晚间公告｜8月3日这些公告有看头",
+      "firstSeenAt": "2026-07-31T14:43:32.623Z",
+      "lastSeenAt": "2026-08-03T11:50:30.990Z",
+      "primaryItemId": "news_4cac4c806a4b",
+      "evidenceItemIds": [
+        "news_eaf56a2f5345",
+        "news_8b256f193830",
+        "news_58fdd88ca5ff",
+        "news_4cac4c806a4b"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_97c13bfd9870",
+      "title": "金融机构治理新规：“关键少数”涉重大问题终身问责",
+      "firstSeenAt": "2026-08-02T14:05:44.674Z",
+      "lastSeenAt": "2026-08-03T11:50:30.990Z",
+      "primaryItemId": "news_58b1b5ca4896",
+      "evidenceItemIds": [
+        "news_58b1b5ca4896",
+        "news_91430da09761"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_01118fb5b195",
+      "title": "财联社汽车早报【8月3日】",
+      "firstSeenAt": "2026-08-01T03:54:06.184Z",
+      "lastSeenAt": "2026-08-03T11:50:30.990Z",
+      "primaryItemId": "news_7a9c03d3a9e0",
+      "evidenceItemIds": [
+        "news_11bf098d57d9",
+        "news_352d957a2426",
+        "news_7a9c03d3a9e0"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_80081588356b",
+      "title": "A股三大指数集体收跌，兆易创新跌停",
+      "firstSeenAt": "2026-07-31T03:54:17.991Z",
+      "lastSeenAt": "2026-08-03T11:50:30.990Z",
+      "primaryItemId": "news_816d482afb08",
+      "evidenceItemIds": [
+        "news_84c31f5e4972",
+        "news_f167d388d32c",
+        "news_2e462d86a6dd",
+        "news_ad373c949e7b",
+        "news_d79b5e0ed7c7",
+        "news_816d482afb08"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_352a3cbffeba",
+      "title": "中国7月RatingDog制造业PMI 50.9，前值 51.7",
+      "firstSeenAt": "2026-08-03T03:58:04.220Z",
+      "lastSeenAt": "2026-08-03T11:50:30.990Z",
+      "primaryItemId": "news_5791a7720090",
+      "evidenceItemIds": [
+        "news_5791a7720090",
+        "news_c65f8400aac2"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_f07909d53a34",
+      "title": "香港交易所正式推出5年期人民币国债期货",
+      "firstSeenAt": "2026-08-03T03:58:04.220Z",
+      "lastSeenAt": "2026-08-03T11:50:30.990Z",
+      "primaryItemId": "news_be81100c4dc9",
+      "evidenceItemIds": [
+        "news_69604dec38ef",
+        "news_be81100c4dc9"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_a775900925f4",
+      "title": "盘前必读丨日韩股市低开SK海力士跌超5%；一博科技净利润增超15倍",
+      "firstSeenAt": "2026-08-03T03:58:04.220Z",
+      "lastSeenAt": "2026-08-03T11:50:30.990Z",
+      "primaryItemId": "news_bb2eda509c89",
+      "evidenceItemIds": [
+        "news_bb2eda509c89",
+        "news_9e78a2faaa2b"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_0737eac2cabb",
+      "title": "连板股追踪丨A股今日共83只个股涨停 这只教育股6连板",
+      "firstSeenAt": "2026-07-31T02:43:30.494Z",
+      "lastSeenAt": "2026-08-03T11:50:30.990Z",
+      "primaryItemId": "news_2a647756104e",
+      "evidenceItemIds": [
+        "news_cf2b97a75d61",
+        "news_6b2b1bbc6628",
+        "news_0b0558cddf77",
+        "news_2a647756104e"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_446555f1d4fa",
+      "title": "长鑫存储增资至约313.9亿元，增幅约31%",
+      "firstSeenAt": "2026-08-03T07:46:07.010Z",
+      "lastSeenAt": "2026-08-03T11:50:30.990Z",
+      "primaryItemId": "news_2f1513839ad8",
+      "evidenceItemIds": [
+        "news_2f1513839ad8",
+        "news_e471e3c596ad"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_f4ad298d230a",
+      "title": "韩国杠杆ETF风波持续升级 青瓦台政策室长面临刑事指控",
+      "firstSeenAt": "2026-08-03T07:46:07.010Z",
+      "lastSeenAt": "2026-08-03T11:50:30.990Z",
+      "primaryItemId": "news_d9da83989eef",
+      "evidenceItemIds": [
+        "news_4a9267d7087d",
+        "news_3767318ad7f4",
+        "news_d9da83989eef"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_b6aa4e1f49a3",
+      "title": "7月FOMC会议之后，市场会往哪里走？【大鹏说 第4讲】",
+      "firstSeenAt": "2026-08-03T07:46:07.010Z",
+      "lastSeenAt": "2026-08-03T11:50:30.990Z",
+      "primaryItemId": "news_a208e77e32e7",
+      "evidenceItemIds": [
+        "news_a208e77e32e7",
+        "news_cd3348bf3485"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_0735e68ab520",
+      "title": "港股评级汇总：国盛证券维持 MINIMAX买入评级",
+      "firstSeenAt": "2026-08-03T07:46:07.010Z",
+      "lastSeenAt": "2026-08-03T11:50:30.990Z",
+      "primaryItemId": "news_f63a75b780fe",
+      "evidenceItemIds": [
+        "news_f63a75b780fe",
+        "news_b7dc4d256824"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_2a80b3265e94",
+      "title": "莱尔科技：拟定增募资不超11.7亿元，用于新能源涂碳箔等项目",
+      "firstSeenAt": "2026-07-31T14:43:32.623Z",
+      "lastSeenAt": "2026-08-03T11:50:30.990Z",
+      "primaryItemId": "news_18ad0c8d7710",
+      "evidenceItemIds": [
+        "news_419e72430b12",
+        "news_7d0d012c49c4",
+        "news_18ad0c8d7710"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_a529caf83fd9",
+      "title": "中国金融租赁超大型LNG船霍尔木兹海峡遇袭",
+      "firstSeenAt": "2026-08-03T11:50:30.990Z",
+      "lastSeenAt": "2026-08-03T11:50:30.990Z",
+      "primaryItemId": "news_50eb4b17c417",
+      "evidenceItemIds": [
+        "news_50eb4b17c417",
+        "news_6f60a045633e"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_8d302f149f08",
+      "title": "国家发展改革委、国家能源局印发《新型电力系统建设“十五五”规划》",
+      "firstSeenAt": "2026-08-03T11:50:30.990Z",
+      "lastSeenAt": "2026-08-03T11:50:30.990Z",
+      "primaryItemId": "news_2a7a516a7ccc",
+      "evidenceItemIds": [
+        "news_2a7a516a7ccc",
+        "news_56ed4a6910ef",
+        "news_da11262f6088"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_676b44e28a1a",
+      "title": "韩国央行抄底黄金，13年来首次增持！",
+      "firstSeenAt": "2026-08-03T11:50:30.990Z",
+      "lastSeenAt": "2026-08-03T11:50:30.990Z",
+      "primaryItemId": "news_316321604c79",
+      "evidenceItemIds": [
+        "news_316321604c79",
+        "news_0120243c714c"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_d8638ae6be45",
+      "title": "中微公司：预计上半年净利润为27亿元到29亿元，同比增加282.48%到310.81%",
+      "firstSeenAt": "2026-08-03T11:50:30.990Z",
+      "lastSeenAt": "2026-08-03T11:50:30.990Z",
+      "primaryItemId": "news_89c054764b9d",
+      "evidenceItemIds": [
+        "news_89c054764b9d",
+        "news_f0e9924f963d",
+        "news_cb927c059230"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_faa8595c2126",
+      "title": "药明康德：全面上调2026年全年业绩指引，预计整体收入585亿-605亿元",
+      "firstSeenAt": "2026-08-03T11:50:30.990Z",
+      "lastSeenAt": "2026-08-03T11:50:30.990Z",
+      "primaryItemId": "news_32f158854e7f",
+      "evidenceItemIds": [
+        "news_32f158854e7f",
+        "news_edeae74a0a30"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_2f4a4d0c8980",
+      "title": "李强签署国务院令 公布修订后的《集成电路布图设计保护条例》",
+      "firstSeenAt": "2026-08-03T11:50:30.990Z",
+      "lastSeenAt": "2026-08-03T11:50:30.990Z",
+      "primaryItemId": "news_7b2485065c4d",
+      "evidenceItemIds": [
+        "news_7b2485065c4d",
+        "news_e2867fd9269b"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_40aa59d9a029",
+      "title": "机构Artificial Analysis：DeepSeek V4-Flash运行成本全球最低，仅为Claude Fab",
+      "firstSeenAt": "2026-08-03T11:50:30.990Z",
+      "lastSeenAt": "2026-08-03T11:50:30.990Z",
+      "primaryItemId": "news_e3affef39521",
+      "evidenceItemIds": [
+        "news_e3affef39521",
+        "news_55e2116444bb"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_38dceba25aeb",
+      "title": "蚂蚁灵波回应融资传闻：与投资人接触中，首轮拟募资15亿元",
+      "firstSeenAt": "2026-08-03T11:50:30.990Z",
+      "lastSeenAt": "2026-08-03T11:50:30.990Z",
+      "primaryItemId": "news_780883cc1e79",
+      "evidenceItemIds": [
+        "news_780883cc1e79",
+        "news_a9484f449553"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_73f4b1fb41a8",
+      "title": "龙虎榜丨机构今日买入这10股，卖出兆易创新8.08亿元",
+      "firstSeenAt": "2026-08-03T11:50:30.990Z",
+      "lastSeenAt": "2026-08-03T11:50:30.990Z",
+      "primaryItemId": "news_de7d0ba05e16",
+      "evidenceItemIds": [
+        "news_de7d0ba05e16",
+        "news_e7a76dcea2a8",
+        "news_d9bbbfd32f43"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_974dcc8f21f4",
+      "title": "多晶硅期货涨停：产业博弈加剧，从价格执法到产能出清的光伏反内卷能否落地？",
+      "firstSeenAt": "2026-08-03T11:50:30.990Z",
+      "lastSeenAt": "2026-08-03T11:50:30.990Z",
+      "primaryItemId": "news_ad4bb940c140",
+      "evidenceItemIds": [
+        "news_ad4bb940c140",
+        "news_8af369d78b71"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_688d6ad3d34e",
+      "title": "南向资金追踪｜单日净买入超110亿港元创近半个月新高 加仓阿里及腾讯流出中芯国际",
+      "firstSeenAt": "2026-08-03T11:50:30.990Z",
+      "lastSeenAt": "2026-08-03T11:50:30.990Z",
+      "primaryItemId": "news_efa38da41a7a",
+      "evidenceItemIds": [
+        "news_efa38da41a7a",
+        "news_5ccc7f08b64d"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_0d5b95915eb4",
+      "title": "债市收盘| 10年期国债收益率盘中下破1.70%后回升，超长端延续强势",
+      "firstSeenAt": "2026-08-03T11:50:30.990Z",
+      "lastSeenAt": "2026-08-03T11:50:30.990Z",
+      "primaryItemId": "news_21fbf9fc1c14",
+      "evidenceItemIds": [
+        "news_21fbf9fc1c14",
+        "news_491be8689b51"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_d9bb7daf89a5",
+      "title": "吴清主席出席人民币国债期货在港交所挂牌上市仪式并致辞",
+      "firstSeenAt": "2026-08-03T11:50:30.990Z",
+      "lastSeenAt": "2026-08-03T11:50:30.990Z",
+      "primaryItemId": "news_9ea70a4a7f51",
+      "evidenceItemIds": [
+        "news_9ea70a4a7f51",
+        "news_274ff1fbde82"
+      ],
+      "status": "developing"
+    },
     {
       "eventId": "event_46bb74f23205",
       "title": "国家统计局：7月PMI为49.2% 比上月下降1.1个百分点",
@@ -20,19 +417,6 @@
       "status": "developing"
     },
     {
-      "eventId": "event_2cb0c5891582",
-      "title": "中国证监会同意焦炭期权注册",
-      "firstSeenAt": "2026-07-31T11:02:55.182Z",
-      "lastSeenAt": "2026-08-03T07:46:07.010Z",
-      "primaryItemId": "news_b7d50c00dd11",
-      "evidenceItemIds": [
-        "news_b7d50c00dd11",
-        "news_b99a2b6dea4d",
-        "news_7ed2f395e7fe"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_314ca34d11c6",
       "title": "香港经济二季度同比增长4.3%",
       "firstSeenAt": "2026-07-31T11:02:55.182Z",
@@ -45,33 +429,6 @@
       "status": "developing"
     },
     {
-      "eventId": "event_c4f878eae87a",
-      "title": "OpenAI确认下一代模型Astra存在，以2000美元算力成本破解十项数学未解难题，正向监管层展示",
-      "firstSeenAt": "2026-08-01T03:54:06.184Z",
-      "lastSeenAt": "2026-08-03T07:46:07.010Z",
-      "primaryItemId": "news_bb55e30e57a0",
-      "evidenceItemIds": [
-        "news_7f3c1e0f85ae",
-        "news_e277a80bcb77",
-        "news_bb55e30e57a0",
-        "news_baeb13299e6c"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_3811ac80ef48",
-      "title": "又一家大行5年期大额存单上新，负债策略阶段性切换？",
-      "firstSeenAt": "2026-08-02T03:56:00.339Z",
-      "lastSeenAt": "2026-08-03T07:46:07.010Z",
-      "primaryItemId": "news_330be5ebbbcc",
-      "evidenceItemIds": [
-        "news_d03772295040",
-        "news_d83dc4b96029",
-        "news_330be5ebbbcc"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_655c070e7c1b",
       "title": "科技周报|长鑫科技上市首日市值登顶A股；京沪抢抓太空算力未来产业",
       "firstSeenAt": "2026-08-02T03:56:00.339Z",
@@ -80,37 +437,6 @@
       "evidenceItemIds": [
         "news_7ade1602c23d",
         "news_47a433416f71"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_274777a299d4",
-      "title": "兆易创新：拟以10亿元-20亿元回购公司股份",
-      "firstSeenAt": "2026-07-31T14:43:32.623Z",
-      "lastSeenAt": "2026-08-03T07:46:07.010Z",
-      "primaryItemId": "news_112d02c83ae9",
-      "evidenceItemIds": [
-        "news_a4ff46a1602a",
-        "news_112d02c83ae9",
-        "news_c86d8e270915",
-        "news_cbed6a25d17b",
-        "news_ef1d7bb91b00"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_a8100d5723df",
-      "title": "日本央行维持政策利率1.0%不变！美日配合干预，日元后市怎么走？",
-      "firstSeenAt": "2026-07-31T03:54:17.991Z",
-      "lastSeenAt": "2026-08-03T07:46:07.010Z",
-      "primaryItemId": "news_602c069a0d20",
-      "evidenceItemIds": [
-        "news_324cbc62a29f",
-        "news_afda7369f757",
-        "news_08d810415563",
-        "news_602c069a0d20",
-        "news_09f84fc6e349",
-        "news_6abd255be7c4"
       ],
       "status": "developing"
     },
@@ -153,19 +479,6 @@
       "status": "developing"
     },
     {
-      "eventId": "event_202dd878fa19",
-      "title": "晚间公告丨8月2日这些公告有看头",
-      "firstSeenAt": "2026-07-31T14:43:32.623Z",
-      "lastSeenAt": "2026-08-03T07:46:07.010Z",
-      "primaryItemId": "news_58fdd88ca5ff",
-      "evidenceItemIds": [
-        "news_eaf56a2f5345",
-        "news_8b256f193830",
-        "news_58fdd88ca5ff"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_6b0dd34e3b24",
       "title": "沙特阿拉伯股市上涨；截至收盘沙特阿拉伯TASI指数上涨1.10%",
       "firstSeenAt": "2026-07-31T07:13:50.095Z",
@@ -193,18 +506,6 @@
       "status": "developing"
     },
     {
-      "eventId": "event_97c13bfd9870",
-      "title": "金融机构治理新规：“关键少数”涉重大问题终身问责",
-      "firstSeenAt": "2026-08-02T14:05:44.674Z",
-      "lastSeenAt": "2026-08-03T07:46:07.010Z",
-      "primaryItemId": "news_58b1b5ca4896",
-      "evidenceItemIds": [
-        "news_58b1b5ca4896",
-        "news_91430da09761"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_0ffe484a6836",
       "title": "政治局会议首提“新兴支柱产业”，释放哪些信号？",
       "firstSeenAt": "2026-08-02T14:05:44.674Z",
@@ -213,19 +514,6 @@
       "evidenceItemIds": [
         "news_7ba480cf8dcd",
         "news_a5a12bef46ea"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_01118fb5b195",
-      "title": "财联社汽车早报【8月3日】",
-      "firstSeenAt": "2026-08-01T03:54:06.184Z",
-      "lastSeenAt": "2026-08-03T07:46:07.010Z",
-      "primaryItemId": "news_7a9c03d3a9e0",
-      "evidenceItemIds": [
-        "news_11bf098d57d9",
-        "news_352d957a2426",
-        "news_7a9c03d3a9e0"
       ],
       "status": "developing"
     },
@@ -243,34 +531,6 @@
       "status": "developing"
     },
     {
-      "eventId": "event_80081588356b",
-      "title": "A股三大指数集体收跌，兆易创新跌停",
-      "firstSeenAt": "2026-07-31T03:54:17.991Z",
-      "lastSeenAt": "2026-08-03T07:46:07.010Z",
-      "primaryItemId": "news_816d482afb08",
-      "evidenceItemIds": [
-        "news_84c31f5e4972",
-        "news_f167d388d32c",
-        "news_2e462d86a6dd",
-        "news_ad373c949e7b",
-        "news_d79b5e0ed7c7",
-        "news_816d482afb08"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_352a3cbffeba",
-      "title": "中国7月RatingDog制造业PMI 50.9，前值 51.7",
-      "firstSeenAt": "2026-08-03T03:58:04.220Z",
-      "lastSeenAt": "2026-08-03T07:46:07.010Z",
-      "primaryItemId": "news_5791a7720090",
-      "evidenceItemIds": [
-        "news_5791a7720090",
-        "news_c65f8400aac2"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_70e1deabe3e1",
       "title": "美国财长贝森特：将毫不犹豫地进行更多日元联合干预",
       "firstSeenAt": "2026-08-03T03:58:04.220Z",
@@ -279,92 +539,6 @@
       "evidenceItemIds": [
         "news_cc43860c1077",
         "news_519d73dd934a"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_f07909d53a34",
-      "title": "香港交易所正式推出5年期人民币国债期货",
-      "firstSeenAt": "2026-08-03T03:58:04.220Z",
-      "lastSeenAt": "2026-08-03T07:46:07.010Z",
-      "primaryItemId": "news_be81100c4dc9",
-      "evidenceItemIds": [
-        "news_69604dec38ef",
-        "news_be81100c4dc9"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_a775900925f4",
-      "title": "盘前必读丨日韩股市低开SK海力士跌超5%；一博科技净利润增超15倍",
-      "firstSeenAt": "2026-08-03T03:58:04.220Z",
-      "lastSeenAt": "2026-08-03T07:46:07.010Z",
-      "primaryItemId": "news_bb2eda509c89",
-      "evidenceItemIds": [
-        "news_bb2eda509c89",
-        "news_9e78a2faaa2b"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_0737eac2cabb",
-      "title": "连板股追踪丨A股今日共83只个股涨停 这只教育股6连板",
-      "firstSeenAt": "2026-07-31T02:43:30.494Z",
-      "lastSeenAt": "2026-08-03T07:46:07.010Z",
-      "primaryItemId": "news_2a647756104e",
-      "evidenceItemIds": [
-        "news_cf2b97a75d61",
-        "news_6b2b1bbc6628",
-        "news_0b0558cddf77",
-        "news_2a647756104e"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_446555f1d4fa",
-      "title": "长鑫存储增资至约313.9亿元，增幅约31%",
-      "firstSeenAt": "2026-08-03T07:46:07.010Z",
-      "lastSeenAt": "2026-08-03T07:46:07.010Z",
-      "primaryItemId": "news_2f1513839ad8",
-      "evidenceItemIds": [
-        "news_2f1513839ad8",
-        "news_e471e3c596ad"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_f4ad298d230a",
-      "title": "报道：韩国总统办公室政策室长金容范因“仓促引入杠杆ETF”而面临刑事指控",
-      "firstSeenAt": "2026-08-03T07:46:07.010Z",
-      "lastSeenAt": "2026-08-03T07:46:07.010Z",
-      "primaryItemId": "news_4a9267d7087d",
-      "evidenceItemIds": [
-        "news_4a9267d7087d",
-        "news_3767318ad7f4"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_b6aa4e1f49a3",
-      "title": "7月FOMC会议之后，市场会往哪里走？【大鹏说 第4讲】",
-      "firstSeenAt": "2026-08-03T07:46:07.010Z",
-      "lastSeenAt": "2026-08-03T07:46:07.010Z",
-      "primaryItemId": "news_a208e77e32e7",
-      "evidenceItemIds": [
-        "news_a208e77e32e7",
-        "news_cd3348bf3485"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_0735e68ab520",
-      "title": "港股评级汇总：国盛证券维持 MINIMAX买入评级",
-      "firstSeenAt": "2026-08-03T07:46:07.010Z",
-      "lastSeenAt": "2026-08-03T07:46:07.010Z",
-      "primaryItemId": "news_f63a75b780fe",
-      "evidenceItemIds": [
-        "news_f63a75b780fe",
-        "news_b7dc4d256824"
       ],
       "status": "developing"
     },
@@ -554,18 +728,6 @@
         "news_d1758e6b7b94",
         "news_900b6668fc73",
         "news_aecfb0261578"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_2a80b3265e94",
-      "title": "铭普光磁：拟定增募资不超12.83亿元，用于高速光模块智能制造项目等",
-      "firstSeenAt": "2026-07-31T14:43:32.623Z",
-      "lastSeenAt": "2026-08-01T06:41:32.204Z",
-      "primaryItemId": "news_7d0d012c49c4",
-      "evidenceItemIds": [
-        "news_419e72430b12",
-        "news_7d0d012c49c4"
       ],
       "status": "developing"
     },

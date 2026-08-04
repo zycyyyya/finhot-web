@@ -1,26 +1,14 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-08-04T09:56:27.957Z",
+  "generatedAt": "2026-08-04T11:01:16.647Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
-      "eventId": "event_974dcc8f21f4",
-      "title": "多晶硅期货涨停：产业博弈加剧，从价格执法到产能出清的光伏反内卷能否落地？",
-      "firstSeenAt": "2026-08-03T11:50:30.990Z",
-      "lastSeenAt": "2026-08-04T09:56:27.957Z",
-      "primaryItemId": "news_ad4bb940c140",
-      "evidenceItemIds": [
-        "news_ad4bb940c140",
-        "news_8af369d78b71"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_d9bb7daf89a5",
       "title": "吴清主席出席人民币国债期货在港交所挂牌上市仪式并致辞",
       "firstSeenAt": "2026-08-03T11:50:30.990Z",
-      "lastSeenAt": "2026-08-04T09:56:27.957Z",
+      "lastSeenAt": "2026-08-04T11:01:16.647Z",
       "primaryItemId": "news_9ea70a4a7f51",
       "evidenceItemIds": [
         "news_9ea70a4a7f51",
@@ -32,7 +20,7 @@
       "eventId": "event_35f644762551",
       "title": "瑞幸咖啡公布2026年第二季度财报，总净收入同比增长28.5%，约159亿元",
       "firstSeenAt": "2026-07-31T07:13:50.095Z",
-      "lastSeenAt": "2026-08-04T09:56:27.957Z",
+      "lastSeenAt": "2026-08-04T11:01:16.647Z",
       "primaryItemId": "news_9c07028bb934",
       "evidenceItemIds": [
         "news_96650f58c987",
@@ -45,10 +33,10 @@
     },
     {
       "eventId": "event_3266836e8022",
-      "title": "A股三大指数午间休盘集体上涨，联讯仪器涨超18%",
+      "title": "A股四大指数集体高开，算力硬件产业链反弹，医药股爆发",
       "firstSeenAt": "2026-08-04T03:43:00.215Z",
-      "lastSeenAt": "2026-08-04T09:56:27.957Z",
-      "primaryItemId": "news_c3ccd9403481",
+      "lastSeenAt": "2026-08-04T11:01:16.647Z",
+      "primaryItemId": "news_61f3e082c55e",
       "evidenceItemIds": [
         "news_61f3e082c55e",
         "news_b57f43e9368b",
@@ -58,6 +46,292 @@
         "news_816d482afb08",
         "news_d79b5e0ed7c7",
         "news_d072319b38f1"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_5d3efa46ef8f",
+      "title": "亚马逊跻身3万亿美元俱乐部，“美股七巨头”开始拼AI回报",
+      "firstSeenAt": "2026-08-04T06:40:23.964Z",
+      "lastSeenAt": "2026-08-04T11:01:16.647Z",
+      "primaryItemId": "news_4fcb96b84fac",
+      "evidenceItemIds": [
+        "news_4fcb96b84fac",
+        "news_eb3b46d7678e"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_518bd5f65e66",
+      "title": "宁德时代在宁德成立新销售公司，注册资本30亿",
+      "firstSeenAt": "2026-08-04T06:40:23.964Z",
+      "lastSeenAt": "2026-08-04T11:01:16.647Z",
+      "primaryItemId": "news_104bedc150d6",
+      "evidenceItemIds": [
+        "news_104bedc150d6",
+        "news_6dea7ee35055",
+        "news_c4f14839a7c3",
+        "news_92727fa26b9e",
+        "news_4852497844c7"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_0735e68ab520",
+      "title": "港股评级汇总：招商证券维持百胜中国强烈推荐评级",
+      "firstSeenAt": "2026-08-03T07:46:07.010Z",
+      "lastSeenAt": "2026-08-04T11:01:16.647Z",
+      "primaryItemId": "news_9ce8b90fe101",
+      "evidenceItemIds": [
+        "news_f63a75b780fe",
+        "news_b7dc4d256824",
+        "news_9ce8b90fe101"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_6e11829e4004",
+      "title": "商务部：1-6月我国服务进出口总额37797.5亿元 同比增长8.3%",
+      "firstSeenAt": "2026-08-04T07:26:55.786Z",
+      "lastSeenAt": "2026-08-04T11:01:16.647Z",
+      "primaryItemId": "news_50b5cb4dd226",
+      "evidenceItemIds": [
+        "news_50b5cb4dd226",
+        "news_b69bd62f2104"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_0bf47d771ef6",
+      "title": "港股异动 | 大族数控(03200)午后涨超14% PCB高端化有望倒逼全流程设备升级",
+      "firstSeenAt": "2026-08-04T07:26:55.786Z",
+      "lastSeenAt": "2026-08-04T11:01:16.647Z",
+      "primaryItemId": "news_9a1fafb38076",
+      "evidenceItemIds": [
+        "news_9a1fafb38076",
+        "news_dd4ea8f89a44"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_0737eac2cabb",
+      "title": "连板股追踪丨A股今日共141只个股涨停 传智教育7连板",
+      "firstSeenAt": "2026-07-31T02:43:30.494Z",
+      "lastSeenAt": "2026-08-04T11:01:16.647Z",
+      "primaryItemId": "news_8818289af9a3",
+      "evidenceItemIds": [
+        "news_cf2b97a75d61",
+        "news_6b2b1bbc6628",
+        "news_0b0558cddf77",
+        "news_2a647756104e",
+        "news_8818289af9a3"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_ee76068656de",
+      "title": "苹果在印度的年销售额首次突破100亿美元。",
+      "firstSeenAt": "2026-08-04T07:36:44.852Z",
+      "lastSeenAt": "2026-08-04T11:01:16.647Z",
+      "primaryItemId": "news_99ef203d6bac",
+      "evidenceItemIds": [
+        "news_99ef203d6bac",
+        "news_77ef084b66a6"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_529af3584dc2",
+      "title": "恒指收跌0.6%，恒生科技指数涨0.21%",
+      "firstSeenAt": "2026-07-31T02:43:30.494Z",
+      "lastSeenAt": "2026-08-04T11:01:16.647Z",
+      "primaryItemId": "news_33f43c76814b",
+      "evidenceItemIds": [
+        "news_1dd2743eb007",
+        "news_af1364619b24",
+        "news_e170ace73dc0",
+        "news_33f43c76814b",
+        "news_2675cce96b9a"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_2cf3f6a70365",
+      "title": "AI股神爆仓、韩股史诗级暴跌：下一场金融危机的预演",
+      "firstSeenAt": "2026-08-04T08:16:43.536Z",
+      "lastSeenAt": "2026-08-04T11:01:16.647Z",
+      "primaryItemId": "news_2640913e5fc7",
+      "evidenceItemIds": [
+        "news_2640913e5fc7",
+        "news_80c8ccc71045"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_30ae4c249847",
+      "title": "拜耳第二季度销售额为108.7亿欧元，高于市场预期",
+      "firstSeenAt": "2026-08-04T08:16:43.536Z",
+      "lastSeenAt": "2026-08-04T11:01:16.647Z",
+      "primaryItemId": "news_eecd647362cf",
+      "evidenceItemIds": [
+        "news_eecd647362cf",
+        "news_89cde0cb8008"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_c5adfab44c2e",
+      "title": "燕麦科技：拟1000万元—2000万元回购公司股份",
+      "firstSeenAt": "2026-08-03T15:23:32.854Z",
+      "lastSeenAt": "2026-08-04T11:01:16.647Z",
+      "primaryItemId": "news_4e09f93b37d9",
+      "evidenceItemIds": [
+        "news_298f89d71970",
+        "news_b7abf4e75140",
+        "news_4e09f93b37d9",
+        "news_9ff056edf909"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_0d5b95915eb4",
+      "title": "债市收盘| 长端收益率延续强势，10年国债尾盘下破1.70%",
+      "firstSeenAt": "2026-08-03T11:50:30.990Z",
+      "lastSeenAt": "2026-08-04T11:01:16.647Z",
+      "primaryItemId": "news_91b5159d061e",
+      "evidenceItemIds": [
+        "news_21fbf9fc1c14",
+        "news_491be8689b51",
+        "news_91b5159d061e"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_d0b2d22d3476",
+      "title": "机构：英伟达评估下调Rubin Ultra HBM配置，或将不限于12Hi HBM4E",
+      "firstSeenAt": "2026-08-04T09:56:27.957Z",
+      "lastSeenAt": "2026-08-04T11:01:16.647Z",
+      "primaryItemId": "news_b74d66520174",
+      "evidenceItemIds": [
+        "news_9a569e9f9f61",
+        "news_3e5909c791a8",
+        "news_b74d66520174"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_5e8e3a94b56e",
+      "title": "央行：8月5日将开展5000亿元买断式逆回购操作",
+      "firstSeenAt": "2026-08-04T09:56:27.957Z",
+      "lastSeenAt": "2026-08-04T11:01:16.647Z",
+      "primaryItemId": "news_373d8891ffde",
+      "evidenceItemIds": [
+        "news_373d8891ffde",
+        "news_37c982038be7",
+        "news_7e94834f547e"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_202dd878fa19",
+      "title": "晚间公告｜8月4日这些公告有看头",
+      "firstSeenAt": "2026-07-31T14:43:32.623Z",
+      "lastSeenAt": "2026-08-04T11:01:16.647Z",
+      "primaryItemId": "news_f202b91c5619",
+      "evidenceItemIds": [
+        "news_eaf56a2f5345",
+        "news_8b256f193830",
+        "news_58fdd88ca5ff",
+        "news_4cac4c806a4b",
+        "news_f202b91c5619"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_73f4b1fb41a8",
+      "title": "龙虎榜丨机构今日买入这35股，卖出光智科技1.37亿元",
+      "firstSeenAt": "2026-08-03T11:50:30.990Z",
+      "lastSeenAt": "2026-08-04T11:01:16.647Z",
+      "primaryItemId": "news_9d97988a8b31",
+      "evidenceItemIds": [
+        "news_de7d0ba05e16",
+        "news_e7a76dcea2a8",
+        "news_d9bbbfd32f43",
+        "news_9d97988a8b31",
+        "news_f8e689022fb3"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_688d6ad3d34e",
+      "title": "南向资金追踪｜净买入近26亿港元 继续加仓阿里巴巴及智谱流出美团",
+      "firstSeenAt": "2026-08-03T11:50:30.990Z",
+      "lastSeenAt": "2026-08-04T11:01:16.647Z",
+      "primaryItemId": "news_0a52bbddd3a7",
+      "evidenceItemIds": [
+        "news_efa38da41a7a",
+        "news_5ccc7f08b64d",
+        "news_0a52bbddd3a7"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_d8301765590c",
+      "title": "商业火箭独角兽星际荣耀完成E轮近10亿元首批交割",
+      "firstSeenAt": "2026-08-04T11:01:16.647Z",
+      "lastSeenAt": "2026-08-04T11:01:16.647Z",
+      "primaryItemId": "news_af36e69f48f9",
+      "evidenceItemIds": [
+        "news_af36e69f48f9",
+        "news_a02cc154c9ea"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_3ee87ca7bbc1",
+      "title": "卡特彼勒二季度营收205.4亿美元超预期，同比增加24%",
+      "firstSeenAt": "2026-08-04T11:01:16.647Z",
+      "lastSeenAt": "2026-08-04T11:01:16.647Z",
+      "primaryItemId": "news_c166788adce5",
+      "evidenceItemIds": [
+        "news_c166788adce5",
+        "news_79b61a1eb8f6"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_87de2056a0eb",
+      "title": "矩子科技：取得金融机构不超1.44亿元回购股份专项融资支持",
+      "firstSeenAt": "2026-08-04T11:01:16.647Z",
+      "lastSeenAt": "2026-08-04T11:01:16.647Z",
+      "primaryItemId": "news_3ed91fdb95f4",
+      "evidenceItemIds": [
+        "news_3ed91fdb95f4",
+        "news_5b69e765efb0"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_bcedc999a616",
+      "title": "金诚信(603979.SH)子公司签约1.15亿美元采矿合同",
+      "firstSeenAt": "2026-08-04T11:01:16.647Z",
+      "lastSeenAt": "2026-08-04T11:01:16.647Z",
+      "primaryItemId": "news_80316c6f1356",
+      "evidenceItemIds": [
+        "news_80316c6f1356",
+        "news_361d74b4fae5"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_974dcc8f21f4",
+      "title": "多晶硅期货涨停：产业博弈加剧，从价格执法到产能出清的光伏反内卷能否落地？",
+      "firstSeenAt": "2026-08-03T11:50:30.990Z",
+      "lastSeenAt": "2026-08-04T09:56:27.957Z",
+      "primaryItemId": "news_ad4bb940c140",
+      "evidenceItemIds": [
+        "news_ad4bb940c140",
+        "news_8af369d78b71"
       ],
       "status": "developing"
     },
@@ -74,201 +348,6 @@
       "status": "developing"
     },
     {
-      "eventId": "event_5d3efa46ef8f",
-      "title": "亚马逊跻身3万亿美元俱乐部，“美股七巨头”开始拼AI回报",
-      "firstSeenAt": "2026-08-04T06:40:23.964Z",
-      "lastSeenAt": "2026-08-04T09:56:27.957Z",
-      "primaryItemId": "news_4fcb96b84fac",
-      "evidenceItemIds": [
-        "news_4fcb96b84fac",
-        "news_eb3b46d7678e"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_518bd5f65e66",
-      "title": "儒意电影在枣庄成立新公司，注册资本500万",
-      "firstSeenAt": "2026-08-04T06:40:23.964Z",
-      "lastSeenAt": "2026-08-04T09:56:27.957Z",
-      "primaryItemId": "news_c4f14839a7c3",
-      "evidenceItemIds": [
-        "news_104bedc150d6",
-        "news_6dea7ee35055",
-        "news_c4f14839a7c3",
-        "news_92727fa26b9e"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_0735e68ab520",
-      "title": "港股评级汇总：招商证券维持百胜中国强烈推荐评级",
-      "firstSeenAt": "2026-08-03T07:46:07.010Z",
-      "lastSeenAt": "2026-08-04T09:56:27.957Z",
-      "primaryItemId": "news_9ce8b90fe101",
-      "evidenceItemIds": [
-        "news_f63a75b780fe",
-        "news_b7dc4d256824",
-        "news_9ce8b90fe101"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_6e11829e4004",
-      "title": "商务部：1-6月我国服务进出口总额37797.5亿元 同比增长8.3%",
-      "firstSeenAt": "2026-08-04T07:26:55.786Z",
-      "lastSeenAt": "2026-08-04T09:56:27.957Z",
-      "primaryItemId": "news_50b5cb4dd226",
-      "evidenceItemIds": [
-        "news_50b5cb4dd226",
-        "news_b69bd62f2104"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_0bf47d771ef6",
-      "title": "港股异动 | 大族数控(03200)午后涨超14% PCB高端化有望倒逼全流程设备升级",
-      "firstSeenAt": "2026-08-04T07:26:55.786Z",
-      "lastSeenAt": "2026-08-04T09:56:27.957Z",
-      "primaryItemId": "news_9a1fafb38076",
-      "evidenceItemIds": [
-        "news_9a1fafb38076",
-        "news_dd4ea8f89a44"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_0737eac2cabb",
-      "title": "连板股追踪丨A股今日共141只个股涨停 传智教育7连板",
-      "firstSeenAt": "2026-07-31T02:43:30.494Z",
-      "lastSeenAt": "2026-08-04T09:56:27.957Z",
-      "primaryItemId": "news_8818289af9a3",
-      "evidenceItemIds": [
-        "news_cf2b97a75d61",
-        "news_6b2b1bbc6628",
-        "news_0b0558cddf77",
-        "news_2a647756104e",
-        "news_8818289af9a3"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_ee76068656de",
-      "title": "苹果在印度的年销售额首次突破100亿美元。",
-      "firstSeenAt": "2026-08-04T07:36:44.852Z",
-      "lastSeenAt": "2026-08-04T09:56:27.957Z",
-      "primaryItemId": "news_99ef203d6bac",
-      "evidenceItemIds": [
-        "news_99ef203d6bac",
-        "news_77ef084b66a6"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_529af3584dc2",
-      "title": "恒指收跌0.6%，恒生科技指数涨0.21%",
-      "firstSeenAt": "2026-07-31T02:43:30.494Z",
-      "lastSeenAt": "2026-08-04T09:56:27.957Z",
-      "primaryItemId": "news_33f43c76814b",
-      "evidenceItemIds": [
-        "news_1dd2743eb007",
-        "news_af1364619b24",
-        "news_e170ace73dc0",
-        "news_33f43c76814b",
-        "news_2675cce96b9a"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_2cf3f6a70365",
-      "title": "AI股神爆仓、韩股史诗级暴跌：下一场金融危机的预演",
-      "firstSeenAt": "2026-08-04T08:16:43.536Z",
-      "lastSeenAt": "2026-08-04T09:56:27.957Z",
-      "primaryItemId": "news_2640913e5fc7",
-      "evidenceItemIds": [
-        "news_2640913e5fc7",
-        "news_80c8ccc71045"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_30ae4c249847",
-      "title": "拜耳第二季度销售额为108.7亿欧元，高于市场预期",
-      "firstSeenAt": "2026-08-04T08:16:43.536Z",
-      "lastSeenAt": "2026-08-04T09:56:27.957Z",
-      "primaryItemId": "news_eecd647362cf",
-      "evidenceItemIds": [
-        "news_eecd647362cf",
-        "news_89cde0cb8008"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_c5adfab44c2e",
-      "title": "燕麦科技：拟1000万元—2000万元回购公司股份",
-      "firstSeenAt": "2026-08-03T15:23:32.854Z",
-      "lastSeenAt": "2026-08-04T09:56:27.957Z",
-      "primaryItemId": "news_4e09f93b37d9",
-      "evidenceItemIds": [
-        "news_298f89d71970",
-        "news_b7abf4e75140",
-        "news_4e09f93b37d9",
-        "news_9ff056edf909"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_0d5b95915eb4",
-      "title": "债市收盘| 长端收益率延续强势，10年国债尾盘下破1.70%",
-      "firstSeenAt": "2026-08-03T11:50:30.990Z",
-      "lastSeenAt": "2026-08-04T09:56:27.957Z",
-      "primaryItemId": "news_91b5159d061e",
-      "evidenceItemIds": [
-        "news_21fbf9fc1c14",
-        "news_491be8689b51",
-        "news_91b5159d061e"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_d0b2d22d3476",
-      "title": "机构：DRAM供不应求将延续至2027年，英伟达正考虑下调Rubin Ultra的HBM配置",
-      "firstSeenAt": "2026-08-04T09:56:27.957Z",
-      "lastSeenAt": "2026-08-04T09:56:27.957Z",
-      "primaryItemId": "news_9a569e9f9f61",
-      "evidenceItemIds": [
-        "news_9a569e9f9f61",
-        "news_3e5909c791a8"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_5e8e3a94b56e",
-      "title": "央行：8月5日将开展5000亿元买断式逆回购操作",
-      "firstSeenAt": "2026-08-04T09:56:27.957Z",
-      "lastSeenAt": "2026-08-04T09:56:27.957Z",
-      "primaryItemId": "news_373d8891ffde",
-      "evidenceItemIds": [
-        "news_373d8891ffde",
-        "news_37c982038be7",
-        "news_7e94834f547e"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_202dd878fa19",
-      "title": "晚间公告｜8月3日这些公告有看头",
-      "firstSeenAt": "2026-07-31T14:43:32.623Z",
-      "lastSeenAt": "2026-08-04T08:16:43.536Z",
-      "primaryItemId": "news_4cac4c806a4b",
-      "evidenceItemIds": [
-        "news_eaf56a2f5345",
-        "news_8b256f193830",
-        "news_58fdd88ca5ff",
-        "news_4cac4c806a4b"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_2f4a4d0c8980",
       "title": "小K播早报|《集成电路布图设计保护条例》公布 美股七巨头指数创3月31日以来最佳单日表现",
       "firstSeenAt": "2026-08-03T11:50:30.990Z",
@@ -278,19 +357,6 @@
         "news_7b2485065c4d",
         "news_e2867fd9269b",
         "news_77840f9c5853"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_73f4b1fb41a8",
-      "title": "龙虎榜丨机构今日买入这10股，卖出兆易创新8.08亿元",
-      "firstSeenAt": "2026-08-03T11:50:30.990Z",
-      "lastSeenAt": "2026-08-04T08:16:43.536Z",
-      "primaryItemId": "news_de7d0ba05e16",
-      "evidenceItemIds": [
-        "news_de7d0ba05e16",
-        "news_e7a76dcea2a8",
-        "news_d9bbbfd32f43"
       ],
       "status": "developing"
     },
@@ -495,18 +561,6 @@
       "evidenceItemIds": [
         "news_e3affef39521",
         "news_55e2116444bb"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_688d6ad3d34e",
-      "title": "南向资金追踪｜单日净买入超110亿港元创近半个月新高 加仓阿里及腾讯流出中芯国际",
-      "firstSeenAt": "2026-08-03T11:50:30.990Z",
-      "lastSeenAt": "2026-08-04T03:43:00.215Z",
-      "primaryItemId": "news_efa38da41a7a",
-      "evidenceItemIds": [
-        "news_efa38da41a7a",
-        "news_5ccc7f08b64d"
       ],
       "status": "developing"
     },

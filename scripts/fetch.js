@@ -21,7 +21,9 @@ const {
   sortAndLimit,
 } = require('./core');
 const {
+  applyBusinessCuration,
   buildScenarioScores,
+  businessCurationStats,
   normalizeAIAnalysis,
   stableItemId,
 } = require('./analysis');
@@ -1278,6 +1280,9 @@ async function main() {
     item.scenarioScores = buildScenarioScores(item);
   });
   const allItems = sortAndLimit(mergedItems, MAX_ITEMS);
+  applyBusinessCuration(allItems, 24);
+  const curationStats = businessCurationStats(allItems);
+  console.error(`[curation] featured=${curationStats.featured}, insurance=${curationStats.scenes.insurance}, privateFund=${curationStats.scenes.privateFundSales}, education=${curationStats.scenes.marketEducation}`);
 
   assertDataQuality(allItems);
 
@@ -1338,6 +1343,7 @@ async function main() {
       ? `\u4eca\u65e5\u65b0\u589e ${newItems.length} \u6761\uff0c\u5171 ${allItems.length} \u6761\u7cbe\u9009\u8d44\u8baf`
       : `\u6682\u65e0\u65b0\u589e\uff0c\u5f53\u524d\u5171 ${allItems.length} \u6761\u7cbe\u9009\u8d44\u8baf`,
     items: allItems,
+    curationStats,
     sections: buildSections(allItems),
     flashes: buildFlashes(allItems),
     keywordIndex: buildKeywordIndex(allItems),
@@ -1360,13 +1366,21 @@ async function main() {
   lines.push(`// Generated: ${now.toISOString()}`);
   lines.push(`// Practitioner value scoring: relevance(25) + authority(20) + impact(20) + recency(15) + depth(10) + actionability(10)\n`);
   lines.push(`window.CATEGORIES = ${JSON.stringify([
+    { slug: 'featured', label: '\u4eca\u65e5\u7cbe\u9009' },
+    { slug: 'insurance', label: '\u4fdd\u9669' },
+    { slug: 'privateFundSales', label: '\u79c1\u52df' },
+    { slug: 'marketEducation', label: '\u6295\u6559' },
     { slug: 'all', label: '\u5168\u90e8' },
-    { slug: 'featured', label: '\u7cbe\u9009' },
-    { slug: 'regulatory', label: '\u76d1\u7ba1\u653f\u7b56' },
-    { slug: 'products', label: '\u4ea7\u54c1\u53d1\u5e03' },
+  ], null, 2)};\n`);
+  lines.push(`window.CONTENT_FILTERS = ${JSON.stringify([
+    { slug: 'all', label: '\u5168\u90e8\u5185\u5bb9' },
+    { slug: 'official', label: '\u5b98\u65b9\u76d1\u7ba1' },
+    { slug: 'products', label: '\u4ea7\u54c1\u52a8\u6001' },
     { slug: 'industry', label: '\u884c\u4e1a\u52a8\u6001' },
-    { slug: 'research', label: '\u7814\u7a76\u62a5\u544a' },
+    { slug: 'research', label: '\u6df1\u5ea6\u7814\u7a76' },
+    { slug: 'flash', label: '\u5feb\u8baf' },
     { slug: 'insights', label: '\u89c2\u70b9' },
+    { slug: 'authoritative', label: '\u4ec5\u770b\u6743\u5a01\u6e90' },
   ], null, 2)};\n`);
   lines.push(`window.CATEGORY_CONFIG = ${JSON.stringify({
     regulatory: { slug: 'regulatory', label: '监管政策', tagClass: 'tag-regulatory', accentClass: 'accent-regulatory' },

@@ -219,6 +219,15 @@ function qualityErrors(items) {
     })) {
       errors.push(`${prefix}.scenarioScores: invalid or incomplete`);
     }
+    if (!scenarioKeys.includes(item.primaryScene)) {
+      errors.push(`${prefix}.primaryScene: invalid or missing`);
+    }
+    if (typeof item.selectedForFeatured !== 'boolean') {
+      errors.push(`${prefix}.selectedForFeatured: must be boolean`);
+    }
+    if (!Array.isArray(item.contentTags) || item.contentTags.some(tag => typeof tag !== 'string')) {
+      errors.push(`${prefix}.contentTags: must be a string array`);
+    }
   });
 
   return errors;

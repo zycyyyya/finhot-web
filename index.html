@@ -18,7 +18,10 @@
   </nav>
 </header>
 
-<div class="category-bar" id="categoryBar"></div>
+<div class="filter-shell">
+  <div class="category-bar" id="categoryBar" aria-label="业务场景"></div>
+  <div class="content-filter-bar" id="contentFilterBar" aria-label="内容属性"></div>
+</div>
 
 <div class="content">
   <div class="content-wrapper">
@@ -36,7 +39,30 @@
 (function() {
   var data = window.FINHOT_DATA;
   var categories = window.CATEGORIES;
+  var contentFilters = window.CONTENT_FILTERS;
   var config = window.CATEGORY_CONFIG;
+  var defaultCategories = [
+    { slug: 'featured', label: '今日精选' },
+    { slug: 'insurance', label: '保险' },
+    { slug: 'privateFundSales', label: '私募' },
+    { slug: 'marketEducation', label: '投教' },
+    { slug: 'all', label: '全部' }
+  ];
+  var defaultContentFilters = [
+    { slug: 'all', label: '全部内容' },
+    { slug: 'official', label: '官方监管' },
+    { slug: 'products', label: '产品动态' },
+    { slug: 'industry', label: '行业动态' },
+    { slug: 'research', label: '深度研究' },
+    { slug: 'flash', label: '快讯' },
+    { slug: 'insights', label: '观点' },
+    { slug: 'authoritative', label: '仅看权威源' }
+  ];
+
+  if (!Array.isArray(categories) || !categories.some(function(cat) { return cat.slug === 'insurance'; })) {
+    categories = defaultCategories;
+  }
+  if (!Array.isArray(contentFilters)) contentFilters = defaultContentFilters;
 
   // XSS protection
   function escapeHtml(str) {
@@ -63,6 +89,8 @@
   var PAGE_SIZE = 20;
   var currentFiltered = [];
   var currentPage = 0;
+  var activePrimaryFilter = 'featured';
+  var activeContentFilter = 'all';
 
   var timeLabel = document.getElementById('timeLabel');
   var countLabel = document.getElementById('countLabel');
@@ -70,7 +98,7 @@
   var navFeatured = document.getElementById('navFeatured');
 
   // Fallback: if data.js failed to load
-  if (!data || !Array.isArray(data.items) || !Array.isArray(categories) || !config) {
+  if (!data || !Array.isArray(data.items) || !Array.isArray(categories) || !Array.isArray(contentFilters) || !config) {
     timeLabel.textContent = '数据加载失败';
     var errorMessage = document.createElement('p');
     errorMessage.className = 'empty-message';
@@ -79,53 +107,66 @@
     return;
   }
 
-  // Featured threshold
   var featuredThreshold = 70;
-
-  // Category bar — insert "精选" as first tab after "全部"
   var catBar = document.getElementById('categoryBar');
+  var contentFilterBar = document.getElementById('contentFilterBar');
+
+  function activateButton(container, button, selector) {
+    var buttons = container.querySelectorAll(selector);
+    for (var i = 0; i < buttons.length; i++) {
+      buttons[i].classList.remove('active');
+      buttons[i].setAttribute('aria-pressed', 'false');
+    }
+    button.classList.add('active');
+    button.setAttribute('aria-pressed', 'true');
+  }
 
   function buildCategoryBar() {
     catBar.replaceChildren();
     categories.forEach(function(cat) {
       var tab = document.createElement('button');
       tab.type = 'button';
-      tab.className = 'cat-tab' + (cat.slug === 'featured' ? ' active' : '');
+      tab.className = 'cat-tab' + (cat.slug === activePrimaryFilter ? ' active' : '');
       tab.textContent = cat.label;
       tab.setAttribute('data-cat', cat.slug);
-      tab.setAttribute('aria-pressed', cat.slug === 'featured' ? 'true' : 'false');
+      tab.setAttribute('aria-pressed', cat.slug === activePrimaryFilter ? 'true' : 'false');
       tab.addEventListener('click', function() {
-        activateTab(tab);
-        renderFeed(cat.slug, false);
+        activePrimaryFilter = cat.slug;
+        activateButton(catBar, tab, '.cat-tab');
         navFeatured.classList.toggle('active', cat.slug === 'featured');
+        renderFeed(false);
       });
       catBar.appendChild(tab);
-      // "精选" tab comes from CATEGORIES data already, no need to insert manually
     });
   }
 
-  function activateTab(tab) {
-    var allTabs = document.querySelectorAll('.cat-tab');
-    for (var i = 0; i < allTabs.length; i++) {
-      allTabs[i].classList.remove('active');
-      allTabs[i].setAttribute('aria-pressed', 'false');
-    }
-    tab.classList.add('active');
-    tab.setAttribute('aria-pressed', 'true');
+  function buildContentFilterBar() {
+    contentFilterBar.replaceChildren();
+    contentFilters.forEach(function(filter) {
+      var tab = document.createElement('button');
+      tab.type = 'button';
+      tab.className = 'content-filter-tab' + (filter.slug === activeContentFilter ? ' active' : '');
+      tab.textContent = filter.label;
+      tab.setAttribute('data-content-filter', filter.slug);
+      tab.setAttribute('aria-pressed', filter.slug === activeContentFilter ? 'true' : 'false');
+      tab.addEventListener('click', function() {
+        activeContentFilter = filter.slug;
+        activateButton(contentFilterBar, tab, '.content-filter-tab');
+        renderFeed(false);
+      });
+      contentFilterBar.appendChild(tab);
+    });
   }
 
-  // Header nav "精选" click → show featured items
   navFeatured.addEventListener('click', function(e) {
     e.preventDefault();
+    activePrimaryFilter = 'featured';
     navFeatured.classList.add('active');
     var featuredTabEl = catBar.querySelector('.cat-tab[data-cat="featured"]');
-    if (featuredTabEl) {
-      activateTab(featuredTabEl);
-    }
-    renderFeed('featured', false);
+    if (featuredTabEl) activateButton(catBar, featuredTabEl, '.cat-tab');
+    renderFeed(false);
   });
 
-  // Other nav links remove featured highlight
   var otherNavLinks = document.querySelectorAll('.header-nav a:not(#navFeatured)');
   for (var n = 0; n < otherNavLinks.length; n++) {
     otherNavLinks[n].addEventListener('click', function() {
@@ -134,6 +175,7 @@
   }
 
   buildCategoryBar();
+  buildContentFilterBar();
 
   // Time label
   try {
@@ -161,6 +203,60 @@
     }
   }
 
+  var sceneLabels = {
+    insurance: '保险',
+    privateFundSales: '私募',
+    marketEducation: '投教'
+  };
+
+  function effectivePrimaryScene(item) {
+    if (sceneLabels[item.primaryScene]) return item.primaryScene;
+    var scores = item.scenarioScores || {};
+    return Object.keys(sceneLabels).sort(function(left, right) {
+      var leftScore = scores[left] && Number(scores[left].score) || 0;
+      var rightScore = scores[right] && Number(scores[right].score) || 0;
+      return rightScore - leftScore;
+    })[0] || 'marketEducation';
+  }
+
+  function isFeatured(item) {
+    return typeof item.selectedForFeatured === 'boolean'
+      ? item.selectedForFeatured
+      : Number(item.score) >= featuredThreshold;
+  }
+
+  function primaryMatches(item, filter) {
+    if (filter === 'all') return true;
+    if (filter === 'featured') return isFeatured(item);
+    return effectivePrimaryScene(item) === filter;
+  }
+
+  function contentMatches(item, filter) {
+    if (filter === 'all') return true;
+    var tags = Array.isArray(item.contentTags) ? item.contentTags : [];
+    if (filter === 'official') return tags.indexOf('官方监管') >= 0 || item.category === 'regulatory';
+    if (filter === 'products') return tags.indexOf('产品动态') >= 0 || item.category === 'products';
+    if (filter === 'industry') return tags.indexOf('行业动态') >= 0 || item.category === 'industry';
+    if (filter === 'research') return tags.indexOf('深度研究') >= 0 || item.category === 'research';
+    if (filter === 'flash') return tags.indexOf('快讯') >= 0 || item.evidenceType === 'news_flash';
+    if (filter === 'insights') return tags.indexOf('观点') >= 0 || item.category === 'insights';
+    if (filter === 'authoritative') return tags.indexOf('权威源') >= 0 || item.sourceTier === 'S0' || item.tier === 'S0';
+    return true;
+  }
+
+  function updateContentFilterAvailability(primaryItems) {
+    contentFilters.forEach(function(filter) {
+      var button = contentFilterBar.querySelector('[data-content-filter="' + filter.slug + '"]');
+      if (!button) return;
+      var count = filter.slug === 'all'
+        ? primaryItems.length
+        : primaryItems.filter(function(item) { return contentMatches(item, filter.slug); }).length;
+      button.hidden = count === 0 && filter.slug !== 'all' && filter.slug !== activeContentFilter;
+      button.setAttribute('aria-label', filter.label + '，' + count + '条');
+      button.title = count + ' 条';
+    });
+  }
+
   function createCard(item) {
     var safeUrl = safeHttpUrl(item.sourceUrl);
     var card = document.createElement(safeUrl ? 'a' : 'article');
@@ -186,18 +282,19 @@
       ? '<span class="card-score card-score-featured" title="' + escapeHtml(scoreTitle) + '">' + escapeHtml(item.scoreLabel || '从业价值') + ' ' + item.score + '</span>'
       : '<span class="card-score" title="' + escapeHtml(scoreTitle) + '">' + escapeHtml(item.scoreLabel || '从业价值') + ' ' + item.score + '</span>';
     var scenarioScores = item.scenarioScores || {};
-    var scenarioLabels = [
-      ['insurance', '保险'],
-      ['marketEducation', '投教'],
-      ['privateFundSales', '私募']
-    ];
-    var scenarioBadges = scenarioLabels.map(function(pair) {
-      var value = scenarioScores[pair[0]];
-      if (!value || typeof value.score !== 'number') return '';
+    var primaryScene = effectivePrimaryScene(item);
+    var primaryValue = scenarioScores[primaryScene] || {};
+    var primaryReasons = Array.isArray(primaryValue.reasons) ? primaryValue.reasons.join('；') : '';
+    var primaryBadge = '<span class="primary-scene-badge primary-scene-' + escapeHtml(primaryScene) + '" title="主场景：' + escapeHtml(primaryReasons) + '">' + escapeHtml(sceneLabels[primaryScene]) + '主场景' + (typeof primaryValue.score === 'number' ? ' ' + primaryValue.score : '') + '</span>';
+    var secondaryBadges = Object.keys(sceneLabels).filter(function(scene) {
+      return scene !== primaryScene;
+    }).map(function(scene) {
+      var value = scenarioScores[scene];
+      if (!value || typeof value.score !== 'number' || value.score < 40) return '';
       var reasons = Array.isArray(value.reasons) ? value.reasons.join('；') : '';
-      var className = value.score >= 70 ? 'scenario-score scenario-score-high' : 'scenario-score';
-      return '<span class="' + className + '" title="' + escapeHtml(reasons) + '">' + pair[1] + ' ' + value.score + '</span>';
+      return '<span class="scenario-score" title="兼容场景：' + escapeHtml(reasons) + '">' + escapeHtml(sceneLabels[scene]) + ' ' + value.score + '</span>';
     }).join('');
+    var scenarioBadges = primaryBadge + secondaryBadges;
 
     card.innerHTML =
       '<div class="card-meta">' +
@@ -226,19 +323,29 @@
     });
   }
 
-  function renderFeed(filter, append) {
+  function renderFeed(append) {
     if (!append) {
       newsFeed.replaceChildren();
       currentPage = 0;
-      if (filter === 'all') {
-        currentFiltered = data.items;
-      } else if (filter === 'featured') {
-        currentFiltered = data.items.filter(function(i) { return i.score >= featuredThreshold; });
-      } else {
-        currentFiltered = data.items.filter(function(i) { return i.category === filter; });
+      var primaryItems = data.items.filter(function(item) {
+        return primaryMatches(item, activePrimaryFilter);
+      });
+      if (activeContentFilter !== 'all' && !primaryItems.some(function(item) {
+        return contentMatches(item, activeContentFilter);
+      })) {
+        activeContentFilter = 'all';
+        var allContentTab = contentFilterBar.querySelector('[data-content-filter="all"]');
+        if (allContentTab) activateButton(contentFilterBar, allContentTab, '.content-filter-tab');
       }
+      updateContentFilterAvailability(primaryItems);
+      currentFiltered = primaryItems.filter(function(item) {
+        return contentMatches(item, activeContentFilter);
+      });
       currentFiltered = sortByTimeDesc(currentFiltered);
+      var primaryLabel = categories.filter(function(cat) { return cat.slug === activePrimaryFilter; })[0];
+      var contentLabel = contentFilters.filter(function(filter) { return filter.slug === activeContentFilter; })[0];
       countLabel.textContent = currentFiltered.length + ' 条';
+      countLabel.title = (primaryLabel ? primaryLabel.label : '') + ' / ' + (contentLabel ? contentLabel.label : '');
     }
 
     var start = currentPage * PAGE_SIZE;
@@ -255,7 +362,7 @@
       btn.id = 'loadMoreBtn';
       btn.className = 'load-more-btn';
       btn.textContent = '加载更多 (' + (currentFiltered.length - end) + ' 条)';
-      btn.addEventListener('click', function() { renderFeed(null, true); });
+      btn.addEventListener('click', function() { renderFeed(true); });
       newsFeed.appendChild(btn);
     }
 
@@ -269,9 +376,7 @@
   }
 
   // Default state matches the highlighted header navigation.
-  var initialTab = catBar.querySelector('.cat-tab[data-cat="featured"]');
-  if (initialTab) activateTab(initialTab);
-  renderFeed('featured');
+  renderFeed(false);
 })();
 </script>
 

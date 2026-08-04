@@ -109,6 +109,9 @@ const validItem = {
     marketEducation: { score: 80, reasons: ['核心主题'] },
     privateFundSales: { score: 60, reasons: ['关联主题'] },
   },
+  primaryScene: 'marketEducation',
+  selectedForFeatured: true,
+  contentTags: ['官方监管'],
 };
 assert.deepStrictEqual(qualityErrors([validItem]), []);
 assert.ok(qualityErrors([{ ...validItem, sourceUrl: 'javascript:alert(1)' }]).some(e => e.includes('sourceUrl')));
@@ -126,5 +129,8 @@ assert.ok(qualityErrors([
   },
 ]).some(e => e.includes('near-duplicate title')));
 assert.ok(qualityErrors([{ ...validItem, scenarioScores: null }]).some(e => e.includes('scenarioScores')));
+assert.ok(qualityErrors([{ ...validItem, primaryScene: 'regulatory' }]).some(e => e.includes('primaryScene')));
+assert.ok(qualityErrors([{ ...validItem, selectedForFeatured: 'yes' }]).some(e => e.includes('selectedForFeatured')));
+assert.ok(qualityErrors([{ ...validItem, contentTags: null }]).some(e => e.includes('contentTags')));
 
 console.log('core tests passed');

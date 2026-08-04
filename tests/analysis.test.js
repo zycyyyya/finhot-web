@@ -2,7 +2,10 @@
 
 const assert = require('assert');
 const {
+  applyBusinessCuration,
+  buildContentTags,
   buildScenarioScores,
+  businessCurationStats,
   canonicalizeUrl,
   clusterEvents,
   normalizeAIAnalysis,
@@ -29,6 +32,35 @@ const insuranceScores = buildScenarioScores({
 assert.ok(insuranceScores.insurance.score >= 80);
 assert.ok(insuranceScores.marketEducation.score < insuranceScores.insurance.score);
 assert.ok(buildScenarioScores({ title: '某科技公司发布手机', summary: '' }).insurance.score <= 20);
+assert.deepStrictEqual(
+  buildContentTags({ category: 'regulatory', sourceTier: 'S0', evidenceType: 'official_notice' }),
+  ['官方监管', '权威源'],
+);
+
+const curatedItems = [];
+for (let index = 0; index < 30; index += 1) {
+  curatedItems.push({
+    id: `news_c${String(index).padStart(11, '0')}`,
+    title: `测试资讯 ${index}`,
+    category: index % 5 === 0 ? 'research' : 'industry',
+    sourceTier: index % 7 === 0 ? 'S0' : 'S2',
+    evidenceType: index % 6 === 0 ? 'news_flash' : 'financial_media',
+    score: 90 - index,
+    scenarioScores: {
+      insurance: { score: index < 8 ? 80 - index : 20, reasons: [] },
+      privateFundSales: { score: index >= 8 && index < 18 ? 75 - index : 25, reasons: [] },
+      marketEducation: { score: 60, reasons: [] },
+    },
+  });
+}
+applyBusinessCuration(curatedItems, 12);
+const curatedStats = businessCurationStats(curatedItems);
+assert.strictEqual(Object.values(curatedStats.scenes).reduce((sum, count) => sum + count, 0), curatedItems.length);
+assert.strictEqual(curatedStats.featured, 12);
+assert.ok(curatedStats.scenes.insurance >= 4);
+assert.ok(curatedStats.scenes.privateFundSales >= 6);
+assert.ok(curatedItems.every(item => ['insurance', 'privateFundSales', 'marketEducation'].includes(item.primaryScene)));
+assert.ok(curatedItems.every(item => Array.isArray(item.contentTags) && typeof item.selectedForFeatured === 'boolean'));
 
 const items = [
   { id: 'news_a00000000001', title: '央行发布降息政策通知', summary: '利率政策调整', category: 'regulatory', sourceTier: 'S0', confidence: 'high', score: 92, publishedAt: '2026-07-30T08:00:00Z' },

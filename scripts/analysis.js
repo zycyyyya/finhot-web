@@ -88,6 +88,124 @@ function buildScenarioScores(item) {
   return Object.fromEntries(Object.entries(SCENARIOS).map(([key, config]) => [key, scoreScenario(item, config)]));
 }
 
+const PRIMARY_SCENES = new Set(['insurance', 'privateFundSales', 'marketEducation']);
+const CONTENT_TAG_LABELS = {
+  regulatory: '官方监管',
+  products: '产品动态',
+  industry: '行业动态',
+  research: '深度研究',
+  insights: '观点',
+};
+
+function scenarioScore(item, scene) {
+  const value = item && item.scenarioScores && item.scenarioScores[scene];
+  return value && Number.isFinite(value.score) ? value.score : 0;
+}
+
+function authorityRank(item) {
+  return TIER_RANK[item && (item.sourceTier || item.tier)] || 0;
+}
+
+function businessRank(item, scene) {
+  return scenarioScore(item, scene) * 1000
+    + (Number(item && item.score) || 0) * 10
+    + authorityRank(item);
+}
+
+function sortedCandidates(items, scene, threshold, excludedIds) {
+  return items
+    .filter(item => item && item.id && !excludedIds.has(item.id) && scenarioScore(item, scene) >= threshold)
+    .sort((a, b) => businessRank(b, scene) - businessRank(a, scene));
+}
+
+function assignPrimaryScenes(items) {
+  const source = Array.isArray(items) ? items : [];
+  const assignedIds = new Set();
+  const insuranceTarget = Math.min(24, Math.max(15, Math.ceil(source.length * 0.14)));
+  const privateFundTarget = Math.min(40, Math.max(25, Math.ceil(source.length * 0.22)));
+
+  sortedCandidates(source, 'insurance', 30, assignedIds)
+    .slice(0, insuranceTarget)
+    .forEach(item => {
+      item.primaryScene = 'insurance';
+      assignedIds.add(item.id);
+    });
+
+  sortedCandidates(source, 'privateFundSales', 30, assignedIds)
+    .slice(0, privateFundTarget)
+    .forEach(item => {
+      item.primaryScene = 'privateFundSales';
+      assignedIds.add(item.id);
+    });
+
+  source.forEach(item => {
+    if (!assignedIds.has(item.id)) item.primaryScene = 'marketEducation';
+  });
+  return source;
+}
+
+function buildContentTags(item) {
+  const tags = [];
+  const categoryLabel = CONTENT_TAG_LABELS[item && item.category];
+  if (categoryLabel) tags.push(categoryLabel);
+  if (item && item.evidenceType === 'news_flash') tags.push('快讯');
+  if (item && (item.sourceTier === 'S0' || item.tier === 'S0')) tags.push('权威源');
+  return [...new Set(tags)];
+}
+
+function selectFeaturedItems(items, limit) {
+  const source = Array.isArray(items) ? items : [];
+  const total = Math.min(Number.isInteger(limit) && limit > 0 ? limit : 24, source.length);
+  const quotas = {
+    insurance: Math.min(6, total),
+    privateFundSales: Math.min(7, Math.max(0, total - Math.min(6, total))),
+  };
+  quotas.marketEducation = Math.max(0, total - quotas.insurance - quotas.privateFundSales);
+  const selected = new Set();
+
+  Object.entries(quotas).forEach(([scene, quota]) => {
+    source
+      .filter(item => item.primaryScene === scene)
+      .sort((a, b) => businessRank(b, scene) - businessRank(a, scene))
+      .slice(0, quota)
+      .forEach(item => selected.add(item.id));
+  });
+
+  source
+    .filter(item => !selected.has(item.id))
+    .sort((a, b) => (
+      (Number(b.score) || 0) * 100 + businessRank(b, b.primaryScene)
+    ) - (
+      (Number(a.score) || 0) * 100 + businessRank(a, a.primaryScene)
+    ))
+    .slice(0, Math.max(0, total - selected.size))
+    .forEach(item => selected.add(item.id));
+
+  source.forEach(item => {
+    item.selectedForFeatured = selected.has(item.id);
+    item.contentTags = buildContentTags(item);
+  });
+  return source;
+}
+
+function applyBusinessCuration(items, featuredLimit) {
+  const source = assignPrimaryScenes(items);
+  selectFeaturedItems(source, featuredLimit);
+  return source;
+}
+
+function businessCurationStats(items) {
+  const source = Array.isArray(items) ? items : [];
+  const scenes = { insurance: 0, privateFundSales: 0, marketEducation: 0 };
+  source.forEach(item => {
+    if (PRIMARY_SCENES.has(item.primaryScene)) scenes[item.primaryScene] += 1;
+  });
+  return {
+    scenes,
+    featured: source.filter(item => item.selectedForFeatured).length,
+  };
+}
+
 function eventTokens(item) {
   const text = `${item.title || ''} ${item.summary || ''}`.toLowerCase();
   const tokens = new Set();
@@ -246,9 +364,14 @@ function normalizeAIAnalysis(result, items, fallback, generatedBy, eventClusters
 }
 
 module.exports = {
+  applyBusinessCuration,
+  assignPrimaryScenes,
+  buildContentTags,
   buildScenarioScores,
+  businessCurationStats,
   canonicalizeUrl,
   clusterEvents,
   normalizeAIAnalysis,
+  selectFeaturedItems,
   stableItemId,
 };

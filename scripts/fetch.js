@@ -14,6 +14,7 @@ const {
   assertDataQuality,
   beijingDateString,
   containsCorruptedText,
+  deduplicateSimilarTitles,
   isSafeHttpUrl,
   normalizePublishedAt,
   normalizeTitle,
@@ -1255,7 +1256,7 @@ async function main() {
     console.error(`  +${added} new (${items.length - added} skipped as dup/filtered)`);
   }
   // Merge new + existing, then sort before truncating so newer cached items are never lost.
-  const mergedItems = [
+  const mergedCandidates = [
     ...newItems,
     ...existing.items.map(sanitizeCachedItem).filter(i => {
       if (!i) return false;
@@ -1265,6 +1266,11 @@ async function main() {
       return true;
     }),
   ];
+  const mergedItems = deduplicateSimilarTitles(mergedCandidates);
+  const removedSimilarDuplicates = mergedCandidates.length - mergedItems.length;
+  if (removedSimilarDuplicates > 0) {
+    console.error(`[dedup] removed ${removedSimilarDuplicates} cross-source items with near-identical titles`);
+  }
   mergedItems.forEach(enrichItem);
   mergedItems.forEach(reclassifyCategory);
   mergedItems.forEach(item => {

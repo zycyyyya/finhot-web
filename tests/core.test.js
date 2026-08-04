@@ -4,11 +4,14 @@ const assert = require('assert');
 const {
   beijingDateString,
   containsCorruptedText,
+  deduplicateSimilarTitles,
   isSafeHttpUrl,
   normalizePublishedAt,
   normalizeTitle,
   qualityErrors,
   sortAndLimit,
+  titleSimilarity,
+  titlesLikelyDuplicate,
 } = require('../scripts/core');
 
 assert.strictEqual(isSafeHttpUrl('https://example.com/a'), true);
@@ -28,6 +31,61 @@ assert.notStrictEqual(
   normalizeTitle('中国人民银行发布科技金融通知甲'),
   normalizeTitle('中国人民银行发布科技金融通知乙'),
 );
+assert.ok(titleSimilarity(
+  '苹果在印度年度销售额首次突破100亿美元',
+  '苹果在印度的年销售额首次突破100亿美元。',
+) >= 0.9);
+assert.strictEqual(
+  titlesLikelyDuplicate(
+    '苹果在印度年度销售额首次突破100亿美元',
+    '苹果在印度的年销售额首次突破100亿美元。',
+  ),
+  true,
+);
+assert.strictEqual(
+  titlesLikelyDuplicate(
+    '商务部：上半年服务进出口同比增长8.3%',
+    '商务部：上半年服务进出口同比增长8.5%',
+  ),
+  false,
+);
+assert.strictEqual(
+  titlesLikelyDuplicate(
+    'A股三大指数集体上涨，创业板领涨',
+    'A股三大指数集体下跌，创业板领跌',
+  ),
+  false,
+);
+assert.strictEqual(
+  titlesLikelyDuplicate(
+    '苹果在印度销售额首次突破100亿美元',
+    '苹果在印度销售额首次突破100亿美元，计划继续扩建零售门店',
+  ),
+  false,
+);
+
+const deduplicated = deduplicateSimilarTitles([
+  {
+    title: '苹果在印度年度销售额首次突破100亿美元',
+    sourceName: '36氪',
+    sourceTier: 'S3',
+    evidenceType: 'news_flash',
+    score: 51,
+    summary: '苹果在印度年度销售额首次突破100亿美元。（新浪财经）',
+    publishedAt: '2026-08-04T07:26:43Z',
+  },
+  {
+    title: '苹果在印度的年销售额首次突破100亿美元。',
+    sourceName: '华尔街见闻',
+    sourceTier: 'S2',
+    evidenceType: 'financial_media',
+    score: 57,
+    summary: '苹果在印度的年销售额首次突破100亿美元。',
+    publishedAt: '2026-08-04T07:25:05Z',
+  },
+]);
+assert.strictEqual(deduplicated.length, 1);
+assert.strictEqual(deduplicated[0].sourceName, '华尔街见闻');
 
 const sorted = sortAndLimit([
   { title: 'old', publishedAt: '2026-07-28T00:00:00Z' },
@@ -58,6 +116,15 @@ assert.ok(qualityErrors([{ ...validItem, title: '盘前��读' }]).some(e => 
 assert.ok(qualityErrors([validItem, { ...validItem }]).some(e => e.includes('duplicate URL')));
 assert.ok(qualityErrors([{ ...validItem, id: '1' }]).some(e => e.includes('stable ID')));
 assert.ok(qualityErrors([validItem, { ...validItem, sourceUrl: 'https://example.com/news/2' }]).some(e => e.includes('duplicate stable ID')));
+assert.ok(qualityErrors([
+  validItem,
+  {
+    ...validItem,
+    id: 'news_b1c2d3e4f5a6',
+    title: '中国人民银行发布的金融数据通知。',
+    sourceUrl: 'https://example.com/news/2',
+  },
+]).some(e => e.includes('near-duplicate title')));
 assert.ok(qualityErrors([{ ...validItem, scenarioScores: null }]).some(e => e.includes('scenarioScores')));
 
 console.log('core tests passed');

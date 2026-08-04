@@ -774,14 +774,14 @@ async function generateAIAnalysisWithLLM(items, apiKey) {
     .map(i => `[ID:${i.id}][${(i.publishedAt || '').substring(0, 10)}] ${i.title}`)
     .join('\n');
 
-  // === Call 1: Lightweight — summaries, chains, matrix, trends (max_tokens: 2000) ===
+  // === Call 1: Summary, chains, matrix, trends. Allow enough room for the nested evidence JSON. ===
   console.error('[llm] call 1/2: summary + trends...');
   const raw1 = await callLLM([
     { role: 'system', content: '你是金融保险资讯分析师。回答必须是合法的JSON格式，不要包含markdown标记或额外文字。' },
     { role: 'user', content: `高分资讯（前20条）：\n${articlesText}\n\n=====\n近7天时间线（前30条）：\n${weeklyContext}\n\n=====\n生成JSON（topic≤48字，每板块2-3项，紧凑输出）：\n{\n  "dailySummary": { "highlights": [{ "text": "核心1", "evidenceItemIds": ["news_xxx"] }] },\n  "eventChain": { "summary": "概述", "chains": [{ "title": "链标题", "nodes": ["A", "B"], "causalLink": "仅描述证据支持的关联", "evidenceItemIds": ["news_xxx"] }] },\n  "industryImpact": {\n    "quadrants": {\n      "insurance": { "level": "high|medium|low|none", "summary": "概述", "items": [{ "title": "新闻标题", "impact": "影响描述", "suggestion": "建议", "evidenceItemIds": ["news_xxx"] }] },\n      "pe": { "level": "high|medium|low|none", "summary": "概述", "items": [{ "title": "新闻标题", "impact": "影响描述", "suggestion": "建议", "evidenceItemIds": ["news_xxx"] }] },\n      "banking": { "level": "high|medium|low|none", "summary": "概述", "items": [{ "title": "新闻标题", "impact": "影响描述", "suggestion": "建议", "evidenceItemIds": ["news_xxx"] }] },\n      "trust": { "level": "high|medium|low|none", "summary": "概述", "items": [{ "title": "新闻标题", "impact": "影响描述", "suggestion": "建议", "evidenceItemIds": ["news_xxx"] }] }\n    }\n  },\n  "weeklyTrends": { "summary": "概述", "trends": [{ "topic": "主题", "direction": "上升|下降|平稳", "evidence": "证据", "evidenceItemIds": ["news_xxx"] }] }\n}\n注意：每个结论必须包含 evidenceItemIds，只能引用输入中明确提供的 news_ ID；不得虚构 ID。industryImpact 下各 quadrant 的 items 必须是对象数组，不可返回纯字符串。事件链只能表达多条原文共同支持的关联，不能把同媒体连续报道写成因果。` },
-  ], apiKey, 2000);
+  ], apiKey, 3000);
 
-  const parsed1 = extractJSON(raw1, { dailySummary: { highlights: [] }, eventChain: { summary: '生成失败', chains: [] }, industryImpact: { quadrants: {} }, weeklyTrends: { summary: '生成失败', trends: [] } });
+  const parsed1 = extractJSON(raw1, {});
 
   // === Call 2: Talking points — insurance, PE, market (max_tokens: 1500) ===
   console.error('[llm] call 2/2: talking points...');
@@ -790,7 +790,7 @@ async function generateAIAnalysisWithLLM(items, apiKey) {
     { role: 'user', content: `高分资讯：\n${articlesText}\n\n=====\n生成JSON（topic≤48字，每板块2-3条）：\n{\n  "insurancePlanner": { "summary": "概述", "talkingPoints": [{ "topic": "话题", "point": "沟通要点", "action": "建议行动", "evidenceItemIds": ["news_xxx"] }] },\n  "peOperations": { "summary": "概述", "talkingPoints": [{ "topic": "话题", "point": "运营参考", "action": "建议行动", "evidenceItemIds": ["news_xxx"] }] },\n  "marketOutlook": { "summary": "概述", "outlooks": [{ "topic": "话题", "content": "市场展望", "evidenceItemIds": ["news_xxx"] }] }\n}\n要求：每项必须包含 evidenceItemIds，只能引用输入中提供的 news_ ID，不得虚构；话术仅作为内部沟通参考，不得写收益承诺，无相关内容则数组为空。` },
   ], apiKey, 1500);
 
-  const parsed2 = extractJSON(raw2, { insurancePlanner: { summary: '生成失败', talkingPoints: [] }, peOperations: { summary: '生成失败', talkingPoints: [] }, marketOutlook: { summary: '生成失败', outlooks: [] } });
+  const parsed2 = extractJSON(raw2, {});
 
   return {
     dailySummary: parsed1.dailySummary || { highlights: [] },

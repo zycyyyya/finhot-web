@@ -73,4 +73,23 @@ const noEvidence = normalizeAIAnalysis({
 assert.deepStrictEqual(noEvidence.dailySummary.highlights, []);
 assert.deepStrictEqual(noEvidence.eventChain.chains, []);
 
+const partialParseFailure = normalizeAIAnalysis({
+  dailySummary: { highlights: [] },
+  eventChain: { summary: '生成失败', chains: [] },
+  industryImpact: { quadrants: {} },
+  weeklyTrends: { summary: '生成失败', trends: [] },
+  insurancePlanner: { summary: '模型保险摘要', talkingPoints: [] },
+}, items, fallback, 'llm');
+assert.strictEqual(partialParseFailure.eventChain.summary, '规则');
+assert.strictEqual(partialParseFailure.weeklyTrends.summary, '规则');
+assert.strictEqual(partialParseFailure.insurancePlanner.summary, '模型保险摘要');
+assert.strictEqual(partialParseFailure.generatedBy, 'llm');
+
+const cachedFailure = normalizeAIAnalysis({
+  generatedBy: 'cached',
+  sourceGeneratedBy: 'llm',
+  weeklyTrends: { summary: '生成失败', trends: [] },
+}, items, fallback, 'llm');
+assert.strictEqual(cachedFailure.weeklyTrends.summary, '规则');
+
 console.log('analysis tests passed');

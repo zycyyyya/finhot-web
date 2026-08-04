@@ -170,14 +170,19 @@ function normalizeAIAnalysis(result, items, fallback, generatedBy, eventClusters
   const source = result && typeof result === 'object' ? result : {};
   const safeFallback = fallback && typeof fallback === 'object' ? fallback : {};
   const validIds = new Set(items.map(item => item.id));
-  const section = (key) => source[key] && typeof source[key] === 'object' ? source[key] : (safeFallback[key] || {});
-  const daily = section('dailySummary');
-  const event = section('eventChain');
-  const impact = section('industryImpact');
-  const trends = section('weeklyTrends');
-  const insurance = section('insurancePlanner');
-  const pe = section('peOperations');
-  const outlook = section('marketOutlook');
+  const isFailureText = value => typeof value === 'string' && /^(生成失败|解析失败|调用失败|error|failed)$/i.test(value.trim());
+  const section = (key, isUsable) => {
+    const candidate = source[key] && typeof source[key] === 'object' ? source[key] : null;
+    return candidate && isUsable(candidate) ? candidate : (safeFallback[key] || {});
+  };
+  const hasValidSummary = value => typeof value.summary === 'string' && value.summary.trim() && !isFailureText(value.summary);
+  const daily = section('dailySummary', value => Array.isArray(value.highlights) && value.highlights.length > 0);
+  const event = section('eventChain', value => hasValidSummary(value) || (Array.isArray(value.chains) && value.chains.length > 0));
+  const impact = section('industryImpact', value => value.quadrants && typeof value.quadrants === 'object' && Object.keys(value.quadrants).length > 0);
+  const trends = section('weeklyTrends', value => hasValidSummary(value) || (Array.isArray(value.trends) && value.trends.length > 0));
+  const insurance = section('insurancePlanner', value => hasValidSummary(value) || (Array.isArray(value.talkingPoints) && value.talkingPoints.length > 0));
+  const pe = section('peOperations', value => hasValidSummary(value) || (Array.isArray(value.talkingPoints) && value.talkingPoints.length > 0));
+  const outlook = section('marketOutlook', value => hasValidSummary(value) || (Array.isArray(value.outlooks) && value.outlooks.length > 0));
   const normalizeEvidenceObject = (entry, keys) => {
     if (!entry || typeof entry !== 'object') return null;
     const output = {};

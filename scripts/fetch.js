@@ -728,6 +728,22 @@ async function callLLM(messages, apiKey, maxTokens) {
   return data.choices[0].message.content;
 }
 
+async function callLLMWithRateLimitRetry(messages, apiKey, maxTokens, label) {
+  const delays = [10000, 20000];
+  for (let attempt = 0; attempt <= delays.length; attempt++) {
+    try {
+      return await callLLM(messages, apiKey, maxTokens);
+    } catch (error) {
+      const rateLimited = /HTTP 429/i.test(error.message || '');
+      if (!rateLimited || attempt === delays.length) throw error;
+      const delay = delays[attempt];
+      console.error(`[llm] ${label} rate limited; retrying in ${delay / 1000}s`);
+      await new Promise(resolve => setTimeout(resolve, delay));
+    }
+  }
+  return '';
+}
+
 // Safe JSON extraction: strips markdown fences, finds first { last }, attempts repair on failure
 function extractJSON(raw, fallback) {
   let jsonStr = raw.replace(/```json\s*\n?/g, '').replace(/\n?\s*```/g, '').trim();
@@ -776,31 +792,34 @@ async function generateAIAnalysisWithLLM(items, apiKey) {
 
   // === Call 1: Summary, chains, matrix, trends. Allow enough room for the nested evidence JSON. ===
   console.error('[llm] call 1/2: summary + trends...');
-  const raw1 = await callLLM([
+  const call1Messages = [
     { role: 'system', content: '你是金融保险资讯分析师。回答必须是合法的JSON格式，不要包含markdown标记或额外文字。' },
     { role: 'user', content: `高分资讯（前20条）：\n${articlesText}\n\n=====\n近7天时间线（前30条）：\n${weeklyContext}\n\n=====\n生成JSON（topic≤48字，每板块2-3项，紧凑输出）：\n{\n  "dailySummary": { "highlights": [{ "text": "核心1", "evidenceItemIds": ["news_xxx"] }] },\n  "eventChain": { "summary": "概述", "chains": [{ "title": "链标题", "nodes": ["A", "B"], "causalLink": "仅描述证据支持的关联", "evidenceItemIds": ["news_xxx"] }] },\n  "industryImpact": {\n    "quadrants": {\n      "insurance": { "level": "high|medium|low|none", "summary": "概述", "items": [{ "title": "新闻标题", "impact": "影响描述", "suggestion": "建议", "evidenceItemIds": ["news_xxx"] }] },\n      "pe": { "level": "high|medium|low|none", "summary": "概述", "items": [{ "title": "新闻标题", "impact": "影响描述", "suggestion": "建议", "evidenceItemIds": ["news_xxx"] }] },\n      "banking": { "level": "high|medium|low|none", "summary": "概述", "items": [{ "title": "新闻标题", "impact": "影响描述", "suggestion": "建议", "evidenceItemIds": ["news_xxx"] }] },\n      "trust": { "level": "high|medium|low|none", "summary": "概述", "items": [{ "title": "新闻标题", "impact": "影响描述", "suggestion": "建议", "evidenceItemIds": ["news_xxx"] }] }\n    }\n  },\n  "weeklyTrends": { "summary": "概述", "trends": [{ "topic": "主题", "direction": "上升|下降|平稳", "evidence": "证据", "evidenceItemIds": ["news_xxx"] }] }\n}\n注意：每个结论必须包含 evidenceItemIds，只能引用输入中明确提供的 news_ ID；不得虚构 ID。industryImpact 下各 quadrant 的 items 必须是对象数组，不可返回纯字符串。事件链只能表达多条原文共同支持的关联，不能把同媒体连续报道写成因果。` },
-  ], apiKey, 3000);
-
-  const parsed1 = extractJSON(raw1, {});
+  ];
+  let parsed1 = {};
+  try {
+    const raw1 = await callLLMWithRateLimitRetry(call1Messages, apiKey, 3000, 'call 1/2');
+    parsed1 = extractJSON(raw1, {});
+  } catch (error) {
+    console.error(`[llm] call 1/2 failed: ${error.message}; affected sections will use rules`);
+  }
 
   // === Call 2: Talking points — insurance, PE, market (max_tokens: 1500) ===
   console.error('[llm] call 2/2: talking points...');
-  const raw2 = await callLLM([
+  const call2Messages = [
     { role: 'system', content: '你是金融保险资讯分析师，擅长将新闻转化为可直接使用的客户沟通话术。回答必须是合法的JSON格式，不要包含markdown标记或额外文字。' },
     { role: 'user', content: `高分资讯：\n${articlesText}\n\n=====\n生成JSON（topic≤48字，每板块2-3条）：\n{\n  "insurancePlanner": { "summary": "概述", "talkingPoints": [{ "topic": "话题", "point": "沟通要点", "action": "建议行动", "evidenceItemIds": ["news_xxx"] }] },\n  "peOperations": { "summary": "概述", "talkingPoints": [{ "topic": "话题", "point": "运营参考", "action": "建议行动", "evidenceItemIds": ["news_xxx"] }] },\n  "marketOutlook": { "summary": "概述", "outlooks": [{ "topic": "话题", "content": "市场展望", "evidenceItemIds": ["news_xxx"] }] }\n}\n要求：每项必须包含 evidenceItemIds，只能引用输入中提供的 news_ ID，不得虚构；话术仅作为内部沟通参考，不得写收益承诺，无相关内容则数组为空。` },
-  ], apiKey, 1500);
+  ];
+  let parsed2 = {};
+  try {
+    await new Promise(resolve => setTimeout(resolve, 5000));
+    const raw2 = await callLLMWithRateLimitRetry(call2Messages, apiKey, 1500, 'call 2/2');
+    parsed2 = extractJSON(raw2, {});
+  } catch (error) {
+    console.error(`[llm] call 2/2 failed: ${error.message}; affected sections will use rules`);
+  }
 
-  const parsed2 = extractJSON(raw2, {});
-
-  return {
-    dailySummary: parsed1.dailySummary || { highlights: [] },
-    eventChain: parsed1.eventChain || { summary: '暂无', chains: [] },
-    industryImpact: parsed1.industryImpact || { quadrants: { insurance: { level: 'none', summary: '暂无', items: [] }, pe: { level: 'none', summary: '暂无', items: [] }, banking: { level: 'none', summary: '暂无', items: [] }, trust: { level: 'none', summary: '暂无', items: [] } } },
-    weeklyTrends: parsed1.weeklyTrends || { summary: '暂无趋势信号', trends: [] },
-    insurancePlanner: parsed2.insurancePlanner || { summary: '暂无相关内容', talkingPoints: [] },
-    peOperations: parsed2.peOperations || { summary: '暂无相关内容', talkingPoints: [] },
-    marketOutlook: parsed2.marketOutlook || { summary: '暂无相关内容', outlooks: [] },
-  };
+  return { ...parsed1, ...parsed2 };
 }
 
 async function generateAIAnalysisWithFallback(items, eventClusters, cachedAnalysis) {

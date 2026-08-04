@@ -24,9 +24,9 @@
   <div class="about-content">
     <h1 class="about-title">关于 finhot</h1>
     <p class="about-desc">
-      finhot 是一个面向金融保险从业者的精选资讯聚合平台。
-      每日自动从多个公开信源采集行业动态，通过来源分层、从业价值评分与去重过滤，
-      为保险规划师、私募基金经理提供更容易判断轻重缓急的金融保险圈日报。
+      finhot 是一个面向保险运营、二级市场投教和私募销售运营从业者的精选资讯聚合平台。
+      每日自动从多个公开信源采集行业动态，通过来源分层、AI 证据化分析、三场景独立适配度评分、
+      近似标题去重与双层业务筛选，为不同业务角色快速定位最有价值的资讯。
     </p>
 
     <div class="divider"></div>
@@ -48,6 +48,22 @@
         <p id="health-detail" class="health-detail">旧版数据不包含来源健康字段，不影响资讯浏览。</p>
       </div>
     </section>
+
+    <div class="divider"></div>
+
+    <h2 class="about-section-title">业务场景导航</h2>
+    <p class="about-desc">
+      首页按三个业务场景组织资讯，每条资讯拥有唯一主场景，其余仅作辅助提示：
+    </p>
+    <div class="tech-items">
+      <div class="tech-row"><div class="tech-dot"></div><span class="tech-text"><strong>保险运营</strong>：保险、险企、寿险、财险、健康险、养老、年金、费率、偿付能力、保费、理赔等</span></div>
+      <div class="tech-row"><div class="tech-dot"></div><span class="tech-text"><strong>私募销售运营</strong>：私募、量化、对冲、FOF、净值、回撤、仓位、策略、募集、备案、托管等</span></div>
+      <div class="tech-row"><div class="tech-dot"></div><span class="tech-text"><strong>二级市场投教</strong>：A股、港股、美股、指数、ETF、债券、央行、货币政策、估值、财报、宏观数据等</span></div>
+    </div>
+    <p class="about-desc" style="margin-top:12px">
+      一级导航之外提供二级内容属性筛选：官方监管、产品动态、行业动态、深度研究、快讯、观点、仅看权威源。
+      当前无匹配结果的标签会自动隐藏。
+    </p>
 
     <div class="divider"></div>
 
@@ -108,6 +124,8 @@
     <div class="source-note">
       从业价值分由六项组成：行业相关性 25 分、来源权威性 20 分、业务影响 20 分、时效性 15 分、内容深度 10 分、可行动性 10 分。
       S3 快讯源单条最高不超过 75 分；涉及监管、处罚、法规、批复的媒体转述最高不超过 82 分，优先等待或补充原始出处。
+      三场景评分各为 0-100 的独立适配度，综合考虑关键词命中、来源权威性和业务影响；
+      今日精选按保险 6 条、私募 7 条、投教 11 条的场景配额选出 24 条，确保各业务方向内容不偏空。
     </div>
 
     <div class="divider"></div>

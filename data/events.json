@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-08-05T10:49:42.998Z",
+  "generatedAt": "2026-08-05T14:40:34.894Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -8,7 +8,7 @@
       "eventId": "event_d9bb7daf89a5",
       "title": "吴清主席出席人民币国债期货在港交所挂牌上市仪式并致辞",
       "firstSeenAt": "2026-08-03T11:50:30.990Z",
-      "lastSeenAt": "2026-08-05T10:49:42.998Z",
+      "lastSeenAt": "2026-08-05T14:40:34.894Z",
       "primaryItemId": "news_9ea70a4a7f51",
       "evidenceItemIds": [
         "news_9ea70a4a7f51",
@@ -18,10 +18,10 @@
     },
     {
       "eventId": "event_3266836e8022",
-      "title": "A股三大指数集体低开，中际旭创、新易盛跌超10%",
+      "title": "A股三大指数集体高开",
       "firstSeenAt": "2026-08-04T03:43:00.215Z",
-      "lastSeenAt": "2026-08-05T10:49:42.998Z",
-      "primaryItemId": "news_7ddcd660a4c9",
+      "lastSeenAt": "2026-08-05T14:40:34.894Z",
+      "primaryItemId": "news_b57f43e9368b",
       "evidenceItemIds": [
         "news_61f3e082c55e",
         "news_b57f43e9368b",
@@ -42,7 +42,7 @@
       "eventId": "event_518bd5f65e66",
       "title": "曹操出行在珠海成立新公司，注册资本3000万",
       "firstSeenAt": "2026-08-04T06:40:23.964Z",
-      "lastSeenAt": "2026-08-05T10:49:42.998Z",
+      "lastSeenAt": "2026-08-05T14:40:34.894Z",
       "primaryItemId": "news_f426a33352c3",
       "evidenceItemIds": [
         "news_104bedc150d6",
@@ -51,6 +51,359 @@
         "news_92727fa26b9e",
         "news_4852497844c7",
         "news_f426a33352c3"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_202dd878fa19",
+      "title": "晚间公告｜8月5日这些公告有看头",
+      "firstSeenAt": "2026-07-31T14:43:32.623Z",
+      "lastSeenAt": "2026-08-05T14:40:34.894Z",
+      "primaryItemId": "news_c91687230a2c",
+      "evidenceItemIds": [
+        "news_eaf56a2f5345",
+        "news_8b256f193830",
+        "news_58fdd88ca5ff",
+        "news_4cac4c806a4b",
+        "news_f202b91c5619",
+        "news_c91687230a2c"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_676b44e28a1a",
+      "title": "韩国央行抄底黄金，13年来首次增持！",
+      "firstSeenAt": "2026-08-03T11:50:30.990Z",
+      "lastSeenAt": "2026-08-05T14:40:34.894Z",
+      "primaryItemId": "news_316321604c79",
+      "evidenceItemIds": [
+        "news_316321604c79",
+        "news_0120243c714c",
+        "news_f5f350507fa0"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_0f01354b24a9",
+      "title": "“易中天”市值跌超1000亿元，美国禁令或扰乱光模块供应生态",
+      "firstSeenAt": "2026-08-05T03:38:04.635Z",
+      "lastSeenAt": "2026-08-05T14:40:34.894Z",
+      "primaryItemId": "news_81cb8fde841b",
+      "evidenceItemIds": [
+        "news_a93ef5a2cb5c",
+        "news_c42ecb5ee43f",
+        "news_81cb8fde841b",
+        "news_fe4dd14ff132"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_4220be6d47ea",
+      "title": "东山精密回应美国拟禁止进口中国光模块传闻：目前仅为市场消息",
+      "firstSeenAt": "2026-08-05T03:38:04.635Z",
+      "lastSeenAt": "2026-08-05T14:40:34.894Z",
+      "primaryItemId": "news_f3eeaf1589a9",
+      "evidenceItemIds": [
+        "news_94ea7d1444e5",
+        "news_8aabc5890832",
+        "news_f3eeaf1589a9",
+        "news_cf16e72bee3b",
+        "news_a4bed2e9b549"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_6b0dd34e3b24",
+      "title": "澳大利亚股市上涨；截至收盘澳大利亚S&P/ASX200指数上涨0.90%",
+      "firstSeenAt": "2026-07-31T07:13:50.095Z",
+      "lastSeenAt": "2026-08-05T14:40:34.894Z",
+      "primaryItemId": "news_524ea5d0a6d1",
+      "evidenceItemIds": [
+        "news_a3a7db1b8baa",
+        "news_be2c5a5fdbc5",
+        "news_1d4bd1ed2860",
+        "news_7e990722c547",
+        "news_524ea5d0a6d1"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_bc503bf298fa",
+      "title": "关于美日联合干预日元的真实目的",
+      "firstSeenAt": "2026-08-05T06:41:05.050Z",
+      "lastSeenAt": "2026-08-05T14:40:34.894Z",
+      "primaryItemId": "news_ce108c303e52",
+      "evidenceItemIds": [
+        "news_f840d6d325b3",
+        "news_32bf9c482761",
+        "news_721b6be613fc",
+        "news_3bd017ade57f",
+        "news_9af72b246683",
+        "news_ce108c303e52"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_62ed3ffbf983",
+      "title": "独家｜一柜难求！局域网交易线路关闭，“近交易所”机房租金暴涨",
+      "firstSeenAt": "2026-08-05T06:41:05.050Z",
+      "lastSeenAt": "2026-08-05T14:40:34.894Z",
+      "primaryItemId": "news_b2caa9e107ae",
+      "evidenceItemIds": [
+        "news_b2caa9e107ae",
+        "news_cf6aabf1f62b"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_1ea2527ee420",
+      "title": "芯联集成、江丰电子等在上海成立新私募投资基金，出资额7.81亿",
+      "firstSeenAt": "2026-08-05T06:41:05.050Z",
+      "lastSeenAt": "2026-08-05T14:40:34.894Z",
+      "primaryItemId": "news_4cc3e3bd1fc7",
+      "evidenceItemIds": [
+        "news_4cc3e3bd1fc7",
+        "news_092d579c1c5c"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_20b462023fc4",
+      "title": "SpaceX火箭残骸即将撞击月球",
+      "firstSeenAt": "2026-08-05T06:41:05.050Z",
+      "lastSeenAt": "2026-08-05T14:40:34.894Z",
+      "primaryItemId": "news_208ba81bc55c",
+      "evidenceItemIds": [
+        "news_208ba81bc55c",
+        "news_78b21d89770d"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_4ab8ca78f4f3",
+      "title": "台湾股市收低；截至收盘台湾加权指数基本持平",
+      "firstSeenAt": "2026-08-05T06:41:05.050Z",
+      "lastSeenAt": "2026-08-05T14:40:34.894Z",
+      "primaryItemId": "news_21dce2fae4a6",
+      "evidenceItemIds": [
+        "news_21dce2fae4a6",
+        "news_21a4d2349aa3"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_0737eac2cabb",
+      "title": "连板股追踪丨A股今日共105只个股涨停 这只教育股8连板",
+      "firstSeenAt": "2026-07-31T02:43:30.494Z",
+      "lastSeenAt": "2026-08-05T14:40:34.894Z",
+      "primaryItemId": "news_11eae49a5b16",
+      "evidenceItemIds": [
+        "news_cf2b97a75d61",
+        "news_6b2b1bbc6628",
+        "news_0b0558cddf77",
+        "news_2a647756104e",
+        "news_8818289af9a3",
+        "news_11eae49a5b16"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_c5adfab44c2e",
+      "title": "晶丰明源：拟6000万元—1.2亿元回购公司股份",
+      "firstSeenAt": "2026-08-03T15:23:32.854Z",
+      "lastSeenAt": "2026-08-05T14:40:34.894Z",
+      "primaryItemId": "news_b18d55ee8633",
+      "evidenceItemIds": [
+        "news_298f89d71970",
+        "news_b7abf4e75140",
+        "news_4e09f93b37d9",
+        "news_9ff056edf909",
+        "news_cc9fc6409414",
+        "news_b18d55ee8633",
+        "news_4f810ec96904"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_30ae4c249847",
+      "title": "Shake Shack第二季度总营收为4.176亿美元，同比增长17.2%",
+      "firstSeenAt": "2026-08-04T08:16:43.536Z",
+      "lastSeenAt": "2026-08-05T14:40:34.894Z",
+      "primaryItemId": "news_85de9372a9a8",
+      "evidenceItemIds": [
+        "news_eecd647362cf",
+        "news_89cde0cb8008",
+        "news_d955651f95b8",
+        "news_85de9372a9a8"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_f4ad298d230a",
+      "title": "杠杆ETF，你真的懂吗？",
+      "firstSeenAt": "2026-08-03T07:46:07.010Z",
+      "lastSeenAt": "2026-08-05T14:40:34.894Z",
+      "primaryItemId": "news_d43b703cdca3",
+      "evidenceItemIds": [
+        "news_4a9267d7087d",
+        "news_3767318ad7f4",
+        "news_d9da83989eef",
+        "news_d43b703cdca3",
+        "news_61c71dc4fb8f",
+        "news_bee70ccfae52",
+        "news_c95d956965a9"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_da295175ce0e",
+      "title": "SpaceX二季度营收同比大增九成 资本开支飙升550%至184亿美元",
+      "firstSeenAt": "2026-08-05T10:49:42.998Z",
+      "lastSeenAt": "2026-08-05T14:40:34.894Z",
+      "primaryItemId": "news_b2b45f79809b",
+      "evidenceItemIds": [
+        "news_b2b45f79809b",
+        "news_023ba8ae09f9"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_7f56da37fe4f",
+      "title": "“10年大概率不卖”泡泡玛特的段永平持仓再变 系期权履约交付股份",
+      "firstSeenAt": "2026-08-05T10:49:42.998Z",
+      "lastSeenAt": "2026-08-05T14:40:34.894Z",
+      "primaryItemId": "news_613d24bd12e1",
+      "evidenceItemIds": [
+        "news_47962e6db533",
+        "news_f71db6fbf459",
+        "news_c65acebb41da",
+        "news_613d24bd12e1"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_86f9a37079ba",
+      "title": "商务部新闻发言人就对美国联邦通信委员会、美国土安全部系列涉华消极措施实施反制答记者问",
+      "firstSeenAt": "2026-08-05T10:49:42.998Z",
+      "lastSeenAt": "2026-08-05T14:40:34.894Z",
+      "primaryItemId": "news_df2ebed1c769",
+      "evidenceItemIds": [
+        "news_df2ebed1c769",
+        "news_183eae43ccf5"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_d2d4221ee9e6",
+      "title": "报道：三星、SK海力士在华工厂测试中国芯片制造设备，防范美国管制升级",
+      "firstSeenAt": "2026-08-05T10:49:42.998Z",
+      "lastSeenAt": "2026-08-05T14:40:34.894Z",
+      "primaryItemId": "news_376885e49af5",
+      "evidenceItemIds": [
+        "news_376885e49af5",
+        "news_b9749e6ee50f"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_e9fa846cdfce",
+      "title": "特朗普政府已退还1000亿美元关税，都给谁了？",
+      "firstSeenAt": "2026-08-05T10:49:42.998Z",
+      "lastSeenAt": "2026-08-05T14:40:34.894Z",
+      "primaryItemId": "news_8df22a3f0ffc",
+      "evidenceItemIds": [
+        "news_8df22a3f0ffc",
+        "news_a4da19bfbaf5",
+        "news_109733ded993"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_9d13e005e485",
+      "title": "SpaceX向美国电信三巨头发起挑战 拟自建地面网络 与卫星网络互补",
+      "firstSeenAt": "2026-08-05T10:49:42.998Z",
+      "lastSeenAt": "2026-08-05T14:40:34.894Z",
+      "primaryItemId": "news_9d93a0ebc382",
+      "evidenceItemIds": [
+        "news_0fb865137bf6",
+        "news_9d93a0ebc382"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_732371dc46c1",
+      "title": "普洛药业(000739.SZ)子公司氟泽雷塞原料药上市申请获批",
+      "firstSeenAt": "2026-08-05T10:49:42.998Z",
+      "lastSeenAt": "2026-08-05T14:40:34.894Z",
+      "primaryItemId": "news_d1f825e42d8a",
+      "evidenceItemIds": [
+        "news_d1f825e42d8a",
+        "news_8c9c56c80e2f"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_abb49ed70789",
+      "title": "鲁抗医药(600789.SH)：拟投资约3.7亿元建设绿色生物制造项目",
+      "firstSeenAt": "2026-08-05T10:49:42.998Z",
+      "lastSeenAt": "2026-08-05T14:40:34.894Z",
+      "primaryItemId": "news_32c56b214fa0",
+      "evidenceItemIds": [
+        "news_32c56b214fa0",
+        "news_6aa55d1bddf3"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_32967e3730b8",
+      "title": "热门中概股美股盘前多数上涨，阿里巴巴涨超1%",
+      "firstSeenAt": "2026-08-03T15:23:32.854Z",
+      "lastSeenAt": "2026-08-05T14:40:34.894Z",
+      "primaryItemId": "news_69866ab410e2",
+      "evidenceItemIds": [
+        "news_8394862df655",
+        "news_b8561adf7643",
+        "news_8b0ae127cd97",
+        "news_69866ab410e2",
+        "news_df9f7f47921a"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_74bcde0da36c",
+      "title": "美股大型科技股盘前涨跌不一，SpaceX跌超11%",
+      "firstSeenAt": "2026-08-03T15:23:32.854Z",
+      "lastSeenAt": "2026-08-05T14:40:34.894Z",
+      "primaryItemId": "news_4f16ad09a924",
+      "evidenceItemIds": [
+        "news_df9f7f47921a",
+        "news_d8cf5ab3eb6b",
+        "news_fe8ff89c67e3",
+        "news_4f16ad09a924"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_30f1b706e0d1",
+      "title": "美国7月“小非农”ADP就业人数增长4.4万人，不及预期",
+      "firstSeenAt": "2026-08-05T14:40:34.894Z",
+      "lastSeenAt": "2026-08-05T14:40:34.894Z",
+      "primaryItemId": "news_001b653ea122",
+      "evidenceItemIds": [
+        "news_001b653ea122",
+        "news_f42726c679f3"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_bfebbe6f8c45",
+      "title": "礼来Q2营收229.7亿美元超预期，全年营收指引上调至850-870亿美元｜财报见闻",
+      "firstSeenAt": "2026-08-05T14:40:34.894Z",
+      "lastSeenAt": "2026-08-05T14:40:34.894Z",
+      "primaryItemId": "news_3283be360b1f",
+      "evidenceItemIds": [
+        "news_3283be360b1f",
+        "news_505e35e2243f"
       ],
       "status": "developing"
     },
@@ -86,22 +439,6 @@
       "status": "developing"
     },
     {
-      "eventId": "event_202dd878fa19",
-      "title": "晚间公告｜8月5日这些公告有看头",
-      "firstSeenAt": "2026-07-31T14:43:32.623Z",
-      "lastSeenAt": "2026-08-05T10:49:42.998Z",
-      "primaryItemId": "news_c91687230a2c",
-      "evidenceItemIds": [
-        "news_eaf56a2f5345",
-        "news_8b256f193830",
-        "news_58fdd88ca5ff",
-        "news_4cac4c806a4b",
-        "news_f202b91c5619",
-        "news_c91687230a2c"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_9988654da1fd",
       "title": "AI进化速递丨Anthropic与人工智能云初创公司签署100亿美元算力协议",
       "firstSeenAt": "2026-08-04T14:44:57.856Z",
@@ -126,19 +463,6 @@
         "news_d6ded5ce3d23",
         "news_ce5450193ef2",
         "news_c703d5c64965"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_676b44e28a1a",
-      "title": "韩国央行抄底黄金，13年来首次增持！",
-      "firstSeenAt": "2026-08-03T11:50:30.990Z",
-      "lastSeenAt": "2026-08-05T10:49:42.998Z",
-      "primaryItemId": "news_316321604c79",
-      "evidenceItemIds": [
-        "news_316321604c79",
-        "news_0120243c714c",
-        "news_f5f350507fa0"
       ],
       "status": "developing"
     },
@@ -180,20 +504,6 @@
       "status": "developing"
     },
     {
-      "eventId": "event_0f01354b24a9",
-      "title": "“易中天”市值跌超1000亿元，美国禁令或扰乱光模块供应生态",
-      "firstSeenAt": "2026-08-05T03:38:04.635Z",
-      "lastSeenAt": "2026-08-05T10:49:42.998Z",
-      "primaryItemId": "news_81cb8fde841b",
-      "evidenceItemIds": [
-        "news_a93ef5a2cb5c",
-        "news_c42ecb5ee43f",
-        "news_81cb8fde841b",
-        "news_fe4dd14ff132"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_040dfcd34208",
       "title": "人民日报：中美经贸需要“合作清单”，而非“覆盖清单”",
       "firstSeenAt": "2026-08-05T03:38:04.635Z",
@@ -218,51 +528,6 @@
       "status": "developing"
     },
     {
-      "eventId": "event_4220be6d47ea",
-      "title": "东山精密回应美国拟禁止进口中国光模块传闻：目前仅为市场消息",
-      "firstSeenAt": "2026-08-05T03:38:04.635Z",
-      "lastSeenAt": "2026-08-05T10:49:42.998Z",
-      "primaryItemId": "news_f3eeaf1589a9",
-      "evidenceItemIds": [
-        "news_94ea7d1444e5",
-        "news_8aabc5890832",
-        "news_f3eeaf1589a9",
-        "news_cf16e72bee3b",
-        "news_a4bed2e9b549"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_6b0dd34e3b24",
-      "title": "澳大利亚股市上涨；截至收盘澳大利亚S&P/ASX200指数上涨0.90%",
-      "firstSeenAt": "2026-07-31T07:13:50.095Z",
-      "lastSeenAt": "2026-08-05T10:49:42.998Z",
-      "primaryItemId": "news_524ea5d0a6d1",
-      "evidenceItemIds": [
-        "news_a3a7db1b8baa",
-        "news_be2c5a5fdbc5",
-        "news_1d4bd1ed2860",
-        "news_7e990722c547",
-        "news_524ea5d0a6d1"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_bc503bf298fa",
-      "title": "美日联合干预日元的启示",
-      "firstSeenAt": "2026-08-05T06:41:05.050Z",
-      "lastSeenAt": "2026-08-05T10:49:42.998Z",
-      "primaryItemId": "news_f840d6d325b3",
-      "evidenceItemIds": [
-        "news_f840d6d325b3",
-        "news_32bf9c482761",
-        "news_721b6be613fc",
-        "news_3bd017ade57f",
-        "news_9af72b246683"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_66351effe055",
       "title": "A股去杠杆到哪一步",
       "firstSeenAt": "2026-08-05T06:41:05.050Z",
@@ -271,214 +536,6 @@
       "evidenceItemIds": [
         "news_ce98eadc35c5",
         "news_8c9a7616624d"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_62ed3ffbf983",
-      "title": "独家｜一柜难求！局域网交易线路关闭，“近交易所”机房租金暴涨",
-      "firstSeenAt": "2026-08-05T06:41:05.050Z",
-      "lastSeenAt": "2026-08-05T10:49:42.998Z",
-      "primaryItemId": "news_b2caa9e107ae",
-      "evidenceItemIds": [
-        "news_b2caa9e107ae",
-        "news_cf6aabf1f62b"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_1ea2527ee420",
-      "title": "芯联集成、江丰电子等在上海成立新私募投资基金，出资额7.81亿",
-      "firstSeenAt": "2026-08-05T06:41:05.050Z",
-      "lastSeenAt": "2026-08-05T10:49:42.998Z",
-      "primaryItemId": "news_4cc3e3bd1fc7",
-      "evidenceItemIds": [
-        "news_4cc3e3bd1fc7",
-        "news_092d579c1c5c"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_20b462023fc4",
-      "title": "SpaceX火箭残骸即将撞击月球",
-      "firstSeenAt": "2026-08-05T06:41:05.050Z",
-      "lastSeenAt": "2026-08-05T10:49:42.998Z",
-      "primaryItemId": "news_208ba81bc55c",
-      "evidenceItemIds": [
-        "news_208ba81bc55c",
-        "news_78b21d89770d"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_4ab8ca78f4f3",
-      "title": "台湾股市收低；截至收盘台湾加权指数基本持平",
-      "firstSeenAt": "2026-08-05T06:41:05.050Z",
-      "lastSeenAt": "2026-08-05T10:49:42.998Z",
-      "primaryItemId": "news_21dce2fae4a6",
-      "evidenceItemIds": [
-        "news_21dce2fae4a6",
-        "news_21a4d2349aa3"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_0737eac2cabb",
-      "title": "连板股追踪丨A股今日共105只个股涨停 这只教育股8连板",
-      "firstSeenAt": "2026-07-31T02:43:30.494Z",
-      "lastSeenAt": "2026-08-05T10:49:42.998Z",
-      "primaryItemId": "news_11eae49a5b16",
-      "evidenceItemIds": [
-        "news_cf2b97a75d61",
-        "news_6b2b1bbc6628",
-        "news_0b0558cddf77",
-        "news_2a647756104e",
-        "news_8818289af9a3",
-        "news_11eae49a5b16"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_c5adfab44c2e",
-      "title": "晶丰明源：拟6000万元—1.2亿元回购公司股份",
-      "firstSeenAt": "2026-08-03T15:23:32.854Z",
-      "lastSeenAt": "2026-08-05T10:49:42.998Z",
-      "primaryItemId": "news_b18d55ee8633",
-      "evidenceItemIds": [
-        "news_298f89d71970",
-        "news_b7abf4e75140",
-        "news_4e09f93b37d9",
-        "news_9ff056edf909",
-        "news_cc9fc6409414",
-        "news_b18d55ee8633",
-        "news_4f810ec96904"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_30ae4c249847",
-      "title": "百济神州：第二季度全球总收入达17亿美元，同比增长30%",
-      "firstSeenAt": "2026-08-04T08:16:43.536Z",
-      "lastSeenAt": "2026-08-05T10:49:42.998Z",
-      "primaryItemId": "news_d955651f95b8",
-      "evidenceItemIds": [
-        "news_eecd647362cf",
-        "news_89cde0cb8008",
-        "news_d955651f95b8"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_f4ad298d230a",
-      "title": "杠杆ETF，你真的懂吗？",
-      "firstSeenAt": "2026-08-03T07:46:07.010Z",
-      "lastSeenAt": "2026-08-05T10:49:42.998Z",
-      "primaryItemId": "news_d43b703cdca3",
-      "evidenceItemIds": [
-        "news_4a9267d7087d",
-        "news_3767318ad7f4",
-        "news_d9da83989eef",
-        "news_d43b703cdca3",
-        "news_61c71dc4fb8f",
-        "news_bee70ccfae52",
-        "news_c95d956965a9"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_da295175ce0e",
-      "title": "SpaceX二季度营收同比大增九成 资本开支飙升550%至184亿美元",
-      "firstSeenAt": "2026-08-05T10:49:42.998Z",
-      "lastSeenAt": "2026-08-05T10:49:42.998Z",
-      "primaryItemId": "news_b2b45f79809b",
-      "evidenceItemIds": [
-        "news_b2b45f79809b",
-        "news_023ba8ae09f9"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_7f56da37fe4f",
-      "title": "段永平减持泡泡玛特",
-      "firstSeenAt": "2026-08-05T10:49:42.998Z",
-      "lastSeenAt": "2026-08-05T10:49:42.998Z",
-      "primaryItemId": "news_47962e6db533",
-      "evidenceItemIds": [
-        "news_47962e6db533",
-        "news_f71db6fbf459"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_86f9a37079ba",
-      "title": "商务部新闻发言人就对美国联邦通信委员会、美国土安全部系列涉华消极措施实施反制答记者问",
-      "firstSeenAt": "2026-08-05T10:49:42.998Z",
-      "lastSeenAt": "2026-08-05T10:49:42.998Z",
-      "primaryItemId": "news_df2ebed1c769",
-      "evidenceItemIds": [
-        "news_df2ebed1c769",
-        "news_183eae43ccf5"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_d2d4221ee9e6",
-      "title": "报道：三星、SK海力士在华工厂测试中国芯片制造设备，防范美国管制升级",
-      "firstSeenAt": "2026-08-05T10:49:42.998Z",
-      "lastSeenAt": "2026-08-05T10:49:42.998Z",
-      "primaryItemId": "news_376885e49af5",
-      "evidenceItemIds": [
-        "news_376885e49af5",
-        "news_b9749e6ee50f"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_e9fa846cdfce",
-      "title": "特朗普政府已退还1000亿美元关税，都给谁了？",
-      "firstSeenAt": "2026-08-05T10:49:42.998Z",
-      "lastSeenAt": "2026-08-05T10:49:42.998Z",
-      "primaryItemId": "news_8df22a3f0ffc",
-      "evidenceItemIds": [
-        "news_8df22a3f0ffc",
-        "news_a4da19bfbaf5",
-        "news_109733ded993"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_9d13e005e485",
-      "title": "SpaceX拟建地面基础设施与卫星网络互补，向美国电信三巨头发起挑战",
-      "firstSeenAt": "2026-08-05T10:49:42.998Z",
-      "lastSeenAt": "2026-08-05T10:49:42.998Z",
-      "primaryItemId": "news_0fb865137bf6",
-      "evidenceItemIds": [
-        "news_0fb865137bf6",
-        "news_9d93a0ebc382"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_732371dc46c1",
-      "title": "普洛药业(000739.SZ)子公司氟泽雷塞原料药上市申请获批",
-      "firstSeenAt": "2026-08-05T10:49:42.998Z",
-      "lastSeenAt": "2026-08-05T10:49:42.998Z",
-      "primaryItemId": "news_d1f825e42d8a",
-      "evidenceItemIds": [
-        "news_d1f825e42d8a",
-        "news_8c9c56c80e2f"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_abb49ed70789",
-      "title": "鲁抗医药(600789.SH)：拟投资约3.7亿元建设绿色生物制造项目",
-      "firstSeenAt": "2026-08-05T10:49:42.998Z",
-      "lastSeenAt": "2026-08-05T10:49:42.998Z",
-      "primaryItemId": "news_32c56b214fa0",
-      "evidenceItemIds": [
-        "news_32c56b214fa0",
-        "news_6aa55d1bddf3"
       ],
       "status": "developing"
     },
@@ -494,32 +551,6 @@
         "news_d9bbbfd32f43",
         "news_9d97988a8b31",
         "news_f8e689022fb3"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_32967e3730b8",
-      "title": "热门中概股美股盘前普跌，名创优品跌超2%",
-      "firstSeenAt": "2026-08-03T15:23:32.854Z",
-      "lastSeenAt": "2026-08-05T06:41:05.050Z",
-      "primaryItemId": "news_8b0ae127cd97",
-      "evidenceItemIds": [
-        "news_8394862df655",
-        "news_b8561adf7643",
-        "news_8b0ae127cd97"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_74bcde0da36c",
-      "title": "美股大型科技股盘前涨跌不一，英伟达涨超1%",
-      "firstSeenAt": "2026-08-03T15:23:32.854Z",
-      "lastSeenAt": "2026-08-05T06:41:05.050Z",
-      "primaryItemId": "news_fe8ff89c67e3",
-      "evidenceItemIds": [
-        "news_df9f7f47921a",
-        "news_d8cf5ab3eb6b",
-        "news_fe8ff89c67e3"
       ],
       "status": "developing"
     },

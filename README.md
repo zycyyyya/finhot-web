@@ -14,7 +14,9 @@
 
 ## 它是什么
 
-finhot-web 是 [finhot](https://github.com/zycyyyya/finhot) 数据引擎的前端展示站点，面向保险运营、二级市场投教和私募销售运营三类从业者。每日自动更新精选资讯，按业务场景组织浏览。
+finhot-web 是集自动采集、AI 分析、数据质量控制与静态页面展示于一体的金融资讯站点，面向保险运营、二级市场投教和私募销售运营三类从业者。Node.js 采集引擎通过 GitHub Actions 每日更新数据，页面按业务场景组织浏览。
+
+本仓库与 [finhot](https://github.com/zycyyyya/finhot) 相互独立：finhot-web 负责自动更新的网页产品；finhot 是供 Agent 调用的金融保险资讯查询 Skill，并提供可选 Python 离线工具。
 
 ## 页面结构
 
@@ -60,7 +62,7 @@ finhot-web 是 [finhot](https://github.com/zycyyyya/finhot) 数据引擎的前�
 
 ## 合规声明
 
-本站仅提供公开信息聚合、分类、评分与 AI 辅助摘要，不构成任何投资建议、资产配置建议、保险产品推荐、收益预测或收益承诺。详见过关于页完整合规声明。
+本站仅提供公开信息聚合、分类、评分与 AI 辅助摘要，不构成任何投资建议、资产配置建议、保险产品推荐、收益预测或收益承诺。详见关于页完整合规声明。
 
 ## License
 

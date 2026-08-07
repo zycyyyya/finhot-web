@@ -18,6 +18,13 @@ assert.strictEqual(findMissingSchedule({
 assert.strictEqual(findMissingSchedule({
   '15 0 * * *': '2026-07-31T04:20:00Z',
 }, '2026-07-31T05:50:00Z', 90).schedule, '17 4 * * *');
+assert.strictEqual(findMissingSchedule({
+  '15 0 * * *': '2026-08-06T03:41:54Z',
+}, '2026-08-06T04:31:00Z', 240), null);
+assert.strictEqual(findMissingSchedule({
+  '17 4 * * *': '2026-08-06T06:43:36Z',
+}, '2026-08-06T08:31:00Z', 240), null);
+assert.strictEqual(findMissingSchedule({}, '2026-08-06T08:31:00Z', 240).schedule, '17 4 * * *');
 assert.ok(hoursOld('2026-07-30T00:00:00Z', '2026-07-31T02:00:00Z') > 24);
 const fallbackReport = buildFallbackReport('2026-07-31T05:00:00Z');
 assert.strictEqual(fallbackReport.reportStatus, 'missing');

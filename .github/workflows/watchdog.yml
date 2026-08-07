@@ -3,13 +3,13 @@ name: Monitor Scheduled Data Runs
 on:
   workflow_dispatch:
   schedule:
-    # Check independently from the data workflow. The 53rd minute avoids the
-    # busier top-of-hour window and evaluates the latest slot after 90 minutes.
-    - cron: "53 * * * *"
+    # GitHub-hosted schedules are best-effort and this repository commonly sees
+    # 2-3.5 hour delays. Check each data slot after a four-hour grace window.
+    - cron: "31 4,8,12,16 * * *"
 
 concurrency:
   group: finhot-schedule-watchdog
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   watchdog:
@@ -45,17 +45,45 @@ jobs:
             } catch (error) {
               core.warning(`Unable to read alert state: ${error.message}`);
             }
+            const graceMinutes = 240;
             const missing = findMissingSchedule(
               state.scheduleRuns || {},
               new Date().toISOString(),
-              90
+              graceMinutes
             );
+            const labelName = 'finhot-alert';
+            const missingTitle = '[finhot-alert] 严重：定时采集任务未按窗口启动';
+            const { data: openAlerts } = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              labels: labelName,
+              per_page: 100,
+            }).catch(error => {
+              if (error.status === 404) return { data: [] };
+              throw error;
+            });
+            const missingAlerts = openAlerts.filter(issue => issue.title === missingTitle);
             if (!missing) {
               core.info('The latest expected data schedule has a matching run.');
+              for (const issue of missingAlerts) {
+                await github.rest.issues.createComment({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: issue.number,
+                  body: '监控已确认最新计划窗口存在成功记录，自动关闭历史缺失告警。',
+                });
+                await github.rest.issues.update({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: issue.number,
+                  state: 'closed',
+                  state_reason: 'completed',
+                });
+              }
               return;
             }
 
-            const labelName = 'finhot-alert';
             try {
               await github.rest.issues.getLabel({
                 owner: context.repo.owner,
@@ -80,32 +108,33 @@ jobs:
               '',
               `- 应触发时间：${missing.expectedAt}`,
               `- 对应 cron：${missing.schedule}`,
-              '- 检查阈值：计划时间后 90 分钟',
+              `- 检查阈值：计划时间后 ${graceMinutes} 分钟`,
               `- Watchdog Run ID：${context.runId}`,
               '',
               '在阈值窗口内未查询到 `Validate and Update Data` 的 schedule 运行。',
               '请检查 GitHub Actions 调度状态；必要时手动触发主数据工作流。',
             ].join('\n');
 
-            const { data: issues } = await github.rest.issues.listForRepo({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              state: 'open',
-              labels: labelName,
-              per_page: 20,
-            });
-            const duplicate = issues.find(issue =>
-              (issue.body || '').includes(marker)
-            );
-            if (duplicate) {
-              core.info(`Missing schedule already reported in issue #${duplicate.number}.`);
+            const existing = missingAlerts[0];
+            if (existing) {
+              if ((existing.body || '').includes(marker)) {
+                core.info(`Missing schedule already reported in issue #${existing.number}.`);
+                return;
+              }
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: existing.number,
+                body: detail,
+              });
+              core.info(`Updated existing missing-schedule issue #${existing.number}.`);
               return;
             }
 
             await github.rest.issues.create({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              title: '[finhot-alert] 严重：定时采集任务未按窗口启动',
+              title: missingTitle,
               body: detail,
               labels: [labelName],
             });

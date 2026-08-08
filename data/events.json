@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-08-08T02:25:37.850Z",
+  "generatedAt": "2026-08-08T05:11:24.652Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -8,7 +8,7 @@
       "eventId": "event_d9bb7daf89a5",
       "title": "吴清主席出席人民币国债期货在港交所挂牌上市仪式并致辞",
       "firstSeenAt": "2026-08-03T11:50:30.990Z",
-      "lastSeenAt": "2026-08-08T02:25:37.850Z",
+      "lastSeenAt": "2026-08-08T05:11:24.652Z",
       "primaryItemId": "news_9ea70a4a7f51",
       "evidenceItemIds": [
         "news_9ea70a4a7f51",
@@ -20,7 +20,7 @@
       "eventId": "event_3266836e8022",
       "title": "美股三大指数创4月中旬以来最大单周涨幅、标普500指数再创收盘新高",
       "firstSeenAt": "2026-08-04T03:43:00.215Z",
-      "lastSeenAt": "2026-08-08T02:25:37.850Z",
+      "lastSeenAt": "2026-08-08T05:11:24.652Z",
       "primaryItemId": "news_9493f09d311a",
       "evidenceItemIds": [
         "news_61f3e082c55e",
@@ -50,6 +50,316 @@
       "status": "developing"
     },
     {
+      "eventId": "event_83105f4b0841",
+      "title": "中国7月贸易顺差超预期，出口强劲增长提振整体表现",
+      "firstSeenAt": "2026-08-07T03:19:58.662Z",
+      "lastSeenAt": "2026-08-08T05:11:24.652Z",
+      "primaryItemId": "news_217a2aabf4df",
+      "evidenceItemIds": [
+        "news_217a2aabf4df",
+        "news_596c163af30e"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_0737eac2cabb",
+      "title": "连板股追踪丨A股今日共75只个股涨停 这只PCB概念股4连板",
+      "firstSeenAt": "2026-07-31T02:43:30.494Z",
+      "lastSeenAt": "2026-08-08T05:11:24.652Z",
+      "primaryItemId": "news_83287e13cba2",
+      "evidenceItemIds": [
+        "news_cf2b97a75d61",
+        "news_6b2b1bbc6628",
+        "news_0b0558cddf77",
+        "news_2a647756104e",
+        "news_8818289af9a3",
+        "news_11eae49a5b16",
+        "news_9e9caeefd1f2",
+        "news_83287e13cba2"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_0eb4eb1188ff",
+      "title": "国家税务总局相关司局负责人：对境外保险收益征税并非新政策，市场无需过度解读",
+      "firstSeenAt": "2026-08-07T09:19:21.190Z",
+      "lastSeenAt": "2026-08-08T05:11:24.652Z",
+      "primaryItemId": "news_2c56efca74c1",
+      "evidenceItemIds": [
+        "news_869268ae7acc",
+        "news_2c56efca74c1"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_e625dfedd560",
+      "title": "现货黄金站上4300美元！7月以来黄金ETF吸金超百亿，黄金股弹性更高，赤峰黄金涨近60%",
+      "firstSeenAt": "2026-08-07T09:19:21.190Z",
+      "lastSeenAt": "2026-08-08T05:11:24.652Z",
+      "primaryItemId": "news_5dc47c417b81",
+      "evidenceItemIds": [
+        "news_e6f6d6434cc8",
+        "news_ddc3ba4de5a4",
+        "news_fd6ab8c6af33",
+        "news_0585c7c175da",
+        "news_5dc47c417b81"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_202dd878fa19",
+      "title": "晚间公告｜8月7日这些公告有看头",
+      "firstSeenAt": "2026-07-31T14:43:32.623Z",
+      "lastSeenAt": "2026-08-08T05:11:24.652Z",
+      "primaryItemId": "news_a328d8732020",
+      "evidenceItemIds": [
+        "news_eaf56a2f5345",
+        "news_8b256f193830",
+        "news_58fdd88ca5ff",
+        "news_4cac4c806a4b",
+        "news_f202b91c5619",
+        "news_c91687230a2c",
+        "news_958c3f39adb1",
+        "news_a328d8732020"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_32967e3730b8",
+      "title": "热门中概股美股盘前多数上涨，小鹏集团涨超2%",
+      "firstSeenAt": "2026-08-03T15:23:32.854Z",
+      "lastSeenAt": "2026-08-08T05:11:24.652Z",
+      "primaryItemId": "news_42ca90256576",
+      "evidenceItemIds": [
+        "news_8394862df655",
+        "news_b8561adf7643",
+        "news_8b0ae127cd97",
+        "news_69866ab410e2",
+        "news_df9f7f47921a",
+        "news_d3b1a6fd627e",
+        "news_42ca90256576"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_74bcde0da36c",
+      "title": "美股大型科技股盘前涨跌不一，英特尔涨超2%",
+      "firstSeenAt": "2026-08-03T15:23:32.854Z",
+      "lastSeenAt": "2026-08-08T05:11:24.652Z",
+      "primaryItemId": "news_92257b4a2373",
+      "evidenceItemIds": [
+        "news_df9f7f47921a",
+        "news_d8cf5ab3eb6b",
+        "news_fe8ff89c67e3",
+        "news_4f16ad09a924",
+        "news_76fd0b27de18",
+        "news_92257b4a2373"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_37605779c26f",
+      "title": "寒武纪：上半年净利润23.11亿元，同比增122.61%",
+      "firstSeenAt": "2026-08-06T03:43:23.319Z",
+      "lastSeenAt": "2026-08-08T05:11:24.652Z",
+      "primaryItemId": "news_98db92a681f9",
+      "evidenceItemIds": [
+        "news_a12982635a1e",
+        "news_0724b1177988",
+        "news_369aa9cdd761",
+        "news_98db92a681f9",
+        "news_b7c6d7f1191d",
+        "news_ed7bc1ee49bf",
+        "news_e920cb2f7649",
+        "news_aaf00be4a484"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_e30000f5742b",
+      "title": "突发！这家公司及实控人涉嫌信披违法违规被证监会立案|盘后公告集锦",
+      "firstSeenAt": "2026-08-04T14:44:57.856Z",
+      "lastSeenAt": "2026-08-08T05:11:24.652Z",
+      "primaryItemId": "news_7bf8735264c2",
+      "evidenceItemIds": [
+        "news_3ef2862d3dab",
+        "news_0184a469a572",
+        "news_7bf8735264c2",
+        "news_a955fc247559"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_39b5734bfd24",
+      "title": "中国稀土：2026年上半年净利润同比增长46.53%",
+      "firstSeenAt": "2026-07-31T02:43:30.494Z",
+      "lastSeenAt": "2026-08-08T05:11:24.652Z",
+      "primaryItemId": "news_ecd916578974",
+      "evidenceItemIds": [
+        "news_4b97eac4af23",
+        "news_7310dc7190ba",
+        "news_594ffc4d1b97",
+        "news_ecd916578974",
+        "news_a2c55a87c444"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_3ea490238747",
+      "title": "斥资75亿港元，国泰君安国际拟私有化退市",
+      "firstSeenAt": "2026-08-07T13:45:41.405Z",
+      "lastSeenAt": "2026-08-08T05:11:24.652Z",
+      "primaryItemId": "news_54ec9e48ee4b",
+      "evidenceItemIds": [
+        "news_54ec9e48ee4b",
+        "news_1e410a1e3608",
+        "news_094519d937a5",
+        "news_5b96e360a99d"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_24074c97af01",
+      "title": "创系列指数矩阵扩容！16家公募上报创业板算力、金融科技ETF",
+      "firstSeenAt": "2026-08-07T13:45:41.405Z",
+      "lastSeenAt": "2026-08-08T05:11:24.652Z",
+      "primaryItemId": "news_7c31ed46d535",
+      "evidenceItemIds": [
+        "news_7c31ed46d535",
+        "news_18b5b8a4f7e1",
+        "news_d851572b1d17"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_7594f708864a",
+      "title": "苹果上调多款设备以旧换新回收价，幅度最高近30%",
+      "firstSeenAt": "2026-08-07T13:45:41.405Z",
+      "lastSeenAt": "2026-08-08T05:11:24.652Z",
+      "primaryItemId": "news_6dc86c04296a",
+      "evidenceItemIds": [
+        "news_6dc86c04296a",
+        "news_219005af95bb"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_6c5f810a9a72",
+      "title": "美国7月非农就业意外减少2.3万人",
+      "firstSeenAt": "2026-08-07T13:45:41.405Z",
+      "lastSeenAt": "2026-08-08T05:11:24.652Z",
+      "primaryItemId": "news_9c81b8723cbc",
+      "evidenceItemIds": [
+        "news_ef1cdfce2ae4",
+        "news_ee1121618eac",
+        "news_9c81b8723cbc",
+        "news_828f8f801e29"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_a95bf52a37b5",
+      "title": "宇树科技IPO路演上，王兴兴回应“未来业绩如何支撑高估值”",
+      "firstSeenAt": "2026-08-07T13:45:41.405Z",
+      "lastSeenAt": "2026-08-08T05:11:24.652Z",
+      "primaryItemId": "news_68c24f44f040",
+      "evidenceItemIds": [
+        "news_6f8040e1b8a1",
+        "news_68c24f44f040"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_b022b8d3c898",
+      "title": "佰维存储：控股子公司拟增资扩股引入投资者",
+      "firstSeenAt": "2026-08-07T13:45:41.405Z",
+      "lastSeenAt": "2026-08-08T05:11:24.652Z",
+      "primaryItemId": "news_de8e1d22ceff",
+      "evidenceItemIds": [
+        "news_de8e1d22ceff",
+        "news_4de5bb821375"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_91fb625edcc6",
+      "title": "华尔街见闻早餐FM-Radio | 2026年8月8日",
+      "firstSeenAt": "2026-08-01T03:54:06.184Z",
+      "lastSeenAt": "2026-08-08T05:11:24.652Z",
+      "primaryItemId": "news_13a9ec382c84",
+      "evidenceItemIds": [
+        "news_17edaa318161",
+        "news_98deb5260008",
+        "news_d6ded5ce3d23",
+        "news_ce5450193ef2",
+        "news_c703d5c64965",
+        "news_f283b8db4f69",
+        "news_1192f017766c",
+        "news_13a9ec382c84"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_1f3c0988e4a2",
+      "title": "沪深交易所完善LOF退出机制：坚持投资者为本",
+      "firstSeenAt": "2026-08-08T02:25:37.850Z",
+      "lastSeenAt": "2026-08-08T05:11:24.652Z",
+      "primaryItemId": "news_0160bc0b436f",
+      "evidenceItemIds": [
+        "news_0160bc0b436f",
+        "news_d9318f45312b"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_cb21fb02bea1",
+      "title": "特朗普宣布：将向关键矿产和电池项目投资30亿美元",
+      "firstSeenAt": "2026-08-08T02:25:37.850Z",
+      "lastSeenAt": "2026-08-08T05:11:24.652Z",
+      "primaryItemId": "news_2234069cec5c",
+      "evidenceItemIds": [
+        "news_2234069cec5c",
+        "news_e88f9d4f213c"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_609e863d9b0b",
+      "title": "星环聚能完成新一轮8.8亿元融资",
+      "firstSeenAt": "2026-08-08T02:25:37.850Z",
+      "lastSeenAt": "2026-08-08T05:11:24.652Z",
+      "primaryItemId": "news_f1756306622f",
+      "evidenceItemIds": [
+        "news_f1756306622f",
+        "news_908849b94cc8"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_80b0033cf053",
+      "title": "Alphabet启动250亿美元债券发行，期限最长达40年",
+      "firstSeenAt": "2026-08-08T05:11:24.652Z",
+      "lastSeenAt": "2026-08-08T05:11:24.652Z",
+      "primaryItemId": "news_307644c55807",
+      "evidenceItemIds": [
+        "news_307644c55807",
+        "news_886319487826"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_542ce1a2c56c",
+      "title": "传数据中心运营商Switch秘密申请美股IPO 最早11月上市",
+      "firstSeenAt": "2026-08-08T05:11:24.652Z",
+      "lastSeenAt": "2026-08-08T05:11:24.652Z",
+      "primaryItemId": "news_9480f1afa596",
+      "evidenceItemIds": [
+        "news_9480f1afa596",
+        "news_8e07c868ac5e"
+      ],
+      "status": "developing"
+    },
+    {
       "eventId": "event_529af3584dc2",
       "title": "恒指收盘涨0.54%，恒生科技指数涨0.78%",
       "firstSeenAt": "2026-07-31T02:43:30.494Z",
@@ -70,36 +380,6 @@
       "status": "developing"
     },
     {
-      "eventId": "event_83105f4b0841",
-      "title": "中国7月贸易顺差超预期，出口强劲增长提振整体表现",
-      "firstSeenAt": "2026-08-07T03:19:58.662Z",
-      "lastSeenAt": "2026-08-08T02:25:37.850Z",
-      "primaryItemId": "news_217a2aabf4df",
-      "evidenceItemIds": [
-        "news_217a2aabf4df",
-        "news_596c163af30e"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_0737eac2cabb",
-      "title": "连板股追踪丨A股今日共75只个股涨停 这只PCB概念股4连板",
-      "firstSeenAt": "2026-07-31T02:43:30.494Z",
-      "lastSeenAt": "2026-08-08T02:25:37.850Z",
-      "primaryItemId": "news_83287e13cba2",
-      "evidenceItemIds": [
-        "news_cf2b97a75d61",
-        "news_6b2b1bbc6628",
-        "news_0b0558cddf77",
-        "news_2a647756104e",
-        "news_8818289af9a3",
-        "news_11eae49a5b16",
-        "news_9e9caeefd1f2",
-        "news_83287e13cba2"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_5dc537863f7a",
       "title": "据港交所文件显示，摩根大通在中际旭创H股的持股比例于08月04日从13.48%升至15.02%。",
       "firstSeenAt": "2026-08-07T09:19:21.190Z",
@@ -108,18 +388,6 @@
       "evidenceItemIds": [
         "news_0a4ab25cc026",
         "news_4774b7f4bc26"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_0eb4eb1188ff",
-      "title": "国家税务总局：对境外保险收益征税并非新政策 无需过度解读",
-      "firstSeenAt": "2026-08-07T09:19:21.190Z",
-      "lastSeenAt": "2026-08-08T02:25:37.850Z",
-      "primaryItemId": "news_869268ae7acc",
-      "evidenceItemIds": [
-        "news_869268ae7acc",
-        "news_2c56efca74c1"
       ],
       "status": "developing"
     },
@@ -172,72 +440,6 @@
       "status": "developing"
     },
     {
-      "eventId": "event_e625dfedd560",
-      "title": "现货黄金站上4300美元！7月以来黄金ETF吸金超百亿，黄金股弹性更高，赤峰黄金涨近60%",
-      "firstSeenAt": "2026-08-07T09:19:21.190Z",
-      "lastSeenAt": "2026-08-08T02:25:37.850Z",
-      "primaryItemId": "news_5dc47c417b81",
-      "evidenceItemIds": [
-        "news_e6f6d6434cc8",
-        "news_ddc3ba4de5a4",
-        "news_fd6ab8c6af33",
-        "news_0585c7c175da",
-        "news_5dc47c417b81"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_202dd878fa19",
-      "title": "晚间公告｜8月7日这些公告有看头",
-      "firstSeenAt": "2026-07-31T14:43:32.623Z",
-      "lastSeenAt": "2026-08-08T02:25:37.850Z",
-      "primaryItemId": "news_a328d8732020",
-      "evidenceItemIds": [
-        "news_eaf56a2f5345",
-        "news_8b256f193830",
-        "news_58fdd88ca5ff",
-        "news_4cac4c806a4b",
-        "news_f202b91c5619",
-        "news_c91687230a2c",
-        "news_958c3f39adb1",
-        "news_a328d8732020"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_32967e3730b8",
-      "title": "热门中概股美股盘前多数上涨，小鹏集团涨超2%",
-      "firstSeenAt": "2026-08-03T15:23:32.854Z",
-      "lastSeenAt": "2026-08-08T02:25:37.850Z",
-      "primaryItemId": "news_42ca90256576",
-      "evidenceItemIds": [
-        "news_8394862df655",
-        "news_b8561adf7643",
-        "news_8b0ae127cd97",
-        "news_69866ab410e2",
-        "news_df9f7f47921a",
-        "news_d3b1a6fd627e",
-        "news_42ca90256576"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_74bcde0da36c",
-      "title": "美股大型科技股盘前涨跌不一，英特尔涨超2%",
-      "firstSeenAt": "2026-08-03T15:23:32.854Z",
-      "lastSeenAt": "2026-08-08T02:25:37.850Z",
-      "primaryItemId": "news_92257b4a2373",
-      "evidenceItemIds": [
-        "news_df9f7f47921a",
-        "news_d8cf5ab3eb6b",
-        "news_fe8ff89c67e3",
-        "news_4f16ad09a924",
-        "news_76fd0b27de18",
-        "news_92257b4a2373"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_9a199fd8838e",
       "title": "南向资金追踪｜本周净买入近百亿港元 加仓多只AI概念股流出美团",
       "firstSeenAt": "2026-08-06T10:59:06.080Z",
@@ -251,116 +453,6 @@
       "status": "developing"
     },
     {
-      "eventId": "event_37605779c26f",
-      "title": "寒武纪：上半年净利润23.1亿元，同比增长122.61%",
-      "firstSeenAt": "2026-08-06T03:43:23.319Z",
-      "lastSeenAt": "2026-08-08T02:25:37.850Z",
-      "primaryItemId": "news_369aa9cdd761",
-      "evidenceItemIds": [
-        "news_a12982635a1e",
-        "news_0724b1177988",
-        "news_369aa9cdd761",
-        "news_98db92a681f9",
-        "news_b7c6d7f1191d",
-        "news_ed7bc1ee49bf"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_e30000f5742b",
-      "title": "突发！这家公司及实控人涉嫌信披违法违规被证监会立案|盘后公告集锦",
-      "firstSeenAt": "2026-08-04T14:44:57.856Z",
-      "lastSeenAt": "2026-08-08T02:25:37.850Z",
-      "primaryItemId": "news_7bf8735264c2",
-      "evidenceItemIds": [
-        "news_3ef2862d3dab",
-        "news_0184a469a572",
-        "news_7bf8735264c2",
-        "news_a955fc247559"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_39b5734bfd24",
-      "title": "中国稀土：2026年上半年净利润同比增长46.53%",
-      "firstSeenAt": "2026-07-31T02:43:30.494Z",
-      "lastSeenAt": "2026-08-08T02:25:37.850Z",
-      "primaryItemId": "news_ecd916578974",
-      "evidenceItemIds": [
-        "news_4b97eac4af23",
-        "news_7310dc7190ba",
-        "news_594ffc4d1b97",
-        "news_ecd916578974",
-        "news_a2c55a87c444"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_3ea490238747",
-      "title": "斥资75亿港元，国泰君安国际拟私有化退市",
-      "firstSeenAt": "2026-08-07T13:45:41.405Z",
-      "lastSeenAt": "2026-08-08T02:25:37.850Z",
-      "primaryItemId": "news_54ec9e48ee4b",
-      "evidenceItemIds": [
-        "news_54ec9e48ee4b",
-        "news_1e410a1e3608",
-        "news_094519d937a5",
-        "news_5b96e360a99d"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_24074c97af01",
-      "title": "创系列指数矩阵扩容！16家公募上报创业板算力、金融科技ETF",
-      "firstSeenAt": "2026-08-07T13:45:41.405Z",
-      "lastSeenAt": "2026-08-08T02:25:37.850Z",
-      "primaryItemId": "news_7c31ed46d535",
-      "evidenceItemIds": [
-        "news_7c31ed46d535",
-        "news_18b5b8a4f7e1",
-        "news_d851572b1d17"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_7594f708864a",
-      "title": "苹果上调多款设备以旧换新回收价，幅度最高近30%",
-      "firstSeenAt": "2026-08-07T13:45:41.405Z",
-      "lastSeenAt": "2026-08-08T02:25:37.850Z",
-      "primaryItemId": "news_6dc86c04296a",
-      "evidenceItemIds": [
-        "news_6dc86c04296a",
-        "news_219005af95bb"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_6c5f810a9a72",
-      "title": "美国7月非农就业意外减少2.3万人",
-      "firstSeenAt": "2026-08-07T13:45:41.405Z",
-      "lastSeenAt": "2026-08-08T02:25:37.850Z",
-      "primaryItemId": "news_9c81b8723cbc",
-      "evidenceItemIds": [
-        "news_ef1cdfce2ae4",
-        "news_ee1121618eac",
-        "news_9c81b8723cbc",
-        "news_828f8f801e29"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_a95bf52a37b5",
-      "title": "宇树科技IPO路演上，王兴兴回应“未来业绩如何支撑高估值”",
-      "firstSeenAt": "2026-08-07T13:45:41.405Z",
-      "lastSeenAt": "2026-08-08T02:25:37.850Z",
-      "primaryItemId": "news_68c24f44f040",
-      "evidenceItemIds": [
-        "news_6f8040e1b8a1",
-        "news_68c24f44f040"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_c368953ad7af",
       "title": "大中矿业：上半年净利润3.22亿元，同比下降20.59%",
       "firstSeenAt": "2026-08-07T13:45:41.405Z",
@@ -369,72 +461,6 @@
       "evidenceItemIds": [
         "news_8f612f94e074",
         "news_e4bc0ae8d706"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_b022b8d3c898",
-      "title": "佰维存储：控股子公司拟增资扩股引入投资者",
-      "firstSeenAt": "2026-08-07T13:45:41.405Z",
-      "lastSeenAt": "2026-08-08T02:25:37.850Z",
-      "primaryItemId": "news_de8e1d22ceff",
-      "evidenceItemIds": [
-        "news_de8e1d22ceff",
-        "news_4de5bb821375"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_91fb625edcc6",
-      "title": "华尔街见闻早餐FM-Radio | 2026年8月8日",
-      "firstSeenAt": "2026-08-01T03:54:06.184Z",
-      "lastSeenAt": "2026-08-08T02:25:37.850Z",
-      "primaryItemId": "news_13a9ec382c84",
-      "evidenceItemIds": [
-        "news_17edaa318161",
-        "news_98deb5260008",
-        "news_d6ded5ce3d23",
-        "news_ce5450193ef2",
-        "news_c703d5c64965",
-        "news_f283b8db4f69",
-        "news_1192f017766c",
-        "news_13a9ec382c84"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_1f3c0988e4a2",
-      "title": "沪深交易所完善LOF退出机制：坚持投资者为本",
-      "firstSeenAt": "2026-08-08T02:25:37.850Z",
-      "lastSeenAt": "2026-08-08T02:25:37.850Z",
-      "primaryItemId": "news_0160bc0b436f",
-      "evidenceItemIds": [
-        "news_0160bc0b436f",
-        "news_d9318f45312b"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_cb21fb02bea1",
-      "title": "特朗普宣布：将向关键矿产和电池项目投资30亿美元",
-      "firstSeenAt": "2026-08-08T02:25:37.850Z",
-      "lastSeenAt": "2026-08-08T02:25:37.850Z",
-      "primaryItemId": "news_2234069cec5c",
-      "evidenceItemIds": [
-        "news_2234069cec5c",
-        "news_e88f9d4f213c"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_609e863d9b0b",
-      "title": "星环聚能完成新一轮8.8亿元融资",
-      "firstSeenAt": "2026-08-08T02:25:37.850Z",
-      "lastSeenAt": "2026-08-08T02:25:37.850Z",
-      "primaryItemId": "news_f1756306622f",
-      "evidenceItemIds": [
-        "news_f1756306622f",
-        "news_908849b94cc8"
       ],
       "status": "developing"
     },

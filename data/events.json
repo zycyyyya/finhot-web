@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-08-09T02:35:25.547Z",
+  "generatedAt": "2026-08-09T05:19:46.941Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -8,7 +8,7 @@
       "eventId": "event_d9bb7daf89a5",
       "title": "吴清主席出席人民币国债期货在港交所挂牌上市仪式并致辞",
       "firstSeenAt": "2026-08-03T11:50:30.990Z",
-      "lastSeenAt": "2026-08-09T02:35:25.547Z",
+      "lastSeenAt": "2026-08-09T05:19:46.941Z",
       "primaryItemId": "news_9ea70a4a7f51",
       "evidenceItemIds": [
         "news_9ea70a4a7f51",
@@ -20,7 +20,7 @@
       "eventId": "event_3266836e8022",
       "title": "美股三大指数创4月中旬以来最大单周涨幅、标普500指数再创收盘新高",
       "firstSeenAt": "2026-08-04T03:43:00.215Z",
-      "lastSeenAt": "2026-08-09T02:35:25.547Z",
+      "lastSeenAt": "2026-08-09T05:19:46.941Z",
       "primaryItemId": "news_9493f09d311a",
       "evidenceItemIds": [
         "news_61f3e082c55e",
@@ -53,7 +53,7 @@
       "eventId": "event_83105f4b0841",
       "title": "中国7月贸易顺差超预期，出口强劲增长提振整体表现",
       "firstSeenAt": "2026-08-07T03:19:58.662Z",
-      "lastSeenAt": "2026-08-09T02:35:25.547Z",
+      "lastSeenAt": "2026-08-09T05:19:46.941Z",
       "primaryItemId": "news_217a2aabf4df",
       "evidenceItemIds": [
         "news_217a2aabf4df",
@@ -63,16 +63,17 @@
     },
     {
       "eventId": "event_e625dfedd560",
-      "title": "现货黄金站上4300美元！7月以来黄金ETF吸金超百亿，黄金股弹性更高，赤峰黄金涨近60%",
+      "title": "现货黄金周涨超7%站上4300美元，为何突然大涨？",
       "firstSeenAt": "2026-08-07T09:19:21.190Z",
-      "lastSeenAt": "2026-08-09T02:35:25.547Z",
-      "primaryItemId": "news_5dc47c417b81",
+      "lastSeenAt": "2026-08-09T05:19:46.941Z",
+      "primaryItemId": "news_21380a94b5b6",
       "evidenceItemIds": [
         "news_e6f6d6434cc8",
         "news_ddc3ba4de5a4",
         "news_fd6ab8c6af33",
         "news_0585c7c175da",
-        "news_5dc47c417b81"
+        "news_5dc47c417b81",
+        "news_21380a94b5b6"
       ],
       "status": "developing"
     },
@@ -80,7 +81,7 @@
       "eventId": "event_37605779c26f",
       "title": "寒武纪上半年净利润同比翻倍 营收增速逐季放缓",
       "firstSeenAt": "2026-08-06T03:43:23.319Z",
-      "lastSeenAt": "2026-08-09T02:35:25.547Z",
+      "lastSeenAt": "2026-08-09T05:19:46.941Z",
       "primaryItemId": "news_e920cb2f7649",
       "evidenceItemIds": [
         "news_a12982635a1e",
@@ -91,6 +92,262 @@
         "news_ed7bc1ee49bf",
         "news_e920cb2f7649",
         "news_aaf00be4a484"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_3ea490238747",
+      "title": "国泰君安国际拟私有化退市，国泰海通国际化战略步伐加快",
+      "firstSeenAt": "2026-08-07T13:45:41.405Z",
+      "lastSeenAt": "2026-08-09T05:19:46.941Z",
+      "primaryItemId": "news_094519d937a5",
+      "evidenceItemIds": [
+        "news_54ec9e48ee4b",
+        "news_1e410a1e3608",
+        "news_094519d937a5",
+        "news_5b96e360a99d",
+        "news_7e664f392c95"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_6c5f810a9a72",
+      "title": "美国7月非农就业意外减少2.3万人",
+      "firstSeenAt": "2026-08-07T13:45:41.405Z",
+      "lastSeenAt": "2026-08-09T05:19:46.941Z",
+      "primaryItemId": "news_9c81b8723cbc",
+      "evidenceItemIds": [
+        "news_ef1cdfce2ae4",
+        "news_ee1121618eac",
+        "news_9c81b8723cbc",
+        "news_828f8f801e29"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_91fb625edcc6",
+      "title": "华尔街见闻早餐FM-Radio | 2026年8月8日",
+      "firstSeenAt": "2026-08-01T03:54:06.184Z",
+      "lastSeenAt": "2026-08-09T05:19:46.941Z",
+      "primaryItemId": "news_13a9ec382c84",
+      "evidenceItemIds": [
+        "news_17edaa318161",
+        "news_98deb5260008",
+        "news_d6ded5ce3d23",
+        "news_ce5450193ef2",
+        "news_c703d5c64965",
+        "news_f283b8db4f69",
+        "news_1192f017766c",
+        "news_13a9ec382c84"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_1f3c0988e4a2",
+      "title": "沪深交易所完善LOF退出机制：坚持投资者为本",
+      "firstSeenAt": "2026-08-08T02:25:37.850Z",
+      "lastSeenAt": "2026-08-09T05:19:46.941Z",
+      "primaryItemId": "news_0160bc0b436f",
+      "evidenceItemIds": [
+        "news_0160bc0b436f",
+        "news_d9318f45312b"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_cb21fb02bea1",
+      "title": "特朗普召开矿业圆桌会 拟向关键矿产投资超20亿美元",
+      "firstSeenAt": "2026-08-08T02:25:37.850Z",
+      "lastSeenAt": "2026-08-09T05:19:46.941Z",
+      "primaryItemId": "news_3eb33f0fccf3",
+      "evidenceItemIds": [
+        "news_2234069cec5c",
+        "news_e88f9d4f213c",
+        "news_3eb33f0fccf3",
+        "news_b553741bafe3"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_80b0033cf053",
+      "title": "Alphabet启动250亿美元债券发行，期限最长达40年",
+      "firstSeenAt": "2026-08-08T05:11:24.652Z",
+      "lastSeenAt": "2026-08-09T05:19:46.941Z",
+      "primaryItemId": "news_307644c55807",
+      "evidenceItemIds": [
+        "news_307644c55807",
+        "news_886319487826"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_542ce1a2c56c",
+      "title": "传数据中心运营商Switch秘密申请美股IPO 最早11月上市",
+      "firstSeenAt": "2026-08-08T05:11:24.652Z",
+      "lastSeenAt": "2026-08-09T05:19:46.941Z",
+      "primaryItemId": "news_9480f1afa596",
+      "evidenceItemIds": [
+        "news_9480f1afa596",
+        "news_8e07c868ac5e"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_00d995ac5faf",
+      "title": "景林资产二季度大幅减持热门科技股",
+      "firstSeenAt": "2026-08-08T09:05:33.315Z",
+      "lastSeenAt": "2026-08-09T05:19:46.941Z",
+      "primaryItemId": "news_18b66eec6708",
+      "evidenceItemIds": [
+        "news_18b66eec6708",
+        "news_a4e291351571"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_fbbfe5b199ee",
+      "title": "一夜上涨30元，金饰克价重回1300元",
+      "firstSeenAt": "2026-08-08T09:05:33.315Z",
+      "lastSeenAt": "2026-08-09T05:19:46.941Z",
+      "primaryItemId": "news_6b8812b86a80",
+      "evidenceItemIds": [
+        "news_6b8812b86a80",
+        "news_71276dc15d61"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_1739eba0b3ea",
+      "title": "新股消息 | 勤浩医药二次递表港交所 前五月营收激增至5.6亿元 GH31授权吉利德获8000万美元首付款",
+      "firstSeenAt": "2026-08-08T13:17:52.679Z",
+      "lastSeenAt": "2026-08-09T05:19:46.941Z",
+      "primaryItemId": "news_bcd18a809009",
+      "evidenceItemIds": [
+        "news_bcd18a809009",
+        "news_9e1ec01b8317",
+        "news_0b88b0d9352b"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_721d78067035",
+      "title": "我国多家上市公司宣布收到美国关税退税",
+      "firstSeenAt": "2026-08-08T09:05:33.315Z",
+      "lastSeenAt": "2026-08-09T05:19:46.941Z",
+      "primaryItemId": "news_5c50243e3e8a",
+      "evidenceItemIds": [
+        "news_616e9a809996",
+        "news_8b392a525c2a",
+        "news_5c50243e3e8a",
+        "news_134eb0b86e5d"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_9da58497342d",
+      "title": "国家统计局：人工智能推动消费电子产品迭代升级，相关产品需求增加、价格上涨，平板电脑、计算机和移动电话机价格分别环比上涨1",
+      "firstSeenAt": "2026-08-09T02:35:25.547Z",
+      "lastSeenAt": "2026-08-09T05:19:46.941Z",
+      "primaryItemId": "news_dc55ccf92df6",
+      "evidenceItemIds": [
+        "news_dc55ccf92df6",
+        "news_d77c1d391474",
+        "news_ee8a0560bf9d",
+        "news_4892e96fc310",
+        "news_2c8f2b3ce3cd"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_378d7e411009",
+      "title": "伯克希尔哈撒韦：Q2净利润257亿美元",
+      "firstSeenAt": "2026-08-09T02:35:25.547Z",
+      "lastSeenAt": "2026-08-09T05:19:46.941Z",
+      "primaryItemId": "news_17ded21f9c66",
+      "evidenceItemIds": [
+        "news_17ded21f9c66",
+        "news_d6cdadb70dcd"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_c9b532896841",
+      "title": "东吴证券：7月美国非农意外转负 加息预期仍有显著降温空间",
+      "firstSeenAt": "2026-08-09T02:35:25.547Z",
+      "lastSeenAt": "2026-08-09T05:19:46.941Z",
+      "primaryItemId": "news_a11675ea8fe1",
+      "evidenceItemIds": [
+        "news_a11675ea8fe1",
+        "news_0e9c7d7e759e"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_202dd878fa19",
+      "title": "晚间公告｜8月7日这些公告有看头",
+      "firstSeenAt": "2026-07-31T14:43:32.623Z",
+      "lastSeenAt": "2026-08-09T05:19:46.941Z",
+      "primaryItemId": "news_a328d8732020",
+      "evidenceItemIds": [
+        "news_eaf56a2f5345",
+        "news_8b256f193830",
+        "news_58fdd88ca5ff",
+        "news_4cac4c806a4b",
+        "news_f202b91c5619",
+        "news_c91687230a2c",
+        "news_958c3f39adb1",
+        "news_a328d8732020"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_a95bf52a37b5",
+      "title": "宇树科技IPO路演上，王兴兴回应“未来业绩如何支撑高估值”",
+      "firstSeenAt": "2026-08-07T13:45:41.405Z",
+      "lastSeenAt": "2026-08-09T05:19:46.941Z",
+      "primaryItemId": "news_68c24f44f040",
+      "evidenceItemIds": [
+        "news_6f8040e1b8a1",
+        "news_68c24f44f040"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_a529caf83fd9",
+      "title": "下周外盘看点丨 美国7月CPI来袭，霍尔木兹海峡能否重启",
+      "firstSeenAt": "2026-08-03T11:50:30.990Z",
+      "lastSeenAt": "2026-08-09T05:19:46.941Z",
+      "primaryItemId": "news_351e59a933a5",
+      "evidenceItemIds": [
+        "news_50eb4b17c417",
+        "news_6f60a045633e",
+        "news_642bfbc257ca",
+        "news_d91c344d0e56",
+        "news_351e59a933a5"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_6bbfb6b02471",
+      "title": "科技周报|宇树IPO造就一批新贵，OpenAI撑起微软七成AI收入",
+      "firstSeenAt": "2026-08-09T05:19:46.941Z",
+      "lastSeenAt": "2026-08-09T05:19:46.941Z",
+      "primaryItemId": "news_44827aaed6fb",
+      "evidenceItemIds": [
+        "news_44827aaed6fb",
+        "news_f140f0bdf32d"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_18e272922d38",
+      "title": "北京：非京籍家庭购房社保个税缴纳年限下调为一年",
+      "firstSeenAt": "2026-08-09T05:19:46.941Z",
+      "lastSeenAt": "2026-08-09T05:19:46.941Z",
+      "primaryItemId": "news_dc3239c00dca",
+      "evidenceItemIds": [
+        "news_dc3239c00dca",
+        "news_868ac6cc302f"
       ],
       "status": "developing"
     },
@@ -109,21 +366,6 @@
       "status": "developing"
     },
     {
-      "eventId": "event_3ea490238747",
-      "title": "斥资75亿港元，国泰君安国际拟私有化退市",
-      "firstSeenAt": "2026-08-07T13:45:41.405Z",
-      "lastSeenAt": "2026-08-09T02:35:25.547Z",
-      "primaryItemId": "news_54ec9e48ee4b",
-      "evidenceItemIds": [
-        "news_54ec9e48ee4b",
-        "news_1e410a1e3608",
-        "news_094519d937a5",
-        "news_5b96e360a99d",
-        "news_7e664f392c95"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_24074c97af01",
       "title": "创系列指数矩阵扩容！16家公募上报创业板算力、金融科技ETF",
       "firstSeenAt": "2026-08-07T13:45:41.405Z",
@@ -133,152 +375,6 @@
         "news_7c31ed46d535",
         "news_18b5b8a4f7e1",
         "news_d851572b1d17"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_6c5f810a9a72",
-      "title": "美国7月非农就业意外减少2.3万人",
-      "firstSeenAt": "2026-08-07T13:45:41.405Z",
-      "lastSeenAt": "2026-08-09T02:35:25.547Z",
-      "primaryItemId": "news_9c81b8723cbc",
-      "evidenceItemIds": [
-        "news_ef1cdfce2ae4",
-        "news_ee1121618eac",
-        "news_9c81b8723cbc",
-        "news_828f8f801e29"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_91fb625edcc6",
-      "title": "华尔街见闻早餐FM-Radio | 2026年8月8日",
-      "firstSeenAt": "2026-08-01T03:54:06.184Z",
-      "lastSeenAt": "2026-08-09T02:35:25.547Z",
-      "primaryItemId": "news_13a9ec382c84",
-      "evidenceItemIds": [
-        "news_17edaa318161",
-        "news_98deb5260008",
-        "news_d6ded5ce3d23",
-        "news_ce5450193ef2",
-        "news_c703d5c64965",
-        "news_f283b8db4f69",
-        "news_1192f017766c",
-        "news_13a9ec382c84"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_1f3c0988e4a2",
-      "title": "沪深交易所完善LOF退出机制：坚持投资者为本",
-      "firstSeenAt": "2026-08-08T02:25:37.850Z",
-      "lastSeenAt": "2026-08-09T02:35:25.547Z",
-      "primaryItemId": "news_0160bc0b436f",
-      "evidenceItemIds": [
-        "news_0160bc0b436f",
-        "news_d9318f45312b"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_cb21fb02bea1",
-      "title": "特朗普召开矿业圆桌会 拟向关键矿产投资超20亿美元",
-      "firstSeenAt": "2026-08-08T02:25:37.850Z",
-      "lastSeenAt": "2026-08-09T02:35:25.547Z",
-      "primaryItemId": "news_3eb33f0fccf3",
-      "evidenceItemIds": [
-        "news_2234069cec5c",
-        "news_e88f9d4f213c",
-        "news_3eb33f0fccf3",
-        "news_b553741bafe3"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_80b0033cf053",
-      "title": "Alphabet启动250亿美元债券发行，期限最长达40年",
-      "firstSeenAt": "2026-08-08T05:11:24.652Z",
-      "lastSeenAt": "2026-08-09T02:35:25.547Z",
-      "primaryItemId": "news_307644c55807",
-      "evidenceItemIds": [
-        "news_307644c55807",
-        "news_886319487826"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_542ce1a2c56c",
-      "title": "传数据中心运营商Switch秘密申请美股IPO 最早11月上市",
-      "firstSeenAt": "2026-08-08T05:11:24.652Z",
-      "lastSeenAt": "2026-08-09T02:35:25.547Z",
-      "primaryItemId": "news_9480f1afa596",
-      "evidenceItemIds": [
-        "news_9480f1afa596",
-        "news_8e07c868ac5e"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_00d995ac5faf",
-      "title": "景林资产二季度大幅减持热门科技股",
-      "firstSeenAt": "2026-08-08T09:05:33.315Z",
-      "lastSeenAt": "2026-08-09T02:35:25.547Z",
-      "primaryItemId": "news_18b66eec6708",
-      "evidenceItemIds": [
-        "news_18b66eec6708",
-        "news_a4e291351571"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_fbbfe5b199ee",
-      "title": "一夜上涨30元，金饰克价重回1300元",
-      "firstSeenAt": "2026-08-08T09:05:33.315Z",
-      "lastSeenAt": "2026-08-09T02:35:25.547Z",
-      "primaryItemId": "news_6b8812b86a80",
-      "evidenceItemIds": [
-        "news_6b8812b86a80",
-        "news_71276dc15d61"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_1739eba0b3ea",
-      "title": "新股消息 | 勤浩医药二次递表港交所 前五月营收激增至5.6亿元 GH31授权吉利德获8000万美元首付款",
-      "firstSeenAt": "2026-08-08T13:17:52.679Z",
-      "lastSeenAt": "2026-08-09T02:35:25.547Z",
-      "primaryItemId": "news_bcd18a809009",
-      "evidenceItemIds": [
-        "news_bcd18a809009",
-        "news_9e1ec01b8317",
-        "news_0b88b0d9352b"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_721d78067035",
-      "title": "我国多家上市公司宣布收到美国关税退税",
-      "firstSeenAt": "2026-08-08T09:05:33.315Z",
-      "lastSeenAt": "2026-08-09T02:35:25.547Z",
-      "primaryItemId": "news_5c50243e3e8a",
-      "evidenceItemIds": [
-        "news_616e9a809996",
-        "news_8b392a525c2a",
-        "news_5c50243e3e8a",
-        "news_134eb0b86e5d"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_9da58497342d",
-      "title": "国家统计局：人工智能推动消费电子产品迭代升级，相关产品需求增加、价格上涨，平板电脑、计算机和移动电话机价格分别环比上涨1",
-      "firstSeenAt": "2026-08-09T02:35:25.547Z",
-      "lastSeenAt": "2026-08-09T02:35:25.547Z",
-      "primaryItemId": "news_dc55ccf92df6",
-      "evidenceItemIds": [
-        "news_dc55ccf92df6",
-        "news_d77c1d391474",
-        "news_ee8a0560bf9d"
       ],
       "status": "developing"
     },
@@ -296,30 +392,6 @@
       "status": "developing"
     },
     {
-      "eventId": "event_378d7e411009",
-      "title": "伯克希尔哈撒韦：Q2净利润257亿美元",
-      "firstSeenAt": "2026-08-09T02:35:25.547Z",
-      "lastSeenAt": "2026-08-09T02:35:25.547Z",
-      "primaryItemId": "news_17ded21f9c66",
-      "evidenceItemIds": [
-        "news_17ded21f9c66",
-        "news_d6cdadb70dcd"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_c9b532896841",
-      "title": "东吴证券：7月美国非农意外转负 加息预期仍有显著降温空间",
-      "firstSeenAt": "2026-08-09T02:35:25.547Z",
-      "lastSeenAt": "2026-08-09T02:35:25.547Z",
-      "primaryItemId": "news_a11675ea8fe1",
-      "evidenceItemIds": [
-        "news_a11675ea8fe1",
-        "news_0e9c7d7e759e"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_0eb4eb1188ff",
       "title": "国家税务总局相关司局负责人：对境外保险收益征税并非新政策，市场无需过度解读",
       "firstSeenAt": "2026-08-07T09:19:21.190Z",
@@ -328,24 +400,6 @@
       "evidenceItemIds": [
         "news_869268ae7acc",
         "news_2c56efca74c1"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_202dd878fa19",
-      "title": "晚间公告｜8月7日这些公告有看头",
-      "firstSeenAt": "2026-07-31T14:43:32.623Z",
-      "lastSeenAt": "2026-08-08T13:17:52.679Z",
-      "primaryItemId": "news_a328d8732020",
-      "evidenceItemIds": [
-        "news_eaf56a2f5345",
-        "news_8b256f193830",
-        "news_58fdd88ca5ff",
-        "news_4cac4c806a4b",
-        "news_f202b91c5619",
-        "news_c91687230a2c",
-        "news_958c3f39adb1",
-        "news_a328d8732020"
       ],
       "status": "developing"
     },
@@ -391,18 +445,6 @@
       "evidenceItemIds": [
         "news_6dc86c04296a",
         "news_219005af95bb"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_a95bf52a37b5",
-      "title": "宇树科技IPO路演上，王兴兴回应“未来业绩如何支撑高估值”",
-      "firstSeenAt": "2026-08-07T13:45:41.405Z",
-      "lastSeenAt": "2026-08-08T13:17:52.679Z",
-      "primaryItemId": "news_68c24f44f040",
-      "evidenceItemIds": [
-        "news_6f8040e1b8a1",
-        "news_68c24f44f040"
       ],
       "status": "developing"
     },
@@ -955,20 +997,6 @@
         "news_4cc3e3bd1fc7",
         "news_092d579c1c5c",
         "news_cc1b1a6b2e01"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_a529caf83fd9",
-      "title": "霍尔木兹海峡终极大结局？",
-      "firstSeenAt": "2026-08-03T11:50:30.990Z",
-      "lastSeenAt": "2026-08-06T10:59:06.080Z",
-      "primaryItemId": "news_642bfbc257ca",
-      "evidenceItemIds": [
-        "news_50eb4b17c417",
-        "news_6f60a045633e",
-        "news_642bfbc257ca",
-        "news_d91c344d0e56"
       ],
       "status": "developing"
     },

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-08-10T05:44:40.094Z",
+  "generatedAt": "2026-08-10T09:54:06.980Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -8,7 +8,7 @@
       "eventId": "event_83105f4b0841",
       "title": "中国7月贸易顺差超预期，出口强劲增长提振整体表现",
       "firstSeenAt": "2026-08-07T03:19:58.662Z",
-      "lastSeenAt": "2026-08-10T05:44:40.094Z",
+      "lastSeenAt": "2026-08-10T09:54:06.980Z",
       "primaryItemId": "news_217a2aabf4df",
       "evidenceItemIds": [
         "news_217a2aabf4df",
@@ -18,10 +18,10 @@
     },
     {
       "eventId": "event_37605779c26f",
-      "title": "拓维信息(002261.SZ)发布半年度业绩，归母净利润6922万元，同比下降12.16%",
+      "title": "药石科技：上半年净利润同比增长37.17%，拟10派1元",
       "firstSeenAt": "2026-08-06T03:43:23.319Z",
-      "lastSeenAt": "2026-08-10T05:44:40.094Z",
-      "primaryItemId": "news_4f43447d8d36",
+      "lastSeenAt": "2026-08-10T09:54:06.980Z",
+      "primaryItemId": "news_fe17a22dfb43",
       "evidenceItemIds": [
         "news_a12982635a1e",
         "news_0724b1177988",
@@ -35,7 +35,8 @@
         "news_110eeadbabe6",
         "news_dd74910db663",
         "news_4f43447d8d36",
-        "news_ed872b8ea5e1"
+        "news_ed872b8ea5e1",
+        "news_fe17a22dfb43"
       ],
       "status": "developing"
     },
@@ -43,7 +44,7 @@
       "eventId": "event_6c5f810a9a72",
       "title": "美国7月非农就业意外减少2.3万人",
       "firstSeenAt": "2026-08-07T13:45:41.405Z",
-      "lastSeenAt": "2026-08-10T05:44:40.094Z",
+      "lastSeenAt": "2026-08-10T09:54:06.980Z",
       "primaryItemId": "news_9c81b8723cbc",
       "evidenceItemIds": [
         "news_ef1cdfce2ae4",
@@ -57,7 +58,7 @@
       "eventId": "event_9da58497342d",
       "title": "7月CPI、PPI同比涨幅均放缓，下阶段走势如何",
       "firstSeenAt": "2026-08-09T02:35:25.547Z",
-      "lastSeenAt": "2026-08-10T05:44:40.094Z",
+      "lastSeenAt": "2026-08-10T09:54:06.980Z",
       "primaryItemId": "news_992a44ab9d77",
       "evidenceItemIds": [
         "news_dc55ccf92df6",
@@ -73,7 +74,7 @@
       "eventId": "event_6bbfb6b02471",
       "title": "科技周报|宇树IPO造就一批新贵，OpenAI撑起微软七成AI收入",
       "firstSeenAt": "2026-08-09T05:19:46.941Z",
-      "lastSeenAt": "2026-08-10T05:44:40.094Z",
+      "lastSeenAt": "2026-08-10T09:54:06.980Z",
       "primaryItemId": "news_44827aaed6fb",
       "evidenceItemIds": [
         "news_44827aaed6fb",
@@ -82,22 +83,10 @@
       "status": "developing"
     },
     {
-      "eventId": "event_98f3ff0716a5",
-      "title": "摩尔线程：筹划发行H股股票并在香港联合交易所有限公司主板上市。",
-      "firstSeenAt": "2026-08-09T09:08:15.509Z",
-      "lastSeenAt": "2026-08-10T05:44:40.094Z",
-      "primaryItemId": "news_8f0ac55b8424",
-      "evidenceItemIds": [
-        "news_8f0ac55b8424",
-        "news_2cf03e17b55d"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_63b389ba1b86",
       "title": "宇树科技明日申购，中一签能赚多少？",
       "firstSeenAt": "2026-08-09T09:08:15.509Z",
-      "lastSeenAt": "2026-08-10T05:44:40.094Z",
+      "lastSeenAt": "2026-08-10T09:54:06.980Z",
       "primaryItemId": "news_c28ea9af75f0",
       "evidenceItemIds": [
         "news_c28ea9af75f0",
@@ -108,23 +97,10 @@
       "status": "developing"
     },
     {
-      "eventId": "event_04d3cf6701f0",
-      "title": "周末要闻汇总：北京购房政策调整，宇树科技10日开启IPO申购",
-      "firstSeenAt": "2026-08-09T09:08:15.509Z",
-      "lastSeenAt": "2026-08-10T05:44:40.094Z",
-      "primaryItemId": "news_310b54574db8",
-      "evidenceItemIds": [
-        "news_310b54574db8",
-        "news_881a81c9102e",
-        "news_0a221cd67019"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_202dd878fa19",
       "title": "晚间公告｜8月9日这些公告有看头",
       "firstSeenAt": "2026-07-31T14:43:32.623Z",
-      "lastSeenAt": "2026-08-10T05:44:40.094Z",
+      "lastSeenAt": "2026-08-10T09:54:06.980Z",
       "primaryItemId": "news_042b264c9695",
       "evidenceItemIds": [
         "news_eaf56a2f5345",
@@ -143,7 +119,7 @@
       "eventId": "event_204eba9e8fac",
       "title": "央行连续21个月增持黄金，多重利好助推金价强势反弹",
       "firstSeenAt": "2026-08-07T09:19:21.190Z",
-      "lastSeenAt": "2026-08-10T05:44:40.094Z",
+      "lastSeenAt": "2026-08-10T09:54:06.980Z",
       "primaryItemId": "news_55512bc39f7d",
       "evidenceItemIds": [
         "news_b7d1a85f5343",
@@ -156,7 +132,7 @@
       "eventId": "event_3266836e8022",
       "title": "A股三大指数午间休盘涨跌不一，医药股走强",
       "firstSeenAt": "2026-08-04T03:43:00.215Z",
-      "lastSeenAt": "2026-08-10T05:44:40.094Z",
+      "lastSeenAt": "2026-08-10T09:54:06.980Z",
       "primaryItemId": "news_6c71fcd90d58",
       "evidenceItemIds": [
         "news_61f3e082c55e",
@@ -191,7 +167,7 @@
       "eventId": "event_91fb625edcc6",
       "title": "华尔街见闻早餐FM-Radio | 2026年8月10日",
       "firstSeenAt": "2026-08-01T03:54:06.184Z",
-      "lastSeenAt": "2026-08-10T05:44:40.094Z",
+      "lastSeenAt": "2026-08-10T09:54:06.980Z",
       "primaryItemId": "news_56f2fe7df40c",
       "evidenceItemIds": [
         "news_17edaa318161",
@@ -208,10 +184,10 @@
     },
     {
       "eventId": "event_529af3584dc2",
-      "title": "恒指午间休盘涨0.72%，恒生科技指数涨0.37%",
+      "title": "恒指收涨1.05%，恒生科技指数涨1.26%",
       "firstSeenAt": "2026-07-31T02:43:30.494Z",
-      "lastSeenAt": "2026-08-10T05:44:40.094Z",
-      "primaryItemId": "news_163f09356678",
+      "lastSeenAt": "2026-08-10T09:54:06.980Z",
+      "primaryItemId": "news_90df26a11225",
       "evidenceItemIds": [
         "news_1dd2743eb007",
         "news_af1364619b24",
@@ -224,7 +200,8 @@
         "news_fd236545ab8d",
         "news_da90b8ba791c",
         "news_663b8633b560",
-        "news_163f09356678"
+        "news_163f09356678",
+        "news_90df26a11225"
       ],
       "status": "developing"
     },
@@ -232,7 +209,7 @@
       "eventId": "event_5e8e3a94b56e",
       "title": "央行今日开展180亿元人民币7天期逆回购操作",
       "firstSeenAt": "2026-08-04T09:56:27.957Z",
-      "lastSeenAt": "2026-08-10T05:44:40.094Z",
+      "lastSeenAt": "2026-08-10T09:54:06.980Z",
       "primaryItemId": "news_20a1d426916a",
       "evidenceItemIds": [
         "news_373d8891ffde",
@@ -249,7 +226,7 @@
       "eventId": "event_4db060886007",
       "title": "人民币对美元中间价调升20个基点",
       "firstSeenAt": "2026-08-05T03:38:04.635Z",
-      "lastSeenAt": "2026-08-10T05:44:40.094Z",
+      "lastSeenAt": "2026-08-10T09:54:06.980Z",
       "primaryItemId": "news_edb82f020535",
       "evidenceItemIds": [
         "news_f565436ba123",
@@ -263,7 +240,7 @@
       "eventId": "event_58d82c7aee5e",
       "title": "今日开盘：沪指报3943.82点 涨幅0.10%",
       "firstSeenAt": "2026-08-10T02:38:46.687Z",
-      "lastSeenAt": "2026-08-10T05:44:40.094Z",
+      "lastSeenAt": "2026-08-10T09:54:06.980Z",
       "primaryItemId": "news_451477c0bda9",
       "evidenceItemIds": [
         "news_451477c0bda9",
@@ -275,7 +252,7 @@
       "eventId": "event_99465ac2f735",
       "title": "T早报｜宇树科技今日开启申购；OpenAI暂停新模型Astra部分研发工作；摩尔线程拟赴港上市",
       "firstSeenAt": "2026-08-10T02:38:46.687Z",
-      "lastSeenAt": "2026-08-10T05:44:40.094Z",
+      "lastSeenAt": "2026-08-10T09:54:06.980Z",
       "primaryItemId": "news_abf3916619b3",
       "evidenceItemIds": [
         "news_abf3916619b3",
@@ -287,7 +264,7 @@
       "eventId": "event_919ee3470108",
       "title": "财经早知道｜公积金最高可贷340万元，北京楼市新政超预期",
       "firstSeenAt": "2026-08-10T02:38:46.687Z",
-      "lastSeenAt": "2026-08-10T05:44:40.094Z",
+      "lastSeenAt": "2026-08-10T09:54:06.980Z",
       "primaryItemId": "news_782c73c742b5",
       "evidenceItemIds": [
         "news_782c73c742b5",
@@ -299,7 +276,7 @@
       "eventId": "event_38204204f094",
       "title": "特朗普称正在“低调处理”伊朗问题",
       "firstSeenAt": "2026-08-10T02:38:46.687Z",
-      "lastSeenAt": "2026-08-10T05:44:40.094Z",
+      "lastSeenAt": "2026-08-10T09:54:06.980Z",
       "primaryItemId": "news_b762944239d8",
       "evidenceItemIds": [
         "news_b762944239d8",
@@ -311,7 +288,7 @@
       "eventId": "event_ed5551d1ca77",
       "title": "A股四大股指开盘涨跌不一，影视、医药板块涨幅居前",
       "firstSeenAt": "2026-08-10T02:38:46.687Z",
-      "lastSeenAt": "2026-08-10T05:44:40.094Z",
+      "lastSeenAt": "2026-08-10T09:54:06.980Z",
       "primaryItemId": "news_6f339423f30a",
       "evidenceItemIds": [
         "news_6f339423f30a",
@@ -323,7 +300,7 @@
       "eventId": "event_c1ebdae1a0bc",
       "title": "8月10日投资避雷针：8天翻倍人气股提示风险 如股价继续大幅波动将停牌核查",
       "firstSeenAt": "2026-08-10T02:38:46.687Z",
-      "lastSeenAt": "2026-08-10T05:44:40.094Z",
+      "lastSeenAt": "2026-08-10T09:54:06.980Z",
       "primaryItemId": "news_8497de750e55",
       "evidenceItemIds": [
         "news_8497de750e55",
@@ -335,7 +312,7 @@
       "eventId": "event_fb91731ef29d",
       "title": "券商晨会精华：AI制药大有可为，产业链有望持续受益",
       "firstSeenAt": "2026-08-10T02:38:46.687Z",
-      "lastSeenAt": "2026-08-10T05:44:40.094Z",
+      "lastSeenAt": "2026-08-10T09:54:06.980Z",
       "primaryItemId": "news_b4126997c6c9",
       "evidenceItemIds": [
         "news_b4126997c6c9",
@@ -347,7 +324,7 @@
       "eventId": "event_4ee840d4a355",
       "title": "苹果官网已删除Apple智能接入阿里千问页面",
       "firstSeenAt": "2026-08-10T02:38:46.687Z",
-      "lastSeenAt": "2026-08-10T05:44:40.094Z",
+      "lastSeenAt": "2026-08-10T09:54:06.980Z",
       "primaryItemId": "news_9c8ae424a4ab",
       "evidenceItemIds": [
         "news_9c8ae424a4ab",
@@ -359,7 +336,7 @@
       "eventId": "event_bd83b7a1c834",
       "title": "港股公告掘金 | 国泰君安国际获国泰海通溢价约44.2%提私有化",
       "firstSeenAt": "2026-08-10T02:38:46.687Z",
-      "lastSeenAt": "2026-08-10T05:44:40.094Z",
+      "lastSeenAt": "2026-08-10T09:54:06.980Z",
       "primaryItemId": "news_15ba9b90d6d5",
       "evidenceItemIds": [
         "news_15ba9b90d6d5",
@@ -369,14 +346,15 @@
     },
     {
       "eventId": "event_25a01be8f771",
-      "title": "五粮液集团等成立新材料科技公司，注册资本1.5亿",
+      "title": "东鹏饮料在郑州成立新公司，注册资本1亿",
       "firstSeenAt": "2026-08-07T09:19:21.190Z",
-      "lastSeenAt": "2026-08-10T05:44:40.094Z",
-      "primaryItemId": "news_76556d64b846",
+      "lastSeenAt": "2026-08-10T09:54:06.980Z",
+      "primaryItemId": "news_b871e430af91",
       "evidenceItemIds": [
         "news_0a89162cc328",
         "news_1d889a3e90ea",
-        "news_76556d64b846"
+        "news_76556d64b846",
+        "news_b871e430af91"
       ],
       "status": "developing"
     },
@@ -384,7 +362,7 @@
       "eventId": "event_5c35efdb8068",
       "title": "监管重申禁止理财子公司通过合作机构不当估值",
       "firstSeenAt": "2026-08-07T03:00:16.613Z",
-      "lastSeenAt": "2026-08-10T05:44:40.094Z",
+      "lastSeenAt": "2026-08-10T09:54:06.980Z",
       "primaryItemId": "news_3d6efa67d84d",
       "evidenceItemIds": [
         "news_3d6efa67d84d",
@@ -398,7 +376,7 @@
       "eventId": "event_3cd8e66b2808",
       "title": "刚果（金）再禁铜钴精矿出口，实际影响有多大",
       "firstSeenAt": "2026-08-10T05:44:40.094Z",
-      "lastSeenAt": "2026-08-10T05:44:40.094Z",
+      "lastSeenAt": "2026-08-10T09:54:06.980Z",
       "primaryItemId": "news_42f81c64a56f",
       "evidenceItemIds": [
         "news_42f81c64a56f",
@@ -410,7 +388,7 @@
       "eventId": "event_1e661fa5340a",
       "title": "14岁的“AI股神”",
       "firstSeenAt": "2026-08-10T05:44:40.094Z",
-      "lastSeenAt": "2026-08-10T05:44:40.094Z",
+      "lastSeenAt": "2026-08-10T09:54:06.980Z",
       "primaryItemId": "news_14858f89b401",
       "evidenceItemIds": [
         "news_14858f89b401",
@@ -423,7 +401,7 @@
       "eventId": "event_bb9a4a29d88b",
       "title": "陶冬：不要误读SpaceX",
       "firstSeenAt": "2026-08-10T05:44:40.094Z",
-      "lastSeenAt": "2026-08-10T05:44:40.094Z",
+      "lastSeenAt": "2026-08-10T09:54:06.980Z",
       "primaryItemId": "news_b6316bc413ae",
       "evidenceItemIds": [
         "news_b6316bc413ae",
@@ -433,13 +411,14 @@
     },
     {
       "eventId": "event_a78be4d2214a",
-      "title": "千问开放平台上线",
+      "title": "阿里千问开放平台上线 支持第三方智能体接入",
       "firstSeenAt": "2026-08-10T05:44:40.094Z",
-      "lastSeenAt": "2026-08-10T05:44:40.094Z",
-      "primaryItemId": "news_652854a37336",
+      "lastSeenAt": "2026-08-10T09:54:06.980Z",
+      "primaryItemId": "news_c50a092de69b",
       "evidenceItemIds": [
         "news_652854a37336",
-        "news_e6de2d1935c1"
+        "news_e6de2d1935c1",
+        "news_c50a092de69b"
       ],
       "status": "developing"
     },
@@ -447,11 +426,103 @@
       "eventId": "event_538a7904636d",
       "title": "半日主力资金加仓医药生物板块，抛售电子板块",
       "firstSeenAt": "2026-08-10T05:44:40.094Z",
-      "lastSeenAt": "2026-08-10T05:44:40.094Z",
+      "lastSeenAt": "2026-08-10T09:54:06.980Z",
       "primaryItemId": "news_362d47e51e31",
       "evidenceItemIds": [
         "news_362d47e51e31",
         "news_b45ce18ba023"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_0737eac2cabb",
+      "title": "连板股追踪丨A股今日共103只个股涨停 这只铜箔概念股5连板",
+      "firstSeenAt": "2026-07-31T02:43:30.494Z",
+      "lastSeenAt": "2026-08-10T09:54:06.980Z",
+      "primaryItemId": "news_8b8e574d724a",
+      "evidenceItemIds": [
+        "news_cf2b97a75d61",
+        "news_6b2b1bbc6628",
+        "news_0b0558cddf77",
+        "news_2a647756104e",
+        "news_8818289af9a3",
+        "news_11eae49a5b16",
+        "news_9e9caeefd1f2",
+        "news_83287e13cba2",
+        "news_8b8e574d724a"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_7cab017a89a0",
+      "title": "拐点已至！高盛：AI开始改写SaaS业绩，赢家与输家名单浮现",
+      "firstSeenAt": "2026-08-10T09:54:06.980Z",
+      "lastSeenAt": "2026-08-10T09:54:06.980Z",
+      "primaryItemId": "news_fd8dc68ad16d",
+      "evidenceItemIds": [
+        "news_fd8dc68ad16d",
+        "news_46bf8f11d238"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_d169512dfb35",
+      "title": "中信建投解读LOF退市新规征求意见稿：约250余亿元LOF或终止上市",
+      "firstSeenAt": "2026-08-10T09:54:06.980Z",
+      "lastSeenAt": "2026-08-10T09:54:06.980Z",
+      "primaryItemId": "news_c3c32b9d79c2",
+      "evidenceItemIds": [
+        "news_c3c32b9d79c2",
+        "news_237a755b05b0"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_ce5e0cbed733",
+      "title": "港股评级汇总：中信建投维持百融云买入评级",
+      "firstSeenAt": "2026-08-10T09:54:06.980Z",
+      "lastSeenAt": "2026-08-10T09:54:06.980Z",
+      "primaryItemId": "news_ff8ada5d229d",
+      "evidenceItemIds": [
+        "news_ff8ada5d229d",
+        "news_038fffd08eb2"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_b116919c780f",
+      "title": "台华新材：拟4000万元—8000万元回购股份",
+      "firstSeenAt": "2026-08-10T09:54:06.980Z",
+      "lastSeenAt": "2026-08-10T09:54:06.980Z",
+      "primaryItemId": "news_0da36dcadaf8",
+      "evidenceItemIds": [
+        "news_0da36dcadaf8",
+        "news_edea91322296"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_98f3ff0716a5",
+      "title": "摩尔线程：筹划发行H股股票并在香港联合交易所有限公司主板上市。",
+      "firstSeenAt": "2026-08-09T09:08:15.509Z",
+      "lastSeenAt": "2026-08-10T05:44:40.094Z",
+      "primaryItemId": "news_8f0ac55b8424",
+      "evidenceItemIds": [
+        "news_8f0ac55b8424",
+        "news_2cf03e17b55d"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_04d3cf6701f0",
+      "title": "周末要闻汇总：北京购房政策调整，宇树科技10日开启IPO申购",
+      "firstSeenAt": "2026-08-09T09:08:15.509Z",
+      "lastSeenAt": "2026-08-10T05:44:40.094Z",
+      "primaryItemId": "news_310b54574db8",
+      "evidenceItemIds": [
+        "news_310b54574db8",
+        "news_881a81c9102e",
+        "news_0a221cd67019"
       ],
       "status": "developing"
     },
@@ -792,24 +863,6 @@
       "evidenceItemIds": [
         "news_f1756306622f",
         "news_908849b94cc8"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_0737eac2cabb",
-      "title": "连板股追踪丨A股今日共75只个股涨停 这只PCB概念股4连板",
-      "firstSeenAt": "2026-07-31T02:43:30.494Z",
-      "lastSeenAt": "2026-08-08T09:05:33.315Z",
-      "primaryItemId": "news_83287e13cba2",
-      "evidenceItemIds": [
-        "news_cf2b97a75d61",
-        "news_6b2b1bbc6628",
-        "news_0b0558cddf77",
-        "news_2a647756104e",
-        "news_8818289af9a3",
-        "news_11eae49a5b16",
-        "news_9e9caeefd1f2",
-        "news_83287e13cba2"
       ],
       "status": "developing"
     },

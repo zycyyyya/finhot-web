@@ -1,15 +1,15 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-08-11T09:20:59.114Z",
+  "generatedAt": "2026-08-11T13:48:34.538Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
       "eventId": "event_37605779c26f",
-      "title": "丽江股份(002033.SZ)发布上半年业绩，归母净利润1.33亿元，同比增长40.46%",
+      "title": "工业富联：2026年上半年净利润237.4亿元 同比增长95.99%",
       "firstSeenAt": "2026-08-06T03:43:23.319Z",
-      "lastSeenAt": "2026-08-11T09:20:59.114Z",
-      "primaryItemId": "news_56c703bebfff",
+      "lastSeenAt": "2026-08-11T13:48:34.538Z",
+      "primaryItemId": "news_58ca5eee5279",
       "evidenceItemIds": [
         "news_a12982635a1e",
         "news_0724b1177988",
@@ -33,32 +33,34 @@
         "news_5879c10fb001",
         "news_56c703bebfff",
         "news_3ab12ce09836",
-        "news_58ca5eee5279"
+        "news_58ca5eee5279",
+        "news_436f2ec78448"
       ],
       "status": "developing"
     },
     {
       "eventId": "event_63b389ba1b86",
-      "title": "T早报｜宇树科技网上申购中签率0.018%；江波龙上半年归母净利润暴增715倍；极兔速递因安全生产管理履职缺位被罚7万元",
+      "title": "宇树科技网上中签率不到长鑫科技1/26",
       "firstSeenAt": "2026-08-09T09:08:15.509Z",
-      "lastSeenAt": "2026-08-11T09:20:59.114Z",
-      "primaryItemId": "news_879ed7f662a8",
+      "lastSeenAt": "2026-08-11T13:48:34.538Z",
+      "primaryItemId": "news_61f74d0c7c28",
       "evidenceItemIds": [
         "news_c28ea9af75f0",
         "news_fda43db749a5",
         "news_5113a9dc6ef5",
         "news_52e6f283dcef",
         "news_2864117de8c5",
-        "news_879ed7f662a8"
+        "news_879ed7f662a8",
+        "news_61f74d0c7c28"
       ],
       "status": "developing"
     },
     {
       "eventId": "event_202dd878fa19",
-      "title": "晚间公告｜8月10日这些公告有看头",
+      "title": "晚间公告｜8月11日这些公告有看头",
       "firstSeenAt": "2026-07-31T14:43:32.623Z",
-      "lastSeenAt": "2026-08-11T09:20:59.114Z",
-      "primaryItemId": "news_0f321ef4412b",
+      "lastSeenAt": "2026-08-11T13:48:34.538Z",
+      "primaryItemId": "news_6fe4b8332584",
       "evidenceItemIds": [
         "news_eaf56a2f5345",
         "news_8b256f193830",
@@ -69,7 +71,8 @@
         "news_958c3f39adb1",
         "news_a328d8732020",
         "news_042b264c9695",
-        "news_0f321ef4412b"
+        "news_0f321ef4412b",
+        "news_6fe4b8332584"
       ],
       "status": "developing"
     },
@@ -77,7 +80,7 @@
       "eventId": "event_3266836e8022",
       "title": "A股开盘速递 | 三大指数集体低开 国防军工、建筑材料领跌",
       "firstSeenAt": "2026-08-04T03:43:00.215Z",
-      "lastSeenAt": "2026-08-11T09:20:59.114Z",
+      "lastSeenAt": "2026-08-11T13:48:34.538Z",
       "primaryItemId": "news_625e21f1a4c9",
       "evidenceItemIds": [
         "news_61f3e082c55e",
@@ -114,7 +117,7 @@
       "eventId": "event_529af3584dc2",
       "title": "恒指收跌1.1%，恒生科技指数跌1.93%",
       "firstSeenAt": "2026-07-31T02:43:30.494Z",
-      "lastSeenAt": "2026-08-11T09:20:59.114Z",
+      "lastSeenAt": "2026-08-11T13:48:34.538Z",
       "primaryItemId": "news_c6451e15adf9",
       "evidenceItemIds": [
         "news_1dd2743eb007",
@@ -140,7 +143,7 @@
       "eventId": "event_bb9a4a29d88b",
       "title": "大摩：市场严重低估SpaceX AI业务的价值，牛市情景股价看至600美元",
       "firstSeenAt": "2026-08-10T05:44:40.094Z",
-      "lastSeenAt": "2026-08-11T09:20:59.114Z",
+      "lastSeenAt": "2026-08-11T13:48:34.538Z",
       "primaryItemId": "news_ba0ec3136ce2",
       "evidenceItemIds": [
         "news_b6316bc413ae",
@@ -155,7 +158,7 @@
       "eventId": "event_0737eac2cabb",
       "title": "连板股追踪丨A股今日共60只个股涨停 百花医药6连板",
       "firstSeenAt": "2026-07-31T02:43:30.494Z",
-      "lastSeenAt": "2026-08-11T09:20:59.114Z",
+      "lastSeenAt": "2026-08-11T13:48:34.538Z",
       "primaryItemId": "news_ac696b49df1d",
       "evidenceItemIds": [
         "news_cf2b97a75d61",
@@ -173,17 +176,18 @@
     },
     {
       "eventId": "event_3ea490238747",
-      "title": "港股公告精选｜百胜中国上半年净赚超5亿美元 金浔资源中期盈利同比增超5成",
+      "title": "港股公告精选｜五矿资源中期盈利同比增超160% 康师傅控股上半年收入超400亿元",
       "firstSeenAt": "2026-08-07T13:45:41.405Z",
-      "lastSeenAt": "2026-08-11T09:20:59.114Z",
-      "primaryItemId": "news_fd950cf3ac06",
+      "lastSeenAt": "2026-08-11T13:48:34.538Z",
+      "primaryItemId": "news_36036a0395a3",
       "evidenceItemIds": [
         "news_54ec9e48ee4b",
         "news_1e410a1e3608",
         "news_094519d937a5",
         "news_5b96e360a99d",
         "news_7e664f392c95",
-        "news_fd950cf3ac06"
+        "news_fd950cf3ac06",
+        "news_36036a0395a3"
       ],
       "status": "developing"
     },
@@ -191,7 +195,7 @@
       "eventId": "event_32967e3730b8",
       "title": "科技股“大逃亡”",
       "firstSeenAt": "2026-08-03T15:23:32.854Z",
-      "lastSeenAt": "2026-08-11T09:20:59.114Z",
+      "lastSeenAt": "2026-08-11T13:48:34.538Z",
       "primaryItemId": "news_9078b6a91c76",
       "evidenceItemIds": [
         "news_8394862df655",
@@ -204,7 +208,196 @@
         "news_04a959a73a68",
         "news_92257b4a2373",
         "news_9078b6a91c76",
-        "news_47c824b8354b"
+        "news_47c824b8354b",
+        "news_a1473e93f9d4",
+        "news_d9743ef9e935"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_dacd693720e9",
+      "title": "希腊6月工业产出同比增长1.1%",
+      "firstSeenAt": "2026-08-10T13:52:07.777Z",
+      "lastSeenAt": "2026-08-11T13:48:34.538Z",
+      "primaryItemId": "news_4d954af3b8cb",
+      "evidenceItemIds": [
+        "news_4d954af3b8cb",
+        "news_747c639ab82a"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_80bb37731b37",
+      "title": "OpenAI斥资70亿美元回购员工股份，估值8520亿美元静待上市窗口",
+      "firstSeenAt": "2026-08-11T02:32:18.629Z",
+      "lastSeenAt": "2026-08-11T13:48:34.538Z",
+      "primaryItemId": "news_f90a64cc2194",
+      "evidenceItemIds": [
+        "news_f90a64cc2194",
+        "news_3856f056d68e"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_25e544ca150c",
+      "title": "英伟达牵手金融机构组建5000亿美元融资平台，黄仁勋回应“循环融资”",
+      "firstSeenAt": "2026-08-11T05:23:02.743Z",
+      "lastSeenAt": "2026-08-11T13:48:34.538Z",
+      "primaryItemId": "news_47c2724f586f",
+      "evidenceItemIds": [
+        "news_47c2724f586f",
+        "news_606bc83174aa"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_25a01be8f771",
+      "title": "长城汽车在青岛成立新公司，注册资本500万",
+      "firstSeenAt": "2026-08-07T09:19:21.190Z",
+      "lastSeenAt": "2026-08-11T13:48:34.538Z",
+      "primaryItemId": "news_e14bd43495a7",
+      "evidenceItemIds": [
+        "news_0a89162cc328",
+        "news_1d889a3e90ea",
+        "news_76556d64b846",
+        "news_b871e430af91",
+        "news_e14bd43495a7",
+        "news_06e19159faaa",
+        "news_22856b17b8da"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_ce5e0cbed733",
+      "title": "港股评级汇总：中金公司维持百济神州跑赢行业评级",
+      "firstSeenAt": "2026-08-10T09:54:06.980Z",
+      "lastSeenAt": "2026-08-11T13:48:34.538Z",
+      "primaryItemId": "news_1e24c2798e8a",
+      "evidenceItemIds": [
+        "news_ff8ada5d229d",
+        "news_038fffd08eb2",
+        "news_1e24c2798e8a"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_0721a194153d",
+      "title": "创三年半新高！人民币强势突围的三大底牌",
+      "firstSeenAt": "2026-08-11T09:20:59.114Z",
+      "lastSeenAt": "2026-08-11T13:48:34.538Z",
+      "primaryItemId": "news_33b43e77cea9",
+      "evidenceItemIds": [
+        "news_1939ca850e0d",
+        "news_33b43e77cea9"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_2612e19047eb",
+      "title": "上海：到2030年把上海软件和信息服务业打造成经济增长“动力源” 产业规模力争达到4万亿元",
+      "firstSeenAt": "2026-08-11T09:20:59.114Z",
+      "lastSeenAt": "2026-08-11T13:48:34.538Z",
+      "primaryItemId": "news_5bd83af94a85",
+      "evidenceItemIds": [
+        "news_5bd83af94a85",
+        "news_ea8cc3e84334"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_1348b818b98f",
+      "title": "3个月狂砸600亿美元！Anthropic再签91亿算力大单，与比特币矿企Riot达成长约",
+      "firstSeenAt": "2026-08-11T09:20:59.114Z",
+      "lastSeenAt": "2026-08-11T13:48:34.538Z",
+      "primaryItemId": "news_3a5bc9fd0f8c",
+      "evidenceItemIds": [
+        "news_3a5bc9fd0f8c",
+        "news_8a4b1816b3c9"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_cae62a9b7513",
+      "title": "手回集团(02621)发盈警 预计中期净利润6400万元至8400万元",
+      "firstSeenAt": "2026-08-11T09:20:59.114Z",
+      "lastSeenAt": "2026-08-11T13:48:34.538Z",
+      "primaryItemId": "news_f03a025bc47a",
+      "evidenceItemIds": [
+        "news_f03a025bc47a",
+        "news_28d906d6a0c6"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_919ee3470108",
+      "title": "公积金最高可贷340万！北京楼市再现看房热潮",
+      "firstSeenAt": "2026-08-10T02:38:46.687Z",
+      "lastSeenAt": "2026-08-11T13:48:34.538Z",
+      "primaryItemId": "news_526659d76bf8",
+      "evidenceItemIds": [
+        "news_782c73c742b5",
+        "news_bcc10b951c1f",
+        "news_526659d76bf8"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_cbdf0728d815",
+      "title": "佰维存储：拟以2亿元-2.5亿元回购公司股份",
+      "firstSeenAt": "2026-08-11T13:48:34.538Z",
+      "lastSeenAt": "2026-08-11T13:48:34.538Z",
+      "primaryItemId": "news_4d96eacb88bf",
+      "evidenceItemIds": [
+        "news_4d96eacb88bf",
+        "news_c86e31d7870b"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_46ea41566124",
+      "title": "但斌回应投资人质疑：东方港湾在7月回调行情中没有大幅减仓 仅极小比例结构性微调",
+      "firstSeenAt": "2026-08-11T13:48:34.538Z",
+      "lastSeenAt": "2026-08-11T13:48:34.538Z",
+      "primaryItemId": "news_7c13050a6071",
+      "evidenceItemIds": [
+        "news_7c13050a6071",
+        "news_52da93746f76"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_0a0d7bcca0a7",
+      "title": "宇树科技中签号出炉：共有19,414个",
+      "firstSeenAt": "2026-08-11T13:48:34.538Z",
+      "lastSeenAt": "2026-08-11T13:48:34.538Z",
+      "primaryItemId": "news_5be42e02d84c",
+      "evidenceItemIds": [
+        "news_5be42e02d84c",
+        "news_43bfc331933b"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_4cd6b4daa631",
+      "title": "两大能源央企参投宇树科技",
+      "firstSeenAt": "2026-08-11T13:48:34.538Z",
+      "lastSeenAt": "2026-08-11T13:48:34.538Z",
+      "primaryItemId": "news_595818a999c5",
+      "evidenceItemIds": [
+        "news_595818a999c5",
+        "news_dd244c1b3634"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_e3be7e10ed3b",
+      "title": "1.94万个！人形机器人龙头中签号出炉|盘后公告集锦",
+      "firstSeenAt": "2026-08-11T13:48:34.538Z",
+      "lastSeenAt": "2026-08-11T13:48:34.538Z",
+      "primaryItemId": "news_dd270afd9b75",
+      "evidenceItemIds": [
+        "news_dd270afd9b75",
+        "news_5dccd585a748"
       ],
       "status": "developing"
     },
@@ -218,18 +411,6 @@
         "news_3c4c8b88265c",
         "news_4cd43368f959",
         "news_1dd6c69f12cf"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_dacd693720e9",
-      "title": "希腊6月工业产出同比增长1.1%",
-      "firstSeenAt": "2026-08-10T13:52:07.777Z",
-      "lastSeenAt": "2026-08-11T09:20:59.114Z",
-      "primaryItemId": "news_4d954af3b8cb",
-      "evidenceItemIds": [
-        "news_4d954af3b8cb",
-        "news_747c639ab82a"
       ],
       "status": "developing"
     },
@@ -287,18 +468,6 @@
       "status": "developing"
     },
     {
-      "eventId": "event_80bb37731b37",
-      "title": "OpenAI斥资70亿美元回购员工股份，估值8520亿美元静待上市窗口",
-      "firstSeenAt": "2026-08-11T02:32:18.629Z",
-      "lastSeenAt": "2026-08-11T09:20:59.114Z",
-      "primaryItemId": "news_f90a64cc2194",
-      "evidenceItemIds": [
-        "news_f90a64cc2194",
-        "news_3856f056d68e"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_8eca8f9180b8",
       "title": "知情人士确认亿纬锂能两类电池将涨价",
       "firstSeenAt": "2026-08-11T02:32:18.629Z",
@@ -331,96 +500,6 @@
       "evidenceItemIds": [
         "news_0e7b2d754ccf",
         "news_8a7653fe4bdf"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_25e544ca150c",
-      "title": "英伟达牵手金融机构组建5000亿美元融资平台，黄仁勋回应“循环融资”",
-      "firstSeenAt": "2026-08-11T05:23:02.743Z",
-      "lastSeenAt": "2026-08-11T09:20:59.114Z",
-      "primaryItemId": "news_47c2724f586f",
-      "evidenceItemIds": [
-        "news_47c2724f586f",
-        "news_606bc83174aa"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_25a01be8f771",
-      "title": "长城汽车在青岛成立新公司，注册资本500万",
-      "firstSeenAt": "2026-08-07T09:19:21.190Z",
-      "lastSeenAt": "2026-08-11T09:20:59.114Z",
-      "primaryItemId": "news_e14bd43495a7",
-      "evidenceItemIds": [
-        "news_0a89162cc328",
-        "news_1d889a3e90ea",
-        "news_76556d64b846",
-        "news_b871e430af91",
-        "news_e14bd43495a7",
-        "news_06e19159faaa",
-        "news_22856b17b8da"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_ce5e0cbed733",
-      "title": "港股评级汇总：中金公司维持百济神州跑赢行业评级",
-      "firstSeenAt": "2026-08-10T09:54:06.980Z",
-      "lastSeenAt": "2026-08-11T09:20:59.114Z",
-      "primaryItemId": "news_1e24c2798e8a",
-      "evidenceItemIds": [
-        "news_ff8ada5d229d",
-        "news_038fffd08eb2",
-        "news_1e24c2798e8a"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_0721a194153d",
-      "title": "人民币对美元汇率创三年半新高，接下来怎么走？",
-      "firstSeenAt": "2026-08-11T09:20:59.114Z",
-      "lastSeenAt": "2026-08-11T09:20:59.114Z",
-      "primaryItemId": "news_1939ca850e0d",
-      "evidenceItemIds": [
-        "news_1939ca850e0d",
-        "news_33b43e77cea9"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_2612e19047eb",
-      "title": "上海：到2030年把上海软件和信息服务业打造成经济增长“动力源” 产业规模力争达到4万亿元",
-      "firstSeenAt": "2026-08-11T09:20:59.114Z",
-      "lastSeenAt": "2026-08-11T09:20:59.114Z",
-      "primaryItemId": "news_5bd83af94a85",
-      "evidenceItemIds": [
-        "news_5bd83af94a85",
-        "news_ea8cc3e84334"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_1348b818b98f",
-      "title": "3个月狂砸600亿美元！Anthropic再签91亿算力大单，与比特币矿企Riot达成长约",
-      "firstSeenAt": "2026-08-11T09:20:59.114Z",
-      "lastSeenAt": "2026-08-11T09:20:59.114Z",
-      "primaryItemId": "news_3a5bc9fd0f8c",
-      "evidenceItemIds": [
-        "news_3a5bc9fd0f8c",
-        "news_8a4b1816b3c9"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_cae62a9b7513",
-      "title": "手回集团(02621)发盈警 预计中期净利润6400万元至8400万元",
-      "firstSeenAt": "2026-08-11T09:20:59.114Z",
-      "lastSeenAt": "2026-08-11T09:20:59.114Z",
-      "primaryItemId": "news_f03a025bc47a",
-      "evidenceItemIds": [
-        "news_f03a025bc47a",
-        "news_28d906d6a0c6"
       ],
       "status": "developing"
     },
@@ -661,18 +740,6 @@
       "evidenceItemIds": [
         "news_451477c0bda9",
         "news_d401cc3cee4b"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_919ee3470108",
-      "title": "财经早知道｜公积金最高可贷340万元，北京楼市新政超预期",
-      "firstSeenAt": "2026-08-10T02:38:46.687Z",
-      "lastSeenAt": "2026-08-10T09:54:06.980Z",
-      "primaryItemId": "news_782c73c742b5",
-      "evidenceItemIds": [
-        "news_782c73c742b5",
-        "news_bcc10b951c1f"
       ],
       "status": "developing"
     },

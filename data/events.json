@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-08-11T02:32:18.629Z",
+  "generatedAt": "2026-08-11T05:23:02.743Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -8,7 +8,7 @@
       "eventId": "event_83105f4b0841",
       "title": "中国7月贸易顺差超预期，出口强劲增长提振整体表现",
       "firstSeenAt": "2026-08-07T03:19:58.662Z",
-      "lastSeenAt": "2026-08-11T02:32:18.629Z",
+      "lastSeenAt": "2026-08-11T05:23:02.743Z",
       "primaryItemId": "news_217a2aabf4df",
       "evidenceItemIds": [
         "news_217a2aabf4df",
@@ -20,7 +20,7 @@
       "eventId": "event_37605779c26f",
       "title": "映宇宙(03700)发盈警 预期上半年净利润同比下降超过30.0%",
       "firstSeenAt": "2026-08-06T03:43:23.319Z",
-      "lastSeenAt": "2026-08-11T02:32:18.629Z",
+      "lastSeenAt": "2026-08-11T05:23:02.743Z",
       "primaryItemId": "news_1b6935f9d3db",
       "evidenceItemIds": [
         "news_a12982635a1e",
@@ -52,7 +52,7 @@
       "eventId": "event_6c5f810a9a72",
       "title": "美国7月非农就业意外减少2.3万人",
       "firstSeenAt": "2026-08-07T13:45:41.405Z",
-      "lastSeenAt": "2026-08-11T02:32:18.629Z",
+      "lastSeenAt": "2026-08-11T05:23:02.743Z",
       "primaryItemId": "news_9c81b8723cbc",
       "evidenceItemIds": [
         "news_ef1cdfce2ae4",
@@ -66,7 +66,7 @@
       "eventId": "event_63b389ba1b86",
       "title": "T早报｜宇树科技网上申购中签率0.018%；江波龙上半年归母净利润暴增715倍；极兔速递因安全生产管理履职缺位被罚7万元",
       "firstSeenAt": "2026-08-09T09:08:15.509Z",
-      "lastSeenAt": "2026-08-11T02:32:18.629Z",
+      "lastSeenAt": "2026-08-11T05:23:02.743Z",
       "primaryItemId": "news_879ed7f662a8",
       "evidenceItemIds": [
         "news_c28ea9af75f0",
@@ -82,7 +82,7 @@
       "eventId": "event_202dd878fa19",
       "title": "晚间公告｜8月10日这些公告有看头",
       "firstSeenAt": "2026-07-31T14:43:32.623Z",
-      "lastSeenAt": "2026-08-11T02:32:18.629Z",
+      "lastSeenAt": "2026-08-11T05:23:02.743Z",
       "primaryItemId": "news_0f321ef4412b",
       "evidenceItemIds": [
         "news_eaf56a2f5345",
@@ -102,7 +102,7 @@
       "eventId": "event_3266836e8022",
       "title": "A股开盘速递 | 三大指数集体低开 国防军工、建筑材料领跌",
       "firstSeenAt": "2026-08-04T03:43:00.215Z",
-      "lastSeenAt": "2026-08-11T02:32:18.629Z",
+      "lastSeenAt": "2026-08-11T05:23:02.743Z",
       "primaryItemId": "news_625e21f1a4c9",
       "evidenceItemIds": [
         "news_61f3e082c55e",
@@ -137,10 +137,10 @@
     },
     {
       "eventId": "event_529af3584dc2",
-      "title": "恒指收涨1.05%，恒生科技指数涨1.26%",
+      "title": "恒指午间休盘跌0.63%，恒生科技指数跌1.27%",
       "firstSeenAt": "2026-07-31T02:43:30.494Z",
-      "lastSeenAt": "2026-08-11T02:32:18.629Z",
-      "primaryItemId": "news_90df26a11225",
+      "lastSeenAt": "2026-08-11T05:23:02.743Z",
+      "primaryItemId": "news_100bf371b2a8",
       "evidenceItemIds": [
         "news_1dd2743eb007",
         "news_af1364619b24",
@@ -155,7 +155,241 @@
         "news_663b8633b560",
         "news_163f09356678",
         "news_90df26a11225",
-        "news_0105048e0696"
+        "news_0105048e0696",
+        "news_100bf371b2a8"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_bb9a4a29d88b",
+      "title": "SpaceX重返135美元发行价，AI烧钱隐忧能否被市场消化？",
+      "firstSeenAt": "2026-08-10T05:44:40.094Z",
+      "lastSeenAt": "2026-08-11T05:23:02.743Z",
+      "primaryItemId": "news_3ef3386322d8",
+      "evidenceItemIds": [
+        "news_b6316bc413ae",
+        "news_709b32841616",
+        "news_acc27ed61fd4",
+        "news_3ef3386322d8"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_0737eac2cabb",
+      "title": "连板股追踪丨A股今日共103只个股涨停 这只铜箔概念股5连板",
+      "firstSeenAt": "2026-07-31T02:43:30.494Z",
+      "lastSeenAt": "2026-08-11T05:23:02.743Z",
+      "primaryItemId": "news_8b8e574d724a",
+      "evidenceItemIds": [
+        "news_cf2b97a75d61",
+        "news_6b2b1bbc6628",
+        "news_0b0558cddf77",
+        "news_2a647756104e",
+        "news_8818289af9a3",
+        "news_11eae49a5b16",
+        "news_9e9caeefd1f2",
+        "news_83287e13cba2",
+        "news_8b8e574d724a"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_98f3ff0716a5",
+      "title": "摩尔线程：筹划发行H股股票并在香港联合交易所有限公司主板上市。",
+      "firstSeenAt": "2026-08-09T09:08:15.509Z",
+      "lastSeenAt": "2026-08-11T05:23:02.743Z",
+      "primaryItemId": "news_8f0ac55b8424",
+      "evidenceItemIds": [
+        "news_8f0ac55b8424",
+        "news_2cf03e17b55d",
+        "news_e1aa42e6f3eb"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_3ea490238747",
+      "title": "港股公告精选｜百胜中国上半年净赚超5亿美元 金浔资源中期盈利同比增超5成",
+      "firstSeenAt": "2026-08-07T13:45:41.405Z",
+      "lastSeenAt": "2026-08-11T05:23:02.743Z",
+      "primaryItemId": "news_fd950cf3ac06",
+      "evidenceItemIds": [
+        "news_54ec9e48ee4b",
+        "news_1e410a1e3608",
+        "news_094519d937a5",
+        "news_5b96e360a99d",
+        "news_7e664f392c95",
+        "news_fd950cf3ac06"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_32967e3730b8",
+      "title": "热门中概股美股盘前涨跌不一，理想汽车跌超1%",
+      "firstSeenAt": "2026-08-03T15:23:32.854Z",
+      "lastSeenAt": "2026-08-11T05:23:02.743Z",
+      "primaryItemId": "news_04a959a73a68",
+      "evidenceItemIds": [
+        "news_8394862df655",
+        "news_b8561adf7643",
+        "news_8b0ae127cd97",
+        "news_69866ab410e2",
+        "news_df9f7f47921a",
+        "news_d3b1a6fd627e",
+        "news_42ca90256576",
+        "news_04a959a73a68",
+        "news_92257b4a2373",
+        "news_9078b6a91c76",
+        "news_47c824b8354b"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_c69c475cb96e",
+      "title": "报道：日本央行释放9月加息信号，促使美国加入汇市干预",
+      "firstSeenAt": "2026-08-10T13:52:07.777Z",
+      "lastSeenAt": "2026-08-11T05:23:02.743Z",
+      "primaryItemId": "news_0bbcc999022b",
+      "evidenceItemIds": [
+        "news_0bbcc999022b",
+        "news_179e634bf862"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_949a8641d05c",
+      "title": "央行“十五五”改革发展规划落地，部署五大核心任务",
+      "firstSeenAt": "2026-08-10T13:52:07.777Z",
+      "lastSeenAt": "2026-08-11T05:23:02.743Z",
+      "primaryItemId": "news_3c4c8b88265c",
+      "evidenceItemIds": [
+        "news_3c4c8b88265c",
+        "news_4cd43368f959",
+        "news_1dd6c69f12cf"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_dacd693720e9",
+      "title": "希腊6月工业产出同比增长1.1%",
+      "firstSeenAt": "2026-08-10T13:52:07.777Z",
+      "lastSeenAt": "2026-08-11T05:23:02.743Z",
+      "primaryItemId": "news_4d954af3b8cb",
+      "evidenceItemIds": [
+        "news_4d954af3b8cb",
+        "news_747c639ab82a"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_91fb625edcc6",
+      "title": "华尔街见闻早餐FM-Radio | 2026年8月11日",
+      "firstSeenAt": "2026-08-01T03:54:06.184Z",
+      "lastSeenAt": "2026-08-11T05:23:02.743Z",
+      "primaryItemId": "news_4bcfcf17662a",
+      "evidenceItemIds": [
+        "news_17edaa318161",
+        "news_98deb5260008",
+        "news_d6ded5ce3d23",
+        "news_ce5450193ef2",
+        "news_c703d5c64965",
+        "news_f283b8db4f69",
+        "news_1192f017766c",
+        "news_13a9ec382c84",
+        "news_56f2fe7df40c",
+        "news_4bcfcf17662a"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_5e8e3a94b56e",
+      "title": "央行：8月11日7天期逆回购操作量为零",
+      "firstSeenAt": "2026-08-04T09:56:27.957Z",
+      "lastSeenAt": "2026-08-11T05:23:02.743Z",
+      "primaryItemId": "news_fb3711c4a3cc",
+      "evidenceItemIds": [
+        "news_373d8891ffde",
+        "news_37c982038be7",
+        "news_7e94834f547e",
+        "news_2020354cf876",
+        "news_b8cbaf8f7c79",
+        "news_6a0d1f4c51bb",
+        "news_20a1d426916a",
+        "news_fb3711c4a3cc"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_4db060886007",
+      "title": "8月11日人民币对美元中间价调贬16个基点",
+      "firstSeenAt": "2026-08-05T03:38:04.635Z",
+      "lastSeenAt": "2026-08-11T05:23:02.743Z",
+      "primaryItemId": "news_a7ea9f90d9b9",
+      "evidenceItemIds": [
+        "news_f565436ba123",
+        "news_bbee3f4f15e4",
+        "news_0e6efc70fa3f",
+        "news_edb82f020535",
+        "news_a7ea9f90d9b9"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_80bb37731b37",
+      "title": "OpenAI斥资70亿美元回购员工股份，估值8520亿美元静待上市窗口",
+      "firstSeenAt": "2026-08-11T02:32:18.629Z",
+      "lastSeenAt": "2026-08-11T05:23:02.743Z",
+      "primaryItemId": "news_f90a64cc2194",
+      "evidenceItemIds": [
+        "news_f90a64cc2194",
+        "news_3856f056d68e"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_8eca8f9180b8",
+      "title": "知情人士确认亿纬锂能两类电池将涨价",
+      "firstSeenAt": "2026-08-11T02:32:18.629Z",
+      "lastSeenAt": "2026-08-11T05:23:02.743Z",
+      "primaryItemId": "news_8635cb2c448e",
+      "evidenceItemIds": [
+        "news_8635cb2c448e",
+        "news_3334c7c36274"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_918c038beccc",
+      "title": "《煤炭工业发展“十五五”规划》印发 矿井智能化改造迎来发展窗口期",
+      "firstSeenAt": "2026-08-11T02:32:18.629Z",
+      "lastSeenAt": "2026-08-11T05:23:02.743Z",
+      "primaryItemId": "news_b43983a0f71d",
+      "evidenceItemIds": [
+        "news_b43983a0f71d",
+        "news_2228f91c5f36"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_ea3f5933c366",
+      "title": "阿里云计划将全球数据中心产能提升两倍以上",
+      "firstSeenAt": "2026-08-11T02:32:18.629Z",
+      "lastSeenAt": "2026-08-11T05:23:02.743Z",
+      "primaryItemId": "news_0e7b2d754ccf",
+      "evidenceItemIds": [
+        "news_0e7b2d754ccf",
+        "news_8a7653fe4bdf"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_25e544ca150c",
+      "title": "英伟达牵手金融机构组建5000亿美元融资平台，黄仁勋回应“循环融资”",
+      "firstSeenAt": "2026-08-11T05:23:02.743Z",
+      "lastSeenAt": "2026-08-11T05:23:02.743Z",
+      "primaryItemId": "news_47c2724f586f",
+      "evidenceItemIds": [
+        "news_47c2724f586f",
+        "news_606bc83174aa"
       ],
       "status": "developing"
     },
@@ -186,19 +420,6 @@
       "status": "developing"
     },
     {
-      "eventId": "event_bb9a4a29d88b",
-      "title": "陶冬：不要误读SpaceX",
-      "firstSeenAt": "2026-08-10T05:44:40.094Z",
-      "lastSeenAt": "2026-08-11T02:32:18.629Z",
-      "primaryItemId": "news_b6316bc413ae",
-      "evidenceItemIds": [
-        "news_b6316bc413ae",
-        "news_709b32841616",
-        "news_acc27ed61fd4"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_a78be4d2214a",
       "title": "阿里千问开放平台上线 支持第三方智能体接入",
       "firstSeenAt": "2026-08-10T05:44:40.094Z",
@@ -208,25 +429,6 @@
         "news_652854a37336",
         "news_e6de2d1935c1",
         "news_c50a092de69b"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_0737eac2cabb",
-      "title": "连板股追踪丨A股今日共103只个股涨停 这只铜箔概念股5连板",
-      "firstSeenAt": "2026-07-31T02:43:30.494Z",
-      "lastSeenAt": "2026-08-11T02:32:18.629Z",
-      "primaryItemId": "news_8b8e574d724a",
-      "evidenceItemIds": [
-        "news_cf2b97a75d61",
-        "news_6b2b1bbc6628",
-        "news_0b0558cddf77",
-        "news_2a647756104e",
-        "news_8818289af9a3",
-        "news_11eae49a5b16",
-        "news_9e9caeefd1f2",
-        "news_83287e13cba2",
-        "news_8b8e574d724a"
       ],
       "status": "developing"
     },
@@ -267,68 +469,6 @@
       "status": "developing"
     },
     {
-      "eventId": "event_98f3ff0716a5",
-      "title": "摩尔线程：筹划发行H股股票并在香港联合交易所有限公司主板上市。",
-      "firstSeenAt": "2026-08-09T09:08:15.509Z",
-      "lastSeenAt": "2026-08-11T02:32:18.629Z",
-      "primaryItemId": "news_8f0ac55b8424",
-      "evidenceItemIds": [
-        "news_8f0ac55b8424",
-        "news_2cf03e17b55d",
-        "news_e1aa42e6f3eb"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_3ea490238747",
-      "title": "港股公告精选｜百胜中国上半年净赚超5亿美元 金浔资源中期盈利同比增超5成",
-      "firstSeenAt": "2026-08-07T13:45:41.405Z",
-      "lastSeenAt": "2026-08-11T02:32:18.629Z",
-      "primaryItemId": "news_fd950cf3ac06",
-      "evidenceItemIds": [
-        "news_54ec9e48ee4b",
-        "news_1e410a1e3608",
-        "news_094519d937a5",
-        "news_5b96e360a99d",
-        "news_7e664f392c95",
-        "news_fd950cf3ac06"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_32967e3730b8",
-      "title": "热门中概股美股盘前涨跌不一，理想汽车跌超1%",
-      "firstSeenAt": "2026-08-03T15:23:32.854Z",
-      "lastSeenAt": "2026-08-11T02:32:18.629Z",
-      "primaryItemId": "news_04a959a73a68",
-      "evidenceItemIds": [
-        "news_8394862df655",
-        "news_b8561adf7643",
-        "news_8b0ae127cd97",
-        "news_69866ab410e2",
-        "news_df9f7f47921a",
-        "news_d3b1a6fd627e",
-        "news_42ca90256576",
-        "news_04a959a73a68",
-        "news_92257b4a2373",
-        "news_9078b6a91c76",
-        "news_47c824b8354b"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_c69c475cb96e",
-      "title": "报道：日本央行释放9月加息信号，促使美国加入汇市干预",
-      "firstSeenAt": "2026-08-10T13:52:07.777Z",
-      "lastSeenAt": "2026-08-11T02:32:18.629Z",
-      "primaryItemId": "news_0bbcc999022b",
-      "evidenceItemIds": [
-        "news_0bbcc999022b",
-        "news_179e634bf862"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_1c0d954a27ec",
       "title": "索尼台积电拟投1万亿日元在熊本建合资厂，拟量产下一代图像传感器供苹果",
       "firstSeenAt": "2026-08-10T13:52:07.777Z",
@@ -337,132 +477,6 @@
       "evidenceItemIds": [
         "news_36cc13ac3fd9",
         "news_31c1a559c0e9"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_949a8641d05c",
-      "title": "央行“十五五”改革发展规划落地，部署五大核心任务",
-      "firstSeenAt": "2026-08-10T13:52:07.777Z",
-      "lastSeenAt": "2026-08-11T02:32:18.629Z",
-      "primaryItemId": "news_3c4c8b88265c",
-      "evidenceItemIds": [
-        "news_3c4c8b88265c",
-        "news_4cd43368f959",
-        "news_1dd6c69f12cf"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_dacd693720e9",
-      "title": "希腊6月工业产出同比增长1.1%",
-      "firstSeenAt": "2026-08-10T13:52:07.777Z",
-      "lastSeenAt": "2026-08-11T02:32:18.629Z",
-      "primaryItemId": "news_4d954af3b8cb",
-      "evidenceItemIds": [
-        "news_4d954af3b8cb",
-        "news_747c639ab82a"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_91fb625edcc6",
-      "title": "华尔街见闻早餐FM-Radio | 2026年8月11日",
-      "firstSeenAt": "2026-08-01T03:54:06.184Z",
-      "lastSeenAt": "2026-08-11T02:32:18.629Z",
-      "primaryItemId": "news_4bcfcf17662a",
-      "evidenceItemIds": [
-        "news_17edaa318161",
-        "news_98deb5260008",
-        "news_d6ded5ce3d23",
-        "news_ce5450193ef2",
-        "news_c703d5c64965",
-        "news_f283b8db4f69",
-        "news_1192f017766c",
-        "news_13a9ec382c84",
-        "news_56f2fe7df40c",
-        "news_4bcfcf17662a"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_5e8e3a94b56e",
-      "title": "央行：8月11日7天期逆回购操作量为零",
-      "firstSeenAt": "2026-08-04T09:56:27.957Z",
-      "lastSeenAt": "2026-08-11T02:32:18.629Z",
-      "primaryItemId": "news_fb3711c4a3cc",
-      "evidenceItemIds": [
-        "news_373d8891ffde",
-        "news_37c982038be7",
-        "news_7e94834f547e",
-        "news_2020354cf876",
-        "news_b8cbaf8f7c79",
-        "news_6a0d1f4c51bb",
-        "news_20a1d426916a",
-        "news_fb3711c4a3cc"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_4db060886007",
-      "title": "8月11日人民币对美元中间价调贬16个基点",
-      "firstSeenAt": "2026-08-05T03:38:04.635Z",
-      "lastSeenAt": "2026-08-11T02:32:18.629Z",
-      "primaryItemId": "news_a7ea9f90d9b9",
-      "evidenceItemIds": [
-        "news_f565436ba123",
-        "news_bbee3f4f15e4",
-        "news_0e6efc70fa3f",
-        "news_edb82f020535",
-        "news_a7ea9f90d9b9"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_80bb37731b37",
-      "title": "OpenAI斥资70亿美元回购员工股份，估值8520亿美元静待上市窗口",
-      "firstSeenAt": "2026-08-11T02:32:18.629Z",
-      "lastSeenAt": "2026-08-11T02:32:18.629Z",
-      "primaryItemId": "news_f90a64cc2194",
-      "evidenceItemIds": [
-        "news_f90a64cc2194",
-        "news_3856f056d68e"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_8eca8f9180b8",
-      "title": "知情人士确认亿纬锂能两类电池将涨价",
-      "firstSeenAt": "2026-08-11T02:32:18.629Z",
-      "lastSeenAt": "2026-08-11T02:32:18.629Z",
-      "primaryItemId": "news_8635cb2c448e",
-      "evidenceItemIds": [
-        "news_8635cb2c448e",
-        "news_3334c7c36274"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_918c038beccc",
-      "title": "《煤炭工业发展“十五五”规划》印发 矿井智能化改造迎来发展窗口期",
-      "firstSeenAt": "2026-08-11T02:32:18.629Z",
-      "lastSeenAt": "2026-08-11T02:32:18.629Z",
-      "primaryItemId": "news_b43983a0f71d",
-      "evidenceItemIds": [
-        "news_b43983a0f71d",
-        "news_2228f91c5f36"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_ea3f5933c366",
-      "title": "阿里云计划将全球数据中心产能提升两倍以上",
-      "firstSeenAt": "2026-08-11T02:32:18.629Z",
-      "lastSeenAt": "2026-08-11T02:32:18.629Z",
-      "primaryItemId": "news_0e7b2d754ccf",
-      "evidenceItemIds": [
-        "news_0e7b2d754ccf",
-        "news_8a7653fe4bdf"
       ],
       "status": "developing"
     },

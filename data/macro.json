@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-08-12T06:09:38.505Z",
+  "updatedAt": "2026-08-12T06:12:36.696Z",
   "note": "auto 指标由 scripts/macro.js 每日自动刷新；manual 指标为人工核实值，核实日期见 asOf。",
   "indicators": [
     {
@@ -83,10 +83,10 @@
     {
       "key": "gold",
       "name": "现货黄金",
-      "value": "$4,387",
-      "numericValue": 4386.700195,
-      "note": "较前期 $4,390 下降",
-      "direction": "down",
+      "value": "$4,388",
+      "numericValue": 4387.799805,
+      "note": "较前期 $4,387 上升",
+      "direction": "up",
       "asOf": "2026-08-12",
       "source": "gold-api.com",
       "mode": "auto"

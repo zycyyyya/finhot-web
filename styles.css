@@ -951,6 +951,112 @@ a {
   color: var(--text-secondary);
 }
 
+/* === Macro Reference Board (Daily) === */
+.macro-board {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 18px;
+  border-radius: var(--radius-md);
+  background: rgba(59, 130, 246, 0.05);
+  border: 1px solid rgba(59, 130, 246, 0.18);
+}
+
+.macro-board-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.macro-board-heading {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.macro-board-name {
+  font-family: var(--font-heading);
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.macro-board-issue {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--text-muted);
+}
+
+.macro-board-link {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--accent-blue);
+  white-space: nowrap;
+}
+
+.macro-board-link:hover {
+  text-decoration: underline;
+}
+
+.macro-board-link:focus-visible {
+  outline: 2px solid var(--accent-green);
+  outline-offset: 2px;
+}
+
+.macro-kpi-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.macro-kpi {
+  padding: 12px 14px;
+  border-radius: var(--radius-md);
+  background: var(--bg-card);
+  border: 1px solid var(--border-subtle);
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.macro-kpi-name {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--text-muted);
+}
+
+.macro-kpi-val {
+  font-size: 19px;
+  font-weight: 700;
+  color: var(--text-primary);
+  line-height: 1.3;
+}
+
+.macro-kpi-note {
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--text-dim);
+}
+
+.macro-dir-up { color: #ef4444; }
+.macro-dir-down { color: #22c55e; }
+
+.macro-board-note {
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+@media (max-width: 680px) {
+  .macro-kpi-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
 /* === Daily Summary Highlight === */
 .daily-highlights {
   display: flex;

@@ -4,7 +4,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/version-2.3.0-blue" alt="version"/>
+  <img src="https://img.shields.io/badge/version-2.4.0-blue" alt="version"/>
   <img src="https://img.shields.io/badge/license-MIT-green" alt="license"/>
   <img src="https://img.shields.io/badge/framework-pure_static-lightgrey" alt="static"/>
   <img src="https://img.shields.io/badge/deploy-GitHub_Pages-success" alt="deploy"/>
@@ -27,7 +27,7 @@ finhot-web 是集自动采集、AI 分析、数据质量控制与静态页面展
 | **私募** | 私募/量化/对冲/FOF/净值/仓位/策略等 |
 | **投教** | A股/港股/美股/指数/ETF/央行/宏观/财报等 |
 | **全部** | 全部 150 条资讯，按时间倒序 |
-| **AI 日报** | AI 生成每日摘要、事件链、三场景话术和趋势信号 |
+| **AI 日报** | 顶部常驻宏观参考看板 + AI 生成每日摘要、事件链、三场景话术和趋势信号 |
 | **关于** | 信源声明、合规边界、数据健康状态 |
 
 每条资讯展示：来源、时间、从业价值分（0-100）、唯一主场景徽章、兼容场景提示、入选理由、内容标签。
@@ -47,6 +47,15 @@ finhot-web 是集自动采集、AI 分析、数据质量控制与静态页面展
 - URL 安全：仅允许 `http:` / `https:` 协议
 - `focus-visible` 键盘无障碍
 - 移动端自适应，横向滚动导航
+
+## 宏观参考看板
+
+日报顶部常驻宏观指标看板，由数据管线随每次运行自动维护：
+
+- **自动刷新**：LPR（中国货币网官方接口）、美债收益率（美国财政部官网）、美元兑人民币（ECB 参考汇率）、现货黄金
+- **人工核实**：10年期国债、五大行定存、联邦基金利率，逐项标注来源与核实日期，超过 45 天未复核自动提示
+- 数值合理性校验，越界或接口失败时保留上次有效值，绝不阻塞发布、不用推断值填补
+- 宏观快照同时注入 AI 日报分析上下文（仅允许引用已核实数值）
 
 ## 自动更新
 

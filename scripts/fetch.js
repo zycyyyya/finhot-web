@@ -45,6 +45,14 @@ const {
   reconcileEvents,
   writeHistoryFiles,
 } = require('./history');
+const {
+  defaultDeps: macroDefaultDeps,
+  formatMacroContext,
+  loadMacro,
+  publicMacro,
+  refreshMacro,
+  writeMacro,
+} = require('./macro');
 
 const UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36';
 // RSSHub instances — tried in order per route. First instance serving a FRESH feed wins.
@@ -777,10 +785,13 @@ function extractJSON(raw, fallback) {
   }
 }
 
-async function generateAIAnalysisWithLLM(items, apiKey) {
+async function generateAIAnalysisWithLLM(items, apiKey, macroContext) {
   const topItems = [...items]
     .sort((a, b) => (b.score || 0) - (a.score || 0))
     .slice(0, 20);
+  const macroBlock = macroContext
+    ? `\n\n=====\n当前宏观环境（数据源已核实，供分析参考；只允许引用以下数值，不得编造其他宏观数据）：\n${macroContext}`
+    : '';
 
   const articlesText = topItems.map((item, i) =>
     `[ID:${item.id}] 标题: ${item.title}\n来源: ${item.sourceName}\n日期: ${(item.publishedAt || '').substring(0, 10)}\n分类: ${item.category}\n评分: ${item.score}\n摘要: ${(item.summary || '').substring(0, 80)}`
@@ -797,7 +808,7 @@ async function generateAIAnalysisWithLLM(items, apiKey) {
   console.error('[llm] call 1/2: summary + trends...');
   const call1Messages = [
     { role: 'system', content: '你是金融保险资讯分析师。回答必须是合法的JSON格式，不要包含markdown标记或额外文字。' },
-    { role: 'user', content: `高分资讯（前20条）：\n${articlesText}\n\n=====\n近7天时间线（前30条）：\n${weeklyContext}\n\n=====\n生成JSON（topic≤48字，每板块2-3项，紧凑输出）：\n{\n  "dailySummary": { "highlights": [{ "text": "核心1", "evidenceItemIds": ["news_xxx"] }] },\n  "eventChain": { "summary": "概述", "chains": [{ "title": "链标题", "nodes": ["A", "B"], "causalLink": "仅描述证据支持的关联", "evidenceItemIds": ["news_xxx"] }] },\n  "industryImpact": {\n    "quadrants": {\n      "insurance": { "level": "high|medium|low|none", "summary": "概述", "items": [{ "title": "新闻标题", "impact": "影响描述", "suggestion": "建议", "evidenceItemIds": ["news_xxx"] }] },\n      "pe": { "level": "high|medium|low|none", "summary": "概述", "items": [{ "title": "新闻标题", "impact": "影响描述", "suggestion": "建议", "evidenceItemIds": ["news_xxx"] }] },\n      "banking": { "level": "high|medium|low|none", "summary": "概述", "items": [{ "title": "新闻标题", "impact": "影响描述", "suggestion": "建议", "evidenceItemIds": ["news_xxx"] }] },\n      "trust": { "level": "high|medium|low|none", "summary": "概述", "items": [{ "title": "新闻标题", "impact": "影响描述", "suggestion": "建议", "evidenceItemIds": ["news_xxx"] }] }\n    }\n  },\n  "weeklyTrends": { "summary": "概述", "trends": [{ "topic": "主题", "direction": "上升|下降|平稳", "evidence": "证据", "evidenceItemIds": ["news_xxx"] }] }\n}\n注意：每个结论必须包含 evidenceItemIds，只能引用输入中明确提供的 news_ ID；不得虚构 ID。industryImpact 下各 quadrant 的 items 必须是对象数组，不可返回纯字符串。事件链只能表达多条原文共同支持的关联，不能把同媒体连续报道写成因果。` },
+    { role: 'user', content: `高分资讯（前20条）：\n${articlesText}\n\n=====\n近7天时间线（前30条）：\n${weeklyContext}${macroBlock}\n\n=====\n生成JSON（topic≤48字，每板块2-3项，紧凑输出）：\n{\n  "dailySummary": { "highlights": [{ "text": "核心1", "evidenceItemIds": ["news_xxx"] }] },\n  "eventChain": { "summary": "概述", "chains": [{ "title": "链标题", "nodes": ["A", "B"], "causalLink": "仅描述证据支持的关联", "evidenceItemIds": ["news_xxx"] }] },\n  "industryImpact": {\n    "quadrants": {\n      "insurance": { "level": "high|medium|low|none", "summary": "概述", "items": [{ "title": "新闻标题", "impact": "影响描述", "suggestion": "建议", "evidenceItemIds": ["news_xxx"] }] },\n      "pe": { "level": "high|medium|low|none", "summary": "概述", "items": [{ "title": "新闻标题", "impact": "影响描述", "suggestion": "建议", "evidenceItemIds": ["news_xxx"] }] },\n      "banking": { "level": "high|medium|low|none", "summary": "概述", "items": [{ "title": "新闻标题", "impact": "影响描述", "suggestion": "建议", "evidenceItemIds": ["news_xxx"] }] },\n      "trust": { "level": "high|medium|low|none", "summary": "概述", "items": [{ "title": "新闻标题", "impact": "影响描述", "suggestion": "建议", "evidenceItemIds": ["news_xxx"] }] }\n    }\n  },\n  "weeklyTrends": { "summary": "概述", "trends": [{ "topic": "主题", "direction": "上升|下降|平稳", "evidence": "证据", "evidenceItemIds": ["news_xxx"] }] }\n}\n注意：每个结论必须包含 evidenceItemIds，只能引用输入中明确提供的 news_ ID；不得虚构 ID。industryImpact 下各 quadrant 的 items 必须是对象数组，不可返回纯字符串。事件链只能表达多条原文共同支持的关联，不能把同媒体连续报道写成因果。` },
   ];
   let parsed1 = {};
   try {
@@ -825,7 +836,25 @@ async function generateAIAnalysisWithLLM(items, apiKey) {
   return { ...parsed1, ...parsed2 };
 }
 
-async function generateAIAnalysisWithFallback(items, eventClusters, cachedAnalysis) {
+async function loadAndRefreshMacro(now) {
+  try {
+    const macro = loadMacro();
+    const { report } = await refreshMacro(macro, macroDefaultDeps(now));
+    writeMacro(macro);
+    console.error(`[macro] refreshed: ${report.refreshed.join(', ') || 'none'}; kept: ${report.kept.join(', ') || 'none'}`);
+    report.errors.forEach(err => console.error(`[macro] error: ${err}`));
+    return macro;
+  } catch (error) {
+    console.error(`[macro] refresh unavailable, reusing last macro.json: ${error.message}`);
+    try {
+      return loadMacro();
+    } catch {
+      return null;
+    }
+  }
+}
+
+async function generateAIAnalysisWithFallback(items, eventClusters, cachedAnalysis, macroContext) {
   const apiKey = process.env.DEEPSEEK_API_KEY;
   const analysisMode = process.env.FINHOT_ANALYSIS_MODE || 'full';
   const ruleBased = generateAIAnalysis(items);
@@ -838,7 +867,7 @@ async function generateAIAnalysisWithFallback(items, eventClusters, cachedAnalys
   if (apiKey) {
     try {
       console.error('[llm] generating AI analysis with SenseNova API...');
-      const result = await generateAIAnalysisWithLLM(items, apiKey);
+      const result = await generateAIAnalysisWithLLM(items, apiKey, macroContext);
       const normalized = normalizeAIAnalysis(result, items, ruleBased, 'llm', eventClusters);
       console.error('[llm] AI analysis generated and evidence-validated successfully');
       return normalized;
@@ -1336,6 +1365,8 @@ async function main() {
   assertPublicationGate(gateInput);
 
   const dateStr = beijingDateString(now);
+  const macro = await loadAndRefreshMacro(now);
+  const macroContext = formatMacroContext(macro);
   const output = {
     date: dateStr,
     generatedAt: now.toISOString(),
@@ -1353,7 +1384,8 @@ async function main() {
       eventCount: eventState.events.length,
       retentionDays: 90,
     },
-    aiAnalysis: await generateAIAnalysisWithFallback(allItems, activeEventClusters, existing.aiAnalysis),
+    macro: publicMacro(macro),
+    aiAnalysis: await generateAIAnalysisWithFallback(allItems, activeEventClusters, existing.aiAnalysis, macroContext),
   };
 
   console.error(`\n[done] +${newItems.length} new, total ${allItems.length}`);

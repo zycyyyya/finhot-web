@@ -1,0 +1,95 @@
+{
+  "schemaVersion": "1.0",
+  "updatedAt": "2026-08-12T06:09:38.505Z",
+  "note": "auto 指标由 scripts/macro.js 每日自动刷新；manual 指标为人工核实值，核实日期见 asOf。",
+  "indicators": [
+    {
+      "key": "lpr1y",
+      "name": "LPR 1年期",
+      "value": "3.00%",
+      "numericValue": 3,
+      "note": "与前期持平",
+      "direction": "flat",
+      "asOf": "2026-07-20",
+      "source": "中国货币网",
+      "mode": "auto"
+    },
+    {
+      "key": "lpr5y",
+      "name": "LPR 5年期以上",
+      "value": "3.50%",
+      "numericValue": 3.5,
+      "note": "与前期持平",
+      "direction": "flat",
+      "asOf": "2026-07-20",
+      "source": "中国货币网",
+      "mode": "auto"
+    },
+    {
+      "key": "cn10y",
+      "name": "10年期国债",
+      "value": "1.71%",
+      "numericValue": 1.71,
+      "note": "周内下破 1.70%",
+      "direction": "down",
+      "asOf": "2026-08-11",
+      "source": "中国货币网",
+      "mode": "manual"
+    },
+    {
+      "key": "deposit3y",
+      "name": "五大行3年定存",
+      "value": "1.25%",
+      "numericValue": 1.25,
+      "note": "挂牌利率下行",
+      "direction": "down",
+      "asOf": "2026-08-11",
+      "source": "五大行官网",
+      "mode": "manual"
+    },
+    {
+      "key": "us10y",
+      "name": "美债 10年期",
+      "value": "4.70%",
+      "numericValue": 4.7,
+      "note": "与前期持平",
+      "direction": "flat",
+      "asOf": "2026-08-11",
+      "source": "美国财政部",
+      "mode": "auto"
+    },
+    {
+      "key": "fedRate",
+      "name": "联邦基金利率",
+      "value": "3.50-3.75%",
+      "numericValue": null,
+      "note": "9:3 投票现分歧",
+      "direction": "flat",
+      "asOf": "2026-08-11",
+      "source": "美联储",
+      "mode": "manual"
+    },
+    {
+      "key": "usdcny",
+      "name": "美元兑人民币",
+      "value": "6.7453",
+      "numericValue": 6.7453,
+      "note": "与前期持平",
+      "direction": "flat",
+      "asOf": "2026-08-11",
+      "source": "Frankfurter/ECB",
+      "mode": "auto"
+    },
+    {
+      "key": "gold",
+      "name": "现货黄金",
+      "value": "$4,387",
+      "numericValue": 4386.700195,
+      "note": "较前期 $4,390 下降",
+      "direction": "down",
+      "asOf": "2026-08-12",
+      "source": "gold-api.com",
+      "mode": "auto"
+    }
+  ]
+}

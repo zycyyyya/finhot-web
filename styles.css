@@ -1044,6 +1044,29 @@ a {
 .macro-dir-up { color: #ef4444; }
 .macro-dir-down { color: #22c55e; }
 
+.macro-board[hidden] {
+  display: none;
+}
+
+.macro-board-legend {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--text-dim);
+  white-space: nowrap;
+}
+
+.macro-kpi-src {
+  font-size: 10px;
+  font-weight: 400;
+  color: var(--text-dim);
+  margin-top: 2px;
+}
+
+.macro-kpi-stale {
+  border-color: rgba(239, 68, 68, 0.35);
+  background: rgba(239, 68, 68, 0.06);
+}
+
 .macro-board-note {
   font-size: 12px;
   font-weight: 400;

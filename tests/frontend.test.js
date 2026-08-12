@@ -38,18 +38,21 @@ assert.ok(styles.includes('.primary-scene-privateFundSales'));
 assert.ok(styles.includes('.primary-scene-marketEducation'));
 assert.ok(styles.includes('.content-filter-tab:focus-visible'));
 
-// Macro reference board on the daily page
-assert.ok(fs.existsSync(path.join(root, 'macro-2026-08.html')), 'missing macro-2026-08.html');
-const macroHtml = fs.readFileSync(path.join(root, 'macro-2026-08.html'), 'utf8');
-assert.ok(macroHtml.includes('月度宏观政策速览'));
-assert.ok(macroHtml.includes('href="daily.html"'));
-assert.ok(dailyHtml.includes('class="macro-board"'));
-assert.ok(dailyHtml.includes('href="macro-2026-08.html"'));
-assert.ok(dailyHtml.indexOf('class="macro-board"') < dailyHtml.indexOf('id="dailySummaryArea"'),
+// Macro reference board on the daily page (data-driven from the pipeline)
+assert.ok(!fs.existsSync(path.join(root, 'macro-2026-08.html')), 'internal macro file must not be published');
+assert.ok(dailyHtml.includes('id="macroBoard"'));
+assert.ok(dailyHtml.includes('renderMacroBoard'));
+assert.ok(dailyHtml.includes('data.macro'));
+assert.ok(!dailyHtml.includes('macro-2026-08.html'), 'daily page must not link the internal macro file');
+assert.ok(dailyHtml.indexOf('id="macroBoard"') < dailyHtml.indexOf('id="dailySummaryArea"'),
   'macro board must render above the daily summary');
+assert.ok(fetchScript.includes('publicMacro(macro)'));
+assert.ok(fetchScript.includes('formatMacroContext(macro)'));
 assert.ok(styles.includes('.macro-board'));
 assert.ok(styles.includes('.macro-kpi-grid'));
+assert.ok(styles.includes('.macro-kpi-src'));
 assert.ok(styles.includes('.macro-dir-up'));
 assert.ok(styles.includes('.macro-dir-down'));
+assert.ok(styles.includes('.macro-board[hidden]'));
 
 console.log('frontend tests passed');

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-08-12T09:36:00.204Z",
+  "generatedAt": "2026-08-12T13:53:27.256Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -8,7 +8,7 @@
       "eventId": "event_37605779c26f",
       "title": "大城地产2026年上半年净租金收入同比增长3%",
       "firstSeenAt": "2026-08-06T03:43:23.319Z",
-      "lastSeenAt": "2026-08-12T09:36:00.204Z",
+      "lastSeenAt": "2026-08-12T13:53:27.256Z",
       "primaryItemId": "news_88df5a959955",
       "evidenceItemIds": [
         "news_a12982635a1e",
@@ -35,7 +35,398 @@
         "news_3ab12ce09836",
         "news_58ca5eee5279",
         "news_436f2ec78448",
-        "news_88df5a959955"
+        "news_88df5a959955",
+        "news_69131d269dff",
+        "news_8cdf154d8c9c",
+        "news_0dd15ebfc3d5"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_529af3584dc2",
+      "title": "恒指收跌0.83%，恒生科技指数跌0.99%",
+      "firstSeenAt": "2026-07-31T02:43:30.494Z",
+      "lastSeenAt": "2026-08-12T13:53:27.256Z",
+      "primaryItemId": "news_3cba95f4258f",
+      "evidenceItemIds": [
+        "news_1dd2743eb007",
+        "news_af1364619b24",
+        "news_e170ace73dc0",
+        "news_33f43c76814b",
+        "news_2675cce96b9a",
+        "news_6e822ac0babf",
+        "news_e8212d1a7d69",
+        "news_663f72230e2f",
+        "news_fd236545ab8d",
+        "news_da90b8ba791c",
+        "news_663b8633b560",
+        "news_163f09356678",
+        "news_90df26a11225",
+        "news_0105048e0696",
+        "news_100bf371b2a8",
+        "news_c6451e15adf9",
+        "news_5a5f5ff7ad17",
+        "news_084cbebc72c0",
+        "news_3cba95f4258f"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_bb9a4a29d88b",
+      "title": "“五年后AI将占到SpaceX价值的99%”，马斯克再强调AI叙事",
+      "firstSeenAt": "2026-08-10T05:44:40.094Z",
+      "lastSeenAt": "2026-08-12T13:53:27.256Z",
+      "primaryItemId": "news_c6208df74a29",
+      "evidenceItemIds": [
+        "news_b6316bc413ae",
+        "news_709b32841616",
+        "news_acc27ed61fd4",
+        "news_3ef3386322d8",
+        "news_ba0ec3136ce2",
+        "news_78ea55a2a3b9",
+        "news_57b429449daa",
+        "news_c6208df74a29"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_25a01be8f771",
+      "title": "中国航天等在杭州成立四维太空智能科技公司，注册资本20亿",
+      "firstSeenAt": "2026-08-07T09:19:21.190Z",
+      "lastSeenAt": "2026-08-12T13:53:27.256Z",
+      "primaryItemId": "news_d7d746e05e93",
+      "evidenceItemIds": [
+        "news_0a89162cc328",
+        "news_1d889a3e90ea",
+        "news_76556d64b846",
+        "news_b871e430af91",
+        "news_e14bd43495a7",
+        "news_06e19159faaa",
+        "news_22856b17b8da",
+        "news_cab7f6842d40",
+        "news_d7d746e05e93",
+        "news_19380b213065",
+        "news_c221637b3565",
+        "news_9952f0a0ccd1",
+        "news_012a8125b681"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_5e8e3a94b56e",
+      "title": "央行：将在8月14日、8月17日至8月19日开展隔夜逆回购操作，每日操作量不超过6000亿元",
+      "firstSeenAt": "2026-08-04T09:56:27.957Z",
+      "lastSeenAt": "2026-08-12T13:53:27.256Z",
+      "primaryItemId": "news_4e2e45c1f3f4",
+      "evidenceItemIds": [
+        "news_373d8891ffde",
+        "news_37c982038be7",
+        "news_7e94834f547e",
+        "news_2020354cf876",
+        "news_b8cbaf8f7c79",
+        "news_6a0d1f4c51bb",
+        "news_20a1d426916a",
+        "news_fb3711c4a3cc",
+        "news_eedf653e32e5",
+        "news_4e2e45c1f3f4"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_df54f53d67a4",
+      "title": "A股“股王”，股价重回2200元",
+      "firstSeenAt": "2026-08-12T02:47:21.829Z",
+      "lastSeenAt": "2026-08-12T13:53:27.256Z",
+      "primaryItemId": "news_84e2e80d4aa1",
+      "evidenceItemIds": [
+        "news_54cd5cf23aa2",
+        "news_84e2e80d4aa1"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_8a630d6954df",
+      "title": "“艾欧智能”完成数亿元融资",
+      "firstSeenAt": "2026-08-12T02:47:21.829Z",
+      "lastSeenAt": "2026-08-12T13:53:27.256Z",
+      "primaryItemId": "news_ff55a28d3bf5",
+      "evidenceItemIds": [
+        "news_125625d17c84",
+        "news_b85fbf369301",
+        "news_ff55a28d3bf5"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_538a7904636d",
+      "title": "半日主力资金加仓电子板块，抛售银行板块",
+      "firstSeenAt": "2026-08-10T05:44:40.094Z",
+      "lastSeenAt": "2026-08-12T13:53:27.256Z",
+      "primaryItemId": "news_1d28e72bb2ae",
+      "evidenceItemIds": [
+        "news_362d47e51e31",
+        "news_b45ce18ba023",
+        "news_1d28e72bb2ae"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_a34e4cffb573",
+      "title": "星巴克中国回应“蜜雪冰城代工”传闻：严重失实",
+      "firstSeenAt": "2026-08-12T05:48:41.249Z",
+      "lastSeenAt": "2026-08-12T13:53:27.256Z",
+      "primaryItemId": "news_6dab9622871a",
+      "evidenceItemIds": [
+        "news_6dab9622871a",
+        "news_75e78d96bf55"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_202dd878fa19",
+      "title": "晚间公告｜8月12日这些公告有看头",
+      "firstSeenAt": "2026-07-31T14:43:32.623Z",
+      "lastSeenAt": "2026-08-12T13:53:27.256Z",
+      "primaryItemId": "news_f755ad25cd3e",
+      "evidenceItemIds": [
+        "news_eaf56a2f5345",
+        "news_8b256f193830",
+        "news_58fdd88ca5ff",
+        "news_4cac4c806a4b",
+        "news_f202b91c5619",
+        "news_c91687230a2c",
+        "news_958c3f39adb1",
+        "news_a328d8732020",
+        "news_042b264c9695",
+        "news_0f321ef4412b",
+        "news_6fe4b8332584",
+        "news_f755ad25cd3e"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_cbdf0728d815",
+      "title": "巍华新材(603310.SH)拟8000万元至1.2亿元回购公司股份",
+      "firstSeenAt": "2026-08-11T13:48:34.538Z",
+      "lastSeenAt": "2026-08-12T13:53:27.256Z",
+      "primaryItemId": "news_c922472f6355",
+      "evidenceItemIds": [
+        "news_4d96eacb88bf",
+        "news_c86e31d7870b",
+        "news_c1d7b15cefe7",
+        "news_c922472f6355",
+        "news_0da36dcadaf8"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_0737eac2cabb",
+      "title": "连板股追踪丨A股今日共97只个股涨停 百花医药7连板",
+      "firstSeenAt": "2026-07-31T02:43:30.494Z",
+      "lastSeenAt": "2026-08-12T13:53:27.256Z",
+      "primaryItemId": "news_715b15a27912",
+      "evidenceItemIds": [
+        "news_cf2b97a75d61",
+        "news_6b2b1bbc6628",
+        "news_0b0558cddf77",
+        "news_2a647756104e",
+        "news_8818289af9a3",
+        "news_11eae49a5b16",
+        "news_9e9caeefd1f2",
+        "news_83287e13cba2",
+        "news_8b8e574d724a",
+        "news_ac696b49df1d",
+        "news_715b15a27912"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_ce5e0cbed733",
+      "title": "港股评级汇总：中金公司维持阅文集团跑赢行业评级",
+      "firstSeenAt": "2026-08-10T09:54:06.980Z",
+      "lastSeenAt": "2026-08-12T13:53:27.256Z",
+      "primaryItemId": "news_bb4bd2fad08a",
+      "evidenceItemIds": [
+        "news_ff8ada5d229d",
+        "news_038fffd08eb2",
+        "news_1e24c2798e8a",
+        "news_bb4bd2fad08a"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_a19b18e260fb",
+      "title": "今晚美国CPI，或重创9月加息预期？",
+      "firstSeenAt": "2026-08-12T09:36:00.204Z",
+      "lastSeenAt": "2026-08-12T13:53:27.256Z",
+      "primaryItemId": "news_412b18a124af",
+      "evidenceItemIds": [
+        "news_412b18a124af",
+        "news_3aba19d5695d"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_1db52a75cb62",
+      "title": "AI初创企业Cognition洽谈新一轮融资 估值或高达400亿美元",
+      "firstSeenAt": "2026-08-12T09:36:00.204Z",
+      "lastSeenAt": "2026-08-12T13:53:27.256Z",
+      "primaryItemId": "news_d3273b03e5c7",
+      "evidenceItemIds": [
+        "news_d3273b03e5c7",
+        "news_282d022ab603"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_d0eab2e69794",
+      "title": "港股收盘 | 三大指数集体走弱 腾讯音乐绩后重挫超12%",
+      "firstSeenAt": "2026-08-12T09:36:00.204Z",
+      "lastSeenAt": "2026-08-12T13:53:27.256Z",
+      "primaryItemId": "news_e612d57ecd1e",
+      "evidenceItemIds": [
+        "news_e612d57ecd1e",
+        "news_54b7543653d7"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_4f8779d67095",
+      "title": "腾讯：二季度营收2047.85亿元，同比增长11%",
+      "firstSeenAt": "2026-08-12T09:36:00.204Z",
+      "lastSeenAt": "2026-08-12T13:53:27.256Z",
+      "primaryItemId": "news_39ab5d03f483",
+      "evidenceItemIds": [
+        "news_39ab5d03f483",
+        "news_d1557eca20c1"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_2a7afdc97c1a",
+      "title": "长华化学旗下连云港科技公司增资至10亿，增幅约67%",
+      "firstSeenAt": "2026-08-12T09:36:00.204Z",
+      "lastSeenAt": "2026-08-12T13:53:27.256Z",
+      "primaryItemId": "news_c094f1ffd84d",
+      "evidenceItemIds": [
+        "news_c094f1ffd84d",
+        "news_3e2186df3acd"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_3ea490238747",
+      "title": "港股公告精选｜腾讯上半年盈利同比增约一成 华润置地前7月销售超1300亿元",
+      "firstSeenAt": "2026-08-07T13:45:41.405Z",
+      "lastSeenAt": "2026-08-12T13:53:27.256Z",
+      "primaryItemId": "news_1495850beec3",
+      "evidenceItemIds": [
+        "news_54ec9e48ee4b",
+        "news_1e410a1e3608",
+        "news_094519d937a5",
+        "news_5b96e360a99d",
+        "news_7e664f392c95",
+        "news_fd950cf3ac06",
+        "news_36036a0395a3",
+        "news_1495850beec3"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_32967e3730b8",
+      "title": "科技股“大逃亡”",
+      "firstSeenAt": "2026-08-03T15:23:32.854Z",
+      "lastSeenAt": "2026-08-12T13:53:27.256Z",
+      "primaryItemId": "news_9078b6a91c76",
+      "evidenceItemIds": [
+        "news_8394862df655",
+        "news_b8561adf7643",
+        "news_8b0ae127cd97",
+        "news_69866ab410e2",
+        "news_df9f7f47921a",
+        "news_d3b1a6fd627e",
+        "news_42ca90256576",
+        "news_04a959a73a68",
+        "news_92257b4a2373",
+        "news_9078b6a91c76",
+        "news_47c824b8354b",
+        "news_a1473e93f9d4",
+        "news_d9743ef9e935",
+        "news_734d74c93284",
+        "news_7a77b49fc9c2"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_25ff2de50985",
+      "title": "面壁智能启动IPO辅导：端侧模型赶上AI手机浪潮？",
+      "firstSeenAt": "2026-08-12T13:53:27.256Z",
+      "lastSeenAt": "2026-08-12T13:53:27.256Z",
+      "primaryItemId": "news_09407c417026",
+      "evidenceItemIds": [
+        "news_09407c417026",
+        "news_af34f09768e3"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_2713ed958169",
+      "title": "全面符合预期！美国7月CPI同比涨幅收窄至3.4%，核心CPI同比放缓至2.5%",
+      "firstSeenAt": "2026-08-12T13:53:27.256Z",
+      "lastSeenAt": "2026-08-12T13:53:27.256Z",
+      "primaryItemId": "news_2b72a6df5ca6",
+      "evidenceItemIds": [
+        "news_2b72a6df5ca6",
+        "news_f27e056f1da3",
+        "news_4a5e4517cb29"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_a65db2eeb569",
+      "title": "年内最贵新股频准激光：科创板IPO发行价格186.88元/股",
+      "firstSeenAt": "2026-08-12T13:53:27.256Z",
+      "lastSeenAt": "2026-08-12T13:53:27.256Z",
+      "primaryItemId": "news_7d569b9297dc",
+      "evidenceItemIds": [
+        "news_7d569b9297dc",
+        "news_893a4769a8e0"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_d9c564048acd",
+      "title": "6家获配宇树科技，银行理财打新再扩容",
+      "firstSeenAt": "2026-08-12T13:53:27.256Z",
+      "lastSeenAt": "2026-08-12T13:53:27.256Z",
+      "primaryItemId": "news_81326658bf01",
+      "evidenceItemIds": [
+        "news_81326658bf01",
+        "news_8b4b21379e82"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_a28a9c93d467",
+      "title": "南向资金追踪｜净卖出约29亿港元 加仓Minimax抛售多只AI硬件概念股",
+      "firstSeenAt": "2026-08-12T13:53:27.256Z",
+      "lastSeenAt": "2026-08-12T13:53:27.256Z",
+      "primaryItemId": "news_4f6ca78751ae",
+      "evidenceItemIds": [
+        "news_4f6ca78751ae",
+        "news_7c9726fdb3d7"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_c6f2f59a9f9e",
+      "title": "中国创新投资(01217)7月末每股资产净值约 0.044 港元",
+      "firstSeenAt": "2026-08-12T13:53:27.256Z",
+      "lastSeenAt": "2026-08-12T13:53:27.256Z",
+      "primaryItemId": "news_2b1414ca13b7",
+      "evidenceItemIds": [
+        "news_2b1414ca13b7",
+        "news_eb9f3264b6f2"
       ],
       "status": "developing"
     },
@@ -79,52 +470,6 @@
       "status": "developing"
     },
     {
-      "eventId": "event_529af3584dc2",
-      "title": "恒指收跌0.83%，恒生科技指数跌0.99%",
-      "firstSeenAt": "2026-07-31T02:43:30.494Z",
-      "lastSeenAt": "2026-08-12T09:36:00.204Z",
-      "primaryItemId": "news_3cba95f4258f",
-      "evidenceItemIds": [
-        "news_1dd2743eb007",
-        "news_af1364619b24",
-        "news_e170ace73dc0",
-        "news_33f43c76814b",
-        "news_2675cce96b9a",
-        "news_6e822ac0babf",
-        "news_e8212d1a7d69",
-        "news_663f72230e2f",
-        "news_fd236545ab8d",
-        "news_da90b8ba791c",
-        "news_663b8633b560",
-        "news_163f09356678",
-        "news_90df26a11225",
-        "news_0105048e0696",
-        "news_100bf371b2a8",
-        "news_c6451e15adf9",
-        "news_5a5f5ff7ad17",
-        "news_084cbebc72c0",
-        "news_3cba95f4258f"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_bb9a4a29d88b",
-      "title": "马斯克：AI收入下月将超越SpaceX全部其他业务，五年后AI占SpaceX价值99%",
-      "firstSeenAt": "2026-08-10T05:44:40.094Z",
-      "lastSeenAt": "2026-08-12T09:36:00.204Z",
-      "primaryItemId": "news_78ea55a2a3b9",
-      "evidenceItemIds": [
-        "news_b6316bc413ae",
-        "news_709b32841616",
-        "news_acc27ed61fd4",
-        "news_3ef3386322d8",
-        "news_ba0ec3136ce2",
-        "news_78ea55a2a3b9",
-        "news_57b429449daa"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_dacd693720e9",
       "title": "希腊6月工业产出同比增长1.1%",
       "firstSeenAt": "2026-08-10T13:52:07.777Z",
@@ -146,29 +491,6 @@
         "news_47c2724f586f",
         "news_606bc83174aa",
         "news_2c9d2ec0383f"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_25a01be8f771",
-      "title": "中国航天等在杭州成立四维太空智能科技公司，注册资本20亿",
-      "firstSeenAt": "2026-08-07T09:19:21.190Z",
-      "lastSeenAt": "2026-08-12T09:36:00.204Z",
-      "primaryItemId": "news_d7d746e05e93",
-      "evidenceItemIds": [
-        "news_0a89162cc328",
-        "news_1d889a3e90ea",
-        "news_76556d64b846",
-        "news_b871e430af91",
-        "news_e14bd43495a7",
-        "news_06e19159faaa",
-        "news_22856b17b8da",
-        "news_cab7f6842d40",
-        "news_d7d746e05e93",
-        "news_19380b213065",
-        "news_c221637b3565",
-        "news_9952f0a0ccd1",
-        "news_012a8125b681"
       ],
       "status": "developing"
     },
@@ -203,26 +525,6 @@
         "news_56f2fe7df40c",
         "news_4bcfcf17662a",
         "news_1e16c7e47c8f"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_5e8e3a94b56e",
-      "title": "央行：将在8月14日、8月17日至8月19日开展隔夜逆回购操作，每日操作量不超过6000亿元",
-      "firstSeenAt": "2026-08-04T09:56:27.957Z",
-      "lastSeenAt": "2026-08-12T09:36:00.204Z",
-      "primaryItemId": "news_4e2e45c1f3f4",
-      "evidenceItemIds": [
-        "news_373d8891ffde",
-        "news_37c982038be7",
-        "news_7e94834f547e",
-        "news_2020354cf876",
-        "news_b8cbaf8f7c79",
-        "news_6a0d1f4c51bb",
-        "news_20a1d426916a",
-        "news_fb3711c4a3cc",
-        "news_eedf653e32e5",
-        "news_4e2e45c1f3f4"
       ],
       "status": "developing"
     },
@@ -267,18 +569,6 @@
       "status": "developing"
     },
     {
-      "eventId": "event_df54f53d67a4",
-      "title": "A股“股王”，股价重回2200元",
-      "firstSeenAt": "2026-08-12T02:47:21.829Z",
-      "lastSeenAt": "2026-08-12T09:36:00.204Z",
-      "primaryItemId": "news_84e2e80d4aa1",
-      "evidenceItemIds": [
-        "news_54cd5cf23aa2",
-        "news_84e2e80d4aa1"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_b7a3893d8c1c",
       "title": "债市早参8月12日|央行逆回购再现“零操作”，止盈情绪压制债市交易；城投债7月净融资-195.57亿元",
       "firstSeenAt": "2026-08-12T02:47:21.829Z",
@@ -315,19 +605,6 @@
       "status": "developing"
     },
     {
-      "eventId": "event_8a630d6954df",
-      "title": "“希奥端计算”完成数亿元A轮融资",
-      "firstSeenAt": "2026-08-12T02:47:21.829Z",
-      "lastSeenAt": "2026-08-12T09:36:00.204Z",
-      "primaryItemId": "news_125625d17c84",
-      "evidenceItemIds": [
-        "news_125625d17c84",
-        "news_b85fbf369301",
-        "news_ff55a28d3bf5"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_658ec942662e",
       "title": "xAI联合创始人创立的River AI完成11亿美元融资，加速扩展AI模型工具",
       "firstSeenAt": "2026-08-12T02:47:21.829Z",
@@ -352,52 +629,6 @@
       "status": "developing"
     },
     {
-      "eventId": "event_538a7904636d",
-      "title": "半日主力资金加仓电子板块，抛售银行板块",
-      "firstSeenAt": "2026-08-10T05:44:40.094Z",
-      "lastSeenAt": "2026-08-12T09:36:00.204Z",
-      "primaryItemId": "news_1d28e72bb2ae",
-      "evidenceItemIds": [
-        "news_362d47e51e31",
-        "news_b45ce18ba023",
-        "news_1d28e72bb2ae"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_a34e4cffb573",
-      "title": "星巴克中国回应“蜜雪冰城代工”传闻：严重失实",
-      "firstSeenAt": "2026-08-12T05:48:41.249Z",
-      "lastSeenAt": "2026-08-12T09:36:00.204Z",
-      "primaryItemId": "news_6dab9622871a",
-      "evidenceItemIds": [
-        "news_6dab9622871a",
-        "news_75e78d96bf55"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_202dd878fa19",
-      "title": "晚间公告｜8月11日这些公告有看头",
-      "firstSeenAt": "2026-07-31T14:43:32.623Z",
-      "lastSeenAt": "2026-08-12T09:36:00.204Z",
-      "primaryItemId": "news_6fe4b8332584",
-      "evidenceItemIds": [
-        "news_eaf56a2f5345",
-        "news_8b256f193830",
-        "news_58fdd88ca5ff",
-        "news_4cac4c806a4b",
-        "news_f202b91c5619",
-        "news_c91687230a2c",
-        "news_958c3f39adb1",
-        "news_a328d8732020",
-        "news_042b264c9695",
-        "news_0f321ef4412b",
-        "news_6fe4b8332584"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_8c56dd5fd3b8",
       "title": "从闪迪到长鑫，内存长协扩散至二三线厂商",
       "firstSeenAt": "2026-08-12T06:12:36.696Z",
@@ -406,133 +637,6 @@
       "evidenceItemIds": [
         "news_bf11b74e02c5",
         "news_7024b2ff82ac"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_cbdf0728d815",
-      "title": "巍华新材(603310.SH)拟8000万元至1.2亿元回购公司股份",
-      "firstSeenAt": "2026-08-11T13:48:34.538Z",
-      "lastSeenAt": "2026-08-12T09:36:00.204Z",
-      "primaryItemId": "news_c922472f6355",
-      "evidenceItemIds": [
-        "news_4d96eacb88bf",
-        "news_c86e31d7870b",
-        "news_c1d7b15cefe7",
-        "news_c922472f6355",
-        "news_0da36dcadaf8"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_0737eac2cabb",
-      "title": "连板股追踪丨A股今日共97只个股涨停 百花医药7连板",
-      "firstSeenAt": "2026-07-31T02:43:30.494Z",
-      "lastSeenAt": "2026-08-12T09:36:00.204Z",
-      "primaryItemId": "news_715b15a27912",
-      "evidenceItemIds": [
-        "news_cf2b97a75d61",
-        "news_6b2b1bbc6628",
-        "news_0b0558cddf77",
-        "news_2a647756104e",
-        "news_8818289af9a3",
-        "news_11eae49a5b16",
-        "news_9e9caeefd1f2",
-        "news_83287e13cba2",
-        "news_8b8e574d724a",
-        "news_ac696b49df1d",
-        "news_715b15a27912"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_ce5e0cbed733",
-      "title": "港股评级汇总：中金公司维持阅文集团跑赢行业评级",
-      "firstSeenAt": "2026-08-10T09:54:06.980Z",
-      "lastSeenAt": "2026-08-12T09:36:00.204Z",
-      "primaryItemId": "news_bb4bd2fad08a",
-      "evidenceItemIds": [
-        "news_ff8ada5d229d",
-        "news_038fffd08eb2",
-        "news_1e24c2798e8a",
-        "news_bb4bd2fad08a"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_a19b18e260fb",
-      "title": "今晚美国CPI，或重创9月加息预期？",
-      "firstSeenAt": "2026-08-12T09:36:00.204Z",
-      "lastSeenAt": "2026-08-12T09:36:00.204Z",
-      "primaryItemId": "news_412b18a124af",
-      "evidenceItemIds": [
-        "news_412b18a124af",
-        "news_3aba19d5695d"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_1db52a75cb62",
-      "title": "AI初创企业Cognition洽谈新一轮融资 估值或高达400亿美元",
-      "firstSeenAt": "2026-08-12T09:36:00.204Z",
-      "lastSeenAt": "2026-08-12T09:36:00.204Z",
-      "primaryItemId": "news_d3273b03e5c7",
-      "evidenceItemIds": [
-        "news_d3273b03e5c7",
-        "news_282d022ab603"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_d0eab2e69794",
-      "title": "港股收盘 | 三大指数集体走弱 腾讯音乐绩后重挫超12%",
-      "firstSeenAt": "2026-08-12T09:36:00.204Z",
-      "lastSeenAt": "2026-08-12T09:36:00.204Z",
-      "primaryItemId": "news_e612d57ecd1e",
-      "evidenceItemIds": [
-        "news_e612d57ecd1e",
-        "news_54b7543653d7"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_4f8779d67095",
-      "title": "腾讯：二季度营收2047.85亿元，同比增长11%",
-      "firstSeenAt": "2026-08-12T09:36:00.204Z",
-      "lastSeenAt": "2026-08-12T09:36:00.204Z",
-      "primaryItemId": "news_39ab5d03f483",
-      "evidenceItemIds": [
-        "news_39ab5d03f483",
-        "news_d1557eca20c1"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_2a7afdc97c1a",
-      "title": "长华化学旗下连云港科技公司增资至10亿，增幅约67%",
-      "firstSeenAt": "2026-08-12T09:36:00.204Z",
-      "lastSeenAt": "2026-08-12T09:36:00.204Z",
-      "primaryItemId": "news_c094f1ffd84d",
-      "evidenceItemIds": [
-        "news_c094f1ffd84d",
-        "news_3e2186df3acd"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_3ea490238747",
-      "title": "港股公告精选｜五矿资源中期盈利同比增超160% 康师傅控股上半年收入超400亿元",
-      "firstSeenAt": "2026-08-07T13:45:41.405Z",
-      "lastSeenAt": "2026-08-12T06:12:36.696Z",
-      "primaryItemId": "news_36036a0395a3",
-      "evidenceItemIds": [
-        "news_54ec9e48ee4b",
-        "news_1e410a1e3608",
-        "news_094519d937a5",
-        "news_5b96e360a99d",
-        "news_7e664f392c95",
-        "news_fd950cf3ac06",
-        "news_36036a0395a3"
       ],
       "status": "developing"
     },
@@ -546,29 +650,6 @@
         "news_782c73c742b5",
         "news_bcc10b951c1f",
         "news_526659d76bf8"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_32967e3730b8",
-      "title": "科技股“大逃亡”",
-      "firstSeenAt": "2026-08-03T15:23:32.854Z",
-      "lastSeenAt": "2026-08-12T05:48:41.249Z",
-      "primaryItemId": "news_9078b6a91c76",
-      "evidenceItemIds": [
-        "news_8394862df655",
-        "news_b8561adf7643",
-        "news_8b0ae127cd97",
-        "news_69866ab410e2",
-        "news_df9f7f47921a",
-        "news_d3b1a6fd627e",
-        "news_42ca90256576",
-        "news_04a959a73a68",
-        "news_92257b4a2373",
-        "news_9078b6a91c76",
-        "news_47c824b8354b",
-        "news_a1473e93f9d4",
-        "news_d9743ef9e935"
       ],
       "status": "developing"
     },

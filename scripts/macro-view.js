@@ -47,11 +47,11 @@
     indicators.forEach(function (ind) {
       var dirClass = ind.direction === 'up' ? 'macro-dir-up' : (ind.direction === 'down' ? 'macro-dir-down' : '');
       html += '<div class="macro-kpi">';
+      var modeLabel = ind.mode === 'auto' ? '自动' : '人工核实';
       html += '  <div class="macro-kpi-name">' + escapeHtml(ind.name || '') + '</div>';
       html += '  <div class="macro-kpi-val">' + escapeHtml(ind.value || '') + '</div>';
-      html += '  <div class="macro-kpi-note ' + dirClass + '">' + escapeHtml(ind.note || '') + '</div>';
-      html += '  <div class="macro-kpi-src">' + escapeHtml(ind.mode === 'auto' ? '自动' : '人工核实')
-        + ' · ' + escapeHtml(ind.source || '') + (ind.asOf ? ' · ' + escapeHtml(ind.asOf) : '') + '</div>';
+      html += '  <div class="macro-kpi-note ' + dirClass + '">' + escapeHtml(ind.note || '')
+        + '<span class="macro-kpi-mode">' + escapeHtml(modeLabel) + '</span></div>';
       html += '</div>';
     });
 

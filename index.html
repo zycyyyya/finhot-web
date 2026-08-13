@@ -18,6 +18,20 @@
   </nav>
 </header>
 
+<div class="macro-board-wrap">
+  <section class="macro-board" id="macroBoard" aria-label="宏观政策参考看板" hidden>
+    <div class="macro-board-head">
+      <div class="macro-board-heading">
+        <span class="macro-board-name">宏观参考看板</span>
+        <span class="macro-board-issue"></span>
+      </div>
+      <span class="macro-board-legend">每日随管线自动更新 · 人工核实项标注日期</span>
+    </div>
+    <div class="macro-kpi-grid"></div>
+    <p class="macro-board-note">LPR、美债收益率、汇率、黄金由数据管线每日自动刷新；10年期国债、存款利率、联邦基金利率为人工核实值。所有数值均来自官方信源或权威数据接口。</p>
+  </section>
+</div>
+
 <div class="filter-shell">
   <div class="category-bar" id="categoryBar" aria-label="业务场景"></div>
   <div class="content-filter-bar" id="contentFilterBar" aria-label="内容属性"></div>
@@ -35,9 +49,13 @@
 </div>
 
 <script src="data.js"></script>
+<script src="scripts/macro-view.js"></script>
 <script>
 (function() {
   var data = window.FINHOT_DATA;
+  if (window.MacroBoard) {
+    window.MacroBoard.render('macroBoard', data && data.macro);
+  }
   var categories = window.CATEGORIES;
   var contentFilters = window.CONTENT_FILTERS;
   var config = window.CATEGORY_CONFIG;

@@ -25,17 +25,6 @@
       <p class="report-date" id="reportDate"></p>
       <p class="report-lead" id="reportLead"></p>
     </div>
-    <section class="macro-board" id="macroBoard" aria-label="宏观政策参考看板" hidden>
-      <div class="macro-board-head">
-        <div class="macro-board-heading">
-          <span class="macro-board-name">宏观参考看板</span>
-          <span class="macro-board-issue" id="macroBoardMeta"></span>
-        </div>
-        <span class="macro-board-legend">每日随管线自动更新 · 人工核实项标注日期</span>
-      </div>
-      <div class="macro-kpi-grid" id="macroKpiGrid"></div>
-      <p class="macro-board-note">LPR、美债收益率、汇率、黄金由数据管线每日自动刷新；10年期国债、存款利率、联邦基金利率为人工核实值。所有数值均来自官方信源或权威数据接口。</p>
-    </section>
     <div class="divider"></div>
     <div id="dailySummaryArea"></div>
     <div class="divider"></div>
@@ -98,50 +87,6 @@
     : reportDate.toLocaleDateString('zh-CN', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
 
   document.getElementById('reportLead').textContent = data.lead || '';
-
-  // === Macro Reference Board (rendered from pipeline-refreshed data) ===
-  (function renderMacroBoard(macro) {
-    var board = document.getElementById('macroBoard');
-    if (!board) return;
-    var indicators = macro && Array.isArray(macro.indicators) ? macro.indicators : [];
-    if (indicators.length === 0) return;
-
-    var latestAsOf = indicators.reduce(function(max, ind) {
-      return ind && ind.asOf && ind.asOf > max ? ind.asOf : max;
-    }, '');
-    var refreshedAt = '';
-    if (macro.updatedAt) {
-      var parsed = new Date(macro.updatedAt);
-      refreshedAt = Number.isNaN(parsed.getTime()) ? '' : parsed.toLocaleDateString('zh-CN');
-    }
-    var meta = [];
-    if (latestAsOf) meta.push('数据截至 ' + latestAsOf);
-    if (refreshedAt) meta.push('刷新于 ' + refreshedAt);
-    document.getElementById('macroBoardMeta').textContent = meta.join(' · ');
-
-    var isStale = latestAsOf
-      ? (Date.now() - new Date(latestAsOf + 'T00:00:00Z').getTime()) > 45 * 86400000
-      : false;
-
-    var html = '';
-    indicators.forEach(function(ind) {
-      var dirClass = ind.direction === 'up' ? 'macro-dir-up' : (ind.direction === 'down' ? 'macro-dir-down' : '');
-      html += '<div class="macro-kpi">';
-      html += '  <div class="macro-kpi-name">' + escapeHtml(ind.name || '') + '</div>';
-      html += '  <div class="macro-kpi-val">' + escapeHtml(ind.value || '') + '</div>';
-      html += '  <div class="macro-kpi-note ' + dirClass + '">' + escapeHtml(ind.note || '') + '</div>';
-      html += '  <div class="macro-kpi-src">' + escapeHtml(ind.mode === 'auto' ? '自动' : '人工核实')
-        + ' · ' + escapeHtml(ind.source || '') + (ind.asOf ? ' · ' + escapeHtml(ind.asOf) : '') + '</div>';
-      html += '</div>';
-    });
-    if (isStale) {
-      html += '<div class="macro-kpi macro-kpi-stale"><div class="macro-kpi-name">更新提醒</div>'
-        + '<div class="macro-kpi-val">待核实</div>'
-        + '<div class="macro-kpi-note macro-dir-up">人工核实项已超过 45 天未复核</div></div>';
-    }
-    document.getElementById('macroKpiGrid').innerHTML = html;
-    board.hidden = false;
-  })(data.macro);
 
   // === Daily Summary (3-line takeaways) ===
   (function renderSummary(analysis) {

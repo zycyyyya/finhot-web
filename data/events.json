@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-08-14T13:49:37.381Z",
+  "generatedAt": "2026-08-15T01:52:48.929Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -8,7 +8,7 @@
       "eventId": "event_37605779c26f",
       "title": "钢研纳克(300797.SZ)发布上半年业绩，归母净利润7692.14万元，同比增长32.02%",
       "firstSeenAt": "2026-08-06T03:43:23.319Z",
-      "lastSeenAt": "2026-08-14T13:49:37.381Z",
+      "lastSeenAt": "2026-08-15T01:52:48.929Z",
       "primaryItemId": "news_afea8faf650b",
       "evidenceItemIds": [
         "news_a12982635a1e",
@@ -47,6 +47,454 @@
         "news_afea8faf650b",
         "news_f996def0d165",
         "news_f43a7f4a3f36"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_2713ed958169",
+      "title": "美国7月CPI年率降至3.4%，符合预期",
+      "firstSeenAt": "2026-08-12T13:53:27.256Z",
+      "lastSeenAt": "2026-08-15T01:52:48.929Z",
+      "primaryItemId": "news_4a5e4517cb29",
+      "evidenceItemIds": [
+        "news_2b72a6df5ca6",
+        "news_f27e056f1da3",
+        "news_4a5e4517cb29",
+        "news_322cd8eae905"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_1e2fc6335507",
+      "title": "名创优品：预计2026年上半年期内利润约人民币9.4亿元至人民币9.6亿元，同比增加约4%至6%",
+      "firstSeenAt": "2026-08-13T13:53:29.824Z",
+      "lastSeenAt": "2026-08-15T01:52:48.929Z",
+      "primaryItemId": "news_709390e09396",
+      "evidenceItemIds": [
+        "news_af1d2ca432e0",
+        "news_91d026f0ec7e",
+        "news_59c81b385272",
+        "news_9dc491231668",
+        "news_12bcdb8ebfb9",
+        "news_6f8d9e6a2db0",
+        "news_58ca5eee5279",
+        "news_709390e09396"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_d0a4f7f6abd4",
+      "title": "隔夜美股 | 三大指数涨跌不一 闪迪(SNDK.US)涨7.39%",
+      "firstSeenAt": "2026-07-31T02:27:13.623Z",
+      "lastSeenAt": "2026-08-15T01:52:48.929Z",
+      "primaryItemId": "news_fdebad6d73cd",
+      "evidenceItemIds": [
+        "news_69277baadba1",
+        "news_ad373c949e7b",
+        "news_de2c7c0610be",
+        "news_1bc045c14611",
+        "news_65a42acd7dfb",
+        "news_62c7595d3886",
+        "news_cf4bee0d18ed",
+        "news_fdebad6d73cd",
+        "news_a88e3ff8e5e9"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_9890709822b0",
+      "title": "德国30年期国债收益率上升8个基点至3.72%，创2011年以来新高",
+      "firstSeenAt": "2026-08-14T02:49:10.067Z",
+      "lastSeenAt": "2026-08-15T01:52:48.929Z",
+      "primaryItemId": "news_cb64889d9678",
+      "evidenceItemIds": [
+        "news_76daf30e7b23",
+        "news_9d8e43222c8b",
+        "news_743182f468df",
+        "news_cb64889d9678"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_8d5b986d9efe",
+      "title": "中际旭创拟入股中石科技，吴氏家族一把套现逾17亿",
+      "firstSeenAt": "2026-08-14T02:49:10.067Z",
+      "lastSeenAt": "2026-08-15T01:52:48.929Z",
+      "primaryItemId": "news_53f21379477c",
+      "evidenceItemIds": [
+        "news_22ecc7a2f8ad",
+        "news_ca9042c652d4",
+        "news_53f21379477c"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_c6f2f59a9f9e",
+      "title": "华科智能投资(01140)7月末每股资产净值约为1.104港元",
+      "firstSeenAt": "2026-08-12T13:53:27.256Z",
+      "lastSeenAt": "2026-08-15T01:52:48.929Z",
+      "primaryItemId": "news_9b3cd4842706",
+      "evidenceItemIds": [
+        "news_2b1414ca13b7",
+        "news_eb9f3264b6f2",
+        "news_35b7090a4b58",
+        "news_9b3cd4842706"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_0737eac2cabb",
+      "title": "连板股追踪丨A股今日共64只个股涨停 天洋新材3连板",
+      "firstSeenAt": "2026-07-31T02:43:30.494Z",
+      "lastSeenAt": "2026-08-15T01:52:48.929Z",
+      "primaryItemId": "news_1870ff4e37cf",
+      "evidenceItemIds": [
+        "news_cf2b97a75d61",
+        "news_6b2b1bbc6628",
+        "news_0b0558cddf77",
+        "news_2a647756104e",
+        "news_8818289af9a3",
+        "news_11eae49a5b16",
+        "news_9e9caeefd1f2",
+        "news_83287e13cba2",
+        "news_8b8e574d724a",
+        "news_ac696b49df1d",
+        "news_715b15a27912",
+        "news_ecd33045b37e",
+        "news_1870ff4e37cf"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_b96b95410778",
+      "title": "债市收盘|隔夜逆回购投放3490亿，10年期国债收益率小幅下行",
+      "firstSeenAt": "2026-08-13T09:37:48.214Z",
+      "lastSeenAt": "2026-08-15T01:52:48.929Z",
+      "primaryItemId": "news_1c802d3e1a8b",
+      "evidenceItemIds": [
+        "news_90bf45366481",
+        "news_c3ff5c71fa66",
+        "news_ab6156867ced",
+        "news_1c802d3e1a8b"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_35f644762551",
+      "title": "瑞士经济2026年第二季度增长1.5%",
+      "firstSeenAt": "2026-07-31T07:13:50.095Z",
+      "lastSeenAt": "2026-08-15T01:52:48.929Z",
+      "primaryItemId": "news_3e5c3765f0fe",
+      "evidenceItemIds": [
+        "news_96650f58c987",
+        "news_37dab9643246",
+        "news_a1bcbd6a523d",
+        "news_9c07028bb934",
+        "news_ae4ac5b4fff7",
+        "news_3e5c3765f0fe",
+        "news_24fcd8bc642f"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_6623a2f04ded",
+      "title": "银行、地铁站、游船、音乐节、景区，都能办结婚证了",
+      "firstSeenAt": "2026-08-14T09:32:35.022Z",
+      "lastSeenAt": "2026-08-15T01:52:48.929Z",
+      "primaryItemId": "news_78f41ae45385",
+      "evidenceItemIds": [
+        "news_78f41ae45385",
+        "news_46a24e9c88de"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_1b1554ee2031",
+      "title": "国家外汇局：上半年我国经常账户顺差26174亿元",
+      "firstSeenAt": "2026-08-14T09:32:35.022Z",
+      "lastSeenAt": "2026-08-15T01:52:48.929Z",
+      "primaryItemId": "news_6d885bc5f749",
+      "evidenceItemIds": [
+        "news_6d885bc5f749",
+        "news_eebac4da5c4c"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_0c31f8d23a0c",
+      "title": "央行：前七个月人民币贷款增加10.38万亿元",
+      "firstSeenAt": "2026-08-14T09:32:35.022Z",
+      "lastSeenAt": "2026-08-15T01:52:48.929Z",
+      "primaryItemId": "news_04dbb300d734",
+      "evidenceItemIds": [
+        "news_04dbb300d734",
+        "news_a1711abfa138"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_bc1b4f05c9ef",
+      "title": "央行：2026年7月末社会融资规模存量为463.27万亿元，同比增长7.4%",
+      "firstSeenAt": "2026-08-14T09:32:35.022Z",
+      "lastSeenAt": "2026-08-15T01:52:48.929Z",
+      "primaryItemId": "news_5478312438f3",
+      "evidenceItemIds": [
+        "news_5478312438f3",
+        "news_52fdecaeaa3f"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_5230d2648829",
+      "title": "法国7月通胀率同比上涨2.4%",
+      "firstSeenAt": "2026-08-14T09:32:35.022Z",
+      "lastSeenAt": "2026-08-15T01:52:48.929Z",
+      "primaryItemId": "news_06f7ffaae260",
+      "evidenceItemIds": [
+        "news_06f7ffaae260",
+        "news_58194c9ec7fe"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_202dd878fa19",
+      "title": "晚间公告｜8月14日这些公告有看头",
+      "firstSeenAt": "2026-07-31T14:43:32.623Z",
+      "lastSeenAt": "2026-08-15T01:52:48.929Z",
+      "primaryItemId": "news_bd988cf929f3",
+      "evidenceItemIds": [
+        "news_eaf56a2f5345",
+        "news_8b256f193830",
+        "news_58fdd88ca5ff",
+        "news_4cac4c806a4b",
+        "news_f202b91c5619",
+        "news_c91687230a2c",
+        "news_958c3f39adb1",
+        "news_a328d8732020",
+        "news_042b264c9695",
+        "news_0f321ef4412b",
+        "news_6fe4b8332584",
+        "news_f755ad25cd3e",
+        "news_6d13f9de9d52",
+        "news_bd988cf929f3"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_32967e3730b8",
+      "title": "美股大型科技股盘前普涨，闪迪涨超6%",
+      "firstSeenAt": "2026-08-03T15:23:32.854Z",
+      "lastSeenAt": "2026-08-15T01:52:48.929Z",
+      "primaryItemId": "news_d5c174d9c938",
+      "evidenceItemIds": [
+        "news_8394862df655",
+        "news_b8561adf7643",
+        "news_8b0ae127cd97",
+        "news_69866ab410e2",
+        "news_df9f7f47921a",
+        "news_d3b1a6fd627e",
+        "news_42ca90256576",
+        "news_04a959a73a68",
+        "news_92257b4a2373",
+        "news_9078b6a91c76",
+        "news_47c824b8354b",
+        "news_a1473e93f9d4",
+        "news_d9743ef9e935",
+        "news_734d74c93284",
+        "news_7a77b49fc9c2",
+        "news_83e7d960009d",
+        "news_05bd36ad0d77",
+        "news_045068d1edcf",
+        "news_d5c174d9c938"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_d4054c80f3cf",
+      "title": "龙虎榜丨机构今日抛售这21股，买入炬光科技5.33亿元",
+      "firstSeenAt": "2026-08-13T13:53:29.824Z",
+      "lastSeenAt": "2026-08-15T01:52:48.929Z",
+      "primaryItemId": "news_0a8cc18346b6",
+      "evidenceItemIds": [
+        "news_68d533b2585f",
+        "news_9634304d57c5",
+        "news_0a8cc18346b6"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_c96714846ab4",
+      "title": "芯朋微：上半年净利润1.58亿元，同比增74.13%",
+      "firstSeenAt": "2026-08-13T13:53:29.824Z",
+      "lastSeenAt": "2026-08-15T01:52:48.929Z",
+      "primaryItemId": "news_7ec18d878a39",
+      "evidenceItemIds": [
+        "news_898fbc83152f",
+        "news_4590a746a26f",
+        "news_370adf3e7c26",
+        "news_3e58d36703c3",
+        "news_dfd5e751ae3f",
+        "news_90e618d6f2e0",
+        "news_a81185a993bc",
+        "news_5122e4ff39f7",
+        "news_7ec18d878a39",
+        "news_44e8ba9cacaf",
+        "news_a439c9837797"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_d0eab2e69794",
+      "title": "港股收盘 | 三大指数本周集体走弱 中报窗口期热点分化",
+      "firstSeenAt": "2026-08-12T09:36:00.204Z",
+      "lastSeenAt": "2026-08-15T01:52:48.929Z",
+      "primaryItemId": "news_db4ef827f439",
+      "evidenceItemIds": [
+        "news_e612d57ecd1e",
+        "news_54b7543653d7",
+        "news_db4ef827f439"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_a28a9c93d467",
+      "title": "南向资金追踪｜本周净买入仅约一亿港元 大举加仓Minimax抛售阿里巴巴",
+      "firstSeenAt": "2026-08-12T13:53:27.256Z",
+      "lastSeenAt": "2026-08-15T01:52:48.929Z",
+      "primaryItemId": "news_0dbab8e8702c",
+      "evidenceItemIds": [
+        "news_4f6ca78751ae",
+        "news_7c9726fdb3d7",
+        "news_0dbab8e8702c"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_42afa06cfdba",
+      "title": "货币政策新变化",
+      "firstSeenAt": "2026-08-01T03:54:06.184Z",
+      "lastSeenAt": "2026-08-15T01:52:48.929Z",
+      "primaryItemId": "news_c82a2c528e12",
+      "evidenceItemIds": [
+        "news_db8cba5f7ea1",
+        "news_373bb61b0f0e",
+        "news_c82a2c528e12",
+        "news_1fc40993243f",
+        "news_fc89ea5667ca",
+        "news_2a6c7e071ff8",
+        "news_07fa00bbb419",
+        "news_8b2a3edd4fb8"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_a8c2371170fe",
+      "title": "贵州茅台：2026年上半年净利润445.17亿元，同比降1.95%",
+      "firstSeenAt": "2026-08-14T13:49:37.381Z",
+      "lastSeenAt": "2026-08-15T01:52:48.929Z",
+      "primaryItemId": "news_e887eebdb506",
+      "evidenceItemIds": [
+        "news_e887eebdb506",
+        "news_7a0261b7aa21",
+        "news_32743d5348b8",
+        "news_f15e55e2453c",
+        "news_6985177b41ae"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_88f7e693e10a",
+      "title": "紫光国微上半年营收同比增13%，净利润同比增15%，瑞能半导体收购进入审核关键期｜财报见闻",
+      "firstSeenAt": "2026-08-14T13:49:37.381Z",
+      "lastSeenAt": "2026-08-15T01:52:48.929Z",
+      "primaryItemId": "news_713bab934398",
+      "evidenceItemIds": [
+        "news_713bab934398",
+        "news_4a58d194f1b5"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_02fe3091caae",
+      "title": "SK海力士董事长：价格涨太快，我很抱歉",
+      "firstSeenAt": "2026-08-14T13:49:37.381Z",
+      "lastSeenAt": "2026-08-15T01:52:48.929Z",
+      "primaryItemId": "news_7369f904cdee",
+      "evidenceItemIds": [
+        "news_2e2fe8a96094",
+        "news_7369f904cdee"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_94585c2875b8",
+      "title": "AI进化速递丨抖音等入股未来不远机器人",
+      "firstSeenAt": "2026-08-14T13:49:37.381Z",
+      "lastSeenAt": "2026-08-15T01:52:48.929Z",
+      "primaryItemId": "news_47844f92e453",
+      "evidenceItemIds": [
+        "news_47844f92e453",
+        "news_8b24b02f81fe"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_91fb625edcc6",
+      "title": "华尔街见闻早餐FM-Radio | 2026年8月15日",
+      "firstSeenAt": "2026-08-01T03:54:06.184Z",
+      "lastSeenAt": "2026-08-15T01:52:48.929Z",
+      "primaryItemId": "news_7c9d70564092",
+      "evidenceItemIds": [
+        "news_17edaa318161",
+        "news_98deb5260008",
+        "news_d6ded5ce3d23",
+        "news_ce5450193ef2",
+        "news_c703d5c64965",
+        "news_f283b8db4f69",
+        "news_1192f017766c",
+        "news_13a9ec382c84",
+        "news_56f2fe7df40c",
+        "news_4bcfcf17662a",
+        "news_1e16c7e47c8f",
+        "news_42d80422ca92",
+        "news_f8de29856631",
+        "news_7c9d70564092"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_3c1a2ab32b46",
+      "title": "Anthropic Q2营收飙升至逾115亿美元，同比涨超14倍",
+      "firstSeenAt": "2026-08-15T01:52:48.929Z",
+      "lastSeenAt": "2026-08-15T01:52:48.929Z",
+      "primaryItemId": "news_cb141f50815c",
+      "evidenceItemIds": [
+        "news_cb141f50815c",
+        "news_25ea0ce9ef1f"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_56e55cfcafa1",
+      "title": "特朗普声称将宣布霍尔木兹海峡为“美国领土”",
+      "firstSeenAt": "2026-08-15T01:52:48.929Z",
+      "lastSeenAt": "2026-08-15T01:52:48.929Z",
+      "primaryItemId": "news_2d3eb13fe93a",
+      "evidenceItemIds": [
+        "news_2d3eb13fe93a",
+        "news_c4e510aeddd5"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_a141d347bc85",
+      "title": "中行落地全国首个算力“Token贷”，算力金融跨入应用层企业",
+      "firstSeenAt": "2026-08-15T01:52:48.929Z",
+      "lastSeenAt": "2026-08-15T01:52:48.929Z",
+      "primaryItemId": "news_fa451044e3a9",
+      "evidenceItemIds": [
+        "news_fa451044e3a9",
+        "news_3ac8f1d803b6"
       ],
       "status": "developing"
     },
@@ -109,55 +557,6 @@
       "status": "developing"
     },
     {
-      "eventId": "event_2713ed958169",
-      "title": "美国7月CPI年率降至3.4%，符合预期",
-      "firstSeenAt": "2026-08-12T13:53:27.256Z",
-      "lastSeenAt": "2026-08-14T13:49:37.381Z",
-      "primaryItemId": "news_4a5e4517cb29",
-      "evidenceItemIds": [
-        "news_2b72a6df5ca6",
-        "news_f27e056f1da3",
-        "news_4a5e4517cb29",
-        "news_322cd8eae905"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_1e2fc6335507",
-      "title": "名创优品：预计2026年上半年期内利润约人民币9.4亿元至人民币9.6亿元，同比增加约4%至6%",
-      "firstSeenAt": "2026-08-13T13:53:29.824Z",
-      "lastSeenAt": "2026-08-14T13:49:37.381Z",
-      "primaryItemId": "news_709390e09396",
-      "evidenceItemIds": [
-        "news_af1d2ca432e0",
-        "news_91d026f0ec7e",
-        "news_59c81b385272",
-        "news_9dc491231668",
-        "news_12bcdb8ebfb9",
-        "news_6f8d9e6a2db0",
-        "news_58ca5eee5279",
-        "news_709390e09396"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_d0a4f7f6abd4",
-      "title": "A股四大指数集体高开，存储芯片、半导体等板块走强",
-      "firstSeenAt": "2026-07-31T02:27:13.623Z",
-      "lastSeenAt": "2026-08-14T13:49:37.381Z",
-      "primaryItemId": "news_62c7595d3886",
-      "evidenceItemIds": [
-        "news_69277baadba1",
-        "news_ad373c949e7b",
-        "news_de2c7c0610be",
-        "news_1bc045c14611",
-        "news_65a42acd7dfb",
-        "news_62c7595d3886",
-        "news_cf4bee0d18ed"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_8a630d6954df",
       "title": "“亮源新创”完成数亿元Pre-A轮融资",
       "firstSeenAt": "2026-08-12T02:47:21.829Z",
@@ -168,19 +567,6 @@
         "news_b85fbf369301",
         "news_ff55a28d3bf5",
         "news_90c7d461137f"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_9890709822b0",
-      "title": "【市场动态】美国30年期国债中标收益率创25年新高",
-      "firstSeenAt": "2026-08-14T02:49:10.067Z",
-      "lastSeenAt": "2026-08-14T13:49:37.381Z",
-      "primaryItemId": "news_9d8e43222c8b",
-      "evidenceItemIds": [
-        "news_76daf30e7b23",
-        "news_9d8e43222c8b",
-        "news_743182f468df"
       ],
       "status": "developing"
     },
@@ -224,19 +610,6 @@
       "status": "developing"
     },
     {
-      "eventId": "event_8d5b986d9efe",
-      "title": "盘前必读丨万亿买断式逆回购今日落地；中际旭创豪掷17.47亿元入股中石科技",
-      "firstSeenAt": "2026-08-14T02:49:10.067Z",
-      "lastSeenAt": "2026-08-14T13:49:37.381Z",
-      "primaryItemId": "news_22ecc7a2f8ad",
-      "evidenceItemIds": [
-        "news_22ecc7a2f8ad",
-        "news_ca9042c652d4",
-        "news_53f21379477c"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_46544790c183",
       "title": "A股三大股指早盘齐涨，有色金属拉升，存储芯片活跃，恒科指跌近1%，京东大跌9%、华虹宏力跌10%",
       "firstSeenAt": "2026-08-14T05:46:46.798Z",
@@ -274,57 +647,6 @@
       "status": "developing"
     },
     {
-      "eventId": "event_c6f2f59a9f9e",
-      "title": "华科智能投资(01140)7月末每股资产净值约为1.104港元",
-      "firstSeenAt": "2026-08-12T13:53:27.256Z",
-      "lastSeenAt": "2026-08-14T13:49:37.381Z",
-      "primaryItemId": "news_9b3cd4842706",
-      "evidenceItemIds": [
-        "news_2b1414ca13b7",
-        "news_eb9f3264b6f2",
-        "news_35b7090a4b58",
-        "news_9b3cd4842706"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_0737eac2cabb",
-      "title": "连板股追踪丨A股今日共64只个股涨停 天洋新材3连板",
-      "firstSeenAt": "2026-07-31T02:43:30.494Z",
-      "lastSeenAt": "2026-08-14T13:49:37.381Z",
-      "primaryItemId": "news_1870ff4e37cf",
-      "evidenceItemIds": [
-        "news_cf2b97a75d61",
-        "news_6b2b1bbc6628",
-        "news_0b0558cddf77",
-        "news_2a647756104e",
-        "news_8818289af9a3",
-        "news_11eae49a5b16",
-        "news_9e9caeefd1f2",
-        "news_83287e13cba2",
-        "news_8b8e574d724a",
-        "news_ac696b49df1d",
-        "news_715b15a27912",
-        "news_ecd33045b37e",
-        "news_1870ff4e37cf"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_b96b95410778",
-      "title": "债市收盘|隔夜逆回购投放3490亿，10年期国债收益率小幅下行",
-      "firstSeenAt": "2026-08-13T09:37:48.214Z",
-      "lastSeenAt": "2026-08-14T13:49:37.381Z",
-      "primaryItemId": "news_1c802d3e1a8b",
-      "evidenceItemIds": [
-        "news_90bf45366481",
-        "news_c3ff5c71fa66",
-        "news_ab6156867ced",
-        "news_1c802d3e1a8b"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_c69c475cb96e",
       "title": "报道：日本央行最早9月加息，后续加息节奏或提速",
       "firstSeenAt": "2026-08-10T13:52:07.777Z",
@@ -342,264 +664,6 @@
       "status": "developing"
     },
     {
-      "eventId": "event_35f644762551",
-      "title": "瑞士经济2026年第二季度增长1.5%",
-      "firstSeenAt": "2026-07-31T07:13:50.095Z",
-      "lastSeenAt": "2026-08-14T13:49:37.381Z",
-      "primaryItemId": "news_3e5c3765f0fe",
-      "evidenceItemIds": [
-        "news_96650f58c987",
-        "news_37dab9643246",
-        "news_a1bcbd6a523d",
-        "news_9c07028bb934",
-        "news_ae4ac5b4fff7",
-        "news_3e5c3765f0fe",
-        "news_24fcd8bc642f"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_6623a2f04ded",
-      "title": "银行、地铁站、游船、音乐节、景区，都能办结婚证了",
-      "firstSeenAt": "2026-08-14T09:32:35.022Z",
-      "lastSeenAt": "2026-08-14T13:49:37.381Z",
-      "primaryItemId": "news_78f41ae45385",
-      "evidenceItemIds": [
-        "news_78f41ae45385",
-        "news_46a24e9c88de"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_1b1554ee2031",
-      "title": "国家外汇局：上半年我国经常账户顺差26174亿元",
-      "firstSeenAt": "2026-08-14T09:32:35.022Z",
-      "lastSeenAt": "2026-08-14T13:49:37.381Z",
-      "primaryItemId": "news_6d885bc5f749",
-      "evidenceItemIds": [
-        "news_6d885bc5f749",
-        "news_eebac4da5c4c"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_0c31f8d23a0c",
-      "title": "央行：前七个月人民币贷款增加10.38万亿元",
-      "firstSeenAt": "2026-08-14T09:32:35.022Z",
-      "lastSeenAt": "2026-08-14T13:49:37.381Z",
-      "primaryItemId": "news_04dbb300d734",
-      "evidenceItemIds": [
-        "news_04dbb300d734",
-        "news_a1711abfa138"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_bc1b4f05c9ef",
-      "title": "央行：2026年7月末社会融资规模存量为463.27万亿元，同比增长7.4%",
-      "firstSeenAt": "2026-08-14T09:32:35.022Z",
-      "lastSeenAt": "2026-08-14T13:49:37.381Z",
-      "primaryItemId": "news_5478312438f3",
-      "evidenceItemIds": [
-        "news_5478312438f3",
-        "news_52fdecaeaa3f"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_5230d2648829",
-      "title": "法国7月通胀率同比上涨2.4%",
-      "firstSeenAt": "2026-08-14T09:32:35.022Z",
-      "lastSeenAt": "2026-08-14T13:49:37.381Z",
-      "primaryItemId": "news_06f7ffaae260",
-      "evidenceItemIds": [
-        "news_06f7ffaae260",
-        "news_58194c9ec7fe"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_202dd878fa19",
-      "title": "晚间公告｜8月14日这些公告有看头",
-      "firstSeenAt": "2026-07-31T14:43:32.623Z",
-      "lastSeenAt": "2026-08-14T13:49:37.381Z",
-      "primaryItemId": "news_bd988cf929f3",
-      "evidenceItemIds": [
-        "news_eaf56a2f5345",
-        "news_8b256f193830",
-        "news_58fdd88ca5ff",
-        "news_4cac4c806a4b",
-        "news_f202b91c5619",
-        "news_c91687230a2c",
-        "news_958c3f39adb1",
-        "news_a328d8732020",
-        "news_042b264c9695",
-        "news_0f321ef4412b",
-        "news_6fe4b8332584",
-        "news_f755ad25cd3e",
-        "news_6d13f9de9d52",
-        "news_bd988cf929f3"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_32967e3730b8",
-      "title": "美股大型科技股盘前普涨，闪迪涨超6%",
-      "firstSeenAt": "2026-08-03T15:23:32.854Z",
-      "lastSeenAt": "2026-08-14T13:49:37.381Z",
-      "primaryItemId": "news_d5c174d9c938",
-      "evidenceItemIds": [
-        "news_8394862df655",
-        "news_b8561adf7643",
-        "news_8b0ae127cd97",
-        "news_69866ab410e2",
-        "news_df9f7f47921a",
-        "news_d3b1a6fd627e",
-        "news_42ca90256576",
-        "news_04a959a73a68",
-        "news_92257b4a2373",
-        "news_9078b6a91c76",
-        "news_47c824b8354b",
-        "news_a1473e93f9d4",
-        "news_d9743ef9e935",
-        "news_734d74c93284",
-        "news_7a77b49fc9c2",
-        "news_83e7d960009d",
-        "news_05bd36ad0d77",
-        "news_045068d1edcf",
-        "news_d5c174d9c938"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_d4054c80f3cf",
-      "title": "龙虎榜丨机构今日抛售这21股，买入炬光科技5.33亿元",
-      "firstSeenAt": "2026-08-13T13:53:29.824Z",
-      "lastSeenAt": "2026-08-14T13:49:37.381Z",
-      "primaryItemId": "news_0a8cc18346b6",
-      "evidenceItemIds": [
-        "news_68d533b2585f",
-        "news_9634304d57c5",
-        "news_0a8cc18346b6"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_c96714846ab4",
-      "title": "芯朋微：上半年净利润1.58亿元，同比增74.13%",
-      "firstSeenAt": "2026-08-13T13:53:29.824Z",
-      "lastSeenAt": "2026-08-14T13:49:37.381Z",
-      "primaryItemId": "news_7ec18d878a39",
-      "evidenceItemIds": [
-        "news_898fbc83152f",
-        "news_4590a746a26f",
-        "news_370adf3e7c26",
-        "news_3e58d36703c3",
-        "news_dfd5e751ae3f",
-        "news_90e618d6f2e0",
-        "news_a81185a993bc",
-        "news_5122e4ff39f7",
-        "news_7ec18d878a39",
-        "news_44e8ba9cacaf",
-        "news_a439c9837797"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_d0eab2e69794",
-      "title": "港股收盘 | 三大指数本周集体走弱 中报窗口期热点分化",
-      "firstSeenAt": "2026-08-12T09:36:00.204Z",
-      "lastSeenAt": "2026-08-14T13:49:37.381Z",
-      "primaryItemId": "news_db4ef827f439",
-      "evidenceItemIds": [
-        "news_e612d57ecd1e",
-        "news_54b7543653d7",
-        "news_db4ef827f439"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_a28a9c93d467",
-      "title": "南向资金追踪｜本周净买入仅约一亿港元 大举加仓Minimax抛售阿里巴巴",
-      "firstSeenAt": "2026-08-12T13:53:27.256Z",
-      "lastSeenAt": "2026-08-14T13:49:37.381Z",
-      "primaryItemId": "news_0dbab8e8702c",
-      "evidenceItemIds": [
-        "news_4f6ca78751ae",
-        "news_7c9726fdb3d7",
-        "news_0dbab8e8702c"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_42afa06cfdba",
-      "title": "货币政策新变化",
-      "firstSeenAt": "2026-08-01T03:54:06.184Z",
-      "lastSeenAt": "2026-08-14T13:49:37.381Z",
-      "primaryItemId": "news_c82a2c528e12",
-      "evidenceItemIds": [
-        "news_db8cba5f7ea1",
-        "news_373bb61b0f0e",
-        "news_c82a2c528e12",
-        "news_1fc40993243f",
-        "news_fc89ea5667ca",
-        "news_2a6c7e071ff8",
-        "news_07fa00bbb419"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_a8c2371170fe",
-      "title": "贵州茅台：2026年上半年净利润445.17亿元，同比降1.95%",
-      "firstSeenAt": "2026-08-14T13:49:37.381Z",
-      "lastSeenAt": "2026-08-14T13:49:37.381Z",
-      "primaryItemId": "news_e887eebdb506",
-      "evidenceItemIds": [
-        "news_e887eebdb506",
-        "news_7a0261b7aa21",
-        "news_32743d5348b8",
-        "news_f15e55e2453c",
-        "news_6985177b41ae"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_88f7e693e10a",
-      "title": "紫光国微上半年营收同比增13%，净利润同比增15%，瑞能半导体收购进入审核关键期｜财报见闻",
-      "firstSeenAt": "2026-08-14T13:49:37.381Z",
-      "lastSeenAt": "2026-08-14T13:49:37.381Z",
-      "primaryItemId": "news_713bab934398",
-      "evidenceItemIds": [
-        "news_713bab934398",
-        "news_4a58d194f1b5"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_02fe3091caae",
-      "title": "海力士董事长：存储涨成这样很抱歉，我们真的在尽力扩产",
-      "firstSeenAt": "2026-08-14T13:49:37.381Z",
-      "lastSeenAt": "2026-08-14T13:49:37.381Z",
-      "primaryItemId": "news_2e2fe8a96094",
-      "evidenceItemIds": [
-        "news_2e2fe8a96094",
-        "news_7369f904cdee"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_94585c2875b8",
-      "title": "AI进化速递丨抖音等入股未来不远机器人",
-      "firstSeenAt": "2026-08-14T13:49:37.381Z",
-      "lastSeenAt": "2026-08-14T13:49:37.381Z",
-      "primaryItemId": "news_47844f92e453",
-      "evidenceItemIds": [
-        "news_47844f92e453",
-        "news_8b24b02f81fe"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_e48d074674d4",
       "title": "费城半导体指数即将重回“牛市”，分析师泼冷水",
       "firstSeenAt": "2026-08-13T13:53:29.824Z",
@@ -609,29 +673,6 @@
         "news_fb6e7ee50d15",
         "news_62ccb61e6f01",
         "news_90b2a9bb6a70"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_91fb625edcc6",
-      "title": "华尔街见闻早餐FM-Radio | 2026年8月14日",
-      "firstSeenAt": "2026-08-01T03:54:06.184Z",
-      "lastSeenAt": "2026-08-14T09:32:35.022Z",
-      "primaryItemId": "news_f8de29856631",
-      "evidenceItemIds": [
-        "news_17edaa318161",
-        "news_98deb5260008",
-        "news_d6ded5ce3d23",
-        "news_ce5450193ef2",
-        "news_c703d5c64965",
-        "news_f283b8db4f69",
-        "news_1192f017766c",
-        "news_13a9ec382c84",
-        "news_56f2fe7df40c",
-        "news_4bcfcf17662a",
-        "news_1e16c7e47c8f",
-        "news_42d80422ca92",
-        "news_f8de29856631"
       ],
       "status": "developing"
     },

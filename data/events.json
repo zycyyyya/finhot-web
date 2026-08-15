@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-08-15T08:51:32.847Z",
+  "generatedAt": "2026-08-15T13:05:05.294Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -8,7 +8,7 @@
       "eventId": "event_37605779c26f",
       "title": "海容冷链(603187.SH)发布半年度业绩，归母净利润1.57亿元，同比下降28.91%",
       "firstSeenAt": "2026-08-06T03:43:23.319Z",
-      "lastSeenAt": "2026-08-15T08:51:32.847Z",
+      "lastSeenAt": "2026-08-15T13:05:05.294Z",
       "primaryItemId": "news_f43a7f4a3f36",
       "evidenceItemIds": [
         "news_a12982635a1e",
@@ -54,7 +54,7 @@
       "eventId": "event_2713ed958169",
       "title": "美国7月CPI年率降至3.4%，符合预期",
       "firstSeenAt": "2026-08-12T13:53:27.256Z",
-      "lastSeenAt": "2026-08-15T08:51:32.847Z",
+      "lastSeenAt": "2026-08-15T13:05:05.294Z",
       "primaryItemId": "news_4a5e4517cb29",
       "evidenceItemIds": [
         "news_2b72a6df5ca6",
@@ -68,7 +68,7 @@
       "eventId": "event_d0a4f7f6abd4",
       "title": "隔夜美股 | 三大指数涨跌不一 闪迪(SNDK.US)涨7.39%",
       "firstSeenAt": "2026-07-31T02:27:13.623Z",
-      "lastSeenAt": "2026-08-15T08:51:32.847Z",
+      "lastSeenAt": "2026-08-15T13:05:05.294Z",
       "primaryItemId": "news_fdebad6d73cd",
       "evidenceItemIds": [
         "news_69277baadba1",
@@ -87,7 +87,7 @@
       "eventId": "event_9890709822b0",
       "title": "德国30年期国债收益率上升8个基点至3.72%，创2011年以来新高",
       "firstSeenAt": "2026-08-14T02:49:10.067Z",
-      "lastSeenAt": "2026-08-15T08:51:32.847Z",
+      "lastSeenAt": "2026-08-15T13:05:05.294Z",
       "primaryItemId": "news_cb64889d9678",
       "evidenceItemIds": [
         "news_76daf30e7b23",
@@ -101,7 +101,7 @@
       "eventId": "event_8d5b986d9efe",
       "title": "中际旭创拟入股中石科技，吴氏家族一把套现逾17亿",
       "firstSeenAt": "2026-08-14T02:49:10.067Z",
-      "lastSeenAt": "2026-08-15T08:51:32.847Z",
+      "lastSeenAt": "2026-08-15T13:05:05.294Z",
       "primaryItemId": "news_53f21379477c",
       "evidenceItemIds": [
         "news_22ecc7a2f8ad",
@@ -111,33 +111,10 @@
       "status": "developing"
     },
     {
-      "eventId": "event_0737eac2cabb",
-      "title": "连板股追踪丨A股今日共64只个股涨停 天洋新材3连板",
-      "firstSeenAt": "2026-07-31T02:43:30.494Z",
-      "lastSeenAt": "2026-08-15T08:51:32.847Z",
-      "primaryItemId": "news_1870ff4e37cf",
-      "evidenceItemIds": [
-        "news_cf2b97a75d61",
-        "news_6b2b1bbc6628",
-        "news_0b0558cddf77",
-        "news_2a647756104e",
-        "news_8818289af9a3",
-        "news_11eae49a5b16",
-        "news_9e9caeefd1f2",
-        "news_83287e13cba2",
-        "news_8b8e574d724a",
-        "news_ac696b49df1d",
-        "news_715b15a27912",
-        "news_ecd33045b37e",
-        "news_1870ff4e37cf"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_6623a2f04ded",
       "title": "银行、地铁站、游船、音乐节、景区，都能办结婚证了",
       "firstSeenAt": "2026-08-14T09:32:35.022Z",
-      "lastSeenAt": "2026-08-15T08:51:32.847Z",
+      "lastSeenAt": "2026-08-15T13:05:05.294Z",
       "primaryItemId": "news_78f41ae45385",
       "evidenceItemIds": [
         "news_78f41ae45385",
@@ -149,7 +126,7 @@
       "eventId": "event_5230d2648829",
       "title": "法国7月通胀率同比上涨2.4%",
       "firstSeenAt": "2026-08-14T09:32:35.022Z",
-      "lastSeenAt": "2026-08-15T08:51:32.847Z",
+      "lastSeenAt": "2026-08-15T13:05:05.294Z",
       "primaryItemId": "news_06f7ffaae260",
       "evidenceItemIds": [
         "news_06f7ffaae260",
@@ -161,7 +138,7 @@
       "eventId": "event_202dd878fa19",
       "title": "晚间公告｜8月14日这些公告有看头",
       "firstSeenAt": "2026-07-31T14:43:32.623Z",
-      "lastSeenAt": "2026-08-15T08:51:32.847Z",
+      "lastSeenAt": "2026-08-15T13:05:05.294Z",
       "primaryItemId": "news_bd988cf929f3",
       "evidenceItemIds": [
         "news_eaf56a2f5345",
@@ -185,7 +162,7 @@
       "eventId": "event_32967e3730b8",
       "title": "美股大型科技股盘前普涨，闪迪涨超6%",
       "firstSeenAt": "2026-08-03T15:23:32.854Z",
-      "lastSeenAt": "2026-08-15T08:51:32.847Z",
+      "lastSeenAt": "2026-08-15T13:05:05.294Z",
       "primaryItemId": "news_d5c174d9c938",
       "evidenceItemIds": [
         "news_8394862df655",
@@ -214,7 +191,7 @@
       "eventId": "event_d4054c80f3cf",
       "title": "龙虎榜丨机构今日抛售这21股，买入炬光科技5.33亿元",
       "firstSeenAt": "2026-08-13T13:53:29.824Z",
-      "lastSeenAt": "2026-08-15T08:51:32.847Z",
+      "lastSeenAt": "2026-08-15T13:05:05.294Z",
       "primaryItemId": "news_0a8cc18346b6",
       "evidenceItemIds": [
         "news_68d533b2585f",
@@ -225,10 +202,10 @@
     },
     {
       "eventId": "event_c96714846ab4",
-      "title": "芯朋微：上半年净利润1.58亿元，同比增74.13%",
+      "title": "生益科技：上半年净利润同比增长130.42%",
       "firstSeenAt": "2026-08-13T13:53:29.824Z",
-      "lastSeenAt": "2026-08-15T08:51:32.847Z",
-      "primaryItemId": "news_7ec18d878a39",
+      "lastSeenAt": "2026-08-15T13:05:05.294Z",
+      "primaryItemId": "news_44e8ba9cacaf",
       "evidenceItemIds": [
         "news_898fbc83152f",
         "news_4590a746a26f",
@@ -248,7 +225,7 @@
       "eventId": "event_42afa06cfdba",
       "title": "货币政策新变化",
       "firstSeenAt": "2026-08-01T03:54:06.184Z",
-      "lastSeenAt": "2026-08-15T08:51:32.847Z",
+      "lastSeenAt": "2026-08-15T13:05:05.294Z",
       "primaryItemId": "news_c82a2c528e12",
       "evidenceItemIds": [
         "news_db8cba5f7ea1",
@@ -266,7 +243,7 @@
       "eventId": "event_a8c2371170fe",
       "title": "贵州茅台：2026年上半年净利润445.17亿元，同比降1.95%",
       "firstSeenAt": "2026-08-14T13:49:37.381Z",
-      "lastSeenAt": "2026-08-15T08:51:32.847Z",
+      "lastSeenAt": "2026-08-15T13:05:05.294Z",
       "primaryItemId": "news_e887eebdb506",
       "evidenceItemIds": [
         "news_e887eebdb506",
@@ -281,7 +258,7 @@
       "eventId": "event_94585c2875b8",
       "title": "AI进化速递丨抖音等入股未来不远机器人",
       "firstSeenAt": "2026-08-14T13:49:37.381Z",
-      "lastSeenAt": "2026-08-15T08:51:32.847Z",
+      "lastSeenAt": "2026-08-15T13:05:05.294Z",
       "primaryItemId": "news_47844f92e453",
       "evidenceItemIds": [
         "news_47844f92e453",
@@ -293,7 +270,7 @@
       "eventId": "event_91fb625edcc6",
       "title": "华尔街见闻早餐FM-Radio | 2026年8月15日",
       "firstSeenAt": "2026-08-01T03:54:06.184Z",
-      "lastSeenAt": "2026-08-15T08:51:32.847Z",
+      "lastSeenAt": "2026-08-15T13:05:05.294Z",
       "primaryItemId": "news_7c9d70564092",
       "evidenceItemIds": [
         "news_17edaa318161",
@@ -317,7 +294,7 @@
       "eventId": "event_3c1a2ab32b46",
       "title": "Anthropic Q2营收飙升至逾115亿美元，同比涨超14倍",
       "firstSeenAt": "2026-08-15T01:52:48.929Z",
-      "lastSeenAt": "2026-08-15T08:51:32.847Z",
+      "lastSeenAt": "2026-08-15T13:05:05.294Z",
       "primaryItemId": "news_cb141f50815c",
       "evidenceItemIds": [
         "news_cb141f50815c",
@@ -330,7 +307,7 @@
       "eventId": "event_56e55cfcafa1",
       "title": "特朗普声称将宣布霍尔木兹海峡为“美国领土”",
       "firstSeenAt": "2026-08-15T01:52:48.929Z",
-      "lastSeenAt": "2026-08-15T08:51:32.847Z",
+      "lastSeenAt": "2026-08-15T13:05:05.294Z",
       "primaryItemId": "news_2d3eb13fe93a",
       "evidenceItemIds": [
         "news_2d3eb13fe93a",
@@ -343,7 +320,7 @@
       "eventId": "event_a141d347bc85",
       "title": "中行落地全国首个算力“Token贷”，算力金融跨入应用层企业",
       "firstSeenAt": "2026-08-15T01:52:48.929Z",
-      "lastSeenAt": "2026-08-15T08:51:32.847Z",
+      "lastSeenAt": "2026-08-15T13:05:05.294Z",
       "primaryItemId": "news_fa451044e3a9",
       "evidenceItemIds": [
         "news_fa451044e3a9",
@@ -355,7 +332,7 @@
       "eventId": "event_01118fb5b195",
       "title": "财联社汽车早报【8月15日】",
       "firstSeenAt": "2026-08-01T03:54:06.184Z",
-      "lastSeenAt": "2026-08-15T08:51:32.847Z",
+      "lastSeenAt": "2026-08-15T13:05:05.294Z",
       "primaryItemId": "news_ac42446fc261",
       "evidenceItemIds": [
         "news_11bf098d57d9",
@@ -371,7 +348,7 @@
       "eventId": "event_a66b559cbb2a",
       "title": "跨境资金集中运营试点推向全国 更低门槛惠及更多中小跨国公司",
       "firstSeenAt": "2026-08-15T04:46:28.741Z",
-      "lastSeenAt": "2026-08-15T08:51:32.847Z",
+      "lastSeenAt": "2026-08-15T13:05:05.294Z",
       "primaryItemId": "news_7c14f95ac7aa",
       "evidenceItemIds": [
         "news_7c14f95ac7aa",
@@ -383,7 +360,7 @@
       "eventId": "event_5a65006c9cda",
       "title": "“AI版金融创新”：英伟达的“5000亿美元大算盘”",
       "firstSeenAt": "2026-08-15T04:46:28.741Z",
-      "lastSeenAt": "2026-08-15T08:51:32.847Z",
+      "lastSeenAt": "2026-08-15T13:05:05.294Z",
       "primaryItemId": "news_2baba41e2b33",
       "evidenceItemIds": [
         "news_2baba41e2b33",
@@ -395,7 +372,7 @@
       "eventId": "event_72cfae7c0991",
       "title": "大举增持谷歌！ 伯克希尔二季度有大动作 “巴菲特接班人”终于挥洒现金？",
       "firstSeenAt": "2026-08-15T04:46:28.741Z",
-      "lastSeenAt": "2026-08-15T08:51:32.847Z",
+      "lastSeenAt": "2026-08-15T13:05:05.294Z",
       "primaryItemId": "news_c6bd64171b22",
       "evidenceItemIds": [
         "news_c6bd64171b22",
@@ -407,7 +384,7 @@
       "eventId": "event_ff468919628f",
       "title": "英伟达首度披露SpaceX持仓，借道xAI间接持有约210亿美元",
       "firstSeenAt": "2026-08-15T04:46:28.741Z",
-      "lastSeenAt": "2026-08-15T08:51:32.847Z",
+      "lastSeenAt": "2026-08-15T13:05:05.294Z",
       "primaryItemId": "news_7b5671a1586b",
       "evidenceItemIds": [
         "news_7b5671a1586b",
@@ -420,7 +397,7 @@
       "eventId": "event_3a59536fbd7d",
       "title": "Anthropic IPO估值目标：2028年营收或达2000亿美元",
       "firstSeenAt": "2026-08-15T04:46:28.741Z",
-      "lastSeenAt": "2026-08-15T08:51:32.847Z",
+      "lastSeenAt": "2026-08-15T13:05:05.294Z",
       "primaryItemId": "news_7bc27fece589",
       "evidenceItemIds": [
         "news_7bc27fece589",
@@ -433,7 +410,7 @@
       "eventId": "event_296fe50c6f78",
       "title": "老虎环球Q2押注AI“二线选手”：新进Cerebras和AMD，增持英特尔，十大重仓股全线减持",
       "firstSeenAt": "2026-08-15T04:46:28.741Z",
-      "lastSeenAt": "2026-08-15T08:51:32.847Z",
+      "lastSeenAt": "2026-08-15T13:05:05.294Z",
       "primaryItemId": "news_d756bc6ba836",
       "evidenceItemIds": [
         "news_d756bc6ba836",
@@ -445,11 +422,70 @@
       "eventId": "event_aab055ca4abe",
       "title": "520元/股！宇树科技，未上市先疯抢！场外“暗盘”兴起，谁在豪赌？",
       "firstSeenAt": "2026-08-15T08:51:32.847Z",
-      "lastSeenAt": "2026-08-15T08:51:32.847Z",
+      "lastSeenAt": "2026-08-15T13:05:05.294Z",
       "primaryItemId": "news_260d35a94903",
       "evidenceItemIds": [
         "news_260d35a94903",
         "news_69907bacd9d2"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_9a797f4255f2",
+      "title": "a16z史上最大投资！All in Uber创始人，下注工业AI“从比特到原子”",
+      "firstSeenAt": "2026-08-15T13:05:05.294Z",
+      "lastSeenAt": "2026-08-15T13:05:05.294Z",
+      "primaryItemId": "news_5e2fd02d6ec3",
+      "evidenceItemIds": [
+        "news_5e2fd02d6ec3",
+        "news_d3dc3abe5d0e"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_3fa771144b19",
+      "title": "AI进化速递丨阿里开源Qwen3.8",
+      "firstSeenAt": "2026-08-15T13:05:05.294Z",
+      "lastSeenAt": "2026-08-15T13:05:05.294Z",
+      "primaryItemId": "news_3bbaaca16039",
+      "evidenceItemIds": [
+        "news_3bbaaca16039",
+        "news_5acd0989d6b1"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_b1ab09aa56fa",
+      "title": "降幅超50%！英伟达缩减对OpenAI数据中心担保规模",
+      "firstSeenAt": "2026-08-15T13:05:05.294Z",
+      "lastSeenAt": "2026-08-15T13:05:05.294Z",
+      "primaryItemId": "news_90db65b4c7df",
+      "evidenceItemIds": [
+        "news_90db65b4c7df",
+        "news_dd28a8bf287c"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_0737eac2cabb",
+      "title": "连板股追踪丨A股今日共64只个股涨停 天洋新材3连板",
+      "firstSeenAt": "2026-07-31T02:43:30.494Z",
+      "lastSeenAt": "2026-08-15T08:51:32.847Z",
+      "primaryItemId": "news_1870ff4e37cf",
+      "evidenceItemIds": [
+        "news_cf2b97a75d61",
+        "news_6b2b1bbc6628",
+        "news_0b0558cddf77",
+        "news_2a647756104e",
+        "news_8818289af9a3",
+        "news_11eae49a5b16",
+        "news_9e9caeefd1f2",
+        "news_83287e13cba2",
+        "news_8b8e574d724a",
+        "news_ac696b49df1d",
+        "news_715b15a27912",
+        "news_ecd33045b37e",
+        "news_1870ff4e37cf"
       ],
       "status": "developing"
     },

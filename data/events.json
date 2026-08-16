@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-08-16T08:53:04.224Z",
+  "generatedAt": "2026-08-16T13:06:58.213Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -8,7 +8,7 @@
       "eventId": "event_2713ed958169",
       "title": "美国7月CPI年率降至3.4%，符合预期",
       "firstSeenAt": "2026-08-12T13:53:27.256Z",
-      "lastSeenAt": "2026-08-16T08:53:04.224Z",
+      "lastSeenAt": "2026-08-16T13:06:58.213Z",
       "primaryItemId": "news_4a5e4517cb29",
       "evidenceItemIds": [
         "news_2b72a6df5ca6",
@@ -22,7 +22,7 @@
       "eventId": "event_d0a4f7f6abd4",
       "title": "隔夜美股 | 三大指数涨跌不一 闪迪(SNDK.US)涨7.39%",
       "firstSeenAt": "2026-07-31T02:27:13.623Z",
-      "lastSeenAt": "2026-08-16T08:53:04.224Z",
+      "lastSeenAt": "2026-08-16T13:06:58.213Z",
       "primaryItemId": "news_fdebad6d73cd",
       "evidenceItemIds": [
         "news_69277baadba1",
@@ -41,7 +41,7 @@
       "eventId": "event_5230d2648829",
       "title": "法国7月通胀率同比上涨2.4%",
       "firstSeenAt": "2026-08-14T09:32:35.022Z",
-      "lastSeenAt": "2026-08-16T08:53:04.224Z",
+      "lastSeenAt": "2026-08-16T13:06:58.213Z",
       "primaryItemId": "news_06f7ffaae260",
       "evidenceItemIds": [
         "news_06f7ffaae260",
@@ -51,10 +51,10 @@
     },
     {
       "eventId": "event_202dd878fa19",
-      "title": "晚间公告｜8月14日这些公告有看头",
+      "title": "晚间公告｜8月16日这些公告有看头",
       "firstSeenAt": "2026-07-31T14:43:32.623Z",
-      "lastSeenAt": "2026-08-16T08:53:04.224Z",
-      "primaryItemId": "news_bd988cf929f3",
+      "lastSeenAt": "2026-08-16T13:06:58.213Z",
+      "primaryItemId": "news_a6888af31e73",
       "evidenceItemIds": [
         "news_eaf56a2f5345",
         "news_8b256f193830",
@@ -69,7 +69,320 @@
         "news_6fe4b8332584",
         "news_f755ad25cd3e",
         "news_6d13f9de9d52",
-        "news_bd988cf929f3"
+        "news_bd988cf929f3",
+        "news_a6888af31e73"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_3c1a2ab32b46",
+      "title": "Anthropic二季度营收突破115亿美元，同比猛增逾14倍",
+      "firstSeenAt": "2026-08-15T01:52:48.929Z",
+      "lastSeenAt": "2026-08-16T13:06:58.213Z",
+      "primaryItemId": "news_f574020115d1",
+      "evidenceItemIds": [
+        "news_cb141f50815c",
+        "news_25ea0ce9ef1f",
+        "news_f574020115d1"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_56e55cfcafa1",
+      "title": "特朗普声称将宣布霍尔木兹海峡为“美国领土”",
+      "firstSeenAt": "2026-08-15T01:52:48.929Z",
+      "lastSeenAt": "2026-08-16T13:06:58.213Z",
+      "primaryItemId": "news_2d3eb13fe93a",
+      "evidenceItemIds": [
+        "news_2d3eb13fe93a",
+        "news_c4e510aeddd5",
+        "news_e8b830f9f3a6"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_a141d347bc85",
+      "title": "周末要闻：英伟达缩减对OpenAI项目担保计划；全国首个算力“Token贷”落地",
+      "firstSeenAt": "2026-08-15T01:52:48.929Z",
+      "lastSeenAt": "2026-08-16T13:06:58.213Z",
+      "primaryItemId": "news_218dfb46ed3e",
+      "evidenceItemIds": [
+        "news_fa451044e3a9",
+        "news_3ac8f1d803b6",
+        "news_218dfb46ed3e",
+        "news_90db65b4c7df"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_01118fb5b195",
+      "title": "财联社汽车早报【8月15日】",
+      "firstSeenAt": "2026-08-01T03:54:06.184Z",
+      "lastSeenAt": "2026-08-16T13:06:58.213Z",
+      "primaryItemId": "news_ac42446fc261",
+      "evidenceItemIds": [
+        "news_11bf098d57d9",
+        "news_352d957a2426",
+        "news_7a9c03d3a9e0",
+        "news_141a587e8be2",
+        "news_e93b6f66d076",
+        "news_ac42446fc261"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_a66b559cbb2a",
+      "title": "跨境资金集中运营试点推向全国 更低门槛惠及更多中小跨国公司",
+      "firstSeenAt": "2026-08-15T04:46:28.741Z",
+      "lastSeenAt": "2026-08-16T13:06:58.213Z",
+      "primaryItemId": "news_7c14f95ac7aa",
+      "evidenceItemIds": [
+        "news_7c14f95ac7aa",
+        "news_7aefac2830c0"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_72cfae7c0991",
+      "title": "伯克希尔二季度13F持仓变阵：增持谷歌、达美航空，连续两季减持美银",
+      "firstSeenAt": "2026-08-15T04:46:28.741Z",
+      "lastSeenAt": "2026-08-16T13:06:58.213Z",
+      "primaryItemId": "news_b30fb301dc0c",
+      "evidenceItemIds": [
+        "news_c6bd64171b22",
+        "news_647e52ae4a30",
+        "news_b30fb301dc0c"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_ff468919628f",
+      "title": "英伟达(NVDA.US)首度披露SpaceX(SPCX.US)持仓！持股市值近210亿美元，持仓英特尔(INTC.US)",
+      "firstSeenAt": "2026-08-15T04:46:28.741Z",
+      "lastSeenAt": "2026-08-16T13:06:58.213Z",
+      "primaryItemId": "news_59a1e37d5584",
+      "evidenceItemIds": [
+        "news_7b5671a1586b",
+        "news_3447c85a9875",
+        "news_59a1e37d5584",
+        "news_95c23796a80e"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_3a59536fbd7d",
+      "title": "Anthropic IPO估值目标：2028年营收或达2000亿美元",
+      "firstSeenAt": "2026-08-15T04:46:28.741Z",
+      "lastSeenAt": "2026-08-16T13:06:58.213Z",
+      "primaryItemId": "news_7bc27fece589",
+      "evidenceItemIds": [
+        "news_7bc27fece589",
+        "news_692fbea02fd0",
+        "news_b6c57b59502a"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_296fe50c6f78",
+      "title": "老虎环球Q2减仓科技巨头押注“新贵”：建仓Cerebras(CBRS.US)AMD(AMD.US)SpaceX(SPCX",
+      "firstSeenAt": "2026-08-15T04:46:28.741Z",
+      "lastSeenAt": "2026-08-16T13:06:58.213Z",
+      "primaryItemId": "news_189cf4b35ab3",
+      "evidenceItemIds": [
+        "news_d756bc6ba836",
+        "news_189cf4b35ab3"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_aab055ca4abe",
+      "title": "520元/股！宇树科技，未上市先疯抢！场外“暗盘”兴起，谁在豪赌？",
+      "firstSeenAt": "2026-08-15T08:51:32.847Z",
+      "lastSeenAt": "2026-08-16T13:06:58.213Z",
+      "primaryItemId": "news_260d35a94903",
+      "evidenceItemIds": [
+        "news_260d35a94903",
+        "news_69907bacd9d2"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_9a797f4255f2",
+      "title": "a16z史上最大投资！All in Uber创始人，下注工业AI“从比特到原子”",
+      "firstSeenAt": "2026-08-15T13:05:05.294Z",
+      "lastSeenAt": "2026-08-16T13:06:58.213Z",
+      "primaryItemId": "news_5e2fd02d6ec3",
+      "evidenceItemIds": [
+        "news_5e2fd02d6ec3",
+        "news_d3dc3abe5d0e"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_3fa771144b19",
+      "title": "AI进化速递丨阿里开源Qwen3.8",
+      "firstSeenAt": "2026-08-15T13:05:05.294Z",
+      "lastSeenAt": "2026-08-16T13:06:58.213Z",
+      "primaryItemId": "news_3bbaaca16039",
+      "evidenceItemIds": [
+        "news_3bbaaca16039",
+        "news_5acd0989d6b1"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_b1ab09aa56fa",
+      "title": "英伟达悄然缩减OpenAI数据中心担保规模，从2500亿美元降至1200亿美元以下",
+      "firstSeenAt": "2026-08-15T13:05:05.294Z",
+      "lastSeenAt": "2026-08-16T13:06:58.213Z",
+      "primaryItemId": "news_e82c309d41cb",
+      "evidenceItemIds": [
+        "news_90db65b4c7df",
+        "news_dd28a8bf287c",
+        "news_26f102474b24",
+        "news_e82c309d41cb",
+        "news_93788bc0d09f",
+        "news_2baba41e2b33",
+        "news_71400956a7eb",
+        "news_16afe8a6a363",
+        "news_d9e5b7a8650c",
+        "news_61656d24253d"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_480fe7c97ba1",
+      "title": "Anthropic将以2万亿美元定价上市！？市场在赌什么？",
+      "firstSeenAt": "2026-08-14T02:49:10.067Z",
+      "lastSeenAt": "2026-08-16T13:06:58.213Z",
+      "primaryItemId": "news_f65597232da2",
+      "evidenceItemIds": [
+        "news_f65597232da2",
+        "news_4aed546556b8",
+        "news_d42851f8c242",
+        "news_7058185d25a1"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_b4b51d265489",
+      "title": "芝加哥联储主席古尔斯比：近期通胀降温令人鼓舞 但仍需更多数据确认重返2%目标",
+      "firstSeenAt": "2026-08-16T02:00:17.212Z",
+      "lastSeenAt": "2026-08-16T13:06:58.213Z",
+      "primaryItemId": "news_60ef91b10dc6",
+      "evidenceItemIds": [
+        "news_60ef91b10dc6",
+        "news_f36dccd41a2a"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_685afe3f26b9",
+      "title": "1.228亿股！英伟达首度披露SpaceX持仓 成后者第六大股东",
+      "firstSeenAt": "2026-08-16T04:49:56.968Z",
+      "lastSeenAt": "2026-08-16T13:06:58.213Z",
+      "primaryItemId": "news_a7af2f1ece04",
+      "evidenceItemIds": [
+        "news_a7af2f1ece04",
+        "news_d8f07bf889d9"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_c96714846ab4",
+      "title": "中微半导体：上半年净利润1.72亿元同比增98.48%，1.66亿押注NOR Flash存储芯片｜财报见闻",
+      "firstSeenAt": "2026-08-13T13:53:29.824Z",
+      "lastSeenAt": "2026-08-16T13:06:58.213Z",
+      "primaryItemId": "news_42a5fc5862fb",
+      "evidenceItemIds": [
+        "news_898fbc83152f",
+        "news_4590a746a26f",
+        "news_370adf3e7c26",
+        "news_3e58d36703c3",
+        "news_dfd5e751ae3f",
+        "news_90e618d6f2e0",
+        "news_a81185a993bc",
+        "news_5122e4ff39f7",
+        "news_7ec18d878a39",
+        "news_44e8ba9cacaf",
+        "news_a439c9837797",
+        "news_42a5fc5862fb",
+        "news_32743d5348b8",
+        "news_12bcdb8ebfb9"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_ded424365394",
+      "title": "频准激光：将于8月18日科创板上市",
+      "firstSeenAt": "2026-08-16T08:53:04.224Z",
+      "lastSeenAt": "2026-08-16T13:06:58.213Z",
+      "primaryItemId": "news_6e18bacbbe3d",
+      "evidenceItemIds": [
+        "news_6e18bacbbe3d",
+        "news_463c4279bcc0",
+        "news_545bd39b27fa",
+        "news_36974e1f6c51"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_baae525c2ca8",
+      "title": "宇树科技IPO：暗盘交易系捕风捉影，背后风险不容小觑",
+      "firstSeenAt": "2026-08-16T08:53:04.224Z",
+      "lastSeenAt": "2026-08-16T13:06:58.213Z",
+      "primaryItemId": "news_1c50803620db",
+      "evidenceItemIds": [
+        "news_1c50803620db",
+        "news_a1c5c0b2a452"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_cc4b8fe5cf45",
+      "title": "本周南向资金净买入腾讯控股超70亿港元 14股南向资金持股量环比增长超15%",
+      "firstSeenAt": "2026-08-16T08:53:04.224Z",
+      "lastSeenAt": "2026-08-16T13:06:58.213Z",
+      "primaryItemId": "news_9516cdd077c4",
+      "evidenceItemIds": [
+        "news_9516cdd077c4",
+        "news_a9d35db5f7ac"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_a8c2371170fe",
+      "title": "兆威机电：2026年上半年净利润7464.57万元，同比减少34.10%",
+      "firstSeenAt": "2026-08-14T13:49:37.381Z",
+      "lastSeenAt": "2026-08-16T13:06:58.213Z",
+      "primaryItemId": "news_f052c7c2833b",
+      "evidenceItemIds": [
+        "news_e887eebdb506",
+        "news_7a0261b7aa21",
+        "news_32743d5348b8",
+        "news_f15e55e2453c",
+        "news_6985177b41ae",
+        "news_f052c7c2833b"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_1e2fc6335507",
+      "title": "商汤：预计2026年上半年录得期内利润约5亿元至7亿元",
+      "firstSeenAt": "2026-08-13T13:53:29.824Z",
+      "lastSeenAt": "2026-08-16T13:06:58.213Z",
+      "primaryItemId": "news_3875466e2c6a",
+      "evidenceItemIds": [
+        "news_af1d2ca432e0",
+        "news_91d026f0ec7e",
+        "news_59c81b385272",
+        "news_9dc491231668",
+        "news_12bcdb8ebfb9",
+        "news_6f8d9e6a2db0",
+        "news_58ca5eee5279",
+        "news_709390e09396",
+        "news_3875466e2c6a",
+        "news_4e4b40960afd"
       ],
       "status": "developing"
     },
@@ -123,191 +436,6 @@
       "status": "developing"
     },
     {
-      "eventId": "event_3c1a2ab32b46",
-      "title": "Anthropic Q2营收飙升至逾115亿美元，同比涨超14倍",
-      "firstSeenAt": "2026-08-15T01:52:48.929Z",
-      "lastSeenAt": "2026-08-16T08:53:04.224Z",
-      "primaryItemId": "news_cb141f50815c",
-      "evidenceItemIds": [
-        "news_cb141f50815c",
-        "news_25ea0ce9ef1f",
-        "news_f574020115d1"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_56e55cfcafa1",
-      "title": "特朗普声称将宣布霍尔木兹海峡为“美国领土”",
-      "firstSeenAt": "2026-08-15T01:52:48.929Z",
-      "lastSeenAt": "2026-08-16T08:53:04.224Z",
-      "primaryItemId": "news_2d3eb13fe93a",
-      "evidenceItemIds": [
-        "news_2d3eb13fe93a",
-        "news_c4e510aeddd5",
-        "news_e8b830f9f3a6"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_a141d347bc85",
-      "title": "【早报】中行落地全国首个算力“Token贷”；贵州茅台、生益科技发布半年报；美存储板块走强",
-      "firstSeenAt": "2026-08-15T01:52:48.929Z",
-      "lastSeenAt": "2026-08-16T08:53:04.224Z",
-      "primaryItemId": "news_3ac8f1d803b6",
-      "evidenceItemIds": [
-        "news_fa451044e3a9",
-        "news_3ac8f1d803b6"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_01118fb5b195",
-      "title": "财联社汽车早报【8月15日】",
-      "firstSeenAt": "2026-08-01T03:54:06.184Z",
-      "lastSeenAt": "2026-08-16T08:53:04.224Z",
-      "primaryItemId": "news_ac42446fc261",
-      "evidenceItemIds": [
-        "news_11bf098d57d9",
-        "news_352d957a2426",
-        "news_7a9c03d3a9e0",
-        "news_141a587e8be2",
-        "news_e93b6f66d076",
-        "news_ac42446fc261"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_a66b559cbb2a",
-      "title": "跨境资金集中运营试点推向全国 更低门槛惠及更多中小跨国公司",
-      "firstSeenAt": "2026-08-15T04:46:28.741Z",
-      "lastSeenAt": "2026-08-16T08:53:04.224Z",
-      "primaryItemId": "news_7c14f95ac7aa",
-      "evidenceItemIds": [
-        "news_7c14f95ac7aa",
-        "news_7aefac2830c0"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_72cfae7c0991",
-      "title": "伯克希尔二季度13F持仓变阵：增持谷歌、达美航空，连续两季减持美银",
-      "firstSeenAt": "2026-08-15T04:46:28.741Z",
-      "lastSeenAt": "2026-08-16T08:53:04.224Z",
-      "primaryItemId": "news_b30fb301dc0c",
-      "evidenceItemIds": [
-        "news_c6bd64171b22",
-        "news_647e52ae4a30",
-        "news_b30fb301dc0c"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_ff468919628f",
-      "title": "英伟达首度披露SpaceX持仓，借道xAI间接持有约210亿美元",
-      "firstSeenAt": "2026-08-15T04:46:28.741Z",
-      "lastSeenAt": "2026-08-16T08:53:04.224Z",
-      "primaryItemId": "news_7b5671a1586b",
-      "evidenceItemIds": [
-        "news_7b5671a1586b",
-        "news_3447c85a9875",
-        "news_59a1e37d5584",
-        "news_95c23796a80e"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_3a59536fbd7d",
-      "title": "Anthropic IPO估值目标：2028年营收或达2000亿美元",
-      "firstSeenAt": "2026-08-15T04:46:28.741Z",
-      "lastSeenAt": "2026-08-16T08:53:04.224Z",
-      "primaryItemId": "news_7bc27fece589",
-      "evidenceItemIds": [
-        "news_7bc27fece589",
-        "news_692fbea02fd0",
-        "news_b6c57b59502a"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_296fe50c6f78",
-      "title": "老虎环球Q2押注AI“二线选手”：新进Cerebras和AMD，增持英特尔，十大重仓股全线减持",
-      "firstSeenAt": "2026-08-15T04:46:28.741Z",
-      "lastSeenAt": "2026-08-16T08:53:04.224Z",
-      "primaryItemId": "news_d756bc6ba836",
-      "evidenceItemIds": [
-        "news_d756bc6ba836",
-        "news_189cf4b35ab3"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_aab055ca4abe",
-      "title": "520元/股！宇树科技，未上市先疯抢！场外“暗盘”兴起，谁在豪赌？",
-      "firstSeenAt": "2026-08-15T08:51:32.847Z",
-      "lastSeenAt": "2026-08-16T08:53:04.224Z",
-      "primaryItemId": "news_260d35a94903",
-      "evidenceItemIds": [
-        "news_260d35a94903",
-        "news_69907bacd9d2"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_9a797f4255f2",
-      "title": "a16z史上最大投资！All in Uber创始人，下注工业AI“从比特到原子”",
-      "firstSeenAt": "2026-08-15T13:05:05.294Z",
-      "lastSeenAt": "2026-08-16T08:53:04.224Z",
-      "primaryItemId": "news_5e2fd02d6ec3",
-      "evidenceItemIds": [
-        "news_5e2fd02d6ec3",
-        "news_d3dc3abe5d0e"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_3fa771144b19",
-      "title": "AI进化速递丨阿里开源Qwen3.8",
-      "firstSeenAt": "2026-08-15T13:05:05.294Z",
-      "lastSeenAt": "2026-08-16T08:53:04.224Z",
-      "primaryItemId": "news_3bbaaca16039",
-      "evidenceItemIds": [
-        "news_3bbaaca16039",
-        "news_5acd0989d6b1"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_b1ab09aa56fa",
-      "title": "英伟达悄然缩减OpenAI数据中心担保规模，从2500亿美元降至1200亿美元以下",
-      "firstSeenAt": "2026-08-15T13:05:05.294Z",
-      "lastSeenAt": "2026-08-16T08:53:04.224Z",
-      "primaryItemId": "news_e82c309d41cb",
-      "evidenceItemIds": [
-        "news_90db65b4c7df",
-        "news_dd28a8bf287c",
-        "news_26f102474b24",
-        "news_e82c309d41cb",
-        "news_93788bc0d09f",
-        "news_2baba41e2b33",
-        "news_71400956a7eb"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_480fe7c97ba1",
-      "title": "Anthropic将以2万亿美元定价上市！？市场在赌什么？",
-      "firstSeenAt": "2026-08-14T02:49:10.067Z",
-      "lastSeenAt": "2026-08-16T08:53:04.224Z",
-      "primaryItemId": "news_f65597232da2",
-      "evidenceItemIds": [
-        "news_f65597232da2",
-        "news_4aed546556b8",
-        "news_d42851f8c242",
-        "news_7058185d25a1"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_bc4a258a05c9",
       "title": "Nvidia拟向软银旗下SB Energy投资$30亿，支持俄亥俄州AI数据中心项目",
       "firstSeenAt": "2026-08-16T02:00:17.212Z",
@@ -317,90 +445,6 @@
         "news_93788bc0d09f",
         "news_9e00664027d0",
         "news_61656d24253d"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_b4b51d265489",
-      "title": "芝加哥联储主席古尔斯比：近期通胀降温令人鼓舞 但仍需更多数据确认重返2%目标",
-      "firstSeenAt": "2026-08-16T02:00:17.212Z",
-      "lastSeenAt": "2026-08-16T08:53:04.224Z",
-      "primaryItemId": "news_60ef91b10dc6",
-      "evidenceItemIds": [
-        "news_60ef91b10dc6",
-        "news_f36dccd41a2a"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_685afe3f26b9",
-      "title": "1.228亿股！英伟达首度披露SpaceX持仓 成后者第六大股东",
-      "firstSeenAt": "2026-08-16T04:49:56.968Z",
-      "lastSeenAt": "2026-08-16T08:53:04.224Z",
-      "primaryItemId": "news_a7af2f1ece04",
-      "evidenceItemIds": [
-        "news_a7af2f1ece04",
-        "news_d8f07bf889d9"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_c96714846ab4",
-      "title": "中微半导体：上半年净利润1.72亿元同比增98.48%，1.66亿押注NOR Flash存储芯片｜财报见闻",
-      "firstSeenAt": "2026-08-13T13:53:29.824Z",
-      "lastSeenAt": "2026-08-16T08:53:04.224Z",
-      "primaryItemId": "news_42a5fc5862fb",
-      "evidenceItemIds": [
-        "news_898fbc83152f",
-        "news_4590a746a26f",
-        "news_370adf3e7c26",
-        "news_3e58d36703c3",
-        "news_dfd5e751ae3f",
-        "news_90e618d6f2e0",
-        "news_a81185a993bc",
-        "news_5122e4ff39f7",
-        "news_7ec18d878a39",
-        "news_44e8ba9cacaf",
-        "news_a439c9837797",
-        "news_42a5fc5862fb",
-        "news_32743d5348b8",
-        "news_12bcdb8ebfb9"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_ded424365394",
-      "title": "频准激光：将于8月18日科创板上市",
-      "firstSeenAt": "2026-08-16T08:53:04.224Z",
-      "lastSeenAt": "2026-08-16T08:53:04.224Z",
-      "primaryItemId": "news_6e18bacbbe3d",
-      "evidenceItemIds": [
-        "news_6e18bacbbe3d",
-        "news_463c4279bcc0"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_baae525c2ca8",
-      "title": "宇树科技IPO：暗盘交易系捕风捉影，背后风险不容小觑",
-      "firstSeenAt": "2026-08-16T08:53:04.224Z",
-      "lastSeenAt": "2026-08-16T08:53:04.224Z",
-      "primaryItemId": "news_1c50803620db",
-      "evidenceItemIds": [
-        "news_1c50803620db",
-        "news_a1c5c0b2a452"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_cc4b8fe5cf45",
-      "title": "本周南向资金净买入腾讯控股超70亿港元 14股南向资金持股量环比增长超15%",
-      "firstSeenAt": "2026-08-16T08:53:04.224Z",
-      "lastSeenAt": "2026-08-16T08:53:04.224Z",
-      "primaryItemId": "news_9516cdd077c4",
-      "evidenceItemIds": [
-        "news_9516cdd077c4",
-        "news_a9d35db5f7ac"
       ],
       "status": "developing"
     },
@@ -549,21 +593,6 @@
       "status": "developing"
     },
     {
-      "eventId": "event_a8c2371170fe",
-      "title": "贵州茅台：2026年上半年净利润445.17亿元，同比降1.95%",
-      "firstSeenAt": "2026-08-14T13:49:37.381Z",
-      "lastSeenAt": "2026-08-15T13:05:05.294Z",
-      "primaryItemId": "news_e887eebdb506",
-      "evidenceItemIds": [
-        "news_e887eebdb506",
-        "news_7a0261b7aa21",
-        "news_32743d5348b8",
-        "news_f15e55e2453c",
-        "news_6985177b41ae"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_0737eac2cabb",
       "title": "连板股追踪丨A股今日共64只个股涨停 天洋新材3连板",
       "firstSeenAt": "2026-07-31T02:43:30.494Z",
@@ -583,24 +612,6 @@
         "news_715b15a27912",
         "news_ecd33045b37e",
         "news_1870ff4e37cf"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_1e2fc6335507",
-      "title": "名创优品：预计2026年上半年期内利润约人民币9.4亿元至人民币9.6亿元，同比增加约4%至6%",
-      "firstSeenAt": "2026-08-13T13:53:29.824Z",
-      "lastSeenAt": "2026-08-15T04:46:28.741Z",
-      "primaryItemId": "news_709390e09396",
-      "evidenceItemIds": [
-        "news_af1d2ca432e0",
-        "news_91d026f0ec7e",
-        "news_59c81b385272",
-        "news_9dc491231668",
-        "news_12bcdb8ebfb9",
-        "news_6f8d9e6a2db0",
-        "news_58ca5eee5279",
-        "news_709390e09396"
       ],
       "status": "developing"
     },

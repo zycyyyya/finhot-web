@@ -1,5 +1,5 @@
 // finhot auto-generated data - powered by RSSHub + financial sources
-// Generated: 2026-08-19T02:01:35.539Z
+// Generated: 2026-08-19T04:53:00.948Z
 // Practitioner value scoring: relevance(25) + authority(20) + impact(20) + recency(15) + depth(10) + actionability(10)
 
 window.CATEGORIES = [
@@ -95,9 +95,3751 @@ window.CATEGORY_CONFIG = {
 
 window.FINHOT_DATA = {
   "date": "2026-08-19",
-  "generatedAt": "2026-08-19T02:01:35.539Z",
-  "lead": "今日新增 106 条，共 150 条精选资讯",
+  "generatedAt": "2026-08-19T04:53:00.948Z",
+  "lead": "今日新增 81 条，共 150 条精选资讯",
   "items": [
+    {
+      "title": "华尔街开始觉得：微软比美国政府更靠谱",
+      "sourceUrl": "https://wallstreetcn.com/charts/41959621",
+      "publishedAt": "2026-08-19T04:48:00.000Z",
+      "fetchedAt": "2026-08-19T04:50:54.264Z",
+      "timeConfidence": "source",
+      "summary": "DoubleLine Capital 副首席投资官Jeffrey Sherman认为投资者开始比较”借钱给微软五年”与”借钱给美国政府三十年”哪个更划算。多数人选择微软，理由是其营收可预期、财务更透明。",
+      "sourceName": "华尔街见闻",
+      "category": "industry",
+      "tags": [
+        "行业动态"
+      ],
+      "evidenceType": "financial_media",
+      "discoveredVia": "RSSHub",
+      "id": "news_f74347285657",
+      "tier": "S2",
+      "sourceTier": "S2",
+      "sourceTierLabel": "专业财经媒体",
+      "score": 62,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 12,
+        "authority": 15,
+        "impact": 8,
+        "recency": 15,
+        "depth": 8,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "专业财经媒体跟进",
+        "时效性高"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 20,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "marketEducation": {
+          "score": 20,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "privateFundSales": {
+          "score": 20,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        }
+      },
+      "primaryScene": "marketEducation",
+      "selectedForFeatured": false,
+      "contentTags": [
+        "行业动态"
+      ],
+      "eventId": null
+    },
+    {
+      "title": "莱罗伊海鲜上调野捕业务指引，尽管第二季度利润下滑",
+      "sourceUrl": "https://cn.investing.com/news/stock-market-news/article-93CH-3524720",
+      "publishedAt": "2026-08-19T04:47:38.000Z",
+      "fetchedAt": "2026-08-19T04:53:00.651Z",
+      "timeConfidence": "source",
+      "summary": "",
+      "sourceName": "英为财情",
+      "category": "industry",
+      "tags": [
+        "行业动态"
+      ],
+      "evidenceType": "financial_media",
+      "discoveredVia": "Investing.com",
+      "id": "news_bda4ca82a39f",
+      "tier": "S2",
+      "sourceTier": "S2",
+      "sourceTierLabel": "专业财经媒体",
+      "score": 57,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 12,
+        "authority": 15,
+        "impact": 8,
+        "recency": 15,
+        "depth": 3,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "专业财经媒体跟进",
+        "时效性高"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 20,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "marketEducation": {
+          "score": 20,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "privateFundSales": {
+          "score": 20,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        }
+      },
+      "primaryScene": "marketEducation",
+      "selectedForFeatured": false,
+      "contentTags": [
+        "行业动态"
+      ],
+      "eventId": null
+    },
+    {
+      "title": "宇树上市首日，人形机器人板块超百家下跌",
+      "sourceUrl": "https://www.yicai.com/news/103324238.html",
+      "publishedAt": "2026-08-19T04:44:19.000Z",
+      "fetchedAt": "2026-08-19T04:51:03.948Z",
+      "timeConfidence": "source",
+      "summary": "人形机器人概念板块遭遇震荡，多只个股下挫。8月19日早盘，人形机器人概念板块遭遇震荡，多只个股下挫。截至午盘，机器人ETF广发（159050.SZ）跌超7%，人形机器人指数（8841699.WI）跌超6%，超百家概念股下跌。其中，秦安股份（603758.SH）、中大力德（002896.SZ）、巨轮智能（002031.SZ）均跌停；上纬新材（688585.SH）跌超18%，丰光精密（430510.B",
+      "sourceName": "第一财经",
+      "category": "industry",
+      "tags": [
+        "行业动态"
+      ],
+      "evidenceType": "financial_media",
+      "discoveredVia": "RSSHub",
+      "id": "news_5375daf26b15",
+      "tier": "S2",
+      "sourceTier": "S2",
+      "sourceTierLabel": "专业财经媒体",
+      "score": 74,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 22,
+        "authority": 15,
+        "impact": 8,
+        "recency": 15,
+        "depth": 10,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "专业财经媒体跟进",
+        "时效性高",
+        "摘要信息较完整"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 20,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "marketEducation": {
+          "score": 64,
+          "reasons": [
+            "命中二级市场投教核心主题 2 项"
+          ]
+        },
+        "privateFundSales": {
+          "score": 29,
+          "reasons": [
+            "命中关联主题 1 项"
+          ]
+        }
+      },
+      "primaryScene": "marketEducation",
+      "selectedForFeatured": false,
+      "contentTags": [
+        "行业动态"
+      ],
+      "eventId": null
+    },
+    {
+      "title": "博泰车联：获头部新能源车企8397座舱平台项目定点",
+      "sourceUrl": "https://www.36kr.com/newsflashes/3945959917124993",
+      "publishedAt": "2026-08-19T04:38:00.000Z",
+      "fetchedAt": "2026-08-19T04:51:56.597Z",
+      "timeConfidence": "source",
+      "summary": "36氪获悉，博泰车联发布自愿公告，公司收到某头部OEM新能源车企的项目定点通知，被选定为下一代全新车型8397座舱平台供应商。本次定点标志着公司基于高端座舱平台构建物理AI及车载智能体系统的技术方案获得主流车企广泛认可，将有助于持续夯实公司在新能源乘用车领域市场份额，强化车载前沿AI场景化应用的领先优势，为集团长期可持续发展提供坚实支撑。鉴于新一代平台解决方案研发过程中存在风险及不确定性，公司将积",
+      "sourceName": "36氪",
+      "category": "insights",
+      "tags": [
+        "观点"
+      ],
+      "evidenceType": "news_flash",
+      "discoveredVia": "RSSHub",
+      "id": "news_1af7732dd96a",
+      "tier": "S3",
+      "sourceTier": "S3",
+      "sourceTierLabel": "快讯/观点线索",
+      "score": 70,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 12,
+        "authority": 9,
+        "impact": 20,
+        "recency": 15,
+        "depth": 10,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "快讯线索，需结合原文判断",
+        "对展业/配置/合规有直接影响",
+        "时效性高"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 20,
+          "reasons": [
+            "业务影响较高"
+          ]
+        },
+        "marketEducation": {
+          "score": 46,
+          "reasons": [
+            "命中二级市场投教核心主题 1 项",
+            "业务影响较高"
+          ]
+        },
+        "privateFundSales": {
+          "score": 33,
+          "reasons": [
+            "命中关联主题 1 项",
+            "业务影响较高"
+          ]
+        }
+      },
+      "primaryScene": "privateFundSales",
+      "selectedForFeatured": false,
+      "contentTags": [
+        "观点",
+        "快讯"
+      ],
+      "eventId": null
+    },
+    {
+      "title": "澳洲联储副行长警告：若通胀风险成真，将再度加息",
+      "sourceUrl": "https://cn.investing.com/news/stock-market-news/article-93CH-3524718",
+      "publishedAt": "2026-08-19T04:36:42.000Z",
+      "fetchedAt": "2026-08-19T04:53:00.651Z",
+      "timeConfidence": "source",
+      "summary": "",
+      "sourceName": "英为财情",
+      "category": "industry",
+      "tags": [
+        "行业动态"
+      ],
+      "evidenceType": "financial_media",
+      "discoveredVia": "Investing.com",
+      "id": "news_d4103a017b47",
+      "tier": "S2",
+      "sourceTier": "S2",
+      "sourceTierLabel": "专业财经媒体",
+      "score": 57,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 12,
+        "authority": 15,
+        "impact": 8,
+        "recency": 15,
+        "depth": 3,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "专业财经媒体跟进",
+        "时效性高"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 20,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "marketEducation": {
+          "score": 20,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "privateFundSales": {
+          "score": 20,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        }
+      },
+      "primaryScene": "marketEducation",
+      "selectedForFeatured": false,
+      "contentTags": [
+        "行业动态"
+      ],
+      "eventId": null
+    },
+    {
+      "title": "不用房产抵押，有Token也能贷款了！多家银行布局Token贷，中行已授信2800万",
+      "sourceUrl": "https://cn.investing.com/news/stock-market-news/article-3524705",
+      "publishedAt": "2026-08-19T04:35:49.000Z",
+      "fetchedAt": "2026-08-19T04:53:00.651Z",
+      "timeConfidence": "source",
+      "summary": "",
+      "sourceName": "英为财情",
+      "category": "industry",
+      "tags": [
+        "行业动态"
+      ],
+      "evidenceType": "financial_media",
+      "discoveredVia": "Investing.com",
+      "id": "news_975fb3a0f3b7",
+      "tier": "S2",
+      "sourceTier": "S2",
+      "sourceTierLabel": "专业财经媒体",
+      "score": 63,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 18,
+        "authority": 15,
+        "impact": 8,
+        "recency": 15,
+        "depth": 3,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "专业财经媒体跟进",
+        "时效性高"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 29,
+          "reasons": [
+            "命中关联主题 1 项"
+          ]
+        },
+        "marketEducation": {
+          "score": 20,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "privateFundSales": {
+          "score": 20,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        }
+      },
+      "primaryScene": "marketEducation",
+      "selectedForFeatured": false,
+      "contentTags": [
+        "行业动态"
+      ],
+      "eventId": null
+    },
+    {
+      "title": "香港交易所(00388)发布中期业绩 股东应占溢利105.68亿港元 同比增长24% 收入及溢利同创半年度新高",
+      "sourceUrl": "https://cn.investing.com/news/stock-market-news/article-3524704",
+      "publishedAt": "2026-08-19T04:35:10.000Z",
+      "fetchedAt": "2026-08-19T04:53:00.651Z",
+      "timeConfidence": "source",
+      "summary": "",
+      "sourceName": "英为财情",
+      "category": "industry",
+      "tags": [
+        "行业动态"
+      ],
+      "evidenceType": "financial_media",
+      "discoveredVia": "Investing.com",
+      "id": "news_73c8b8049df0",
+      "tier": "S2",
+      "sourceTier": "S2",
+      "sourceTierLabel": "专业财经媒体",
+      "score": 66,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 12,
+        "authority": 15,
+        "impact": 17,
+        "recency": 15,
+        "depth": 3,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "专业财经媒体跟进",
+        "对展业/配置/合规有直接影响",
+        "时效性高"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 20,
+          "reasons": [
+            "业务影响较高"
+          ]
+        },
+        "marketEducation": {
+          "score": 20,
+          "reasons": [
+            "业务影响较高"
+          ]
+        },
+        "privateFundSales": {
+          "score": 20,
+          "reasons": [
+            "业务影响较高"
+          ]
+        }
+      },
+      "primaryScene": "marketEducation",
+      "selectedForFeatured": false,
+      "contentTags": [
+        "行业动态"
+      ],
+      "eventId": "event_c96714846ab4"
+    },
+    {
+      "title": "首程控股(00697)旗下基金所投公司宇树科技首次公开发行股票并于科创板上市",
+      "sourceUrl": "https://cn.investing.com/news/stock-market-news/article-3524701",
+      "publishedAt": "2026-08-19T04:35:09.000Z",
+      "fetchedAt": "2026-08-19T04:53:00.651Z",
+      "timeConfidence": "source",
+      "summary": "",
+      "sourceName": "英为财情",
+      "category": "industry",
+      "tags": [
+        "行业动态"
+      ],
+      "evidenceType": "financial_media",
+      "discoveredVia": "Investing.com",
+      "id": "news_e7f9359e7c92",
+      "tier": "S2",
+      "sourceTier": "S2",
+      "sourceTierLabel": "专业财经媒体",
+      "score": 67,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 22,
+        "authority": 15,
+        "impact": 8,
+        "recency": 15,
+        "depth": 3,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "专业财经媒体跟进",
+        "时效性高"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 20,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "marketEducation": {
+          "score": 51,
+          "reasons": [
+            "命中二级市场投教核心主题 1 项",
+            "命中关联主题 1 项"
+          ]
+        },
+        "privateFundSales": {
+          "score": 42,
+          "reasons": [
+            "命中私募销售运营核心主题 1 项"
+          ]
+        }
+      },
+      "primaryScene": "privateFundSales",
+      "selectedForFeatured": false,
+      "contentTags": [
+        "行业动态"
+      ],
+      "eventId": null
+    },
+    {
+      "title": "高利率与强美元双重绞杀：富国银行三度下修金价预期，黄金狂欢盛宴被迫推迟至2027年",
+      "sourceUrl": "https://cn.investing.com/news/stock-market-news/article-3524702",
+      "publishedAt": "2026-08-19T04:35:09.000Z",
+      "fetchedAt": "2026-08-19T04:53:00.651Z",
+      "timeConfidence": "source",
+      "summary": "",
+      "sourceName": "英为财情",
+      "category": "industry",
+      "tags": [
+        "行业动态"
+      ],
+      "evidenceType": "financial_media",
+      "discoveredVia": "Investing.com",
+      "id": "news_7f9d3a22d4f6",
+      "tier": "S2",
+      "sourceTier": "S2",
+      "sourceTierLabel": "专业财经媒体",
+      "score": 67,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 18,
+        "authority": 15,
+        "impact": 8,
+        "recency": 15,
+        "depth": 3,
+        "actionability": 8
+      },
+      "confidence": "low",
+      "why": [
+        "专业财经媒体跟进",
+        "可转化为客户沟通或投研关注",
+        "时效性高"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 38,
+          "reasons": [
+            "命中关联主题 2 项"
+          ]
+        },
+        "marketEducation": {
+          "score": 42,
+          "reasons": [
+            "命中二级市场投教核心主题 1 项"
+          ]
+        },
+        "privateFundSales": {
+          "score": 20,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        }
+      },
+      "primaryScene": "insurance",
+      "selectedForFeatured": false,
+      "contentTags": [
+        "行业动态"
+      ],
+      "eventId": null
+    },
+    {
+      "title": "韩国智库上调今年经济增长预期至3.2%，因AI需求强劲",
+      "sourceUrl": "https://www.36kr.com/newsflashes/3945938698763395",
+      "publishedAt": "2026-08-19T04:30:40.000Z",
+      "fetchedAt": "2026-08-19T04:51:56.597Z",
+      "timeConfidence": "source",
+      "summary": "韩国一国营智库上调今年的经济增长预期，超政府预期。预计人工智能推动的全球半导体行业繁荣将强于预期，从而带动出口和投资。韩国开发研究院报告称，预计2026年经济增长率为3.2%，高于5月份预测的2.5%，理由是全球芯片需求强劲，预计将对当地经济产生积极影响。这一修正后的预测高于政府此前预测的3%和国际货币基金组织上个月发布的2.6%的预测值。（新浪财经）",
+      "sourceName": "36氪",
+      "category": "insights",
+      "tags": [
+        "观点"
+      ],
+      "evidenceType": "news_flash",
+      "discoveredVia": "RSSHub",
+      "id": "news_044b2004b100",
+      "tier": "S3",
+      "sourceTier": "S3",
+      "sourceTierLabel": "快讯/观点线索",
+      "score": 66,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 22,
+        "authority": 9,
+        "impact": 8,
+        "recency": 15,
+        "depth": 8,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "快讯线索，需结合原文判断",
+        "时效性高",
+        "摘要信息较完整"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 16,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "marketEducation": {
+          "score": 25,
+          "reasons": [
+            "命中关联主题 1 项"
+          ]
+        },
+        "privateFundSales": {
+          "score": 38,
+          "reasons": [
+            "命中私募销售运营核心主题 1 项"
+          ]
+        }
+      },
+      "primaryScene": "privateFundSales",
+      "selectedForFeatured": false,
+      "contentTags": [
+        "观点",
+        "快讯"
+      ],
+      "eventId": null
+    },
+    {
+      "title": "阿里砸钱搞AI，多久能回本？大摩：三年",
+      "sourceUrl": "https://wallstreetcn.com/charts/41959620",
+      "publishedAt": "2026-08-19T04:24:40.000Z",
+      "fetchedAt": "2026-08-19T04:50:54.264Z",
+      "timeConfidence": "source",
+      "summary": "阿里砸这么多钱搞AI，到底能不能赚回来？\n\n摩根士丹利刚刚算完了这笔账：\n\n能，大概3年回本。\n\n大摩测算，中国云厂商做AI的ROIC可以达到13%到20%。\n\n什么意思？\n\n就是今天砸100块钱进去，成熟之后，每年可能产生13到20块钱的资本回报。\n\n不过和美国一比，差距还是很明显：\n\n同样是自己买GPU再出租，中国ROIC大约13%，美国能做到31%。\n\n但真正有意思的是：\n\n阿里还有办法把这",
+      "sourceName": "华尔街见闻",
+      "category": "industry",
+      "tags": [
+        "行业动态"
+      ],
+      "evidenceType": "financial_media",
+      "discoveredVia": "RSSHub",
+      "id": "news_8f9dc5d09117",
+      "tier": "S2",
+      "sourceTier": "S2",
+      "sourceTierLabel": "专业财经媒体",
+      "score": 64,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 12,
+        "authority": 15,
+        "impact": 8,
+        "recency": 15,
+        "depth": 10,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "专业财经媒体跟进",
+        "时效性高",
+        "摘要信息较完整"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 20,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "marketEducation": {
+          "score": 20,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "privateFundSales": {
+          "score": 20,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        }
+      },
+      "primaryScene": "marketEducation",
+      "selectedForFeatured": false,
+      "contentTags": [
+        "行业动态"
+      ],
+      "eventId": null
+    },
+    {
+      "title": "香港交易所：上半年股东应占溢利为105.68亿元，同比增长24%",
+      "sourceUrl": "https://www.36kr.com/newsflashes/3945934785739909",
+      "publishedAt": "2026-08-19T04:22:18.000Z",
+      "fetchedAt": "2026-08-19T04:51:56.597Z",
+      "timeConfidence": "source",
+      "summary": "36氪获悉，香港交易所发布2026年中期业绩，2026年上半年收入及其他收益和溢利创历来半年度新高。上半年收入及其他收益为167.02亿元，较2025年上半年上升19%；股东应占溢利为105.68亿元，较2025年上半年上升24%。",
+      "sourceName": "36氪",
+      "category": "insights",
+      "tags": [
+        "观点"
+      ],
+      "evidenceType": "news_flash",
+      "discoveredVia": "RSSHub",
+      "id": "news_1a29e11a4a61",
+      "tier": "S3",
+      "sourceTier": "S3",
+      "sourceTierLabel": "快讯/观点线索",
+      "score": 65,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 12,
+        "authority": 9,
+        "impact": 17,
+        "recency": 15,
+        "depth": 8,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "快讯线索，需结合原文判断",
+        "对展业/配置/合规有直接影响",
+        "时效性高"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 20,
+          "reasons": [
+            "业务影响较高"
+          ]
+        },
+        "marketEducation": {
+          "score": 20,
+          "reasons": [
+            "业务影响较高"
+          ]
+        },
+        "privateFundSales": {
+          "score": 20,
+          "reasons": [
+            "业务影响较高"
+          ]
+        }
+      },
+      "primaryScene": "marketEducation",
+      "selectedForFeatured": false,
+      "contentTags": [
+        "观点",
+        "快讯"
+      ],
+      "eventId": "event_c96714846ab4"
+    },
+    {
+      "title": "【午报】科创50指数跌超6%，全市场超4900股飘绿，煤炭板块逆势走强",
+      "sourceUrl": "https://www.cls.cn/detail/2457993",
+      "publishedAt": "2026-08-19T04:15:33.000Z",
+      "fetchedAt": "2026-08-19T04:51:56.314Z",
+      "timeConfidence": "source",
+      "summary": "一、【早盘盘面回顾】\n财联社8月19日讯，市场早盘集体调整，三大指数低开低走。沪深两市半日成交额1.62万亿，较上个交易日缩量182亿。盘面上热点较为杂乱，全市场超4900只个股下跌。从板块来看，煤炭板块逆势走强，宝泰隆、陕西黑猫、大有能源、美锦能源涨停。农业板块反复活跃，京粮控股3连板。房地产板块表现活跃，我爱我家、南都物业涨停。航运概念异动拉升，南京港直线涨停。下跌方面，高位股集体退潮，爱丽家",
+      "sourceName": "财联社",
+      "category": "research",
+      "tags": [
+        "研究报告"
+      ],
+      "evidenceType": "financial_media",
+      "discoveredVia": "RSSHub",
+      "id": "news_c69ffd1d14a7",
+      "tier": "S3",
+      "sourceTier": "S3",
+      "sourceTierLabel": "快讯/观点线索",
+      "score": 58,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 12,
+        "authority": 9,
+        "impact": 8,
+        "recency": 15,
+        "depth": 10,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "快讯线索，需结合原文判断",
+        "时效性高",
+        "摘要信息较完整"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 16,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "marketEducation": {
+          "score": 60,
+          "reasons": [
+            "命中二级市场投教核心主题 2 项"
+          ]
+        },
+        "privateFundSales": {
+          "score": 25,
+          "reasons": [
+            "命中关联主题 1 项"
+          ]
+        }
+      },
+      "primaryScene": "marketEducation",
+      "selectedForFeatured": false,
+      "contentTags": [
+        "深度研究"
+      ],
+      "eventId": "event_b42db0ed23d2"
+    },
+    {
+      "title": "朱雀三号关联方10年增资719倍",
+      "sourceUrl": "https://www.36kr.com/newsflashes/3945930732141959",
+      "publishedAt": "2026-08-19T04:15:01.000Z",
+      "fetchedAt": "2026-08-19T04:51:56.597Z",
+      "timeConfidence": "source",
+      "summary": "36氪获悉，据媒体报道，蓝箭航天正式成为我国首个成功回收运载火箭一级的民营航天企业，相关话题引发关注。天眼查App显示，蓝箭航天空间科技股份有限公司成立于2015年6月，法定代表人为张昌武，经营范围包括工业设计服务、专业设计服务、工业工程设计服务等，由北京未来宇航科技有限公司、张昌武、广州碧蓝企业管理合伙企业（有限合伙）等共同持股。参保人数信息显示，该公司参保人数从2016年的31人增至2025年",
+      "sourceName": "36氪",
+      "category": "insights",
+      "tags": [
+        "观点"
+      ],
+      "evidenceType": "news_flash",
+      "discoveredVia": "RSSHub",
+      "id": "news_865cf41e6ba1",
+      "tier": "S3",
+      "sourceTier": "S3",
+      "sourceTierLabel": "快讯/观点线索",
+      "score": 67,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 12,
+        "authority": 9,
+        "impact": 17,
+        "recency": 15,
+        "depth": 10,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "快讯线索，需结合原文判断",
+        "对展业/配置/合规有直接影响",
+        "时效性高"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 20,
+          "reasons": [
+            "业务影响较高"
+          ]
+        },
+        "marketEducation": {
+          "score": 20,
+          "reasons": [
+            "业务影响较高"
+          ]
+        },
+        "privateFundSales": {
+          "score": 20,
+          "reasons": [
+            "业务影响较高"
+          ]
+        }
+      },
+      "primaryScene": "marketEducation",
+      "selectedForFeatured": false,
+      "contentTags": [
+        "观点",
+        "快讯"
+      ],
+      "eventId": null
+    },
+    {
+      "title": "《全民医疗保障“十五五”规划》发布",
+      "sourceUrl": "https://www.cls.cn/detail/2457988",
+      "publishedAt": "2026-08-19T04:07:47.000Z",
+      "fetchedAt": "2026-08-19T04:51:56.314Z",
+      "timeConfidence": "source",
+      "summary": "财联社8月19日讯，国家医保局今天（19日）发布《全民医疗保障“十五五”规划》。\n其中提到，“十五五”期间基本医疗保险参保率每年保持在95%左右；长期护理保险制度覆盖所有统筹地区；基本医疗保险目录内住院费用基金支付比例职工基本医疗保险稳定在80%左右，城乡居民基本医疗保险稳定在70%左右；即时结算基本医疗保险基金支出覆盖率从2025年的70%左右提高到80%以上；所有统筹地区将实现生育津贴直接发放",
+      "sourceName": "财联社",
+      "category": "research",
+      "tags": [
+        "研究报告"
+      ],
+      "evidenceType": "financial_media",
+      "discoveredVia": "RSSHub",
+      "id": "news_a16ec4b485c8",
+      "tier": "S3",
+      "sourceTier": "S3",
+      "sourceTierLabel": "快讯/观点线索",
+      "score": 71,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 25,
+        "authority": 9,
+        "impact": 8,
+        "recency": 15,
+        "depth": 10,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "快讯线索，需结合原文判断",
+        "时效性高",
+        "摘要信息较完整"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 38,
+          "reasons": [
+            "命中保险运营核心主题 1 项"
+          ]
+        },
+        "marketEducation": {
+          "score": 25,
+          "reasons": [
+            "命中关联主题 1 项"
+          ]
+        },
+        "privateFundSales": {
+          "score": 38,
+          "reasons": [
+            "命中私募销售运营核心主题 1 项"
+          ]
+        }
+      },
+      "primaryScene": "insurance",
+      "selectedForFeatured": true,
+      "contentTags": [
+        "深度研究"
+      ],
+      "eventId": null
+    },
+    {
+      "title": "旺能环境：控股股东美欣达集团解除质押900.00万股",
+      "sourceUrl": "https://www.36kr.com/newsflashes/3945913235373189",
+      "publishedAt": "2026-08-19T04:07:24.000Z",
+      "fetchedAt": "2026-08-19T04:51:56.597Z",
+      "timeConfidence": "source",
+      "summary": "36氪获悉，旺能环境公告，公司于2026年8月19日接到大股东美欣达集团有限公司函告，其在中国工商银行股份有限公司湖州分行质押的公司部分股份已于2026年8月18日解除质押，本次解除质押股份数量为900.00万股。",
+      "sourceName": "36氪",
+      "category": "insights",
+      "tags": [
+        "观点"
+      ],
+      "evidenceType": "news_flash",
+      "discoveredVia": "RSSHub",
+      "id": "news_f6fa1df6f401",
+      "tier": "S3",
+      "sourceTier": "S3",
+      "sourceTierLabel": "快讯/观点线索",
+      "score": 62,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 18,
+        "authority": 9,
+        "impact": 8,
+        "recency": 15,
+        "depth": 8,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "快讯线索，需结合原文判断",
+        "时效性高"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 25,
+          "reasons": [
+            "命中关联主题 1 项"
+          ]
+        },
+        "marketEducation": {
+          "score": 16,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "privateFundSales": {
+          "score": 16,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        }
+      },
+      "primaryScene": "marketEducation",
+      "selectedForFeatured": false,
+      "contentTags": [
+        "观点",
+        "快讯"
+      ],
+      "eventId": null
+    },
+    {
+      "title": "肉牛价格重返30元/公斤关口 概念股“闻牛起舞”",
+      "sourceUrl": "https://www.cls.cn/detail/2457987",
+      "publishedAt": "2026-08-19T04:07:16.000Z",
+      "fetchedAt": "2026-08-19T04:51:56.314Z",
+      "timeConfidence": "source",
+      "summary": "财联社8月19日讯（记者 张晨静）近期国内肉牛价格重返30元/公斤关口，频创年内新高，肉牛涨价已传导至上市公司，概念股“闻牛起舞”。财联社记者从业内采访获悉，能繁母牛持续去化，产能缺口预计延续至2028年，养牛上市公司上半年普遍扭亏，下半年消费旺季来临，上涨动力有望持续，预计8-9月牛价上涨动力仍偏强。\n牛价突破30元/公斤 牛周期开启？\n根据卓创资讯数据，肉牛价格近期突破上半年高点，创年内价格新",
+      "sourceName": "财联社",
+      "category": "research",
+      "tags": [
+        "研究报告"
+      ],
+      "evidenceType": "financial_media",
+      "discoveredVia": "RSSHub",
+      "id": "news_4ad1b23f2943",
+      "tier": "S3",
+      "sourceTier": "S3",
+      "sourceTierLabel": "快讯/观点线索",
+      "score": 58,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 12,
+        "authority": 9,
+        "impact": 8,
+        "recency": 15,
+        "depth": 10,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "快讯线索，需结合原文判断",
+        "时效性高",
+        "摘要信息较完整"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 16,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "marketEducation": {
+          "score": 16,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "privateFundSales": {
+          "score": 16,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        }
+      },
+      "primaryScene": "marketEducation",
+      "selectedForFeatured": false,
+      "contentTags": [
+        "深度研究"
+      ],
+      "eventId": null
+    },
+    {
+      "title": "AI收入占比持续过半，百度（BIDU.US）估值逻辑切换推动价值回归",
+      "sourceUrl": "https://cn.investing.com/news/stock-market-news/article-3524681",
+      "publishedAt": "2026-08-19T04:06:14.000Z",
+      "fetchedAt": "2026-08-19T04:53:00.651Z",
+      "timeConfidence": "source",
+      "summary": "",
+      "sourceName": "英为财情",
+      "category": "industry",
+      "tags": [
+        "行业动态"
+      ],
+      "evidenceType": "financial_media",
+      "discoveredVia": "Investing.com",
+      "id": "news_0bbad0c1f8dc",
+      "tier": "S2",
+      "sourceTier": "S2",
+      "sourceTierLabel": "专业财经媒体",
+      "score": 57,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 12,
+        "authority": 15,
+        "impact": 8,
+        "recency": 15,
+        "depth": 3,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "专业财经媒体跟进",
+        "时效性高"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 20,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "marketEducation": {
+          "score": 42,
+          "reasons": [
+            "命中二级市场投教核心主题 1 项"
+          ]
+        },
+        "privateFundSales": {
+          "score": 20,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        }
+      },
+      "primaryScene": "marketEducation",
+      "selectedForFeatured": false,
+      "contentTags": [
+        "行业动态"
+      ],
+      "eventId": null
+    },
+    {
+      "title": "恒指午间休盘涨0.24%，恒生科技指数跌0.82%",
+      "sourceUrl": "https://www.36kr.com/newsflashes/3945926799047811",
+      "publishedAt": "2026-08-19T04:04:18.000Z",
+      "fetchedAt": "2026-08-19T04:51:56.597Z",
+      "timeConfidence": "source",
+      "summary": "36氪获悉，恒指午间休盘涨0.24%，恒生科技指数跌0.82%；半导体、GEO、CPO概念，华虹宏力、剑桥科技跌超12%，中际旭创、澜起科技跌超8%，兆易创新、MINIMAX-W跌超7%；石油、煤炭板块涨幅居前，中国秦发涨超7%，中国石油股份涨超2%；南向资金净流出12.99亿港元。",
+      "sourceName": "36氪",
+      "category": "insights",
+      "tags": [
+        "观点"
+      ],
+      "evidenceType": "news_flash",
+      "discoveredVia": "RSSHub",
+      "id": "news_4a0d3d6b1b80",
+      "tier": "S3",
+      "sourceTier": "S3",
+      "sourceTierLabel": "快讯/观点线索",
+      "score": 56,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 12,
+        "authority": 9,
+        "impact": 8,
+        "recency": 15,
+        "depth": 8,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "快讯线索，需结合原文判断",
+        "时效性高"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 16,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "marketEducation": {
+          "score": 38,
+          "reasons": [
+            "命中二级市场投教核心主题 1 项"
+          ]
+        },
+        "privateFundSales": {
+          "score": 16,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        }
+      },
+      "primaryScene": "marketEducation",
+      "selectedForFeatured": false,
+      "contentTags": [
+        "观点",
+        "快讯"
+      ],
+      "eventId": "event_529af3584dc2"
+    },
+    {
+      "title": "为什么不买存储股？这是两位大佬的回答",
+      "sourceUrl": "https://wallstreetcn.com/articles/3779771",
+      "publishedAt": "2026-08-19T03:56:43.000Z",
+      "fetchedAt": "2026-08-19T04:50:54.264Z",
+      "timeConfidence": "source",
+      "summary": "在AI基础设施投资热潮中，存储芯片股看似受益于算力需求爆发，但两位知名投资人和科技分析师却对此保持谨慎。他们的理由不约而同地指向同一个核心判断：存储的高价格和高利润，正在催生消灭自身的力量。\n方舟投资（ARK Invest）创始人Cathie Wood在近期播客节目中公开解释了她不持有存储股的原因。她认为，存储是半导体产业链中商品化程度最高、周期性最强的环节，而当前价格的大幅上涨并非科技行业的正常",
+      "sourceName": "华尔街见闻",
+      "category": "industry",
+      "tags": [
+        "行业动态"
+      ],
+      "evidenceType": "financial_media",
+      "discoveredVia": "RSSHub",
+      "id": "news_fa796c4871ce",
+      "tier": "S2",
+      "sourceTier": "S2",
+      "sourceTierLabel": "专业财经媒体",
+      "score": 64,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 12,
+        "authority": 15,
+        "impact": 8,
+        "recency": 15,
+        "depth": 10,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "专业财经媒体跟进",
+        "时效性高",
+        "摘要信息较完整"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 20,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "marketEducation": {
+          "score": 20,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "privateFundSales": {
+          "score": 20,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        }
+      },
+      "primaryScene": "marketEducation",
+      "selectedForFeatured": false,
+      "contentTags": [
+        "行业动态"
+      ],
+      "eventId": null
+    },
+    {
+      "title": "北交所高管落定 李永春出任总经理",
+      "sourceUrl": "https://finance.caixin.com/2026-08-19/102475606.html",
+      "publishedAt": "2026-08-19T03:56:29.000Z",
+      "fetchedAt": "2026-08-19T04:50:18.839Z",
+      "timeConfidence": "source",
+      "summary": "李永春长期在股转系统、北交所体系工作，对北交所战略定位、发展阶段、业务规则理解深入\n    \n     \n     资料图：李永春。图：视觉中国\n    \n   \n       　　【财新网】据北京证券交易所官网消息，8月18日，北京证券交易所官网管理层信息更新显示，李永春出任北交所副董事长、总经理。接任隋强全面负责北交所日常运营管理，今年7月，隋强出任中国证券登记结算有限责任公司董事长。全国中小",
+      "sourceName": "财新网",
+      "category": "industry",
+      "tags": [
+        "行业动态"
+      ],
+      "evidenceType": "financial_media",
+      "discoveredVia": "RSSHub",
+      "id": "news_4983aac23228",
+      "tier": "S2",
+      "sourceTier": "S2",
+      "sourceTierLabel": "专业财经媒体",
+      "score": 74,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 22,
+        "authority": 15,
+        "impact": 8,
+        "recency": 15,
+        "depth": 10,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "专业财经媒体跟进",
+        "时效性高",
+        "摘要信息较完整"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 20,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "marketEducation": {
+          "score": 29,
+          "reasons": [
+            "命中关联主题 1 项"
+          ]
+        },
+        "privateFundSales": {
+          "score": 29,
+          "reasons": [
+            "命中关联主题 1 项"
+          ]
+        }
+      },
+      "primaryScene": "marketEducation",
+      "selectedForFeatured": false,
+      "contentTags": [
+        "行业动态"
+      ],
+      "eventId": null
+    },
+    {
+      "title": "比特币巨鲸重返市场，两个月增持27.5亿美元",
+      "sourceUrl": "https://www.36kr.com/newsflashes/3945918552014212",
+      "publishedAt": "2026-08-19T03:55:55.000Z",
+      "fetchedAt": "2026-08-19T04:51:56.597Z",
+      "timeConfidence": "source",
+      "summary": "根据CryptoQuant的数据，过去60天持仓大户增持约43000枚比特币，按当前价格计算价值约27.5亿美元。CryptoQuant的统计剔除了交易所和矿池持仓。数据显示，比特币价格回升至60000美元左右时，这些持仓大户经历数月抛售后重新买入，被称为“海豚”的小户持仓也在增长。（新浪财经）",
+      "sourceName": "36氪",
+      "category": "insights",
+      "tags": [
+        "观点"
+      ],
+      "evidenceType": "news_flash",
+      "discoveredVia": "RSSHub",
+      "id": "news_86ff934a1510",
+      "tier": "S3",
+      "sourceTier": "S3",
+      "sourceTierLabel": "快讯/观点线索",
+      "score": 56,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 12,
+        "authority": 9,
+        "impact": 8,
+        "recency": 15,
+        "depth": 8,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "快讯线索，需结合原文判断",
+        "时效性高"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 16,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "marketEducation": {
+          "score": 38,
+          "reasons": [
+            "命中二级市场投教核心主题 1 项"
+          ]
+        },
+        "privateFundSales": {
+          "score": 25,
+          "reasons": [
+            "命中关联主题 1 项"
+          ]
+        }
+      },
+      "primaryScene": "marketEducation",
+      "selectedForFeatured": false,
+      "contentTags": [
+        "观点",
+        "快讯"
+      ],
+      "eventId": null
+    },
+    {
+      "title": "半日主力资金加仓银行股，抛售电子股",
+      "sourceUrl": "https://www.36kr.com/newsflashes/3945909370469762",
+      "publishedAt": "2026-08-19T03:52:31.000Z",
+      "fetchedAt": "2026-08-19T04:51:56.597Z",
+      "timeConfidence": "source",
+      "summary": "主力资金早间净流入银行、石油石化、交通运输等板块，净流出电子、通信、机械设备等板块。具体到个股来看，山东黄金、鲁信创投、斯达半导获净流入8.47亿元、6.53亿元、6.13亿元。净流出方面，兆易创新、寒武纪、中际旭创遭抛售28.67亿元、20.50亿元、14.70亿元。（第一财经）",
+      "sourceName": "36氪",
+      "category": "insights",
+      "tags": [
+        "观点"
+      ],
+      "evidenceType": "news_flash",
+      "discoveredVia": "RSSHub",
+      "id": "news_29eac472dd65",
+      "tier": "S3",
+      "sourceTier": "S3",
+      "sourceTierLabel": "快讯/观点线索",
+      "score": 62,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 18,
+        "authority": 9,
+        "impact": 8,
+        "recency": 15,
+        "depth": 8,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "快讯线索，需结合原文判断",
+        "时效性高"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 25,
+          "reasons": [
+            "命中关联主题 1 项"
+          ]
+        },
+        "marketEducation": {
+          "score": 16,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "privateFundSales": {
+          "score": 16,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        }
+      },
+      "primaryScene": "marketEducation",
+      "selectedForFeatured": false,
+      "contentTags": [
+        "观点",
+        "快讯"
+      ],
+      "eventId": null
+    },
+    {
+      "title": "能源内参｜李书福辞去吉利汽车董事长 上市公司称释放“去家族化”信号；宁德时代拓展新业务 5个月内入股三家AIDC相关公司",
+      "sourceUrl": "https://www.caixin.com/2026-08-19/102475597.html",
+      "publishedAt": "2026-08-19T03:47:14.000Z",
+      "fetchedAt": "2026-08-19T04:50:18.839Z",
+      "timeConfidence": "source",
+      "summary": "电动两轮车新势力逆势扩张 但单车收入普遍下滑；国家电投集团黑龙江电力总经理纪连举被查\n       　　【财新网】\n　　李书福辞去吉利汽车董事长 上市公司称释放“去家族化”信号\n　　财新网8月18日报道，李书福辞任吉利汽车（ 00175.HK ）董事会主席和执行董事，上述职务由吉利控股集团CEO安聪慧接任。8月17日，吉利汽车披露上述消息。\n　　吉利汽车是吉利控股集团的主要上市公司。李书福仍然是吉",
+      "sourceName": "财新网",
+      "category": "industry",
+      "tags": [
+        "行业动态"
+      ],
+      "evidenceType": "financial_media",
+      "discoveredVia": "RSSHub",
+      "id": "news_61473ed9cae0",
+      "tier": "S2",
+      "sourceTier": "S2",
+      "sourceTierLabel": "专业财经媒体",
+      "score": 64,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 12,
+        "authority": 15,
+        "impact": 8,
+        "recency": 15,
+        "depth": 10,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "专业财经媒体跟进",
+        "时效性高",
+        "摘要信息较完整"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 20,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "marketEducation": {
+          "score": 20,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "privateFundSales": {
+          "score": 20,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        }
+      },
+      "primaryScene": "marketEducation",
+      "selectedForFeatured": false,
+      "contentTags": [
+        "行业动态"
+      ],
+      "eventId": "event_d46dc87ab23c"
+    },
+    {
+      "title": "有车企实测仅20%，80%靠仿真！揭秘汽车“速成”灰色地带",
+      "sourceUrl": "https://www.yicai.com/news/103324202.html",
+      "publishedAt": "2026-08-19T03:46:42.000Z",
+      "fetchedAt": "2026-08-19T04:51:03.948Z",
+      "timeConfidence": "source",
+      "summary": "谁在拿消费者当小白鼠？“我算了一组很有意思的数据，国内新车大概推出了3780个SKU（最小存货单元，汽车行业代指车系下不同的配置版本），同期手机行业才1240个SKU，快消的饮料行业全品类加起来也就4000个SKU。”日前，东风日产销售公司市场部部长孙豪用一组夸张的数据锐评汽车行业上新速度，他称，别人说汽车干成了手机，简直是太看不起汽车行业。汽车的上新速度，已经和饮料行业一样了。\n\n当新车迭代周期",
+      "sourceName": "第一财经",
+      "category": "industry",
+      "tags": [
+        "行业动态"
+      ],
+      "evidenceType": "financial_media",
+      "discoveredVia": "RSSHub",
+      "id": "news_284ca3e016b5",
+      "tier": "S2",
+      "sourceTier": "S2",
+      "sourceTierLabel": "专业财经媒体",
+      "score": 70,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 12,
+        "authority": 15,
+        "impact": 8,
+        "recency": 15,
+        "depth": 10,
+        "actionability": 10
+      },
+      "confidence": "low",
+      "why": [
+        "专业财经媒体跟进",
+        "可转化为客户沟通或投研关注",
+        "时效性高"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 20,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "marketEducation": {
+          "score": 42,
+          "reasons": [
+            "命中二级市场投教核心主题 1 项"
+          ]
+        },
+        "privateFundSales": {
+          "score": 38,
+          "reasons": [
+            "命中关联主题 2 项"
+          ]
+        }
+      },
+      "primaryScene": "privateFundSales",
+      "selectedForFeatured": false,
+      "contentTags": [
+        "行业动态"
+      ],
+      "eventId": null
+    },
+    {
+      "title": "中信建投净利增七成背后：自营与经纪分列前两大收入，国际业务成高频词",
+      "sourceUrl": "https://www.cls.cn/detail/2457976",
+      "publishedAt": "2026-08-19T03:46:38.000Z",
+      "fetchedAt": "2026-08-19T04:51:56.314Z",
+      "timeConfidence": "source",
+      "summary": "财联社8月19日讯（记者高艳云）又见头部券商高增长。8月18日，中信建投发布2026年半年报，公司实现营业收入162.29亿元，同比增长51.11%；归属于母公司股东的净利润76.39亿元，同比增长69.44%。\n自营业务是中信建投第一收入贡献力量，同时也是公司上半年增速最快的业务。公司上半年自营收入80.23亿元，同比增74.4%，营收占比49.44%。与市场活跃关联密切的经纪及两融业务同样显著",
+      "sourceName": "财联社",
+      "category": "research",
+      "tags": [
+        "研究报告"
+      ],
+      "evidenceType": "financial_media",
+      "discoveredVia": "RSSHub",
+      "id": "news_278305192bf9",
+      "tier": "S3",
+      "sourceTier": "S3",
+      "sourceTierLabel": "快讯/观点线索",
+      "score": 58,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 12,
+        "authority": 9,
+        "impact": 8,
+        "recency": 15,
+        "depth": 10,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "快讯线索，需结合原文判断",
+        "时效性高",
+        "摘要信息较完整"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 16,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "marketEducation": {
+          "score": 38,
+          "reasons": [
+            "命中二级市场投教核心主题 1 项"
+          ]
+        },
+        "privateFundSales": {
+          "score": 25,
+          "reasons": [
+            "命中关联主题 1 项"
+          ]
+        }
+      },
+      "primaryScene": "marketEducation",
+      "selectedForFeatured": false,
+      "contentTags": [
+        "深度研究"
+      ],
+      "eventId": null
+    },
+    {
+      "title": "债市公告精选 | 花样年5只券自8月19日起停牌；旭辉控股集团拟发行新股份配合境内债券重组",
+      "sourceUrl": "https://www.cls.cn/detail/2457918",
+      "publishedAt": "2026-08-19T03:43:04.000Z",
+      "fetchedAt": "2026-08-19T04:51:56.314Z",
+      "timeConfidence": "source",
+      "summary": "【花样年：\"H18花样\"等5只券自2026年8月19日起停牌】\n花样年集团（中国）有限公司发布公告称，因拟与投资者协商新的偿付方案，重大事项存在不确定性，为保证公平信息披露，“H18花样”“H19花样”“H19花样2”“H20花样1”“H20花样2”等存续公司债券将自2026年8月19日开市起停牌，复牌时间另行确定。\n据2026年4月29日公开数据显示，花样年集团(中国)有限公司2025年归属母公",
+      "sourceName": "财联社",
+      "category": "research",
+      "tags": [
+        "研究报告"
+      ],
+      "evidenceType": "financial_media",
+      "discoveredVia": "RSSHub",
+      "id": "news_3bef7fdad3ca",
+      "tier": "S3",
+      "sourceTier": "S3",
+      "sourceTierLabel": "快讯/观点线索",
+      "score": 75,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 25,
+        "authority": 9,
+        "impact": 8,
+        "recency": 15,
+        "depth": 10,
+        "actionability": 8
+      },
+      "confidence": "low",
+      "why": [
+        "快讯线索，需结合原文判断",
+        "可转化为客户沟通或投研关注",
+        "时效性高"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 16,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "marketEducation": {
+          "score": 38,
+          "reasons": [
+            "命中二级市场投教核心主题 1 项"
+          ]
+        },
+        "privateFundSales": {
+          "score": 25,
+          "reasons": [
+            "命中关联主题 1 项"
+          ]
+        }
+      },
+      "primaryScene": "marketEducation",
+      "selectedForFeatured": false,
+      "contentTags": [
+        "深度研究"
+      ],
+      "eventId": null
+    },
+    {
+      "title": "台积电疯狂扩产，风险让科技巨头扛了",
+      "sourceUrl": "https://wallstreetcn.com/charts/41959619",
+      "publishedAt": "2026-08-19T03:42:09.000Z",
+      "fetchedAt": "2026-08-19T04:50:54.264Z",
+      "timeConfidence": "source",
+      "summary": "知名科技商业战略分析师Ben Thompso采访中谈到，台积电如何通过保守的产能策略，将部分风险转移给大型科技公司。\n\n台积电担心晶圆厂建设过度，因为一座晶圆厂可能运行30年。\n\n表面上风险没有消失，实际上转化为科技公司的“算力不足”和收入损失。\n\n与此同时，张忠谋曾在经济低迷期坚持逆势投资，为台积电成为先进制程龙头奠定基础。\n\n如今AI需求爆发，也让台积电重新看到巨大的增长机会。",
+      "sourceName": "华尔街见闻",
+      "category": "industry",
+      "tags": [
+        "行业动态"
+      ],
+      "evidenceType": "financial_media",
+      "discoveredVia": "RSSHub",
+      "id": "news_d87323246728",
+      "tier": "S2",
+      "sourceTier": "S2",
+      "sourceTierLabel": "专业财经媒体",
+      "score": 64,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 12,
+        "authority": 15,
+        "impact": 8,
+        "recency": 15,
+        "depth": 10,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "专业财经媒体跟进",
+        "时效性高",
+        "摘要信息较完整"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 20,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "marketEducation": {
+          "score": 20,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "privateFundSales": {
+          "score": 42,
+          "reasons": [
+            "命中私募销售运营核心主题 1 项"
+          ]
+        }
+      },
+      "primaryScene": "privateFundSales",
+      "selectedForFeatured": false,
+      "contentTags": [
+        "行业动态"
+      ],
+      "eventId": null
+    },
+    {
+      "title": "美、日、欧，全球债市抛售风暴加剧，发生了什么",
+      "sourceUrl": "https://www.yicai.com/news/103324187.html",
+      "publishedAt": "2026-08-19T03:41:51.000Z",
+      "fetchedAt": "2026-08-19T04:51:03.948Z",
+      "timeConfidence": "source",
+      "summary": "美国财政部将于当地时间19日发行新债。   本周全球债市掀起抛售潮，美国30年期国债收益率刷新2007年以来新高。此外，德国基准30年期国债收益率升至15年新高3.763%；法国同期限国债收益率创下2008年以来最高；日本30年期国债收益率刷新今年春季创出的30年高点。\n\n受此影响，权重科技股全线下挫拖累美股连续第三天下挫。恐慌情绪随后蔓延至亚太市场，周三早盘韩国综合指数一度大跌近6%，日经225",
+      "sourceName": "第一财经",
+      "category": "industry",
+      "tags": [
+        "行业动态"
+      ],
+      "evidenceType": "financial_media",
+      "discoveredVia": "RSSHub",
+      "id": "news_35e0d56edee6",
+      "tier": "S2",
+      "sourceTier": "S2",
+      "sourceTierLabel": "专业财经媒体",
+      "score": 64,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 12,
+        "authority": 15,
+        "impact": 8,
+        "recency": 15,
+        "depth": 10,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "专业财经媒体跟进",
+        "时效性高",
+        "摘要信息较完整"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 20,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "marketEducation": {
+          "score": 86,
+          "reasons": [
+            "命中二级市场投教核心主题 3 项"
+          ]
+        },
+        "privateFundSales": {
+          "score": 29,
+          "reasons": [
+            "命中关联主题 1 项"
+          ]
+        }
+      },
+      "primaryScene": "marketEducation",
+      "selectedForFeatured": true,
+      "contentTags": [
+        "行业动态"
+      ],
+      "eventId": null
+    },
+    {
+      "title": "英伟达GPU没降价，但已经在偷偷“打折”",
+      "sourceUrl": "https://wallstreetcn.com/charts/41959618",
+      "publishedAt": "2026-08-19T03:36:32.000Z",
+      "fetchedAt": "2026-08-19T04:50:54.264Z",
+      "timeConfidence": "source",
+      "summary": "知名科技商业战略分析师Ben Thompson深度剖析英伟达暗门：\n\n你以为它暴利不减？其实它在偷偷“变相降价”！\n\n英伟达看似守住了惊人的高利润率，实则全靠“循环融资”玩法在硬撑。\n\n为了让客户有钱买 GPU，英伟达亲自出资兜底、承担坏账风险，帮助客户降融资成本。\n\n这种隐性让利虽然没体现在账面折扣上，本质上却是不折不扣的降价。\n\n一旦算力需求退潮，这些替客户承担的巨大风险，将直接反噬英伟达自己",
+      "sourceName": "华尔街见闻",
+      "category": "industry",
+      "tags": [
+        "行业动态"
+      ],
+      "evidenceType": "financial_media",
+      "discoveredVia": "RSSHub",
+      "id": "news_1a625b179899",
+      "tier": "S2",
+      "sourceTier": "S2",
+      "sourceTierLabel": "专业财经媒体",
+      "score": 70,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 12,
+        "authority": 15,
+        "impact": 8,
+        "recency": 15,
+        "depth": 10,
+        "actionability": 10
+      },
+      "confidence": "low",
+      "why": [
+        "专业财经媒体跟进",
+        "可转化为客户沟通或投研关注",
+        "时效性高"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 20,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "marketEducation": {
+          "score": 20,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "privateFundSales": {
+          "score": 20,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        }
+      },
+      "primaryScene": "marketEducation",
+      "selectedForFeatured": false,
+      "contentTags": [
+        "行业动态"
+      ],
+      "eventId": null
+    },
+    {
+      "title": "“避税Alpha”--华尔街最火的“对冲基金新策略”，帮超级富豪获取“零税率”",
+      "sourceUrl": "https://wallstreetcn.com/articles/3779765",
+      "publishedAt": "2026-08-19T03:35:17.000Z",
+      "fetchedAt": "2026-08-19T04:50:54.264Z",
+      "timeConfidence": "source",
+      "summary": "美国人常说：“世上唯有死亡与纳税不可避免。”但在如今的华尔街，顶级富豪们正试图打破这一铁律。\n近来，一种被称为“避税Alpha”（Tax Alpha）的量化投资策略风靡华尔街。美股持续走高之下，手握巨额浮盈的富豪与科技新贵们最焦虑的，便是套现时如何向美国国税局（IRS）交代这笔高昂的资本利得税。\n顺势之下，一个由量化对冲基金主导的新物种——“税务感知型多空策略”（Tax-Aware Long-Sh",
+      "sourceName": "华尔街见闻",
+      "category": "industry",
+      "tags": [
+        "行业动态"
+      ],
+      "evidenceType": "financial_media",
+      "discoveredVia": "RSSHub",
+      "id": "news_4596b553562a",
+      "tier": "S2",
+      "sourceTier": "S2",
+      "sourceTierLabel": "专业财经媒体",
+      "score": 74,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 22,
+        "authority": 15,
+        "impact": 8,
+        "recency": 15,
+        "depth": 10,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "专业财经媒体跟进",
+        "时效性高",
+        "摘要信息较完整"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 20,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "marketEducation": {
+          "score": 51,
+          "reasons": [
+            "命中二级市场投教核心主题 1 项",
+            "命中关联主题 1 项"
+          ]
+        },
+        "privateFundSales": {
+          "score": 100,
+          "reasons": [
+            "命中私募销售运营核心主题 4 项"
+          ]
+        }
+      },
+      "primaryScene": "privateFundSales",
+      "selectedForFeatured": true,
+      "contentTags": [
+        "行业动态"
+      ],
+      "eventId": null
+    },
+    {
+      "title": "A股三大指数午间休盘集体下跌，全市场超4900股下跌",
+      "sourceUrl": "https://www.36kr.com/newsflashes/3945898170531200",
+      "publishedAt": "2026-08-19T03:35:11.000Z",
+      "fetchedAt": "2026-08-19T04:51:56.597Z",
+      "timeConfidence": "source",
+      "summary": "36氪获悉，A股三大指数午间休盘集体下跌，沪指跌1.96%，深成指跌3.97%，创业板指跌4.98%；CPO、半导体领跌，超纯应材、华虹宏力跌超10%，寒武纪、兆易创新跌超8%，中际旭创、新易盛跌超6%；航运、银行走强，国航远洋、招商轮船、中信银行涨超4%；\nN宇树涨超486%，报883.87元/股；个股呈普跌态势，全市场超4900股下跌。",
+      "sourceName": "36氪",
+      "category": "insights",
+      "tags": [
+        "观点"
+      ],
+      "evidenceType": "news_flash",
+      "discoveredVia": "RSSHub",
+      "id": "news_9f0d56fa0999",
+      "tier": "S3",
+      "sourceTier": "S3",
+      "sourceTierLabel": "快讯/观点线索",
+      "score": 62,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 18,
+        "authority": 9,
+        "impact": 8,
+        "recency": 15,
+        "depth": 8,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "快讯线索，需结合原文判断",
+        "时效性高",
+        "摘要信息较完整"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 25,
+          "reasons": [
+            "命中关联主题 1 项"
+          ]
+        },
+        "marketEducation": {
+          "score": 82,
+          "reasons": [
+            "命中二级市场投教核心主题 3 项"
+          ]
+        },
+        "privateFundSales": {
+          "score": 25,
+          "reasons": [
+            "命中关联主题 1 项"
+          ]
+        }
+      },
+      "primaryScene": "marketEducation",
+      "selectedForFeatured": true,
+      "contentTags": [
+        "观点",
+        "快讯"
+      ],
+      "eventId": "event_d0a4f7f6abd4"
+    },
+    {
+      "title": "AI热潮的终局，是19世纪铁路泡沫？",
+      "sourceUrl": "https://wallstreetcn.com/articles/3779770",
+      "publishedAt": "2026-08-19T03:34:15.000Z",
+      "fetchedAt": "2026-08-19T04:50:54.264Z",
+      "timeConfidence": "source",
+      "summary": "近日，科技分析师、Stratechery创始人Ben Thompson在《Invest Like the Best》播客中说道，“我相信AI，我也担心我们能否撑到它真正产生足够回报的那一天。”\nThompson在播客中警告，AI基础设施投资存在严重的资本时序错配：收入尚未到来，融资链条已从自由现金流耗尽至债务市场，再到股权融资。他以19世纪铁路泡沫类比当前AI热潮——泡沫可能破裂，但技术本身不会消",
+      "sourceName": "华尔街见闻",
+      "category": "industry",
+      "tags": [
+        "行业动态"
+      ],
+      "evidenceType": "financial_media",
+      "discoveredVia": "RSSHub",
+      "id": "news_768ff87c501b",
+      "tier": "S2",
+      "sourceTier": "S2",
+      "sourceTierLabel": "专业财经媒体",
+      "score": 64,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 12,
+        "authority": 15,
+        "impact": 8,
+        "recency": 15,
+        "depth": 10,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "专业财经媒体跟进",
+        "时效性高",
+        "摘要信息较完整"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 20,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "marketEducation": {
+          "score": 42,
+          "reasons": [
+            "命中二级市场投教核心主题 1 项"
+          ]
+        },
+        "privateFundSales": {
+          "score": 29,
+          "reasons": [
+            "命中关联主题 1 项"
+          ]
+        }
+      },
+      "primaryScene": "marketEducation",
+      "selectedForFeatured": false,
+      "contentTags": [
+        "行业动态"
+      ],
+      "eventId": null
+    },
+    {
+      "title": "盘点宇树背后的“赢家”：部分早期投资者百亿浮盈只是起步",
+      "sourceUrl": "https://www.yicai.com/news/103324143.html",
+      "publishedAt": "2026-08-19T03:33:16.000Z",
+      "fetchedAt": "2026-08-19T04:51:03.948Z",
+      "timeConfidence": "source",
+      "summary": "十年间，宇树科技从小公司成长为A股“人形机器人第一股”。“那个时候宇树团队差不多有十几个人，办公场地还有生产零部件的机床。”赵楠回忆起六年前第一次探访宇树科技的场景。他当时在祥峰投资工作，正在研究机器人赛道。\n\n如今，宇树科技从小公司成长为A股“人形机器人第一股”，在8月19日首日上市时盘中股价超900元/股、市值超3500亿元。\n\n赵楠在接受第一财经记者采访时透露称，宇树科技早期融资时曾四处碰壁",
+      "sourceName": "第一财经",
+      "category": "industry",
+      "tags": [
+        "行业动态"
+      ],
+      "evidenceType": "financial_media",
+      "discoveredVia": "RSSHub",
+      "id": "news_f1f38ae697fc",
+      "tier": "S2",
+      "sourceTier": "S2",
+      "sourceTierLabel": "专业财经媒体",
+      "score": 64,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 12,
+        "authority": 15,
+        "impact": 8,
+        "recency": 15,
+        "depth": 10,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "专业财经媒体跟进",
+        "时效性高",
+        "摘要信息较完整"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 20,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "marketEducation": {
+          "score": 42,
+          "reasons": [
+            "命中二级市场投教核心主题 1 项"
+          ]
+        },
+        "privateFundSales": {
+          "score": 20,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        }
+      },
+      "primaryScene": "marketEducation",
+      "selectedForFeatured": false,
+      "contentTags": [
+        "行业动态"
+      ],
+      "eventId": null
+    },
+    {
+      "title": "存储“双雄”会师A股进程加速！长存控股完成IPO辅导",
+      "sourceUrl": "https://www.cls.cn/detail/2457962",
+      "publishedAt": "2026-08-19T03:33:11.000Z",
+      "fetchedAt": "2026-08-19T04:51:56.314Z",
+      "timeConfidence": "source",
+      "summary": "《科创板日报》8月19日讯（记者 郭辉）证监会官网显示，长江存储控股股份有限公司（下称“长存控股”）日前向湖北证监局提交《辅导工作完成报告》，公司IPO辅导状态变更为辅导验收。\n\n报告显示，今年5月19日，中信证券、中信建投分别与长存控股签署了辅导协议，并按照《首次公开发行股票并上市辅导监管规定》等相关规定及辅导协议约定开展辅导工作。自5月19日辅导备案至该份报告出具日，辅导机构开展了一期辅导工作",
+      "sourceName": "财联社",
+      "category": "research",
+      "tags": [
+        "研究报告"
+      ],
+      "evidenceType": "financial_media",
+      "discoveredVia": "RSSHub",
+      "id": "news_287024ba2e4f",
+      "tier": "S3",
+      "sourceTier": "S3",
+      "sourceTierLabel": "快讯/观点线索",
+      "score": 75,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 22,
+        "authority": 9,
+        "impact": 20,
+        "recency": 15,
+        "depth": 10,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "快讯线索，需结合原文判断",
+        "对展业/配置/合规有直接影响",
+        "时效性高"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 33,
+          "reasons": [
+            "命中关联主题 1 项",
+            "业务影响较高"
+          ]
+        },
+        "marketEducation": {
+          "score": 77,
+          "reasons": [
+            "命中二级市场投教核心主题 2 项",
+            "命中关联主题 1 项",
+            "业务影响较高"
+          ]
+        },
+        "privateFundSales": {
+          "score": 64,
+          "reasons": [
+            "命中私募销售运营核心主题 1 项",
+            "命中关联主题 2 项",
+            "业务影响较高"
+          ]
+        }
+      },
+      "primaryScene": "insurance",
+      "selectedForFeatured": false,
+      "contentTags": [
+        "深度研究"
+      ],
+      "eventId": null
+    },
+    {
+      "title": "效仿马斯克和扎克伯格 Anthropic计划为CEO提供额外投票权",
+      "sourceUrl": "https://www.cls.cn/detail/2457948",
+      "publishedAt": "2026-08-19T03:28:12.000Z",
+      "fetchedAt": "2026-08-19T04:51:56.314Z",
+      "timeConfidence": "source",
+      "summary": "财联社8月19日讯（编辑 马兰）人工智能初创公司Anthropic计划在今年晚些时候IPO。据消息人士称，Anthropic准备向公司首席执行官Dario Amodei及其他联合创始人授予一类具有额外投票权的股票，以帮助他们抵御来自外部股东的压力。\n消息人士还指出，该公司计划保留其现有的非股东受托人架构，并利用特殊股份选举大多数董事会成员，从而进一步降低外部股东对公司治理的影响。\n目前尚不清楚这些",
+      "sourceName": "财联社",
+      "category": "research",
+      "tags": [
+        "研究报告"
+      ],
+      "evidenceType": "financial_media",
+      "discoveredVia": "RSSHub",
+      "id": "news_a04e9bcde91f",
+      "tier": "S3",
+      "sourceTier": "S3",
+      "sourceTierLabel": "快讯/观点线索",
+      "score": 58,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 12,
+        "authority": 9,
+        "impact": 8,
+        "recency": 15,
+        "depth": 10,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "快讯线索，需结合原文判断",
+        "时效性高",
+        "摘要信息较完整"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 16,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "marketEducation": {
+          "score": 38,
+          "reasons": [
+            "命中二级市场投教核心主题 1 项"
+          ]
+        },
+        "privateFundSales": {
+          "score": 16,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        }
+      },
+      "primaryScene": "marketEducation",
+      "selectedForFeatured": false,
+      "contentTags": [
+        "深度研究"
+      ],
+      "eventId": null
+    },
+    {
+      "title": "Momenta、XHEART与QNX宣布达成合作",
+      "sourceUrl": "https://www.36kr.com/newsflashes/3945884979215490",
+      "publishedAt": "2026-08-19T03:21:46.000Z",
+      "fetchedAt": "2026-08-19T04:51:56.597Z",
+      "timeConfidence": "source",
+      "summary": "36氪获悉，近日，Momenta与新芯航途、BlackBerry有限公司旗下QNX业务部门联合宣布，将共同打造面向量产的全球安全标准自动驾驶平台。此次合作中，Momenta提供全栈自动驾驶算法能力，新芯航途提供车规级SoC（系统级芯片）X7，QNX则提供基于QNX®SDP8.0的安全操作系统。三方合作打造的量产解决方案，旨在助力全球车企加速智能驾驶技术落地，同时满足全球功能安全标准要求。",
+      "sourceName": "36氪",
+      "category": "insights",
+      "tags": [
+        "观点"
+      ],
+      "evidenceType": "news_flash",
+      "discoveredVia": "RSSHub",
+      "id": "news_d912556c1343",
+      "tier": "S3",
+      "sourceTier": "S3",
+      "sourceTierLabel": "快讯/观点线索",
+      "score": 58,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 12,
+        "authority": 9,
+        "impact": 8,
+        "recency": 15,
+        "depth": 10,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "快讯线索，需结合原文判断",
+        "时效性高",
+        "摘要信息较完整"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 16,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "marketEducation": {
+          "score": 16,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "privateFundSales": {
+          "score": 16,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        }
+      },
+      "primaryScene": "marketEducation",
+      "selectedForFeatured": false,
+      "contentTags": [
+        "观点",
+        "快讯"
+      ],
+      "eventId": null
+    },
+    {
+      "title": "宇树科技首秀暴涨 美团和中信等股东账面回报迎爆发式增长",
+      "sourceUrl": "https://www.cls.cn/detail/2457914",
+      "publishedAt": "2026-08-19T03:21:10.000Z",
+      "fetchedAt": "2026-08-19T04:51:56.314Z",
+      "timeConfidence": "source",
+      "summary": "财联社8月19日讯（编辑 胡家荣）——顶着“人形机器人第一股”光环的宇树科技于今日正式登陆科创板，首日挂牌即迎来爆发式上涨，以1100元高开后有所回落，截至发稿，涨491.90%，报892.59元。\n伴随股价的飙升，其背后的豪华投资方阵容也迎来了丰厚的资本回报，公司背后的股东结构涵盖了互联网巨头、国资基金、保荐券商以及产业资本。\n互联网巨头入局：美团成最大外部赢家\n国内头部互联网大厂在宇树科技的早",
+      "sourceName": "财联社",
+      "category": "research",
+      "tags": [
+        "研究报告"
+      ],
+      "evidenceType": "financial_media",
+      "discoveredVia": "RSSHub",
+      "id": "news_09a3abd24f9d",
+      "tier": "S3",
+      "sourceTier": "S3",
+      "sourceTierLabel": "快讯/观点线索",
+      "score": 68,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 22,
+        "authority": 9,
+        "impact": 8,
+        "recency": 15,
+        "depth": 10,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "快讯线索，需结合原文判断",
+        "时效性高",
+        "摘要信息较完整"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 16,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "marketEducation": {
+          "score": 25,
+          "reasons": [
+            "命中关联主题 1 项"
+          ]
+        },
+        "privateFundSales": {
+          "score": 38,
+          "reasons": [
+            "命中私募销售运营核心主题 1 项"
+          ]
+        }
+      },
+      "primaryScene": "privateFundSales",
+      "selectedForFeatured": false,
+      "contentTags": [
+        "深度研究"
+      ],
+      "eventId": null
+    },
+    {
+      "title": "被市场忽视的小米AI",
+      "sourceUrl": "https://wallstreetcn.com/articles/3779763",
+      "publishedAt": "2026-08-19T03:18:19.000Z",
+      "fetchedAt": "2026-08-19T04:50:54.264Z",
+      "timeConfidence": "source",
+      "summary": "小米的AI布局正在被市场系统性低估。\n据追风交易台，巴克莱在8月18日发布的小米二季度业绩点评报告中指出，小米凭借横跨手机、家电、可穿戴设备及电动车的硬件生态，正悄然构建一个差异化的AI应用矩阵——这一战略价值，在当前股价中几乎未获任何体现。\n小米第二季度总营收为人民币1089亿元，同比下降6.1%，但超出巴克莱预期5.2%。报告维持对小米美国存托凭证（XIACY）的增持评级，目标价30美元不变，",
+      "sourceName": "华尔街见闻",
+      "category": "industry",
+      "tags": [
+        "行业动态"
+      ],
+      "evidenceType": "financial_media",
+      "discoveredVia": "RSSHub",
+      "id": "news_bb0abf197ffc",
+      "tier": "S2",
+      "sourceTier": "S2",
+      "sourceTierLabel": "专业财经媒体",
+      "score": 77,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 12,
+        "authority": 15,
+        "impact": 17,
+        "recency": 15,
+        "depth": 10,
+        "actionability": 8
+      },
+      "confidence": "low",
+      "why": [
+        "专业财经媒体跟进",
+        "对展业/配置/合规有直接影响",
+        "可转化为客户沟通或投研关注"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 20,
+          "reasons": [
+            "业务影响较高"
+          ]
+        },
+        "marketEducation": {
+          "score": 48,
+          "reasons": [
+            "命中二级市场投教核心主题 1 项",
+            "业务影响较高"
+          ]
+        },
+        "privateFundSales": {
+          "score": 35,
+          "reasons": [
+            "命中关联主题 1 项",
+            "业务影响较高"
+          ]
+        }
+      },
+      "primaryScene": "privateFundSales",
+      "selectedForFeatured": false,
+      "contentTags": [
+        "行业动态"
+      ],
+      "eventId": null
+    },
+    {
+      "title": "宇树科技上市第一天，抢疯了",
+      "sourceUrl": "https://wallstreetcn.com/charts/41959617",
+      "publishedAt": "2026-08-19T03:17:22.000Z",
+      "fetchedAt": "2026-08-19T04:50:54.264Z",
+      "timeConfidence": "source",
+      "summary": "宇树科技上市第一天，抢疯了。\n\n150.8元发行，开盘直接1100元，高开近630%，截至发布股价为893元。\n\n一签500股，开盘赚47万。\n\n为了抢这500股，接近978万户散户跑来打新，\n\n最后的中签率只有0.0181%，创下科创板历史新低。\n\n才上市第一天，宇树的市值就被顶到了4400多亿。\n\n可它去年一整年的营收，还不到20亿。\n\n20亿的生意，4400亿的价格，宇树科技到底为什么这么贵",
+      "sourceName": "华尔街见闻",
+      "category": "industry",
+      "tags": [
+        "行业动态"
+      ],
+      "evidenceType": "financial_media",
+      "discoveredVia": "RSSHub",
+      "id": "news_c7e34b7eb524",
+      "tier": "S2",
+      "sourceTier": "S2",
+      "sourceTierLabel": "专业财经媒体",
+      "score": 64,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 12,
+        "authority": 15,
+        "impact": 8,
+        "recency": 15,
+        "depth": 10,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "专业财经媒体跟进",
+        "时效性高",
+        "摘要信息较完整"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 20,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "marketEducation": {
+          "score": 20,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "privateFundSales": {
+          "score": 20,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        }
+      },
+      "primaryScene": "marketEducation",
+      "selectedForFeatured": false,
+      "contentTags": [
+        "行业动态"
+      ],
+      "eventId": "event_d0a4f7f6abd4"
+    },
+    {
+      "title": "助贷监管再收紧 或限制银行资金投资消费金融ABS和非标",
+      "sourceUrl": "https://finance.caixin.com/2026-08-19/102475589.html",
+      "publishedAt": "2026-08-19T03:15:00.000Z",
+      "fetchedAt": "2026-08-19T04:50:18.839Z",
+      "timeConfidence": "source",
+      "summary": "多位银行理财、信托人士称，目前尚未收到明确的监管文件，但合规要求已持续收紧；信托公司的消金业务未来或逐步清零\n    \n     \n     所谓助贷平台，是指利用自身的利用场景、数据或技术优势，为商业银行、消费金融公司、信托等持牌金融机构投放贷款，提供营销获客、风险初筛甚至贷后管理等服务的互联网平台。图：视觉中国\n    \n   \n       　　【财新网】经历宜信、桔子数科等助贷平台爆雷风波",
+      "sourceName": "财新网",
+      "category": "industry",
+      "tags": [
+        "行业动态"
+      ],
+      "evidenceType": "financial_media",
+      "discoveredVia": "RSSHub",
+      "id": "news_a8cfee47e04e",
+      "tier": "S2",
+      "sourceTier": "S2",
+      "sourceTierLabel": "专业财经媒体",
+      "score": 82,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 22,
+        "authority": 15,
+        "impact": 20,
+        "recency": 15,
+        "depth": 10,
+        "actionability": 10
+      },
+      "confidence": "low",
+      "why": [
+        "专业财经媒体跟进",
+        "对展业/配置/合规有直接影响",
+        "可转化为客户沟通或投研关注"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 54,
+          "reasons": [
+            "命中关联主题 3 项",
+            "业务影响较高"
+          ]
+        },
+        "marketEducation": {
+          "score": 20,
+          "reasons": [
+            "业务影响较高"
+          ]
+        },
+        "privateFundSales": {
+          "score": 46,
+          "reasons": [
+            "命中关联主题 2 项",
+            "业务影响较高"
+          ]
+        }
+      },
+      "primaryScene": "insurance",
+      "selectedForFeatured": true,
+      "contentTags": [
+        "行业动态"
+      ],
+      "eventId": null
+    },
+    {
+      "title": "蚂蚁分拆融资启幕：AI挂帅，金融托底",
+      "sourceUrl": "https://wallstreetcn.com/articles/3779767",
+      "publishedAt": "2026-08-19T03:13:05.000Z",
+      "fetchedAt": "2026-08-19T04:50:54.264Z",
+      "timeConfidence": "source",
+      "summary": "时隔六年，蚂蚁集团再度试水资本市场。\n2026年7月21日-8月3日，不到两周时间里，蚂蚁集团旗下四家公司传出外部融资消息。\n7月21日，蚂蚁集团旗下全球业务板块主要载体——蚂蚁国际宣布完成约12亿美元A轮融资，投资方包括蚂蚁集团以及包括阿里巴巴集团在内的一些现有股东和多家国际知名投资机构。\n随后的7月29日，OceanBase（海扬数据库）和蚂蚁数科接连传出正寻求外部融资。据多家媒体报道，Oce",
+      "sourceName": "华尔街见闻",
+      "category": "industry",
+      "tags": [
+        "行业动态"
+      ],
+      "evidenceType": "financial_media",
+      "discoveredVia": "RSSHub",
+      "id": "news_357c039fe581",
+      "tier": "S2",
+      "sourceTier": "S2",
+      "sourceTierLabel": "专业财经媒体",
+      "score": 64,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 12,
+        "authority": 15,
+        "impact": 8,
+        "recency": 15,
+        "depth": 10,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "专业财经媒体跟进",
+        "时效性高",
+        "摘要信息较完整"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 20,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "marketEducation": {
+          "score": 42,
+          "reasons": [
+            "命中二级市场投教核心主题 1 项"
+          ]
+        },
+        "privateFundSales": {
+          "score": 29,
+          "reasons": [
+            "命中关联主题 1 项"
+          ]
+        }
+      },
+      "primaryScene": "marketEducation",
+      "selectedForFeatured": false,
+      "contentTags": [
+        "行业动态"
+      ],
+      "eventId": null
+    },
+    {
+      "title": "日元资产的奥德赛时期",
+      "sourceUrl": "https://opinion.caixin.com/2026-08-19/102475581.html",
+      "publishedAt": "2026-08-19T03:01:50.000Z",
+      "fetchedAt": "2026-08-19T04:50:18.839Z",
+      "timeConfidence": "source",
+      "summary": "日元资本何时“归乡”，既是判断日元能否进入新均衡的重要信号，也可能成为未来全球资产再定价的一条关键线索\n    \n     \n     日本国债收益率已经明显上升，但日元仍处于历史低位，汇率与利差之间的传统关系明显弱化。图：视觉中国\n    \n   \n       　　过去20余年，日本长期低利率不仅塑造了日元和日债的定价，也通过日本庞大的海外资产配置向全球金融市场输出低成本资金。低日本国债收益率",
+      "sourceName": "财新网",
+      "category": "industry",
+      "tags": [
+        "行业动态"
+      ],
+      "evidenceType": "financial_media",
+      "discoveredVia": "RSSHub",
+      "id": "news_d6d58aa393bc",
+      "tier": "S2",
+      "sourceTier": "S2",
+      "sourceTierLabel": "专业财经媒体",
+      "score": 85,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 18,
+        "authority": 15,
+        "impact": 17,
+        "recency": 15,
+        "depth": 10,
+        "actionability": 10
+      },
+      "confidence": "low",
+      "why": [
+        "专业财经媒体跟进",
+        "对展业/配置/合规有直接影响",
+        "可转化为客户沟通或投研关注"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 44,
+          "reasons": [
+            "命中关联主题 2 项",
+            "业务影响较高"
+          ]
+        },
+        "marketEducation": {
+          "score": 79,
+          "reasons": [
+            "命中二级市场投教核心主题 2 项",
+            "命中关联主题 1 项",
+            "业务影响较高"
+          ]
+        },
+        "privateFundSales": {
+          "score": 44,
+          "reasons": [
+            "命中关联主题 2 项",
+            "业务影响较高"
+          ]
+        }
+      },
+      "primaryScene": "insurance",
+      "selectedForFeatured": true,
+      "contentTags": [
+        "行业动态"
+      ],
+      "eventId": null
+    },
+    {
+      "title": "各路机构冲刺基金投顾“资质”，最难的不是牌照，是证明自己价值",
+      "sourceUrl": "https://wallstreetcn.com/articles/3779769",
+      "publishedAt": "2026-08-19T03:00:00.000Z",
+      "fetchedAt": "2026-08-19T04:50:54.264Z",
+      "timeConfidence": "source",
+      "summary": "距离8月底基金投顾集中申报节点越来越近，新一轮牌照扩容已经进入冲刺窗口。\n据业内统计，约40家机构正在筹备申报材料，头部券商、头部和外资公募等是其中主要力量。与此同时，不少中小基金公司却陷入观望。\n随着基金投顾即将从试点走向常规化，基金投顾资质的扩容背后“谁来付费、何处获客”等问题逐步浮出水面。\n申报潮来袭：头部积极布局\n从业内了解到，目前有40家左右机构在准备基金投顾牌照申报，其中大部分是券商，",
+      "sourceName": "华尔街见闻",
+      "category": "industry",
+      "tags": [
+        "行业动态"
+      ],
+      "evidenceType": "financial_media",
+      "discoveredVia": "RSSHub",
+      "id": "news_81526cd4dc11",
+      "tier": "S2",
+      "sourceTier": "S2",
+      "sourceTierLabel": "专业财经媒体",
+      "score": 74,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 22,
+        "authority": 15,
+        "impact": 8,
+        "recency": 15,
+        "depth": 10,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "专业财经媒体跟进",
+        "时效性高",
+        "摘要信息较完整"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 20,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "marketEducation": {
+          "score": 29,
+          "reasons": [
+            "命中关联主题 1 项"
+          ]
+        },
+        "privateFundSales": {
+          "score": 42,
+          "reasons": [
+            "命中私募销售运营核心主题 1 项"
+          ]
+        }
+      },
+      "primaryScene": "privateFundSales",
+      "selectedForFeatured": false,
+      "contentTags": [
+        "行业动态"
+      ],
+      "eventId": null
+    },
+    {
+      "title": "宇树科技今年成立两家新公司",
+      "sourceUrl": "https://www.36kr.com/newsflashes/3945862220905603",
+      "publishedAt": "2026-08-19T02:58:37.000Z",
+      "fetchedAt": "2026-08-19T04:51:56.597Z",
+      "timeConfidence": "source",
+      "summary": "36氪获悉，据媒体报道，8月19日，宇树科技高开629%，报1100元，单签收益为47.46万元，总市值达4449亿元。天眼查App显示，宇树科技股份有限公司成立于2016年8月，注册资本约3.6亿人民币，法定代表人为王兴兴，经营范围包括智能机器人的研发、智能机器人销售、工业机器人制造等，由王兴兴、汉海信息技术（上海）有限公司等共同持股。对外投资信息显示，今年以来，该公司已成立上海拓天智联科技有限",
+      "sourceName": "36氪",
+      "category": "insights",
+      "tags": [
+        "观点"
+      ],
+      "evidenceType": "news_flash",
+      "discoveredVia": "RSSHub",
+      "id": "news_2b594ac952a1",
+      "tier": "S3",
+      "sourceTier": "S3",
+      "sourceTierLabel": "快讯/观点线索",
+      "score": 58,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 12,
+        "authority": 9,
+        "impact": 8,
+        "recency": 15,
+        "depth": 10,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "快讯线索，需结合原文判断",
+        "时效性高",
+        "摘要信息较完整"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 16,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "marketEducation": {
+          "score": 16,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "privateFundSales": {
+          "score": 16,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        }
+      },
+      "primaryScene": "marketEducation",
+      "selectedForFeatured": false,
+      "contentTags": [
+        "观点",
+        "快讯"
+      ],
+      "eventId": null
+    },
+    {
+      "title": "苹果调整欧盟应用商店佣金，承认商业模式调整影响收入",
+      "sourceUrl": "https://www.yicai.com/news/103323977.html",
+      "publishedAt": "2026-08-19T02:54:36.000Z",
+      "fetchedAt": "2026-08-19T04:51:03.948Z",
+      "timeConfidence": "source",
+      "summary": "苹果最新季度服务业务收入增长不及市场预期。当地时间8月18日，苹果（AAPL.O）宣布，公司对欧盟地区第三方应用商城抽取的“核心技术佣金”定为5%，以解决与欧盟在业务条款和替代分发方面的分歧。\n\n此外，根据苹果新规，欧盟地区用户通过苹果官方商店App Store购买并使用苹果支付系统时，需要为数字商品及服务支付26%的佣金；对于使用替代支付方式的应用，佣金为20%；对于链接到网站以完成购买的应用，",
+      "sourceName": "第一财经",
+      "category": "industry",
+      "tags": [
+        "行业动态"
+      ],
+      "evidenceType": "financial_media",
+      "discoveredVia": "RSSHub",
+      "id": "news_eabbeb7a5d05",
+      "tier": "S2",
+      "sourceTier": "S2",
+      "sourceTierLabel": "专业财经媒体",
+      "score": 64,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 12,
+        "authority": 15,
+        "impact": 8,
+        "recency": 15,
+        "depth": 10,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "专业财经媒体跟进",
+        "时效性高",
+        "摘要信息较完整"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 20,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "marketEducation": {
+          "score": 42,
+          "reasons": [
+            "命中二级市场投教核心主题 1 项"
+          ]
+        },
+        "privateFundSales": {
+          "score": 29,
+          "reasons": [
+            "命中关联主题 1 项"
+          ]
+        }
+      },
+      "primaryScene": "marketEducation",
+      "selectedForFeatured": false,
+      "contentTags": [
+        "行业动态"
+      ],
+      "eventId": null
+    },
+    {
+      "title": "杭州酒局事件另一关键人物也被免职",
+      "sourceUrl": "https://www.yicai.com/news/103324019.html",
+      "publishedAt": "2026-08-19T02:51:41.000Z",
+      "fetchedAt": "2026-08-19T04:51:03.948Z",
+      "timeConfidence": "source",
+      "summary": "建发房产杭州事业部总经理马政纲被免职。杭州酒局事件发酵后，又有一名未出现在官方通报中的国企高管被免职。今年7月26日，在杭州的一个商务酒局上，一名女性遭受不法侵害。8月18日，在事件已发生超20天后，杭州市调查处置组发布情况通报称，7月26日晚，犯罪嫌疑人赵某峰（男，某企业高管）、郁某栋（男，杭州市滨江区公职人员）餐后在某KTV活动期间，对被害人实施强制猥亵，其间赵某峰将被害人推倒导致其腰部受伤。",
+      "sourceName": "第一财经",
+      "category": "industry",
+      "tags": [
+        "行业动态"
+      ],
+      "evidenceType": "financial_media",
+      "discoveredVia": "RSSHub",
+      "id": "news_a2b455e35fea",
+      "tier": "S2",
+      "sourceTier": "S2",
+      "sourceTierLabel": "专业财经媒体",
+      "score": 64,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 12,
+        "authority": 15,
+        "impact": 8,
+        "recency": 15,
+        "depth": 10,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "专业财经媒体跟进",
+        "时效性高",
+        "摘要信息较完整"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 20,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "marketEducation": {
+          "score": 20,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "privateFundSales": {
+          "score": 20,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        }
+      },
+      "primaryScene": "marketEducation",
+      "selectedForFeatured": false,
+      "contentTags": [
+        "行业动态"
+      ],
+      "eventId": null
+    },
+    {
+      "title": "传奇投资人库珀曼预言：美经济可能明年衰退，股市会下跌尤应避开科技股！",
+      "sourceUrl": "https://www.cls.cn/detail/2457887",
+      "publishedAt": "2026-08-19T02:48:00.000Z",
+      "fetchedAt": "2026-08-19T04:51:56.314Z",
+      "timeConfidence": "source",
+      "summary": "财联社8月19日讯（编辑 黄君芝）日前，华尔街传奇投资人、对冲基金大佬库珀曼（Leon Cooperman）对美国经济和市场前景做出了令人担忧的预测，认为美国经济可能在未来一年内陷入衰退。\n他在接受最新采访时表示，当前市场的一些迹象与过去的繁荣与萧条周期有相似之处，例如20世纪中期的“漂亮50”时代。库珀曼指出，种种迹象表明当前的经济周期即将结束，而随着人工智能（AI）热潮逐渐消退，股市也可能迎来",
+      "sourceName": "财联社",
+      "category": "research",
+      "tags": [
+        "研究报告"
+      ],
+      "evidenceType": "financial_media",
+      "discoveredVia": "RSSHub",
+      "id": "news_514ee68cc41a",
+      "tier": "S3",
+      "sourceTier": "S3",
+      "sourceTierLabel": "快讯/观点线索",
+      "score": 68,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 22,
+        "authority": 9,
+        "impact": 8,
+        "recency": 15,
+        "depth": 10,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "快讯线索，需结合原文判断",
+        "时效性高",
+        "摘要信息较完整"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 16,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "marketEducation": {
+          "score": 47,
+          "reasons": [
+            "命中二级市场投教核心主题 1 项",
+            "命中关联主题 1 项"
+          ]
+        },
+        "privateFundSales": {
+          "score": 69,
+          "reasons": [
+            "命中私募销售运营核心主题 2 项",
+            "命中关联主题 1 项"
+          ]
+        }
+      },
+      "primaryScene": "privateFundSales",
+      "selectedForFeatured": true,
+      "contentTags": [
+        "深度研究"
+      ],
+      "eventId": null
+    },
+    {
+      "title": "频准激光盘中股价跌破1000元，跌幅超过14%",
+      "sourceUrl": "https://www.36kr.com/newsflashes/3945843436272770",
+      "publishedAt": "2026-08-19T02:39:30.000Z",
+      "fetchedAt": "2026-08-19T04:51:56.597Z",
+      "timeConfidence": "source",
+      "summary": "36氪获悉，在上市首日即站上千元大关后，科创板次新股频准激光今天上午走低，盘中股价跌破1000元大关，跌幅超过14%。",
+      "sourceName": "36氪",
+      "category": "insights",
+      "tags": [
+        "观点"
+      ],
+      "evidenceType": "news_flash",
+      "discoveredVia": "RSSHub",
+      "id": "news_334aab83a402",
+      "tier": "S3",
+      "sourceTier": "S3",
+      "sourceTierLabel": "快讯/观点线索",
+      "score": 54,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 12,
+        "authority": 9,
+        "impact": 8,
+        "recency": 15,
+        "depth": 6,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "快讯线索，需结合原文判断",
+        "时效性高"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 16,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "marketEducation": {
+          "score": 16,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "privateFundSales": {
+          "score": 16,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        }
+      },
+      "primaryScene": "marketEducation",
+      "selectedForFeatured": false,
+      "contentTags": [
+        "观点",
+        "快讯"
+      ],
+      "eventId": null
+    },
+    {
+      "title": "就在今晚！美债又将迎“大考”……",
+      "sourceUrl": "https://www.cls.cn/detail/2457871",
+      "publishedAt": "2026-08-19T02:37:47.000Z",
+      "fetchedAt": "2026-08-19T04:51:56.314Z",
+      "timeConfidence": "source",
+      "summary": "财联社8月19日讯（编辑 潇湘）按照日程安排，美国财政部将于北京时间周四凌晨1点再次向投资者“借款”160亿美元，期限20年，以帮助为今年迄今近1.8万亿美元的美国预算赤字提供资金。\n来自投资者的回应大概会是：“没问题，但你得支付近5.28%的收益率”——这是当前二级市场上20年期美债收益率的成交利率，同时也可能是自六年前发行20年期债券品种以来，华盛顿借债成本最高的一次……\n随着长期美债收益率持",
+      "sourceName": "财联社",
+      "category": "research",
+      "tags": [
+        "研究报告"
+      ],
+      "evidenceType": "financial_media",
+      "discoveredVia": "RSSHub",
+      "id": "news_c6d425cbfb59",
+      "tier": "S3",
+      "sourceTier": "S3",
+      "sourceTierLabel": "快讯/观点线索",
+      "score": 72,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 22,
+        "authority": 9,
+        "impact": 8,
+        "recency": 15,
+        "depth": 10,
+        "actionability": 8
+      },
+      "confidence": "low",
+      "why": [
+        "快讯线索，需结合原文判断",
+        "可转化为客户沟通或投研关注",
+        "时效性高"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 25,
+          "reasons": [
+            "命中关联主题 1 项"
+          ]
+        },
+        "marketEducation": {
+          "score": 82,
+          "reasons": [
+            "命中二级市场投教核心主题 3 项"
+          ]
+        },
+        "privateFundSales": {
+          "score": 34,
+          "reasons": [
+            "命中关联主题 2 项"
+          ]
+        }
+      },
+      "primaryScene": "privateFundSales",
+      "selectedForFeatured": false,
+      "contentTags": [
+        "深度研究"
+      ],
+      "eventId": null
+    },
+    {
+      "title": "连锁反应！美股AI基建抛售潮波及港股 剑桥科技和兆易创新均跌超5%",
+      "sourceUrl": "https://www.cls.cn/detail/2457869",
+      "publishedAt": "2026-08-19T02:32:40.000Z",
+      "fetchedAt": "2026-08-19T04:51:56.314Z",
+      "timeConfidence": "source",
+      "summary": "财联社8月19日讯（编辑 胡家荣）周三，港股人工智能概念相关个股多数走弱，其中光通信和存储股板块大幅下跌，剑桥科技(06166.HK)和兆易创新(03986.HK)领跌。\n截至发稿，在光通信板块中，汇聚科技(01729.HK)跌7.21%，剑桥科技跌6.93%，长飞光纤光缆(06869.HK)跌6.16%，曦智科技-P(01879.HK)跌4.46%。\n\n在芯片板块中，兆易创新跌5.78%，伟仕佳",
+      "sourceName": "财联社",
+      "category": "research",
+      "tags": [
+        "研究报告"
+      ],
+      "evidenceType": "financial_media",
+      "discoveredVia": "RSSHub",
+      "id": "news_13fb2447105f",
+      "tier": "S3",
+      "sourceTier": "S3",
+      "sourceTierLabel": "快讯/观点线索",
+      "score": 58,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 12,
+        "authority": 9,
+        "impact": 8,
+        "recency": 15,
+        "depth": 10,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "快讯线索，需结合原文判断",
+        "时效性高",
+        "摘要信息较完整"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 16,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "marketEducation": {
+          "score": 60,
+          "reasons": [
+            "命中二级市场投教核心主题 2 项"
+          ]
+        },
+        "privateFundSales": {
+          "score": 16,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        }
+      },
+      "primaryScene": "marketEducation",
+      "selectedForFeatured": false,
+      "contentTags": [
+        "深度研究"
+      ],
+      "eventId": null
+    },
+    {
+      "title": "科创50指数跌超5%",
+      "sourceUrl": "https://www.36kr.com/newsflashes/3945836160121993",
+      "publishedAt": "2026-08-19T02:32:06.000Z",
+      "fetchedAt": "2026-08-19T04:51:56.597Z",
+      "timeConfidence": "source",
+      "summary": "36氪获悉，科创50指数跌超5%，成分股中，芯原股份、华虹宏力双双跌超9%。",
+      "sourceName": "36氪",
+      "category": "insights",
+      "tags": [
+        "观点"
+      ],
+      "evidenceType": "news_flash",
+      "discoveredVia": "RSSHub",
+      "id": "news_03343886b3b1",
+      "tier": "S3",
+      "sourceTier": "S3",
+      "sourceTierLabel": "快讯/观点线索",
+      "score": 51,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 12,
+        "authority": 9,
+        "impact": 8,
+        "recency": 15,
+        "depth": 3,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "快讯线索，需结合原文判断",
+        "时效性高"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 16,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "marketEducation": {
+          "score": 38,
+          "reasons": [
+            "命中二级市场投教核心主题 1 项"
+          ]
+        },
+        "privateFundSales": {
+          "score": 16,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        }
+      },
+      "primaryScene": "marketEducation",
+      "selectedForFeatured": false,
+      "contentTags": [
+        "观点",
+        "快讯"
+      ],
+      "eventId": "event_b42db0ed23d2"
+    },
+    {
+      "title": "创业板跌超4%，宇树IPO首日大涨500%，芯片、算力齐跌，银行逆势活跃，恒科指跌超1%，百度大跌12%",
+      "sourceUrl": "https://wallstreetcn.com/articles/3779764",
+      "publishedAt": "2026-08-19T02:28:29.000Z",
+      "fetchedAt": "2026-08-19T04:50:54.264Z",
+      "timeConfidence": "source",
+      "summary": "隔夜，全球债市风暴蔓延，拖累欧美股市下跌，美股芯片指数重挫5%，SK海力士和希捷跌超9%。今天亚太股市延续跌势，韩国股市更大低开5%，SK海力士、三星电子均显著下挫。\n8月19日，A股低开低走，三大股指盘初集体下挫，沪指跌超1%，创业板跌超3%，宇树机器人上市首日开盘暴涨630%，市值超4400亿元，目前涨近500%，不过，机器人板块遭遇重挫，太空算力概念股亦大幅下跌，算力硬件、半导体板块陷入调整",
+      "sourceName": "华尔街见闻",
+      "category": "industry",
+      "tags": [
+        "行业动态"
+      ],
+      "evidenceType": "financial_media",
+      "discoveredVia": "RSSHub",
+      "id": "news_9de1e38c793b",
+      "tier": "S2",
+      "sourceTier": "S2",
+      "sourceTierLabel": "专业财经媒体",
+      "score": 70,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 18,
+        "authority": 15,
+        "impact": 8,
+        "recency": 15,
+        "depth": 10,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "专业财经媒体跟进",
+        "时效性高",
+        "摘要信息较完整"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 29,
+          "reasons": [
+            "命中关联主题 1 项"
+          ]
+        },
+        "marketEducation": {
+          "score": 86,
+          "reasons": [
+            "命中二级市场投教核心主题 3 项"
+          ]
+        },
+        "privateFundSales": {
+          "score": 20,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        }
+      },
+      "primaryScene": "marketEducation",
+      "selectedForFeatured": true,
+      "contentTags": [
+        "行业动态"
+      ],
+      "eventId": "event_6e71f9ee633e"
+    },
+    {
+      "title": "华尔街开抢Anthropic百亿美元循环信贷？实则角逐IPO承销入场券",
+      "sourceUrl": "https://www.cls.cn/detail/2457848",
+      "publishedAt": "2026-08-19T02:28:11.000Z",
+      "fetchedAt": "2026-08-19T04:51:56.314Z",
+      "timeConfidence": "source",
+      "summary": "财联社8月19日讯（编辑 李莹）据悉，Anthropic正赶在其IPO前夕推动循环信贷额度扩容，目标规模超100亿美元。华尔街多家银行争相入局，希望借此争夺IPO承销角色。\n媒体援引知情人士消息称，这家Claude聊天机器人开发商拟扩大其循环信贷额度，在IPO前其循环信贷额度或将超过100亿美元。\n循环信贷是银行给企业的授信，在约定的总额度和期限内，企业可以随时按需提款、还款，并只需为实际使用的金",
+      "sourceName": "财联社",
+      "category": "research",
+      "tags": [
+        "研究报告"
+      ],
+      "evidenceType": "financial_media",
+      "discoveredVia": "RSSHub",
+      "id": "news_55c198d47d9b",
+      "tier": "S3",
+      "sourceTier": "S3",
+      "sourceTierLabel": "快讯/观点线索",
+      "score": 64,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 18,
+        "authority": 9,
+        "impact": 8,
+        "recency": 15,
+        "depth": 10,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "快讯线索，需结合原文判断",
+        "时效性高",
+        "摘要信息较完整"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 25,
+          "reasons": [
+            "命中关联主题 1 项"
+          ]
+        },
+        "marketEducation": {
+          "score": 16,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "privateFundSales": {
+          "score": 16,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        }
+      },
+      "primaryScene": "marketEducation",
+      "selectedForFeatured": false,
+      "contentTags": [
+        "深度研究"
+      ],
+      "eventId": null
+    },
+    {
+      "title": "梁文锋打新宇树科技浮盈11亿，雷军赚152亿，美团系浮盈333亿，大疆痛失超250亿",
+      "sourceUrl": "https://wallstreetcn.com/articles/3779762",
+      "publishedAt": "2026-08-19T02:26:52.000Z",
+      "fetchedAt": "2026-08-19T04:50:54.264Z",
+      "timeConfidence": "source",
+      "summary": "19日，“人形机器人”第一股宇树科技正式登陆科创板，开盘上涨629.44%，每股报1100.00元。按现价计算，中一签可赚47.46万元。\n股民想要中签宇树科技可不容易。\n宇树科技本次网上打新申购的有效申购股数高达536.37亿股，而最终确定的网上发行股数仅970.70万股，由此确定的最终中签率仅为0.0181%。相较于最近同样热门的新股长鑫科技，其网上发行最终中签率为0.4714%，宇树科技打新",
+      "sourceName": "华尔街见闻",
+      "category": "industry",
+      "tags": [
+        "行业动态"
+      ],
+      "evidenceType": "financial_media",
+      "discoveredVia": "RSSHub",
+      "id": "news_a927c52f958c",
+      "tier": "S2",
+      "sourceTier": "S2",
+      "sourceTierLabel": "专业财经媒体",
+      "score": 64,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 12,
+        "authority": 15,
+        "impact": 8,
+        "recency": 15,
+        "depth": 10,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "专业财经媒体跟进",
+        "时效性高",
+        "摘要信息较完整"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 20,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "marketEducation": {
+          "score": 20,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "privateFundSales": {
+          "score": 20,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        }
+      },
+      "primaryScene": "marketEducation",
+      "selectedForFeatured": false,
+      "contentTags": [
+        "行业动态"
+      ],
+      "eventId": "event_830ff8954bfc"
+    },
+    {
+      "title": "创业板指跌4%",
+      "sourceUrl": "https://www.36kr.com/newsflashes/3945825967045764",
+      "publishedAt": "2026-08-19T02:21:44.000Z",
+      "fetchedAt": "2026-08-19T04:51:56.597Z",
+      "timeConfidence": "source",
+      "summary": "36氪获悉，创业板指跌4%，深证成指跌3.3%，沪指跌1.79%，科创50指数跌4.8%，MLCC概念、CPO板块、存储芯片、人形机器人板块跌幅居前，全市场超4900只个股下跌。",
+      "sourceName": "36氪",
+      "category": "insights",
+      "tags": [
+        "观点"
+      ],
+      "evidenceType": "news_flash",
+      "discoveredVia": "RSSHub",
+      "id": "news_6dd1fe2270e0",
+      "tier": "S3",
+      "sourceTier": "S3",
+      "sourceTierLabel": "快讯/观点线索",
+      "score": 54,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 12,
+        "authority": 9,
+        "impact": 8,
+        "recency": 15,
+        "depth": 6,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "快讯线索，需结合原文判断",
+        "时效性高"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 16,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "marketEducation": {
+          "score": 60,
+          "reasons": [
+            "命中二级市场投教核心主题 2 项"
+          ]
+        },
+        "privateFundSales": {
+          "score": 25,
+          "reasons": [
+            "命中关联主题 1 项"
+          ]
+        }
+      },
+      "primaryScene": "marketEducation",
+      "selectedForFeatured": false,
+      "contentTags": [
+        "观点",
+        "快讯"
+      ],
+      "eventId": "event_6e71f9ee633e"
+    },
+    {
+      "title": "巴拿马运河通航限制的影响",
+      "sourceUrl": "https://opinion.caixin.com/2026-08-19/102475574.html",
+      "publishedAt": "2026-08-19T02:20:07.000Z",
+      "fetchedAt": "2026-08-19T04:50:18.839Z",
+      "timeConfidence": "source",
+      "summary": "巴拿马运河通航形势目前还可控，但是情况在继续恶化，预计今年第四季度情况最糟糕，影响一直持续到明年第一季度\n       　　7月以来虽然美西FAK运价出现反复，美东的运价却一直坚挺，8月后美东FAK运价已经过万，创近年来新高。上一次看到五位数的运费还是疫情期间了。为什么美东运价可以维持在高位？\n　　5-6月开始的赶货潮已经结束，USTR（美国贸易代表办公室）公布的第一个301关税基本取代了7月24",
+      "sourceName": "财新网",
+      "category": "industry",
+      "tags": [
+        "行业动态"
+      ],
+      "evidenceType": "financial_media",
+      "discoveredVia": "RSSHub",
+      "id": "news_3b6f3eebd675",
+      "tier": "S2",
+      "sourceTier": "S2",
+      "sourceTierLabel": "专业财经媒体",
+      "score": 64,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 12,
+        "authority": 15,
+        "impact": 8,
+        "recency": 15,
+        "depth": 10,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "专业财经媒体跟进",
+        "时效性高",
+        "摘要信息较完整"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 20,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "marketEducation": {
+          "score": 20,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "privateFundSales": {
+          "score": 20,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        }
+      },
+      "primaryScene": "marketEducation",
+      "selectedForFeatured": false,
+      "contentTags": [
+        "行业动态"
+      ],
+      "eventId": null
+    },
+    {
+      "title": "韩股大跌触发熔断，“存储双雄”重挫！背后推手有哪些？",
+      "sourceUrl": "https://www.cls.cn/detail/2457832",
+      "publishedAt": "2026-08-19T02:20:03.000Z",
+      "fetchedAt": "2026-08-19T04:51:56.314Z",
+      "timeConfidence": "source",
+      "summary": "财联社8月19日讯（编辑 卞纯）韩国股市周三大幅下跌，并触发熔断机制。受隔夜美国半导体股票暴跌影响，韩国“存储双雄”引领大盘走低。随着美伊和平前景趋于黯淡，债券收益率与油价走高压制科技股表现，打击了投资者情绪。\n韩国综合股价指数（KOSPI）开盘即下跌4.96%，截至发稿，下跌4.09%，报6589.17点。盘中跌幅一度扩大至近7%。\n\n北京时间上午08：07左右，韩国交易所对KOSPI指数启动“",
+      "sourceName": "财联社",
+      "category": "research",
+      "tags": [
+        "研究报告"
+      ],
+      "evidenceType": "financial_media",
+      "discoveredVia": "RSSHub",
+      "id": "news_b61998bbd222",
+      "tier": "S3",
+      "sourceTier": "S3",
+      "sourceTierLabel": "快讯/观点线索",
+      "score": 68,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 22,
+        "authority": 9,
+        "impact": 8,
+        "recency": 15,
+        "depth": 10,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "快讯线索，需结合原文判断",
+        "时效性高",
+        "摘要信息较完整"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 16,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "marketEducation": {
+          "score": 82,
+          "reasons": [
+            "命中二级市场投教核心主题 3 项"
+          ]
+        },
+        "privateFundSales": {
+          "score": 25,
+          "reasons": [
+            "命中关联主题 1 项"
+          ]
+        }
+      },
+      "primaryScene": "marketEducation",
+      "selectedForFeatured": true,
+      "contentTags": [
+        "深度研究"
+      ],
+      "eventId": null
+    },
+    {
+      "title": "细解10万亿住房公积金新规",
+      "sourceUrl": "https://finance.caixin.com/2026-08-19/102475564.html",
+      "publishedAt": "2026-08-19T02:17:36.000Z",
+      "fetchedAt": "2026-08-19T04:50:18.839Z",
+      "timeConfidence": "source",
+      "summary": "本次修订完善了公积金“怎么交”“怎么用”的问题，后续还有“谁来管”“管多大”“向哪走”等更多深层问题有待探索\n       　　【财新网】存量10万亿、影响至少1.8亿职工的住房公积金制度完成了一次新的修订。\n　　2026年8月18日，《住房公积金管理条例》修订后的版本（下称“新《条例》”）正式对外公布，并自2026年9月20日起施行。此前经历了对外征求意见，确定了最终修订版本（参见财新网《关系1",
+      "sourceName": "财新网",
+      "category": "industry",
+      "tags": [
+        "行业动态"
+      ],
+      "evidenceType": "financial_media",
+      "discoveredVia": "RSSHub",
+      "id": "news_bec4b0f64853",
+      "tier": "S2",
+      "sourceTier": "S2",
+      "sourceTierLabel": "专业财经媒体",
+      "score": 64,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 12,
+        "authority": 15,
+        "impact": 8,
+        "recency": 15,
+        "depth": 10,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "专业财经媒体跟进",
+        "时效性高",
+        "摘要信息较完整"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 20,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "marketEducation": {
+          "score": 20,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "privateFundSales": {
+          "score": 20,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        }
+      },
+      "primaryScene": "marketEducation",
+      "selectedForFeatured": false,
+      "contentTags": [
+        "行业动态"
+      ],
+      "eventId": "event_97627ca5de19"
+    },
+    {
+      "title": "OpenAI据悉Q2亏损进一步扩大 投资者在IPO前愈加担忧",
+      "sourceUrl": "https://www.cls.cn/detail/2457827",
+      "publishedAt": "2026-08-19T02:16:03.000Z",
+      "fetchedAt": "2026-08-19T04:51:56.314Z",
+      "timeConfidence": "source",
+      "summary": "财联社8月19日讯（编辑 马兰）Anthropic和OpenAI都计划在今年上市，但两家公司的境况并不相通。在Anthropic近日翻番的第二季营收后，OpenAI却透露其亏损却在扩大。\n据报道，OpenAI告诉投资者，其收入从第一季度到第二季度环比增长了18%，但亏损持续增加。这一结果令一些股东感到失望，他们原本希望这家初创公司能够取得更多进展，赶上其竞争对手 Anthropic。\n该公司表示，",
+      "sourceName": "财联社",
+      "category": "research",
+      "tags": [
+        "研究报告"
+      ],
+      "evidenceType": "financial_media",
+      "discoveredVia": "RSSHub",
+      "id": "news_4f8a9d4a41fe",
+      "tier": "S3",
+      "sourceTier": "S3",
+      "sourceTierLabel": "快讯/观点线索",
+      "score": 58,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 12,
+        "authority": 9,
+        "impact": 8,
+        "recency": 15,
+        "depth": 10,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "快讯线索，需结合原文判断",
+        "时效性高",
+        "摘要信息较完整"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 16,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "marketEducation": {
+          "score": 16,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "privateFundSales": {
+          "score": 16,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        }
+      },
+      "primaryScene": "marketEducation",
+      "selectedForFeatured": false,
+      "contentTags": [
+        "深度研究"
+      ],
+      "eventId": null
+    },
+    {
+      "title": "欧委会批准奔驰、宝马、赛力斯共同控股超充合资公司逸安启",
+      "sourceUrl": "https://www.36kr.com/newsflashes/3945815378623620",
+      "publishedAt": "2026-08-19T02:10:58.000Z",
+      "fetchedAt": "2026-08-19T04:51:56.597Z",
+      "timeConfidence": "source",
+      "summary": "据欧委会网站，近日，欧委会宣布根据欧盟并购法规，正式批准梅赛德斯-奔驰中国集团、华晨宝马和赛力斯集团共同控股北京逸安启新能源科技有限公司（逸安启）。据媒体此前报道，4月17日，宝马与梅赛德斯-奔驰在中国合资设立的超充公司逸安启宣布股权扩容：赛力斯集团以对等持股方式成为新投资方，旗下品牌问界正式加入。交易完成后，宝马、梅赛德斯-奔驰、赛力斯三方各持33.3%股份，共同推进国内超充网络建设与运营。（财",
+      "sourceName": "36氪",
+      "category": "insights",
+      "tags": [
+        "观点"
+      ],
+      "evidenceType": "news_flash",
+      "discoveredVia": "RSSHub",
+      "id": "news_0649181351ff",
+      "tier": "S3",
+      "sourceTier": "S3",
+      "sourceTierLabel": "快讯/观点线索",
+      "score": 70,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 12,
+        "authority": 9,
+        "impact": 20,
+        "recency": 15,
+        "depth": 10,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "快讯线索，需结合原文判断",
+        "对展业/配置/合规有直接影响",
+        "时效性高"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 20,
+          "reasons": [
+            "业务影响较高"
+          ]
+        },
+        "marketEducation": {
+          "score": 20,
+          "reasons": [
+            "业务影响较高"
+          ]
+        },
+        "privateFundSales": {
+          "score": 20,
+          "reasons": [
+            "业务影响较高"
+          ]
+        }
+      },
+      "primaryScene": "marketEducation",
+      "selectedForFeatured": false,
+      "contentTags": [
+        "观点",
+        "快讯"
+      ],
+      "eventId": null
+    },
     {
       "title": "亚玛芬体育：第二季度收入16.33亿美元，同比增长32%",
       "sourceUrl": "https://www.36kr.com/newsflashes/3945803733269891",
@@ -160,6 +3902,68 @@ window.FINHOT_DATA = {
       "contentTags": [
         "观点",
         "快讯"
+      ],
+      "eventId": null
+    },
+    {
+      "title": "“AI股神”崩盘记：闻到“血腥味”后，华尔街“秃鹫”开启围猎",
+      "sourceUrl": "https://wallstreetcn.com/articles/3779755",
+      "publishedAt": "2026-08-19T01:58:45.000Z",
+      "fetchedAt": "2026-08-19T04:50:54.264Z",
+      "timeConfidence": "source",
+      "summary": "在华尔街，真正的危机往往不是从一纸公告开始，而是从绝望的“私下询价”开始。\n据《华尔街日报》复盘，7月29日下午，正坐在出租车赶往拉瓜迪亚机场的David Mann接到了这样一通电话。对方急切地询问，他是否有意连夜接手对“AI股神”对冲基金Situational Awareness持有的Anthropic股权。\nMann当即明白了一切，因为没有人会在一家AI巨头估值接近1万亿美元时急着抛售Pre-",
+      "sourceName": "华尔街见闻",
+      "category": "industry",
+      "tags": [
+        "行业动态"
+      ],
+      "evidenceType": "financial_media",
+      "discoveredVia": "RSSHub",
+      "id": "news_44f721d9e048",
+      "tier": "S2",
+      "sourceTier": "S2",
+      "sourceTierLabel": "专业财经媒体",
+      "score": 74,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 22,
+        "authority": 15,
+        "impact": 8,
+        "recency": 15,
+        "depth": 10,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "专业财经媒体跟进",
+        "时效性高",
+        "摘要信息较完整"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 20,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "marketEducation": {
+          "score": 51,
+          "reasons": [
+            "命中二级市场投教核心主题 1 项",
+            "命中关联主题 1 项"
+          ]
+        },
+        "privateFundSales": {
+          "score": 64,
+          "reasons": [
+            "命中私募销售运营核心主题 2 项"
+          ]
+        }
+      },
+      "primaryScene": "privateFundSales",
+      "selectedForFeatured": true,
+      "contentTags": [
+        "行业动态"
       ],
       "eventId": null
     },
@@ -402,7 +4206,7 @@ window.FINHOT_DATA = {
       "contentTags": [
         "行业动态"
       ],
-      "eventId": null
+      "eventId": "event_d0a4f7f6abd4"
     },
     {
       "title": "雷军打新宇树科技狂赚152亿",
@@ -464,7 +4268,7 @@ window.FINHOT_DATA = {
         "观点",
         "快讯"
       ],
-      "eventId": null
+      "eventId": "event_830ff8954bfc"
     },
     {
       "title": "宇树科技暴涨629% 150.80元发行1100元开盘",
@@ -771,7 +4575,7 @@ window.FINHOT_DATA = {
       "contentTags": [
         "行业动态"
       ],
-      "eventId": null
+      "eventId": "event_d0a4f7f6abd4"
     },
     {
       "title": "梁文锋打新宇树科技浮盈11亿",
@@ -2116,7 +5920,7 @@ window.FINHOT_DATA = {
         }
       },
       "primaryScene": "privateFundSales",
-      "selectedForFeatured": true,
+      "selectedForFeatured": false,
       "contentTags": [
         "观点",
         "快讯"
@@ -2366,7 +6170,7 @@ window.FINHOT_DATA = {
         }
       },
       "primaryScene": "insurance",
-      "selectedForFeatured": false,
+      "selectedForFeatured": true,
       "contentTags": [
         "观点",
         "快讯"
@@ -5517,3964 +9321,148 @@ window.FINHOT_DATA = {
         "行业动态"
       ],
       "eventId": null
-    },
-    {
-      "title": "第二季度收入62.9亿元，爱奇艺加速向“非中心化+AI”转型",
-      "sourceUrl": "https://www.yicai.com/news/103323434.html",
-      "publishedAt": "2026-08-18T13:34:54.000Z",
-      "fetchedAt": "2026-08-19T01:57:25.946Z",
-      "timeConfidence": "source",
-      "summary": "爱奇艺正在寻找传统长视频之外的新增长方式。\n\n8月18日，爱奇艺（NASDAQ:IQ）发布2026年第二季度未经审计财报。二季度公司实现总收入62.9亿元，环比增长1%；Non-GAAP（非美国通用会计准则）运营亏损较一季度明显收窄，经营现金流重新转正。\n\n在巩固内容领域的领先优势的同时，爱奇艺创始人、CEO龚宇评价，公司目前的两大战略“转型非中心化的社交媒体”和“全面投入AI”已经成效初显。\n\n",
-      "sourceName": "第一财经",
-      "category": "industry",
-      "tags": [
-        "行业动态"
-      ],
-      "evidenceType": "financial_media",
-      "discoveredVia": "RSSHub",
-      "id": "news_01d43d5c6ac2",
-      "tier": "S2",
-      "sourceTier": "S2",
-      "sourceTierLabel": "专业财经媒体",
-      "score": 62,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 12,
-        "authority": 15,
-        "impact": 8,
-        "recency": 13,
-        "depth": 10,
-        "actionability": 4
-      },
-      "confidence": "low",
-      "why": [
-        "专业财经媒体跟进",
-        "时效性高",
-        "摘要信息较完整"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 19,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        },
-        "marketEducation": {
-          "score": 41,
-          "reasons": [
-            "命中二级市场投教核心主题 1 项"
-          ]
-        },
-        "privateFundSales": {
-          "score": 19,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        }
-      },
-      "primaryScene": "marketEducation",
-      "selectedForFeatured": false,
-      "contentTags": [
-        "行业动态"
-      ],
-      "eventId": null
-    },
-    {
-      "title": "老板电器完成“交接班”：厨卫家电继承者们如何穿越周期",
-      "sourceUrl": "https://www.yicai.com/news/103323429.html",
-      "publishedAt": "2026-08-18T13:32:38.000Z",
-      "fetchedAt": "2026-08-19T01:57:25.946Z",
-      "timeConfidence": "source",
-      "summary": "目前“代际交接”与对抗经济周期的压力叠加。8月18日，老板电器（002508.SZ）召开临时股东会进行董事会换届选举，43岁的任富佳接替70岁的父亲、公司创始人任建华，获任老板电器新一届董事长，同时任总经理。至此，国内几大厨卫电器上市公司老板电器、华帝股份、万和电气的董事长已全由“第二代”接班。\n\n另一厨电龙头方太由年轻一代当家已多年。方太与老板电器的“交接班”都是“父传子”，像任富佳此前已任公司",
-      "sourceName": "第一财经",
-      "category": "industry",
-      "tags": [
-        "行业动态"
-      ],
-      "evidenceType": "financial_media",
-      "discoveredVia": "RSSHub",
-      "id": "news_c20e9a2dc3ad",
-      "tier": "S2",
-      "sourceTier": "S2",
-      "sourceTierLabel": "专业财经媒体",
-      "score": 62,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 12,
-        "authority": 15,
-        "impact": 8,
-        "recency": 13,
-        "depth": 10,
-        "actionability": 4
-      },
-      "confidence": "low",
-      "why": [
-        "专业财经媒体跟进",
-        "时效性高",
-        "摘要信息较完整"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 19,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        },
-        "marketEducation": {
-          "score": 19,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        },
-        "privateFundSales": {
-          "score": 19,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        }
-      },
-      "primaryScene": "marketEducation",
-      "selectedForFeatured": false,
-      "contentTags": [
-        "行业动态"
-      ],
-      "eventId": null
-    },
-    {
-      "title": "县域消费政策重磅落地，九部门发文激活下沉市场潜力",
-      "sourceUrl": "https://www.yicai.com/news/103323412.html",
-      "publishedAt": "2026-08-18T13:22:31.000Z",
-      "fetchedAt": "2026-08-19T01:57:25.946Z",
-      "timeConfidence": "source",
-      "summary": "咨询公司麦肯锡预测，到2030年中国约66%的个人消费增量将来自三线及以下城市、县乡市场等下沉市场。县域消费，已成为扩消费最重要的潜力来源。\n\n8月18日，商务部、国家发改委、财政部等九部门联合印发《关于进一步激发下沉市场活力 活跃县域消费的意见》（下称《意见》），提出18条具体举措，聚焦县域地区线下消费，从优化县域商业环境、丰富县域消费供给、增强消费保障能力、强化要素集成四大方面系统部署。\n\n商",
-      "sourceName": "第一财经",
-      "category": "industry",
-      "tags": [
-        "行业动态"
-      ],
-      "evidenceType": "financial_media",
-      "discoveredVia": "RSSHub",
-      "id": "news_d0be1b1be04b",
-      "tier": "S2",
-      "sourceTier": "S2",
-      "sourceTierLabel": "专业财经媒体",
-      "score": 62,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 12,
-        "authority": 15,
-        "impact": 8,
-        "recency": 13,
-        "depth": 10,
-        "actionability": 4
-      },
-      "confidence": "low",
-      "why": [
-        "专业财经媒体跟进",
-        "时效性高",
-        "摘要信息较完整"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 19,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        },
-        "marketEducation": {
-          "score": 41,
-          "reasons": [
-            "命中二级市场投教核心主题 1 项"
-          ]
-        },
-        "privateFundSales": {
-          "score": 28,
-          "reasons": [
-            "命中关联主题 1 项"
-          ]
-        }
-      },
-      "primaryScene": "marketEducation",
-      "selectedForFeatured": false,
-      "contentTags": [
-        "行业动态"
-      ],
-      "eventId": null
-    },
-    {
-      "title": "10万亿公积金“松绑”：大修落地，修房、养房都能提取",
-      "sourceUrl": "https://www.yicai.com/news/103323391.html",
-      "publishedAt": "2026-08-18T13:19:00.000Z",
-      "fetchedAt": "2026-08-19T01:57:25.946Z",
-      "timeConfidence": "source",
-      "summary": "近二十年来幅度最大的一次系统性修订。时隔七年多，《住房公积金管理条例》完成第三次修订：提取场景扩容至九种，装修自有住房、支付物业费都能提，缴存端则向2亿多灵活就业群体敞开，全国性异地互认互贷也得以落地，住房公积金的制度包容性明显提升。\n\n18日，“国务院关于修改《住房公积金管理条例》的决定”全文公布，修订后的《住房公积金管理条例》（下称《条例》）自2026年9月20日起施行。\n\n有业界观点认为，在",
-      "sourceName": "第一财经",
-      "category": "industry",
-      "tags": [
-        "行业动态"
-      ],
-      "evidenceType": "financial_media",
-      "discoveredVia": "RSSHub",
-      "id": "news_a6db6362b086",
-      "tier": "S2",
-      "sourceTier": "S2",
-      "sourceTierLabel": "专业财经媒体",
-      "score": 62,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 12,
-        "authority": 15,
-        "impact": 8,
-        "recency": 13,
-        "depth": 10,
-        "actionability": 4
-      },
-      "confidence": "low",
-      "why": [
-        "专业财经媒体跟进",
-        "时效性高",
-        "摘要信息较完整"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 19,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        },
-        "marketEducation": {
-          "score": 19,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        },
-        "privateFundSales": {
-          "score": 19,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        }
-      },
-      "primaryScene": "marketEducation",
-      "selectedForFeatured": false,
-      "contentTags": [
-        "行业动态"
-      ],
-      "eventId": null
-    },
-    {
-      "title": "公积金制度迎二十余年最大调整，释放了哪些信号？",
-      "sourceUrl": "https://www.yicai.com/news/103323377.html",
-      "publishedAt": "2026-08-18T13:18:13.000Z",
-      "fetchedAt": "2026-08-19T01:57:25.946Z",
-      "timeConfidence": "source",
-      "summary": "住房公积金制度迎来重大改革。住房公积金制度迎来重大改革。据新华社，国务院总理李强日前签署国务院令，公布《国务院关于修改〈住房公积金管理条例〉的决定》（简称《决定》），自2026年9月20日起施行。《决定》共20条，主要涉及拓宽公积金提取和使用范围、提升管理服务效能、强化风险防控、扩大制度覆盖面四大主要内容，明确了支付房租、装修自住住房、支付物业费等9类可提取公积金的情形。业内专家表示，此次修订坚持",
-      "sourceName": "第一财经",
-      "category": "industry",
-      "tags": [
-        "行业动态"
-      ],
-      "evidenceType": "financial_media",
-      "discoveredVia": "RSSHub",
-      "id": "news_bd0d5c0c6a9b",
-      "tier": "S2",
-      "sourceTier": "S2",
-      "sourceTierLabel": "专业财经媒体",
-      "score": 62,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 12,
-        "authority": 15,
-        "impact": 8,
-        "recency": 13,
-        "depth": 10,
-        "actionability": 4
-      },
-      "confidence": "low",
-      "why": [
-        "专业财经媒体跟进",
-        "时效性高",
-        "摘要信息较完整"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 19,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        },
-        "marketEducation": {
-          "score": 19,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        },
-        "privateFundSales": {
-          "score": 19,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        }
-      },
-      "primaryScene": "marketEducation",
-      "selectedForFeatured": false,
-      "contentTags": [
-        "行业动态"
-      ],
-      "eventId": null
-    },
-    {
-      "title": "从实验室到人员都能保，深圳推出中小科企专属普惠保险",
-      "sourceUrl": "https://www.yicai.com/news/103323387.html",
-      "publishedAt": "2026-08-18T13:10:23.000Z",
-      "fetchedAt": "2026-08-18T13:13:16.705Z",
-      "timeConfidence": "source",
-      "summary": "符合条件的企业投保后，还可享受保费补贴。企业投保后，从生产经营到研发创新、知识产权，乃至人员安全，都可以得到风险保障。8月18日，专门面向中小科技企业的普惠型科技保险产品，正式在深圳推出。\n\n资料显示，该产品在深圳当地政府指导下，由深圳保险业协会组织研发，多家参与险企共同组成“共保体”，是当地首个专属普惠型科技保险产品，共保体实行“统一条款、统一费率、统一方案”，提供全行业统一的标准化保障与服务。",
-      "sourceName": "第一财经",
-      "category": "products",
-      "tags": [
-        "产品发布"
-      ],
-      "evidenceType": "financial_media",
-      "discoveredVia": "RSSHub",
-      "id": "news_f488da2417eb",
-      "tier": "S2",
-      "sourceTier": "S2",
-      "sourceTierLabel": "专业财经媒体",
-      "score": 92,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 25,
-        "authority": 15,
-        "impact": 17,
-        "recency": 15,
-        "depth": 10,
-        "actionability": 10
-      },
-      "confidence": "low",
-      "why": [
-        "专业财经媒体跟进",
-        "对展业/配置/合规有直接影响",
-        "可转化为客户沟通或投研关注"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 92,
-          "reasons": [
-            "命中保险运营核心主题 3 项",
-            "业务影响较高"
-          ]
-        },
-        "marketEducation": {
-          "score": 20,
-          "reasons": [
-            "业务影响较高"
-          ]
-        },
-        "privateFundSales": {
-          "score": 20,
-          "reasons": [
-            "业务影响较高"
-          ]
-        }
-      },
-      "primaryScene": "insurance",
-      "selectedForFeatured": true,
-      "contentTags": [
-        "产品动态"
-      ],
-      "eventId": null
-    },
-    {
-      "title": "小米汽车二季度“喜忧参半”：营收增长、亏损持续 澎程系列订单超预期",
-      "sourceUrl": "https://www.cls.cn/detail/2457493",
-      "publishedAt": "2026-08-18T13:04:58.000Z",
-      "fetchedAt": "2026-08-18T13:13:42.007Z",
-      "timeConfidence": "source",
-      "summary": "财联社8月18日讯（记者 徐昊）8月18日，小米集团披露2026年第二季度财报，当期集团总收入1089亿元，集团经调整净利润62亿元。\n“受全球地缘不确定性、存储等核心器件成本大幅上涨、行业竞争加剧等外部因素影响，集团业务承压，AI产业迎来快速发展窗口，小米强化底层技术布局，夯实‘人车家全生态’战略底座。”小米方面在财报中表示。\n细分收入结构中，智能电动汽车及AI等创新业务分部实现收入249亿元，",
-      "sourceName": "财联社",
-      "category": "research",
-      "tags": [
-        "研究报告"
-      ],
-      "evidenceType": "financial_media",
-      "discoveredVia": "RSSHub",
-      "id": "news_ac2fb700633f",
-      "tier": "S3",
-      "sourceTier": "S3",
-      "sourceTierLabel": "快讯/观点线索",
-      "score": 58,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 12,
-        "authority": 9,
-        "impact": 8,
-        "recency": 15,
-        "depth": 10,
-        "actionability": 4
-      },
-      "confidence": "low",
-      "why": [
-        "快讯线索，需结合原文判断",
-        "时效性高",
-        "摘要信息较完整"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 16,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        },
-        "marketEducation": {
-          "score": 38,
-          "reasons": [
-            "命中二级市场投教核心主题 1 项"
-          ]
-        },
-        "privateFundSales": {
-          "score": 16,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        }
-      },
-      "primaryScene": "marketEducation",
-      "selectedForFeatured": false,
-      "contentTags": [
-        "深度研究"
-      ],
-      "eventId": null
-    },
-    {
-      "title": "李彦宏：市场对昆仑芯的认可度不断提升",
-      "sourceUrl": "https://www.36kr.com/newsflashes/3945036263128457",
-      "publishedAt": "2026-08-18T12:58:24.000Z",
-      "fetchedAt": "2026-08-18T13:13:49.014Z",
-      "timeConfidence": "source",
-      "summary": "36氪获悉，8月18日晚，李彦宏在百度财报电话会上表示，二季度昆仑芯保持强劲势头，在需求旺盛的同时持续向多行业扩展。市场对昆仑芯在大规模应用中的稳定性、效率和适配能力的认可度正在不断提升。昆仑芯推理吞吐量和整体算力效率进一步提升，并增强了规模化支持多样化、高要求AI工作负载的能力。目前，昆仑芯已完成三代AI芯片的研发和商业化，未来将继续推进产品布局，包括面向大规模推理优化的最新 M100以及未来将",
-      "sourceName": "36氪",
-      "category": "insights",
-      "tags": [
-        "观点"
-      ],
-      "evidenceType": "news_flash",
-      "discoveredVia": "RSSHub",
-      "id": "news_df4d0a076a7b",
-      "tier": "S3",
-      "sourceTier": "S3",
-      "sourceTierLabel": "快讯/观点线索",
-      "score": 70,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 12,
-        "authority": 9,
-        "impact": 14,
-        "recency": 15,
-        "depth": 10,
-        "actionability": 10
-      },
-      "confidence": "low",
-      "why": [
-        "快讯线索，需结合原文判断",
-        "可转化为客户沟通或投研关注",
-        "时效性高"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 20,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        },
-        "marketEducation": {
-          "score": 64,
-          "reasons": [
-            "命中二级市场投教核心主题 2 项"
-          ]
-        },
-        "privateFundSales": {
-          "score": 29,
-          "reasons": [
-            "命中关联主题 1 项"
-          ]
-        }
-      },
-      "primaryScene": "marketEducation",
-      "selectedForFeatured": false,
-      "contentTags": [
-        "观点",
-        "快讯"
-      ],
-      "eventId": null
-    },
-    {
-      "title": "热门中概股美股盘前集体走弱，百度跌超8%",
-      "sourceUrl": "https://www.36kr.com/newsflashes/3945035839274375",
-      "publishedAt": "2026-08-18T12:57:58.000Z",
-      "fetchedAt": "2026-08-18T13:13:49.014Z",
-      "timeConfidence": "source",
-      "summary": "36氪获悉，热门中概股美股盘前集体走弱，截至发稿，百度跌超8%，爱奇艺跌超3%，小马智行跌超2%，“蔚小理”、哔哩哔哩均跌超1%，京东跌0.8%，网易跌0.48%，拼多多跌0.41%，阿里巴巴涨超2%。",
-      "sourceName": "36氪",
-      "category": "insights",
-      "tags": [
-        "观点"
-      ],
-      "evidenceType": "news_flash",
-      "discoveredVia": "RSSHub",
-      "id": "news_e65153aa735d",
-      "tier": "S3",
-      "sourceTier": "S3",
-      "sourceTierLabel": "快讯/观点线索",
-      "score": 56,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 12,
-        "authority": 9,
-        "impact": 8,
-        "recency": 15,
-        "depth": 8,
-        "actionability": 4
-      },
-      "confidence": "low",
-      "why": [
-        "快讯线索，需结合原文判断",
-        "时效性高"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 16,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        },
-        "marketEducation": {
-          "score": 38,
-          "reasons": [
-            "命中二级市场投教核心主题 1 项"
-          ]
-        },
-        "privateFundSales": {
-          "score": 16,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        }
-      },
-      "primaryScene": "marketEducation",
-      "selectedForFeatured": false,
-      "contentTags": [
-        "观点",
-        "快讯"
-      ],
-      "eventId": "event_32967e3730b8"
-    },
-    {
-      "title": "28个交易日涨超200%！一鸣食品连续提示风险股价仍创新高 PE升至288倍|速读公告",
-      "sourceUrl": "https://www.cls.cn/detail/2457484",
-      "publishedAt": "2026-08-18T12:55:30.000Z",
-      "fetchedAt": "2026-08-18T13:13:42.007Z",
-      "timeConfidence": "source",
-      "summary": "面对每天上千份上市公司公告该看哪些？重大事项公告动辄几十页几百页重点是啥？公告里一堆专业术语不知道算利好还是利空？请看财联社公司新闻部《速读公告》栏目，我们派驻全国的记者们将于公告当晚为您带来准确、快速、专业的解读。\n\n财联社8月18日讯（记者 陈抗）一鸣食品（605179.SH）股价异动仍在延续。该公司今晚发布公告称，公司股票7月10日至8月18日连续28个交易日收盘价格涨幅偏离值累计超过200",
-      "sourceName": "财联社",
-      "category": "research",
-      "tags": [
-        "研究报告"
-      ],
-      "evidenceType": "financial_media",
-      "discoveredVia": "RSSHub",
-      "id": "news_c679d359d247",
-      "tier": "S3",
-      "sourceTier": "S3",
-      "sourceTierLabel": "快讯/观点线索",
-      "score": 58,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 12,
-        "authority": 9,
-        "impact": 8,
-        "recency": 15,
-        "depth": 10,
-        "actionability": 4
-      },
-      "confidence": "low",
-      "why": [
-        "快讯线索，需结合原文判断",
-        "时效性高",
-        "摘要信息较完整"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 16,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        },
-        "marketEducation": {
-          "score": 38,
-          "reasons": [
-            "命中二级市场投教核心主题 1 项"
-          ]
-        },
-        "privateFundSales": {
-          "score": 16,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        }
-      },
-      "primaryScene": "marketEducation",
-      "selectedForFeatured": false,
-      "contentTags": [
-        "深度研究"
-      ],
-      "eventId": null
-    },
-    {
-      "title": "美股大型科技股盘前多数下跌，闪迪跌超5%",
-      "sourceUrl": "https://www.36kr.com/newsflashes/3945032478014597",
-      "publishedAt": "2026-08-18T12:54:33.000Z",
-      "fetchedAt": "2026-08-18T13:13:49.014Z",
-      "timeConfidence": "source",
-      "summary": "36氪获悉，美股大型科技股盘前多数下跌，截至发稿，闪迪跌超5%，美光科技、英特尔跌超4%，英伟达跌超2%，特斯拉、Meta跌超1%，谷歌跌0.58%，亚马逊跌0.33%，苹果涨0.61%，微软涨0.46%。",
-      "sourceName": "36氪",
-      "category": "insights",
-      "tags": [
-        "观点"
-      ],
-      "evidenceType": "news_flash",
-      "discoveredVia": "RSSHub",
-      "id": "news_0eb4388c732a",
-      "tier": "S3",
-      "sourceTier": "S3",
-      "sourceTierLabel": "快讯/观点线索",
-      "score": 56,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 12,
-        "authority": 9,
-        "impact": 8,
-        "recency": 15,
-        "depth": 8,
-        "actionability": 4
-      },
-      "confidence": "low",
-      "why": [
-        "快讯线索，需结合原文判断",
-        "时效性高"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 16,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        },
-        "marketEducation": {
-          "score": 38,
-          "reasons": [
-            "命中二级市场投教核心主题 1 项"
-          ]
-        },
-        "privateFundSales": {
-          "score": 16,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        }
-      },
-      "primaryScene": "marketEducation",
-      "selectedForFeatured": false,
-      "contentTags": [
-        "观点",
-        "快讯"
-      ],
-      "eventId": "event_32967e3730b8"
-    },
-    {
-      "title": "讯飞医疗：2026年上半年营业收入4.46亿元，同比增长49.4%",
-      "sourceUrl": "https://www.36kr.com/newsflashes/3945028811373697",
-      "publishedAt": "2026-08-18T12:50:49.000Z",
-      "fetchedAt": "2026-08-18T13:13:49.014Z",
-      "timeConfidence": "source",
-      "summary": "36氪获悉，讯飞医疗公告，2026年上半年公司实现营业收入4.46亿元，同比增长49.4%；毛利2.36亿元，同比增长53.5%；综合毛利率52.9%，同比提升1.4个百分点。AI健康助手上半年实现收入1.82亿元，增长74.9%。",
-      "sourceName": "36氪",
-      "category": "insights",
-      "tags": [
-        "观点"
-      ],
-      "evidenceType": "news_flash",
-      "discoveredVia": "RSSHub",
-      "id": "news_8d7a1d09eb3f",
-      "tier": "S3",
-      "sourceTier": "S3",
-      "sourceTierLabel": "快讯/观点线索",
-      "score": 66,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 18,
-        "authority": 9,
-        "impact": 8,
-        "recency": 15,
-        "depth": 8,
-        "actionability": 8
-      },
-      "confidence": "low",
-      "why": [
-        "快讯线索，需结合原文判断",
-        "可转化为客户沟通或投研关注",
-        "时效性高"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 25,
-          "reasons": [
-            "命中关联主题 1 项"
-          ]
-        },
-        "marketEducation": {
-          "score": 38,
-          "reasons": [
-            "命中二级市场投教核心主题 1 项"
-          ]
-        },
-        "privateFundSales": {
-          "score": 16,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        }
-      },
-      "primaryScene": "marketEducation",
-      "selectedForFeatured": false,
-      "contentTags": [
-        "观点",
-        "快讯"
-      ],
-      "eventId": "event_c96714846ab4"
-    },
-    {
-      "title": "油价与通胀担忧推升美债收益率 美股三大期指集体走低 芯片股回调 | 今夜看点",
-      "sourceUrl": "https://www.cls.cn/detail/2457477",
-      "publishedAt": "2026-08-18T12:46:47.000Z",
-      "fetchedAt": "2026-08-18T13:13:42.007Z",
-      "timeConfidence": "source",
-      "summary": "财联社8月18日讯（编辑 夏军雄）周二，美股三大股指期货集体下跌，纳斯达克100指数期货跌超1%。受通胀持续和油价高企引发的担忧影响，美债收益率走高，令市场承压。此外，芯片股回调也对整体市场构成压力。欧洲主要指数多数下跌。\n\n\n（来源：英为财情）\n美国30年期国债收益率周二继续上涨，正朝着2007年6月以来最高收盘水平迈进。法国和德国长期国债收益率均达到15年以上最高水平，日本30年期国债收益率也",
-      "sourceName": "财联社",
-      "category": "research",
-      "tags": [
-        "研究报告"
-      ],
-      "evidenceType": "financial_media",
-      "discoveredVia": "RSSHub",
-      "id": "news_177401eb6649",
-      "tier": "S3",
-      "sourceTier": "S3",
-      "sourceTierLabel": "快讯/观点线索",
-      "score": 58,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 12,
-        "authority": 9,
-        "impact": 8,
-        "recency": 15,
-        "depth": 10,
-        "actionability": 4
-      },
-      "confidence": "low",
-      "why": [
-        "快讯线索，需结合原文判断",
-        "时效性高",
-        "摘要信息较完整"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 16,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        },
-        "marketEducation": {
-          "score": 82,
-          "reasons": [
-            "命中二级市场投教核心主题 3 项"
-          ]
-        },
-        "privateFundSales": {
-          "score": 25,
-          "reasons": [
-            "命中关联主题 1 项"
-          ]
-        }
-      },
-      "primaryScene": "marketEducation",
-      "selectedForFeatured": true,
-      "contentTags": [
-        "深度研究"
-      ],
-      "eventId": null
-    },
-    {
-      "title": "金螳螂：公司不从事火箭研制、卫星制造、数据中心算力运营等核心产业",
-      "sourceUrl": "https://wallstreetcn.com/livenews/3151138",
-      "publishedAt": "2026-08-18T12:45:30.000Z",
-      "fetchedAt": "2026-08-18T13:12:57.311Z",
-      "timeConfidence": "source",
-      "summary": "金螳螂公告，公司股票于2026年8月14日、8月17日、8月18日连续三个交易日收盘价格涨幅偏离值累计超过20%，属于股票交易异常波动。近期市场将公司归类为“商业航天”、“数据中心”及“半导体洁净室”概念，经核实，公司不从事火箭研制、卫星制造、数据中心算力运营、半导体芯片设计制造及材料研发生产等核心产业。\n公司前期承接的商业航天发射场配套工程及数据中心施工项目的施工范围仅为办公楼、餐厅、公寓楼、机",
-      "sourceName": "华尔街见闻",
-      "category": "industry",
-      "tags": [
-        "行业动态"
-      ],
-      "evidenceType": "financial_media",
-      "discoveredVia": "RSSHub",
-      "id": "news_a412a0338966",
-      "tier": "S2",
-      "sourceTier": "S2",
-      "sourceTierLabel": "专业财经媒体",
-      "score": 64,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 12,
-        "authority": 15,
-        "impact": 8,
-        "recency": 15,
-        "depth": 10,
-        "actionability": 4
-      },
-      "confidence": "low",
-      "why": [
-        "专业财经媒体跟进",
-        "时效性高",
-        "摘要信息较完整"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 20,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        },
-        "marketEducation": {
-          "score": 86,
-          "reasons": [
-            "命中二级市场投教核心主题 3 项"
-          ]
-        },
-        "privateFundSales": {
-          "score": 38,
-          "reasons": [
-            "命中关联主题 2 项"
-          ]
-        }
-      },
-      "primaryScene": "privateFundSales",
-      "selectedForFeatured": false,
-      "contentTags": [
-        "行业动态"
-      ],
-      "eventId": null
-    },
-    {
-      "title": "一财社论：激活知识产权产品投资引领效能",
-      "sourceUrl": "https://www.yicai.com/news/103323335.html",
-      "publishedAt": "2026-08-18T12:43:58.000Z",
-      "fetchedAt": "2026-08-18T13:13:16.705Z",
-      "timeConfidence": "source",
-      "summary": "与传统认识的固定资产投资相较，知识产权产品投资具有“无形”和“硬核”两个特征。8月17日，国新办就7月份国民经济运行情况举行新闻发布会：前7个月，全国固定资产投资总体下降，但知识产权产品投资快速增长，知识产权产品投资增长9.1%，占全部投资的比重同比提高2.1个百分点。\n\n知识产权产品投资越来越成为衡量高质量发展的重要指标。公开数据表明：今年一季度知识产权产品投资增速为7.9%，占整个投资比重超过",
-      "sourceName": "第一财经",
-      "category": "industry",
-      "tags": [
-        "行业动态"
-      ],
-      "evidenceType": "financial_media",
-      "discoveredVia": "RSSHub",
-      "id": "news_1254af85361b",
-      "tier": "S2",
-      "sourceTier": "S2",
-      "sourceTierLabel": "专业财经媒体",
-      "score": 76,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 12,
-        "authority": 15,
-        "impact": 14,
-        "recency": 15,
-        "depth": 10,
-        "actionability": 10
-      },
-      "confidence": "low",
-      "why": [
-        "专业财经媒体跟进",
-        "可转化为客户沟通或投研关注",
-        "时效性高"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 20,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        },
-        "marketEducation": {
-          "score": 46,
-          "reasons": [
-            "命中二级市场投教核心主题 1 项"
-          ]
-        },
-        "privateFundSales": {
-          "score": 33,
-          "reasons": [
-            "命中关联主题 1 项"
-          ]
-        }
-      },
-      "primaryScene": "privateFundSales",
-      "selectedForFeatured": false,
-      "contentTags": [
-        "行业动态"
-      ],
-      "eventId": null
-    },
-    {
-      "title": "摩根士丹利精选二季度财报后最具潜力的住宿板块股票",
-      "sourceUrl": "https://cn.investing.com/news/stock-market-news/article-93CH-3523515",
-      "publishedAt": "2026-08-18T12:41:48.000Z",
-      "fetchedAt": "2026-08-18T13:14:03.239Z",
-      "timeConfidence": "source",
-      "summary": "",
-      "sourceName": "英为财情",
-      "category": "industry",
-      "tags": [
-        "行业动态"
-      ],
-      "evidenceType": "financial_media",
-      "discoveredVia": "Investing.com",
-      "id": "news_122e6d89ba4b",
-      "tier": "S2",
-      "sourceTier": "S2",
-      "sourceTierLabel": "专业财经媒体",
-      "score": 57,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 12,
-        "authority": 15,
-        "impact": 8,
-        "recency": 15,
-        "depth": 3,
-        "actionability": 4
-      },
-      "confidence": "low",
-      "why": [
-        "专业财经媒体跟进",
-        "时效性高"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 20,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        },
-        "marketEducation": {
-          "score": 64,
-          "reasons": [
-            "命中二级市场投教核心主题 2 项"
-          ]
-        },
-        "privateFundSales": {
-          "score": 20,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        }
-      },
-      "primaryScene": "marketEducation",
-      "selectedForFeatured": false,
-      "contentTags": [
-        "行业动态"
-      ],
-      "eventId": null
-    },
-    {
-      "title": "特朗普发布地图，标注霍尔木兹海峡为“美国新领土”",
-      "sourceUrl": "https://wallstreetcn.com/articles/3779720",
-      "publishedAt": "2026-08-18T12:41:42.000Z",
-      "fetchedAt": "2026-08-18T13:12:57.311Z",
-      "timeConfidence": "source",
-      "summary": "随着美伊对峙持续升级，特朗普再出离谱操作，霍尔木兹海峡安全风险骤然上升。&nbsp;&nbsp;\n据央视新闻，特朗普当地时间18日在社交媒体上发布地图，将霍尔木兹海峡标注为“美国新领土”。伊朗半官方媒体法尔斯通讯社随即在社交媒体附上特朗普这条帖文的截图并驳斥道，“特朗普在其妄想中继续声称‘霍尔木兹海峡是美国领土’”。\n与此同时，霍尔木兹海峡当日再度发生袭击事件。\n英国海事贸易行动组织（UK Mar",
-      "sourceName": "华尔街见闻",
-      "category": "industry",
-      "tags": [
-        "行业动态"
-      ],
-      "evidenceType": "financial_media",
-      "discoveredVia": "RSSHub",
-      "id": "news_c0bf3494de32",
-      "tier": "S2",
-      "sourceTier": "S2",
-      "sourceTierLabel": "专业财经媒体",
-      "score": 64,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 12,
-        "authority": 15,
-        "impact": 8,
-        "recency": 15,
-        "depth": 10,
-        "actionability": 4
-      },
-      "confidence": "low",
-      "why": [
-        "专业财经媒体跟进",
-        "时效性高",
-        "摘要信息较完整"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 20,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        },
-        "marketEducation": {
-          "score": 20,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        },
-        "privateFundSales": {
-          "score": 20,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        }
-      },
-      "primaryScene": "marketEducation",
-      "selectedForFeatured": false,
-      "contentTags": [
-        "行业动态"
-      ],
-      "eventId": "event_56e55cfcafa1"
-    },
-    {
-      "title": "韩国现代汽车工会将时隔10年举行全面罢工",
-      "sourceUrl": "https://www.36kr.com/newsflashes/3945013113486720",
-      "publishedAt": "2026-08-18T12:40:00.000Z",
-      "fetchedAt": "2026-08-18T13:13:49.014Z",
-      "timeConfidence": "source",
-      "summary": "8月18日，现代汽车劳资双方在韩国蔚山工厂举行第16轮谈判，时隔41天重启磋商，最终仍未能达成共识。劳资分歧主要集中在上调奖金、恢复在工会活动过程中因违法行为被解雇员工的职位，以及延长退休年龄等三项议题。工会随后敲定新一轮罢工日程，19日至20日、24日至25日每天举行4小时部分罢工，21日举行8小时全面罢工。这将是该工会自2016年劳资谈判后，时隔10年再度举行全面罢工。（财联社）",
-      "sourceName": "36氪",
-      "category": "insights",
-      "tags": [
-        "观点"
-      ],
-      "evidenceType": "news_flash",
-      "discoveredVia": "RSSHub",
-      "id": "news_e6053d9c9956",
-      "tier": "S3",
-      "sourceTier": "S3",
-      "sourceTierLabel": "快讯/观点线索",
-      "score": 58,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 12,
-        "authority": 9,
-        "impact": 8,
-        "recency": 15,
-        "depth": 10,
-        "actionability": 4
-      },
-      "confidence": "low",
-      "why": [
-        "快讯线索，需结合原文判断",
-        "时效性高",
-        "摘要信息较完整"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 16,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        },
-        "marketEducation": {
-          "score": 16,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        },
-        "privateFundSales": {
-          "score": 16,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        }
-      },
-      "primaryScene": "marketEducation",
-      "selectedForFeatured": false,
-      "contentTags": [
-        "观点",
-        "快讯"
-      ],
-      "eventId": null
-    },
-    {
-      "title": "361度增速降至个位数，借大店和即时零售寻找新增量",
-      "sourceUrl": "https://wallstreetcn.com/articles/3779719",
-      "publishedAt": "2026-08-18T12:39:44.000Z",
-      "fetchedAt": "2026-08-18T13:12:57.311Z",
-      "timeConfidence": "source",
-      "summary": "361度上半年收入增速降至近年低位。8月18日，361度发布2026年中期业绩。上半年，公司实现收益61.60亿元，同比增长8%；权益持有人应占溢利9.26亿元，同比增长8%。毛利率由去年同期的41.5%升至41.8%，权益持有人应占溢利率则维持在15%。如果拉长时间看，今年已经是361度收入增速连续第二年下台阶。从2022年至2024年，361度上半年收入连续三年保持接近或超过18%的增长，而过",
-      "sourceName": "华尔街见闻",
-      "category": "industry",
-      "tags": [
-        "行业动态"
-      ],
-      "evidenceType": "financial_media",
-      "discoveredVia": "RSSHub",
-      "id": "news_1fac6cf36ed6",
-      "tier": "S2",
-      "sourceTier": "S2",
-      "sourceTierLabel": "专业财经媒体",
-      "score": 83,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 18,
-        "authority": 15,
-        "impact": 17,
-        "recency": 15,
-        "depth": 10,
-        "actionability": 8
-      },
-      "confidence": "low",
-      "why": [
-        "专业财经媒体跟进",
-        "对展业/配置/合规有直接影响",
-        "可转化为客户沟通或投研关注"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 35,
-          "reasons": [
-            "命中关联主题 1 项",
-            "业务影响较高"
-          ]
-        },
-        "marketEducation": {
-          "score": 48,
-          "reasons": [
-            "命中二级市场投教核心主题 1 项",
-            "业务影响较高"
-          ]
-        },
-        "privateFundSales": {
-          "score": 20,
-          "reasons": [
-            "业务影响较高"
-          ]
-        }
-      },
-      "primaryScene": "insurance",
-      "selectedForFeatured": false,
-      "contentTags": [
-        "行业动态"
-      ],
-      "eventId": null
-    },
-    {
-      "title": "SemiAnalysis：OpenAI刚刚宣布，针对OpenRouter和Vercel的AI Gateway平台上的GPT-5.6 Sol模型降价 50%，很可能是一次巧妙的营销策略",
-      "sourceUrl": "https://wallstreetcn.com/livenews/3151132",
-      "publishedAt": "2026-08-18T12:39:14.000Z",
-      "fetchedAt": "2026-08-18T13:12:57.311Z",
-      "timeConfidence": "source",
-      "summary": "研究机构SemiAnalysis发文称，OpenAI刚刚宣布，针对OpenRouter 和Vercel的AI Gateway平台上的GPT-5.6 Sol模型，降价 50%。这很可能是一次巧妙的营销策略。\n\n尽管OpenRouter和Vercel在OpenAI总token用量中的占比很小，但它们的影响力却不成比例地大——因为这两个平台正是外界用来估算各大 AI 实验室/模型市场份额的核心数据来源之",
-      "sourceName": "华尔街见闻",
-      "category": "industry",
-      "tags": [
-        "行业动态"
-      ],
-      "evidenceType": "financial_media",
-      "discoveredVia": "RSSHub",
-      "id": "news_d349b788b638",
-      "tier": "S2",
-      "sourceTier": "S2",
-      "sourceTierLabel": "专业财经媒体",
-      "score": 64,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 12,
-        "authority": 15,
-        "impact": 8,
-        "recency": 15,
-        "depth": 10,
-        "actionability": 4
-      },
-      "confidence": "low",
-      "why": [
-        "专业财经媒体跟进",
-        "时效性高",
-        "摘要信息较完整"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 20,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        },
-        "marketEducation": {
-          "score": 42,
-          "reasons": [
-            "命中二级市场投教核心主题 1 项"
-          ]
-        },
-        "privateFundSales": {
-          "score": 51,
-          "reasons": [
-            "命中私募销售运营核心主题 1 项",
-            "命中关联主题 1 项"
-          ]
-        }
-      },
-      "primaryScene": "privateFundSales",
-      "selectedForFeatured": true,
-      "contentTags": [
-        "行业动态"
-      ],
-      "eventId": null
-    },
-    {
-      "title": "公积金条例大修落地：存贷利率国务院定，可投政金债",
-      "sourceUrl": "https://www.yicai.com/news/103323326.html",
-      "publishedAt": "2026-08-18T12:36:09.000Z",
-      "fetchedAt": "2026-08-18T13:13:16.705Z",
-      "timeConfidence": "source",
-      "summary": "多处细节调整有何影响？重大修订后的《住房公积金管理条例》即将迎来落地实施阶段。\n\n8月18日，《国务院关于修改〈住房公积金管理条例〉的决定》（下称《决定》）公布，自2026年9月20日起施行。《决定》共20条，主要包括四方面内容：一是拓宽提取和使用范围；二是提升管理服务效能；三是强化风险防控；四是扩大制度覆盖面。\n\n从《决定》来看，部分修改内容延续了此前住房和城乡建设部发布的《住房公积金管理条例（",
-      "sourceName": "第一财经",
-      "category": "industry",
-      "tags": [
-        "行业动态"
-      ],
-      "evidenceType": "financial_media",
-      "discoveredVia": "RSSHub",
-      "id": "news_bec016def976",
-      "tier": "S2",
-      "sourceTier": "S2",
-      "sourceTierLabel": "专业财经媒体",
-      "score": 74,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 18,
-        "authority": 15,
-        "impact": 8,
-        "recency": 15,
-        "depth": 10,
-        "actionability": 8
-      },
-      "confidence": "low",
-      "why": [
-        "专业财经媒体跟进",
-        "可转化为客户沟通或投研关注",
-        "时效性高"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 29,
-          "reasons": [
-            "命中关联主题 1 项"
-          ]
-        },
-        "marketEducation": {
-          "score": 42,
-          "reasons": [
-            "命中二级市场投教核心主题 1 项"
-          ]
-        },
-        "privateFundSales": {
-          "score": 20,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        }
-      },
-      "primaryScene": "marketEducation",
-      "selectedForFeatured": false,
-      "contentTags": [
-        "行业动态"
-      ],
-      "eventId": null
-    },
-    {
-      "title": "湖北国资再“输血”！长江财险拟增资至30.46亿，上半年净亏1729.52万元",
-      "sourceUrl": "https://cn.investing.com/news/stock-market-news/article-3523481",
-      "publishedAt": "2026-08-18T12:36:00.000Z",
-      "fetchedAt": "2026-08-18T13:14:03.239Z",
-      "timeConfidence": "source",
-      "summary": "",
-      "sourceName": "英为财情",
-      "category": "industry",
-      "tags": [
-        "行业动态"
-      ],
-      "evidenceType": "financial_media",
-      "discoveredVia": "Investing.com",
-      "id": "news_53111ee97d71",
-      "tier": "S2",
-      "sourceTier": "S2",
-      "sourceTierLabel": "专业财经媒体",
-      "score": 79,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 25,
-        "authority": 15,
-        "impact": 17,
-        "recency": 15,
-        "depth": 3,
-        "actionability": 4
-      },
-      "confidence": "low",
-      "why": [
-        "专业财经媒体跟进",
-        "对展业/配置/合规有直接影响",
-        "时效性高"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 48,
-          "reasons": [
-            "命中保险运营核心主题 1 项",
-            "业务影响较高"
-          ]
-        },
-        "marketEducation": {
-          "score": 20,
-          "reasons": [
-            "业务影响较高"
-          ]
-        },
-        "privateFundSales": {
-          "score": 20,
-          "reasons": [
-            "业务影响较高"
-          ]
-        }
-      },
-      "primaryScene": "insurance",
-      "selectedForFeatured": true,
-      "contentTags": [
-        "行业动态"
-      ],
-      "eventId": null
-    },
-    {
-      "title": "老油厂成新地标、张家界欧美游客增长2倍 湖南文旅“老空间”演绎“新消费”｜活力中国调研行",
-      "sourceUrl": "https://www.cls.cn/detail/2457466",
-      "publishedAt": "2026-08-18T12:34:35.000Z",
-      "fetchedAt": "2026-08-18T13:13:42.007Z",
-      "timeConfidence": "source",
-      "summary": "财联社8月18日讯（记者 吴蔚玲）创建于1936年的长沙油脂厂，20世纪90年代停止运营后曾长期闲置。如今，12个老油罐变身咖啡店、展览馆和艺术商店，成为长沙新晋“打卡地标”。截至2026年5月，“油脂厂·1936”日均客流约3000人次，最高日达1.2万人次。\n近日，财联社记者跟随“活力中国调研行”湖南主题采访活动走访长沙、常德、益阳、张家界等地发现，从老工业遗存改造到沉浸式水上实景演艺，从非遗",
-      "sourceName": "财联社",
-      "category": "research",
-      "tags": [
-        "研究报告"
-      ],
-      "evidenceType": "financial_media",
-      "discoveredVia": "RSSHub",
-      "id": "news_ad58363d1ea3",
-      "tier": "S3",
-      "sourceTier": "S3",
-      "sourceTierLabel": "快讯/观点线索",
-      "score": 58,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 12,
-        "authority": 9,
-        "impact": 8,
-        "recency": 15,
-        "depth": 10,
-        "actionability": 4
-      },
-      "confidence": "low",
-      "why": [
-        "快讯线索，需结合原文判断",
-        "时效性高",
-        "摘要信息较完整"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 16,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        },
-        "marketEducation": {
-          "score": 16,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        },
-        "privateFundSales": {
-          "score": 16,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        }
-      },
-      "primaryScene": "marketEducation",
-      "selectedForFeatured": false,
-      "contentTags": [
-        "深度研究"
-      ],
-      "eventId": null
-    },
-    {
-      "title": "印度债券收益率走高，油价攀升叠加印度储备银行关闭保证金计划",
-      "sourceUrl": "https://cn.investing.com/news/stock-market-news/article-93CH-3523475",
-      "publishedAt": "2026-08-18T12:31:56.000Z",
-      "fetchedAt": "2026-08-18T13:14:03.239Z",
-      "timeConfidence": "source",
-      "summary": "",
-      "sourceName": "英为财情",
-      "category": "industry",
-      "tags": [
-        "行业动态"
-      ],
-      "evidenceType": "financial_media",
-      "discoveredVia": "Investing.com",
-      "id": "news_a2b0d9f4f30d",
-      "tier": "S2",
-      "sourceTier": "S2",
-      "sourceTierLabel": "专业财经媒体",
-      "score": 67,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 22,
-        "authority": 15,
-        "impact": 8,
-        "recency": 15,
-        "depth": 3,
-        "actionability": 4
-      },
-      "confidence": "low",
-      "why": [
-        "专业财经媒体跟进",
-        "时效性高"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 29,
-          "reasons": [
-            "命中关联主题 1 项"
-          ]
-        },
-        "marketEducation": {
-          "score": 42,
-          "reasons": [
-            "命中二级市场投教核心主题 1 项"
-          ]
-        },
-        "privateFundSales": {
-          "score": 29,
-          "reasons": [
-            "命中关联主题 1 项"
-          ]
-        }
-      },
-      "primaryScene": "marketEducation",
-      "selectedForFeatured": false,
-      "contentTags": [
-        "行业动态"
-      ],
-      "eventId": null
-    },
-    {
-      "title": "技术越成功 回调越必然",
-      "sourceUrl": "https://wallstreetcn.com/member/articles/3779643",
-      "publishedAt": "2026-08-18T12:31:55.000Z",
-      "fetchedAt": "2026-08-18T13:12:57.311Z",
-      "timeConfidence": "source",
-      "summary": "8 月 17 日，五位欧洲央行经济学家联名发了一篇博客，标题问的是“AI 繁荣：理性热情还是下一场科网泡沫？”市场当天的反应很平淡——又一个央行的风险提示嘛，谁没见过。但如果你真把它读完，会发现里头藏着一个不太舒服的论证：它不需要你承认这是泡沫，就能得出“该有回调”的结论。",
-      "sourceName": "华尔街见闻",
-      "category": "industry",
-      "tags": [
-        "行业动态"
-      ],
-      "evidenceType": "financial_media",
-      "discoveredVia": "RSSHub",
-      "id": "news_38a6ba25dd3d",
-      "tier": "S2",
-      "sourceTier": "S2",
-      "sourceTierLabel": "专业财经媒体",
-      "score": 74,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 18,
-        "authority": 15,
-        "impact": 8,
-        "recency": 15,
-        "depth": 8,
-        "actionability": 10
-      },
-      "confidence": "low",
-      "why": [
-        "专业财经媒体跟进",
-        "可转化为客户沟通或投研关注",
-        "时效性高"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 20,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        },
-        "marketEducation": {
-          "score": 64,
-          "reasons": [
-            "命中二级市场投教核心主题 2 项"
-          ]
-        },
-        "privateFundSales": {
-          "score": 29,
-          "reasons": [
-            "命中关联主题 1 项"
-          ]
-        }
-      },
-      "primaryScene": "marketEducation",
-      "selectedForFeatured": false,
-      "contentTags": [
-        "行业动态"
-      ],
-      "eventId": null
-    },
-    {
-      "title": "百亿私募二季度调仓路径：睿郡加仓乐鑫科技，三家同步重仓鸿仕达",
-      "sourceUrl": "https://www.yicai.com/news/103323211.html",
-      "publishedAt": "2026-08-18T12:29:55.000Z",
-      "fetchedAt": "2026-08-18T13:13:16.705Z",
-      "timeConfidence": "source",
-      "summary": "睿郡资产旗下基金经理董承非认为，6月AI基金的高点可能长达几年的高点，后续要显著突破有相当大的难度2026年中报已进入披露高峰，百亿私募二季度的调仓路径也逐渐清晰。\n\n私募排排网统计数据显示，截至2026年8月17日，共有21家百亿私募现身31家A股上市公司最新前十大流通股股东名单，合计持股市值达187.31亿元。\n\n从行业层面来看，百亿私募二季度持仓较为分散，机械设备、电子、计算机、汽车、轻工制",
-      "sourceName": "第一财经",
-      "category": "industry",
-      "tags": [
-        "行业动态"
-      ],
-      "evidenceType": "financial_media",
-      "discoveredVia": "RSSHub",
-      "id": "news_8f879014fb83",
-      "tier": "S2",
-      "sourceTier": "S2",
-      "sourceTierLabel": "专业财经媒体",
-      "score": 74,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 22,
-        "authority": 15,
-        "impact": 8,
-        "recency": 15,
-        "depth": 10,
-        "actionability": 4
-      },
-      "confidence": "low",
-      "why": [
-        "专业财经媒体跟进",
-        "时效性高",
-        "摘要信息较完整"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 20,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        },
-        "marketEducation": {
-          "score": 51,
-          "reasons": [
-            "命中二级市场投教核心主题 1 项",
-            "命中关联主题 1 项"
-          ]
-        },
-        "privateFundSales": {
-          "score": 64,
-          "reasons": [
-            "命中私募销售运营核心主题 2 项"
-          ]
-        }
-      },
-      "primaryScene": "privateFundSales",
-      "selectedForFeatured": true,
-      "contentTags": [
-        "行业动态"
-      ],
-      "eventId": null
-    },
-    {
-      "title": "芯原股份上半年增收不增利，百亿在手订单何时兑现利润",
-      "sourceUrl": "https://www.yicai.com/news/103323212.html",
-      "publishedAt": "2026-08-18T12:29:38.000Z",
-      "fetchedAt": "2026-08-18T13:13:16.705Z",
-      "timeConfidence": "source",
-      "summary": "上市六年累计亏损35亿在手订单增长、净亏损却扩大，芯原股份（688521.SH）的中报引起市场关注，其规模效应正备受考验。2026年上半年，公司实现营业收入18.64亿元，同比增长91.37%；归母净利润与扣非后归母净利润均亏损超6亿元，亏损同比扩大。芯原股份将亏损原因归结为产品量产与交付时间存在错配，以及研发投入的持续增长。\n\n自2020年在科创板上市以来，芯原股份尚未实现年度盈利，截至2026",
-      "sourceName": "第一财经",
-      "category": "industry",
-      "tags": [
-        "行业动态"
-      ],
-      "evidenceType": "financial_media",
-      "discoveredVia": "RSSHub",
-      "id": "news_846bac609da3",
-      "tier": "S2",
-      "sourceTier": "S2",
-      "sourceTierLabel": "专业财经媒体",
-      "score": 76,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 12,
-        "authority": 15,
-        "impact": 14,
-        "recency": 15,
-        "depth": 10,
-        "actionability": 10
-      },
-      "confidence": "low",
-      "why": [
-        "专业财经媒体跟进",
-        "可转化为客户沟通或投研关注",
-        "时效性高"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 20,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        },
-        "marketEducation": {
-          "score": 68,
-          "reasons": [
-            "命中二级市场投教核心主题 2 项"
-          ]
-        },
-        "privateFundSales": {
-          "score": 33,
-          "reasons": [
-            "命中关联主题 1 项"
-          ]
-        }
-      },
-      "primaryScene": "privateFundSales",
-      "selectedForFeatured": false,
-      "contentTags": [
-        "行业动态"
-      ],
-      "eventId": null
-    },
-    {
-      "title": "惠柏新材：子公司拟1.78亿元投建纤维复合材料生产项目",
-      "sourceUrl": "https://www.36kr.com/newsflashes/3945007828483206",
-      "publishedAt": "2026-08-18T12:29:29.000Z",
-      "fetchedAt": "2026-08-18T13:13:49.014Z",
-      "timeConfidence": "source",
-      "summary": "36氪获悉，惠柏新材公告，公司全资子公司上海帝福拟通过招拍挂方式购买位于上海市奉贤区柘林镇约35亩工业用地，并投资建设“纤维复合材料生产项目”，计划投资总额约1.78亿元，资金来源为自有资金、银行贷款或其他融资方式。本次投资已获董事会审议通过，不构成关联交易及重大资产重组。",
-      "sourceName": "36氪",
-      "category": "insights",
-      "tags": [
-        "观点"
-      ],
-      "evidenceType": "news_flash",
-      "discoveredVia": "RSSHub",
-      "id": "news_2101267f392e",
-      "tier": "S3",
-      "sourceTier": "S3",
-      "sourceTierLabel": "快讯/观点线索",
-      "score": 62,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 18,
-        "authority": 9,
-        "impact": 8,
-        "recency": 15,
-        "depth": 8,
-        "actionability": 4
-      },
-      "confidence": "low",
-      "why": [
-        "快讯线索，需结合原文判断",
-        "时效性高"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 25,
-          "reasons": [
-            "命中关联主题 1 项"
-          ]
-        },
-        "marketEducation": {
-          "score": 16,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        },
-        "privateFundSales": {
-          "score": 16,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        }
-      },
-      "primaryScene": "marketEducation",
-      "selectedForFeatured": false,
-      "contentTags": [
-        "观点",
-        "快讯"
-      ],
-      "eventId": null
-    },
-    {
-      "title": "普冉股份上半年归母净利暴增19倍 并表SHM公司业绩获改善 模拟新品同步放量",
-      "sourceUrl": "https://www.cls.cn/detail/2457454",
-      "publishedAt": "2026-08-18T12:27:31.000Z",
-      "fetchedAt": "2026-08-18T13:13:42.007Z",
-      "timeConfidence": "source",
-      "summary": "《科创板日报》8月18日讯（记者 郭辉） 今日（8月18日）晚间，普冉股份发布2026年上半年财报。\n公告显示，普冉股份2026年上半年实现营业收入39.59亿元，同比增长336.67%；归属于上市公司股东的净利润8.27亿元，同比增长1929.65%。\n普冉股份第二季度净利润5.76亿，Q1净利润2.51亿，据此计算，Q2净利润环比增长129%。\n关于业绩增长，普冉股份表示，主要系受益于全球AI",
-      "sourceName": "财联社",
-      "category": "research",
-      "tags": [
-        "研究报告"
-      ],
-      "evidenceType": "financial_media",
-      "discoveredVia": "RSSHub",
-      "id": "news_6935fc763e3d",
-      "tier": "S3",
-      "sourceTier": "S3",
-      "sourceTierLabel": "快讯/观点线索",
-      "score": 67,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 12,
-        "authority": 9,
-        "impact": 17,
-        "recency": 15,
-        "depth": 10,
-        "actionability": 4
-      },
-      "confidence": "low",
-      "why": [
-        "快讯线索，需结合原文判断",
-        "对展业/配置/合规有直接影响",
-        "时效性高"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 20,
-          "reasons": [
-            "业务影响较高"
-          ]
-        },
-        "marketEducation": {
-          "score": 44,
-          "reasons": [
-            "命中二级市场投教核心主题 1 项",
-            "业务影响较高"
-          ]
-        },
-        "privateFundSales": {
-          "score": 20,
-          "reasons": [
-            "业务影响较高"
-          ]
-        }
-      },
-      "primaryScene": "marketEducation",
-      "selectedForFeatured": false,
-      "contentTags": [
-        "深度研究"
-      ],
-      "eventId": null
-    },
-    {
-      "title": "住房公积金新规正式亮相 缴存覆盖面更广、申请提取手续简化",
-      "sourceUrl": "https://finance.caixin.com/2026-08-18/102475453.html",
-      "publishedAt": "2026-08-18T12:24:06.000Z",
-      "fetchedAt": "2026-08-18T13:12:52.737Z",
-      "timeConfidence": "source",
-      "summary": "简化职工申请提取住房公积金的手续，缩短住房公积金贷款申请的审查时限；对违法提取或贷款的行为也加大了处罚力度\n    \n     \n     新《条例》明确住房公积金管理中心可以将住房公积金用于购买政策性金融债。现行《条例》中，住房公积金仅可用于购买国债。图：IC PHOTO\n    \n   \n       　　【财新网】影响近1.8亿职工甚至更多人群的住房公积金制度，又向前迈进一步。\n　　2026",
-      "sourceName": "财新网",
-      "category": "industry",
-      "tags": [
-        "行业动态"
-      ],
-      "evidenceType": "financial_media",
-      "discoveredVia": "RSSHub",
-      "id": "news_755b1e37507e",
-      "tier": "S2",
-      "sourceTier": "S2",
-      "sourceTierLabel": "专业财经媒体",
-      "score": 76,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 12,
-        "authority": 15,
-        "impact": 20,
-        "recency": 15,
-        "depth": 10,
-        "actionability": 4
-      },
-      "confidence": "low",
-      "why": [
-        "专业财经媒体跟进",
-        "对展业/配置/合规有直接影响",
-        "时效性高"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 20,
-          "reasons": [
-            "业务影响较高"
-          ]
-        },
-        "marketEducation": {
-          "score": 20,
-          "reasons": [
-            "业务影响较高"
-          ]
-        },
-        "privateFundSales": {
-          "score": 20,
-          "reasons": [
-            "业务影响较高"
-          ]
-        }
-      },
-      "primaryScene": "marketEducation",
-      "selectedForFeatured": false,
-      "contentTags": [
-        "行业动态"
-      ],
-      "eventId": null
-    },
-    {
-      "title": "净利同比增长10.92倍！3000亿存储芯片龙头发布2026年半年报|盘后公告集锦",
-      "sourceUrl": "https://www.cls.cn/detail/2457452",
-      "publishedAt": "2026-08-18T12:22:58.000Z",
-      "fetchedAt": "2026-08-18T13:13:42.007Z",
-      "timeConfidence": "source",
-      "summary": "今日聚焦\n【兆易创新：上半年净利润同比增长1092% 存储芯片产品量价齐升】\n兆易创新(603986.SH)发布2026年半年度报告，实现营业收入115.66亿元，同比增长178.67%；归属于上市公司股东的净利润68.57亿元，同比增长1091.5%。报告期内存储芯片行业供给紧张，公司存储芯片产品量价齐升，存储业务盈利水平提升。微控制器产品受益于工业、消费及汽车等领域的需求拉动，出货规模亦实现较",
-      "sourceName": "财联社",
-      "category": "research",
-      "tags": [
-        "研究报告"
-      ],
-      "evidenceType": "financial_media",
-      "discoveredVia": "RSSHub",
-      "id": "news_6237631698cc",
-      "tier": "S3",
-      "sourceTier": "S3",
-      "sourceTierLabel": "快讯/观点线索",
-      "score": 70,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 12,
-        "authority": 9,
-        "impact": 14,
-        "recency": 15,
-        "depth": 10,
-        "actionability": 10
-      },
-      "confidence": "low",
-      "why": [
-        "快讯线索，需结合原文判断",
-        "可转化为客户沟通或投研关注",
-        "时效性高"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 20,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        },
-        "marketEducation": {
-          "score": 42,
-          "reasons": [
-            "命中二级市场投教核心主题 1 项"
-          ]
-        },
-        "privateFundSales": {
-          "score": 20,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        }
-      },
-      "primaryScene": "marketEducation",
-      "selectedForFeatured": false,
-      "contentTags": [
-        "深度研究"
-      ],
-      "eventId": "event_a8c2371170fe"
-    },
-    {
-      "title": "行政事业性国资规模已近70万亿，地方审计揭管理薄弱等问题",
-      "sourceUrl": "https://www.yicai.com/news/103323295.html",
-      "publishedAt": "2026-08-18T12:22:05.000Z",
-      "fetchedAt": "2026-08-18T13:13:16.705Z",
-      "timeConfidence": "source",
-      "summary": "一些部门、单位超标准配置资产，资产闲置、资产出租处置不合规的情形时有发生。中国行政事业性国有资产总额逼近70万亿元，地方对这一巨额资产的监管正不断加强，比如不少省份审计部门会聚焦这一资产找出短板，以推动相关问题的解决。\n\n近期已有15个省份陆续披露当地2025年度省（自治区、直辖市）级预算执行和其他财政收支的审计工作报告（下称“审计报告”），第一财经记者梳理发现其中12个省份审计报告指出当地行政事",
-      "sourceName": "第一财经",
-      "category": "industry",
-      "tags": [
-        "行业动态"
-      ],
-      "evidenceType": "financial_media",
-      "discoveredVia": "RSSHub",
-      "id": "news_8db05ae08776",
-      "tier": "S2",
-      "sourceTier": "S2",
-      "sourceTierLabel": "专业财经媒体",
-      "score": 82,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 12,
-        "authority": 15,
-        "impact": 20,
-        "recency": 15,
-        "depth": 10,
-        "actionability": 10
-      },
-      "confidence": "low",
-      "why": [
-        "专业财经媒体跟进",
-        "对展业/配置/合规有直接影响",
-        "可转化为客户沟通或投研关注"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 46,
-          "reasons": [
-            "命中关联主题 2 项",
-            "业务影响较高"
-          ]
-        },
-        "marketEducation": {
-          "score": 20,
-          "reasons": [
-            "业务影响较高"
-          ]
-        },
-        "privateFundSales": {
-          "score": 54,
-          "reasons": [
-            "命中关联主题 3 项",
-            "业务影响较高"
-          ]
-        }
-      },
-      "primaryScene": "insurance",
-      "selectedForFeatured": true,
-      "contentTags": [
-        "行业动态"
-      ],
-      "eventId": null
-    },
-    {
-      "title": "港股公告精选｜福耀玻璃上半年盈利约40亿元 禾赛二季度净利同比增约6成",
-      "sourceUrl": "https://www.cls.cn/detail/2457446",
-      "publishedAt": "2026-08-18T12:21:46.000Z",
-      "fetchedAt": "2026-08-18T13:13:42.007Z",
-      "timeConfidence": "source",
-      "summary": "财联社8月18日讯（编辑 冯轶）财联社为您带来今日港股重要公告\n1）业绩速递\n福耀玻璃(03606.HK)：上半年收入219.71亿元，同比增加2.44%；净利润39.7亿元，同比减少17.37%。\n中国联通(00762.HK)：上半年收入2014亿元、同比提升0.6%；净利润95亿元、同比下降34.6%。\n百度集团-SW(09888.HK)：二季度收入313.25亿元，同比减少4.24%；净利润",
-      "sourceName": "财联社",
-      "category": "research",
-      "tags": [
-        "研究报告"
-      ],
-      "evidenceType": "financial_media",
-      "discoveredVia": "RSSHub",
-      "id": "news_d2766a16f24f",
-      "tier": "S3",
-      "sourceTier": "S3",
-      "sourceTierLabel": "快讯/观点线索",
-      "score": 67,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 12,
-        "authority": 9,
-        "impact": 17,
-        "recency": 15,
-        "depth": 10,
-        "actionability": 4
-      },
-      "confidence": "low",
-      "why": [
-        "快讯线索，需结合原文判断",
-        "对展业/配置/合规有直接影响",
-        "时效性高"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 20,
-          "reasons": [
-            "业务影响较高"
-          ]
-        },
-        "marketEducation": {
-          "score": 66,
-          "reasons": [
-            "命中二级市场投教核心主题 2 项",
-            "业务影响较高"
-          ]
-        },
-        "privateFundSales": {
-          "score": 20,
-          "reasons": [
-            "业务影响较高"
-          ]
-        }
-      },
-      "primaryScene": "marketEducation",
-      "selectedForFeatured": true,
-      "contentTags": [
-        "深度研究"
-      ],
-      "eventId": null
-    },
-    {
-      "title": "阿里巴巴投资的机器人制造商逐际动力据悉计划在香港IPO",
-      "sourceUrl": "https://www.36kr.com/newsflashes/3944999667268995",
-      "publishedAt": "2026-08-18T12:21:11.000Z",
-      "fetchedAt": "2026-08-18T13:13:49.014Z",
-      "timeConfidence": "source",
-      "summary": "8月18日，知情人士称，逐际动力已经以保密形式提交香港首次公开募股（IPO）申请，拟募资数亿美元，中国机器人企业上市潮由此再添新成员。逐际动力7月完成2亿美元IPO前融资，该轮融资对公司的估值为150亿元人民币（22亿美元）。（财联社）",
-      "sourceName": "36氪",
-      "category": "insights",
-      "tags": [
-        "观点"
-      ],
-      "evidenceType": "news_flash",
-      "discoveredVia": "RSSHub",
-      "id": "news_5c96837a0dae",
-      "tier": "S3",
-      "sourceTier": "S3",
-      "sourceTierLabel": "快讯/观点线索",
-      "score": 56,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 12,
-        "authority": 9,
-        "impact": 8,
-        "recency": 15,
-        "depth": 8,
-        "actionability": 4
-      },
-      "confidence": "low",
-      "why": [
-        "快讯线索，需结合原文判断",
-        "时效性高"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 16,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        },
-        "marketEducation": {
-          "score": 38,
-          "reasons": [
-            "命中二级市场投教核心主题 1 项"
-          ]
-        },
-        "privateFundSales": {
-          "score": 16,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        }
-      },
-      "primaryScene": "marketEducation",
-      "selectedForFeatured": false,
-      "contentTags": [
-        "观点",
-        "快讯"
-      ],
-      "eventId": null
-    },
-    {
-      "title": "银行业务口社招也要求熟悉AI了？有岗位写明要负责“AI生成内容审核”",
-      "sourceUrl": "https://www.cls.cn/detail/2457445",
-      "publishedAt": "2026-08-18T12:18:31.000Z",
-      "fetchedAt": "2026-08-18T13:13:42.007Z",
-      "timeConfidence": "source",
-      "summary": "财联社8月18日讯（记者 郭子硕）熟悉并应用大模型，正成为银行业务条线工作岗位的必备要求。财联社记者注意到，宁波银行近期招聘财富管理部门的市场投研部高级经理，将“负责行内AI大模型生成内容的专业审核与质量把控”写入岗位职责。\n记者梳理多家银行秋招及社招信息后发现，将AI生成内容审核明确纳入像财富管理业务这类非科技岗位职责的情况，目前仍属个案，尚未形成普遍趋势。\nAI生成内容审核已成工作岗位要求\n据",
-      "sourceName": "财联社",
-      "category": "research",
-      "tags": [
-        "研究报告"
-      ],
-      "evidenceType": "financial_media",
-      "discoveredVia": "RSSHub",
-      "id": "news_4b0bdc9e9838",
-      "tier": "S3",
-      "sourceTier": "S3",
-      "sourceTierLabel": "快讯/观点线索",
-      "score": 64,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 18,
-        "authority": 9,
-        "impact": 8,
-        "recency": 15,
-        "depth": 10,
-        "actionability": 4
-      },
-      "confidence": "low",
-      "why": [
-        "快讯线索，需结合原文判断",
-        "时效性高",
-        "摘要信息较完整"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 34,
-          "reasons": [
-            "命中关联主题 2 项"
-          ]
-        },
-        "marketEducation": {
-          "score": 38,
-          "reasons": [
-            "命中二级市场投教核心主题 1 项"
-          ]
-        },
-        "privateFundSales": {
-          "score": 25,
-          "reasons": [
-            "命中关联主题 1 项"
-          ]
-        }
-      },
-      "primaryScene": "insurance",
-      "selectedForFeatured": false,
-      "contentTags": [
-        "深度研究"
-      ],
-      "eventId": null
-    },
-    {
-      "title": "江波龙：拟斥资4亿元至8亿元回购公司股份",
-      "sourceUrl": "https://www.36kr.com/newsflashes/3944994961865865",
-      "publishedAt": "2026-08-18T12:16:23.000Z",
-      "fetchedAt": "2026-08-18T13:13:49.014Z",
-      "timeConfidence": "source",
-      "summary": "36氪获悉，江波龙公告，公司拟以自有资金或自筹资金，通过集中竞价交易方式回购公司A股股份，回购价格不超过735元/股，回购资金总额区间为4亿元至8亿元。按回购价格上限测算，预计回购股份数量约54.42万股至108.84万股，占公司当前总股本比例约0.13%至0.25%。本次回购股份将用于股权激励或员工持股计划，若回购实施结果暨股份变动公告日后三年内未使用完毕，未使用部分将依法注销。回购实施期限为自",
-      "sourceName": "36氪",
-      "category": "insights",
-      "tags": [
-        "观点"
-      ],
-      "evidenceType": "news_flash",
-      "discoveredVia": "RSSHub",
-      "id": "news_e86e9d314bf4",
-      "tier": "S3",
-      "sourceTier": "S3",
-      "sourceTierLabel": "快讯/观点线索",
-      "score": 58,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 12,
-        "authority": 9,
-        "impact": 8,
-        "recency": 15,
-        "depth": 10,
-        "actionability": 4
-      },
-      "confidence": "low",
-      "why": [
-        "快讯线索，需结合原文判断",
-        "时效性高",
-        "摘要信息较完整"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 16,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        },
-        "marketEducation": {
-          "score": 38,
-          "reasons": [
-            "命中二级市场投教核心主题 1 项"
-          ]
-        },
-        "privateFundSales": {
-          "score": 16,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        }
-      },
-      "primaryScene": "marketEducation",
-      "selectedForFeatured": false,
-      "contentTags": [
-        "观点",
-        "快讯"
-      ],
-      "eventId": null
-    },
-    {
-      "title": "Klarna股价今日为何暴跌？",
-      "sourceUrl": "https://cn.investing.com/news/stock-market-news/article-93CH-3523431",
-      "publishedAt": "2026-08-18T12:13:58.000Z",
-      "fetchedAt": "2026-08-18T13:14:03.239Z",
-      "timeConfidence": "source",
-      "summary": "",
-      "sourceName": "英为财情",
-      "category": "industry",
-      "tags": [
-        "行业动态"
-      ],
-      "evidenceType": "financial_media",
-      "discoveredVia": "Investing.com",
-      "id": "news_0b05a729d8d3",
-      "tier": "S2",
-      "sourceTier": "S2",
-      "sourceTierLabel": "专业财经媒体",
-      "score": 57,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 12,
-        "authority": 15,
-        "impact": 8,
-        "recency": 15,
-        "depth": 3,
-        "actionability": 4
-      },
-      "confidence": "low",
-      "why": [
-        "专业财经媒体跟进",
-        "时效性高"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 20,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        },
-        "marketEducation": {
-          "score": 42,
-          "reasons": [
-            "命中二级市场投教核心主题 1 项"
-          ]
-        },
-        "privateFundSales": {
-          "score": 20,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        }
-      },
-      "primaryScene": "marketEducation",
-      "selectedForFeatured": false,
-      "contentTags": [
-        "行业动态"
-      ],
-      "eventId": null
-    },
-    {
-      "title": "高盛拟以最高4.1亿美元收购LCN Capital Partners",
-      "sourceUrl": "https://cn.investing.com/news/stock-market-news/article-93CH-3523430",
-      "publishedAt": "2026-08-18T12:13:55.000Z",
-      "fetchedAt": "2026-08-18T13:14:03.239Z",
-      "timeConfidence": "source",
-      "summary": "",
-      "sourceName": "英为财情",
-      "category": "industry",
-      "tags": [
-        "行业动态"
-      ],
-      "evidenceType": "financial_media",
-      "discoveredVia": "Investing.com",
-      "id": "news_565a76fc81dd",
-      "tier": "S2",
-      "sourceTier": "S2",
-      "sourceTierLabel": "专业财经媒体",
-      "score": 57,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 12,
-        "authority": 15,
-        "impact": 8,
-        "recency": 15,
-        "depth": 3,
-        "actionability": 4
-      },
-      "confidence": "low",
-      "why": [
-        "专业财经媒体跟进",
-        "时效性高"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 20,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        },
-        "marketEducation": {
-          "score": 20,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        },
-        "privateFundSales": {
-          "score": 20,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        }
-      },
-      "primaryScene": "marketEducation",
-      "selectedForFeatured": false,
-      "contentTags": [
-        "行业动态"
-      ],
-      "eventId": null
-    },
-    {
-      "title": "高伟达：收到甄选代理机构某公司发出的《中选通知书》",
-      "sourceUrl": "https://www.36kr.com/newsflashes/3944991059459203",
-      "publishedAt": "2026-08-18T12:12:25.000Z",
-      "fetchedAt": "2026-08-18T13:13:49.014Z",
-      "timeConfidence": "source",
-      "summary": "36氪获悉，高伟达公告，近日，公司收到甄选代理机构某公司发出的《中选通知书》，确认公司为\"某集团客户某项目\"的中选人。本中选项目属于算力服务业务，本中选项目涉及合同金额预计将超过公司最近一个会计年度经审计主营业务收入的100%以上。",
-      "sourceName": "36氪",
-      "category": "insights",
-      "tags": [
-        "观点"
-      ],
-      "evidenceType": "news_flash",
-      "discoveredVia": "RSSHub",
-      "id": "news_1a29929078d0",
-      "tier": "S3",
-      "sourceTier": "S3",
-      "sourceTierLabel": "快讯/观点线索",
-      "score": 74,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 12,
-        "authority": 9,
-        "impact": 20,
-        "recency": 15,
-        "depth": 8,
-        "actionability": 10
-      },
-      "confidence": "low",
-      "why": [
-        "快讯线索，需结合原文判断",
-        "对展业/配置/合规有直接影响",
-        "可转化为客户沟通或投研关注"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 20,
-          "reasons": [
-            "业务影响较高"
-          ]
-        },
-        "marketEducation": {
-          "score": 20,
-          "reasons": [
-            "业务影响较高"
-          ]
-        },
-        "privateFundSales": {
-          "score": 20,
-          "reasons": [
-            "业务影响较高"
-          ]
-        }
-      },
-      "primaryScene": "marketEducation",
-      "selectedForFeatured": false,
-      "contentTags": [
-        "观点",
-        "快讯"
-      ],
-      "eventId": null
-    },
-    {
-      "title": "上交所：依规对爱丽家居异常交易相关投资者采取暂停账户交易等自律监管措施",
-      "sourceUrl": "https://www.36kr.com/newsflashes/3944990527339913",
-      "publishedAt": "2026-08-18T12:11:53.000Z",
-      "fetchedAt": "2026-08-18T13:13:49.014Z",
-      "timeConfidence": "source",
-      "summary": "36氪获悉，上交所发布关于爱丽家居相关情况的通报，爱丽家居近期多次出现严重异常波动、异常波动情形，公司已多次发布风险提示公告，提请广大投资者审慎投资，注意风险。近日，该股股价继续大幅波动，部分投资者在交易该股过程中存在影响股票交易正常秩序的异常交易行为，上交所依规对相关投资者采取了暂停账户交易等自律监管措施。上交所再次提醒投资者关注风险，审慎参与，合规交易。",
-      "sourceName": "36氪",
-      "category": "insights",
-      "tags": [
-        "观点"
-      ],
-      "evidenceType": "news_flash",
-      "discoveredVia": "RSSHub",
-      "id": "news_1222626660ed",
-      "tier": "S3",
-      "sourceTier": "S3",
-      "sourceTierLabel": "快讯/观点线索",
-      "score": 74,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 12,
-        "authority": 9,
-        "impact": 20,
-        "recency": 15,
-        "depth": 8,
-        "actionability": 10
-      },
-      "confidence": "low",
-      "why": [
-        "快讯线索，需结合原文判断",
-        "对展业/配置/合规有直接影响",
-        "可转化为客户沟通或投研关注"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 42,
-          "reasons": [
-            "命中关联主题 2 项",
-            "业务影响较高"
-          ]
-        },
-        "marketEducation": {
-          "score": 68,
-          "reasons": [
-            "命中二级市场投教核心主题 2 项",
-            "业务影响较高"
-          ]
-        },
-        "privateFundSales": {
-          "score": 51,
-          "reasons": [
-            "命中关联主题 3 项",
-            "业务影响较高"
-          ]
-        }
-      },
-      "primaryScene": "insurance",
-      "selectedForFeatured": false,
-      "contentTags": [
-        "观点",
-        "快讯"
-      ],
-      "eventId": "event_e4bee5b73584"
-    },
-    {
-      "title": "7月“新三样”出口额增五成 劳动密集型产品出口持续改善｜贸易月报",
-      "sourceUrl": "https://www.caixin.com/2026-08-18/102475446.html",
-      "publishedAt": "2026-08-18T12:11:04.000Z",
-      "fetchedAt": "2026-08-18T13:12:52.737Z",
-      "timeConfidence": "source",
-      "summary": "当月，新能源汽车与锂电池出口强劲增长，但光伏电池出口量价齐跌\n    \n     \n     2026年8月17日，南京港龙潭港区，大批新能源汽车集港等候运输。图：视觉中国\n    \n   \n       　　【财新网】8月18日，海关总署发布最新出口细则。7月，中国“新三样”出口额232.5亿美元，同比增加51%。“新三样”包括新能源车、锂电池和光伏产品。\n　　当月，新能源汽车出口61万辆，同比",
-      "sourceName": "财新网",
-      "category": "industry",
-      "tags": [
-        "行业动态"
-      ],
-      "evidenceType": "financial_media",
-      "discoveredVia": "RSSHub",
-      "id": "news_e769a7f16730",
-      "tier": "S2",
-      "sourceTier": "S2",
-      "sourceTierLabel": "专业财经媒体",
-      "score": 76,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 12,
-        "authority": 15,
-        "impact": 14,
-        "recency": 15,
-        "depth": 10,
-        "actionability": 10
-      },
-      "confidence": "low",
-      "why": [
-        "专业财经媒体跟进",
-        "可转化为客户沟通或投研关注",
-        "时效性高"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 20,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        },
-        "marketEducation": {
-          "score": 20,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        },
-        "privateFundSales": {
-          "score": 20,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        }
-      },
-      "primaryScene": "marketEducation",
-      "selectedForFeatured": false,
-      "contentTags": [
-        "行业动态"
-      ],
-      "eventId": null
-    },
-    {
-      "title": "爱丽家居，部分投资者被暂停账户交易",
-      "sourceUrl": "https://www.cls.cn/detail/2457442",
-      "publishedAt": "2026-08-18T12:09:16.000Z",
-      "fetchedAt": "2026-08-18T13:13:42.007Z",
-      "timeConfidence": "source",
-      "summary": "【上交所：依规对爱丽家居异常交易相关投资者采取暂停账户交易等自律监管措施】财联社8月18日电，上交所发布关于爱丽家居相关情况的通报，爱丽家居（603221）近期多次出现严重异常波动、异常波动情形，公司已多次发布风险提示公告，提请广大投资者审慎投资，注意风险。近日，该股股价继续大幅波动，部分投资者在交易该股过程中存在影响股票交易正常秩序的异常交易行为，上交所依规对相关投资者采取了暂停账户交易等自律监",
-      "sourceName": "财联社",
-      "category": "research",
-      "tags": [
-        "研究报告"
-      ],
-      "evidenceType": "financial_media",
-      "discoveredVia": "RSSHub",
-      "id": "news_ef5061a736bf",
-      "tier": "S3",
-      "sourceTier": "S3",
-      "sourceTierLabel": "快讯/观点线索",
-      "score": 75,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 12,
-        "authority": 9,
-        "impact": 20,
-        "recency": 15,
-        "depth": 10,
-        "actionability": 10
-      },
-      "confidence": "low",
-      "why": [
-        "快讯线索，需结合原文判断",
-        "对展业/配置/合规有直接影响",
-        "可转化为客户沟通或投研关注"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 33,
-          "reasons": [
-            "命中关联主题 1 项",
-            "业务影响较高"
-          ]
-        },
-        "marketEducation": {
-          "score": 68,
-          "reasons": [
-            "命中二级市场投教核心主题 2 项",
-            "业务影响较高"
-          ]
-        },
-        "privateFundSales": {
-          "score": 42,
-          "reasons": [
-            "命中关联主题 2 项",
-            "业务影响较高"
-          ]
-        }
-      },
-      "primaryScene": "insurance",
-      "selectedForFeatured": false,
-      "contentTags": [
-        "深度研究"
-      ],
-      "eventId": "event_e4bee5b73584"
-    },
-    {
-      "title": "德国去年企业关闭数量创近20年新高",
-      "sourceUrl": "https://www.36kr.com/newsflashes/3944986027310472",
-      "publishedAt": "2026-08-18T12:07:18.000Z",
-      "fetchedAt": "2026-08-18T13:13:49.014Z",
-      "timeConfidence": "source",
-      "summary": "德国信用报告机构“信贷改革”公司和欧洲经济研究中心最新联合分析显示，2025年德国共有超过18万家企业停止经营，同比增加近10%，数量为近20年来最多。（新华社）",
-      "sourceName": "36氪",
-      "category": "insights",
-      "tags": [
-        "观点"
-      ],
-      "evidenceType": "news_flash",
-      "discoveredVia": "RSSHub",
-      "id": "news_07dcd4f37f6c",
-      "tier": "S3",
-      "sourceTier": "S3",
-      "sourceTierLabel": "快讯/观点线索",
-      "score": 54,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 12,
-        "authority": 9,
-        "impact": 8,
-        "recency": 15,
-        "depth": 6,
-        "actionability": 4
-      },
-      "confidence": "low",
-      "why": [
-        "快讯线索，需结合原文判断",
-        "时效性高"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 16,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        },
-        "marketEducation": {
-          "score": 16,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        },
-        "privateFundSales": {
-          "score": 16,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        }
-      },
-      "primaryScene": "marketEducation",
-      "selectedForFeatured": false,
-      "contentTags": [
-        "观点",
-        "快讯"
-      ],
-      "eventId": null
-    },
-    {
-      "title": "美股前瞻 | 三大股指期货齐跌 美债收益率、油价走高 科技股多数走弱",
-      "sourceUrl": "https://cn.investing.com/news/stock-market-news/article-3523395",
-      "publishedAt": "2026-08-18T12:06:17.000Z",
-      "fetchedAt": "2026-08-18T13:14:03.239Z",
-      "timeConfidence": "source",
-      "summary": "",
-      "sourceName": "英为财情",
-      "category": "industry",
-      "tags": [
-        "行业动态"
-      ],
-      "evidenceType": "financial_media",
-      "discoveredVia": "Investing.com",
-      "id": "news_7dbc4a57ca93",
-      "tier": "S2",
-      "sourceTier": "S2",
-      "sourceTierLabel": "专业财经媒体",
-      "score": 57,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 12,
-        "authority": 15,
-        "impact": 8,
-        "recency": 15,
-        "depth": 3,
-        "actionability": 4
-      },
-      "confidence": "low",
-      "why": [
-        "专业财经媒体跟进",
-        "时效性高"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 20,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        },
-        "marketEducation": {
-          "score": 42,
-          "reasons": [
-            "命中二级市场投教核心主题 1 项"
-          ]
-        },
-        "privateFundSales": {
-          "score": 20,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        }
-      },
-      "primaryScene": "marketEducation",
-      "selectedForFeatured": false,
-      "contentTags": [
-        "行业动态"
-      ],
-      "eventId": null
-    },
-    {
-      "title": "内地放宽保险资金参与“南向ETF通”",
-      "sourceUrl": "https://finance.caixin.com/2026-08-18/102475442.html",
-      "publishedAt": "2026-08-18T12:04:14.000Z",
-      "fetchedAt": "2026-08-18T13:12:52.737Z",
-      "timeConfidence": "source",
-      "summary": "近年香港积极推动交易所买卖产品市场发展，包括培育及拓展主动型ETF等创新产品、鼓励海外ETF在香港跨境上市等\n    \n     \n     国家金融监督管理总局公布，支持内地保险资金参与内地与香港金融市场互联互通，支持内地保险机构通过沪深港通投资香港交易所买卖基金（ETF）。图：视觉中国\n    \n   \n       　　【财新网】国家金融监督管理总局公布，支持内地保险资金参与内地与香港金融市",
-      "sourceName": "财新网",
-      "category": "industry",
-      "tags": [
-        "行业动态"
-      ],
-      "evidenceType": "financial_media",
-      "discoveredVia": "RSSHub",
-      "id": "news_a034e4c8b3ee",
-      "tier": "S2",
-      "sourceTier": "S2",
-      "sourceTierLabel": "专业财经媒体",
-      "score": 89,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 25,
-        "authority": 15,
-        "impact": 14,
-        "recency": 15,
-        "depth": 10,
-        "actionability": 10
-      },
-      "confidence": "low",
-      "why": [
-        "专业财经媒体跟进",
-        "可转化为客户沟通或投研关注",
-        "时效性高"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 46,
-          "reasons": [
-            "命中保险运营核心主题 1 项"
-          ]
-        },
-        "marketEducation": {
-          "score": 77,
-          "reasons": [
-            "命中二级市场投教核心主题 2 项",
-            "命中关联主题 1 项"
-          ]
-        },
-        "privateFundSales": {
-          "score": 64,
-          "reasons": [
-            "命中私募销售运营核心主题 1 项",
-            "命中关联主题 2 项"
-          ]
-        }
-      },
-      "primaryScene": "insurance",
-      "selectedForFeatured": true,
-      "contentTags": [
-        "行业动态"
-      ],
-      "eventId": "event_c3fa3761c4e3"
-    },
-    {
-      "title": "杭州通报“酒局事件” 涉事招商蛇口高管与滨江区公职人员已刑拘",
-      "sourceUrl": "https://china.caixin.com/2026-08-18/102475439.html",
-      "publishedAt": "2026-08-18T12:03:38.000Z",
-      "fetchedAt": "2026-08-18T13:12:52.737Z",
-      "timeConfidence": "source",
-      "summary": "赵海峰、郁廷栋餐后在某KTV活动期间，对被害人实施强制猥亵，其间赵海峰将被害人推倒导致其腰部受伤。目前，被害人正在医院接受治疗，经司法鉴定机构初步鉴定为轻伤二级\n    \n     \n     近期在社交媒体热传的房企高管与政府公职人员侵犯房企女职员致伤事件，有了最新政府通报。图：视觉中国\n    \n   \n       　　【财新网】近期在社交媒体热传的房企高管与政府公职人员侵犯房企女职员致伤事",
-      "sourceName": "财新网",
-      "category": "industry",
-      "tags": [
-        "行业动态"
-      ],
-      "evidenceType": "financial_media",
-      "discoveredVia": "RSSHub",
-      "id": "news_63af811b0ab6",
-      "tier": "S2",
-      "sourceTier": "S2",
-      "sourceTierLabel": "专业财经媒体",
-      "score": 64,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 12,
-        "authority": 15,
-        "impact": 8,
-        "recency": 15,
-        "depth": 10,
-        "actionability": 4
-      },
-      "confidence": "low",
-      "why": [
-        "专业财经媒体跟进",
-        "时效性高",
-        "摘要信息较完整"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 20,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        },
-        "marketEducation": {
-          "score": 20,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        },
-        "privateFundSales": {
-          "score": 20,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        }
-      },
-      "primaryScene": "marketEducation",
-      "selectedForFeatured": false,
-      "contentTags": [
-        "行业动态"
-      ],
-      "eventId": "event_021b0dc9e6b9"
-    },
-    {
-      "title": "海外研选 | 瑞银看好具身AI浪潮 机器人与自动化产业链迎长期增长机遇",
-      "sourceUrl": "https://www.cls.cn/detail/2457430",
-      "publishedAt": "2026-08-18T12:03:37.000Z",
-      "fetchedAt": "2026-08-18T13:13:42.007Z",
-      "timeConfidence": "source",
-      "summary": "财联社8月18日讯（编辑 夏军雄）瑞银（UBS）全球财富管理首席投资办公室在最新研报中称，随着人工智能（AI）能力快速提升，人形机器人、高级驾驶辅助系统（ADAS）、自动驾驶出租车（Robotaxi）、工业自动化、精准农业和机器人手术等领域正迈入新的增长阶段。\n\n瑞银将这一趋势称为“AI in motion（运动中的AI）”或“具身AI（embodied AI）”，即AI开始获得感知、决策和行动能",
-      "sourceName": "财联社",
-      "category": "research",
-      "tags": [
-        "研究报告"
-      ],
-      "evidenceType": "financial_media",
-      "discoveredVia": "RSSHub",
-      "id": "news_6c1e80be04b9",
-      "tier": "S3",
-      "sourceTier": "S3",
-      "sourceTierLabel": "快讯/观点线索",
-      "score": 62,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 12,
-        "authority": 9,
-        "impact": 8,
-        "recency": 15,
-        "depth": 10,
-        "actionability": 8
-      },
-      "confidence": "low",
-      "why": [
-        "快讯线索，需结合原文判断",
-        "可转化为客户沟通或投研关注",
-        "时效性高"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 25,
-          "reasons": [
-            "命中关联主题 1 项"
-          ]
-        },
-        "marketEducation": {
-          "score": 16,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        },
-        "privateFundSales": {
-          "score": 16,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        }
-      },
-      "primaryScene": "marketEducation",
-      "selectedForFeatured": false,
-      "contentTags": [
-        "深度研究"
-      ],
-      "eventId": null
-    },
-    {
-      "title": "榴莲价格，大跳水",
-      "sourceUrl": "https://www.cls.cn/detail/2457427",
-      "publishedAt": "2026-08-18T12:03:05.000Z",
-      "fetchedAt": "2026-08-18T13:13:42.007Z",
-      "timeConfidence": "source",
-      "summary": "近日，榴莲价格彻底崩了引发网友热议，部分榴莲售价降至19.9元一斤，批发价跌破15元，有些榴莲品种价格从100多元跌到14元。榴莲为什么大降价？\n货源更足了：进口供给加速扩容\n今年，中老铁路首次进口柬埔寨榴莲，老挝榴莲也获得输华准入。2022年以来，海关总署先后完成越南、马来西亚等5国榴莲输华准入，进口来源持续拓宽。\n时效更快了：跨境物流迭代升级\n今年3月，中老泰“全铁冷链班列”正式开行，线路从泰",
-      "sourceName": "财联社",
-      "category": "research",
-      "tags": [
-        "研究报告"
-      ],
-      "evidenceType": "financial_media",
-      "discoveredVia": "RSSHub",
-      "id": "news_fe0ddc0c0372",
-      "tier": "S3",
-      "sourceTier": "S3",
-      "sourceTierLabel": "快讯/观点线索",
-      "score": 58,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 12,
-        "authority": 9,
-        "impact": 8,
-        "recency": 15,
-        "depth": 10,
-        "actionability": 4
-      },
-      "confidence": "low",
-      "why": [
-        "快讯线索，需结合原文判断",
-        "时效性高",
-        "摘要信息较完整"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 16,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        },
-        "marketEducation": {
-          "score": 16,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        },
-        "privateFundSales": {
-          "score": 16,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        }
-      },
-      "primaryScene": "marketEducation",
-      "selectedForFeatured": false,
-      "contentTags": [
-        "深度研究"
-      ],
-      "eventId": null
-    },
-    {
-      "title": "美国10年期国债收益率升至2025年1月以来最高水平",
-      "sourceUrl": "https://www.36kr.com/newsflashes/3944978171313543",
-      "publishedAt": "2026-08-18T11:59:19.000Z",
-      "fetchedAt": "2026-08-18T13:13:49.014Z",
-      "timeConfidence": "source",
-      "summary": "美国10年期国债收益率升至4.75%，为2025年1月以来最高水平。（第一财经）",
-      "sourceName": "36氪",
-      "category": "insights",
-      "tags": [
-        "观点"
-      ],
-      "evidenceType": "news_flash",
-      "discoveredVia": "RSSHub",
-      "id": "news_d373ac1734d7",
-      "tier": "S3",
-      "sourceTier": "S3",
-      "sourceTierLabel": "快讯/观点线索",
-      "score": 51,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 12,
-        "authority": 9,
-        "impact": 8,
-        "recency": 15,
-        "depth": 3,
-        "actionability": 4
-      },
-      "confidence": "low",
-      "why": [
-        "快讯线索，需结合原文判断",
-        "时效性高"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 16,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        },
-        "marketEducation": {
-          "score": 16,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        },
-        "privateFundSales": {
-          "score": 16,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        }
-      },
-      "primaryScene": "marketEducation",
-      "selectedForFeatured": false,
-      "contentTags": [
-        "观点",
-        "快讯"
-      ],
-      "eventId": "event_5851910dd446"
-    },
-    {
-      "title": "一年减少670家！农村中小银行加速减量提质",
-      "sourceUrl": "https://www.yicai.com/news/103323246.html",
-      "publishedAt": "2026-08-18T11:58:59.000Z",
-      "fetchedAt": "2026-08-18T13:13:16.705Z",
-      "timeConfidence": "source",
-      "summary": "截至2025年末，由总局及派出机构监管的法人机构共6489家，较2024年末减少了711家。在监管推动中小金融机构改革化险、减量提质政策导向下，农村中小银行整合重组持续提速。\n\n国家金融监管总局日前披露的最新数据显示，截至2025年末，由总局及派出机构监管的法人机构共6489家，较2024年末减少了711家。其中，农村中小银行从3603家减少至2933家，合计减少670家，降幅达18.6%。\n\n“",
-      "sourceName": "第一财经",
-      "category": "regulatory",
-      "tags": [
-        "监管政策"
-      ],
-      "evidenceType": "financial_media",
-      "discoveredVia": "RSSHub",
-      "id": "news_0ccf98e0d968",
-      "tier": "S2",
-      "sourceTier": "S2",
-      "sourceTierLabel": "专业财经媒体",
-      "score": 82,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 18,
-        "authority": 15,
-        "impact": 20,
-        "recency": 15,
-        "depth": 10,
-        "actionability": 4
-      },
-      "confidence": "low",
-      "why": [
-        "专业财经媒体跟进",
-        "对展业/配置/合规有直接影响",
-        "时效性高"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 46,
-          "reasons": [
-            "命中关联主题 2 项",
-            "业务影响较高"
-          ]
-        },
-        "marketEducation": {
-          "score": 20,
-          "reasons": [
-            "业务影响较高"
-          ]
-        },
-        "privateFundSales": {
-          "score": 37,
-          "reasons": [
-            "命中关联主题 1 项",
-            "业务影响较高"
-          ]
-        }
-      },
-      "primaryScene": "insurance",
-      "selectedForFeatured": false,
-      "contentTags": [
-        "官方监管"
-      ],
-      "eventId": null
-    },
-    {
-      "title": "提前还贷挤压信贷，前7个月居民贷款同比多减1.5万亿",
-      "sourceUrl": "https://www.yicai.com/news/103323237.html",
-      "publishedAt": "2026-08-18T11:57:17.000Z",
-      "fetchedAt": "2026-08-18T13:13:16.705Z",
-      "timeConfidence": "source",
-      "summary": "多份研究报告均指出，当前居民加杠杆意愿降温，零贷款购房正成为居民部门资产负债表修复过程中的重要特征。居民部门持续降杠杆，信贷数据持续走弱。\n\n最新金融数据显示，7月份居民贷款减少4603亿元，同比少减290亿元；其中，以房贷等为主的中长贷减少1202亿元，同比多减102亿元，信贷负增压力凸显。累计看，前7个月居民贷款合计减少8271亿元，同比多减1.5万亿元。\n\n这并非楼市短期季节性波动导致。数据",
-      "sourceName": "第一财经",
-      "category": "industry",
-      "tags": [
-        "行业动态"
-      ],
-      "evidenceType": "financial_media",
-      "discoveredVia": "RSSHub",
-      "id": "news_7a07f58c1040",
-      "tier": "S2",
-      "sourceTier": "S2",
-      "sourceTierLabel": "专业财经媒体",
-      "score": 64,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 12,
-        "authority": 15,
-        "impact": 8,
-        "recency": 15,
-        "depth": 10,
-        "actionability": 4
-      },
-      "confidence": "low",
-      "why": [
-        "专业财经媒体跟进",
-        "时效性高",
-        "摘要信息较完整"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 20,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        },
-        "marketEducation": {
-          "score": 42,
-          "reasons": [
-            "命中二级市场投教核心主题 1 项"
-          ]
-        },
-        "privateFundSales": {
-          "score": 29,
-          "reasons": [
-            "命中关联主题 1 项"
-          ]
-        }
-      },
-      "primaryScene": "marketEducation",
-      "selectedForFeatured": false,
-      "contentTags": [
-        "行业动态"
-      ],
-      "eventId": null
-    },
-    {
-      "title": "华能国际：2026年上半年净利润65.86亿元，同比下降28.89%",
-      "sourceUrl": "https://www.36kr.com/newsflashes/3944975409380488",
-      "publishedAt": "2026-08-18T11:56:30.000Z",
-      "fetchedAt": "2026-08-18T13:13:49.014Z",
-      "timeConfidence": "source",
-      "summary": "36氪获悉，华能国际公告，2026年上半年实现营业收入1069.09亿元，同比下降4.57%；归属于上市公司股东的净利润65.86亿元，同比下降28.89%。",
-      "sourceName": "36氪",
-      "category": "insights",
-      "tags": [
-        "观点"
-      ],
-      "evidenceType": "news_flash",
-      "discoveredVia": "RSSHub",
-      "id": "news_2df54b63b92d",
-      "tier": "S3",
-      "sourceTier": "S3",
-      "sourceTierLabel": "快讯/观点线索",
-      "score": 54,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 12,
-        "authority": 9,
-        "impact": 8,
-        "recency": 15,
-        "depth": 6,
-        "actionability": 4
-      },
-      "confidence": "low",
-      "why": [
-        "快讯线索，需结合原文判断",
-        "时效性高"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 16,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        },
-        "marketEducation": {
-          "score": 16,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        },
-        "privateFundSales": {
-          "score": 16,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        }
-      },
-      "primaryScene": "marketEducation",
-      "selectedForFeatured": false,
-      "contentTags": [
-        "观点",
-        "快讯"
-      ],
-      "eventId": "event_c96714846ab4"
-    },
-    {
-      "title": "国泰海通半年报：二季度业绩创行业历史新高，分红较上年中期翻倍",
-      "sourceUrl": "https://www.yicai.com/news/103323248.html",
-      "publishedAt": "2026-08-18T11:55:11.000Z",
-      "fetchedAt": "2026-08-18T13:13:16.705Z",
-      "timeConfidence": "source",
-      "summary": "8月18日晚间，国泰海通发布2026年半年度报告。上半年，国泰海通实现营业收入471.63亿元，同比增加97.56%；扣非归母净利润195.1亿元，同比增加168.02%；归母净利润202.6亿元，同比增加28.74%，经营业绩创同期历史新高，且超过了原国泰君安与原海通证券合计的最高水平。其中，公司二季度实现营业收入309.31亿元、归母净利润138.71亿元，均创下了证券行业单季历史新高。\n\n公",
-      "sourceName": "第一财经",
-      "category": "industry",
-      "tags": [
-        "行业动态"
-      ],
-      "evidenceType": "financial_media",
-      "discoveredVia": "RSSHub",
-      "id": "news_c4fc8c258436",
-      "tier": "S2",
-      "sourceTier": "S2",
-      "sourceTierLabel": "专业财经媒体",
-      "score": 83,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 22,
-        "authority": 15,
-        "impact": 17,
-        "recency": 15,
-        "depth": 10,
-        "actionability": 4
-      },
-      "confidence": "low",
-      "why": [
-        "专业财经媒体跟进",
-        "对展业/配置/合规有直接影响",
-        "时效性高"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 20,
-          "reasons": [
-            "业务影响较高"
-          ]
-        },
-        "marketEducation": {
-          "score": 35,
-          "reasons": [
-            "命中关联主题 1 项",
-            "业务影响较高"
-          ]
-        },
-        "privateFundSales": {
-          "score": 35,
-          "reasons": [
-            "命中关联主题 1 项",
-            "业务影响较高"
-          ]
-        }
-      },
-      "primaryScene": "privateFundSales",
-      "selectedForFeatured": false,
-      "contentTags": [
-        "行业动态"
-      ],
-      "eventId": null
-    },
-    {
-      "title": "从70年前的婚礼到外滩新貌，上海书展首发这些上海新书",
-      "sourceUrl": "https://www.yicai.com/news/103323215.html",
-      "publishedAt": "2026-08-18T11:54:45.000Z",
-      "fetchedAt": "2026-08-18T13:13:16.705Z",
-      "timeConfidence": "source",
-      "summary": "上海书展推出的关于上海的新书，是每届展会最受读者关注的部分。“我和先生是大学同学。1992年我们大学毕业，正赶上证券行业蓬勃发展，我们俩不约而同考进了同一家证券公司。按当时的规定，场内‘红马甲’需要大专以上学历。我们赶上了机遇，就做了第一代‘红马甲’。第一个月的工资，我拿到700块，还不算奖金。我父亲是高级工程师，工资是比较高的，但一个月不到300元。所以我们1995年办婚礼时，没有花父母一分钱。",
-      "sourceName": "第一财经",
-      "category": "industry",
-      "tags": [
-        "行业动态"
-      ],
-      "evidenceType": "financial_media",
-      "discoveredVia": "RSSHub",
-      "id": "news_f29be9b19d58",
-      "tier": "S2",
-      "sourceTier": "S2",
-      "sourceTierLabel": "专业财经媒体",
-      "score": 74,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 22,
-        "authority": 15,
-        "impact": 8,
-        "recency": 15,
-        "depth": 10,
-        "actionability": 4
-      },
-      "confidence": "low",
-      "why": [
-        "专业财经媒体跟进",
-        "时效性高",
-        "摘要信息较完整"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 20,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        },
-        "marketEducation": {
-          "score": 29,
-          "reasons": [
-            "命中关联主题 1 项"
-          ]
-        },
-        "privateFundSales": {
-          "score": 29,
-          "reasons": [
-            "命中关联主题 1 项"
-          ]
-        }
-      },
-      "primaryScene": "marketEducation",
-      "selectedForFeatured": false,
-      "contentTags": [
-        "行业动态"
-      ],
-      "eventId": null
-    },
-    {
-      "title": "多只存储股上半年业绩大涨或预增，存货增长、现金流失血带来隐忧",
-      "sourceUrl": "https://www.yicai.com/news/103323216.html",
-      "publishedAt": "2026-08-18T11:51:24.000Z",
-      "fetchedAt": "2026-08-18T13:13:16.705Z",
-      "timeConfidence": "source",
-      "summary": "上半年兆易创新经营活动产生的现金流量净额同比增长超5倍，但江波龙该项录得负数，长期借款则大幅增加。8月18日盘后，兆易创新（603986.SH）发布上半年财报。上半年兆易创新营收115.66亿元，同比增长178.67%，净利润68.57亿元，同比增长1091.5%。目前A股存储厂商中，江波龙（301308.SZ）也已发布上半年财报。根据上半年财报或业绩预告，多家存储公司上半年业绩都明显增长。不过，",
-      "sourceName": "第一财经",
-      "category": "industry",
-      "tags": [
-        "行业动态"
-      ],
-      "evidenceType": "financial_media",
-      "discoveredVia": "RSSHub",
-      "id": "news_27a09dc8afd3",
-      "tier": "S2",
-      "sourceTier": "S2",
-      "sourceTierLabel": "专业财经媒体",
-      "score": 73,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 12,
-        "authority": 15,
-        "impact": 17,
-        "recency": 15,
-        "depth": 10,
-        "actionability": 4
-      },
-      "confidence": "low",
-      "why": [
-        "专业财经媒体跟进",
-        "对展业/配置/合规有直接影响",
-        "时效性高"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 20,
-          "reasons": [
-            "业务影响较高"
-          ]
-        },
-        "marketEducation": {
-          "score": 70,
-          "reasons": [
-            "命中二级市场投教核心主题 2 项",
-            "业务影响较高"
-          ]
-        },
-        "privateFundSales": {
-          "score": 20,
-          "reasons": [
-            "业务影响较高"
-          ]
-        }
-      },
-      "primaryScene": "marketEducation",
-      "selectedForFeatured": true,
-      "contentTags": [
-        "行业动态"
-      ],
-      "eventId": null
-    },
-    {
-      "title": "国务院正式明确：装修、交物业费等9类情形可提取公积金",
-      "sourceUrl": "https://www.cls.cn/detail/2457421",
-      "publishedAt": "2026-08-18T11:50:49.000Z",
-      "fetchedAt": "2026-08-18T13:13:42.007Z",
-      "timeConfidence": "source",
-      "summary": "国务院公布《国务院关于修改〈住房公积金管理条例〉的决定》（以下简称《决定》），自2026年9月20日起施行。《决定》共20条，主要规定了以下内容。\n一是拓宽提取和使用范围。\n\n对提取住房公积金支付房租，不再设置房租超过家庭工资收入规定比例的门槛限制；新增装修自住住房、支付自住住房物业费、国务院批准的其他住房消费情形等可以提取住房公积金的情形。\n\n\n适当拓宽住房公积金投资运用渠道，明确住房公积金管理",
-      "sourceName": "财联社",
-      "category": "research",
-      "tags": [
-        "研究报告"
-      ],
-      "evidenceType": "financial_media",
-      "discoveredVia": "RSSHub",
-      "id": "news_aba714051a6e",
-      "tier": "S3",
-      "sourceTier": "S3",
-      "sourceTierLabel": "快讯/观点线索",
-      "score": 58,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 12,
-        "authority": 9,
-        "impact": 8,
-        "recency": 15,
-        "depth": 10,
-        "actionability": 4
-      },
-      "confidence": "low",
-      "why": [
-        "快讯线索，需结合原文判断",
-        "时效性高",
-        "摘要信息较完整"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 16,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        },
-        "marketEducation": {
-          "score": 16,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        },
-        "privateFundSales": {
-          "score": 16,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        }
-      },
-      "primaryScene": "marketEducation",
-      "selectedForFeatured": false,
-      "contentTags": [
-        "深度研究"
-      ],
-      "eventId": null
-    },
-    {
-      "title": "株冶集团：2026年上半年净利润19.48亿元，同比增长232.75%",
-      "sourceUrl": "https://www.36kr.com/newsflashes/3944969822223744",
-      "publishedAt": "2026-08-18T11:50:49.000Z",
-      "fetchedAt": "2026-08-18T13:13:49.014Z",
-      "timeConfidence": "source",
-      "summary": "36氪获悉，株冶集团公告，2026年上半年实现营业收入141.5亿元，同比增长35.91%；归属于上市公司股东的净利润19.48亿元，同比增长232.75%。营收增长主要系本期贵金属价格较上年同期上涨。",
-      "sourceName": "36氪",
-      "category": "insights",
-      "tags": [
-        "观点"
-      ],
-      "evidenceType": "news_flash",
-      "discoveredVia": "RSSHub",
-      "id": "news_e11c1a882694",
-      "tier": "S3",
-      "sourceTier": "S3",
-      "sourceTierLabel": "快讯/观点线索",
-      "score": 56,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 12,
-        "authority": 9,
-        "impact": 8,
-        "recency": 15,
-        "depth": 8,
-        "actionability": 4
-      },
-      "confidence": "low",
-      "why": [
-        "快讯线索，需结合原文判断",
-        "时效性高"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 16,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        },
-        "marketEducation": {
-          "score": 16,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        },
-        "privateFundSales": {
-          "score": 16,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        }
-      },
-      "primaryScene": "marketEducation",
-      "selectedForFeatured": false,
-      "contentTags": [
-        "观点",
-        "快讯"
-      ],
-      "eventId": "event_c96714846ab4"
-    },
-    {
-      "title": "历史首次突破100美元！美国柴油裂解价差创历史新高，库存陷入30年最低",
-      "sourceUrl": "https://wallstreetcn.com/articles/3779716",
-      "publishedAt": "2026-08-18T11:47:39.000Z",
-      "fetchedAt": "2026-08-18T13:12:57.311Z",
-      "timeConfidence": "source",
-      "summary": "全球柴油市场正面临多重冲击叠加下的历史性压力。美国柴油裂解价差首次突破每桶100美元，标志着精炼油品危机已从预警阶段演变为现实冲击，供需两端的结构性矛盾短期内难以化解。\n截至本周一，NYMEX近月美国柴油期货与WTI原油期货之间的价差创下每桶102.2美元的历史新高，过去六个交易日中有五个交易日刷新纪录。与此同时，欧洲基准柴油价格上周末触及每桶167美元，较一年前的约87美元几近翻倍，西北欧柴油裂",
-      "sourceName": "华尔街见闻",
-      "category": "industry",
-      "tags": [
-        "行业动态"
-      ],
-      "evidenceType": "financial_media",
-      "discoveredVia": "RSSHub",
-      "id": "news_bf723c86cc63",
-      "tier": "S2",
-      "sourceTier": "S2",
-      "sourceTierLabel": "专业财经媒体",
-      "score": 64,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 12,
-        "authority": 15,
-        "impact": 8,
-        "recency": 15,
-        "depth": 10,
-        "actionability": 4
-      },
-      "confidence": "low",
-      "why": [
-        "专业财经媒体跟进",
-        "时效性高",
-        "摘要信息较完整"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 20,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        },
-        "marketEducation": {
-          "score": 42,
-          "reasons": [
-            "命中二级市场投教核心主题 1 项"
-          ]
-        },
-        "privateFundSales": {
-          "score": 29,
-          "reasons": [
-            "命中关联主题 1 项"
-          ]
-        }
-      },
-      "primaryScene": "marketEducation",
-      "selectedForFeatured": false,
-      "contentTags": [
-        "行业动态"
-      ],
-      "eventId": null
-    },
-    {
-      "title": "华民股份：主营业务未发生重大变化",
-      "sourceUrl": "https://www.36kr.com/newsflashes/3944962277539203",
-      "publishedAt": "2026-08-18T11:43:09.000Z",
-      "fetchedAt": "2026-08-18T13:13:49.014Z",
-      "timeConfidence": "source",
-      "summary": "36氪获悉，华民股份公告，公司股票连续3个交易日收盘价格涨幅偏离值累计超过30%，属于股票交易异常波动。公司主营业务为光伏硅棒、硅片的研发、生产和销售，截至目前，公司主营业务未发生重大变化。当前受光伏行业周期性影响，产业链价格仍处于低位运行，公司整体盈利能力承压，后续发展尚存在不确定性。",
-      "sourceName": "36氪",
-      "category": "insights",
-      "tags": [
-        "观点"
-      ],
-      "evidenceType": "news_flash",
-      "discoveredVia": "RSSHub",
-      "id": "news_fbd3926810ba",
-      "tier": "S3",
-      "sourceTier": "S3",
-      "sourceTierLabel": "快讯/观点线索",
-      "score": 56,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 12,
-        "authority": 9,
-        "impact": 8,
-        "recency": 15,
-        "depth": 8,
-        "actionability": 4
-      },
-      "confidence": "low",
-      "why": [
-        "快讯线索，需结合原文判断",
-        "时效性高"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 16,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        },
-        "marketEducation": {
-          "score": 82,
-          "reasons": [
-            "命中二级市场投教核心主题 3 项"
-          ]
-        },
-        "privateFundSales": {
-          "score": 25,
-          "reasons": [
-            "命中关联主题 1 项"
-          ]
-        }
-      },
-      "primaryScene": "marketEducation",
-      "selectedForFeatured": true,
-      "contentTags": [
-        "观点",
-        "快讯"
-      ],
-      "eventId": null
-    },
-    {
-      "title": "国家级经开区迎来改革拐点",
-      "sourceUrl": "https://www.yicai.com/news/103323223.html",
-      "publishedAt": "2026-08-18T11:39:34.000Z",
-      "fetchedAt": "2026-08-18T13:13:16.705Z",
-      "timeConfidence": "source",
-      "summary": "以“戴上国家级帽子”为目标的粗放扩张阶段结束。近日，商务部公布了2025年国家级经济技术开发区（下称“经开区”）综合发展水平考核评价结果。因系统性考核评价靠后，广东揭东、河南濮阳、内蒙古呼伦贝尔、辽宁营口、黑龙江大庆等五家经开区退出国家级经开区名单序列。这是继2020年甘肃酒泉、2021年宁夏石嘴山被摘牌之后，国家级经开区最大规模的一次退出行动。至此，退出者达到七家。\n\n看似突然的集体摘牌，实则预",
-      "sourceName": "第一财经",
-      "category": "industry",
-      "tags": [
-        "行业动态"
-      ],
-      "evidenceType": "financial_media",
-      "discoveredVia": "RSSHub",
-      "id": "news_8a59463f6032",
-      "tier": "S2",
-      "sourceTier": "S2",
-      "sourceTierLabel": "专业财经媒体",
-      "score": 64,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 12,
-        "authority": 15,
-        "impact": 8,
-        "recency": 15,
-        "depth": 10,
-        "actionability": 4
-      },
-      "confidence": "low",
-      "why": [
-        "专业财经媒体跟进",
-        "时效性高",
-        "摘要信息较完整"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 20,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        },
-        "marketEducation": {
-          "score": 20,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        },
-        "privateFundSales": {
-          "score": 20,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        }
-      },
-      "primaryScene": "marketEducation",
-      "selectedForFeatured": false,
-      "contentTags": [
-        "行业动态"
-      ],
-      "eventId": null
-    },
-    {
-      "title": "美国10年期国债收益率升至4.75%，创2025年1月以来最高水平。",
-      "sourceUrl": "https://wallstreetcn.com/livenews/3151100",
-      "publishedAt": "2026-08-18T11:37:32.000Z",
-      "fetchedAt": "2026-08-18T13:12:57.311Z",
-      "timeConfidence": "source",
-      "summary": "美国10年期国债收益率升至4.75%，创2025年1月以来最高水平。",
-      "sourceName": "华尔街见闻",
-      "category": "industry",
-      "tags": [
-        "行业动态"
-      ],
-      "evidenceType": "financial_media",
-      "discoveredVia": "RSSHub",
-      "id": "news_23db2a9cc258",
-      "tier": "S2",
-      "sourceTier": "S2",
-      "sourceTierLabel": "专业财经媒体",
-      "score": 57,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 12,
-        "authority": 15,
-        "impact": 8,
-        "recency": 15,
-        "depth": 3,
-        "actionability": 4
-      },
-      "confidence": "low",
-      "why": [
-        "专业财经媒体跟进",
-        "时效性高"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 20,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        },
-        "marketEducation": {
-          "score": 20,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        },
-        "privateFundSales": {
-          "score": 20,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        }
-      },
-      "primaryScene": "marketEducation",
-      "selectedForFeatured": false,
-      "contentTags": [
-        "行业动态"
-      ],
-      "eventId": "event_5851910dd446"
-    },
-    {
-      "title": "广州新房价格指数“五连涨” 过半典型楼盘成交均价仍下跌",
-      "sourceUrl": "https://www.caixin.com/2026-08-18/102475421.html",
-      "publishedAt": "2026-08-18T11:37:22.000Z",
-      "fetchedAt": "2026-08-18T13:12:52.737Z",
-      "timeConfidence": "source",
-      "summary": "普睿数智提供给数据显示，7月广州202个连续成交的典型楼盘中，成交均价环比下降的有108个；改善型项目价格支撑更强，部分热盘开始收回折扣，外围刚需盘仍在让价\n       　　【财新网】自2026年3月由跌转涨以来，广州新房价格指数已经连续五个月上涨。国家统计局8月17日发布的数据显示，7月广州新建商品住宅价格环比上涨0.1%；此前四个月，环比分别上涨0.3%、0.1%、0.2%和0.2%。\n　　",
-      "sourceName": "财新网",
-      "category": "industry",
-      "tags": [
-        "行业动态"
-      ],
-      "evidenceType": "financial_media",
-      "discoveredVia": "RSSHub",
-      "id": "news_a8bbf37f8bd7",
-      "tier": "S2",
-      "sourceTier": "S2",
-      "sourceTierLabel": "专业财经媒体",
-      "score": 64,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 12,
-        "authority": 15,
-        "impact": 8,
-        "recency": 15,
-        "depth": 10,
-        "actionability": 4
-      },
-      "confidence": "low",
-      "why": [
-        "专业财经媒体跟进",
-        "时效性高",
-        "摘要信息较完整"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 20,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        },
-        "marketEducation": {
-          "score": 42,
-          "reasons": [
-            "命中二级市场投教核心主题 1 项"
-          ]
-        },
-        "privateFundSales": {
-          "score": 20,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        }
-      },
-      "primaryScene": "marketEducation",
-      "selectedForFeatured": false,
-      "contentTags": [
-        "行业动态"
-      ],
-      "eventId": null
     }
   ],
   "curationStats": {
     "scenes": {
-      "insurance": 17,
-      "privateFundSales": 25,
-      "marketEducation": 108
+      "insurance": 13,
+      "privateFundSales": 31,
+      "marketEducation": 106
     },
     "featured": 24
   },
   "sections": {
     "regulatory": [
-      "news_9abacb741a25",
-      "news_0ccf98e0d968"
+      "news_9abacb741a25"
     ],
-    "products": [
-      "news_f488da2417eb"
-    ],
+    "products": [],
     "industry": [
-      "news_adbeb285d3f5",
-      "news_f36975ae9f58",
-      "news_38178eb9b7b3",
-      "news_4547a21ef5e8",
-      "news_92b661453f94",
-      "news_4a71daf83c18",
-      "news_e20dc4be13e9",
-      "news_5bac88b556d9",
-      "news_239938557cc0",
-      "news_08c778c71aec"
+      "news_f74347285657",
+      "news_bda4ca82a39f",
+      "news_5375daf26b15",
+      "news_d4103a017b47",
+      "news_975fb3a0f3b7",
+      "news_73c8b8049df0",
+      "news_e7f9359e7c92",
+      "news_7f9d3a22d4f6",
+      "news_8f9dc5d09117",
+      "news_0bbad0c1f8dc"
     ],
     "research": [
-      "news_9197453f3024",
-      "news_cd28c780f392",
-      "news_e1f71878bfa9",
-      "news_f9923186240a",
-      "news_8d456e96708b",
-      "news_d5d26e54c36a",
-      "news_7b848aabb97c",
-      "news_4744da26f712",
-      "news_7a8636903d45",
-      "news_93c3b99c5f45"
+      "news_c69ffd1d14a7",
+      "news_a16ec4b485c8",
+      "news_4ad1b23f2943",
+      "news_278305192bf9",
+      "news_3bef7fdad3ca",
+      "news_287024ba2e4f",
+      "news_a04e9bcde91f",
+      "news_09a3abd24f9d",
+      "news_514ee68cc41a",
+      "news_c6d425cbfb59"
     ],
     "insights": [
-      "news_45ee6acd5043",
-      "news_4b580f51f449",
-      "news_bc7ba830aa63",
-      "news_077141bb9683",
-      "news_abe31bc2e2cd",
-      "news_21ee0b9fb11f",
-      "news_71fa8d4820a5",
-      "news_bfffe3b8a812",
-      "news_4e060a1dd739",
-      "news_b04236a17aba"
+      "news_1af7732dd96a",
+      "news_044b2004b100",
+      "news_1a29e11a4a61",
+      "news_865cf41e6ba1",
+      "news_f6fa1df6f401",
+      "news_4a0d3d6b1b80",
+      "news_86ff934a1510",
+      "news_29eac472dd65",
+      "news_9f0d56fa0999",
+      "news_d912556c1343"
     ]
   },
   "flashes": [
     {
-      "id": "news_45ee6acd5043",
+      "id": "news_f74347285657",
       "dotClass": "flash-dot-blue"
     },
     {
-      "id": "news_9197453f3024",
+      "id": "news_bda4ca82a39f",
       "dotClass": "flash-dot-blue"
     },
     {
-      "id": "news_adbeb285d3f5",
+      "id": "news_5375daf26b15",
       "dotClass": "flash-dot-blue"
     },
     {
-      "id": "news_f36975ae9f58",
+      "id": "news_1af7732dd96a",
       "dotClass": "flash-dot-blue"
     },
     {
-      "id": "news_38178eb9b7b3",
+      "id": "news_d4103a017b47",
       "dotClass": "flash-dot-blue"
     },
     {
-      "id": "news_4b580f51f449",
+      "id": "news_975fb3a0f3b7",
       "dotClass": "flash-dot-blue"
     },
     {
-      "id": "news_4547a21ef5e8",
+      "id": "news_73c8b8049df0",
       "dotClass": "flash-dot-blue"
     },
     {
-      "id": "news_cd28c780f392",
+      "id": "news_e7f9359e7c92",
       "dotClass": "flash-dot-blue"
     }
   ],
   "keywordIndex": {
     "保险": [
-      "news_9abacb741a25",
-      "news_f488da2417eb",
-      "news_a034e4c8b3ee"
-    ],
-    "险企": [
-      "news_f488da2417eb"
-    ],
-    "保费": [
-      "news_f488da2417eb"
-    ],
-    "保险业": [
-      "news_f488da2417eb"
+      "news_a16ec4b485c8",
+      "news_9abacb741a25"
     ],
     "保险公司": [
       "news_9abacb741a25"
     ],
-    "保险产品": [
-      "news_f488da2417eb"
-    ],
-    "退休": [
-      "news_e6053d9c9956"
-    ],
-    "财险": [
-      "news_53111ee97d71"
-    ],
     "银行": [
+      "news_975fb3a0f3b7",
+      "news_7f9d3a22d4f6",
+      "news_f6fa1df6f401",
+      "news_29eac472dd65",
+      "news_9f0d56fa0999",
+      "news_a8cfee47e04e",
+      "news_9de1e38c793b",
+      "news_55c198d47d9b",
       "news_7df695aa3d10",
       "news_dbbdf116b294",
       "news_7214b8616c05",
       "news_2bd1d16a2435",
       "news_7bc5f0e4dd27",
-      "news_734caed0514c",
-      "news_a2b0d9f4f30d",
-      "news_2101267f392e",
-      "news_4b0bdc9e9838",
-      "news_0ccf98e0d968"
+      "news_734caed0514c"
     ],
     "央行": [
-      "news_abe31bc2e2cd",
-      "news_38a6ba25dd3d"
+      "news_abe31bc2e2cd"
+    ],
+    "商业银行": [
+      "news_a8cfee47e04e"
     ],
     "利率": [
+      "news_7f9d3a22d4f6",
+      "news_d6d58aa393bc",
+      "news_c6d425cbfb59",
       "news_45ee6acd5043",
       "news_7b848aabb97c",
-      "news_4d066eb78460",
-      "news_8d7a1d09eb3f",
-      "news_1fac6cf36ed6",
-      "news_bec016def976"
+      "news_4d066eb78460"
     ],
     "逆回购": [
       "news_abe31bc2e2cd"
     ],
+    "加息": [
+      "news_d4103a017b47"
+    ],
     "净息差": [
       "news_734caed0514c"
     ],
-    "房贷": [
-      "news_7a07f58c1040"
-    ],
     "理财": [
+      "news_a8cfee47e04e",
       "news_92b661453f94"
     ],
     "股票": [
+      "news_e7f9359e7c92",
+      "news_287024ba2e4f",
+      "news_a04e9bcde91f",
+      "news_b61998bbd222",
       "news_08c778c71aec",
       "news_cd17c22cf01d",
       "news_aee3783fbeaf",
@@ -9486,35 +9474,33 @@ window.FINHOT_DATA = {
       "news_cdec03ed5dda",
       "news_072218b25825",
       "news_2bd1d16a2435",
-      "news_9abacb741a25",
-      "news_c679d359d247",
-      "news_a412a0338966",
-      "news_122e6d89ba4b",
-      "news_1222626660ed",
-      "news_ef5061a736bf",
-      "news_fbd3926810ba"
+      "news_9abacb741a25"
     ],
     "A股": [
+      "news_9f0d56fa0999",
+      "news_f1f38ae697fc",
+      "news_287024ba2e4f",
+      "news_9de1e38c793b",
       "news_9197453f3024",
       "news_4547a21ef5e8",
       "news_ff026a351845",
       "news_077141bb9683",
       "news_709aaa466cd5",
-      "news_ca8ce0d8fcb7",
-      "news_8f879014fb83",
-      "news_e86e9d314bf4",
-      "news_0b05a729d8d3",
-      "news_27a09dc8afd3"
+      "news_ca8ce0d8fcb7"
     ],
     "港股": [
+      "news_13fb2447105f",
       "news_adbeb285d3f5",
       "news_f36975ae9f58",
       "news_93c3b99c5f45",
       "news_998c578eb70e",
-      "news_9abacb741a25",
-      "news_d2766a16f24f"
+      "news_9abacb741a25"
     ],
     "美股": [
+      "news_35e0d56edee6",
+      "news_4596b553562a",
+      "news_13fb2447105f",
+      "news_9de1e38c793b",
       "news_4744da26f712",
       "news_9aac4551ec12",
       "news_b68693b35b47",
@@ -9526,17 +9512,23 @@ window.FINHOT_DATA = {
       "news_072218b25825",
       "news_7214b8616c05",
       "news_bac672784511",
-      "news_5f4ec9ec0aca",
-      "news_e65153aa735d",
-      "news_0eb4388c732a",
-      "news_177401eb6649",
-      "news_7dbc4a57ca93"
+      "news_5f4ec9ec0aca"
     ],
     "大盘": [
+      "news_b61998bbd222",
       "news_b04236a17aba",
       "news_832c89100693"
     ],
     "指数": [
+      "news_5375daf26b15",
+      "news_c69ffd1d14a7",
+      "news_4a0d3d6b1b80",
+      "news_35e0d56edee6",
+      "news_9f0d56fa0999",
+      "news_03343886b3b1",
+      "news_9de1e38c793b",
+      "news_6dd1fe2270e0",
+      "news_b61998bbd222",
       "news_ff026a351845",
       "news_077141bb9683",
       "news_21ee0b9fb11f",
@@ -9550,60 +9542,67 @@ window.FINHOT_DATA = {
       "news_6187cca76a84",
       "news_ce5a01a97d1e",
       "news_072218b25825",
-      "news_bac672784511",
-      "news_177401eb6649",
-      "news_a8bbf37f8bd7"
+      "news_bac672784511"
     ],
     "ETF": [
+      "news_5375daf26b15",
       "news_b04236a17aba",
       "news_7a8636903d45",
-      "news_9abacb741a25",
-      "news_a034e4c8b3ee"
+      "news_9abacb741a25"
     ],
     "公募基金": [
       "news_7a8636903d45"
     ],
+    "对冲基金": [
+      "news_4596b553562a",
+      "news_514ee68cc41a",
+      "news_44f721d9e048"
+    ],
     "量化": [
+      "news_4596b553562a",
       "news_bc7ba830aa63",
       "news_5bac88b556d9",
       "news_41c8a5a54dcd",
       "news_2dc27f4d3d47"
     ],
     "债券": [
+      "news_3bef7fdad3ca",
+      "news_c6d425cbfb59",
+      "news_b61998bbd222",
       "news_d0599538d5ff",
       "news_b04236a17aba",
       "news_b057057c50ff",
       "news_4d066eb78460",
       "news_9aac4551ec12",
       "news_ce5a01a97d1e",
-      "news_072218b25825",
-      "news_a2b0d9f4f30d"
+      "news_072218b25825"
     ],
     "国债": [
+      "news_35e0d56edee6",
+      "news_d6d58aa393bc",
       "news_b057057c50ff",
       "news_7b848aabb97c",
       "news_4d066eb78460",
       "news_b68693b35b47",
       "news_cdec03ed5dda",
-      "news_072218b25825",
-      "news_177401eb6649",
-      "news_755b1e37507e",
-      "news_d373ac1734d7",
-      "news_23db2a9cc258"
+      "news_072218b25825"
     ],
     "公司债": [
+      "news_3bef7fdad3ca",
       "news_4d066eb78460"
     ],
     "期货": [
-      "news_ac36c469c014",
-      "news_177401eb6649",
-      "news_7dbc4a57ca93",
-      "news_bf723c86cc63"
+      "news_ac36c469c014"
     ],
     "期权": [
       "news_4e060a1dd739"
     ],
     "IPO": [
+      "news_287024ba2e4f",
+      "news_a04e9bcde91f",
+      "news_9de1e38c793b",
+      "news_55c198d47d9b",
+      "news_4f8a9d4a41fe",
       "news_239938557cc0",
       "news_5885a4b321b6",
       "news_b46c30fdd8a3",
@@ -9612,10 +9611,19 @@ window.FINHOT_DATA = {
       "news_73db0c03a998",
       "news_2a9cc41c619d",
       "news_7bc5f0e4dd27",
-      "news_d11a6f31f73c",
-      "news_5c96837a0dae"
+      "news_d11a6f31f73c"
     ],
     "上市": [
+      "news_5375daf26b15",
+      "news_e7f9359e7c92",
+      "news_4ad1b23f2943",
+      "news_61473ed9cae0",
+      "news_f1f38ae697fc",
+      "news_287024ba2e4f",
+      "news_c7e34b7eb524",
+      "news_334aab83a402",
+      "news_9de1e38c793b",
+      "news_4f8a9d4a41fe",
       "news_9197453f3024",
       "news_38178eb9b7b3",
       "news_4b580f51f449",
@@ -9636,41 +9644,47 @@ window.FINHOT_DATA = {
       "news_23c7c79f5c7b",
       "news_7bc5f0e4dd27",
       "news_d11a6f31f73c",
-      "news_3aedbe6e6003",
-      "news_c20e9a2dc3ad",
-      "news_c679d359d247",
-      "news_8f879014fb83",
-      "news_846bac609da3",
-      "news_6935fc763e3d",
-      "news_6237631698cc",
-      "news_5c96837a0dae",
-      "news_a034e4c8b3ee",
-      "news_2df54b63b92d",
-      "news_e11c1a882694"
+      "news_3aedbe6e6003"
     ],
     "打新": [
+      "news_c7e34b7eb524",
+      "news_a927c52f958c",
       "news_9197453f3024",
       "news_4b580f51f449",
       "news_bc7ba830aa63",
       "news_5bac88b556d9"
     ],
     "增持": [
+      "news_86ff934a1510",
+      "news_bb0abf197ffc",
       "news_623c703fb400"
     ],
     "回购": [
-      "news_abe31bc2e2cd",
-      "news_e86e9d314bf4"
+      "news_abe31bc2e2cd"
     ],
     "券商": [
+      "news_278305192bf9",
+      "news_09a3abd24f9d",
+      "news_81526cd4dc11",
       "news_e1f71878bfa9",
       "news_5885a4b321b6",
       "news_93c3b99c5f45",
       "news_3aedbe6e6003"
     ],
     "自营": [
+      "news_278305192bf9",
       "news_3aedbe6e6003"
     ],
+    "经纪": [
+      "news_278305192bf9"
+    ],
     "投资者": [
+      "news_f74347285657",
+      "news_3bef7fdad3ca",
+      "news_f1f38ae697fc",
+      "news_c6d425cbfb59",
+      "news_b61998bbd222",
+      "news_4f8a9d4a41fe",
       "news_9a9a1973bfef",
       "news_41c8a5a54dcd",
       "news_4d066eb78460",
@@ -9683,11 +9697,16 @@ window.FINHOT_DATA = {
       "news_2a9cc41c619d",
       "news_bac672784511",
       "news_5f4ec9ec0aca",
-      "news_d11a6f31f73c",
-      "news_1222626660ed",
-      "news_ef5061a736bf"
+      "news_d11a6f31f73c"
+    ],
+    "散户": [
+      "news_c7e34b7eb524"
     ],
     "机构": [
+      "news_287024ba2e4f",
+      "news_a8cfee47e04e",
+      "news_357c039fe581",
+      "news_81526cd4dc11",
       "news_e1f71878bfa9",
       "news_9a9a1973bfef",
       "news_832c89100693",
@@ -9695,139 +9714,132 @@ window.FINHOT_DATA = {
       "news_623c703fb400",
       "news_9ae06baf75e9",
       "news_2dc27f4d3d47",
-      "news_9abacb741a25",
-      "news_d349b788b638",
-      "news_1a29929078d0",
-      "news_07dcd4f37f6c",
-      "news_a034e4c8b3ee",
-      "news_63af811b0ab6",
-      "news_0ccf98e0d968"
+      "news_9abacb741a25"
+    ],
+    "南向资金": [
+      "news_4a0d3d6b1b80"
     ],
     "监管": [
+      "news_287024ba2e4f",
+      "news_a8cfee47e04e",
       "news_e1f71878bfa9",
       "news_dbbdf116b294",
       "news_ca8ce0d8fcb7",
       "news_b68693b35b47",
       "news_9ae06baf75e9",
       "news_7214b8616c05",
-      "news_9abacb741a25",
-      "news_8db05ae08776",
-      "news_1222626660ed",
-      "news_ef5061a736bf",
-      "news_0ccf98e0d968"
+      "news_9abacb741a25"
     ],
     "金融监管": [
-      "news_9abacb741a25",
-      "news_0ccf98e0d968"
+      "news_9abacb741a25"
     ],
     "证监会": [
+      "news_287024ba2e4f",
       "news_5885a4b321b6"
     ],
     "上交所": [
       "news_9197453f3024",
-      "news_ca8ce0d8fcb7",
-      "news_1222626660ed",
-      "news_ef5061a736bf"
+      "news_ca8ce0d8fcb7"
     ],
     "北交所": [
+      "news_4983aac23228",
       "news_5052fc363e25"
     ],
     "合规": [
-      "news_8db05ae08776",
-      "news_1222626660ed"
-    ],
-    "处罚": [
-      "news_755b1e37507e"
+      "news_a8cfee47e04e"
     ],
     "通报": [
-      "news_1222626660ed",
-      "news_ef5061a736bf",
-      "news_63af811b0ab6"
+      "news_a2b455e35fea"
     ],
     "条款": [
+      "news_eabbeb7a5d05",
       "news_4e060a1dd739",
-      "news_9ae06baf75e9",
-      "news_f488da2417eb"
+      "news_9ae06baf75e9"
+    ],
+    "办法": [
+      "news_8f9dc5d09117"
     ],
     "通知": [
+      "news_1af7732dd96a",
       "news_9888218d3d7a",
-      "news_93db78100baf",
-      "news_1a29929078d0"
+      "news_93db78100baf"
+    ],
+    "指引": [
+      "news_bda4ca82a39f"
     ],
     "意见": [
-      "news_8d456e96708b",
-      "news_d0be1b1be04b"
+      "news_bec4b0f64853",
+      "news_8d456e96708b"
     ],
     "规定": [
+      "news_287024ba2e4f",
       "news_832c89100693",
-      "news_35bb37c05aae",
-      "news_f29be9b19d58",
-      "news_aba714051a6e"
+      "news_35bb37c05aae"
     ],
     "条例": [
+      "news_bec4b0f64853",
       "news_4a71daf83c18",
       "news_832c89100693",
       "news_35bb37c05aae",
-      "news_017044a84005",
-      "news_a6db6362b086",
-      "news_bd0d5c0c6a9b",
-      "news_bec016def976",
-      "news_755b1e37507e",
-      "news_aba714051a6e"
+      "news_017044a84005"
+    ],
+    "法规": [
+      "news_0649181351ff"
     ],
     "解读": [
       "news_cd28c780f392",
       "news_9a9a1973bfef",
-      "news_017044a84005",
-      "news_c679d359d247"
+      "news_017044a84005"
     ],
     "牌照": [
+      "news_81526cd4dc11",
       "news_dbbdf116b294"
     ],
+    "资质": [
+      "news_81526cd4dc11"
+    ],
     "经济": [
+      "news_044b2004b100",
+      "news_d87323246728",
+      "news_514ee68cc41a",
       "news_4a71daf83c18",
       "news_ca8ce0d8fcb7",
       "news_81e31687883e",
       "news_b68693b35b47",
-      "news_998c578eb70e",
-      "news_c20e9a2dc3ad",
-      "news_1254af85361b",
-      "news_38a6ba25dd3d",
-      "news_07dcd4f37f6c",
-      "news_8a59463f6032"
-    ],
-    "经济运行": [
-      "news_1254af85361b"
+      "news_998c578eb70e"
     ],
     "高质量发展": [
-      "news_998c578eb70e",
-      "news_1254af85361b"
+      "news_998c578eb70e"
     ],
     "信贷": [
+      "news_55c198d47d9b",
       "news_dbbdf116b294",
-      "news_7bc5f0e4dd27",
-      "news_07dcd4f37f6c",
-      "news_7a07f58c1040"
+      "news_7bc5f0e4dd27"
     ],
     "财政政策": [
       "news_998c578eb70e"
     ],
     "汇率": [
+      "news_d6d58aa393bc",
       "news_45ee6acd5043"
     ],
     "人民币": [
+      "news_bb0abf197ffc",
+      "news_2b594ac952a1",
       "news_abe31bc2e2cd",
       "news_bfffe3b8a812",
       "news_41c8a5a54dcd",
-      "news_f98772e4c046",
-      "news_5c96837a0dae"
-    ],
-    "跨境": [
-      "news_a034e4c8b3ee",
-      "news_fe0ddc0c0372"
+      "news_f98772e4c046"
     ],
     "美元": [
+      "news_7f9d3a22d4f6",
+      "news_86ff934a1510",
+      "news_bb0abf197ffc",
+      "news_357c039fe581",
+      "news_c6d425cbfb59",
+      "news_55c198d47d9b",
       "news_45ee6acd5043",
+      "news_44f721d9e048",
       "news_239938557cc0",
       "news_bfffe3b8a812",
       "news_8f46b9bba31e",
@@ -9845,50 +9857,65 @@ window.FINHOT_DATA = {
       "news_2a9cc41c619d",
       "news_7bc5f0e4dd27",
       "news_2dc27f4d3d47",
-      "news_a9858d5356fd",
-      "news_5c96837a0dae",
-      "news_565a76fc81dd",
-      "news_e769a7f16730",
-      "news_bf723c86cc63"
+      "news_a9858d5356fd"
+    ],
+    "日元": [
+      "news_d6d58aa393bc"
     ],
     "通胀": [
+      "news_d4103a017b47",
       "news_d0599538d5ff",
       "news_f9923186240a",
       "news_d5d26e54c36a",
       "news_b057057c50ff",
       "news_4d066eb78460",
-      "news_81e31687883e",
-      "news_177401eb6649"
+      "news_81e31687883e"
+    ],
+    "衰退": [
+      "news_514ee68cc41a"
+    ],
+    "房地产": [
+      "news_c69ffd1d14a7"
     ],
     "地产": [
+      "news_c69ffd1d14a7",
       "news_4e060a1dd739"
     ],
-    "楼市": [
-      "news_7a07f58c1040"
-    ],
     "住房": [
+      "news_bec4b0f64853",
       "news_7b848aabb97c",
       "news_832c89100693",
       "news_35bb37c05aae",
       "news_017044a84005",
-      "news_b96baa716d22",
-      "news_a6db6362b086",
-      "news_bd0d5c0c6a9b",
-      "news_bec016def976",
-      "news_755b1e37507e",
-      "news_aba714051a6e"
+      "news_b96baa716d22"
     ],
     "消费": [
+      "news_4ad1b23f2943",
+      "news_284ca3e016b5",
+      "news_a8cfee47e04e",
       "news_8d456e96708b",
       "news_81e31687883e",
       "news_35bb37c05aae",
-      "news_ac36c469c014",
-      "news_d0be1b1be04b",
-      "news_ad58363d1ea3",
-      "news_6237631698cc",
-      "news_aba714051a6e"
+      "news_ac36c469c014"
     ],
     "投资": [
+      "news_f74347285657",
+      "news_044b2004b100",
+      "news_fa796c4871ce",
+      "news_3bef7fdad3ca",
+      "news_d87323246728",
+      "news_4596b553562a",
+      "news_768ff87c501b",
+      "news_f1f38ae697fc",
+      "news_09a3abd24f9d",
+      "news_a8cfee47e04e",
+      "news_357c039fe581",
+      "news_2b594ac952a1",
+      "news_514ee68cc41a",
+      "news_c6d425cbfb59",
+      "news_b61998bbd222",
+      "news_4f8a9d4a41fe",
+      "news_0649181351ff",
       "news_92b661453f94",
       "news_9a9a1973bfef",
       "news_41c8a5a54dcd",
@@ -9907,47 +9934,44 @@ window.FINHOT_DATA = {
       "news_5f4ec9ec0aca",
       "news_d11a6f31f73c",
       "news_9abacb741a25",
-      "news_3aedbe6e6003",
-      "news_1254af85361b",
-      "news_2101267f392e",
-      "news_5c96837a0dae",
-      "news_1222626660ed",
-      "news_ef5061a736bf",
-      "news_a034e4c8b3ee",
-      "news_6c1e80be04b9",
-      "news_aba714051a6e"
+      "news_3aedbe6e6003"
     ],
     "出口": [
-      "news_9407801e7d69",
-      "news_e769a7f16730"
+      "news_044b2004b100",
+      "news_9407801e7d69"
     ],
     "进口": [
-      "news_ac36c469c014",
-      "news_fe0ddc0c0372"
+      "news_ac36c469c014"
     ],
     "贸易": [
+      "news_3b6f3eebd675",
       "news_9888218d3d7a",
-      "news_93db78100baf",
-      "news_c0bf3494de32",
-      "news_e769a7f16730"
+      "news_93db78100baf"
     ],
     "产业链": [
+      "news_fa796c4871ce",
       "news_ff026a351845",
       "news_f814f55a24ad",
       "news_71fa8d4820a5",
-      "news_072218b25825",
-      "news_6c1e80be04b9",
-      "news_fbd3926810ba"
+      "news_072218b25825"
     ],
     "供应链": [
       "news_8d456e96708b",
       "news_ac36c469c014"
     ],
     "就业": [
-      "news_017044a84005",
-      "news_a6db6362b086"
+      "news_017044a84005"
     ],
     "收入": [
+      "news_73c8b8049df0",
+      "news_1a29e11a4a61",
+      "news_0bbad0c1f8dc",
+      "news_61473ed9cae0",
+      "news_278305192bf9",
+      "news_d87323246728",
+      "news_768ff87c501b",
+      "news_eabbeb7a5d05",
+      "news_4f8a9d4a41fe",
       "news_45ee6acd5043",
       "news_f36975ae9f58",
       "news_cd28c780f392",
@@ -9959,60 +9983,48 @@ window.FINHOT_DATA = {
       "news_35bb37c05aae",
       "news_2a9cc41c619d",
       "news_734caed0514c",
-      "news_3aedbe6e6003",
-      "news_01d43d5c6ac2",
-      "news_ac2fb700633f",
-      "news_8d7a1d09eb3f",
-      "news_1fac6cf36ed6",
-      "news_846bac609da3",
-      "news_6935fc763e3d",
-      "news_6237631698cc",
-      "news_d2766a16f24f",
-      "news_1a29929078d0",
-      "news_2df54b63b92d",
-      "news_c4fc8c258436",
-      "news_aba714051a6e",
-      "news_e11c1a882694"
+      "news_3aedbe6e6003"
+    ],
+    "黄金": [
+      "news_7f9d3a22d4f6",
+      "news_29eac472dd65"
+    ],
+    "金价": [
+      "news_7f9d3a22d4f6"
     ],
     "原油": [
       "news_8f46b9bba31e",
-      "news_81e31687883e",
-      "news_bf723c86cc63"
+      "news_81e31687883e"
     ],
     "工业": [
+      "news_865cf41e6ba1",
+      "news_2b594ac952a1",
       "news_92b661453f94",
       "news_81e31687883e",
-      "news_072218b25825",
-      "news_ad58363d1ea3",
-      "news_2101267f392e",
-      "news_6237631698cc",
-      "news_6c1e80be04b9"
+      "news_072218b25825"
     ],
     "利润": [
+      "news_bda4ca82a39f",
+      "news_fa796c4871ce",
+      "news_278305192bf9",
+      "news_1a625b179899",
       "news_45ee6acd5043",
       "news_cd28c780f392",
       "news_f814f55a24ad",
       "news_11d9bd39aabf",
       "news_f98772e4c046",
       "news_a9858d5356fd",
-      "news_3aedbe6e6003",
-      "news_ac2fb700633f",
-      "news_846bac609da3",
-      "news_6935fc763e3d",
-      "news_6237631698cc",
-      "news_d2766a16f24f",
-      "news_2df54b63b92d",
-      "news_c4fc8c258436",
-      "news_27a09dc8afd3",
-      "news_e11c1a882694"
+      "news_3aedbe6e6003"
     ],
     "股市": [
+      "news_514ee68cc41a",
+      "news_9de1e38c793b",
+      "news_b61998bbd222",
       "news_41c8a5a54dcd",
       "news_832c89100693",
       "news_b68693b35b47",
       "news_072218b25825",
-      "news_7214b8616c05",
-      "news_8f879014fb83"
+      "news_7214b8616c05"
     ],
     "美联储": [
       "news_b68693b35b47"
@@ -10024,47 +10036,46 @@ window.FINHOT_DATA = {
       "news_f98772e4c046",
       "news_5f4ec9ec0aca",
       "news_734caed0514c",
-      "news_3aedbe6e6003",
-      "news_01d43d5c6ac2",
-      "news_ac2fb700633f",
-      "news_df4d0a076a7b",
-      "news_122e6d89ba4b",
-      "news_6935fc763e3d",
-      "news_27a09dc8afd3"
+      "news_3aedbe6e6003"
     ],
     "信托": [
+      "news_a8cfee47e04e",
       "news_239938557cc0"
     ],
     "资产配置": [
+      "news_d6d58aa393bc",
       "news_9abacb741a25"
     ],
     "财富管理": [
-      "news_92b661453f94",
-      "news_4b0bdc9e9838",
-      "news_6c1e80be04b9"
+      "news_92b661453f94"
+    ],
+    "MOM": [
+      "news_d912556c1343"
+    ],
+    "非标": [
+      "news_a8cfee47e04e"
     ],
     "标品": [
       "news_4ea6bbef35ce"
     ],
     "权益": [
-      "news_45ee6acd5043",
-      "news_1fac6cf36ed6"
+      "news_45ee6acd5043"
     ],
     "年化": [
       "news_9a9a1973bfef"
     ]
   },
   "sourceHealth": {
-    "generatedAt": "2026-08-19T02:01:35.539Z",
+    "generatedAt": "2026-08-19T04:53:00.948Z",
     "status": "healthy",
     "totalSources": 10,
-    "successfulSources": 8,
-    "usableSources": 7,
-    "failedSources": 2,
+    "successfulSources": 10,
+    "usableSources": 9,
+    "failedSources": 0,
     "staleSources": 0,
     "fetchLimitReachedSources": 1,
-    "coverageRate": 0.7,
-    "freshestPublishedAt": "2026-08-19T01:59:07.000Z",
+    "coverageRate": 0.9,
+    "freshestPublishedAt": "2026-08-19T04:48:00.000Z",
     "sources": [
       {
         "sourceId": "source_a6a2153c0b",
@@ -10082,10 +10093,10 @@ window.FINHOT_DATA = {
         "fetchLimit": 30,
         "fetchLimitExpanded": false,
         "fetchLimitReached": false,
-        "addedCount": 14,
-        "durationMs": 54864,
-        "latestPublishedAt": "2026-08-19T01:49:49.000Z",
-        "usedEndpoint": "rsshub-balancer.virworks.moe"
+        "addedCount": 6,
+        "durationMs": 14515,
+        "latestPublishedAt": "2026-08-19T04:23:48.000Z",
+        "usedEndpoint": "rsshub.rssforever.com"
       },
       {
         "sourceId": "source_6a677efcc2",
@@ -10096,17 +10107,17 @@ window.FINHOT_DATA = {
         "success": true,
         "usable": true,
         "stale": false,
-        "itemCount": 30,
-        "rawItemCount": 30,
-        "acceptedItemCount": 30,
+        "itemCount": 32,
+        "rawItemCount": 32,
+        "acceptedItemCount": 32,
         "initialFetchLimit": 30,
         "fetchLimit": 50,
         "fetchLimitExpanded": true,
         "fetchLimitReached": false,
-        "addedCount": 24,
-        "durationMs": 54613,
-        "latestPublishedAt": "2026-08-19T01:50:06.000Z",
-        "usedEndpoint": "rsshub-balancer.virworks.moe"
+        "addedCount": 15,
+        "durationMs": 35422,
+        "latestPublishedAt": "2026-08-19T04:48:00.000Z",
+        "usedEndpoint": "rsshub.rssforever.com"
       },
       {
         "sourceId": "source_71b645ddf5",
@@ -10124,10 +10135,10 @@ window.FINHOT_DATA = {
         "fetchLimit": 50,
         "fetchLimitExpanded": true,
         "fetchLimitReached": true,
-        "addedCount": 12,
-        "durationMs": 54921,
-        "latestPublishedAt": "2026-08-19T01:36:24.000Z",
-        "usedEndpoint": "rsshub-balancer.virworks.moe"
+        "addedCount": 14,
+        "durationMs": 9680,
+        "latestPublishedAt": "2026-08-19T04:44:19.000Z",
+        "usedEndpoint": "rsshub.rssforever.com"
       },
       {
         "sourceId": "source_dae28d24f5",
@@ -10146,8 +10157,8 @@ window.FINHOT_DATA = {
         "fetchLimitExpanded": false,
         "fetchLimitReached": false,
         "addedCount": 0,
-        "durationMs": 48992,
-        "latestPublishedAt": "2026-08-19T01:53:45.000Z",
+        "durationMs": 10082,
+        "latestPublishedAt": "2026-08-19T04:46:01.000Z",
         "usedEndpoint": "rsshub-balancer.virworks.moe"
       },
       {
@@ -10159,16 +10170,16 @@ window.FINHOT_DATA = {
         "success": true,
         "usable": true,
         "stale": false,
-        "itemCount": 47,
-        "rawItemCount": 47,
-        "acceptedItemCount": 47,
+        "itemCount": 28,
+        "rawItemCount": 28,
+        "acceptedItemCount": 28,
         "initialFetchLimit": 30,
-        "fetchLimit": 50,
-        "fetchLimitExpanded": true,
+        "fetchLimit": 30,
+        "fetchLimitExpanded": false,
         "fetchLimitReached": false,
-        "addedCount": 29,
-        "durationMs": 50451,
-        "latestPublishedAt": "2026-08-19T01:54:37.000Z",
+        "addedCount": 14,
+        "durationMs": 42282,
+        "latestPublishedAt": "2026-08-19T04:15:33.000Z",
         "usedEndpoint": "rsshub-balancer.virworks.moe"
       },
       {
@@ -10187,9 +10198,9 @@ window.FINHOT_DATA = {
         "fetchLimit": 30,
         "fetchLimitExpanded": false,
         "fetchLimitReached": false,
-        "addedCount": 12,
-        "durationMs": 45320,
-        "latestPublishedAt": "2026-08-19T01:59:07.000Z",
+        "addedCount": 15,
+        "durationMs": 280,
+        "latestPublishedAt": "2026-08-19T04:38:00.000Z",
         "usedEndpoint": "rsshub.rssforever.com"
       },
       {
@@ -10198,20 +10209,20 @@ window.FINHOT_DATA = {
         "tier": "S0",
         "category": "regulatory",
         "transport": "rsshub",
-        "success": false,
-        "usable": false,
+        "success": true,
+        "usable": true,
         "stale": false,
-        "itemCount": 0,
-        "rawItemCount": 0,
-        "acceptedItemCount": 0,
-        "initialFetchLimit": 1,
-        "fetchLimit": 1,
+        "itemCount": 20,
+        "rawItemCount": 20,
+        "acceptedItemCount": 20,
+        "initialFetchLimit": 30,
+        "fetchLimit": 30,
         "fetchLimitExpanded": false,
         "fetchLimitReached": false,
         "addedCount": 0,
-        "durationMs": 52368,
-        "latestPublishedAt": null,
-        "usedEndpoint": null
+        "durationMs": 55968,
+        "latestPublishedAt": "2026-08-18T16:00:00.000Z",
+        "usedEndpoint": "rsshub-balancer.virworks.moe"
       },
       {
         "sourceId": "source_adf9a67b7f",
@@ -10219,20 +10230,20 @@ window.FINHOT_DATA = {
         "tier": "S0",
         "category": "regulatory",
         "transport": "rsshub",
-        "success": false,
-        "usable": false,
+        "success": true,
+        "usable": true,
         "stale": false,
-        "itemCount": 0,
-        "rawItemCount": 0,
-        "acceptedItemCount": 0,
-        "initialFetchLimit": 1,
-        "fetchLimit": 1,
+        "itemCount": 18,
+        "rawItemCount": 18,
+        "acceptedItemCount": 18,
+        "initialFetchLimit": 30,
+        "fetchLimit": 30,
         "fetchLimitExpanded": false,
         "fetchLimitReached": false,
-        "addedCount": 0,
-        "durationMs": 51916,
-        "latestPublishedAt": null,
-        "usedEndpoint": null
+        "addedCount": 1,
+        "durationMs": 7935,
+        "latestPublishedAt": "2026-08-14T00:12:19.000Z",
+        "usedEndpoint": "rsshub.rssforever.com"
       },
       {
         "sourceId": "source_0936db37cf",
@@ -10250,9 +10261,9 @@ window.FINHOT_DATA = {
         "fetchLimit": 30,
         "fetchLimitExpanded": false,
         "fetchLimitReached": false,
-        "addedCount": 6,
-        "durationMs": 115,
-        "latestPublishedAt": "2026-08-19T01:51:48.000Z",
+        "addedCount": 7,
+        "durationMs": 147,
+        "latestPublishedAt": "2026-08-19T04:47:38.000Z",
         "usedEndpoint": "cn.investing.com"
       },
       {
@@ -10272,7 +10283,7 @@ window.FINHOT_DATA = {
         "fetchLimitExpanded": false,
         "fetchLimitReached": false,
         "addedCount": 9,
-        "durationMs": 55,
+        "durationMs": 57,
         "latestPublishedAt": "2026-08-18T07:23:46.000Z",
         "usedEndpoint": "cn.investing.com"
       }
@@ -10280,11 +10291,11 @@ window.FINHOT_DATA = {
   },
   "historyStats": {
     "itemCount": 5000,
-    "eventCount": 352,
+    "eventCount": 356,
     "retentionDays": 90
   },
   "macro": {
-    "updatedAt": "2026-08-19T02:01:35.539Z",
+    "updatedAt": "2026-08-19T04:53:00.948Z",
     "indicators": [
       {
         "key": "lpr1y",
@@ -10359,7 +10370,7 @@ window.FINHOT_DATA = {
       {
         "key": "gold",
         "name": "现货黄金",
-        "value": "$4,358",
+        "value": "$4,346",
         "note": "较前期 $4,388 下降",
         "direction": "down",
         "asOf": "2026-08-19",
@@ -10370,45 +10381,49 @@ window.FINHOT_DATA = {
   },
   "aiAnalysis": {
     "schemaVersion": "2.0",
-    "generatedBy": "llm",
+    "generatedBy": "cached",
     "eventClusters": [
       {
         "eventId": "event_d0a4f7f6abd4",
-        "title": "滚动更新丨A股四大指数集体低开，宇树科技上市首日高开超629%",
-        "mainItemId": "news_ff026a351845",
+        "title": "A股三大指数集体低开，宇树科技高开629.44%",
+        "mainItemId": "news_077141bb9683",
         "relatedItemIds": [
-          "news_077141bb9683"
+          "news_ff026a351845",
+          "news_c7e34b7eb524",
+          "news_38178eb9b7b3",
+          "news_e20dc4be13e9"
         ],
         "evidenceItemIds": [
           "news_ff026a351845",
-          "news_077141bb9683"
+          "news_077141bb9683",
+          "news_c7e34b7eb524",
+          "news_38178eb9b7b3",
+          "news_e20dc4be13e9"
         ],
-        "historicalEvidenceCount": 15,
+        "historicalEvidenceCount": 17,
         "firstSeenAt": "2026-07-31T02:27:13.623Z",
-        "lastSeenAt": "2026-08-19T02:01:35.539Z",
+        "lastSeenAt": "2026-08-19T04:53:00.948Z",
         "status": "developing"
       },
       {
         "eventId": "event_c96714846ab4",
-        "title": "福耀玻璃：2026年上半年度净利润39.7亿元，同比下降17.37%",
-        "mainItemId": "news_8d7a1d09eb3f",
+        "title": "华能国际：2026年上半年净利润65.86亿元，同比下降28.89%",
+        "mainItemId": "news_73c8b8049df0",
         "relatedItemIds": [
-          "news_e11c1a882694",
-          "news_2df54b63b92d"
+          "news_1a29e11a4a61"
         ],
         "evidenceItemIds": [
-          "news_8d7a1d09eb3f",
-          "news_e11c1a882694",
-          "news_2df54b63b92d"
+          "news_73c8b8049df0",
+          "news_1a29e11a4a61"
         ],
-        "historicalEvidenceCount": 27,
+        "historicalEvidenceCount": 30,
         "firstSeenAt": "2026-08-13T13:53:29.824Z",
-        "lastSeenAt": "2026-08-19T02:01:35.539Z",
+        "lastSeenAt": "2026-08-19T04:53:00.948Z",
         "status": "developing"
       },
       {
         "eventId": "event_ded424365394",
-        "title": "“年内最贵且最赚钱”新股来了！高端激光器研发商频准激光登陆科创板",
+        "title": "小K播早报|我国首次实现火箭陆地回收 宇树科技今日上市",
         "mainItemId": "news_709aaa466cd5",
         "relatedItemIds": [
           "news_5052fc363e25"
@@ -10419,99 +10434,41 @@ window.FINHOT_DATA = {
         ],
         "historicalEvidenceCount": 13,
         "firstSeenAt": "2026-08-16T08:53:04.224Z",
-        "lastSeenAt": "2026-08-19T02:01:35.539Z",
+        "lastSeenAt": "2026-08-19T04:53:00.948Z",
         "status": "developing"
       },
       {
         "eventId": "event_529af3584dc2",
-        "title": "恒指收涨0.07%，恒生科技指数跌0.9%",
-        "mainItemId": "news_21ee0b9fb11f",
-        "relatedItemIds": [],
-        "evidenceItemIds": [
+        "title": "恒指午间休盘涨0.24%，恒生科技指数跌0.82%",
+        "mainItemId": "news_4a0d3d6b1b80",
+        "relatedItemIds": [
           "news_21ee0b9fb11f"
+        ],
+        "evidenceItemIds": [
+          "news_21ee0b9fb11f",
+          "news_4a0d3d6b1b80"
         ],
         "historicalEvidenceCount": 31,
         "firstSeenAt": "2026-07-31T02:43:30.494Z",
-        "lastSeenAt": "2026-08-19T02:01:35.539Z",
-        "status": "developing"
-      },
-      {
-        "eventId": "event_5851910dd446",
-        "title": "德国30年期国债发行收益率创2011年以来新高。",
-        "mainItemId": "news_23db2a9cc258",
-        "relatedItemIds": [
-          "news_d373ac1734d7"
-        ],
-        "evidenceItemIds": [
-          "news_23db2a9cc258",
-          "news_d373ac1734d7"
-        ],
-        "historicalEvidenceCount": 7,
-        "firstSeenAt": "2026-08-18T01:54:05.956Z",
-        "lastSeenAt": "2026-08-19T02:01:35.539Z",
-        "status": "developing"
-      },
-      {
-        "eventId": "event_a8c2371170fe",
-        "title": "天孚通信：2026年半年度净利润同比增长33.92%",
-        "mainItemId": "news_6237631698cc",
-        "relatedItemIds": [],
-        "evidenceItemIds": [
-          "news_6237631698cc"
-        ],
-        "historicalEvidenceCount": 16,
-        "firstSeenAt": "2026-08-14T13:49:37.381Z",
-        "lastSeenAt": "2026-08-19T02:01:35.539Z",
-        "status": "developing"
-      },
-      {
-        "eventId": "event_32967e3730b8",
-        "title": "美股大型科技股盘前多数下跌，闪迪跌超5%",
-        "mainItemId": "news_0eb4388c732a",
-        "relatedItemIds": [
-          "news_e65153aa735d"
-        ],
-        "evidenceItemIds": [
-          "news_e65153aa735d",
-          "news_0eb4388c732a"
-        ],
-        "historicalEvidenceCount": 21,
-        "firstSeenAt": "2026-08-03T15:23:32.854Z",
-        "lastSeenAt": "2026-08-19T02:01:35.539Z",
+        "lastSeenAt": "2026-08-19T04:53:00.948Z",
         "status": "developing"
       },
       {
         "eventId": "event_c3fa3761c4e3",
-        "title": "港交所：欢迎内地保险资金通过沪深港通投资香港ETF",
-        "mainItemId": "news_a034e4c8b3ee",
-        "relatedItemIds": [
-          "news_9abacb741a25"
-        ],
-        "evidenceItemIds": [
-          "news_a034e4c8b3ee",
-          "news_9abacb741a25"
-        ],
-        "historicalEvidenceCount": 1,
-        "firstSeenAt": "2026-08-18T13:14:03.581Z",
-        "lastSeenAt": "2026-08-19T02:01:35.539Z",
-        "status": "developing"
-      },
-      {
-        "eventId": "event_021b0dc9e6b9",
-        "title": "杭州通报“酒局事件” 涉事招商蛇口高管与滨江区公职人员已刑拘",
-        "mainItemId": "news_63af811b0ab6",
+        "title": "内地险资可通过沪深港通投资香港ETF，两地金融市场互联互通又进一步",
+        "mainItemId": "news_9abacb741a25",
         "relatedItemIds": [],
         "evidenceItemIds": [
-          "news_63af811b0ab6"
+          "news_9abacb741a25"
         ],
-        "historicalEvidenceCount": 1,
+        "historicalEvidenceCount": 2,
         "firstSeenAt": "2026-08-18T13:14:03.581Z",
-        "lastSeenAt": "2026-08-19T02:01:35.539Z",
+        "lastSeenAt": "2026-08-19T04:53:00.948Z",
         "status": "developing"
       },
       {
         "eventId": "event_24a2a6e89432",
-        "title": "“中国版SpaceX”垣信完成近70亿元融资 估值500亿元低于预期",
+        "title": "T早报｜“中国版SpaceX”垣信完成近70亿元融资；爱奇艺二季度亏损2亿元；百度二季度收入同比降4%",
         "mainItemId": "news_9407801e7d69",
         "relatedItemIds": [
           "news_f98772e4c046"
@@ -10522,37 +10479,67 @@ window.FINHOT_DATA = {
         ],
         "historicalEvidenceCount": 2,
         "firstSeenAt": "2026-08-18T13:14:03.581Z",
-        "lastSeenAt": "2026-08-19T02:01:35.539Z",
+        "lastSeenAt": "2026-08-19T04:53:00.948Z",
+        "status": "developing"
+      },
+      {
+        "eventId": "event_e4bee5b73584",
+        "title": "上交所：依规对爱丽家居异常交易相关投资者采取暂停账户交易等自律监管措施",
+        "mainItemId": "news_832c89100693",
+        "relatedItemIds": [
+          "news_ca8ce0d8fcb7"
+        ],
+        "evidenceItemIds": [
+          "news_832c89100693",
+          "news_ca8ce0d8fcb7"
+        ],
+        "historicalEvidenceCount": 2,
+        "firstSeenAt": "2026-08-18T13:14:03.581Z",
+        "lastSeenAt": "2026-08-19T04:53:00.948Z",
+        "status": "developing"
+      },
+      {
+        "eventId": "event_01118fb5b195",
+        "title": "财联社汽车早报【8月19日】",
+        "mainItemId": "news_8d456e96708b",
+        "relatedItemIds": [],
+        "evidenceItemIds": [
+          "news_8d456e96708b"
+        ],
+        "historicalEvidenceCount": 9,
+        "firstSeenAt": "2026-08-01T03:54:06.184Z",
+        "lastSeenAt": "2026-08-19T04:53:00.948Z",
+        "status": "developing"
+      },
+      {
+        "eventId": "event_91fb625edcc6",
+        "title": "华尔街见闻早餐FM-Radio | 2026年8月19日",
+        "mainItemId": "news_6187cca76a84",
+        "relatedItemIds": [],
+        "evidenceItemIds": [
+          "news_6187cca76a84"
+        ],
+        "historicalEvidenceCount": 16,
+        "firstSeenAt": "2026-08-01T03:54:06.184Z",
+        "lastSeenAt": "2026-08-19T04:53:00.948Z",
+        "status": "developing"
+      },
+      {
+        "eventId": "event_5e8e3a94b56e",
+        "title": "央行今日开展3274亿元人民币隔夜逆回购操作",
+        "mainItemId": "news_abe31bc2e2cd",
+        "relatedItemIds": [],
+        "evidenceItemIds": [
+          "news_abe31bc2e2cd"
+        ],
+        "historicalEvidenceCount": 15,
+        "firstSeenAt": "2026-08-04T09:56:27.957Z",
+        "lastSeenAt": "2026-08-19T04:53:00.948Z",
         "status": "developing"
       }
     ],
     "dailySummary": {
-      "highlights": [
-        {
-          "text": "[92] 从实验室到人员都能保，深圳推出中小科企专属普惠保险 — 符合条件的企业投保后，还可享受保费补贴。企业投保后，从生产经营到研发创新、知识产权，乃至人员安全，都可以得到风险保障。8",
-          "evidenceItemIds": [
-            "news_f488da2417eb"
-          ]
-        },
-        {
-          "text": "[89] 内地放宽保险资金参与“南向ETF通” — 近年香港积极推动交易所买卖产品市场发展，包括培育及拓展主动型ETF等创新产品、鼓励海外ETF在香港跨境上市等",
-          "evidenceItemIds": [
-            "news_a034e4c8b3ee"
-          ]
-        },
-        {
-          "text": "[83] 361度增速降至个位数，借大店和即时零售寻找新增量 — 361度上半年收入增速降至近年低位。8月18日，361度发布2026年中期业绩。上半年，公司实现收益61.60亿元，同比",
-          "evidenceItemIds": [
-            "news_1fac6cf36ed6"
-          ]
-        },
-        {
-          "text": "[83] 国泰海通半年报：二季度业绩创行业历史新高，分红较上年中期翻倍 — 8月18日晚间，国泰海通发布2026年半年度报告。上半年，国泰海通实现营业收入471.63亿元，同比增加97.56%；扣",
-          "evidenceItemIds": [
-            "news_c4fc8c258436"
-          ]
-        }
-      ]
+      "highlights": []
     },
     "eventChain": {
       "summary": "基于标题主题相似度和来源层级识别 10 组关联事件；仅表示内容相关，不代表已确认因果",
@@ -10633,22 +10620,6 @@ window.FINHOT_DATA = {
               "suggestion": "重点关注，纳入今日客户沟通议题",
               "evidenceItemIds": [
                 "news_9abacb741a25"
-              ]
-            },
-            {
-              "title": "从实验室到人员都能保，深圳推出中小科企专属普惠保险",
-              "impact": "行业动态，适合客户沟通素材",
-              "suggestion": "重点关注，纳入今日客户沟通议题",
-              "evidenceItemIds": [
-                "news_f488da2417eb"
-              ]
-            },
-            {
-              "title": "内地放宽保险资金参与“南向ETF通”",
-              "impact": "行业动态，适合客户沟通素材",
-              "suggestion": "重点关注，纳入今日客户沟通议题",
-              "evidenceItemIds": [
-                "news_a034e4c8b3ee"
               ]
             }
           ]
@@ -10762,7 +10733,6 @@ window.FINHOT_DATA = {
           "topic": "货币政策信号",
           "evidence": "出现 8 次货币政策相关关键词，关注利率/流动性走向",
           "evidenceItemIds": [
-            "news_1fac6cf36ed6",
             "news_4d066eb78460",
             "news_45ee6acd5043"
           ],
@@ -10772,8 +10742,6 @@ window.FINHOT_DATA = {
           "topic": "保险行业关注度",
           "evidence": "出现 3 条保险相关资讯，覆盖监管/市场/产品多维度",
           "evidenceItemIds": [
-            "news_f488da2417eb",
-            "news_a034e4c8b3ee",
             "news_9abacb741a25"
           ],
           "direction": "平稳"
@@ -10782,7 +10750,6 @@ window.FINHOT_DATA = {
           "topic": "市场行情波动",
           "evidence": "出现 66 条市场行情相关资讯，市场关注度提升",
           "evidenceItemIds": [
-            "news_a034e4c8b3ee",
             "news_7214b8616c05",
             "news_9abacb741a25"
           ],
@@ -10792,8 +10759,6 @@ window.FINHOT_DATA = {
           "topic": "房地产政策动向",
           "evidence": "出现 12 条地产相关资讯，政策边际变化值得关注",
           "evidenceItemIds": [
-            "news_755b1e37507e",
-            "news_bec016def976",
             "news_4e060a1dd739"
           ],
           "direction": "平稳"
@@ -10809,30 +10774,6 @@ window.FINHOT_DATA = {
           "action": "研读新规要点，更新合规培训材料",
           "evidenceItemIds": [
             "news_9abacb741a25"
-          ]
-        },
-        {
-          "topic": "从实验室到人员都能保，深圳推出中小科企专属普惠保险",
-          "point": "利率环境变动直接影响保险产品定价和客户购买决策",
-          "action": "测算利率变动对在售产品IRR/保额的影响",
-          "evidenceItemIds": [
-            "news_f488da2417eb"
-          ]
-        },
-        {
-          "topic": "湖北国资再“输血”！长江财险拟增资至30.46亿，上半年净亏1729.52万元",
-          "point": "保险科技/数字化转型进展，适合与高净值客户探讨行业前沿趋势",
-          "action": "整理科技赋能案例，丰富客户沟通深度",
-          "evidenceItemIds": [
-            "news_53111ee97d71"
-          ]
-        },
-        {
-          "topic": "内地放宽保险资金参与“南向ETF通”",
-          "point": "保险行业经营数据发布，可作为与客户沟通时增强行业信心的素材",
-          "action": "摘取关键数据，制作简洁的行业趋势卡片",
-          "evidenceItemIds": [
-            "news_a034e4c8b3ee"
           ]
         }
       ]
@@ -10906,73 +10847,66 @@ window.FINHOT_DATA = {
           ]
         }
       ]
-    }
+    },
+    "sourceGeneratedBy": "llm"
   }
 };
 window.KEYWORD_INDEX = {
   "保险": [
-    "news_9abacb741a25",
-    "news_f488da2417eb",
-    "news_a034e4c8b3ee"
-  ],
-  "险企": [
-    "news_f488da2417eb"
-  ],
-  "保费": [
-    "news_f488da2417eb"
-  ],
-  "保险业": [
-    "news_f488da2417eb"
+    "news_a16ec4b485c8",
+    "news_9abacb741a25"
   ],
   "保险公司": [
     "news_9abacb741a25"
   ],
-  "保险产品": [
-    "news_f488da2417eb"
-  ],
-  "退休": [
-    "news_e6053d9c9956"
-  ],
-  "财险": [
-    "news_53111ee97d71"
-  ],
   "银行": [
+    "news_975fb3a0f3b7",
+    "news_7f9d3a22d4f6",
+    "news_f6fa1df6f401",
+    "news_29eac472dd65",
+    "news_9f0d56fa0999",
+    "news_a8cfee47e04e",
+    "news_9de1e38c793b",
+    "news_55c198d47d9b",
     "news_7df695aa3d10",
     "news_dbbdf116b294",
     "news_7214b8616c05",
     "news_2bd1d16a2435",
     "news_7bc5f0e4dd27",
-    "news_734caed0514c",
-    "news_a2b0d9f4f30d",
-    "news_2101267f392e",
-    "news_4b0bdc9e9838",
-    "news_0ccf98e0d968"
+    "news_734caed0514c"
   ],
   "央行": [
-    "news_abe31bc2e2cd",
-    "news_38a6ba25dd3d"
+    "news_abe31bc2e2cd"
+  ],
+  "商业银行": [
+    "news_a8cfee47e04e"
   ],
   "利率": [
+    "news_7f9d3a22d4f6",
+    "news_d6d58aa393bc",
+    "news_c6d425cbfb59",
     "news_45ee6acd5043",
     "news_7b848aabb97c",
-    "news_4d066eb78460",
-    "news_8d7a1d09eb3f",
-    "news_1fac6cf36ed6",
-    "news_bec016def976"
+    "news_4d066eb78460"
   ],
   "逆回购": [
     "news_abe31bc2e2cd"
   ],
+  "加息": [
+    "news_d4103a017b47"
+  ],
   "净息差": [
     "news_734caed0514c"
   ],
-  "房贷": [
-    "news_7a07f58c1040"
-  ],
   "理财": [
+    "news_a8cfee47e04e",
     "news_92b661453f94"
   ],
   "股票": [
+    "news_e7f9359e7c92",
+    "news_287024ba2e4f",
+    "news_a04e9bcde91f",
+    "news_b61998bbd222",
     "news_08c778c71aec",
     "news_cd17c22cf01d",
     "news_aee3783fbeaf",
@@ -10984,35 +10918,33 @@ window.KEYWORD_INDEX = {
     "news_cdec03ed5dda",
     "news_072218b25825",
     "news_2bd1d16a2435",
-    "news_9abacb741a25",
-    "news_c679d359d247",
-    "news_a412a0338966",
-    "news_122e6d89ba4b",
-    "news_1222626660ed",
-    "news_ef5061a736bf",
-    "news_fbd3926810ba"
+    "news_9abacb741a25"
   ],
   "A股": [
+    "news_9f0d56fa0999",
+    "news_f1f38ae697fc",
+    "news_287024ba2e4f",
+    "news_9de1e38c793b",
     "news_9197453f3024",
     "news_4547a21ef5e8",
     "news_ff026a351845",
     "news_077141bb9683",
     "news_709aaa466cd5",
-    "news_ca8ce0d8fcb7",
-    "news_8f879014fb83",
-    "news_e86e9d314bf4",
-    "news_0b05a729d8d3",
-    "news_27a09dc8afd3"
+    "news_ca8ce0d8fcb7"
   ],
   "港股": [
+    "news_13fb2447105f",
     "news_adbeb285d3f5",
     "news_f36975ae9f58",
     "news_93c3b99c5f45",
     "news_998c578eb70e",
-    "news_9abacb741a25",
-    "news_d2766a16f24f"
+    "news_9abacb741a25"
   ],
   "美股": [
+    "news_35e0d56edee6",
+    "news_4596b553562a",
+    "news_13fb2447105f",
+    "news_9de1e38c793b",
     "news_4744da26f712",
     "news_9aac4551ec12",
     "news_b68693b35b47",
@@ -11024,17 +10956,23 @@ window.KEYWORD_INDEX = {
     "news_072218b25825",
     "news_7214b8616c05",
     "news_bac672784511",
-    "news_5f4ec9ec0aca",
-    "news_e65153aa735d",
-    "news_0eb4388c732a",
-    "news_177401eb6649",
-    "news_7dbc4a57ca93"
+    "news_5f4ec9ec0aca"
   ],
   "大盘": [
+    "news_b61998bbd222",
     "news_b04236a17aba",
     "news_832c89100693"
   ],
   "指数": [
+    "news_5375daf26b15",
+    "news_c69ffd1d14a7",
+    "news_4a0d3d6b1b80",
+    "news_35e0d56edee6",
+    "news_9f0d56fa0999",
+    "news_03343886b3b1",
+    "news_9de1e38c793b",
+    "news_6dd1fe2270e0",
+    "news_b61998bbd222",
     "news_ff026a351845",
     "news_077141bb9683",
     "news_21ee0b9fb11f",
@@ -11048,60 +10986,67 @@ window.KEYWORD_INDEX = {
     "news_6187cca76a84",
     "news_ce5a01a97d1e",
     "news_072218b25825",
-    "news_bac672784511",
-    "news_177401eb6649",
-    "news_a8bbf37f8bd7"
+    "news_bac672784511"
   ],
   "ETF": [
+    "news_5375daf26b15",
     "news_b04236a17aba",
     "news_7a8636903d45",
-    "news_9abacb741a25",
-    "news_a034e4c8b3ee"
+    "news_9abacb741a25"
   ],
   "公募基金": [
     "news_7a8636903d45"
   ],
+  "对冲基金": [
+    "news_4596b553562a",
+    "news_514ee68cc41a",
+    "news_44f721d9e048"
+  ],
   "量化": [
+    "news_4596b553562a",
     "news_bc7ba830aa63",
     "news_5bac88b556d9",
     "news_41c8a5a54dcd",
     "news_2dc27f4d3d47"
   ],
   "债券": [
+    "news_3bef7fdad3ca",
+    "news_c6d425cbfb59",
+    "news_b61998bbd222",
     "news_d0599538d5ff",
     "news_b04236a17aba",
     "news_b057057c50ff",
     "news_4d066eb78460",
     "news_9aac4551ec12",
     "news_ce5a01a97d1e",
-    "news_072218b25825",
-    "news_a2b0d9f4f30d"
+    "news_072218b25825"
   ],
   "国债": [
+    "news_35e0d56edee6",
+    "news_d6d58aa393bc",
     "news_b057057c50ff",
     "news_7b848aabb97c",
     "news_4d066eb78460",
     "news_b68693b35b47",
     "news_cdec03ed5dda",
-    "news_072218b25825",
-    "news_177401eb6649",
-    "news_755b1e37507e",
-    "news_d373ac1734d7",
-    "news_23db2a9cc258"
+    "news_072218b25825"
   ],
   "公司债": [
+    "news_3bef7fdad3ca",
     "news_4d066eb78460"
   ],
   "期货": [
-    "news_ac36c469c014",
-    "news_177401eb6649",
-    "news_7dbc4a57ca93",
-    "news_bf723c86cc63"
+    "news_ac36c469c014"
   ],
   "期权": [
     "news_4e060a1dd739"
   ],
   "IPO": [
+    "news_287024ba2e4f",
+    "news_a04e9bcde91f",
+    "news_9de1e38c793b",
+    "news_55c198d47d9b",
+    "news_4f8a9d4a41fe",
     "news_239938557cc0",
     "news_5885a4b321b6",
     "news_b46c30fdd8a3",
@@ -11110,10 +11055,19 @@ window.KEYWORD_INDEX = {
     "news_73db0c03a998",
     "news_2a9cc41c619d",
     "news_7bc5f0e4dd27",
-    "news_d11a6f31f73c",
-    "news_5c96837a0dae"
+    "news_d11a6f31f73c"
   ],
   "上市": [
+    "news_5375daf26b15",
+    "news_e7f9359e7c92",
+    "news_4ad1b23f2943",
+    "news_61473ed9cae0",
+    "news_f1f38ae697fc",
+    "news_287024ba2e4f",
+    "news_c7e34b7eb524",
+    "news_334aab83a402",
+    "news_9de1e38c793b",
+    "news_4f8a9d4a41fe",
     "news_9197453f3024",
     "news_38178eb9b7b3",
     "news_4b580f51f449",
@@ -11134,41 +11088,47 @@ window.KEYWORD_INDEX = {
     "news_23c7c79f5c7b",
     "news_7bc5f0e4dd27",
     "news_d11a6f31f73c",
-    "news_3aedbe6e6003",
-    "news_c20e9a2dc3ad",
-    "news_c679d359d247",
-    "news_8f879014fb83",
-    "news_846bac609da3",
-    "news_6935fc763e3d",
-    "news_6237631698cc",
-    "news_5c96837a0dae",
-    "news_a034e4c8b3ee",
-    "news_2df54b63b92d",
-    "news_e11c1a882694"
+    "news_3aedbe6e6003"
   ],
   "打新": [
+    "news_c7e34b7eb524",
+    "news_a927c52f958c",
     "news_9197453f3024",
     "news_4b580f51f449",
     "news_bc7ba830aa63",
     "news_5bac88b556d9"
   ],
   "增持": [
+    "news_86ff934a1510",
+    "news_bb0abf197ffc",
     "news_623c703fb400"
   ],
   "回购": [
-    "news_abe31bc2e2cd",
-    "news_e86e9d314bf4"
+    "news_abe31bc2e2cd"
   ],
   "券商": [
+    "news_278305192bf9",
+    "news_09a3abd24f9d",
+    "news_81526cd4dc11",
     "news_e1f71878bfa9",
     "news_5885a4b321b6",
     "news_93c3b99c5f45",
     "news_3aedbe6e6003"
   ],
   "自营": [
+    "news_278305192bf9",
     "news_3aedbe6e6003"
   ],
+  "经纪": [
+    "news_278305192bf9"
+  ],
   "投资者": [
+    "news_f74347285657",
+    "news_3bef7fdad3ca",
+    "news_f1f38ae697fc",
+    "news_c6d425cbfb59",
+    "news_b61998bbd222",
+    "news_4f8a9d4a41fe",
     "news_9a9a1973bfef",
     "news_41c8a5a54dcd",
     "news_4d066eb78460",
@@ -11181,11 +11141,16 @@ window.KEYWORD_INDEX = {
     "news_2a9cc41c619d",
     "news_bac672784511",
     "news_5f4ec9ec0aca",
-    "news_d11a6f31f73c",
-    "news_1222626660ed",
-    "news_ef5061a736bf"
+    "news_d11a6f31f73c"
+  ],
+  "散户": [
+    "news_c7e34b7eb524"
   ],
   "机构": [
+    "news_287024ba2e4f",
+    "news_a8cfee47e04e",
+    "news_357c039fe581",
+    "news_81526cd4dc11",
     "news_e1f71878bfa9",
     "news_9a9a1973bfef",
     "news_832c89100693",
@@ -11193,139 +11158,132 @@ window.KEYWORD_INDEX = {
     "news_623c703fb400",
     "news_9ae06baf75e9",
     "news_2dc27f4d3d47",
-    "news_9abacb741a25",
-    "news_d349b788b638",
-    "news_1a29929078d0",
-    "news_07dcd4f37f6c",
-    "news_a034e4c8b3ee",
-    "news_63af811b0ab6",
-    "news_0ccf98e0d968"
+    "news_9abacb741a25"
+  ],
+  "南向资金": [
+    "news_4a0d3d6b1b80"
   ],
   "监管": [
+    "news_287024ba2e4f",
+    "news_a8cfee47e04e",
     "news_e1f71878bfa9",
     "news_dbbdf116b294",
     "news_ca8ce0d8fcb7",
     "news_b68693b35b47",
     "news_9ae06baf75e9",
     "news_7214b8616c05",
-    "news_9abacb741a25",
-    "news_8db05ae08776",
-    "news_1222626660ed",
-    "news_ef5061a736bf",
-    "news_0ccf98e0d968"
+    "news_9abacb741a25"
   ],
   "金融监管": [
-    "news_9abacb741a25",
-    "news_0ccf98e0d968"
+    "news_9abacb741a25"
   ],
   "证监会": [
+    "news_287024ba2e4f",
     "news_5885a4b321b6"
   ],
   "上交所": [
     "news_9197453f3024",
-    "news_ca8ce0d8fcb7",
-    "news_1222626660ed",
-    "news_ef5061a736bf"
+    "news_ca8ce0d8fcb7"
   ],
   "北交所": [
+    "news_4983aac23228",
     "news_5052fc363e25"
   ],
   "合规": [
-    "news_8db05ae08776",
-    "news_1222626660ed"
-  ],
-  "处罚": [
-    "news_755b1e37507e"
+    "news_a8cfee47e04e"
   ],
   "通报": [
-    "news_1222626660ed",
-    "news_ef5061a736bf",
-    "news_63af811b0ab6"
+    "news_a2b455e35fea"
   ],
   "条款": [
+    "news_eabbeb7a5d05",
     "news_4e060a1dd739",
-    "news_9ae06baf75e9",
-    "news_f488da2417eb"
+    "news_9ae06baf75e9"
+  ],
+  "办法": [
+    "news_8f9dc5d09117"
   ],
   "通知": [
+    "news_1af7732dd96a",
     "news_9888218d3d7a",
-    "news_93db78100baf",
-    "news_1a29929078d0"
+    "news_93db78100baf"
+  ],
+  "指引": [
+    "news_bda4ca82a39f"
   ],
   "意见": [
-    "news_8d456e96708b",
-    "news_d0be1b1be04b"
+    "news_bec4b0f64853",
+    "news_8d456e96708b"
   ],
   "规定": [
+    "news_287024ba2e4f",
     "news_832c89100693",
-    "news_35bb37c05aae",
-    "news_f29be9b19d58",
-    "news_aba714051a6e"
+    "news_35bb37c05aae"
   ],
   "条例": [
+    "news_bec4b0f64853",
     "news_4a71daf83c18",
     "news_832c89100693",
     "news_35bb37c05aae",
-    "news_017044a84005",
-    "news_a6db6362b086",
-    "news_bd0d5c0c6a9b",
-    "news_bec016def976",
-    "news_755b1e37507e",
-    "news_aba714051a6e"
+    "news_017044a84005"
+  ],
+  "法规": [
+    "news_0649181351ff"
   ],
   "解读": [
     "news_cd28c780f392",
     "news_9a9a1973bfef",
-    "news_017044a84005",
-    "news_c679d359d247"
+    "news_017044a84005"
   ],
   "牌照": [
+    "news_81526cd4dc11",
     "news_dbbdf116b294"
   ],
+  "资质": [
+    "news_81526cd4dc11"
+  ],
   "经济": [
+    "news_044b2004b100",
+    "news_d87323246728",
+    "news_514ee68cc41a",
     "news_4a71daf83c18",
     "news_ca8ce0d8fcb7",
     "news_81e31687883e",
     "news_b68693b35b47",
-    "news_998c578eb70e",
-    "news_c20e9a2dc3ad",
-    "news_1254af85361b",
-    "news_38a6ba25dd3d",
-    "news_07dcd4f37f6c",
-    "news_8a59463f6032"
-  ],
-  "经济运行": [
-    "news_1254af85361b"
+    "news_998c578eb70e"
   ],
   "高质量发展": [
-    "news_998c578eb70e",
-    "news_1254af85361b"
+    "news_998c578eb70e"
   ],
   "信贷": [
+    "news_55c198d47d9b",
     "news_dbbdf116b294",
-    "news_7bc5f0e4dd27",
-    "news_07dcd4f37f6c",
-    "news_7a07f58c1040"
+    "news_7bc5f0e4dd27"
   ],
   "财政政策": [
     "news_998c578eb70e"
   ],
   "汇率": [
+    "news_d6d58aa393bc",
     "news_45ee6acd5043"
   ],
   "人民币": [
+    "news_bb0abf197ffc",
+    "news_2b594ac952a1",
     "news_abe31bc2e2cd",
     "news_bfffe3b8a812",
     "news_41c8a5a54dcd",
-    "news_f98772e4c046",
-    "news_5c96837a0dae"
-  ],
-  "跨境": [
-    "news_a034e4c8b3ee",
-    "news_fe0ddc0c0372"
+    "news_f98772e4c046"
   ],
   "美元": [
+    "news_7f9d3a22d4f6",
+    "news_86ff934a1510",
+    "news_bb0abf197ffc",
+    "news_357c039fe581",
+    "news_c6d425cbfb59",
+    "news_55c198d47d9b",
     "news_45ee6acd5043",
+    "news_44f721d9e048",
     "news_239938557cc0",
     "news_bfffe3b8a812",
     "news_8f46b9bba31e",
@@ -11343,50 +11301,65 @@ window.KEYWORD_INDEX = {
     "news_2a9cc41c619d",
     "news_7bc5f0e4dd27",
     "news_2dc27f4d3d47",
-    "news_a9858d5356fd",
-    "news_5c96837a0dae",
-    "news_565a76fc81dd",
-    "news_e769a7f16730",
-    "news_bf723c86cc63"
+    "news_a9858d5356fd"
+  ],
+  "日元": [
+    "news_d6d58aa393bc"
   ],
   "通胀": [
+    "news_d4103a017b47",
     "news_d0599538d5ff",
     "news_f9923186240a",
     "news_d5d26e54c36a",
     "news_b057057c50ff",
     "news_4d066eb78460",
-    "news_81e31687883e",
-    "news_177401eb6649"
+    "news_81e31687883e"
+  ],
+  "衰退": [
+    "news_514ee68cc41a"
+  ],
+  "房地产": [
+    "news_c69ffd1d14a7"
   ],
   "地产": [
+    "news_c69ffd1d14a7",
     "news_4e060a1dd739"
   ],
-  "楼市": [
-    "news_7a07f58c1040"
-  ],
   "住房": [
+    "news_bec4b0f64853",
     "news_7b848aabb97c",
     "news_832c89100693",
     "news_35bb37c05aae",
     "news_017044a84005",
-    "news_b96baa716d22",
-    "news_a6db6362b086",
-    "news_bd0d5c0c6a9b",
-    "news_bec016def976",
-    "news_755b1e37507e",
-    "news_aba714051a6e"
+    "news_b96baa716d22"
   ],
   "消费": [
+    "news_4ad1b23f2943",
+    "news_284ca3e016b5",
+    "news_a8cfee47e04e",
     "news_8d456e96708b",
     "news_81e31687883e",
     "news_35bb37c05aae",
-    "news_ac36c469c014",
-    "news_d0be1b1be04b",
-    "news_ad58363d1ea3",
-    "news_6237631698cc",
-    "news_aba714051a6e"
+    "news_ac36c469c014"
   ],
   "投资": [
+    "news_f74347285657",
+    "news_044b2004b100",
+    "news_fa796c4871ce",
+    "news_3bef7fdad3ca",
+    "news_d87323246728",
+    "news_4596b553562a",
+    "news_768ff87c501b",
+    "news_f1f38ae697fc",
+    "news_09a3abd24f9d",
+    "news_a8cfee47e04e",
+    "news_357c039fe581",
+    "news_2b594ac952a1",
+    "news_514ee68cc41a",
+    "news_c6d425cbfb59",
+    "news_b61998bbd222",
+    "news_4f8a9d4a41fe",
+    "news_0649181351ff",
     "news_92b661453f94",
     "news_9a9a1973bfef",
     "news_41c8a5a54dcd",
@@ -11405,47 +11378,44 @@ window.KEYWORD_INDEX = {
     "news_5f4ec9ec0aca",
     "news_d11a6f31f73c",
     "news_9abacb741a25",
-    "news_3aedbe6e6003",
-    "news_1254af85361b",
-    "news_2101267f392e",
-    "news_5c96837a0dae",
-    "news_1222626660ed",
-    "news_ef5061a736bf",
-    "news_a034e4c8b3ee",
-    "news_6c1e80be04b9",
-    "news_aba714051a6e"
+    "news_3aedbe6e6003"
   ],
   "出口": [
-    "news_9407801e7d69",
-    "news_e769a7f16730"
+    "news_044b2004b100",
+    "news_9407801e7d69"
   ],
   "进口": [
-    "news_ac36c469c014",
-    "news_fe0ddc0c0372"
+    "news_ac36c469c014"
   ],
   "贸易": [
+    "news_3b6f3eebd675",
     "news_9888218d3d7a",
-    "news_93db78100baf",
-    "news_c0bf3494de32",
-    "news_e769a7f16730"
+    "news_93db78100baf"
   ],
   "产业链": [
+    "news_fa796c4871ce",
     "news_ff026a351845",
     "news_f814f55a24ad",
     "news_71fa8d4820a5",
-    "news_072218b25825",
-    "news_6c1e80be04b9",
-    "news_fbd3926810ba"
+    "news_072218b25825"
   ],
   "供应链": [
     "news_8d456e96708b",
     "news_ac36c469c014"
   ],
   "就业": [
-    "news_017044a84005",
-    "news_a6db6362b086"
+    "news_017044a84005"
   ],
   "收入": [
+    "news_73c8b8049df0",
+    "news_1a29e11a4a61",
+    "news_0bbad0c1f8dc",
+    "news_61473ed9cae0",
+    "news_278305192bf9",
+    "news_d87323246728",
+    "news_768ff87c501b",
+    "news_eabbeb7a5d05",
+    "news_4f8a9d4a41fe",
     "news_45ee6acd5043",
     "news_f36975ae9f58",
     "news_cd28c780f392",
@@ -11457,60 +11427,48 @@ window.KEYWORD_INDEX = {
     "news_35bb37c05aae",
     "news_2a9cc41c619d",
     "news_734caed0514c",
-    "news_3aedbe6e6003",
-    "news_01d43d5c6ac2",
-    "news_ac2fb700633f",
-    "news_8d7a1d09eb3f",
-    "news_1fac6cf36ed6",
-    "news_846bac609da3",
-    "news_6935fc763e3d",
-    "news_6237631698cc",
-    "news_d2766a16f24f",
-    "news_1a29929078d0",
-    "news_2df54b63b92d",
-    "news_c4fc8c258436",
-    "news_aba714051a6e",
-    "news_e11c1a882694"
+    "news_3aedbe6e6003"
+  ],
+  "黄金": [
+    "news_7f9d3a22d4f6",
+    "news_29eac472dd65"
+  ],
+  "金价": [
+    "news_7f9d3a22d4f6"
   ],
   "原油": [
     "news_8f46b9bba31e",
-    "news_81e31687883e",
-    "news_bf723c86cc63"
+    "news_81e31687883e"
   ],
   "工业": [
+    "news_865cf41e6ba1",
+    "news_2b594ac952a1",
     "news_92b661453f94",
     "news_81e31687883e",
-    "news_072218b25825",
-    "news_ad58363d1ea3",
-    "news_2101267f392e",
-    "news_6237631698cc",
-    "news_6c1e80be04b9"
+    "news_072218b25825"
   ],
   "利润": [
+    "news_bda4ca82a39f",
+    "news_fa796c4871ce",
+    "news_278305192bf9",
+    "news_1a625b179899",
     "news_45ee6acd5043",
     "news_cd28c780f392",
     "news_f814f55a24ad",
     "news_11d9bd39aabf",
     "news_f98772e4c046",
     "news_a9858d5356fd",
-    "news_3aedbe6e6003",
-    "news_ac2fb700633f",
-    "news_846bac609da3",
-    "news_6935fc763e3d",
-    "news_6237631698cc",
-    "news_d2766a16f24f",
-    "news_2df54b63b92d",
-    "news_c4fc8c258436",
-    "news_27a09dc8afd3",
-    "news_e11c1a882694"
+    "news_3aedbe6e6003"
   ],
   "股市": [
+    "news_514ee68cc41a",
+    "news_9de1e38c793b",
+    "news_b61998bbd222",
     "news_41c8a5a54dcd",
     "news_832c89100693",
     "news_b68693b35b47",
     "news_072218b25825",
-    "news_7214b8616c05",
-    "news_8f879014fb83"
+    "news_7214b8616c05"
   ],
   "美联储": [
     "news_b68693b35b47"
@@ -11522,31 +11480,30 @@ window.KEYWORD_INDEX = {
     "news_f98772e4c046",
     "news_5f4ec9ec0aca",
     "news_734caed0514c",
-    "news_3aedbe6e6003",
-    "news_01d43d5c6ac2",
-    "news_ac2fb700633f",
-    "news_df4d0a076a7b",
-    "news_122e6d89ba4b",
-    "news_6935fc763e3d",
-    "news_27a09dc8afd3"
+    "news_3aedbe6e6003"
   ],
   "信托": [
+    "news_a8cfee47e04e",
     "news_239938557cc0"
   ],
   "资产配置": [
+    "news_d6d58aa393bc",
     "news_9abacb741a25"
   ],
   "财富管理": [
-    "news_92b661453f94",
-    "news_4b0bdc9e9838",
-    "news_6c1e80be04b9"
+    "news_92b661453f94"
+  ],
+  "MOM": [
+    "news_d912556c1343"
+  ],
+  "非标": [
+    "news_a8cfee47e04e"
   ],
   "标品": [
     "news_4ea6bbef35ce"
   ],
   "权益": [
-    "news_45ee6acd5043",
-    "news_1fac6cf36ed6"
+    "news_45ee6acd5043"
   ],
   "年化": [
     "news_9a9a1973bfef"

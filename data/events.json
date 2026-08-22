@@ -1,9 +1,240 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-08-22T08:51:48.241Z",
+  "generatedAt": "2026-08-22T13:07:29.084Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
+    {
+      "eventId": "event_37605779c26f",
+      "title": "天士力上半年归母净利润增长 15.23%",
+      "firstSeenAt": "2026-08-06T03:43:23.319Z",
+      "lastSeenAt": "2026-08-22T13:07:29.084Z",
+      "primaryItemId": "news_b809325cf6b0",
+      "evidenceItemIds": [
+        "news_a12982635a1e",
+        "news_0724b1177988",
+        "news_369aa9cdd761",
+        "news_98db92a681f9",
+        "news_b7c6d7f1191d",
+        "news_ed7bc1ee49bf",
+        "news_e920cb2f7649",
+        "news_aaf00be4a484",
+        "news_ceaa0de7a200",
+        "news_110eeadbabe6",
+        "news_dd74910db663",
+        "news_4f43447d8d36",
+        "news_ed872b8ea5e1",
+        "news_fe17a22dfb43",
+        "news_47004c79647c",
+        "news_a186a8690592",
+        "news_ecd916578974",
+        "news_1b6935f9d3db",
+        "news_5a6f4dae6f5b",
+        "news_5879c10fb001",
+        "news_56c703bebfff",
+        "news_3ab12ce09836",
+        "news_58ca5eee5279",
+        "news_436f2ec78448",
+        "news_88df5a959955",
+        "news_69131d269dff",
+        "news_8cdf154d8c9c",
+        "news_0dd15ebfc3d5",
+        "news_5124bebf98d8",
+        "news_4943a53a162f",
+        "news_780888ed6310",
+        "news_b14d2e2673c6",
+        "news_88fed746b47c",
+        "news_afea8faf650b",
+        "news_f996def0d165",
+        "news_f43a7f4a3f36",
+        "news_b9bcb027de5b",
+        "news_0e106b70dd6a",
+        "news_b3d6a59bfa57",
+        "news_13a4af695fa8",
+        "news_fb8f618077f8",
+        "news_23e7df3b0eea",
+        "news_0fff860c706e",
+        "news_3865a76c6dbc",
+        "news_980483b88d1f",
+        "news_f0e1dd82f223",
+        "news_e0407db58cef",
+        "news_b809325cf6b0",
+        "news_737c4bc9f7c1"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_91fb625edcc6",
+      "title": "华尔街见闻早餐FM-Radio | 2026年8月22日",
+      "firstSeenAt": "2026-08-01T03:54:06.184Z",
+      "lastSeenAt": "2026-08-22T13:07:29.084Z",
+      "primaryItemId": "news_9b6eace71407",
+      "evidenceItemIds": [
+        "news_17edaa318161",
+        "news_98deb5260008",
+        "news_d6ded5ce3d23",
+        "news_ce5450193ef2",
+        "news_c703d5c64965",
+        "news_f283b8db4f69",
+        "news_1192f017766c",
+        "news_13a9ec382c84",
+        "news_56f2fe7df40c",
+        "news_4bcfcf17662a",
+        "news_1e16c7e47c8f",
+        "news_42d80422ca92",
+        "news_f8de29856631",
+        "news_7c9d70564092",
+        "news_64e205ea0eff",
+        "news_ce46b4659126",
+        "news_6187cca76a84",
+        "news_365d990ddc0a",
+        "news_9b6eace71407"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_156f31e886dc",
+      "title": "报道：Anthropic的IPO招股书将把AI反弹情绪列为风险因素",
+      "firstSeenAt": "2026-08-22T01:54:37.843Z",
+      "lastSeenAt": "2026-08-22T13:07:29.084Z",
+      "primaryItemId": "news_d7064a6e2398",
+      "evidenceItemIds": [
+        "news_d7064a6e2398",
+        "news_89be1d914443"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_68c75dbe939a",
+      "title": "美财长压降美债收益率点燃“货币贬值交易”！黄金创三个月新高，比特币单周暴涨超25%",
+      "firstSeenAt": "2026-08-22T01:54:37.843Z",
+      "lastSeenAt": "2026-08-22T13:07:29.084Z",
+      "primaryItemId": "news_b64bab02baac",
+      "evidenceItemIds": [
+        "news_b64bab02baac",
+        "news_3a1520444866"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_ea975bae2954",
+      "title": "特朗普：没有指示贝森特干预债券市场",
+      "firstSeenAt": "2026-08-22T01:54:37.843Z",
+      "lastSeenAt": "2026-08-22T13:07:29.084Z",
+      "primaryItemId": "news_6da581a363fd",
+      "evidenceItemIds": [
+        "news_fd0f00aa6e79",
+        "news_6da581a363fd",
+        "news_e07712cc3b01"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_883d765a0235",
+      "title": "桥水达利欧警告：债务危机或三年内爆发！建议考虑这类资产",
+      "firstSeenAt": "2026-08-22T01:54:37.843Z",
+      "lastSeenAt": "2026-08-22T13:07:29.084Z",
+      "primaryItemId": "news_5c639cfcc553",
+      "evidenceItemIds": [
+        "news_88a722b42f5f",
+        "news_05edaef82cab",
+        "news_5c639cfcc553"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_6ee1ec96ce9a",
+      "title": "建设新一代通信网，国常会再做这些部署",
+      "firstSeenAt": "2026-08-22T01:54:37.843Z",
+      "lastSeenAt": "2026-08-22T13:07:29.084Z",
+      "primaryItemId": "news_de8a804f8408",
+      "evidenceItemIds": [
+        "news_8938ffa97211",
+        "news_cb3c9de4ab94",
+        "news_de8a804f8408"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_419477d31263",
+      "title": "国产闪存龙头长存控股科创板IPO获受理 拟募资330亿元",
+      "firstSeenAt": "2026-08-22T01:54:37.843Z",
+      "lastSeenAt": "2026-08-22T13:07:29.084Z",
+      "primaryItemId": "news_5af60c03d7b4",
+      "evidenceItemIds": [
+        "news_c121d4e9137b",
+        "news_cea1154e8587",
+        "news_5af60c03d7b4"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_faac4b9f2bd8",
+      "title": "Anthropic计划IPO募资超1000亿美元 投资者却发出一连串质疑",
+      "firstSeenAt": "2026-08-22T04:49:56.049Z",
+      "lastSeenAt": "2026-08-22T13:07:29.084Z",
+      "primaryItemId": "news_1d7c95068d75",
+      "evidenceItemIds": [
+        "news_1d7c95068d75",
+        "news_3a13bd428308"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_5e45843a3086",
+      "title": "新股消息 | 锂电池电解液供货商昆仑新材二次递表港交所 上半年利润约1.48亿元",
+      "firstSeenAt": "2026-08-22T08:51:48.241Z",
+      "lastSeenAt": "2026-08-22T13:07:29.084Z",
+      "primaryItemId": "news_51f14e727e93",
+      "evidenceItemIds": [
+        "news_874275c5bf24",
+        "news_62a7d56efc0b",
+        "news_51d4251964ca",
+        "news_0a1f76aa904b",
+        "news_9a10e15fce24",
+        "news_4dc576957d6f",
+        "news_51f14e727e93",
+        "news_fc011d8ed341"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_7173cf42f0b0",
+      "title": "从濒临出局到市值暴涨440亿美元：Moderna的癌症疫苗十年豪赌",
+      "firstSeenAt": "2026-08-20T01:54:52.482Z",
+      "lastSeenAt": "2026-08-22T13:07:29.084Z",
+      "primaryItemId": "news_172a510a701d",
+      "evidenceItemIds": [
+        "news_67c7101780e7",
+        "news_d23a16d9304a",
+        "news_172a510a701d"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_f3f96881c748",
+      "title": "美加谈判破裂！美国对部分加拿大商品加征50%关税，加拿大酝酿反制",
+      "firstSeenAt": "2026-08-22T13:07:29.084Z",
+      "lastSeenAt": "2026-08-22T13:07:29.084Z",
+      "primaryItemId": "news_c3eaf4b12e5d",
+      "evidenceItemIds": [
+        "news_c3eaf4b12e5d",
+        "news_1f7e7f2222c0"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_116104a201fa",
+      "title": "新股消息 | 彤程新材(603650.SH)二次递表港交所 在全球及中国轮胎用酚醛树脂橡胶助剂市场销售金额均排名第一",
+      "firstSeenAt": "2026-08-22T13:07:29.084Z",
+      "lastSeenAt": "2026-08-22T13:07:29.084Z",
+      "primaryItemId": "news_04d7b222ad98",
+      "evidenceItemIds": [
+        "news_04d7b222ad98",
+        "news_6205c0ccf007"
+      ],
+      "status": "developing"
+    },
     {
       "eventId": "event_d475cd20b61c",
       "title": "复宏汉霖(02696)上半年营收35.882亿元 海外产品销售收入同比增长159.4%",
@@ -133,65 +364,6 @@
       "status": "developing"
     },
     {
-      "eventId": "event_37605779c26f",
-      "title": "天士力上半年归母净利润增长 15.23%",
-      "firstSeenAt": "2026-08-06T03:43:23.319Z",
-      "lastSeenAt": "2026-08-22T08:51:48.241Z",
-      "primaryItemId": "news_b809325cf6b0",
-      "evidenceItemIds": [
-        "news_a12982635a1e",
-        "news_0724b1177988",
-        "news_369aa9cdd761",
-        "news_98db92a681f9",
-        "news_b7c6d7f1191d",
-        "news_ed7bc1ee49bf",
-        "news_e920cb2f7649",
-        "news_aaf00be4a484",
-        "news_ceaa0de7a200",
-        "news_110eeadbabe6",
-        "news_dd74910db663",
-        "news_4f43447d8d36",
-        "news_ed872b8ea5e1",
-        "news_fe17a22dfb43",
-        "news_47004c79647c",
-        "news_a186a8690592",
-        "news_ecd916578974",
-        "news_1b6935f9d3db",
-        "news_5a6f4dae6f5b",
-        "news_5879c10fb001",
-        "news_56c703bebfff",
-        "news_3ab12ce09836",
-        "news_58ca5eee5279",
-        "news_436f2ec78448",
-        "news_88df5a959955",
-        "news_69131d269dff",
-        "news_8cdf154d8c9c",
-        "news_0dd15ebfc3d5",
-        "news_5124bebf98d8",
-        "news_4943a53a162f",
-        "news_780888ed6310",
-        "news_b14d2e2673c6",
-        "news_88fed746b47c",
-        "news_afea8faf650b",
-        "news_f996def0d165",
-        "news_f43a7f4a3f36",
-        "news_b9bcb027de5b",
-        "news_0e106b70dd6a",
-        "news_b3d6a59bfa57",
-        "news_13a4af695fa8",
-        "news_fb8f618077f8",
-        "news_23e7df3b0eea",
-        "news_0fff860c706e",
-        "news_3865a76c6dbc",
-        "news_980483b88d1f",
-        "news_f0e1dd82f223",
-        "news_e0407db58cef",
-        "news_b809325cf6b0",
-        "news_737c4bc9f7c1"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_202dd878fa19",
       "title": "晚间公告｜8月21日这些公告有看头",
       "firstSeenAt": "2026-07-31T14:43:32.623Z",
@@ -262,138 +434,6 @@
       "evidenceItemIds": [
         "news_5aee49989095",
         "news_361b63beb3fe"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_91fb625edcc6",
-      "title": "华尔街见闻早餐FM-Radio | 2026年8月22日",
-      "firstSeenAt": "2026-08-01T03:54:06.184Z",
-      "lastSeenAt": "2026-08-22T08:51:48.241Z",
-      "primaryItemId": "news_9b6eace71407",
-      "evidenceItemIds": [
-        "news_17edaa318161",
-        "news_98deb5260008",
-        "news_d6ded5ce3d23",
-        "news_ce5450193ef2",
-        "news_c703d5c64965",
-        "news_f283b8db4f69",
-        "news_1192f017766c",
-        "news_13a9ec382c84",
-        "news_56f2fe7df40c",
-        "news_4bcfcf17662a",
-        "news_1e16c7e47c8f",
-        "news_42d80422ca92",
-        "news_f8de29856631",
-        "news_7c9d70564092",
-        "news_64e205ea0eff",
-        "news_ce46b4659126",
-        "news_6187cca76a84",
-        "news_365d990ddc0a",
-        "news_9b6eace71407"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_156f31e886dc",
-      "title": "报道：Anthropic的IPO招股书将把AI反弹情绪列为风险因素",
-      "firstSeenAt": "2026-08-22T01:54:37.843Z",
-      "lastSeenAt": "2026-08-22T08:51:48.241Z",
-      "primaryItemId": "news_d7064a6e2398",
-      "evidenceItemIds": [
-        "news_d7064a6e2398",
-        "news_89be1d914443"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_68c75dbe939a",
-      "title": "美财长压降美债收益率点燃“货币贬值交易”！黄金创三个月新高，比特币单周暴涨超25%",
-      "firstSeenAt": "2026-08-22T01:54:37.843Z",
-      "lastSeenAt": "2026-08-22T08:51:48.241Z",
-      "primaryItemId": "news_b64bab02baac",
-      "evidenceItemIds": [
-        "news_b64bab02baac",
-        "news_3a1520444866"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_ea975bae2954",
-      "title": "特朗普：没有指示贝森特干预债券市场",
-      "firstSeenAt": "2026-08-22T01:54:37.843Z",
-      "lastSeenAt": "2026-08-22T08:51:48.241Z",
-      "primaryItemId": "news_6da581a363fd",
-      "evidenceItemIds": [
-        "news_fd0f00aa6e79",
-        "news_6da581a363fd",
-        "news_e07712cc3b01"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_883d765a0235",
-      "title": "桥水达利欧警告：债务危机或三年内爆发！建议考虑这类资产",
-      "firstSeenAt": "2026-08-22T01:54:37.843Z",
-      "lastSeenAt": "2026-08-22T08:51:48.241Z",
-      "primaryItemId": "news_5c639cfcc553",
-      "evidenceItemIds": [
-        "news_88a722b42f5f",
-        "news_05edaef82cab",
-        "news_5c639cfcc553"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_6ee1ec96ce9a",
-      "title": "建设新一代通信网，国常会再做这些部署",
-      "firstSeenAt": "2026-08-22T01:54:37.843Z",
-      "lastSeenAt": "2026-08-22T08:51:48.241Z",
-      "primaryItemId": "news_de8a804f8408",
-      "evidenceItemIds": [
-        "news_8938ffa97211",
-        "news_cb3c9de4ab94",
-        "news_de8a804f8408"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_419477d31263",
-      "title": "国产闪存龙头长存控股科创板IPO获受理 拟募资330亿元",
-      "firstSeenAt": "2026-08-22T01:54:37.843Z",
-      "lastSeenAt": "2026-08-22T08:51:48.241Z",
-      "primaryItemId": "news_5af60c03d7b4",
-      "evidenceItemIds": [
-        "news_c121d4e9137b",
-        "news_cea1154e8587",
-        "news_5af60c03d7b4"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_faac4b9f2bd8",
-      "title": "Anthropic计划IPO募资超1000亿美元 投资者却发出一连串质疑",
-      "firstSeenAt": "2026-08-22T04:49:56.049Z",
-      "lastSeenAt": "2026-08-22T08:51:48.241Z",
-      "primaryItemId": "news_1d7c95068d75",
-      "evidenceItemIds": [
-        "news_1d7c95068d75",
-        "news_3a13bd428308"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_5e45843a3086",
-      "title": "新股消息 | 泰励生物二次递表港交所 上半年亏损约1.17亿元",
-      "firstSeenAt": "2026-08-22T08:51:48.241Z",
-      "lastSeenAt": "2026-08-22T08:51:48.241Z",
-      "primaryItemId": "news_874275c5bf24",
-      "evidenceItemIds": [
-        "news_874275c5bf24",
-        "news_62a7d56efc0b",
-        "news_51d4251964ca",
-        "news_0a1f76aa904b",
-        "news_9a10e15fce24"
       ],
       "status": "developing"
     },
@@ -1284,18 +1324,6 @@
         "news_65432e0889cd",
         "news_eb490f840f51",
         "news_490d6cbc2d56"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_7173cf42f0b0",
-      "title": "mRNA个性化癌症疫苗！Moderna的突破意味着什么？",
-      "firstSeenAt": "2026-08-20T01:54:52.482Z",
-      "lastSeenAt": "2026-08-20T09:00:09.133Z",
-      "primaryItemId": "news_67c7101780e7",
-      "evidenceItemIds": [
-        "news_67c7101780e7",
-        "news_d23a16d9304a"
       ],
       "status": "developing"
     },

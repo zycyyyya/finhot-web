@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-08-22T04:49:56.049Z",
+  "generatedAt": "2026-08-22T08:51:48.241Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -8,7 +8,7 @@
       "eventId": "event_d475cd20b61c",
       "title": "复宏汉霖(02696)上半年营收35.882亿元 海外产品销售收入同比增长159.4%",
       "firstSeenAt": "2026-08-20T09:00:09.133Z",
-      "lastSeenAt": "2026-08-22T04:49:56.049Z",
+      "lastSeenAt": "2026-08-22T08:51:48.241Z",
       "primaryItemId": "news_5de3e400f3a6",
       "evidenceItemIds": [
         "news_30252855e17e",
@@ -24,7 +24,7 @@
       "eventId": "event_715147088aad",
       "title": "财政部：1—7月全国一般公共预算收入同比增长5.8%，证券交易印花税激增99.2%",
       "firstSeenAt": "2026-08-21T09:02:20.963Z",
-      "lastSeenAt": "2026-08-22T04:49:56.049Z",
+      "lastSeenAt": "2026-08-22T08:51:48.241Z",
       "primaryItemId": "news_154732c6e487",
       "evidenceItemIds": [
         "news_154732c6e487",
@@ -33,34 +33,10 @@
       "status": "developing"
     },
     {
-      "eventId": "event_bea5ea0275c8",
-      "title": "中泰证券：上半年净利润17.52亿元，同比增长146.38%",
-      "firstSeenAt": "2026-08-21T09:02:20.963Z",
-      "lastSeenAt": "2026-08-22T04:49:56.049Z",
-      "primaryItemId": "news_cf820ac6138c",
-      "evidenceItemIds": [
-        "news_edff2605e18a",
-        "news_5738d8a463b4",
-        "news_aa765d5d58a1",
-        "news_018c7eba4b90",
-        "news_ca83becbdb90",
-        "news_6f19092e16fa",
-        "news_4984ef6a39fc",
-        "news_b64db43809f9",
-        "news_2b92e3dcb68e",
-        "news_95042335a953",
-        "news_c44a761d7f62",
-        "news_a08c79f468d1",
-        "news_cf820ac6138c",
-        "news_1237533f5ef3"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_c96714846ab4",
       "title": "中兴商业：上半年净利润4596.17万元，同比下降5.87%",
       "firstSeenAt": "2026-08-13T13:53:29.824Z",
-      "lastSeenAt": "2026-08-22T04:49:56.049Z",
+      "lastSeenAt": "2026-08-22T08:51:48.241Z",
       "primaryItemId": "news_a4f681422544",
       "evidenceItemIds": [
         "news_a81185a993bc",
@@ -120,7 +96,7 @@
       "eventId": "event_32967e3730b8",
       "title": "美股大型科技股盘前普涨，特斯拉涨超1%",
       "firstSeenAt": "2026-08-03T15:23:32.854Z",
-      "lastSeenAt": "2026-08-22T04:49:56.049Z",
+      "lastSeenAt": "2026-08-22T08:51:48.241Z",
       "primaryItemId": "news_8657bacfb96d",
       "evidenceItemIds": [
         "news_8394862df655",
@@ -160,7 +136,7 @@
       "eventId": "event_37605779c26f",
       "title": "天士力上半年归母净利润增长 15.23%",
       "firstSeenAt": "2026-08-06T03:43:23.319Z",
-      "lastSeenAt": "2026-08-22T04:49:56.049Z",
+      "lastSeenAt": "2026-08-22T08:51:48.241Z",
       "primaryItemId": "news_b809325cf6b0",
       "evidenceItemIds": [
         "news_a12982635a1e",
@@ -219,7 +195,7 @@
       "eventId": "event_202dd878fa19",
       "title": "晚间公告｜8月21日这些公告有看头",
       "firstSeenAt": "2026-07-31T14:43:32.623Z",
-      "lastSeenAt": "2026-08-22T04:49:56.049Z",
+      "lastSeenAt": "2026-08-22T08:51:48.241Z",
       "primaryItemId": "news_9ac737e4924a",
       "evidenceItemIds": [
         "news_eaf56a2f5345",
@@ -249,7 +225,7 @@
       "eventId": "event_73f4b1fb41a8",
       "title": "龙虎榜丨机构今日买入这18股，卖出键凯科技9762万元",
       "firstSeenAt": "2026-08-03T11:50:30.990Z",
-      "lastSeenAt": "2026-08-22T04:49:56.049Z",
+      "lastSeenAt": "2026-08-22T08:51:48.241Z",
       "primaryItemId": "news_d35397f00f85",
       "evidenceItemIds": [
         "news_de7d0ba05e16",
@@ -262,6 +238,186 @@
         "news_45437b89e860",
         "news_d1e40824a959",
         "news_d35397f00f85"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_9694f81f70fe",
+      "title": "港股公告精选｜紫金矿业上半年净赚超390亿元 中际旭创中期盈利同比增逾240%",
+      "firstSeenAt": "2026-08-21T13:20:40.645Z",
+      "lastSeenAt": "2026-08-22T08:51:48.241Z",
+      "primaryItemId": "news_025370104945",
+      "evidenceItemIds": [
+        "news_025370104945",
+        "news_4d195d3ead14"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_263f865c1e55",
+      "title": "上半年业绩为何走弱、有无库存“堰塞湖”、市值管理怎么做？贵州茅台回应",
+      "firstSeenAt": "2026-08-21T13:20:40.645Z",
+      "lastSeenAt": "2026-08-22T08:51:48.241Z",
+      "primaryItemId": "news_361b63beb3fe",
+      "evidenceItemIds": [
+        "news_5aee49989095",
+        "news_361b63beb3fe"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_91fb625edcc6",
+      "title": "华尔街见闻早餐FM-Radio | 2026年8月22日",
+      "firstSeenAt": "2026-08-01T03:54:06.184Z",
+      "lastSeenAt": "2026-08-22T08:51:48.241Z",
+      "primaryItemId": "news_9b6eace71407",
+      "evidenceItemIds": [
+        "news_17edaa318161",
+        "news_98deb5260008",
+        "news_d6ded5ce3d23",
+        "news_ce5450193ef2",
+        "news_c703d5c64965",
+        "news_f283b8db4f69",
+        "news_1192f017766c",
+        "news_13a9ec382c84",
+        "news_56f2fe7df40c",
+        "news_4bcfcf17662a",
+        "news_1e16c7e47c8f",
+        "news_42d80422ca92",
+        "news_f8de29856631",
+        "news_7c9d70564092",
+        "news_64e205ea0eff",
+        "news_ce46b4659126",
+        "news_6187cca76a84",
+        "news_365d990ddc0a",
+        "news_9b6eace71407"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_156f31e886dc",
+      "title": "报道：Anthropic的IPO招股书将把AI反弹情绪列为风险因素",
+      "firstSeenAt": "2026-08-22T01:54:37.843Z",
+      "lastSeenAt": "2026-08-22T08:51:48.241Z",
+      "primaryItemId": "news_d7064a6e2398",
+      "evidenceItemIds": [
+        "news_d7064a6e2398",
+        "news_89be1d914443"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_68c75dbe939a",
+      "title": "美财长压降美债收益率点燃“货币贬值交易”！黄金创三个月新高，比特币单周暴涨超25%",
+      "firstSeenAt": "2026-08-22T01:54:37.843Z",
+      "lastSeenAt": "2026-08-22T08:51:48.241Z",
+      "primaryItemId": "news_b64bab02baac",
+      "evidenceItemIds": [
+        "news_b64bab02baac",
+        "news_3a1520444866"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_ea975bae2954",
+      "title": "特朗普：没有指示贝森特干预债券市场",
+      "firstSeenAt": "2026-08-22T01:54:37.843Z",
+      "lastSeenAt": "2026-08-22T08:51:48.241Z",
+      "primaryItemId": "news_6da581a363fd",
+      "evidenceItemIds": [
+        "news_fd0f00aa6e79",
+        "news_6da581a363fd",
+        "news_e07712cc3b01"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_883d765a0235",
+      "title": "桥水达利欧警告：债务危机或三年内爆发！建议考虑这类资产",
+      "firstSeenAt": "2026-08-22T01:54:37.843Z",
+      "lastSeenAt": "2026-08-22T08:51:48.241Z",
+      "primaryItemId": "news_5c639cfcc553",
+      "evidenceItemIds": [
+        "news_88a722b42f5f",
+        "news_05edaef82cab",
+        "news_5c639cfcc553"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_6ee1ec96ce9a",
+      "title": "建设新一代通信网，国常会再做这些部署",
+      "firstSeenAt": "2026-08-22T01:54:37.843Z",
+      "lastSeenAt": "2026-08-22T08:51:48.241Z",
+      "primaryItemId": "news_de8a804f8408",
+      "evidenceItemIds": [
+        "news_8938ffa97211",
+        "news_cb3c9de4ab94",
+        "news_de8a804f8408"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_419477d31263",
+      "title": "国产闪存龙头长存控股科创板IPO获受理 拟募资330亿元",
+      "firstSeenAt": "2026-08-22T01:54:37.843Z",
+      "lastSeenAt": "2026-08-22T08:51:48.241Z",
+      "primaryItemId": "news_5af60c03d7b4",
+      "evidenceItemIds": [
+        "news_c121d4e9137b",
+        "news_cea1154e8587",
+        "news_5af60c03d7b4"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_faac4b9f2bd8",
+      "title": "Anthropic计划IPO募资超1000亿美元 投资者却发出一连串质疑",
+      "firstSeenAt": "2026-08-22T04:49:56.049Z",
+      "lastSeenAt": "2026-08-22T08:51:48.241Z",
+      "primaryItemId": "news_1d7c95068d75",
+      "evidenceItemIds": [
+        "news_1d7c95068d75",
+        "news_3a13bd428308"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_5e45843a3086",
+      "title": "新股消息 | 泰励生物二次递表港交所 上半年亏损约1.17亿元",
+      "firstSeenAt": "2026-08-22T08:51:48.241Z",
+      "lastSeenAt": "2026-08-22T08:51:48.241Z",
+      "primaryItemId": "news_874275c5bf24",
+      "evidenceItemIds": [
+        "news_874275c5bf24",
+        "news_62a7d56efc0b",
+        "news_51d4251964ca",
+        "news_0a1f76aa904b",
+        "news_9a10e15fce24"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_bea5ea0275c8",
+      "title": "中泰证券：上半年净利润17.52亿元，同比增长146.38%",
+      "firstSeenAt": "2026-08-21T09:02:20.963Z",
+      "lastSeenAt": "2026-08-22T04:49:56.049Z",
+      "primaryItemId": "news_cf820ac6138c",
+      "evidenceItemIds": [
+        "news_edff2605e18a",
+        "news_5738d8a463b4",
+        "news_aa765d5d58a1",
+        "news_018c7eba4b90",
+        "news_ca83becbdb90",
+        "news_6f19092e16fa",
+        "news_4984ef6a39fc",
+        "news_b64db43809f9",
+        "news_2b92e3dcb68e",
+        "news_95042335a953",
+        "news_c44a761d7f62",
+        "news_a08c79f468d1",
+        "news_cf820ac6138c",
+        "news_1237533f5ef3"
       ],
       "status": "developing"
     },
@@ -302,147 +458,6 @@
       "evidenceItemIds": [
         "news_4c2bddd56a61",
         "news_3376fe889617"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_9694f81f70fe",
-      "title": "港股公告精选｜紫金矿业上半年净赚超390亿元 中际旭创中期盈利同比增逾240%",
-      "firstSeenAt": "2026-08-21T13:20:40.645Z",
-      "lastSeenAt": "2026-08-22T04:49:56.049Z",
-      "primaryItemId": "news_025370104945",
-      "evidenceItemIds": [
-        "news_025370104945",
-        "news_4d195d3ead14"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_263f865c1e55",
-      "title": "上半年业绩为何走弱、有无库存“堰塞湖”、市值管理怎么做？贵州茅台回应",
-      "firstSeenAt": "2026-08-21T13:20:40.645Z",
-      "lastSeenAt": "2026-08-22T04:49:56.049Z",
-      "primaryItemId": "news_361b63beb3fe",
-      "evidenceItemIds": [
-        "news_5aee49989095",
-        "news_361b63beb3fe"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_91fb625edcc6",
-      "title": "华尔街见闻早餐FM-Radio | 2026年8月22日",
-      "firstSeenAt": "2026-08-01T03:54:06.184Z",
-      "lastSeenAt": "2026-08-22T04:49:56.049Z",
-      "primaryItemId": "news_9b6eace71407",
-      "evidenceItemIds": [
-        "news_17edaa318161",
-        "news_98deb5260008",
-        "news_d6ded5ce3d23",
-        "news_ce5450193ef2",
-        "news_c703d5c64965",
-        "news_f283b8db4f69",
-        "news_1192f017766c",
-        "news_13a9ec382c84",
-        "news_56f2fe7df40c",
-        "news_4bcfcf17662a",
-        "news_1e16c7e47c8f",
-        "news_42d80422ca92",
-        "news_f8de29856631",
-        "news_7c9d70564092",
-        "news_64e205ea0eff",
-        "news_ce46b4659126",
-        "news_6187cca76a84",
-        "news_365d990ddc0a",
-        "news_9b6eace71407"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_156f31e886dc",
-      "title": "报道：Anthropic的IPO招股书将把AI反弹情绪列为风险因素",
-      "firstSeenAt": "2026-08-22T01:54:37.843Z",
-      "lastSeenAt": "2026-08-22T04:49:56.049Z",
-      "primaryItemId": "news_d7064a6e2398",
-      "evidenceItemIds": [
-        "news_d7064a6e2398",
-        "news_89be1d914443"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_68c75dbe939a",
-      "title": "美财长压降美债收益率点燃“货币贬值交易”！黄金创三个月新高，比特币单周暴涨超25%",
-      "firstSeenAt": "2026-08-22T01:54:37.843Z",
-      "lastSeenAt": "2026-08-22T04:49:56.049Z",
-      "primaryItemId": "news_b64bab02baac",
-      "evidenceItemIds": [
-        "news_b64bab02baac",
-        "news_3a1520444866"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_ea975bae2954",
-      "title": "特朗普：没有指示贝森特干预债券市场",
-      "firstSeenAt": "2026-08-22T01:54:37.843Z",
-      "lastSeenAt": "2026-08-22T04:49:56.049Z",
-      "primaryItemId": "news_6da581a363fd",
-      "evidenceItemIds": [
-        "news_fd0f00aa6e79",
-        "news_6da581a363fd",
-        "news_e07712cc3b01"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_883d765a0235",
-      "title": "桥水达利欧警告：债务危机或三年内爆发！建议考虑这类资产",
-      "firstSeenAt": "2026-08-22T01:54:37.843Z",
-      "lastSeenAt": "2026-08-22T04:49:56.049Z",
-      "primaryItemId": "news_5c639cfcc553",
-      "evidenceItemIds": [
-        "news_88a722b42f5f",
-        "news_05edaef82cab",
-        "news_5c639cfcc553"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_6ee1ec96ce9a",
-      "title": "建设新一代通信网，国常会再做这些部署",
-      "firstSeenAt": "2026-08-22T01:54:37.843Z",
-      "lastSeenAt": "2026-08-22T04:49:56.049Z",
-      "primaryItemId": "news_de8a804f8408",
-      "evidenceItemIds": [
-        "news_8938ffa97211",
-        "news_cb3c9de4ab94",
-        "news_de8a804f8408"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_419477d31263",
-      "title": "国产闪存龙头长存控股科创板IPO获受理 拟募资330亿元",
-      "firstSeenAt": "2026-08-22T01:54:37.843Z",
-      "lastSeenAt": "2026-08-22T04:49:56.049Z",
-      "primaryItemId": "news_5af60c03d7b4",
-      "evidenceItemIds": [
-        "news_c121d4e9137b",
-        "news_cea1154e8587",
-        "news_5af60c03d7b4"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_faac4b9f2bd8",
-      "title": "Anthropic计划IPO募资超1000亿美元 投资者却发出一连串质疑",
-      "firstSeenAt": "2026-08-22T04:49:56.049Z",
-      "lastSeenAt": "2026-08-22T04:49:56.049Z",
-      "primaryItemId": "news_1d7c95068d75",
-      "evidenceItemIds": [
-        "news_1d7c95068d75",
-        "news_3a13bd428308"
       ],
       "status": "developing"
     },

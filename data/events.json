@@ -1,9 +1,259 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-08-23T08:55:24.109Z",
+  "generatedAt": "2026-08-23T13:06:54.652Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
+    {
+      "eventId": "event_ea975bae2954",
+      "title": "特朗普：没有指示贝森特干预债券市场",
+      "firstSeenAt": "2026-08-22T01:54:37.843Z",
+      "lastSeenAt": "2026-08-23T13:06:54.652Z",
+      "primaryItemId": "news_6da581a363fd",
+      "evidenceItemIds": [
+        "news_fd0f00aa6e79",
+        "news_6da581a363fd",
+        "news_e07712cc3b01"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_883d765a0235",
+      "title": "桥水达利欧警告：债务危机或三年内爆发！建议考虑这类资产",
+      "firstSeenAt": "2026-08-22T01:54:37.843Z",
+      "lastSeenAt": "2026-08-23T13:06:54.652Z",
+      "primaryItemId": "news_5c639cfcc553",
+      "evidenceItemIds": [
+        "news_88a722b42f5f",
+        "news_05edaef82cab",
+        "news_5c639cfcc553",
+        "news_15055720937b"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_6ee1ec96ce9a",
+      "title": "建设新一代通信网，国常会再做这些部署",
+      "firstSeenAt": "2026-08-22T01:54:37.843Z",
+      "lastSeenAt": "2026-08-23T13:06:54.652Z",
+      "primaryItemId": "news_de8a804f8408",
+      "evidenceItemIds": [
+        "news_8938ffa97211",
+        "news_cb3c9de4ab94",
+        "news_de8a804f8408"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_419477d31263",
+      "title": "国产闪存龙头长存控股科创板IPO获受理 拟募资330亿元",
+      "firstSeenAt": "2026-08-22T01:54:37.843Z",
+      "lastSeenAt": "2026-08-23T13:06:54.652Z",
+      "primaryItemId": "news_5af60c03d7b4",
+      "evidenceItemIds": [
+        "news_c121d4e9137b",
+        "news_cea1154e8587",
+        "news_5af60c03d7b4"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_faac4b9f2bd8",
+      "title": "Anthropic计划IPO募资超1000亿美元 投资者却发出一连串质疑",
+      "firstSeenAt": "2026-08-22T04:49:56.049Z",
+      "lastSeenAt": "2026-08-23T13:06:54.652Z",
+      "primaryItemId": "news_1d7c95068d75",
+      "evidenceItemIds": [
+        "news_1d7c95068d75",
+        "news_3a13bd428308"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_5e45843a3086",
+      "title": "新股消息 | 锂电池电解液供货商昆仑新材二次递表港交所 上半年利润约1.48亿元",
+      "firstSeenAt": "2026-08-22T08:51:48.241Z",
+      "lastSeenAt": "2026-08-23T13:06:54.652Z",
+      "primaryItemId": "news_51f14e727e93",
+      "evidenceItemIds": [
+        "news_874275c5bf24",
+        "news_62a7d56efc0b",
+        "news_51d4251964ca",
+        "news_0a1f76aa904b",
+        "news_9a10e15fce24",
+        "news_4dc576957d6f",
+        "news_51f14e727e93",
+        "news_fc011d8ed341",
+        "news_66d551b452e7"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_f3f96881c748",
+      "title": "美加谈判破裂！美国对部分加拿大商品加征50%关税，加拿大酝酿反制",
+      "firstSeenAt": "2026-08-22T13:07:29.084Z",
+      "lastSeenAt": "2026-08-23T13:06:54.652Z",
+      "primaryItemId": "news_c3eaf4b12e5d",
+      "evidenceItemIds": [
+        "news_c3eaf4b12e5d",
+        "news_1f7e7f2222c0"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_116104a201fa",
+      "title": "新股消息 | 益方生物(688382.SH)二次递表港交所 报告期内暂未实现扭亏",
+      "firstSeenAt": "2026-08-22T13:07:29.084Z",
+      "lastSeenAt": "2026-08-23T13:06:54.652Z",
+      "primaryItemId": "news_133e587ba8ee",
+      "evidenceItemIds": [
+        "news_04d7b222ad98",
+        "news_6205c0ccf007",
+        "news_133e587ba8ee"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_a6ccbde5e1f8",
+      "title": "AI周报|阿里预计AI算力投入三年内回本；OpenAI计划2027年上市",
+      "firstSeenAt": "2026-08-20T13:18:27.421Z",
+      "lastSeenAt": "2026-08-23T13:06:54.652Z",
+      "primaryItemId": "news_772d143cbde2",
+      "evidenceItemIds": [
+        "news_24cef6c227a4",
+        "news_094cbb2517eb",
+        "news_772d143cbde2"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_37605779c26f",
+      "title": "恒铭达(002947.SZ)发布上半年业绩，归母净利润2.54亿元，同比增长8.21%",
+      "firstSeenAt": "2026-08-06T03:43:23.319Z",
+      "lastSeenAt": "2026-08-23T13:06:54.652Z",
+      "primaryItemId": "news_9d33c0e71c45",
+      "evidenceItemIds": [
+        "news_aaf00be4a484",
+        "news_ceaa0de7a200",
+        "news_110eeadbabe6",
+        "news_dd74910db663",
+        "news_4f43447d8d36",
+        "news_ed872b8ea5e1",
+        "news_fe17a22dfb43",
+        "news_47004c79647c",
+        "news_a186a8690592",
+        "news_ecd916578974",
+        "news_1b6935f9d3db",
+        "news_5a6f4dae6f5b",
+        "news_5879c10fb001",
+        "news_56c703bebfff",
+        "news_3ab12ce09836",
+        "news_58ca5eee5279",
+        "news_436f2ec78448",
+        "news_88df5a959955",
+        "news_69131d269dff",
+        "news_8cdf154d8c9c",
+        "news_0dd15ebfc3d5",
+        "news_5124bebf98d8",
+        "news_4943a53a162f",
+        "news_780888ed6310",
+        "news_b14d2e2673c6",
+        "news_88fed746b47c",
+        "news_afea8faf650b",
+        "news_f996def0d165",
+        "news_f43a7f4a3f36",
+        "news_b9bcb027de5b",
+        "news_0e106b70dd6a",
+        "news_b3d6a59bfa57",
+        "news_13a4af695fa8",
+        "news_fb8f618077f8",
+        "news_23e7df3b0eea",
+        "news_0fff860c706e",
+        "news_3865a76c6dbc",
+        "news_980483b88d1f",
+        "news_f0e1dd82f223",
+        "news_e0407db58cef",
+        "news_b809325cf6b0",
+        "news_737c4bc9f7c1",
+        "news_8276c4b84236",
+        "news_8148dbdc4662",
+        "news_35f6eaf289f5",
+        "news_f3f4cd2196f3",
+        "news_9d33c0e71c45",
+        "news_44f47b14a0cf",
+        "news_88fa0a921aa5",
+        "news_527b872da4ca"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_bea5ea0275c8",
+      "title": "科远智慧(002380.SZ)发布上半年业绩，归母净利润1.62亿元，同比增长19.33%",
+      "firstSeenAt": "2026-08-21T09:02:20.963Z",
+      "lastSeenAt": "2026-08-23T13:06:54.652Z",
+      "primaryItemId": "news_80b9c0f49b66",
+      "evidenceItemIds": [
+        "news_edff2605e18a",
+        "news_5738d8a463b4",
+        "news_aa765d5d58a1",
+        "news_018c7eba4b90",
+        "news_ca83becbdb90",
+        "news_6f19092e16fa",
+        "news_4984ef6a39fc",
+        "news_b64db43809f9",
+        "news_2b92e3dcb68e",
+        "news_95042335a953",
+        "news_c44a761d7f62",
+        "news_a08c79f468d1",
+        "news_cf820ac6138c",
+        "news_1237533f5ef3",
+        "news_9d33c0e71c45",
+        "news_db29565d8858",
+        "news_80b9c0f49b66",
+        "news_3867bc787e9a",
+        "news_ba8b3cec5fda",
+        "news_0fff860c706e",
+        "news_f0e1dd82f223"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_e8f30d17f4bd",
+      "title": "陈东升卸任泰康CEO 总裁刘挺军接任",
+      "firstSeenAt": "2026-08-23T08:55:24.109Z",
+      "lastSeenAt": "2026-08-23T13:06:54.652Z",
+      "primaryItemId": "news_7094eab45020",
+      "evidenceItemIds": [
+        "news_7094eab45020",
+        "news_2094f2d36bd8",
+        "news_2e1d4b624e2e"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_d482877533cd",
+      "title": "人民日报刊发“钟才文”文章：中国是世界经济增长的积极贡献者和强大稳定锚",
+      "firstSeenAt": "2026-08-23T13:06:54.652Z",
+      "lastSeenAt": "2026-08-23T13:06:54.652Z",
+      "primaryItemId": "news_6787aaf5c147",
+      "evidenceItemIds": [
+        "news_6787aaf5c147",
+        "news_bfcbb15e4670"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_aa4099da0ada",
+      "title": "剂泰科技-P(07666)获纳入恒生综合指数 9月7日起生效",
+      "firstSeenAt": "2026-08-23T13:06:54.652Z",
+      "lastSeenAt": "2026-08-23T13:06:54.652Z",
+      "primaryItemId": "news_dd6877fc31b2",
+      "evidenceItemIds": [
+        "news_dd6877fc31b2",
+        "news_40ff95cc7b83"
+      ],
+      "status": "developing"
+    },
     {
       "eventId": "event_91fb625edcc6",
       "title": "华尔街见闻早餐FM-Radio | 2026年8月22日",
@@ -54,188 +304,6 @@
       "evidenceItemIds": [
         "news_b64bab02baac",
         "news_3a1520444866"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_ea975bae2954",
-      "title": "特朗普：没有指示贝森特干预债券市场",
-      "firstSeenAt": "2026-08-22T01:54:37.843Z",
-      "lastSeenAt": "2026-08-23T08:55:24.109Z",
-      "primaryItemId": "news_6da581a363fd",
-      "evidenceItemIds": [
-        "news_fd0f00aa6e79",
-        "news_6da581a363fd",
-        "news_e07712cc3b01"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_883d765a0235",
-      "title": "桥水达利欧警告：债务危机或三年内爆发！建议考虑这类资产",
-      "firstSeenAt": "2026-08-22T01:54:37.843Z",
-      "lastSeenAt": "2026-08-23T08:55:24.109Z",
-      "primaryItemId": "news_5c639cfcc553",
-      "evidenceItemIds": [
-        "news_88a722b42f5f",
-        "news_05edaef82cab",
-        "news_5c639cfcc553",
-        "news_15055720937b"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_6ee1ec96ce9a",
-      "title": "建设新一代通信网，国常会再做这些部署",
-      "firstSeenAt": "2026-08-22T01:54:37.843Z",
-      "lastSeenAt": "2026-08-23T08:55:24.109Z",
-      "primaryItemId": "news_de8a804f8408",
-      "evidenceItemIds": [
-        "news_8938ffa97211",
-        "news_cb3c9de4ab94",
-        "news_de8a804f8408"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_419477d31263",
-      "title": "国产闪存龙头长存控股科创板IPO获受理 拟募资330亿元",
-      "firstSeenAt": "2026-08-22T01:54:37.843Z",
-      "lastSeenAt": "2026-08-23T08:55:24.109Z",
-      "primaryItemId": "news_5af60c03d7b4",
-      "evidenceItemIds": [
-        "news_c121d4e9137b",
-        "news_cea1154e8587",
-        "news_5af60c03d7b4"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_faac4b9f2bd8",
-      "title": "Anthropic计划IPO募资超1000亿美元 投资者却发出一连串质疑",
-      "firstSeenAt": "2026-08-22T04:49:56.049Z",
-      "lastSeenAt": "2026-08-23T08:55:24.109Z",
-      "primaryItemId": "news_1d7c95068d75",
-      "evidenceItemIds": [
-        "news_1d7c95068d75",
-        "news_3a13bd428308"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_5e45843a3086",
-      "title": "新股消息 | 锂电池电解液供货商昆仑新材二次递表港交所 上半年利润约1.48亿元",
-      "firstSeenAt": "2026-08-22T08:51:48.241Z",
-      "lastSeenAt": "2026-08-23T08:55:24.109Z",
-      "primaryItemId": "news_51f14e727e93",
-      "evidenceItemIds": [
-        "news_874275c5bf24",
-        "news_62a7d56efc0b",
-        "news_51d4251964ca",
-        "news_0a1f76aa904b",
-        "news_9a10e15fce24",
-        "news_4dc576957d6f",
-        "news_51f14e727e93",
-        "news_fc011d8ed341",
-        "news_66d551b452e7"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_f3f96881c748",
-      "title": "美加谈判破裂！美国对部分加拿大商品加征50%关税，加拿大酝酿反制",
-      "firstSeenAt": "2026-08-22T13:07:29.084Z",
-      "lastSeenAt": "2026-08-23T08:55:24.109Z",
-      "primaryItemId": "news_c3eaf4b12e5d",
-      "evidenceItemIds": [
-        "news_c3eaf4b12e5d",
-        "news_1f7e7f2222c0"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_116104a201fa",
-      "title": "新股消息 | 益方生物(688382.SH)二次递表港交所 报告期内暂未实现扭亏",
-      "firstSeenAt": "2026-08-22T13:07:29.084Z",
-      "lastSeenAt": "2026-08-23T08:55:24.109Z",
-      "primaryItemId": "news_133e587ba8ee",
-      "evidenceItemIds": [
-        "news_04d7b222ad98",
-        "news_6205c0ccf007",
-        "news_133e587ba8ee"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_a6ccbde5e1f8",
-      "title": "AI周报|阿里预计AI算力投入三年内回本；OpenAI计划2027年上市",
-      "firstSeenAt": "2026-08-20T13:18:27.421Z",
-      "lastSeenAt": "2026-08-23T08:55:24.109Z",
-      "primaryItemId": "news_772d143cbde2",
-      "evidenceItemIds": [
-        "news_24cef6c227a4",
-        "news_094cbb2517eb",
-        "news_772d143cbde2"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_37605779c26f",
-      "title": "天士力上半年归母净利润增长 15.23%",
-      "firstSeenAt": "2026-08-06T03:43:23.319Z",
-      "lastSeenAt": "2026-08-23T08:55:24.109Z",
-      "primaryItemId": "news_b809325cf6b0",
-      "evidenceItemIds": [
-        "news_98db92a681f9",
-        "news_b7c6d7f1191d",
-        "news_ed7bc1ee49bf",
-        "news_e920cb2f7649",
-        "news_aaf00be4a484",
-        "news_ceaa0de7a200",
-        "news_110eeadbabe6",
-        "news_dd74910db663",
-        "news_4f43447d8d36",
-        "news_ed872b8ea5e1",
-        "news_fe17a22dfb43",
-        "news_47004c79647c",
-        "news_a186a8690592",
-        "news_ecd916578974",
-        "news_1b6935f9d3db",
-        "news_5a6f4dae6f5b",
-        "news_5879c10fb001",
-        "news_56c703bebfff",
-        "news_3ab12ce09836",
-        "news_58ca5eee5279",
-        "news_436f2ec78448",
-        "news_88df5a959955",
-        "news_69131d269dff",
-        "news_8cdf154d8c9c",
-        "news_0dd15ebfc3d5",
-        "news_5124bebf98d8",
-        "news_4943a53a162f",
-        "news_780888ed6310",
-        "news_b14d2e2673c6",
-        "news_88fed746b47c",
-        "news_afea8faf650b",
-        "news_f996def0d165",
-        "news_f43a7f4a3f36",
-        "news_b9bcb027de5b",
-        "news_0e106b70dd6a",
-        "news_b3d6a59bfa57",
-        "news_13a4af695fa8",
-        "news_fb8f618077f8",
-        "news_23e7df3b0eea",
-        "news_0fff860c706e",
-        "news_3865a76c6dbc",
-        "news_980483b88d1f",
-        "news_f0e1dd82f223",
-        "news_e0407db58cef",
-        "news_b809325cf6b0",
-        "news_737c4bc9f7c1",
-        "news_8276c4b84236",
-        "news_8148dbdc4662",
-        "news_35f6eaf289f5",
-        "news_f3f4cd2196f3"
       ],
       "status": "developing"
     },
@@ -296,47 +364,6 @@
         "news_5a9f654d6898",
         "news_517cdf4c3cde",
         "news_46b3a4bf7bb9"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_bea5ea0275c8",
-      "title": "恒铭达(002947.SZ)发布上半年业绩，归母净利润2.54亿元，同比增长8.21%",
-      "firstSeenAt": "2026-08-21T09:02:20.963Z",
-      "lastSeenAt": "2026-08-23T08:55:24.109Z",
-      "primaryItemId": "news_9d33c0e71c45",
-      "evidenceItemIds": [
-        "news_edff2605e18a",
-        "news_5738d8a463b4",
-        "news_aa765d5d58a1",
-        "news_018c7eba4b90",
-        "news_ca83becbdb90",
-        "news_6f19092e16fa",
-        "news_4984ef6a39fc",
-        "news_b64db43809f9",
-        "news_2b92e3dcb68e",
-        "news_95042335a953",
-        "news_c44a761d7f62",
-        "news_a08c79f468d1",
-        "news_cf820ac6138c",
-        "news_1237533f5ef3",
-        "news_9d33c0e71c45",
-        "news_db29565d8858",
-        "news_80b9c0f49b66",
-        "news_3867bc787e9a"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_e8f30d17f4bd",
-      "title": "陈东升卸任泰康CEO 总裁刘挺军接任",
-      "firstSeenAt": "2026-08-23T08:55:24.109Z",
-      "lastSeenAt": "2026-08-23T08:55:24.109Z",
-      "primaryItemId": "news_7094eab45020",
-      "evidenceItemIds": [
-        "news_7094eab45020",
-        "news_2094f2d36bd8",
-        "news_2e1d4b624e2e"
       ],
       "status": "developing"
     },

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-08-23T04:54:41.506Z",
+  "generatedAt": "2026-08-23T08:55:24.109Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -8,7 +8,7 @@
       "eventId": "event_91fb625edcc6",
       "title": "华尔街见闻早餐FM-Radio | 2026年8月22日",
       "firstSeenAt": "2026-08-01T03:54:06.184Z",
-      "lastSeenAt": "2026-08-23T04:54:41.506Z",
+      "lastSeenAt": "2026-08-23T08:55:24.109Z",
       "primaryItemId": "news_9b6eace71407",
       "evidenceItemIds": [
         "news_17edaa318161",
@@ -37,7 +37,7 @@
       "eventId": "event_156f31e886dc",
       "title": "报道：Anthropic的IPO招股书将把AI反弹情绪列为风险因素",
       "firstSeenAt": "2026-08-22T01:54:37.843Z",
-      "lastSeenAt": "2026-08-23T04:54:41.506Z",
+      "lastSeenAt": "2026-08-23T08:55:24.109Z",
       "primaryItemId": "news_d7064a6e2398",
       "evidenceItemIds": [
         "news_d7064a6e2398",
@@ -49,7 +49,7 @@
       "eventId": "event_68c75dbe939a",
       "title": "美财长压降美债收益率点燃“货币贬值交易”！黄金创三个月新高，比特币单周暴涨超25%",
       "firstSeenAt": "2026-08-22T01:54:37.843Z",
-      "lastSeenAt": "2026-08-23T04:54:41.506Z",
+      "lastSeenAt": "2026-08-23T08:55:24.109Z",
       "primaryItemId": "news_b64bab02baac",
       "evidenceItemIds": [
         "news_b64bab02baac",
@@ -61,7 +61,7 @@
       "eventId": "event_ea975bae2954",
       "title": "特朗普：没有指示贝森特干预债券市场",
       "firstSeenAt": "2026-08-22T01:54:37.843Z",
-      "lastSeenAt": "2026-08-23T04:54:41.506Z",
+      "lastSeenAt": "2026-08-23T08:55:24.109Z",
       "primaryItemId": "news_6da581a363fd",
       "evidenceItemIds": [
         "news_fd0f00aa6e79",
@@ -74,7 +74,7 @@
       "eventId": "event_883d765a0235",
       "title": "桥水达利欧警告：债务危机或三年内爆发！建议考虑这类资产",
       "firstSeenAt": "2026-08-22T01:54:37.843Z",
-      "lastSeenAt": "2026-08-23T04:54:41.506Z",
+      "lastSeenAt": "2026-08-23T08:55:24.109Z",
       "primaryItemId": "news_5c639cfcc553",
       "evidenceItemIds": [
         "news_88a722b42f5f",
@@ -88,7 +88,7 @@
       "eventId": "event_6ee1ec96ce9a",
       "title": "建设新一代通信网，国常会再做这些部署",
       "firstSeenAt": "2026-08-22T01:54:37.843Z",
-      "lastSeenAt": "2026-08-23T04:54:41.506Z",
+      "lastSeenAt": "2026-08-23T08:55:24.109Z",
       "primaryItemId": "news_de8a804f8408",
       "evidenceItemIds": [
         "news_8938ffa97211",
@@ -101,7 +101,7 @@
       "eventId": "event_419477d31263",
       "title": "国产闪存龙头长存控股科创板IPO获受理 拟募资330亿元",
       "firstSeenAt": "2026-08-22T01:54:37.843Z",
-      "lastSeenAt": "2026-08-23T04:54:41.506Z",
+      "lastSeenAt": "2026-08-23T08:55:24.109Z",
       "primaryItemId": "news_5af60c03d7b4",
       "evidenceItemIds": [
         "news_c121d4e9137b",
@@ -114,7 +114,7 @@
       "eventId": "event_faac4b9f2bd8",
       "title": "Anthropic计划IPO募资超1000亿美元 投资者却发出一连串质疑",
       "firstSeenAt": "2026-08-22T04:49:56.049Z",
-      "lastSeenAt": "2026-08-23T04:54:41.506Z",
+      "lastSeenAt": "2026-08-23T08:55:24.109Z",
       "primaryItemId": "news_1d7c95068d75",
       "evidenceItemIds": [
         "news_1d7c95068d75",
@@ -126,7 +126,7 @@
       "eventId": "event_5e45843a3086",
       "title": "新股消息 | 锂电池电解液供货商昆仑新材二次递表港交所 上半年利润约1.48亿元",
       "firstSeenAt": "2026-08-22T08:51:48.241Z",
-      "lastSeenAt": "2026-08-23T04:54:41.506Z",
+      "lastSeenAt": "2026-08-23T08:55:24.109Z",
       "primaryItemId": "news_51f14e727e93",
       "evidenceItemIds": [
         "news_874275c5bf24",
@@ -145,7 +145,7 @@
       "eventId": "event_f3f96881c748",
       "title": "美加谈判破裂！美国对部分加拿大商品加征50%关税，加拿大酝酿反制",
       "firstSeenAt": "2026-08-22T13:07:29.084Z",
-      "lastSeenAt": "2026-08-23T04:54:41.506Z",
+      "lastSeenAt": "2026-08-23T08:55:24.109Z",
       "primaryItemId": "news_c3eaf4b12e5d",
       "evidenceItemIds": [
         "news_c3eaf4b12e5d",
@@ -157,7 +157,7 @@
       "eventId": "event_116104a201fa",
       "title": "新股消息 | 益方生物(688382.SH)二次递表港交所 报告期内暂未实现扭亏",
       "firstSeenAt": "2026-08-22T13:07:29.084Z",
-      "lastSeenAt": "2026-08-23T04:54:41.506Z",
+      "lastSeenAt": "2026-08-23T08:55:24.109Z",
       "primaryItemId": "news_133e587ba8ee",
       "evidenceItemIds": [
         "news_04d7b222ad98",
@@ -170,7 +170,7 @@
       "eventId": "event_a6ccbde5e1f8",
       "title": "AI周报|阿里预计AI算力投入三年内回本；OpenAI计划2027年上市",
       "firstSeenAt": "2026-08-20T13:18:27.421Z",
-      "lastSeenAt": "2026-08-23T04:54:41.506Z",
+      "lastSeenAt": "2026-08-23T08:55:24.109Z",
       "primaryItemId": "news_772d143cbde2",
       "evidenceItemIds": [
         "news_24cef6c227a4",
@@ -183,12 +183,9 @@
       "eventId": "event_37605779c26f",
       "title": "天士力上半年归母净利润增长 15.23%",
       "firstSeenAt": "2026-08-06T03:43:23.319Z",
-      "lastSeenAt": "2026-08-23T04:54:41.506Z",
+      "lastSeenAt": "2026-08-23T08:55:24.109Z",
       "primaryItemId": "news_b809325cf6b0",
       "evidenceItemIds": [
-        "news_a12982635a1e",
-        "news_0724b1177988",
-        "news_369aa9cdd761",
         "news_98db92a681f9",
         "news_b7c6d7f1191d",
         "news_ed7bc1ee49bf",
@@ -234,59 +231,21 @@
         "news_f0e1dd82f223",
         "news_e0407db58cef",
         "news_b809325cf6b0",
-        "news_737c4bc9f7c1"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_7173cf42f0b0",
-      "title": "从濒临出局到市值暴涨440亿美元：Moderna的癌症疫苗十年豪赌",
-      "firstSeenAt": "2026-08-20T01:54:52.482Z",
-      "lastSeenAt": "2026-08-22T13:07:29.084Z",
-      "primaryItemId": "news_172a510a701d",
-      "evidenceItemIds": [
-        "news_67c7101780e7",
-        "news_d23a16d9304a",
-        "news_172a510a701d"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_d475cd20b61c",
-      "title": "复宏汉霖(02696)上半年营收35.882亿元 海外产品销售收入同比增长159.4%",
-      "firstSeenAt": "2026-08-20T09:00:09.133Z",
-      "lastSeenAt": "2026-08-22T08:51:48.241Z",
-      "primaryItemId": "news_5de3e400f3a6",
-      "evidenceItemIds": [
-        "news_30252855e17e",
-        "news_bdc9b375a9cb",
-        "news_20a460ce12ea",
-        "news_d8c3affe3374",
-        "news_baacb6d2dc77",
-        "news_5de3e400f3a6"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_715147088aad",
-      "title": "财政部：1—7月全国一般公共预算收入同比增长5.8%，证券交易印花税激增99.2%",
-      "firstSeenAt": "2026-08-21T09:02:20.963Z",
-      "lastSeenAt": "2026-08-22T08:51:48.241Z",
-      "primaryItemId": "news_154732c6e487",
-      "evidenceItemIds": [
-        "news_154732c6e487",
-        "news_0010c6b3d5ca"
+        "news_737c4bc9f7c1",
+        "news_8276c4b84236",
+        "news_8148dbdc4662",
+        "news_35f6eaf289f5",
+        "news_f3f4cd2196f3"
       ],
       "status": "developing"
     },
     {
       "eventId": "event_c96714846ab4",
-      "title": "中兴商业：上半年净利润4596.17万元，同比下降5.87%",
+      "title": "中航成飞：上半年归母净利润7.09亿元，同比下降22.32%",
       "firstSeenAt": "2026-08-13T13:53:29.824Z",
-      "lastSeenAt": "2026-08-22T08:51:48.241Z",
-      "primaryItemId": "news_a4f681422544",
+      "lastSeenAt": "2026-08-23T08:55:24.109Z",
+      "primaryItemId": "news_46b3a4bf7bb9",
       "evidenceItemIds": [
-        "news_a81185a993bc",
         "news_5122e4ff39f7",
         "news_7ec18d878a39",
         "news_44e8ba9cacaf",
@@ -335,7 +294,90 @@
         "news_a4f681422544",
         "news_d8b1ae67dc47",
         "news_5a9f654d6898",
-        "news_517cdf4c3cde"
+        "news_517cdf4c3cde",
+        "news_46b3a4bf7bb9"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_bea5ea0275c8",
+      "title": "恒铭达(002947.SZ)发布上半年业绩，归母净利润2.54亿元，同比增长8.21%",
+      "firstSeenAt": "2026-08-21T09:02:20.963Z",
+      "lastSeenAt": "2026-08-23T08:55:24.109Z",
+      "primaryItemId": "news_9d33c0e71c45",
+      "evidenceItemIds": [
+        "news_edff2605e18a",
+        "news_5738d8a463b4",
+        "news_aa765d5d58a1",
+        "news_018c7eba4b90",
+        "news_ca83becbdb90",
+        "news_6f19092e16fa",
+        "news_4984ef6a39fc",
+        "news_b64db43809f9",
+        "news_2b92e3dcb68e",
+        "news_95042335a953",
+        "news_c44a761d7f62",
+        "news_a08c79f468d1",
+        "news_cf820ac6138c",
+        "news_1237533f5ef3",
+        "news_9d33c0e71c45",
+        "news_db29565d8858",
+        "news_80b9c0f49b66",
+        "news_3867bc787e9a"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_e8f30d17f4bd",
+      "title": "陈东升卸任泰康CEO 总裁刘挺军接任",
+      "firstSeenAt": "2026-08-23T08:55:24.109Z",
+      "lastSeenAt": "2026-08-23T08:55:24.109Z",
+      "primaryItemId": "news_7094eab45020",
+      "evidenceItemIds": [
+        "news_7094eab45020",
+        "news_2094f2d36bd8",
+        "news_2e1d4b624e2e"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_7173cf42f0b0",
+      "title": "从濒临出局到市值暴涨440亿美元：Moderna的癌症疫苗十年豪赌",
+      "firstSeenAt": "2026-08-20T01:54:52.482Z",
+      "lastSeenAt": "2026-08-22T13:07:29.084Z",
+      "primaryItemId": "news_172a510a701d",
+      "evidenceItemIds": [
+        "news_67c7101780e7",
+        "news_d23a16d9304a",
+        "news_172a510a701d"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_d475cd20b61c",
+      "title": "复宏汉霖(02696)上半年营收35.882亿元 海外产品销售收入同比增长159.4%",
+      "firstSeenAt": "2026-08-20T09:00:09.133Z",
+      "lastSeenAt": "2026-08-22T08:51:48.241Z",
+      "primaryItemId": "news_5de3e400f3a6",
+      "evidenceItemIds": [
+        "news_30252855e17e",
+        "news_bdc9b375a9cb",
+        "news_20a460ce12ea",
+        "news_d8c3affe3374",
+        "news_baacb6d2dc77",
+        "news_5de3e400f3a6"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_715147088aad",
+      "title": "财政部：1—7月全国一般公共预算收入同比增长5.8%，证券交易印花税激增99.2%",
+      "firstSeenAt": "2026-08-21T09:02:20.963Z",
+      "lastSeenAt": "2026-08-22T08:51:48.241Z",
+      "primaryItemId": "news_154732c6e487",
+      "evidenceItemIds": [
+        "news_154732c6e487",
+        "news_0010c6b3d5ca"
       ],
       "status": "developing"
     },
@@ -450,30 +492,6 @@
       "evidenceItemIds": [
         "news_5aee49989095",
         "news_361b63beb3fe"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_bea5ea0275c8",
-      "title": "中泰证券：上半年净利润17.52亿元，同比增长146.38%",
-      "firstSeenAt": "2026-08-21T09:02:20.963Z",
-      "lastSeenAt": "2026-08-22T04:49:56.049Z",
-      "primaryItemId": "news_cf820ac6138c",
-      "evidenceItemIds": [
-        "news_edff2605e18a",
-        "news_5738d8a463b4",
-        "news_aa765d5d58a1",
-        "news_018c7eba4b90",
-        "news_ca83becbdb90",
-        "news_6f19092e16fa",
-        "news_4984ef6a39fc",
-        "news_b64db43809f9",
-        "news_2b92e3dcb68e",
-        "news_95042335a953",
-        "news_c44a761d7f62",
-        "news_a08c79f468d1",
-        "news_cf820ac6138c",
-        "news_1237533f5ef3"
       ],
       "status": "developing"
     },

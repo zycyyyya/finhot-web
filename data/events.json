@@ -1,33 +1,21 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-08-23T13:06:54.652Z",
+  "generatedAt": "2026-08-24T02:02:55.116Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
-      "eventId": "event_ea975bae2954",
-      "title": "特朗普：没有指示贝森特干预债券市场",
-      "firstSeenAt": "2026-08-22T01:54:37.843Z",
-      "lastSeenAt": "2026-08-23T13:06:54.652Z",
-      "primaryItemId": "news_6da581a363fd",
-      "evidenceItemIds": [
-        "news_fd0f00aa6e79",
-        "news_6da581a363fd",
-        "news_e07712cc3b01"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_883d765a0235",
-      "title": "桥水达利欧警告：债务危机或三年内爆发！建议考虑这类资产",
+      "title": "【市场动态】达利欧建议抛债买黄金和比特币",
       "firstSeenAt": "2026-08-22T01:54:37.843Z",
-      "lastSeenAt": "2026-08-23T13:06:54.652Z",
-      "primaryItemId": "news_5c639cfcc553",
+      "lastSeenAt": "2026-08-24T02:02:55.116Z",
+      "primaryItemId": "news_cb2d397bd24d",
       "evidenceItemIds": [
         "news_88a722b42f5f",
         "news_05edaef82cab",
         "news_5c639cfcc553",
-        "news_15055720937b"
+        "news_15055720937b",
+        "news_cb2d397bd24d"
       ],
       "status": "developing"
     },
@@ -35,7 +23,7 @@
       "eventId": "event_6ee1ec96ce9a",
       "title": "建设新一代通信网，国常会再做这些部署",
       "firstSeenAt": "2026-08-22T01:54:37.843Z",
-      "lastSeenAt": "2026-08-23T13:06:54.652Z",
+      "lastSeenAt": "2026-08-24T02:02:55.116Z",
       "primaryItemId": "news_de8a804f8408",
       "evidenceItemIds": [
         "news_8938ffa97211",
@@ -46,26 +34,15 @@
     },
     {
       "eventId": "event_419477d31263",
-      "title": "国产闪存龙头长存控股科创板IPO获受理 拟募资330亿元",
+      "title": "盘前必读丨阿里巴巴拟配售800亿港元新股；长存控股科创板IPO获受理",
       "firstSeenAt": "2026-08-22T01:54:37.843Z",
-      "lastSeenAt": "2026-08-23T13:06:54.652Z",
-      "primaryItemId": "news_5af60c03d7b4",
+      "lastSeenAt": "2026-08-24T02:02:55.116Z",
+      "primaryItemId": "news_428cc6c89f05",
       "evidenceItemIds": [
         "news_c121d4e9137b",
         "news_cea1154e8587",
-        "news_5af60c03d7b4"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_faac4b9f2bd8",
-      "title": "Anthropic计划IPO募资超1000亿美元 投资者却发出一连串质疑",
-      "firstSeenAt": "2026-08-22T04:49:56.049Z",
-      "lastSeenAt": "2026-08-23T13:06:54.652Z",
-      "primaryItemId": "news_1d7c95068d75",
-      "evidenceItemIds": [
-        "news_1d7c95068d75",
-        "news_3a13bd428308"
+        "news_5af60c03d7b4",
+        "news_428cc6c89f05"
       ],
       "status": "developing"
     },
@@ -73,7 +50,7 @@
       "eventId": "event_5e45843a3086",
       "title": "新股消息 | 锂电池电解液供货商昆仑新材二次递表港交所 上半年利润约1.48亿元",
       "firstSeenAt": "2026-08-22T08:51:48.241Z",
-      "lastSeenAt": "2026-08-23T13:06:54.652Z",
+      "lastSeenAt": "2026-08-24T02:02:55.116Z",
       "primaryItemId": "news_51f14e727e93",
       "evidenceItemIds": [
         "news_874275c5bf24",
@@ -92,11 +69,12 @@
       "eventId": "event_f3f96881c748",
       "title": "美加谈判破裂！美国对部分加拿大商品加征50%关税，加拿大酝酿反制",
       "firstSeenAt": "2026-08-22T13:07:29.084Z",
-      "lastSeenAt": "2026-08-23T13:06:54.652Z",
+      "lastSeenAt": "2026-08-24T02:02:55.116Z",
       "primaryItemId": "news_c3eaf4b12e5d",
       "evidenceItemIds": [
         "news_c3eaf4b12e5d",
-        "news_1f7e7f2222c0"
+        "news_1f7e7f2222c0",
+        "news_1dbbdd7039a0"
       ],
       "status": "developing"
     },
@@ -104,7 +82,7 @@
       "eventId": "event_116104a201fa",
       "title": "新股消息 | 益方生物(688382.SH)二次递表港交所 报告期内暂未实现扭亏",
       "firstSeenAt": "2026-08-22T13:07:29.084Z",
-      "lastSeenAt": "2026-08-23T13:06:54.652Z",
+      "lastSeenAt": "2026-08-24T02:02:55.116Z",
       "primaryItemId": "news_133e587ba8ee",
       "evidenceItemIds": [
         "news_04d7b222ad98",
@@ -117,7 +95,7 @@
       "eventId": "event_a6ccbde5e1f8",
       "title": "AI周报|阿里预计AI算力投入三年内回本；OpenAI计划2027年上市",
       "firstSeenAt": "2026-08-20T13:18:27.421Z",
-      "lastSeenAt": "2026-08-23T13:06:54.652Z",
+      "lastSeenAt": "2026-08-24T02:02:55.116Z",
       "primaryItemId": "news_772d143cbde2",
       "evidenceItemIds": [
         "news_24cef6c227a4",
@@ -130,7 +108,7 @@
       "eventId": "event_37605779c26f",
       "title": "恒铭达(002947.SZ)发布上半年业绩，归母净利润2.54亿元，同比增长8.21%",
       "firstSeenAt": "2026-08-06T03:43:23.319Z",
-      "lastSeenAt": "2026-08-23T13:06:54.652Z",
+      "lastSeenAt": "2026-08-24T02:02:55.116Z",
       "primaryItemId": "news_9d33c0e71c45",
       "evidenceItemIds": [
         "news_aaf00be4a484",
@@ -190,7 +168,7 @@
       "eventId": "event_bea5ea0275c8",
       "title": "科远智慧(002380.SZ)发布上半年业绩，归母净利润1.62亿元，同比增长19.33%",
       "firstSeenAt": "2026-08-21T09:02:20.963Z",
-      "lastSeenAt": "2026-08-23T13:06:54.652Z",
+      "lastSeenAt": "2026-08-24T02:02:55.116Z",
       "primaryItemId": "news_80b9c0f49b66",
       "evidenceItemIds": [
         "news_edff2605e18a",
@@ -221,7 +199,7 @@
       "eventId": "event_e8f30d17f4bd",
       "title": "陈东升卸任泰康CEO 总裁刘挺军接任",
       "firstSeenAt": "2026-08-23T08:55:24.109Z",
-      "lastSeenAt": "2026-08-23T13:06:54.652Z",
+      "lastSeenAt": "2026-08-24T02:02:55.116Z",
       "primaryItemId": "news_7094eab45020",
       "evidenceItemIds": [
         "news_7094eab45020",
@@ -234,7 +212,7 @@
       "eventId": "event_d482877533cd",
       "title": "人民日报刊发“钟才文”文章：中国是世界经济增长的积极贡献者和强大稳定锚",
       "firstSeenAt": "2026-08-23T13:06:54.652Z",
-      "lastSeenAt": "2026-08-23T13:06:54.652Z",
+      "lastSeenAt": "2026-08-24T02:02:55.116Z",
       "primaryItemId": "news_6787aaf5c147",
       "evidenceItemIds": [
         "news_6787aaf5c147",
@@ -244,22 +222,25 @@
     },
     {
       "eventId": "event_aa4099da0ada",
-      "title": "剂泰科技-P(07666)获纳入恒生综合指数 9月7日起生效",
+      "title": "和铂医药-B(02142)被纳入恒生综合指数成份股",
       "firstSeenAt": "2026-08-23T13:06:54.652Z",
-      "lastSeenAt": "2026-08-23T13:06:54.652Z",
-      "primaryItemId": "news_dd6877fc31b2",
+      "lastSeenAt": "2026-08-24T02:02:55.116Z",
+      "primaryItemId": "news_96e81fe374f9",
       "evidenceItemIds": [
         "news_dd6877fc31b2",
-        "news_40ff95cc7b83"
+        "news_40ff95cc7b83",
+        "news_96e81fe374f9",
+        "news_a4dc2fdd1191",
+        "news_67af8364337a"
       ],
       "status": "developing"
     },
     {
       "eventId": "event_91fb625edcc6",
-      "title": "华尔街见闻早餐FM-Radio | 2026年8月22日",
+      "title": "华尔街见闻早餐FM-Radio | 2026年8月24日",
       "firstSeenAt": "2026-08-01T03:54:06.184Z",
-      "lastSeenAt": "2026-08-23T08:55:24.109Z",
-      "primaryItemId": "news_9b6eace71407",
+      "lastSeenAt": "2026-08-24T02:02:55.116Z",
+      "primaryItemId": "news_a6898d92a8d6",
       "evidenceItemIds": [
         "news_17edaa318161",
         "news_98deb5260008",
@@ -279,7 +260,199 @@
         "news_ce46b4659126",
         "news_6187cca76a84",
         "news_365d990ddc0a",
-        "news_9b6eace71407"
+        "news_9b6eace71407",
+        "news_a6898d92a8d6"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_529af3584dc2",
+      "title": "恒指低开0.88%，恒生科技指数跌1.11%",
+      "firstSeenAt": "2026-07-31T02:43:30.494Z",
+      "lastSeenAt": "2026-08-24T02:02:55.116Z",
+      "primaryItemId": "news_da40c026f648",
+      "evidenceItemIds": [
+        "news_1dd2743eb007",
+        "news_af1364619b24",
+        "news_e170ace73dc0",
+        "news_33f43c76814b",
+        "news_2675cce96b9a",
+        "news_6e822ac0babf",
+        "news_e8212d1a7d69",
+        "news_663f72230e2f",
+        "news_fd236545ab8d",
+        "news_da90b8ba791c",
+        "news_663b8633b560",
+        "news_163f09356678",
+        "news_90df26a11225",
+        "news_0105048e0696",
+        "news_100bf371b2a8",
+        "news_c6451e15adf9",
+        "news_5a5f5ff7ad17",
+        "news_084cbebc72c0",
+        "news_3cba95f4258f",
+        "news_d1cbb73f5840",
+        "news_12443196ab76",
+        "news_8f873e6a8d3c",
+        "news_a93f9e4799d9",
+        "news_50f4ea76994f",
+        "news_e247eea117e1",
+        "news_7c7da5efef24",
+        "news_52e2991daef2",
+        "news_dae0295ce191",
+        "news_a816974df43d",
+        "news_c1858bceeb50",
+        "news_3be203f2d778",
+        "news_21ee0b9fb11f",
+        "news_4a0d3d6b1b80",
+        "news_9ad084c58f34",
+        "news_8e56de0598da",
+        "news_9329393092b2",
+        "news_db6f05e3a62a",
+        "news_a67efbf791ea",
+        "news_3fbffa58cc34",
+        "news_4fd39e2b0bc4",
+        "news_da40c026f648",
+        "news_526f8c1f6ee0"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_a8100d5723df",
+      "title": "人民日报钟才文：我国宏观政策工具箱充足，逆周期调节空间依然较大，有条件根据形势变化出台务实管用的增量政策",
+      "firstSeenAt": "2026-07-31T03:54:17.991Z",
+      "lastSeenAt": "2026-08-24T02:02:55.116Z",
+      "primaryItemId": "news_864829b786d9",
+      "evidenceItemIds": [
+        "news_324cbc62a29f",
+        "news_afda7369f757",
+        "news_08d810415563",
+        "news_602c069a0d20",
+        "news_09f84fc6e349",
+        "news_6abd255be7c4",
+        "news_7ebe405378c5",
+        "news_9d21f5fa8af4",
+        "news_4d813664a7a5",
+        "news_ac158669d768",
+        "news_864829b786d9"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_81a565453948",
+      "title": "两市融资余额减少61.58亿元",
+      "firstSeenAt": "2026-08-18T01:54:05.956Z",
+      "lastSeenAt": "2026-08-24T02:02:55.116Z",
+      "primaryItemId": "news_558c7595de25",
+      "evidenceItemIds": [
+        "news_0a93e8c446a3",
+        "news_f7811b429cda",
+        "news_d1e361fcbae5",
+        "news_ff7f74ff751c",
+        "news_558c7595de25"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_5e8e3a94b56e",
+      "title": "央行8月24日开展3400亿元7天期逆回购操作",
+      "firstSeenAt": "2026-08-04T09:56:27.957Z",
+      "lastSeenAt": "2026-08-24T02:02:55.116Z",
+      "primaryItemId": "news_8ebfde650414",
+      "evidenceItemIds": [
+        "news_373d8891ffde",
+        "news_37c982038be7",
+        "news_7e94834f547e",
+        "news_2020354cf876",
+        "news_b8cbaf8f7c79",
+        "news_6a0d1f4c51bb",
+        "news_20a1d426916a",
+        "news_fb3711c4a3cc",
+        "news_eedf653e32e5",
+        "news_4e2e45c1f3f4",
+        "news_622e5831c6c9",
+        "news_8006e8b07568",
+        "news_df5551c7a506",
+        "news_ba8e358cf6b8",
+        "news_78dee1467856",
+        "news_abe31bc2e2cd",
+        "news_d0955321d730",
+        "news_9159d81c1737",
+        "news_8ebfde650414"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_d503019bc558",
+      "title": "TikTok支付4亿美元和解美国儿童隐私保护诉讼",
+      "firstSeenAt": "2026-08-24T02:02:55.116Z",
+      "lastSeenAt": "2026-08-24T02:02:55.116Z",
+      "primaryItemId": "news_b5f231efe0c3",
+      "evidenceItemIds": [
+        "news_b5f231efe0c3",
+        "news_8541ee32e3f3",
+        "news_1ef085c7a0e9"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_afcd9b42c489",
+      "title": "日本会重蹈“1997年亚洲金融危机”吗？",
+      "firstSeenAt": "2026-08-24T02:02:55.116Z",
+      "lastSeenAt": "2026-08-24T02:02:55.116Z",
+      "primaryItemId": "news_120dd0b5384f",
+      "evidenceItemIds": [
+        "news_120dd0b5384f",
+        "news_c57a9d14227e"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_07211bbe08bf",
+      "title": "阿里拟配股800亿港元，AI“吞金兽”考验大厂钱袋子",
+      "firstSeenAt": "2026-08-24T02:02:55.116Z",
+      "lastSeenAt": "2026-08-24T02:02:55.116Z",
+      "primaryItemId": "news_a4689a884dde",
+      "evidenceItemIds": [
+        "news_a4689a884dde",
+        "news_701ea7c93bd1"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_8e5878e81770",
+      "title": "港股公告掘金 | 艾美疫苗发布中期业绩，收入3.51亿元 将继续加速推进迭代狂犬系列疫苗等重磅产品的商业化落地与市场预热",
+      "firstSeenAt": "2026-08-24T02:02:55.116Z",
+      "lastSeenAt": "2026-08-24T02:02:55.116Z",
+      "primaryItemId": "news_c07d73450211",
+      "evidenceItemIds": [
+        "news_c07d73450211",
+        "news_a7295d1bad02"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_ea975bae2954",
+      "title": "特朗普：没有指示贝森特干预债券市场",
+      "firstSeenAt": "2026-08-22T01:54:37.843Z",
+      "lastSeenAt": "2026-08-23T13:06:54.652Z",
+      "primaryItemId": "news_6da581a363fd",
+      "evidenceItemIds": [
+        "news_fd0f00aa6e79",
+        "news_6da581a363fd",
+        "news_e07712cc3b01"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_faac4b9f2bd8",
+      "title": "Anthropic计划IPO募资超1000亿美元 投资者却发出一连串质疑",
+      "firstSeenAt": "2026-08-22T04:49:56.049Z",
+      "lastSeenAt": "2026-08-23T13:06:54.652Z",
+      "primaryItemId": "news_1d7c95068d75",
+      "evidenceItemIds": [
+        "news_1d7c95068d75",
+        "news_3a13bd428308"
       ],
       "status": "developing"
     },
@@ -575,56 +748,6 @@
       "status": "developing"
     },
     {
-      "eventId": "event_529af3584dc2",
-      "title": "恒指收涨1.21%，恒生科技指数涨1.4%",
-      "firstSeenAt": "2026-07-31T02:43:30.494Z",
-      "lastSeenAt": "2026-08-22T01:54:37.843Z",
-      "primaryItemId": "news_4fd39e2b0bc4",
-      "evidenceItemIds": [
-        "news_1dd2743eb007",
-        "news_af1364619b24",
-        "news_e170ace73dc0",
-        "news_33f43c76814b",
-        "news_2675cce96b9a",
-        "news_6e822ac0babf",
-        "news_e8212d1a7d69",
-        "news_663f72230e2f",
-        "news_fd236545ab8d",
-        "news_da90b8ba791c",
-        "news_663b8633b560",
-        "news_163f09356678",
-        "news_90df26a11225",
-        "news_0105048e0696",
-        "news_100bf371b2a8",
-        "news_c6451e15adf9",
-        "news_5a5f5ff7ad17",
-        "news_084cbebc72c0",
-        "news_3cba95f4258f",
-        "news_d1cbb73f5840",
-        "news_12443196ab76",
-        "news_8f873e6a8d3c",
-        "news_a93f9e4799d9",
-        "news_50f4ea76994f",
-        "news_e247eea117e1",
-        "news_7c7da5efef24",
-        "news_52e2991daef2",
-        "news_dae0295ce191",
-        "news_a816974df43d",
-        "news_c1858bceeb50",
-        "news_3be203f2d778",
-        "news_21ee0b9fb11f",
-        "news_4a0d3d6b1b80",
-        "news_9ad084c58f34",
-        "news_8e56de0598da",
-        "news_9329393092b2",
-        "news_db6f05e3a62a",
-        "news_a67efbf791ea",
-        "news_3fbffa58cc34",
-        "news_4fd39e2b0bc4"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_803c3eb3d663",
       "title": "美国债务破40万亿美元两党痛批，但国会难有实质行动？",
       "firstSeenAt": "2026-08-20T01:54:52.482Z",
@@ -676,26 +799,6 @@
         "news_095b8cbb5b08",
         "news_1c03b6a00223",
         "news_7c57d502363e"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_a8100d5723df",
-      "title": "廖岷：下半年财政部将及时谋划出台务实管用的增量政策",
-      "firstSeenAt": "2026-07-31T03:54:17.991Z",
-      "lastSeenAt": "2026-08-22T01:54:37.843Z",
-      "primaryItemId": "news_4d813664a7a5",
-      "evidenceItemIds": [
-        "news_324cbc62a29f",
-        "news_afda7369f757",
-        "news_08d810415563",
-        "news_602c069a0d20",
-        "news_09f84fc6e349",
-        "news_6abd255be7c4",
-        "news_7ebe405378c5",
-        "news_9d21f5fa8af4",
-        "news_4d813664a7a5",
-        "news_ac158669d768"
       ],
       "status": "developing"
     },
@@ -889,20 +992,6 @@
         "news_35bb37c05aae",
         "news_f1621298bb00",
         "news_06b518571150"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_81a565453948",
-      "title": "两市融资余额减少16.88亿元",
-      "firstSeenAt": "2026-08-18T01:54:05.956Z",
-      "lastSeenAt": "2026-08-21T09:02:20.963Z",
-      "primaryItemId": "news_ff7f74ff751c",
-      "evidenceItemIds": [
-        "news_0a93e8c446a3",
-        "news_f7811b429cda",
-        "news_d1e361fcbae5",
-        "news_ff7f74ff751c"
       ],
       "status": "developing"
     },
@@ -1143,34 +1232,6 @@
       "evidenceItemIds": [
         "news_cad0611236ee",
         "news_6d6e43a25fa6"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_5e8e3a94b56e",
-      "title": "央行今日开展950亿元7天逆回购操作",
-      "firstSeenAt": "2026-08-04T09:56:27.957Z",
-      "lastSeenAt": "2026-08-21T02:03:15.493Z",
-      "primaryItemId": "news_9159d81c1737",
-      "evidenceItemIds": [
-        "news_373d8891ffde",
-        "news_37c982038be7",
-        "news_7e94834f547e",
-        "news_2020354cf876",
-        "news_b8cbaf8f7c79",
-        "news_6a0d1f4c51bb",
-        "news_20a1d426916a",
-        "news_fb3711c4a3cc",
-        "news_eedf653e32e5",
-        "news_4e2e45c1f3f4",
-        "news_622e5831c6c9",
-        "news_8006e8b07568",
-        "news_df5551c7a506",
-        "news_ba8e358cf6b8",
-        "news_78dee1467856",
-        "news_abe31bc2e2cd",
-        "news_d0955321d730",
-        "news_9159d81c1737"
       ],
       "status": "developing"
     },

@@ -41,6 +41,7 @@ assert.ok(styles.includes('.content-filter-tab:focus-visible'));
 // Macro reference board on the home page (data-driven from the pipeline)
 assert.ok(!fs.existsSync(path.join(root, 'macro-2026-08.html')), 'internal macro file must not be published');
 assert.ok(fs.existsSync(path.join(root, 'scripts', 'macro-view.js')), 'missing macro-view.js');
+const macroViewScript = fs.readFileSync(path.join(root, 'scripts', 'macro-view.js'), 'utf8');
 assert.ok(indexHtml.includes('id="macroBoard"'));
 assert.ok(indexHtml.includes('scripts/macro-view.js'));
 assert.ok(indexHtml.includes('MacroBoard.render'));
@@ -48,12 +49,16 @@ assert.ok(indexHtml.indexOf('id="macroBoard"') < indexHtml.indexOf('class="filte
   'macro board must render above the filters');
 assert.ok(!dailyHtml.includes('id="macroBoard"'), 'daily page should no longer mount the macro board');
 assert.ok(!dailyHtml.includes('macro-2026-08.html'), 'daily page must not link the internal macro file');
+// The board only exposes pipeline-refreshed indicators; manual-verified rows stay out of the front-end view.
+assert.ok(macroViewScript.includes("ind.mode === 'auto'"),
+  'macro board must filter to auto-refreshed indicators only');
+assert.ok(!macroViewScript.includes('isStale'),
+  'manual-stale reminder was removed alongside manual rows');
 assert.ok(fetchScript.includes('publicMacro(macro)'));
 assert.ok(fetchScript.includes('formatMacroContext(macro)'));
 assert.ok(styles.includes('.macro-board-wrap'));
 assert.ok(styles.includes('.macro-board'));
 assert.ok(styles.includes('.macro-kpi-grid'));
-assert.ok(styles.includes('.macro-kpi-src'));
 assert.ok(styles.includes('.macro-dir-up'));
 assert.ok(styles.includes('.macro-dir-down'));
 assert.ok(styles.includes('.macro-board[hidden]'));

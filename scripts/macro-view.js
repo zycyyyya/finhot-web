@@ -20,8 +20,13 @@
   function render(boardId, macro) {
     var board = document.getElementById(boardId);
     if (!board) return;
-    var indicators = macro && Array.isArray(macro.indicators) ? macro.indicators : [];
-    if (indicators.length === 0) return;
+    var all = macro && Array.isArray(macro.indicators) ? macro.indicators : [];
+    // 看板只展示可每日自动刷新的指标；人工核实项不出现在前端以免误导。
+    var indicators = all.filter(function (ind) { return ind && ind.mode === 'auto'; });
+    if (indicators.length === 0) {
+      board.hidden = true;
+      return;
+    }
 
     var latestAsOf = indicators.reduce(function (max, ind) {
       return ind && ind.asOf && ind.asOf > max ? ind.asOf : max;
@@ -39,27 +44,15 @@
     var metaEl = board.querySelector('.macro-board-issue');
     if (metaEl) metaEl.textContent = metaText.join(' · ');
 
-    var isStale = latestAsOf
-      ? (Date.now() - new Date(latestAsOf + 'T00:00:00Z').getTime()) > 45 * 86400000
-      : false;
-
     var html = '';
     indicators.forEach(function (ind) {
       var dirClass = ind.direction === 'up' ? 'macro-dir-up' : (ind.direction === 'down' ? 'macro-dir-down' : '');
       html += '<div class="macro-kpi">';
-      var modeLabel = ind.mode === 'auto' ? '自动' : '人工核实';
       html += '  <div class="macro-kpi-name">' + escapeHtml(ind.name || '') + '</div>';
       html += '  <div class="macro-kpi-val">' + escapeHtml(ind.value || '') + '</div>';
-      html += '  <div class="macro-kpi-note ' + dirClass + '">' + escapeHtml(ind.note || '')
-        + '<span class="macro-kpi-mode">' + escapeHtml(modeLabel) + '</span></div>';
+      html += '  <div class="macro-kpi-note ' + dirClass + '">' + escapeHtml(ind.note || '') + '</div>';
       html += '</div>';
     });
-
-    if (isStale) {
-      html += '<div class="macro-kpi macro-kpi-stale"><div class="macro-kpi-name">更新提醒</div>'
-        + '<div class="macro-kpi-val">待核实</div>'
-        + '<div class="macro-kpi-note macro-dir-up">人工核实项已超过 45 天未复核</div></div>';
-    }
 
     var gridEl = board.querySelector('.macro-kpi-grid');
     if (gridEl) gridEl.innerHTML = html;

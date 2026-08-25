@@ -1,15 +1,15 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-08-25T01:57:48.726Z",
+  "generatedAt": "2026-08-25T04:55:06.987Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
       "eventId": "event_bea5ea0275c8",
-      "title": "万华化学：2026年上半年净利润100.63亿元，同比增长64.35%",
+      "title": "奥克股份：2026年上半年净利润6153.97万元，同比增长4,621.13%",
       "firstSeenAt": "2026-08-21T09:02:20.963Z",
-      "lastSeenAt": "2026-08-25T01:57:48.726Z",
-      "primaryItemId": "news_1c7501b82b60",
+      "lastSeenAt": "2026-08-25T04:55:06.987Z",
+      "primaryItemId": "news_e4fed65e2353",
       "evidenceItemIds": [
         "news_edff2605e18a",
         "news_5738d8a463b4",
@@ -49,10 +49,10 @@
     },
     {
       "eventId": "event_529af3584dc2",
-      "title": "恒指开盘涨0.46%，恒生科技指数涨0.18%",
+      "title": "恒指午间休盘跌0.25%，恒生科技指数跌0.75%",
       "firstSeenAt": "2026-07-31T02:43:30.494Z",
-      "lastSeenAt": "2026-08-25T01:57:48.726Z",
-      "primaryItemId": "news_36c33b7efa7a",
+      "lastSeenAt": "2026-08-25T04:55:06.987Z",
+      "primaryItemId": "news_3ce688620f6b",
       "evidenceItemIds": [
         "news_1dd2743eb007",
         "news_af1364619b24",
@@ -98,7 +98,8 @@
         "news_526f8c1f6ee0",
         "news_f24a647a25f0",
         "news_a8e3b50883ac",
-        "news_36c33b7efa7a"
+        "news_36c33b7efa7a",
+        "news_3ce688620f6b"
       ],
       "status": "developing"
     },
@@ -106,7 +107,7 @@
       "eventId": "event_5e8e3a94b56e",
       "title": "央行公开市场开展3860亿元7天期逆回购操作",
       "firstSeenAt": "2026-08-04T09:56:27.957Z",
-      "lastSeenAt": "2026-08-25T01:57:48.726Z",
+      "lastSeenAt": "2026-08-25T04:55:06.987Z",
       "primaryItemId": "news_9104f40fe1c5",
       "evidenceItemIds": [
         "news_373d8891ffde",
@@ -130,6 +131,481 @@
         "news_8ebfde650414",
         "news_d2926b962651",
         "news_9104f40fe1c5"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_32967e3730b8",
+      "title": "美股大型科技股盘前多数下跌，闪迪跌超5%",
+      "firstSeenAt": "2026-08-03T15:23:32.854Z",
+      "lastSeenAt": "2026-08-25T04:55:06.987Z",
+      "primaryItemId": "news_ce8d9d35ffad",
+      "evidenceItemIds": [
+        "news_8394862df655",
+        "news_b8561adf7643",
+        "news_8b0ae127cd97",
+        "news_69866ab410e2",
+        "news_df9f7f47921a",
+        "news_d3b1a6fd627e",
+        "news_42ca90256576",
+        "news_04a959a73a68",
+        "news_92257b4a2373",
+        "news_9078b6a91c76",
+        "news_47c824b8354b",
+        "news_a1473e93f9d4",
+        "news_d9743ef9e935",
+        "news_734d74c93284",
+        "news_7a77b49fc9c2",
+        "news_83e7d960009d",
+        "news_05bd36ad0d77",
+        "news_045068d1edcf",
+        "news_d5c174d9c938",
+        "news_5d452c2d5e52",
+        "news_09ef190df7fd",
+        "news_e65153aa735d",
+        "news_0eb4388c732a",
+        "news_a68f0b461e3d",
+        "news_7a48b08815f8",
+        "news_32f9f080ed6c",
+        "news_cdf64bc47c62",
+        "news_22afba3862a0",
+        "news_8657bacfb96d",
+        "news_57eab53dfe2f",
+        "news_190e072a9adf",
+        "news_ce8d9d35ffad"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_202dd878fa19",
+      "title": "晚间公告｜8月24日这些公告有看头",
+      "firstSeenAt": "2026-07-31T14:43:32.623Z",
+      "lastSeenAt": "2026-08-25T04:55:06.987Z",
+      "primaryItemId": "news_60885ba55001",
+      "evidenceItemIds": [
+        "news_eaf56a2f5345",
+        "news_8b256f193830",
+        "news_58fdd88ca5ff",
+        "news_4cac4c806a4b",
+        "news_f202b91c5619",
+        "news_c91687230a2c",
+        "news_958c3f39adb1",
+        "news_a328d8732020",
+        "news_042b264c9695",
+        "news_0f321ef4412b",
+        "news_6fe4b8332584",
+        "news_f755ad25cd3e",
+        "news_6d13f9de9d52",
+        "news_bd988cf929f3",
+        "news_a6888af31e73",
+        "news_8429689faaae",
+        "news_f88525090167",
+        "news_0ab1f5803307",
+        "news_141a625db923",
+        "news_9ac737e4924a",
+        "news_60885ba55001"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_73f4b1fb41a8",
+      "title": "龙虎榜丨机构今日买入这14股，卖出湖南白银2.58亿元",
+      "firstSeenAt": "2026-08-03T11:50:30.990Z",
+      "lastSeenAt": "2026-08-25T04:55:06.987Z",
+      "primaryItemId": "news_28eb220b6d7d",
+      "evidenceItemIds": [
+        "news_de7d0ba05e16",
+        "news_e7a76dcea2a8",
+        "news_d9bbbfd32f43",
+        "news_9d97988a8b31",
+        "news_f8e689022fb3",
+        "news_a41d521c5c53",
+        "news_50b190578187",
+        "news_45437b89e860",
+        "news_d1e40824a959",
+        "news_d35397f00f85",
+        "news_28eb220b6d7d"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_9694f81f70fe",
+      "title": "港股公告精选｜鸣鸣很忙中期盈利同比增超150% 国药控股上半年营收超2800亿元",
+      "firstSeenAt": "2026-08-21T13:20:40.645Z",
+      "lastSeenAt": "2026-08-25T04:55:06.987Z",
+      "primaryItemId": "news_b1fe560b24aa",
+      "evidenceItemIds": [
+        "news_025370104945",
+        "news_4d195d3ead14",
+        "news_b1fe560b24aa"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_aa421fac4320",
+      "title": "国轩高科上半年净利润同比增长278%，动力电池市场份额升至全球第五 | 财报见闻",
+      "firstSeenAt": "2026-08-20T13:18:27.421Z",
+      "lastSeenAt": "2026-08-25T04:55:06.987Z",
+      "primaryItemId": "news_bc3abfd6a45b",
+      "evidenceItemIds": [
+        "news_caf3b029019b",
+        "news_f42e77ae4bb2",
+        "news_4dda17e5f3e4",
+        "news_c7280498136f",
+        "news_1237533f5ef3",
+        "news_93016b32a941",
+        "news_bc3abfd6a45b",
+        "news_dbd25c8f39ba"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_39b5734bfd24",
+      "title": "千里科技：上半年净利润 0.78 亿元，同比增长151.25%",
+      "firstSeenAt": "2026-07-31T02:43:30.494Z",
+      "lastSeenAt": "2026-08-25T04:55:06.987Z",
+      "primaryItemId": "news_e5014d2541a6",
+      "evidenceItemIds": [
+        "news_4b97eac4af23",
+        "news_7310dc7190ba",
+        "news_594ffc4d1b97",
+        "news_ecd916578974",
+        "news_a2c55a87c444",
+        "news_bc848fed43d3",
+        "news_5b5b3cac6b3e",
+        "news_55003f743e0e",
+        "news_5855e7f84da4",
+        "news_8d68cb0b97de",
+        "news_142fff82025e",
+        "news_f1f5f76e8499",
+        "news_2d0771624507",
+        "news_0959f881f786",
+        "news_47a29c1d7178",
+        "news_f428ad970092",
+        "news_6b2360723163",
+        "news_0bddd30f1d0b",
+        "news_b0cb6c396c24",
+        "news_b8706f918816",
+        "news_5a1e25f8c726",
+        "news_cc2ceab7818e",
+        "news_e5014d2541a6",
+        "news_d1949b5472cd"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_c63ef507abb3",
+      "title": "沙特阿拉伯股市上涨；截至收盘沙特阿拉伯TASI指数上涨0.86%",
+      "firstSeenAt": "2026-08-17T13:14:13.230Z",
+      "lastSeenAt": "2026-08-25T04:55:06.987Z",
+      "primaryItemId": "news_d234caade81b",
+      "evidenceItemIds": [
+        "news_66037f2211e0",
+        "news_ebf4ddb5793f",
+        "news_d234caade81b",
+        "news_70b83177e78f"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_25a01be8f771",
+      "title": "优必选等在常州成立新公司，注册资本5000万",
+      "firstSeenAt": "2026-08-07T09:19:21.190Z",
+      "lastSeenAt": "2026-08-25T04:55:06.987Z",
+      "primaryItemId": "news_661000897c42",
+      "evidenceItemIds": [
+        "news_0a89162cc328",
+        "news_1d889a3e90ea",
+        "news_76556d64b846",
+        "news_b871e430af91",
+        "news_e14bd43495a7",
+        "news_06e19159faaa",
+        "news_22856b17b8da",
+        "news_cab7f6842d40",
+        "news_d7d746e05e93",
+        "news_19380b213065",
+        "news_c221637b3565",
+        "news_9952f0a0ccd1",
+        "news_012a8125b681",
+        "news_bb3168b6ffd2",
+        "news_4c554d47d314",
+        "news_ec304686a3b9",
+        "news_895de86fb515",
+        "news_b5262f19fde7",
+        "news_661000897c42",
+        "news_9de3d20b34f9"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_0714fff68756",
+      "title": "工信部公开征求《国家脑机接口产业标准体系建设指南（2026版）》（征求意见稿）意见",
+      "firstSeenAt": "2026-08-24T13:18:54.985Z",
+      "lastSeenAt": "2026-08-25T04:55:06.987Z",
+      "primaryItemId": "news_1169a5692e0d",
+      "evidenceItemIds": [
+        "news_1169a5692e0d",
+        "news_8ea1b1c31cc3"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_1b7c4b5946fc",
+      "title": "美债延续涨势！报道：贝森特或动用近万亿美元国库账户，为债券回购提供资金",
+      "firstSeenAt": "2026-08-24T13:18:54.985Z",
+      "lastSeenAt": "2026-08-25T04:55:06.987Z",
+      "primaryItemId": "news_1b997f769dfd",
+      "evidenceItemIds": [
+        "news_1b997f769dfd",
+        "news_74186a62efa0"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_d8f75f85fb9f",
+      "title": "英伟达拟投资AI初创公司Perplexity，估值或超300亿美元",
+      "firstSeenAt": "2026-08-24T13:18:54.985Z",
+      "lastSeenAt": "2026-08-25T04:55:06.987Z",
+      "primaryItemId": "news_550b9ec26930",
+      "evidenceItemIds": [
+        "news_550b9ec26930",
+        "news_69c93763305a"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_f06494a6f36d",
+      "title": "上海：推进高性能算力芯片、通用处理器芯片、存储芯片、互联芯片和智能传感器达到国际先进水平",
+      "firstSeenAt": "2026-08-24T13:18:54.985Z",
+      "lastSeenAt": "2026-08-25T04:55:06.987Z",
+      "primaryItemId": "news_1066e1a0197f",
+      "evidenceItemIds": [
+        "news_1066e1a0197f",
+        "news_0b6d1fe7dfa2"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_7d743503f45b",
+      "title": "半导体破位、光通信回吐，科技缩圈反弹后迎二次调整",
+      "firstSeenAt": "2026-08-24T13:18:54.985Z",
+      "lastSeenAt": "2026-08-25T04:55:06.987Z",
+      "primaryItemId": "news_9747051e91b7",
+      "evidenceItemIds": [
+        "news_9747051e91b7",
+        "news_16a290a25b11"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_91fb625edcc6",
+      "title": "华尔街见闻早餐FM-Radio | 2026年8月25日",
+      "firstSeenAt": "2026-08-01T03:54:06.184Z",
+      "lastSeenAt": "2026-08-25T04:55:06.987Z",
+      "primaryItemId": "news_3db9c3529da4",
+      "evidenceItemIds": [
+        "news_17edaa318161",
+        "news_98deb5260008",
+        "news_d6ded5ce3d23",
+        "news_ce5450193ef2",
+        "news_c703d5c64965",
+        "news_f283b8db4f69",
+        "news_1192f017766c",
+        "news_13a9ec382c84",
+        "news_56f2fe7df40c",
+        "news_4bcfcf17662a",
+        "news_1e16c7e47c8f",
+        "news_42d80422ca92",
+        "news_f8de29856631",
+        "news_7c9d70564092",
+        "news_64e205ea0eff",
+        "news_ce46b4659126",
+        "news_6187cca76a84",
+        "news_365d990ddc0a",
+        "news_9b6eace71407",
+        "news_a6898d92a8d6",
+        "news_3db9c3529da4"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_c60105a1fda2",
+      "title": "【市场动态】美国财政部或动用现金储备购债",
+      "firstSeenAt": "2026-08-25T01:57:48.726Z",
+      "lastSeenAt": "2026-08-25T04:55:06.987Z",
+      "primaryItemId": "news_a9a0064c9672",
+      "evidenceItemIds": [
+        "news_a9a0064c9672",
+        "news_e94a51415ee7"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_299d1f5750f5",
+      "title": "T早报｜拼多多二季度继续增收不增利；蔡崇信吴泳铭增持1.2亿港元阿里股票；小米发布三款自研芯片",
+      "firstSeenAt": "2026-08-25T01:57:48.726Z",
+      "lastSeenAt": "2026-08-25T04:55:06.987Z",
+      "primaryItemId": "news_a4044462200d",
+      "evidenceItemIds": [
+        "news_a4044462200d",
+        "news_f13b1bcaadb1",
+        "news_8c84c746a1f5"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_21d9d435085d",
+      "title": "财经早知道｜国管公积金新政 首套房最高可贷款340万元",
+      "firstSeenAt": "2026-08-25T01:57:48.726Z",
+      "lastSeenAt": "2026-08-25T04:55:06.987Z",
+      "primaryItemId": "news_9b493074b3a0",
+      "evidenceItemIds": [
+        "news_87826043806e",
+        "news_9b493074b3a0"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_a79e6522f9d8",
+      "title": "小鹏机器人首轮融资9亿美元、估值63亿美元刷新纪录，二季度净亏损却同比扩大近1.8倍",
+      "firstSeenAt": "2026-08-25T01:57:48.726Z",
+      "lastSeenAt": "2026-08-25T04:55:06.987Z",
+      "primaryItemId": "news_65fb203e084b",
+      "evidenceItemIds": [
+        "news_65fb203e084b",
+        "news_70eae60487a1"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_dc36d15b05fd",
+      "title": "“易中天”半年报全部出炉：上半年共赚了223亿元",
+      "firstSeenAt": "2026-08-25T01:57:48.726Z",
+      "lastSeenAt": "2026-08-25T04:55:06.987Z",
+      "primaryItemId": "news_76d246149c4f",
+      "evidenceItemIds": [
+        "news_76d246149c4f",
+        "news_6adc5ff403a5"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_a2ff21242227",
+      "title": "中信证券：银行板块半年报信号积极，全年绝对收益料将延续",
+      "firstSeenAt": "2026-08-25T01:57:48.726Z",
+      "lastSeenAt": "2026-08-25T04:55:06.987Z",
+      "primaryItemId": "news_47cc92b591ab",
+      "evidenceItemIds": [
+        "news_47cc92b591ab",
+        "news_3176369c32cf"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_d0a4f7f6abd4",
+      "title": "A股三大指数午间休盘集体下跌，半导体领跌",
+      "firstSeenAt": "2026-07-31T02:27:13.623Z",
+      "lastSeenAt": "2026-08-25T04:55:06.987Z",
+      "primaryItemId": "news_32c8920691ed",
+      "evidenceItemIds": [
+        "news_69277baadba1",
+        "news_ad373c949e7b",
+        "news_de2c7c0610be",
+        "news_1bc045c14611",
+        "news_65a42acd7dfb",
+        "news_62c7595d3886",
+        "news_cf4bee0d18ed",
+        "news_fdebad6d73cd",
+        "news_a88e3ff8e5e9",
+        "news_c34459d4f144",
+        "news_e03ba96b1400",
+        "news_3d263ba680a0",
+        "news_b62968d2915d",
+        "news_05fc3aac4b11",
+        "news_8afec1bd643c",
+        "news_ff026a351845",
+        "news_077141bb9683",
+        "news_c7e34b7eb524",
+        "news_38178eb9b7b3",
+        "news_e20dc4be13e9",
+        "news_bea63da99de1",
+        "news_9f0d56fa0999",
+        "news_7db924622b7b",
+        "news_9f44f0e5a0c5",
+        "news_f180b23bab98",
+        "news_2fca510a8c97",
+        "news_af2342a3a0b7",
+        "news_e546bd45bb1e",
+        "news_2ffe01127139",
+        "news_0a0262757687",
+        "news_3f0736088b94",
+        "news_4c28ca80503e",
+        "news_32c8920691ed"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_538a7904636d",
+      "title": "半日主力资金加仓电子股，抛售有色金属板块",
+      "firstSeenAt": "2026-08-10T05:44:40.094Z",
+      "lastSeenAt": "2026-08-25T04:55:06.987Z",
+      "primaryItemId": "news_1ac47d575af5",
+      "evidenceItemIds": [
+        "news_362d47e51e31",
+        "news_b45ce18ba023",
+        "news_1d28e72bb2ae",
+        "news_1ac47d575af5",
+        "news_47d391102050"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_fbbfe5b199ee",
+      "title": "国内品牌金饰克价重回1400元",
+      "firstSeenAt": "2026-08-08T09:05:33.315Z",
+      "lastSeenAt": "2026-08-25T04:55:06.987Z",
+      "primaryItemId": "news_25f114e596c6",
+      "evidenceItemIds": [
+        "news_6b8812b86a80",
+        "news_71276dc15d61",
+        "news_25f114e596c6",
+        "news_b8c3cf4dd640"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_8914a9efb868",
+      "title": "贝森特干预债市：效果不明、后果堪忧",
+      "firstSeenAt": "2026-08-25T04:55:06.987Z",
+      "lastSeenAt": "2026-08-25T04:55:06.987Z",
+      "primaryItemId": "news_7115e80506d9",
+      "evidenceItemIds": [
+        "news_7115e80506d9",
+        "news_56cba2969997"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_abffd11d3072",
+      "title": "人形机器人运动会，投资人在看什么？",
+      "firstSeenAt": "2026-08-25T04:55:06.987Z",
+      "lastSeenAt": "2026-08-25T04:55:06.987Z",
+      "primaryItemId": "news_464b4f8bf55a",
+      "evidenceItemIds": [
+        "news_464b4f8bf55a",
+        "news_3b86fa80e7e3"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_df6249430508",
+      "title": "亚洲股市周二下跌，科技股承压，市场静待Nvidia财报",
+      "firstSeenAt": "2026-08-25T04:55:06.987Z",
+      "lastSeenAt": "2026-08-25T04:55:06.987Z",
+      "primaryItemId": "news_cd6f1d55ea78",
+      "evidenceItemIds": [
+        "news_cd6f1d55ea78",
+        "news_a503fa953a13"
       ],
       "status": "developing"
     },
@@ -183,267 +659,6 @@
       "evidenceItemIds": [
         "news_9d9548e7d543",
         "news_20ad7aa626ab"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_32967e3730b8",
-      "title": "美股大型科技股盘前多数下跌，闪迪跌超5%",
-      "firstSeenAt": "2026-08-03T15:23:32.854Z",
-      "lastSeenAt": "2026-08-25T01:57:48.726Z",
-      "primaryItemId": "news_ce8d9d35ffad",
-      "evidenceItemIds": [
-        "news_8394862df655",
-        "news_b8561adf7643",
-        "news_8b0ae127cd97",
-        "news_69866ab410e2",
-        "news_df9f7f47921a",
-        "news_d3b1a6fd627e",
-        "news_42ca90256576",
-        "news_04a959a73a68",
-        "news_92257b4a2373",
-        "news_9078b6a91c76",
-        "news_47c824b8354b",
-        "news_a1473e93f9d4",
-        "news_d9743ef9e935",
-        "news_734d74c93284",
-        "news_7a77b49fc9c2",
-        "news_83e7d960009d",
-        "news_05bd36ad0d77",
-        "news_045068d1edcf",
-        "news_d5c174d9c938",
-        "news_5d452c2d5e52",
-        "news_09ef190df7fd",
-        "news_e65153aa735d",
-        "news_0eb4388c732a",
-        "news_a68f0b461e3d",
-        "news_7a48b08815f8",
-        "news_32f9f080ed6c",
-        "news_cdf64bc47c62",
-        "news_22afba3862a0",
-        "news_8657bacfb96d",
-        "news_57eab53dfe2f",
-        "news_190e072a9adf",
-        "news_ce8d9d35ffad"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_202dd878fa19",
-      "title": "晚间公告｜8月24日这些公告有看头",
-      "firstSeenAt": "2026-07-31T14:43:32.623Z",
-      "lastSeenAt": "2026-08-25T01:57:48.726Z",
-      "primaryItemId": "news_60885ba55001",
-      "evidenceItemIds": [
-        "news_eaf56a2f5345",
-        "news_8b256f193830",
-        "news_58fdd88ca5ff",
-        "news_4cac4c806a4b",
-        "news_f202b91c5619",
-        "news_c91687230a2c",
-        "news_958c3f39adb1",
-        "news_a328d8732020",
-        "news_042b264c9695",
-        "news_0f321ef4412b",
-        "news_6fe4b8332584",
-        "news_f755ad25cd3e",
-        "news_6d13f9de9d52",
-        "news_bd988cf929f3",
-        "news_a6888af31e73",
-        "news_8429689faaae",
-        "news_f88525090167",
-        "news_0ab1f5803307",
-        "news_141a625db923",
-        "news_9ac737e4924a",
-        "news_60885ba55001"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_73f4b1fb41a8",
-      "title": "龙虎榜丨机构今日买入这14股，卖出湖南白银2.58亿元",
-      "firstSeenAt": "2026-08-03T11:50:30.990Z",
-      "lastSeenAt": "2026-08-25T01:57:48.726Z",
-      "primaryItemId": "news_28eb220b6d7d",
-      "evidenceItemIds": [
-        "news_de7d0ba05e16",
-        "news_e7a76dcea2a8",
-        "news_d9bbbfd32f43",
-        "news_9d97988a8b31",
-        "news_f8e689022fb3",
-        "news_a41d521c5c53",
-        "news_50b190578187",
-        "news_45437b89e860",
-        "news_d1e40824a959",
-        "news_d35397f00f85",
-        "news_28eb220b6d7d"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_9694f81f70fe",
-      "title": "港股公告精选｜鸣鸣很忙中期盈利同比增超150% 国药控股上半年营收超2800亿元",
-      "firstSeenAt": "2026-08-21T13:20:40.645Z",
-      "lastSeenAt": "2026-08-25T01:57:48.726Z",
-      "primaryItemId": "news_b1fe560b24aa",
-      "evidenceItemIds": [
-        "news_025370104945",
-        "news_4d195d3ead14",
-        "news_b1fe560b24aa"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_aa421fac4320",
-      "title": "国轩高科上半年净利润同比增长278%，动力电池市场份额升至全球第五 | 财报见闻",
-      "firstSeenAt": "2026-08-20T13:18:27.421Z",
-      "lastSeenAt": "2026-08-25T01:57:48.726Z",
-      "primaryItemId": "news_bc3abfd6a45b",
-      "evidenceItemIds": [
-        "news_caf3b029019b",
-        "news_f42e77ae4bb2",
-        "news_4dda17e5f3e4",
-        "news_c7280498136f",
-        "news_1237533f5ef3",
-        "news_93016b32a941",
-        "news_bc3abfd6a45b",
-        "news_dbd25c8f39ba"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_39b5734bfd24",
-      "title": "同程旅行：上半年营收99.9亿元，同比增长10.5%",
-      "firstSeenAt": "2026-07-31T02:43:30.494Z",
-      "lastSeenAt": "2026-08-25T01:57:48.726Z",
-      "primaryItemId": "news_cc2ceab7818e",
-      "evidenceItemIds": [
-        "news_4b97eac4af23",
-        "news_7310dc7190ba",
-        "news_594ffc4d1b97",
-        "news_ecd916578974",
-        "news_a2c55a87c444",
-        "news_bc848fed43d3",
-        "news_5b5b3cac6b3e",
-        "news_55003f743e0e",
-        "news_5855e7f84da4",
-        "news_8d68cb0b97de",
-        "news_142fff82025e",
-        "news_f1f5f76e8499",
-        "news_2d0771624507",
-        "news_0959f881f786",
-        "news_47a29c1d7178",
-        "news_f428ad970092",
-        "news_6b2360723163",
-        "news_0bddd30f1d0b",
-        "news_b0cb6c396c24",
-        "news_b8706f918816",
-        "news_5a1e25f8c726",
-        "news_cc2ceab7818e",
-        "news_e5014d2541a6",
-        "news_d1949b5472cd"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_c63ef507abb3",
-      "title": "沙特阿拉伯股市上涨；截至收盘沙特阿拉伯TASI指数上涨0.86%",
-      "firstSeenAt": "2026-08-17T13:14:13.230Z",
-      "lastSeenAt": "2026-08-25T01:57:48.726Z",
-      "primaryItemId": "news_d234caade81b",
-      "evidenceItemIds": [
-        "news_66037f2211e0",
-        "news_ebf4ddb5793f",
-        "news_d234caade81b",
-        "news_70b83177e78f"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_25a01be8f771",
-      "title": "永泰运在嘉兴成立新公司，注册资本500万",
-      "firstSeenAt": "2026-08-07T09:19:21.190Z",
-      "lastSeenAt": "2026-08-25T01:57:48.726Z",
-      "primaryItemId": "news_895de86fb515",
-      "evidenceItemIds": [
-        "news_0a89162cc328",
-        "news_1d889a3e90ea",
-        "news_76556d64b846",
-        "news_b871e430af91",
-        "news_e14bd43495a7",
-        "news_06e19159faaa",
-        "news_22856b17b8da",
-        "news_cab7f6842d40",
-        "news_d7d746e05e93",
-        "news_19380b213065",
-        "news_c221637b3565",
-        "news_9952f0a0ccd1",
-        "news_012a8125b681",
-        "news_bb3168b6ffd2",
-        "news_4c554d47d314",
-        "news_ec304686a3b9",
-        "news_895de86fb515",
-        "news_b5262f19fde7"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_0714fff68756",
-      "title": "工信部公开征求《国家脑机接口产业标准体系建设指南（2026版）》（征求意见稿）意见",
-      "firstSeenAt": "2026-08-24T13:18:54.985Z",
-      "lastSeenAt": "2026-08-25T01:57:48.726Z",
-      "primaryItemId": "news_1169a5692e0d",
-      "evidenceItemIds": [
-        "news_1169a5692e0d",
-        "news_8ea1b1c31cc3"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_1b7c4b5946fc",
-      "title": "美债延续涨势！报道：贝森特或动用近万亿美元国库账户，为债券回购提供资金",
-      "firstSeenAt": "2026-08-24T13:18:54.985Z",
-      "lastSeenAt": "2026-08-25T01:57:48.726Z",
-      "primaryItemId": "news_1b997f769dfd",
-      "evidenceItemIds": [
-        "news_1b997f769dfd",
-        "news_74186a62efa0"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_d8f75f85fb9f",
-      "title": "英伟达拟投资AI初创公司Perplexity，估值或超300亿美元",
-      "firstSeenAt": "2026-08-24T13:18:54.985Z",
-      "lastSeenAt": "2026-08-25T01:57:48.726Z",
-      "primaryItemId": "news_550b9ec26930",
-      "evidenceItemIds": [
-        "news_550b9ec26930",
-        "news_69c93763305a"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_f06494a6f36d",
-      "title": "上海：推进高性能算力芯片、通用处理器芯片、存储芯片、互联芯片和智能传感器达到国际先进水平",
-      "firstSeenAt": "2026-08-24T13:18:54.985Z",
-      "lastSeenAt": "2026-08-25T01:57:48.726Z",
-      "primaryItemId": "news_1066e1a0197f",
-      "evidenceItemIds": [
-        "news_1066e1a0197f",
-        "news_0b6d1fe7dfa2"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_7d743503f45b",
-      "title": "半导体破位、光通信回吐，科技缩圈反弹后迎二次调整",
-      "firstSeenAt": "2026-08-24T13:18:54.985Z",
-      "lastSeenAt": "2026-08-25T01:57:48.726Z",
-      "primaryItemId": "news_9747051e91b7",
-      "evidenceItemIds": [
-        "news_9747051e91b7",
-        "news_16a290a25b11"
       ],
       "status": "developing"
     },
@@ -516,110 +731,6 @@
         "news_d811c60e0f91",
         "news_cc2ceab7818e",
         "news_a08c79f468d1"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_91fb625edcc6",
-      "title": "华尔街见闻早餐FM-Radio | 2026年8月25日",
-      "firstSeenAt": "2026-08-01T03:54:06.184Z",
-      "lastSeenAt": "2026-08-25T01:57:48.726Z",
-      "primaryItemId": "news_3db9c3529da4",
-      "evidenceItemIds": [
-        "news_17edaa318161",
-        "news_98deb5260008",
-        "news_d6ded5ce3d23",
-        "news_ce5450193ef2",
-        "news_c703d5c64965",
-        "news_f283b8db4f69",
-        "news_1192f017766c",
-        "news_13a9ec382c84",
-        "news_56f2fe7df40c",
-        "news_4bcfcf17662a",
-        "news_1e16c7e47c8f",
-        "news_42d80422ca92",
-        "news_f8de29856631",
-        "news_7c9d70564092",
-        "news_64e205ea0eff",
-        "news_ce46b4659126",
-        "news_6187cca76a84",
-        "news_365d990ddc0a",
-        "news_9b6eace71407",
-        "news_a6898d92a8d6",
-        "news_3db9c3529da4"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_c60105a1fda2",
-      "title": "【市场动态】美国财政部或动用现金储备购债",
-      "firstSeenAt": "2026-08-25T01:57:48.726Z",
-      "lastSeenAt": "2026-08-25T01:57:48.726Z",
-      "primaryItemId": "news_a9a0064c9672",
-      "evidenceItemIds": [
-        "news_a9a0064c9672",
-        "news_e94a51415ee7"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_299d1f5750f5",
-      "title": "T早报｜拼多多二季度继续增收不增利；蔡崇信吴泳铭增持1.2亿港元阿里股票；小米发布三款自研芯片",
-      "firstSeenAt": "2026-08-25T01:57:48.726Z",
-      "lastSeenAt": "2026-08-25T01:57:48.726Z",
-      "primaryItemId": "news_a4044462200d",
-      "evidenceItemIds": [
-        "news_a4044462200d",
-        "news_f13b1bcaadb1",
-        "news_8c84c746a1f5"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_21d9d435085d",
-      "title": "国管公积金新政 首套房最高可贷款340万元",
-      "firstSeenAt": "2026-08-25T01:57:48.726Z",
-      "lastSeenAt": "2026-08-25T01:57:48.726Z",
-      "primaryItemId": "news_87826043806e",
-      "evidenceItemIds": [
-        "news_87826043806e",
-        "news_9b493074b3a0"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_a79e6522f9d8",
-      "title": "小鹏机器人首轮融资9亿美元、估值63亿美元刷新纪录，二季度净亏损却同比扩大近1.8倍",
-      "firstSeenAt": "2026-08-25T01:57:48.726Z",
-      "lastSeenAt": "2026-08-25T01:57:48.726Z",
-      "primaryItemId": "news_65fb203e084b",
-      "evidenceItemIds": [
-        "news_65fb203e084b",
-        "news_70eae60487a1"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_dc36d15b05fd",
-      "title": "“易中天”半年报全部出炉：上半年共赚了223亿元",
-      "firstSeenAt": "2026-08-25T01:57:48.726Z",
-      "lastSeenAt": "2026-08-25T01:57:48.726Z",
-      "primaryItemId": "news_76d246149c4f",
-      "evidenceItemIds": [
-        "news_76d246149c4f",
-        "news_6adc5ff403a5"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_a2ff21242227",
-      "title": "中信证券：银行板块半年报信号积极，全年绝对收益料将延续",
-      "firstSeenAt": "2026-08-25T01:57:48.726Z",
-      "lastSeenAt": "2026-08-25T01:57:48.726Z",
-      "primaryItemId": "news_47cc92b591ab",
-      "evidenceItemIds": [
-        "news_47cc92b591ab",
-        "news_3176369c32cf"
       ],
       "status": "developing"
     },
@@ -836,48 +947,6 @@
       "evidenceItemIds": [
         "news_c07d73450211",
         "news_a7295d1bad02"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_d0a4f7f6abd4",
-      "title": "A股三大指数午间休盘集体下跌，贵州茅台涨超3%。",
-      "firstSeenAt": "2026-07-31T02:27:13.623Z",
-      "lastSeenAt": "2026-08-24T09:09:47.758Z",
-      "primaryItemId": "news_4c28ca80503e",
-      "evidenceItemIds": [
-        "news_69277baadba1",
-        "news_ad373c949e7b",
-        "news_de2c7c0610be",
-        "news_1bc045c14611",
-        "news_65a42acd7dfb",
-        "news_62c7595d3886",
-        "news_cf4bee0d18ed",
-        "news_fdebad6d73cd",
-        "news_a88e3ff8e5e9",
-        "news_c34459d4f144",
-        "news_e03ba96b1400",
-        "news_3d263ba680a0",
-        "news_b62968d2915d",
-        "news_05fc3aac4b11",
-        "news_8afec1bd643c",
-        "news_ff026a351845",
-        "news_077141bb9683",
-        "news_c7e34b7eb524",
-        "news_38178eb9b7b3",
-        "news_e20dc4be13e9",
-        "news_bea63da99de1",
-        "news_9f0d56fa0999",
-        "news_7db924622b7b",
-        "news_9f44f0e5a0c5",
-        "news_f180b23bab98",
-        "news_2fca510a8c97",
-        "news_af2342a3a0b7",
-        "news_e546bd45bb1e",
-        "news_2ffe01127139",
-        "news_0a0262757687",
-        "news_3f0736088b94",
-        "news_4c28ca80503e"
       ],
       "status": "developing"
     },
@@ -3501,19 +3570,6 @@
       "status": "developing"
     },
     {
-      "eventId": "event_538a7904636d",
-      "title": "半日主力资金加仓电子板块，抛售银行板块",
-      "firstSeenAt": "2026-08-10T05:44:40.094Z",
-      "lastSeenAt": "2026-08-12T13:53:27.256Z",
-      "primaryItemId": "news_1d28e72bb2ae",
-      "evidenceItemIds": [
-        "news_362d47e51e31",
-        "news_b45ce18ba023",
-        "news_1d28e72bb2ae"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_a34e4cffb573",
       "title": "星巴克中国回应“蜜雪冰城代工”传闻：严重失实",
       "firstSeenAt": "2026-08-12T05:48:41.249Z",
@@ -4261,18 +4317,6 @@
       "evidenceItemIds": [
         "news_18b66eec6708",
         "news_a4e291351571"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_fbbfe5b199ee",
-      "title": "金饰克价，重回1300元",
-      "firstSeenAt": "2026-08-08T09:05:33.315Z",
-      "lastSeenAt": "2026-08-09T13:24:34.356Z",
-      "primaryItemId": "news_71276dc15d61",
-      "evidenceItemIds": [
-        "news_6b8812b86a80",
-        "news_71276dc15d61"
       ],
       "status": "developing"
     },

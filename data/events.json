@@ -1,15 +1,15 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-08-27T15:15:34.865Z",
+  "generatedAt": "2026-08-27T19:10:26.712Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
       "eventId": "event_4b92337366e0",
-      "title": "天齐锂业：上半年净利润42.42亿元，同比增长4925%",
+      "title": "中国太保：2026年上半年净利润307.75亿元，同比增长10.4%",
       "firstSeenAt": "2026-08-25T13:18:38.935Z",
-      "lastSeenAt": "2026-08-27T15:15:34.865Z",
-      "primaryItemId": "news_6c9d8e52bd95",
+      "lastSeenAt": "2026-08-27T19:10:26.712Z",
+      "primaryItemId": "news_2ff2ce4785d0",
       "evidenceItemIds": [
         "news_c1b3286fcadd",
         "news_8cbfe2c0da79",
@@ -43,7 +43,351 @@
         "news_53cda4050ff7",
         "news_f241eddaadea",
         "news_6c9d8e52bd95",
-        "news_1c42cef27bc7"
+        "news_1c42cef27bc7",
+        "news_afc6eeff2ca6",
+        "news_ca10a2e13071",
+        "news_7ba3e0ddd58c",
+        "news_1cfafe5a070c",
+        "news_2b5889144999",
+        "news_b9bf4bb0af0d"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_32967e3730b8",
+      "title": "美股大型科技股盘前多数下跌，英伟达涨近6%",
+      "firstSeenAt": "2026-08-03T15:23:32.854Z",
+      "lastSeenAt": "2026-08-27T19:10:26.712Z",
+      "primaryItemId": "news_d0ecfdcf2b2f",
+      "evidenceItemIds": [
+        "news_8394862df655",
+        "news_b8561adf7643",
+        "news_8b0ae127cd97",
+        "news_69866ab410e2",
+        "news_df9f7f47921a",
+        "news_d3b1a6fd627e",
+        "news_42ca90256576",
+        "news_04a959a73a68",
+        "news_92257b4a2373",
+        "news_9078b6a91c76",
+        "news_47c824b8354b",
+        "news_a1473e93f9d4",
+        "news_d9743ef9e935",
+        "news_734d74c93284",
+        "news_7a77b49fc9c2",
+        "news_83e7d960009d",
+        "news_05bd36ad0d77",
+        "news_045068d1edcf",
+        "news_d5c174d9c938",
+        "news_5d452c2d5e52",
+        "news_09ef190df7fd",
+        "news_e65153aa735d",
+        "news_0eb4388c732a",
+        "news_a68f0b461e3d",
+        "news_7a48b08815f8",
+        "news_32f9f080ed6c",
+        "news_cdf64bc47c62",
+        "news_22afba3862a0",
+        "news_8657bacfb96d",
+        "news_57eab53dfe2f",
+        "news_190e072a9adf",
+        "news_ce8d9d35ffad",
+        "news_07c8e81e210f",
+        "news_145b0fb3a96a",
+        "news_89516f7e191b",
+        "news_41550d725195",
+        "news_597d0c98d522",
+        "news_d0ecfdcf2b2f"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_202dd878fa19",
+      "title": "晚间公告｜8月27日这些公告有看头",
+      "firstSeenAt": "2026-07-31T14:43:32.623Z",
+      "lastSeenAt": "2026-08-27T19:10:26.712Z",
+      "primaryItemId": "news_56a89494a39c",
+      "evidenceItemIds": [
+        "news_eaf56a2f5345",
+        "news_8b256f193830",
+        "news_58fdd88ca5ff",
+        "news_4cac4c806a4b",
+        "news_f202b91c5619",
+        "news_c91687230a2c",
+        "news_958c3f39adb1",
+        "news_a328d8732020",
+        "news_042b264c9695",
+        "news_0f321ef4412b",
+        "news_6fe4b8332584",
+        "news_f755ad25cd3e",
+        "news_6d13f9de9d52",
+        "news_bd988cf929f3",
+        "news_a6888af31e73",
+        "news_8429689faaae",
+        "news_f88525090167",
+        "news_0ab1f5803307",
+        "news_141a625db923",
+        "news_9ac737e4924a",
+        "news_60885ba55001",
+        "news_9d3c513ffc0f",
+        "news_3e80b0340e44",
+        "news_56a89494a39c"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_73f4b1fb41a8",
+      "title": "龙虎榜丨机构今日买入这23股，卖出思源电气1.25亿元",
+      "firstSeenAt": "2026-08-03T11:50:30.990Z",
+      "lastSeenAt": "2026-08-27T19:10:26.712Z",
+      "primaryItemId": "news_a8c173d2f58f",
+      "evidenceItemIds": [
+        "news_de7d0ba05e16",
+        "news_e7a76dcea2a8",
+        "news_d9bbbfd32f43",
+        "news_9d97988a8b31",
+        "news_f8e689022fb3",
+        "news_a41d521c5c53",
+        "news_50b190578187",
+        "news_45437b89e860",
+        "news_d1e40824a959",
+        "news_d35397f00f85",
+        "news_28eb220b6d7d",
+        "news_83a8f0bce8bc",
+        "news_a434c7856598",
+        "news_a8c173d2f58f"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_a8c2371170fe",
+      "title": "Q2净利环比增长127%！620亿MLCC龙头发布半年报|盘后公告集锦",
+      "firstSeenAt": "2026-08-14T13:49:37.381Z",
+      "lastSeenAt": "2026-08-27T19:10:26.712Z",
+      "primaryItemId": "news_3535149b70db",
+      "evidenceItemIds": [
+        "news_e887eebdb506",
+        "news_7a0261b7aa21",
+        "news_32743d5348b8",
+        "news_f15e55e2453c",
+        "news_6985177b41ae",
+        "news_f052c7c2833b",
+        "news_82d12f2ce96c",
+        "news_d068b8daddcd",
+        "news_59c81b385272",
+        "news_c42a0ba04a11",
+        "news_0366c1491ac3",
+        "news_ec57a1b73bd1",
+        "news_c449da128f40",
+        "news_987cabf22112",
+        "news_12ecbcb61c3a",
+        "news_980483b88d1f",
+        "news_6237631698cc",
+        "news_142fff82025e",
+        "news_2d0771624507",
+        "news_cc57a2440645",
+        "news_229253ec4ac4",
+        "news_01cc5ad34653",
+        "news_f77cd45fc8c1",
+        "news_a4949be30409",
+        "news_3535149b70db"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_4050dbc5f402",
+      "title": "坚决反对！商务部回应美考虑对华额外加征7.5%关税",
+      "firstSeenAt": "2026-08-27T09:56:46.110Z",
+      "lastSeenAt": "2026-08-27T19:10:26.712Z",
+      "primaryItemId": "news_41dfce9402ab",
+      "evidenceItemIds": [
+        "news_41dfce9402ab",
+        "news_0e0e6798ad60",
+        "news_84f183cc9a9a"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_59d987d8833c",
+      "title": "【VIP日报】PTFE概念午后走强 栏目精选行业研报 提及相关公司涨停",
+      "firstSeenAt": "2026-08-27T09:56:46.110Z",
+      "lastSeenAt": "2026-08-27T19:10:26.712Z",
+      "primaryItemId": "news_58f1f3fbdcdc",
+      "evidenceItemIds": [
+        "news_58f1f3fbdcdc",
+        "news_10d1999ee8d0"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_b8ca201384a8",
+      "title": "港股收盘 | 三大指数小幅收跌 科技硬件股逆势走强",
+      "firstSeenAt": "2026-08-27T09:56:46.110Z",
+      "lastSeenAt": "2026-08-27T19:10:26.712Z",
+      "primaryItemId": "news_2f443a2968da",
+      "evidenceItemIds": [
+        "news_2f443a2968da",
+        "news_a2405481236f"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_b8137c9734e7",
+      "title": "国家统计局：2026年1—7月份全国规模以上工业企业利润增长17.6%",
+      "firstSeenAt": "2026-08-27T09:56:46.110Z",
+      "lastSeenAt": "2026-08-27T19:10:26.712Z",
+      "primaryItemId": "news_03dd738e8494",
+      "evidenceItemIds": [
+        "news_03dd738e8494",
+        "news_9bdbe629e0b1"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_37605779c26f",
+      "title": "受光伏行业影响 高测股份上半年亏损4.9亿元 但经营现金流转正",
+      "firstSeenAt": "2026-08-06T03:43:23.319Z",
+      "lastSeenAt": "2026-08-27T19:10:26.712Z",
+      "primaryItemId": "news_91f71ae0862e",
+      "evidenceItemIds": [
+        "news_ecd916578974",
+        "news_1b6935f9d3db",
+        "news_5a6f4dae6f5b",
+        "news_5879c10fb001",
+        "news_56c703bebfff",
+        "news_3ab12ce09836",
+        "news_58ca5eee5279",
+        "news_436f2ec78448",
+        "news_88df5a959955",
+        "news_69131d269dff",
+        "news_8cdf154d8c9c",
+        "news_0dd15ebfc3d5",
+        "news_5124bebf98d8",
+        "news_4943a53a162f",
+        "news_780888ed6310",
+        "news_b14d2e2673c6",
+        "news_88fed746b47c",
+        "news_afea8faf650b",
+        "news_f996def0d165",
+        "news_f43a7f4a3f36",
+        "news_b9bcb027de5b",
+        "news_0e106b70dd6a",
+        "news_b3d6a59bfa57",
+        "news_13a4af695fa8",
+        "news_fb8f618077f8",
+        "news_23e7df3b0eea",
+        "news_0fff860c706e",
+        "news_3865a76c6dbc",
+        "news_980483b88d1f",
+        "news_f0e1dd82f223",
+        "news_e0407db58cef",
+        "news_b809325cf6b0",
+        "news_737c4bc9f7c1",
+        "news_8276c4b84236",
+        "news_8148dbdc4662",
+        "news_35f6eaf289f5",
+        "news_f3f4cd2196f3",
+        "news_9d33c0e71c45",
+        "news_44f47b14a0cf",
+        "news_88fa0a921aa5",
+        "news_527b872da4ca",
+        "news_665550b1d047",
+        "news_a9e6f4c05f01",
+        "news_fd7d2c4c2044",
+        "news_d811c60e0f91",
+        "news_cc2ceab7818e",
+        "news_a08c79f468d1",
+        "news_325618fdf0b0",
+        "news_c661e57f06ef",
+        "news_91f71ae0862e"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_f9959f97abf4",
+      "title": "格力电器上半年营收利润双降 海外业务承压",
+      "firstSeenAt": "2026-08-27T15:15:34.865Z",
+      "lastSeenAt": "2026-08-27T19:10:26.712Z",
+      "primaryItemId": "news_e89c7c0b5169",
+      "evidenceItemIds": [
+        "news_e89c7c0b5169",
+        "news_7be01efc6ef4"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_df95d4e77b81",
+      "title": "德明利上半年营收暴增312%，净利润扭亏为盈超60亿，存储芯片景气周期红利尽收囊中 | 财报见闻",
+      "firstSeenAt": "2026-08-27T15:15:34.865Z",
+      "lastSeenAt": "2026-08-27T19:10:26.712Z",
+      "primaryItemId": "news_5e7531bfa963",
+      "evidenceItemIds": [
+        "news_5e7531bfa963",
+        "news_a0d9521adb13",
+        "news_fefd02d40521"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_3151a0436828",
+      "title": "长川科技上半年营收同比增60%，归母净利大增126%，测试机放量成增长主引擎｜财报见闻",
+      "firstSeenAt": "2026-08-25T13:18:38.935Z",
+      "lastSeenAt": "2026-08-27T19:10:26.712Z",
+      "primaryItemId": "news_1d5e861a1d99",
+      "evidenceItemIds": [
+        "news_721dd4f3968c",
+        "news_5b3e34d0ad34",
+        "news_6bac39bdc89c",
+        "news_1d5e861a1d99"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_156f31e886dc",
+      "title": "Anthropic计划在史上最大规模IPO中允许内部人士出售股票",
+      "firstSeenAt": "2026-08-22T01:54:37.843Z",
+      "lastSeenAt": "2026-08-27T19:10:26.712Z",
+      "primaryItemId": "news_3f37ac768c4e",
+      "evidenceItemIds": [
+        "news_d7064a6e2398",
+        "news_89be1d914443",
+        "news_a9cf113659a5",
+        "news_e0f5c4f03602",
+        "news_144cbc0a169c",
+        "news_5ea819f1036c",
+        "news_3f37ac768c4e"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_ecc3a61801b6",
+      "title": "长川科技(300604.SZ)发布半年度业绩，归母净利润9.64亿元，同比增长125.67%",
+      "firstSeenAt": "2026-08-09T09:08:15.509Z",
+      "lastSeenAt": "2026-08-27T19:10:26.712Z",
+      "primaryItemId": "news_72030f9c108f",
+      "evidenceItemIds": [
+        "news_4f43447d8d36",
+        "news_ed872b8ea5e1",
+        "news_b62b70ad9282",
+        "news_74346c5459b7",
+        "news_9fcb05c10d17",
+        "news_72030f9c108f",
+        "news_b71b03eaee24",
+        "news_4b6e6f4e6af1",
+        "news_4b798151deac",
+        "news_04c7aa7dd182"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_b86259221dfa",
+      "title": "晶澳科技：上年同期净亏损26.6亿元，上年同期亏损25.8亿元",
+      "firstSeenAt": "2026-08-27T19:10:26.712Z",
+      "lastSeenAt": "2026-08-27T19:10:26.712Z",
+      "primaryItemId": "news_3e7469d45cab",
+      "evidenceItemIds": [
+        "news_3e7469d45cab",
+        "news_a742b39e9e14"
       ],
       "status": "developing"
     },
@@ -156,54 +500,6 @@
       "status": "developing"
     },
     {
-      "eventId": "event_32967e3730b8",
-      "title": "美股大型科技股盘前多数下跌，英伟达涨近6%",
-      "firstSeenAt": "2026-08-03T15:23:32.854Z",
-      "lastSeenAt": "2026-08-27T15:15:34.865Z",
-      "primaryItemId": "news_d0ecfdcf2b2f",
-      "evidenceItemIds": [
-        "news_8394862df655",
-        "news_b8561adf7643",
-        "news_8b0ae127cd97",
-        "news_69866ab410e2",
-        "news_df9f7f47921a",
-        "news_d3b1a6fd627e",
-        "news_42ca90256576",
-        "news_04a959a73a68",
-        "news_92257b4a2373",
-        "news_9078b6a91c76",
-        "news_47c824b8354b",
-        "news_a1473e93f9d4",
-        "news_d9743ef9e935",
-        "news_734d74c93284",
-        "news_7a77b49fc9c2",
-        "news_83e7d960009d",
-        "news_05bd36ad0d77",
-        "news_045068d1edcf",
-        "news_d5c174d9c938",
-        "news_5d452c2d5e52",
-        "news_09ef190df7fd",
-        "news_e65153aa735d",
-        "news_0eb4388c732a",
-        "news_a68f0b461e3d",
-        "news_7a48b08815f8",
-        "news_32f9f080ed6c",
-        "news_cdf64bc47c62",
-        "news_22afba3862a0",
-        "news_8657bacfb96d",
-        "news_57eab53dfe2f",
-        "news_190e072a9adf",
-        "news_ce8d9d35ffad",
-        "news_07c8e81e210f",
-        "news_145b0fb3a96a",
-        "news_89516f7e191b",
-        "news_41550d725195",
-        "news_597d0c98d522",
-        "news_d0ecfdcf2b2f"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_39b5734bfd24",
       "title": "欣旺达：上半年营收381.79亿元，同比增长41.48%",
       "firstSeenAt": "2026-07-31T02:43:30.494Z",
@@ -253,99 +549,6 @@
       "status": "developing"
     },
     {
-      "eventId": "event_202dd878fa19",
-      "title": "晚间公告｜8月27日这些公告有看头",
-      "firstSeenAt": "2026-07-31T14:43:32.623Z",
-      "lastSeenAt": "2026-08-27T15:15:34.865Z",
-      "primaryItemId": "news_56a89494a39c",
-      "evidenceItemIds": [
-        "news_eaf56a2f5345",
-        "news_8b256f193830",
-        "news_58fdd88ca5ff",
-        "news_4cac4c806a4b",
-        "news_f202b91c5619",
-        "news_c91687230a2c",
-        "news_958c3f39adb1",
-        "news_a328d8732020",
-        "news_042b264c9695",
-        "news_0f321ef4412b",
-        "news_6fe4b8332584",
-        "news_f755ad25cd3e",
-        "news_6d13f9de9d52",
-        "news_bd988cf929f3",
-        "news_a6888af31e73",
-        "news_8429689faaae",
-        "news_f88525090167",
-        "news_0ab1f5803307",
-        "news_141a625db923",
-        "news_9ac737e4924a",
-        "news_60885ba55001",
-        "news_9d3c513ffc0f",
-        "news_3e80b0340e44",
-        "news_56a89494a39c"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_73f4b1fb41a8",
-      "title": "龙虎榜丨机构今日买入这23股，卖出思源电气1.25亿元",
-      "firstSeenAt": "2026-08-03T11:50:30.990Z",
-      "lastSeenAt": "2026-08-27T15:15:34.865Z",
-      "primaryItemId": "news_a8c173d2f58f",
-      "evidenceItemIds": [
-        "news_de7d0ba05e16",
-        "news_e7a76dcea2a8",
-        "news_d9bbbfd32f43",
-        "news_9d97988a8b31",
-        "news_f8e689022fb3",
-        "news_a41d521c5c53",
-        "news_50b190578187",
-        "news_45437b89e860",
-        "news_d1e40824a959",
-        "news_d35397f00f85",
-        "news_28eb220b6d7d",
-        "news_83a8f0bce8bc",
-        "news_a434c7856598",
-        "news_a8c173d2f58f"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_a8c2371170fe",
-      "title": "Q2净利环比增长127%！620亿MLCC龙头发布半年报|盘后公告集锦",
-      "firstSeenAt": "2026-08-14T13:49:37.381Z",
-      "lastSeenAt": "2026-08-27T15:15:34.865Z",
-      "primaryItemId": "news_3535149b70db",
-      "evidenceItemIds": [
-        "news_e887eebdb506",
-        "news_7a0261b7aa21",
-        "news_32743d5348b8",
-        "news_f15e55e2453c",
-        "news_6985177b41ae",
-        "news_f052c7c2833b",
-        "news_82d12f2ce96c",
-        "news_d068b8daddcd",
-        "news_59c81b385272",
-        "news_c42a0ba04a11",
-        "news_0366c1491ac3",
-        "news_ec57a1b73bd1",
-        "news_c449da128f40",
-        "news_987cabf22112",
-        "news_12ecbcb61c3a",
-        "news_980483b88d1f",
-        "news_6237631698cc",
-        "news_142fff82025e",
-        "news_2d0771624507",
-        "news_cc57a2440645",
-        "news_229253ec4ac4",
-        "news_01cc5ad34653",
-        "news_f77cd45fc8c1",
-        "news_a4949be30409",
-        "news_3535149b70db"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_3f9b010c3ef4",
       "title": "MiniMax：公司8月年度经常性收入（ARR）已超过8亿美元",
       "firstSeenAt": "2026-08-26T13:29:08.098Z",
@@ -382,18 +585,6 @@
       "status": "developing"
     },
     {
-      "eventId": "event_4050dbc5f402",
-      "title": "坚决反对！商务部回应美考虑对华额外加征7.5%关税",
-      "firstSeenAt": "2026-08-27T09:56:46.110Z",
-      "lastSeenAt": "2026-08-27T15:15:34.865Z",
-      "primaryItemId": "news_41dfce9402ab",
-      "evidenceItemIds": [
-        "news_41dfce9402ab",
-        "news_0e0e6798ad60"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_46cc18c65004",
       "title": "A股四大指数多数高开，半导体、算力硬件产业链走强",
       "firstSeenAt": "2026-08-27T09:56:46.110Z",
@@ -402,102 +593,6 @@
       "evidenceItemIds": [
         "news_188453b8f64d",
         "news_138cafd91466"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_59d987d8833c",
-      "title": "【VIP日报】PTFE概念午后走强 栏目精选行业研报 提及相关公司涨停",
-      "firstSeenAt": "2026-08-27T09:56:46.110Z",
-      "lastSeenAt": "2026-08-27T15:15:34.865Z",
-      "primaryItemId": "news_58f1f3fbdcdc",
-      "evidenceItemIds": [
-        "news_58f1f3fbdcdc",
-        "news_10d1999ee8d0"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_b8ca201384a8",
-      "title": "港股收盘 | 三大指数小幅收跌 科技硬件股逆势走强",
-      "firstSeenAt": "2026-08-27T09:56:46.110Z",
-      "lastSeenAt": "2026-08-27T15:15:34.865Z",
-      "primaryItemId": "news_2f443a2968da",
-      "evidenceItemIds": [
-        "news_2f443a2968da",
-        "news_a2405481236f"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_b8137c9734e7",
-      "title": "国家统计局：2026年1—7月份全国规模以上工业企业利润增长17.6%",
-      "firstSeenAt": "2026-08-27T09:56:46.110Z",
-      "lastSeenAt": "2026-08-27T15:15:34.865Z",
-      "primaryItemId": "news_03dd738e8494",
-      "evidenceItemIds": [
-        "news_03dd738e8494",
-        "news_9bdbe629e0b1"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_37605779c26f",
-      "title": "受光伏行业影响 高测股份上半年亏损4.9亿元 但经营现金流转正",
-      "firstSeenAt": "2026-08-06T03:43:23.319Z",
-      "lastSeenAt": "2026-08-27T15:15:34.865Z",
-      "primaryItemId": "news_91f71ae0862e",
-      "evidenceItemIds": [
-        "news_ecd916578974",
-        "news_1b6935f9d3db",
-        "news_5a6f4dae6f5b",
-        "news_5879c10fb001",
-        "news_56c703bebfff",
-        "news_3ab12ce09836",
-        "news_58ca5eee5279",
-        "news_436f2ec78448",
-        "news_88df5a959955",
-        "news_69131d269dff",
-        "news_8cdf154d8c9c",
-        "news_0dd15ebfc3d5",
-        "news_5124bebf98d8",
-        "news_4943a53a162f",
-        "news_780888ed6310",
-        "news_b14d2e2673c6",
-        "news_88fed746b47c",
-        "news_afea8faf650b",
-        "news_f996def0d165",
-        "news_f43a7f4a3f36",
-        "news_b9bcb027de5b",
-        "news_0e106b70dd6a",
-        "news_b3d6a59bfa57",
-        "news_13a4af695fa8",
-        "news_fb8f618077f8",
-        "news_23e7df3b0eea",
-        "news_0fff860c706e",
-        "news_3865a76c6dbc",
-        "news_980483b88d1f",
-        "news_f0e1dd82f223",
-        "news_e0407db58cef",
-        "news_b809325cf6b0",
-        "news_737c4bc9f7c1",
-        "news_8276c4b84236",
-        "news_8148dbdc4662",
-        "news_35f6eaf289f5",
-        "news_f3f4cd2196f3",
-        "news_9d33c0e71c45",
-        "news_44f47b14a0cf",
-        "news_88fa0a921aa5",
-        "news_527b872da4ca",
-        "news_665550b1d047",
-        "news_a9e6f4c05f01",
-        "news_fd7d2c4c2044",
-        "news_d811c60e0f91",
-        "news_cc2ceab7818e",
-        "news_a08c79f468d1",
-        "news_325618fdf0b0",
-        "news_c661e57f06ef",
-        "news_91f71ae0862e"
       ],
       "status": "developing"
     },
@@ -512,30 +607,6 @@
         "news_4d195d3ead14",
         "news_b1fe560b24aa",
         "news_57204f766f27"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_f9959f97abf4",
-      "title": "格力电器上半年营收利润双降 海外业务承压",
-      "firstSeenAt": "2026-08-27T15:15:34.865Z",
-      "lastSeenAt": "2026-08-27T15:15:34.865Z",
-      "primaryItemId": "news_e89c7c0b5169",
-      "evidenceItemIds": [
-        "news_e89c7c0b5169",
-        "news_7be01efc6ef4"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_df95d4e77b81",
-      "title": "德明利上半年营收暴增312%，净利润扭亏为盈超60亿，存储芯片景气周期红利尽收囊中 | 财报见闻",
-      "firstSeenAt": "2026-08-27T15:15:34.865Z",
-      "lastSeenAt": "2026-08-27T15:15:34.865Z",
-      "primaryItemId": "news_5e7531bfa963",
-      "evidenceItemIds": [
-        "news_5e7531bfa963",
-        "news_a0d9521adb13"
       ],
       "status": "developing"
     },
@@ -572,19 +643,6 @@
       "evidenceItemIds": [
         "news_87c36ff3eacd",
         "news_cee01e97fa04"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_3151a0436828",
-      "title": "A股“股王”联讯仪器上半年营收同比增长208.71%，净利润暴增903% | 财报见闻",
-      "firstSeenAt": "2026-08-25T13:18:38.935Z",
-      "lastSeenAt": "2026-08-27T09:56:46.110Z",
-      "primaryItemId": "news_6bac39bdc89c",
-      "evidenceItemIds": [
-        "news_721dd4f3968c",
-        "news_5b3e34d0ad34",
-        "news_6bac39bdc89c"
       ],
       "status": "developing"
     },
@@ -867,22 +925,6 @@
         "news_dafa0a1c7a8a",
         "news_161bfcf656f5",
         "news_f1721cbc3ad3"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_156f31e886dc",
-      "title": "Anthropic加速IPO筹备：提拔新总法律顾问，前任转任国际特别大使",
-      "firstSeenAt": "2026-08-22T01:54:37.843Z",
-      "lastSeenAt": "2026-08-26T09:08:44.889Z",
-      "primaryItemId": "news_5ea819f1036c",
-      "evidenceItemIds": [
-        "news_d7064a6e2398",
-        "news_89be1d914443",
-        "news_a9cf113659a5",
-        "news_e0f5c4f03602",
-        "news_144cbc0a169c",
-        "news_5ea819f1036c"
       ],
       "status": "developing"
     },
@@ -1583,21 +1625,6 @@
       "evidenceItemIds": [
         "news_a4689a884dde",
         "news_701ea7c93bd1"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_ecc3a61801b6",
-      "title": "三全食品(002216.SZ)发布半年度业绩，归母净利润3.65亿元，同比增长16.48%",
-      "firstSeenAt": "2026-08-09T09:08:15.509Z",
-      "lastSeenAt": "2026-08-24T13:18:54.985Z",
-      "primaryItemId": "news_b62b70ad9282",
-      "evidenceItemIds": [
-        "news_4f43447d8d36",
-        "news_ed872b8ea5e1",
-        "news_b62b70ad9282",
-        "news_74346c5459b7",
-        "news_9fcb05c10d17"
       ],
       "status": "developing"
     },

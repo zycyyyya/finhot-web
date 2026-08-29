@@ -1,9 +1,443 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-08-28T22:29:18.700Z",
+  "generatedAt": "2026-08-29T07:09:11.116Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
+    {
+      "eventId": "event_b8137c9734e7",
+      "title": "国家统计局：2026年1—7月份全国规模以上工业企业利润增长17.6%",
+      "firstSeenAt": "2026-08-27T09:56:46.110Z",
+      "lastSeenAt": "2026-08-29T07:09:11.116Z",
+      "primaryItemId": "news_03dd738e8494",
+      "evidenceItemIds": [
+        "news_03dd738e8494",
+        "news_9bdbe629e0b1"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_ecc3a61801b6",
+      "title": "开开实业(600272.SH)发布半年度业绩，归母净利润2222.5万元，同比增长88.33%",
+      "firstSeenAt": "2026-08-09T09:08:15.509Z",
+      "lastSeenAt": "2026-08-29T07:09:11.116Z",
+      "primaryItemId": "news_273e49a0ce45",
+      "evidenceItemIds": [
+        "news_4f43447d8d36",
+        "news_ed872b8ea5e1",
+        "news_b62b70ad9282",
+        "news_74346c5459b7",
+        "news_9fcb05c10d17",
+        "news_72030f9c108f",
+        "news_b71b03eaee24",
+        "news_4b6e6f4e6af1",
+        "news_4b798151deac",
+        "news_04c7aa7dd182",
+        "news_548f514799a9",
+        "news_afc6eeff2ca6",
+        "news_be2412153f50",
+        "news_9f538428ec46",
+        "news_a2405b1ebf4b",
+        "news_273e49a0ce45",
+        "news_65b86ca1f965",
+        "news_8f72c650a1f5",
+        "news_ed87d1160aa6",
+        "news_c57b644b1cfe"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_1599123cd647",
+      "title": "个人住房贷款期限延长至40年 收入偿债比例上限提高",
+      "firstSeenAt": "2026-08-28T11:33:49.352Z",
+      "lastSeenAt": "2026-08-29T07:09:11.116Z",
+      "primaryItemId": "news_469461b7fc55",
+      "evidenceItemIds": [
+        "news_5bb378b6278f",
+        "news_eadf48a8b01e",
+        "news_657185272b9e",
+        "news_abd8a6def3ce",
+        "news_469461b7fc55"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_7c6112d92808",
+      "title": "长鑫科技上半年营收大增873.6%，LPDDR6已向客户送样",
+      "firstSeenAt": "2026-08-28T11:33:49.352Z",
+      "lastSeenAt": "2026-08-29T07:09:11.116Z",
+      "primaryItemId": "news_72707b34c82b",
+      "evidenceItemIds": [
+        "news_097b4940222b",
+        "news_5566690beb0c",
+        "news_72707b34c82b",
+        "news_8a74e7ab7286",
+        "news_82136f797024",
+        "news_2becbec6af4c"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_3146956f1897",
+      "title": "证监会：支持上市房地产开发企业再融资、并购重组",
+      "firstSeenAt": "2026-08-28T11:33:49.352Z",
+      "lastSeenAt": "2026-08-29T07:09:11.116Z",
+      "primaryItemId": "news_90c8f851d773",
+      "evidenceItemIds": [
+        "news_1e31d5b8e039",
+        "news_ec5b8a9b77d3",
+        "news_90c8f851d773",
+        "news_5a0d21b7f76c",
+        "news_bcbc19d029f5",
+        "news_24315b4d07af"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_c0626cb81f24",
+      "title": "Anthropic加码自研AI芯片：曾考虑70亿美元收购MatX，正接洽多家初创公司",
+      "firstSeenAt": "2026-08-28T11:33:49.352Z",
+      "lastSeenAt": "2026-08-29T07:09:11.116Z",
+      "primaryItemId": "news_e0d3814b1345",
+      "evidenceItemIds": [
+        "news_6f5ffc804c85",
+        "news_eadc2a873d4e",
+        "news_e0d3814b1345"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_dc9afffef6d6",
+      "title": "捷克经济二季度增长0.4%，消费支出成主要驱动力",
+      "firstSeenAt": "2026-08-28T11:33:49.352Z",
+      "lastSeenAt": "2026-08-29T07:09:11.116Z",
+      "primaryItemId": "news_97b8fac61884",
+      "evidenceItemIds": [
+        "news_97b8fac61884",
+        "news_9184aab93a77"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_32967e3730b8",
+      "title": "热门中概股美股盘前多数上涨，百度涨超1%",
+      "firstSeenAt": "2026-08-03T15:23:32.854Z",
+      "lastSeenAt": "2026-08-29T07:09:11.116Z",
+      "primaryItemId": "news_946e33737a7f",
+      "evidenceItemIds": [
+        "news_8394862df655",
+        "news_b8561adf7643",
+        "news_8b0ae127cd97",
+        "news_69866ab410e2",
+        "news_df9f7f47921a",
+        "news_d3b1a6fd627e",
+        "news_42ca90256576",
+        "news_04a959a73a68",
+        "news_92257b4a2373",
+        "news_9078b6a91c76",
+        "news_47c824b8354b",
+        "news_a1473e93f9d4",
+        "news_d9743ef9e935",
+        "news_734d74c93284",
+        "news_7a77b49fc9c2",
+        "news_83e7d960009d",
+        "news_05bd36ad0d77",
+        "news_045068d1edcf",
+        "news_d5c174d9c938",
+        "news_5d452c2d5e52",
+        "news_09ef190df7fd",
+        "news_e65153aa735d",
+        "news_0eb4388c732a",
+        "news_a68f0b461e3d",
+        "news_7a48b08815f8",
+        "news_32f9f080ed6c",
+        "news_cdf64bc47c62",
+        "news_22afba3862a0",
+        "news_8657bacfb96d",
+        "news_57eab53dfe2f",
+        "news_190e072a9adf",
+        "news_ce8d9d35ffad",
+        "news_07c8e81e210f",
+        "news_145b0fb3a96a",
+        "news_89516f7e191b",
+        "news_41550d725195",
+        "news_597d0c98d522",
+        "news_d0ecfdcf2b2f",
+        "news_946e33737a7f",
+        "news_b886bc768085"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_f9959f97abf4",
+      "title": "阳光电源上半年营收净利双降，海外营收占比超七成",
+      "firstSeenAt": "2026-08-27T15:15:34.865Z",
+      "lastSeenAt": "2026-08-29T07:09:11.116Z",
+      "primaryItemId": "news_7e14262f869e",
+      "evidenceItemIds": [
+        "news_e89c7c0b5169",
+        "news_7be01efc6ef4",
+        "news_7e14262f869e"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_9694f81f70fe",
+      "title": "港股公告精选｜中国铁建中期盈利同比降约两成 工行上半年净赚超1700亿元",
+      "firstSeenAt": "2026-08-21T13:20:40.645Z",
+      "lastSeenAt": "2026-08-29T07:09:11.116Z",
+      "primaryItemId": "news_c691ce0c466b",
+      "evidenceItemIds": [
+        "news_025370104945",
+        "news_4d195d3ead14",
+        "news_b1fe560b24aa",
+        "news_57204f766f27",
+        "news_c691ce0c466b"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_5b0ec5e7c33e",
+      "title": "美团电话会：三季度外卖UE同比将明显改善，AI加速从消费端向商家端延伸",
+      "firstSeenAt": "2026-08-28T16:41:23.518Z",
+      "lastSeenAt": "2026-08-29T07:09:11.116Z",
+      "primaryItemId": "news_25ca918d288d",
+      "evidenceItemIds": [
+        "news_25ca918d288d",
+        "news_e822af39179e"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_d97badee6ef3",
+      "title": "营收、净利重回正增长，“零售之王”招商银行上半年对公税前利润反超零售",
+      "firstSeenAt": "2026-08-28T16:41:23.518Z",
+      "lastSeenAt": "2026-08-29T07:09:11.116Z",
+      "primaryItemId": "news_87afc7a736ad",
+      "evidenceItemIds": [
+        "news_87afc7a736ad",
+        "news_fb96eaa4506d"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_580913f83cea",
+      "title": "海外业务开始放量 可孚医疗上半年营收同比增近四成|财报解读",
+      "firstSeenAt": "2026-08-28T16:41:23.518Z",
+      "lastSeenAt": "2026-08-29T07:09:11.116Z",
+      "primaryItemId": "news_fb588b70d82e",
+      "evidenceItemIds": [
+        "news_fb588b70d82e",
+        "news_43a3ad0eb6f6"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_9b460e649931",
+      "title": "中金公司：2026年上半年净利润81.99亿元，同比增长89.35%",
+      "firstSeenAt": "2026-08-28T16:41:23.518Z",
+      "lastSeenAt": "2026-08-29T07:09:11.116Z",
+      "primaryItemId": "news_545ae69eb55c",
+      "evidenceItemIds": [
+        "news_b1b7ba9cdd05",
+        "news_13196dcc68bd",
+        "news_adb90509b950",
+        "news_fc061c78b296",
+        "news_52f8f7100b03",
+        "news_545ae69eb55c",
+        "news_478cdaaa2b51"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_b39b0111d17b",
+      "title": "特朗普宣布将创建“美国太空学院”",
+      "firstSeenAt": "2026-08-28T20:15:19.681Z",
+      "lastSeenAt": "2026-08-29T07:09:11.116Z",
+      "primaryItemId": "news_b3c3518b7d2d",
+      "evidenceItemIds": [
+        "news_b3c3518b7d2d",
+        "news_b35331181f27",
+        "news_dc5c2d3fabe7"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_a8288d69ce84",
+      "title": "事关房地产，央行、金融监管总局、证监会发文",
+      "firstSeenAt": "2026-08-28T20:15:19.681Z",
+      "lastSeenAt": "2026-08-29T07:09:11.116Z",
+      "primaryItemId": "news_461b616c798c",
+      "evidenceItemIds": [
+        "news_461b616c798c",
+        "news_d14ba4801379"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_88d37f569468",
+      "title": "墨西哥股市收低；截至收盘墨西哥S&P/BMV IPC指数下跌0.53%",
+      "firstSeenAt": "2026-08-27T22:27:22.891Z",
+      "lastSeenAt": "2026-08-29T07:09:11.116Z",
+      "primaryItemId": "news_18d78b1ded1d",
+      "evidenceItemIds": [
+        "news_1dcdfda18973",
+        "news_7c91b51b1eef",
+        "news_18d78b1ded1d",
+        "news_e9ee9b2bc410",
+        "news_ef8e83ac503e"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_b8ca201384a8",
+      "title": "美股收盘：沃什鹰派言论推升加息预期 三大指数小幅收跌",
+      "firstSeenAt": "2026-08-27T09:56:46.110Z",
+      "lastSeenAt": "2026-08-29T07:09:11.116Z",
+      "primaryItemId": "news_8955782d7579",
+      "evidenceItemIds": [
+        "news_2f443a2968da",
+        "news_a2405481236f",
+        "news_8955782d7579"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_02086baa3b94",
+      "title": "交通银行上半年净利润增长4.63% 息差企稳、个贷承压",
+      "firstSeenAt": "2026-08-28T11:33:49.352Z",
+      "lastSeenAt": "2026-08-29T07:09:11.116Z",
+      "primaryItemId": "news_ea45758ac430",
+      "evidenceItemIds": [
+        "news_08a4240feb70",
+        "news_46c1279cabae",
+        "news_ea45758ac430",
+        "news_4202abd37b2b"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_91fb625edcc6",
+      "title": "华尔街见闻早餐 | 2026年8月29日",
+      "firstSeenAt": "2026-08-01T03:54:06.184Z",
+      "lastSeenAt": "2026-08-29T07:09:11.116Z",
+      "primaryItemId": "news_3465a9cb688f",
+      "evidenceItemIds": [
+        "news_17edaa318161",
+        "news_98deb5260008",
+        "news_d6ded5ce3d23",
+        "news_ce5450193ef2",
+        "news_c703d5c64965",
+        "news_f283b8db4f69",
+        "news_1192f017766c",
+        "news_13a9ec382c84",
+        "news_56f2fe7df40c",
+        "news_4bcfcf17662a",
+        "news_1e16c7e47c8f",
+        "news_42d80422ca92",
+        "news_f8de29856631",
+        "news_7c9d70564092",
+        "news_64e205ea0eff",
+        "news_ce46b4659126",
+        "news_6187cca76a84",
+        "news_365d990ddc0a",
+        "news_9b6eace71407",
+        "news_a6898d92a8d6",
+        "news_3db9c3529da4",
+        "news_95deade611b9",
+        "news_cf02042ffbd4",
+        "news_3465a9cb688f"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_01118fb5b195",
+      "title": "财联社汽车早报【8月29日】",
+      "firstSeenAt": "2026-08-01T03:54:06.184Z",
+      "lastSeenAt": "2026-08-29T07:09:11.116Z",
+      "primaryItemId": "news_f4d0c83073b7",
+      "evidenceItemIds": [
+        "news_11bf098d57d9",
+        "news_352d957a2426",
+        "news_7a9c03d3a9e0",
+        "news_141a587e8be2",
+        "news_e93b6f66d076",
+        "news_ac42446fc261",
+        "news_e546a87cd0a7",
+        "news_6734c9c4e9b5",
+        "news_8d456e96708b",
+        "news_13fb304edc7b",
+        "news_76d4d9b04b45",
+        "news_39c037720137",
+        "news_d130ba79d897",
+        "news_7630df780cff",
+        "news_f4d0c83073b7"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_a37248fb9ba0",
+      "title": "付鹏点评杰克逊霍尔会议：上有本森特，下有凯文沃什【付鹏说图表】",
+      "firstSeenAt": "2026-08-28T11:33:49.352Z",
+      "lastSeenAt": "2026-08-29T07:09:11.116Z",
+      "primaryItemId": "news_f955d7267cb9",
+      "evidenceItemIds": [
+        "news_25ba4f4c9bf9",
+        "news_b4ee38e5e75b",
+        "news_f955d7267cb9"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_f2c8c4138aa2",
+      "title": "沃什杰克逊霍尔首秀震惊市场：美联储要准备开始加息吗",
+      "firstSeenAt": "2026-08-29T07:09:11.116Z",
+      "lastSeenAt": "2026-08-29T07:09:11.116Z",
+      "primaryItemId": "news_0e00e62a789c",
+      "evidenceItemIds": [
+        "news_0e00e62a789c",
+        "news_cd421fdc5c56",
+        "news_122b03a47cfb",
+        "news_e3a81ac9a1fa"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_e8920800d094",
+      "title": "特朗普宣布与委内瑞拉达成石油协议，称获逾650亿桶储量\"多数控制权\"",
+      "firstSeenAt": "2026-08-29T07:09:11.116Z",
+      "lastSeenAt": "2026-08-29T07:09:11.116Z",
+      "primaryItemId": "news_fb28637d49dd",
+      "evidenceItemIds": [
+        "news_fb28637d49dd",
+        "news_4ed435cc17e8"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_1454d8853881",
+      "title": "黄金价格暴跌逾3.4% 玉米与小麦价格齐创逾三年新高 | 环球市场",
+      "firstSeenAt": "2026-08-29T07:09:11.116Z",
+      "lastSeenAt": "2026-08-29T07:09:11.116Z",
+      "primaryItemId": "news_c71285c157ef",
+      "evidenceItemIds": [
+        "news_c71285c157ef",
+        "news_9566c0636f4e"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_03487f5c1049",
+      "title": "Electra Therapeutics(ETRA.US)递交美股IPO申请，借生物科技上市热潮推进免疫疾病与癌症新药研",
+      "firstSeenAt": "2026-08-29T07:09:11.116Z",
+      "lastSeenAt": "2026-08-29T07:09:11.116Z",
+      "primaryItemId": "news_04c0dbc3ff1a",
+      "evidenceItemIds": [
+        "news_04c0dbc3ff1a",
+        "news_2969885180b0"
+      ],
+      "status": "developing"
+    },
     {
       "eventId": "event_4b92337366e0",
       "title": "智飞生物：2026年上半年净利润亏损8.09亿元，2025年同期亏损6.06亿元",
@@ -63,48 +497,6 @@
       "status": "developing"
     },
     {
-      "eventId": "event_b8137c9734e7",
-      "title": "国家统计局：2026年1—7月份全国规模以上工业企业利润增长17.6%",
-      "firstSeenAt": "2026-08-27T09:56:46.110Z",
-      "lastSeenAt": "2026-08-28T22:29:18.700Z",
-      "primaryItemId": "news_03dd738e8494",
-      "evidenceItemIds": [
-        "news_03dd738e8494",
-        "news_9bdbe629e0b1"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_ecc3a61801b6",
-      "title": "开开实业(600272.SH)发布半年度业绩，归母净利润2222.5万元，同比增长88.33%",
-      "firstSeenAt": "2026-08-09T09:08:15.509Z",
-      "lastSeenAt": "2026-08-28T22:29:18.700Z",
-      "primaryItemId": "news_273e49a0ce45",
-      "evidenceItemIds": [
-        "news_4f43447d8d36",
-        "news_ed872b8ea5e1",
-        "news_b62b70ad9282",
-        "news_74346c5459b7",
-        "news_9fcb05c10d17",
-        "news_72030f9c108f",
-        "news_b71b03eaee24",
-        "news_4b6e6f4e6af1",
-        "news_4b798151deac",
-        "news_04c7aa7dd182",
-        "news_548f514799a9",
-        "news_afc6eeff2ca6",
-        "news_be2412153f50",
-        "news_9f538428ec46",
-        "news_a2405b1ebf4b",
-        "news_273e49a0ce45",
-        "news_65b86ca1f965",
-        "news_8f72c650a1f5",
-        "news_ed87d1160aa6",
-        "news_c57b644b1cfe"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_e25b89cd3768",
       "title": "霸王茶姬：第二季度净收入34.15亿元，同比增长2.5%",
       "firstSeenAt": "2026-08-28T03:55:53.061Z",
@@ -153,66 +545,6 @@
       "status": "developing"
     },
     {
-      "eventId": "event_1599123cd647",
-      "title": "个人住房贷款期限延长至40年 收入偿债比例上限提高",
-      "firstSeenAt": "2026-08-28T11:33:49.352Z",
-      "lastSeenAt": "2026-08-28T22:29:18.700Z",
-      "primaryItemId": "news_469461b7fc55",
-      "evidenceItemIds": [
-        "news_5bb378b6278f",
-        "news_eadf48a8b01e",
-        "news_657185272b9e",
-        "news_abd8a6def3ce",
-        "news_469461b7fc55"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_7c6112d92808",
-      "title": "长鑫科技上半年营收大增873.6%，LPDDR6已向客户送样",
-      "firstSeenAt": "2026-08-28T11:33:49.352Z",
-      "lastSeenAt": "2026-08-28T22:29:18.700Z",
-      "primaryItemId": "news_72707b34c82b",
-      "evidenceItemIds": [
-        "news_097b4940222b",
-        "news_5566690beb0c",
-        "news_72707b34c82b",
-        "news_8a74e7ab7286",
-        "news_82136f797024",
-        "news_2becbec6af4c"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_3146956f1897",
-      "title": "证监会：支持上市房地产开发企业再融资、并购重组",
-      "firstSeenAt": "2026-08-28T11:33:49.352Z",
-      "lastSeenAt": "2026-08-28T22:29:18.700Z",
-      "primaryItemId": "news_90c8f851d773",
-      "evidenceItemIds": [
-        "news_1e31d5b8e039",
-        "news_ec5b8a9b77d3",
-        "news_90c8f851d773",
-        "news_5a0d21b7f76c",
-        "news_bcbc19d029f5",
-        "news_24315b4d07af"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_c0626cb81f24",
-      "title": "Anthropic加码自研AI芯片：曾考虑70亿美元收购MatX，正接洽多家初创公司",
-      "firstSeenAt": "2026-08-28T11:33:49.352Z",
-      "lastSeenAt": "2026-08-28T22:29:18.700Z",
-      "primaryItemId": "news_e0d3814b1345",
-      "evidenceItemIds": [
-        "news_6f5ffc804c85",
-        "news_eadc2a873d4e",
-        "news_e0d3814b1345"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_5fa85e4864c0",
       "title": "“大空头”Michael Burry买入英伟达看涨期权“对冲”，同时加码做空",
       "firstSeenAt": "2026-08-28T11:33:49.352Z",
@@ -250,149 +582,6 @@
       "status": "developing"
     },
     {
-      "eventId": "event_dc9afffef6d6",
-      "title": "捷克经济二季度增长0.4%，消费支出成主要驱动力",
-      "firstSeenAt": "2026-08-28T11:33:49.352Z",
-      "lastSeenAt": "2026-08-28T22:29:18.700Z",
-      "primaryItemId": "news_97b8fac61884",
-      "evidenceItemIds": [
-        "news_97b8fac61884",
-        "news_9184aab93a77"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_32967e3730b8",
-      "title": "热门中概股美股盘前多数上涨，百度涨超1%",
-      "firstSeenAt": "2026-08-03T15:23:32.854Z",
-      "lastSeenAt": "2026-08-28T22:29:18.700Z",
-      "primaryItemId": "news_946e33737a7f",
-      "evidenceItemIds": [
-        "news_8394862df655",
-        "news_b8561adf7643",
-        "news_8b0ae127cd97",
-        "news_69866ab410e2",
-        "news_df9f7f47921a",
-        "news_d3b1a6fd627e",
-        "news_42ca90256576",
-        "news_04a959a73a68",
-        "news_92257b4a2373",
-        "news_9078b6a91c76",
-        "news_47c824b8354b",
-        "news_a1473e93f9d4",
-        "news_d9743ef9e935",
-        "news_734d74c93284",
-        "news_7a77b49fc9c2",
-        "news_83e7d960009d",
-        "news_05bd36ad0d77",
-        "news_045068d1edcf",
-        "news_d5c174d9c938",
-        "news_5d452c2d5e52",
-        "news_09ef190df7fd",
-        "news_e65153aa735d",
-        "news_0eb4388c732a",
-        "news_a68f0b461e3d",
-        "news_7a48b08815f8",
-        "news_32f9f080ed6c",
-        "news_cdf64bc47c62",
-        "news_22afba3862a0",
-        "news_8657bacfb96d",
-        "news_57eab53dfe2f",
-        "news_190e072a9adf",
-        "news_ce8d9d35ffad",
-        "news_07c8e81e210f",
-        "news_145b0fb3a96a",
-        "news_89516f7e191b",
-        "news_41550d725195",
-        "news_597d0c98d522",
-        "news_d0ecfdcf2b2f",
-        "news_946e33737a7f",
-        "news_b886bc768085"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_f9959f97abf4",
-      "title": "阳光电源上半年营收净利双降，海外营收占比超七成",
-      "firstSeenAt": "2026-08-27T15:15:34.865Z",
-      "lastSeenAt": "2026-08-28T22:29:18.700Z",
-      "primaryItemId": "news_7e14262f869e",
-      "evidenceItemIds": [
-        "news_e89c7c0b5169",
-        "news_7be01efc6ef4",
-        "news_7e14262f869e"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_9694f81f70fe",
-      "title": "港股公告精选｜中国铁建中期盈利同比降约两成 工行上半年净赚超1700亿元",
-      "firstSeenAt": "2026-08-21T13:20:40.645Z",
-      "lastSeenAt": "2026-08-28T22:29:18.700Z",
-      "primaryItemId": "news_c691ce0c466b",
-      "evidenceItemIds": [
-        "news_025370104945",
-        "news_4d195d3ead14",
-        "news_b1fe560b24aa",
-        "news_57204f766f27",
-        "news_c691ce0c466b"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_5b0ec5e7c33e",
-      "title": "美团电话会：三季度外卖UE同比将明显改善，AI加速从消费端向商家端延伸",
-      "firstSeenAt": "2026-08-28T16:41:23.518Z",
-      "lastSeenAt": "2026-08-28T22:29:18.700Z",
-      "primaryItemId": "news_25ca918d288d",
-      "evidenceItemIds": [
-        "news_25ca918d288d",
-        "news_e822af39179e"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_d97badee6ef3",
-      "title": "营收、净利重回正增长，“零售之王”招商银行上半年对公税前利润反超零售",
-      "firstSeenAt": "2026-08-28T16:41:23.518Z",
-      "lastSeenAt": "2026-08-28T22:29:18.700Z",
-      "primaryItemId": "news_87afc7a736ad",
-      "evidenceItemIds": [
-        "news_87afc7a736ad",
-        "news_fb96eaa4506d"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_580913f83cea",
-      "title": "海外业务开始放量 可孚医疗上半年营收同比增近四成|财报解读",
-      "firstSeenAt": "2026-08-28T16:41:23.518Z",
-      "lastSeenAt": "2026-08-28T22:29:18.700Z",
-      "primaryItemId": "news_fb588b70d82e",
-      "evidenceItemIds": [
-        "news_fb588b70d82e",
-        "news_43a3ad0eb6f6"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_9b460e649931",
-      "title": "中金公司：2026年上半年净利润81.99亿元，同比增长89.35%",
-      "firstSeenAt": "2026-08-28T16:41:23.518Z",
-      "lastSeenAt": "2026-08-28T22:29:18.700Z",
-      "primaryItemId": "news_545ae69eb55c",
-      "evidenceItemIds": [
-        "news_b1b7ba9cdd05",
-        "news_13196dcc68bd",
-        "news_adb90509b950",
-        "news_fc061c78b296",
-        "news_52f8f7100b03",
-        "news_545ae69eb55c",
-        "news_478cdaaa2b51"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_c973b13176b4",
       "title": "外交部回应美国可能制裁中资银行",
       "firstSeenAt": "2026-08-28T11:33:49.352Z",
@@ -406,31 +595,6 @@
       "status": "developing"
     },
     {
-      "eventId": "event_b39b0111d17b",
-      "title": "特朗普宣布将创建“美国太空学院”",
-      "firstSeenAt": "2026-08-28T20:15:19.681Z",
-      "lastSeenAt": "2026-08-28T22:29:18.700Z",
-      "primaryItemId": "news_b3c3518b7d2d",
-      "evidenceItemIds": [
-        "news_b3c3518b7d2d",
-        "news_b35331181f27",
-        "news_dc5c2d3fabe7"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_a8288d69ce84",
-      "title": "事关房地产，央行、金融监管总局、证监会发文",
-      "firstSeenAt": "2026-08-28T20:15:19.681Z",
-      "lastSeenAt": "2026-08-28T22:29:18.700Z",
-      "primaryItemId": "news_461b616c798c",
-      "evidenceItemIds": [
-        "news_461b616c798c",
-        "news_d14ba4801379"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_3130632c6e87",
       "title": "适配现房销售改革，房地产信贷迎来制度性重塑",
       "firstSeenAt": "2026-08-28T20:15:19.681Z",
@@ -439,34 +603,6 @@
       "evidenceItemIds": [
         "news_cd879814f132",
         "news_82560b79494e"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_88d37f569468",
-      "title": "墨西哥股市收低；截至收盘墨西哥S&P/BMV IPC指数下跌0.53%",
-      "firstSeenAt": "2026-08-27T22:27:22.891Z",
-      "lastSeenAt": "2026-08-28T22:29:18.700Z",
-      "primaryItemId": "news_18d78b1ded1d",
-      "evidenceItemIds": [
-        "news_1dcdfda18973",
-        "news_7c91b51b1eef",
-        "news_18d78b1ded1d",
-        "news_e9ee9b2bc410",
-        "news_ef8e83ac503e"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_b8ca201384a8",
-      "title": "美股收盘：沃什鹰派言论推升加息预期 三大指数小幅收跌",
-      "firstSeenAt": "2026-08-27T09:56:46.110Z",
-      "lastSeenAt": "2026-08-28T22:29:18.700Z",
-      "primaryItemId": "news_8955782d7579",
-      "evidenceItemIds": [
-        "news_2f443a2968da",
-        "news_a2405481236f",
-        "news_8955782d7579"
       ],
       "status": "developing"
     },
@@ -697,18 +833,6 @@
       "status": "developing"
     },
     {
-      "eventId": "event_02086baa3b94",
-      "title": "农业银行：上半年净利润1463.81亿元，上年同期盈利1395.1亿元。",
-      "firstSeenAt": "2026-08-28T11:33:49.352Z",
-      "lastSeenAt": "2026-08-28T16:41:23.518Z",
-      "primaryItemId": "news_08a4240feb70",
-      "evidenceItemIds": [
-        "news_08a4240feb70",
-        "news_46c1279cabae"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_4050dbc5f402",
       "title": "盘前必读丨商务部回应美考虑对华额外加征7.5%关税；香农芯创净利猛涨超2200%",
       "firstSeenAt": "2026-08-27T09:56:46.110Z",
@@ -829,63 +953,6 @@
       "status": "developing"
     },
     {
-      "eventId": "event_91fb625edcc6",
-      "title": "华尔街见闻早餐FM-Radio | 2026年8月28日",
-      "firstSeenAt": "2026-08-01T03:54:06.184Z",
-      "lastSeenAt": "2026-08-28T11:33:49.352Z",
-      "primaryItemId": "news_cf02042ffbd4",
-      "evidenceItemIds": [
-        "news_17edaa318161",
-        "news_98deb5260008",
-        "news_d6ded5ce3d23",
-        "news_ce5450193ef2",
-        "news_c703d5c64965",
-        "news_f283b8db4f69",
-        "news_1192f017766c",
-        "news_13a9ec382c84",
-        "news_56f2fe7df40c",
-        "news_4bcfcf17662a",
-        "news_1e16c7e47c8f",
-        "news_42d80422ca92",
-        "news_f8de29856631",
-        "news_7c9d70564092",
-        "news_64e205ea0eff",
-        "news_ce46b4659126",
-        "news_6187cca76a84",
-        "news_365d990ddc0a",
-        "news_9b6eace71407",
-        "news_a6898d92a8d6",
-        "news_3db9c3529da4",
-        "news_95deade611b9",
-        "news_cf02042ffbd4"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_01118fb5b195",
-      "title": "财联社汽车早报【8月28日】",
-      "firstSeenAt": "2026-08-01T03:54:06.184Z",
-      "lastSeenAt": "2026-08-28T11:33:49.352Z",
-      "primaryItemId": "news_7630df780cff",
-      "evidenceItemIds": [
-        "news_11bf098d57d9",
-        "news_352d957a2426",
-        "news_7a9c03d3a9e0",
-        "news_141a587e8be2",
-        "news_e93b6f66d076",
-        "news_ac42446fc261",
-        "news_e546a87cd0a7",
-        "news_6734c9c4e9b5",
-        "news_8d456e96708b",
-        "news_13fb304edc7b",
-        "news_76d4d9b04b45",
-        "news_39c037720137",
-        "news_d130ba79d897",
-        "news_7630df780cff"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_4bc964db7e09",
       "title": "认为“SpaceX被低估”，大摩预测“2040年收入达3.5万亿美元”，马斯克回应“不，我估计2033年就能达到”",
       "firstSeenAt": "2026-08-28T03:55:53.061Z",
@@ -930,18 +997,6 @@
       "evidenceItemIds": [
         "news_362b3e4a286d",
         "news_341792ee20d5"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_a37248fb9ba0",
-      "title": "沃什杰克逊霍尔讲话料乏善可陈，沃勒9月表态或更具交易价值",
-      "firstSeenAt": "2026-08-28T11:33:49.352Z",
-      "lastSeenAt": "2026-08-28T11:33:49.352Z",
-      "primaryItemId": "news_25ba4f4c9bf9",
-      "evidenceItemIds": [
-        "news_25ba4f4c9bf9",
-        "news_b4ee38e5e75b"
       ],
       "status": "developing"
     },

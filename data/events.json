@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-08-29T13:54:46.251Z",
+  "generatedAt": "2026-08-29T16:47:47.691Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -8,7 +8,7 @@
       "eventId": "event_b8137c9734e7",
       "title": "国家统计局：2026年1—7月份全国规模以上工业企业利润增长17.6%",
       "firstSeenAt": "2026-08-27T09:56:46.110Z",
-      "lastSeenAt": "2026-08-29T13:54:46.251Z",
+      "lastSeenAt": "2026-08-29T16:47:47.691Z",
       "primaryItemId": "news_03dd738e8494",
       "evidenceItemIds": [
         "news_03dd738e8494",
@@ -18,10 +18,10 @@
     },
     {
       "eventId": "event_ecc3a61801b6",
-      "title": "开开实业(600272.SH)发布半年度业绩，归母净利润2222.5万元，同比增长88.33%",
+      "title": "鼎胜新材(603876.SH)发布上半年业绩，归母净利润4.8亿元，同比增长155.41%",
       "firstSeenAt": "2026-08-09T09:08:15.509Z",
-      "lastSeenAt": "2026-08-29T13:54:46.251Z",
-      "primaryItemId": "news_273e49a0ce45",
+      "lastSeenAt": "2026-08-29T16:47:47.691Z",
+      "primaryItemId": "news_be2412153f50",
       "evidenceItemIds": [
         "news_4f43447d8d36",
         "news_ed872b8ea5e1",
@@ -50,7 +50,7 @@
       "eventId": "event_dc9afffef6d6",
       "title": "捷克经济二季度增长0.4%，消费支出成主要驱动力",
       "firstSeenAt": "2026-08-28T11:33:49.352Z",
-      "lastSeenAt": "2026-08-29T13:54:46.251Z",
+      "lastSeenAt": "2026-08-29T16:47:47.691Z",
       "primaryItemId": "news_97b8fac61884",
       "evidenceItemIds": [
         "news_97b8fac61884",
@@ -59,23 +59,10 @@
       "status": "developing"
     },
     {
-      "eventId": "event_f9959f97abf4",
-      "title": "阳光电源上半年营收净利双降，海外营收占比超七成",
-      "firstSeenAt": "2026-08-27T15:15:34.865Z",
-      "lastSeenAt": "2026-08-29T13:54:46.251Z",
-      "primaryItemId": "news_7e14262f869e",
-      "evidenceItemIds": [
-        "news_e89c7c0b5169",
-        "news_7be01efc6ef4",
-        "news_7e14262f869e"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_5b0ec5e7c33e",
-      "title": "美团电话会：预期三季度外卖UE同比改善，保持正值",
+      "title": "美团电话会：三季度外卖UE同比将明显改善，AI加速从消费端向商家端延伸",
       "firstSeenAt": "2026-08-28T16:41:23.518Z",
-      "lastSeenAt": "2026-08-29T13:54:46.251Z",
+      "lastSeenAt": "2026-08-29T16:47:47.691Z",
       "primaryItemId": "news_25ca918d288d",
       "evidenceItemIds": [
         "news_25ca918d288d",
@@ -87,7 +74,7 @@
       "eventId": "event_d97badee6ef3",
       "title": "营收、净利重回正增长，“零售之王”招商银行上半年对公税前利润反超零售",
       "firstSeenAt": "2026-08-28T16:41:23.518Z",
-      "lastSeenAt": "2026-08-29T13:54:46.251Z",
+      "lastSeenAt": "2026-08-29T16:47:47.691Z",
       "primaryItemId": "news_87afc7a736ad",
       "evidenceItemIds": [
         "news_87afc7a736ad",
@@ -99,7 +86,7 @@
       "eventId": "event_b39b0111d17b",
       "title": "特朗普宣布将创建“美国太空学院”",
       "firstSeenAt": "2026-08-28T20:15:19.681Z",
-      "lastSeenAt": "2026-08-29T13:54:46.251Z",
+      "lastSeenAt": "2026-08-29T16:47:47.691Z",
       "primaryItemId": "news_b3c3518b7d2d",
       "evidenceItemIds": [
         "news_b3c3518b7d2d",
@@ -112,7 +99,7 @@
       "eventId": "event_a8288d69ce84",
       "title": "金融监管总局连发五项楼市新规，房地产融资将有哪些重大调整？",
       "firstSeenAt": "2026-08-28T20:15:19.681Z",
-      "lastSeenAt": "2026-08-29T13:54:46.251Z",
+      "lastSeenAt": "2026-08-29T16:47:47.691Z",
       "primaryItemId": "news_d14ba4801379",
       "evidenceItemIds": [
         "news_461b616c798c",
@@ -124,7 +111,7 @@
       "eventId": "event_88d37f569468",
       "title": "墨西哥股市收低；截至收盘墨西哥S&P/BMV IPC指数下跌0.53%",
       "firstSeenAt": "2026-08-27T22:27:22.891Z",
-      "lastSeenAt": "2026-08-29T13:54:46.251Z",
+      "lastSeenAt": "2026-08-29T16:47:47.691Z",
       "primaryItemId": "news_18d78b1ded1d",
       "evidenceItemIds": [
         "news_1dcdfda18973",
@@ -139,7 +126,7 @@
       "eventId": "event_b8ca201384a8",
       "title": "美股收盘：沃什鹰派言论推升加息预期 三大指数小幅收跌",
       "firstSeenAt": "2026-08-27T09:56:46.110Z",
-      "lastSeenAt": "2026-08-29T13:54:46.251Z",
+      "lastSeenAt": "2026-08-29T16:47:47.691Z",
       "primaryItemId": "news_8955782d7579",
       "evidenceItemIds": [
         "news_2f443a2968da",
@@ -152,7 +139,7 @@
       "eventId": "event_02086baa3b94",
       "title": "交通银行上半年净利润增长4.63% 息差企稳、个贷承压",
       "firstSeenAt": "2026-08-28T11:33:49.352Z",
-      "lastSeenAt": "2026-08-29T13:54:46.251Z",
+      "lastSeenAt": "2026-08-29T16:47:47.691Z",
       "primaryItemId": "news_ea45758ac430",
       "evidenceItemIds": [
         "news_08a4240feb70",
@@ -166,7 +153,7 @@
       "eventId": "event_91fb625edcc6",
       "title": "华尔街见闻早餐 | 2026年8月29日",
       "firstSeenAt": "2026-08-01T03:54:06.184Z",
-      "lastSeenAt": "2026-08-29T13:54:46.251Z",
+      "lastSeenAt": "2026-08-29T16:47:47.691Z",
       "primaryItemId": "news_3465a9cb688f",
       "evidenceItemIds": [
         "news_17edaa318161",
@@ -200,7 +187,7 @@
       "eventId": "event_01118fb5b195",
       "title": "财联社汽车早报【8月29日】",
       "firstSeenAt": "2026-08-01T03:54:06.184Z",
-      "lastSeenAt": "2026-08-29T13:54:46.251Z",
+      "lastSeenAt": "2026-08-29T16:47:47.691Z",
       "primaryItemId": "news_f4d0c83073b7",
       "evidenceItemIds": [
         "news_11bf098d57d9",
@@ -225,7 +212,7 @@
       "eventId": "event_a37248fb9ba0",
       "title": "付鹏点评杰克逊霍尔会议：上有本森特，下有凯文沃什【付鹏说图表】",
       "firstSeenAt": "2026-08-28T11:33:49.352Z",
-      "lastSeenAt": "2026-08-29T13:54:46.251Z",
+      "lastSeenAt": "2026-08-29T16:47:47.691Z",
       "primaryItemId": "news_f955d7267cb9",
       "evidenceItemIds": [
         "news_25ba4f4c9bf9",
@@ -238,7 +225,7 @@
       "eventId": "event_f2c8c4138aa2",
       "title": "沃什杰克逊霍尔首秀震惊市场：美联储要准备开始加息吗",
       "firstSeenAt": "2026-08-29T07:09:11.116Z",
-      "lastSeenAt": "2026-08-29T13:54:46.251Z",
+      "lastSeenAt": "2026-08-29T16:47:47.691Z",
       "primaryItemId": "news_0e00e62a789c",
       "evidenceItemIds": [
         "news_0e00e62a789c",
@@ -252,7 +239,7 @@
       "eventId": "event_e8920800d094",
       "title": "特朗普宣布与委内瑞拉达成石油协议，称获逾650亿桶储量\"多数控制权\"",
       "firstSeenAt": "2026-08-29T07:09:11.116Z",
-      "lastSeenAt": "2026-08-29T13:54:46.251Z",
+      "lastSeenAt": "2026-08-29T16:47:47.691Z",
       "primaryItemId": "news_fb28637d49dd",
       "evidenceItemIds": [
         "news_fb28637d49dd",
@@ -264,7 +251,7 @@
       "eventId": "event_1454d8853881",
       "title": "黄金价格暴跌逾3.4% 玉米与小麦价格齐创逾三年新高 | 环球市场",
       "firstSeenAt": "2026-08-29T07:09:11.116Z",
-      "lastSeenAt": "2026-08-29T13:54:46.251Z",
+      "lastSeenAt": "2026-08-29T16:47:47.691Z",
       "primaryItemId": "news_c71285c157ef",
       "evidenceItemIds": [
         "news_c71285c157ef",
@@ -276,7 +263,7 @@
       "eventId": "event_03487f5c1049",
       "title": "Electra Therapeutics(ETRA.US)递交美股IPO申请，借生物科技上市热潮推进免疫疾病与癌症新药研",
       "firstSeenAt": "2026-08-29T07:09:11.116Z",
-      "lastSeenAt": "2026-08-29T13:54:46.251Z",
+      "lastSeenAt": "2026-08-29T16:47:47.691Z",
       "primaryItemId": "news_04c0dbc3ff1a",
       "evidenceItemIds": [
         "news_04c0dbc3ff1a",
@@ -288,7 +275,7 @@
       "eventId": "event_4b92337366e0",
       "title": "兰州银行2026年上半年营收增长6.6%，扣非归母净利润增长7.14%",
       "firstSeenAt": "2026-08-25T13:18:38.935Z",
-      "lastSeenAt": "2026-08-29T13:54:46.251Z",
+      "lastSeenAt": "2026-08-29T16:47:47.691Z",
       "primaryItemId": "news_f442b90cb0de",
       "evidenceItemIds": [
         "news_c1b3286fcadd",
@@ -347,7 +334,7 @@
       "eventId": "event_2f9c3e8e22d3",
       "title": "新股消息 | 地中海度假递表港交所 旗下Club Med是全球最大的度假村品牌",
       "firstSeenAt": "2026-08-01T14:02:14.101Z",
-      "lastSeenAt": "2026-08-29T13:54:46.251Z",
+      "lastSeenAt": "2026-08-29T16:47:47.691Z",
       "primaryItemId": "news_5ad295d469c1",
       "evidenceItemIds": [
         "news_9a2615cb6381",
@@ -362,7 +349,7 @@
       "eventId": "event_3146956f1897",
       "title": "关于资本市场支持构建房地产发展新模式的意见",
       "firstSeenAt": "2026-08-28T11:33:49.352Z",
-      "lastSeenAt": "2026-08-29T13:54:46.251Z",
+      "lastSeenAt": "2026-08-29T16:47:47.691Z",
       "primaryItemId": "news_bcbc19d029f5",
       "evidenceItemIds": [
         "news_1e31d5b8e039",
@@ -371,6 +358,19 @@
         "news_5a0d21b7f76c",
         "news_bcbc19d029f5",
         "news_24315b4d07af"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_f9959f97abf4",
+      "title": "阳光电源上半年营收净利双降，海外营收占比超七成",
+      "firstSeenAt": "2026-08-27T15:15:34.865Z",
+      "lastSeenAt": "2026-08-29T13:54:46.251Z",
+      "primaryItemId": "news_7e14262f869e",
+      "evidenceItemIds": [
+        "news_e89c7c0b5169",
+        "news_7be01efc6ef4",
+        "news_7e14262f869e"
       ],
       "status": "developing"
     },

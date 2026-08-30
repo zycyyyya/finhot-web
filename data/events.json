@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-08-30T09:57:01.066Z",
+  "generatedAt": "2026-08-30T13:54:49.187Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -8,7 +8,7 @@
       "eventId": "event_b8137c9734e7",
       "title": "国家统计局：2026年1—7月份全国规模以上工业企业利润增长17.6%",
       "firstSeenAt": "2026-08-27T09:56:46.110Z",
-      "lastSeenAt": "2026-08-30T09:57:01.066Z",
+      "lastSeenAt": "2026-08-30T13:54:49.187Z",
       "primaryItemId": "news_03dd738e8494",
       "evidenceItemIds": [
         "news_03dd738e8494",
@@ -20,11 +20,317 @@
       "eventId": "event_dc9afffef6d6",
       "title": "捷克经济二季度增长0.4%，消费支出成主要驱动力",
       "firstSeenAt": "2026-08-28T11:33:49.352Z",
-      "lastSeenAt": "2026-08-30T09:57:01.066Z",
+      "lastSeenAt": "2026-08-30T13:54:49.187Z",
       "primaryItemId": "news_97b8fac61884",
       "evidenceItemIds": [
         "news_97b8fac61884",
         "news_9184aab93a77"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_2f9c3e8e22d3",
+      "title": "新股消息｜Exegenesis Bio Inc. 再次递表港交所，布局神经与眼科基因等治疗管线",
+      "firstSeenAt": "2026-08-01T14:02:14.101Z",
+      "lastSeenAt": "2026-08-30T13:54:49.187Z",
+      "primaryItemId": "news_c676430d39a9",
+      "evidenceItemIds": [
+        "news_9a2615cb6381",
+        "news_120c6d970c9e",
+        "news_ee3c8e53c425",
+        "news_9717818fcfef",
+        "news_5ad295d469c1",
+        "news_c676430d39a9"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_52fa9241d7fa",
+      "title": "下周重磅日程：中国PMI与美国非农，G20会议，特斯拉Cybercab，博通、智谱财报",
+      "firstSeenAt": "2026-08-30T05:31:34.067Z",
+      "lastSeenAt": "2026-08-30T13:54:49.187Z",
+      "primaryItemId": "news_5495cc28e00c",
+      "evidenceItemIds": [
+        "news_5495cc28e00c",
+        "news_460b9a42bd87"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_f4da264dd4cd",
+      "title": "现房销售制时代到来",
+      "firstSeenAt": "2026-08-30T05:31:34.067Z",
+      "lastSeenAt": "2026-08-30T13:54:49.187Z",
+      "primaryItemId": "news_64b2734cc302",
+      "evidenceItemIds": [
+        "news_64b2734cc302",
+        "news_45fecfd98b27"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_ecc3a61801b6",
+      "title": "天风证券(601162.SH)发布半年度业绩，归母净利润2.04亿元，同比增长549.03%",
+      "firstSeenAt": "2026-08-09T09:08:15.509Z",
+      "lastSeenAt": "2026-08-30T13:54:49.187Z",
+      "primaryItemId": "news_11762aba602f",
+      "evidenceItemIds": [
+        "news_4f43447d8d36",
+        "news_ed872b8ea5e1",
+        "news_b62b70ad9282",
+        "news_74346c5459b7",
+        "news_9fcb05c10d17",
+        "news_72030f9c108f",
+        "news_b71b03eaee24",
+        "news_4b6e6f4e6af1",
+        "news_4b798151deac",
+        "news_04c7aa7dd182",
+        "news_548f514799a9",
+        "news_afc6eeff2ca6",
+        "news_be2412153f50",
+        "news_9f538428ec46",
+        "news_a2405b1ebf4b",
+        "news_273e49a0ce45",
+        "news_65b86ca1f965",
+        "news_8f72c650a1f5",
+        "news_ed87d1160aa6",
+        "news_c57b644b1cfe",
+        "news_1449b2679bb3",
+        "news_385e2b75f1f2",
+        "news_5add0cc96ba7",
+        "news_3222f5d49137",
+        "news_11762aba602f"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_3146956f1897",
+      "title": "关于资本市场支持构建房地产发展新模式的意见",
+      "firstSeenAt": "2026-08-28T11:33:49.352Z",
+      "lastSeenAt": "2026-08-30T13:54:49.187Z",
+      "primaryItemId": "news_bcbc19d029f5",
+      "evidenceItemIds": [
+        "news_1e31d5b8e039",
+        "news_ec5b8a9b77d3",
+        "news_90c8f851d773",
+        "news_5a0d21b7f76c",
+        "news_bcbc19d029f5",
+        "news_24315b4d07af"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_1599123cd647",
+      "title": "重磅！30年变40年，个人住房贷款期限延长",
+      "firstSeenAt": "2026-08-28T11:33:49.352Z",
+      "lastSeenAt": "2026-08-30T13:54:49.187Z",
+      "primaryItemId": "news_eadf48a8b01e",
+      "evidenceItemIds": [
+        "news_5bb378b6278f",
+        "news_eadf48a8b01e",
+        "news_657185272b9e",
+        "news_abd8a6def3ce",
+        "news_469461b7fc55",
+        "news_ae28db4c7d9b"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_9b460e649931",
+      "title": "TCL科技：2026年上半年净利润38.08亿元，同比增长102.19%",
+      "firstSeenAt": "2026-08-28T16:41:23.518Z",
+      "lastSeenAt": "2026-08-30T13:54:49.187Z",
+      "primaryItemId": "news_67a81c664cd3",
+      "evidenceItemIds": [
+        "news_b1b7ba9cdd05",
+        "news_13196dcc68bd",
+        "news_adb90509b950",
+        "news_fc061c78b296",
+        "news_52f8f7100b03",
+        "news_545ae69eb55c",
+        "news_478cdaaa2b51",
+        "news_67a81c664cd3",
+        "news_b7645afe6f04",
+        "news_25c0eca2c935",
+        "news_50db7438c9ad",
+        "news_6a43641b56e2"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_319cf25db577",
+      "title": "隆基绿能：上半年净亏损36.84亿元",
+      "firstSeenAt": "2026-08-28T11:33:49.352Z",
+      "lastSeenAt": "2026-08-30T13:54:49.187Z",
+      "primaryItemId": "news_22cbfd041ffd",
+      "evidenceItemIds": [
+        "news_84d61a9db567",
+        "news_ab895551e11a",
+        "news_53cda4050ff7",
+        "news_22cbfd041ffd"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_7af1d91cc6d1",
+      "title": "中国动力：2026年半年度净利润同比增长42.74%",
+      "firstSeenAt": "2026-08-30T09:57:01.066Z",
+      "lastSeenAt": "2026-08-30T13:54:49.187Z",
+      "primaryItemId": "news_136915976763",
+      "evidenceItemIds": [
+        "news_136915976763",
+        "news_b6846f31c6ff",
+        "news_5aedd6381b33",
+        "news_505e72349fcc"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_70dbd732a1c2",
+      "title": "中国黄金：上半年归母净利润2.79亿元，同比下降12.35%",
+      "firstSeenAt": "2026-08-30T09:57:01.066Z",
+      "lastSeenAt": "2026-08-30T13:54:49.187Z",
+      "primaryItemId": "news_2b30312a24ca",
+      "evidenceItemIds": [
+        "news_2b30312a24ca",
+        "news_717677509efa",
+        "news_1f8b5a52d4d3"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_8d2fe171acfb",
+      "title": "信达地产(600657.SH)发布上半年业绩，归母净亏损13.2亿元",
+      "firstSeenAt": "2026-08-30T09:57:01.066Z",
+      "lastSeenAt": "2026-08-30T13:54:49.187Z",
+      "primaryItemId": "news_9dbfd3262546",
+      "evidenceItemIds": [
+        "news_9dbfd3262546",
+        "news_22bf60a18c18",
+        "news_eea8600ef304",
+        "news_85e9b58c7206",
+        "news_b74e961f6704"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_88d37f569468",
+      "title": "沙特阿拉伯股市收低；截至收盘沙特阿拉伯TASI指数下跌0.71%",
+      "firstSeenAt": "2026-08-27T22:27:22.891Z",
+      "lastSeenAt": "2026-08-30T13:54:49.187Z",
+      "primaryItemId": "news_50072042a675",
+      "evidenceItemIds": [
+        "news_1dcdfda18973",
+        "news_7c91b51b1eef",
+        "news_18d78b1ded1d",
+        "news_e9ee9b2bc410",
+        "news_ef8e83ac503e",
+        "news_50072042a675"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_9694f81f70fe",
+      "title": "“三桶油” ：上半年合计净赚超2100亿元",
+      "firstSeenAt": "2026-08-21T13:20:40.645Z",
+      "lastSeenAt": "2026-08-30T13:54:49.187Z",
+      "primaryItemId": "news_aebb2c397258",
+      "evidenceItemIds": [
+        "news_025370104945",
+        "news_4d195d3ead14",
+        "news_b1fe560b24aa",
+        "news_57204f766f27",
+        "news_c691ce0c466b",
+        "news_aebb2c397258"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_7c6112d92808",
+      "title": "沐曦股份：上半年营收超过13亿元并实现扭亏，GPU产品出货量提升带动业绩持续增长",
+      "firstSeenAt": "2026-08-28T11:33:49.352Z",
+      "lastSeenAt": "2026-08-30T13:54:49.187Z",
+      "primaryItemId": "news_1428eab76874",
+      "evidenceItemIds": [
+        "news_097b4940222b",
+        "news_5566690beb0c",
+        "news_72707b34c82b",
+        "news_8a74e7ab7286",
+        "news_82136f797024",
+        "news_2becbec6af4c",
+        "news_1428eab76874"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_202dd878fa19",
+      "title": "晚间公告｜8月30日这些公告有看头",
+      "firstSeenAt": "2026-07-31T14:43:32.623Z",
+      "lastSeenAt": "2026-08-30T13:54:49.187Z",
+      "primaryItemId": "news_514b54e00f99",
+      "evidenceItemIds": [
+        "news_eaf56a2f5345",
+        "news_8b256f193830",
+        "news_58fdd88ca5ff",
+        "news_4cac4c806a4b",
+        "news_f202b91c5619",
+        "news_c91687230a2c",
+        "news_958c3f39adb1",
+        "news_a328d8732020",
+        "news_042b264c9695",
+        "news_0f321ef4412b",
+        "news_6fe4b8332584",
+        "news_f755ad25cd3e",
+        "news_6d13f9de9d52",
+        "news_bd988cf929f3",
+        "news_a6888af31e73",
+        "news_8429689faaae",
+        "news_f88525090167",
+        "news_0ab1f5803307",
+        "news_141a625db923",
+        "news_9ac737e4924a",
+        "news_60885ba55001",
+        "news_9d3c513ffc0f",
+        "news_3e80b0340e44",
+        "news_56a89494a39c",
+        "news_69264b26c3e7",
+        "news_514b54e00f99"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_a8c2371170fe",
+      "title": "上半年扭亏为盈！2700亿国产GPU龙头发布半年报|盘后公告集锦",
+      "firstSeenAt": "2026-08-14T13:49:37.381Z",
+      "lastSeenAt": "2026-08-30T13:54:49.187Z",
+      "primaryItemId": "news_7fa7994cfff6",
+      "evidenceItemIds": [
+        "news_e887eebdb506",
+        "news_7a0261b7aa21",
+        "news_32743d5348b8",
+        "news_f15e55e2453c",
+        "news_6985177b41ae",
+        "news_f052c7c2833b",
+        "news_82d12f2ce96c",
+        "news_d068b8daddcd",
+        "news_59c81b385272",
+        "news_c42a0ba04a11",
+        "news_0366c1491ac3",
+        "news_ec57a1b73bd1",
+        "news_c449da128f40",
+        "news_987cabf22112",
+        "news_12ecbcb61c3a",
+        "news_980483b88d1f",
+        "news_6237631698cc",
+        "news_142fff82025e",
+        "news_2d0771624507",
+        "news_cc57a2440645",
+        "news_229253ec4ac4",
+        "news_01cc5ad34653",
+        "news_f77cd45fc8c1",
+        "news_a4949be30409",
+        "news_3535149b70db",
+        "news_7fa7994cfff6"
       ],
       "status": "developing"
     },
@@ -78,148 +384,6 @@
       "evidenceItemIds": [
         "news_04c0dbc3ff1a",
         "news_2969885180b0"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_2f9c3e8e22d3",
-      "title": "新股消息｜Exegenesis Bio Inc. 再次递表港交所，布局神经与眼科基因等治疗管线",
-      "firstSeenAt": "2026-08-01T14:02:14.101Z",
-      "lastSeenAt": "2026-08-30T09:57:01.066Z",
-      "primaryItemId": "news_c676430d39a9",
-      "evidenceItemIds": [
-        "news_9a2615cb6381",
-        "news_120c6d970c9e",
-        "news_ee3c8e53c425",
-        "news_9717818fcfef",
-        "news_5ad295d469c1",
-        "news_c676430d39a9"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_52fa9241d7fa",
-      "title": "下周重磅日程：中国PMI与美国非农，G20会议，特斯拉Cybercab，博通、智谱财报",
-      "firstSeenAt": "2026-08-30T05:31:34.067Z",
-      "lastSeenAt": "2026-08-30T09:57:01.066Z",
-      "primaryItemId": "news_5495cc28e00c",
-      "evidenceItemIds": [
-        "news_5495cc28e00c",
-        "news_460b9a42bd87"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_f4da264dd4cd",
-      "title": "现房销售制时代到来",
-      "firstSeenAt": "2026-08-30T05:31:34.067Z",
-      "lastSeenAt": "2026-08-30T09:57:01.066Z",
-      "primaryItemId": "news_64b2734cc302",
-      "evidenceItemIds": [
-        "news_64b2734cc302",
-        "news_45fecfd98b27"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_ecc3a61801b6",
-      "title": "艾迪精密(603638.SH)发布半年度业绩，归母净利润3.06亿元，同比增长47.71%",
-      "firstSeenAt": "2026-08-09T09:08:15.509Z",
-      "lastSeenAt": "2026-08-30T09:57:01.066Z",
-      "primaryItemId": "news_1449b2679bb3",
-      "evidenceItemIds": [
-        "news_4f43447d8d36",
-        "news_ed872b8ea5e1",
-        "news_b62b70ad9282",
-        "news_74346c5459b7",
-        "news_9fcb05c10d17",
-        "news_72030f9c108f",
-        "news_b71b03eaee24",
-        "news_4b6e6f4e6af1",
-        "news_4b798151deac",
-        "news_04c7aa7dd182",
-        "news_548f514799a9",
-        "news_afc6eeff2ca6",
-        "news_be2412153f50",
-        "news_9f538428ec46",
-        "news_a2405b1ebf4b",
-        "news_273e49a0ce45",
-        "news_65b86ca1f965",
-        "news_8f72c650a1f5",
-        "news_ed87d1160aa6",
-        "news_c57b644b1cfe",
-        "news_1449b2679bb3",
-        "news_385e2b75f1f2",
-        "news_5add0cc96ba7",
-        "news_3222f5d49137"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_3146956f1897",
-      "title": "关于资本市场支持构建房地产发展新模式的意见",
-      "firstSeenAt": "2026-08-28T11:33:49.352Z",
-      "lastSeenAt": "2026-08-30T09:57:01.066Z",
-      "primaryItemId": "news_bcbc19d029f5",
-      "evidenceItemIds": [
-        "news_1e31d5b8e039",
-        "news_ec5b8a9b77d3",
-        "news_90c8f851d773",
-        "news_5a0d21b7f76c",
-        "news_bcbc19d029f5",
-        "news_24315b4d07af"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_1599123cd647",
-      "title": "重磅！30年变40年，个人住房贷款期限延长",
-      "firstSeenAt": "2026-08-28T11:33:49.352Z",
-      "lastSeenAt": "2026-08-30T09:57:01.066Z",
-      "primaryItemId": "news_eadf48a8b01e",
-      "evidenceItemIds": [
-        "news_5bb378b6278f",
-        "news_eadf48a8b01e",
-        "news_657185272b9e",
-        "news_abd8a6def3ce",
-        "news_469461b7fc55",
-        "news_ae28db4c7d9b"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_9b460e649931",
-      "title": "TCL科技：2026年上半年净利润38.08亿元，同比增长102.19%",
-      "firstSeenAt": "2026-08-28T16:41:23.518Z",
-      "lastSeenAt": "2026-08-30T09:57:01.066Z",
-      "primaryItemId": "news_67a81c664cd3",
-      "evidenceItemIds": [
-        "news_b1b7ba9cdd05",
-        "news_13196dcc68bd",
-        "news_adb90509b950",
-        "news_fc061c78b296",
-        "news_52f8f7100b03",
-        "news_545ae69eb55c",
-        "news_478cdaaa2b51",
-        "news_67a81c664cd3",
-        "news_b7645afe6f04",
-        "news_25c0eca2c935",
-        "news_50db7438c9ad",
-        "news_6a43641b56e2"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_319cf25db577",
-      "title": "隆基绿能：上半年净亏损36.84亿元",
-      "firstSeenAt": "2026-08-28T11:33:49.352Z",
-      "lastSeenAt": "2026-08-30T09:57:01.066Z",
-      "primaryItemId": "news_22cbfd041ffd",
-      "evidenceItemIds": [
-        "news_84d61a9db567",
-        "news_ab895551e11a",
-        "news_53cda4050ff7",
-        "news_22cbfd041ffd"
       ],
       "status": "developing"
     },
@@ -281,48 +445,6 @@
       "status": "developing"
     },
     {
-      "eventId": "event_7af1d91cc6d1",
-      "title": "中国动力：2026年半年度净利润同比增长42.74%",
-      "firstSeenAt": "2026-08-30T09:57:01.066Z",
-      "lastSeenAt": "2026-08-30T09:57:01.066Z",
-      "primaryItemId": "news_136915976763",
-      "evidenceItemIds": [
-        "news_136915976763",
-        "news_b6846f31c6ff",
-        "news_5aedd6381b33",
-        "news_505e72349fcc"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_70dbd732a1c2",
-      "title": "中国黄金：上半年归母净利润2.79亿元，同比下降12.35%",
-      "firstSeenAt": "2026-08-30T09:57:01.066Z",
-      "lastSeenAt": "2026-08-30T09:57:01.066Z",
-      "primaryItemId": "news_2b30312a24ca",
-      "evidenceItemIds": [
-        "news_2b30312a24ca",
-        "news_717677509efa",
-        "news_1f8b5a52d4d3"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_8d2fe171acfb",
-      "title": "信达地产(600657.SH)发布上半年业绩，归母净亏损13.2亿元",
-      "firstSeenAt": "2026-08-30T09:57:01.066Z",
-      "lastSeenAt": "2026-08-30T09:57:01.066Z",
-      "primaryItemId": "news_9dbfd3262546",
-      "evidenceItemIds": [
-        "news_9dbfd3262546",
-        "news_22bf60a18c18",
-        "news_eea8600ef304",
-        "news_85e9b58c7206",
-        "news_b74e961f6704"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_b39b0111d17b",
       "title": "特朗普宣布将创建“美国太空学院”",
       "firstSeenAt": "2026-08-28T20:15:19.681Z",
@@ -332,21 +454,6 @@
         "news_b3c3518b7d2d",
         "news_b35331181f27",
         "news_dc5c2d3fabe7"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_88d37f569468",
-      "title": "墨西哥股市收低；截至收盘墨西哥S&P/BMV IPC指数下跌0.53%",
-      "firstSeenAt": "2026-08-27T22:27:22.891Z",
-      "lastSeenAt": "2026-08-30T05:31:34.067Z",
-      "primaryItemId": "news_18d78b1ded1d",
-      "evidenceItemIds": [
-        "news_1dcdfda18973",
-        "news_7c91b51b1eef",
-        "news_18d78b1ded1d",
-        "news_e9ee9b2bc410",
-        "news_ef8e83ac503e"
       ],
       "status": "developing"
     },
@@ -555,37 +662,6 @@
       "status": "developing"
     },
     {
-      "eventId": "event_9694f81f70fe",
-      "title": "港股公告精选｜中国铁建中期盈利同比降约两成 工行上半年净赚超1700亿元",
-      "firstSeenAt": "2026-08-21T13:20:40.645Z",
-      "lastSeenAt": "2026-08-29T11:06:18.128Z",
-      "primaryItemId": "news_c691ce0c466b",
-      "evidenceItemIds": [
-        "news_025370104945",
-        "news_4d195d3ead14",
-        "news_b1fe560b24aa",
-        "news_57204f766f27",
-        "news_c691ce0c466b"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_7c6112d92808",
-      "title": "长鑫科技上半年营收大增873.6%，LPDDR6已向客户送样",
-      "firstSeenAt": "2026-08-28T11:33:49.352Z",
-      "lastSeenAt": "2026-08-29T07:09:11.116Z",
-      "primaryItemId": "news_72707b34c82b",
-      "evidenceItemIds": [
-        "news_097b4940222b",
-        "news_5566690beb0c",
-        "news_72707b34c82b",
-        "news_8a74e7ab7286",
-        "news_82136f797024",
-        "news_2becbec6af4c"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_c0626cb81f24",
       "title": "Anthropic加码自研AI芯片：曾考虑70亿美元收购MatX，正接洽多家初创公司",
       "firstSeenAt": "2026-08-28T11:33:49.352Z",
@@ -670,41 +746,6 @@
         "news_bf7f50ffb113",
         "news_938008b98936",
         "news_0fc163fb9070"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_202dd878fa19",
-      "title": "晚间公告｜8月28日这些公告有看头",
-      "firstSeenAt": "2026-07-31T14:43:32.623Z",
-      "lastSeenAt": "2026-08-28T22:29:18.700Z",
-      "primaryItemId": "news_69264b26c3e7",
-      "evidenceItemIds": [
-        "news_eaf56a2f5345",
-        "news_8b256f193830",
-        "news_58fdd88ca5ff",
-        "news_4cac4c806a4b",
-        "news_f202b91c5619",
-        "news_c91687230a2c",
-        "news_958c3f39adb1",
-        "news_a328d8732020",
-        "news_042b264c9695",
-        "news_0f321ef4412b",
-        "news_6fe4b8332584",
-        "news_f755ad25cd3e",
-        "news_6d13f9de9d52",
-        "news_bd988cf929f3",
-        "news_a6888af31e73",
-        "news_8429689faaae",
-        "news_f88525090167",
-        "news_0ab1f5803307",
-        "news_141a625db923",
-        "news_9ac737e4924a",
-        "news_60885ba55001",
-        "news_9d3c513ffc0f",
-        "news_3e80b0340e44",
-        "news_56a89494a39c",
-        "news_69264b26c3e7"
       ],
       "status": "developing"
     },
@@ -1148,41 +1189,6 @@
       "evidenceItemIds": [
         "news_362b3e4a286d",
         "news_341792ee20d5"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_a8c2371170fe",
-      "title": "Q2净利环比增长127%！620亿MLCC龙头发布半年报|盘后公告集锦",
-      "firstSeenAt": "2026-08-14T13:49:37.381Z",
-      "lastSeenAt": "2026-08-28T03:55:53.061Z",
-      "primaryItemId": "news_3535149b70db",
-      "evidenceItemIds": [
-        "news_e887eebdb506",
-        "news_7a0261b7aa21",
-        "news_32743d5348b8",
-        "news_f15e55e2453c",
-        "news_6985177b41ae",
-        "news_f052c7c2833b",
-        "news_82d12f2ce96c",
-        "news_d068b8daddcd",
-        "news_59c81b385272",
-        "news_c42a0ba04a11",
-        "news_0366c1491ac3",
-        "news_ec57a1b73bd1",
-        "news_c449da128f40",
-        "news_987cabf22112",
-        "news_12ecbcb61c3a",
-        "news_980483b88d1f",
-        "news_6237631698cc",
-        "news_142fff82025e",
-        "news_2d0771624507",
-        "news_cc57a2440645",
-        "news_229253ec4ac4",
-        "news_01cc5ad34653",
-        "news_f77cd45fc8c1",
-        "news_a4949be30409",
-        "news_3535149b70db"
       ],
       "status": "developing"
     },

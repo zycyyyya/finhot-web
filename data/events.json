@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-09-01T09:28:40.652Z",
+  "generatedAt": "2026-09-01T13:34:49.779Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -8,7 +8,7 @@
       "eventId": "event_3146956f1897",
       "title": "关于资本市场支持构建房地产发展新模式的意见",
       "firstSeenAt": "2026-08-28T11:33:49.352Z",
-      "lastSeenAt": "2026-09-01T09:28:40.652Z",
+      "lastSeenAt": "2026-09-01T13:34:49.779Z",
       "primaryItemId": "news_bcbc19d029f5",
       "evidenceItemIds": [
         "news_1e31d5b8e039",
@@ -24,54 +24,10 @@
       "status": "developing"
     },
     {
-      "eventId": "event_9694f81f70fe",
-      "title": "港股公告精选｜中国信达中期盈利同比下滑超6成 恒大物业上半年营收近70亿元",
-      "firstSeenAt": "2026-08-21T13:20:40.645Z",
-      "lastSeenAt": "2026-09-01T09:28:40.652Z",
-      "primaryItemId": "news_18d1efb77f63",
-      "evidenceItemIds": [
-        "news_025370104945",
-        "news_4d195d3ead14",
-        "news_b1fe560b24aa",
-        "news_57204f766f27",
-        "news_c691ce0c466b",
-        "news_aebb2c397258",
-        "news_18d1efb77f63"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_32b7ab6e8c47",
-      "title": "中国8月PMI回升需求改善，中国高股息资产震荡，全球制造业收入与就业分化加剧---0831宏观脱水",
-      "firstSeenAt": "2026-08-31T05:43:28.761Z",
-      "lastSeenAt": "2026-09-01T09:28:40.652Z",
-      "primaryItemId": "news_e2e6dd9edef9",
-      "evidenceItemIds": [
-        "news_bc7c095a22e3",
-        "news_562b6ca49749",
-        "news_e2e6dd9edef9"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_412a4712fac9",
-      "title": "成品油涨幅远超原油：高盛把美国柴油利润预期上调逾一倍",
-      "firstSeenAt": "2026-08-31T10:53:03.043Z",
-      "lastSeenAt": "2026-09-01T09:28:40.652Z",
-      "primaryItemId": "news_233d30c6802b",
-      "evidenceItemIds": [
-        "news_f1397bbca819",
-        "news_d7fef3a3530e",
-        "news_233d30c6802b",
-        "news_31f190743e11"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_9c0c9d6fb2df",
       "title": "中裕能源(03633)8月31日斥资155.13万港元回购60万股",
       "firstSeenAt": "2026-08-31T10:53:03.043Z",
-      "lastSeenAt": "2026-09-01T09:28:40.652Z",
+      "lastSeenAt": "2026-09-01T13:34:49.779Z",
       "primaryItemId": "news_ce0ca66fc02b",
       "evidenceItemIds": [
         "news_7027afe68819",
@@ -82,13 +38,14 @@
     },
     {
       "eventId": "event_51f50d4547a0",
-      "title": "英伟达拟斥资35亿美元入股联发科，进一步扩张AI芯片生态",
+      "title": "联发科股价上涨9.9%，英伟达将向联发科投资35亿美元",
       "firstSeenAt": "2026-08-31T16:14:16.390Z",
-      "lastSeenAt": "2026-09-01T09:28:40.652Z",
-      "primaryItemId": "news_0b1c44b2c97a",
+      "lastSeenAt": "2026-09-01T13:34:49.779Z",
+      "primaryItemId": "news_776350c2840d",
       "evidenceItemIds": [
         "news_0b1c44b2c97a",
-        "news_9312a5ade0d8"
+        "news_9312a5ade0d8",
+        "news_776350c2840d"
       ],
       "status": "developing"
     },
@@ -96,7 +53,7 @@
       "eventId": "event_54504cc4d132",
       "title": "A股中报风云丨2026年上半年谁研发投入最高？",
       "firstSeenAt": "2026-08-31T16:14:16.390Z",
-      "lastSeenAt": "2026-09-01T09:28:40.652Z",
+      "lastSeenAt": "2026-09-01T13:34:49.779Z",
       "primaryItemId": "news_be0b8088f0c6",
       "evidenceItemIds": [
         "news_36d173756c0d",
@@ -104,7 +61,8 @@
         "news_27d3e7a01353",
         "news_de7652622814",
         "news_be0b8088f0c6",
-        "news_4423742620d6"
+        "news_4423742620d6",
+        "news_f24f9d440574"
       ],
       "status": "developing"
     },
@@ -112,7 +70,7 @@
       "eventId": "event_8c89c31f3b3c",
       "title": "A股三大股指盘初集体下跌，农林牧渔再度拉升，算力硬件、芯片半导体齐下挫，恒指跌1%，希音港股IPO首日跌8%",
       "firstSeenAt": "2026-08-28T03:55:53.061Z",
-      "lastSeenAt": "2026-09-01T09:28:40.652Z",
+      "lastSeenAt": "2026-09-01T13:34:49.779Z",
       "primaryItemId": "news_7a4d049cc2cc",
       "evidenceItemIds": [
         "news_ca24cdb0d0cb",
@@ -127,7 +85,7 @@
       "eventId": "event_529af3584dc2",
       "title": "恒指收盘跌0.93%，恒生科技指数跌1.49%",
       "firstSeenAt": "2026-07-31T02:43:30.494Z",
-      "lastSeenAt": "2026-09-01T09:28:40.652Z",
+      "lastSeenAt": "2026-09-01T13:34:49.779Z",
       "primaryItemId": "news_7e76aa9dc564",
       "evidenceItemIds": [
         "news_e170ace73dc0",
@@ -185,14 +143,15 @@
     },
     {
       "eventId": "event_8f8398d77c16",
-      "title": "联发科股价上涨9.9%，英伟达将向联发科投资35亿美元",
+      "title": "AI芯片公司燧原科技科创板IPO定价142.18元、募资61.2亿元",
       "firstSeenAt": "2026-09-01T05:18:31.478Z",
-      "lastSeenAt": "2026-09-01T09:28:40.652Z",
-      "primaryItemId": "news_776350c2840d",
+      "lastSeenAt": "2026-09-01T13:34:49.779Z",
+      "primaryItemId": "news_6e99beb2a389",
       "evidenceItemIds": [
         "news_776350c2840d",
         "news_25a896e2aab8",
-        "news_5e11b85dca80"
+        "news_5e11b85dca80",
+        "news_6e99beb2a389"
       ],
       "status": "developing"
     },
@@ -200,7 +159,7 @@
       "eventId": "event_bd651cdd983f",
       "title": "百度CFO回应百度双重主要上市：预计有10%至15%增量资金流入",
       "firstSeenAt": "2026-09-01T05:18:31.478Z",
-      "lastSeenAt": "2026-09-01T09:28:40.652Z",
+      "lastSeenAt": "2026-09-01T13:34:49.779Z",
       "primaryItemId": "news_bcdd5d842948",
       "evidenceItemIds": [
         "news_bcdd5d842948",
@@ -212,7 +171,7 @@
       "eventId": "event_248f03c1f01e",
       "title": "Anthropic 350亿美元云大单背后，真正的房东是英伟达",
       "firstSeenAt": "2026-09-01T05:18:31.478Z",
-      "lastSeenAt": "2026-09-01T09:28:40.652Z",
+      "lastSeenAt": "2026-09-01T13:34:49.779Z",
       "primaryItemId": "news_85721b4cd143",
       "evidenceItemIds": [
         "news_85721b4cd143",
@@ -224,7 +183,7 @@
       "eventId": "event_ce409390e747",
       "title": "知名科技投资人Gavin Baker：所有人都在担心AI过度建设，但真正的风险可能是建设不足",
       "firstSeenAt": "2026-09-01T05:18:31.478Z",
-      "lastSeenAt": "2026-09-01T09:28:40.652Z",
+      "lastSeenAt": "2026-09-01T13:34:49.779Z",
       "primaryItemId": "news_ee5f0c27c70c",
       "evidenceItemIds": [
         "news_ee5f0c27c70c",
@@ -236,7 +195,7 @@
       "eventId": "event_0737eac2cabb",
       "title": "连板股追踪丨A股今日共86只个股涨停 这只农业股6连板",
       "firstSeenAt": "2026-07-31T02:43:30.494Z",
-      "lastSeenAt": "2026-09-01T09:28:40.652Z",
+      "lastSeenAt": "2026-09-01T13:34:49.779Z",
       "primaryItemId": "news_c67366d8076f",
       "evidenceItemIds": [
         "news_cf2b97a75d61",
@@ -271,7 +230,7 @@
       "eventId": "event_ce5e0cbed733",
       "title": "港股评级汇总：光大证券维持碧桂园服务增持评级",
       "firstSeenAt": "2026-08-10T09:54:06.980Z",
-      "lastSeenAt": "2026-09-01T09:28:40.652Z",
+      "lastSeenAt": "2026-09-01T13:34:49.779Z",
       "primaryItemId": "news_ff0c0951c8a4",
       "evidenceItemIds": [
         "news_ff8ada5d229d",
@@ -294,7 +253,7 @@
       "eventId": "event_ab762b19c88d",
       "title": "史上最强厄尔尼诺来了？棕榈油、橡胶涨40%、咖啡涨30%、铜铝涨20%",
       "firstSeenAt": "2026-09-01T09:28:40.652Z",
-      "lastSeenAt": "2026-09-01T09:28:40.652Z",
+      "lastSeenAt": "2026-09-01T13:34:49.779Z",
       "primaryItemId": "news_997eeedc14bc",
       "evidenceItemIds": [
         "news_997eeedc14bc",
@@ -306,7 +265,7 @@
       "eventId": "event_c4bafe466adf",
       "title": "三部门发布《汽车行业境外竞争行为与合规建设指引》",
       "firstSeenAt": "2026-09-01T09:28:40.652Z",
-      "lastSeenAt": "2026-09-01T09:28:40.652Z",
+      "lastSeenAt": "2026-09-01T13:34:49.779Z",
       "primaryItemId": "news_c606c96f4801",
       "evidenceItemIds": [
         "news_c606c96f4801",
@@ -318,7 +277,7 @@
       "eventId": "event_0c04a6583569",
       "title": "债市收盘| 跨月后资金面平稳，30年国债收益率下行超1BP",
       "firstSeenAt": "2026-09-01T09:28:40.652Z",
-      "lastSeenAt": "2026-09-01T09:28:40.652Z",
+      "lastSeenAt": "2026-09-01T13:34:49.779Z",
       "primaryItemId": "news_4209f07a632d",
       "evidenceItemIds": [
         "news_4209f07a632d",
@@ -330,7 +289,7 @@
       "eventId": "event_09c4a5403db3",
       "title": "欧元区制造业增速创51个月新高",
       "firstSeenAt": "2026-09-01T09:28:40.652Z",
-      "lastSeenAt": "2026-09-01T09:28:40.652Z",
+      "lastSeenAt": "2026-09-01T13:34:49.779Z",
       "primaryItemId": "news_69d645d9acec",
       "evidenceItemIds": [
         "news_69d645d9acec",
@@ -343,11 +302,231 @@
       "eventId": "event_5be68cf7cf41",
       "title": "印度8月制造业PMI降至五年低点",
       "firstSeenAt": "2026-09-01T09:28:40.652Z",
-      "lastSeenAt": "2026-09-01T09:28:40.652Z",
+      "lastSeenAt": "2026-09-01T13:34:49.779Z",
       "primaryItemId": "news_1200e0328a06",
       "evidenceItemIds": [
         "news_1200e0328a06",
         "news_44f446388d27"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_202dd878fa19",
+      "title": "晚间公告｜9月1日这些公告有看头",
+      "firstSeenAt": "2026-07-31T14:43:32.623Z",
+      "lastSeenAt": "2026-09-01T13:34:49.779Z",
+      "primaryItemId": "news_3108d5eeee52",
+      "evidenceItemIds": [
+        "news_eaf56a2f5345",
+        "news_8b256f193830",
+        "news_58fdd88ca5ff",
+        "news_4cac4c806a4b",
+        "news_f202b91c5619",
+        "news_c91687230a2c",
+        "news_958c3f39adb1",
+        "news_a328d8732020",
+        "news_042b264c9695",
+        "news_0f321ef4412b",
+        "news_6fe4b8332584",
+        "news_f755ad25cd3e",
+        "news_6d13f9de9d52",
+        "news_bd988cf929f3",
+        "news_a6888af31e73",
+        "news_8429689faaae",
+        "news_f88525090167",
+        "news_0ab1f5803307",
+        "news_141a625db923",
+        "news_9ac737e4924a",
+        "news_60885ba55001",
+        "news_9d3c513ffc0f",
+        "news_3e80b0340e44",
+        "news_56a89494a39c",
+        "news_69264b26c3e7",
+        "news_514b54e00f99",
+        "news_67ca015f8000",
+        "news_3108d5eeee52"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_32967e3730b8",
+      "title": "美股大型科技股盘前普跌，英特尔跌超2%",
+      "firstSeenAt": "2026-08-03T15:23:32.854Z",
+      "lastSeenAt": "2026-09-01T13:34:49.779Z",
+      "primaryItemId": "news_a64a51b6307d",
+      "evidenceItemIds": [
+        "news_8394862df655",
+        "news_b8561adf7643",
+        "news_8b0ae127cd97",
+        "news_69866ab410e2",
+        "news_df9f7f47921a",
+        "news_d3b1a6fd627e",
+        "news_42ca90256576",
+        "news_04a959a73a68",
+        "news_92257b4a2373",
+        "news_9078b6a91c76",
+        "news_47c824b8354b",
+        "news_a1473e93f9d4",
+        "news_d9743ef9e935",
+        "news_734d74c93284",
+        "news_7a77b49fc9c2",
+        "news_83e7d960009d",
+        "news_05bd36ad0d77",
+        "news_045068d1edcf",
+        "news_d5c174d9c938",
+        "news_5d452c2d5e52",
+        "news_09ef190df7fd",
+        "news_e65153aa735d",
+        "news_0eb4388c732a",
+        "news_a68f0b461e3d",
+        "news_7a48b08815f8",
+        "news_32f9f080ed6c",
+        "news_cdf64bc47c62",
+        "news_22afba3862a0",
+        "news_8657bacfb96d",
+        "news_57eab53dfe2f",
+        "news_190e072a9adf",
+        "news_ce8d9d35ffad",
+        "news_07c8e81e210f",
+        "news_145b0fb3a96a",
+        "news_89516f7e191b",
+        "news_41550d725195",
+        "news_597d0c98d522",
+        "news_d0ecfdcf2b2f",
+        "news_946e33737a7f",
+        "news_b886bc768085",
+        "news_230bf8cff437",
+        "news_5ce2dbb0fd9b",
+        "news_78eb330bde54",
+        "news_a64a51b6307d"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_aff513f01c18",
+      "title": "ChatGPT广告业务上线不足200天 年化经常性收入达10亿美元",
+      "firstSeenAt": "2026-09-01T13:34:49.779Z",
+      "lastSeenAt": "2026-09-01T13:34:49.779Z",
+      "primaryItemId": "news_5b7064bf29c1",
+      "evidenceItemIds": [
+        "news_5b7064bf29c1",
+        "news_093cbc31b86c"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_9decb1b51a87",
+      "title": "两部门：9月1日起外籍个人股息红利不再免征个税",
+      "firstSeenAt": "2026-09-01T13:34:49.779Z",
+      "lastSeenAt": "2026-09-01T13:34:49.779Z",
+      "primaryItemId": "news_1b4106384ab3",
+      "evidenceItemIds": [
+        "news_1b4106384ab3",
+        "news_ad73e27ed475"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_e680213af4b0",
+      "title": "耗资3.18亿元！万亿光模块龙头首次回购公司股份|盘后公告集锦",
+      "firstSeenAt": "2026-09-01T13:34:49.779Z",
+      "lastSeenAt": "2026-09-01T13:34:49.779Z",
+      "primaryItemId": "news_4cdafa85748e",
+      "evidenceItemIds": [
+        "news_4cdafa85748e",
+        "news_e7a9f3829b23"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_1470ee80505e",
+      "title": "“85后”白金分析师屠亦婷将升任申万宏源研究副所长",
+      "firstSeenAt": "2026-09-01T13:34:49.779Z",
+      "lastSeenAt": "2026-09-01T13:34:49.779Z",
+      "primaryItemId": "news_94f9b8c8eb85",
+      "evidenceItemIds": [
+        "news_94f9b8c8eb85",
+        "news_3fef4ec96cff"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_988cc0ebec36",
+      "title": "欧元区8月通胀率升至3.3%，能源成本成主要推手",
+      "firstSeenAt": "2026-09-01T13:34:49.779Z",
+      "lastSeenAt": "2026-09-01T13:34:49.779Z",
+      "primaryItemId": "news_d7a0bc289f70",
+      "evidenceItemIds": [
+        "news_d7a0bc289f70",
+        "news_4c2c73ba3326"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_e2b6ab4188f5",
+      "title": "格力电器：已回购174万股，使用资金总额6823.23万元",
+      "firstSeenAt": "2026-09-01T13:34:49.779Z",
+      "lastSeenAt": "2026-09-01T13:34:49.779Z",
+      "primaryItemId": "news_7342fcde15ef",
+      "evidenceItemIds": [
+        "news_7342fcde15ef",
+        "news_856a3a78f328"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_ff4a641959e6",
+      "title": "顺丰同城(09699)9月1日斥资52.3万港元回购6.18万股",
+      "firstSeenAt": "2026-09-01T13:34:49.779Z",
+      "lastSeenAt": "2026-09-01T13:34:49.779Z",
+      "primaryItemId": "news_8d080a3aa92d",
+      "evidenceItemIds": [
+        "news_8d080a3aa92d",
+        "news_9a46636a3b1a"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_9694f81f70fe",
+      "title": "港股公告精选｜中国信达中期盈利同比下滑超6成 恒大物业上半年营收近70亿元",
+      "firstSeenAt": "2026-08-21T13:20:40.645Z",
+      "lastSeenAt": "2026-09-01T09:28:40.652Z",
+      "primaryItemId": "news_18d1efb77f63",
+      "evidenceItemIds": [
+        "news_025370104945",
+        "news_4d195d3ead14",
+        "news_b1fe560b24aa",
+        "news_57204f766f27",
+        "news_c691ce0c466b",
+        "news_aebb2c397258",
+        "news_18d1efb77f63"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_32b7ab6e8c47",
+      "title": "中国8月PMI回升需求改善，中国高股息资产震荡，全球制造业收入与就业分化加剧---0831宏观脱水",
+      "firstSeenAt": "2026-08-31T05:43:28.761Z",
+      "lastSeenAt": "2026-09-01T09:28:40.652Z",
+      "primaryItemId": "news_e2e6dd9edef9",
+      "evidenceItemIds": [
+        "news_bc7c095a22e3",
+        "news_562b6ca49749",
+        "news_e2e6dd9edef9"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_412a4712fac9",
+      "title": "成品油涨幅远超原油：高盛把美国柴油利润预期上调逾一倍",
+      "firstSeenAt": "2026-08-31T10:53:03.043Z",
+      "lastSeenAt": "2026-09-01T09:28:40.652Z",
+      "primaryItemId": "news_233d30c6802b",
+      "evidenceItemIds": [
+        "news_f1397bbca819",
+        "news_d7fef3a3530e",
+        "news_233d30c6802b",
+        "news_31f190743e11"
       ],
       "status": "developing"
     },
@@ -388,43 +567,6 @@
         "news_cbab97877b0f",
         "news_431deb6a7b36",
         "news_841b08381b23"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_202dd878fa19",
-      "title": "晚间公告｜8月31日这些公告有看头",
-      "firstSeenAt": "2026-07-31T14:43:32.623Z",
-      "lastSeenAt": "2026-09-01T05:18:31.478Z",
-      "primaryItemId": "news_67ca015f8000",
-      "evidenceItemIds": [
-        "news_eaf56a2f5345",
-        "news_8b256f193830",
-        "news_58fdd88ca5ff",
-        "news_4cac4c806a4b",
-        "news_f202b91c5619",
-        "news_c91687230a2c",
-        "news_958c3f39adb1",
-        "news_a328d8732020",
-        "news_042b264c9695",
-        "news_0f321ef4412b",
-        "news_6fe4b8332584",
-        "news_f755ad25cd3e",
-        "news_6d13f9de9d52",
-        "news_bd988cf929f3",
-        "news_a6888af31e73",
-        "news_8429689faaae",
-        "news_f88525090167",
-        "news_0ab1f5803307",
-        "news_141a625db923",
-        "news_9ac737e4924a",
-        "news_60885ba55001",
-        "news_9d3c513ffc0f",
-        "news_3e80b0340e44",
-        "news_56a89494a39c",
-        "news_69264b26c3e7",
-        "news_514b54e00f99",
-        "news_67ca015f8000"
       ],
       "status": "developing"
     },
@@ -472,58 +614,6 @@
         "news_f7c76b8d1160",
         "news_be3920c8ab0f",
         "news_7a02bb038160"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_32967e3730b8",
-      "title": "热门中概股美股盘前多数下跌，名创优品跌超8%",
-      "firstSeenAt": "2026-08-03T15:23:32.854Z",
-      "lastSeenAt": "2026-09-01T05:18:31.478Z",
-      "primaryItemId": "news_230bf8cff437",
-      "evidenceItemIds": [
-        "news_8394862df655",
-        "news_b8561adf7643",
-        "news_8b0ae127cd97",
-        "news_69866ab410e2",
-        "news_df9f7f47921a",
-        "news_d3b1a6fd627e",
-        "news_42ca90256576",
-        "news_04a959a73a68",
-        "news_92257b4a2373",
-        "news_9078b6a91c76",
-        "news_47c824b8354b",
-        "news_a1473e93f9d4",
-        "news_d9743ef9e935",
-        "news_734d74c93284",
-        "news_7a77b49fc9c2",
-        "news_83e7d960009d",
-        "news_05bd36ad0d77",
-        "news_045068d1edcf",
-        "news_d5c174d9c938",
-        "news_5d452c2d5e52",
-        "news_09ef190df7fd",
-        "news_e65153aa735d",
-        "news_0eb4388c732a",
-        "news_a68f0b461e3d",
-        "news_7a48b08815f8",
-        "news_32f9f080ed6c",
-        "news_cdf64bc47c62",
-        "news_22afba3862a0",
-        "news_8657bacfb96d",
-        "news_57eab53dfe2f",
-        "news_190e072a9adf",
-        "news_ce8d9d35ffad",
-        "news_07c8e81e210f",
-        "news_145b0fb3a96a",
-        "news_89516f7e191b",
-        "news_41550d725195",
-        "news_597d0c98d522",
-        "news_d0ecfdcf2b2f",
-        "news_946e33737a7f",
-        "news_b886bc768085",
-        "news_230bf8cff437",
-        "news_5ce2dbb0fd9b"
       ],
       "status": "developing"
     },

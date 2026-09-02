@@ -1,36 +1,16 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-09-02T04:41:46.695Z",
+  "generatedAt": "2026-09-02T08:50:37.277Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
-      "eventId": "event_3146956f1897",
-      "title": "关于资本市场支持构建房地产发展新模式的意见",
-      "firstSeenAt": "2026-08-28T11:33:49.352Z",
-      "lastSeenAt": "2026-09-02T04:41:46.695Z",
-      "primaryItemId": "news_bcbc19d029f5",
-      "evidenceItemIds": [
-        "news_1e31d5b8e039",
-        "news_ec5b8a9b77d3",
-        "news_90c8f851d773",
-        "news_5a0d21b7f76c",
-        "news_bcbc19d029f5",
-        "news_24315b4d07af",
-        "news_5cfd35a06c9c",
-        "news_8e00bc247cb9",
-        "news_d14ba4801379"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_529af3584dc2",
-      "title": "恒指午间休盘跌0.96%，恒生科技指数跌1.54%",
+      "title": "恒指收跌0.07%，恒生科技指数跌0.74%",
       "firstSeenAt": "2026-07-31T02:43:30.494Z",
-      "lastSeenAt": "2026-09-02T04:41:46.695Z",
-      "primaryItemId": "news_a7841e1f7444",
+      "lastSeenAt": "2026-09-02T08:50:37.277Z",
+      "primaryItemId": "news_6b270da68dc7",
       "evidenceItemIds": [
-        "news_33f43c76814b",
         "news_2675cce96b9a",
         "news_6e822ac0babf",
         "news_e8212d1a7d69",
@@ -79,54 +59,8 @@
         "news_5032b1b1e270",
         "news_dec96877aed6",
         "news_7e76aa9dc564",
-        "news_a7841e1f7444"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_0737eac2cabb",
-      "title": "连板股追踪丨A股今日共86只个股涨停 这只农业股6连板",
-      "firstSeenAt": "2026-07-31T02:43:30.494Z",
-      "lastSeenAt": "2026-09-02T04:41:46.695Z",
-      "primaryItemId": "news_c67366d8076f",
-      "evidenceItemIds": [
-        "news_cf2b97a75d61",
-        "news_6b2b1bbc6628",
-        "news_0b0558cddf77",
-        "news_2a647756104e",
-        "news_8818289af9a3",
-        "news_11eae49a5b16",
-        "news_9e9caeefd1f2",
-        "news_83287e13cba2",
-        "news_8b8e574d724a",
-        "news_ac696b49df1d",
-        "news_715b15a27912",
-        "news_ecd33045b37e",
-        "news_1870ff4e37cf",
-        "news_98c908c2489d",
-        "news_6c2d9bece434",
-        "news_989085d79c58",
-        "news_10ae0a524615",
-        "news_c6e8e7ce3d1c",
-        "news_db44bec3d3da",
-        "news_30483ad43cda",
-        "news_61212134cdd7",
-        "news_0bce4f63f0f1",
-        "news_7d9073d69bfc",
-        "news_4ef716030320",
-        "news_c67366d8076f"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_0c04a6583569",
-      "title": "债市收盘| 跨月后资金面平稳，30年国债收益率下行超1BP",
-      "firstSeenAt": "2026-09-01T09:28:40.652Z",
-      "lastSeenAt": "2026-09-02T04:41:46.695Z",
-      "primaryItemId": "news_4209f07a632d",
-      "evidenceItemIds": [
-        "news_4209f07a632d",
-        "news_d025756319f5"
+        "news_a7841e1f7444",
+        "news_6b270da68dc7"
       ],
       "status": "developing"
     },
@@ -134,7 +68,7 @@
       "eventId": "event_09c4a5403db3",
       "title": "欧元区制造业增速创51个月新高",
       "firstSeenAt": "2026-09-01T09:28:40.652Z",
-      "lastSeenAt": "2026-09-02T04:41:46.695Z",
+      "lastSeenAt": "2026-09-02T08:50:37.277Z",
       "primaryItemId": "news_69d645d9acec",
       "evidenceItemIds": [
         "news_69d645d9acec",
@@ -147,7 +81,7 @@
       "eventId": "event_202dd878fa19",
       "title": "晚间公告｜9月1日这些公告有看头",
       "firstSeenAt": "2026-07-31T14:43:32.623Z",
-      "lastSeenAt": "2026-09-02T04:41:46.695Z",
+      "lastSeenAt": "2026-09-02T08:50:37.277Z",
       "primaryItemId": "news_3108d5eeee52",
       "evidenceItemIds": [
         "news_eaf56a2f5345",
@@ -185,7 +119,7 @@
       "eventId": "event_32967e3730b8",
       "title": "美股大型科技股盘前普跌，英特尔跌超2%",
       "firstSeenAt": "2026-08-03T15:23:32.854Z",
-      "lastSeenAt": "2026-09-02T04:41:46.695Z",
+      "lastSeenAt": "2026-09-02T08:50:37.277Z",
       "primaryItemId": "news_a64a51b6307d",
       "evidenceItemIds": [
         "news_8394862df655",
@@ -239,7 +173,7 @@
       "eventId": "event_9decb1b51a87",
       "title": "外籍个人投资外商投资企业股息红利不再免税 按20%税率缴纳个人所得税",
       "firstSeenAt": "2026-09-01T13:34:49.779Z",
-      "lastSeenAt": "2026-09-02T04:41:46.695Z",
+      "lastSeenAt": "2026-09-02T08:50:37.277Z",
       "primaryItemId": "news_5aa7904fb0ce",
       "evidenceItemIds": [
         "news_1b4106384ab3",
@@ -253,7 +187,7 @@
       "eventId": "event_e680213af4b0",
       "title": "耗资3.18亿元！万亿光模块龙头首次回购公司股份|盘后公告集锦",
       "firstSeenAt": "2026-09-01T13:34:49.779Z",
-      "lastSeenAt": "2026-09-02T04:41:46.695Z",
+      "lastSeenAt": "2026-09-02T08:50:37.277Z",
       "primaryItemId": "news_4cdafa85748e",
       "evidenceItemIds": [
         "news_4cdafa85748e",
@@ -262,38 +196,15 @@
       "status": "developing"
     },
     {
-      "eventId": "event_1470ee80505e",
-      "title": "“85后”白金分析师屠亦婷将升任申万宏源研究副所长",
-      "firstSeenAt": "2026-09-01T13:34:49.779Z",
-      "lastSeenAt": "2026-09-02T04:41:46.695Z",
-      "primaryItemId": "news_94f9b8c8eb85",
-      "evidenceItemIds": [
-        "news_94f9b8c8eb85",
-        "news_3fef4ec96cff"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_988cc0ebec36",
       "title": "欧元区8月通胀率升至3.3%，能源成本成主要推手",
       "firstSeenAt": "2026-09-01T13:34:49.779Z",
-      "lastSeenAt": "2026-09-02T04:41:46.695Z",
+      "lastSeenAt": "2026-09-02T08:50:37.277Z",
       "primaryItemId": "news_d7a0bc289f70",
       "evidenceItemIds": [
         "news_d7a0bc289f70",
-        "news_4c2c73ba3326"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_e2b6ab4188f5",
-      "title": "格力电器：已回购174万股，使用资金总额6823.23万元",
-      "firstSeenAt": "2026-09-01T13:34:49.779Z",
-      "lastSeenAt": "2026-09-02T04:41:46.695Z",
-      "primaryItemId": "news_7342fcde15ef",
-      "evidenceItemIds": [
-        "news_7342fcde15ef",
-        "news_856a3a78f328"
+        "news_4c2c73ba3326",
+        "news_27e9b2e59205"
       ],
       "status": "developing"
     },
@@ -301,7 +212,7 @@
       "eventId": "event_ff4a641959e6",
       "title": "顺丰同城(09699)9月1日斥资52.3万港元回购6.18万股",
       "firstSeenAt": "2026-09-01T13:34:49.779Z",
-      "lastSeenAt": "2026-09-02T04:41:46.695Z",
+      "lastSeenAt": "2026-09-02T08:50:37.277Z",
       "primaryItemId": "news_8d080a3aa92d",
       "evidenceItemIds": [
         "news_8d080a3aa92d",
@@ -313,7 +224,7 @@
       "eventId": "event_88d37f569468",
       "title": "西班牙股市收低；截至收盘西班牙IBEX35指数下跌0.79%",
       "firstSeenAt": "2026-08-27T22:27:22.891Z",
-      "lastSeenAt": "2026-09-02T04:41:46.695Z",
+      "lastSeenAt": "2026-09-02T08:50:37.277Z",
       "primaryItemId": "news_593594203e7b",
       "evidenceItemIds": [
         "news_1dcdfda18973",
@@ -330,7 +241,7 @@
       "eventId": "event_a678dcb442aa",
       "title": "英国股市收低；截至收盘Investing.com 英国 100下跌0.31%",
       "firstSeenAt": "2026-09-01T16:50:22.105Z",
-      "lastSeenAt": "2026-09-02T04:41:46.695Z",
+      "lastSeenAt": "2026-09-02T08:50:37.277Z",
       "primaryItemId": "news_023dcd0d28ad",
       "evidenceItemIds": [
         "news_023dcd0d28ad",
@@ -341,10 +252,10 @@
     },
     {
       "eventId": "event_8c89c31f3b3c",
-      "title": "A股四大指数集体低开，市场逾4300股下跌",
+      "title": "A股三大指数集体低开",
       "firstSeenAt": "2026-08-28T03:55:53.061Z",
-      "lastSeenAt": "2026-09-02T04:41:46.695Z",
-      "primaryItemId": "news_4582cc170000",
+      "lastSeenAt": "2026-09-02T08:50:37.277Z",
+      "primaryItemId": "news_30df0fd1c619",
       "evidenceItemIds": [
         "news_ca24cdb0d0cb",
         "news_3d92b72d8089",
@@ -354,7 +265,208 @@
         "news_4582cc170000",
         "news_30df0fd1c619",
         "news_ae4c9b07b52b",
-        "news_5881c4f4b0b9"
+        "news_5881c4f4b0b9",
+        "news_3bf3af0c5f16"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_777f562d3dc5",
+      "title": "能源内参｜因职业安全事件 宁德时代匈牙利工厂电芯项目暂时停工；国内光伏发电装机历史性超过煤电",
+      "firstSeenAt": "2026-09-02T04:41:46.695Z",
+      "lastSeenAt": "2026-09-02T08:50:37.277Z",
+      "primaryItemId": "news_4af39a81ceb8",
+      "evidenceItemIds": [
+        "news_4af39a81ceb8",
+        "news_b4dc55116968"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_6bdc4f705d4b",
+      "title": "Manus正式恢复独立运营 创始团队重新掌舵",
+      "firstSeenAt": "2026-09-02T04:41:46.695Z",
+      "lastSeenAt": "2026-09-02T08:50:37.277Z",
+      "primaryItemId": "news_c5482b9412d9",
+      "evidenceItemIds": [
+        "news_c5482b9412d9",
+        "news_67762eaf0cab",
+        "news_dae7cef7322e"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_5feaaf1768d0",
+      "title": "马斯克：AI或令全球经济增长20%-30%，未来十年人形机器人将达10亿台",
+      "firstSeenAt": "2026-09-02T04:41:46.695Z",
+      "lastSeenAt": "2026-09-02T08:50:37.277Z",
+      "primaryItemId": "news_196d291b7f8f",
+      "evidenceItemIds": [
+        "news_196d291b7f8f",
+        "news_5185eaaaed84"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_193fbc426ace",
+      "title": "星宇股份董事长回应“批量解约应届生”：公司深刻反省并真诚道歉，正在政府部门指导下妥善落实相关措施",
+      "firstSeenAt": "2026-09-02T04:41:46.695Z",
+      "lastSeenAt": "2026-09-02T08:50:37.277Z",
+      "primaryItemId": "news_b84d28aa22cf",
+      "evidenceItemIds": [
+        "news_ba4eaef20527",
+        "news_def51f2a943a",
+        "news_b84d28aa22cf"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_ce5e0cbed733",
+      "title": "港股评级汇总：交银国际维持比亚迪股份买入评级",
+      "firstSeenAt": "2026-08-10T09:54:06.980Z",
+      "lastSeenAt": "2026-09-02T08:50:37.277Z",
+      "primaryItemId": "news_2abf9cd536fd",
+      "evidenceItemIds": [
+        "news_ff8ada5d229d",
+        "news_038fffd08eb2",
+        "news_1e24c2798e8a",
+        "news_bb4bd2fad08a",
+        "news_ed66993623e9",
+        "news_8121a51025df",
+        "news_31f70992e4d6",
+        "news_7d319f1977ad",
+        "news_ce5ef69b3645",
+        "news_8858d68446e1",
+        "news_e65d8766e53e",
+        "news_ff0c0951c8a4",
+        "news_53200861da44",
+        "news_2abf9cd536fd"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_d219bb9d48ef",
+      "title": "王喆：8月新经济指数升至历史最高值",
+      "firstSeenAt": "2026-09-02T08:50:37.277Z",
+      "lastSeenAt": "2026-09-02T08:50:37.277Z",
+      "primaryItemId": "news_23d28c541187",
+      "evidenceItemIds": [
+        "news_23d28c541187",
+        "news_af72a20cfe73"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_b51a19d1860b",
+      "title": "港股收盘 | 三大指数集体收跌 部分房地产与AI医药股逆势走强",
+      "firstSeenAt": "2026-09-02T08:50:37.277Z",
+      "lastSeenAt": "2026-09-02T08:50:37.277Z",
+      "primaryItemId": "news_12f6c0766145",
+      "evidenceItemIds": [
+        "news_12f6c0766145",
+        "news_ae02b47566c0"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_faef72b9961c",
+      "title": "美股盘前，黄金、比特币齐跌，布油升至95美元！10年期美债收益率创三年新高",
+      "firstSeenAt": "2026-09-02T08:50:37.277Z",
+      "lastSeenAt": "2026-09-02T08:50:37.277Z",
+      "primaryItemId": "news_2509c462e0e9",
+      "evidenceItemIds": [
+        "news_2509c462e0e9",
+        "news_1ccfa7cd68dc"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_3146956f1897",
+      "title": "关于资本市场支持构建房地产发展新模式的意见",
+      "firstSeenAt": "2026-08-28T11:33:49.352Z",
+      "lastSeenAt": "2026-09-02T04:41:46.695Z",
+      "primaryItemId": "news_bcbc19d029f5",
+      "evidenceItemIds": [
+        "news_1e31d5b8e039",
+        "news_ec5b8a9b77d3",
+        "news_90c8f851d773",
+        "news_5a0d21b7f76c",
+        "news_bcbc19d029f5",
+        "news_24315b4d07af",
+        "news_5cfd35a06c9c",
+        "news_8e00bc247cb9",
+        "news_d14ba4801379"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_0737eac2cabb",
+      "title": "连板股追踪丨A股今日共86只个股涨停 这只农业股6连板",
+      "firstSeenAt": "2026-07-31T02:43:30.494Z",
+      "lastSeenAt": "2026-09-02T04:41:46.695Z",
+      "primaryItemId": "news_c67366d8076f",
+      "evidenceItemIds": [
+        "news_cf2b97a75d61",
+        "news_6b2b1bbc6628",
+        "news_0b0558cddf77",
+        "news_2a647756104e",
+        "news_8818289af9a3",
+        "news_11eae49a5b16",
+        "news_9e9caeefd1f2",
+        "news_83287e13cba2",
+        "news_8b8e574d724a",
+        "news_ac696b49df1d",
+        "news_715b15a27912",
+        "news_ecd33045b37e",
+        "news_1870ff4e37cf",
+        "news_98c908c2489d",
+        "news_6c2d9bece434",
+        "news_989085d79c58",
+        "news_10ae0a524615",
+        "news_c6e8e7ce3d1c",
+        "news_db44bec3d3da",
+        "news_30483ad43cda",
+        "news_61212134cdd7",
+        "news_0bce4f63f0f1",
+        "news_7d9073d69bfc",
+        "news_4ef716030320",
+        "news_c67366d8076f"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_0c04a6583569",
+      "title": "债市收盘| 跨月后资金面平稳，30年国债收益率下行超1BP",
+      "firstSeenAt": "2026-09-01T09:28:40.652Z",
+      "lastSeenAt": "2026-09-02T04:41:46.695Z",
+      "primaryItemId": "news_4209f07a632d",
+      "evidenceItemIds": [
+        "news_4209f07a632d",
+        "news_d025756319f5"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_1470ee80505e",
+      "title": "“85后”白金分析师屠亦婷将升任申万宏源研究副所长",
+      "firstSeenAt": "2026-09-01T13:34:49.779Z",
+      "lastSeenAt": "2026-09-02T04:41:46.695Z",
+      "primaryItemId": "news_94f9b8c8eb85",
+      "evidenceItemIds": [
+        "news_94f9b8c8eb85",
+        "news_3fef4ec96cff"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_e2b6ab4188f5",
+      "title": "格力电器：已回购174万股，使用资金总额6823.23万元",
+      "firstSeenAt": "2026-09-01T13:34:49.779Z",
+      "lastSeenAt": "2026-09-02T04:41:46.695Z",
+      "primaryItemId": "news_7342fcde15ef",
+      "evidenceItemIds": [
+        "news_7342fcde15ef",
+        "news_856a3a78f328"
       ],
       "status": "developing"
     },
@@ -388,55 +500,6 @@
       "status": "developing"
     },
     {
-      "eventId": "event_777f562d3dc5",
-      "title": "能源内参｜因职业安全事件 宁德时代匈牙利工厂电芯项目暂时停工；国内光伏发电装机历史性超过煤电",
-      "firstSeenAt": "2026-09-02T04:41:46.695Z",
-      "lastSeenAt": "2026-09-02T04:41:46.695Z",
-      "primaryItemId": "news_4af39a81ceb8",
-      "evidenceItemIds": [
-        "news_4af39a81ceb8",
-        "news_b4dc55116968"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_6bdc4f705d4b",
-      "title": "Manus正式恢复独立运营 创始团队重新掌舵",
-      "firstSeenAt": "2026-09-02T04:41:46.695Z",
-      "lastSeenAt": "2026-09-02T04:41:46.695Z",
-      "primaryItemId": "news_c5482b9412d9",
-      "evidenceItemIds": [
-        "news_c5482b9412d9",
-        "news_67762eaf0cab",
-        "news_dae7cef7322e"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_5feaaf1768d0",
-      "title": "马斯克：AI或令全球经济增长20%-30%，未来十年人形机器人将达10亿台",
-      "firstSeenAt": "2026-09-02T04:41:46.695Z",
-      "lastSeenAt": "2026-09-02T04:41:46.695Z",
-      "primaryItemId": "news_196d291b7f8f",
-      "evidenceItemIds": [
-        "news_196d291b7f8f",
-        "news_5185eaaaed84"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_193fbc426ace",
-      "title": "星宇股份董事长回应“解约应届生”",
-      "firstSeenAt": "2026-09-02T04:41:46.695Z",
-      "lastSeenAt": "2026-09-02T04:41:46.695Z",
-      "primaryItemId": "news_ba4eaef20527",
-      "evidenceItemIds": [
-        "news_ba4eaef20527",
-        "news_def51f2a943a"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_54504cc4d132",
       "title": "【量化观察】A股高质量因子量化策略月报（2026年8月）",
       "firstSeenAt": "2026-08-31T16:14:16.390Z",
@@ -464,29 +527,6 @@
         "news_25a896e2aab8",
         "news_5e11b85dca80",
         "news_6e99beb2a389"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_ce5e0cbed733",
-      "title": "港股评级汇总：光大证券维持碧桂园服务增持评级",
-      "firstSeenAt": "2026-08-10T09:54:06.980Z",
-      "lastSeenAt": "2026-09-01T16:50:22.105Z",
-      "primaryItemId": "news_ff0c0951c8a4",
-      "evidenceItemIds": [
-        "news_ff8ada5d229d",
-        "news_038fffd08eb2",
-        "news_1e24c2798e8a",
-        "news_bb4bd2fad08a",
-        "news_ed66993623e9",
-        "news_8121a51025df",
-        "news_31f70992e4d6",
-        "news_7d319f1977ad",
-        "news_ce5ef69b3645",
-        "news_8858d68446e1",
-        "news_e65d8766e53e",
-        "news_ff0c0951c8a4",
-        "news_53200861da44"
       ],
       "status": "developing"
     },

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-09-01T16:50:22.105Z",
+  "generatedAt": "2026-09-02T04:41:46.695Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -8,7 +8,7 @@
       "eventId": "event_3146956f1897",
       "title": "关于资本市场支持构建房地产发展新模式的意见",
       "firstSeenAt": "2026-08-28T11:33:49.352Z",
-      "lastSeenAt": "2026-09-01T16:50:22.105Z",
+      "lastSeenAt": "2026-09-02T04:41:46.695Z",
       "primaryItemId": "news_bcbc19d029f5",
       "evidenceItemIds": [
         "news_1e31d5b8e039",
@@ -24,30 +24,12 @@
       "status": "developing"
     },
     {
-      "eventId": "event_54504cc4d132",
-      "title": "【量化观察】A股高质量因子量化策略月报（2026年8月）",
-      "firstSeenAt": "2026-08-31T16:14:16.390Z",
-      "lastSeenAt": "2026-09-01T16:50:22.105Z",
-      "primaryItemId": "news_f24f9d440574",
-      "evidenceItemIds": [
-        "news_36d173756c0d",
-        "news_acfed830bf71",
-        "news_27d3e7a01353",
-        "news_de7652622814",
-        "news_be0b8088f0c6",
-        "news_4423742620d6",
-        "news_f24f9d440574"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_529af3584dc2",
-      "title": "恒指收盘跌0.93%，恒生科技指数跌1.49%",
+      "title": "恒指午间休盘跌0.96%，恒生科技指数跌1.54%",
       "firstSeenAt": "2026-07-31T02:43:30.494Z",
-      "lastSeenAt": "2026-09-01T16:50:22.105Z",
-      "primaryItemId": "news_7e76aa9dc564",
+      "lastSeenAt": "2026-09-02T04:41:46.695Z",
+      "primaryItemId": "news_a7841e1f7444",
       "evidenceItemIds": [
-        "news_e170ace73dc0",
         "news_33f43c76814b",
         "news_2675cce96b9a",
         "news_6e822ac0babf",
@@ -96,21 +78,8 @@
         "news_7a3ba44ec820",
         "news_5032b1b1e270",
         "news_dec96877aed6",
-        "news_7e76aa9dc564"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_8f8398d77c16",
-      "title": "AI芯片公司燧原科技科创板IPO定价142.18元、募资61.2亿元",
-      "firstSeenAt": "2026-09-01T05:18:31.478Z",
-      "lastSeenAt": "2026-09-01T16:50:22.105Z",
-      "primaryItemId": "news_6e99beb2a389",
-      "evidenceItemIds": [
-        "news_776350c2840d",
-        "news_25a896e2aab8",
-        "news_5e11b85dca80",
-        "news_6e99beb2a389"
+        "news_7e76aa9dc564",
+        "news_a7841e1f7444"
       ],
       "status": "developing"
     },
@@ -118,7 +87,7 @@
       "eventId": "event_0737eac2cabb",
       "title": "连板股追踪丨A股今日共86只个股涨停 这只农业股6连板",
       "firstSeenAt": "2026-07-31T02:43:30.494Z",
-      "lastSeenAt": "2026-09-01T16:50:22.105Z",
+      "lastSeenAt": "2026-09-02T04:41:46.695Z",
       "primaryItemId": "news_c67366d8076f",
       "evidenceItemIds": [
         "news_cf2b97a75d61",
@@ -146,6 +115,355 @@
         "news_7d9073d69bfc",
         "news_4ef716030320",
         "news_c67366d8076f"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_0c04a6583569",
+      "title": "债市收盘| 跨月后资金面平稳，30年国债收益率下行超1BP",
+      "firstSeenAt": "2026-09-01T09:28:40.652Z",
+      "lastSeenAt": "2026-09-02T04:41:46.695Z",
+      "primaryItemId": "news_4209f07a632d",
+      "evidenceItemIds": [
+        "news_4209f07a632d",
+        "news_d025756319f5"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_09c4a5403db3",
+      "title": "欧元区制造业增速创51个月新高",
+      "firstSeenAt": "2026-09-01T09:28:40.652Z",
+      "lastSeenAt": "2026-09-02T04:41:46.695Z",
+      "primaryItemId": "news_69d645d9acec",
+      "evidenceItemIds": [
+        "news_69d645d9acec",
+        "news_093bcefb9894",
+        "news_9598d852f5c7"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_202dd878fa19",
+      "title": "晚间公告｜9月1日这些公告有看头",
+      "firstSeenAt": "2026-07-31T14:43:32.623Z",
+      "lastSeenAt": "2026-09-02T04:41:46.695Z",
+      "primaryItemId": "news_3108d5eeee52",
+      "evidenceItemIds": [
+        "news_eaf56a2f5345",
+        "news_8b256f193830",
+        "news_58fdd88ca5ff",
+        "news_4cac4c806a4b",
+        "news_f202b91c5619",
+        "news_c91687230a2c",
+        "news_958c3f39adb1",
+        "news_a328d8732020",
+        "news_042b264c9695",
+        "news_0f321ef4412b",
+        "news_6fe4b8332584",
+        "news_f755ad25cd3e",
+        "news_6d13f9de9d52",
+        "news_bd988cf929f3",
+        "news_a6888af31e73",
+        "news_8429689faaae",
+        "news_f88525090167",
+        "news_0ab1f5803307",
+        "news_141a625db923",
+        "news_9ac737e4924a",
+        "news_60885ba55001",
+        "news_9d3c513ffc0f",
+        "news_3e80b0340e44",
+        "news_56a89494a39c",
+        "news_69264b26c3e7",
+        "news_514b54e00f99",
+        "news_67ca015f8000",
+        "news_3108d5eeee52"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_32967e3730b8",
+      "title": "美股大型科技股盘前普跌，英特尔跌超2%",
+      "firstSeenAt": "2026-08-03T15:23:32.854Z",
+      "lastSeenAt": "2026-09-02T04:41:46.695Z",
+      "primaryItemId": "news_a64a51b6307d",
+      "evidenceItemIds": [
+        "news_8394862df655",
+        "news_b8561adf7643",
+        "news_8b0ae127cd97",
+        "news_69866ab410e2",
+        "news_df9f7f47921a",
+        "news_d3b1a6fd627e",
+        "news_42ca90256576",
+        "news_04a959a73a68",
+        "news_92257b4a2373",
+        "news_9078b6a91c76",
+        "news_47c824b8354b",
+        "news_a1473e93f9d4",
+        "news_d9743ef9e935",
+        "news_734d74c93284",
+        "news_7a77b49fc9c2",
+        "news_83e7d960009d",
+        "news_05bd36ad0d77",
+        "news_045068d1edcf",
+        "news_d5c174d9c938",
+        "news_5d452c2d5e52",
+        "news_09ef190df7fd",
+        "news_e65153aa735d",
+        "news_0eb4388c732a",
+        "news_a68f0b461e3d",
+        "news_7a48b08815f8",
+        "news_32f9f080ed6c",
+        "news_cdf64bc47c62",
+        "news_22afba3862a0",
+        "news_8657bacfb96d",
+        "news_57eab53dfe2f",
+        "news_190e072a9adf",
+        "news_ce8d9d35ffad",
+        "news_07c8e81e210f",
+        "news_145b0fb3a96a",
+        "news_89516f7e191b",
+        "news_41550d725195",
+        "news_597d0c98d522",
+        "news_d0ecfdcf2b2f",
+        "news_946e33737a7f",
+        "news_b886bc768085",
+        "news_230bf8cff437",
+        "news_5ce2dbb0fd9b",
+        "news_78eb330bde54",
+        "news_a64a51b6307d"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_9decb1b51a87",
+      "title": "外籍个人投资外商投资企业股息红利不再免税 按20%税率缴纳个人所得税",
+      "firstSeenAt": "2026-09-01T13:34:49.779Z",
+      "lastSeenAt": "2026-09-02T04:41:46.695Z",
+      "primaryItemId": "news_5aa7904fb0ce",
+      "evidenceItemIds": [
+        "news_1b4106384ab3",
+        "news_ad73e27ed475",
+        "news_5aa7904fb0ce",
+        "news_1d166a0c5fea"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_e680213af4b0",
+      "title": "耗资3.18亿元！万亿光模块龙头首次回购公司股份|盘后公告集锦",
+      "firstSeenAt": "2026-09-01T13:34:49.779Z",
+      "lastSeenAt": "2026-09-02T04:41:46.695Z",
+      "primaryItemId": "news_4cdafa85748e",
+      "evidenceItemIds": [
+        "news_4cdafa85748e",
+        "news_e7a9f3829b23"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_1470ee80505e",
+      "title": "“85后”白金分析师屠亦婷将升任申万宏源研究副所长",
+      "firstSeenAt": "2026-09-01T13:34:49.779Z",
+      "lastSeenAt": "2026-09-02T04:41:46.695Z",
+      "primaryItemId": "news_94f9b8c8eb85",
+      "evidenceItemIds": [
+        "news_94f9b8c8eb85",
+        "news_3fef4ec96cff"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_988cc0ebec36",
+      "title": "欧元区8月通胀率升至3.3%，能源成本成主要推手",
+      "firstSeenAt": "2026-09-01T13:34:49.779Z",
+      "lastSeenAt": "2026-09-02T04:41:46.695Z",
+      "primaryItemId": "news_d7a0bc289f70",
+      "evidenceItemIds": [
+        "news_d7a0bc289f70",
+        "news_4c2c73ba3326"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_e2b6ab4188f5",
+      "title": "格力电器：已回购174万股，使用资金总额6823.23万元",
+      "firstSeenAt": "2026-09-01T13:34:49.779Z",
+      "lastSeenAt": "2026-09-02T04:41:46.695Z",
+      "primaryItemId": "news_7342fcde15ef",
+      "evidenceItemIds": [
+        "news_7342fcde15ef",
+        "news_856a3a78f328"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_ff4a641959e6",
+      "title": "顺丰同城(09699)9月1日斥资52.3万港元回购6.18万股",
+      "firstSeenAt": "2026-09-01T13:34:49.779Z",
+      "lastSeenAt": "2026-09-02T04:41:46.695Z",
+      "primaryItemId": "news_8d080a3aa92d",
+      "evidenceItemIds": [
+        "news_8d080a3aa92d",
+        "news_9a46636a3b1a"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_88d37f569468",
+      "title": "西班牙股市收低；截至收盘西班牙IBEX35指数下跌0.79%",
+      "firstSeenAt": "2026-08-27T22:27:22.891Z",
+      "lastSeenAt": "2026-09-02T04:41:46.695Z",
+      "primaryItemId": "news_593594203e7b",
+      "evidenceItemIds": [
+        "news_1dcdfda18973",
+        "news_7c91b51b1eef",
+        "news_18d78b1ded1d",
+        "news_e9ee9b2bc410",
+        "news_ef8e83ac503e",
+        "news_50072042a675",
+        "news_593594203e7b"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_a678dcb442aa",
+      "title": "英国股市收低；截至收盘Investing.com 英国 100下跌0.31%",
+      "firstSeenAt": "2026-09-01T16:50:22.105Z",
+      "lastSeenAt": "2026-09-02T04:41:46.695Z",
+      "primaryItemId": "news_023dcd0d28ad",
+      "evidenceItemIds": [
+        "news_023dcd0d28ad",
+        "news_22038d02d938",
+        "news_47d9a1ccf7bb"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_8c89c31f3b3c",
+      "title": "A股四大指数集体低开，市场逾4300股下跌",
+      "firstSeenAt": "2026-08-28T03:55:53.061Z",
+      "lastSeenAt": "2026-09-02T04:41:46.695Z",
+      "primaryItemId": "news_4582cc170000",
+      "evidenceItemIds": [
+        "news_ca24cdb0d0cb",
+        "news_3d92b72d8089",
+        "news_c966880a1cdb",
+        "news_4087f1c4d50b",
+        "news_7a4d049cc2cc",
+        "news_4582cc170000",
+        "news_30df0fd1c619",
+        "news_ae4c9b07b52b",
+        "news_5881c4f4b0b9"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_73f4b1fb41a8",
+      "title": "龙虎榜丨机构今日买入这19股，卖出景旺电子2.22亿元",
+      "firstSeenAt": "2026-08-03T11:50:30.990Z",
+      "lastSeenAt": "2026-09-02T04:41:46.695Z",
+      "primaryItemId": "news_5e9ecf83e613",
+      "evidenceItemIds": [
+        "news_de7d0ba05e16",
+        "news_e7a76dcea2a8",
+        "news_d9bbbfd32f43",
+        "news_9d97988a8b31",
+        "news_f8e689022fb3",
+        "news_a41d521c5c53",
+        "news_50b190578187",
+        "news_45437b89e860",
+        "news_d1e40824a959",
+        "news_d35397f00f85",
+        "news_28eb220b6d7d",
+        "news_83a8f0bce8bc",
+        "news_a434c7856598",
+        "news_a8c173d2f58f",
+        "news_f7c76b8d1160",
+        "news_be3920c8ab0f",
+        "news_7a02bb038160",
+        "news_5e9ecf83e613",
+        "news_40d2672e7c11"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_777f562d3dc5",
+      "title": "能源内参｜因职业安全事件 宁德时代匈牙利工厂电芯项目暂时停工；国内光伏发电装机历史性超过煤电",
+      "firstSeenAt": "2026-09-02T04:41:46.695Z",
+      "lastSeenAt": "2026-09-02T04:41:46.695Z",
+      "primaryItemId": "news_4af39a81ceb8",
+      "evidenceItemIds": [
+        "news_4af39a81ceb8",
+        "news_b4dc55116968"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_6bdc4f705d4b",
+      "title": "Manus正式恢复独立运营 创始团队重新掌舵",
+      "firstSeenAt": "2026-09-02T04:41:46.695Z",
+      "lastSeenAt": "2026-09-02T04:41:46.695Z",
+      "primaryItemId": "news_c5482b9412d9",
+      "evidenceItemIds": [
+        "news_c5482b9412d9",
+        "news_67762eaf0cab",
+        "news_dae7cef7322e"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_5feaaf1768d0",
+      "title": "马斯克：AI或令全球经济增长20%-30%，未来十年人形机器人将达10亿台",
+      "firstSeenAt": "2026-09-02T04:41:46.695Z",
+      "lastSeenAt": "2026-09-02T04:41:46.695Z",
+      "primaryItemId": "news_196d291b7f8f",
+      "evidenceItemIds": [
+        "news_196d291b7f8f",
+        "news_5185eaaaed84"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_193fbc426ace",
+      "title": "星宇股份董事长回应“解约应届生”",
+      "firstSeenAt": "2026-09-02T04:41:46.695Z",
+      "lastSeenAt": "2026-09-02T04:41:46.695Z",
+      "primaryItemId": "news_ba4eaef20527",
+      "evidenceItemIds": [
+        "news_ba4eaef20527",
+        "news_def51f2a943a"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_54504cc4d132",
+      "title": "【量化观察】A股高质量因子量化策略月报（2026年8月）",
+      "firstSeenAt": "2026-08-31T16:14:16.390Z",
+      "lastSeenAt": "2026-09-01T16:50:22.105Z",
+      "primaryItemId": "news_f24f9d440574",
+      "evidenceItemIds": [
+        "news_36d173756c0d",
+        "news_acfed830bf71",
+        "news_27d3e7a01353",
+        "news_de7652622814",
+        "news_be0b8088f0c6",
+        "news_4423742620d6",
+        "news_f24f9d440574"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_8f8398d77c16",
+      "title": "AI芯片公司燧原科技科创板IPO定价142.18元、募资61.2亿元",
+      "firstSeenAt": "2026-09-01T05:18:31.478Z",
+      "lastSeenAt": "2026-09-01T16:50:22.105Z",
+      "primaryItemId": "news_6e99beb2a389",
+      "evidenceItemIds": [
+        "news_776350c2840d",
+        "news_25a896e2aab8",
+        "news_5e11b85dca80",
+        "news_6e99beb2a389"
       ],
       "status": "developing"
     },
@@ -197,31 +515,6 @@
       "status": "developing"
     },
     {
-      "eventId": "event_0c04a6583569",
-      "title": "债市收盘| 跨月后资金面平稳，30年国债收益率下行超1BP",
-      "firstSeenAt": "2026-09-01T09:28:40.652Z",
-      "lastSeenAt": "2026-09-01T16:50:22.105Z",
-      "primaryItemId": "news_4209f07a632d",
-      "evidenceItemIds": [
-        "news_4209f07a632d",
-        "news_d025756319f5"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_09c4a5403db3",
-      "title": "欧元区制造业增速创51个月新高",
-      "firstSeenAt": "2026-09-01T09:28:40.652Z",
-      "lastSeenAt": "2026-09-01T16:50:22.105Z",
-      "primaryItemId": "news_69d645d9acec",
-      "evidenceItemIds": [
-        "news_69d645d9acec",
-        "news_093bcefb9894",
-        "news_9598d852f5c7"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_5be68cf7cf41",
       "title": "印度8月制造业PMI降至五年低点",
       "firstSeenAt": "2026-09-01T09:28:40.652Z",
@@ -234,98 +527,6 @@
       "status": "developing"
     },
     {
-      "eventId": "event_202dd878fa19",
-      "title": "晚间公告｜9月1日这些公告有看头",
-      "firstSeenAt": "2026-07-31T14:43:32.623Z",
-      "lastSeenAt": "2026-09-01T16:50:22.105Z",
-      "primaryItemId": "news_3108d5eeee52",
-      "evidenceItemIds": [
-        "news_eaf56a2f5345",
-        "news_8b256f193830",
-        "news_58fdd88ca5ff",
-        "news_4cac4c806a4b",
-        "news_f202b91c5619",
-        "news_c91687230a2c",
-        "news_958c3f39adb1",
-        "news_a328d8732020",
-        "news_042b264c9695",
-        "news_0f321ef4412b",
-        "news_6fe4b8332584",
-        "news_f755ad25cd3e",
-        "news_6d13f9de9d52",
-        "news_bd988cf929f3",
-        "news_a6888af31e73",
-        "news_8429689faaae",
-        "news_f88525090167",
-        "news_0ab1f5803307",
-        "news_141a625db923",
-        "news_9ac737e4924a",
-        "news_60885ba55001",
-        "news_9d3c513ffc0f",
-        "news_3e80b0340e44",
-        "news_56a89494a39c",
-        "news_69264b26c3e7",
-        "news_514b54e00f99",
-        "news_67ca015f8000",
-        "news_3108d5eeee52"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_32967e3730b8",
-      "title": "美股大型科技股盘前普跌，英特尔跌超2%",
-      "firstSeenAt": "2026-08-03T15:23:32.854Z",
-      "lastSeenAt": "2026-09-01T16:50:22.105Z",
-      "primaryItemId": "news_a64a51b6307d",
-      "evidenceItemIds": [
-        "news_8394862df655",
-        "news_b8561adf7643",
-        "news_8b0ae127cd97",
-        "news_69866ab410e2",
-        "news_df9f7f47921a",
-        "news_d3b1a6fd627e",
-        "news_42ca90256576",
-        "news_04a959a73a68",
-        "news_92257b4a2373",
-        "news_9078b6a91c76",
-        "news_47c824b8354b",
-        "news_a1473e93f9d4",
-        "news_d9743ef9e935",
-        "news_734d74c93284",
-        "news_7a77b49fc9c2",
-        "news_83e7d960009d",
-        "news_05bd36ad0d77",
-        "news_045068d1edcf",
-        "news_d5c174d9c938",
-        "news_5d452c2d5e52",
-        "news_09ef190df7fd",
-        "news_e65153aa735d",
-        "news_0eb4388c732a",
-        "news_a68f0b461e3d",
-        "news_7a48b08815f8",
-        "news_32f9f080ed6c",
-        "news_cdf64bc47c62",
-        "news_22afba3862a0",
-        "news_8657bacfb96d",
-        "news_57eab53dfe2f",
-        "news_190e072a9adf",
-        "news_ce8d9d35ffad",
-        "news_07c8e81e210f",
-        "news_145b0fb3a96a",
-        "news_89516f7e191b",
-        "news_41550d725195",
-        "news_597d0c98d522",
-        "news_d0ecfdcf2b2f",
-        "news_946e33737a7f",
-        "news_b886bc768085",
-        "news_230bf8cff437",
-        "news_5ce2dbb0fd9b",
-        "news_78eb330bde54",
-        "news_a64a51b6307d"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_aff513f01c18",
       "title": "ChatGPT广告业务上线不足200天 年化经常性收入达10亿美元",
       "firstSeenAt": "2026-09-01T13:34:49.779Z",
@@ -334,110 +535,6 @@
       "evidenceItemIds": [
         "news_5b7064bf29c1",
         "news_093cbc31b86c"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_9decb1b51a87",
-      "title": "两部门：9月1日起外籍个人股息红利不再免征个税",
-      "firstSeenAt": "2026-09-01T13:34:49.779Z",
-      "lastSeenAt": "2026-09-01T16:50:22.105Z",
-      "primaryItemId": "news_1b4106384ab3",
-      "evidenceItemIds": [
-        "news_1b4106384ab3",
-        "news_ad73e27ed475",
-        "news_5aa7904fb0ce",
-        "news_1d166a0c5fea"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_e680213af4b0",
-      "title": "耗资3.18亿元！万亿光模块龙头首次回购公司股份|盘后公告集锦",
-      "firstSeenAt": "2026-09-01T13:34:49.779Z",
-      "lastSeenAt": "2026-09-01T16:50:22.105Z",
-      "primaryItemId": "news_4cdafa85748e",
-      "evidenceItemIds": [
-        "news_4cdafa85748e",
-        "news_e7a9f3829b23"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_1470ee80505e",
-      "title": "“85后”白金分析师屠亦婷将升任申万宏源研究副所长",
-      "firstSeenAt": "2026-09-01T13:34:49.779Z",
-      "lastSeenAt": "2026-09-01T16:50:22.105Z",
-      "primaryItemId": "news_94f9b8c8eb85",
-      "evidenceItemIds": [
-        "news_94f9b8c8eb85",
-        "news_3fef4ec96cff"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_988cc0ebec36",
-      "title": "欧元区8月通胀率升至3.3%，能源成本成主要推手",
-      "firstSeenAt": "2026-09-01T13:34:49.779Z",
-      "lastSeenAt": "2026-09-01T16:50:22.105Z",
-      "primaryItemId": "news_d7a0bc289f70",
-      "evidenceItemIds": [
-        "news_d7a0bc289f70",
-        "news_4c2c73ba3326"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_e2b6ab4188f5",
-      "title": "格力电器：已回购174万股，使用资金总额6823.23万元",
-      "firstSeenAt": "2026-09-01T13:34:49.779Z",
-      "lastSeenAt": "2026-09-01T16:50:22.105Z",
-      "primaryItemId": "news_7342fcde15ef",
-      "evidenceItemIds": [
-        "news_7342fcde15ef",
-        "news_856a3a78f328"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_ff4a641959e6",
-      "title": "顺丰同城(09699)9月1日斥资52.3万港元回购6.18万股",
-      "firstSeenAt": "2026-09-01T13:34:49.779Z",
-      "lastSeenAt": "2026-09-01T16:50:22.105Z",
-      "primaryItemId": "news_8d080a3aa92d",
-      "evidenceItemIds": [
-        "news_8d080a3aa92d",
-        "news_9a46636a3b1a"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_88d37f569468",
-      "title": "西班牙股市收低；截至收盘西班牙IBEX35指数下跌0.79%",
-      "firstSeenAt": "2026-08-27T22:27:22.891Z",
-      "lastSeenAt": "2026-09-01T16:50:22.105Z",
-      "primaryItemId": "news_593594203e7b",
-      "evidenceItemIds": [
-        "news_1dcdfda18973",
-        "news_7c91b51b1eef",
-        "news_18d78b1ded1d",
-        "news_e9ee9b2bc410",
-        "news_ef8e83ac503e",
-        "news_50072042a675",
-        "news_593594203e7b"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_a678dcb442aa",
-      "title": "英国股市收低；截至收盘Investing.com 英国 100下跌0.31%",
-      "firstSeenAt": "2026-09-01T16:50:22.105Z",
-      "lastSeenAt": "2026-09-01T16:50:22.105Z",
-      "primaryItemId": "news_023dcd0d28ad",
-      "evidenceItemIds": [
-        "news_023dcd0d28ad",
-        "news_22038d02d938",
-        "news_47d9a1ccf7bb"
       ],
       "status": "developing"
     },
@@ -464,21 +561,6 @@
         "news_0b1c44b2c97a",
         "news_9312a5ade0d8",
         "news_776350c2840d"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_8c89c31f3b3c",
-      "title": "A股三大股指盘初集体下跌，农林牧渔再度拉升，算力硬件、芯片半导体齐下挫，恒指跌1%，希音港股IPO首日跌8%",
-      "firstSeenAt": "2026-08-28T03:55:53.061Z",
-      "lastSeenAt": "2026-09-01T13:34:49.779Z",
-      "primaryItemId": "news_7a4d049cc2cc",
-      "evidenceItemIds": [
-        "news_ca24cdb0d0cb",
-        "news_3d92b72d8089",
-        "news_c966880a1cdb",
-        "news_4087f1c4d50b",
-        "news_7a4d049cc2cc"
       ],
       "status": "developing"
     },
@@ -619,33 +701,6 @@
         "news_eced978ce73e",
         "news_09bf912206ea",
         "news_2667f56dad38"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_73f4b1fb41a8",
-      "title": "龙虎榜丨机构今日买入这10股，卖出誉衡药业2.15亿元",
-      "firstSeenAt": "2026-08-03T11:50:30.990Z",
-      "lastSeenAt": "2026-09-01T05:18:31.478Z",
-      "primaryItemId": "news_be3920c8ab0f",
-      "evidenceItemIds": [
-        "news_de7d0ba05e16",
-        "news_e7a76dcea2a8",
-        "news_d9bbbfd32f43",
-        "news_9d97988a8b31",
-        "news_f8e689022fb3",
-        "news_a41d521c5c53",
-        "news_50b190578187",
-        "news_45437b89e860",
-        "news_d1e40824a959",
-        "news_d35397f00f85",
-        "news_28eb220b6d7d",
-        "news_83a8f0bce8bc",
-        "news_a434c7856598",
-        "news_a8c173d2f58f",
-        "news_f7c76b8d1160",
-        "news_be3920c8ab0f",
-        "news_7a02bb038160"
       ],
       "status": "developing"
     },

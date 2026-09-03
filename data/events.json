@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-09-03T04:42:47.909Z",
+  "generatedAt": "2026-09-03T09:02:37.670Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -8,7 +8,7 @@
       "eventId": "event_529af3584dc2",
       "title": "恒指午间休盘涨0.02%，恒生科技指数跌0.56%",
       "firstSeenAt": "2026-07-31T02:43:30.494Z",
-      "lastSeenAt": "2026-09-03T04:42:47.909Z",
+      "lastSeenAt": "2026-09-03T09:02:37.670Z",
       "primaryItemId": "news_418b1f72d789",
       "evidenceItemIds": [
         "news_6e822ac0babf",
@@ -65,62 +65,10 @@
       "status": "developing"
     },
     {
-      "eventId": "event_09c4a5403db3",
-      "title": "欧元区制造业增速创51个月新高",
-      "firstSeenAt": "2026-09-01T09:28:40.652Z",
-      "lastSeenAt": "2026-09-03T04:42:47.909Z",
-      "primaryItemId": "news_69d645d9acec",
-      "evidenceItemIds": [
-        "news_69d645d9acec",
-        "news_093bcefb9894",
-        "news_9598d852f5c7"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_202dd878fa19",
-      "title": "晚间公告｜9月2日这些公告有看头",
-      "firstSeenAt": "2026-07-31T14:43:32.623Z",
-      "lastSeenAt": "2026-09-03T04:42:47.909Z",
-      "primaryItemId": "news_4d0de13affc5",
-      "evidenceItemIds": [
-        "news_eaf56a2f5345",
-        "news_8b256f193830",
-        "news_58fdd88ca5ff",
-        "news_4cac4c806a4b",
-        "news_f202b91c5619",
-        "news_c91687230a2c",
-        "news_958c3f39adb1",
-        "news_a328d8732020",
-        "news_042b264c9695",
-        "news_0f321ef4412b",
-        "news_6fe4b8332584",
-        "news_f755ad25cd3e",
-        "news_6d13f9de9d52",
-        "news_bd988cf929f3",
-        "news_a6888af31e73",
-        "news_8429689faaae",
-        "news_f88525090167",
-        "news_0ab1f5803307",
-        "news_141a625db923",
-        "news_9ac737e4924a",
-        "news_60885ba55001",
-        "news_9d3c513ffc0f",
-        "news_3e80b0340e44",
-        "news_56a89494a39c",
-        "news_69264b26c3e7",
-        "news_514b54e00f99",
-        "news_67ca015f8000",
-        "news_3108d5eeee52",
-        "news_4d0de13affc5"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_32967e3730b8",
       "title": "美股大型科技股盘前涨跌不一，英特尔跌超1%",
       "firstSeenAt": "2026-08-03T15:23:32.854Z",
-      "lastSeenAt": "2026-09-03T04:42:47.909Z",
+      "lastSeenAt": "2026-09-03T09:02:37.670Z",
       "primaryItemId": "news_088cb0dd2781",
       "evidenceItemIds": [
         "news_8394862df655",
@@ -174,14 +122,15 @@
     },
     {
       "eventId": "event_988cc0ebec36",
-      "title": "欧元区8月通胀率升至3.3%，能源成本成主要推手",
+      "title": "瑞士8月通胀率升至0.8%，能源成本上涨为主因",
       "firstSeenAt": "2026-09-01T13:34:49.779Z",
-      "lastSeenAt": "2026-09-03T04:42:47.909Z",
-      "primaryItemId": "news_d7a0bc289f70",
+      "lastSeenAt": "2026-09-03T09:02:37.670Z",
+      "primaryItemId": "news_85993bdc33eb",
       "evidenceItemIds": [
         "news_d7a0bc289f70",
         "news_4c2c73ba3326",
-        "news_27e9b2e59205"
+        "news_27e9b2e59205",
+        "news_85993bdc33eb"
       ],
       "status": "developing"
     },
@@ -189,7 +138,7 @@
       "eventId": "event_88d37f569468",
       "title": "西班牙股市收低；截至收盘西班牙IBEX35指数下跌0.23%",
       "firstSeenAt": "2026-08-27T22:27:22.891Z",
-      "lastSeenAt": "2026-09-03T04:42:47.909Z",
+      "lastSeenAt": "2026-09-03T09:02:37.670Z",
       "primaryItemId": "news_e43cf75233f0",
       "evidenceItemIds": [
         "news_1dcdfda18973",
@@ -207,7 +156,7 @@
       "eventId": "event_a678dcb442aa",
       "title": "英国股市收低；截至收盘Investing.com 英国 100下跌0.33%",
       "firstSeenAt": "2026-09-01T16:50:22.105Z",
-      "lastSeenAt": "2026-09-03T04:42:47.909Z",
+      "lastSeenAt": "2026-09-03T09:02:37.670Z",
       "primaryItemId": "news_5811f57d353a",
       "evidenceItemIds": [
         "news_023dcd0d28ad",
@@ -223,10 +172,10 @@
     },
     {
       "eventId": "event_8c89c31f3b3c",
-      "title": "A股三大指数午间休盘集体上涨，培育钻石概念走强",
+      "title": "A股三大指数集体低开",
       "firstSeenAt": "2026-08-28T03:55:53.061Z",
-      "lastSeenAt": "2026-09-03T04:42:47.909Z",
-      "primaryItemId": "news_7c0d4ace8ae7",
+      "lastSeenAt": "2026-09-03T09:02:37.670Z",
+      "primaryItemId": "news_30df0fd1c619",
       "evidenceItemIds": [
         "news_ca24cdb0d0cb",
         "news_3d92b72d8089",
@@ -247,7 +196,7 @@
       "eventId": "event_3146956f1897",
       "title": "关于资本市场支持构建房地产发展新模式的意见",
       "firstSeenAt": "2026-08-28T11:33:49.352Z",
-      "lastSeenAt": "2026-09-03T04:42:47.909Z",
+      "lastSeenAt": "2026-09-03T09:02:37.670Z",
       "primaryItemId": "news_bcbc19d029f5",
       "evidenceItemIds": [
         "news_1e31d5b8e039",
@@ -264,10 +213,10 @@
     },
     {
       "eventId": "event_0737eac2cabb",
-      "title": "连板股追踪丨A股今日共55只个股涨停 这只农业股5连板",
+      "title": "连板股追踪丨A股今日共46只个股涨停 这只零售股5连板",
       "firstSeenAt": "2026-07-31T02:43:30.494Z",
-      "lastSeenAt": "2026-09-03T04:42:47.909Z",
-      "primaryItemId": "news_37541f809c24",
+      "lastSeenAt": "2026-09-03T09:02:37.670Z",
+      "primaryItemId": "news_13504293c80d",
       "evidenceItemIds": [
         "news_cf2b97a75d61",
         "news_6b2b1bbc6628",
@@ -294,7 +243,277 @@
         "news_7d9073d69bfc",
         "news_4ef716030320",
         "news_c67366d8076f",
-        "news_37541f809c24"
+        "news_37541f809c24",
+        "news_13504293c80d"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_34983afc288d",
+      "title": "中威电子：大股东石旭刚拟减持公司不超3%股份",
+      "firstSeenAt": "2026-09-02T12:54:46.541Z",
+      "lastSeenAt": "2026-09-03T09:02:37.670Z",
+      "primaryItemId": "news_78f991f12999",
+      "evidenceItemIds": [
+        "news_19504741ccc3",
+        "news_78c92efe7a36",
+        "news_78f991f12999",
+        "news_fd038c0d2c69"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_c63ef507abb3",
+      "title": "荷兰股市上涨；截至收盘荷兰AEX指数上涨0.16%",
+      "firstSeenAt": "2026-08-17T13:14:13.230Z",
+      "lastSeenAt": "2026-09-03T09:02:37.670Z",
+      "primaryItemId": "news_add6fe3af46b",
+      "evidenceItemIds": [
+        "news_66037f2211e0",
+        "news_ebf4ddb5793f",
+        "news_d234caade81b",
+        "news_70b83177e78f",
+        "news_add6fe3af46b",
+        "news_530a3ce1eec5"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_d7de6c5bfa1f",
+      "title": "月之暗面向港交所秘密交表，正式启动 IPO",
+      "firstSeenAt": "2026-09-02T16:45:29.697Z",
+      "lastSeenAt": "2026-09-03T09:02:37.670Z",
+      "primaryItemId": "news_d14c2c813fdc",
+      "evidenceItemIds": [
+        "news_d14c2c813fdc",
+        "news_76d3d1d9ad22"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_0b61b0011235",
+      "title": "美联储“三把手”威廉姆斯：通胀缓慢回落，利率处于“良好水平”",
+      "firstSeenAt": "2026-09-02T16:45:29.697Z",
+      "lastSeenAt": "2026-09-03T09:02:37.670Z",
+      "primaryItemId": "news_e3d4f8874388",
+      "evidenceItemIds": [
+        "news_e3d4f8874388",
+        "news_2316464fe568"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_420beca3e56c",
+      "title": "雪佛龙加码委内瑞拉：五年投资70亿美元，日产量目标翻倍",
+      "firstSeenAt": "2026-09-02T16:45:29.697Z",
+      "lastSeenAt": "2026-09-03T09:02:37.670Z",
+      "primaryItemId": "news_8a6af965a7c1",
+      "evidenceItemIds": [
+        "news_8a6af965a7c1",
+        "news_2ce0113c6995"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_5273f85d883c",
+      "title": "深中华A：如股票价格进一步异常上涨，公司可能申请停牌核查",
+      "firstSeenAt": "2026-09-02T16:45:29.697Z",
+      "lastSeenAt": "2026-09-03T09:02:37.670Z",
+      "primaryItemId": "news_940d6c63e6f5",
+      "evidenceItemIds": [
+        "news_940d6c63e6f5",
+        "news_22aac21726c4"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_352a3cbffeba",
+      "title": "中国8月RatingDog服务业PMI回升至51.4，就业连续四个月增长创两年最长纪录",
+      "firstSeenAt": "2026-08-03T03:58:04.220Z",
+      "lastSeenAt": "2026-09-03T09:02:37.670Z",
+      "primaryItemId": "news_2f3c10768953",
+      "evidenceItemIds": [
+        "news_5791a7720090",
+        "news_c65f8400aac2",
+        "news_897882d09fb7",
+        "news_2f3c10768953",
+        "news_6269ae20cc24",
+        "news_5125b82ab54f"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_d80b4f85266e",
+      "title": "需要重视的全球“资金失衡”",
+      "firstSeenAt": "2026-09-03T04:42:47.909Z",
+      "lastSeenAt": "2026-09-03T09:02:37.670Z",
+      "primaryItemId": "news_d06765c91c88",
+      "evidenceItemIds": [
+        "news_d06765c91c88",
+        "news_21771f1fc4ca"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_eb2ca558709b",
+      "title": "财经早知道｜潘功胜出席G20财长会议：继续实施好适度宽松的货币政策",
+      "firstSeenAt": "2026-09-03T04:42:47.909Z",
+      "lastSeenAt": "2026-09-03T09:02:37.670Z",
+      "primaryItemId": "news_0fcdd33d6106",
+      "evidenceItemIds": [
+        "news_0fcdd33d6106",
+        "news_22dfadadb145"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_bd2d6a21de62",
+      "title": "日本30年期国债拍卖结果好于预期，全球债市暂松一口气",
+      "firstSeenAt": "2026-09-03T04:42:47.909Z",
+      "lastSeenAt": "2026-09-03T09:02:37.670Z",
+      "primaryItemId": "news_ea3fcba9afab",
+      "evidenceItemIds": [
+        "news_ea3fcba9afab",
+        "news_a16920e12f2d"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_b51a19d1860b",
+      "title": "港股收盘 | 三大指数高开低走 黄金和内房股逆势走强",
+      "firstSeenAt": "2026-09-02T08:50:37.277Z",
+      "lastSeenAt": "2026-09-03T09:02:37.670Z",
+      "primaryItemId": "news_3aec373c888c",
+      "evidenceItemIds": [
+        "news_12f6c0766145",
+        "news_ae02b47566c0",
+        "news_3aec373c888c"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_ce5e0cbed733",
+      "title": "港股评级汇总：交银国际维持凯莱英买入评级",
+      "firstSeenAt": "2026-08-10T09:54:06.980Z",
+      "lastSeenAt": "2026-09-03T09:02:37.670Z",
+      "primaryItemId": "news_1645ce94fd72",
+      "evidenceItemIds": [
+        "news_ff8ada5d229d",
+        "news_038fffd08eb2",
+        "news_1e24c2798e8a",
+        "news_bb4bd2fad08a",
+        "news_ed66993623e9",
+        "news_8121a51025df",
+        "news_31f70992e4d6",
+        "news_7d319f1977ad",
+        "news_ce5ef69b3645",
+        "news_8858d68446e1",
+        "news_e65d8766e53e",
+        "news_ff0c0951c8a4",
+        "news_53200861da44",
+        "news_2abf9cd536fd",
+        "news_1645ce94fd72"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_dc9afffef6d6",
+      "title": "瑞士经济二季度增长1.9%",
+      "firstSeenAt": "2026-08-28T11:33:49.352Z",
+      "lastSeenAt": "2026-09-03T09:02:37.670Z",
+      "primaryItemId": "news_bed37c1a45a4",
+      "evidenceItemIds": [
+        "news_97b8fac61884",
+        "news_9184aab93a77",
+        "news_bed37c1a45a4"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_e02a98d121c3",
+      "title": "工信部等十部门：高效用好创新创业领域各级政府投资基金，带动更多耐心资本投向种子期、初创期中小企业",
+      "firstSeenAt": "2026-09-03T09:02:37.670Z",
+      "lastSeenAt": "2026-09-03T09:02:37.670Z",
+      "primaryItemId": "news_e9d0cf133e47",
+      "evidenceItemIds": [
+        "news_e9d0cf133e47",
+        "news_13a79d78b4d7"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_b6a82120fadd",
+      "title": "商务部：中欧磋商不能单方面提要价动辄要挟，敦促美方撤销对有关中国企业和公民的制裁",
+      "firstSeenAt": "2026-09-03T09:02:37.670Z",
+      "lastSeenAt": "2026-09-03T09:02:37.670Z",
+      "primaryItemId": "news_5c70b50cf6f4",
+      "evidenceItemIds": [
+        "news_5c70b50cf6f4",
+        "news_b4e1f9b7cdaa"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_a02954cff73d",
+      "title": "央行：2季度末我国金融业机构总资产为562.2万亿元 同比增长7.7%",
+      "firstSeenAt": "2026-09-03T09:02:37.670Z",
+      "lastSeenAt": "2026-09-03T09:02:37.670Z",
+      "primaryItemId": "news_44421f70e510",
+      "evidenceItemIds": [
+        "news_44421f70e510",
+        "news_c00c99082e9b"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_09c4a5403db3",
+      "title": "欧元区制造业增速创51个月新高",
+      "firstSeenAt": "2026-09-01T09:28:40.652Z",
+      "lastSeenAt": "2026-09-03T04:42:47.909Z",
+      "primaryItemId": "news_69d645d9acec",
+      "evidenceItemIds": [
+        "news_69d645d9acec",
+        "news_093bcefb9894",
+        "news_9598d852f5c7"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_202dd878fa19",
+      "title": "晚间公告｜9月2日这些公告有看头",
+      "firstSeenAt": "2026-07-31T14:43:32.623Z",
+      "lastSeenAt": "2026-09-03T04:42:47.909Z",
+      "primaryItemId": "news_4d0de13affc5",
+      "evidenceItemIds": [
+        "news_eaf56a2f5345",
+        "news_8b256f193830",
+        "news_58fdd88ca5ff",
+        "news_4cac4c806a4b",
+        "news_f202b91c5619",
+        "news_c91687230a2c",
+        "news_958c3f39adb1",
+        "news_a328d8732020",
+        "news_042b264c9695",
+        "news_0f321ef4412b",
+        "news_6fe4b8332584",
+        "news_f755ad25cd3e",
+        "news_6d13f9de9d52",
+        "news_bd988cf929f3",
+        "news_a6888af31e73",
+        "news_8429689faaae",
+        "news_f88525090167",
+        "news_0ab1f5803307",
+        "news_141a625db923",
+        "news_9ac737e4924a",
+        "news_60885ba55001",
+        "news_9d3c513ffc0f",
+        "news_3e80b0340e44",
+        "news_56a89494a39c",
+        "news_69264b26c3e7",
+        "news_514b54e00f99",
+        "news_67ca015f8000",
+        "news_3108d5eeee52",
+        "news_4d0de13affc5"
       ],
       "status": "developing"
     },
@@ -405,136 +624,6 @@
       "status": "developing"
     },
     {
-      "eventId": "event_34983afc288d",
-      "title": "中威电子：大股东石旭刚拟减持公司不超3%股份",
-      "firstSeenAt": "2026-09-02T12:54:46.541Z",
-      "lastSeenAt": "2026-09-03T04:42:47.909Z",
-      "primaryItemId": "news_78f991f12999",
-      "evidenceItemIds": [
-        "news_19504741ccc3",
-        "news_78c92efe7a36",
-        "news_78f991f12999",
-        "news_fd038c0d2c69"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_c63ef507abb3",
-      "title": "荷兰股市上涨；截至收盘荷兰AEX指数上涨0.16%",
-      "firstSeenAt": "2026-08-17T13:14:13.230Z",
-      "lastSeenAt": "2026-09-03T04:42:47.909Z",
-      "primaryItemId": "news_add6fe3af46b",
-      "evidenceItemIds": [
-        "news_66037f2211e0",
-        "news_ebf4ddb5793f",
-        "news_d234caade81b",
-        "news_70b83177e78f",
-        "news_add6fe3af46b",
-        "news_530a3ce1eec5"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_d7de6c5bfa1f",
-      "title": "月之暗面向港交所秘密交表，正式启动 IPO",
-      "firstSeenAt": "2026-09-02T16:45:29.697Z",
-      "lastSeenAt": "2026-09-03T04:42:47.909Z",
-      "primaryItemId": "news_d14c2c813fdc",
-      "evidenceItemIds": [
-        "news_d14c2c813fdc",
-        "news_76d3d1d9ad22"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_0b61b0011235",
-      "title": "美联储“三把手”威廉姆斯：通胀缓慢回落，利率处于“良好水平”",
-      "firstSeenAt": "2026-09-02T16:45:29.697Z",
-      "lastSeenAt": "2026-09-03T04:42:47.909Z",
-      "primaryItemId": "news_e3d4f8874388",
-      "evidenceItemIds": [
-        "news_e3d4f8874388",
-        "news_2316464fe568"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_420beca3e56c",
-      "title": "雪佛龙加码委内瑞拉：五年投资70亿美元，日产量目标翻倍",
-      "firstSeenAt": "2026-09-02T16:45:29.697Z",
-      "lastSeenAt": "2026-09-03T04:42:47.909Z",
-      "primaryItemId": "news_8a6af965a7c1",
-      "evidenceItemIds": [
-        "news_8a6af965a7c1",
-        "news_2ce0113c6995"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_5273f85d883c",
-      "title": "深中华A：如股票价格进一步异常上涨，公司可能申请停牌核查",
-      "firstSeenAt": "2026-09-02T16:45:29.697Z",
-      "lastSeenAt": "2026-09-03T04:42:47.909Z",
-      "primaryItemId": "news_940d6c63e6f5",
-      "evidenceItemIds": [
-        "news_940d6c63e6f5",
-        "news_22aac21726c4"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_352a3cbffeba",
-      "title": "中国8月RatingDog服务业PMI回升至51.4，就业连续四个月增长创两年最长纪录",
-      "firstSeenAt": "2026-08-03T03:58:04.220Z",
-      "lastSeenAt": "2026-09-03T04:42:47.909Z",
-      "primaryItemId": "news_2f3c10768953",
-      "evidenceItemIds": [
-        "news_5791a7720090",
-        "news_c65f8400aac2",
-        "news_897882d09fb7",
-        "news_2f3c10768953",
-        "news_6269ae20cc24",
-        "news_5125b82ab54f"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_d80b4f85266e",
-      "title": "需要重视的全球“资金失衡”",
-      "firstSeenAt": "2026-09-03T04:42:47.909Z",
-      "lastSeenAt": "2026-09-03T04:42:47.909Z",
-      "primaryItemId": "news_d06765c91c88",
-      "evidenceItemIds": [
-        "news_d06765c91c88",
-        "news_21771f1fc4ca"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_eb2ca558709b",
-      "title": "财经早知道｜潘功胜出席G20财长会议：继续实施好适度宽松的货币政策",
-      "firstSeenAt": "2026-09-03T04:42:47.909Z",
-      "lastSeenAt": "2026-09-03T04:42:47.909Z",
-      "primaryItemId": "news_0fcdd33d6106",
-      "evidenceItemIds": [
-        "news_0fcdd33d6106",
-        "news_22dfadadb145"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_bd2d6a21de62",
-      "title": "日本30年期国债拍卖结果好于预期，全球债市暂松一口气",
-      "firstSeenAt": "2026-09-03T04:42:47.909Z",
-      "lastSeenAt": "2026-09-03T04:42:47.909Z",
-      "primaryItemId": "news_ea3fcba9afab",
-      "evidenceItemIds": [
-        "news_ea3fcba9afab",
-        "news_a16920e12f2d"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_193fbc426ace",
       "title": "星宇股份董事长回应“批量解约应届生”：公司深刻反省并真诚道歉，正在政府部门指导下妥善落实相关措施",
       "firstSeenAt": "2026-09-02T04:41:46.695Z",
@@ -556,18 +645,6 @@
       "evidenceItemIds": [
         "news_23d28c541187",
         "news_af72a20cfe73"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_b51a19d1860b",
-      "title": "港股收盘 | 三大指数集体收跌 部分房地产与AI医药股逆势走强",
-      "firstSeenAt": "2026-09-02T08:50:37.277Z",
-      "lastSeenAt": "2026-09-02T16:45:29.697Z",
-      "primaryItemId": "news_12f6c0766145",
-      "evidenceItemIds": [
-        "news_12f6c0766145",
-        "news_ae02b47566c0"
       ],
       "status": "developing"
     },
@@ -605,30 +682,6 @@
       "evidenceItemIds": [
         "news_196d291b7f8f",
         "news_5185eaaaed84"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_ce5e0cbed733",
-      "title": "港股评级汇总：交银国际维持比亚迪股份买入评级",
-      "firstSeenAt": "2026-08-10T09:54:06.980Z",
-      "lastSeenAt": "2026-09-02T12:54:46.541Z",
-      "primaryItemId": "news_2abf9cd536fd",
-      "evidenceItemIds": [
-        "news_ff8ada5d229d",
-        "news_038fffd08eb2",
-        "news_1e24c2798e8a",
-        "news_bb4bd2fad08a",
-        "news_ed66993623e9",
-        "news_8121a51025df",
-        "news_31f70992e4d6",
-        "news_7d319f1977ad",
-        "news_ce5ef69b3645",
-        "news_8858d68446e1",
-        "news_e65d8766e53e",
-        "news_ff0c0951c8a4",
-        "news_53200861da44",
-        "news_2abf9cd536fd"
       ],
       "status": "developing"
     },
@@ -888,18 +941,6 @@
         "news_d7fef3a3530e",
         "news_233d30c6802b",
         "news_31f190743e11"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_dc9afffef6d6",
-      "title": "捷克经济二季度增长0.4%，消费支出成主要驱动力",
-      "firstSeenAt": "2026-08-28T11:33:49.352Z",
-      "lastSeenAt": "2026-09-01T05:18:31.478Z",
-      "primaryItemId": "news_97b8fac61884",
-      "evidenceItemIds": [
-        "news_97b8fac61884",
-        "news_9184aab93a77"
       ],
       "status": "developing"
     },

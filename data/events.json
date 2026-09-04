@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-09-04T12:49:05.643Z",
+  "generatedAt": "2026-09-04T16:28:41.802Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -8,7 +8,7 @@
       "eventId": "event_0737eac2cabb",
       "title": "连板股追踪丨A股今日共42只个股涨停 龙版传媒5连板",
       "firstSeenAt": "2026-07-31T02:43:30.494Z",
-      "lastSeenAt": "2026-09-04T12:49:05.643Z",
+      "lastSeenAt": "2026-09-04T16:28:41.802Z",
       "primaryItemId": "news_f57742543118",
       "evidenceItemIds": [
         "news_cf2b97a75d61",
@@ -44,10 +44,10 @@
     },
     {
       "eventId": "event_7aaa6b5b3da9",
-      "title": "AI进化速递丨OpenAI发布GPT-6 Astra模型",
+      "title": "英伟达129亿美元收购Hugging Face，开源社区难逃巨头收购？",
       "firstSeenAt": "2026-09-03T12:55:55.174Z",
-      "lastSeenAt": "2026-09-04T12:49:05.643Z",
-      "primaryItemId": "news_34fd11732de6",
+      "lastSeenAt": "2026-09-04T16:28:41.802Z",
+      "primaryItemId": "news_15a9ed30bd8a",
       "evidenceItemIds": [
         "news_6a130cf8940d",
         "news_d315f9c51ea1",
@@ -62,6 +62,375 @@
         "news_ce36241c6c34",
         "news_15a9ed30bd8a",
         "news_34fd11732de6"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_ce5e0cbed733",
+      "title": "港股评级汇总：招银国际维持中国太保买入评级",
+      "firstSeenAt": "2026-08-10T09:54:06.980Z",
+      "lastSeenAt": "2026-09-04T16:28:41.802Z",
+      "primaryItemId": "news_663d397b7ae3",
+      "evidenceItemIds": [
+        "news_ff8ada5d229d",
+        "news_038fffd08eb2",
+        "news_1e24c2798e8a",
+        "news_bb4bd2fad08a",
+        "news_ed66993623e9",
+        "news_8121a51025df",
+        "news_31f70992e4d6",
+        "news_7d319f1977ad",
+        "news_ce5ef69b3645",
+        "news_8858d68446e1",
+        "news_e65d8766e53e",
+        "news_ff0c0951c8a4",
+        "news_53200861da44",
+        "news_2abf9cd536fd",
+        "news_1645ce94fd72",
+        "news_663d397b7ae3"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_d30d5c3e8ab8",
+      "title": "江波龙：H股发售价已厘定为每股236港元",
+      "firstSeenAt": "2026-09-04T08:58:23.004Z",
+      "lastSeenAt": "2026-09-04T16:28:41.802Z",
+      "primaryItemId": "news_77eff92994ca",
+      "evidenceItemIds": [
+        "news_77eff92994ca",
+        "news_1cafc2942afd"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_3ddab6f61df0",
+      "title": "美股异动 | Q2核心产品瑜伽裤销量骤降20% Lululemon Athletica(LULU.US)跌超18%",
+      "firstSeenAt": "2026-09-04T08:58:23.004Z",
+      "lastSeenAt": "2026-09-04T16:28:41.802Z",
+      "primaryItemId": "news_0e771e1b8ee4",
+      "evidenceItemIds": [
+        "news_4893c287a6ef",
+        "news_9edf95b115a7",
+        "news_0e771e1b8ee4"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_b6dbacbbe116",
+      "title": "资金驰援算力，8只创业板算力ETF正热卖",
+      "firstSeenAt": "2026-09-04T08:58:23.004Z",
+      "lastSeenAt": "2026-09-04T16:28:41.802Z",
+      "primaryItemId": "news_bdce3d21d89f",
+      "evidenceItemIds": [
+        "news_bdce3d21d89f",
+        "news_7e9f314d350b"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_a0dba16dee15",
+      "title": "美国零售柴油价格飙至四年高位，全球供应受扰加剧通胀担忧",
+      "firstSeenAt": "2026-09-04T08:58:23.004Z",
+      "lastSeenAt": "2026-09-04T16:28:41.802Z",
+      "primaryItemId": "news_f8efde7217af",
+      "evidenceItemIds": [
+        "news_f8efde7217af",
+        "news_61c039985356",
+        "news_f5adc3a728a4"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_0c9f76072da5",
+      "title": "欧元区建筑业活动8月份降幅加速，新订单创四个月最大跌幅",
+      "firstSeenAt": "2026-09-04T08:58:23.004Z",
+      "lastSeenAt": "2026-09-04T16:28:41.802Z",
+      "primaryItemId": "news_aa101b11de09",
+      "evidenceItemIds": [
+        "news_aa101b11de09",
+        "news_8f2288b17a7e"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_202dd878fa19",
+      "title": "晚间公告｜9月4日这些公告有看头",
+      "firstSeenAt": "2026-07-31T14:43:32.623Z",
+      "lastSeenAt": "2026-09-04T16:28:41.802Z",
+      "primaryItemId": "news_f8b9c9518289",
+      "evidenceItemIds": [
+        "news_eaf56a2f5345",
+        "news_8b256f193830",
+        "news_58fdd88ca5ff",
+        "news_4cac4c806a4b",
+        "news_f202b91c5619",
+        "news_c91687230a2c",
+        "news_958c3f39adb1",
+        "news_a328d8732020",
+        "news_042b264c9695",
+        "news_0f321ef4412b",
+        "news_6fe4b8332584",
+        "news_f755ad25cd3e",
+        "news_6d13f9de9d52",
+        "news_bd988cf929f3",
+        "news_a6888af31e73",
+        "news_8429689faaae",
+        "news_f88525090167",
+        "news_0ab1f5803307",
+        "news_141a625db923",
+        "news_9ac737e4924a",
+        "news_60885ba55001",
+        "news_9d3c513ffc0f",
+        "news_3e80b0340e44",
+        "news_56a89494a39c",
+        "news_69264b26c3e7",
+        "news_514b54e00f99",
+        "news_67ca015f8000",
+        "news_3108d5eeee52",
+        "news_4d0de13affc5",
+        "news_d0b6ffb1536e",
+        "news_f8b9c9518289"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_73f4b1fb41a8",
+      "title": "龙虎榜丨机构今日买入这11股，抛售浪潮信息7.74亿元",
+      "firstSeenAt": "2026-08-03T11:50:30.990Z",
+      "lastSeenAt": "2026-09-04T16:28:41.802Z",
+      "primaryItemId": "news_93d30ccfe80b",
+      "evidenceItemIds": [
+        "news_de7d0ba05e16",
+        "news_e7a76dcea2a8",
+        "news_d9bbbfd32f43",
+        "news_9d97988a8b31",
+        "news_f8e689022fb3",
+        "news_a41d521c5c53",
+        "news_50b190578187",
+        "news_45437b89e860",
+        "news_d1e40824a959",
+        "news_d35397f00f85",
+        "news_28eb220b6d7d",
+        "news_83a8f0bce8bc",
+        "news_a434c7856598",
+        "news_a8c173d2f58f",
+        "news_f7c76b8d1160",
+        "news_be3920c8ab0f",
+        "news_7a02bb038160",
+        "news_5e9ecf83e613",
+        "news_40d2672e7c11",
+        "news_c0cf1488e336",
+        "news_9b61e52ad416",
+        "news_93d30ccfe80b"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_109fad52cb6a",
+      "title": "南向资金追踪｜本周净买入约74亿港元 加仓Minimax流出阿里及美团",
+      "firstSeenAt": "2026-09-02T12:54:46.541Z",
+      "lastSeenAt": "2026-09-04T16:28:41.802Z",
+      "primaryItemId": "news_e1c7144877ef",
+      "evidenceItemIds": [
+        "news_0baa49a81457",
+        "news_d90d6cf93293",
+        "news_2c4c1db96d8c",
+        "news_04084d175bb4",
+        "news_e1c7144877ef"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_34983afc288d",
+      "title": "英飞特：控股股东及实控人拟减持不超2.98%股份",
+      "firstSeenAt": "2026-09-02T12:54:46.541Z",
+      "lastSeenAt": "2026-09-04T16:28:41.802Z",
+      "primaryItemId": "news_71fc670b2467",
+      "evidenceItemIds": [
+        "news_19504741ccc3",
+        "news_78c92efe7a36",
+        "news_78f991f12999",
+        "news_fd038c0d2c69",
+        "news_71fc670b2467"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_83c8fca3d6b2",
+      "title": "【VIP日报】农业板块表现活跃 栏目对比历史行情解读行业表现 提及相关公司逆势上涨",
+      "firstSeenAt": "2026-09-02T12:54:46.541Z",
+      "lastSeenAt": "2026-09-04T16:28:41.802Z",
+      "primaryItemId": "news_bec72fb1d44b",
+      "evidenceItemIds": [
+        "news_25f5e778f2df",
+        "news_5f77938060ba",
+        "news_bec72fb1d44b"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_32c44ce79be2",
+      "title": "美国8月非农新增就业16.2万人，预期仅5.5万人，失业率维持在4.1%不变",
+      "firstSeenAt": "2026-09-04T12:49:05.643Z",
+      "lastSeenAt": "2026-09-04T16:28:41.802Z",
+      "primaryItemId": "news_79ac5fb5b93b",
+      "evidenceItemIds": [
+        "news_79ac5fb5b93b",
+        "news_0d202a8ac212",
+        "news_bea2a7547e3d",
+        "news_d3150920c7d3"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_e03d0a3054cc",
+      "title": "【数据看盘】多路资金联手抢筹福建人气股，五家机构净卖出浪潮信息7.74亿元",
+      "firstSeenAt": "2026-09-04T12:49:05.643Z",
+      "lastSeenAt": "2026-09-04T16:28:41.802Z",
+      "primaryItemId": "news_7762a75668b5",
+      "evidenceItemIds": [
+        "news_7762a75668b5",
+        "news_bc1509bdaae9"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_32967e3730b8",
+      "title": "美股大型科技股盘前多数下跌，特斯拉跌超3%",
+      "firstSeenAt": "2026-08-03T15:23:32.854Z",
+      "lastSeenAt": "2026-09-04T16:28:41.802Z",
+      "primaryItemId": "news_b03943a69317",
+      "evidenceItemIds": [
+        "news_8394862df655",
+        "news_b8561adf7643",
+        "news_8b0ae127cd97",
+        "news_69866ab410e2",
+        "news_df9f7f47921a",
+        "news_d3b1a6fd627e",
+        "news_42ca90256576",
+        "news_04a959a73a68",
+        "news_92257b4a2373",
+        "news_9078b6a91c76",
+        "news_47c824b8354b",
+        "news_a1473e93f9d4",
+        "news_d9743ef9e935",
+        "news_734d74c93284",
+        "news_7a77b49fc9c2",
+        "news_83e7d960009d",
+        "news_05bd36ad0d77",
+        "news_045068d1edcf",
+        "news_d5c174d9c938",
+        "news_5d452c2d5e52",
+        "news_09ef190df7fd",
+        "news_e65153aa735d",
+        "news_0eb4388c732a",
+        "news_a68f0b461e3d",
+        "news_7a48b08815f8",
+        "news_32f9f080ed6c",
+        "news_cdf64bc47c62",
+        "news_22afba3862a0",
+        "news_8657bacfb96d",
+        "news_57eab53dfe2f",
+        "news_190e072a9adf",
+        "news_ce8d9d35ffad",
+        "news_07c8e81e210f",
+        "news_145b0fb3a96a",
+        "news_89516f7e191b",
+        "news_41550d725195",
+        "news_597d0c98d522",
+        "news_d0ecfdcf2b2f",
+        "news_946e33737a7f",
+        "news_b886bc768085",
+        "news_230bf8cff437",
+        "news_5ce2dbb0fd9b",
+        "news_78eb330bde54",
+        "news_a64a51b6307d",
+        "news_ff3780319764",
+        "news_088cb0dd2781",
+        "news_78745d1dc8d3",
+        "news_d19121fe4fe8",
+        "news_419cd90bb74a",
+        "news_b03943a69317"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_a678dcb442aa",
+      "title": "瑞典股市上涨；截至收盘瑞典OMX斯德哥尔摩30指数上涨0.18%",
+      "firstSeenAt": "2026-09-01T16:50:22.105Z",
+      "lastSeenAt": "2026-09-04T16:28:41.802Z",
+      "primaryItemId": "news_b01264e386c3",
+      "evidenceItemIds": [
+        "news_023dcd0d28ad",
+        "news_22038d02d938",
+        "news_47d9a1ccf7bb",
+        "news_5811f57d353a",
+        "news_7e9658008a2e",
+        "news_38b7bfcc4b83",
+        "news_10d178482868",
+        "news_0f952ebfed92",
+        "news_180bac2b42ba",
+        "news_d4e7ddbb143a",
+        "news_8c3edbf23e13",
+        "news_f0c7fe40fe6a",
+        "news_922b608e8c83",
+        "news_aed5d32e17ed",
+        "news_6800b6e7a3ca",
+        "news_8605edb299d9",
+        "news_878225efce45",
+        "news_b01264e386c3",
+        "news_65499b7ad1a5",
+        "news_63ba88008a33",
+        "news_f1bc9cdcabdf"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_5b29bdba5946",
+      "title": "特斯拉Robotaxi刚在美落地，近1000辆Cybercab遭安全监管调查",
+      "firstSeenAt": "2026-09-04T16:28:41.802Z",
+      "lastSeenAt": "2026-09-04T16:28:41.802Z",
+      "primaryItemId": "news_8458e4f5454c",
+      "evidenceItemIds": [
+        "news_8458e4f5454c",
+        "news_da1c32ea8f1e"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_b1eef1e8191c",
+      "title": "Nick Timiraos：8月就业报告消除美联储加息的一大阻碍",
+      "firstSeenAt": "2026-09-04T16:28:41.802Z",
+      "lastSeenAt": "2026-09-04T16:28:41.802Z",
+      "primaryItemId": "news_2bea4085c207",
+      "evidenceItemIds": [
+        "news_2bea4085c207",
+        "news_04eb4ccc604d"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_205da1a6b5bb",
+      "title": "养老产品品类有望扩容！存量个人养老金理财收益最高 5.53%，量化、优先股、科技走进养老资金池",
+      "firstSeenAt": "2026-09-04T16:28:41.802Z",
+      "lastSeenAt": "2026-09-04T16:28:41.802Z",
+      "primaryItemId": "news_4c10b6e35cae",
+      "evidenceItemIds": [
+        "news_4c10b6e35cae",
+        "news_73bd0dd7f635"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_9b2e76cf8c63",
+      "title": "美国8月非农录得16.2万大超预期 美联储9月加息押注升温",
+      "firstSeenAt": "2026-09-04T16:28:41.802Z",
+      "lastSeenAt": "2026-09-04T16:28:41.802Z",
+      "primaryItemId": "news_73dafaaa788e",
+      "evidenceItemIds": [
+        "news_73dafaaa788e",
+        "news_9de196499131"
       ],
       "status": "developing"
     },
@@ -174,56 +543,6 @@
       "status": "developing"
     },
     {
-      "eventId": "event_ce5e0cbed733",
-      "title": "港股评级汇总：招银国际维持中国太保买入评级",
-      "firstSeenAt": "2026-08-10T09:54:06.980Z",
-      "lastSeenAt": "2026-09-04T12:49:05.643Z",
-      "primaryItemId": "news_663d397b7ae3",
-      "evidenceItemIds": [
-        "news_ff8ada5d229d",
-        "news_038fffd08eb2",
-        "news_1e24c2798e8a",
-        "news_bb4bd2fad08a",
-        "news_ed66993623e9",
-        "news_8121a51025df",
-        "news_31f70992e4d6",
-        "news_7d319f1977ad",
-        "news_ce5ef69b3645",
-        "news_8858d68446e1",
-        "news_e65d8766e53e",
-        "news_ff0c0951c8a4",
-        "news_53200861da44",
-        "news_2abf9cd536fd",
-        "news_1645ce94fd72",
-        "news_663d397b7ae3"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_d30d5c3e8ab8",
-      "title": "江波龙：H股发售价已厘定为每股236港元",
-      "firstSeenAt": "2026-09-04T08:58:23.004Z",
-      "lastSeenAt": "2026-09-04T12:49:05.643Z",
-      "primaryItemId": "news_77eff92994ca",
-      "evidenceItemIds": [
-        "news_77eff92994ca",
-        "news_1cafc2942afd"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_3ddab6f61df0",
-      "title": "美股异动丨财报失速！Lululemon盘前大跌超17%",
-      "firstSeenAt": "2026-09-04T08:58:23.004Z",
-      "lastSeenAt": "2026-09-04T12:49:05.643Z",
-      "primaryItemId": "news_4893c287a6ef",
-      "evidenceItemIds": [
-        "news_4893c287a6ef",
-        "news_9edf95b115a7"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_c9d05f32171c",
       "title": "800亿美元！全球最大主权基金拟大幅减持美国国债",
       "firstSeenAt": "2026-09-04T08:58:23.004Z",
@@ -232,243 +551,6 @@
       "evidenceItemIds": [
         "news_049941953f23",
         "news_30c604920c1e"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_b6dbacbbe116",
-      "title": "资金驰援算力，8只创业板算力ETF正热卖",
-      "firstSeenAt": "2026-09-04T08:58:23.004Z",
-      "lastSeenAt": "2026-09-04T12:49:05.643Z",
-      "primaryItemId": "news_bdce3d21d89f",
-      "evidenceItemIds": [
-        "news_bdce3d21d89f",
-        "news_7e9f314d350b"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_a0dba16dee15",
-      "title": "美国零售柴油价格飙至四年高位，全球供应受扰加剧通胀担忧",
-      "firstSeenAt": "2026-09-04T08:58:23.004Z",
-      "lastSeenAt": "2026-09-04T12:49:05.643Z",
-      "primaryItemId": "news_f8efde7217af",
-      "evidenceItemIds": [
-        "news_f8efde7217af",
-        "news_61c039985356",
-        "news_f5adc3a728a4"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_0c9f76072da5",
-      "title": "欧元区建筑业活动8月份降幅加速，新订单创四个月最大跌幅",
-      "firstSeenAt": "2026-09-04T08:58:23.004Z",
-      "lastSeenAt": "2026-09-04T12:49:05.643Z",
-      "primaryItemId": "news_aa101b11de09",
-      "evidenceItemIds": [
-        "news_aa101b11de09",
-        "news_8f2288b17a7e"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_202dd878fa19",
-      "title": "晚间公告｜9月4日这些公告有看头",
-      "firstSeenAt": "2026-07-31T14:43:32.623Z",
-      "lastSeenAt": "2026-09-04T12:49:05.643Z",
-      "primaryItemId": "news_f8b9c9518289",
-      "evidenceItemIds": [
-        "news_eaf56a2f5345",
-        "news_8b256f193830",
-        "news_58fdd88ca5ff",
-        "news_4cac4c806a4b",
-        "news_f202b91c5619",
-        "news_c91687230a2c",
-        "news_958c3f39adb1",
-        "news_a328d8732020",
-        "news_042b264c9695",
-        "news_0f321ef4412b",
-        "news_6fe4b8332584",
-        "news_f755ad25cd3e",
-        "news_6d13f9de9d52",
-        "news_bd988cf929f3",
-        "news_a6888af31e73",
-        "news_8429689faaae",
-        "news_f88525090167",
-        "news_0ab1f5803307",
-        "news_141a625db923",
-        "news_9ac737e4924a",
-        "news_60885ba55001",
-        "news_9d3c513ffc0f",
-        "news_3e80b0340e44",
-        "news_56a89494a39c",
-        "news_69264b26c3e7",
-        "news_514b54e00f99",
-        "news_67ca015f8000",
-        "news_3108d5eeee52",
-        "news_4d0de13affc5",
-        "news_d0b6ffb1536e",
-        "news_f8b9c9518289"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_73f4b1fb41a8",
-      "title": "龙虎榜丨机构今日买入这11股，抛售浪潮信息7.74亿元",
-      "firstSeenAt": "2026-08-03T11:50:30.990Z",
-      "lastSeenAt": "2026-09-04T12:49:05.643Z",
-      "primaryItemId": "news_93d30ccfe80b",
-      "evidenceItemIds": [
-        "news_de7d0ba05e16",
-        "news_e7a76dcea2a8",
-        "news_d9bbbfd32f43",
-        "news_9d97988a8b31",
-        "news_f8e689022fb3",
-        "news_a41d521c5c53",
-        "news_50b190578187",
-        "news_45437b89e860",
-        "news_d1e40824a959",
-        "news_d35397f00f85",
-        "news_28eb220b6d7d",
-        "news_83a8f0bce8bc",
-        "news_a434c7856598",
-        "news_a8c173d2f58f",
-        "news_f7c76b8d1160",
-        "news_be3920c8ab0f",
-        "news_7a02bb038160",
-        "news_5e9ecf83e613",
-        "news_40d2672e7c11",
-        "news_c0cf1488e336",
-        "news_9b61e52ad416",
-        "news_93d30ccfe80b"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_109fad52cb6a",
-      "title": "南向资金追踪｜本周净买入约74亿港元 加仓Minimax流出阿里及美团",
-      "firstSeenAt": "2026-09-02T12:54:46.541Z",
-      "lastSeenAt": "2026-09-04T12:49:05.643Z",
-      "primaryItemId": "news_e1c7144877ef",
-      "evidenceItemIds": [
-        "news_0baa49a81457",
-        "news_d90d6cf93293",
-        "news_2c4c1db96d8c",
-        "news_04084d175bb4",
-        "news_e1c7144877ef"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_34983afc288d",
-      "title": "英飞特：控股股东及实控人拟减持不超2.98%股份",
-      "firstSeenAt": "2026-09-02T12:54:46.541Z",
-      "lastSeenAt": "2026-09-04T12:49:05.643Z",
-      "primaryItemId": "news_71fc670b2467",
-      "evidenceItemIds": [
-        "news_19504741ccc3",
-        "news_78c92efe7a36",
-        "news_78f991f12999",
-        "news_fd038c0d2c69",
-        "news_71fc670b2467"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_83c8fca3d6b2",
-      "title": "【VIP日报】农业板块表现活跃 栏目对比历史行情解读行业表现 提及相关公司逆势上涨",
-      "firstSeenAt": "2026-09-02T12:54:46.541Z",
-      "lastSeenAt": "2026-09-04T12:49:05.643Z",
-      "primaryItemId": "news_bec72fb1d44b",
-      "evidenceItemIds": [
-        "news_25f5e778f2df",
-        "news_5f77938060ba",
-        "news_bec72fb1d44b"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_32c44ce79be2",
-      "title": "美国8月非农新增就业16.2万人，预期仅5.5万人，失业率维持在4.1%不变",
-      "firstSeenAt": "2026-09-04T12:49:05.643Z",
-      "lastSeenAt": "2026-09-04T12:49:05.643Z",
-      "primaryItemId": "news_79ac5fb5b93b",
-      "evidenceItemIds": [
-        "news_79ac5fb5b93b",
-        "news_0d202a8ac212",
-        "news_bea2a7547e3d",
-        "news_d3150920c7d3"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_e03d0a3054cc",
-      "title": "【数据看盘】多路资金联手抢筹福建人气股，五家机构净卖出浪潮信息7.74亿元",
-      "firstSeenAt": "2026-09-04T12:49:05.643Z",
-      "lastSeenAt": "2026-09-04T12:49:05.643Z",
-      "primaryItemId": "news_7762a75668b5",
-      "evidenceItemIds": [
-        "news_7762a75668b5",
-        "news_bc1509bdaae9"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_32967e3730b8",
-      "title": "美股大型科技股盘前多数上涨，特斯拉涨超1%",
-      "firstSeenAt": "2026-08-03T15:23:32.854Z",
-      "lastSeenAt": "2026-09-04T08:58:23.004Z",
-      "primaryItemId": "news_d19121fe4fe8",
-      "evidenceItemIds": [
-        "news_8394862df655",
-        "news_b8561adf7643",
-        "news_8b0ae127cd97",
-        "news_69866ab410e2",
-        "news_df9f7f47921a",
-        "news_d3b1a6fd627e",
-        "news_42ca90256576",
-        "news_04a959a73a68",
-        "news_92257b4a2373",
-        "news_9078b6a91c76",
-        "news_47c824b8354b",
-        "news_a1473e93f9d4",
-        "news_d9743ef9e935",
-        "news_734d74c93284",
-        "news_7a77b49fc9c2",
-        "news_83e7d960009d",
-        "news_05bd36ad0d77",
-        "news_045068d1edcf",
-        "news_d5c174d9c938",
-        "news_5d452c2d5e52",
-        "news_09ef190df7fd",
-        "news_e65153aa735d",
-        "news_0eb4388c732a",
-        "news_a68f0b461e3d",
-        "news_7a48b08815f8",
-        "news_32f9f080ed6c",
-        "news_cdf64bc47c62",
-        "news_22afba3862a0",
-        "news_8657bacfb96d",
-        "news_57eab53dfe2f",
-        "news_190e072a9adf",
-        "news_ce8d9d35ffad",
-        "news_07c8e81e210f",
-        "news_145b0fb3a96a",
-        "news_89516f7e191b",
-        "news_41550d725195",
-        "news_597d0c98d522",
-        "news_d0ecfdcf2b2f",
-        "news_946e33737a7f",
-        "news_b886bc768085",
-        "news_230bf8cff437",
-        "news_5ce2dbb0fd9b",
-        "news_78eb330bde54",
-        "news_a64a51b6307d",
-        "news_ff3780319764",
-        "news_088cb0dd2781",
-        "news_78745d1dc8d3",
-        "news_d19121fe4fe8"
       ],
       "status": "developing"
     },
@@ -517,30 +599,6 @@
         "news_2c3fa09c34c0",
         "news_095c235df2cf",
         "news_75c3fd425d61"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_a678dcb442aa",
-      "title": "葡萄牙股市收低；截至收盘PSI下跌0.04%",
-      "firstSeenAt": "2026-09-01T16:50:22.105Z",
-      "lastSeenAt": "2026-09-04T08:58:23.004Z",
-      "primaryItemId": "news_aed5d32e17ed",
-      "evidenceItemIds": [
-        "news_023dcd0d28ad",
-        "news_22038d02d938",
-        "news_47d9a1ccf7bb",
-        "news_5811f57d353a",
-        "news_7e9658008a2e",
-        "news_38b7bfcc4b83",
-        "news_10d178482868",
-        "news_0f952ebfed92",
-        "news_180bac2b42ba",
-        "news_d4e7ddbb143a",
-        "news_8c3edbf23e13",
-        "news_f0c7fe40fe6a",
-        "news_922b608e8c83",
-        "news_aed5d32e17ed"
       ],
       "status": "developing"
     },

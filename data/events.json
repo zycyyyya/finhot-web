@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-09-04T04:43:33.974Z",
+  "generatedAt": "2026-09-04T08:58:23.004Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -8,7 +8,7 @@
       "eventId": "event_32967e3730b8",
       "title": "美股大型科技股盘前多数上涨，特斯拉涨超1%",
       "firstSeenAt": "2026-08-03T15:23:32.854Z",
-      "lastSeenAt": "2026-09-04T04:43:33.974Z",
+      "lastSeenAt": "2026-09-04T08:58:23.004Z",
       "primaryItemId": "news_d19121fe4fe8",
       "evidenceItemIds": [
         "news_8394862df655",
@@ -63,25 +63,11 @@
       "status": "developing"
     },
     {
-      "eventId": "event_988cc0ebec36",
-      "title": "瑞士8月通胀率升至0.8%，能源成本上涨为主因",
-      "firstSeenAt": "2026-09-01T13:34:49.779Z",
-      "lastSeenAt": "2026-09-04T04:43:33.974Z",
-      "primaryItemId": "news_85993bdc33eb",
-      "evidenceItemIds": [
-        "news_d7a0bc289f70",
-        "news_4c2c73ba3326",
-        "news_27e9b2e59205",
-        "news_85993bdc33eb"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_0737eac2cabb",
-      "title": "连板股追踪丨A股今日共46只个股涨停 这只零售股5连板",
+      "title": "连板股追踪丨A股今日共42只个股涨停 龙版传媒5连板",
       "firstSeenAt": "2026-07-31T02:43:30.494Z",
-      "lastSeenAt": "2026-09-04T04:43:33.974Z",
-      "primaryItemId": "news_13504293c80d",
+      "lastSeenAt": "2026-09-04T08:58:23.004Z",
+      "primaryItemId": "news_f57742543118",
       "evidenceItemIds": [
         "news_cf2b97a75d61",
         "news_6b2b1bbc6628",
@@ -109,7 +95,379 @@
         "news_4ef716030320",
         "news_c67366d8076f",
         "news_37541f809c24",
-        "news_13504293c80d"
+        "news_13504293c80d",
+        "news_f57742543118"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_10f4a071fb52",
+      "title": "【市场动态】美联储理事沃勒称如果通胀形势改善 倾向于维持利率不变",
+      "firstSeenAt": "2026-09-03T12:55:55.174Z",
+      "lastSeenAt": "2026-09-04T08:58:23.004Z",
+      "primaryItemId": "news_dc99384913ed",
+      "evidenceItemIds": [
+        "news_39bc3d21f13c",
+        "news_649a5ec48687",
+        "news_dc99384913ed",
+        "news_b346c115f50d"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_7aaa6b5b3da9",
+      "title": "英伟达同意以130亿美元收购Hugging Face 加码开放权重模型",
+      "firstSeenAt": "2026-09-03T12:55:55.174Z",
+      "lastSeenAt": "2026-09-04T08:58:23.004Z",
+      "primaryItemId": "news_3d329caebc2e",
+      "evidenceItemIds": [
+        "news_6a130cf8940d",
+        "news_d315f9c51ea1",
+        "news_a99f5482a5e9",
+        "news_3351574f9022",
+        "news_d96f5567848b",
+        "news_e703116af920",
+        "news_49944e021934",
+        "news_64c4518efdf8",
+        "news_abdd2cb7f682",
+        "news_3d329caebc2e"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_d80209477dbe",
+      "title": "上海“十五五”国际贸易中心建设全面发力：分层构建大宗“上海价格”",
+      "firstSeenAt": "2026-09-03T12:55:55.174Z",
+      "lastSeenAt": "2026-09-04T08:58:23.004Z",
+      "primaryItemId": "news_ca527783c8ac",
+      "evidenceItemIds": [
+        "news_2a1061503c47",
+        "news_d8c3cfc4bf6d",
+        "news_ca527783c8ac"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_88d37f569468",
+      "title": "西班牙股市上涨；截至收盘西班牙IBEX35指数上涨1.12%",
+      "firstSeenAt": "2026-08-27T22:27:22.891Z",
+      "lastSeenAt": "2026-09-04T08:58:23.004Z",
+      "primaryItemId": "news_2c3fa09c34c0",
+      "evidenceItemIds": [
+        "news_1dcdfda18973",
+        "news_7c91b51b1eef",
+        "news_18d78b1ded1d",
+        "news_e9ee9b2bc410",
+        "news_ef8e83ac503e",
+        "news_50072042a675",
+        "news_593594203e7b",
+        "news_e43cf75233f0",
+        "news_2c3fa09c34c0",
+        "news_095c235df2cf",
+        "news_75c3fd425d61"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_a678dcb442aa",
+      "title": "葡萄牙股市收低；截至收盘PSI下跌0.04%",
+      "firstSeenAt": "2026-09-01T16:50:22.105Z",
+      "lastSeenAt": "2026-09-04T08:58:23.004Z",
+      "primaryItemId": "news_aed5d32e17ed",
+      "evidenceItemIds": [
+        "news_023dcd0d28ad",
+        "news_22038d02d938",
+        "news_47d9a1ccf7bb",
+        "news_5811f57d353a",
+        "news_7e9658008a2e",
+        "news_38b7bfcc4b83",
+        "news_10d178482868",
+        "news_0f952ebfed92",
+        "news_180bac2b42ba",
+        "news_d4e7ddbb143a",
+        "news_8c3edbf23e13",
+        "news_f0c7fe40fe6a",
+        "news_922b608e8c83",
+        "news_aed5d32e17ed"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_545729803ba9",
+      "title": "美国8月ISM非制造业指数 55.4，预期 54.3，前值 54.1",
+      "firstSeenAt": "2026-09-03T16:33:06.368Z",
+      "lastSeenAt": "2026-09-04T08:58:23.004Z",
+      "primaryItemId": "news_b45c70c32c59",
+      "evidenceItemIds": [
+        "news_b45c70c32c59",
+        "news_384714520b4b"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_529af3584dc2",
+      "title": "恒指午间休盘涨2.08%，恒生科技指数涨2.51%",
+      "firstSeenAt": "2026-07-31T02:43:30.494Z",
+      "lastSeenAt": "2026-09-04T08:58:23.004Z",
+      "primaryItemId": "news_7d0a8e877726",
+      "evidenceItemIds": [
+        "news_e8212d1a7d69",
+        "news_663f72230e2f",
+        "news_fd236545ab8d",
+        "news_da90b8ba791c",
+        "news_663b8633b560",
+        "news_163f09356678",
+        "news_90df26a11225",
+        "news_0105048e0696",
+        "news_100bf371b2a8",
+        "news_c6451e15adf9",
+        "news_5a5f5ff7ad17",
+        "news_084cbebc72c0",
+        "news_3cba95f4258f",
+        "news_d1cbb73f5840",
+        "news_12443196ab76",
+        "news_8f873e6a8d3c",
+        "news_a93f9e4799d9",
+        "news_50f4ea76994f",
+        "news_e247eea117e1",
+        "news_7c7da5efef24",
+        "news_52e2991daef2",
+        "news_dae0295ce191",
+        "news_a816974df43d",
+        "news_c1858bceeb50",
+        "news_3be203f2d778",
+        "news_21ee0b9fb11f",
+        "news_4a0d3d6b1b80",
+        "news_9ad084c58f34",
+        "news_8e56de0598da",
+        "news_9329393092b2",
+        "news_db6f05e3a62a",
+        "news_a67efbf791ea",
+        "news_3fbffa58cc34",
+        "news_4fd39e2b0bc4",
+        "news_da40c026f648",
+        "news_526f8c1f6ee0",
+        "news_f24a647a25f0",
+        "news_a8e3b50883ac",
+        "news_36c33b7efa7a",
+        "news_3ce688620f6b",
+        "news_b15f29635579",
+        "news_d500b1d3ebf0",
+        "news_7a3ba44ec820",
+        "news_5032b1b1e270",
+        "news_dec96877aed6",
+        "news_7e76aa9dc564",
+        "news_a7841e1f7444",
+        "news_6b270da68dc7",
+        "news_418b1f72d789",
+        "news_7d0a8e877726"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_8c89c31f3b3c",
+      "title": "A股四大指数集体高开，市场逾4000股上涨",
+      "firstSeenAt": "2026-08-28T03:55:53.061Z",
+      "lastSeenAt": "2026-09-04T08:58:23.004Z",
+      "primaryItemId": "news_68b3cfe50539",
+      "evidenceItemIds": [
+        "news_ca24cdb0d0cb",
+        "news_3d92b72d8089",
+        "news_c966880a1cdb",
+        "news_4087f1c4d50b",
+        "news_7a4d049cc2cc",
+        "news_4582cc170000",
+        "news_30df0fd1c619",
+        "news_ae4c9b07b52b",
+        "news_5881c4f4b0b9",
+        "news_3bf3af0c5f16",
+        "news_977e64d0ba48",
+        "news_7c0d4ace8ae7",
+        "news_68b3cfe50539",
+        "news_52aa5224525d"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_01118fb5b195",
+      "title": "财联社汽车早报【9月4日】",
+      "firstSeenAt": "2026-08-01T03:54:06.184Z",
+      "lastSeenAt": "2026-09-04T08:58:23.004Z",
+      "primaryItemId": "news_6e461baa1396",
+      "evidenceItemIds": [
+        "news_11bf098d57d9",
+        "news_352d957a2426",
+        "news_7a9c03d3a9e0",
+        "news_141a587e8be2",
+        "news_e93b6f66d076",
+        "news_ac42446fc261",
+        "news_e546a87cd0a7",
+        "news_6734c9c4e9b5",
+        "news_8d456e96708b",
+        "news_13fb304edc7b",
+        "news_76d4d9b04b45",
+        "news_39c037720137",
+        "news_d130ba79d897",
+        "news_7630df780cff",
+        "news_f4d0c83073b7",
+        "news_6e461baa1396",
+        "news_0d7b087f2c35"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_74158378db4b",
+      "title": "今日开盘：两市双双高开 沪指涨幅0.34%",
+      "firstSeenAt": "2026-08-06T03:43:23.319Z",
+      "lastSeenAt": "2026-09-04T08:58:23.004Z",
+      "primaryItemId": "news_da9ad91cb33a",
+      "evidenceItemIds": [
+        "news_5c70752541f1",
+        "news_4e57f6baed6e",
+        "news_e9e2a1fc2551",
+        "news_a1671de823c1",
+        "news_7df695aa3d10",
+        "news_fd96e76babcb",
+        "news_002a5afcff3b",
+        "news_da9ad91cb33a",
+        "news_df51b1764e08"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_9499e7f0337d",
+      "title": "能源内参｜促进中小企业发展“十五五”规划发布；欧洲天然气期货价格上涨至2023年来最高水平",
+      "firstSeenAt": "2026-09-04T04:43:33.974Z",
+      "lastSeenAt": "2026-09-04T08:58:23.004Z",
+      "primaryItemId": "news_4f6143707429",
+      "evidenceItemIds": [
+        "news_4f6143707429",
+        "news_d6d089879f09"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_5fa730bb0ea3",
+      "title": "卡塔尔不可抗力延至11月，亚洲LNG现货价格飙升至2022年来最高",
+      "firstSeenAt": "2026-09-04T04:43:33.974Z",
+      "lastSeenAt": "2026-09-04T08:58:23.004Z",
+      "primaryItemId": "news_8b31d6400694",
+      "evidenceItemIds": [
+        "news_8b31d6400694",
+        "news_941172d56939"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_ce5e0cbed733",
+      "title": "港股评级汇总：招银国际维持中国太保买入评级",
+      "firstSeenAt": "2026-08-10T09:54:06.980Z",
+      "lastSeenAt": "2026-09-04T08:58:23.004Z",
+      "primaryItemId": "news_663d397b7ae3",
+      "evidenceItemIds": [
+        "news_ff8ada5d229d",
+        "news_038fffd08eb2",
+        "news_1e24c2798e8a",
+        "news_bb4bd2fad08a",
+        "news_ed66993623e9",
+        "news_8121a51025df",
+        "news_31f70992e4d6",
+        "news_7d319f1977ad",
+        "news_ce5ef69b3645",
+        "news_8858d68446e1",
+        "news_e65d8766e53e",
+        "news_ff0c0951c8a4",
+        "news_53200861da44",
+        "news_2abf9cd536fd",
+        "news_1645ce94fd72",
+        "news_663d397b7ae3"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_d30d5c3e8ab8",
+      "title": "江波龙：H股发售价已厘定为每股236港元",
+      "firstSeenAt": "2026-09-04T08:58:23.004Z",
+      "lastSeenAt": "2026-09-04T08:58:23.004Z",
+      "primaryItemId": "news_77eff92994ca",
+      "evidenceItemIds": [
+        "news_77eff92994ca",
+        "news_1cafc2942afd"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_3ddab6f61df0",
+      "title": "美股异动丨财报失速！Lululemon盘前大跌超17%",
+      "firstSeenAt": "2026-09-04T08:58:23.004Z",
+      "lastSeenAt": "2026-09-04T08:58:23.004Z",
+      "primaryItemId": "news_4893c287a6ef",
+      "evidenceItemIds": [
+        "news_4893c287a6ef",
+        "news_9edf95b115a7"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_c9d05f32171c",
+      "title": "800亿美元！全球最大主权基金拟大幅减持美国国债",
+      "firstSeenAt": "2026-09-04T08:58:23.004Z",
+      "lastSeenAt": "2026-09-04T08:58:23.004Z",
+      "primaryItemId": "news_049941953f23",
+      "evidenceItemIds": [
+        "news_049941953f23",
+        "news_30c604920c1e"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_b6dbacbbe116",
+      "title": "资金驰援算力，8只创业板算力ETF正热卖",
+      "firstSeenAt": "2026-09-04T08:58:23.004Z",
+      "lastSeenAt": "2026-09-04T08:58:23.004Z",
+      "primaryItemId": "news_bdce3d21d89f",
+      "evidenceItemIds": [
+        "news_bdce3d21d89f",
+        "news_7e9f314d350b"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_a0dba16dee15",
+      "title": "美国零售柴油价格飙至四年高位，全球供应受扰加剧通胀担忧",
+      "firstSeenAt": "2026-09-04T08:58:23.004Z",
+      "lastSeenAt": "2026-09-04T08:58:23.004Z",
+      "primaryItemId": "news_f8efde7217af",
+      "evidenceItemIds": [
+        "news_f8efde7217af",
+        "news_61c039985356",
+        "news_f5adc3a728a4"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_0c9f76072da5",
+      "title": "欧元区建筑业活动8月份降幅加速，新订单创四个月最大跌幅",
+      "firstSeenAt": "2026-09-04T08:58:23.004Z",
+      "lastSeenAt": "2026-09-04T08:58:23.004Z",
+      "primaryItemId": "news_aa101b11de09",
+      "evidenceItemIds": [
+        "news_aa101b11de09",
+        "news_8f2288b17a7e"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_988cc0ebec36",
+      "title": "瑞士8月通胀率升至0.8%，能源成本上涨为主因",
+      "firstSeenAt": "2026-09-01T13:34:49.779Z",
+      "lastSeenAt": "2026-09-04T04:43:33.974Z",
+      "primaryItemId": "news_85993bdc33eb",
+      "evidenceItemIds": [
+        "news_d7a0bc289f70",
+        "news_4c2c73ba3326",
+        "news_27e9b2e59205",
+        "news_85993bdc33eb"
       ],
       "status": "developing"
     },
@@ -248,37 +606,6 @@
       "status": "developing"
     },
     {
-      "eventId": "event_10f4a071fb52",
-      "title": "美联储理事沃勒：如果通胀数据偏热，我会考虑支持加息",
-      "firstSeenAt": "2026-09-03T12:55:55.174Z",
-      "lastSeenAt": "2026-09-04T04:43:33.974Z",
-      "primaryItemId": "news_39bc3d21f13c",
-      "evidenceItemIds": [
-        "news_39bc3d21f13c",
-        "news_649a5ec48687",
-        "news_dc99384913ed",
-        "news_b346c115f50d"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_7aaa6b5b3da9",
-      "title": "英伟达拟以129.3亿美元收购Hugging Face",
-      "firstSeenAt": "2026-09-03T12:55:55.174Z",
-      "lastSeenAt": "2026-09-04T04:43:33.974Z",
-      "primaryItemId": "news_6a130cf8940d",
-      "evidenceItemIds": [
-        "news_6a130cf8940d",
-        "news_d315f9c51ea1",
-        "news_a99f5482a5e9",
-        "news_3351574f9022",
-        "news_d96f5567848b",
-        "news_e703116af920",
-        "news_49944e021934"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_5c613033cb0f",
       "title": "20657个！AI芯片龙头中签号出炉|盘后公告集锦",
       "firstSeenAt": "2026-09-03T12:55:55.174Z",
@@ -288,19 +615,6 @@
         "news_1d0501274afb",
         "news_4476487c301b",
         "news_6cc8db3168c6"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_d80209477dbe",
-      "title": "上海“十五五”国际贸易中心建设全面发力：分层构建大宗“上海价格”",
-      "firstSeenAt": "2026-09-03T12:55:55.174Z",
-      "lastSeenAt": "2026-09-04T04:43:33.974Z",
-      "primaryItemId": "news_ca527783c8ac",
-      "evidenceItemIds": [
-        "news_2a1061503c47",
-        "news_d8c3cfc4bf6d",
-        "news_ca527783c8ac"
       ],
       "status": "developing"
     },
@@ -317,205 +631,6 @@
       "status": "developing"
     },
     {
-      "eventId": "event_88d37f569468",
-      "title": "西班牙股市上涨；截至收盘西班牙IBEX35指数上涨1.12%",
-      "firstSeenAt": "2026-08-27T22:27:22.891Z",
-      "lastSeenAt": "2026-09-04T04:43:33.974Z",
-      "primaryItemId": "news_2c3fa09c34c0",
-      "evidenceItemIds": [
-        "news_1dcdfda18973",
-        "news_7c91b51b1eef",
-        "news_18d78b1ded1d",
-        "news_e9ee9b2bc410",
-        "news_ef8e83ac503e",
-        "news_50072042a675",
-        "news_593594203e7b",
-        "news_e43cf75233f0",
-        "news_2c3fa09c34c0",
-        "news_095c235df2cf",
-        "news_75c3fd425d61"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_a678dcb442aa",
-      "title": "葡萄牙股市收低；截至收盘PSI下跌0.04%",
-      "firstSeenAt": "2026-09-01T16:50:22.105Z",
-      "lastSeenAt": "2026-09-04T04:43:33.974Z",
-      "primaryItemId": "news_aed5d32e17ed",
-      "evidenceItemIds": [
-        "news_023dcd0d28ad",
-        "news_22038d02d938",
-        "news_47d9a1ccf7bb",
-        "news_5811f57d353a",
-        "news_7e9658008a2e",
-        "news_38b7bfcc4b83",
-        "news_10d178482868",
-        "news_0f952ebfed92",
-        "news_180bac2b42ba",
-        "news_d4e7ddbb143a",
-        "news_8c3edbf23e13",
-        "news_f0c7fe40fe6a",
-        "news_922b608e8c83",
-        "news_aed5d32e17ed"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_545729803ba9",
-      "title": "美国8月ISM非制造业指数 55.4，预期 54.3，前值 54.1",
-      "firstSeenAt": "2026-09-03T16:33:06.368Z",
-      "lastSeenAt": "2026-09-04T04:43:33.974Z",
-      "primaryItemId": "news_b45c70c32c59",
-      "evidenceItemIds": [
-        "news_b45c70c32c59",
-        "news_384714520b4b"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_529af3584dc2",
-      "title": "恒指午间休盘涨2.08%，恒生科技指数涨2.51%",
-      "firstSeenAt": "2026-07-31T02:43:30.494Z",
-      "lastSeenAt": "2026-09-04T04:43:33.974Z",
-      "primaryItemId": "news_7d0a8e877726",
-      "evidenceItemIds": [
-        "news_e8212d1a7d69",
-        "news_663f72230e2f",
-        "news_fd236545ab8d",
-        "news_da90b8ba791c",
-        "news_663b8633b560",
-        "news_163f09356678",
-        "news_90df26a11225",
-        "news_0105048e0696",
-        "news_100bf371b2a8",
-        "news_c6451e15adf9",
-        "news_5a5f5ff7ad17",
-        "news_084cbebc72c0",
-        "news_3cba95f4258f",
-        "news_d1cbb73f5840",
-        "news_12443196ab76",
-        "news_8f873e6a8d3c",
-        "news_a93f9e4799d9",
-        "news_50f4ea76994f",
-        "news_e247eea117e1",
-        "news_7c7da5efef24",
-        "news_52e2991daef2",
-        "news_dae0295ce191",
-        "news_a816974df43d",
-        "news_c1858bceeb50",
-        "news_3be203f2d778",
-        "news_21ee0b9fb11f",
-        "news_4a0d3d6b1b80",
-        "news_9ad084c58f34",
-        "news_8e56de0598da",
-        "news_9329393092b2",
-        "news_db6f05e3a62a",
-        "news_a67efbf791ea",
-        "news_3fbffa58cc34",
-        "news_4fd39e2b0bc4",
-        "news_da40c026f648",
-        "news_526f8c1f6ee0",
-        "news_f24a647a25f0",
-        "news_a8e3b50883ac",
-        "news_36c33b7efa7a",
-        "news_3ce688620f6b",
-        "news_b15f29635579",
-        "news_d500b1d3ebf0",
-        "news_7a3ba44ec820",
-        "news_5032b1b1e270",
-        "news_dec96877aed6",
-        "news_7e76aa9dc564",
-        "news_a7841e1f7444",
-        "news_6b270da68dc7",
-        "news_418b1f72d789",
-        "news_7d0a8e877726"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_8c89c31f3b3c",
-      "title": "A股三大指数午间休盘集体上涨，敦煌种业涨停",
-      "firstSeenAt": "2026-08-28T03:55:53.061Z",
-      "lastSeenAt": "2026-09-04T04:43:33.974Z",
-      "primaryItemId": "news_52aa5224525d",
-      "evidenceItemIds": [
-        "news_ca24cdb0d0cb",
-        "news_3d92b72d8089",
-        "news_c966880a1cdb",
-        "news_4087f1c4d50b",
-        "news_7a4d049cc2cc",
-        "news_4582cc170000",
-        "news_30df0fd1c619",
-        "news_ae4c9b07b52b",
-        "news_5881c4f4b0b9",
-        "news_3bf3af0c5f16",
-        "news_977e64d0ba48",
-        "news_7c0d4ace8ae7",
-        "news_68b3cfe50539",
-        "news_52aa5224525d"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_01118fb5b195",
-      "title": "财联社汽车早报【9月4日】",
-      "firstSeenAt": "2026-08-01T03:54:06.184Z",
-      "lastSeenAt": "2026-09-04T04:43:33.974Z",
-      "primaryItemId": "news_6e461baa1396",
-      "evidenceItemIds": [
-        "news_11bf098d57d9",
-        "news_352d957a2426",
-        "news_7a9c03d3a9e0",
-        "news_141a587e8be2",
-        "news_e93b6f66d076",
-        "news_ac42446fc261",
-        "news_e546a87cd0a7",
-        "news_6734c9c4e9b5",
-        "news_8d456e96708b",
-        "news_13fb304edc7b",
-        "news_76d4d9b04b45",
-        "news_39c037720137",
-        "news_d130ba79d897",
-        "news_7630df780cff",
-        "news_f4d0c83073b7",
-        "news_6e461baa1396",
-        "news_0d7b087f2c35"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_74158378db4b",
-      "title": "今日开盘：两市双双高开 沪指涨幅0.34%",
-      "firstSeenAt": "2026-08-06T03:43:23.319Z",
-      "lastSeenAt": "2026-09-04T04:43:33.974Z",
-      "primaryItemId": "news_da9ad91cb33a",
-      "evidenceItemIds": [
-        "news_5c70752541f1",
-        "news_4e57f6baed6e",
-        "news_e9e2a1fc2551",
-        "news_a1671de823c1",
-        "news_7df695aa3d10",
-        "news_fd96e76babcb",
-        "news_002a5afcff3b",
-        "news_da9ad91cb33a",
-        "news_df51b1764e08"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_9499e7f0337d",
-      "title": "能源内参｜促进中小企业发展“十五五”规划发布；欧洲天然气期货价格上涨至2023年来最高水平",
-      "firstSeenAt": "2026-09-04T04:43:33.974Z",
-      "lastSeenAt": "2026-09-04T04:43:33.974Z",
-      "primaryItemId": "news_4f6143707429",
-      "evidenceItemIds": [
-        "news_4f6143707429",
-        "news_d6d089879f09"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_d2be6da2c383",
       "title": "K型分化？ i型割裂？",
       "firstSeenAt": "2026-09-04T04:43:33.974Z",
@@ -524,18 +639,6 @@
       "evidenceItemIds": [
         "news_3a91d02b16fc",
         "news_5569842cd589"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_5fa730bb0ea3",
-      "title": "卡塔尔不可抗力延至11月，亚洲LNG现货价格飙升至2022年来最高",
-      "firstSeenAt": "2026-09-04T04:43:33.974Z",
-      "lastSeenAt": "2026-09-04T04:43:33.974Z",
-      "primaryItemId": "news_8b31d6400694",
-      "evidenceItemIds": [
-        "news_8b31d6400694",
-        "news_941172d56939"
       ],
       "status": "developing"
     },
@@ -555,31 +658,6 @@
         "news_5cfd35a06c9c",
         "news_8e00bc247cb9",
         "news_d14ba4801379"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_ce5e0cbed733",
-      "title": "港股评级汇总：交银国际维持凯莱英买入评级",
-      "firstSeenAt": "2026-08-10T09:54:06.980Z",
-      "lastSeenAt": "2026-09-03T16:33:06.368Z",
-      "primaryItemId": "news_1645ce94fd72",
-      "evidenceItemIds": [
-        "news_ff8ada5d229d",
-        "news_038fffd08eb2",
-        "news_1e24c2798e8a",
-        "news_bb4bd2fad08a",
-        "news_ed66993623e9",
-        "news_8121a51025df",
-        "news_31f70992e4d6",
-        "news_7d319f1977ad",
-        "news_ce5ef69b3645",
-        "news_8858d68446e1",
-        "news_e65d8766e53e",
-        "news_ff0c0951c8a4",
-        "news_53200861da44",
-        "news_2abf9cd536fd",
-        "news_1645ce94fd72"
       ],
       "status": "developing"
     },

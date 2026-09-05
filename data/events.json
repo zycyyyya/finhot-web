@@ -1,15 +1,15 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-09-05T04:37:48.705Z",
+  "generatedAt": "2026-09-05T08:24:15.651Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
       "eventId": "event_7aaa6b5b3da9",
-      "title": "英伟达129亿美元收购Hugging Face，开源社区难逃巨头收购？",
+      "title": "AI进化速递丨OpenAI发布GPT-6 Astra模型",
       "firstSeenAt": "2026-09-03T12:55:55.174Z",
-      "lastSeenAt": "2026-09-05T04:37:48.705Z",
-      "primaryItemId": "news_15a9ed30bd8a",
+      "lastSeenAt": "2026-09-05T08:24:15.651Z",
+      "primaryItemId": "news_34fd11732de6",
       "evidenceItemIds": [
         "news_6a130cf8940d",
         "news_d315f9c51ea1",
@@ -28,22 +28,10 @@
       "status": "developing"
     },
     {
-      "eventId": "event_d30d5c3e8ab8",
-      "title": "江波龙：H股发售价已厘定为每股236港元",
-      "firstSeenAt": "2026-09-04T08:58:23.004Z",
-      "lastSeenAt": "2026-09-05T04:37:48.705Z",
-      "primaryItemId": "news_77eff92994ca",
-      "evidenceItemIds": [
-        "news_77eff92994ca",
-        "news_1cafc2942afd"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_3ddab6f61df0",
       "title": "美股异动 | Q2核心产品瑜伽裤销量骤降20% Lululemon Athletica(LULU.US)跌超18%",
       "firstSeenAt": "2026-09-04T08:58:23.004Z",
-      "lastSeenAt": "2026-09-05T04:37:48.705Z",
+      "lastSeenAt": "2026-09-05T08:24:15.651Z",
       "primaryItemId": "news_0e771e1b8ee4",
       "evidenceItemIds": [
         "news_4893c287a6ef",
@@ -56,7 +44,7 @@
       "eventId": "event_a0dba16dee15",
       "title": "刷新2022年纪录！美国柴油价格创历史新高，特朗普中选“能源牌”打不下去了？",
       "firstSeenAt": "2026-09-04T08:58:23.004Z",
-      "lastSeenAt": "2026-09-05T04:37:48.705Z",
+      "lastSeenAt": "2026-09-05T08:24:15.651Z",
       "primaryItemId": "news_6e82ebe66ac4",
       "evidenceItemIds": [
         "news_f8efde7217af",
@@ -70,11 +58,232 @@
       "eventId": "event_0c9f76072da5",
       "title": "欧元区建筑业活动8月份降幅加速，新订单创四个月最大跌幅",
       "firstSeenAt": "2026-09-04T08:58:23.004Z",
-      "lastSeenAt": "2026-09-05T04:37:48.705Z",
+      "lastSeenAt": "2026-09-05T08:24:15.651Z",
       "primaryItemId": "news_aa101b11de09",
       "evidenceItemIds": [
         "news_aa101b11de09",
         "news_8f2288b17a7e"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_32c44ce79be2",
+      "title": "美国8月非农就业增加16.2万人，失业率维持4.1%",
+      "firstSeenAt": "2026-09-04T12:49:05.643Z",
+      "lastSeenAt": "2026-09-05T08:24:15.651Z",
+      "primaryItemId": "news_bea2a7547e3d",
+      "evidenceItemIds": [
+        "news_79ac5fb5b93b",
+        "news_0d202a8ac212",
+        "news_bea2a7547e3d",
+        "news_d3150920c7d3",
+        "news_514dad6273a7"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_32967e3730b8",
+      "title": "热门中概股美股盘前多数上涨，百度涨超2%",
+      "firstSeenAt": "2026-08-03T15:23:32.854Z",
+      "lastSeenAt": "2026-09-05T08:24:15.651Z",
+      "primaryItemId": "news_419cd90bb74a",
+      "evidenceItemIds": [
+        "news_b8561adf7643",
+        "news_8b0ae127cd97",
+        "news_69866ab410e2",
+        "news_df9f7f47921a",
+        "news_d3b1a6fd627e",
+        "news_42ca90256576",
+        "news_04a959a73a68",
+        "news_92257b4a2373",
+        "news_9078b6a91c76",
+        "news_47c824b8354b",
+        "news_a1473e93f9d4",
+        "news_d9743ef9e935",
+        "news_734d74c93284",
+        "news_7a77b49fc9c2",
+        "news_83e7d960009d",
+        "news_05bd36ad0d77",
+        "news_045068d1edcf",
+        "news_d5c174d9c938",
+        "news_5d452c2d5e52",
+        "news_09ef190df7fd",
+        "news_e65153aa735d",
+        "news_0eb4388c732a",
+        "news_a68f0b461e3d",
+        "news_7a48b08815f8",
+        "news_32f9f080ed6c",
+        "news_cdf64bc47c62",
+        "news_22afba3862a0",
+        "news_8657bacfb96d",
+        "news_57eab53dfe2f",
+        "news_190e072a9adf",
+        "news_ce8d9d35ffad",
+        "news_07c8e81e210f",
+        "news_145b0fb3a96a",
+        "news_89516f7e191b",
+        "news_41550d725195",
+        "news_597d0c98d522",
+        "news_d0ecfdcf2b2f",
+        "news_946e33737a7f",
+        "news_b886bc768085",
+        "news_230bf8cff437",
+        "news_5ce2dbb0fd9b",
+        "news_78eb330bde54",
+        "news_a64a51b6307d",
+        "news_ff3780319764",
+        "news_088cb0dd2781",
+        "news_78745d1dc8d3",
+        "news_d19121fe4fe8",
+        "news_419cd90bb74a",
+        "news_b03943a69317",
+        "news_29f89f0e4f08"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_a678dcb442aa",
+      "title": "瑞典股市上涨；截至收盘瑞典OMX斯德哥尔摩30指数上涨0.18%",
+      "firstSeenAt": "2026-09-01T16:50:22.105Z",
+      "lastSeenAt": "2026-09-05T08:24:15.651Z",
+      "primaryItemId": "news_b01264e386c3",
+      "evidenceItemIds": [
+        "news_023dcd0d28ad",
+        "news_22038d02d938",
+        "news_47d9a1ccf7bb",
+        "news_5811f57d353a",
+        "news_7e9658008a2e",
+        "news_38b7bfcc4b83",
+        "news_10d178482868",
+        "news_0f952ebfed92",
+        "news_180bac2b42ba",
+        "news_d4e7ddbb143a",
+        "news_8c3edbf23e13",
+        "news_f0c7fe40fe6a",
+        "news_922b608e8c83",
+        "news_aed5d32e17ed",
+        "news_6800b6e7a3ca",
+        "news_8605edb299d9",
+        "news_878225efce45",
+        "news_b01264e386c3",
+        "news_65499b7ad1a5",
+        "news_63ba88008a33",
+        "news_f1bc9cdcabdf"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_5b29bdba5946",
+      "title": "特斯拉Robotaxi刚在美落地，近1000辆Cybercab遭安全监管调查",
+      "firstSeenAt": "2026-09-04T16:28:41.802Z",
+      "lastSeenAt": "2026-09-05T08:24:15.651Z",
+      "primaryItemId": "news_8458e4f5454c",
+      "evidenceItemIds": [
+        "news_8458e4f5454c",
+        "news_da1c32ea8f1e"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_b1eef1e8191c",
+      "title": "Nick Timiraos：8月就业报告消除美联储加息的一大阻碍",
+      "firstSeenAt": "2026-09-04T16:28:41.802Z",
+      "lastSeenAt": "2026-09-05T08:24:15.651Z",
+      "primaryItemId": "news_2bea4085c207",
+      "evidenceItemIds": [
+        "news_2bea4085c207",
+        "news_04eb4ccc604d"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_205da1a6b5bb",
+      "title": "养老产品品类有望扩容！存量个人养老金理财收益最高 5.53%，量化、优先股、科技走进养老资金池",
+      "firstSeenAt": "2026-09-04T16:28:41.802Z",
+      "lastSeenAt": "2026-09-05T08:24:15.651Z",
+      "primaryItemId": "news_4c10b6e35cae",
+      "evidenceItemIds": [
+        "news_4c10b6e35cae",
+        "news_73bd0dd7f635"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_9b2e76cf8c63",
+      "title": "美国8月非农录得16.2万大超预期 美联储9月加息押注升温",
+      "firstSeenAt": "2026-09-04T16:28:41.802Z",
+      "lastSeenAt": "2026-09-05T08:24:15.651Z",
+      "primaryItemId": "news_73dafaaa788e",
+      "evidenceItemIds": [
+        "news_73dafaaa788e",
+        "news_9de196499131"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_52c7b2aa9322",
+      "title": "美国非农意外强劲，9月加息概率升至约60%，市场紧盯下周CPI",
+      "firstSeenAt": "2026-09-05T04:37:48.705Z",
+      "lastSeenAt": "2026-09-05T08:24:15.651Z",
+      "primaryItemId": "news_a4c5c65268ea",
+      "evidenceItemIds": [
+        "news_a4c5c65268ea",
+        "news_86449b91a714"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_630b900be103",
+      "title": "报道：Anthropic料将于10月中旬启动IPO路演",
+      "firstSeenAt": "2026-09-05T04:37:48.705Z",
+      "lastSeenAt": "2026-09-05T08:24:15.651Z",
+      "primaryItemId": "news_321939dbd54b",
+      "evidenceItemIds": [
+        "news_321939dbd54b",
+        "news_36c5176079cd"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_ce04563d9380",
+      "title": "谁将赢得“史上最大IPO”投行竞赛？Anthropic接近选择大摩和高盛",
+      "firstSeenAt": "2026-08-21T02:03:15.493Z",
+      "lastSeenAt": "2026-09-05T08:24:15.651Z",
+      "primaryItemId": "news_fdd3a747781f",
+      "evidenceItemIds": [
+        "news_fe597d604517",
+        "news_239938557cc0",
+        "news_d11a6f31f73c",
+        "news_fdd3a747781f",
+        "news_e207d86308ab",
+        "news_6324e8634e2a"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_1ea2527ee420",
+      "title": "中国证监会就《私募投资基金募集监督管理办法（征求意见稿）》公开征求意见",
+      "firstSeenAt": "2026-08-05T06:41:05.050Z",
+      "lastSeenAt": "2026-09-05T08:24:15.651Z",
+      "primaryItemId": "news_82de2858666e",
+      "evidenceItemIds": [
+        "news_4cc3e3bd1fc7",
+        "news_092d579c1c5c",
+        "news_cc1b1a6b2e01",
+        "news_82de2858666e",
+        "news_d18122bfe334"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_d30d5c3e8ab8",
+      "title": "江波龙：H股发售价已厘定为每股236港元",
+      "firstSeenAt": "2026-09-04T08:58:23.004Z",
+      "lastSeenAt": "2026-09-05T04:37:48.705Z",
+      "primaryItemId": "news_77eff92994ca",
+      "evidenceItemIds": [
+        "news_77eff92994ca",
+        "news_1cafc2942afd"
       ],
       "status": "developing"
     },
@@ -195,21 +404,6 @@
       "status": "developing"
     },
     {
-      "eventId": "event_32c44ce79be2",
-      "title": "美国8月非农就业增加16.2万人，失业率维持4.1%",
-      "firstSeenAt": "2026-09-04T12:49:05.643Z",
-      "lastSeenAt": "2026-09-05T04:37:48.705Z",
-      "primaryItemId": "news_bea2a7547e3d",
-      "evidenceItemIds": [
-        "news_79ac5fb5b93b",
-        "news_0d202a8ac212",
-        "news_bea2a7547e3d",
-        "news_d3150920c7d3",
-        "news_514dad6273a7"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_e03d0a3054cc",
       "title": "【数据看盘】多路资金联手抢筹福建人气股，五家机构净卖出浪潮信息7.74亿元",
       "firstSeenAt": "2026-09-04T12:49:05.643Z",
@@ -218,169 +412,6 @@
       "evidenceItemIds": [
         "news_7762a75668b5",
         "news_bc1509bdaae9"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_32967e3730b8",
-      "title": "热门中概股美股盘前多数上涨，百度涨超2%",
-      "firstSeenAt": "2026-08-03T15:23:32.854Z",
-      "lastSeenAt": "2026-09-05T04:37:48.705Z",
-      "primaryItemId": "news_419cd90bb74a",
-      "evidenceItemIds": [
-        "news_b8561adf7643",
-        "news_8b0ae127cd97",
-        "news_69866ab410e2",
-        "news_df9f7f47921a",
-        "news_d3b1a6fd627e",
-        "news_42ca90256576",
-        "news_04a959a73a68",
-        "news_92257b4a2373",
-        "news_9078b6a91c76",
-        "news_47c824b8354b",
-        "news_a1473e93f9d4",
-        "news_d9743ef9e935",
-        "news_734d74c93284",
-        "news_7a77b49fc9c2",
-        "news_83e7d960009d",
-        "news_05bd36ad0d77",
-        "news_045068d1edcf",
-        "news_d5c174d9c938",
-        "news_5d452c2d5e52",
-        "news_09ef190df7fd",
-        "news_e65153aa735d",
-        "news_0eb4388c732a",
-        "news_a68f0b461e3d",
-        "news_7a48b08815f8",
-        "news_32f9f080ed6c",
-        "news_cdf64bc47c62",
-        "news_22afba3862a0",
-        "news_8657bacfb96d",
-        "news_57eab53dfe2f",
-        "news_190e072a9adf",
-        "news_ce8d9d35ffad",
-        "news_07c8e81e210f",
-        "news_145b0fb3a96a",
-        "news_89516f7e191b",
-        "news_41550d725195",
-        "news_597d0c98d522",
-        "news_d0ecfdcf2b2f",
-        "news_946e33737a7f",
-        "news_b886bc768085",
-        "news_230bf8cff437",
-        "news_5ce2dbb0fd9b",
-        "news_78eb330bde54",
-        "news_a64a51b6307d",
-        "news_ff3780319764",
-        "news_088cb0dd2781",
-        "news_78745d1dc8d3",
-        "news_d19121fe4fe8",
-        "news_419cd90bb74a",
-        "news_b03943a69317",
-        "news_29f89f0e4f08"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_a678dcb442aa",
-      "title": "瑞典股市上涨；截至收盘瑞典OMX斯德哥尔摩30指数上涨0.18%",
-      "firstSeenAt": "2026-09-01T16:50:22.105Z",
-      "lastSeenAt": "2026-09-05T04:37:48.705Z",
-      "primaryItemId": "news_b01264e386c3",
-      "evidenceItemIds": [
-        "news_023dcd0d28ad",
-        "news_22038d02d938",
-        "news_47d9a1ccf7bb",
-        "news_5811f57d353a",
-        "news_7e9658008a2e",
-        "news_38b7bfcc4b83",
-        "news_10d178482868",
-        "news_0f952ebfed92",
-        "news_180bac2b42ba",
-        "news_d4e7ddbb143a",
-        "news_8c3edbf23e13",
-        "news_f0c7fe40fe6a",
-        "news_922b608e8c83",
-        "news_aed5d32e17ed",
-        "news_6800b6e7a3ca",
-        "news_8605edb299d9",
-        "news_878225efce45",
-        "news_b01264e386c3",
-        "news_65499b7ad1a5",
-        "news_63ba88008a33",
-        "news_f1bc9cdcabdf"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_5b29bdba5946",
-      "title": "特斯拉Robotaxi刚在美落地，近1000辆Cybercab遭安全监管调查",
-      "firstSeenAt": "2026-09-04T16:28:41.802Z",
-      "lastSeenAt": "2026-09-05T04:37:48.705Z",
-      "primaryItemId": "news_8458e4f5454c",
-      "evidenceItemIds": [
-        "news_8458e4f5454c",
-        "news_da1c32ea8f1e"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_b1eef1e8191c",
-      "title": "Nick Timiraos：8月就业报告消除美联储加息的一大阻碍",
-      "firstSeenAt": "2026-09-04T16:28:41.802Z",
-      "lastSeenAt": "2026-09-05T04:37:48.705Z",
-      "primaryItemId": "news_2bea4085c207",
-      "evidenceItemIds": [
-        "news_2bea4085c207",
-        "news_04eb4ccc604d"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_205da1a6b5bb",
-      "title": "养老产品品类有望扩容！存量个人养老金理财收益最高 5.53%，量化、优先股、科技走进养老资金池",
-      "firstSeenAt": "2026-09-04T16:28:41.802Z",
-      "lastSeenAt": "2026-09-05T04:37:48.705Z",
-      "primaryItemId": "news_4c10b6e35cae",
-      "evidenceItemIds": [
-        "news_4c10b6e35cae",
-        "news_73bd0dd7f635"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_9b2e76cf8c63",
-      "title": "美国8月非农录得16.2万大超预期 美联储9月加息押注升温",
-      "firstSeenAt": "2026-09-04T16:28:41.802Z",
-      "lastSeenAt": "2026-09-05T04:37:48.705Z",
-      "primaryItemId": "news_73dafaaa788e",
-      "evidenceItemIds": [
-        "news_73dafaaa788e",
-        "news_9de196499131"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_52c7b2aa9322",
-      "title": "美国非农意外强劲，9月加息概率升至约60%，市场紧盯下周CPI",
-      "firstSeenAt": "2026-09-05T04:37:48.705Z",
-      "lastSeenAt": "2026-09-05T04:37:48.705Z",
-      "primaryItemId": "news_a4c5c65268ea",
-      "evidenceItemIds": [
-        "news_a4c5c65268ea",
-        "news_86449b91a714"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_630b900be103",
-      "title": "报道：Anthropic料将于10月中旬启动IPO路演",
-      "firstSeenAt": "2026-09-05T04:37:48.705Z",
-      "lastSeenAt": "2026-09-05T04:37:48.705Z",
-      "primaryItemId": "news_321939dbd54b",
-      "evidenceItemIds": [
-        "news_321939dbd54b",
-        "news_36c5176079cd"
       ],
       "status": "developing"
     },
@@ -3892,19 +3923,6 @@
       "status": "developing"
     },
     {
-      "eventId": "event_ce04563d9380",
-      "title": "Anthropic拟超越SpaceX，冲击史上最大IPO",
-      "firstSeenAt": "2026-08-21T02:03:15.493Z",
-      "lastSeenAt": "2026-08-21T04:53:01.345Z",
-      "primaryItemId": "news_fe597d604517",
-      "evidenceItemIds": [
-        "news_fe597d604517",
-        "news_239938557cc0",
-        "news_d11a6f31f73c"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_808eec0feefc",
       "title": "阿里CEO吴泳铭：AI算力Capex投入可三年内回本",
       "firstSeenAt": "2026-08-21T02:03:15.493Z",
@@ -7163,19 +7181,6 @@
       "evidenceItemIds": [
         "news_7ef9d0030242",
         "news_3d7c075f3b94"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_1ea2527ee420",
-      "title": "新华保险、国泰海通在北京成立私募基金，出资额7亿",
-      "firstSeenAt": "2026-08-05T06:41:05.050Z",
-      "lastSeenAt": "2026-08-06T14:40:08.755Z",
-      "primaryItemId": "news_cc1b1a6b2e01",
-      "evidenceItemIds": [
-        "news_4cc3e3bd1fc7",
-        "news_092d579c1c5c",
-        "news_cc1b1a6b2e01"
       ],
       "status": "developing"
     },

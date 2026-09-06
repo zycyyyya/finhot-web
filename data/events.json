@@ -1,15 +1,15 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-09-05T15:25:27.843Z",
+  "generatedAt": "2026-09-06T04:45:50.547Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
       "eventId": "event_7aaa6b5b3da9",
-      "title": "高盛交易台主管：OpenAI的Astra模型“脱颖而出”，这正是“AI牛市一直在等的”",
+      "title": "AI进化速递丨OpenAI发布GPT-6 Astra模型",
       "firstSeenAt": "2026-09-03T12:55:55.174Z",
-      "lastSeenAt": "2026-09-05T15:25:27.843Z",
-      "primaryItemId": "news_a78f6e0478ea",
+      "lastSeenAt": "2026-09-06T04:45:50.547Z",
+      "primaryItemId": "news_34fd11732de6",
       "evidenceItemIds": [
         "news_6a130cf8940d",
         "news_d315f9c51ea1",
@@ -32,7 +32,7 @@
       "eventId": "event_3ddab6f61df0",
       "title": "美股异动 | Q2核心产品瑜伽裤销量骤降20% Lululemon Athletica(LULU.US)跌超18%",
       "firstSeenAt": "2026-09-04T08:58:23.004Z",
-      "lastSeenAt": "2026-09-05T15:25:27.843Z",
+      "lastSeenAt": "2026-09-06T04:45:50.547Z",
       "primaryItemId": "news_0e771e1b8ee4",
       "evidenceItemIds": [
         "news_4893c287a6ef",
@@ -45,7 +45,7 @@
       "eventId": "event_a0dba16dee15",
       "title": "刷新2022年纪录！美国柴油价格创历史新高，特朗普中选“能源牌”打不下去了？",
       "firstSeenAt": "2026-09-04T08:58:23.004Z",
-      "lastSeenAt": "2026-09-05T15:25:27.843Z",
+      "lastSeenAt": "2026-09-06T04:45:50.547Z",
       "primaryItemId": "news_6e82ebe66ac4",
       "evidenceItemIds": [
         "news_f8efde7217af",
@@ -59,7 +59,7 @@
       "eventId": "event_0c9f76072da5",
       "title": "欧元区建筑业活动8月份降幅加速，新订单创四个月最大跌幅",
       "firstSeenAt": "2026-09-04T08:58:23.004Z",
-      "lastSeenAt": "2026-09-05T15:25:27.843Z",
+      "lastSeenAt": "2026-09-06T04:45:50.547Z",
       "primaryItemId": "news_aa101b11de09",
       "evidenceItemIds": [
         "news_aa101b11de09",
@@ -71,7 +71,7 @@
       "eventId": "event_32c44ce79be2",
       "title": "美国8月非农就业人数大超预期，失业率维持不变",
       "firstSeenAt": "2026-09-04T12:49:05.643Z",
-      "lastSeenAt": "2026-09-05T15:25:27.843Z",
+      "lastSeenAt": "2026-09-06T04:45:50.547Z",
       "primaryItemId": "news_d3150920c7d3",
       "evidenceItemIds": [
         "news_79ac5fb5b93b",
@@ -86,7 +86,7 @@
       "eventId": "event_32967e3730b8",
       "title": "美股三大指数集体收跌，大型科技股涨跌不一",
       "firstSeenAt": "2026-08-03T15:23:32.854Z",
-      "lastSeenAt": "2026-09-05T15:25:27.843Z",
+      "lastSeenAt": "2026-09-06T04:45:50.547Z",
       "primaryItemId": "news_29f89f0e4f08",
       "evidenceItemIds": [
         "news_b8561adf7643",
@@ -146,7 +146,7 @@
       "eventId": "event_a678dcb442aa",
       "title": "瑞典股市上涨；截至收盘瑞典OMX斯德哥尔摩30指数上涨0.18%",
       "firstSeenAt": "2026-09-01T16:50:22.105Z",
-      "lastSeenAt": "2026-09-05T15:25:27.843Z",
+      "lastSeenAt": "2026-09-06T04:45:50.547Z",
       "primaryItemId": "news_b01264e386c3",
       "evidenceItemIds": [
         "news_023dcd0d28ad",
@@ -169,7 +169,8 @@
         "news_b01264e386c3",
         "news_65499b7ad1a5",
         "news_63ba88008a33",
-        "news_f1bc9cdcabdf"
+        "news_f1bc9cdcabdf",
+        "news_f70af526899f"
       ],
       "status": "developing"
     },
@@ -177,7 +178,7 @@
       "eventId": "event_5b29bdba5946",
       "title": "特斯拉Robotaxi刚在美落地，近1000辆Cybercab遭安全监管调查",
       "firstSeenAt": "2026-09-04T16:28:41.802Z",
-      "lastSeenAt": "2026-09-05T15:25:27.843Z",
+      "lastSeenAt": "2026-09-06T04:45:50.547Z",
       "primaryItemId": "news_8458e4f5454c",
       "evidenceItemIds": [
         "news_8458e4f5454c",
@@ -186,22 +187,10 @@
       "status": "developing"
     },
     {
-      "eventId": "event_b1eef1e8191c",
-      "title": "Nick Timiraos：8月就业报告消除美联储加息的一大阻碍",
-      "firstSeenAt": "2026-09-04T16:28:41.802Z",
-      "lastSeenAt": "2026-09-05T15:25:27.843Z",
-      "primaryItemId": "news_2bea4085c207",
-      "evidenceItemIds": [
-        "news_2bea4085c207",
-        "news_04eb4ccc604d"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_205da1a6b5bb",
       "title": "养老产品品类有望扩容！存量个人养老金理财收益最高 5.53%，量化、优先股、科技走进养老资金池",
       "firstSeenAt": "2026-09-04T16:28:41.802Z",
-      "lastSeenAt": "2026-09-05T15:25:27.843Z",
+      "lastSeenAt": "2026-09-06T04:45:50.547Z",
       "primaryItemId": "news_4c10b6e35cae",
       "evidenceItemIds": [
         "news_4c10b6e35cae",
@@ -213,7 +202,7 @@
       "eventId": "event_9b2e76cf8c63",
       "title": "美国8月非农数据大超预期，为何大幅波动？对9月加息、国债走势影响，机构最新解读来了",
       "firstSeenAt": "2026-09-04T16:28:41.802Z",
-      "lastSeenAt": "2026-09-05T15:25:27.843Z",
+      "lastSeenAt": "2026-09-06T04:45:50.547Z",
       "primaryItemId": "news_dca60afb8560",
       "evidenceItemIds": [
         "news_73dafaaa788e",
@@ -226,7 +215,7 @@
       "eventId": "event_52c7b2aa9322",
       "title": "美国非农意外强劲，9月加息概率升至约60%，市场紧盯下周CPI",
       "firstSeenAt": "2026-09-05T04:37:48.705Z",
-      "lastSeenAt": "2026-09-05T15:25:27.843Z",
+      "lastSeenAt": "2026-09-06T04:45:50.547Z",
       "primaryItemId": "news_a4c5c65268ea",
       "evidenceItemIds": [
         "news_a4c5c65268ea",
@@ -238,7 +227,7 @@
       "eventId": "event_630b900be103",
       "title": "报道：Anthropic料将于10月中旬启动IPO路演",
       "firstSeenAt": "2026-09-05T04:37:48.705Z",
-      "lastSeenAt": "2026-09-05T15:25:27.843Z",
+      "lastSeenAt": "2026-09-06T04:45:50.547Z",
       "primaryItemId": "news_321939dbd54b",
       "evidenceItemIds": [
         "news_321939dbd54b",
@@ -250,7 +239,7 @@
       "eventId": "event_ce04563d9380",
       "title": "谁将赢得“史上最大IPO”投行竞赛？Anthropic接近选择大摩和高盛",
       "firstSeenAt": "2026-08-21T02:03:15.493Z",
-      "lastSeenAt": "2026-09-05T15:25:27.843Z",
+      "lastSeenAt": "2026-09-06T04:45:50.547Z",
       "primaryItemId": "news_fdd3a747781f",
       "evidenceItemIds": [
         "news_fe597d604517",
@@ -266,7 +255,7 @@
       "eventId": "event_6606d59bacc8",
       "title": "特斯拉“赛博出租车”，被调查",
       "firstSeenAt": "2026-09-05T11:56:24.285Z",
-      "lastSeenAt": "2026-09-05T15:25:27.843Z",
+      "lastSeenAt": "2026-09-06T04:45:50.547Z",
       "primaryItemId": "news_e92345a23b69",
       "evidenceItemIds": [
         "news_e92345a23b69",
@@ -276,13 +265,77 @@
     },
     {
       "eventId": "event_7e11c16cb99b",
-      "title": "哈尔克岛附近传出爆炸声！伊朗油轮被曝遭美军导弹袭击",
+      "title": "美军首度打击三艘伊朗油轮，霍尔木兹海峡冲突从“炸设施”升级到“断运输”",
       "firstSeenAt": "2026-09-05T15:25:27.843Z",
-      "lastSeenAt": "2026-09-05T15:25:27.843Z",
-      "primaryItemId": "news_83304c342d5d",
+      "lastSeenAt": "2026-09-06T04:45:50.547Z",
+      "primaryItemId": "news_a0a092157060",
       "evidenceItemIds": [
         "news_83304c342d5d",
-        "news_4c818fa61ad8"
+        "news_4c818fa61ad8",
+        "news_a0a092157060"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_1ea2527ee420",
+      "title": "中国证监会就《私募投资基金募集监督管理办法（征求意见稿）》公开征求意见",
+      "firstSeenAt": "2026-08-05T06:41:05.050Z",
+      "lastSeenAt": "2026-09-06T04:45:50.547Z",
+      "primaryItemId": "news_82de2858666e",
+      "evidenceItemIds": [
+        "news_4cc3e3bd1fc7",
+        "news_092d579c1c5c",
+        "news_cc1b1a6b2e01",
+        "news_82de2858666e",
+        "news_d18122bfe334"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_5d28f2dfdda8",
+      "title": "下周重磅日程：中美CPI、苹果折叠屏iPhone首秀、小米华为发布会、欧央行决议",
+      "firstSeenAt": "2026-09-06T04:45:50.547Z",
+      "lastSeenAt": "2026-09-06T04:45:50.547Z",
+      "primaryItemId": "news_f27cb6e95886",
+      "evidenceItemIds": [
+        "news_f27cb6e95886",
+        "news_013bfa80c76f"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_845669b0d0dd",
+      "title": "多国推进黄金储备本土化布局",
+      "firstSeenAt": "2026-09-06T04:45:50.547Z",
+      "lastSeenAt": "2026-09-06T04:45:50.547Z",
+      "primaryItemId": "news_4b53b7794619",
+      "evidenceItemIds": [
+        "news_4b53b7794619",
+        "news_55e7841553fd"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_e25ec09e8fd6",
+      "title": "摩根士丹利：微软(MSFT.US)为AI时代重塑业务架构 重申“增持“评级",
+      "firstSeenAt": "2026-09-06T04:45:50.547Z",
+      "lastSeenAt": "2026-09-06T04:45:50.547Z",
+      "primaryItemId": "news_cf4adfcb94cd",
+      "evidenceItemIds": [
+        "news_cf4adfcb94cd",
+        "news_30e5e634485d"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_b1eef1e8191c",
+      "title": "Nick Timiraos：8月就业报告消除美联储加息的一大阻碍",
+      "firstSeenAt": "2026-09-04T16:28:41.802Z",
+      "lastSeenAt": "2026-09-05T15:25:27.843Z",
+      "primaryItemId": "news_2bea4085c207",
+      "evidenceItemIds": [
+        "news_2bea4085c207",
+        "news_04eb4ccc604d"
       ],
       "status": "developing"
     },
@@ -356,21 +409,6 @@
         "news_c0cf1488e336",
         "news_9b61e52ad416",
         "news_93d30ccfe80b"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_1ea2527ee420",
-      "title": "中国证监会就《私募投资基金募集监督管理办法（征求意见稿）》公开征求意见",
-      "firstSeenAt": "2026-08-05T06:41:05.050Z",
-      "lastSeenAt": "2026-09-05T08:24:15.651Z",
-      "primaryItemId": "news_82de2858666e",
-      "evidenceItemIds": [
-        "news_4cc3e3bd1fc7",
-        "news_092d579c1c5c",
-        "news_cc1b1a6b2e01",
-        "news_82de2858666e",
-        "news_d18122bfe334"
       ],
       "status": "developing"
     },

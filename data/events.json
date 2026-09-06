@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-09-06T12:15:32.501Z",
+  "generatedAt": "2026-09-06T15:36:57.224Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -8,7 +8,7 @@
       "eventId": "event_7aaa6b5b3da9",
       "title": "高盛交易台主管：OpenAI的Astra模型“脱颖而出”，这正是“AI牛市一直在等的”",
       "firstSeenAt": "2026-09-03T12:55:55.174Z",
-      "lastSeenAt": "2026-09-06T12:15:32.501Z",
+      "lastSeenAt": "2026-09-06T15:36:57.224Z",
       "primaryItemId": "news_a78f6e0478ea",
       "evidenceItemIds": [
         "news_6a130cf8940d",
@@ -33,7 +33,7 @@
       "eventId": "event_0c9f76072da5",
       "title": "欧元区建筑业活动8月份降幅加速，新订单创四个月最大跌幅",
       "firstSeenAt": "2026-09-04T08:58:23.004Z",
-      "lastSeenAt": "2026-09-06T12:15:32.501Z",
+      "lastSeenAt": "2026-09-06T15:36:57.224Z",
       "primaryItemId": "news_aa101b11de09",
       "evidenceItemIds": [
         "news_aa101b11de09",
@@ -45,7 +45,7 @@
       "eventId": "event_32c44ce79be2",
       "title": "美国8月非农就业人数大超预期，失业率维持不变",
       "firstSeenAt": "2026-09-04T12:49:05.643Z",
-      "lastSeenAt": "2026-09-06T12:15:32.501Z",
+      "lastSeenAt": "2026-09-06T15:36:57.224Z",
       "primaryItemId": "news_d3150920c7d3",
       "evidenceItemIds": [
         "news_79ac5fb5b93b",
@@ -61,7 +61,7 @@
       "eventId": "event_a678dcb442aa",
       "title": "俄罗斯股市收低；截至收盘MOEX Russia Index基本持平",
       "firstSeenAt": "2026-09-01T16:50:22.105Z",
-      "lastSeenAt": "2026-09-06T12:15:32.501Z",
+      "lastSeenAt": "2026-09-06T15:36:57.224Z",
       "primaryItemId": "news_f70af526899f",
       "evidenceItemIds": [
         "news_023dcd0d28ad",
@@ -85,7 +85,8 @@
         "news_65499b7ad1a5",
         "news_63ba88008a33",
         "news_f1bc9cdcabdf",
-        "news_f70af526899f"
+        "news_f70af526899f",
+        "news_9483c15243f1"
       ],
       "status": "developing"
     },
@@ -93,7 +94,7 @@
       "eventId": "event_9b2e76cf8c63",
       "title": "美国8月非农数据大超预期，为何大幅波动？对9月加息、国债走势影响，机构最新解读来了",
       "firstSeenAt": "2026-09-04T16:28:41.802Z",
-      "lastSeenAt": "2026-09-06T12:15:32.501Z",
+      "lastSeenAt": "2026-09-06T15:36:57.224Z",
       "primaryItemId": "news_dca60afb8560",
       "evidenceItemIds": [
         "news_73dafaaa788e",
@@ -106,7 +107,7 @@
       "eventId": "event_630b900be103",
       "title": "估值2万亿！Anthropic 或成史上最大IPO，10月启动路演，11月中期选举前挂牌",
       "firstSeenAt": "2026-09-05T04:37:48.705Z",
-      "lastSeenAt": "2026-09-06T12:15:32.501Z",
+      "lastSeenAt": "2026-09-06T15:36:57.224Z",
       "primaryItemId": "news_6324e8634e2a",
       "evidenceItemIds": [
         "news_321939dbd54b",
@@ -119,7 +120,7 @@
       "eventId": "event_ce04563d9380",
       "title": "谁将赢得“史上最大IPO”投行竞赛？Anthropic接近选择大摩和高盛",
       "firstSeenAt": "2026-08-21T02:03:15.493Z",
-      "lastSeenAt": "2026-09-06T12:15:32.501Z",
+      "lastSeenAt": "2026-09-06T15:36:57.224Z",
       "primaryItemId": "news_fdd3a747781f",
       "evidenceItemIds": [
         "news_fe597d604517",
@@ -135,7 +136,7 @@
       "eventId": "event_6606d59bacc8",
       "title": "特斯拉“赛博出租车”，被调查",
       "firstSeenAt": "2026-09-05T11:56:24.285Z",
-      "lastSeenAt": "2026-09-06T12:15:32.501Z",
+      "lastSeenAt": "2026-09-06T15:36:57.224Z",
       "primaryItemId": "news_e92345a23b69",
       "evidenceItemIds": [
         "news_e92345a23b69",
@@ -147,7 +148,7 @@
       "eventId": "event_7e11c16cb99b",
       "title": "美军首度打击三艘伊朗油轮，霍尔木兹海峡冲突从“炸设施”升级到“断运输”",
       "firstSeenAt": "2026-09-05T15:25:27.843Z",
-      "lastSeenAt": "2026-09-06T12:15:32.501Z",
+      "lastSeenAt": "2026-09-06T15:36:57.224Z",
       "primaryItemId": "news_a0a092157060",
       "evidenceItemIds": [
         "news_83304c342d5d",
@@ -160,7 +161,7 @@
       "eventId": "event_5d28f2dfdda8",
       "title": "下周重磅日程：中美CPI、苹果折叠屏iPhone首秀、小米华为发布会、欧央行决议",
       "firstSeenAt": "2026-09-06T04:45:50.547Z",
-      "lastSeenAt": "2026-09-06T12:15:32.501Z",
+      "lastSeenAt": "2026-09-06T15:36:57.224Z",
       "primaryItemId": "news_f27cb6e95886",
       "evidenceItemIds": [
         "news_f27cb6e95886",
@@ -170,10 +171,10 @@
     },
     {
       "eventId": "event_845669b0d0dd",
-      "title": "多国推进黄金储备本土化布局",
+      "title": "【早报】中东航线海运价格大幅跳涨；多国推进黄金储备本土化布局",
       "firstSeenAt": "2026-09-06T04:45:50.547Z",
-      "lastSeenAt": "2026-09-06T12:15:32.501Z",
-      "primaryItemId": "news_4b53b7794619",
+      "lastSeenAt": "2026-09-06T15:36:57.224Z",
+      "primaryItemId": "news_55e7841553fd",
       "evidenceItemIds": [
         "news_4b53b7794619",
         "news_55e7841553fd"
@@ -184,7 +185,7 @@
       "eventId": "event_e25ec09e8fd6",
       "title": "摩根士丹利：微软(MSFT.US)为AI时代重塑业务架构 重申“增持“评级",
       "firstSeenAt": "2026-09-06T04:45:50.547Z",
-      "lastSeenAt": "2026-09-06T12:15:32.501Z",
+      "lastSeenAt": "2026-09-06T15:36:57.224Z",
       "primaryItemId": "news_cf4adfcb94cd",
       "evidenceItemIds": [
         "news_cf4adfcb94cd",
@@ -194,10 +195,10 @@
     },
     {
       "eventId": "event_b8877a7feb26",
-      "title": "中国人保拟募资不超过150亿元用于补充资本金",
+      "title": "农业银行拟募资不超过1600亿元用于补充资本；工商银行拟募资不超过1000亿元用于补充资本",
       "firstSeenAt": "2026-09-06T08:43:45.420Z",
-      "lastSeenAt": "2026-09-06T12:15:32.501Z",
-      "primaryItemId": "news_af2925bc011e",
+      "lastSeenAt": "2026-09-06T15:36:57.224Z",
+      "primaryItemId": "news_c89cff4433f3",
       "evidenceItemIds": [
         "news_c89cff4433f3",
         "news_af2925bc011e",
@@ -206,23 +207,27 @@
         "news_a58ebe6db8ad",
         "news_b6a05fb6d873",
         "news_10be3becad9a",
-        "news_8347af5bd586"
+        "news_8347af5bd586",
+        "news_61feb50b5122",
+        "news_088ab03e8c6f"
       ],
       "status": "developing"
     },
     {
       "eventId": "event_348cff5173b0",
-      "title": "财政部将向中国进出口银行注资300亿元，向中国出口信用保险公司注资100亿元",
+      "title": "财政部将向中国出口信用保险公司注资100亿元",
       "firstSeenAt": "2026-09-06T08:43:45.420Z",
-      "lastSeenAt": "2026-09-06T12:15:32.501Z",
-      "primaryItemId": "news_7dc8a46a1cac",
+      "lastSeenAt": "2026-09-06T15:36:57.224Z",
+      "primaryItemId": "news_50478292df54",
       "evidenceItemIds": [
         "news_606b7bfffccc",
         "news_b28085fa06d6",
         "news_fb536265b55c",
         "news_7dc8a46a1cac",
         "news_50478292df54",
-        "news_1d6a58d17323"
+        "news_1d6a58d17323",
+        "news_2406eda3cd99",
+        "news_42e974a66476"
       ],
       "status": "developing"
     },
@@ -230,7 +235,7 @@
       "eventId": "event_a38b74ffc854",
       "title": "我国首款AI辅助创新药获批上市",
       "firstSeenAt": "2026-09-06T08:43:45.420Z",
-      "lastSeenAt": "2026-09-06T12:15:32.501Z",
+      "lastSeenAt": "2026-09-06T15:36:57.224Z",
       "primaryItemId": "news_2c398624a55e",
       "evidenceItemIds": [
         "news_2c398624a55e",
@@ -242,7 +247,7 @@
       "eventId": "event_202dd878fa19",
       "title": "晚间公告｜9月6日这些公告有看头",
       "firstSeenAt": "2026-07-31T14:43:32.623Z",
-      "lastSeenAt": "2026-09-06T12:15:32.501Z",
+      "lastSeenAt": "2026-09-06T15:36:57.224Z",
       "primaryItemId": "news_a7e36ccebd4b",
       "evidenceItemIds": [
         "news_eaf56a2f5345",
@@ -284,7 +289,7 @@
       "eventId": "event_6cd8dc6f7e16",
       "title": "财政部将发行特别国债支持8家中央金融企业补充资本",
       "firstSeenAt": "2026-09-06T12:15:32.501Z",
-      "lastSeenAt": "2026-09-06T12:15:32.501Z",
+      "lastSeenAt": "2026-09-06T15:36:57.224Z",
       "primaryItemId": "news_ba4c6e514f5e",
       "evidenceItemIds": [
         "news_ba4c6e514f5e",
@@ -296,7 +301,7 @@
       "eventId": "event_570d5dcccb4e",
       "title": "「循查五步 审慎入市」之捡漏“转板璞玉” 勿信“暴富承诺”",
       "firstSeenAt": "2026-09-06T12:15:32.501Z",
-      "lastSeenAt": "2026-09-06T12:15:32.501Z",
+      "lastSeenAt": "2026-09-06T15:36:57.224Z",
       "primaryItemId": "news_3c002e97de96",
       "evidenceItemIds": [
         "news_3c002e97de96",
@@ -308,11 +313,50 @@
       "eventId": "event_986282d0988c",
       "title": "泽璟制药(688266.SH)：注射用人促甲状腺素β新适应症上市申请获得受理",
       "firstSeenAt": "2026-09-06T12:15:32.501Z",
-      "lastSeenAt": "2026-09-06T12:15:32.501Z",
+      "lastSeenAt": "2026-09-06T15:36:57.224Z",
       "primaryItemId": "news_1fbac969c1ef",
       "evidenceItemIds": [
         "news_1fbac969c1ef",
         "news_7a4e332521ff"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_1ea2527ee420",
+      "title": "中国证监会就《私募投资基金募集监督管理办法（征求意见稿）》公开征求意见",
+      "firstSeenAt": "2026-08-05T06:41:05.050Z",
+      "lastSeenAt": "2026-09-06T15:36:57.224Z",
+      "primaryItemId": "news_82de2858666e",
+      "evidenceItemIds": [
+        "news_4cc3e3bd1fc7",
+        "news_092d579c1c5c",
+        "news_cc1b1a6b2e01",
+        "news_82de2858666e",
+        "news_d18122bfe334"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_e19d9427b69d",
+      "title": "农业银行(601288.SH)拟向财政部、中国烟草等定增募资不超1600亿元",
+      "firstSeenAt": "2026-09-06T08:43:45.420Z",
+      "lastSeenAt": "2026-09-06T15:36:57.224Z",
+      "primaryItemId": "news_8347af5bd586",
+      "evidenceItemIds": [
+        "news_8347af5bd586",
+        "news_a8eb6956d332"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_78f7421f4843",
+      "title": "AI进化速递｜长沙造具身智能机器人拿下欧盟CE“护照”",
+      "firstSeenAt": "2026-09-06T15:36:57.224Z",
+      "lastSeenAt": "2026-09-06T15:36:57.224Z",
+      "primaryItemId": "news_e098ef2e51e5",
+      "evidenceItemIds": [
+        "news_e098ef2e51e5",
+        "news_5ca3f8647578"
       ],
       "status": "developing"
     },
@@ -399,33 +443,6 @@
       "evidenceItemIds": [
         "news_a4c5c65268ea",
         "news_86449b91a714"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_1ea2527ee420",
-      "title": "中国证监会就《私募投资基金募集监督管理办法（征求意见稿）》公开征求意见",
-      "firstSeenAt": "2026-08-05T06:41:05.050Z",
-      "lastSeenAt": "2026-09-06T08:43:45.420Z",
-      "primaryItemId": "news_82de2858666e",
-      "evidenceItemIds": [
-        "news_4cc3e3bd1fc7",
-        "news_092d579c1c5c",
-        "news_cc1b1a6b2e01",
-        "news_82de2858666e",
-        "news_d18122bfe334"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_e19d9427b69d",
-      "title": "农业银行(601288.SH)拟向财政部、中国烟草等定增募资不超1600亿元",
-      "firstSeenAt": "2026-09-06T08:43:45.420Z",
-      "lastSeenAt": "2026-09-06T08:43:45.420Z",
-      "primaryItemId": "news_8347af5bd586",
-      "evidenceItemIds": [
-        "news_8347af5bd586",
-        "news_a8eb6956d332"
       ],
       "status": "developing"
     },

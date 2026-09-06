@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-09-06T08:43:45.420Z",
+  "generatedAt": "2026-09-06T12:15:32.501Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -8,7 +8,7 @@
       "eventId": "event_7aaa6b5b3da9",
       "title": "高盛交易台主管：OpenAI的Astra模型“脱颖而出”，这正是“AI牛市一直在等的”",
       "firstSeenAt": "2026-09-03T12:55:55.174Z",
-      "lastSeenAt": "2026-09-06T08:43:45.420Z",
+      "lastSeenAt": "2026-09-06T12:15:32.501Z",
       "primaryItemId": "news_a78f6e0478ea",
       "evidenceItemIds": [
         "news_6a130cf8940d",
@@ -30,6 +30,293 @@
       "status": "developing"
     },
     {
+      "eventId": "event_0c9f76072da5",
+      "title": "欧元区建筑业活动8月份降幅加速，新订单创四个月最大跌幅",
+      "firstSeenAt": "2026-09-04T08:58:23.004Z",
+      "lastSeenAt": "2026-09-06T12:15:32.501Z",
+      "primaryItemId": "news_aa101b11de09",
+      "evidenceItemIds": [
+        "news_aa101b11de09",
+        "news_8f2288b17a7e"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_32c44ce79be2",
+      "title": "美国8月非农就业人数大超预期，失业率维持不变",
+      "firstSeenAt": "2026-09-04T12:49:05.643Z",
+      "lastSeenAt": "2026-09-06T12:15:32.501Z",
+      "primaryItemId": "news_d3150920c7d3",
+      "evidenceItemIds": [
+        "news_79ac5fb5b93b",
+        "news_0d202a8ac212",
+        "news_bea2a7547e3d",
+        "news_d3150920c7d3",
+        "news_514dad6273a7",
+        "news_eadcfda195ed"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_a678dcb442aa",
+      "title": "俄罗斯股市收低；截至收盘MOEX Russia Index基本持平",
+      "firstSeenAt": "2026-09-01T16:50:22.105Z",
+      "lastSeenAt": "2026-09-06T12:15:32.501Z",
+      "primaryItemId": "news_f70af526899f",
+      "evidenceItemIds": [
+        "news_023dcd0d28ad",
+        "news_22038d02d938",
+        "news_47d9a1ccf7bb",
+        "news_5811f57d353a",
+        "news_7e9658008a2e",
+        "news_38b7bfcc4b83",
+        "news_10d178482868",
+        "news_0f952ebfed92",
+        "news_180bac2b42ba",
+        "news_d4e7ddbb143a",
+        "news_8c3edbf23e13",
+        "news_f0c7fe40fe6a",
+        "news_922b608e8c83",
+        "news_aed5d32e17ed",
+        "news_6800b6e7a3ca",
+        "news_8605edb299d9",
+        "news_878225efce45",
+        "news_b01264e386c3",
+        "news_65499b7ad1a5",
+        "news_63ba88008a33",
+        "news_f1bc9cdcabdf",
+        "news_f70af526899f"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_9b2e76cf8c63",
+      "title": "美国8月非农数据大超预期，为何大幅波动？对9月加息、国债走势影响，机构最新解读来了",
+      "firstSeenAt": "2026-09-04T16:28:41.802Z",
+      "lastSeenAt": "2026-09-06T12:15:32.501Z",
+      "primaryItemId": "news_dca60afb8560",
+      "evidenceItemIds": [
+        "news_73dafaaa788e",
+        "news_9de196499131",
+        "news_dca60afb8560"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_630b900be103",
+      "title": "估值2万亿！Anthropic 或成史上最大IPO，10月启动路演，11月中期选举前挂牌",
+      "firstSeenAt": "2026-09-05T04:37:48.705Z",
+      "lastSeenAt": "2026-09-06T12:15:32.501Z",
+      "primaryItemId": "news_6324e8634e2a",
+      "evidenceItemIds": [
+        "news_321939dbd54b",
+        "news_36c5176079cd",
+        "news_6324e8634e2a"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_ce04563d9380",
+      "title": "谁将赢得“史上最大IPO”投行竞赛？Anthropic接近选择大摩和高盛",
+      "firstSeenAt": "2026-08-21T02:03:15.493Z",
+      "lastSeenAt": "2026-09-06T12:15:32.501Z",
+      "primaryItemId": "news_fdd3a747781f",
+      "evidenceItemIds": [
+        "news_fe597d604517",
+        "news_239938557cc0",
+        "news_d11a6f31f73c",
+        "news_fdd3a747781f",
+        "news_e207d86308ab",
+        "news_6324e8634e2a"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_6606d59bacc8",
+      "title": "特斯拉“赛博出租车”，被调查",
+      "firstSeenAt": "2026-09-05T11:56:24.285Z",
+      "lastSeenAt": "2026-09-06T12:15:32.501Z",
+      "primaryItemId": "news_e92345a23b69",
+      "evidenceItemIds": [
+        "news_e92345a23b69",
+        "news_c136395a778d"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_7e11c16cb99b",
+      "title": "美军首度打击三艘伊朗油轮，霍尔木兹海峡冲突从“炸设施”升级到“断运输”",
+      "firstSeenAt": "2026-09-05T15:25:27.843Z",
+      "lastSeenAt": "2026-09-06T12:15:32.501Z",
+      "primaryItemId": "news_a0a092157060",
+      "evidenceItemIds": [
+        "news_83304c342d5d",
+        "news_4c818fa61ad8",
+        "news_a0a092157060"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_5d28f2dfdda8",
+      "title": "下周重磅日程：中美CPI、苹果折叠屏iPhone首秀、小米华为发布会、欧央行决议",
+      "firstSeenAt": "2026-09-06T04:45:50.547Z",
+      "lastSeenAt": "2026-09-06T12:15:32.501Z",
+      "primaryItemId": "news_f27cb6e95886",
+      "evidenceItemIds": [
+        "news_f27cb6e95886",
+        "news_013bfa80c76f"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_845669b0d0dd",
+      "title": "多国推进黄金储备本土化布局",
+      "firstSeenAt": "2026-09-06T04:45:50.547Z",
+      "lastSeenAt": "2026-09-06T12:15:32.501Z",
+      "primaryItemId": "news_4b53b7794619",
+      "evidenceItemIds": [
+        "news_4b53b7794619",
+        "news_55e7841553fd"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_e25ec09e8fd6",
+      "title": "摩根士丹利：微软(MSFT.US)为AI时代重塑业务架构 重申“增持“评级",
+      "firstSeenAt": "2026-09-06T04:45:50.547Z",
+      "lastSeenAt": "2026-09-06T12:15:32.501Z",
+      "primaryItemId": "news_cf4adfcb94cd",
+      "evidenceItemIds": [
+        "news_cf4adfcb94cd",
+        "news_30e5e634485d"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_b8877a7feb26",
+      "title": "中国人保拟募资不超过150亿元用于补充资本金",
+      "firstSeenAt": "2026-09-06T08:43:45.420Z",
+      "lastSeenAt": "2026-09-06T12:15:32.501Z",
+      "primaryItemId": "news_af2925bc011e",
+      "evidenceItemIds": [
+        "news_c89cff4433f3",
+        "news_af2925bc011e",
+        "news_4270b53eef75",
+        "news_e70474f48287",
+        "news_a58ebe6db8ad",
+        "news_b6a05fb6d873",
+        "news_10be3becad9a",
+        "news_8347af5bd586"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_348cff5173b0",
+      "title": "财政部将向中国进出口银行注资300亿元，向中国出口信用保险公司注资100亿元",
+      "firstSeenAt": "2026-09-06T08:43:45.420Z",
+      "lastSeenAt": "2026-09-06T12:15:32.501Z",
+      "primaryItemId": "news_7dc8a46a1cac",
+      "evidenceItemIds": [
+        "news_606b7bfffccc",
+        "news_b28085fa06d6",
+        "news_fb536265b55c",
+        "news_7dc8a46a1cac",
+        "news_50478292df54",
+        "news_1d6a58d17323"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_a38b74ffc854",
+      "title": "我国首款AI辅助创新药获批上市",
+      "firstSeenAt": "2026-09-06T08:43:45.420Z",
+      "lastSeenAt": "2026-09-06T12:15:32.501Z",
+      "primaryItemId": "news_2c398624a55e",
+      "evidenceItemIds": [
+        "news_2c398624a55e",
+        "news_c04f44c3e362"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_202dd878fa19",
+      "title": "晚间公告｜9月6日这些公告有看头",
+      "firstSeenAt": "2026-07-31T14:43:32.623Z",
+      "lastSeenAt": "2026-09-06T12:15:32.501Z",
+      "primaryItemId": "news_a7e36ccebd4b",
+      "evidenceItemIds": [
+        "news_eaf56a2f5345",
+        "news_8b256f193830",
+        "news_58fdd88ca5ff",
+        "news_4cac4c806a4b",
+        "news_f202b91c5619",
+        "news_c91687230a2c",
+        "news_958c3f39adb1",
+        "news_a328d8732020",
+        "news_042b264c9695",
+        "news_0f321ef4412b",
+        "news_6fe4b8332584",
+        "news_f755ad25cd3e",
+        "news_6d13f9de9d52",
+        "news_bd988cf929f3",
+        "news_a6888af31e73",
+        "news_8429689faaae",
+        "news_f88525090167",
+        "news_0ab1f5803307",
+        "news_141a625db923",
+        "news_9ac737e4924a",
+        "news_60885ba55001",
+        "news_9d3c513ffc0f",
+        "news_3e80b0340e44",
+        "news_56a89494a39c",
+        "news_69264b26c3e7",
+        "news_514b54e00f99",
+        "news_67ca015f8000",
+        "news_3108d5eeee52",
+        "news_4d0de13affc5",
+        "news_d0b6ffb1536e",
+        "news_f8b9c9518289",
+        "news_a7e36ccebd4b"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_6cd8dc6f7e16",
+      "title": "财政部将发行特别国债支持8家中央金融企业补充资本",
+      "firstSeenAt": "2026-09-06T12:15:32.501Z",
+      "lastSeenAt": "2026-09-06T12:15:32.501Z",
+      "primaryItemId": "news_ba4c6e514f5e",
+      "evidenceItemIds": [
+        "news_ba4c6e514f5e",
+        "news_8dd5c0a18cfd"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_570d5dcccb4e",
+      "title": "「循查五步 审慎入市」之捡漏“转板璞玉” 勿信“暴富承诺”",
+      "firstSeenAt": "2026-09-06T12:15:32.501Z",
+      "lastSeenAt": "2026-09-06T12:15:32.501Z",
+      "primaryItemId": "news_3c002e97de96",
+      "evidenceItemIds": [
+        "news_3c002e97de96",
+        "news_70444389b177"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_986282d0988c",
+      "title": "泽璟制药(688266.SH)：注射用人促甲状腺素β新适应症上市申请获得受理",
+      "firstSeenAt": "2026-09-06T12:15:32.501Z",
+      "lastSeenAt": "2026-09-06T12:15:32.501Z",
+      "primaryItemId": "news_1fbac969c1ef",
+      "evidenceItemIds": [
+        "news_1fbac969c1ef",
+        "news_7a4e332521ff"
+      ],
+      "status": "developing"
+    },
+    {
       "eventId": "event_a0dba16dee15",
       "title": "刷新2022年纪录！美国柴油价格创历史新高，特朗普中选“能源牌”打不下去了？",
       "firstSeenAt": "2026-09-04T08:58:23.004Z",
@@ -40,34 +327,6 @@
         "news_61c039985356",
         "news_f5adc3a728a4",
         "news_6e82ebe66ac4"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_0c9f76072da5",
-      "title": "欧元区建筑业活动8月份降幅加速，新订单创四个月最大跌幅",
-      "firstSeenAt": "2026-09-04T08:58:23.004Z",
-      "lastSeenAt": "2026-09-06T08:43:45.420Z",
-      "primaryItemId": "news_aa101b11de09",
-      "evidenceItemIds": [
-        "news_aa101b11de09",
-        "news_8f2288b17a7e"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_32c44ce79be2",
-      "title": "美国8月非农，水分有多大？",
-      "firstSeenAt": "2026-09-04T12:49:05.643Z",
-      "lastSeenAt": "2026-09-06T08:43:45.420Z",
-      "primaryItemId": "news_514dad6273a7",
-      "evidenceItemIds": [
-        "news_79ac5fb5b93b",
-        "news_0d202a8ac212",
-        "news_bea2a7547e3d",
-        "news_d3150920c7d3",
-        "news_514dad6273a7",
-        "news_eadcfda195ed"
       ],
       "status": "developing"
     },
@@ -132,51 +391,6 @@
       "status": "developing"
     },
     {
-      "eventId": "event_a678dcb442aa",
-      "title": "俄罗斯股市收低；截至收盘MOEX Russia Index基本持平",
-      "firstSeenAt": "2026-09-01T16:50:22.105Z",
-      "lastSeenAt": "2026-09-06T08:43:45.420Z",
-      "primaryItemId": "news_f70af526899f",
-      "evidenceItemIds": [
-        "news_023dcd0d28ad",
-        "news_22038d02d938",
-        "news_47d9a1ccf7bb",
-        "news_5811f57d353a",
-        "news_7e9658008a2e",
-        "news_38b7bfcc4b83",
-        "news_10d178482868",
-        "news_0f952ebfed92",
-        "news_180bac2b42ba",
-        "news_d4e7ddbb143a",
-        "news_8c3edbf23e13",
-        "news_f0c7fe40fe6a",
-        "news_922b608e8c83",
-        "news_aed5d32e17ed",
-        "news_6800b6e7a3ca",
-        "news_8605edb299d9",
-        "news_878225efce45",
-        "news_b01264e386c3",
-        "news_65499b7ad1a5",
-        "news_63ba88008a33",
-        "news_f1bc9cdcabdf",
-        "news_f70af526899f"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_9b2e76cf8c63",
-      "title": "美国8月非农数据大超预期，为何大幅波动？对9月加息、国债走势影响，机构最新解读来了",
-      "firstSeenAt": "2026-09-04T16:28:41.802Z",
-      "lastSeenAt": "2026-09-06T08:43:45.420Z",
-      "primaryItemId": "news_dca60afb8560",
-      "evidenceItemIds": [
-        "news_73dafaaa788e",
-        "news_9de196499131",
-        "news_dca60afb8560"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_52c7b2aa9322",
       "title": "美国非农意外强劲，9月加息概率升至约60%，市场紧盯下周CPI",
       "firstSeenAt": "2026-09-05T04:37:48.705Z",
@@ -185,59 +399,6 @@
       "evidenceItemIds": [
         "news_a4c5c65268ea",
         "news_86449b91a714"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_630b900be103",
-      "title": "报道：Anthropic料将于10月中旬启动IPO路演",
-      "firstSeenAt": "2026-09-05T04:37:48.705Z",
-      "lastSeenAt": "2026-09-06T08:43:45.420Z",
-      "primaryItemId": "news_321939dbd54b",
-      "evidenceItemIds": [
-        "news_321939dbd54b",
-        "news_36c5176079cd"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_ce04563d9380",
-      "title": "谁将赢得“史上最大IPO”投行竞赛？Anthropic接近选择大摩和高盛",
-      "firstSeenAt": "2026-08-21T02:03:15.493Z",
-      "lastSeenAt": "2026-09-06T08:43:45.420Z",
-      "primaryItemId": "news_fdd3a747781f",
-      "evidenceItemIds": [
-        "news_fe597d604517",
-        "news_239938557cc0",
-        "news_d11a6f31f73c",
-        "news_fdd3a747781f",
-        "news_e207d86308ab",
-        "news_6324e8634e2a"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_6606d59bacc8",
-      "title": "特斯拉“赛博出租车”，被调查",
-      "firstSeenAt": "2026-09-05T11:56:24.285Z",
-      "lastSeenAt": "2026-09-06T08:43:45.420Z",
-      "primaryItemId": "news_e92345a23b69",
-      "evidenceItemIds": [
-        "news_e92345a23b69",
-        "news_c136395a778d"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_7e11c16cb99b",
-      "title": "美军首度打击三艘伊朗油轮，霍尔木兹海峡冲突从“炸设施”升级到“断运输”",
-      "firstSeenAt": "2026-09-05T15:25:27.843Z",
-      "lastSeenAt": "2026-09-06T08:43:45.420Z",
-      "primaryItemId": "news_a0a092157060",
-      "evidenceItemIds": [
-        "news_83304c342d5d",
-        "news_4c818fa61ad8",
-        "news_a0a092157060"
       ],
       "status": "developing"
     },
@@ -253,81 +414,6 @@
         "news_cc1b1a6b2e01",
         "news_82de2858666e",
         "news_d18122bfe334"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_5d28f2dfdda8",
-      "title": "下周重磅日程：中美CPI、苹果折叠屏iPhone首秀、小米华为发布会、欧央行决议",
-      "firstSeenAt": "2026-09-06T04:45:50.547Z",
-      "lastSeenAt": "2026-09-06T08:43:45.420Z",
-      "primaryItemId": "news_f27cb6e95886",
-      "evidenceItemIds": [
-        "news_f27cb6e95886",
-        "news_013bfa80c76f"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_845669b0d0dd",
-      "title": "多国推进黄金储备本土化布局",
-      "firstSeenAt": "2026-09-06T04:45:50.547Z",
-      "lastSeenAt": "2026-09-06T08:43:45.420Z",
-      "primaryItemId": "news_4b53b7794619",
-      "evidenceItemIds": [
-        "news_4b53b7794619",
-        "news_55e7841553fd"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_e25ec09e8fd6",
-      "title": "摩根士丹利：微软(MSFT.US)为AI时代重塑业务架构 重申“增持“评级",
-      "firstSeenAt": "2026-09-06T04:45:50.547Z",
-      "lastSeenAt": "2026-09-06T08:43:45.420Z",
-      "primaryItemId": "news_cf4adfcb94cd",
-      "evidenceItemIds": [
-        "news_cf4adfcb94cd",
-        "news_30e5e634485d"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_b8877a7feb26",
-      "title": "农业银行拟募资不超过1600亿元用于补充资本；工商银行拟募资不超过1000亿元用于补充资本",
-      "firstSeenAt": "2026-09-06T08:43:45.420Z",
-      "lastSeenAt": "2026-09-06T08:43:45.420Z",
-      "primaryItemId": "news_c89cff4433f3",
-      "evidenceItemIds": [
-        "news_c89cff4433f3",
-        "news_af2925bc011e",
-        "news_4270b53eef75",
-        "news_e70474f48287",
-        "news_a58ebe6db8ad"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_348cff5173b0",
-      "title": "财政部将向中国太平注资70亿元",
-      "firstSeenAt": "2026-09-06T08:43:45.420Z",
-      "lastSeenAt": "2026-09-06T08:43:45.420Z",
-      "primaryItemId": "news_606b7bfffccc",
-      "evidenceItemIds": [
-        "news_606b7bfffccc",
-        "news_b28085fa06d6"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_a38b74ffc854",
-      "title": "我国首款AI辅助创新药获批上市",
-      "firstSeenAt": "2026-09-06T08:43:45.420Z",
-      "lastSeenAt": "2026-09-06T08:43:45.420Z",
-      "primaryItemId": "news_2c398624a55e",
-      "evidenceItemIds": [
-        "news_2c398624a55e",
-        "news_c04f44c3e362"
       ],
       "status": "developing"
     },
@@ -389,47 +475,6 @@
       "evidenceItemIds": [
         "news_2bea4085c207",
         "news_04eb4ccc604d"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_202dd878fa19",
-      "title": "晚间公告｜9月4日这些公告有看头",
-      "firstSeenAt": "2026-07-31T14:43:32.623Z",
-      "lastSeenAt": "2026-09-05T11:56:24.285Z",
-      "primaryItemId": "news_f8b9c9518289",
-      "evidenceItemIds": [
-        "news_eaf56a2f5345",
-        "news_8b256f193830",
-        "news_58fdd88ca5ff",
-        "news_4cac4c806a4b",
-        "news_f202b91c5619",
-        "news_c91687230a2c",
-        "news_958c3f39adb1",
-        "news_a328d8732020",
-        "news_042b264c9695",
-        "news_0f321ef4412b",
-        "news_6fe4b8332584",
-        "news_f755ad25cd3e",
-        "news_6d13f9de9d52",
-        "news_bd988cf929f3",
-        "news_a6888af31e73",
-        "news_8429689faaae",
-        "news_f88525090167",
-        "news_0ab1f5803307",
-        "news_141a625db923",
-        "news_9ac737e4924a",
-        "news_60885ba55001",
-        "news_9d3c513ffc0f",
-        "news_3e80b0340e44",
-        "news_56a89494a39c",
-        "news_69264b26c3e7",
-        "news_514b54e00f99",
-        "news_67ca015f8000",
-        "news_3108d5eeee52",
-        "news_4d0de13affc5",
-        "news_d0b6ffb1536e",
-        "news_f8b9c9518289"
       ],
       "status": "developing"
     },

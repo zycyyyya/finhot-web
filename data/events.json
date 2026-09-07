@@ -1,51 +1,14 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-09-07T04:52:34.790Z",
+  "generatedAt": "2026-09-07T09:23:18.972Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
-      "eventId": "event_7aaa6b5b3da9",
-      "title": "高盛交易台主管：OpenAI的Astra模型“脱颖而出”，这正是“AI牛市一直在等的”",
-      "firstSeenAt": "2026-09-03T12:55:55.174Z",
-      "lastSeenAt": "2026-09-07T04:52:34.790Z",
-      "primaryItemId": "news_a78f6e0478ea",
-      "evidenceItemIds": [
-        "news_6a130cf8940d",
-        "news_d315f9c51ea1",
-        "news_a99f5482a5e9",
-        "news_3351574f9022",
-        "news_d96f5567848b",
-        "news_e703116af920",
-        "news_49944e021934",
-        "news_64c4518efdf8",
-        "news_abdd2cb7f682",
-        "news_3d329caebc2e",
-        "news_ce36241c6c34",
-        "news_15a9ed30bd8a",
-        "news_34fd11732de6",
-        "news_a78f6e0478ea",
-        "news_40c8f15442dc"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_0c9f76072da5",
-      "title": "欧元区建筑业活动8月份降幅加速，新订单创四个月最大跌幅",
-      "firstSeenAt": "2026-09-04T08:58:23.004Z",
-      "lastSeenAt": "2026-09-07T04:52:34.790Z",
-      "primaryItemId": "news_aa101b11de09",
-      "evidenceItemIds": [
-        "news_aa101b11de09",
-        "news_8f2288b17a7e"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_32c44ce79be2",
       "title": "美国8月非农就业人数大超预期，失业率维持不变",
       "firstSeenAt": "2026-09-04T12:49:05.643Z",
-      "lastSeenAt": "2026-09-07T04:52:34.790Z",
+      "lastSeenAt": "2026-09-07T09:23:18.972Z",
       "primaryItemId": "news_d3150920c7d3",
       "evidenceItemIds": [
         "news_79ac5fb5b93b",
@@ -59,10 +22,10 @@
     },
     {
       "eventId": "event_a678dcb442aa",
-      "title": "俄罗斯股市收低；截至收盘MOEX Russia Index基本持平",
+      "title": "沙特阿拉伯股市上涨；截至收盘沙特阿拉伯TASI指数上涨0.32%",
       "firstSeenAt": "2026-09-01T16:50:22.105Z",
-      "lastSeenAt": "2026-09-07T04:52:34.790Z",
-      "primaryItemId": "news_f70af526899f",
+      "lastSeenAt": "2026-09-07T09:23:18.972Z",
+      "primaryItemId": "news_9483c15243f1",
       "evidenceItemIds": [
         "news_023dcd0d28ad",
         "news_22038d02d938",
@@ -91,23 +54,10 @@
       "status": "developing"
     },
     {
-      "eventId": "event_9b2e76cf8c63",
-      "title": "美国8月非农数据大超预期，为何大幅波动？对9月加息、国债走势影响，机构最新解读来了",
-      "firstSeenAt": "2026-09-04T16:28:41.802Z",
-      "lastSeenAt": "2026-09-07T04:52:34.790Z",
-      "primaryItemId": "news_dca60afb8560",
-      "evidenceItemIds": [
-        "news_73dafaaa788e",
-        "news_9de196499131",
-        "news_dca60afb8560"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_7e11c16cb99b",
       "title": "9月7日会员早报：美军周末打击三艘伊朗油轮 Anthropic招股书推迟至9月下旬",
       "firstSeenAt": "2026-09-05T15:25:27.843Z",
-      "lastSeenAt": "2026-09-07T04:52:34.790Z",
+      "lastSeenAt": "2026-09-07T09:23:18.972Z",
       "primaryItemId": "news_69b0463325ca",
       "evidenceItemIds": [
         "news_83304c342d5d",
@@ -118,46 +68,10 @@
       "status": "developing"
     },
     {
-      "eventId": "event_5d28f2dfdda8",
-      "title": "下周重磅日程：中美CPI、苹果折叠屏iPhone首秀、小米华为发布会、欧央行决议",
-      "firstSeenAt": "2026-09-06T04:45:50.547Z",
-      "lastSeenAt": "2026-09-07T04:52:34.790Z",
-      "primaryItemId": "news_f27cb6e95886",
-      "evidenceItemIds": [
-        "news_f27cb6e95886",
-        "news_013bfa80c76f"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_845669b0d0dd",
-      "title": "【早报】中东航线海运价格大幅跳涨；多国推进黄金储备本土化布局",
-      "firstSeenAt": "2026-09-06T04:45:50.547Z",
-      "lastSeenAt": "2026-09-07T04:52:34.790Z",
-      "primaryItemId": "news_55e7841553fd",
-      "evidenceItemIds": [
-        "news_4b53b7794619",
-        "news_55e7841553fd"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_e25ec09e8fd6",
-      "title": "摩根士丹利：微软(MSFT.US)为AI时代重塑业务架构 重申“增持“评级",
-      "firstSeenAt": "2026-09-06T04:45:50.547Z",
-      "lastSeenAt": "2026-09-07T04:52:34.790Z",
-      "primaryItemId": "news_cf4adfcb94cd",
-      "evidenceItemIds": [
-        "news_cf4adfcb94cd",
-        "news_30e5e634485d"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_b8877a7feb26",
       "title": "农业银行拟募资不超过1600亿元用于补充资本；工商银行拟募资不超过1000亿元用于补充资本",
       "firstSeenAt": "2026-09-06T08:43:45.420Z",
-      "lastSeenAt": "2026-09-07T04:52:34.790Z",
+      "lastSeenAt": "2026-09-07T09:23:18.972Z",
       "primaryItemId": "news_c89cff4433f3",
       "evidenceItemIds": [
         "news_c89cff4433f3",
@@ -177,7 +91,7 @@
       "eventId": "event_348cff5173b0",
       "title": "财政部将向中国出口信用保险公司注资100亿元",
       "firstSeenAt": "2026-09-06T08:43:45.420Z",
-      "lastSeenAt": "2026-09-07T04:52:34.790Z",
+      "lastSeenAt": "2026-09-07T09:23:18.972Z",
       "primaryItemId": "news_50478292df54",
       "evidenceItemIds": [
         "news_606b7bfffccc",
@@ -195,7 +109,7 @@
       "eventId": "event_a38b74ffc854",
       "title": "我国首款AI辅助创新药获批上市",
       "firstSeenAt": "2026-09-06T08:43:45.420Z",
-      "lastSeenAt": "2026-09-07T04:52:34.790Z",
+      "lastSeenAt": "2026-09-07T09:23:18.972Z",
       "primaryItemId": "news_2c398624a55e",
       "evidenceItemIds": [
         "news_2c398624a55e",
@@ -207,7 +121,7 @@
       "eventId": "event_202dd878fa19",
       "title": "晚间公告｜9月6日这些公告有看头",
       "firstSeenAt": "2026-07-31T14:43:32.623Z",
-      "lastSeenAt": "2026-09-07T04:52:34.790Z",
+      "lastSeenAt": "2026-09-07T09:23:18.972Z",
       "primaryItemId": "news_a7e36ccebd4b",
       "evidenceItemIds": [
         "news_eaf56a2f5345",
@@ -249,7 +163,7 @@
       "eventId": "event_6cd8dc6f7e16",
       "title": "盘前必读丨8家中央金融企业迎3600亿元增资；*ST萃华将被退市",
       "firstSeenAt": "2026-09-06T12:15:32.501Z",
-      "lastSeenAt": "2026-09-07T04:52:34.790Z",
+      "lastSeenAt": "2026-09-07T09:23:18.972Z",
       "primaryItemId": "news_5de45d854d34",
       "evidenceItemIds": [
         "news_ba4c6e514f5e",
@@ -261,22 +175,10 @@
       "status": "developing"
     },
     {
-      "eventId": "event_570d5dcccb4e",
-      "title": "「循查五步 审慎入市」之捡漏“转板璞玉” 勿信“暴富承诺”",
-      "firstSeenAt": "2026-09-06T12:15:32.501Z",
-      "lastSeenAt": "2026-09-07T04:52:34.790Z",
-      "primaryItemId": "news_3c002e97de96",
-      "evidenceItemIds": [
-        "news_3c002e97de96",
-        "news_70444389b177"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_986282d0988c",
       "title": "泽璟制药(688266.SH)：注射用人促甲状腺素β新适应症上市申请获得受理",
       "firstSeenAt": "2026-09-06T12:15:32.501Z",
-      "lastSeenAt": "2026-09-07T04:52:34.790Z",
+      "lastSeenAt": "2026-09-07T09:23:18.972Z",
       "primaryItemId": "news_1fbac969c1ef",
       "evidenceItemIds": [
         "news_1fbac969c1ef",
@@ -288,7 +190,7 @@
       "eventId": "event_1ea2527ee420",
       "title": "中国证监会就《私募投资基金募集监督管理办法（征求意见稿）》公开征求意见",
       "firstSeenAt": "2026-08-05T06:41:05.050Z",
-      "lastSeenAt": "2026-09-07T04:52:34.790Z",
+      "lastSeenAt": "2026-09-07T09:23:18.972Z",
       "primaryItemId": "news_82de2858666e",
       "evidenceItemIds": [
         "news_4cc3e3bd1fc7",
@@ -303,7 +205,7 @@
       "eventId": "event_e19d9427b69d",
       "title": "农业银行(601288.SH)拟向财政部、中国烟草等定增募资不超1600亿元",
       "firstSeenAt": "2026-09-06T08:43:45.420Z",
-      "lastSeenAt": "2026-09-07T04:52:34.790Z",
+      "lastSeenAt": "2026-09-07T09:23:18.972Z",
       "primaryItemId": "news_8347af5bd586",
       "evidenceItemIds": [
         "news_8347af5bd586",
@@ -315,7 +217,7 @@
       "eventId": "event_78f7421f4843",
       "title": "AI进化速递｜长沙造具身智能机器人拿下欧盟CE“护照”",
       "firstSeenAt": "2026-09-06T15:36:57.224Z",
-      "lastSeenAt": "2026-09-07T04:52:34.790Z",
+      "lastSeenAt": "2026-09-07T09:23:18.972Z",
       "primaryItemId": "news_e098ef2e51e5",
       "evidenceItemIds": [
         "news_e098ef2e51e5",
@@ -327,7 +229,7 @@
       "eventId": "event_32967e3730b8",
       "title": "A股三大指数午间休盘涨跌不一，剑桥科技涨停",
       "firstSeenAt": "2026-08-03T15:23:32.854Z",
-      "lastSeenAt": "2026-09-07T04:52:34.790Z",
+      "lastSeenAt": "2026-09-07T09:23:18.972Z",
       "primaryItemId": "news_37f4186154af",
       "evidenceItemIds": [
         "news_69866ab410e2",
@@ -387,7 +289,7 @@
       "eventId": "event_529af3584dc2",
       "title": "恒指午间休盘跌0.97%，恒生科技指数跌1%",
       "firstSeenAt": "2026-07-31T02:43:30.494Z",
-      "lastSeenAt": "2026-09-07T04:52:34.790Z",
+      "lastSeenAt": "2026-09-07T09:23:18.972Z",
       "primaryItemId": "news_a370a83889a3",
       "evidenceItemIds": [
         "news_663f72230e2f",
@@ -447,7 +349,7 @@
       "eventId": "event_8c89c31f3b3c",
       "title": "A股四大指数集体高开，存储、农业板块涨幅居前",
       "firstSeenAt": "2026-08-28T03:55:53.061Z",
-      "lastSeenAt": "2026-09-07T04:52:34.790Z",
+      "lastSeenAt": "2026-09-07T09:23:18.972Z",
       "primaryItemId": "news_a181d0019ca1",
       "evidenceItemIds": [
         "news_ca24cdb0d0cb",
@@ -469,23 +371,10 @@
       "status": "developing"
     },
     {
-      "eventId": "event_44bdfebcb1a3",
-      "title": "日本疑似抛售美债为创纪录日元干预融资，外汇储备跌破万亿美元",
-      "firstSeenAt": "2026-09-03T12:55:55.174Z",
-      "lastSeenAt": "2026-09-07T04:52:34.790Z",
-      "primaryItemId": "news_42b342ec7215",
-      "evidenceItemIds": [
-        "news_40f4432d17fa",
-        "news_4420a5b1b374",
-        "news_42b342ec7215"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_91fb625edcc6",
       "title": "华尔街见闻早餐FM-Radio | 2026年9月6日",
       "firstSeenAt": "2026-08-01T03:54:06.184Z",
-      "lastSeenAt": "2026-09-07T04:52:34.790Z",
+      "lastSeenAt": "2026-09-07T09:23:18.972Z",
       "primaryItemId": "news_32265c18dcdc",
       "evidenceItemIds": [
         "news_17edaa318161",
@@ -521,7 +410,7 @@
       "eventId": "event_0735e68ab520",
       "title": "云英谷科技(03310）获调入港股通标的证券名单",
       "firstSeenAt": "2026-08-03T07:46:07.010Z",
-      "lastSeenAt": "2026-09-07T04:52:34.790Z",
+      "lastSeenAt": "2026-09-07T09:23:18.972Z",
       "primaryItemId": "news_0d1c9bf556a7",
       "evidenceItemIds": [
         "news_f63a75b780fe",
@@ -540,7 +429,7 @@
       "eventId": "event_fc78ee250bb5",
       "title": "字节跳动获得296亿美元贷款",
       "firstSeenAt": "2026-09-07T04:52:34.790Z",
-      "lastSeenAt": "2026-09-07T04:52:34.790Z",
+      "lastSeenAt": "2026-09-07T09:23:18.972Z",
       "primaryItemId": "news_3e0b185b8dd8",
       "evidenceItemIds": [
         "news_3e0b185b8dd8",
@@ -554,7 +443,7 @@
       "eventId": "event_4ba6b0b3e2e6",
       "title": "T早报｜美国汽车创新联盟敦促国会立法永久禁止中国联网汽车；特斯拉无人驾驶出租车投入小批量运营；工信部发文计划三年培育超万",
       "firstSeenAt": "2026-09-07T04:52:34.790Z",
-      "lastSeenAt": "2026-09-07T04:52:34.790Z",
+      "lastSeenAt": "2026-09-07T09:23:18.972Z",
       "primaryItemId": "news_86c4fb6b322e",
       "evidenceItemIds": [
         "news_86c4fb6b322e",
@@ -566,7 +455,7 @@
       "eventId": "event_a16a9485fbd8",
       "title": "第二批特别国债注资银行落地 农行、工行、进出口行合计2300亿元",
       "firstSeenAt": "2026-09-07T04:52:34.790Z",
-      "lastSeenAt": "2026-09-07T04:52:34.790Z",
+      "lastSeenAt": "2026-09-07T09:23:18.972Z",
       "primaryItemId": "news_238ff9ba3a12",
       "evidenceItemIds": [
         "news_238ff9ba3a12",
@@ -578,11 +467,299 @@
       "eventId": "event_c782e17e1b07",
       "title": "《蚝乡启示录：行稳致远》下篇",
       "firstSeenAt": "2026-09-07T04:52:34.790Z",
-      "lastSeenAt": "2026-09-07T04:52:34.790Z",
+      "lastSeenAt": "2026-09-07T09:23:18.972Z",
       "primaryItemId": "news_97ce01d0d069",
       "evidenceItemIds": [
         "news_97ce01d0d069",
         "news_1ba7533d5a91"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_0737eac2cabb",
+      "title": "连板股追踪丨A股今日共95只个股涨停 这只传媒股6连板",
+      "firstSeenAt": "2026-07-31T02:43:30.494Z",
+      "lastSeenAt": "2026-09-07T09:23:18.972Z",
+      "primaryItemId": "news_4a8649e8ea6a",
+      "evidenceItemIds": [
+        "news_cf2b97a75d61",
+        "news_6b2b1bbc6628",
+        "news_0b0558cddf77",
+        "news_2a647756104e",
+        "news_8818289af9a3",
+        "news_11eae49a5b16",
+        "news_9e9caeefd1f2",
+        "news_83287e13cba2",
+        "news_8b8e574d724a",
+        "news_ac696b49df1d",
+        "news_715b15a27912",
+        "news_ecd33045b37e",
+        "news_1870ff4e37cf",
+        "news_98c908c2489d",
+        "news_6c2d9bece434",
+        "news_989085d79c58",
+        "news_10ae0a524615",
+        "news_c6e8e7ce3d1c",
+        "news_db44bec3d3da",
+        "news_30483ad43cda",
+        "news_61212134cdd7",
+        "news_0bce4f63f0f1",
+        "news_7d9073d69bfc",
+        "news_4ef716030320",
+        "news_c67366d8076f",
+        "news_37541f809c24",
+        "news_13504293c80d",
+        "news_f57742543118",
+        "news_4a8649e8ea6a"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_ce5e0cbed733",
+      "title": "港股评级汇总：国泰海通维持MINIMAX买入评级",
+      "firstSeenAt": "2026-08-10T09:54:06.980Z",
+      "lastSeenAt": "2026-09-07T09:23:18.972Z",
+      "primaryItemId": "news_7aab41009db1",
+      "evidenceItemIds": [
+        "news_ff8ada5d229d",
+        "news_038fffd08eb2",
+        "news_1e24c2798e8a",
+        "news_bb4bd2fad08a",
+        "news_ed66993623e9",
+        "news_8121a51025df",
+        "news_31f70992e4d6",
+        "news_7d319f1977ad",
+        "news_ce5ef69b3645",
+        "news_8858d68446e1",
+        "news_e65d8766e53e",
+        "news_ff0c0951c8a4",
+        "news_53200861da44",
+        "news_2abf9cd536fd",
+        "news_1645ce94fd72",
+        "news_663d397b7ae3",
+        "news_7aab41009db1"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_6ba5b1519ce4",
+      "title": "诺华股票今日为何下跌？",
+      "firstSeenAt": "2026-08-13T13:53:29.824Z",
+      "lastSeenAt": "2026-09-07T09:23:18.972Z",
+      "primaryItemId": "news_277c6727ba80",
+      "evidenceItemIds": [
+        "news_c4448c62c560",
+        "news_39f250fe1b13",
+        "news_277c6727ba80",
+        "news_95d7d7e6ea7d"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_9b07e5aeae8e",
+      "title": "中国证监会原副主席王建军一审被判无期徒刑",
+      "firstSeenAt": "2026-09-07T09:23:18.972Z",
+      "lastSeenAt": "2026-09-07T09:23:18.972Z",
+      "primaryItemId": "news_656228feefcf",
+      "evidenceItemIds": [
+        "news_656228feefcf",
+        "news_7436191abad6"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_b5d1505176b1",
+      "title": "商务部：调查机关初步认定原产于日本的进口二氯二氢硅存在倾销",
+      "firstSeenAt": "2026-09-07T09:23:18.972Z",
+      "lastSeenAt": "2026-09-07T09:23:18.972Z",
+      "primaryItemId": "news_a57ebded6e85",
+      "evidenceItemIds": [
+        "news_a57ebded6e85",
+        "news_1ec50243968c"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_154360b91bdb",
+      "title": "【每日收评】创业板指震荡走高涨超3%，算力硬件股全线爆发，农业股反复活跃",
+      "firstSeenAt": "2026-09-07T09:23:18.972Z",
+      "lastSeenAt": "2026-09-07T09:23:18.972Z",
+      "primaryItemId": "news_18784f308ba6",
+      "evidenceItemIds": [
+        "news_18784f308ba6",
+        "news_e33d1f52eab4"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_04dced176e4c",
+      "title": "资管周报：首个针对私募募集的行业规范出台；银行理财子“打新”获配燧原科技超2300万",
+      "firstSeenAt": "2026-09-07T09:23:18.972Z",
+      "lastSeenAt": "2026-09-07T09:23:18.972Z",
+      "primaryItemId": "news_98b04eef8b33",
+      "evidenceItemIds": [
+        "news_98b04eef8b33",
+        "news_78ac4bbccd2a",
+        "news_071605b49d60"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_f281ae246122",
+      "title": "广深部分银行个人经营贷定价明显上行，放款利率已超过4%",
+      "firstSeenAt": "2026-09-07T09:23:18.972Z",
+      "lastSeenAt": "2026-09-07T09:23:18.972Z",
+      "primaryItemId": "news_bf15fafd0c5a",
+      "evidenceItemIds": [
+        "news_bf15fafd0c5a",
+        "news_798586358218"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_a78c043a09d5",
+      "title": "“紫创智械”完成数千万元融资",
+      "firstSeenAt": "2026-09-07T09:23:18.972Z",
+      "lastSeenAt": "2026-09-07T09:23:18.972Z",
+      "primaryItemId": "news_12955ea3b037",
+      "evidenceItemIds": [
+        "news_12955ea3b037",
+        "news_59f6abaa7db5"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_26ab88765815",
+      "title": "中汽协：7月汽车整车出口109.2万辆，同比增长57.5%",
+      "firstSeenAt": "2026-09-07T09:23:18.972Z",
+      "lastSeenAt": "2026-09-07T09:23:18.972Z",
+      "primaryItemId": "news_0ab55e2bbcd1",
+      "evidenceItemIds": [
+        "news_0ab55e2bbcd1",
+        "news_b4cf57469f70"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_315991b0232c",
+      "title": "匈牙利7月工业产出增长4.7%，超出市场预期",
+      "firstSeenAt": "2026-09-07T09:23:18.972Z",
+      "lastSeenAt": "2026-09-07T09:23:18.972Z",
+      "primaryItemId": "news_19b23ed4b4a9",
+      "evidenceItemIds": [
+        "news_19b23ed4b4a9",
+        "news_980badd63075"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_7aaa6b5b3da9",
+      "title": "高盛交易台主管：OpenAI的Astra模型“脱颖而出”，这正是“AI牛市一直在等的”",
+      "firstSeenAt": "2026-09-03T12:55:55.174Z",
+      "lastSeenAt": "2026-09-07T04:52:34.790Z",
+      "primaryItemId": "news_a78f6e0478ea",
+      "evidenceItemIds": [
+        "news_6a130cf8940d",
+        "news_d315f9c51ea1",
+        "news_a99f5482a5e9",
+        "news_3351574f9022",
+        "news_d96f5567848b",
+        "news_e703116af920",
+        "news_49944e021934",
+        "news_64c4518efdf8",
+        "news_abdd2cb7f682",
+        "news_3d329caebc2e",
+        "news_ce36241c6c34",
+        "news_15a9ed30bd8a",
+        "news_34fd11732de6",
+        "news_a78f6e0478ea",
+        "news_40c8f15442dc"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_0c9f76072da5",
+      "title": "欧元区建筑业活动8月份降幅加速，新订单创四个月最大跌幅",
+      "firstSeenAt": "2026-09-04T08:58:23.004Z",
+      "lastSeenAt": "2026-09-07T04:52:34.790Z",
+      "primaryItemId": "news_aa101b11de09",
+      "evidenceItemIds": [
+        "news_aa101b11de09",
+        "news_8f2288b17a7e"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_9b2e76cf8c63",
+      "title": "美国8月非农数据大超预期，为何大幅波动？对9月加息、国债走势影响，机构最新解读来了",
+      "firstSeenAt": "2026-09-04T16:28:41.802Z",
+      "lastSeenAt": "2026-09-07T04:52:34.790Z",
+      "primaryItemId": "news_dca60afb8560",
+      "evidenceItemIds": [
+        "news_73dafaaa788e",
+        "news_9de196499131",
+        "news_dca60afb8560"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_5d28f2dfdda8",
+      "title": "下周重磅日程：中美CPI、苹果折叠屏iPhone首秀、小米华为发布会、欧央行决议",
+      "firstSeenAt": "2026-09-06T04:45:50.547Z",
+      "lastSeenAt": "2026-09-07T04:52:34.790Z",
+      "primaryItemId": "news_f27cb6e95886",
+      "evidenceItemIds": [
+        "news_f27cb6e95886",
+        "news_013bfa80c76f"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_845669b0d0dd",
+      "title": "【早报】中东航线海运价格大幅跳涨；多国推进黄金储备本土化布局",
+      "firstSeenAt": "2026-09-06T04:45:50.547Z",
+      "lastSeenAt": "2026-09-07T04:52:34.790Z",
+      "primaryItemId": "news_55e7841553fd",
+      "evidenceItemIds": [
+        "news_4b53b7794619",
+        "news_55e7841553fd"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_e25ec09e8fd6",
+      "title": "摩根士丹利：微软(MSFT.US)为AI时代重塑业务架构 重申“增持“评级",
+      "firstSeenAt": "2026-09-06T04:45:50.547Z",
+      "lastSeenAt": "2026-09-07T04:52:34.790Z",
+      "primaryItemId": "news_cf4adfcb94cd",
+      "evidenceItemIds": [
+        "news_cf4adfcb94cd",
+        "news_30e5e634485d"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_570d5dcccb4e",
+      "title": "「循查五步 审慎入市」之捡漏“转板璞玉” 勿信“暴富承诺”",
+      "firstSeenAt": "2026-09-06T12:15:32.501Z",
+      "lastSeenAt": "2026-09-07T04:52:34.790Z",
+      "primaryItemId": "news_3c002e97de96",
+      "evidenceItemIds": [
+        "news_3c002e97de96",
+        "news_70444389b177"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_44bdfebcb1a3",
+      "title": "日本疑似抛售美债为创纪录日元干预融资，外汇储备跌破万亿美元",
+      "firstSeenAt": "2026-09-03T12:55:55.174Z",
+      "lastSeenAt": "2026-09-07T04:52:34.790Z",
+      "primaryItemId": "news_42b342ec7215",
+      "evidenceItemIds": [
+        "news_40f4432d17fa",
+        "news_4420a5b1b374",
+        "news_42b342ec7215"
       ],
       "status": "developing"
     },
@@ -810,70 +987,6 @@
       "evidenceItemIds": [
         "news_f57bbd43c501",
         "news_e95ecad50dc7"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_0737eac2cabb",
-      "title": "连板股追踪丨A股今日共42只个股涨停 龙版传媒5连板",
-      "firstSeenAt": "2026-07-31T02:43:30.494Z",
-      "lastSeenAt": "2026-09-04T16:28:41.802Z",
-      "primaryItemId": "news_f57742543118",
-      "evidenceItemIds": [
-        "news_cf2b97a75d61",
-        "news_6b2b1bbc6628",
-        "news_0b0558cddf77",
-        "news_2a647756104e",
-        "news_8818289af9a3",
-        "news_11eae49a5b16",
-        "news_9e9caeefd1f2",
-        "news_83287e13cba2",
-        "news_8b8e574d724a",
-        "news_ac696b49df1d",
-        "news_715b15a27912",
-        "news_ecd33045b37e",
-        "news_1870ff4e37cf",
-        "news_98c908c2489d",
-        "news_6c2d9bece434",
-        "news_989085d79c58",
-        "news_10ae0a524615",
-        "news_c6e8e7ce3d1c",
-        "news_db44bec3d3da",
-        "news_30483ad43cda",
-        "news_61212134cdd7",
-        "news_0bce4f63f0f1",
-        "news_7d9073d69bfc",
-        "news_4ef716030320",
-        "news_c67366d8076f",
-        "news_37541f809c24",
-        "news_13504293c80d",
-        "news_f57742543118"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_ce5e0cbed733",
-      "title": "港股评级汇总：招银国际维持中国太保买入评级",
-      "firstSeenAt": "2026-08-10T09:54:06.980Z",
-      "lastSeenAt": "2026-09-04T16:28:41.802Z",
-      "primaryItemId": "news_663d397b7ae3",
-      "evidenceItemIds": [
-        "news_ff8ada5d229d",
-        "news_038fffd08eb2",
-        "news_1e24c2798e8a",
-        "news_bb4bd2fad08a",
-        "news_ed66993623e9",
-        "news_8121a51025df",
-        "news_31f70992e4d6",
-        "news_7d319f1977ad",
-        "news_ce5ef69b3645",
-        "news_8858d68446e1",
-        "news_e65d8766e53e",
-        "news_ff0c0951c8a4",
-        "news_53200861da44",
-        "news_2abf9cd536fd",
-        "news_1645ce94fd72",
-        "news_663d397b7ae3"
       ],
       "status": "developing"
     },
@@ -5768,18 +5881,6 @@
       "evidenceItemIds": [
         "news_5acc432666f0",
         "news_2bb0c0359d61"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_6ba5b1519ce4",
-      "title": "Hyliion股票今日为何大涨？",
-      "firstSeenAt": "2026-08-13T13:53:29.824Z",
-      "lastSeenAt": "2026-08-14T05:46:46.798Z",
-      "primaryItemId": "news_c4448c62c560",
-      "evidenceItemIds": [
-        "news_c4448c62c560",
-        "news_39f250fe1b13"
       ],
       "status": "developing"
     },

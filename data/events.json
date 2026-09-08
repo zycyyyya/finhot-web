@@ -1,31 +1,14 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-09-08T12:56:10.065Z",
+  "generatedAt": "2026-09-08T16:46:11.908Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
-      "eventId": "event_fc78ee250bb5",
-      "title": "T早报｜字节跳动获得296亿美元贷款；摩尔线程解禁日大跌20%；宇树科技首次实现人形机器人全自主搏击",
-      "firstSeenAt": "2026-09-07T04:52:34.790Z",
-      "lastSeenAt": "2026-09-08T12:56:10.065Z",
-      "primaryItemId": "news_7e5660e02aea",
-      "evidenceItemIds": [
-        "news_3e0b185b8dd8",
-        "news_9ca37e423c60",
-        "news_7e66d9f9fbd6",
-        "news_c647a3b014ae",
-        "news_7e5660e02aea",
-        "news_e7e1f80de9c1",
-        "news_a82fc063a712"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_0737eac2cabb",
       "title": "连板股追踪丨A股今日共75只个股涨停 这只农业股4连板",
       "firstSeenAt": "2026-07-31T02:43:30.494Z",
-      "lastSeenAt": "2026-09-08T12:56:10.065Z",
+      "lastSeenAt": "2026-09-08T16:46:11.908Z",
       "primaryItemId": "news_aaf35e751054",
       "evidenceItemIds": [
         "news_cf2b97a75d61",
@@ -62,26 +45,11 @@
       "status": "developing"
     },
     {
-      "eventId": "event_26ab88765815",
-      "title": "中汽协：7月汽车零部件产品出口金额达93.4亿美元，同比增长13.9%",
-      "firstSeenAt": "2026-09-07T09:23:18.972Z",
-      "lastSeenAt": "2026-09-08T12:56:10.065Z",
-      "primaryItemId": "news_c49834fb4d09",
-      "evidenceItemIds": [
-        "news_0ab55e2bbcd1",
-        "news_b4cf57469f70",
-        "news_c49834fb4d09",
-        "news_e860a853c740",
-        "news_0fec3220c10e"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_315991b0232c",
-      "title": "匈牙利7月工业产出增长4.7%，超出市场预期",
+      "title": "德国7月出口下滑0.8%，表现逊于市场预期",
       "firstSeenAt": "2026-09-07T09:23:18.972Z",
-      "lastSeenAt": "2026-09-08T12:56:10.065Z",
-      "primaryItemId": "news_19b23ed4b4a9",
+      "lastSeenAt": "2026-09-08T16:46:11.908Z",
+      "primaryItemId": "news_608c66723c58",
       "evidenceItemIds": [
         "news_19b23ed4b4a9",
         "news_980badd63075",
@@ -93,7 +61,7 @@
       "eventId": "event_a678dcb442aa",
       "title": "沙特阿拉伯股市上涨；截至收盘沙特阿拉伯TASI指数上涨0.10%",
       "firstSeenAt": "2026-09-01T16:50:22.105Z",
-      "lastSeenAt": "2026-09-08T12:56:10.065Z",
+      "lastSeenAt": "2026-09-08T16:46:11.908Z",
       "primaryItemId": "news_9824e39c5142",
       "evidenceItemIds": [
         "news_023dcd0d28ad",
@@ -131,12 +99,11 @@
     },
     {
       "eventId": "event_32967e3730b8",
-      "title": "A股三大指数午间休盘涨跌不一，磷化工概念走强",
+      "title": "热门中概股美股盘前多数下跌，百度跌超7%",
       "firstSeenAt": "2026-08-03T15:23:32.854Z",
-      "lastSeenAt": "2026-09-08T12:56:10.065Z",
-      "primaryItemId": "news_ebd7d27958bd",
+      "lastSeenAt": "2026-09-08T16:46:11.908Z",
+      "primaryItemId": "news_7f1f1443eeba",
       "evidenceItemIds": [
-        "news_d3b1a6fd627e",
         "news_42ca90256576",
         "news_04a959a73a68",
         "news_92257b4a2373",
@@ -185,7 +152,197 @@
         "news_37f4186154af",
         "news_52aa5224525d",
         "news_ebd7d27958bd",
-        "news_13b5cff6a261"
+        "news_13b5cff6a261",
+        "news_7f1f1443eeba"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_d0eab2e69794",
+      "title": "港股收盘 | 三大指数集体走弱 AI产业链遇冷",
+      "firstSeenAt": "2026-08-12T09:36:00.204Z",
+      "lastSeenAt": "2026-09-08T16:46:11.908Z",
+      "primaryItemId": "news_900b2b1e74c7",
+      "evidenceItemIds": [
+        "news_e612d57ecd1e",
+        "news_54b7543653d7",
+        "news_db4ef827f439",
+        "news_900b2b1e74c7",
+        "news_204d2a2927f7"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_10e5afd78e2e",
+      "title": "60亿美元交易告吹！传Anthropic放弃收购以色列AI创企Decart AI",
+      "firstSeenAt": "2026-08-13T09:37:48.214Z",
+      "lastSeenAt": "2026-09-08T16:46:11.908Z",
+      "primaryItemId": "news_4256de86df74",
+      "evidenceItemIds": [
+        "news_b6c57b59502a",
+        "news_a575435eabf1",
+        "news_4256de86df74",
+        "news_61adb1cb3f81",
+        "news_ecc72572312b"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_f20ceb85f19d",
+      "title": "工信部：2030年全面建成新一代通信网",
+      "firstSeenAt": "2026-09-08T08:53:27.501Z",
+      "lastSeenAt": "2026-09-08T16:46:11.908Z",
+      "primaryItemId": "news_f869010c5700",
+      "evidenceItemIds": [
+        "news_f869010c5700",
+        "news_5caf03c29fe6"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_3e490498ed45",
+      "title": "市场监管总局：到2030年全国放心消费集聚区达5000个以上、重点领域放心消费单元广泛覆盖",
+      "firstSeenAt": "2026-09-08T08:53:27.501Z",
+      "lastSeenAt": "2026-09-08T16:46:11.908Z",
+      "primaryItemId": "news_7e9783453a77",
+      "evidenceItemIds": [
+        "news_7e9783453a77",
+        "news_57b3201f7529"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_202dd878fa19",
+      "title": "晚间公告｜9月8日这些公告有看头",
+      "firstSeenAt": "2026-07-31T14:43:32.623Z",
+      "lastSeenAt": "2026-09-08T16:46:11.908Z",
+      "primaryItemId": "news_ad121ea558e3",
+      "evidenceItemIds": [
+        "news_eaf56a2f5345",
+        "news_8b256f193830",
+        "news_58fdd88ca5ff",
+        "news_4cac4c806a4b",
+        "news_f202b91c5619",
+        "news_c91687230a2c",
+        "news_958c3f39adb1",
+        "news_a328d8732020",
+        "news_042b264c9695",
+        "news_0f321ef4412b",
+        "news_6fe4b8332584",
+        "news_f755ad25cd3e",
+        "news_6d13f9de9d52",
+        "news_bd988cf929f3",
+        "news_a6888af31e73",
+        "news_8429689faaae",
+        "news_f88525090167",
+        "news_0ab1f5803307",
+        "news_141a625db923",
+        "news_9ac737e4924a",
+        "news_60885ba55001",
+        "news_9d3c513ffc0f",
+        "news_3e80b0340e44",
+        "news_56a89494a39c",
+        "news_69264b26c3e7",
+        "news_514b54e00f99",
+        "news_67ca015f8000",
+        "news_3108d5eeee52",
+        "news_4d0de13affc5",
+        "news_d0b6ffb1536e",
+        "news_f8b9c9518289",
+        "news_a7e36ccebd4b",
+        "news_e633763695a5",
+        "news_ad121ea558e3"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_73f4b1fb41a8",
+      "title": "龙虎榜丨机构今日买入这17股，卖出博云新材2.12亿元",
+      "firstSeenAt": "2026-08-03T11:50:30.990Z",
+      "lastSeenAt": "2026-09-08T16:46:11.908Z",
+      "primaryItemId": "news_03577cf502cc",
+      "evidenceItemIds": [
+        "news_de7d0ba05e16",
+        "news_e7a76dcea2a8",
+        "news_d9bbbfd32f43",
+        "news_9d97988a8b31",
+        "news_f8e689022fb3",
+        "news_a41d521c5c53",
+        "news_50b190578187",
+        "news_45437b89e860",
+        "news_d1e40824a959",
+        "news_d35397f00f85",
+        "news_28eb220b6d7d",
+        "news_83a8f0bce8bc",
+        "news_a434c7856598",
+        "news_a8c173d2f58f",
+        "news_f7c76b8d1160",
+        "news_be3920c8ab0f",
+        "news_7a02bb038160",
+        "news_5e9ecf83e613",
+        "news_40d2672e7c11",
+        "news_c0cf1488e336",
+        "news_9b61e52ad416",
+        "news_93d30ccfe80b",
+        "news_6b446ac18e20",
+        "news_52fedf4cbbb1",
+        "news_03577cf502cc"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_f3ca3ba1114f",
+      "title": "剑指十万亿美元企业债市场 Anthropic与OpenAI谋求上市即获投资级评级",
+      "firstSeenAt": "2026-09-08T12:56:10.065Z",
+      "lastSeenAt": "2026-09-08T16:46:11.908Z",
+      "primaryItemId": "news_37c45275618d",
+      "evidenceItemIds": [
+        "news_37c45275618d",
+        "news_95bca4e6a8fa"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_7fde380f7a94",
+      "title": "苹果罕见签3-5年NAND长约、或不设价格上限，AI挤占产能令存储议价权易主",
+      "firstSeenAt": "2026-09-08T12:56:10.065Z",
+      "lastSeenAt": "2026-09-08T16:46:11.908Z",
+      "primaryItemId": "news_c94a6496dddc",
+      "evidenceItemIds": [
+        "news_c94a6496dddc",
+        "news_f395f0197a71"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_fc78ee250bb5",
+      "title": "T早报｜字节跳动获得296亿美元贷款；摩尔线程解禁日大跌20%；宇树科技首次实现人形机器人全自主搏击",
+      "firstSeenAt": "2026-09-07T04:52:34.790Z",
+      "lastSeenAt": "2026-09-08T12:56:10.065Z",
+      "primaryItemId": "news_7e5660e02aea",
+      "evidenceItemIds": [
+        "news_3e0b185b8dd8",
+        "news_9ca37e423c60",
+        "news_7e66d9f9fbd6",
+        "news_c647a3b014ae",
+        "news_7e5660e02aea",
+        "news_e7e1f80de9c1",
+        "news_a82fc063a712"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_26ab88765815",
+      "title": "中汽协：7月汽车零部件产品出口金额达93.4亿美元，同比增长13.9%",
+      "firstSeenAt": "2026-09-07T09:23:18.972Z",
+      "lastSeenAt": "2026-09-08T12:56:10.065Z",
+      "primaryItemId": "news_c49834fb4d09",
+      "evidenceItemIds": [
+        "news_0ab55e2bbcd1",
+        "news_b4cf57469f70",
+        "news_c49834fb4d09",
+        "news_e860a853c740",
+        "news_0fec3220c10e"
       ],
       "status": "developing"
     },
@@ -313,35 +470,6 @@
       "status": "developing"
     },
     {
-      "eventId": "event_d0eab2e69794",
-      "title": "港股收盘 | 三大指数集体走弱 AI产业链遇冷",
-      "firstSeenAt": "2026-08-12T09:36:00.204Z",
-      "lastSeenAt": "2026-09-08T12:56:10.065Z",
-      "primaryItemId": "news_900b2b1e74c7",
-      "evidenceItemIds": [
-        "news_e612d57ecd1e",
-        "news_54b7543653d7",
-        "news_db4ef827f439",
-        "news_900b2b1e74c7",
-        "news_204d2a2927f7"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_10e5afd78e2e",
-      "title": "60亿美元交易告吹！传Anthropic放弃收购以色列AI创企Decart AI",
-      "firstSeenAt": "2026-08-13T09:37:48.214Z",
-      "lastSeenAt": "2026-09-08T12:56:10.065Z",
-      "primaryItemId": "news_4256de86df74",
-      "evidenceItemIds": [
-        "news_b6c57b59502a",
-        "news_a575435eabf1",
-        "news_4256de86df74",
-        "news_61adb1cb3f81"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_68c0bd76d46a",
       "title": "美联储加息概率升至60%、油价逼近100美元，金价为何逆势反弹？",
       "firstSeenAt": "2026-09-08T08:53:27.501Z",
@@ -350,133 +478,6 @@
       "evidenceItemIds": [
         "news_fba77337957b",
         "news_41f6170d2667"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_f20ceb85f19d",
-      "title": "工信部：2030年全面建成新一代通信网",
-      "firstSeenAt": "2026-09-08T08:53:27.501Z",
-      "lastSeenAt": "2026-09-08T12:56:10.065Z",
-      "primaryItemId": "news_f869010c5700",
-      "evidenceItemIds": [
-        "news_f869010c5700",
-        "news_5caf03c29fe6"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_3e490498ed45",
-      "title": "市场监管总局：到2030年全国放心消费集聚区达5000个以上、重点领域放心消费单元广泛覆盖",
-      "firstSeenAt": "2026-09-08T08:53:27.501Z",
-      "lastSeenAt": "2026-09-08T12:56:10.065Z",
-      "primaryItemId": "news_7e9783453a77",
-      "evidenceItemIds": [
-        "news_7e9783453a77",
-        "news_57b3201f7529"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_202dd878fa19",
-      "title": "晚间公告｜9月8日这些公告有看头",
-      "firstSeenAt": "2026-07-31T14:43:32.623Z",
-      "lastSeenAt": "2026-09-08T12:56:10.065Z",
-      "primaryItemId": "news_ad121ea558e3",
-      "evidenceItemIds": [
-        "news_eaf56a2f5345",
-        "news_8b256f193830",
-        "news_58fdd88ca5ff",
-        "news_4cac4c806a4b",
-        "news_f202b91c5619",
-        "news_c91687230a2c",
-        "news_958c3f39adb1",
-        "news_a328d8732020",
-        "news_042b264c9695",
-        "news_0f321ef4412b",
-        "news_6fe4b8332584",
-        "news_f755ad25cd3e",
-        "news_6d13f9de9d52",
-        "news_bd988cf929f3",
-        "news_a6888af31e73",
-        "news_8429689faaae",
-        "news_f88525090167",
-        "news_0ab1f5803307",
-        "news_141a625db923",
-        "news_9ac737e4924a",
-        "news_60885ba55001",
-        "news_9d3c513ffc0f",
-        "news_3e80b0340e44",
-        "news_56a89494a39c",
-        "news_69264b26c3e7",
-        "news_514b54e00f99",
-        "news_67ca015f8000",
-        "news_3108d5eeee52",
-        "news_4d0de13affc5",
-        "news_d0b6ffb1536e",
-        "news_f8b9c9518289",
-        "news_a7e36ccebd4b",
-        "news_e633763695a5",
-        "news_ad121ea558e3"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_73f4b1fb41a8",
-      "title": "龙虎榜丨机构今日买入这17股，卖出博云新材2.12亿元",
-      "firstSeenAt": "2026-08-03T11:50:30.990Z",
-      "lastSeenAt": "2026-09-08T12:56:10.065Z",
-      "primaryItemId": "news_03577cf502cc",
-      "evidenceItemIds": [
-        "news_de7d0ba05e16",
-        "news_e7a76dcea2a8",
-        "news_d9bbbfd32f43",
-        "news_9d97988a8b31",
-        "news_f8e689022fb3",
-        "news_a41d521c5c53",
-        "news_50b190578187",
-        "news_45437b89e860",
-        "news_d1e40824a959",
-        "news_d35397f00f85",
-        "news_28eb220b6d7d",
-        "news_83a8f0bce8bc",
-        "news_a434c7856598",
-        "news_a8c173d2f58f",
-        "news_f7c76b8d1160",
-        "news_be3920c8ab0f",
-        "news_7a02bb038160",
-        "news_5e9ecf83e613",
-        "news_40d2672e7c11",
-        "news_c0cf1488e336",
-        "news_9b61e52ad416",
-        "news_93d30ccfe80b",
-        "news_6b446ac18e20",
-        "news_52fedf4cbbb1",
-        "news_03577cf502cc"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_f3ca3ba1114f",
-      "title": "剑指十万亿美元企业债市场 Anthropic与OpenAI谋求上市即获投资级评级",
-      "firstSeenAt": "2026-09-08T12:56:10.065Z",
-      "lastSeenAt": "2026-09-08T12:56:10.065Z",
-      "primaryItemId": "news_37c45275618d",
-      "evidenceItemIds": [
-        "news_37c45275618d",
-        "news_95bca4e6a8fa"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_7fde380f7a94",
-      "title": "苹果罕见签3-5年NAND长约、或不设价格上限，AI挤占产能令存储议价权易主",
-      "firstSeenAt": "2026-09-08T12:56:10.065Z",
-      "lastSeenAt": "2026-09-08T12:56:10.065Z",
-      "primaryItemId": "news_c94a6496dddc",
-      "evidenceItemIds": [
-        "news_c94a6496dddc",
-        "news_f395f0197a71"
       ],
       "status": "developing"
     },

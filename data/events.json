@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-09-09T13:05:29.700Z",
+  "generatedAt": "2026-09-09T16:51:08.967Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -8,7 +8,7 @@
       "eventId": "event_315991b0232c",
       "title": "法国7月工业产出下滑0.4%，逊于市场预期",
       "firstSeenAt": "2026-09-07T09:23:18.972Z",
-      "lastSeenAt": "2026-09-09T13:05:29.700Z",
+      "lastSeenAt": "2026-09-09T16:51:08.967Z",
       "primaryItemId": "news_f4dc2ebd24a4",
       "evidenceItemIds": [
         "news_19b23ed4b4a9",
@@ -22,7 +22,7 @@
       "eventId": "event_a678dcb442aa",
       "title": "沙特阿拉伯股市收低；截至收盘沙特阿拉伯TASI指数下跌0.19%",
       "firstSeenAt": "2026-09-01T16:50:22.105Z",
-      "lastSeenAt": "2026-09-09T13:05:29.700Z",
+      "lastSeenAt": "2026-09-09T16:51:08.967Z",
       "primaryItemId": "news_bb3ab743c93d",
       "evidenceItemIds": [
         "news_023dcd0d28ad",
@@ -61,10 +61,10 @@
     },
     {
       "eventId": "event_32967e3730b8",
-      "title": "A股四大指数集体高开，光通信、半导体板块走强",
+      "title": "热门中概股美股盘前多数下跌，哔哩哔哩跌超2%",
       "firstSeenAt": "2026-08-03T15:23:32.854Z",
-      "lastSeenAt": "2026-09-09T13:05:29.700Z",
-      "primaryItemId": "news_f6fe41b67e96",
+      "lastSeenAt": "2026-09-09T16:51:08.967Z",
+      "primaryItemId": "news_6b40c15032cc",
       "evidenceItemIds": [
         "news_734d74c93284",
         "news_7a77b49fc9c2",
@@ -123,7 +123,7 @@
       "eventId": "event_d0eab2e69794",
       "title": "港股收盘 | 三大指数集体收跌 煤炭及电力设备股逆势走强",
       "firstSeenAt": "2026-08-12T09:36:00.204Z",
-      "lastSeenAt": "2026-09-09T13:05:29.700Z",
+      "lastSeenAt": "2026-09-09T16:51:08.967Z",
       "primaryItemId": "news_640e2ac7dedc",
       "evidenceItemIds": [
         "news_e612d57ecd1e",
@@ -139,7 +139,7 @@
       "eventId": "event_529af3584dc2",
       "title": "恒指收跌0.17%，恒生科技指数跌0.76%",
       "firstSeenAt": "2026-07-31T02:43:30.494Z",
-      "lastSeenAt": "2026-09-09T13:05:29.700Z",
+      "lastSeenAt": "2026-09-09T16:51:08.967Z",
       "primaryItemId": "news_e7ee6601c3cf",
       "evidenceItemIds": [
         "news_663b8633b560",
@@ -196,47 +196,10 @@
       "status": "developing"
     },
     {
-      "eventId": "event_845290031c03",
-      "title": "贝森特警告日元空头：我现在是庄家，想对赌尽管来！",
-      "firstSeenAt": "2026-09-09T04:48:18.184Z",
-      "lastSeenAt": "2026-09-09T13:05:29.700Z",
-      "primaryItemId": "news_af2f80e4865c",
-      "evidenceItemIds": [
-        "news_af2f80e4865c",
-        "news_3738715f83be",
-        "news_846f571c74ea"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_39601158658e",
-      "title": "8月CPI、PPI同比涨幅扩大、环比由降转涨 由何拉动？",
-      "firstSeenAt": "2026-09-09T04:48:18.184Z",
-      "lastSeenAt": "2026-09-09T13:05:29.700Z",
-      "primaryItemId": "news_c8fb1beca310",
-      "evidenceItemIds": [
-        "news_c8fb1beca310",
-        "news_eab897d9420a"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_58cf4708fbdc",
-      "title": "T早报｜DeepSeek扩招150人；Meta发布个人AI智能体Muse；华为“韬定律”芯片麒麟9050 Pro首现身",
-      "firstSeenAt": "2026-09-09T04:48:18.184Z",
-      "lastSeenAt": "2026-09-09T13:05:29.700Z",
-      "primaryItemId": "news_abf7d49a0fe0",
-      "evidenceItemIds": [
-        "news_abf7d49a0fe0",
-        "news_ac87e3ae77e8"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_768d07aba4e4",
       "title": "美伊战事推升油价逼近百元关口，亚洲芯片股延续涨势，SK海力士涨逾3%，金银齐升",
       "firstSeenAt": "2026-09-09T04:48:18.184Z",
-      "lastSeenAt": "2026-09-09T13:05:29.700Z",
+      "lastSeenAt": "2026-09-09T16:51:08.967Z",
       "primaryItemId": "news_e53c86749a42",
       "evidenceItemIds": [
         "news_e53c86749a42",
@@ -245,40 +208,17 @@
       "status": "developing"
     },
     {
-      "eventId": "event_082ab0476e93",
-      "title": "盘前必读丨美股光通信板块逆势大涨；江波龙首次回购耗资4.48亿元",
-      "firstSeenAt": "2026-09-09T04:48:18.184Z",
-      "lastSeenAt": "2026-09-09T13:05:29.700Z",
-      "primaryItemId": "news_f1c03b199863",
-      "evidenceItemIds": [
-        "news_f1c03b199863",
-        "news_a636bf75002e"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_1a38612f1a6c",
       "title": "国家统计局：2026年8月份CPI温和回升 PPI同比涨幅扩大",
       "firstSeenAt": "2026-09-09T04:48:18.184Z",
-      "lastSeenAt": "2026-09-09T13:05:29.700Z",
+      "lastSeenAt": "2026-09-09T16:51:08.967Z",
       "primaryItemId": "news_4e0504e7ca15",
       "evidenceItemIds": [
         "news_4e0504e7ca15",
         "news_d5051aba082e",
         "news_e734b1999d39",
-        "news_2992ad40e024"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_33f394c17933",
-      "title": "名创优品(09896)9月8日斥资23.66万美元回购10.13万股",
-      "firstSeenAt": "2026-09-09T04:48:18.184Z",
-      "lastSeenAt": "2026-09-09T13:05:29.700Z",
-      "primaryItemId": "news_c24ccb2cb70f",
-      "evidenceItemIds": [
-        "news_c24ccb2cb70f",
-        "news_34664dfc75d0"
+        "news_2992ad40e024",
+        "news_eab897d9420a"
       ],
       "status": "developing"
     },
@@ -286,7 +226,7 @@
       "eventId": "event_0737eac2cabb",
       "title": "连板股追踪丨A股今日共49只个股涨停 这只零售股收获5连板",
       "firstSeenAt": "2026-07-31T02:43:30.494Z",
-      "lastSeenAt": "2026-09-09T13:05:29.700Z",
+      "lastSeenAt": "2026-09-09T16:51:08.967Z",
       "primaryItemId": "news_e6cae1fc8d66",
       "evidenceItemIds": [
         "news_cf2b97a75d61",
@@ -327,7 +267,7 @@
       "eventId": "event_cf2c0770e0be",
       "title": "DeepSeek科创板IPO加速，中信或为辅导机构",
       "firstSeenAt": "2026-09-09T09:01:00.011Z",
-      "lastSeenAt": "2026-09-09T13:05:29.700Z",
+      "lastSeenAt": "2026-09-09T16:51:08.967Z",
       "primaryItemId": "news_d31e2870f5ff",
       "evidenceItemIds": [
         "news_d31e2870f5ff",
@@ -340,7 +280,7 @@
       "eventId": "event_74aa5d01f09f",
       "title": "收盘｜沪指涨0.28% 电力板块走强",
       "firstSeenAt": "2026-09-09T09:01:00.011Z",
-      "lastSeenAt": "2026-09-09T13:05:29.700Z",
+      "lastSeenAt": "2026-09-09T16:51:08.967Z",
       "primaryItemId": "news_454eaa557f4d",
       "evidenceItemIds": [
         "news_454eaa557f4d",
@@ -352,7 +292,7 @@
       "eventId": "event_ab7a6fe6bf06",
       "title": "天地科技(600582.SH)主要股东诚通金控拟3亿元至6亿元增持公司股份",
       "firstSeenAt": "2026-09-09T09:01:00.011Z",
-      "lastSeenAt": "2026-09-09T13:05:29.700Z",
+      "lastSeenAt": "2026-09-09T16:51:08.967Z",
       "primaryItemId": "news_69e290281a3f",
       "evidenceItemIds": [
         "news_69e290281a3f",
@@ -362,10 +302,10 @@
     },
     {
       "eventId": "event_55aa92ef8898",
-      "title": "马克·古尔曼：苹果首款折叠屏手机被命名为“iPhone Duo”，起售价2000美元",
+      "title": "苹果首款折叠屏iPhone售价或超2000美元，预计今年下半年销量500万部",
       "firstSeenAt": "2026-09-09T09:01:00.011Z",
-      "lastSeenAt": "2026-09-09T13:05:29.700Z",
-      "primaryItemId": "news_50c235666f17",
+      "lastSeenAt": "2026-09-09T16:51:08.967Z",
+      "primaryItemId": "news_3a6c088f9ed3",
       "evidenceItemIds": [
         "news_50c235666f17",
         "news_3a6c088f9ed3"
@@ -376,7 +316,7 @@
       "eventId": "event_202dd878fa19",
       "title": "晚间公告｜9月9日这些公告有看头",
       "firstSeenAt": "2026-07-31T14:43:32.623Z",
-      "lastSeenAt": "2026-09-09T13:05:29.700Z",
+      "lastSeenAt": "2026-09-09T16:51:08.967Z",
       "primaryItemId": "news_1fa48f60ae1c",
       "evidenceItemIds": [
         "news_eaf56a2f5345",
@@ -421,7 +361,7 @@
       "eventId": "event_73f4b1fb41a8",
       "title": "龙虎榜丨机构今日买入这22股，卖出敦煌种业2.13亿元",
       "firstSeenAt": "2026-08-03T11:50:30.990Z",
-      "lastSeenAt": "2026-09-09T13:05:29.700Z",
+      "lastSeenAt": "2026-09-09T16:51:08.967Z",
       "primaryItemId": "news_d0fdb37aef08",
       "evidenceItemIds": [
         "news_de7d0ba05e16",
@@ -457,7 +397,7 @@
       "eventId": "event_68c0bd76d46a",
       "title": "布油自7月来首破100美元，9月加息概率升至60%：美联储议息前夜“缓和叙事”被击碎",
       "firstSeenAt": "2026-09-08T08:53:27.501Z",
-      "lastSeenAt": "2026-09-09T13:05:29.700Z",
+      "lastSeenAt": "2026-09-09T16:51:08.967Z",
       "primaryItemId": "news_20eb06a0349a",
       "evidenceItemIds": [
         "news_fba77337957b",
@@ -470,7 +410,7 @@
       "eventId": "event_5851910dd446",
       "title": "欧股跌幅扩大，法国CAC 40指数跌2%，美国2年期国债收益率升至2024年7月以来最高水平",
       "firstSeenAt": "2026-08-18T01:54:05.956Z",
-      "lastSeenAt": "2026-09-09T13:05:29.700Z",
+      "lastSeenAt": "2026-09-09T16:51:08.967Z",
       "primaryItemId": "news_6fffb944cdfa",
       "evidenceItemIds": [
         "news_3b34b8126c8d",
@@ -493,7 +433,7 @@
       "eventId": "event_f71dc2825ab3",
       "title": "2026年医保谈判收官 商保衔接受关注",
       "firstSeenAt": "2026-09-09T13:05:29.700Z",
-      "lastSeenAt": "2026-09-09T13:05:29.700Z",
+      "lastSeenAt": "2026-09-09T16:51:08.967Z",
       "primaryItemId": "news_f31f07f9048c",
       "evidenceItemIds": [
         "news_f31f07f9048c",
@@ -505,7 +445,7 @@
       "eventId": "event_97bc9f484b2c",
       "title": "当过部长、书记的封疆大吏孙绍骋 被指贪图享乐、对家人失管失教",
       "firstSeenAt": "2026-09-09T13:05:29.700Z",
-      "lastSeenAt": "2026-09-09T13:05:29.700Z",
+      "lastSeenAt": "2026-09-09T16:51:08.967Z",
       "primaryItemId": "news_36cb940ccc24",
       "evidenceItemIds": [
         "news_36cb940ccc24",
@@ -517,7 +457,7 @@
       "eventId": "event_2dd606727cdf",
       "title": "据报道，OpenAI预计到2030年计算资源支出约7500亿美元",
       "firstSeenAt": "2026-09-09T13:05:29.700Z",
-      "lastSeenAt": "2026-09-09T13:05:29.700Z",
+      "lastSeenAt": "2026-09-09T16:51:08.967Z",
       "primaryItemId": "news_c49bcb8008b4",
       "evidenceItemIds": [
         "news_c49bcb8008b4",
@@ -529,7 +469,7 @@
       "eventId": "event_32729d02628d",
       "title": "DeepSeek计划于北京时间2026年9月10日前后正式发布V4.1 Flash模型",
       "firstSeenAt": "2026-09-09T13:05:29.700Z",
-      "lastSeenAt": "2026-09-09T13:05:29.700Z",
+      "lastSeenAt": "2026-09-09T16:51:08.967Z",
       "primaryItemId": "news_4089d67b0554",
       "evidenceItemIds": [
         "news_4089d67b0554",
@@ -541,7 +481,7 @@
       "eventId": "event_afe9a0b6771f",
       "title": "港股风向标｜恒指弱势震荡分化加剧 机构看多部分结构性机会",
       "firstSeenAt": "2026-09-09T13:05:29.700Z",
-      "lastSeenAt": "2026-09-09T13:05:29.700Z",
+      "lastSeenAt": "2026-09-09T16:51:08.967Z",
       "primaryItemId": "news_9d3fa358b09c",
       "evidenceItemIds": [
         "news_9d3fa358b09c",
@@ -553,7 +493,7 @@
       "eventId": "event_85049b9fb815",
       "title": "斥资18.5亿元！555亿存储芯片概念股子公司拟扩大高端存储芯片封测产能|盘后公告集锦",
       "firstSeenAt": "2026-09-09T13:05:29.700Z",
-      "lastSeenAt": "2026-09-09T13:05:29.700Z",
+      "lastSeenAt": "2026-09-09T16:51:08.967Z",
       "primaryItemId": "news_bccc8e019f94",
       "evidenceItemIds": [
         "news_bccc8e019f94",
@@ -565,7 +505,7 @@
       "eventId": "event_ed7755d38ac0",
       "title": "【VIP日报】培育钻石概念表现强势 栏目解读机构调研 提及焦点公司收获涨停",
       "firstSeenAt": "2026-09-09T13:05:29.700Z",
-      "lastSeenAt": "2026-09-09T13:05:29.700Z",
+      "lastSeenAt": "2026-09-09T16:51:08.967Z",
       "primaryItemId": "news_bf30e4688e1e",
       "evidenceItemIds": [
         "news_bf30e4688e1e",
@@ -577,11 +517,111 @@
       "eventId": "event_0e6dcfe993b3",
       "title": "恒玄科技：实控人提议公司5000万元—1亿元回购股份",
       "firstSeenAt": "2026-09-09T13:05:29.700Z",
-      "lastSeenAt": "2026-09-09T13:05:29.700Z",
+      "lastSeenAt": "2026-09-09T16:51:08.967Z",
       "primaryItemId": "news_93457fca738d",
       "evidenceItemIds": [
         "news_93457fca738d",
         "news_21540634ad23"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_efd98b1698f4",
+      "title": "美国财政部周四将购买至多60亿美元长端债券",
+      "firstSeenAt": "2026-09-09T16:51:08.967Z",
+      "lastSeenAt": "2026-09-09T16:51:08.967Z",
+      "primaryItemId": "news_b28156501227",
+      "evidenceItemIds": [
+        "news_b28156501227",
+        "news_3b31704f90c2"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_d43e7f90a783",
+      "title": "英国股市收低；截至收盘Investing.com 英国 100下跌1.40%",
+      "firstSeenAt": "2026-09-09T16:51:08.967Z",
+      "lastSeenAt": "2026-09-09T16:51:08.967Z",
+      "primaryItemId": "news_5c711d3fc9c4",
+      "evidenceItemIds": [
+        "news_5c711d3fc9c4",
+        "news_e7ef8c109bfc",
+        "news_83cdabcbbde0",
+        "news_cc33ec45cea7",
+        "news_1da0dc8d2fb6"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_3a25855f1fe9",
+      "title": "瑞典股市收低；截至收盘瑞典OMX斯德哥尔摩30指数下跌1.62%",
+      "firstSeenAt": "2026-09-09T16:51:08.967Z",
+      "lastSeenAt": "2026-09-09T16:51:08.967Z",
+      "primaryItemId": "news_dfea8acfd6b1",
+      "evidenceItemIds": [
+        "news_dfea8acfd6b1",
+        "news_95ab866763f3"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_845290031c03",
+      "title": "贝森特警告日元空头：我现在是庄家，想对赌尽管来！",
+      "firstSeenAt": "2026-09-09T04:48:18.184Z",
+      "lastSeenAt": "2026-09-09T13:05:29.700Z",
+      "primaryItemId": "news_af2f80e4865c",
+      "evidenceItemIds": [
+        "news_af2f80e4865c",
+        "news_3738715f83be",
+        "news_846f571c74ea"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_39601158658e",
+      "title": "8月CPI、PPI同比涨幅扩大、环比由降转涨 由何拉动？",
+      "firstSeenAt": "2026-09-09T04:48:18.184Z",
+      "lastSeenAt": "2026-09-09T13:05:29.700Z",
+      "primaryItemId": "news_c8fb1beca310",
+      "evidenceItemIds": [
+        "news_c8fb1beca310",
+        "news_eab897d9420a"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_58cf4708fbdc",
+      "title": "T早报｜DeepSeek扩招150人；Meta发布个人AI智能体Muse；华为“韬定律”芯片麒麟9050 Pro首现身",
+      "firstSeenAt": "2026-09-09T04:48:18.184Z",
+      "lastSeenAt": "2026-09-09T13:05:29.700Z",
+      "primaryItemId": "news_abf7d49a0fe0",
+      "evidenceItemIds": [
+        "news_abf7d49a0fe0",
+        "news_ac87e3ae77e8"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_082ab0476e93",
+      "title": "盘前必读丨美股光通信板块逆势大涨；江波龙首次回购耗资4.48亿元",
+      "firstSeenAt": "2026-09-09T04:48:18.184Z",
+      "lastSeenAt": "2026-09-09T13:05:29.700Z",
+      "primaryItemId": "news_f1c03b199863",
+      "evidenceItemIds": [
+        "news_f1c03b199863",
+        "news_a636bf75002e"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_33f394c17933",
+      "title": "名创优品(09896)9月8日斥资23.66万美元回购10.13万股",
+      "firstSeenAt": "2026-09-09T04:48:18.184Z",
+      "lastSeenAt": "2026-09-09T13:05:29.700Z",
+      "primaryItemId": "news_c24ccb2cb70f",
+      "evidenceItemIds": [
+        "news_c24ccb2cb70f",
+        "news_34664dfc75d0"
       ],
       "status": "developing"
     },

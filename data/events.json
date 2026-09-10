@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-09-10T13:03:28.502Z",
+  "generatedAt": "2026-09-10T16:36:51.084Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -8,7 +8,7 @@
       "eventId": "event_315991b0232c",
       "title": "法国7月工业产出下滑0.4%，逊于市场预期",
       "firstSeenAt": "2026-09-07T09:23:18.972Z",
-      "lastSeenAt": "2026-09-10T13:03:28.502Z",
+      "lastSeenAt": "2026-09-10T16:36:51.084Z",
       "primaryItemId": "news_f4dc2ebd24a4",
       "evidenceItemIds": [
         "news_19b23ed4b4a9",
@@ -20,10 +20,10 @@
     },
     {
       "eventId": "event_a678dcb442aa",
-      "title": "英国股市收低；截至收盘Investing.com 英国 100下跌1.40%",
+      "title": "葡萄牙股市上涨；截至收盘PSI上涨0.11%",
       "firstSeenAt": "2026-09-01T16:50:22.105Z",
-      "lastSeenAt": "2026-09-10T13:03:28.502Z",
-      "primaryItemId": "news_5c711d3fc9c4",
+      "lastSeenAt": "2026-09-10T16:36:51.084Z",
+      "primaryItemId": "news_2c68be998633",
       "evidenceItemIds": [
         "news_023dcd0d28ad",
         "news_22038d02d938",
@@ -57,16 +57,22 @@
         "news_9824e39c5142",
         "news_bb3ab743c93d",
         "news_5c711d3fc9c4",
-        "news_cc33ec45cea7"
+        "news_cc33ec45cea7",
+        "news_eca3b91af0a4",
+        "news_edb14436a491",
+        "news_a3e1c903d859",
+        "news_f6e90f29f9ce",
+        "news_75090b091644",
+        "news_2c68be998633"
       ],
       "status": "developing"
     },
     {
       "eventId": "event_32967e3730b8",
-      "title": "A股三大指数集体高开",
+      "title": "美股大型科技股盘前普跌，SK海力士跌超4%",
       "firstSeenAt": "2026-08-03T15:23:32.854Z",
-      "lastSeenAt": "2026-09-10T13:03:28.502Z",
-      "primaryItemId": "news_c2ee800ea3e0",
+      "lastSeenAt": "2026-09-10T16:36:51.084Z",
+      "primaryItemId": "news_2dae2543ea57",
       "evidenceItemIds": [
         "news_045068d1edcf",
         "news_d5c174d9c938",
@@ -125,7 +131,7 @@
       "eventId": "event_d0eab2e69794",
       "title": "港股收盘 | 三大指数齐跌 大金融与石油股逆势护盘",
       "firstSeenAt": "2026-08-12T09:36:00.204Z",
-      "lastSeenAt": "2026-09-10T13:03:28.502Z",
+      "lastSeenAt": "2026-09-10T16:36:51.084Z",
       "primaryItemId": "news_5bf1bbf5dabc",
       "evidenceItemIds": [
         "news_e612d57ecd1e",
@@ -142,7 +148,7 @@
       "eventId": "event_529af3584dc2",
       "title": "恒生科技指数收跌2.04%，智谱跌超10%",
       "firstSeenAt": "2026-07-31T02:43:30.494Z",
-      "lastSeenAt": "2026-09-10T13:03:28.502Z",
+      "lastSeenAt": "2026-09-10T16:36:51.084Z",
       "primaryItemId": "news_bdebbb50d397",
       "evidenceItemIds": [
         "news_0105048e0696",
@@ -202,7 +208,7 @@
       "eventId": "event_1a38612f1a6c",
       "title": "国家统计局：2026年8月份CPI温和回升 PPI同比涨幅扩大",
       "firstSeenAt": "2026-09-09T04:48:18.184Z",
-      "lastSeenAt": "2026-09-10T13:03:28.502Z",
+      "lastSeenAt": "2026-09-10T16:36:51.084Z",
       "primaryItemId": "news_4e0504e7ca15",
       "evidenceItemIds": [
         "news_4e0504e7ca15",
@@ -217,7 +223,7 @@
       "eventId": "event_0737eac2cabb",
       "title": "连板股追踪丨A股今日共40只个股涨停 这只旅游股4连板",
       "firstSeenAt": "2026-07-31T02:43:30.494Z",
-      "lastSeenAt": "2026-09-10T13:03:28.502Z",
+      "lastSeenAt": "2026-09-10T16:36:51.084Z",
       "primaryItemId": "news_49b84dbd3a21",
       "evidenceItemIds": [
         "news_cf2b97a75d61",
@@ -256,26 +262,10 @@
       "status": "developing"
     },
     {
-      "eventId": "event_55aa92ef8898",
-      "title": "A股龙头进入苹果首款折叠屏手机iPhone Duo供应链",
-      "firstSeenAt": "2026-09-09T09:01:00.011Z",
-      "lastSeenAt": "2026-09-10T13:03:28.502Z",
-      "primaryItemId": "news_925bce508b08",
-      "evidenceItemIds": [
-        "news_50c235666f17",
-        "news_3a6c088f9ed3",
-        "news_8144f3ecaf20",
-        "news_925bce508b08",
-        "news_1a46b12b9ab3",
-        "news_fbc4790049b4"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_202dd878fa19",
       "title": "晚间公告｜9月10日这些公告有看头",
       "firstSeenAt": "2026-07-31T14:43:32.623Z",
-      "lastSeenAt": "2026-09-10T13:03:28.502Z",
+      "lastSeenAt": "2026-09-10T16:36:51.084Z",
       "primaryItemId": "news_563594238b47",
       "evidenceItemIds": [
         "news_eaf56a2f5345",
@@ -321,7 +311,7 @@
       "eventId": "event_5851910dd446",
       "title": "英国10年期国债收益率上涨3个基点至5.29%，创2007年以来最高水平。",
       "firstSeenAt": "2026-08-18T01:54:05.956Z",
-      "lastSeenAt": "2026-09-10T13:03:28.502Z",
+      "lastSeenAt": "2026-09-10T16:36:51.084Z",
       "primaryItemId": "news_766479e0dcf7",
       "evidenceItemIds": [
         "news_3b34b8126c8d",
@@ -343,6 +333,277 @@
       "status": "developing"
     },
     {
+      "eventId": "event_d43e7f90a783",
+      "title": "西班牙股市收低；截至收盘西班牙IBEX35指数下跌0.18%",
+      "firstSeenAt": "2026-09-09T16:51:08.967Z",
+      "lastSeenAt": "2026-09-10T16:36:51.084Z",
+      "primaryItemId": "news_b9a587275ee1",
+      "evidenceItemIds": [
+        "news_5c711d3fc9c4",
+        "news_e7ef8c109bfc",
+        "news_83cdabcbbde0",
+        "news_cc33ec45cea7",
+        "news_1da0dc8d2fb6",
+        "news_af4536333d28",
+        "news_bb3ab743c93d",
+        "news_b9a587275ee1",
+        "news_95ab866763f3"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_0735e68ab520",
+      "title": "港股评级汇总：兴业证券维持华润置地买入评级",
+      "firstSeenAt": "2026-08-03T07:46:07.010Z",
+      "lastSeenAt": "2026-09-10T16:36:51.084Z",
+      "primaryItemId": "news_5862586742e3",
+      "evidenceItemIds": [
+        "news_f63a75b780fe",
+        "news_b7dc4d256824",
+        "news_9ce8b90fe101",
+        "news_9fea051fe74a",
+        "news_c6d5e29d52c7",
+        "news_0d1c9bf556a7",
+        "news_9878b656dfb7",
+        "news_a8fd30c5550a",
+        "news_7024bf391ff1",
+        "news_5862586742e3",
+        "news_14f16400bf07"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_e35bdba7ae52",
+      "title": "金融监管总局：大力整治“价格战”、违规返佣、“高息高返”等行为",
+      "firstSeenAt": "2026-09-10T09:01:39.236Z",
+      "lastSeenAt": "2026-09-10T16:36:51.084Z",
+      "primaryItemId": "news_021669d63ef5",
+      "evidenceItemIds": [
+        "news_021669d63ef5",
+        "news_f7ce83d655c0"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_0a3941c2f042",
+      "title": "国新办举行“开局起步‘十五五’”系列主题新闻发布会 介绍金融领域贯彻落实“十五五”规划、推动金融强国建设有关情况",
+      "firstSeenAt": "2026-09-10T09:01:39.236Z",
+      "lastSeenAt": "2026-09-10T16:36:51.084Z",
+      "primaryItemId": "news_ecb5431dff13",
+      "evidenceItemIds": [
+        "news_346088987fe6",
+        "news_71999a751c56",
+        "news_c485e278f48b",
+        "news_ecb5431dff13",
+        "news_2dc352bff169"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_3e3812948874",
+      "title": "每人发5000美元？“特朗普红利”震惊中期选举 智库警告根本没有盈余",
+      "firstSeenAt": "2026-09-10T09:01:39.236Z",
+      "lastSeenAt": "2026-09-10T16:36:51.084Z",
+      "primaryItemId": "news_8d11eb38e167",
+      "evidenceItemIds": [
+        "news_eb78ec3e9397",
+        "news_63ca5c64090d",
+        "news_8d11eb38e167"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_df75551da7f8",
+      "title": "英伟达被点名调查！美国AI行业交易将迎来更严审查",
+      "firstSeenAt": "2026-09-10T09:01:39.236Z",
+      "lastSeenAt": "2026-09-10T16:36:51.084Z",
+      "primaryItemId": "news_156251362d69",
+      "evidenceItemIds": [
+        "news_c93ab197cbdc",
+        "news_156251362d69"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_73f4b1fb41a8",
+      "title": "龙虎榜丨机构今日买入这11股，卖出敦煌种业2.13亿元",
+      "firstSeenAt": "2026-08-03T11:50:30.990Z",
+      "lastSeenAt": "2026-09-10T16:36:51.084Z",
+      "primaryItemId": "news_8506c5c0912d",
+      "evidenceItemIds": [
+        "news_de7d0ba05e16",
+        "news_e7a76dcea2a8",
+        "news_d9bbbfd32f43",
+        "news_9d97988a8b31",
+        "news_f8e689022fb3",
+        "news_a41d521c5c53",
+        "news_50b190578187",
+        "news_45437b89e860",
+        "news_d1e40824a959",
+        "news_d35397f00f85",
+        "news_28eb220b6d7d",
+        "news_83a8f0bce8bc",
+        "news_a434c7856598",
+        "news_a8c173d2f58f",
+        "news_f7c76b8d1160",
+        "news_be3920c8ab0f",
+        "news_7a02bb038160",
+        "news_5e9ecf83e613",
+        "news_40d2672e7c11",
+        "news_c0cf1488e336",
+        "news_9b61e52ad416",
+        "news_93d30ccfe80b",
+        "news_6b446ac18e20",
+        "news_52fedf4cbbb1",
+        "news_03577cf502cc",
+        "news_d0fdb37aef08",
+        "news_8506c5c0912d"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_32439e27a278",
+      "title": "南向资金追踪｜净买入超45亿港元 加仓腾讯减持智谱及中芯国际",
+      "firstSeenAt": "2026-08-26T13:29:08.098Z",
+      "lastSeenAt": "2026-09-10T16:36:51.084Z",
+      "primaryItemId": "news_a966118157c8",
+      "evidenceItemIds": [
+        "news_3a5e6150516a",
+        "news_4903019684f6",
+        "news_fc0452e06c12",
+        "news_a966118157c8",
+        "news_50ba4cfc1c5e",
+        "news_d899ede0a075"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_149897fa4836",
+      "title": "央行陆磊：境外主体持有境内人民币金融资产已超11万亿元",
+      "firstSeenAt": "2026-09-10T13:03:28.502Z",
+      "lastSeenAt": "2026-09-10T16:36:51.084Z",
+      "primaryItemId": "news_7521c3f96938",
+      "evidenceItemIds": [
+        "news_7521c3f96938",
+        "news_d9c22f447a6f"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_0d8356d7e80c",
+      "title": "美国8月PPI同比加速至5.4%超预期，核心PPI同比4.6%",
+      "firstSeenAt": "2026-09-10T13:03:28.502Z",
+      "lastSeenAt": "2026-09-10T16:36:51.084Z",
+      "primaryItemId": "news_e6dd61e5a62e",
+      "evidenceItemIds": [
+        "news_e6dd61e5a62e",
+        "news_642197c7b9b7",
+        "news_bfb955ce952e"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_c4774e65b82a",
+      "title": "日本正把全球拖下水",
+      "firstSeenAt": "2026-09-10T13:03:28.502Z",
+      "lastSeenAt": "2026-09-10T16:36:51.084Z",
+      "primaryItemId": "news_ed151ecc2dda",
+      "evidenceItemIds": [
+        "news_8b89b3c34be4",
+        "news_ed151ecc2dda"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_2df48f148dac",
+      "title": "美国8月PPI环比上涨0.4%，符合预期",
+      "firstSeenAt": "2026-09-10T13:03:28.502Z",
+      "lastSeenAt": "2026-09-10T16:36:51.084Z",
+      "primaryItemId": "news_213bb03f020f",
+      "evidenceItemIds": [
+        "news_213bb03f020f",
+        "news_584af86655c3",
+        "news_55a4e871958b"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_e21cc9277ba9",
+      "title": "突发！科创板最便宜股票触及交易类强制退市明起停牌|盘后公告集锦",
+      "firstSeenAt": "2026-09-10T13:03:28.502Z",
+      "lastSeenAt": "2026-09-10T16:36:51.084Z",
+      "primaryItemId": "news_2c72b79ff730",
+      "evidenceItemIds": [
+        "news_9540d64ecd1b",
+        "news_2c72b79ff730"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_1b5aad0cdacf",
+      "title": "【数据看盘】超5亿元资金抢筹金安国纪，多路资金激烈博弈超声电子",
+      "firstSeenAt": "2026-09-10T13:03:28.502Z",
+      "lastSeenAt": "2026-09-10T16:36:51.084Z",
+      "primaryItemId": "news_0c3cae540d0e",
+      "evidenceItemIds": [
+        "news_0c3cae540d0e",
+        "news_5d667ceb9cbc"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_51300bf4423b",
+      "title": "债市收盘|资金面有所收紧，债市全天延续窄幅震荡",
+      "firstSeenAt": "2026-09-10T13:03:28.502Z",
+      "lastSeenAt": "2026-09-10T16:36:51.084Z",
+      "primaryItemId": "news_fd2ab26bafd7",
+      "evidenceItemIds": [
+        "news_fd2ab26bafd7",
+        "news_cece6b17cce0"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_2e161c6faf7d",
+      "title": "*ST清越：收到上交所终止上市事先告知书",
+      "firstSeenAt": "2026-09-10T13:03:28.502Z",
+      "lastSeenAt": "2026-09-10T16:36:51.084Z",
+      "primaryItemId": "news_556f550e979d",
+      "evidenceItemIds": [
+        "news_556f550e979d",
+        "news_ec0824d6bd2f"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_a7ef2da7ef6f",
+      "title": "欧洲央行加息25个基点符合预期，上调未来两年通胀预期",
+      "firstSeenAt": "2026-09-10T16:36:51.084Z",
+      "lastSeenAt": "2026-09-10T16:36:51.084Z",
+      "primaryItemId": "news_aa96483c1726",
+      "evidenceItemIds": [
+        "news_aa96483c1726",
+        "news_b4d690a4e665"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_55aa92ef8898",
+      "title": "A股龙头进入苹果首款折叠屏手机iPhone Duo供应链",
+      "firstSeenAt": "2026-09-09T09:01:00.011Z",
+      "lastSeenAt": "2026-09-10T13:03:28.502Z",
+      "primaryItemId": "news_925bce508b08",
+      "evidenceItemIds": [
+        "news_50c235666f17",
+        "news_3a6c088f9ed3",
+        "news_8144f3ecaf20",
+        "news_925bce508b08",
+        "news_1a46b12b9ab3",
+        "news_fbc4790049b4"
+      ],
+      "status": "developing"
+    },
+    {
       "eventId": "event_efd98b1698f4",
       "title": "3倍！美国财政部宣布回购60亿美元长债，难阻收益率快速拉升",
       "firstSeenAt": "2026-09-09T16:51:08.967Z",
@@ -351,23 +612,6 @@
       "evidenceItemIds": [
         "news_b28156501227",
         "news_3b31704f90c2"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_d43e7f90a783",
-      "title": "沙特阿拉伯股市收低；截至收盘沙特阿拉伯TASI指数下跌0.08%",
-      "firstSeenAt": "2026-09-09T16:51:08.967Z",
-      "lastSeenAt": "2026-09-10T13:03:28.502Z",
-      "primaryItemId": "news_af4536333d28",
-      "evidenceItemIds": [
-        "news_5c711d3fc9c4",
-        "news_e7ef8c109bfc",
-        "news_83cdabcbbde0",
-        "news_cc33ec45cea7",
-        "news_1da0dc8d2fb6",
-        "news_af4536333d28",
-        "news_bb3ab743c93d"
       ],
       "status": "developing"
     },
@@ -450,227 +694,6 @@
       "evidenceItemIds": [
         "news_fdd5d6aac44a",
         "news_8b65bd0cbfbe"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_0735e68ab520",
-      "title": "港股评级汇总：兴业证券维持华润置地买入评级",
-      "firstSeenAt": "2026-08-03T07:46:07.010Z",
-      "lastSeenAt": "2026-09-10T13:03:28.502Z",
-      "primaryItemId": "news_5862586742e3",
-      "evidenceItemIds": [
-        "news_f63a75b780fe",
-        "news_b7dc4d256824",
-        "news_9ce8b90fe101",
-        "news_9fea051fe74a",
-        "news_c6d5e29d52c7",
-        "news_0d1c9bf556a7",
-        "news_9878b656dfb7",
-        "news_a8fd30c5550a",
-        "news_7024bf391ff1",
-        "news_5862586742e3",
-        "news_14f16400bf07"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_e35bdba7ae52",
-      "title": "金融监管总局：大力整治“价格战”、违规返佣、“高息高返”等行为",
-      "firstSeenAt": "2026-09-10T09:01:39.236Z",
-      "lastSeenAt": "2026-09-10T13:03:28.502Z",
-      "primaryItemId": "news_021669d63ef5",
-      "evidenceItemIds": [
-        "news_021669d63ef5",
-        "news_f7ce83d655c0"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_0a3941c2f042",
-      "title": "国新办举行“开局起步‘十五五’”系列主题新闻发布会 介绍金融领域贯彻落实“十五五”规划、推动金融强国建设有关情况",
-      "firstSeenAt": "2026-09-10T09:01:39.236Z",
-      "lastSeenAt": "2026-09-10T13:03:28.502Z",
-      "primaryItemId": "news_ecb5431dff13",
-      "evidenceItemIds": [
-        "news_346088987fe6",
-        "news_71999a751c56",
-        "news_c485e278f48b",
-        "news_ecb5431dff13"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_3e3812948874",
-      "title": "每人发5000美元？“特朗普红利”震惊中期选举 智库警告根本没有盈余",
-      "firstSeenAt": "2026-09-10T09:01:39.236Z",
-      "lastSeenAt": "2026-09-10T13:03:28.502Z",
-      "primaryItemId": "news_8d11eb38e167",
-      "evidenceItemIds": [
-        "news_eb78ec3e9397",
-        "news_63ca5c64090d",
-        "news_8d11eb38e167"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_df75551da7f8",
-      "title": "英伟达被查",
-      "firstSeenAt": "2026-09-10T09:01:39.236Z",
-      "lastSeenAt": "2026-09-10T13:03:28.502Z",
-      "primaryItemId": "news_c93ab197cbdc",
-      "evidenceItemIds": [
-        "news_c93ab197cbdc",
-        "news_156251362d69"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_73f4b1fb41a8",
-      "title": "龙虎榜丨机构今日买入这11股，卖出敦煌种业2.13亿元",
-      "firstSeenAt": "2026-08-03T11:50:30.990Z",
-      "lastSeenAt": "2026-09-10T13:03:28.502Z",
-      "primaryItemId": "news_8506c5c0912d",
-      "evidenceItemIds": [
-        "news_de7d0ba05e16",
-        "news_e7a76dcea2a8",
-        "news_d9bbbfd32f43",
-        "news_9d97988a8b31",
-        "news_f8e689022fb3",
-        "news_a41d521c5c53",
-        "news_50b190578187",
-        "news_45437b89e860",
-        "news_d1e40824a959",
-        "news_d35397f00f85",
-        "news_28eb220b6d7d",
-        "news_83a8f0bce8bc",
-        "news_a434c7856598",
-        "news_a8c173d2f58f",
-        "news_f7c76b8d1160",
-        "news_be3920c8ab0f",
-        "news_7a02bb038160",
-        "news_5e9ecf83e613",
-        "news_40d2672e7c11",
-        "news_c0cf1488e336",
-        "news_9b61e52ad416",
-        "news_93d30ccfe80b",
-        "news_6b446ac18e20",
-        "news_52fedf4cbbb1",
-        "news_03577cf502cc",
-        "news_d0fdb37aef08",
-        "news_8506c5c0912d"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_32439e27a278",
-      "title": "南向资金追踪｜净买入超45亿港元 加仓腾讯减持智谱及中芯国际",
-      "firstSeenAt": "2026-08-26T13:29:08.098Z",
-      "lastSeenAt": "2026-09-10T13:03:28.502Z",
-      "primaryItemId": "news_a966118157c8",
-      "evidenceItemIds": [
-        "news_3a5e6150516a",
-        "news_4903019684f6",
-        "news_fc0452e06c12",
-        "news_a966118157c8",
-        "news_50ba4cfc1c5e",
-        "news_d899ede0a075"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_149897fa4836",
-      "title": "央行陆磊：境外主体持有境内人民币金融资产已超11万亿元",
-      "firstSeenAt": "2026-09-10T13:03:28.502Z",
-      "lastSeenAt": "2026-09-10T13:03:28.502Z",
-      "primaryItemId": "news_7521c3f96938",
-      "evidenceItemIds": [
-        "news_7521c3f96938",
-        "news_d9c22f447a6f"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_0d8356d7e80c",
-      "title": "美国8月PPI同比加速至5.4%超预期，核心PPI同比4.6%",
-      "firstSeenAt": "2026-09-10T13:03:28.502Z",
-      "lastSeenAt": "2026-09-10T13:03:28.502Z",
-      "primaryItemId": "news_e6dd61e5a62e",
-      "evidenceItemIds": [
-        "news_e6dd61e5a62e",
-        "news_642197c7b9b7"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_c4774e65b82a",
-      "title": "日本正在把全球“拖下水”",
-      "firstSeenAt": "2026-09-10T13:03:28.502Z",
-      "lastSeenAt": "2026-09-10T13:03:28.502Z",
-      "primaryItemId": "news_8b89b3c34be4",
-      "evidenceItemIds": [
-        "news_8b89b3c34be4",
-        "news_ed151ecc2dda"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_2df48f148dac",
-      "title": "美国8月PPI环比上涨0.4%，符合预期",
-      "firstSeenAt": "2026-09-10T13:03:28.502Z",
-      "lastSeenAt": "2026-09-10T13:03:28.502Z",
-      "primaryItemId": "news_213bb03f020f",
-      "evidenceItemIds": [
-        "news_213bb03f020f",
-        "news_584af86655c3"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_e21cc9277ba9",
-      "title": "科创板“最便宜”股票，锁定强制退市",
-      "firstSeenAt": "2026-09-10T13:03:28.502Z",
-      "lastSeenAt": "2026-09-10T13:03:28.502Z",
-      "primaryItemId": "news_9540d64ecd1b",
-      "evidenceItemIds": [
-        "news_9540d64ecd1b",
-        "news_2c72b79ff730"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_1b5aad0cdacf",
-      "title": "【数据看盘】超5亿元资金抢筹金安国纪，多路资金激烈博弈超声电子",
-      "firstSeenAt": "2026-09-10T13:03:28.502Z",
-      "lastSeenAt": "2026-09-10T13:03:28.502Z",
-      "primaryItemId": "news_0c3cae540d0e",
-      "evidenceItemIds": [
-        "news_0c3cae540d0e",
-        "news_5d667ceb9cbc"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_51300bf4423b",
-      "title": "债市收盘|资金面有所收紧，债市全天延续窄幅震荡",
-      "firstSeenAt": "2026-09-10T13:03:28.502Z",
-      "lastSeenAt": "2026-09-10T13:03:28.502Z",
-      "primaryItemId": "news_fd2ab26bafd7",
-      "evidenceItemIds": [
-        "news_fd2ab26bafd7",
-        "news_cece6b17cce0"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_2e161c6faf7d",
-      "title": "*ST清越：收到上交所终止上市事先告知书",
-      "firstSeenAt": "2026-09-10T13:03:28.502Z",
-      "lastSeenAt": "2026-09-10T13:03:28.502Z",
-      "primaryItemId": "news_556f550e979d",
-      "evidenceItemIds": [
-        "news_556f550e979d",
-        "news_ec0824d6bd2f"
       ],
       "status": "developing"
     },

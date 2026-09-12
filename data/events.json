@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-09-12T12:18:38.037Z",
+  "generatedAt": "2026-09-12T15:44:19.474Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -8,7 +8,7 @@
       "eventId": "event_315991b0232c",
       "title": "法国7月工业产出下滑0.4%，逊于市场预期",
       "firstSeenAt": "2026-09-07T09:23:18.972Z",
-      "lastSeenAt": "2026-09-12T12:18:38.037Z",
+      "lastSeenAt": "2026-09-12T15:44:19.474Z",
       "primaryItemId": "news_f4dc2ebd24a4",
       "evidenceItemIds": [
         "news_19b23ed4b4a9",
@@ -22,7 +22,7 @@
       "eventId": "event_32967e3730b8",
       "title": "热门中概股美股盘前集体走强，蔚来涨超2%",
       "firstSeenAt": "2026-08-03T15:23:32.854Z",
-      "lastSeenAt": "2026-09-12T12:18:38.037Z",
+      "lastSeenAt": "2026-09-12T15:44:19.474Z",
       "primaryItemId": "news_5caa1ba21c83",
       "evidenceItemIds": [
         "news_7a48b08815f8",
@@ -82,7 +82,7 @@
       "eventId": "event_1a38612f1a6c",
       "title": "国家统计局：2026年8月份CPI温和回升 PPI同比涨幅扩大",
       "firstSeenAt": "2026-09-09T04:48:18.184Z",
-      "lastSeenAt": "2026-09-12T12:18:38.037Z",
+      "lastSeenAt": "2026-09-12T15:44:19.474Z",
       "primaryItemId": "news_4e0504e7ca15",
       "evidenceItemIds": [
         "news_4e0504e7ca15",
@@ -95,10 +95,10 @@
     },
     {
       "eventId": "event_0d8356d7e80c",
-      "title": "美国8月CPI同比增长3.4%",
+      "title": "美国8月CPI环比上涨0.4%，符合市场预期",
       "firstSeenAt": "2026-09-10T13:03:28.502Z",
-      "lastSeenAt": "2026-09-12T12:18:38.037Z",
-      "primaryItemId": "news_87d028492b39",
+      "lastSeenAt": "2026-09-12T15:44:19.474Z",
+      "primaryItemId": "news_b813a8e331c3",
       "evidenceItemIds": [
         "news_e6dd61e5a62e",
         "news_642197c7b9b7",
@@ -109,7 +109,298 @@
         "news_97015f577d01",
         "news_213bb03f020f",
         "news_949a39fb2689",
-        "news_6b43d20b34b9"
+        "news_6b43d20b34b9",
+        "news_4b6fc564f240"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_d43e7f90a783",
+      "title": "西班牙股市上涨；截至收盘西班牙IBEX35指数上涨0.91%",
+      "firstSeenAt": "2026-09-09T16:51:08.967Z",
+      "lastSeenAt": "2026-09-12T15:44:19.474Z",
+      "primaryItemId": "news_fe48093421dd",
+      "evidenceItemIds": [
+        "news_5c711d3fc9c4",
+        "news_e7ef8c109bfc",
+        "news_83cdabcbbde0",
+        "news_cc33ec45cea7",
+        "news_1da0dc8d2fb6",
+        "news_af4536333d28",
+        "news_bb3ab743c93d",
+        "news_b9a587275ee1",
+        "news_95ab866763f3",
+        "news_fe48093421dd",
+        "news_26988397024f",
+        "news_cd7a89b3a62f"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_1e700de930bf",
+      "title": "英国股市上涨；截至收盘Investing.com 英国 100上涨0.44%",
+      "firstSeenAt": "2026-09-11T16:43:57.247Z",
+      "lastSeenAt": "2026-09-12T15:44:19.474Z",
+      "primaryItemId": "news_e9ffd13dd72a",
+      "evidenceItemIds": [
+        "news_e9ffd13dd72a",
+        "news_1eb0821fb4ef",
+        "news_ed4198826fc3",
+        "news_231bfb6bdd8e",
+        "news_8848bce820df"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_3e3812948874",
+      "title": "特朗普连续3天许诺：共和党赢下中期选举，将向所有美国成年人发放5000美元",
+      "firstSeenAt": "2026-09-10T09:01:39.236Z",
+      "lastSeenAt": "2026-09-12T15:44:19.474Z",
+      "primaryItemId": "news_798bdcd3c5be",
+      "evidenceItemIds": [
+        "news_eb78ec3e9397",
+        "news_63ca5c64090d",
+        "news_8d11eb38e167",
+        "news_798bdcd3c5be"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_91fb625edcc6",
+      "title": "华尔街见闻早餐FM-Radio | 2026年9月12日",
+      "firstSeenAt": "2026-08-01T03:54:06.184Z",
+      "lastSeenAt": "2026-09-12T15:44:19.474Z",
+      "primaryItemId": "news_9c8de095a7c5",
+      "evidenceItemIds": [
+        "news_17edaa318161",
+        "news_98deb5260008",
+        "news_d6ded5ce3d23",
+        "news_ce5450193ef2",
+        "news_c703d5c64965",
+        "news_f283b8db4f69",
+        "news_1192f017766c",
+        "news_13a9ec382c84",
+        "news_56f2fe7df40c",
+        "news_4bcfcf17662a",
+        "news_1e16c7e47c8f",
+        "news_42d80422ca92",
+        "news_f8de29856631",
+        "news_7c9d70564092",
+        "news_64e205ea0eff",
+        "news_ce46b4659126",
+        "news_6187cca76a84",
+        "news_365d990ddc0a",
+        "news_9b6eace71407",
+        "news_a6898d92a8d6",
+        "news_3db9c3529da4",
+        "news_95deade611b9",
+        "news_cf02042ffbd4",
+        "news_3465a9cb688f",
+        "news_32265c18dcdc",
+        "news_821e31f5c9fa",
+        "news_9c8de095a7c5",
+        "news_de2273d7fbfe"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_faac4b9f2bd8",
+      "title": "报道：英伟达洽谈在Anthropic IPO中投资高达100亿美元",
+      "firstSeenAt": "2026-08-22T04:49:56.049Z",
+      "lastSeenAt": "2026-09-12T15:44:19.474Z",
+      "primaryItemId": "news_aeb5377444d0",
+      "evidenceItemIds": [
+        "news_1d7c95068d75",
+        "news_3a13bd428308",
+        "news_aeb5377444d0",
+        "news_4558400af6d5"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_463521362b18",
+      "title": "连续六年！中国银行协助深圳市人民政府在港澳发行地方政府债券",
+      "firstSeenAt": "2026-09-12T04:44:05.597Z",
+      "lastSeenAt": "2026-09-12T15:44:19.474Z",
+      "primaryItemId": "news_8286d2117f03",
+      "evidenceItemIds": [
+        "news_8286d2117f03",
+        "news_aab745fdb8c3"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_e8f555535946",
+      "title": "*ST卓然四年财报造假 或被实施重大违法强制退市|速读公告",
+      "firstSeenAt": "2026-09-12T04:44:05.597Z",
+      "lastSeenAt": "2026-09-12T15:44:19.474Z",
+      "primaryItemId": "news_39bcdaa16959",
+      "evidenceItemIds": [
+        "news_39bcdaa16959",
+        "news_76c7ea6b59e9"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_83182dbfe420",
+      "title": "新股消息 | 汽车测试解决方案供应商和夏科技递表港交所创业板 2026上半年实现扭亏为盈",
+      "firstSeenAt": "2026-09-12T08:41:46.377Z",
+      "lastSeenAt": "2026-09-12T15:44:19.474Z",
+      "primaryItemId": "news_946c204ad482",
+      "evidenceItemIds": [
+        "news_946c204ad482",
+        "news_1876c268d4a6"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_df75551da7f8",
+      "title": "规避反垄断审查？英伟达被美司法部调查",
+      "firstSeenAt": "2026-09-10T09:01:39.236Z",
+      "lastSeenAt": "2026-09-12T15:44:19.474Z",
+      "primaryItemId": "news_320e067cfcf5",
+      "evidenceItemIds": [
+        "news_c93ab197cbdc",
+        "news_156251362d69",
+        "news_4c185cead262",
+        "news_320e067cfcf5"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_3f39285a66e6",
+      "title": "中金：通胀粘性支持加息 预计美联储加息25个基点",
+      "firstSeenAt": "2026-09-12T12:18:38.037Z",
+      "lastSeenAt": "2026-09-12T15:44:19.474Z",
+      "primaryItemId": "news_6eefb08b3666",
+      "evidenceItemIds": [
+        "news_6eefb08b3666",
+        "news_075569a5d9d4"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_0a3941c2f042",
+      "title": "国新办举行“开局起步‘十五五’”系列主题新闻发布会 介绍金融领域贯彻落实“十五五”规划、推动金融强国建设有关情况",
+      "firstSeenAt": "2026-09-10T09:01:39.236Z",
+      "lastSeenAt": "2026-09-12T15:44:19.474Z",
+      "primaryItemId": "news_ecb5431dff13",
+      "evidenceItemIds": [
+        "news_346088987fe6",
+        "news_71999a751c56",
+        "news_c485e278f48b",
+        "news_ecb5431dff13",
+        "news_2dc352bff169",
+        "news_1ea0f8d85069"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_202dd878fa19",
+      "title": "晚间公告｜9月11日这些公告有看头",
+      "firstSeenAt": "2026-07-31T14:43:32.623Z",
+      "lastSeenAt": "2026-09-12T15:44:19.474Z",
+      "primaryItemId": "news_4021b72f1f8a",
+      "evidenceItemIds": [
+        "news_eaf56a2f5345",
+        "news_8b256f193830",
+        "news_58fdd88ca5ff",
+        "news_4cac4c806a4b",
+        "news_f202b91c5619",
+        "news_c91687230a2c",
+        "news_958c3f39adb1",
+        "news_a328d8732020",
+        "news_042b264c9695",
+        "news_0f321ef4412b",
+        "news_6fe4b8332584",
+        "news_f755ad25cd3e",
+        "news_6d13f9de9d52",
+        "news_bd988cf929f3",
+        "news_a6888af31e73",
+        "news_8429689faaae",
+        "news_f88525090167",
+        "news_0ab1f5803307",
+        "news_141a625db923",
+        "news_9ac737e4924a",
+        "news_60885ba55001",
+        "news_9d3c513ffc0f",
+        "news_3e80b0340e44",
+        "news_56a89494a39c",
+        "news_69264b26c3e7",
+        "news_514b54e00f99",
+        "news_67ca015f8000",
+        "news_3108d5eeee52",
+        "news_4d0de13affc5",
+        "news_d0b6ffb1536e",
+        "news_f8b9c9518289",
+        "news_a7e36ccebd4b",
+        "news_e633763695a5",
+        "news_ad121ea558e3",
+        "news_1fa48f60ae1c",
+        "news_563594238b47",
+        "news_4021b72f1f8a"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_73f4b1fb41a8",
+      "title": "龙虎榜丨机构今日买入这14股，抛售逸豪新材1.3亿元",
+      "firstSeenAt": "2026-08-03T11:50:30.990Z",
+      "lastSeenAt": "2026-09-12T15:44:19.474Z",
+      "primaryItemId": "news_4eb1533ada96",
+      "evidenceItemIds": [
+        "news_de7d0ba05e16",
+        "news_e7a76dcea2a8",
+        "news_d9bbbfd32f43",
+        "news_9d97988a8b31",
+        "news_f8e689022fb3",
+        "news_a41d521c5c53",
+        "news_50b190578187",
+        "news_45437b89e860",
+        "news_d1e40824a959",
+        "news_d35397f00f85",
+        "news_28eb220b6d7d",
+        "news_83a8f0bce8bc",
+        "news_a434c7856598",
+        "news_a8c173d2f58f",
+        "news_f7c76b8d1160",
+        "news_be3920c8ab0f",
+        "news_7a02bb038160",
+        "news_5e9ecf83e613",
+        "news_40d2672e7c11",
+        "news_c0cf1488e336",
+        "news_9b61e52ad416",
+        "news_93d30ccfe80b",
+        "news_6b446ac18e20",
+        "news_52fedf4cbbb1",
+        "news_03577cf502cc",
+        "news_d0fdb37aef08",
+        "news_8506c5c0912d",
+        "news_4eb1533ada96"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_c4774e65b82a",
+      "title": "日本正在把全球“拖下水”",
+      "firstSeenAt": "2026-09-10T13:03:28.502Z",
+      "lastSeenAt": "2026-09-12T15:44:19.474Z",
+      "primaryItemId": "news_8b89b3c34be4",
+      "evidenceItemIds": [
+        "news_8b89b3c34be4",
+        "news_ed151ecc2dda"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_e35bdba7ae52",
+      "title": "金融监管总局：大力整治“价格战”、违规返佣、“高息高返”等行为",
+      "firstSeenAt": "2026-09-10T09:01:39.236Z",
+      "lastSeenAt": "2026-09-12T15:44:19.474Z",
+      "primaryItemId": "news_021669d63ef5",
+      "evidenceItemIds": [
+        "news_021669d63ef5",
+        "news_f7ce83d655c0"
       ],
       "status": "developing"
     },
@@ -155,170 +446,6 @@
       "status": "developing"
     },
     {
-      "eventId": "event_d43e7f90a783",
-      "title": "西班牙股市上涨；截至收盘西班牙IBEX35指数上涨0.91%",
-      "firstSeenAt": "2026-09-09T16:51:08.967Z",
-      "lastSeenAt": "2026-09-12T12:18:38.037Z",
-      "primaryItemId": "news_fe48093421dd",
-      "evidenceItemIds": [
-        "news_5c711d3fc9c4",
-        "news_e7ef8c109bfc",
-        "news_83cdabcbbde0",
-        "news_cc33ec45cea7",
-        "news_1da0dc8d2fb6",
-        "news_af4536333d28",
-        "news_bb3ab743c93d",
-        "news_b9a587275ee1",
-        "news_95ab866763f3",
-        "news_fe48093421dd",
-        "news_26988397024f",
-        "news_cd7a89b3a62f"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_1e700de930bf",
-      "title": "英国股市上涨；截至收盘Investing.com 英国 100上涨0.44%",
-      "firstSeenAt": "2026-09-11T16:43:57.247Z",
-      "lastSeenAt": "2026-09-12T12:18:38.037Z",
-      "primaryItemId": "news_e9ffd13dd72a",
-      "evidenceItemIds": [
-        "news_e9ffd13dd72a",
-        "news_1eb0821fb4ef",
-        "news_ed4198826fc3",
-        "news_231bfb6bdd8e",
-        "news_8848bce820df"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_3e3812948874",
-      "title": "特朗普连续3天许诺：共和党赢下中期选举，将向所有美国成年人发放5000美元",
-      "firstSeenAt": "2026-09-10T09:01:39.236Z",
-      "lastSeenAt": "2026-09-12T12:18:38.037Z",
-      "primaryItemId": "news_798bdcd3c5be",
-      "evidenceItemIds": [
-        "news_eb78ec3e9397",
-        "news_63ca5c64090d",
-        "news_8d11eb38e167",
-        "news_798bdcd3c5be"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_91fb625edcc6",
-      "title": "华尔街见闻早餐FM-Radio | 2026年9月12日",
-      "firstSeenAt": "2026-08-01T03:54:06.184Z",
-      "lastSeenAt": "2026-09-12T12:18:38.037Z",
-      "primaryItemId": "news_9c8de095a7c5",
-      "evidenceItemIds": [
-        "news_17edaa318161",
-        "news_98deb5260008",
-        "news_d6ded5ce3d23",
-        "news_ce5450193ef2",
-        "news_c703d5c64965",
-        "news_f283b8db4f69",
-        "news_1192f017766c",
-        "news_13a9ec382c84",
-        "news_56f2fe7df40c",
-        "news_4bcfcf17662a",
-        "news_1e16c7e47c8f",
-        "news_42d80422ca92",
-        "news_f8de29856631",
-        "news_7c9d70564092",
-        "news_64e205ea0eff",
-        "news_ce46b4659126",
-        "news_6187cca76a84",
-        "news_365d990ddc0a",
-        "news_9b6eace71407",
-        "news_a6898d92a8d6",
-        "news_3db9c3529da4",
-        "news_95deade611b9",
-        "news_cf02042ffbd4",
-        "news_3465a9cb688f",
-        "news_32265c18dcdc",
-        "news_821e31f5c9fa",
-        "news_9c8de095a7c5",
-        "news_de2273d7fbfe"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_faac4b9f2bd8",
-      "title": "报道：英伟达洽谈在Anthropic IPO中投资高达100亿美元",
-      "firstSeenAt": "2026-08-22T04:49:56.049Z",
-      "lastSeenAt": "2026-09-12T12:18:38.037Z",
-      "primaryItemId": "news_aeb5377444d0",
-      "evidenceItemIds": [
-        "news_1d7c95068d75",
-        "news_3a13bd428308",
-        "news_aeb5377444d0",
-        "news_4558400af6d5"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_463521362b18",
-      "title": "连续六年！中国银行协助深圳市人民政府在港澳发行地方政府债券",
-      "firstSeenAt": "2026-09-12T04:44:05.597Z",
-      "lastSeenAt": "2026-09-12T12:18:38.037Z",
-      "primaryItemId": "news_8286d2117f03",
-      "evidenceItemIds": [
-        "news_8286d2117f03",
-        "news_aab745fdb8c3"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_e8f555535946",
-      "title": "*ST卓然四年财报造假 或被实施重大违法强制退市|速读公告",
-      "firstSeenAt": "2026-09-12T04:44:05.597Z",
-      "lastSeenAt": "2026-09-12T12:18:38.037Z",
-      "primaryItemId": "news_39bcdaa16959",
-      "evidenceItemIds": [
-        "news_39bcdaa16959",
-        "news_76c7ea6b59e9"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_83182dbfe420",
-      "title": "新股消息 | 汽车测试解决方案供应商和夏科技递表港交所创业板 2026上半年实现扭亏为盈",
-      "firstSeenAt": "2026-09-12T08:41:46.377Z",
-      "lastSeenAt": "2026-09-12T12:18:38.037Z",
-      "primaryItemId": "news_946c204ad482",
-      "evidenceItemIds": [
-        "news_946c204ad482",
-        "news_1876c268d4a6"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_df75551da7f8",
-      "title": "“循环融资”越滚越大！英伟达拟豪掷100亿美元押注“史上最大IPO”",
-      "firstSeenAt": "2026-09-10T09:01:39.236Z",
-      "lastSeenAt": "2026-09-12T12:18:38.037Z",
-      "primaryItemId": "news_4c185cead262",
-      "evidenceItemIds": [
-        "news_c93ab197cbdc",
-        "news_156251362d69",
-        "news_4c185cead262"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_3f39285a66e6",
-      "title": "中金：通胀粘性支持加息 预计美联储加息25个基点",
-      "firstSeenAt": "2026-09-12T12:18:38.037Z",
-      "lastSeenAt": "2026-09-12T12:18:38.037Z",
-      "primaryItemId": "news_6eefb08b3666",
-      "evidenceItemIds": [
-        "news_6eefb08b3666",
-        "news_075569a5d9d4"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_bbc66d1c4009",
       "title": "通胀压力或将进一步传导：美国柴油价格历史性首破每加仑6美元关口",
       "firstSeenAt": "2026-09-11T08:54:33.186Z",
@@ -358,22 +485,6 @@
         "news_c82680efc5d2",
         "news_2ae7dd58eb54",
         "news_9009b8b62519"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_0a3941c2f042",
-      "title": "国新办举行“开局起步‘十五五’”系列主题新闻发布会 介绍金融领域贯彻落实“十五五”规划、推动金融强国建设有关情况",
-      "firstSeenAt": "2026-09-10T09:01:39.236Z",
-      "lastSeenAt": "2026-09-12T08:41:46.377Z",
-      "primaryItemId": "news_ecb5431dff13",
-      "evidenceItemIds": [
-        "news_346088987fe6",
-        "news_71999a751c56",
-        "news_c485e278f48b",
-        "news_ecb5431dff13",
-        "news_2dc352bff169",
-        "news_1ea0f8d85069"
       ],
       "status": "developing"
     },
@@ -512,91 +623,6 @@
         "news_7f86a55f282f",
         "news_52b8dc1a79cf",
         "news_1ed119667c5a"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_202dd878fa19",
-      "title": "晚间公告｜9月11日这些公告有看头",
-      "firstSeenAt": "2026-07-31T14:43:32.623Z",
-      "lastSeenAt": "2026-09-12T04:44:05.597Z",
-      "primaryItemId": "news_4021b72f1f8a",
-      "evidenceItemIds": [
-        "news_eaf56a2f5345",
-        "news_8b256f193830",
-        "news_58fdd88ca5ff",
-        "news_4cac4c806a4b",
-        "news_f202b91c5619",
-        "news_c91687230a2c",
-        "news_958c3f39adb1",
-        "news_a328d8732020",
-        "news_042b264c9695",
-        "news_0f321ef4412b",
-        "news_6fe4b8332584",
-        "news_f755ad25cd3e",
-        "news_6d13f9de9d52",
-        "news_bd988cf929f3",
-        "news_a6888af31e73",
-        "news_8429689faaae",
-        "news_f88525090167",
-        "news_0ab1f5803307",
-        "news_141a625db923",
-        "news_9ac737e4924a",
-        "news_60885ba55001",
-        "news_9d3c513ffc0f",
-        "news_3e80b0340e44",
-        "news_56a89494a39c",
-        "news_69264b26c3e7",
-        "news_514b54e00f99",
-        "news_67ca015f8000",
-        "news_3108d5eeee52",
-        "news_4d0de13affc5",
-        "news_d0b6ffb1536e",
-        "news_f8b9c9518289",
-        "news_a7e36ccebd4b",
-        "news_e633763695a5",
-        "news_ad121ea558e3",
-        "news_1fa48f60ae1c",
-        "news_563594238b47",
-        "news_4021b72f1f8a"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_73f4b1fb41a8",
-      "title": "龙虎榜丨机构今日买入这14股，抛售逸豪新材1.3亿元",
-      "firstSeenAt": "2026-08-03T11:50:30.990Z",
-      "lastSeenAt": "2026-09-12T04:44:05.597Z",
-      "primaryItemId": "news_4eb1533ada96",
-      "evidenceItemIds": [
-        "news_de7d0ba05e16",
-        "news_e7a76dcea2a8",
-        "news_d9bbbfd32f43",
-        "news_9d97988a8b31",
-        "news_f8e689022fb3",
-        "news_a41d521c5c53",
-        "news_50b190578187",
-        "news_45437b89e860",
-        "news_d1e40824a959",
-        "news_d35397f00f85",
-        "news_28eb220b6d7d",
-        "news_83a8f0bce8bc",
-        "news_a434c7856598",
-        "news_a8c173d2f58f",
-        "news_f7c76b8d1160",
-        "news_be3920c8ab0f",
-        "news_7a02bb038160",
-        "news_5e9ecf83e613",
-        "news_40d2672e7c11",
-        "news_c0cf1488e336",
-        "news_9b61e52ad416",
-        "news_93d30ccfe80b",
-        "news_6b446ac18e20",
-        "news_52fedf4cbbb1",
-        "news_03577cf502cc",
-        "news_d0fdb37aef08",
-        "news_8506c5c0912d",
-        "news_4eb1533ada96"
       ],
       "status": "developing"
     },
@@ -820,18 +846,6 @@
       "status": "developing"
     },
     {
-      "eventId": "event_c4774e65b82a",
-      "title": "日本正把全球拖下水",
-      "firstSeenAt": "2026-09-10T13:03:28.502Z",
-      "lastSeenAt": "2026-09-11T04:47:56.017Z",
-      "primaryItemId": "news_ed151ecc2dda",
-      "evidenceItemIds": [
-        "news_8b89b3c34be4",
-        "news_ed151ecc2dda"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_1b5aad0cdacf",
       "title": "【数据看盘】超5亿元资金抢筹金安国纪，多路资金激烈博弈超声电子",
       "firstSeenAt": "2026-09-10T13:03:28.502Z",
@@ -869,18 +883,6 @@
         "news_204d2a2927f7",
         "news_640e2ac7dedc",
         "news_5bf1bbf5dabc"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_e35bdba7ae52",
-      "title": "金融监管总局：大力整治“价格战”、违规返佣、“高息高返”等行为",
-      "firstSeenAt": "2026-09-10T09:01:39.236Z",
-      "lastSeenAt": "2026-09-10T16:36:51.084Z",
-      "primaryItemId": "news_021669d63ef5",
-      "evidenceItemIds": [
-        "news_021669d63ef5",
-        "news_f7ce83d655c0"
       ],
       "status": "developing"
     },

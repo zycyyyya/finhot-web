@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-09-11T16:43:57.247Z",
+  "generatedAt": "2026-09-12T04:44:05.597Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -8,7 +8,7 @@
       "eventId": "event_315991b0232c",
       "title": "法国7月工业产出下滑0.4%，逊于市场预期",
       "firstSeenAt": "2026-09-07T09:23:18.972Z",
-      "lastSeenAt": "2026-09-11T16:43:57.247Z",
+      "lastSeenAt": "2026-09-12T04:44:05.597Z",
       "primaryItemId": "news_f4dc2ebd24a4",
       "evidenceItemIds": [
         "news_19b23ed4b4a9",
@@ -20,13 +20,11 @@
     },
     {
       "eventId": "event_32967e3730b8",
-      "title": "美股大型科技股盘前多数上涨，英特尔涨超2%",
+      "title": "热门中概股美股盘前集体走强，蔚来涨超2%",
       "firstSeenAt": "2026-08-03T15:23:32.854Z",
-      "lastSeenAt": "2026-09-11T16:43:57.247Z",
-      "primaryItemId": "news_0c203dd7e5f6",
+      "lastSeenAt": "2026-09-12T04:44:05.597Z",
+      "primaryItemId": "news_5caa1ba21c83",
       "evidenceItemIds": [
-        "news_0eb4388c732a",
-        "news_a68f0b461e3d",
         "news_7a48b08815f8",
         "news_32f9f080ed6c",
         "news_cdf64bc47c62",
@@ -74,7 +72,9 @@
         "news_13a404d5aebb",
         "news_2801be608ab2",
         "news_b497a6eb590d",
-        "news_0c203dd7e5f6"
+        "news_0c203dd7e5f6",
+        "news_93d7e52ddd4e",
+        "news_5caa1ba21c83"
       ],
       "status": "developing"
     },
@@ -82,7 +82,7 @@
       "eventId": "event_529af3584dc2",
       "title": "恒指收跌0.6%，恒生科技指数跌0.23%",
       "firstSeenAt": "2026-07-31T02:43:30.494Z",
-      "lastSeenAt": "2026-09-11T16:43:57.247Z",
+      "lastSeenAt": "2026-09-12T04:44:05.597Z",
       "primaryItemId": "news_422bf9816e67",
       "evidenceItemIds": [
         "news_c6451e15adf9",
@@ -142,7 +142,7 @@
       "eventId": "event_1a38612f1a6c",
       "title": "国家统计局：2026年8月份CPI温和回升 PPI同比涨幅扩大",
       "firstSeenAt": "2026-09-09T04:48:18.184Z",
-      "lastSeenAt": "2026-09-11T16:43:57.247Z",
+      "lastSeenAt": "2026-09-12T04:44:05.597Z",
       "primaryItemId": "news_4e0504e7ca15",
       "evidenceItemIds": [
         "news_4e0504e7ca15",
@@ -155,10 +155,10 @@
     },
     {
       "eventId": "event_0d8356d7e80c",
-      "title": "美国8月核心CPI同比2.4%，环比0.3%超预期",
+      "title": "中国8月CPI同比 0.8%，前值 0.5%。 中国8月PPI同比 3.8%，前值 3.5%",
       "firstSeenAt": "2026-09-10T13:03:28.502Z",
-      "lastSeenAt": "2026-09-11T16:43:57.247Z",
-      "primaryItemId": "news_bfcc6e1796d5",
+      "lastSeenAt": "2026-09-12T04:44:05.597Z",
+      "primaryItemId": "news_bfb955ce952e",
       "evidenceItemIds": [
         "news_e6dd61e5a62e",
         "news_642197c7b9b7",
@@ -168,7 +168,8 @@
         "news_b813a8e331c3",
         "news_97015f577d01",
         "news_213bb03f020f",
-        "news_949a39fb2689"
+        "news_949a39fb2689",
+        "news_6b43d20b34b9"
       ],
       "status": "developing"
     },
@@ -176,7 +177,7 @@
       "eventId": "event_0737eac2cabb",
       "title": "连板股追踪丨A股今日共40只个股涨停 这只建筑股4连板",
       "firstSeenAt": "2026-07-31T02:43:30.494Z",
-      "lastSeenAt": "2026-09-11T16:43:57.247Z",
+      "lastSeenAt": "2026-09-12T04:44:05.597Z",
       "primaryItemId": "news_bba3b862f6d2",
       "evidenceItemIds": [
         "news_cf2b97a75d61",
@@ -219,7 +220,7 @@
       "eventId": "event_0735e68ab520",
       "title": "港股评级汇总：高盛维持MINIMAX买入评级",
       "firstSeenAt": "2026-08-03T07:46:07.010Z",
-      "lastSeenAt": "2026-09-11T16:43:57.247Z",
+      "lastSeenAt": "2026-09-12T04:44:05.597Z",
       "primaryItemId": "news_30e00eab2e79",
       "evidenceItemIds": [
         "news_f63a75b780fe",
@@ -241,7 +242,7 @@
       "eventId": "event_bbc66d1c4009",
       "title": "通胀压力或将进一步传导：美国柴油价格历史性首破每加仑6美元关口",
       "firstSeenAt": "2026-09-11T08:54:33.186Z",
-      "lastSeenAt": "2026-09-11T16:43:57.247Z",
+      "lastSeenAt": "2026-09-12T04:44:05.597Z",
       "primaryItemId": "news_da9f769988d0",
       "evidenceItemIds": [
         "news_13504510b7b0",
@@ -251,22 +252,10 @@
       "status": "developing"
     },
     {
-      "eventId": "event_e7be81b1019a",
-      "title": "撤退信号？“大空头”平仓英伟达和Palantir看跌期权",
-      "firstSeenAt": "2026-09-11T08:54:33.186Z",
-      "lastSeenAt": "2026-09-11T16:43:57.247Z",
-      "primaryItemId": "news_c10f0bd27b1e",
-      "evidenceItemIds": [
-        "news_c10f0bd27b1e",
-        "news_f6e938524837"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_fcdf893f8497",
       "title": "华锡有色：筹划控制权变更事项，股票9月14日起停牌",
       "firstSeenAt": "2026-09-11T08:54:33.186Z",
-      "lastSeenAt": "2026-09-11T16:43:57.247Z",
+      "lastSeenAt": "2026-09-12T04:44:05.597Z",
       "primaryItemId": "news_7f86a55f282f",
       "evidenceItemIds": [
         "news_7f86a55f282f",
@@ -279,7 +268,7 @@
       "eventId": "event_202dd878fa19",
       "title": "晚间公告｜9月11日这些公告有看头",
       "firstSeenAt": "2026-07-31T14:43:32.623Z",
-      "lastSeenAt": "2026-09-11T16:43:57.247Z",
+      "lastSeenAt": "2026-09-12T04:44:05.597Z",
       "primaryItemId": "news_4021b72f1f8a",
       "evidenceItemIds": [
         "news_eaf56a2f5345",
@@ -326,7 +315,7 @@
       "eventId": "event_73f4b1fb41a8",
       "title": "龙虎榜丨机构今日买入这14股，抛售逸豪新材1.3亿元",
       "firstSeenAt": "2026-08-03T11:50:30.990Z",
-      "lastSeenAt": "2026-09-11T16:43:57.247Z",
+      "lastSeenAt": "2026-09-12T04:44:05.597Z",
       "primaryItemId": "news_4eb1533ada96",
       "evidenceItemIds": [
         "news_de7d0ba05e16",
@@ -364,7 +353,7 @@
       "eventId": "event_32439e27a278",
       "title": "南向资金追踪｜本周净买入约201亿港元 大举加仓小米和百度抛售中芯国际",
       "firstSeenAt": "2026-08-26T13:29:08.098Z",
-      "lastSeenAt": "2026-09-11T16:43:57.247Z",
+      "lastSeenAt": "2026-09-12T04:44:05.597Z",
       "primaryItemId": "news_141760932a30",
       "evidenceItemIds": [
         "news_3a5e6150516a",
@@ -381,7 +370,7 @@
       "eventId": "event_ed7755d38ac0",
       "title": "【VIP日报】AI硬件逆势活跃 栏目解读海外映射 提及MLCC概念核心公司收获涨停",
       "firstSeenAt": "2026-09-09T13:05:29.700Z",
-      "lastSeenAt": "2026-09-11T16:43:57.247Z",
+      "lastSeenAt": "2026-09-12T04:44:05.597Z",
       "primaryItemId": "news_15ddbbcb7780",
       "evidenceItemIds": [
         "news_bf30e4688e1e",
@@ -394,7 +383,7 @@
       "eventId": "event_1ea2527ee420",
       "title": "中国证监会发布《期货公司监督管理办法》及配套实施公告",
       "firstSeenAt": "2026-08-05T06:41:05.050Z",
-      "lastSeenAt": "2026-09-11T16:43:57.247Z",
+      "lastSeenAt": "2026-09-12T04:44:05.597Z",
       "primaryItemId": "news_e5dbfd1edc31",
       "evidenceItemIds": [
         "news_4cc3e3bd1fc7",
@@ -411,7 +400,7 @@
       "eventId": "event_277114f49085",
       "title": "浪潮信息：拟定增募资不超过人民币90亿元用于AI基础设施等",
       "firstSeenAt": "2026-09-11T12:56:54.601Z",
-      "lastSeenAt": "2026-09-11T16:43:57.247Z",
+      "lastSeenAt": "2026-09-12T04:44:05.597Z",
       "primaryItemId": "news_c82680efc5d2",
       "evidenceItemIds": [
         "news_c82680efc5d2",
@@ -424,7 +413,7 @@
       "eventId": "event_c4e617e80486",
       "title": "董事会主席王玉锁增持新奥能源(02688)30万股 每股作价约48.51港元",
       "firstSeenAt": "2026-09-11T12:56:54.601Z",
-      "lastSeenAt": "2026-09-11T16:43:57.247Z",
+      "lastSeenAt": "2026-09-12T04:44:05.597Z",
       "primaryItemId": "news_d0cf77485d00",
       "evidenceItemIds": [
         "news_d0cf77485d00",
@@ -436,7 +425,7 @@
       "eventId": "event_a70de33aabd8",
       "title": "新股消息 | 踏歌智行拟港股IPO 中国证监会要求补充说明历次增资及股权转让定价依据等",
       "firstSeenAt": "2026-09-11T12:56:54.601Z",
-      "lastSeenAt": "2026-09-11T16:43:57.247Z",
+      "lastSeenAt": "2026-09-12T04:44:05.597Z",
       "primaryItemId": "news_87f372a590f7",
       "evidenceItemIds": [
         "news_87f372a590f7",
@@ -448,7 +437,7 @@
       "eventId": "event_d43e7f90a783",
       "title": "西班牙股市上涨；截至收盘西班牙IBEX35指数上涨0.91%",
       "firstSeenAt": "2026-09-09T16:51:08.967Z",
-      "lastSeenAt": "2026-09-11T16:43:57.247Z",
+      "lastSeenAt": "2026-09-12T04:44:05.597Z",
       "primaryItemId": "news_fe48093421dd",
       "evidenceItemIds": [
         "news_5c711d3fc9c4",
@@ -470,7 +459,7 @@
       "eventId": "event_1e700de930bf",
       "title": "英国股市上涨；截至收盘Investing.com 英国 100上涨0.44%",
       "firstSeenAt": "2026-09-11T16:43:57.247Z",
-      "lastSeenAt": "2026-09-11T16:43:57.247Z",
+      "lastSeenAt": "2026-09-12T04:44:05.597Z",
       "primaryItemId": "news_e9ffd13dd72a",
       "evidenceItemIds": [
         "news_e9ffd13dd72a",
@@ -485,7 +474,7 @@
       "eventId": "event_0a3941c2f042",
       "title": "国新办举行“开局起步‘十五五’”系列主题新闻发布会 介绍金融领域贯彻落实“十五五”规划、推动金融强国建设有关情况",
       "firstSeenAt": "2026-09-10T09:01:39.236Z",
-      "lastSeenAt": "2026-09-11T12:56:54.601Z",
+      "lastSeenAt": "2026-09-12T04:44:05.597Z",
       "primaryItemId": "news_ecb5431dff13",
       "evidenceItemIds": [
         "news_346088987fe6",
@@ -494,6 +483,108 @@
         "news_ecb5431dff13",
         "news_2dc352bff169",
         "news_1ea0f8d85069"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_3e3812948874",
+      "title": "特朗普连续3天许诺：共和党赢下中期选举，将向所有美国成年人发放5000美元",
+      "firstSeenAt": "2026-09-10T09:01:39.236Z",
+      "lastSeenAt": "2026-09-12T04:44:05.597Z",
+      "primaryItemId": "news_798bdcd3c5be",
+      "evidenceItemIds": [
+        "news_eb78ec3e9397",
+        "news_63ca5c64090d",
+        "news_8d11eb38e167",
+        "news_798bdcd3c5be"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_91fb625edcc6",
+      "title": "华尔街见闻早餐FM-Radio | 2026年9月12日",
+      "firstSeenAt": "2026-08-01T03:54:06.184Z",
+      "lastSeenAt": "2026-09-12T04:44:05.597Z",
+      "primaryItemId": "news_9c8de095a7c5",
+      "evidenceItemIds": [
+        "news_17edaa318161",
+        "news_98deb5260008",
+        "news_d6ded5ce3d23",
+        "news_ce5450193ef2",
+        "news_c703d5c64965",
+        "news_f283b8db4f69",
+        "news_1192f017766c",
+        "news_13a9ec382c84",
+        "news_56f2fe7df40c",
+        "news_4bcfcf17662a",
+        "news_1e16c7e47c8f",
+        "news_42d80422ca92",
+        "news_f8de29856631",
+        "news_7c9d70564092",
+        "news_64e205ea0eff",
+        "news_ce46b4659126",
+        "news_6187cca76a84",
+        "news_365d990ddc0a",
+        "news_9b6eace71407",
+        "news_a6898d92a8d6",
+        "news_3db9c3529da4",
+        "news_95deade611b9",
+        "news_cf02042ffbd4",
+        "news_3465a9cb688f",
+        "news_32265c18dcdc",
+        "news_821e31f5c9fa",
+        "news_9c8de095a7c5",
+        "news_de2273d7fbfe"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_faac4b9f2bd8",
+      "title": "报道：英伟达洽谈在Anthropic IPO中投资高达100亿美元",
+      "firstSeenAt": "2026-08-22T04:49:56.049Z",
+      "lastSeenAt": "2026-09-12T04:44:05.597Z",
+      "primaryItemId": "news_aeb5377444d0",
+      "evidenceItemIds": [
+        "news_1d7c95068d75",
+        "news_3a13bd428308",
+        "news_aeb5377444d0",
+        "news_4558400af6d5"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_463521362b18",
+      "title": "连续六年！中国银行协助深圳市人民政府在港澳发行地方政府债券",
+      "firstSeenAt": "2026-09-12T04:44:05.597Z",
+      "lastSeenAt": "2026-09-12T04:44:05.597Z",
+      "primaryItemId": "news_8286d2117f03",
+      "evidenceItemIds": [
+        "news_8286d2117f03",
+        "news_aab745fdb8c3"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_e8f555535946",
+      "title": "*ST卓然四年财报造假 或被实施重大违法强制退市|速读公告",
+      "firstSeenAt": "2026-09-12T04:44:05.597Z",
+      "lastSeenAt": "2026-09-12T04:44:05.597Z",
+      "primaryItemId": "news_39bcdaa16959",
+      "evidenceItemIds": [
+        "news_39bcdaa16959",
+        "news_76c7ea6b59e9"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_e7be81b1019a",
+      "title": "撤退信号？“大空头”平仓英伟达和Palantir看跌期权",
+      "firstSeenAt": "2026-09-11T08:54:33.186Z",
+      "lastSeenAt": "2026-09-11T16:43:57.247Z",
+      "primaryItemId": "news_c10f0bd27b1e",
+      "evidenceItemIds": [
+        "news_c10f0bd27b1e",
+        "news_f6e938524837"
       ],
       "status": "developing"
     },
@@ -753,19 +844,6 @@
       "evidenceItemIds": [
         "news_021669d63ef5",
         "news_f7ce83d655c0"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_3e3812948874",
-      "title": "每人发5000美元？“特朗普红利”震惊中期选举 智库警告根本没有盈余",
-      "firstSeenAt": "2026-09-10T09:01:39.236Z",
-      "lastSeenAt": "2026-09-10T16:36:51.084Z",
-      "primaryItemId": "news_8d11eb38e167",
-      "evidenceItemIds": [
-        "news_eb78ec3e9397",
-        "news_63ca5c64090d",
-        "news_8d11eb38e167"
       ],
       "status": "developing"
     },
@@ -1614,42 +1692,6 @@
       "evidenceItemIds": [
         "news_e098ef2e51e5",
         "news_5ca3f8647578"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_91fb625edcc6",
-      "title": "华尔街见闻早餐FM-Radio | 2026年9月6日",
-      "firstSeenAt": "2026-08-01T03:54:06.184Z",
-      "lastSeenAt": "2026-09-07T09:23:18.972Z",
-      "primaryItemId": "news_32265c18dcdc",
-      "evidenceItemIds": [
-        "news_17edaa318161",
-        "news_98deb5260008",
-        "news_d6ded5ce3d23",
-        "news_ce5450193ef2",
-        "news_c703d5c64965",
-        "news_f283b8db4f69",
-        "news_1192f017766c",
-        "news_13a9ec382c84",
-        "news_56f2fe7df40c",
-        "news_4bcfcf17662a",
-        "news_1e16c7e47c8f",
-        "news_42d80422ca92",
-        "news_f8de29856631",
-        "news_7c9d70564092",
-        "news_64e205ea0eff",
-        "news_ce46b4659126",
-        "news_6187cca76a84",
-        "news_365d990ddc0a",
-        "news_9b6eace71407",
-        "news_a6898d92a8d6",
-        "news_3db9c3529da4",
-        "news_95deade611b9",
-        "news_cf02042ffbd4",
-        "news_3465a9cb688f",
-        "news_32265c18dcdc",
-        "news_821e31f5c9fa"
       ],
       "status": "developing"
     },
@@ -4888,18 +4930,6 @@
         "news_fd0f00aa6e79",
         "news_6da581a363fd",
         "news_e07712cc3b01"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_faac4b9f2bd8",
-      "title": "Anthropic计划IPO募资超1000亿美元 投资者却发出一连串质疑",
-      "firstSeenAt": "2026-08-22T04:49:56.049Z",
-      "lastSeenAt": "2026-08-23T13:06:54.652Z",
-      "primaryItemId": "news_1d7c95068d75",
-      "evidenceItemIds": [
-        "news_1d7c95068d75",
-        "news_3a13bd428308"
       ],
       "status": "developing"
     },

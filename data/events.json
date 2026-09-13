@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-09-13T04:57:33.200Z",
+  "generatedAt": "2026-09-13T09:37:11.404Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -8,7 +8,7 @@
       "eventId": "event_315991b0232c",
       "title": "法国7月工业产出下滑0.4%，逊于市场预期",
       "firstSeenAt": "2026-09-07T09:23:18.972Z",
-      "lastSeenAt": "2026-09-13T04:57:33.200Z",
+      "lastSeenAt": "2026-09-13T09:37:11.404Z",
       "primaryItemId": "news_f4dc2ebd24a4",
       "evidenceItemIds": [
         "news_19b23ed4b4a9",
@@ -20,10 +20,10 @@
     },
     {
       "eventId": "event_32967e3730b8",
-      "title": "热门中概股美股盘前集体走强，蔚来涨超2%",
+      "title": "美股三大指数收盘集体上涨，大型科技股多数走高",
       "firstSeenAt": "2026-08-03T15:23:32.854Z",
-      "lastSeenAt": "2026-09-13T04:57:33.200Z",
-      "primaryItemId": "news_5caa1ba21c83",
+      "lastSeenAt": "2026-09-13T09:37:11.404Z",
+      "primaryItemId": "news_93d7e52ddd4e",
       "evidenceItemIds": [
         "news_7a48b08815f8",
         "news_32f9f080ed6c",
@@ -82,7 +82,7 @@
       "eventId": "event_1a38612f1a6c",
       "title": "国家统计局：2026年8月份CPI温和回升 PPI同比涨幅扩大",
       "firstSeenAt": "2026-09-09T04:48:18.184Z",
-      "lastSeenAt": "2026-09-13T04:57:33.200Z",
+      "lastSeenAt": "2026-09-13T09:37:11.404Z",
       "primaryItemId": "news_4e0504e7ca15",
       "evidenceItemIds": [
         "news_4e0504e7ca15",
@@ -95,10 +95,10 @@
     },
     {
       "eventId": "event_0d8356d7e80c",
-      "title": "美国8月CPI环比增速反弹 美联储9月加息概率跳升至85%",
+      "title": "申万宏源：美国8月CPI符合预期 9月加息概率升至87%",
       "firstSeenAt": "2026-09-10T13:03:28.502Z",
-      "lastSeenAt": "2026-09-13T04:57:33.200Z",
-      "primaryItemId": "news_949a39fb2689",
+      "lastSeenAt": "2026-09-13T09:37:11.404Z",
+      "primaryItemId": "news_4b6fc564f240",
       "evidenceItemIds": [
         "news_e6dd61e5a62e",
         "news_642197c7b9b7",
@@ -118,7 +118,7 @@
       "eventId": "event_d43e7f90a783",
       "title": "西班牙股市上涨；截至收盘西班牙IBEX35指数上涨0.91%",
       "firstSeenAt": "2026-09-09T16:51:08.967Z",
-      "lastSeenAt": "2026-09-13T04:57:33.200Z",
+      "lastSeenAt": "2026-09-13T09:37:11.404Z",
       "primaryItemId": "news_fe48093421dd",
       "evidenceItemIds": [
         "news_5c711d3fc9c4",
@@ -140,7 +140,7 @@
       "eventId": "event_1e700de930bf",
       "title": "英国股市上涨；截至收盘Investing.com 英国 100上涨0.44%",
       "firstSeenAt": "2026-09-11T16:43:57.247Z",
-      "lastSeenAt": "2026-09-13T04:57:33.200Z",
+      "lastSeenAt": "2026-09-13T09:37:11.404Z",
       "primaryItemId": "news_e9ffd13dd72a",
       "evidenceItemIds": [
         "news_e9ffd13dd72a",
@@ -155,7 +155,7 @@
       "eventId": "event_3e3812948874",
       "title": "特朗普连续3天许诺：共和党赢下中期选举，将向所有美国成年人发放5000美元",
       "firstSeenAt": "2026-09-10T09:01:39.236Z",
-      "lastSeenAt": "2026-09-13T04:57:33.200Z",
+      "lastSeenAt": "2026-09-13T09:37:11.404Z",
       "primaryItemId": "news_798bdcd3c5be",
       "evidenceItemIds": [
         "news_eb78ec3e9397",
@@ -169,7 +169,7 @@
       "eventId": "event_91fb625edcc6",
       "title": "华尔街见闻早餐FM-Radio | 2026年9月12日",
       "firstSeenAt": "2026-08-01T03:54:06.184Z",
-      "lastSeenAt": "2026-09-13T04:57:33.200Z",
+      "lastSeenAt": "2026-09-13T09:37:11.404Z",
       "primaryItemId": "news_9c8de095a7c5",
       "evidenceItemIds": [
         "news_17edaa318161",
@@ -207,7 +207,7 @@
       "eventId": "event_faac4b9f2bd8",
       "title": "报道：英伟达洽谈在Anthropic IPO中投资高达100亿美元",
       "firstSeenAt": "2026-08-22T04:49:56.049Z",
-      "lastSeenAt": "2026-09-13T04:57:33.200Z",
+      "lastSeenAt": "2026-09-13T09:37:11.404Z",
       "primaryItemId": "news_aeb5377444d0",
       "evidenceItemIds": [
         "news_1d7c95068d75",
@@ -218,22 +218,10 @@
       "status": "developing"
     },
     {
-      "eventId": "event_463521362b18",
-      "title": "连续六年！中国银行协助深圳市人民政府在港澳发行地方政府债券",
-      "firstSeenAt": "2026-09-12T04:44:05.597Z",
-      "lastSeenAt": "2026-09-13T04:57:33.200Z",
-      "primaryItemId": "news_8286d2117f03",
-      "evidenceItemIds": [
-        "news_8286d2117f03",
-        "news_aab745fdb8c3"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_e8f555535946",
       "title": "*ST卓然四年财报造假 或被实施重大违法强制退市|速读公告",
       "firstSeenAt": "2026-09-12T04:44:05.597Z",
-      "lastSeenAt": "2026-09-13T04:57:33.200Z",
+      "lastSeenAt": "2026-09-13T09:37:11.404Z",
       "primaryItemId": "news_39bcdaa16959",
       "evidenceItemIds": [
         "news_39bcdaa16959",
@@ -245,7 +233,7 @@
       "eventId": "event_83182dbfe420",
       "title": "新股消息 | 汽车测试解决方案供应商和夏科技递表港交所创业板 2026上半年实现扭亏为盈",
       "firstSeenAt": "2026-09-12T08:41:46.377Z",
-      "lastSeenAt": "2026-09-13T04:57:33.200Z",
+      "lastSeenAt": "2026-09-13T09:37:11.404Z",
       "primaryItemId": "news_946c204ad482",
       "evidenceItemIds": [
         "news_946c204ad482",
@@ -257,7 +245,7 @@
       "eventId": "event_df75551da7f8",
       "title": "“循环融资”越滚越大！英伟达拟豪掷100亿美元押注“史上最大IPO”",
       "firstSeenAt": "2026-09-10T09:01:39.236Z",
-      "lastSeenAt": "2026-09-13T04:57:33.200Z",
+      "lastSeenAt": "2026-09-13T09:37:11.404Z",
       "primaryItemId": "news_4c185cead262",
       "evidenceItemIds": [
         "news_c93ab197cbdc",
@@ -271,11 +259,84 @@
       "eventId": "event_3f39285a66e6",
       "title": "中金：通胀粘性支持加息 预计美联储加息25个基点",
       "firstSeenAt": "2026-09-12T12:18:38.037Z",
-      "lastSeenAt": "2026-09-13T04:57:33.200Z",
+      "lastSeenAt": "2026-09-13T09:37:11.404Z",
       "primaryItemId": "news_6eefb08b3666",
       "evidenceItemIds": [
         "news_6eefb08b3666",
         "news_075569a5d9d4"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_4895fe4b7778",
+      "title": "“超级周”来袭：美联储会加息吗？霍尔木兹能达成协议吗",
+      "firstSeenAt": "2026-09-13T04:57:33.200Z",
+      "lastSeenAt": "2026-09-13T09:37:11.404Z",
+      "primaryItemId": "news_5e809388d9cf",
+      "evidenceItemIds": [
+        "news_5e809388d9cf",
+        "news_975e4847f2bb"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_7858915f0231",
+      "title": "习近平出席金砖国家领导人第十八次会晤第一阶段会议并发表重要讲话。（新华社）",
+      "firstSeenAt": "2026-09-13T04:57:33.200Z",
+      "lastSeenAt": "2026-09-13T09:37:11.404Z",
+      "primaryItemId": "news_aaa49c7cf506",
+      "evidenceItemIds": [
+        "news_aaa49c7cf506",
+        "news_6fa2a312e266",
+        "news_5e06319d78ef"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_8cc0d9c99b04",
+      "title": "中远海运重工启动A股IPO辅导",
+      "firstSeenAt": "2026-09-13T04:57:33.200Z",
+      "lastSeenAt": "2026-09-13T09:37:11.404Z",
+      "primaryItemId": "news_09a3869b7446",
+      "evidenceItemIds": [
+        "news_09a3869b7446",
+        "news_fb83f82b746a"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_3870986b7975",
+      "title": "算力租赁潮之后，上市公司扎堆“建厂”卖Token|直击2026中国算力大会",
+      "firstSeenAt": "2026-09-13T09:37:11.404Z",
+      "lastSeenAt": "2026-09-13T09:37:11.404Z",
+      "primaryItemId": "news_8e31372486cf",
+      "evidenceItemIds": [
+        "news_8e31372486cf",
+        "news_e858ace66dc3"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_1e6301627188",
+      "title": "SpaceX在纳斯达克100指数中的权重有望翻倍以上",
+      "firstSeenAt": "2026-09-13T09:37:11.404Z",
+      "lastSeenAt": "2026-09-13T09:37:11.404Z",
+      "primaryItemId": "news_ccd64f5d271c",
+      "evidenceItemIds": [
+        "news_ccd64f5d271c",
+        "news_edbeef4693af"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_463521362b18",
+      "title": "连续六年！中国银行协助深圳市人民政府在港澳发行地方政府债券",
+      "firstSeenAt": "2026-09-12T04:44:05.597Z",
+      "lastSeenAt": "2026-09-13T04:57:33.200Z",
+      "primaryItemId": "news_8286d2117f03",
+      "evidenceItemIds": [
+        "news_8286d2117f03",
+        "news_aab745fdb8c3"
       ],
       "status": "developing"
     },
@@ -309,42 +370,6 @@
         "news_d18122bfe334",
         "news_e5dbfd1edc31",
         "news_c70761d63c7c"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_4895fe4b7778",
-      "title": "“超级周”来袭：美联储会加息吗？霍尔木兹能达成协议吗",
-      "firstSeenAt": "2026-09-13T04:57:33.200Z",
-      "lastSeenAt": "2026-09-13T04:57:33.200Z",
-      "primaryItemId": "news_5e809388d9cf",
-      "evidenceItemIds": [
-        "news_5e809388d9cf",
-        "news_975e4847f2bb"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_7858915f0231",
-      "title": "习近平出席金砖国家领导人第十八次会晤第一阶段会议并发表重要讲话。（新华社）",
-      "firstSeenAt": "2026-09-13T04:57:33.200Z",
-      "lastSeenAt": "2026-09-13T04:57:33.200Z",
-      "primaryItemId": "news_aaa49c7cf506",
-      "evidenceItemIds": [
-        "news_aaa49c7cf506",
-        "news_6fa2a312e266"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_8cc0d9c99b04",
-      "title": "中远海运重工启动A股IPO辅导",
-      "firstSeenAt": "2026-09-13T04:57:33.200Z",
-      "lastSeenAt": "2026-09-13T04:57:33.200Z",
-      "primaryItemId": "news_09a3869b7446",
-      "evidenceItemIds": [
-        "news_09a3869b7446",
-        "news_fb83f82b746a"
       ],
       "status": "developing"
     },

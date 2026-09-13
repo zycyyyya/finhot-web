@@ -1,5 +1,5 @@
 // finhot auto-generated data - powered by RSSHub + financial sources
-// Generated: 2026-09-13T13:23:33.029Z
+// Generated: 2026-09-13T16:29:56.335Z
 // Practitioner value scoring: relevance(25) + authority(20) + impact(20) + recency(15) + depth(10) + actionability(10)
 
 window.CATEGORIES = [
@@ -94,10 +94,131 @@ window.CATEGORY_CONFIG = {
 };
 
 window.FINHOT_DATA = {
-  "date": "2026-09-13",
-  "generatedAt": "2026-09-13T13:23:33.029Z",
-  "lead": "今日新增 62 条，共 150 条精选资讯",
+  "date": "2026-09-14",
+  "generatedAt": "2026-09-13T16:29:56.335Z",
+  "lead": "今日新增 13 条，共 150 条精选资讯",
   "items": [
+    {
+      "title": "报道：Anthropic选择在纳斯达克IPO",
+      "sourceUrl": "https://wallstreetcn.com/livenews/3164442",
+      "publishedAt": "2026-09-13T16:16:39.000Z",
+      "fetchedAt": "2026-09-13T16:26:52.086Z",
+      "timeConfidence": "source",
+      "summary": "据知情人士透露，Anthropic已选择纳斯达克作为其潜在IPO的上市地点，这意味着后者又赢得了一场重要的交易所竞争。今年早些时候，纳斯达克成功争取到SpaceX上市。SpaceX估值达到1.75万亿美元，而一些估算认为Anthropic的估值可能达到2万亿美元，不过这一数字目前尚未最终确定。此前，OpenAI首席执行官萨姆·奥特曼表示，鉴于围绕AI可能对人类构成生存威胁的争议，OpenAI目前不",
+      "sourceName": "华尔街见闻",
+      "category": "industry",
+      "tags": [
+        "行业动态"
+      ],
+      "evidenceType": "financial_media",
+      "discoveredVia": "RSSHub",
+      "id": "news_3cd07be9ec23",
+      "tier": "S2",
+      "sourceTier": "S2",
+      "sourceTierLabel": "专业财经媒体",
+      "score": 64,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 12,
+        "authority": 15,
+        "impact": 8,
+        "recency": 15,
+        "depth": 10,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "专业财经媒体跟进",
+        "时效性高",
+        "摘要信息较完整"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 20,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "marketEducation": {
+          "score": 42,
+          "reasons": [
+            "命中二级市场投教核心主题 1 项"
+          ]
+        },
+        "privateFundSales": {
+          "score": 20,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        }
+      },
+      "primaryScene": "marketEducation",
+      "selectedForFeatured": false,
+      "contentTags": [
+        "行业动态"
+      ],
+      "eventId": "event_faac4b9f2bd8"
+    },
+    {
+      "title": "白宫国家经济委员会主任哈塞特：特朗普和我都认为没有理由加息。 特朗普百分之百尊重沃什的独立性。 美联储在选举前保持现状很重要。 我们将百分之百支持美联储...",
+      "sourceUrl": "https://wallstreetcn.com/livenews/3164438",
+      "publishedAt": "2026-09-13T13:40:11.000Z",
+      "fetchedAt": "2026-09-13T16:26:52.086Z",
+      "timeConfidence": "source",
+      "summary": "白宫国家经济委员会主任哈塞特：特朗普和我都认为没有理由加息。\n\n特朗普百分之百尊重沃什的独立性。\n\n美联储在选举前保持现状很重要。\n\n我们将百分之百支持美联储的任何决定。\n\n人工智能的风险在于恶意行为者获取更先进的人工智能。",
+      "sourceName": "华尔街见闻",
+      "category": "industry",
+      "tags": [
+        "行业动态"
+      ],
+      "evidenceType": "financial_media",
+      "discoveredVia": "RSSHub",
+      "id": "news_c1b58306566d",
+      "tier": "S2",
+      "sourceTier": "S2",
+      "sourceTierLabel": "专业财经媒体",
+      "score": 62,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 12,
+        "authority": 15,
+        "impact": 8,
+        "recency": 15,
+        "depth": 8,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "专业财经媒体跟进",
+        "时效性高"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 20,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "marketEducation": {
+          "score": 20,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "privateFundSales": {
+          "score": 20,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        }
+      },
+      "primaryScene": "marketEducation",
+      "selectedForFeatured": false,
+      "contentTags": [
+        "行业动态"
+      ],
+      "eventId": null
+    },
     {
       "title": "全国算力网建设迎重大进展，太空算力从概念走向落地",
       "sourceUrl": "https://www.yicai.com/news/103362477.html",
@@ -2363,7 +2484,7 @@ window.FINHOT_DATA = {
         "观点",
         "快讯"
       ],
-      "eventId": null
+      "eventId": "event_79284dee43b9"
     },
     {
       "title": "“逛”超市激发购买欲 新零售多路围猎 传统商超的“防御战”与“生存术”|商超零售十字路口",
@@ -7463,6 +7584,67 @@ window.FINHOT_DATA = {
       "eventId": null
     },
     {
+      "title": "从“看天吃饭”到“按天交易”，气象预测成新能源的交易基础设施｜气候经济",
+      "sourceUrl": "https://www.yicai.com/news/103362101.html",
+      "publishedAt": "2026-09-12T10:28:31.000Z",
+      "fetchedAt": "2026-09-13T16:27:00.040Z",
+      "timeConfidence": "source",
+      "summary": "中国气象学会能源气象专业委员会秘书长叶冬表示，气象与电力跨界融合仍存在数据单向流通、电力气象观测短板、气象产品缺少电力业务适配“翻译”等堵点。随着国内电力现货市场持续推进及风光储能大规模并网，新能源正从“看天吃饭”转向“按天交易”，气象预测也从电力系统的辅助性保障升级为新能源交易与调度的重要基础设施。在2026 Inclusion·外滩大会（下称“大会”）“储能AI创新论坛”现场，世界气象组织（W",
+      "sourceName": "第一财经",
+      "category": "industry",
+      "tags": [
+        "行业动态"
+      ],
+      "evidenceType": "financial_media",
+      "discoveredVia": "RSSHub",
+      "id": "news_2d3693b033ba",
+      "tier": "S2",
+      "sourceTier": "S2",
+      "sourceTierLabel": "专业财经媒体",
+      "score": 71,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 12,
+        "authority": 15,
+        "impact": 14,
+        "recency": 10,
+        "depth": 10,
+        "actionability": 10
+      },
+      "confidence": "low",
+      "why": [
+        "专业财经媒体跟进",
+        "可转化为客户沟通或投研关注",
+        "摘要信息较完整"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 20,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "marketEducation": {
+          "score": 44,
+          "reasons": [
+            "命中二级市场投教核心主题 1 项"
+          ]
+        },
+        "privateFundSales": {
+          "score": 31,
+          "reasons": [
+            "命中关联主题 1 项"
+          ]
+        }
+      },
+      "primaryScene": "privateFundSales",
+      "selectedForFeatured": false,
+      "contentTags": [
+        "行业动态"
+      ],
+      "eventId": null
+    },
+    {
       "title": "习近平出席金砖国家领导人第十八次会晤第一阶段会议并发表重要讲话。（新华社）",
       "sourceUrl": "https://wallstreetcn.com/articles/3781635",
       "publishedAt": "2026-09-12T10:24:20.000Z",
@@ -9115,197 +9297,13 @@ window.FINHOT_DATA = {
         "行业动态"
       ],
       "eventId": null
-    },
-    {
-      "title": "媒体人刘虎被解除取保候审 此前卷入诬告和非法经营案",
-      "sourceUrl": "https://china.caixin.com/2026-09-12/102484418.html",
-      "publishedAt": "2026-09-12T07:01:59.000Z",
-      "fetchedAt": "2026-09-12T08:37:09.199Z",
-      "timeConfidence": "source",
-      "summary": "“成都发布”通报称，相关文章反映时任蒲江县委书记蒲某某、县委副书记蒋某某问题不属实；蒲江县公安局原政委彭某某索贿实为“向管理和服务对象借用钱款”\n    \n     \n     资料图：刘虎\n    \n   \n       　　【财新网】经历210天取保候审，媒体人刘虎被成都市公安局锦江分局解除强制措施。9月11日傍晚，刘虎的代理律师周泽在社交平台公布该消息。《解除取保候审决定书》显示，该决定书在",
-      "sourceName": "财新网",
-      "category": "industry",
-      "tags": [
-        "行业动态"
-      ],
-      "evidenceType": "financial_media",
-      "discoveredVia": "RSSHub",
-      "id": "news_295c1574063b",
-      "tier": "S2",
-      "sourceTier": "S2",
-      "sourceTierLabel": "专业财经媒体",
-      "score": 64,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 12,
-        "authority": 15,
-        "impact": 8,
-        "recency": 15,
-        "depth": 10,
-        "actionability": 4
-      },
-      "confidence": "low",
-      "why": [
-        "专业财经媒体跟进",
-        "时效性高",
-        "摘要信息较完整"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 20,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        },
-        "marketEducation": {
-          "score": 20,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        },
-        "privateFundSales": {
-          "score": 20,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        }
-      },
-      "primaryScene": "marketEducation",
-      "selectedForFeatured": false,
-      "contentTags": [
-        "行业动态"
-      ],
-      "eventId": null
-    },
-    {
-      "title": "分析人士：中东冲突、热浪和干旱对法国经济造成拖累",
-      "sourceUrl": "https://www.36kr.com/newsflashes/3979978782112514",
-      "publishedAt": "2026-09-12T07:00:32.000Z",
-      "fetchedAt": "2026-09-12T08:40:15.907Z",
-      "timeConfidence": "source",
-      "summary": "析人士认为，中东冲突持续带来的不确定性，以及今年夏天的热浪和干旱对农业生产造成的冲击，都对法国经济造成拖累。经济增长放缓进一步加大了法国财政整顿难度。法国财长莱斯屈尔表示，法国政府此前提出的2026年将财政赤字率控制在国内生产总值5%的目标已无法实现，今年财政赤字率将超过5%。此前，法国国家统计和经济研究所在10日已将法国今年的经济增长预期从0.7%下调至0.4%。该机构指出，高温热浪导致公共工程",
-      "sourceName": "36氪",
-      "category": "insights",
-      "tags": [
-        "观点"
-      ],
-      "evidenceType": "news_flash",
-      "discoveredVia": "RSSHub",
-      "id": "news_139ddd6968ce",
-      "tier": "S3",
-      "sourceTier": "S3",
-      "sourceTierLabel": "快讯/观点线索",
-      "score": 58,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 12,
-        "authority": 9,
-        "impact": 8,
-        "recency": 15,
-        "depth": 10,
-        "actionability": 4
-      },
-      "confidence": "low",
-      "why": [
-        "快讯线索，需结合原文判断",
-        "时效性高",
-        "摘要信息较完整"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 16,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        },
-        "marketEducation": {
-          "score": 16,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        },
-        "privateFundSales": {
-          "score": 16,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        }
-      },
-      "primaryScene": "marketEducation",
-      "selectedForFeatured": false,
-      "contentTags": [
-        "观点",
-        "快讯"
-      ],
-      "eventId": null
-    },
-    {
-      "title": "欧洲央行官员警告：若油价持续站上100美元 将不得不进一步加息",
-      "sourceUrl": "https://www.cls.cn/detail/2481426",
-      "publishedAt": "2026-09-12T06:52:02.000Z",
-      "fetchedAt": "2026-09-12T08:39:46.465Z",
-      "timeConfidence": "source",
-      "summary": "财联社9月12日讯（编辑 周子意）欧洲央行一名高级政策官员警告称，如果油价在年底前持续维持在每桶100美元附近，欧洲央行将不得不进一步加息。\n本周四（9月11日），欧洲央行完成本年度第二次加息后，奥地利央行行长Martin Kocher在接受采访时警告，中东紧张局势持续、能源价格高企，通胀风险较数月前有所上升。\nKocher指出，“如果石油和天然气价格进一步向不利情景演变，那么货币政策就必须将这些",
-      "sourceName": "财联社",
-      "category": "research",
-      "tags": [
-        "研究报告"
-      ],
-      "evidenceType": "financial_media",
-      "discoveredVia": "RSSHub",
-      "id": "news_cd64e24bc987",
-      "tier": "S3",
-      "sourceTier": "S3",
-      "sourceTierLabel": "快讯/观点线索",
-      "score": 64,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 18,
-        "authority": 9,
-        "impact": 8,
-        "recency": 15,
-        "depth": 10,
-        "actionability": 4
-      },
-      "confidence": "low",
-      "why": [
-        "快讯线索，需结合原文判断",
-        "时效性高",
-        "摘要信息较完整"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 16,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        },
-        "marketEducation": {
-          "score": 60,
-          "reasons": [
-            "命中二级市场投教核心主题 2 项"
-          ]
-        },
-        "privateFundSales": {
-          "score": 16,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        }
-      },
-      "primaryScene": "marketEducation",
-      "selectedForFeatured": false,
-      "contentTags": [
-        "深度研究"
-      ],
-      "eventId": null
     }
   ],
   "curationStats": {
     "scenes": {
       "insurance": 15,
-      "privateFundSales": 28,
-      "marketEducation": 107
+      "privateFundSales": 29,
+      "marketEducation": 106
     },
     "featured": 24
   },
@@ -9321,6 +9319,8 @@ window.FINHOT_DATA = {
       "news_91f2aeb64fca"
     ],
     "industry": [
+      "news_3cd07be9ec23",
+      "news_c1b58306566d",
       "news_04ad38595eaa",
       "news_93e8827e9fc9",
       "news_bfacac5bcbb7",
@@ -9328,9 +9328,7 @@ window.FINHOT_DATA = {
       "news_83b913d5d7e0",
       "news_52c751197ae9",
       "news_b4397b6149ff",
-      "news_c634f25a66fe",
-      "news_ec64409927cb",
-      "news_3316698962bd"
+      "news_c634f25a66fe"
     ],
     "research": [
       "news_24cd89145521",
@@ -9359,6 +9357,14 @@ window.FINHOT_DATA = {
   },
   "flashes": [
     {
+      "id": "news_3cd07be9ec23",
+      "dotClass": "flash-dot-blue"
+    },
+    {
+      "id": "news_c1b58306566d",
+      "dotClass": "flash-dot-blue"
+    },
+    {
       "id": "news_04ad38595eaa",
       "dotClass": "flash-dot-blue"
     },
@@ -9380,14 +9386,6 @@ window.FINHOT_DATA = {
     },
     {
       "id": "news_83b913d5d7e0",
-      "dotClass": "flash-dot-blue"
-    },
-    {
-      "id": "news_52c751197ae9",
-      "dotClass": "flash-dot-blue"
-    },
-    {
-      "id": "news_b4397b6149ff",
       "dotClass": "flash-dot-blue"
     }
   ],
@@ -9446,8 +9444,7 @@ window.FINHOT_DATA = {
       "news_96399ad42692",
       "news_5e809388d9cf",
       "news_975e4847f2bb",
-      "news_77d98ded5e6b",
-      "news_cd64e24bc987"
+      "news_77d98ded5e6b"
     ],
     "利率": [
       "news_52c751197ae9",
@@ -9464,6 +9461,7 @@ window.FINHOT_DATA = {
       "news_611b45dd5d04"
     ],
     "加息": [
+      "news_c1b58306566d",
       "news_8a9a13888e04",
       "news_24cd89145521",
       "news_52c751197ae9",
@@ -9483,8 +9481,7 @@ window.FINHOT_DATA = {
       "news_93fcb43d4864",
       "news_6eefb08b3666",
       "news_e32acfcc5480",
-      "news_3a4b97f3f4bc",
-      "news_cd64e24bc987"
+      "news_3a4b97f3f4bc"
     ],
     "流动性": [
       "news_611b45dd5d04"
@@ -9591,6 +9588,7 @@ window.FINHOT_DATA = {
       "news_71fb40213fe3"
     ],
     "IPO": [
+      "news_3cd07be9ec23",
       "news_08a7c97acc8b",
       "news_852e282da4d4",
       "news_07b8307d66c0",
@@ -9603,6 +9601,7 @@ window.FINHOT_DATA = {
       "news_4c185cead262"
     ],
     "上市": [
+      "news_3cd07be9ec23",
       "news_83b913d5d7e0",
       "news_3316698962bd",
       "news_07b8307d66c0",
@@ -9683,8 +9682,7 @@ window.FINHOT_DATA = {
       "news_dd6965247568",
       "news_27926efb35c5",
       "news_5ff9d3027ef5",
-      "news_c06fce0e1db0",
-      "news_139ddd6968ce"
+      "news_c06fce0e1db0"
     ],
     "监管": [
       "news_302b67d54262",
@@ -9730,8 +9728,7 @@ window.FINHOT_DATA = {
       "news_ba79f1b623ce"
     ],
     "通报": [
-      "news_171ee72410ba",
-      "news_295c1574063b"
+      "news_171ee72410ba"
     ],
     "条款": [
       "news_aaa49c7cf506"
@@ -9755,6 +9752,7 @@ window.FINHOT_DATA = {
       "news_ba79f1b623ce"
     ],
     "经济": [
+      "news_c1b58306566d",
       "news_24cd89145521",
       "news_b4397b6149ff",
       "news_745ddba6aa18",
@@ -9767,9 +9765,9 @@ window.FINHOT_DATA = {
       "news_58276131b440",
       "news_77d98ded5e6b",
       "news_6fa2a312e266",
+      "news_2d3693b033ba",
       "news_e73c213287bc",
-      "news_5bfd8752c48f",
-      "news_139ddd6968ce"
+      "news_5bfd8752c48f"
     ],
     "高质量发展": [
       "news_be106c207b13",
@@ -9796,8 +9794,7 @@ window.FINHOT_DATA = {
       "news_a2c0aa235001"
     ],
     "货币政策": [
-      "news_96399ad42692",
-      "news_cd64e24bc987"
+      "news_96399ad42692"
     ],
     "汇率": [
       "news_52c751197ae9"
@@ -9811,6 +9808,7 @@ window.FINHOT_DATA = {
       "news_e73c213287bc"
     ],
     "美元": [
+      "news_3cd07be9ec23",
       "news_52c751197ae9",
       "news_c634f25a66fe",
       "news_2fadf89c4007",
@@ -9827,8 +9825,7 @@ window.FINHOT_DATA = {
       "news_15a3ae352776",
       "news_4c185cead262",
       "news_e73c213287bc",
-      "news_7796d61a026c",
-      "news_cd64e24bc987"
+      "news_7796d61a026c"
     ],
     "欧元": [
       "news_6cd6c9a189ec"
@@ -9847,8 +9844,7 @@ window.FINHOT_DATA = {
       "news_8391195a0238",
       "news_77d98ded5e6b",
       "news_93fcb43d4864",
-      "news_6eefb08b3666",
-      "news_cd64e24bc987"
+      "news_6eefb08b3666"
     ],
     "消费": [
       "news_08718b582ee1",
@@ -9965,6 +9961,7 @@ window.FINHOT_DATA = {
       "news_1270248b91e0"
     ],
     "美联储": [
+      "news_c1b58306566d",
       "news_8a9a13888e04",
       "news_24cd89145521",
       "news_d560de23a82c",
@@ -10012,16 +10009,16 @@ window.FINHOT_DATA = {
     ]
   },
   "sourceHealth": {
-    "generatedAt": "2026-09-13T13:23:33.029Z",
+    "generatedAt": "2026-09-13T16:29:56.335Z",
     "status": "healthy",
     "totalSources": 10,
-    "successfulSources": 10,
-    "usableSources": 9,
-    "failedSources": 0,
+    "successfulSources": 6,
+    "usableSources": 6,
+    "failedSources": 4,
     "staleSources": 0,
-    "fetchLimitReachedSources": 0,
-    "coverageRate": 0.9,
-    "freshestPublishedAt": "2026-09-13T13:17:22.000Z",
+    "fetchLimitReachedSources": 1,
+    "coverageRate": 0.6,
+    "freshestPublishedAt": "2026-09-13T16:16:39.000Z",
     "sources": [
       {
         "sourceId": "source_a6a2153c0b",
@@ -10039,9 +10036,9 @@ window.FINHOT_DATA = {
         "fetchLimit": 30,
         "fetchLimitExpanded": false,
         "fetchLimitReached": false,
-        "addedCount": 1,
-        "durationMs": 1089,
-        "latestPublishedAt": "2026-09-13T13:13:07.000Z",
+        "addedCount": 0,
+        "durationMs": 18332,
+        "latestPublishedAt": "2026-09-13T13:50:37.000Z",
         "usedEndpoint": "rsshub.rssforever.com"
       },
       {
@@ -10053,16 +10050,16 @@ window.FINHOT_DATA = {
         "success": true,
         "usable": true,
         "stale": false,
-        "itemCount": 30,
-        "rawItemCount": 30,
-        "acceptedItemCount": 30,
+        "itemCount": 33,
+        "rawItemCount": 33,
+        "acceptedItemCount": 33,
         "initialFetchLimit": 30,
         "fetchLimit": 50,
         "fetchLimitExpanded": true,
         "fetchLimitReached": false,
-        "addedCount": 7,
-        "durationMs": 38443,
-        "latestPublishedAt": "2026-09-13T12:48:39.000Z",
+        "addedCount": 3,
+        "durationMs": 2439,
+        "latestPublishedAt": "2026-09-13T16:16:39.000Z",
         "usedEndpoint": "rsshub.rssforever.com"
       },
       {
@@ -10074,15 +10071,15 @@ window.FINHOT_DATA = {
         "success": true,
         "usable": true,
         "stale": false,
-        "itemCount": 30,
-        "rawItemCount": 30,
-        "acceptedItemCount": 30,
+        "itemCount": 50,
+        "rawItemCount": 50,
+        "acceptedItemCount": 50,
         "initialFetchLimit": 30,
         "fetchLimit": 50,
         "fetchLimitExpanded": true,
-        "fetchLimitReached": false,
-        "addedCount": 16,
-        "durationMs": 16241,
+        "fetchLimitReached": true,
+        "addedCount": 1,
+        "durationMs": 7950,
         "latestPublishedAt": "2026-09-13T12:58:55.000Z",
         "usedEndpoint": "rsshub.rssforever.com"
       },
@@ -10092,20 +10089,20 @@ window.FINHOT_DATA = {
         "tier": "S3",
         "category": "industry",
         "transport": "rsshub",
-        "success": true,
+        "success": false,
         "usable": false,
         "stale": false,
         "itemCount": 0,
-        "rawItemCount": 20,
+        "rawItemCount": 0,
         "acceptedItemCount": 0,
-        "initialFetchLimit": 30,
-        "fetchLimit": 30,
+        "initialFetchLimit": 1,
+        "fetchLimit": 1,
         "fetchLimitExpanded": false,
         "fetchLimitReached": false,
         "addedCount": 0,
-        "durationMs": 49888,
-        "latestPublishedAt": "2026-09-13T13:17:22.000Z",
-        "usedEndpoint": "rsshub-balancer.virworks.moe"
+        "durationMs": 18997,
+        "latestPublishedAt": null,
+        "usedEndpoint": null
       },
       {
         "sourceId": "source_7b954bfc72",
@@ -10113,20 +10110,20 @@ window.FINHOT_DATA = {
         "tier": "S2",
         "category": "research",
         "transport": "rsshub",
-        "success": true,
-        "usable": true,
+        "success": false,
+        "usable": false,
         "stale": false,
-        "itemCount": 42,
-        "rawItemCount": 42,
-        "acceptedItemCount": 42,
-        "initialFetchLimit": 30,
-        "fetchLimit": 50,
-        "fetchLimitExpanded": true,
+        "itemCount": 0,
+        "rawItemCount": 0,
+        "acceptedItemCount": 0,
+        "initialFetchLimit": 1,
+        "fetchLimit": 1,
+        "fetchLimitExpanded": false,
         "fetchLimitReached": false,
-        "addedCount": 9,
-        "durationMs": 43802,
-        "latestPublishedAt": "2026-09-13T12:23:39.000Z",
-        "usedEndpoint": "rsshub-balancer.virworks.moe"
+        "addedCount": 0,
+        "durationMs": 32097,
+        "latestPublishedAt": null,
+        "usedEndpoint": null
       },
       {
         "sourceId": "source_4087f16353",
@@ -10144,8 +10141,8 @@ window.FINHOT_DATA = {
         "fetchLimit": 30,
         "fetchLimitExpanded": false,
         "fetchLimitReached": false,
-        "addedCount": 9,
-        "durationMs": 193,
+        "addedCount": 0,
+        "durationMs": 12778,
         "latestPublishedAt": "2026-09-13T11:15:42.000Z",
         "usedEndpoint": "rsshub.rssforever.com"
       },
@@ -10155,20 +10152,20 @@ window.FINHOT_DATA = {
         "tier": "S0",
         "category": "regulatory",
         "transport": "rsshub",
-        "success": true,
-        "usable": true,
+        "success": false,
+        "usable": false,
         "stale": false,
-        "itemCount": 20,
-        "rawItemCount": 20,
-        "acceptedItemCount": 20,
-        "initialFetchLimit": 30,
-        "fetchLimit": 30,
+        "itemCount": 0,
+        "rawItemCount": 0,
+        "acceptedItemCount": 0,
+        "initialFetchLimit": 1,
+        "fetchLimit": 1,
         "fetchLimitExpanded": false,
         "fetchLimitReached": false,
         "addedCount": 0,
-        "durationMs": 6227,
-        "latestPublishedAt": "2026-09-08T16:00:00.000Z",
-        "usedEndpoint": "rsshub.rssforever.com"
+        "durationMs": 53557,
+        "latestPublishedAt": null,
+        "usedEndpoint": null
       },
       {
         "sourceId": "source_adf9a67b7f",
@@ -10176,20 +10173,20 @@ window.FINHOT_DATA = {
         "tier": "S0",
         "category": "regulatory",
         "transport": "rsshub",
-        "success": true,
-        "usable": true,
+        "success": false,
+        "usable": false,
         "stale": false,
-        "itemCount": 18,
-        "rawItemCount": 18,
-        "acceptedItemCount": 18,
-        "initialFetchLimit": 30,
-        "fetchLimit": 30,
+        "itemCount": 0,
+        "rawItemCount": 0,
+        "acceptedItemCount": 0,
+        "initialFetchLimit": 1,
+        "fetchLimit": 1,
         "fetchLimitExpanded": false,
         "fetchLimitReached": false,
-        "addedCount": 5,
-        "durationMs": 10629,
-        "latestPublishedAt": "2026-09-11T02:03:38.000Z",
-        "usedEndpoint": "rsshub.rssforever.com"
+        "addedCount": 0,
+        "durationMs": 58505,
+        "latestPublishedAt": null,
+        "usedEndpoint": null
       },
       {
         "sourceId": "source_0936db37cf",
@@ -10207,8 +10204,8 @@ window.FINHOT_DATA = {
         "fetchLimit": 30,
         "fetchLimitExpanded": false,
         "fetchLimitReached": false,
-        "addedCount": 6,
-        "durationMs": 139,
+        "addedCount": 0,
+        "durationMs": 98,
         "latestPublishedAt": "2026-09-13T12:45:12.000Z",
         "usedEndpoint": "cn.investing.com"
       },
@@ -10229,7 +10226,7 @@ window.FINHOT_DATA = {
         "fetchLimitExpanded": false,
         "fetchLimitReached": false,
         "addedCount": 9,
-        "durationMs": 75,
+        "durationMs": 50,
         "latestPublishedAt": "2026-09-11T12:36:26.000Z",
         "usedEndpoint": "cn.investing.com"
       }
@@ -10241,7 +10238,7 @@ window.FINHOT_DATA = {
     "retentionDays": 90
   },
   "macro": {
-    "updatedAt": "2026-09-13T13:23:33.029Z",
+    "updatedAt": "2026-09-13T16:29:56.335Z",
     "indicators": [
       {
         "key": "lpr1y",
@@ -10339,7 +10336,20 @@ window.FINHOT_DATA = {
         ],
         "historicalEvidenceCount": 10,
         "firstSeenAt": "2026-09-10T13:03:28.502Z",
-        "lastSeenAt": "2026-09-13T13:23:33.029Z",
+        "lastSeenAt": "2026-09-13T16:29:56.335Z",
+        "status": "developing"
+      },
+      {
+        "eventId": "event_faac4b9f2bd8",
+        "title": "报道：Anthropic选择在纳斯达克IPO",
+        "mainItemId": "news_3cd07be9ec23",
+        "relatedItemIds": [],
+        "evidenceItemIds": [
+          "news_3cd07be9ec23"
+        ],
+        "historicalEvidenceCount": 5,
+        "firstSeenAt": "2026-08-22T04:49:56.049Z",
+        "lastSeenAt": "2026-09-13T16:29:56.335Z",
         "status": "developing"
       },
       {
@@ -10355,7 +10365,7 @@ window.FINHOT_DATA = {
         ],
         "historicalEvidenceCount": 0,
         "firstSeenAt": "2026-09-12T08:41:46.377Z",
-        "lastSeenAt": "2026-09-13T13:23:33.029Z",
+        "lastSeenAt": "2026-09-13T16:29:56.335Z",
         "status": "developing"
       },
       {
@@ -10373,7 +10383,7 @@ window.FINHOT_DATA = {
         ],
         "historicalEvidenceCount": 3,
         "firstSeenAt": "2026-09-10T09:01:39.236Z",
-        "lastSeenAt": "2026-09-13T13:23:33.029Z",
+        "lastSeenAt": "2026-09-13T16:29:56.335Z",
         "status": "developing"
       },
       {
@@ -10386,7 +10396,7 @@ window.FINHOT_DATA = {
         ],
         "historicalEvidenceCount": 1,
         "firstSeenAt": "2026-09-12T12:18:38.037Z",
-        "lastSeenAt": "2026-09-13T13:23:33.029Z",
+        "lastSeenAt": "2026-09-13T16:29:56.335Z",
         "status": "developing"
       },
       {
@@ -10402,7 +10412,7 @@ window.FINHOT_DATA = {
         ],
         "historicalEvidenceCount": 0,
         "firstSeenAt": "2026-09-13T04:57:33.200Z",
-        "lastSeenAt": "2026-09-13T13:23:33.029Z",
+        "lastSeenAt": "2026-09-13T16:29:56.335Z",
         "status": "developing"
       },
       {
@@ -10420,7 +10430,7 @@ window.FINHOT_DATA = {
         ],
         "historicalEvidenceCount": 0,
         "firstSeenAt": "2026-09-13T04:57:33.200Z",
-        "lastSeenAt": "2026-09-13T13:23:33.029Z",
+        "lastSeenAt": "2026-09-13T16:29:56.335Z",
         "status": "developing"
       },
       {
@@ -10436,7 +10446,7 @@ window.FINHOT_DATA = {
         ],
         "historicalEvidenceCount": 0,
         "firstSeenAt": "2026-09-13T04:57:33.200Z",
-        "lastSeenAt": "2026-09-13T13:23:33.029Z",
+        "lastSeenAt": "2026-09-13T16:29:56.335Z",
         "status": "developing"
       },
       {
@@ -10449,7 +10459,7 @@ window.FINHOT_DATA = {
         ],
         "historicalEvidenceCount": 1,
         "firstSeenAt": "2026-09-13T09:37:11.404Z",
-        "lastSeenAt": "2026-09-13T13:23:33.029Z",
+        "lastSeenAt": "2026-09-13T16:29:56.335Z",
         "status": "developing"
       },
       {
@@ -10465,20 +10475,7 @@ window.FINHOT_DATA = {
         ],
         "historicalEvidenceCount": 0,
         "firstSeenAt": "2026-09-13T09:37:11.404Z",
-        "lastSeenAt": "2026-09-13T13:23:33.029Z",
-        "status": "developing"
-      },
-      {
-        "eventId": "event_202dd878fa19",
-        "title": "晚间公告｜9月13日这些公告有看头",
-        "mainItemId": "news_c3ab2c29e063",
-        "relatedItemIds": [],
-        "evidenceItemIds": [
-          "news_c3ab2c29e063"
-        ],
-        "historicalEvidenceCount": 37,
-        "firstSeenAt": "2026-07-31T14:43:32.623Z",
-        "lastSeenAt": "2026-09-13T13:23:33.029Z",
+        "lastSeenAt": "2026-09-13T16:29:56.335Z",
         "status": "developing"
       }
     ],
@@ -10877,8 +10874,7 @@ window.KEYWORD_INDEX = {
     "news_96399ad42692",
     "news_5e809388d9cf",
     "news_975e4847f2bb",
-    "news_77d98ded5e6b",
-    "news_cd64e24bc987"
+    "news_77d98ded5e6b"
   ],
   "利率": [
     "news_52c751197ae9",
@@ -10895,6 +10891,7 @@ window.KEYWORD_INDEX = {
     "news_611b45dd5d04"
   ],
   "加息": [
+    "news_c1b58306566d",
     "news_8a9a13888e04",
     "news_24cd89145521",
     "news_52c751197ae9",
@@ -10914,8 +10911,7 @@ window.KEYWORD_INDEX = {
     "news_93fcb43d4864",
     "news_6eefb08b3666",
     "news_e32acfcc5480",
-    "news_3a4b97f3f4bc",
-    "news_cd64e24bc987"
+    "news_3a4b97f3f4bc"
   ],
   "流动性": [
     "news_611b45dd5d04"
@@ -11022,6 +11018,7 @@ window.KEYWORD_INDEX = {
     "news_71fb40213fe3"
   ],
   "IPO": [
+    "news_3cd07be9ec23",
     "news_08a7c97acc8b",
     "news_852e282da4d4",
     "news_07b8307d66c0",
@@ -11034,6 +11031,7 @@ window.KEYWORD_INDEX = {
     "news_4c185cead262"
   ],
   "上市": [
+    "news_3cd07be9ec23",
     "news_83b913d5d7e0",
     "news_3316698962bd",
     "news_07b8307d66c0",
@@ -11114,8 +11112,7 @@ window.KEYWORD_INDEX = {
     "news_dd6965247568",
     "news_27926efb35c5",
     "news_5ff9d3027ef5",
-    "news_c06fce0e1db0",
-    "news_139ddd6968ce"
+    "news_c06fce0e1db0"
   ],
   "监管": [
     "news_302b67d54262",
@@ -11161,8 +11158,7 @@ window.KEYWORD_INDEX = {
     "news_ba79f1b623ce"
   ],
   "通报": [
-    "news_171ee72410ba",
-    "news_295c1574063b"
+    "news_171ee72410ba"
   ],
   "条款": [
     "news_aaa49c7cf506"
@@ -11186,6 +11182,7 @@ window.KEYWORD_INDEX = {
     "news_ba79f1b623ce"
   ],
   "经济": [
+    "news_c1b58306566d",
     "news_24cd89145521",
     "news_b4397b6149ff",
     "news_745ddba6aa18",
@@ -11198,9 +11195,9 @@ window.KEYWORD_INDEX = {
     "news_58276131b440",
     "news_77d98ded5e6b",
     "news_6fa2a312e266",
+    "news_2d3693b033ba",
     "news_e73c213287bc",
-    "news_5bfd8752c48f",
-    "news_139ddd6968ce"
+    "news_5bfd8752c48f"
   ],
   "高质量发展": [
     "news_be106c207b13",
@@ -11227,8 +11224,7 @@ window.KEYWORD_INDEX = {
     "news_a2c0aa235001"
   ],
   "货币政策": [
-    "news_96399ad42692",
-    "news_cd64e24bc987"
+    "news_96399ad42692"
   ],
   "汇率": [
     "news_52c751197ae9"
@@ -11242,6 +11238,7 @@ window.KEYWORD_INDEX = {
     "news_e73c213287bc"
   ],
   "美元": [
+    "news_3cd07be9ec23",
     "news_52c751197ae9",
     "news_c634f25a66fe",
     "news_2fadf89c4007",
@@ -11258,8 +11255,7 @@ window.KEYWORD_INDEX = {
     "news_15a3ae352776",
     "news_4c185cead262",
     "news_e73c213287bc",
-    "news_7796d61a026c",
-    "news_cd64e24bc987"
+    "news_7796d61a026c"
   ],
   "欧元": [
     "news_6cd6c9a189ec"
@@ -11278,8 +11274,7 @@ window.KEYWORD_INDEX = {
     "news_8391195a0238",
     "news_77d98ded5e6b",
     "news_93fcb43d4864",
-    "news_6eefb08b3666",
-    "news_cd64e24bc987"
+    "news_6eefb08b3666"
   ],
   "消费": [
     "news_08718b582ee1",
@@ -11396,6 +11391,7 @@ window.KEYWORD_INDEX = {
     "news_1270248b91e0"
   ],
   "美联储": [
+    "news_c1b58306566d",
     "news_8a9a13888e04",
     "news_24cd89145521",
     "news_d560de23a82c",

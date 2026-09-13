@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-09-12T15:44:19.474Z",
+  "generatedAt": "2026-09-13T04:57:33.200Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -8,7 +8,7 @@
       "eventId": "event_315991b0232c",
       "title": "法国7月工业产出下滑0.4%，逊于市场预期",
       "firstSeenAt": "2026-09-07T09:23:18.972Z",
-      "lastSeenAt": "2026-09-12T15:44:19.474Z",
+      "lastSeenAt": "2026-09-13T04:57:33.200Z",
       "primaryItemId": "news_f4dc2ebd24a4",
       "evidenceItemIds": [
         "news_19b23ed4b4a9",
@@ -22,7 +22,7 @@
       "eventId": "event_32967e3730b8",
       "title": "热门中概股美股盘前集体走强，蔚来涨超2%",
       "firstSeenAt": "2026-08-03T15:23:32.854Z",
-      "lastSeenAt": "2026-09-12T15:44:19.474Z",
+      "lastSeenAt": "2026-09-13T04:57:33.200Z",
       "primaryItemId": "news_5caa1ba21c83",
       "evidenceItemIds": [
         "news_7a48b08815f8",
@@ -82,7 +82,7 @@
       "eventId": "event_1a38612f1a6c",
       "title": "国家统计局：2026年8月份CPI温和回升 PPI同比涨幅扩大",
       "firstSeenAt": "2026-09-09T04:48:18.184Z",
-      "lastSeenAt": "2026-09-12T15:44:19.474Z",
+      "lastSeenAt": "2026-09-13T04:57:33.200Z",
       "primaryItemId": "news_4e0504e7ca15",
       "evidenceItemIds": [
         "news_4e0504e7ca15",
@@ -95,10 +95,10 @@
     },
     {
       "eventId": "event_0d8356d7e80c",
-      "title": "美国8月CPI环比上涨0.4%，符合市场预期",
+      "title": "美国8月CPI环比增速反弹 美联储9月加息概率跳升至85%",
       "firstSeenAt": "2026-09-10T13:03:28.502Z",
-      "lastSeenAt": "2026-09-12T15:44:19.474Z",
-      "primaryItemId": "news_b813a8e331c3",
+      "lastSeenAt": "2026-09-13T04:57:33.200Z",
+      "primaryItemId": "news_949a39fb2689",
       "evidenceItemIds": [
         "news_e6dd61e5a62e",
         "news_642197c7b9b7",
@@ -118,7 +118,7 @@
       "eventId": "event_d43e7f90a783",
       "title": "西班牙股市上涨；截至收盘西班牙IBEX35指数上涨0.91%",
       "firstSeenAt": "2026-09-09T16:51:08.967Z",
-      "lastSeenAt": "2026-09-12T15:44:19.474Z",
+      "lastSeenAt": "2026-09-13T04:57:33.200Z",
       "primaryItemId": "news_fe48093421dd",
       "evidenceItemIds": [
         "news_5c711d3fc9c4",
@@ -140,7 +140,7 @@
       "eventId": "event_1e700de930bf",
       "title": "英国股市上涨；截至收盘Investing.com 英国 100上涨0.44%",
       "firstSeenAt": "2026-09-11T16:43:57.247Z",
-      "lastSeenAt": "2026-09-12T15:44:19.474Z",
+      "lastSeenAt": "2026-09-13T04:57:33.200Z",
       "primaryItemId": "news_e9ffd13dd72a",
       "evidenceItemIds": [
         "news_e9ffd13dd72a",
@@ -155,7 +155,7 @@
       "eventId": "event_3e3812948874",
       "title": "特朗普连续3天许诺：共和党赢下中期选举，将向所有美国成年人发放5000美元",
       "firstSeenAt": "2026-09-10T09:01:39.236Z",
-      "lastSeenAt": "2026-09-12T15:44:19.474Z",
+      "lastSeenAt": "2026-09-13T04:57:33.200Z",
       "primaryItemId": "news_798bdcd3c5be",
       "evidenceItemIds": [
         "news_eb78ec3e9397",
@@ -169,7 +169,7 @@
       "eventId": "event_91fb625edcc6",
       "title": "华尔街见闻早餐FM-Radio | 2026年9月12日",
       "firstSeenAt": "2026-08-01T03:54:06.184Z",
-      "lastSeenAt": "2026-09-12T15:44:19.474Z",
+      "lastSeenAt": "2026-09-13T04:57:33.200Z",
       "primaryItemId": "news_9c8de095a7c5",
       "evidenceItemIds": [
         "news_17edaa318161",
@@ -207,7 +207,7 @@
       "eventId": "event_faac4b9f2bd8",
       "title": "报道：英伟达洽谈在Anthropic IPO中投资高达100亿美元",
       "firstSeenAt": "2026-08-22T04:49:56.049Z",
-      "lastSeenAt": "2026-09-12T15:44:19.474Z",
+      "lastSeenAt": "2026-09-13T04:57:33.200Z",
       "primaryItemId": "news_aeb5377444d0",
       "evidenceItemIds": [
         "news_1d7c95068d75",
@@ -221,7 +221,7 @@
       "eventId": "event_463521362b18",
       "title": "连续六年！中国银行协助深圳市人民政府在港澳发行地方政府债券",
       "firstSeenAt": "2026-09-12T04:44:05.597Z",
-      "lastSeenAt": "2026-09-12T15:44:19.474Z",
+      "lastSeenAt": "2026-09-13T04:57:33.200Z",
       "primaryItemId": "news_8286d2117f03",
       "evidenceItemIds": [
         "news_8286d2117f03",
@@ -233,7 +233,7 @@
       "eventId": "event_e8f555535946",
       "title": "*ST卓然四年财报造假 或被实施重大违法强制退市|速读公告",
       "firstSeenAt": "2026-09-12T04:44:05.597Z",
-      "lastSeenAt": "2026-09-12T15:44:19.474Z",
+      "lastSeenAt": "2026-09-13T04:57:33.200Z",
       "primaryItemId": "news_39bcdaa16959",
       "evidenceItemIds": [
         "news_39bcdaa16959",
@@ -245,7 +245,7 @@
       "eventId": "event_83182dbfe420",
       "title": "新股消息 | 汽车测试解决方案供应商和夏科技递表港交所创业板 2026上半年实现扭亏为盈",
       "firstSeenAt": "2026-09-12T08:41:46.377Z",
-      "lastSeenAt": "2026-09-12T15:44:19.474Z",
+      "lastSeenAt": "2026-09-13T04:57:33.200Z",
       "primaryItemId": "news_946c204ad482",
       "evidenceItemIds": [
         "news_946c204ad482",
@@ -255,10 +255,10 @@
     },
     {
       "eventId": "event_df75551da7f8",
-      "title": "规避反垄断审查？英伟达被美司法部调查",
+      "title": "“循环融资”越滚越大！英伟达拟豪掷100亿美元押注“史上最大IPO”",
       "firstSeenAt": "2026-09-10T09:01:39.236Z",
-      "lastSeenAt": "2026-09-12T15:44:19.474Z",
-      "primaryItemId": "news_320e067cfcf5",
+      "lastSeenAt": "2026-09-13T04:57:33.200Z",
+      "primaryItemId": "news_4c185cead262",
       "evidenceItemIds": [
         "news_c93ab197cbdc",
         "news_156251362d69",
@@ -271,7 +271,7 @@
       "eventId": "event_3f39285a66e6",
       "title": "中金：通胀粘性支持加息 预计美联储加息25个基点",
       "firstSeenAt": "2026-09-12T12:18:38.037Z",
-      "lastSeenAt": "2026-09-12T15:44:19.474Z",
+      "lastSeenAt": "2026-09-13T04:57:33.200Z",
       "primaryItemId": "news_6eefb08b3666",
       "evidenceItemIds": [
         "news_6eefb08b3666",
@@ -283,7 +283,7 @@
       "eventId": "event_0a3941c2f042",
       "title": "国新办举行“开局起步‘十五五’”系列主题新闻发布会 介绍金融领域贯彻落实“十五五”规划、推动金融强国建设有关情况",
       "firstSeenAt": "2026-09-10T09:01:39.236Z",
-      "lastSeenAt": "2026-09-12T15:44:19.474Z",
+      "lastSeenAt": "2026-09-13T04:57:33.200Z",
       "primaryItemId": "news_ecb5431dff13",
       "evidenceItemIds": [
         "news_346088987fe6",
@@ -292,6 +292,71 @@
         "news_ecb5431dff13",
         "news_2dc352bff169",
         "news_1ea0f8d85069"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_1ea2527ee420",
+      "title": "中国证监会发布《期货公司监督管理办法》及配套实施公告",
+      "firstSeenAt": "2026-08-05T06:41:05.050Z",
+      "lastSeenAt": "2026-09-13T04:57:33.200Z",
+      "primaryItemId": "news_e5dbfd1edc31",
+      "evidenceItemIds": [
+        "news_4cc3e3bd1fc7",
+        "news_092d579c1c5c",
+        "news_cc1b1a6b2e01",
+        "news_82de2858666e",
+        "news_d18122bfe334",
+        "news_e5dbfd1edc31",
+        "news_c70761d63c7c"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_4895fe4b7778",
+      "title": "“超级周”来袭：美联储会加息吗？霍尔木兹能达成协议吗",
+      "firstSeenAt": "2026-09-13T04:57:33.200Z",
+      "lastSeenAt": "2026-09-13T04:57:33.200Z",
+      "primaryItemId": "news_5e809388d9cf",
+      "evidenceItemIds": [
+        "news_5e809388d9cf",
+        "news_975e4847f2bb"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_7858915f0231",
+      "title": "习近平出席金砖国家领导人第十八次会晤第一阶段会议并发表重要讲话。（新华社）",
+      "firstSeenAt": "2026-09-13T04:57:33.200Z",
+      "lastSeenAt": "2026-09-13T04:57:33.200Z",
+      "primaryItemId": "news_aaa49c7cf506",
+      "evidenceItemIds": [
+        "news_aaa49c7cf506",
+        "news_6fa2a312e266"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_8cc0d9c99b04",
+      "title": "中远海运重工启动A股IPO辅导",
+      "firstSeenAt": "2026-09-13T04:57:33.200Z",
+      "lastSeenAt": "2026-09-13T04:57:33.200Z",
+      "primaryItemId": "news_09a3869b7446",
+      "evidenceItemIds": [
+        "news_09a3869b7446",
+        "news_fb83f82b746a"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_d39967edf0de",
+      "title": "中国证监会严肃查处*ST卓然严重财务造假案件",
+      "firstSeenAt": "2026-09-13T04:57:33.200Z",
+      "lastSeenAt": "2026-09-13T04:57:33.200Z",
+      "primaryItemId": "news_8223d09e0ac9",
+      "evidenceItemIds": [
+        "news_8223d09e0ac9",
+        "news_5a4a4f0cb79f"
       ],
       "status": "developing"
     },
@@ -401,23 +466,6 @@
       "evidenceItemIds": [
         "news_021669d63ef5",
         "news_f7ce83d655c0"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_1ea2527ee420",
-      "title": "中国证监会发布《期货公司监督管理办法》及配套实施公告",
-      "firstSeenAt": "2026-08-05T06:41:05.050Z",
-      "lastSeenAt": "2026-09-12T12:18:38.037Z",
-      "primaryItemId": "news_e5dbfd1edc31",
-      "evidenceItemIds": [
-        "news_4cc3e3bd1fc7",
-        "news_092d579c1c5c",
-        "news_cc1b1a6b2e01",
-        "news_82de2858666e",
-        "news_d18122bfe334",
-        "news_e5dbfd1edc31",
-        "news_c70761d63c7c"
       ],
       "status": "developing"
     },

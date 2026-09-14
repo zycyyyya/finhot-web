@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-09-13T16:29:56.335Z",
+  "generatedAt": "2026-09-14T05:06:16.547Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -8,7 +8,7 @@
       "eventId": "event_315991b0232c",
       "title": "法国7月工业产出下滑0.4%，逊于市场预期",
       "firstSeenAt": "2026-09-07T09:23:18.972Z",
-      "lastSeenAt": "2026-09-13T16:29:56.335Z",
+      "lastSeenAt": "2026-09-14T05:06:16.547Z",
       "primaryItemId": "news_f4dc2ebd24a4",
       "evidenceItemIds": [
         "news_19b23ed4b4a9",
@@ -22,7 +22,7 @@
       "eventId": "event_1a38612f1a6c",
       "title": "国家统计局：2026年8月份CPI温和回升 PPI同比涨幅扩大",
       "firstSeenAt": "2026-09-09T04:48:18.184Z",
-      "lastSeenAt": "2026-09-13T16:29:56.335Z",
+      "lastSeenAt": "2026-09-14T05:06:16.547Z",
       "primaryItemId": "news_4e0504e7ca15",
       "evidenceItemIds": [
         "news_4e0504e7ca15",
@@ -37,7 +37,7 @@
       "eventId": "event_0d8356d7e80c",
       "title": "申万宏源：美国8月CPI符合预期 9月加息概率升至87%",
       "firstSeenAt": "2026-09-10T13:03:28.502Z",
-      "lastSeenAt": "2026-09-13T16:29:56.335Z",
+      "lastSeenAt": "2026-09-14T05:06:16.547Z",
       "primaryItemId": "news_4b6fc564f240",
       "evidenceItemIds": [
         "news_e6dd61e5a62e",
@@ -56,17 +56,18 @@
     },
     {
       "eventId": "event_faac4b9f2bd8",
-      "title": "报道：Anthropic选择在纳斯达克IPO",
+      "title": "IPO在即，Anthropic连续两季度盈利",
       "firstSeenAt": "2026-08-22T04:49:56.049Z",
-      "lastSeenAt": "2026-09-13T16:29:56.335Z",
-      "primaryItemId": "news_3cd07be9ec23",
+      "lastSeenAt": "2026-09-14T05:06:16.547Z",
+      "primaryItemId": "news_6cf46c0cdff7",
       "evidenceItemIds": [
         "news_1d7c95068d75",
         "news_3a13bd428308",
         "news_aeb5377444d0",
         "news_4558400af6d5",
         "news_3cd07be9ec23",
-        "news_a4ff125eecb9"
+        "news_a4ff125eecb9",
+        "news_6cf46c0cdff7"
       ],
       "status": "developing"
     },
@@ -74,7 +75,7 @@
       "eventId": "event_83182dbfe420",
       "title": "新股消息 | 汽车测试解决方案供应商和夏科技递表港交所创业板 2026上半年实现扭亏为盈",
       "firstSeenAt": "2026-09-12T08:41:46.377Z",
-      "lastSeenAt": "2026-09-13T16:29:56.335Z",
+      "lastSeenAt": "2026-09-14T05:06:16.547Z",
       "primaryItemId": "news_946c204ad482",
       "evidenceItemIds": [
         "news_946c204ad482",
@@ -86,7 +87,7 @@
       "eventId": "event_df75551da7f8",
       "title": "两只PCB概念股公告澄清涉英伟达传闻|盘后公告集锦",
       "firstSeenAt": "2026-09-10T09:01:39.236Z",
-      "lastSeenAt": "2026-09-13T16:29:56.335Z",
+      "lastSeenAt": "2026-09-14T05:06:16.547Z",
       "primaryItemId": "news_92bd888a7e35",
       "evidenceItemIds": [
         "news_c93ab197cbdc",
@@ -102,7 +103,7 @@
       "eventId": "event_3f39285a66e6",
       "title": "中金：通胀粘性支持加息 预计美联储加息25个基点",
       "firstSeenAt": "2026-09-12T12:18:38.037Z",
-      "lastSeenAt": "2026-09-13T16:29:56.335Z",
+      "lastSeenAt": "2026-09-14T05:06:16.547Z",
       "primaryItemId": "news_6eefb08b3666",
       "evidenceItemIds": [
         "news_6eefb08b3666",
@@ -114,7 +115,7 @@
       "eventId": "event_4895fe4b7778",
       "title": "“超级周”来袭：美联储会加息吗？霍尔木兹能达成协议吗",
       "firstSeenAt": "2026-09-13T04:57:33.200Z",
-      "lastSeenAt": "2026-09-13T16:29:56.335Z",
+      "lastSeenAt": "2026-09-14T05:06:16.547Z",
       "primaryItemId": "news_5e809388d9cf",
       "evidenceItemIds": [
         "news_5e809388d9cf",
@@ -126,7 +127,7 @@
       "eventId": "event_7858915f0231",
       "title": "习近平出席金砖国家领导人第十八次会晤第一阶段会议并发表重要讲话。（新华社）",
       "firstSeenAt": "2026-09-13T04:57:33.200Z",
-      "lastSeenAt": "2026-09-13T16:29:56.335Z",
+      "lastSeenAt": "2026-09-14T05:06:16.547Z",
       "primaryItemId": "news_aaa49c7cf506",
       "evidenceItemIds": [
         "news_aaa49c7cf506",
@@ -139,7 +140,7 @@
       "eventId": "event_8cc0d9c99b04",
       "title": "中远海运重工启动A股IPO辅导",
       "firstSeenAt": "2026-09-13T04:57:33.200Z",
-      "lastSeenAt": "2026-09-13T16:29:56.335Z",
+      "lastSeenAt": "2026-09-14T05:06:16.547Z",
       "primaryItemId": "news_09a3869b7446",
       "evidenceItemIds": [
         "news_09a3869b7446",
@@ -151,7 +152,7 @@
       "eventId": "event_3870986b7975",
       "title": "算力租赁潮之后，上市公司扎堆“建厂”卖Token|直击2026中国算力大会",
       "firstSeenAt": "2026-09-13T09:37:11.404Z",
-      "lastSeenAt": "2026-09-13T16:29:56.335Z",
+      "lastSeenAt": "2026-09-14T05:06:16.547Z",
       "primaryItemId": "news_8e31372486cf",
       "evidenceItemIds": [
         "news_8e31372486cf",
@@ -163,7 +164,7 @@
       "eventId": "event_1e6301627188",
       "title": "SpaceX在纳斯达克100指数中的权重有望翻倍以上",
       "firstSeenAt": "2026-09-13T09:37:11.404Z",
-      "lastSeenAt": "2026-09-13T16:29:56.335Z",
+      "lastSeenAt": "2026-09-14T05:06:16.547Z",
       "primaryItemId": "news_ccd64f5d271c",
       "evidenceItemIds": [
         "news_ccd64f5d271c",
@@ -175,7 +176,7 @@
       "eventId": "event_202dd878fa19",
       "title": "晚间公告｜9月13日这些公告有看头",
       "firstSeenAt": "2026-07-31T14:43:32.623Z",
-      "lastSeenAt": "2026-09-13T16:29:56.335Z",
+      "lastSeenAt": "2026-09-14T05:06:16.547Z",
       "primaryItemId": "news_c3ab2c29e063",
       "evidenceItemIds": [
         "news_eaf56a2f5345",
@@ -223,7 +224,7 @@
       "eventId": "event_a678dcb442aa",
       "title": "沙特阿拉伯股市收低；截至收盘沙特阿拉伯TASI指数下跌1.30%",
       "firstSeenAt": "2026-09-01T16:50:22.105Z",
-      "lastSeenAt": "2026-09-13T16:29:56.335Z",
+      "lastSeenAt": "2026-09-14T05:06:16.547Z",
       "primaryItemId": "news_bfacac5bcbb7",
       "evidenceItemIds": [
         "news_023dcd0d28ad",
@@ -274,7 +275,7 @@
       "eventId": "event_4854c0f09c01",
       "title": "利率与通胀的赛跑",
       "firstSeenAt": "2026-09-13T13:23:33.029Z",
-      "lastSeenAt": "2026-09-13T16:29:56.335Z",
+      "lastSeenAt": "2026-09-14T05:06:16.547Z",
       "primaryItemId": "news_ad2b60e30493",
       "evidenceItemIds": [
         "news_ad2b60e30493",
@@ -286,12 +287,13 @@
       "eventId": "event_eb661ed0813d",
       "title": "AI进化速递丨奥尔特曼称OpenAI今年不会上市",
       "firstSeenAt": "2026-09-13T13:23:33.029Z",
-      "lastSeenAt": "2026-09-13T16:29:56.335Z",
+      "lastSeenAt": "2026-09-14T05:06:16.547Z",
       "primaryItemId": "news_3316698962bd",
       "evidenceItemIds": [
         "news_3316698962bd",
         "news_724d0e98eed1",
-        "news_5818a525956f"
+        "news_5818a525956f",
+        "news_8d7c5425c70a"
       ],
       "status": "developing"
     },
@@ -299,7 +301,7 @@
       "eventId": "event_79284dee43b9",
       "title": "中信建投：加息“靴子”将落地，A股或迎反攻行情",
       "firstSeenAt": "2026-09-13T13:23:33.029Z",
-      "lastSeenAt": "2026-09-13T16:29:56.335Z",
+      "lastSeenAt": "2026-09-14T05:06:16.547Z",
       "primaryItemId": "news_2f182299965f",
       "evidenceItemIds": [
         "news_549468ebab4c",
@@ -312,7 +314,7 @@
       "eventId": "event_64df1cd135c4",
       "title": "三一重工：首次回购股份62.39万股，交易总金额1230.87万元",
       "firstSeenAt": "2026-09-13T13:23:33.029Z",
-      "lastSeenAt": "2026-09-13T16:29:56.335Z",
+      "lastSeenAt": "2026-09-14T05:06:16.547Z",
       "primaryItemId": "news_8925ff15d5b0",
       "evidenceItemIds": [
         "news_8925ff15d5b0",
@@ -324,7 +326,7 @@
       "eventId": "event_920515740e32",
       "title": "雷电微力：股东陈发树拟减持不超3%公司股份",
       "firstSeenAt": "2026-09-13T13:23:33.029Z",
-      "lastSeenAt": "2026-09-13T16:29:56.335Z",
+      "lastSeenAt": "2026-09-14T05:06:16.547Z",
       "primaryItemId": "news_e6e2bbba4d0c",
       "evidenceItemIds": [
         "news_e6e2bbba4d0c",
@@ -336,7 +338,7 @@
       "eventId": "event_8f5c2a38017c",
       "title": "百胜中国(09987)9月11日斥资784.97万港元回购2.34万股",
       "firstSeenAt": "2026-09-13T13:23:33.029Z",
-      "lastSeenAt": "2026-09-13T16:29:56.335Z",
+      "lastSeenAt": "2026-09-14T05:06:16.547Z",
       "primaryItemId": "news_6d345d181887",
       "evidenceItemIds": [
         "news_6d345d181887",
@@ -346,14 +348,11 @@
     },
     {
       "eventId": "event_32967e3730b8",
-      "title": "美股三大指数收盘集体上涨，大型科技股多数走高",
+      "title": "A股三大指数集体低开",
       "firstSeenAt": "2026-08-03T15:23:32.854Z",
-      "lastSeenAt": "2026-09-13T13:23:33.029Z",
-      "primaryItemId": "news_93d7e52ddd4e",
+      "lastSeenAt": "2026-09-14T05:06:16.547Z",
+      "primaryItemId": "news_14aeb3fbbd9f",
       "evidenceItemIds": [
-        "news_7a48b08815f8",
-        "news_32f9f080ed6c",
-        "news_cdf64bc47c62",
         "news_22afba3862a0",
         "news_8657bacfb96d",
         "news_57eab53dfe2f",
@@ -400,19 +399,10 @@
         "news_b497a6eb590d",
         "news_0c203dd7e5f6",
         "news_93d7e52ddd4e",
-        "news_5caa1ba21c83"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_e8f555535946",
-      "title": "*ST卓然四年财报造假 或被实施重大违法强制退市|速读公告",
-      "firstSeenAt": "2026-09-12T04:44:05.597Z",
-      "lastSeenAt": "2026-09-13T13:23:33.029Z",
-      "primaryItemId": "news_39bcdaa16959",
-      "evidenceItemIds": [
-        "news_39bcdaa16959",
-        "news_76c7ea6b59e9"
+        "news_5caa1ba21c83",
+        "news_14aeb3fbbd9f",
+        "news_3a4d68335c54",
+        "news_ba4a5507e68d"
       ],
       "status": "developing"
     },
@@ -420,7 +410,7 @@
       "eventId": "event_0a3941c2f042",
       "title": "国新办举行“开局起步‘十五五’”系列主题新闻发布会 介绍金融领域贯彻落实“十五五”规划、推动金融强国建设有关情况",
       "firstSeenAt": "2026-09-10T09:01:39.236Z",
-      "lastSeenAt": "2026-09-13T13:23:33.029Z",
+      "lastSeenAt": "2026-09-14T05:06:16.547Z",
       "primaryItemId": "news_ecb5431dff13",
       "evidenceItemIds": [
         "news_346088987fe6",
@@ -436,7 +426,7 @@
       "eventId": "event_1ea2527ee420",
       "title": "中国证监会发布《期货公司监督管理办法》及配套实施公告",
       "firstSeenAt": "2026-08-05T06:41:05.050Z",
-      "lastSeenAt": "2026-09-13T13:23:33.029Z",
+      "lastSeenAt": "2026-09-14T05:06:16.547Z",
       "primaryItemId": "news_e5dbfd1edc31",
       "evidenceItemIds": [
         "news_4cc3e3bd1fc7",
@@ -453,11 +443,132 @@
       "eventId": "event_d39967edf0de",
       "title": "中国证监会严肃查处*ST卓然严重财务造假案件",
       "firstSeenAt": "2026-09-13T04:57:33.200Z",
-      "lastSeenAt": "2026-09-13T13:23:33.029Z",
+      "lastSeenAt": "2026-09-14T05:06:16.547Z",
       "primaryItemId": "news_8223d09e0ac9",
       "evidenceItemIds": [
         "news_8223d09e0ac9",
         "news_5a4a4f0cb79f"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_529af3584dc2",
+      "title": "恒指午间休盘涨0.35%，恒生科技指数涨0.17%",
+      "firstSeenAt": "2026-07-31T02:43:30.494Z",
+      "lastSeenAt": "2026-09-14T05:06:16.547Z",
+      "primaryItemId": "news_81e8f64ea33a",
+      "evidenceItemIds": [
+        "news_5a5f5ff7ad17",
+        "news_084cbebc72c0",
+        "news_3cba95f4258f",
+        "news_d1cbb73f5840",
+        "news_12443196ab76",
+        "news_8f873e6a8d3c",
+        "news_a93f9e4799d9",
+        "news_50f4ea76994f",
+        "news_e247eea117e1",
+        "news_7c7da5efef24",
+        "news_52e2991daef2",
+        "news_dae0295ce191",
+        "news_a816974df43d",
+        "news_c1858bceeb50",
+        "news_3be203f2d778",
+        "news_21ee0b9fb11f",
+        "news_4a0d3d6b1b80",
+        "news_9ad084c58f34",
+        "news_8e56de0598da",
+        "news_9329393092b2",
+        "news_db6f05e3a62a",
+        "news_a67efbf791ea",
+        "news_3fbffa58cc34",
+        "news_4fd39e2b0bc4",
+        "news_da40c026f648",
+        "news_526f8c1f6ee0",
+        "news_f24a647a25f0",
+        "news_a8e3b50883ac",
+        "news_36c33b7efa7a",
+        "news_3ce688620f6b",
+        "news_b15f29635579",
+        "news_d500b1d3ebf0",
+        "news_7a3ba44ec820",
+        "news_5032b1b1e270",
+        "news_dec96877aed6",
+        "news_7e76aa9dc564",
+        "news_a7841e1f7444",
+        "news_6b270da68dc7",
+        "news_418b1f72d789",
+        "news_7d0a8e877726",
+        "news_a370a83889a3",
+        "news_26c523260f0b",
+        "news_1a929c44af7a",
+        "news_e7ee6601c3cf",
+        "news_30ce26e12abb",
+        "news_bdebbb50d397",
+        "news_3dc786acb560",
+        "news_d853838d4105",
+        "news_422bf9816e67",
+        "news_81e8f64ea33a"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_74158378db4b",
+      "title": "今日开盘：两市双双低开 沪指跌幅0.54%",
+      "firstSeenAt": "2026-08-06T03:43:23.319Z",
+      "lastSeenAt": "2026-09-14T05:06:16.547Z",
+      "primaryItemId": "news_25184331b792",
+      "evidenceItemIds": [
+        "news_5c70752541f1",
+        "news_4e57f6baed6e",
+        "news_e9e2a1fc2551",
+        "news_a1671de823c1",
+        "news_7df695aa3d10",
+        "news_fd96e76babcb",
+        "news_002a5afcff3b",
+        "news_da9ad91cb33a",
+        "news_df51b1764e08",
+        "news_4a76c392df1e",
+        "news_075795deda4d",
+        "news_011398fcfd6a",
+        "news_25184331b792"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_feaa3b1cc71a",
+      "title": "智谱融资393亿港元 7月以来第二次募资",
+      "firstSeenAt": "2026-09-14T05:06:16.547Z",
+      "lastSeenAt": "2026-09-14T05:06:16.547Z",
+      "primaryItemId": "news_4bb5c883258d",
+      "evidenceItemIds": [
+        "news_4bb5c883258d",
+        "news_02190ac3fd8d"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_15f9b18f6a1f",
+      "title": "Anthropic CEO谈放缓AI研发：有人用AI“研发生物武器、增强病毒传染性”，必须引入第三方监管",
+      "firstSeenAt": "2026-09-14T05:06:16.547Z",
+      "lastSeenAt": "2026-09-14T05:06:16.547Z",
+      "primaryItemId": "news_152bf13aa971",
+      "evidenceItemIds": [
+        "news_152bf13aa971",
+        "news_513dc7bdefde",
+        "news_72deedfdce08",
+        "news_f97cf3bedbdf"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_e8f555535946",
+      "title": "*ST卓然四年财报造假 或被实施重大违法强制退市|速读公告",
+      "firstSeenAt": "2026-09-12T04:44:05.597Z",
+      "lastSeenAt": "2026-09-13T13:23:33.029Z",
+      "primaryItemId": "news_39bcdaa16959",
+      "evidenceItemIds": [
+        "news_39bcdaa16959",
+        "news_76c7ea6b59e9"
       ],
       "status": "developing"
     },
@@ -692,66 +803,6 @@
       "status": "developing"
     },
     {
-      "eventId": "event_529af3584dc2",
-      "title": "恒指收跌0.6%，恒生科技指数跌0.23%",
-      "firstSeenAt": "2026-07-31T02:43:30.494Z",
-      "lastSeenAt": "2026-09-12T04:44:05.597Z",
-      "primaryItemId": "news_422bf9816e67",
-      "evidenceItemIds": [
-        "news_c6451e15adf9",
-        "news_5a5f5ff7ad17",
-        "news_084cbebc72c0",
-        "news_3cba95f4258f",
-        "news_d1cbb73f5840",
-        "news_12443196ab76",
-        "news_8f873e6a8d3c",
-        "news_a93f9e4799d9",
-        "news_50f4ea76994f",
-        "news_e247eea117e1",
-        "news_7c7da5efef24",
-        "news_52e2991daef2",
-        "news_dae0295ce191",
-        "news_a816974df43d",
-        "news_c1858bceeb50",
-        "news_3be203f2d778",
-        "news_21ee0b9fb11f",
-        "news_4a0d3d6b1b80",
-        "news_9ad084c58f34",
-        "news_8e56de0598da",
-        "news_9329393092b2",
-        "news_db6f05e3a62a",
-        "news_a67efbf791ea",
-        "news_3fbffa58cc34",
-        "news_4fd39e2b0bc4",
-        "news_da40c026f648",
-        "news_526f8c1f6ee0",
-        "news_f24a647a25f0",
-        "news_a8e3b50883ac",
-        "news_36c33b7efa7a",
-        "news_3ce688620f6b",
-        "news_b15f29635579",
-        "news_d500b1d3ebf0",
-        "news_7a3ba44ec820",
-        "news_5032b1b1e270",
-        "news_dec96877aed6",
-        "news_7e76aa9dc564",
-        "news_a7841e1f7444",
-        "news_6b270da68dc7",
-        "news_418b1f72d789",
-        "news_7d0a8e877726",
-        "news_a370a83889a3",
-        "news_26c523260f0b",
-        "news_1a929c44af7a",
-        "news_e7ee6601c3cf",
-        "news_30ce26e12abb",
-        "news_bdebbb50d397",
-        "news_3dc786acb560",
-        "news_d853838d4105",
-        "news_422bf9816e67"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_0737eac2cabb",
       "title": "连板股追踪丨A股今日共40只个股涨停 这只建筑股4连板",
       "firstSeenAt": "2026-07-31T02:43:30.494Z",
@@ -851,28 +902,6 @@
       "evidenceItemIds": [
         "news_c10f0bd27b1e",
         "news_f6e938524837"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_74158378db4b",
-      "title": "今日开盘：两市双双低开 沪指跌幅0.60%",
-      "firstSeenAt": "2026-08-06T03:43:23.319Z",
-      "lastSeenAt": "2026-09-11T12:56:54.601Z",
-      "primaryItemId": "news_011398fcfd6a",
-      "evidenceItemIds": [
-        "news_5c70752541f1",
-        "news_4e57f6baed6e",
-        "news_e9e2a1fc2551",
-        "news_a1671de823c1",
-        "news_7df695aa3d10",
-        "news_fd96e76babcb",
-        "news_002a5afcff3b",
-        "news_da9ad91cb33a",
-        "news_df51b1764e08",
-        "news_4a76c392df1e",
-        "news_075795deda4d",
-        "news_011398fcfd6a"
       ],
       "status": "developing"
     },

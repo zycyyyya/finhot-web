@@ -1,28 +1,14 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-09-14T15:09:26.454Z",
+  "generatedAt": "2026-09-14T18:13:09.233Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
-      "eventId": "event_315991b0232c",
-      "title": "法国7月工业产出下滑0.4%，逊于市场预期",
-      "firstSeenAt": "2026-09-07T09:23:18.972Z",
-      "lastSeenAt": "2026-09-14T15:09:26.454Z",
-      "primaryItemId": "news_f4dc2ebd24a4",
-      "evidenceItemIds": [
-        "news_19b23ed4b4a9",
-        "news_980badd63075",
-        "news_608c66723c58",
-        "news_f4dc2ebd24a4"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_1a38612f1a6c",
       "title": "国家统计局：2026年8月份CPI温和回升 PPI同比涨幅扩大",
       "firstSeenAt": "2026-09-09T04:48:18.184Z",
-      "lastSeenAt": "2026-09-14T15:09:26.454Z",
+      "lastSeenAt": "2026-09-14T18:13:09.233Z",
       "primaryItemId": "news_4e0504e7ca15",
       "evidenceItemIds": [
         "news_4e0504e7ca15",
@@ -37,7 +23,7 @@
       "eventId": "event_0d8356d7e80c",
       "title": "美国8月CPI增速符合预期，市场押注美联储下周加息概率升至86%",
       "firstSeenAt": "2026-09-10T13:03:28.502Z",
-      "lastSeenAt": "2026-09-14T15:09:26.454Z",
+      "lastSeenAt": "2026-09-14T18:13:09.233Z",
       "primaryItemId": "news_b813a8e331c3",
       "evidenceItemIds": [
         "news_e6dd61e5a62e",
@@ -55,27 +41,10 @@
       "status": "developing"
     },
     {
-      "eventId": "event_faac4b9f2bd8",
-      "title": "IPO在即，Anthropic连续两季度盈利",
-      "firstSeenAt": "2026-08-22T04:49:56.049Z",
-      "lastSeenAt": "2026-09-14T15:09:26.454Z",
-      "primaryItemId": "news_6cf46c0cdff7",
-      "evidenceItemIds": [
-        "news_1d7c95068d75",
-        "news_3a13bd428308",
-        "news_aeb5377444d0",
-        "news_4558400af6d5",
-        "news_3cd07be9ec23",
-        "news_a4ff125eecb9",
-        "news_6cf46c0cdff7"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_202dd878fa19",
       "title": "晚间公告｜9月14日这些公告有看头",
       "firstSeenAt": "2026-07-31T14:43:32.623Z",
-      "lastSeenAt": "2026-09-14T15:09:26.454Z",
+      "lastSeenAt": "2026-09-14T18:13:09.233Z",
       "primaryItemId": "news_105071d297de",
       "evidenceItemIds": [
         "news_eaf56a2f5345",
@@ -117,6 +86,318 @@
         "news_4021b72f1f8a",
         "news_c3ab2c29e063",
         "news_105071d297de"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_32967e3730b8",
+      "title": "热门中概股美股盘前涨跌不一，阿里巴巴跌超1%",
+      "firstSeenAt": "2026-08-03T15:23:32.854Z",
+      "lastSeenAt": "2026-09-14T18:13:09.233Z",
+      "primaryItemId": "news_dd4dbb6d80c3",
+      "evidenceItemIds": [
+        "news_57eab53dfe2f",
+        "news_190e072a9adf",
+        "news_ce8d9d35ffad",
+        "news_07c8e81e210f",
+        "news_145b0fb3a96a",
+        "news_89516f7e191b",
+        "news_41550d725195",
+        "news_597d0c98d522",
+        "news_d0ecfdcf2b2f",
+        "news_946e33737a7f",
+        "news_b886bc768085",
+        "news_230bf8cff437",
+        "news_5ce2dbb0fd9b",
+        "news_78eb330bde54",
+        "news_a64a51b6307d",
+        "news_ff3780319764",
+        "news_088cb0dd2781",
+        "news_78745d1dc8d3",
+        "news_d19121fe4fe8",
+        "news_419cd90bb74a",
+        "news_b03943a69317",
+        "news_29f89f0e4f08",
+        "news_37f4186154af",
+        "news_52aa5224525d",
+        "news_ebd7d27958bd",
+        "news_13b5cff6a261",
+        "news_7f1f1443eeba",
+        "news_f6fe41b67e96",
+        "news_c2ee800ea3e0",
+        "news_f219ff9ab447",
+        "news_b2f9a2b43ad3",
+        "news_a181d0019ca1",
+        "news_6b40c15032cc",
+        "news_dcde525a191c",
+        "news_55a99e361fd9",
+        "news_e3cbd1d4091e",
+        "news_1cac0313fa36",
+        "news_2dae2543ea57",
+        "news_d3633f74e1be",
+        "news_13a404d5aebb",
+        "news_2801be608ab2",
+        "news_b497a6eb590d",
+        "news_0c203dd7e5f6",
+        "news_93d7e52ddd4e",
+        "news_5caa1ba21c83",
+        "news_14aeb3fbbd9f",
+        "news_3a4d68335c54",
+        "news_ba4a5507e68d",
+        "news_dd4dbb6d80c3",
+        "news_9f9aa9a3732e"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_15f9b18f6a1f",
+      "title": "特朗普抨击Anthropic CEO：AI发展不能踩刹车，美国有“高智商总统”就足够",
+      "firstSeenAt": "2026-09-14T05:06:16.547Z",
+      "lastSeenAt": "2026-09-14T18:13:09.233Z",
+      "primaryItemId": "news_f7403e00399f",
+      "evidenceItemIds": [
+        "news_152bf13aa971",
+        "news_513dc7bdefde",
+        "news_72deedfdce08",
+        "news_f97cf3bedbdf",
+        "news_f7403e00399f"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_0737eac2cabb",
+      "title": "连板股追踪丨A股今日共57只个股涨停 这只电力股4连板",
+      "firstSeenAt": "2026-07-31T02:43:30.494Z",
+      "lastSeenAt": "2026-09-14T18:13:09.233Z",
+      "primaryItemId": "news_b1063012f1f8",
+      "evidenceItemIds": [
+        "news_cf2b97a75d61",
+        "news_6b2b1bbc6628",
+        "news_0b0558cddf77",
+        "news_2a647756104e",
+        "news_8818289af9a3",
+        "news_11eae49a5b16",
+        "news_9e9caeefd1f2",
+        "news_83287e13cba2",
+        "news_8b8e574d724a",
+        "news_ac696b49df1d",
+        "news_715b15a27912",
+        "news_ecd33045b37e",
+        "news_1870ff4e37cf",
+        "news_98c908c2489d",
+        "news_6c2d9bece434",
+        "news_989085d79c58",
+        "news_10ae0a524615",
+        "news_c6e8e7ce3d1c",
+        "news_db44bec3d3da",
+        "news_30483ad43cda",
+        "news_61212134cdd7",
+        "news_0bce4f63f0f1",
+        "news_7d9073d69bfc",
+        "news_4ef716030320",
+        "news_c67366d8076f",
+        "news_37541f809c24",
+        "news_13504293c80d",
+        "news_f57742543118",
+        "news_4a8649e8ea6a",
+        "news_aaf35e751054",
+        "news_e6cae1fc8d66",
+        "news_49b84dbd3a21",
+        "news_bba3b862f6d2",
+        "news_b1063012f1f8"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_061869ce452a",
+      "title": "东莞证券原副总裁郜泽民主动投案，前董事长1个月前刚投案",
+      "firstSeenAt": "2026-09-14T09:56:40.700Z",
+      "lastSeenAt": "2026-09-14T18:13:09.233Z",
+      "primaryItemId": "news_f93e77f0b3ca",
+      "evidenceItemIds": [
+        "news_f93e77f0b3ca",
+        "news_cdfecbe7dca8"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_feda40dda3d2",
+      "title": "海外研选日报0914 | 高盛：美联储9月料加息25个基点 但可能不会释放连续加息信号",
+      "firstSeenAt": "2026-09-14T09:56:40.700Z",
+      "lastSeenAt": "2026-09-14T18:13:09.233Z",
+      "primaryItemId": "news_ba4f2cc9edc0",
+      "evidenceItemIds": [
+        "news_ba4f2cc9edc0",
+        "news_1fc3d7ec774b"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_9c1fff1b6da6",
+      "title": "央行：前八个月社会融资规模增量累计为23.91万亿元，比上年同期少2.64万亿元",
+      "firstSeenAt": "2026-09-14T09:56:40.700Z",
+      "lastSeenAt": "2026-09-14T18:13:09.233Z",
+      "primaryItemId": "news_09f5d26a132a",
+      "evidenceItemIds": [
+        "news_09f5d26a132a",
+        "news_a8fa6dc1ebce",
+        "news_a5dc9d1e1303"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_73f4b1fb41a8",
+      "title": "龙虎榜丨机构今日买入这21股，卖出海南橡胶2.08亿元",
+      "firstSeenAt": "2026-08-03T11:50:30.990Z",
+      "lastSeenAt": "2026-09-14T18:13:09.233Z",
+      "primaryItemId": "news_c44c352e8ee0",
+      "evidenceItemIds": [
+        "news_de7d0ba05e16",
+        "news_e7a76dcea2a8",
+        "news_d9bbbfd32f43",
+        "news_9d97988a8b31",
+        "news_f8e689022fb3",
+        "news_a41d521c5c53",
+        "news_50b190578187",
+        "news_45437b89e860",
+        "news_d1e40824a959",
+        "news_d35397f00f85",
+        "news_28eb220b6d7d",
+        "news_83a8f0bce8bc",
+        "news_a434c7856598",
+        "news_a8c173d2f58f",
+        "news_f7c76b8d1160",
+        "news_be3920c8ab0f",
+        "news_7a02bb038160",
+        "news_5e9ecf83e613",
+        "news_40d2672e7c11",
+        "news_c0cf1488e336",
+        "news_9b61e52ad416",
+        "news_93d30ccfe80b",
+        "news_6b446ac18e20",
+        "news_52fedf4cbbb1",
+        "news_03577cf502cc",
+        "news_d0fdb37aef08",
+        "news_8506c5c0912d",
+        "news_4eb1533ada96",
+        "news_c44c352e8ee0"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_17735f504cb3",
+      "title": "据报道，英伟达、Palantir、博思艾伦将限制使用OpenAI模型",
+      "firstSeenAt": "2026-09-14T15:09:26.454Z",
+      "lastSeenAt": "2026-09-14T18:13:09.233Z",
+      "primaryItemId": "news_fc8ebfe59010",
+      "evidenceItemIds": [
+        "news_fc8ebfe59010",
+        "news_2d4d4ed2cf2a"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_953058f925e4",
+      "title": "香山股份：拟8亿元收购武珞智慧100%股权新增AI算力业务",
+      "firstSeenAt": "2026-09-14T15:09:26.454Z",
+      "lastSeenAt": "2026-09-14T18:13:09.233Z",
+      "primaryItemId": "news_99e2a4c2fb72",
+      "evidenceItemIds": [
+        "news_99e2a4c2fb72",
+        "news_20ff9e7f0e72"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_1f0d3a07e072",
+      "title": "铠侠拟赴美发行ADR募资至少100亿美元，或于明年上市",
+      "firstSeenAt": "2026-09-14T15:09:26.454Z",
+      "lastSeenAt": "2026-09-14T18:13:09.233Z",
+      "primaryItemId": "news_14b815d4ceac",
+      "evidenceItemIds": [
+        "news_14b815d4ceac",
+        "news_5b7b8da4f453"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_4e0adcc83811",
+      "title": "苹果回应“iPhone 17大降价”",
+      "firstSeenAt": "2026-09-14T15:09:26.454Z",
+      "lastSeenAt": "2026-09-14T18:13:09.233Z",
+      "primaryItemId": "news_fa6a903b27d3",
+      "evidenceItemIds": [
+        "news_fa6a903b27d3",
+        "news_c40a5745fe9e",
+        "news_de9c91349003",
+        "news_e6b0485cc95f"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_f05b6d78c937",
+      "title": "沙特关键输油管道遇袭受损 主力运力将停运数周",
+      "firstSeenAt": "2026-09-14T15:09:26.454Z",
+      "lastSeenAt": "2026-09-14T18:13:09.233Z",
+      "primaryItemId": "news_9c9946646289",
+      "evidenceItemIds": [
+        "news_9c9946646289",
+        "news_1f9f7fea71fe"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_00c91a8ee53d",
+      "title": "苹果发布Siri AI",
+      "firstSeenAt": "2026-09-14T18:13:09.233Z",
+      "lastSeenAt": "2026-09-14T18:13:09.233Z",
+      "primaryItemId": "news_e04f2f5e4204",
+      "evidenceItemIds": [
+        "news_e04f2f5e4204",
+        "news_afe3f01133c4"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_5b0db86c56b1",
+      "title": "华之杰：拟购买格丽明电子100%股权，股票明起停牌",
+      "firstSeenAt": "2026-09-14T18:13:09.233Z",
+      "lastSeenAt": "2026-09-14T18:13:09.233Z",
+      "primaryItemId": "news_c84447de023d",
+      "evidenceItemIds": [
+        "news_c84447de023d",
+        "news_6e5d148d8dae"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_315991b0232c",
+      "title": "法国7月工业产出下滑0.4%，逊于市场预期",
+      "firstSeenAt": "2026-09-07T09:23:18.972Z",
+      "lastSeenAt": "2026-09-14T15:09:26.454Z",
+      "primaryItemId": "news_f4dc2ebd24a4",
+      "evidenceItemIds": [
+        "news_19b23ed4b4a9",
+        "news_980badd63075",
+        "news_608c66723c58",
+        "news_f4dc2ebd24a4"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_faac4b9f2bd8",
+      "title": "IPO在即，Anthropic连续两季度盈利",
+      "firstSeenAt": "2026-08-22T04:49:56.049Z",
+      "lastSeenAt": "2026-09-14T15:09:26.454Z",
+      "primaryItemId": "news_6cf46c0cdff7",
+      "evidenceItemIds": [
+        "news_1d7c95068d75",
+        "news_3a13bd428308",
+        "news_aeb5377444d0",
+        "news_4558400af6d5",
+        "news_3cd07be9ec23",
+        "news_a4ff125eecb9",
+        "news_6cf46c0cdff7"
       ],
       "status": "developing"
     },
@@ -182,66 +463,6 @@
         "news_724d0e98eed1",
         "news_5818a525956f",
         "news_8d7c5425c70a"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_32967e3730b8",
-      "title": "A股三大指数集体低开",
-      "firstSeenAt": "2026-08-03T15:23:32.854Z",
-      "lastSeenAt": "2026-09-14T15:09:26.454Z",
-      "primaryItemId": "news_14aeb3fbbd9f",
-      "evidenceItemIds": [
-        "news_57eab53dfe2f",
-        "news_190e072a9adf",
-        "news_ce8d9d35ffad",
-        "news_07c8e81e210f",
-        "news_145b0fb3a96a",
-        "news_89516f7e191b",
-        "news_41550d725195",
-        "news_597d0c98d522",
-        "news_d0ecfdcf2b2f",
-        "news_946e33737a7f",
-        "news_b886bc768085",
-        "news_230bf8cff437",
-        "news_5ce2dbb0fd9b",
-        "news_78eb330bde54",
-        "news_a64a51b6307d",
-        "news_ff3780319764",
-        "news_088cb0dd2781",
-        "news_78745d1dc8d3",
-        "news_d19121fe4fe8",
-        "news_419cd90bb74a",
-        "news_b03943a69317",
-        "news_29f89f0e4f08",
-        "news_37f4186154af",
-        "news_52aa5224525d",
-        "news_ebd7d27958bd",
-        "news_13b5cff6a261",
-        "news_7f1f1443eeba",
-        "news_f6fe41b67e96",
-        "news_c2ee800ea3e0",
-        "news_f219ff9ab447",
-        "news_b2f9a2b43ad3",
-        "news_a181d0019ca1",
-        "news_6b40c15032cc",
-        "news_dcde525a191c",
-        "news_55a99e361fd9",
-        "news_e3cbd1d4091e",
-        "news_1cac0313fa36",
-        "news_2dae2543ea57",
-        "news_d3633f74e1be",
-        "news_13a404d5aebb",
-        "news_2801be608ab2",
-        "news_b497a6eb590d",
-        "news_0c203dd7e5f6",
-        "news_93d7e52ddd4e",
-        "news_5caa1ba21c83",
-        "news_14aeb3fbbd9f",
-        "news_3a4d68335c54",
-        "news_ba4a5507e68d",
-        "news_dd4dbb6d80c3",
-        "news_9f9aa9a3732e"
       ],
       "status": "developing"
     },
@@ -382,202 +603,6 @@
       "evidenceItemIds": [
         "news_4bb5c883258d",
         "news_02190ac3fd8d"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_15f9b18f6a1f",
-      "title": "Anthropic CEO谈放缓AI研发：有人用AI“研发生物武器、增强病毒传染性”，必须引入第三方监管",
-      "firstSeenAt": "2026-09-14T05:06:16.547Z",
-      "lastSeenAt": "2026-09-14T15:09:26.454Z",
-      "primaryItemId": "news_152bf13aa971",
-      "evidenceItemIds": [
-        "news_152bf13aa971",
-        "news_513dc7bdefde",
-        "news_72deedfdce08",
-        "news_f97cf3bedbdf"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_0737eac2cabb",
-      "title": "连板股追踪丨A股今日共57只个股涨停 这只电力股4连板",
-      "firstSeenAt": "2026-07-31T02:43:30.494Z",
-      "lastSeenAt": "2026-09-14T15:09:26.454Z",
-      "primaryItemId": "news_b1063012f1f8",
-      "evidenceItemIds": [
-        "news_cf2b97a75d61",
-        "news_6b2b1bbc6628",
-        "news_0b0558cddf77",
-        "news_2a647756104e",
-        "news_8818289af9a3",
-        "news_11eae49a5b16",
-        "news_9e9caeefd1f2",
-        "news_83287e13cba2",
-        "news_8b8e574d724a",
-        "news_ac696b49df1d",
-        "news_715b15a27912",
-        "news_ecd33045b37e",
-        "news_1870ff4e37cf",
-        "news_98c908c2489d",
-        "news_6c2d9bece434",
-        "news_989085d79c58",
-        "news_10ae0a524615",
-        "news_c6e8e7ce3d1c",
-        "news_db44bec3d3da",
-        "news_30483ad43cda",
-        "news_61212134cdd7",
-        "news_0bce4f63f0f1",
-        "news_7d9073d69bfc",
-        "news_4ef716030320",
-        "news_c67366d8076f",
-        "news_37541f809c24",
-        "news_13504293c80d",
-        "news_f57742543118",
-        "news_4a8649e8ea6a",
-        "news_aaf35e751054",
-        "news_e6cae1fc8d66",
-        "news_49b84dbd3a21",
-        "news_bba3b862f6d2",
-        "news_b1063012f1f8"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_061869ce452a",
-      "title": "东莞证券原副总裁郜泽民主动投案，前董事长1个月前刚投案",
-      "firstSeenAt": "2026-09-14T09:56:40.700Z",
-      "lastSeenAt": "2026-09-14T15:09:26.454Z",
-      "primaryItemId": "news_f93e77f0b3ca",
-      "evidenceItemIds": [
-        "news_f93e77f0b3ca",
-        "news_cdfecbe7dca8"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_feda40dda3d2",
-      "title": "海外研选日报0914 | 高盛：美联储9月料加息25个基点 但可能不会释放连续加息信号",
-      "firstSeenAt": "2026-09-14T09:56:40.700Z",
-      "lastSeenAt": "2026-09-14T15:09:26.454Z",
-      "primaryItemId": "news_ba4f2cc9edc0",
-      "evidenceItemIds": [
-        "news_ba4f2cc9edc0",
-        "news_1fc3d7ec774b"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_9c1fff1b6da6",
-      "title": "央行：前八个月社会融资规模增量累计为23.91万亿元，比上年同期少2.64万亿元",
-      "firstSeenAt": "2026-09-14T09:56:40.700Z",
-      "lastSeenAt": "2026-09-14T15:09:26.454Z",
-      "primaryItemId": "news_09f5d26a132a",
-      "evidenceItemIds": [
-        "news_09f5d26a132a",
-        "news_a8fa6dc1ebce",
-        "news_a5dc9d1e1303"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_73f4b1fb41a8",
-      "title": "龙虎榜丨机构今日买入这21股，卖出海南橡胶2.08亿元",
-      "firstSeenAt": "2026-08-03T11:50:30.990Z",
-      "lastSeenAt": "2026-09-14T15:09:26.454Z",
-      "primaryItemId": "news_c44c352e8ee0",
-      "evidenceItemIds": [
-        "news_de7d0ba05e16",
-        "news_e7a76dcea2a8",
-        "news_d9bbbfd32f43",
-        "news_9d97988a8b31",
-        "news_f8e689022fb3",
-        "news_a41d521c5c53",
-        "news_50b190578187",
-        "news_45437b89e860",
-        "news_d1e40824a959",
-        "news_d35397f00f85",
-        "news_28eb220b6d7d",
-        "news_83a8f0bce8bc",
-        "news_a434c7856598",
-        "news_a8c173d2f58f",
-        "news_f7c76b8d1160",
-        "news_be3920c8ab0f",
-        "news_7a02bb038160",
-        "news_5e9ecf83e613",
-        "news_40d2672e7c11",
-        "news_c0cf1488e336",
-        "news_9b61e52ad416",
-        "news_93d30ccfe80b",
-        "news_6b446ac18e20",
-        "news_52fedf4cbbb1",
-        "news_03577cf502cc",
-        "news_d0fdb37aef08",
-        "news_8506c5c0912d",
-        "news_4eb1533ada96",
-        "news_c44c352e8ee0"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_17735f504cb3",
-      "title": "据报道，英伟达、Palantir、博思艾伦将限制使用OpenAI模型",
-      "firstSeenAt": "2026-09-14T15:09:26.454Z",
-      "lastSeenAt": "2026-09-14T15:09:26.454Z",
-      "primaryItemId": "news_fc8ebfe59010",
-      "evidenceItemIds": [
-        "news_fc8ebfe59010",
-        "news_2d4d4ed2cf2a"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_953058f925e4",
-      "title": "香山股份：拟8亿元收购武珞智慧100%股权新增AI算力业务",
-      "firstSeenAt": "2026-09-14T15:09:26.454Z",
-      "lastSeenAt": "2026-09-14T15:09:26.454Z",
-      "primaryItemId": "news_99e2a4c2fb72",
-      "evidenceItemIds": [
-        "news_99e2a4c2fb72",
-        "news_20ff9e7f0e72"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_1f0d3a07e072",
-      "title": "铠侠拟赴美发行ADR募资至少100亿美元，或于明年上市",
-      "firstSeenAt": "2026-09-14T15:09:26.454Z",
-      "lastSeenAt": "2026-09-14T15:09:26.454Z",
-      "primaryItemId": "news_14b815d4ceac",
-      "evidenceItemIds": [
-        "news_14b815d4ceac",
-        "news_5b7b8da4f453"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_4e0adcc83811",
-      "title": "苹果回应“iPhone 17大降价”",
-      "firstSeenAt": "2026-09-14T15:09:26.454Z",
-      "lastSeenAt": "2026-09-14T15:09:26.454Z",
-      "primaryItemId": "news_fa6a903b27d3",
-      "evidenceItemIds": [
-        "news_fa6a903b27d3",
-        "news_c40a5745fe9e",
-        "news_de9c91349003",
-        "news_e6b0485cc95f"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_f05b6d78c937",
-      "title": "沙特关键输油管道遇袭受损 主力运力将停运数周",
-      "firstSeenAt": "2026-09-14T15:09:26.454Z",
-      "lastSeenAt": "2026-09-14T15:09:26.454Z",
-      "primaryItemId": "news_9c9946646289",
-      "evidenceItemIds": [
-        "news_9c9946646289",
-        "news_1f9f7fea71fe"
       ],
       "status": "developing"
     },

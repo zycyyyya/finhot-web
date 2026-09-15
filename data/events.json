@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-09-14T18:13:09.233Z",
+  "generatedAt": "2026-09-15T05:03:57.187Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -8,14 +8,16 @@
       "eventId": "event_1a38612f1a6c",
       "title": "国家统计局：2026年8月份CPI温和回升 PPI同比涨幅扩大",
       "firstSeenAt": "2026-09-09T04:48:18.184Z",
-      "lastSeenAt": "2026-09-14T18:13:09.233Z",
+      "lastSeenAt": "2026-09-15T05:03:57.187Z",
       "primaryItemId": "news_4e0504e7ca15",
       "evidenceItemIds": [
         "news_4e0504e7ca15",
         "news_d5051aba082e",
         "news_e734b1999d39",
         "news_2992ad40e024",
-        "news_eab897d9420a"
+        "news_eab897d9420a",
+        "news_0d95202dc23a",
+        "news_7c1995e3f360"
       ],
       "status": "developing"
     },
@@ -23,7 +25,7 @@
       "eventId": "event_0d8356d7e80c",
       "title": "美国8月CPI增速符合预期，市场押注美联储下周加息概率升至86%",
       "firstSeenAt": "2026-09-10T13:03:28.502Z",
-      "lastSeenAt": "2026-09-14T18:13:09.233Z",
+      "lastSeenAt": "2026-09-15T05:03:57.187Z",
       "primaryItemId": "news_b813a8e331c3",
       "evidenceItemIds": [
         "news_e6dd61e5a62e",
@@ -44,7 +46,7 @@
       "eventId": "event_202dd878fa19",
       "title": "晚间公告｜9月14日这些公告有看头",
       "firstSeenAt": "2026-07-31T14:43:32.623Z",
-      "lastSeenAt": "2026-09-14T18:13:09.233Z",
+      "lastSeenAt": "2026-09-15T05:03:57.187Z",
       "primaryItemId": "news_105071d297de",
       "evidenceItemIds": [
         "news_eaf56a2f5345",
@@ -93,11 +95,9 @@
       "eventId": "event_32967e3730b8",
       "title": "热门中概股美股盘前涨跌不一，阿里巴巴跌超1%",
       "firstSeenAt": "2026-08-03T15:23:32.854Z",
-      "lastSeenAt": "2026-09-14T18:13:09.233Z",
+      "lastSeenAt": "2026-09-15T05:03:57.187Z",
       "primaryItemId": "news_dd4dbb6d80c3",
       "evidenceItemIds": [
-        "news_57eab53dfe2f",
-        "news_190e072a9adf",
         "news_ce8d9d35ffad",
         "news_07c8e81e210f",
         "news_145b0fb3a96a",
@@ -145,7 +145,9 @@
         "news_3a4d68335c54",
         "news_ba4a5507e68d",
         "news_dd4dbb6d80c3",
-        "news_9f9aa9a3732e"
+        "news_9f9aa9a3732e",
+        "news_d1231b21a30a",
+        "news_9b5b7ce5fd25"
       ],
       "status": "developing"
     },
@@ -153,7 +155,7 @@
       "eventId": "event_15f9b18f6a1f",
       "title": "特朗普抨击Anthropic CEO：AI发展不能踩刹车，美国有“高智商总统”就足够",
       "firstSeenAt": "2026-09-14T05:06:16.547Z",
-      "lastSeenAt": "2026-09-14T18:13:09.233Z",
+      "lastSeenAt": "2026-09-15T05:03:57.187Z",
       "primaryItemId": "news_f7403e00399f",
       "evidenceItemIds": [
         "news_152bf13aa971",
@@ -161,6 +163,388 @@
         "news_72deedfdce08",
         "news_f97cf3bedbdf",
         "news_f7403e00399f"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_061869ce452a",
+      "title": "东莞证券原副总裁郜泽民主动投案，前董事长1个月前刚投案",
+      "firstSeenAt": "2026-09-14T09:56:40.700Z",
+      "lastSeenAt": "2026-09-15T05:03:57.187Z",
+      "primaryItemId": "news_f93e77f0b3ca",
+      "evidenceItemIds": [
+        "news_f93e77f0b3ca",
+        "news_cdfecbe7dca8"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_feda40dda3d2",
+      "title": "海外研选日报0914 | 高盛：美联储9月料加息25个基点 但可能不会释放连续加息信号",
+      "firstSeenAt": "2026-09-14T09:56:40.700Z",
+      "lastSeenAt": "2026-09-15T05:03:57.187Z",
+      "primaryItemId": "news_ba4f2cc9edc0",
+      "evidenceItemIds": [
+        "news_ba4f2cc9edc0",
+        "news_1fc3d7ec774b"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_9c1fff1b6da6",
+      "title": "央行：前八个月社会融资规模增量累计为23.91万亿元，比上年同期少2.64万亿元",
+      "firstSeenAt": "2026-09-14T09:56:40.700Z",
+      "lastSeenAt": "2026-09-15T05:03:57.187Z",
+      "primaryItemId": "news_09f5d26a132a",
+      "evidenceItemIds": [
+        "news_09f5d26a132a",
+        "news_a8fa6dc1ebce",
+        "news_a5dc9d1e1303"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_73f4b1fb41a8",
+      "title": "龙虎榜丨机构今日买入这21股，卖出海南橡胶2.08亿元",
+      "firstSeenAt": "2026-08-03T11:50:30.990Z",
+      "lastSeenAt": "2026-09-15T05:03:57.187Z",
+      "primaryItemId": "news_c44c352e8ee0",
+      "evidenceItemIds": [
+        "news_de7d0ba05e16",
+        "news_e7a76dcea2a8",
+        "news_d9bbbfd32f43",
+        "news_9d97988a8b31",
+        "news_f8e689022fb3",
+        "news_a41d521c5c53",
+        "news_50b190578187",
+        "news_45437b89e860",
+        "news_d1e40824a959",
+        "news_d35397f00f85",
+        "news_28eb220b6d7d",
+        "news_83a8f0bce8bc",
+        "news_a434c7856598",
+        "news_a8c173d2f58f",
+        "news_f7c76b8d1160",
+        "news_be3920c8ab0f",
+        "news_7a02bb038160",
+        "news_5e9ecf83e613",
+        "news_40d2672e7c11",
+        "news_c0cf1488e336",
+        "news_9b61e52ad416",
+        "news_93d30ccfe80b",
+        "news_6b446ac18e20",
+        "news_52fedf4cbbb1",
+        "news_03577cf502cc",
+        "news_d0fdb37aef08",
+        "news_8506c5c0912d",
+        "news_4eb1533ada96",
+        "news_c44c352e8ee0"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_17735f504cb3",
+      "title": "据报道，英伟达、Palantir、博思艾伦将限制使用OpenAI模型",
+      "firstSeenAt": "2026-09-14T15:09:26.454Z",
+      "lastSeenAt": "2026-09-15T05:03:57.187Z",
+      "primaryItemId": "news_fc8ebfe59010",
+      "evidenceItemIds": [
+        "news_fc8ebfe59010",
+        "news_2d4d4ed2cf2a"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_953058f925e4",
+      "title": "香山股份：拟8亿元收购武珞智慧100%股权新增AI算力业务",
+      "firstSeenAt": "2026-09-14T15:09:26.454Z",
+      "lastSeenAt": "2026-09-15T05:03:57.187Z",
+      "primaryItemId": "news_99e2a4c2fb72",
+      "evidenceItemIds": [
+        "news_99e2a4c2fb72",
+        "news_20ff9e7f0e72"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_1f0d3a07e072",
+      "title": "铠侠拟赴美发行ADR募资至少100亿美元，或于明年上市",
+      "firstSeenAt": "2026-09-14T15:09:26.454Z",
+      "lastSeenAt": "2026-09-15T05:03:57.187Z",
+      "primaryItemId": "news_14b815d4ceac",
+      "evidenceItemIds": [
+        "news_14b815d4ceac",
+        "news_5b7b8da4f453"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_f05b6d78c937",
+      "title": "沙特关键输油管道遇袭受损 主力运力将停运数周",
+      "firstSeenAt": "2026-09-14T15:09:26.454Z",
+      "lastSeenAt": "2026-09-15T05:03:57.187Z",
+      "primaryItemId": "news_9c9946646289",
+      "evidenceItemIds": [
+        "news_9c9946646289",
+        "news_1f9f7fea71fe"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_00c91a8ee53d",
+      "title": "苹果发布Siri AI",
+      "firstSeenAt": "2026-09-14T18:13:09.233Z",
+      "lastSeenAt": "2026-09-15T05:03:57.187Z",
+      "primaryItemId": "news_e04f2f5e4204",
+      "evidenceItemIds": [
+        "news_e04f2f5e4204",
+        "news_afe3f01133c4"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_5b0db86c56b1",
+      "title": "华之杰：拟购买格丽明电子100%股权，股票明起停牌",
+      "firstSeenAt": "2026-09-14T18:13:09.233Z",
+      "lastSeenAt": "2026-09-15T05:03:57.187Z",
+      "primaryItemId": "news_c84447de023d",
+      "evidenceItemIds": [
+        "news_c84447de023d",
+        "news_6e5d148d8dae"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_0a3941c2f042",
+      "title": "国新办举行“开局起步‘十五五’”系列主题新闻发布会 介绍金融领域贯彻落实“十五五”规划、推动金融强国建设有关情况",
+      "firstSeenAt": "2026-09-10T09:01:39.236Z",
+      "lastSeenAt": "2026-09-15T05:03:57.187Z",
+      "primaryItemId": "news_ecb5431dff13",
+      "evidenceItemIds": [
+        "news_346088987fe6",
+        "news_71999a751c56",
+        "news_c485e278f48b",
+        "news_ecb5431dff13",
+        "news_2dc352bff169",
+        "news_1ea0f8d85069"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_1ea2527ee420",
+      "title": "中国证监会发布《期货公司监督管理办法》及配套实施公告",
+      "firstSeenAt": "2026-08-05T06:41:05.050Z",
+      "lastSeenAt": "2026-09-15T05:03:57.187Z",
+      "primaryItemId": "news_e5dbfd1edc31",
+      "evidenceItemIds": [
+        "news_4cc3e3bd1fc7",
+        "news_092d579c1c5c",
+        "news_cc1b1a6b2e01",
+        "news_82de2858666e",
+        "news_d18122bfe334",
+        "news_e5dbfd1edc31",
+        "news_c70761d63c7c"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_d39967edf0de",
+      "title": "中国证监会严肃查处*ST卓然严重财务造假案件",
+      "firstSeenAt": "2026-09-13T04:57:33.200Z",
+      "lastSeenAt": "2026-09-15T05:03:57.187Z",
+      "primaryItemId": "news_8223d09e0ac9",
+      "evidenceItemIds": [
+        "news_8223d09e0ac9",
+        "news_5a4a4f0cb79f"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_529af3584dc2",
+      "title": "恒指午间休盘跌0.23%，恒生科技指数涨0.76%",
+      "firstSeenAt": "2026-07-31T02:43:30.494Z",
+      "lastSeenAt": "2026-09-15T05:03:57.187Z",
+      "primaryItemId": "news_6d255f0628bf",
+      "evidenceItemIds": [
+        "news_084cbebc72c0",
+        "news_3cba95f4258f",
+        "news_d1cbb73f5840",
+        "news_12443196ab76",
+        "news_8f873e6a8d3c",
+        "news_a93f9e4799d9",
+        "news_50f4ea76994f",
+        "news_e247eea117e1",
+        "news_7c7da5efef24",
+        "news_52e2991daef2",
+        "news_dae0295ce191",
+        "news_a816974df43d",
+        "news_c1858bceeb50",
+        "news_3be203f2d778",
+        "news_21ee0b9fb11f",
+        "news_4a0d3d6b1b80",
+        "news_9ad084c58f34",
+        "news_8e56de0598da",
+        "news_9329393092b2",
+        "news_db6f05e3a62a",
+        "news_a67efbf791ea",
+        "news_3fbffa58cc34",
+        "news_4fd39e2b0bc4",
+        "news_da40c026f648",
+        "news_526f8c1f6ee0",
+        "news_f24a647a25f0",
+        "news_a8e3b50883ac",
+        "news_36c33b7efa7a",
+        "news_3ce688620f6b",
+        "news_b15f29635579",
+        "news_d500b1d3ebf0",
+        "news_7a3ba44ec820",
+        "news_5032b1b1e270",
+        "news_dec96877aed6",
+        "news_7e76aa9dc564",
+        "news_a7841e1f7444",
+        "news_6b270da68dc7",
+        "news_418b1f72d789",
+        "news_7d0a8e877726",
+        "news_a370a83889a3",
+        "news_26c523260f0b",
+        "news_1a929c44af7a",
+        "news_e7ee6601c3cf",
+        "news_30ce26e12abb",
+        "news_bdebbb50d397",
+        "news_3dc786acb560",
+        "news_d853838d4105",
+        "news_422bf9816e67",
+        "news_81e8f64ea33a",
+        "news_6d255f0628bf"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_8f5c2a38017c",
+      "title": "名创优品(09896)9月14日斥资24.12万美元回购10.56万股",
+      "firstSeenAt": "2026-09-13T13:23:33.029Z",
+      "lastSeenAt": "2026-09-15T05:03:57.187Z",
+      "primaryItemId": "news_f1c3738de3f3",
+      "evidenceItemIds": [
+        "news_6d345d181887",
+        "news_2fadf89c4007",
+        "news_f1c3738de3f3",
+        "news_3adf95eb4a4f"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_01118fb5b195",
+      "title": "财联社汽车早报【9月15日】",
+      "firstSeenAt": "2026-08-01T03:54:06.184Z",
+      "lastSeenAt": "2026-09-15T05:03:57.187Z",
+      "primaryItemId": "news_68f4a0ad1c6a",
+      "evidenceItemIds": [
+        "news_11bf098d57d9",
+        "news_352d957a2426",
+        "news_7a9c03d3a9e0",
+        "news_141a587e8be2",
+        "news_e93b6f66d076",
+        "news_ac42446fc261",
+        "news_e546a87cd0a7",
+        "news_6734c9c4e9b5",
+        "news_8d456e96708b",
+        "news_13fb304edc7b",
+        "news_76d4d9b04b45",
+        "news_39c037720137",
+        "news_d130ba79d897",
+        "news_7630df780cff",
+        "news_f4d0c83073b7",
+        "news_6e461baa1396",
+        "news_0d7b087f2c35",
+        "news_68f4a0ad1c6a",
+        "news_21b5f7e67cf5"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_7dfa53034388",
+      "title": "国家统计局：8月国民经济运行平稳、发展向新向优",
+      "firstSeenAt": "2026-08-17T09:05:56.847Z",
+      "lastSeenAt": "2026-09-15T05:03:57.187Z",
+      "primaryItemId": "news_bfb9033aeeab",
+      "evidenceItemIds": [
+        "news_ae6f2f07f9f7",
+        "news_ca7665805a7b",
+        "news_bfb9033aeeab",
+        "news_15d2acafa096"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_a2c237d2f6d0",
+      "title": "8月工业增加值同比增速回升至5.2% 新动能贡献超六成增长",
+      "firstSeenAt": "2026-09-15T05:03:57.187Z",
+      "lastSeenAt": "2026-09-15T05:03:57.187Z",
+      "primaryItemId": "news_f91ed2733c57",
+      "evidenceItemIds": [
+        "news_f91ed2733c57",
+        "news_37fcc010bb0a"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_7bc6a9e7c0c1",
+      "title": "AI开发放缓担忧升温，美股低开，费城半导体指数跌6%，10年期美债收益率三年来首破5%，布油涨破109",
+      "firstSeenAt": "2026-09-15T05:03:57.187Z",
+      "lastSeenAt": "2026-09-15T05:03:57.187Z",
+      "primaryItemId": "news_abe675c88c07",
+      "evidenceItemIds": [
+        "news_abe675c88c07",
+        "news_f42e15bd8b6a"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_a712521ca16d",
+      "title": "盘前必读丨美股存储芯片、光通信板块重挫；广汽集团筹划重大资产重组",
+      "firstSeenAt": "2026-09-15T05:03:57.187Z",
+      "lastSeenAt": "2026-09-15T05:03:57.187Z",
+      "primaryItemId": "news_2bff3ba54797",
+      "evidenceItemIds": [
+        "news_2bff3ba54797",
+        "news_261e2754fdb4"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_aabdee4506d0",
+      "title": "这一天终于还是来了：10年期美债收益率升穿5%！",
+      "firstSeenAt": "2026-09-15T05:03:57.187Z",
+      "lastSeenAt": "2026-09-15T05:03:57.187Z",
+      "primaryItemId": "news_47e87c5c3aeb",
+      "evidenceItemIds": [
+        "news_47e87c5c3aeb",
+        "news_674b875e0f1e"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_277497aaadc3",
+      "title": "债市早参9月15日|央行今日续作5000亿元MLF；中证协将加大对债券交易环节的检查力度",
+      "firstSeenAt": "2026-09-15T05:03:57.187Z",
+      "lastSeenAt": "2026-09-15T05:03:57.187Z",
+      "primaryItemId": "news_d1614f1eaf4b",
+      "evidenceItemIds": [
+        "news_d1614f1eaf4b",
+        "news_7b22f8019ec5"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_b3bdbc8132af",
+      "title": "LONG投资集团(02312)8月末每股资产净值约为0.31港元",
+      "firstSeenAt": "2026-09-15T05:03:57.187Z",
+      "lastSeenAt": "2026-09-15T05:03:57.187Z",
+      "primaryItemId": "news_185553f510e8",
+      "evidenceItemIds": [
+        "news_185553f510e8",
+        "news_e70359e2970b"
       ],
       "status": "developing"
     },
@@ -209,118 +593,6 @@
       "status": "developing"
     },
     {
-      "eventId": "event_061869ce452a",
-      "title": "东莞证券原副总裁郜泽民主动投案，前董事长1个月前刚投案",
-      "firstSeenAt": "2026-09-14T09:56:40.700Z",
-      "lastSeenAt": "2026-09-14T18:13:09.233Z",
-      "primaryItemId": "news_f93e77f0b3ca",
-      "evidenceItemIds": [
-        "news_f93e77f0b3ca",
-        "news_cdfecbe7dca8"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_feda40dda3d2",
-      "title": "海外研选日报0914 | 高盛：美联储9月料加息25个基点 但可能不会释放连续加息信号",
-      "firstSeenAt": "2026-09-14T09:56:40.700Z",
-      "lastSeenAt": "2026-09-14T18:13:09.233Z",
-      "primaryItemId": "news_ba4f2cc9edc0",
-      "evidenceItemIds": [
-        "news_ba4f2cc9edc0",
-        "news_1fc3d7ec774b"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_9c1fff1b6da6",
-      "title": "央行：前八个月社会融资规模增量累计为23.91万亿元，比上年同期少2.64万亿元",
-      "firstSeenAt": "2026-09-14T09:56:40.700Z",
-      "lastSeenAt": "2026-09-14T18:13:09.233Z",
-      "primaryItemId": "news_09f5d26a132a",
-      "evidenceItemIds": [
-        "news_09f5d26a132a",
-        "news_a8fa6dc1ebce",
-        "news_a5dc9d1e1303"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_73f4b1fb41a8",
-      "title": "龙虎榜丨机构今日买入这21股，卖出海南橡胶2.08亿元",
-      "firstSeenAt": "2026-08-03T11:50:30.990Z",
-      "lastSeenAt": "2026-09-14T18:13:09.233Z",
-      "primaryItemId": "news_c44c352e8ee0",
-      "evidenceItemIds": [
-        "news_de7d0ba05e16",
-        "news_e7a76dcea2a8",
-        "news_d9bbbfd32f43",
-        "news_9d97988a8b31",
-        "news_f8e689022fb3",
-        "news_a41d521c5c53",
-        "news_50b190578187",
-        "news_45437b89e860",
-        "news_d1e40824a959",
-        "news_d35397f00f85",
-        "news_28eb220b6d7d",
-        "news_83a8f0bce8bc",
-        "news_a434c7856598",
-        "news_a8c173d2f58f",
-        "news_f7c76b8d1160",
-        "news_be3920c8ab0f",
-        "news_7a02bb038160",
-        "news_5e9ecf83e613",
-        "news_40d2672e7c11",
-        "news_c0cf1488e336",
-        "news_9b61e52ad416",
-        "news_93d30ccfe80b",
-        "news_6b446ac18e20",
-        "news_52fedf4cbbb1",
-        "news_03577cf502cc",
-        "news_d0fdb37aef08",
-        "news_8506c5c0912d",
-        "news_4eb1533ada96",
-        "news_c44c352e8ee0"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_17735f504cb3",
-      "title": "据报道，英伟达、Palantir、博思艾伦将限制使用OpenAI模型",
-      "firstSeenAt": "2026-09-14T15:09:26.454Z",
-      "lastSeenAt": "2026-09-14T18:13:09.233Z",
-      "primaryItemId": "news_fc8ebfe59010",
-      "evidenceItemIds": [
-        "news_fc8ebfe59010",
-        "news_2d4d4ed2cf2a"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_953058f925e4",
-      "title": "香山股份：拟8亿元收购武珞智慧100%股权新增AI算力业务",
-      "firstSeenAt": "2026-09-14T15:09:26.454Z",
-      "lastSeenAt": "2026-09-14T18:13:09.233Z",
-      "primaryItemId": "news_99e2a4c2fb72",
-      "evidenceItemIds": [
-        "news_99e2a4c2fb72",
-        "news_20ff9e7f0e72"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_1f0d3a07e072",
-      "title": "铠侠拟赴美发行ADR募资至少100亿美元，或于明年上市",
-      "firstSeenAt": "2026-09-14T15:09:26.454Z",
-      "lastSeenAt": "2026-09-14T18:13:09.233Z",
-      "primaryItemId": "news_14b815d4ceac",
-      "evidenceItemIds": [
-        "news_14b815d4ceac",
-        "news_5b7b8da4f453"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_4e0adcc83811",
       "title": "苹果回应“iPhone 17大降价”",
       "firstSeenAt": "2026-09-14T15:09:26.454Z",
@@ -331,42 +603,6 @@
         "news_c40a5745fe9e",
         "news_de9c91349003",
         "news_e6b0485cc95f"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_f05b6d78c937",
-      "title": "沙特关键输油管道遇袭受损 主力运力将停运数周",
-      "firstSeenAt": "2026-09-14T15:09:26.454Z",
-      "lastSeenAt": "2026-09-14T18:13:09.233Z",
-      "primaryItemId": "news_9c9946646289",
-      "evidenceItemIds": [
-        "news_9c9946646289",
-        "news_1f9f7fea71fe"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_00c91a8ee53d",
-      "title": "苹果发布Siri AI",
-      "firstSeenAt": "2026-09-14T18:13:09.233Z",
-      "lastSeenAt": "2026-09-14T18:13:09.233Z",
-      "primaryItemId": "news_e04f2f5e4204",
-      "evidenceItemIds": [
-        "news_e04f2f5e4204",
-        "news_afe3f01133c4"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_5b0db86c56b1",
-      "title": "华之杰：拟购买格丽明电子100%股权，股票明起停牌",
-      "firstSeenAt": "2026-09-14T18:13:09.233Z",
-      "lastSeenAt": "2026-09-14T18:13:09.233Z",
-      "primaryItemId": "news_c84447de023d",
-      "evidenceItemIds": [
-        "news_c84447de023d",
-        "news_6e5d148d8dae"
       ],
       "status": "developing"
     },
@@ -463,111 +699,6 @@
         "news_724d0e98eed1",
         "news_5818a525956f",
         "news_8d7c5425c70a"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_0a3941c2f042",
-      "title": "国新办举行“开局起步‘十五五’”系列主题新闻发布会 介绍金融领域贯彻落实“十五五”规划、推动金融强国建设有关情况",
-      "firstSeenAt": "2026-09-10T09:01:39.236Z",
-      "lastSeenAt": "2026-09-14T15:09:26.454Z",
-      "primaryItemId": "news_ecb5431dff13",
-      "evidenceItemIds": [
-        "news_346088987fe6",
-        "news_71999a751c56",
-        "news_c485e278f48b",
-        "news_ecb5431dff13",
-        "news_2dc352bff169",
-        "news_1ea0f8d85069"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_1ea2527ee420",
-      "title": "中国证监会发布《期货公司监督管理办法》及配套实施公告",
-      "firstSeenAt": "2026-08-05T06:41:05.050Z",
-      "lastSeenAt": "2026-09-14T15:09:26.454Z",
-      "primaryItemId": "news_e5dbfd1edc31",
-      "evidenceItemIds": [
-        "news_4cc3e3bd1fc7",
-        "news_092d579c1c5c",
-        "news_cc1b1a6b2e01",
-        "news_82de2858666e",
-        "news_d18122bfe334",
-        "news_e5dbfd1edc31",
-        "news_c70761d63c7c"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_d39967edf0de",
-      "title": "中国证监会严肃查处*ST卓然严重财务造假案件",
-      "firstSeenAt": "2026-09-13T04:57:33.200Z",
-      "lastSeenAt": "2026-09-14T15:09:26.454Z",
-      "primaryItemId": "news_8223d09e0ac9",
-      "evidenceItemIds": [
-        "news_8223d09e0ac9",
-        "news_5a4a4f0cb79f"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_529af3584dc2",
-      "title": "恒指午间休盘涨0.35%，恒生科技指数涨0.17%",
-      "firstSeenAt": "2026-07-31T02:43:30.494Z",
-      "lastSeenAt": "2026-09-14T15:09:26.454Z",
-      "primaryItemId": "news_81e8f64ea33a",
-      "evidenceItemIds": [
-        "news_5a5f5ff7ad17",
-        "news_084cbebc72c0",
-        "news_3cba95f4258f",
-        "news_d1cbb73f5840",
-        "news_12443196ab76",
-        "news_8f873e6a8d3c",
-        "news_a93f9e4799d9",
-        "news_50f4ea76994f",
-        "news_e247eea117e1",
-        "news_7c7da5efef24",
-        "news_52e2991daef2",
-        "news_dae0295ce191",
-        "news_a816974df43d",
-        "news_c1858bceeb50",
-        "news_3be203f2d778",
-        "news_21ee0b9fb11f",
-        "news_4a0d3d6b1b80",
-        "news_9ad084c58f34",
-        "news_8e56de0598da",
-        "news_9329393092b2",
-        "news_db6f05e3a62a",
-        "news_a67efbf791ea",
-        "news_3fbffa58cc34",
-        "news_4fd39e2b0bc4",
-        "news_da40c026f648",
-        "news_526f8c1f6ee0",
-        "news_f24a647a25f0",
-        "news_a8e3b50883ac",
-        "news_36c33b7efa7a",
-        "news_3ce688620f6b",
-        "news_b15f29635579",
-        "news_d500b1d3ebf0",
-        "news_7a3ba44ec820",
-        "news_5032b1b1e270",
-        "news_dec96877aed6",
-        "news_7e76aa9dc564",
-        "news_a7841e1f7444",
-        "news_6b270da68dc7",
-        "news_418b1f72d789",
-        "news_7d0a8e877726",
-        "news_a370a83889a3",
-        "news_26c523260f0b",
-        "news_1a929c44af7a",
-        "news_e7ee6601c3cf",
-        "news_30ce26e12abb",
-        "news_bdebbb50d397",
-        "news_3dc786acb560",
-        "news_d853838d4105",
-        "news_422bf9816e67",
-        "news_81e8f64ea33a"
       ],
       "status": "developing"
     },
@@ -705,18 +836,6 @@
       "evidenceItemIds": [
         "news_e6e2bbba4d0c",
         "news_f1ca1ff9c848"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_8f5c2a38017c",
-      "title": "百胜中国(09987)9月11日斥资784.97万港元回购2.34万股",
-      "firstSeenAt": "2026-09-13T13:23:33.029Z",
-      "lastSeenAt": "2026-09-14T09:56:40.700Z",
-      "primaryItemId": "news_6d345d181887",
-      "evidenceItemIds": [
-        "news_6d345d181887",
-        "news_2fadf89c4007"
       ],
       "status": "developing"
     },
@@ -2455,33 +2574,6 @@
       "evidenceItemIds": [
         "news_b45c70c32c59",
         "news_384714520b4b"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_01118fb5b195",
-      "title": "财联社汽车早报【9月4日】",
-      "firstSeenAt": "2026-08-01T03:54:06.184Z",
-      "lastSeenAt": "2026-09-04T08:58:23.004Z",
-      "primaryItemId": "news_6e461baa1396",
-      "evidenceItemIds": [
-        "news_11bf098d57d9",
-        "news_352d957a2426",
-        "news_7a9c03d3a9e0",
-        "news_141a587e8be2",
-        "news_e93b6f66d076",
-        "news_ac42446fc261",
-        "news_e546a87cd0a7",
-        "news_6734c9c4e9b5",
-        "news_8d456e96708b",
-        "news_13fb304edc7b",
-        "news_76d4d9b04b45",
-        "news_39c037720137",
-        "news_d130ba79d897",
-        "news_7630df780cff",
-        "news_f4d0c83073b7",
-        "news_6e461baa1396",
-        "news_0d7b087f2c35"
       ],
       "status": "developing"
     },
@@ -6349,18 +6441,6 @@
       "evidenceItemIds": [
         "news_38eb77a40219",
         "news_d8d8203e25cd"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_7dfa53034388",
-      "title": "国家统计局：1至7月份国民经济保持总体平稳、向新向优发展态势",
-      "firstSeenAt": "2026-08-17T09:05:56.847Z",
-      "lastSeenAt": "2026-08-18T04:52:00.550Z",
-      "primaryItemId": "news_ae6f2f07f9f7",
-      "evidenceItemIds": [
-        "news_ae6f2f07f9f7",
-        "news_ca7665805a7b"
       ],
       "status": "developing"
     },

@@ -31,10 +31,22 @@ const okDeps = {
   now,
   getJson: async url => {
     if (url.includes('chinamoney')) {
-      return { records: [{ '1Y': '3.00', '5Y': '3.50', showDateCN: '2026-07-20' }] };
+      // LPR history carries the prior publication, so no local baseline is needed.
+      return {
+        records: [
+          { '1Y': '3.00', '5Y': '3.50', showDateCN: '2026-07-20' },
+          { '1Y': '3.00', '5Y': '3.50', showDateCN: '2026-06-20' },
+        ],
+      };
     }
     if (url.includes('frankfurter')) {
-      return { date: '2026-08-11', rates: { CNY: 6.7453 } };
+      // Range response: one entry per ECB trading day.
+      return {
+        rates: {
+          '2026-08-10': { CNY: 6.7442 },
+          '2026-08-11': { CNY: 6.7453 },
+        },
+      };
     }
     if (url.includes('gold-api')) {
       return { price: 4389.2, updatedAt: '2026-08-12T05:55:08Z' };
@@ -43,7 +55,9 @@ const okDeps = {
   },
   getText: async url => {
     assert.ok(url.includes('home.treasury.gov'));
-    return 'Date,"1 Mo","2 Yr","10 Yr","30 Yr"\n08/11/2026,3.79,4.22,4.70,5.24\n';
+    return 'Date,"1 Mo","2 Yr","10 Yr","30 Yr"\n'
+      + '08/11/2026,3.79,4.22,4.70,5.24\n'
+      + '08/10/2026,3.80,4.20,4.68,5.20\n';
   },
 };
 
@@ -68,12 +82,68 @@ const okDeps = {
   assert.strictEqual(report1.errors.length, 0);
   assert.strictEqual(out1.updatedAt, now.toISOString());
 
+  // Comparison notes name the actual baseline date instead of saying "较前期"
+  assert.strictEqual(byKey1.us10y.note, '较8月10日 4.68% 上升');
+  assert.strictEqual(byKey1.usdcny.note, '较8月10日 6.7442 上升');
+  assert.strictEqual(byKey1.lpr1y.note, '较6月20日持平');
+  // Gold has no upstream history, so the baseline rotates in from the previous run.
+  assert.strictEqual(byKey1.gold.note, '较8月11日 $4,393 下降');
+  assert.ok(!/较前期/.test(out1.indicators.map(ind => ind.note || '').join(' ')),
+    'no indicator may fall back to the vague "较前期" wording');
+
+  // A baseline older than the window is dropped rather than reworded
+  const staleMacro = baseMacro();
+  const staleIndicator = staleMacro.indicators.find(ind => ind.key === 'gold');
+  staleIndicator.asOf = '2026-08-12'; // unchanged observation date, so the seeded baseline survives rotation
+  staleIndicator.prevValue = '$4,000';
+  staleIndicator.prevNumericValue = 4000;
+  staleIndicator.prevAsOf = '2026-06-01'; // 72 days before the incoming observation
+  const { macro: staleOut } = await refreshMacro(staleMacro, okDeps);
+  const staleGold = staleOut.indicators.find(ind => ind.key === 'gold');
+  assert.strictEqual(staleGold.note, '对比基准已超30天');
+  assert.strictEqual(staleGold.prevAsOf, undefined);
+  assert.strictEqual(staleGold.prevNumericValue, undefined);
+
+  // Window boundary: a 30-day-old baseline still compares, 31 days does not.
+  async function goldNoteWithBaseline(prevAsOf) {
+    const seeded = baseMacro();
+    const gold = seeded.indicators.find(ind => ind.key === 'gold');
+    gold.asOf = '2026-08-12';
+    gold.prevValue = '$4,000';
+    gold.prevNumericValue = 4000;
+    gold.prevAsOf = prevAsOf;
+    const { macro } = await refreshMacro(seeded, okDeps);
+    return macro.indicators.find(ind => ind.key === 'gold').note;
+  }
+  assert.strictEqual(await goldNoteWithBaseline('2026-07-13'), '较7月13日 $4,000 上升');
+  assert.strictEqual(await goldNoteWithBaseline('2026-07-12'), '对比基准已超30天');
+
+  // LPR is published monthly, so its window is wider than the 30-day default:
+  // a 34-day gap is normal there and must still produce a dated comparison.
+  const monthlyDeps = {
+    ...okDeps,
+    getJson: async url => {
+      if (url.includes('chinamoney')) {
+        // Only the current publication: forces the local rotated baseline to be used.
+        return { records: [{ '1Y': '3.00', '5Y': '3.50', showDateCN: '2026-07-20' }] };
+      }
+      return okDeps.getJson(url);
+    },
+  };
+  const monthlyMacro = baseMacro();
+  const lprIndicator = monthlyMacro.indicators.find(ind => ind.key === 'lpr1y');
+  lprIndicator.prevValue = '3.00%';
+  lprIndicator.prevNumericValue = 3.0;
+  lprIndicator.prevAsOf = '2026-06-16'; // 34 days before the 2026-07-20 publication
+  const { macro: monthlyOut } = await refreshMacro(monthlyMacro, monthlyDeps);
+  assert.strictEqual(monthlyOut.indicators.find(ind => ind.key === 'lpr1y').note, '较6月16日持平');
+
   // Out-of-range values are rejected and previous values kept
   const badDeps = {
     ...okDeps,
     getJson: async url => {
       if (url.includes('chinamoney')) return { records: [{ '1Y': '45.0', '5Y': '3.50', showDateCN: '2026-07-20' }] };
-      if (url.includes('frankfurter')) return { date: '2026-08-11', rates: { CNY: 99 } };
+      if (url.includes('frankfurter')) return { rates: { '2026-08-11': { CNY: 99 } } };
       if (url.includes('gold-api')) return { price: 12, updatedAt: '2026-08-12T05:55:08Z' };
       throw new Error('unexpected');
     },

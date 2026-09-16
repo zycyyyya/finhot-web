@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-08-12T06:12:36.696Z",
+  "updatedAt": "2026-09-16T03:07:34.996Z",
   "note": "auto 指标由 scripts/macro.js 每日自动刷新；manual 指标为人工核实值，核实日期见 asOf。",
   "indicators": [
     {
@@ -8,22 +8,28 @@
       "name": "LPR 1年期",
       "value": "3.00%",
       "numericValue": 3,
-      "note": "与前期持平",
+      "note": "较7月20日持平",
       "direction": "flat",
-      "asOf": "2026-07-20",
+      "asOf": "2026-08-20",
       "source": "中国货币网",
-      "mode": "auto"
+      "mode": "auto",
+      "prevValue": "3.00%",
+      "prevNumericValue": 3,
+      "prevAsOf": "2026-07-20"
     },
     {
       "key": "lpr5y",
       "name": "LPR 5年期以上",
       "value": "3.50%",
       "numericValue": 3.5,
-      "note": "与前期持平",
+      "note": "较7月20日持平",
       "direction": "flat",
-      "asOf": "2026-07-20",
+      "asOf": "2026-08-20",
       "source": "中国货币网",
-      "mode": "auto"
+      "mode": "auto",
+      "prevValue": "3.50%",
+      "prevNumericValue": 3.5,
+      "prevAsOf": "2026-07-20"
     },
     {
       "key": "cn10y",
@@ -50,13 +56,16 @@
     {
       "key": "us10y",
       "name": "美债 10年期",
-      "value": "4.70%",
-      "numericValue": 4.7,
-      "note": "与前期持平",
-      "direction": "flat",
-      "asOf": "2026-08-11",
+      "value": "5.00%",
+      "numericValue": 5,
+      "note": "较9月14日 4.97% 上升",
+      "direction": "up",
+      "asOf": "2026-09-15",
       "source": "美国财政部",
-      "mode": "auto"
+      "mode": "auto",
+      "prevValue": "4.97%",
+      "prevNumericValue": 4.97,
+      "prevAsOf": "2026-09-14"
     },
     {
       "key": "fedRate",
@@ -72,24 +81,30 @@
     {
       "key": "usdcny",
       "name": "美元兑人民币",
-      "value": "6.7453",
-      "numericValue": 6.7453,
-      "note": "与前期持平",
-      "direction": "flat",
-      "asOf": "2026-08-11",
+      "value": "6.7115",
+      "numericValue": 6.7115,
+      "note": "较9月14日 6.7084 上升",
+      "direction": "up",
+      "asOf": "2026-09-15",
       "source": "Frankfurter/ECB",
-      "mode": "auto"
+      "mode": "auto",
+      "prevValue": "6.7084",
+      "prevNumericValue": 6.7084,
+      "prevAsOf": "2026-09-14"
     },
     {
       "key": "gold",
       "name": "现货黄金",
-      "value": "$4,388",
-      "numericValue": 4387.799805,
-      "note": "较前期 $4,387 上升",
+      "value": "$4,330",
+      "numericValue": 4329.700195,
+      "note": "较9月15日 $4,295 上升",
       "direction": "up",
-      "asOf": "2026-08-12",
+      "asOf": "2026-09-16",
       "source": "gold-api.com",
-      "mode": "auto"
+      "mode": "auto",
+      "prevValue": "$4,295",
+      "prevNumericValue": 4295,
+      "prevAsOf": "2026-09-15"
     }
   ]
 }

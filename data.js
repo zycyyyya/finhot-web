@@ -10210,13 +10210,13 @@ window.FINHOT_DATA = {
     "retentionDays": 90
   },
   "macro": {
-    "updatedAt": "2026-09-15T17:12:43.947Z",
+    "updatedAt": "2026-09-16T03:07:34.996Z",
     "indicators": [
       {
         "key": "lpr1y",
         "name": "LPR 1年期",
         "value": "3.00%",
-        "note": "与前期持平",
+        "note": "较7月20日持平",
         "direction": "flat",
         "asOf": "2026-08-20",
         "source": "中国货币网",
@@ -10226,7 +10226,7 @@ window.FINHOT_DATA = {
         "key": "lpr5y",
         "name": "LPR 5年期以上",
         "value": "3.50%",
-        "note": "与前期持平",
+        "note": "较7月20日持平",
         "direction": "flat",
         "asOf": "2026-08-20",
         "source": "中国货币网",
@@ -10255,10 +10255,10 @@ window.FINHOT_DATA = {
       {
         "key": "us10y",
         "name": "美债 10年期",
-        "value": "4.97%",
-        "note": "较前期 4.70% 上升",
+        "value": "5.00%",
+        "note": "较9月14日 4.97% 上升",
         "direction": "up",
-        "asOf": "2026-09-14",
+        "asOf": "2026-09-15",
         "source": "美国财政部",
         "mode": "auto"
       },
@@ -10276,8 +10276,8 @@ window.FINHOT_DATA = {
         "key": "usdcny",
         "name": "美元兑人民币",
         "value": "6.7115",
-        "note": "较前期 6.7453 下降",
-        "direction": "down",
+        "note": "较9月14日 6.7084 上升",
+        "direction": "up",
         "asOf": "2026-09-15",
         "source": "Frankfurter/ECB",
         "mode": "auto"
@@ -10285,10 +10285,10 @@ window.FINHOT_DATA = {
       {
         "key": "gold",
         "name": "现货黄金",
-        "value": "$4,295",
-        "note": "较前期 $4,388 下降",
-        "direction": "down",
-        "asOf": "2026-09-15",
+        "value": "$4,330",
+        "note": "较9月15日 $4,295 上升",
+        "direction": "up",
+        "asOf": "2026-09-16",
         "source": "gold-api.com",
         "mode": "auto"
       }

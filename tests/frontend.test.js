@@ -54,6 +54,12 @@ assert.ok(macroViewScript.includes("ind.mode === 'auto'"),
   'macro board must filter to auto-refreshed indicators only');
 assert.ok(!macroViewScript.includes('isStale'),
   'manual-stale reminder was removed alongside manual rows');
+// Each KPI states the date its own value was observed, so a monthly series like
+// LPR is not mistaken for a stale board when its comparison names the prior month.
+assert.ok(macroViewScript.includes('macro-kpi-asof'),
+  'each KPI must render its own observation date');
+assert.ok(macroViewScript.includes('shortDate'), 'observation date must be formatted for the card');
+assert.ok(styles.includes('.macro-kpi-asof'), 'missing observation date badge styles');
 assert.ok(fetchScript.includes('publicMacro(macro)'));
 assert.ok(fetchScript.includes('formatMacroContext(macro)'));
 assert.ok(styles.includes('.macro-board-wrap'));

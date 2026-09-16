@@ -118,11 +118,14 @@ function resolveBaseline(indicator, previous, formatValue) {
 }
 
 function comparisonText(baseline, direction, nextAsOf) {
-  const dateText = baseline.asOf ? formatCnDate(baseline.asOf, nextAsOf) : '';
-  const prefix = dateText ? `较${dateText}` : '较前期';
-  if (direction === 'up') return baseline.asOf ? `${prefix} ${baseline.label} 上升` : `较前期 ${baseline.label} 上升`;
-  if (direction === 'down') return baseline.asOf ? `${prefix} ${baseline.label} 下降` : `较前期 ${baseline.label} 下降`;
-  return baseline.asOf ? `${prefix}持平` : `与前期持平`;
+  // The quoted figure always belongs to the baseline, so a flat month keeps it
+  // too: "较7月20日 3.00% 持平" says what the current value is level with.
+  const prefix = baseline.asOf
+    ? `较${formatCnDate(baseline.asOf, nextAsOf)} ${baseline.label}`
+    : `较前期 ${baseline.label}`;
+  if (direction === 'up') return `${prefix} 上升`;
+  if (direction === 'down') return `${prefix} 下降`;
+  return `${prefix} 持平`;
 }
 
 function applyRefresh(indicator, next, formatValue, options) {

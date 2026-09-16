@@ -85,7 +85,9 @@ const okDeps = {
   // Comparison notes name the actual baseline date instead of saying "较前期"
   assert.strictEqual(byKey1.us10y.note, '较8月10日 4.68% 上升');
   assert.strictEqual(byKey1.usdcny.note, '较8月10日 6.7442 上升');
-  assert.strictEqual(byKey1.lpr1y.note, '较6月20日持平');
+  // Flat months quote the baseline figure too, so every card reads the same way.
+  assert.strictEqual(byKey1.lpr1y.note, '较6月20日 3.00% 持平');
+  assert.strictEqual(byKey1.lpr5y.note, '较6月20日 3.50% 持平');
   // Gold has no upstream history, so the baseline rotates in from the previous run.
   assert.strictEqual(byKey1.gold.note, '较8月11日 $4,393 下降');
   assert.ok(!/较前期/.test(out1.indicators.map(ind => ind.note || '').join(' ')),
@@ -136,7 +138,7 @@ const okDeps = {
   lprIndicator.prevNumericValue = 3.0;
   lprIndicator.prevAsOf = '2026-06-16'; // 34 days before the 2026-07-20 publication
   const { macro: monthlyOut } = await refreshMacro(monthlyMacro, monthlyDeps);
-  assert.strictEqual(monthlyOut.indicators.find(ind => ind.key === 'lpr1y').note, '较6月16日持平');
+  assert.strictEqual(monthlyOut.indicators.find(ind => ind.key === 'lpr1y').note, '较6月16日 3.00% 持平');
 
   // Out-of-range values are rejected and previous values kept
   const badDeps = {

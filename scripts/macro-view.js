@@ -17,6 +17,20 @@
       .replace(/'/g, '&#39;');
   }
 
+  // Every KPI carries its own observation date. A monthly series such as LPR can
+  // legitimately sit on "较7月20日持平" for a whole month while the value itself
+  // is already the 8月20日 publication, and without the badge the card reads as
+  // if the board were still frozen in July.
+  function shortDate(iso) {
+    var match = /^(\d{4})-(\d{2})-(\d{2})$/.exec(iso || '');
+    if (!match) return '';
+    var month = String(Number(match[2]));
+    var day = String(Number(match[3]));
+    return match[1] === String(new Date().getFullYear())
+      ? month + '/' + day
+      : match[1].substring(2) + '/' + month + '/' + day;
+  }
+
   function render(boardId, macro) {
     var board = document.getElementById(boardId);
     if (!board) return;
@@ -28,18 +42,17 @@
       return;
     }
 
-    var latestAsOf = indicators.reduce(function (max, ind) {
-      return ind && ind.asOf && ind.asOf > max ? ind.asOf : max;
-    }, '');
-
     var refreshedAt = '';
     if (macro.updatedAt) {
       var parsed = new Date(macro.updatedAt);
       refreshedAt = Number.isNaN(parsed.getTime()) ? '' : parsed.toLocaleDateString('zh-CN');
     }
 
+    // The header no longer reports a single "数据截至" date. With a monthly series
+    // in the mix that date is simply the newest daily indicator's, and pairing it
+    // with an 8/20 LPR badge reads as a contradiction. Each card states its own
+    // observation date, so the header only has to say when the board refreshed.
     var metaText = [];
-    if (latestAsOf) metaText.push('数据截至 ' + latestAsOf);
     if (refreshedAt) metaText.push('刷新于 ' + refreshedAt);
     var metaEl = board.querySelector('.macro-board-issue');
     if (metaEl) metaEl.textContent = metaText.join(' · ');
@@ -47,8 +60,15 @@
     var html = '';
     indicators.forEach(function (ind) {
       var dirClass = ind.direction === 'up' ? 'macro-dir-up' : (ind.direction === 'down' ? 'macro-dir-down' : '');
+      var observed = shortDate(ind.asOf);
       html += '<div class="macro-kpi">';
-      html += '  <div class="macro-kpi-name">' + escapeHtml(ind.name || '') + '</div>';
+      html += '  <div class="macro-kpi-name">';
+      html += '    <span class="macro-kpi-label">' + escapeHtml(ind.name || '') + '</span>';
+      if (observed) {
+        html += '    <span class="macro-kpi-asof" title="观测日期 ' + escapeHtml(ind.asOf || '') + '">'
+          + escapeHtml(observed) + '</span>';
+      }
+      html += '  </div>';
       html += '  <div class="macro-kpi-val">' + escapeHtml(ind.value || '') + '</div>';
       html += '  <div class="macro-kpi-note ' + dirClass + '">' + escapeHtml(ind.note || '') + '</div>';
       html += '</div>';

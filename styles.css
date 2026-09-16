@@ -1034,12 +1034,34 @@ a {
 }
 
 .macro-kpi-name {
+  display: flex;
+  align-items: center;
+  gap: 6px;
   font-size: 11px;
   font-weight: 500;
   color: var(--text-muted);
   white-space: nowrap;
+}
+
+.macro-kpi-label {
+  min-width: 0;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+/* Observation date of the value shown above; keeps a monthly series such as LPR
+   from reading as stale just because its comparison note names the prior month. */
+.macro-kpi-asof {
+  flex: none;
+  margin-left: auto;
+  padding: 0 4px;
+  border-radius: 3px;
+  background: var(--bg-badge);
+  color: var(--text-secondary);
+  font-size: 9.5px;
+  font-weight: 600;
+  line-height: 14px;
+  letter-spacing: 0.02em;
 }
 
 .macro-kpi-val {

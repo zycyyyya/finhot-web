@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-09-18T13:07:08.176Z",
+  "updatedAt": "2026-09-18T16:37:37.969Z",
   "note": "auto 指标由 scripts/macro.js 每日自动刷新；manual 指标为人工核实值，核实日期见 asOf。",
   "indicators": [
     {
@@ -81,22 +81,22 @@
     {
       "key": "usdcny",
       "name": "美元兑人民币",
-      "value": "6.7075",
-      "numericValue": 6.7075,
-      "note": "较9月16日 6.7071 持平",
-      "direction": "flat",
-      "asOf": "2026-09-17",
+      "value": "6.6976",
+      "numericValue": 6.6976,
+      "note": "较9月17日 6.7075 下降",
+      "direction": "down",
+      "asOf": "2026-09-18",
       "source": "Frankfurter/ECB",
       "mode": "auto",
-      "prevValue": "6.7071",
-      "prevNumericValue": 6.7071,
-      "prevAsOf": "2026-09-16"
+      "prevValue": "6.7075",
+      "prevNumericValue": 6.7075,
+      "prevAsOf": "2026-09-17"
     },
     {
       "key": "gold",
       "name": "现货黄金",
-      "value": "$4,374",
-      "numericValue": 4374,
+      "value": "$4,380",
+      "numericValue": 4380.100098,
       "note": "较9月17日 $4,367 上升",
       "direction": "up",
       "asOf": "2026-09-18",

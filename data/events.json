@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-09-17T17:08:49.663Z",
+  "generatedAt": "2026-09-18T04:51:24.717Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -8,12 +8,9 @@
       "eventId": "event_32967e3730b8",
       "title": "美股大型科技股盘前普涨，英伟达涨超2%",
       "firstSeenAt": "2026-08-03T15:23:32.854Z",
-      "lastSeenAt": "2026-09-17T17:08:49.663Z",
+      "lastSeenAt": "2026-09-18T04:51:24.717Z",
       "primaryItemId": "news_1cb84ecb465d",
       "evidenceItemIds": [
-        "news_b886bc768085",
-        "news_230bf8cff437",
-        "news_5ce2dbb0fd9b",
         "news_78eb330bde54",
         "news_a64a51b6307d",
         "news_ff3780319764",
@@ -60,18 +57,20 @@
         "news_9fa4d2e3b0f0",
         "news_df93bbe4db74",
         "news_bb71550ff9bf",
-        "news_1cb84ecb465d"
+        "news_1cb84ecb465d",
+        "news_8753aa769c8e",
+        "news_14c7b527d369",
+        "news_832e20de7c6d"
       ],
       "status": "developing"
     },
     {
       "eventId": "event_529af3584dc2",
-      "title": "恒指收跌0.44%，恒生科技指数跌0.34%",
+      "title": "恒指午间休盘涨0.67%，恒生科技指数涨1.74%",
       "firstSeenAt": "2026-07-31T02:43:30.494Z",
-      "lastSeenAt": "2026-09-17T17:08:49.663Z",
-      "primaryItemId": "news_1dd387975bd3",
+      "lastSeenAt": "2026-09-18T04:51:24.717Z",
+      "primaryItemId": "news_11c167294afa",
       "evidenceItemIds": [
-        "news_8f873e6a8d3c",
         "news_a93f9e4799d9",
         "news_50f4ea76994f",
         "news_e247eea117e1",
@@ -120,7 +119,8 @@
         "news_5952a7dfa04d",
         "news_11034186b7e8",
         "news_e8c3607ce3a2",
-        "news_1dd387975bd3"
+        "news_1dd387975bd3",
+        "news_11c167294afa"
       ],
       "status": "developing"
     },
@@ -128,7 +128,7 @@
       "eventId": "event_8f5c2a38017c",
       "title": "极智嘉-W(02590)9月17日斥资165.4万港元回购20万股",
       "firstSeenAt": "2026-09-13T13:23:33.029Z",
-      "lastSeenAt": "2026-09-17T17:08:49.663Z",
+      "lastSeenAt": "2026-09-18T04:51:24.717Z",
       "primaryItemId": "news_afceb53083a6",
       "evidenceItemIds": [
         "news_6d345d181887",
@@ -146,7 +146,7 @@
       "eventId": "event_97c9137a5db8",
       "title": "美联储加息落地，全球紧缩交易重启",
       "firstSeenAt": "2026-09-17T05:00:06.708Z",
-      "lastSeenAt": "2026-09-17T17:08:49.663Z",
+      "lastSeenAt": "2026-09-18T04:51:24.717Z",
       "primaryItemId": "news_aaee63cc7b4f",
       "evidenceItemIds": [
         "news_6a347c7a2b36",
@@ -156,7 +156,8 @@
         "news_af5e1c1e1232",
         "news_3ebbc9b9a2ed",
         "news_32a4e3b93bb6",
-        "news_aaee63cc7b4f"
+        "news_aaee63cc7b4f",
+        "news_fb1bf481a4ec"
       ],
       "status": "developing"
     },
@@ -164,7 +165,7 @@
       "eventId": "event_0737eac2cabb",
       "title": "连板股追踪丨A股今日共50只个股涨停 这只PCB概念股5连板",
       "firstSeenAt": "2026-07-31T02:43:30.494Z",
-      "lastSeenAt": "2026-09-17T17:08:49.663Z",
+      "lastSeenAt": "2026-09-18T04:51:24.717Z",
       "primaryItemId": "news_37d8c1a3063f",
       "evidenceItemIds": [
         "news_cf2b97a75d61",
@@ -211,7 +212,7 @@
       "eventId": "event_ab6cbe1ff049",
       "title": "日央行周五若“鸽派加息”：日元恐失守158、再试160",
       "firstSeenAt": "2026-09-16T05:02:07.217Z",
-      "lastSeenAt": "2026-09-17T17:08:49.663Z",
+      "lastSeenAt": "2026-09-18T04:51:24.717Z",
       "primaryItemId": "news_a6ffa7e9f18a",
       "evidenceItemIds": [
         "news_a5d88ff1fb24",
@@ -225,7 +226,7 @@
       "eventId": "event_fdf3a28f87ab",
       "title": "港股收盘 | 三大指数集体收跌 美联储偏鹰压制黄金股表现",
       "firstSeenAt": "2026-09-16T09:22:52.132Z",
-      "lastSeenAt": "2026-09-17T17:08:49.663Z",
+      "lastSeenAt": "2026-09-18T04:51:24.717Z",
       "primaryItemId": "news_cd897ef5d580",
       "evidenceItemIds": [
         "news_b9d3164eeb68",
@@ -235,22 +236,10 @@
       "status": "developing"
     },
     {
-      "eventId": "event_4e95732497de",
-      "title": "美国K型分化下的加息逻辑：对上行宽松、对下行紧缩",
-      "firstSeenAt": "2026-09-17T09:31:24.843Z",
-      "lastSeenAt": "2026-09-17T17:08:49.663Z",
-      "primaryItemId": "news_cd02a059549b",
-      "evidenceItemIds": [
-        "news_cd02a059549b",
-        "news_8a795fcb37d2"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_49c37aeefb6b",
       "title": "债市收盘| DR007升至1.45%上方，债市窄幅波动",
       "firstSeenAt": "2026-09-17T09:31:24.843Z",
-      "lastSeenAt": "2026-09-17T17:08:49.663Z",
+      "lastSeenAt": "2026-09-18T04:51:24.717Z",
       "primaryItemId": "news_7044140a7924",
       "evidenceItemIds": [
         "news_7044140a7924",
@@ -262,7 +251,7 @@
       "eventId": "event_be788d0c0f97",
       "title": "中东战火与厄尔尼诺夹击，亚洲粮食供应告急",
       "firstSeenAt": "2026-09-17T09:31:24.843Z",
-      "lastSeenAt": "2026-09-17T17:08:49.663Z",
+      "lastSeenAt": "2026-09-18T04:51:24.717Z",
       "primaryItemId": "news_8e7f776b6b6a",
       "evidenceItemIds": [
         "news_8e7f776b6b6a",
@@ -271,22 +260,10 @@
       "status": "developing"
     },
     {
-      "eventId": "event_cd95370ca166",
-      "title": "港股评级汇总：交银国际维持劲方医药买入评级",
-      "firstSeenAt": "2026-09-17T09:31:24.843Z",
-      "lastSeenAt": "2026-09-17T17:08:49.663Z",
-      "primaryItemId": "news_9d86d5423973",
-      "evidenceItemIds": [
-        "news_9d86d5423973",
-        "news_a85408ace4d9"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_202dd878fa19",
       "title": "晚间公告｜9月17日这些公告有看头",
       "firstSeenAt": "2026-07-31T14:43:32.623Z",
-      "lastSeenAt": "2026-09-17T17:08:49.663Z",
+      "lastSeenAt": "2026-09-18T04:51:24.717Z",
       "primaryItemId": "news_74ff66ffcadd",
       "evidenceItemIds": [
         "news_eaf56a2f5345",
@@ -338,7 +315,7 @@
       "eventId": "event_73f4b1fb41a8",
       "title": "龙虎榜丨机构今日卖出这18股，买入瑞丰高材2.12亿元",
       "firstSeenAt": "2026-08-03T11:50:30.990Z",
-      "lastSeenAt": "2026-09-17T17:08:49.663Z",
+      "lastSeenAt": "2026-09-18T04:51:24.717Z",
       "primaryItemId": "news_45bff668174f",
       "evidenceItemIds": [
         "news_de7d0ba05e16",
@@ -380,7 +357,7 @@
       "eventId": "event_32439e27a278",
       "title": "南向资金追踪｜净买入超33亿港元 连续加仓智谱及腾讯流出阿里",
       "firstSeenAt": "2026-08-26T13:29:08.098Z",
-      "lastSeenAt": "2026-09-17T17:08:49.663Z",
+      "lastSeenAt": "2026-09-18T04:51:24.717Z",
       "primaryItemId": "news_7ac5cf690d85",
       "evidenceItemIds": [
         "news_3a5e6150516a",
@@ -398,25 +375,27 @@
     },
     {
       "eventId": "event_58dbf69c66d9",
-      "title": "英国央行按兵不动但释放鹰派信号：若能源冲击持续，或需进一步加息，通胀料明年初突破4%",
+      "title": "主要央行纷纷加息，英国央行为何按兵不动？",
       "firstSeenAt": "2026-09-17T13:42:10.265Z",
-      "lastSeenAt": "2026-09-17T17:08:49.663Z",
-      "primaryItemId": "news_6eea5835cc84",
+      "lastSeenAt": "2026-09-18T04:51:24.717Z",
+      "primaryItemId": "news_c8a35c3b7512",
       "evidenceItemIds": [
         "news_6eea5835cc84",
-        "news_df0ea0cb489e"
+        "news_df0ea0cb489e",
+        "news_c8a35c3b7512"
       ],
       "status": "developing"
     },
     {
       "eventId": "event_6b692e62292e",
-      "title": "金融产品网络营销新规实施倒计时 “支付变贷款”整改完了吗？",
+      "title": "财经早知道｜金融产品网络营销新规倒计时，“大V”带货全面叫停",
       "firstSeenAt": "2026-09-17T13:42:10.265Z",
-      "lastSeenAt": "2026-09-17T17:08:49.663Z",
-      "primaryItemId": "news_19249517df7a",
+      "lastSeenAt": "2026-09-18T04:51:24.717Z",
+      "primaryItemId": "news_14c6910ae9de",
       "evidenceItemIds": [
         "news_19249517df7a",
-        "news_774547d307eb"
+        "news_774547d307eb",
+        "news_14c6910ae9de"
       ],
       "status": "developing"
     },
@@ -424,7 +403,7 @@
       "eventId": "event_ee02f1040416",
       "title": "欧元区8月通胀率同比上升3.2%——欧盟统计局",
       "firstSeenAt": "2026-09-17T13:42:10.265Z",
-      "lastSeenAt": "2026-09-17T17:08:49.663Z",
+      "lastSeenAt": "2026-09-18T04:51:24.717Z",
       "primaryItemId": "news_3baa350a6774",
       "evidenceItemIds": [
         "news_3baa350a6774",
@@ -436,7 +415,7 @@
       "eventId": "event_1e700de930bf",
       "title": "英国股市上涨；截至收盘Investing.com 英国 100上涨1.25%",
       "firstSeenAt": "2026-09-11T16:43:57.247Z",
-      "lastSeenAt": "2026-09-17T17:08:49.663Z",
+      "lastSeenAt": "2026-09-18T04:51:24.717Z",
       "primaryItemId": "news_aa81100f1e81",
       "evidenceItemIds": [
         "news_e9ffd13dd72a",
@@ -466,7 +445,7 @@
       "eventId": "event_d43e7f90a783",
       "title": "西班牙股市上涨；截至收盘西班牙IBEX35指数上涨1.02%",
       "firstSeenAt": "2026-09-09T16:51:08.967Z",
-      "lastSeenAt": "2026-09-17T17:08:49.663Z",
+      "lastSeenAt": "2026-09-18T04:51:24.717Z",
       "primaryItemId": "news_06e8c6b7413d",
       "evidenceItemIds": [
         "news_5c711d3fc9c4",
@@ -493,7 +472,7 @@
       "eventId": "event_eed40bc0e74b",
       "title": "CoreWeave跌超5%！3500万股市价增发+30亿美元可转债发行，AI军备竞赛持续烧钱",
       "firstSeenAt": "2026-09-17T17:08:49.663Z",
-      "lastSeenAt": "2026-09-17T17:08:49.663Z",
+      "lastSeenAt": "2026-09-18T04:51:24.717Z",
       "primaryItemId": "news_65c7bb22af20",
       "evidenceItemIds": [
         "news_65c7bb22af20",
@@ -505,11 +484,143 @@
       "eventId": "event_83891c34b0c8",
       "title": "上市近30年，瓦轴B主动“私有化”退市获受理",
       "firstSeenAt": "2026-09-17T17:08:49.663Z",
-      "lastSeenAt": "2026-09-17T17:08:49.663Z",
+      "lastSeenAt": "2026-09-18T04:51:24.717Z",
       "primaryItemId": "news_795c5bd52a4d",
       "evidenceItemIds": [
         "news_795c5bd52a4d",
         "news_ba118a61c8dd"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_15f9b18f6a1f",
+      "title": "Palantir CEO猛批Anthropic CEO：你这是犯罪！",
+      "firstSeenAt": "2026-09-14T05:06:16.547Z",
+      "lastSeenAt": "2026-09-18T04:51:24.717Z",
+      "primaryItemId": "news_85a9257dec5a",
+      "evidenceItemIds": [
+        "news_152bf13aa971",
+        "news_513dc7bdefde",
+        "news_72deedfdce08",
+        "news_f97cf3bedbdf",
+        "news_f7403e00399f",
+        "news_85a9257dec5a"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_01118fb5b195",
+      "title": "财联社汽车早报【9月18日】",
+      "firstSeenAt": "2026-08-01T03:54:06.184Z",
+      "lastSeenAt": "2026-09-18T04:51:24.717Z",
+      "primaryItemId": "news_70d9c08ce100",
+      "evidenceItemIds": [
+        "news_11bf098d57d9",
+        "news_352d957a2426",
+        "news_7a9c03d3a9e0",
+        "news_141a587e8be2",
+        "news_e93b6f66d076",
+        "news_ac42446fc261",
+        "news_e546a87cd0a7",
+        "news_6734c9c4e9b5",
+        "news_8d456e96708b",
+        "news_13fb304edc7b",
+        "news_76d4d9b04b45",
+        "news_39c037720137",
+        "news_d130ba79d897",
+        "news_7630df780cff",
+        "news_f4d0c83073b7",
+        "news_6e461baa1396",
+        "news_0d7b087f2c35",
+        "news_68f4a0ad1c6a",
+        "news_21b5f7e67cf5",
+        "news_70d9c08ce100"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_cb0693c937f5",
+      "title": "【市场动态】英国央行维持利率不变 警告或需加息并调整长期国债出售安排",
+      "firstSeenAt": "2026-09-18T04:51:24.717Z",
+      "lastSeenAt": "2026-09-18T04:51:24.717Z",
+      "primaryItemId": "news_9865bb17933b",
+      "evidenceItemIds": [
+        "news_9865bb17933b",
+        "news_1993e719bb9d"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_356265a1856c",
+      "title": "T早报｜苹果、三星、谷歌被美国国际贸易委员会调查；脉脉称今年前7月新发AI岗位数量增长790%；Kimi发布金融行业解决",
+      "firstSeenAt": "2026-09-18T04:51:24.717Z",
+      "lastSeenAt": "2026-09-18T04:51:24.717Z",
+      "primaryItemId": "news_e32e3df4a80b",
+      "evidenceItemIds": [
+        "news_e32e3df4a80b",
+        "news_4851e9643b87",
+        "news_d694318cdf89"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_b8c70e8e3467",
+      "title": "对冲基金大佬Daivd Einhorn：未来 3–5 年“黄金将大幅跑赢纳斯达克”",
+      "firstSeenAt": "2026-09-18T04:51:24.717Z",
+      "lastSeenAt": "2026-09-18T04:51:24.717Z",
+      "primaryItemId": "news_7059b1dcd6af",
+      "evidenceItemIds": [
+        "news_7059b1dcd6af",
+        "news_6068f6c57a34"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_0abb26ae3ca1",
+      "title": "我国房地产进入存量时代，现房销售是大势所趋……住建部发布会要点速览",
+      "firstSeenAt": "2026-09-18T04:51:24.717Z",
+      "lastSeenAt": "2026-09-18T04:51:24.717Z",
+      "primaryItemId": "news_d184e7c678ba",
+      "evidenceItemIds": [
+        "news_d184e7c678ba",
+        "news_96d032f7e6eb"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_2cca6739b85f",
+      "title": "日本8月CPI持平，核心通胀意外回落，日本央行预计加息25基点",
+      "firstSeenAt": "2026-09-18T04:51:24.717Z",
+      "lastSeenAt": "2026-09-18T04:51:24.717Z",
+      "primaryItemId": "news_e4acff1a5f9e",
+      "evidenceItemIds": [
+        "news_e4acff1a5f9e",
+        "news_3cbe24da3a06",
+        "news_51ae7cad37b9"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_4e95732497de",
+      "title": "美国K型分化下的加息逻辑：对上行宽松、对下行紧缩",
+      "firstSeenAt": "2026-09-17T09:31:24.843Z",
+      "lastSeenAt": "2026-09-17T17:08:49.663Z",
+      "primaryItemId": "news_cd02a059549b",
+      "evidenceItemIds": [
+        "news_cd02a059549b",
+        "news_8a795fcb37d2"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_cd95370ca166",
+      "title": "港股评级汇总：交银国际维持劲方医药买入评级",
+      "firstSeenAt": "2026-09-17T09:31:24.843Z",
+      "lastSeenAt": "2026-09-17T17:08:49.663Z",
+      "primaryItemId": "news_9d86d5423973",
+      "evidenceItemIds": [
+        "news_9d86d5423973",
+        "news_a85408ace4d9"
       ],
       "status": "developing"
     },
@@ -978,21 +1089,6 @@
       "status": "developing"
     },
     {
-      "eventId": "event_15f9b18f6a1f",
-      "title": "特朗普抨击Anthropic CEO：AI发展不能踩刹车，美国有“高智商总统”就足够",
-      "firstSeenAt": "2026-09-14T05:06:16.547Z",
-      "lastSeenAt": "2026-09-15T13:43:48.999Z",
-      "primaryItemId": "news_f7403e00399f",
-      "evidenceItemIds": [
-        "news_152bf13aa971",
-        "news_513dc7bdefde",
-        "news_72deedfdce08",
-        "news_f97cf3bedbdf",
-        "news_f7403e00399f"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_00c91a8ee53d",
       "title": "苹果发布Siri AI",
       "firstSeenAt": "2026-09-14T18:13:09.233Z",
@@ -1030,35 +1126,6 @@
       "evidenceItemIds": [
         "news_8223d09e0ac9",
         "news_5a4a4f0cb79f"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_01118fb5b195",
-      "title": "财联社汽车早报【9月15日】",
-      "firstSeenAt": "2026-08-01T03:54:06.184Z",
-      "lastSeenAt": "2026-09-15T13:43:48.999Z",
-      "primaryItemId": "news_68f4a0ad1c6a",
-      "evidenceItemIds": [
-        "news_11bf098d57d9",
-        "news_352d957a2426",
-        "news_7a9c03d3a9e0",
-        "news_141a587e8be2",
-        "news_e93b6f66d076",
-        "news_ac42446fc261",
-        "news_e546a87cd0a7",
-        "news_6734c9c4e9b5",
-        "news_8d456e96708b",
-        "news_13fb304edc7b",
-        "news_76d4d9b04b45",
-        "news_39c037720137",
-        "news_d130ba79d897",
-        "news_7630df780cff",
-        "news_f4d0c83073b7",
-        "news_6e461baa1396",
-        "news_0d7b087f2c35",
-        "news_68f4a0ad1c6a",
-        "news_21b5f7e67cf5"
       ],
       "status": "developing"
     },

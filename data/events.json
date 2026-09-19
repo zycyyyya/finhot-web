@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-09-19T04:42:25.674Z",
+  "generatedAt": "2026-09-19T08:51:33.181Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -8,7 +8,7 @@
       "eventId": "event_32967e3730b8",
       "title": "热门中概股美股盘前多数上涨，阿里巴巴涨超2%",
       "firstSeenAt": "2026-08-03T15:23:32.854Z",
-      "lastSeenAt": "2026-09-19T04:42:25.674Z",
+      "lastSeenAt": "2026-09-19T08:51:33.181Z",
       "primaryItemId": "news_21694382272f",
       "evidenceItemIds": [
         "news_ff3780319764",
@@ -68,7 +68,7 @@
       "eventId": "event_8f5c2a38017c",
       "title": "康圣环球(09960)9月18日斥资2.5万港元回购2.7万股",
       "firstSeenAt": "2026-09-13T13:23:33.029Z",
-      "lastSeenAt": "2026-09-19T04:42:25.674Z",
+      "lastSeenAt": "2026-09-19T08:51:33.181Z",
       "primaryItemId": "news_f709dbf41263",
       "evidenceItemIds": [
         "news_6d345d181887",
@@ -85,30 +85,10 @@
       "status": "developing"
     },
     {
-      "eventId": "event_97c9137a5db8",
-      "title": "美联储加息落地 人民币兑美元汇率不贬反升破6.7",
-      "firstSeenAt": "2026-09-17T05:00:06.708Z",
-      "lastSeenAt": "2026-09-19T04:42:25.674Z",
-      "primaryItemId": "news_f77360f918de",
-      "evidenceItemIds": [
-        "news_6a347c7a2b36",
-        "news_ce909734c127",
-        "news_b9cf37c25fb1",
-        "news_95733e705deb",
-        "news_af5e1c1e1232",
-        "news_3ebbc9b9a2ed",
-        "news_32a4e3b93bb6",
-        "news_aaee63cc7b4f",
-        "news_fb1bf481a4ec",
-        "news_f77360f918de"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_0737eac2cabb",
       "title": "连板股追踪丨A股今日共80只个股涨停 这只MLCC概念股4连板",
       "firstSeenAt": "2026-07-31T02:43:30.494Z",
-      "lastSeenAt": "2026-09-19T04:42:25.674Z",
+      "lastSeenAt": "2026-09-19T08:51:33.181Z",
       "primaryItemId": "news_f6a3426fc36c",
       "evidenceItemIds": [
         "news_cf2b97a75d61",
@@ -156,7 +136,7 @@
       "eventId": "event_ee02f1040416",
       "title": "欧元区8月通胀率同比上升3.2%——欧盟统计局",
       "firstSeenAt": "2026-09-17T13:42:10.265Z",
-      "lastSeenAt": "2026-09-19T04:42:25.674Z",
+      "lastSeenAt": "2026-09-19T08:51:33.181Z",
       "primaryItemId": "news_3baa350a6774",
       "evidenceItemIds": [
         "news_3baa350a6774",
@@ -168,7 +148,7 @@
       "eventId": "event_0abb26ae3ca1",
       "title": "房地产进入存量时代，住建部：现房销售是大势所趋",
       "firstSeenAt": "2026-09-18T04:51:24.717Z",
-      "lastSeenAt": "2026-09-19T04:42:25.674Z",
+      "lastSeenAt": "2026-09-19T08:51:33.181Z",
       "primaryItemId": "news_8d0d4bfda888",
       "evidenceItemIds": [
         "news_d184e7c678ba",
@@ -183,7 +163,7 @@
       "eventId": "event_2cca6739b85f",
       "title": "日本8月CPI持平，核心通胀意外回落，日本央行预计加息25基点",
       "firstSeenAt": "2026-09-18T04:51:24.717Z",
-      "lastSeenAt": "2026-09-19T04:42:25.674Z",
+      "lastSeenAt": "2026-09-19T08:51:33.181Z",
       "primaryItemId": "news_e4acff1a5f9e",
       "evidenceItemIds": [
         "news_e4acff1a5f9e",
@@ -193,49 +173,10 @@
       "status": "developing"
     },
     {
-      "eventId": "event_cd95370ca166",
-      "title": "港股评级汇总：国信证券维持地平线机器人优于大市评级",
-      "firstSeenAt": "2026-09-17T09:31:24.843Z",
-      "lastSeenAt": "2026-09-19T04:42:25.674Z",
-      "primaryItemId": "news_aae4a7f07091",
-      "evidenceItemIds": [
-        "news_9d86d5423973",
-        "news_a85408ace4d9",
-        "news_aae4a7f07091"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_920515740e32",
-      "title": "豪森智能：股东拟减持不超1%公司股份",
-      "firstSeenAt": "2026-09-13T13:23:33.029Z",
-      "lastSeenAt": "2026-09-19T04:42:25.674Z",
-      "primaryItemId": "news_4188b0d4dab8",
-      "evidenceItemIds": [
-        "news_e6e2bbba4d0c",
-        "news_f1ca1ff9c848",
-        "news_63b777225d02",
-        "news_4188b0d4dab8"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_845ad19032f0",
-      "title": "在岸、离岸人民币双双升破6.7，原因找到了！",
-      "firstSeenAt": "2026-09-18T09:01:13.367Z",
-      "lastSeenAt": "2026-09-19T04:42:25.674Z",
-      "primaryItemId": "news_c2ad05c9e776",
-      "evidenceItemIds": [
-        "news_c2ad05c9e776",
-        "news_4aa1abbaeced"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_e76d4bfd16a5",
       "title": "特斯拉被曝启动新一轮机器人业务量产审厂，多家供应链企业回应",
       "firstSeenAt": "2026-09-18T09:01:13.367Z",
-      "lastSeenAt": "2026-09-19T04:42:25.674Z",
+      "lastSeenAt": "2026-09-19T08:51:33.181Z",
       "primaryItemId": "news_ba9158cf9c46",
       "evidenceItemIds": [
         "news_ba9158cf9c46",
@@ -244,34 +185,10 @@
       "status": "developing"
     },
     {
-      "eventId": "event_09ee499bb75a",
-      "title": "中创新航旗下福建公司增资至76.5亿，增幅约12%",
-      "firstSeenAt": "2026-09-18T09:01:13.367Z",
-      "lastSeenAt": "2026-09-19T04:42:25.674Z",
-      "primaryItemId": "news_d518581334c0",
-      "evidenceItemIds": [
-        "news_d518581334c0",
-        "news_014ab236c202"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_abd2a5e125fd",
-      "title": "美股光通信概念股盘前集体上涨，康宁、Lumentum涨近3%",
-      "firstSeenAt": "2026-09-18T09:01:13.367Z",
-      "lastSeenAt": "2026-09-19T04:42:25.674Z",
-      "primaryItemId": "news_15731b89655c",
-      "evidenceItemIds": [
-        "news_15731b89655c",
-        "news_c9e01117b1be"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_202dd878fa19",
       "title": "晚间公告｜9月18日这些公告有看头",
       "firstSeenAt": "2026-07-31T14:43:32.623Z",
-      "lastSeenAt": "2026-09-19T04:42:25.674Z",
+      "lastSeenAt": "2026-09-19T08:51:33.181Z",
       "primaryItemId": "news_f0399d95169a",
       "evidenceItemIds": [
         "news_eaf56a2f5345",
@@ -324,7 +241,7 @@
       "eventId": "event_73f4b1fb41a8",
       "title": "龙虎榜丨机构今日抛售这18股，买入华天科技1.25亿元",
       "firstSeenAt": "2026-08-03T11:50:30.990Z",
-      "lastSeenAt": "2026-09-19T04:42:25.674Z",
+      "lastSeenAt": "2026-09-19T08:51:33.181Z",
       "primaryItemId": "news_e18320b67a97",
       "evidenceItemIds": [
         "news_de7d0ba05e16",
@@ -364,45 +281,10 @@
       "status": "developing"
     },
     {
-      "eventId": "event_32439e27a278",
-      "title": "南向资金追踪｜近两周连续逆势加仓超320亿港元 短线买入智谱和百度减持阿里",
-      "firstSeenAt": "2026-08-26T13:29:08.098Z",
-      "lastSeenAt": "2026-09-19T04:42:25.674Z",
-      "primaryItemId": "news_488a9b03aacf",
-      "evidenceItemIds": [
-        "news_3a5e6150516a",
-        "news_4903019684f6",
-        "news_fc0452e06c12",
-        "news_a966118157c8",
-        "news_50ba4cfc1c5e",
-        "news_d899ede0a075",
-        "news_141760932a30",
-        "news_6bddf7fccee4",
-        "news_42db46b16d42",
-        "news_7ac5cf690d85",
-        "news_488a9b03aacf"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_0e6dcfe993b3",
-      "title": "久量股份：拟5000万元—1亿元回购公司股份",
-      "firstSeenAt": "2026-09-09T13:05:29.700Z",
-      "lastSeenAt": "2026-09-19T04:42:25.674Z",
-      "primaryItemId": "news_e486e29bece8",
-      "evidenceItemIds": [
-        "news_93457fca738d",
-        "news_21540634ad23",
-        "news_e486e29bece8",
-        "news_4b2c24ea647d"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_e19d9427b69d",
       "title": "艾华集团拟定增募资不超18.8亿元 用于高端电容产能扩建|速读公告",
       "firstSeenAt": "2026-09-06T08:43:45.420Z",
-      "lastSeenAt": "2026-09-19T04:42:25.674Z",
+      "lastSeenAt": "2026-09-19T08:51:33.181Z",
       "primaryItemId": "news_36d1c6ccb6d0",
       "evidenceItemIds": [
         "news_8347af5bd586",
@@ -418,7 +300,7 @@
       "eventId": "event_e30000f5742b",
       "title": "突发！这家公司涉嫌信息披露违法违规被证监会立案|盘后公告集锦",
       "firstSeenAt": "2026-08-04T14:44:57.856Z",
-      "lastSeenAt": "2026-09-19T04:42:25.674Z",
+      "lastSeenAt": "2026-09-19T08:51:33.181Z",
       "primaryItemId": "news_69d87c094032",
       "evidenceItemIds": [
         "news_3ef2862d3dab",
@@ -431,23 +313,11 @@
       "status": "developing"
     },
     {
-      "eventId": "event_3c00f61e5c39",
-      "title": "李强：深入实施积极应对人口老龄化国家战略，推动老龄事业全面发展进步",
-      "firstSeenAt": "2026-09-18T13:07:08.176Z",
-      "lastSeenAt": "2026-09-19T04:42:25.674Z",
-      "primaryItemId": "news_e4ef452fbb12",
-      "evidenceItemIds": [
-        "news_e4ef452fbb12",
-        "news_e0bd1e07ee20"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_e0cb007c9103",
-      "title": "财政部：前8月全国国有土地使用权出让收入同比下降28.6%，证券交易印花税大增82%",
+      "title": "详解前8月全国财政数据",
       "firstSeenAt": "2026-09-18T13:07:08.176Z",
-      "lastSeenAt": "2026-09-19T04:42:25.674Z",
-      "primaryItemId": "news_cd711cf37f52",
+      "lastSeenAt": "2026-09-19T08:51:33.181Z",
+      "primaryItemId": "news_86caf167ade7",
       "evidenceItemIds": [
         "news_cd711cf37f52",
         "news_86caf167ade7"
@@ -458,7 +328,7 @@
       "eventId": "event_7af0016060e9",
       "title": "上交所修订《董秘一本通》，促进和保障董秘履职",
       "firstSeenAt": "2026-09-18T13:07:08.176Z",
-      "lastSeenAt": "2026-09-19T04:42:25.674Z",
+      "lastSeenAt": "2026-09-19T08:51:33.181Z",
       "primaryItemId": "news_da6530551271",
       "evidenceItemIds": [
         "news_da6530551271",
@@ -468,22 +338,10 @@
       "status": "developing"
     },
     {
-      "eventId": "event_2681bf967066",
-      "title": "海外研选日报0918 | 富国银行：美联储年内料再加息一次",
-      "firstSeenAt": "2026-09-18T13:07:08.176Z",
-      "lastSeenAt": "2026-09-19T04:42:25.674Z",
-      "primaryItemId": "news_573c7994caef",
-      "evidenceItemIds": [
-        "news_573c7994caef",
-        "news_d24535de7dfa"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_1e700de930bf",
       "title": "英国股市收低；截至收盘Investing.com 英国 100下跌1.67%",
       "firstSeenAt": "2026-09-11T16:43:57.247Z",
-      "lastSeenAt": "2026-09-19T04:42:25.674Z",
+      "lastSeenAt": "2026-09-19T08:51:33.181Z",
       "primaryItemId": "news_338441c70e11",
       "evidenceItemIds": [
         "news_e9ffd13dd72a",
@@ -516,7 +374,7 @@
       "eventId": "event_d43e7f90a783",
       "title": "西班牙股市收低；截至收盘西班牙IBEX35指数下跌1.60%",
       "firstSeenAt": "2026-09-09T16:51:08.967Z",
-      "lastSeenAt": "2026-09-19T04:42:25.674Z",
+      "lastSeenAt": "2026-09-19T08:51:33.181Z",
       "primaryItemId": "news_d9d3ac7a82d4",
       "evidenceItemIds": [
         "news_5c711d3fc9c4",
@@ -545,7 +403,7 @@
       "eventId": "event_5a4a623ad925",
       "title": "市场监管总局召开打击劣质低价专项行动推进会",
       "firstSeenAt": "2026-09-18T16:37:37.969Z",
-      "lastSeenAt": "2026-09-19T04:42:25.674Z",
+      "lastSeenAt": "2026-09-19T08:51:33.181Z",
       "primaryItemId": "news_7bb0995365e5",
       "evidenceItemIds": [
         "news_7bb0995365e5",
@@ -554,22 +412,10 @@
       "status": "developing"
     },
     {
-      "eventId": "event_4b458d1945cb",
-      "title": "油价短线拉升，报道：沙特告知欧洲炼油商，下月他们将不会获得原油供应",
-      "firstSeenAt": "2026-09-18T16:37:37.969Z",
-      "lastSeenAt": "2026-09-19T04:42:25.674Z",
-      "primaryItemId": "news_582e0aa2f4e3",
-      "evidenceItemIds": [
-        "news_582e0aa2f4e3",
-        "news_96a641552afc"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_5093c8a83f39",
       "title": "上交所对沈鼓集团部分投资者采取暂停账户等自律监管措施",
       "firstSeenAt": "2026-09-18T16:37:37.969Z",
-      "lastSeenAt": "2026-09-19T04:42:25.674Z",
+      "lastSeenAt": "2026-09-19T08:51:33.181Z",
       "primaryItemId": "news_2f465cba6429",
       "evidenceItemIds": [
         "news_2f465cba6429",
@@ -581,7 +427,7 @@
       "eventId": "event_58dbf69c66d9",
       "title": "晓数点丨超级央行周落幕！美日双双加息，英国按兵不动",
       "firstSeenAt": "2026-09-17T13:42:10.265Z",
-      "lastSeenAt": "2026-09-19T04:42:25.674Z",
+      "lastSeenAt": "2026-09-19T08:51:33.181Z",
       "primaryItemId": "news_4ca9339442ed",
       "evidenceItemIds": [
         "news_6eea5835cc84",
@@ -595,7 +441,7 @@
       "eventId": "event_01118fb5b195",
       "title": "财联社汽车早报【9月19日】",
       "firstSeenAt": "2026-08-01T03:54:06.184Z",
-      "lastSeenAt": "2026-09-19T04:42:25.674Z",
+      "lastSeenAt": "2026-09-19T08:51:33.181Z",
       "primaryItemId": "news_490473075035",
       "evidenceItemIds": [
         "news_11bf098d57d9",
@@ -626,7 +472,7 @@
       "eventId": "event_faac4b9f2bd8",
       "title": "报道：Anthropic推进IPO计划",
       "firstSeenAt": "2026-08-22T04:49:56.049Z",
-      "lastSeenAt": "2026-09-19T04:42:25.674Z",
+      "lastSeenAt": "2026-09-19T08:51:33.181Z",
       "primaryItemId": "news_9b58fd990e7b",
       "evidenceItemIds": [
         "news_1d7c95068d75",
@@ -637,7 +483,8 @@
         "news_a4ff125eecb9",
         "news_6cf46c0cdff7",
         "news_9b58fd990e7b",
-        "news_9758d263543d"
+        "news_9758d263543d",
+        "news_02a8a2943c3c"
       ],
       "status": "developing"
     },
@@ -645,7 +492,7 @@
       "eventId": "event_91fb625edcc6",
       "title": "华尔街见闻早餐FM-Radio | 2026年9月19日",
       "firstSeenAt": "2026-08-01T03:54:06.184Z",
-      "lastSeenAt": "2026-09-19T04:42:25.674Z",
+      "lastSeenAt": "2026-09-19T08:51:33.181Z",
       "primaryItemId": "news_59af9d503fe6",
       "evidenceItemIds": [
         "news_17edaa318161",
@@ -685,7 +532,7 @@
       "eventId": "event_2dd606727cdf",
       "title": "OpenAI算了笔惊人的账：预计到2030年底将累计烧钱近2800亿美元！",
       "firstSeenAt": "2026-09-09T13:05:29.700Z",
-      "lastSeenAt": "2026-09-19T04:42:25.674Z",
+      "lastSeenAt": "2026-09-19T08:51:33.181Z",
       "primaryItemId": "news_78cdeed6c8ad",
       "evidenceItemIds": [
         "news_c49bcb8008b4",
@@ -699,7 +546,7 @@
       "eventId": "event_404995794505",
       "title": "“史上最大IPO”时间表又生变 Anthropic年化收入预计将突破1000亿美元",
       "firstSeenAt": "2026-08-18T01:54:05.956Z",
-      "lastSeenAt": "2026-09-19T04:42:25.674Z",
+      "lastSeenAt": "2026-09-19T08:51:33.181Z",
       "primaryItemId": "news_824313d8e33f",
       "evidenceItemIds": [
         "news_325e19573575",
@@ -714,7 +561,7 @@
       "eventId": "event_106a341eeeb2",
       "title": "【周刊提前读】西藏超强泥石流拷问巨灾保险 资本市场创新工具值得期待",
       "firstSeenAt": "2026-09-19T04:42:25.674Z",
-      "lastSeenAt": "2026-09-19T04:42:25.674Z",
+      "lastSeenAt": "2026-09-19T08:51:33.181Z",
       "primaryItemId": "news_58e15fb911c3",
       "evidenceItemIds": [
         "news_58e15fb911c3",
@@ -726,7 +573,7 @@
       "eventId": "event_a2fa8e524fae",
       "title": "Anthropic、OpenAI、谷歌等AI巨头遭反垄断诉讼，被指协同放缓技术发展",
       "firstSeenAt": "2026-09-19T04:42:25.674Z",
-      "lastSeenAt": "2026-09-19T04:42:25.674Z",
+      "lastSeenAt": "2026-09-19T08:51:33.181Z",
       "primaryItemId": "news_8c844e7f7fb1",
       "evidenceItemIds": [
         "news_8c844e7f7fb1",
@@ -738,7 +585,7 @@
       "eventId": "event_b550c59a34d8",
       "title": "AI数据中心公司Nscale公开递交美股IPO申请，英伟达持股超5%",
       "firstSeenAt": "2026-09-19T04:42:25.674Z",
-      "lastSeenAt": "2026-09-19T04:42:25.674Z",
+      "lastSeenAt": "2026-09-19T08:51:33.181Z",
       "primaryItemId": "news_f4d283327a24",
       "evidenceItemIds": [
         "news_f4d283327a24",
@@ -750,7 +597,7 @@
       "eventId": "event_92d13b39ebac",
       "title": "日本又要出手？日央行被曝汇率摸底，日元收窄跌幅",
       "firstSeenAt": "2026-09-19T04:42:25.674Z",
-      "lastSeenAt": "2026-09-19T04:42:25.674Z",
+      "lastSeenAt": "2026-09-19T08:51:33.181Z",
       "primaryItemId": "news_6dfca4ac0a14",
       "evidenceItemIds": [
         "news_6dfca4ac0a14",
@@ -762,11 +609,177 @@
       "eventId": "event_e1a6bd5b6f42",
       "title": "北京：推动关键核心技术攻关，支持推理专用芯片、模型轻量化、边缘端部署等技术攻关",
       "firstSeenAt": "2026-09-19T04:42:25.674Z",
-      "lastSeenAt": "2026-09-19T04:42:25.674Z",
+      "lastSeenAt": "2026-09-19T08:51:33.181Z",
       "primaryItemId": "news_1123ddf97863",
       "evidenceItemIds": [
         "news_1123ddf97863",
         "news_c073f514b9f8"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_90da6701052b",
+      "title": "中国证监会拟对17起案件线索的“吹哨人”给予奖励",
+      "firstSeenAt": "2026-09-19T08:51:33.181Z",
+      "lastSeenAt": "2026-09-19T08:51:33.181Z",
+      "primaryItemId": "news_d7109967ad6e",
+      "evidenceItemIds": [
+        "news_d7109967ad6e",
+        "news_0d46d56c1100"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_97c9137a5db8",
+      "title": "美联储加息落地 人民币兑美元汇率不贬反升破6.7",
+      "firstSeenAt": "2026-09-17T05:00:06.708Z",
+      "lastSeenAt": "2026-09-19T04:42:25.674Z",
+      "primaryItemId": "news_f77360f918de",
+      "evidenceItemIds": [
+        "news_6a347c7a2b36",
+        "news_ce909734c127",
+        "news_b9cf37c25fb1",
+        "news_95733e705deb",
+        "news_af5e1c1e1232",
+        "news_3ebbc9b9a2ed",
+        "news_32a4e3b93bb6",
+        "news_aaee63cc7b4f",
+        "news_fb1bf481a4ec",
+        "news_f77360f918de"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_cd95370ca166",
+      "title": "港股评级汇总：国信证券维持地平线机器人优于大市评级",
+      "firstSeenAt": "2026-09-17T09:31:24.843Z",
+      "lastSeenAt": "2026-09-19T04:42:25.674Z",
+      "primaryItemId": "news_aae4a7f07091",
+      "evidenceItemIds": [
+        "news_9d86d5423973",
+        "news_a85408ace4d9",
+        "news_aae4a7f07091"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_920515740e32",
+      "title": "豪森智能：股东拟减持不超1%公司股份",
+      "firstSeenAt": "2026-09-13T13:23:33.029Z",
+      "lastSeenAt": "2026-09-19T04:42:25.674Z",
+      "primaryItemId": "news_4188b0d4dab8",
+      "evidenceItemIds": [
+        "news_e6e2bbba4d0c",
+        "news_f1ca1ff9c848",
+        "news_63b777225d02",
+        "news_4188b0d4dab8"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_845ad19032f0",
+      "title": "在岸、离岸人民币双双升破6.7，原因找到了！",
+      "firstSeenAt": "2026-09-18T09:01:13.367Z",
+      "lastSeenAt": "2026-09-19T04:42:25.674Z",
+      "primaryItemId": "news_c2ad05c9e776",
+      "evidenceItemIds": [
+        "news_c2ad05c9e776",
+        "news_4aa1abbaeced"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_09ee499bb75a",
+      "title": "中创新航旗下福建公司增资至76.5亿，增幅约12%",
+      "firstSeenAt": "2026-09-18T09:01:13.367Z",
+      "lastSeenAt": "2026-09-19T04:42:25.674Z",
+      "primaryItemId": "news_d518581334c0",
+      "evidenceItemIds": [
+        "news_d518581334c0",
+        "news_014ab236c202"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_abd2a5e125fd",
+      "title": "美股光通信概念股盘前集体上涨，康宁、Lumentum涨近3%",
+      "firstSeenAt": "2026-09-18T09:01:13.367Z",
+      "lastSeenAt": "2026-09-19T04:42:25.674Z",
+      "primaryItemId": "news_15731b89655c",
+      "evidenceItemIds": [
+        "news_15731b89655c",
+        "news_c9e01117b1be"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_32439e27a278",
+      "title": "南向资金追踪｜近两周连续逆势加仓超320亿港元 短线买入智谱和百度减持阿里",
+      "firstSeenAt": "2026-08-26T13:29:08.098Z",
+      "lastSeenAt": "2026-09-19T04:42:25.674Z",
+      "primaryItemId": "news_488a9b03aacf",
+      "evidenceItemIds": [
+        "news_3a5e6150516a",
+        "news_4903019684f6",
+        "news_fc0452e06c12",
+        "news_a966118157c8",
+        "news_50ba4cfc1c5e",
+        "news_d899ede0a075",
+        "news_141760932a30",
+        "news_6bddf7fccee4",
+        "news_42db46b16d42",
+        "news_7ac5cf690d85",
+        "news_488a9b03aacf"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_0e6dcfe993b3",
+      "title": "久量股份：拟5000万元—1亿元回购公司股份",
+      "firstSeenAt": "2026-09-09T13:05:29.700Z",
+      "lastSeenAt": "2026-09-19T04:42:25.674Z",
+      "primaryItemId": "news_e486e29bece8",
+      "evidenceItemIds": [
+        "news_93457fca738d",
+        "news_21540634ad23",
+        "news_e486e29bece8",
+        "news_4b2c24ea647d"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_3c00f61e5c39",
+      "title": "李强：深入实施积极应对人口老龄化国家战略，推动老龄事业全面发展进步",
+      "firstSeenAt": "2026-09-18T13:07:08.176Z",
+      "lastSeenAt": "2026-09-19T04:42:25.674Z",
+      "primaryItemId": "news_e4ef452fbb12",
+      "evidenceItemIds": [
+        "news_e4ef452fbb12",
+        "news_e0bd1e07ee20"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_2681bf967066",
+      "title": "海外研选日报0918 | 富国银行：美联储年内料再加息一次",
+      "firstSeenAt": "2026-09-18T13:07:08.176Z",
+      "lastSeenAt": "2026-09-19T04:42:25.674Z",
+      "primaryItemId": "news_573c7994caef",
+      "evidenceItemIds": [
+        "news_573c7994caef",
+        "news_d24535de7dfa"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_4b458d1945cb",
+      "title": "油价短线拉升，报道：沙特告知欧洲炼油商，下月他们将不会获得原油供应",
+      "firstSeenAt": "2026-09-18T16:37:37.969Z",
+      "lastSeenAt": "2026-09-19T04:42:25.674Z",
+      "primaryItemId": "news_582e0aa2f4e3",
+      "evidenceItemIds": [
+        "news_582e0aa2f4e3",
+        "news_96a641552afc"
       ],
       "status": "developing"
     },

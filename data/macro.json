@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-09-19T16:02:08.801Z",
+  "updatedAt": "2026-09-20T05:01:09.455Z",
   "note": "auto 指标由 scripts/macro.js 每日自动刷新；manual 指标为人工核实值，核实日期见 asOf。",
   "indicators": [
     {
@@ -8,28 +8,28 @@
       "name": "LPR 1年期",
       "value": "3.00%",
       "numericValue": 3,
-      "note": "较7月20日 3.00% 持平",
+      "note": "较8月20日 3.00% 持平",
       "direction": "flat",
-      "asOf": "2026-08-20",
+      "asOf": "2026-09-20",
       "source": "中国货币网",
       "mode": "auto",
       "prevValue": "3.00%",
       "prevNumericValue": 3,
-      "prevAsOf": "2026-07-20"
+      "prevAsOf": "2026-08-20"
     },
     {
       "key": "lpr5y",
       "name": "LPR 5年期以上",
       "value": "3.50%",
       "numericValue": 3.5,
-      "note": "较7月20日 3.50% 持平",
+      "note": "较8月20日 3.50% 持平",
       "direction": "flat",
-      "asOf": "2026-08-20",
+      "asOf": "2026-09-20",
       "source": "中国货币网",
       "mode": "auto",
       "prevValue": "3.50%",
       "prevNumericValue": 3.5,
-      "prevAsOf": "2026-07-20"
+      "prevAsOf": "2026-08-20"
     },
     {
       "key": "cn10y",
@@ -97,14 +97,14 @@
       "name": "现货黄金",
       "value": "$4,379",
       "numericValue": 4379,
-      "note": "较9月18日 $4,380 下降",
-      "direction": "down",
-      "asOf": "2026-09-19",
+      "note": "较9月19日 $4,379 持平",
+      "direction": "flat",
+      "asOf": "2026-09-20",
       "source": "gold-api.com",
       "mode": "auto",
-      "prevValue": "$4,380",
-      "prevNumericValue": 4380.100098,
-      "prevAsOf": "2026-09-18"
+      "prevValue": "$4,379",
+      "prevNumericValue": 4379,
+      "prevAsOf": "2026-09-19"
     }
   ]
 }

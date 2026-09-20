@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-09-20T05:01:09.455Z",
+  "generatedAt": "2026-09-20T09:21:45.734Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -8,7 +8,7 @@
       "eventId": "event_ee02f1040416",
       "title": "欧元区8月通胀率同比上升3.2%——欧盟统计局",
       "firstSeenAt": "2026-09-17T13:42:10.265Z",
-      "lastSeenAt": "2026-09-20T05:01:09.455Z",
+      "lastSeenAt": "2026-09-20T09:21:45.734Z",
       "primaryItemId": "news_3baa350a6774",
       "evidenceItemIds": [
         "news_3baa350a6774",
@@ -20,7 +20,7 @@
       "eventId": "event_0abb26ae3ca1",
       "title": "房地产进入存量时代；美欧日时隔20年同步加息｜一周热点回顾",
       "firstSeenAt": "2026-09-18T04:51:24.717Z",
-      "lastSeenAt": "2026-09-20T05:01:09.455Z",
+      "lastSeenAt": "2026-09-20T09:21:45.734Z",
       "primaryItemId": "news_69320c55d40f",
       "evidenceItemIds": [
         "news_d184e7c678ba",
@@ -35,12 +35,385 @@
       "eventId": "event_2cca6739b85f",
       "title": "日本8月CPI持平，核心通胀意外回落，日本央行预计加息25基点",
       "firstSeenAt": "2026-09-18T04:51:24.717Z",
-      "lastSeenAt": "2026-09-20T05:01:09.455Z",
+      "lastSeenAt": "2026-09-20T09:21:45.734Z",
       "primaryItemId": "news_e4acff1a5f9e",
       "evidenceItemIds": [
         "news_e4acff1a5f9e",
         "news_3cbe24da3a06",
         "news_51ae7cad37b9"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_58dbf69c66d9",
+      "title": "晓数点丨超级央行周落幕！美日双双加息，英国按兵不动",
+      "firstSeenAt": "2026-09-17T13:42:10.265Z",
+      "lastSeenAt": "2026-09-20T09:21:45.734Z",
+      "primaryItemId": "news_4ca9339442ed",
+      "evidenceItemIds": [
+        "news_6eea5835cc84",
+        "news_df0ea0cb489e",
+        "news_c8a35c3b7512",
+        "news_4ca9339442ed"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_faac4b9f2bd8",
+      "title": "从“减速”到“加油”！Astra两周抢占13%份额，Anthropic考虑IPO前发布新模型应战",
+      "firstSeenAt": "2026-08-22T04:49:56.049Z",
+      "lastSeenAt": "2026-09-20T09:21:45.734Z",
+      "primaryItemId": "news_02a8a2943c3c",
+      "evidenceItemIds": [
+        "news_1d7c95068d75",
+        "news_3a13bd428308",
+        "news_aeb5377444d0",
+        "news_4558400af6d5",
+        "news_3cd07be9ec23",
+        "news_a4ff125eecb9",
+        "news_6cf46c0cdff7",
+        "news_9b58fd990e7b",
+        "news_9758d263543d",
+        "news_02a8a2943c3c",
+        "news_6c05ad30beb3",
+        "news_3e489c8c9c94",
+        "news_6c315c025a93"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_2dd606727cdf",
+      "title": "AI进化速递丨OpenAI预计到2030年底累计消耗近2800亿美元资金",
+      "firstSeenAt": "2026-09-09T13:05:29.700Z",
+      "lastSeenAt": "2026-09-20T09:21:45.734Z",
+      "primaryItemId": "news_8e5ea647f98d",
+      "evidenceItemIds": [
+        "news_c49bcb8008b4",
+        "news_659ff11baa3e",
+        "news_78cdeed6c8ad",
+        "news_c3c0b87d081a",
+        "news_9ea5e5afa5f5",
+        "news_8e5ea647f98d",
+        "news_e5909765d90a"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_106a341eeeb2",
+      "title": "【周刊提前读】西藏超强泥石流拷问巨灾保险 资本市场创新工具值得期待",
+      "firstSeenAt": "2026-09-19T04:42:25.674Z",
+      "lastSeenAt": "2026-09-20T09:21:45.734Z",
+      "primaryItemId": "news_58e15fb911c3",
+      "evidenceItemIds": [
+        "news_58e15fb911c3",
+        "news_70dee1e7abe6"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_a2fa8e524fae",
+      "title": "Anthropic、OpenAI、谷歌等AI巨头遭反垄断诉讼，被指协同放缓技术发展",
+      "firstSeenAt": "2026-09-19T04:42:25.674Z",
+      "lastSeenAt": "2026-09-20T09:21:45.734Z",
+      "primaryItemId": "news_8c844e7f7fb1",
+      "evidenceItemIds": [
+        "news_8c844e7f7fb1",
+        "news_5e00a05eced1"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_90da6701052b",
+      "title": "中国证监会拟对17起案件线索的“吹哨人”给予奖励",
+      "firstSeenAt": "2026-09-19T08:51:33.181Z",
+      "lastSeenAt": "2026-09-20T09:21:45.734Z",
+      "primaryItemId": "news_d7109967ad6e",
+      "evidenceItemIds": [
+        "news_d7109967ad6e",
+        "news_0d46d56c1100"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_6176f7560101",
+      "title": "美方将《2026年格雷厄姆制裁俄罗斯和伊朗法案》签署成法，商务部回应",
+      "firstSeenAt": "2026-09-19T12:40:01.387Z",
+      "lastSeenAt": "2026-09-20T09:21:45.734Z",
+      "primaryItemId": "news_5ba1a321658a",
+      "evidenceItemIds": [
+        "news_5ba1a321658a",
+        "news_ec9a2a4f5707"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_9d45be5df2d4",
+      "title": "贝莱德基金获批QDII资格",
+      "firstSeenAt": "2026-09-19T12:40:01.387Z",
+      "lastSeenAt": "2026-09-20T09:21:45.734Z",
+      "primaryItemId": "news_8d8ea16223bf",
+      "evidenceItemIds": [
+        "news_8d8ea16223bf",
+        "news_1fef76d31f77"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_35f8675f29ef",
+      "title": "新股消息 | 京新药业(002020.SZ)再次递表港交所 已成功推出1类创新药物地达西尼",
+      "firstSeenAt": "2026-09-19T12:40:01.387Z",
+      "lastSeenAt": "2026-09-20T09:21:45.734Z",
+      "primaryItemId": "news_5ec4c1aaf2a9",
+      "evidenceItemIds": [
+        "news_5ec4c1aaf2a9",
+        "news_63493df02f67"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_202dd878fa19",
+      "title": "晚间公告｜9月18日这些公告有看头",
+      "firstSeenAt": "2026-07-31T14:43:32.623Z",
+      "lastSeenAt": "2026-09-20T09:21:45.734Z",
+      "primaryItemId": "news_f0399d95169a",
+      "evidenceItemIds": [
+        "news_eaf56a2f5345",
+        "news_8b256f193830",
+        "news_58fdd88ca5ff",
+        "news_4cac4c806a4b",
+        "news_f202b91c5619",
+        "news_c91687230a2c",
+        "news_958c3f39adb1",
+        "news_a328d8732020",
+        "news_042b264c9695",
+        "news_0f321ef4412b",
+        "news_6fe4b8332584",
+        "news_f755ad25cd3e",
+        "news_6d13f9de9d52",
+        "news_bd988cf929f3",
+        "news_a6888af31e73",
+        "news_8429689faaae",
+        "news_f88525090167",
+        "news_0ab1f5803307",
+        "news_141a625db923",
+        "news_9ac737e4924a",
+        "news_60885ba55001",
+        "news_9d3c513ffc0f",
+        "news_3e80b0340e44",
+        "news_56a89494a39c",
+        "news_69264b26c3e7",
+        "news_514b54e00f99",
+        "news_67ca015f8000",
+        "news_3108d5eeee52",
+        "news_4d0de13affc5",
+        "news_d0b6ffb1536e",
+        "news_f8b9c9518289",
+        "news_a7e36ccebd4b",
+        "news_e633763695a5",
+        "news_ad121ea558e3",
+        "news_1fa48f60ae1c",
+        "news_563594238b47",
+        "news_4021b72f1f8a",
+        "news_c3ab2c29e063",
+        "news_105071d297de",
+        "news_2ae25eb2f2b7",
+        "news_49193cbe90fe",
+        "news_74ff66ffcadd",
+        "news_f0399d95169a"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_bb32b1c4ac85",
+      "title": "高盛：市场“定价4次加息”过于悲观，年底有“全资产上涨”交易窗口",
+      "firstSeenAt": "2026-09-20T05:01:09.455Z",
+      "lastSeenAt": "2026-09-20T09:21:45.734Z",
+      "primaryItemId": "news_b7a1af0ca3df",
+      "evidenceItemIds": [
+        "news_b7a1af0ca3df",
+        "news_64dd19cd596d",
+        "news_8cb775d5567d"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_b477476cc1a0",
+      "title": "特朗普要组建“人工智能部队”，此前称“AI安全风险”是“骗局”",
+      "firstSeenAt": "2026-09-20T05:01:09.455Z",
+      "lastSeenAt": "2026-09-20T09:21:45.734Z",
+      "primaryItemId": "news_a67ace899139",
+      "evidenceItemIds": [
+        "news_a67ace899139",
+        "news_7f7768d58a6f"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_448c9f5d06aa",
+      "title": "胡塞武装称对沙特首都及关键原油设施发动袭击",
+      "firstSeenAt": "2026-09-20T05:01:09.455Z",
+      "lastSeenAt": "2026-09-20T09:21:45.734Z",
+      "primaryItemId": "news_a900b541c8ca",
+      "evidenceItemIds": [
+        "news_a900b541c8ca",
+        "news_7c6ba863e1ea"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_359f4e60e940",
+      "title": "中汽协：1-8月销量排名前十SUV生产企业共销售721.8万辆",
+      "firstSeenAt": "2026-09-20T05:01:09.455Z",
+      "lastSeenAt": "2026-09-20T09:21:45.734Z",
+      "primaryItemId": "news_977b9e2dfc73",
+      "evidenceItemIds": [
+        "news_977b9e2dfc73",
+        "news_99510af29126"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_09ee499bb75a",
+      "title": "良品铺子增资至约3.98亿，增幅10.55%",
+      "firstSeenAt": "2026-09-18T09:01:13.367Z",
+      "lastSeenAt": "2026-09-20T09:21:45.734Z",
+      "primaryItemId": "news_206adcdb6f1e",
+      "evidenceItemIds": [
+        "news_d518581334c0",
+        "news_014ab236c202",
+        "news_206adcdb6f1e"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_fbf512563b60",
+      "title": "华能内蒙古蒙东新能源有限公司增资至14亿，增幅约40%",
+      "firstSeenAt": "2026-09-17T05:00:06.708Z",
+      "lastSeenAt": "2026-09-20T09:21:45.734Z",
+      "primaryItemId": "news_734f4703355f",
+      "evidenceItemIds": [
+        "news_39afd5d3e0e5",
+        "news_6a8275dbe31e",
+        "news_734f4703355f"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_25a01be8f771",
+      "title": "广药集团在广州成立新公司，注册资本1000万",
+      "firstSeenAt": "2026-08-07T09:19:21.190Z",
+      "lastSeenAt": "2026-09-20T09:21:45.734Z",
+      "primaryItemId": "news_db2785522298",
+      "evidenceItemIds": [
+        "news_0a89162cc328",
+        "news_1d889a3e90ea",
+        "news_76556d64b846",
+        "news_b871e430af91",
+        "news_e14bd43495a7",
+        "news_06e19159faaa",
+        "news_22856b17b8da",
+        "news_cab7f6842d40",
+        "news_d7d746e05e93",
+        "news_19380b213065",
+        "news_c221637b3565",
+        "news_9952f0a0ccd1",
+        "news_012a8125b681",
+        "news_bb3168b6ffd2",
+        "news_4c554d47d314",
+        "news_ec304686a3b9",
+        "news_895de86fb515",
+        "news_b5262f19fde7",
+        "news_661000897c42",
+        "news_9de3d20b34f9",
+        "news_db2785522298",
+        "news_fb5af5fc8913",
+        "news_355644aba6cd",
+        "news_0862925ad1ec"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_4f225a92bd42",
+      "title": "长鑫科技第五代技术平台正式量产，大容量LPDDR5X来了",
+      "firstSeenAt": "2026-09-20T09:21:45.734Z",
+      "lastSeenAt": "2026-09-20T09:21:45.734Z",
+      "primaryItemId": "news_80015d7f06fb",
+      "evidenceItemIds": [
+        "news_80015d7f06fb",
+        "news_24dbda5d95f0"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_9908093bcb54",
+      "title": "周末要闻汇总：伊朗向美国开出7项谈判条件；沈鼓集团部分投资者被暂停交易",
+      "firstSeenAt": "2026-09-20T09:21:45.734Z",
+      "lastSeenAt": "2026-09-20T09:21:45.734Z",
+      "primaryItemId": "news_cd21bb576dfe",
+      "evidenceItemIds": [
+        "news_cd21bb576dfe",
+        "news_62fa89168c63"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_61d316b1f41d",
+      "title": "瑞银上调AI资本支出预测：2026年逼近万亿美元，九成增量来自内存涨价",
+      "firstSeenAt": "2026-09-20T09:21:45.734Z",
+      "lastSeenAt": "2026-09-20T09:21:45.734Z",
+      "primaryItemId": "news_8c4e6ad45a06",
+      "evidenceItemIds": [
+        "news_8c4e6ad45a06",
+        "news_47dc9c8956ea"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_d1927bcdce0f",
+      "title": "埃夫特(688165.SH)股东信惟基石及其一致行动人拟减持不超3%股份",
+      "firstSeenAt": "2026-09-20T09:21:45.734Z",
+      "lastSeenAt": "2026-09-20T09:21:45.734Z",
+      "primaryItemId": "news_0d3eccb78d08",
+      "evidenceItemIds": [
+        "news_0d3eccb78d08",
+        "news_9b4e50466e5f",
+        "news_e323c9b5053a"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_ca9793a93b4c",
+      "title": "奥克股份：筹划购买苏州祺添控制权，股票21日起停牌",
+      "firstSeenAt": "2026-09-20T09:21:45.734Z",
+      "lastSeenAt": "2026-09-20T09:21:45.734Z",
+      "primaryItemId": "news_8d1499f92b5f",
+      "evidenceItemIds": [
+        "news_8d1499f92b5f",
+        "news_788ea89081fb"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_ba4b0e9040b6",
+      "title": "永信至诚(688244.SH)：奇安创投拟减持不超3%公司股份",
+      "firstSeenAt": "2026-09-20T09:21:45.734Z",
+      "lastSeenAt": "2026-09-20T09:21:45.734Z",
+      "primaryItemId": "news_011fcde47a7d",
+      "evidenceItemIds": [
+        "news_011fcde47a7d",
+        "news_45fcea829757"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_01e1b9814320",
+      "title": "概伦电子(688206.SH)股东拟减持合计不超2%股份",
+      "firstSeenAt": "2026-09-20T09:21:45.734Z",
+      "lastSeenAt": "2026-09-20T09:21:45.734Z",
+      "primaryItemId": "news_f872b124b907",
+      "evidenceItemIds": [
+        "news_f872b124b907",
+        "news_6004ed29882e"
       ],
       "status": "developing"
     },
@@ -123,20 +496,6 @@
       "status": "developing"
     },
     {
-      "eventId": "event_58dbf69c66d9",
-      "title": "晓数点丨超级央行周落幕！美日双双加息，英国按兵不动",
-      "firstSeenAt": "2026-09-17T13:42:10.265Z",
-      "lastSeenAt": "2026-09-20T05:01:09.455Z",
-      "primaryItemId": "news_4ca9339442ed",
-      "evidenceItemIds": [
-        "news_6eea5835cc84",
-        "news_df0ea0cb489e",
-        "news_c8a35c3b7512",
-        "news_4ca9339442ed"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_01118fb5b195",
       "title": "财联社汽车早报【9月19日】",
       "firstSeenAt": "2026-08-01T03:54:06.184Z",
@@ -164,28 +523,6 @@
         "news_21b5f7e67cf5",
         "news_70d9c08ce100",
         "news_490473075035"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_faac4b9f2bd8",
-      "title": "报道：Anthropic推进IPO计划",
-      "firstSeenAt": "2026-08-22T04:49:56.049Z",
-      "lastSeenAt": "2026-09-20T05:01:09.455Z",
-      "primaryItemId": "news_9b58fd990e7b",
-      "evidenceItemIds": [
-        "news_1d7c95068d75",
-        "news_3a13bd428308",
-        "news_aeb5377444d0",
-        "news_4558400af6d5",
-        "news_3cd07be9ec23",
-        "news_a4ff125eecb9",
-        "news_6cf46c0cdff7",
-        "news_9b58fd990e7b",
-        "news_9758d263543d",
-        "news_02a8a2943c3c",
-        "news_6c05ad30beb3",
-        "news_3e489c8c9c94"
       ],
       "status": "developing"
     },
@@ -230,22 +567,6 @@
       "status": "developing"
     },
     {
-      "eventId": "event_2dd606727cdf",
-      "title": "OpenAI预计2030年前累计烧钱逾2780亿美元，同期营收目标达3500亿",
-      "firstSeenAt": "2026-09-09T13:05:29.700Z",
-      "lastSeenAt": "2026-09-20T05:01:09.455Z",
-      "primaryItemId": "news_9ea5e5afa5f5",
-      "evidenceItemIds": [
-        "news_c49bcb8008b4",
-        "news_659ff11baa3e",
-        "news_78cdeed6c8ad",
-        "news_c3c0b87d081a",
-        "news_9ea5e5afa5f5",
-        "news_8e5ea647f98d"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_404995794505",
       "title": "“史上最大IPO”时间表又生变 Anthropic年化收入预计将突破1000亿美元",
       "firstSeenAt": "2026-08-18T01:54:05.956Z",
@@ -257,30 +578,6 @@
         "news_b11c5b7be442",
         "news_824313d8e33f",
         "news_a78b674b7f3e"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_106a341eeeb2",
-      "title": "【周刊提前读】西藏超强泥石流拷问巨灾保险 资本市场创新工具值得期待",
-      "firstSeenAt": "2026-09-19T04:42:25.674Z",
-      "lastSeenAt": "2026-09-20T05:01:09.455Z",
-      "primaryItemId": "news_58e15fb911c3",
-      "evidenceItemIds": [
-        "news_58e15fb911c3",
-        "news_70dee1e7abe6"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_a2fa8e524fae",
-      "title": "Anthropic、OpenAI、谷歌等AI巨头遭反垄断诉讼，被指协同放缓技术发展",
-      "firstSeenAt": "2026-09-19T04:42:25.674Z",
-      "lastSeenAt": "2026-09-20T05:01:09.455Z",
-      "primaryItemId": "news_8c844e7f7fb1",
-      "evidenceItemIds": [
-        "news_8c844e7f7fb1",
-        "news_5e00a05eced1"
       ],
       "status": "developing"
     },
@@ -317,54 +614,6 @@
       "evidenceItemIds": [
         "news_1123ddf97863",
         "news_c073f514b9f8"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_90da6701052b",
-      "title": "中国证监会拟对17起案件线索的“吹哨人”给予奖励",
-      "firstSeenAt": "2026-09-19T08:51:33.181Z",
-      "lastSeenAt": "2026-09-20T05:01:09.455Z",
-      "primaryItemId": "news_d7109967ad6e",
-      "evidenceItemIds": [
-        "news_d7109967ad6e",
-        "news_0d46d56c1100"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_6176f7560101",
-      "title": "美方将《2026年格雷厄姆制裁俄罗斯和伊朗法案》签署成法，商务部回应",
-      "firstSeenAt": "2026-09-19T12:40:01.387Z",
-      "lastSeenAt": "2026-09-20T05:01:09.455Z",
-      "primaryItemId": "news_5ba1a321658a",
-      "evidenceItemIds": [
-        "news_5ba1a321658a",
-        "news_ec9a2a4f5707"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_9d45be5df2d4",
-      "title": "贝莱德基金获批QDII资格",
-      "firstSeenAt": "2026-09-19T12:40:01.387Z",
-      "lastSeenAt": "2026-09-20T05:01:09.455Z",
-      "primaryItemId": "news_8d8ea16223bf",
-      "evidenceItemIds": [
-        "news_8d8ea16223bf",
-        "news_1fef76d31f77"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_35f8675f29ef",
-      "title": "新股消息 | 京新药业(002020.SZ)再次递表港交所 已成功推出1类创新药物地达西尼",
-      "firstSeenAt": "2026-09-19T12:40:01.387Z",
-      "lastSeenAt": "2026-09-20T05:01:09.455Z",
-      "primaryItemId": "news_5ec4c1aaf2a9",
-      "evidenceItemIds": [
-        "news_5ec4c1aaf2a9",
-        "news_63493df02f67"
       ],
       "status": "developing"
     },
@@ -413,59 +662,6 @@
         "news_d2a2c4bc213a",
         "news_37d8c1a3063f",
         "news_f6a3426fc36c"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_202dd878fa19",
-      "title": "晚间公告｜9月18日这些公告有看头",
-      "firstSeenAt": "2026-07-31T14:43:32.623Z",
-      "lastSeenAt": "2026-09-20T05:01:09.455Z",
-      "primaryItemId": "news_f0399d95169a",
-      "evidenceItemIds": [
-        "news_eaf56a2f5345",
-        "news_8b256f193830",
-        "news_58fdd88ca5ff",
-        "news_4cac4c806a4b",
-        "news_f202b91c5619",
-        "news_c91687230a2c",
-        "news_958c3f39adb1",
-        "news_a328d8732020",
-        "news_042b264c9695",
-        "news_0f321ef4412b",
-        "news_6fe4b8332584",
-        "news_f755ad25cd3e",
-        "news_6d13f9de9d52",
-        "news_bd988cf929f3",
-        "news_a6888af31e73",
-        "news_8429689faaae",
-        "news_f88525090167",
-        "news_0ab1f5803307",
-        "news_141a625db923",
-        "news_9ac737e4924a",
-        "news_60885ba55001",
-        "news_9d3c513ffc0f",
-        "news_3e80b0340e44",
-        "news_56a89494a39c",
-        "news_69264b26c3e7",
-        "news_514b54e00f99",
-        "news_67ca015f8000",
-        "news_3108d5eeee52",
-        "news_4d0de13affc5",
-        "news_d0b6ffb1536e",
-        "news_f8b9c9518289",
-        "news_a7e36ccebd4b",
-        "news_e633763695a5",
-        "news_ad121ea558e3",
-        "news_1fa48f60ae1c",
-        "news_563594238b47",
-        "news_4021b72f1f8a",
-        "news_c3ab2c29e063",
-        "news_105071d297de",
-        "news_2ae25eb2f2b7",
-        "news_49193cbe90fe",
-        "news_74ff66ffcadd",
-        "news_f0399d95169a"
       ],
       "status": "developing"
     },
@@ -555,54 +751,6 @@
         "news_fb1bf481a4ec",
         "news_f77360f918de",
         "news_69e2ffca1cc0"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_bb32b1c4ac85",
-      "title": "高盛：市场“定价4次加息”过于悲观，年底有“全资产上涨”交易窗口",
-      "firstSeenAt": "2026-09-20T05:01:09.455Z",
-      "lastSeenAt": "2026-09-20T05:01:09.455Z",
-      "primaryItemId": "news_b7a1af0ca3df",
-      "evidenceItemIds": [
-        "news_b7a1af0ca3df",
-        "news_64dd19cd596d"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_b477476cc1a0",
-      "title": "特朗普要组建“人工智能部队”，此前称“AI安全风险”是“骗局”",
-      "firstSeenAt": "2026-09-20T05:01:09.455Z",
-      "lastSeenAt": "2026-09-20T05:01:09.455Z",
-      "primaryItemId": "news_a67ace899139",
-      "evidenceItemIds": [
-        "news_a67ace899139",
-        "news_7f7768d58a6f"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_448c9f5d06aa",
-      "title": "胡塞武装称对沙特首都及关键原油设施发动袭击",
-      "firstSeenAt": "2026-09-20T05:01:09.455Z",
-      "lastSeenAt": "2026-09-20T05:01:09.455Z",
-      "primaryItemId": "news_a900b541c8ca",
-      "evidenceItemIds": [
-        "news_a900b541c8ca",
-        "news_7c6ba863e1ea"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_359f4e60e940",
-      "title": "中汽协：1-8月销量排名前十SUV生产企业共销售721.8万辆",
-      "firstSeenAt": "2026-09-20T05:01:09.455Z",
-      "lastSeenAt": "2026-09-20T05:01:09.455Z",
-      "primaryItemId": "news_977b9e2dfc73",
-      "evidenceItemIds": [
-        "news_977b9e2dfc73",
-        "news_99510af29126"
       ],
       "status": "developing"
     },
@@ -774,18 +922,6 @@
       "evidenceItemIds": [
         "news_c2ad05c9e776",
         "news_4aa1abbaeced"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_09ee499bb75a",
-      "title": "中创新航旗下福建公司增资至76.5亿，增幅约12%",
-      "firstSeenAt": "2026-09-18T09:01:13.367Z",
-      "lastSeenAt": "2026-09-19T04:42:25.674Z",
-      "primaryItemId": "news_d518581334c0",
-      "evidenceItemIds": [
-        "news_d518581334c0",
-        "news_014ab236c202"
       ],
       "status": "developing"
     },
@@ -1171,18 +1307,6 @@
       "evidenceItemIds": [
         "news_0adf6aecc01a",
         "news_d9321470fe36"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_fbf512563b60",
-      "title": "华勤技术增资至15.2亿，增幅约49%",
-      "firstSeenAt": "2026-09-17T05:00:06.708Z",
-      "lastSeenAt": "2026-09-17T13:42:10.265Z",
-      "primaryItemId": "news_39afd5d3e0e5",
-      "evidenceItemIds": [
-        "news_39afd5d3e0e5",
-        "news_6a8275dbe31e"
       ],
       "status": "developing"
     },
@@ -5856,36 +5980,6 @@
         "news_1f7e7f2222c0",
         "news_1dbbdd7039a0",
         "news_ea5d949e45e5"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_25a01be8f771",
-      "title": "优必选等在常州成立新公司，注册资本5000万",
-      "firstSeenAt": "2026-08-07T09:19:21.190Z",
-      "lastSeenAt": "2026-08-25T13:18:38.935Z",
-      "primaryItemId": "news_661000897c42",
-      "evidenceItemIds": [
-        "news_0a89162cc328",
-        "news_1d889a3e90ea",
-        "news_76556d64b846",
-        "news_b871e430af91",
-        "news_e14bd43495a7",
-        "news_06e19159faaa",
-        "news_22856b17b8da",
-        "news_cab7f6842d40",
-        "news_d7d746e05e93",
-        "news_19380b213065",
-        "news_c221637b3565",
-        "news_9952f0a0ccd1",
-        "news_012a8125b681",
-        "news_bb3168b6ffd2",
-        "news_4c554d47d314",
-        "news_ec304686a3b9",
-        "news_895de86fb515",
-        "news_b5262f19fde7",
-        "news_661000897c42",
-        "news_9de3d20b34f9"
       ],
       "status": "developing"
     },

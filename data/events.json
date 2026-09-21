@@ -1,26 +1,14 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-09-21T09:59:33.504Z",
+  "generatedAt": "2026-09-21T15:13:15.113Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
-      "eventId": "event_ee02f1040416",
-      "title": "欧元区8月通胀率同比上升3.2%——欧盟统计局",
-      "firstSeenAt": "2026-09-17T13:42:10.265Z",
-      "lastSeenAt": "2026-09-21T09:59:33.504Z",
-      "primaryItemId": "news_3baa350a6774",
-      "evidenceItemIds": [
-        "news_3baa350a6774",
-        "news_c17d4b1c9fed"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_2cca6739b85f",
       "title": "日本8月CPI持平，核心通胀意外回落，日本央行预计加息25基点",
       "firstSeenAt": "2026-09-18T04:51:24.717Z",
-      "lastSeenAt": "2026-09-21T09:59:33.504Z",
+      "lastSeenAt": "2026-09-21T15:13:15.113Z",
       "primaryItemId": "news_e4acff1a5f9e",
       "evidenceItemIds": [
         "news_e4acff1a5f9e",
@@ -33,7 +21,7 @@
       "eventId": "event_90da6701052b",
       "title": "中国证监会拟对17起案件线索的“吹哨人”给予奖励",
       "firstSeenAt": "2026-09-19T08:51:33.181Z",
-      "lastSeenAt": "2026-09-21T09:59:33.504Z",
+      "lastSeenAt": "2026-09-21T15:13:15.113Z",
       "primaryItemId": "news_d7109967ad6e",
       "evidenceItemIds": [
         "news_d7109967ad6e",
@@ -43,10 +31,10 @@
     },
     {
       "eventId": "event_202dd878fa19",
-      "title": "晚间公告丨9月20日这些公告有看头",
+      "title": "晚间公告｜9月21日这些公告有看头",
       "firstSeenAt": "2026-07-31T14:43:32.623Z",
-      "lastSeenAt": "2026-09-21T09:59:33.504Z",
-      "primaryItemId": "news_90485b0177df",
+      "lastSeenAt": "2026-09-21T15:13:15.113Z",
+      "primaryItemId": "news_744f3363d004",
       "evidenceItemIds": [
         "news_eaf56a2f5345",
         "news_8b256f193830",
@@ -91,7 +79,8 @@
         "news_49193cbe90fe",
         "news_74ff66ffcadd",
         "news_f0399d95169a",
-        "news_90485b0177df"
+        "news_90485b0177df",
+        "news_744f3363d004"
       ],
       "status": "developing"
     },
@@ -99,7 +88,7 @@
       "eventId": "event_4f225a92bd42",
       "title": "T早报｜长鑫科技第五代技术平台量产；黄仁勋称需警惕AI“末日叙事” ；智谱上线“数据内容不留存”功能",
       "firstSeenAt": "2026-09-20T09:21:45.734Z",
-      "lastSeenAt": "2026-09-21T09:59:33.504Z",
+      "lastSeenAt": "2026-09-21T15:13:15.113Z",
       "primaryItemId": "news_358b3a31ac94",
       "evidenceItemIds": [
         "news_80015d7f06fb",
@@ -113,55 +102,17 @@
       "eventId": "event_d1927bcdce0f",
       "title": "永安期货：浙江东方拟减持公司不超3%股份",
       "firstSeenAt": "2026-09-20T09:21:45.734Z",
-      "lastSeenAt": "2026-09-21T09:59:33.504Z",
+      "lastSeenAt": "2026-09-21T15:13:15.113Z",
       "primaryItemId": "news_102ee3695df0",
       "evidenceItemIds": [
         "news_0d3eccb78d08",
         "news_9b4e50466e5f",
         "news_e323c9b5053a",
         "news_102ee3695df0",
-        "news_45fcea829757"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_97c9137a5db8",
-      "title": "厄尔尼诺的“预期差”",
-      "firstSeenAt": "2026-09-17T05:00:06.708Z",
-      "lastSeenAt": "2026-09-21T09:59:33.504Z",
-      "primaryItemId": "news_d80502ac7c4c",
-      "evidenceItemIds": [
-        "news_6a347c7a2b36",
-        "news_ce909734c127",
-        "news_b9cf37c25fb1",
-        "news_95733e705deb",
-        "news_af5e1c1e1232",
-        "news_3ebbc9b9a2ed",
-        "news_32a4e3b93bb6",
-        "news_aaee63cc7b4f",
-        "news_fb1bf481a4ec",
-        "news_f77360f918de",
-        "news_69e2ffca1cc0",
-        "news_406b4d042105",
-        "news_d80502ac7c4c",
-        "news_8e7f776b6b6a"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_920515740e32",
-      "title": "莎普爱思：大股东陈德康拟减持公司不超1%股份",
-      "firstSeenAt": "2026-09-13T13:23:33.029Z",
-      "lastSeenAt": "2026-09-21T09:59:33.504Z",
-      "primaryItemId": "news_81525f321d9a",
-      "evidenceItemIds": [
-        "news_e6e2bbba4d0c",
-        "news_f1ca1ff9c848",
-        "news_63b777225d02",
-        "news_4188b0d4dab8",
-        "news_c2c738c5f0bd",
-        "news_095de400bbde",
-        "news_81525f321d9a"
+        "news_45fcea829757",
+        "news_b69a19dad176",
+        "news_81525f321d9a",
+        "news_095de400bbde"
       ],
       "status": "developing"
     },
@@ -169,7 +120,7 @@
       "eventId": "event_cb0693c937f5",
       "title": "LPR连续16个月不变，业内称短期降息必要性不高",
       "firstSeenAt": "2026-09-18T04:51:24.717Z",
-      "lastSeenAt": "2026-09-21T09:59:33.504Z",
+      "lastSeenAt": "2026-09-21T15:13:15.113Z",
       "primaryItemId": "news_3c731d41efa2",
       "evidenceItemIds": [
         "news_9865bb17933b",
@@ -181,35 +132,11 @@
       "status": "developing"
     },
     {
-      "eventId": "event_e7a6d3a951ef",
-      "title": "中信证券：积极把握年内A股最后的进攻窗口",
-      "firstSeenAt": "2026-09-20T13:08:44.451Z",
-      "lastSeenAt": "2026-09-21T09:59:33.504Z",
-      "primaryItemId": "news_b05e26b579a6",
-      "evidenceItemIds": [
-        "news_b05e26b579a6",
-        "news_e0b884f3f549"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_70871cf7a337",
-      "title": "同源康医药-B(02410)根据一般授权发行H股的认购协议失效",
-      "firstSeenAt": "2026-09-20T13:08:44.451Z",
-      "lastSeenAt": "2026-09-21T09:59:33.504Z",
-      "primaryItemId": "news_9894068412cc",
-      "evidenceItemIds": [
-        "news_9894068412cc",
-        "news_8b1e8f8bfa20"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_1e700de930bf",
-      "title": "沙特阿拉伯股市收低；截至收盘沙特阿拉伯TASI指数下跌0.26%",
+      "title": "希腊股市上涨；截至收盘Athens General Composite上涨0.55%",
       "firstSeenAt": "2026-09-11T16:43:57.247Z",
-      "lastSeenAt": "2026-09-21T09:59:33.504Z",
-      "primaryItemId": "news_c26d57e1dbd7",
+      "lastSeenAt": "2026-09-21T15:13:15.113Z",
+      "primaryItemId": "news_038a0e7a4a1c",
       "evidenceItemIds": [
         "news_e9ffd13dd72a",
         "news_1eb0821fb4ef",
@@ -235,7 +162,11 @@
         "news_6bae8e1b6dc6",
         "news_2e06ec0c2f77",
         "news_c26d57e1dbd7",
-        "news_e0fb6f66817d"
+        "news_e0fb6f66817d",
+        "news_2bbe802e49d2",
+        "news_d9d3ac7a82d4",
+        "news_038a0e7a4a1c",
+        "news_4fbd2c2c8135"
       ],
       "status": "developing"
     },
@@ -243,54 +174,14 @@
       "eventId": "event_b200bfc8104e",
       "title": "本末科技9月21日启动港股招股，“直驱第一股”挂牌在即",
       "firstSeenAt": "2026-09-20T16:19:56.100Z",
-      "lastSeenAt": "2026-09-21T09:59:33.504Z",
+      "lastSeenAt": "2026-09-21T15:13:15.113Z",
       "primaryItemId": "news_75cf4ae7c82a",
       "evidenceItemIds": [
         "news_3368d362c8d9",
         "news_36e832437bb8",
         "news_d65238d7bd97",
-        "news_75cf4ae7c82a"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_91fb625edcc6",
-      "title": "华尔街见闻早餐FM-Radio | 2026年9月21日",
-      "firstSeenAt": "2026-08-01T03:54:06.184Z",
-      "lastSeenAt": "2026-09-21T09:59:33.504Z",
-      "primaryItemId": "news_6356475afb59",
-      "evidenceItemIds": [
-        "news_17edaa318161",
-        "news_98deb5260008",
-        "news_d6ded5ce3d23",
-        "news_ce5450193ef2",
-        "news_c703d5c64965",
-        "news_f283b8db4f69",
-        "news_1192f017766c",
-        "news_13a9ec382c84",
-        "news_56f2fe7df40c",
-        "news_4bcfcf17662a",
-        "news_1e16c7e47c8f",
-        "news_42d80422ca92",
-        "news_f8de29856631",
-        "news_7c9d70564092",
-        "news_64e205ea0eff",
-        "news_ce46b4659126",
-        "news_6187cca76a84",
-        "news_365d990ddc0a",
-        "news_9b6eace71407",
-        "news_a6898d92a8d6",
-        "news_3db9c3529da4",
-        "news_95deade611b9",
-        "news_cf02042ffbd4",
-        "news_3465a9cb688f",
-        "news_32265c18dcdc",
-        "news_821e31f5c9fa",
-        "news_9c8de095a7c5",
-        "news_de2273d7fbfe",
-        "news_59af9d503fe6",
-        "news_f36a6a3c88fb",
-        "news_6356475afb59"
+        "news_75cf4ae7c82a",
+        "news_5977541c4c12"
       ],
       "status": "developing"
     },
@@ -298,11 +189,9 @@
       "eventId": "event_32967e3730b8",
       "title": "A股四大指数集体高开，CRO、存储器等板块表现强势",
       "firstSeenAt": "2026-08-03T15:23:32.854Z",
-      "lastSeenAt": "2026-09-21T09:59:33.504Z",
+      "lastSeenAt": "2026-09-21T15:13:15.113Z",
       "primaryItemId": "news_df9ae4ef33fd",
       "evidenceItemIds": [
-        "news_d19121fe4fe8",
-        "news_419cd90bb74a",
         "news_b03943a69317",
         "news_29f89f0e4f08",
         "news_37f4186154af",
@@ -350,7 +239,9 @@
         "news_2132f9617e5a",
         "news_bd356f3c3e43",
         "news_df9ae4ef33fd",
-        "news_e737ee6dc3c7"
+        "news_e737ee6dc3c7",
+        "news_b05549c0a329",
+        "news_e9a1070c37b7"
       ],
       "status": "developing"
     },
@@ -358,7 +249,7 @@
       "eventId": "event_529af3584dc2",
       "title": "恒指午间休盘涨0.56%，恒生科技指数跌0.13%",
       "firstSeenAt": "2026-07-31T02:43:30.494Z",
-      "lastSeenAt": "2026-09-21T09:59:33.504Z",
+      "lastSeenAt": "2026-09-21T15:13:15.113Z",
       "primaryItemId": "news_bfdf661f226a",
       "evidenceItemIds": [
         "news_e247eea117e1",
@@ -418,7 +309,7 @@
       "eventId": "event_969971ea67f1",
       "title": "中美经贸磋商在美国纽约举行",
       "firstSeenAt": "2026-09-21T05:05:26.108Z",
-      "lastSeenAt": "2026-09-21T09:59:33.504Z",
+      "lastSeenAt": "2026-09-21T15:13:15.113Z",
       "primaryItemId": "news_34be93cc09e0",
       "evidenceItemIds": [
         "news_34be93cc09e0",
@@ -430,7 +321,7 @@
       "eventId": "event_10da3cb29cda",
       "title": "AppLovin CEO：暴跌92%后，我们不再讨好华尔街，现金全拿去回购",
       "firstSeenAt": "2026-09-21T05:05:26.108Z",
-      "lastSeenAt": "2026-09-21T09:59:33.504Z",
+      "lastSeenAt": "2026-09-21T15:13:15.113Z",
       "primaryItemId": "news_98a2e4ce5fdc",
       "evidenceItemIds": [
         "news_98a2e4ce5fdc",
@@ -442,7 +333,7 @@
       "eventId": "event_d180fa689d0e",
       "title": "9月21日会员早报：胡塞武装首次打到沙特首都 “五角大楼披萨指数”再度异动",
       "firstSeenAt": "2026-09-21T05:05:26.108Z",
-      "lastSeenAt": "2026-09-21T09:59:33.504Z",
+      "lastSeenAt": "2026-09-21T15:13:15.113Z",
       "primaryItemId": "news_28d8fa4e6d59",
       "evidenceItemIds": [
         "news_28d8fa4e6d59",
@@ -454,7 +345,7 @@
       "eventId": "event_5b095572049d",
       "title": "【午报】创业板指涨近1%，全市场超4300股飘红，医药板块全线爆发",
       "firstSeenAt": "2026-09-21T05:05:26.108Z",
-      "lastSeenAt": "2026-09-21T09:59:33.504Z",
+      "lastSeenAt": "2026-09-21T15:13:15.113Z",
       "primaryItemId": "news_f22349a05463",
       "evidenceItemIds": [
         "news_f22349a05463",
@@ -466,7 +357,7 @@
       "eventId": "event_977b4b0de128",
       "title": "资管周报：保险资金境外投资规模突破2.2万亿，港股通收益率达12%",
       "firstSeenAt": "2026-09-21T05:05:26.108Z",
-      "lastSeenAt": "2026-09-21T09:59:33.504Z",
+      "lastSeenAt": "2026-09-21T15:13:15.113Z",
       "primaryItemId": "news_ae89af7e207f",
       "evidenceItemIds": [
         "news_ae89af7e207f",
@@ -478,7 +369,7 @@
       "eventId": "event_0737eac2cabb",
       "title": "连板股追踪丨A股今日共106只个股涨停 这只传媒股4连板",
       "firstSeenAt": "2026-07-31T02:43:30.494Z",
-      "lastSeenAt": "2026-09-21T09:59:33.504Z",
+      "lastSeenAt": "2026-09-21T15:13:15.113Z",
       "primaryItemId": "news_a0e68b16193a",
       "evidenceItemIds": [
         "news_cf2b97a75d61",
@@ -527,7 +418,7 @@
       "eventId": "event_cd95370ca166",
       "title": "港股评级汇总：国海证券维持药明生物买入评级",
       "firstSeenAt": "2026-09-17T09:31:24.843Z",
-      "lastSeenAt": "2026-09-21T09:59:33.504Z",
+      "lastSeenAt": "2026-09-21T15:13:15.113Z",
       "primaryItemId": "news_8203b5a8430b",
       "evidenceItemIds": [
         "news_9d86d5423973",
@@ -541,7 +432,7 @@
       "eventId": "event_2681bf967066",
       "title": "海外研选日报0921 | 大摩：美国进入“油价风险溢价”情景 美联储料再加息两次",
       "firstSeenAt": "2026-09-18T13:07:08.176Z",
-      "lastSeenAt": "2026-09-21T09:59:33.504Z",
+      "lastSeenAt": "2026-09-21T15:13:15.113Z",
       "primaryItemId": "news_1d947c0358d0",
       "evidenceItemIds": [
         "news_573c7994caef",
@@ -552,10 +443,10 @@
     },
     {
       "eventId": "event_faac4b9f2bd8",
-      "title": "从“减速”到“加油”！Astra两周抢占13%份额，Anthropic考虑IPO前发布新模型应战",
+      "title": "AI数据中心“新贵”Nscale IPO：1030亿美元合同，85%靠微软与Anthropic两家支撑",
       "firstSeenAt": "2026-08-22T04:49:56.049Z",
-      "lastSeenAt": "2026-09-21T05:05:26.108Z",
-      "primaryItemId": "news_02a8a2943c3c",
+      "lastSeenAt": "2026-09-21T15:13:15.113Z",
+      "primaryItemId": "news_beab4fb02ee5",
       "evidenceItemIds": [
         "news_1d7c95068d75",
         "news_3a13bd428308",
@@ -569,7 +460,209 @@
         "news_02a8a2943c3c",
         "news_6c05ad30beb3",
         "news_3e489c8c9c94",
-        "news_6c315c025a93"
+        "news_6c315c025a93",
+        "news_beab4fb02ee5"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_73f4b1fb41a8",
+      "title": "龙虎榜丨机构今日买入这18股，卖出新华文轩1.37亿元",
+      "firstSeenAt": "2026-08-03T11:50:30.990Z",
+      "lastSeenAt": "2026-09-21T15:13:15.113Z",
+      "primaryItemId": "news_0481fc8f2ed7",
+      "evidenceItemIds": [
+        "news_de7d0ba05e16",
+        "news_e7a76dcea2a8",
+        "news_d9bbbfd32f43",
+        "news_9d97988a8b31",
+        "news_f8e689022fb3",
+        "news_a41d521c5c53",
+        "news_50b190578187",
+        "news_45437b89e860",
+        "news_d1e40824a959",
+        "news_d35397f00f85",
+        "news_28eb220b6d7d",
+        "news_83a8f0bce8bc",
+        "news_a434c7856598",
+        "news_a8c173d2f58f",
+        "news_f7c76b8d1160",
+        "news_be3920c8ab0f",
+        "news_7a02bb038160",
+        "news_5e9ecf83e613",
+        "news_40d2672e7c11",
+        "news_c0cf1488e336",
+        "news_9b61e52ad416",
+        "news_93d30ccfe80b",
+        "news_6b446ac18e20",
+        "news_52fedf4cbbb1",
+        "news_03577cf502cc",
+        "news_d0fdb37aef08",
+        "news_8506c5c0912d",
+        "news_4eb1533ada96",
+        "news_c44c352e8ee0",
+        "news_2854369976d9",
+        "news_7d0c5ea15723",
+        "news_45bff668174f",
+        "news_e18320b67a97",
+        "news_0481fc8f2ed7"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_0e6dcfe993b3",
+      "title": "燕京啤酒：控股股东之一致行动人拟5000万元—1亿元增持公司股份",
+      "firstSeenAt": "2026-09-09T13:05:29.700Z",
+      "lastSeenAt": "2026-09-21T15:13:15.113Z",
+      "primaryItemId": "news_0e7f144a1981",
+      "evidenceItemIds": [
+        "news_93457fca738d",
+        "news_21540634ad23",
+        "news_e486e29bece8",
+        "news_4b2c24ea647d",
+        "news_0e7f144a1981"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_2c9d82f5660f",
+      "title": "支付宝宣布组织调整和全新任命，瞄准智能体商业爆发前夜",
+      "firstSeenAt": "2026-09-21T15:13:15.113Z",
+      "lastSeenAt": "2026-09-21T15:13:15.113Z",
+      "primaryItemId": "news_e967d9ac6618",
+      "evidenceItemIds": [
+        "news_e967d9ac6618",
+        "news_e1e3200d82ae"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_06665c6b5134",
+      "title": "杰富瑞金融集团股票或将在9月28日财报发布后波动5.8%",
+      "firstSeenAt": "2026-09-21T15:13:15.113Z",
+      "lastSeenAt": "2026-09-21T15:13:15.113Z",
+      "primaryItemId": "news_ecf0b8328419",
+      "evidenceItemIds": [
+        "news_ecf0b8328419",
+        "news_85a9a3cfe8c4"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_ee02f1040416",
+      "title": "欧元区8月通胀率同比上升3.2%——欧盟统计局",
+      "firstSeenAt": "2026-09-17T13:42:10.265Z",
+      "lastSeenAt": "2026-09-21T09:59:33.504Z",
+      "primaryItemId": "news_3baa350a6774",
+      "evidenceItemIds": [
+        "news_3baa350a6774",
+        "news_c17d4b1c9fed"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_97c9137a5db8",
+      "title": "厄尔尼诺的“预期差”",
+      "firstSeenAt": "2026-09-17T05:00:06.708Z",
+      "lastSeenAt": "2026-09-21T09:59:33.504Z",
+      "primaryItemId": "news_d80502ac7c4c",
+      "evidenceItemIds": [
+        "news_6a347c7a2b36",
+        "news_ce909734c127",
+        "news_b9cf37c25fb1",
+        "news_95733e705deb",
+        "news_af5e1c1e1232",
+        "news_3ebbc9b9a2ed",
+        "news_32a4e3b93bb6",
+        "news_aaee63cc7b4f",
+        "news_fb1bf481a4ec",
+        "news_f77360f918de",
+        "news_69e2ffca1cc0",
+        "news_406b4d042105",
+        "news_d80502ac7c4c",
+        "news_8e7f776b6b6a"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_920515740e32",
+      "title": "莎普爱思：大股东陈德康拟减持公司不超1%股份",
+      "firstSeenAt": "2026-09-13T13:23:33.029Z",
+      "lastSeenAt": "2026-09-21T09:59:33.504Z",
+      "primaryItemId": "news_81525f321d9a",
+      "evidenceItemIds": [
+        "news_e6e2bbba4d0c",
+        "news_f1ca1ff9c848",
+        "news_63b777225d02",
+        "news_4188b0d4dab8",
+        "news_c2c738c5f0bd",
+        "news_095de400bbde",
+        "news_81525f321d9a"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_e7a6d3a951ef",
+      "title": "中信证券：积极把握年内A股最后的进攻窗口",
+      "firstSeenAt": "2026-09-20T13:08:44.451Z",
+      "lastSeenAt": "2026-09-21T09:59:33.504Z",
+      "primaryItemId": "news_b05e26b579a6",
+      "evidenceItemIds": [
+        "news_b05e26b579a6",
+        "news_e0b884f3f549"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_70871cf7a337",
+      "title": "同源康医药-B(02410)根据一般授权发行H股的认购协议失效",
+      "firstSeenAt": "2026-09-20T13:08:44.451Z",
+      "lastSeenAt": "2026-09-21T09:59:33.504Z",
+      "primaryItemId": "news_9894068412cc",
+      "evidenceItemIds": [
+        "news_9894068412cc",
+        "news_8b1e8f8bfa20"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_91fb625edcc6",
+      "title": "华尔街见闻早餐FM-Radio | 2026年9月21日",
+      "firstSeenAt": "2026-08-01T03:54:06.184Z",
+      "lastSeenAt": "2026-09-21T09:59:33.504Z",
+      "primaryItemId": "news_6356475afb59",
+      "evidenceItemIds": [
+        "news_17edaa318161",
+        "news_98deb5260008",
+        "news_d6ded5ce3d23",
+        "news_ce5450193ef2",
+        "news_c703d5c64965",
+        "news_f283b8db4f69",
+        "news_1192f017766c",
+        "news_13a9ec382c84",
+        "news_56f2fe7df40c",
+        "news_4bcfcf17662a",
+        "news_1e16c7e47c8f",
+        "news_42d80422ca92",
+        "news_f8de29856631",
+        "news_7c9d70564092",
+        "news_64e205ea0eff",
+        "news_ce46b4659126",
+        "news_6187cca76a84",
+        "news_365d990ddc0a",
+        "news_9b6eace71407",
+        "news_a6898d92a8d6",
+        "news_3db9c3529da4",
+        "news_95deade611b9",
+        "news_cf02042ffbd4",
+        "news_3465a9cb688f",
+        "news_32265c18dcdc",
+        "news_821e31f5c9fa",
+        "news_9c8de095a7c5",
+        "news_de2273d7fbfe",
+        "news_59af9d503fe6",
+        "news_f36a6a3c88fb",
+        "news_6356475afb59"
       ],
       "status": "developing"
     },
@@ -976,49 +1069,6 @@
       "status": "developing"
     },
     {
-      "eventId": "event_73f4b1fb41a8",
-      "title": "龙虎榜丨机构今日抛售这18股，买入华天科技1.25亿元",
-      "firstSeenAt": "2026-08-03T11:50:30.990Z",
-      "lastSeenAt": "2026-09-20T05:01:09.455Z",
-      "primaryItemId": "news_e18320b67a97",
-      "evidenceItemIds": [
-        "news_de7d0ba05e16",
-        "news_e7a76dcea2a8",
-        "news_d9bbbfd32f43",
-        "news_9d97988a8b31",
-        "news_f8e689022fb3",
-        "news_a41d521c5c53",
-        "news_50b190578187",
-        "news_45437b89e860",
-        "news_d1e40824a959",
-        "news_d35397f00f85",
-        "news_28eb220b6d7d",
-        "news_83a8f0bce8bc",
-        "news_a434c7856598",
-        "news_a8c173d2f58f",
-        "news_f7c76b8d1160",
-        "news_be3920c8ab0f",
-        "news_7a02bb038160",
-        "news_5e9ecf83e613",
-        "news_40d2672e7c11",
-        "news_c0cf1488e336",
-        "news_9b61e52ad416",
-        "news_93d30ccfe80b",
-        "news_6b446ac18e20",
-        "news_52fedf4cbbb1",
-        "news_03577cf502cc",
-        "news_d0fdb37aef08",
-        "news_8506c5c0912d",
-        "news_4eb1533ada96",
-        "news_c44c352e8ee0",
-        "news_2854369976d9",
-        "news_7d0c5ea15723",
-        "news_45bff668174f",
-        "news_e18320b67a97"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_e0cb007c9103",
       "title": "详解前8月全国财政数据",
       "firstSeenAt": "2026-09-18T13:07:08.176Z",
@@ -1157,20 +1207,6 @@
         "news_42db46b16d42",
         "news_7ac5cf690d85",
         "news_488a9b03aacf"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_0e6dcfe993b3",
-      "title": "久量股份：拟5000万元—1亿元回购公司股份",
-      "firstSeenAt": "2026-09-09T13:05:29.700Z",
-      "lastSeenAt": "2026-09-19T04:42:25.674Z",
-      "primaryItemId": "news_e486e29bece8",
-      "evidenceItemIds": [
-        "news_93457fca738d",
-        "news_21540634ad23",
-        "news_e486e29bece8",
-        "news_4b2c24ea647d"
       ],
       "status": "developing"
     },

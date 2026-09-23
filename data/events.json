@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-09-22T17:07:35.553Z",
+  "generatedAt": "2026-09-23T04:49:55.384Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -8,7 +8,7 @@
       "eventId": "event_1e700de930bf",
       "title": "沙特阿拉伯股市收低；截至收盘沙特阿拉伯TASI指数下跌0.01%",
       "firstSeenAt": "2026-09-11T16:43:57.247Z",
-      "lastSeenAt": "2026-09-22T17:07:35.553Z",
+      "lastSeenAt": "2026-09-23T04:49:55.384Z",
       "primaryItemId": "news_d860e9e6c6b6",
       "evidenceItemIds": [
         "news_e9ffd13dd72a",
@@ -48,7 +48,7 @@
       "eventId": "event_b200bfc8104e",
       "title": "智通港股52周新高、新低统计|9月22日",
       "firstSeenAt": "2026-09-20T16:19:56.100Z",
-      "lastSeenAt": "2026-09-22T17:07:35.553Z",
+      "lastSeenAt": "2026-09-23T04:49:55.384Z",
       "primaryItemId": "news_c3e3381d5437",
       "evidenceItemIds": [
         "news_3368d362c8d9",
@@ -64,11 +64,9 @@
       "eventId": "event_32967e3730b8",
       "title": "美股大型科技股盘前涨跌不一，英特尔跌超1%",
       "firstSeenAt": "2026-08-03T15:23:32.854Z",
-      "lastSeenAt": "2026-09-22T17:07:35.553Z",
+      "lastSeenAt": "2026-09-23T04:49:55.384Z",
       "primaryItemId": "news_d4235c6c967f",
       "evidenceItemIds": [
-        "news_ebd7d27958bd",
-        "news_13b5cff6a261",
         "news_7f1f1443eeba",
         "news_f6fe41b67e96",
         "news_c2ee800ea3e0",
@@ -116,7 +114,9 @@
         "news_1ce5d5d93aef",
         "news_aa494797b262",
         "news_0de38f07c64c",
-        "news_d4235c6c967f"
+        "news_d4235c6c967f",
+        "news_88c0ddbf39db",
+        "news_672c679be756"
       ],
       "status": "developing"
     },
@@ -124,7 +124,7 @@
       "eventId": "event_0737eac2cabb",
       "title": "连板股追踪丨A股今日共65只个股涨停 华瓷股份6连板",
       "firstSeenAt": "2026-07-31T02:43:30.494Z",
-      "lastSeenAt": "2026-09-22T17:07:35.553Z",
+      "lastSeenAt": "2026-09-23T04:49:55.384Z",
       "primaryItemId": "news_a01fbd9da400",
       "evidenceItemIds": [
         "news_cf2b97a75d61",
@@ -171,25 +171,10 @@
       "status": "developing"
     },
     {
-      "eventId": "event_cd95370ca166",
-      "title": "港股评级汇总：花旗研究维持阿里巴巴买入评级",
-      "firstSeenAt": "2026-09-17T09:31:24.843Z",
-      "lastSeenAt": "2026-09-22T17:07:35.553Z",
-      "primaryItemId": "news_b4c17dac091d",
-      "evidenceItemIds": [
-        "news_9d86d5423973",
-        "news_a85408ace4d9",
-        "news_aae4a7f07091",
-        "news_8203b5a8430b",
-        "news_b4c17dac091d"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_529af3584dc2",
       "title": "恒指收涨0.18%，恒生科技指数涨0.34%",
       "firstSeenAt": "2026-07-31T02:43:30.494Z",
-      "lastSeenAt": "2026-09-22T17:07:35.553Z",
+      "lastSeenAt": "2026-09-23T04:49:55.384Z",
       "primaryItemId": "news_384ce2a8d65e",
       "evidenceItemIds": [
         "news_52e2991daef2",
@@ -249,7 +234,7 @@
       "eventId": "event_09ee499bb75a",
       "title": "宁波远洋增资至14.5亿，增幅约11%",
       "firstSeenAt": "2026-09-18T09:01:13.367Z",
-      "lastSeenAt": "2026-09-22T17:07:35.553Z",
+      "lastSeenAt": "2026-09-23T04:49:55.384Z",
       "primaryItemId": "news_afd735499c60",
       "evidenceItemIds": [
         "news_d518581334c0",
@@ -263,10 +248,10 @@
     },
     {
       "eventId": "event_274777a299d4",
-      "title": "严文韬正式入职DeepSeek",
+      "title": "高瓴创投原合伙人入职DeepSeek",
       "firstSeenAt": "2026-07-31T14:43:32.623Z",
-      "lastSeenAt": "2026-09-22T17:07:35.553Z",
-      "primaryItemId": "news_6ecb0a36e017",
+      "lastSeenAt": "2026-09-23T04:49:55.384Z",
+      "primaryItemId": "news_7fe66b32d6ba",
       "evidenceItemIds": [
         "news_a4ff46a1602a",
         "news_112d02c83ae9",
@@ -283,7 +268,7 @@
       "eventId": "event_47c5fae9ff13",
       "title": "【每日收评】创业板指冲高回落微涨收盘，AI应用概念全线爆发，算力硬件股午后调整",
       "firstSeenAt": "2026-09-22T09:20:44.754Z",
-      "lastSeenAt": "2026-09-22T17:07:35.553Z",
+      "lastSeenAt": "2026-09-23T04:49:55.384Z",
       "primaryItemId": "news_dd72941d3711",
       "evidenceItemIds": [
         "news_dd72941d3711",
@@ -295,7 +280,7 @@
       "eventId": "event_c3182061cb0e",
       "title": "诚邦股份：向特定对象发行股票申请获上交所受理",
       "firstSeenAt": "2026-09-22T09:20:44.754Z",
-      "lastSeenAt": "2026-09-22T17:07:35.553Z",
+      "lastSeenAt": "2026-09-23T04:49:55.384Z",
       "primaryItemId": "news_5cc64a436228",
       "evidenceItemIds": [
         "news_5cc64a436228",
@@ -307,7 +292,7 @@
       "eventId": "event_5e6630fb2b49",
       "title": "机构：第二季度全球真无线（TWS）耳机出货量同比下降0.7%至8210万台",
       "firstSeenAt": "2026-09-22T09:20:44.754Z",
-      "lastSeenAt": "2026-09-22T17:07:35.553Z",
+      "lastSeenAt": "2026-09-23T04:49:55.384Z",
       "primaryItemId": "news_7893051a4362",
       "evidenceItemIds": [
         "news_f788ca1082bb",
@@ -319,7 +304,7 @@
       "eventId": "event_202dd878fa19",
       "title": "晚间公告｜9月22日这些公告有看头",
       "firstSeenAt": "2026-07-31T14:43:32.623Z",
-      "lastSeenAt": "2026-09-22T17:07:35.553Z",
+      "lastSeenAt": "2026-09-23T04:49:55.384Z",
       "primaryItemId": "news_83c702a4d9d0",
       "evidenceItemIds": [
         "news_eaf56a2f5345",
@@ -375,7 +360,7 @@
       "eventId": "event_d1927bcdce0f",
       "title": "华塑控股：股东信通万华拟减持不超3%公司股份",
       "firstSeenAt": "2026-09-20T09:21:45.734Z",
-      "lastSeenAt": "2026-09-22T17:07:35.553Z",
+      "lastSeenAt": "2026-09-23T04:49:55.384Z",
       "primaryItemId": "news_17b271e4f58f",
       "evidenceItemIds": [
         "news_0d3eccb78d08",
@@ -394,7 +379,7 @@
       "eventId": "event_73f4b1fb41a8",
       "title": "龙虎榜丨机构今日买入这13股，卖出科达制造5.49亿元",
       "firstSeenAt": "2026-08-03T11:50:30.990Z",
-      "lastSeenAt": "2026-09-22T17:07:35.553Z",
+      "lastSeenAt": "2026-09-23T04:49:55.384Z",
       "primaryItemId": "news_dfaa8fd92a1b",
       "evidenceItemIds": [
         "news_de7d0ba05e16",
@@ -439,11 +424,12 @@
       "eventId": "event_f1ba9cc6ba09",
       "title": "李强在上海调研时强调 加快培育壮大新兴产业和未来产业 持续做大做强先进制造业",
       "firstSeenAt": "2026-09-22T13:29:48.963Z",
-      "lastSeenAt": "2026-09-22T17:07:35.553Z",
+      "lastSeenAt": "2026-09-23T04:49:55.384Z",
       "primaryItemId": "news_759879eb5300",
       "evidenceItemIds": [
         "news_759879eb5300",
-        "news_cf6594cf1214"
+        "news_cf6594cf1214",
+        "news_c0bf50a92ab1"
       ],
       "status": "developing"
     },
@@ -451,7 +437,7 @@
       "eventId": "event_5bd288e6be30",
       "title": "油价回落至100美元下方 美股期指走高 科技股盘前分化 | 今夜看点",
       "firstSeenAt": "2026-09-22T13:29:48.963Z",
-      "lastSeenAt": "2026-09-22T17:07:35.553Z",
+      "lastSeenAt": "2026-09-23T04:49:55.384Z",
       "primaryItemId": "news_a7d7dc6ad132",
       "evidenceItemIds": [
         "news_a7d7dc6ad132",
@@ -463,7 +449,7 @@
       "eventId": "event_f3259bcc65c1",
       "title": "8月我国公募基金总规模为39.63万亿元",
       "firstSeenAt": "2026-09-22T13:29:48.963Z",
-      "lastSeenAt": "2026-09-22T17:07:35.553Z",
+      "lastSeenAt": "2026-09-23T04:49:55.384Z",
       "primaryItemId": "news_4c9d31371930",
       "evidenceItemIds": [
         "news_4c9d31371930",
@@ -475,7 +461,7 @@
       "eventId": "event_a678dcb442aa",
       "title": "英国股市收低；截至收盘Investing.com 英国 100下跌0.31%",
       "firstSeenAt": "2026-09-01T16:50:22.105Z",
-      "lastSeenAt": "2026-09-22T17:07:35.553Z",
+      "lastSeenAt": "2026-09-23T04:49:55.384Z",
       "primaryItemId": "news_a3a9163c5c6c",
       "evidenceItemIds": [
         "news_023dcd0d28ad",
@@ -528,7 +514,7 @@
       "eventId": "event_88d37f569468",
       "title": "西班牙股市上涨；截至收盘西班牙IBEX35指数上涨0.34%",
       "firstSeenAt": "2026-08-27T22:27:22.891Z",
-      "lastSeenAt": "2026-09-22T17:07:35.553Z",
+      "lastSeenAt": "2026-09-23T04:49:55.384Z",
       "primaryItemId": "news_aedf3b1ac8ba",
       "evidenceItemIds": [
         "news_1dcdfda18973",
@@ -552,7 +538,7 @@
       "eventId": "event_bacba78e5e32",
       "title": "曼德海峡局势令原油出口骤减，中国9月EPMI重返扩张区间，中国进口高增源于AI革命---0922宏观脱水",
       "firstSeenAt": "2026-09-22T17:07:35.553Z",
-      "lastSeenAt": "2026-09-22T17:07:35.553Z",
+      "lastSeenAt": "2026-09-23T04:49:55.384Z",
       "primaryItemId": "news_61075b1e2a1c",
       "evidenceItemIds": [
         "news_61075b1e2a1c",
@@ -561,23 +547,11 @@
       "status": "developing"
     },
     {
-      "eventId": "event_fe7b1aca1e85",
-      "title": "工信部旗下媒体：“去宁德化”论调要不得",
-      "firstSeenAt": "2026-09-22T17:07:35.553Z",
-      "lastSeenAt": "2026-09-22T17:07:35.553Z",
-      "primaryItemId": "news_3c1bbdeb610e",
-      "evidenceItemIds": [
-        "news_3c1bbdeb610e",
-        "news_fa073a2fc955"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_01118fb5b195",
-      "title": "财联社汽车早报【9月22日】",
+      "title": "财联社汽车早报【9月23日】",
       "firstSeenAt": "2026-08-01T03:54:06.184Z",
-      "lastSeenAt": "2026-09-22T13:29:48.963Z",
-      "primaryItemId": "news_f3cb1b18f26a",
+      "lastSeenAt": "2026-09-23T04:49:55.384Z",
+      "primaryItemId": "news_40c117c58038",
       "evidenceItemIds": [
         "news_11bf098d57d9",
         "news_352d957a2426",
@@ -600,7 +574,125 @@
         "news_21b5f7e67cf5",
         "news_70d9c08ce100",
         "news_490473075035",
-        "news_f3cb1b18f26a"
+        "news_f3cb1b18f26a",
+        "news_40c117c58038"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_33f394c17933",
+      "title": "名创优品(09896)9月22日斥资24.65万美元回购10.9万股",
+      "firstSeenAt": "2026-09-09T04:48:18.184Z",
+      "lastSeenAt": "2026-09-23T04:49:55.384Z",
+      "primaryItemId": "news_3bd2d997f498",
+      "evidenceItemIds": [
+        "news_c24ccb2cb70f",
+        "news_34664dfc75d0",
+        "news_307b21438b8a",
+        "news_d188912685a3",
+        "news_bf82c388c92c",
+        "news_dc6232b3b48c",
+        "news_3bd2d997f498",
+        "news_95f8af839dbb"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_25a01be8f771",
+      "title": "明洋智能等在海南成立新公司，注册资本2亿",
+      "firstSeenAt": "2026-08-07T09:19:21.190Z",
+      "lastSeenAt": "2026-09-23T04:49:55.384Z",
+      "primaryItemId": "news_b137c1cbcd0c",
+      "evidenceItemIds": [
+        "news_0a89162cc328",
+        "news_1d889a3e90ea",
+        "news_76556d64b846",
+        "news_b871e430af91",
+        "news_e14bd43495a7",
+        "news_06e19159faaa",
+        "news_22856b17b8da",
+        "news_cab7f6842d40",
+        "news_d7d746e05e93",
+        "news_19380b213065",
+        "news_c221637b3565",
+        "news_9952f0a0ccd1",
+        "news_012a8125b681",
+        "news_bb3168b6ffd2",
+        "news_4c554d47d314",
+        "news_ec304686a3b9",
+        "news_895de86fb515",
+        "news_b5262f19fde7",
+        "news_661000897c42",
+        "news_9de3d20b34f9",
+        "news_db2785522298",
+        "news_fb5af5fc8913",
+        "news_355644aba6cd",
+        "news_0862925ad1ec",
+        "news_b137c1cbcd0c"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_7daade5418f1",
+      "title": "吴泳铭：AI模型、芯片和云是阿里长期战略选择",
+      "firstSeenAt": "2026-09-23T04:49:55.384Z",
+      "lastSeenAt": "2026-09-23T04:49:55.384Z",
+      "primaryItemId": "news_9ed9d7dddd87",
+      "evidenceItemIds": [
+        "news_9ed9d7dddd87",
+        "news_caae529e49e7",
+        "news_c97392db7c17"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_3ade922c765e",
+      "title": "债市早参9月23日|上海自贸区离岸债业务指引出炉；产业类点心债今年已同比大增七成至1480亿",
+      "firstSeenAt": "2026-09-23T04:49:55.384Z",
+      "lastSeenAt": "2026-09-23T04:49:55.384Z",
+      "primaryItemId": "news_dc9991f00b48",
+      "evidenceItemIds": [
+        "news_dc9991f00b48",
+        "news_e3794260a3e2"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_606b04596798",
+      "title": "广汽能源在北京成立新科技公司，注册资本5000万",
+      "firstSeenAt": "2026-09-23T04:49:55.384Z",
+      "lastSeenAt": "2026-09-23T04:49:55.384Z",
+      "primaryItemId": "news_d80694ef6c27",
+      "evidenceItemIds": [
+        "news_d80694ef6c27",
+        "news_d9182539edef"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_cd95370ca166",
+      "title": "港股评级汇总：花旗研究维持阿里巴巴买入评级",
+      "firstSeenAt": "2026-09-17T09:31:24.843Z",
+      "lastSeenAt": "2026-09-22T17:07:35.553Z",
+      "primaryItemId": "news_b4c17dac091d",
+      "evidenceItemIds": [
+        "news_9d86d5423973",
+        "news_a85408ace4d9",
+        "news_aae4a7f07091",
+        "news_8203b5a8430b",
+        "news_b4c17dac091d"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_fe7b1aca1e85",
+      "title": "工信部旗下媒体：“去宁德化”论调要不得",
+      "firstSeenAt": "2026-09-22T17:07:35.553Z",
+      "lastSeenAt": "2026-09-22T17:07:35.553Z",
+      "primaryItemId": "news_3c1bbdeb610e",
+      "evidenceItemIds": [
+        "news_3c1bbdeb610e",
+        "news_fa073a2fc955"
       ],
       "status": "developing"
     },
@@ -615,22 +707,6 @@
         "news_788d5acecce8",
         "news_fc0d8ca37572",
         "news_13ab9a347809"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_33f394c17933",
-      "title": "名创优品(09896)9月21日斥资24.4万美元回购11万股",
-      "firstSeenAt": "2026-09-09T04:48:18.184Z",
-      "lastSeenAt": "2026-09-22T13:29:48.963Z",
-      "primaryItemId": "news_d188912685a3",
-      "evidenceItemIds": [
-        "news_c24ccb2cb70f",
-        "news_34664dfc75d0",
-        "news_307b21438b8a",
-        "news_d188912685a3",
-        "news_bf82c388c92c",
-        "news_dc6232b3b48c"
       ],
       "status": "developing"
     },
@@ -1082,40 +1158,6 @@
       "evidenceItemIds": [
         "news_977b9e2dfc73",
         "news_99510af29126"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_25a01be8f771",
-      "title": "广药集团在广州成立新公司，注册资本1000万",
-      "firstSeenAt": "2026-08-07T09:19:21.190Z",
-      "lastSeenAt": "2026-09-21T05:05:26.108Z",
-      "primaryItemId": "news_db2785522298",
-      "evidenceItemIds": [
-        "news_0a89162cc328",
-        "news_1d889a3e90ea",
-        "news_76556d64b846",
-        "news_b871e430af91",
-        "news_e14bd43495a7",
-        "news_06e19159faaa",
-        "news_22856b17b8da",
-        "news_cab7f6842d40",
-        "news_d7d746e05e93",
-        "news_19380b213065",
-        "news_c221637b3565",
-        "news_9952f0a0ccd1",
-        "news_012a8125b681",
-        "news_bb3168b6ffd2",
-        "news_4c554d47d314",
-        "news_ec304686a3b9",
-        "news_895de86fb515",
-        "news_b5262f19fde7",
-        "news_661000897c42",
-        "news_9de3d20b34f9",
-        "news_db2785522298",
-        "news_fb5af5fc8913",
-        "news_355644aba6cd",
-        "news_0862925ad1ec"
       ],
       "status": "developing"
     },

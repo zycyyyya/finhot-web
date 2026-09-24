@@ -1,18 +1,16 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-09-24T09:18:19.548Z",
+  "generatedAt": "2026-09-24T13:40:21.808Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
       "eventId": "event_32967e3730b8",
-      "title": "美股大型科技股盘前多数下跌，SK海力士跌超2%",
+      "title": "A股三大指数集体高开",
       "firstSeenAt": "2026-08-03T15:23:32.854Z",
-      "lastSeenAt": "2026-09-24T09:18:19.548Z",
-      "primaryItemId": "news_d8a36369d503",
+      "lastSeenAt": "2026-09-24T13:40:21.808Z",
+      "primaryItemId": "news_1ce5d5d93aef",
       "evidenceItemIds": [
-        "news_b2f9a2b43ad3",
-        "news_a181d0019ca1",
         "news_6b40c15032cc",
         "news_dcde525a191c",
         "news_55a99e361fd9",
@@ -60,7 +58,9 @@
         "news_ec3712a311c1",
         "news_d8a36369d503",
         "news_b17e22501980",
-        "news_6089e49c3ca5"
+        "news_6089e49c3ca5",
+        "news_cc1a01241c90",
+        "news_50938eea9e00"
       ],
       "status": "developing"
     },
@@ -68,7 +68,7 @@
       "eventId": "event_529af3584dc2",
       "title": "恒指午间休盘跌0.52%，恒生科技指数跌1.11%",
       "firstSeenAt": "2026-07-31T02:43:30.494Z",
-      "lastSeenAt": "2026-09-24T09:18:19.548Z",
+      "lastSeenAt": "2026-09-24T13:40:21.808Z",
       "primaryItemId": "news_f94f34ed437f",
       "evidenceItemIds": [
         "news_c1858bceeb50",
@@ -128,7 +128,7 @@
       "eventId": "event_274777a299d4",
       "title": "据报道，DeepSeek完成75亿美元融资，年化营收突破10亿美元",
       "firstSeenAt": "2026-07-31T14:43:32.623Z",
-      "lastSeenAt": "2026-09-24T09:18:19.548Z",
+      "lastSeenAt": "2026-09-24T13:40:21.808Z",
       "primaryItemId": "news_e903c3caf5fe",
       "evidenceItemIds": [
         "news_a4ff46a1602a",
@@ -145,23 +145,10 @@
       "status": "developing"
     },
     {
-      "eventId": "event_5bd288e6be30",
-      "title": "布油重返100美元附近 美股期指小幅下挫 | 今夜看点",
-      "firstSeenAt": "2026-09-22T13:29:48.963Z",
-      "lastSeenAt": "2026-09-24T09:18:19.548Z",
-      "primaryItemId": "news_255fe1a85449",
-      "evidenceItemIds": [
-        "news_a7d7dc6ad132",
-        "news_03c997a3b0db",
-        "news_255fe1a85449"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_09c4a5403db3",
       "title": "欧元区商业活动增速创41个月新高",
       "firstSeenAt": "2026-09-01T09:28:40.652Z",
-      "lastSeenAt": "2026-09-24T09:18:19.548Z",
+      "lastSeenAt": "2026-09-24T13:40:21.808Z",
       "primaryItemId": "news_7c5df767f867",
       "evidenceItemIds": [
         "news_69d645d9acec",
@@ -173,23 +160,10 @@
       "status": "developing"
     },
     {
-      "eventId": "event_08833e6a19c6",
-      "title": "中国央行：将在9月28日至10月8日开展隔夜逆回购操作，每日操作量不超过10000亿元",
-      "firstSeenAt": "2026-09-23T09:22:53.776Z",
-      "lastSeenAt": "2026-09-24T09:18:19.548Z",
-      "primaryItemId": "news_14d0f7b5502f",
-      "evidenceItemIds": [
-        "news_14d0f7b5502f",
-        "news_d634d18193e2",
-        "news_c523ba9093a5"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_a13ee9840702",
       "title": "习近平抵达华盛顿对美国进行国事访问",
       "firstSeenAt": "2026-09-23T09:22:53.776Z",
-      "lastSeenAt": "2026-09-24T09:18:19.548Z",
+      "lastSeenAt": "2026-09-24T13:40:21.808Z",
       "primaryItemId": "news_4bf068fe37e1",
       "evidenceItemIds": [
         "news_158a7c7dfdd9",
@@ -200,10 +174,10 @@
     },
     {
       "eventId": "event_202dd878fa19",
-      "title": "晚间公告｜9月23日这些公告有看头",
+      "title": "晚间公告｜9月24日这些公告有看头",
       "firstSeenAt": "2026-07-31T14:43:32.623Z",
-      "lastSeenAt": "2026-09-24T09:18:19.548Z",
-      "primaryItemId": "news_c27d9791e31c",
+      "lastSeenAt": "2026-09-24T13:40:21.808Z",
+      "primaryItemId": "news_0e1b38e49ce4",
       "evidenceItemIds": [
         "news_eaf56a2f5345",
         "news_8b256f193830",
@@ -251,16 +225,17 @@
         "news_90485b0177df",
         "news_744f3363d004",
         "news_83c702a4d9d0",
-        "news_c27d9791e31c"
+        "news_c27d9791e31c",
+        "news_0e1b38e49ce4"
       ],
       "status": "developing"
     },
     {
       "eventId": "event_73f4b1fb41a8",
-      "title": "龙虎榜丨机构今日买入这20股，卖出海正生材1.65亿元",
+      "title": "龙虎榜丨机构今日买入这19股，卖出中京电子1.25亿元",
       "firstSeenAt": "2026-08-03T11:50:30.990Z",
-      "lastSeenAt": "2026-09-24T09:18:19.548Z",
-      "primaryItemId": "news_5279581b449e",
+      "lastSeenAt": "2026-09-24T13:40:21.808Z",
+      "primaryItemId": "news_1b8e14b50197",
       "evidenceItemIds": [
         "news_de7d0ba05e16",
         "news_e7a76dcea2a8",
@@ -298,19 +273,8 @@
         "news_0481fc8f2ed7",
         "news_dfaa8fd92a1b",
         "news_5279581b449e",
-        "news_5a29a5c6d60a"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_786d294e96ef",
-      "title": "斥资16.52亿元！350亿MLCC概念股拟投建年产10.3万吨高端功能性BOPET基膜扩产项目|盘后公告集锦",
-      "firstSeenAt": "2026-09-23T13:47:42.487Z",
-      "lastSeenAt": "2026-09-24T09:18:19.548Z",
-      "primaryItemId": "news_55b5fb28ea81",
-      "evidenceItemIds": [
-        "news_55b5fb28ea81",
-        "news_a73ee2e17bc1"
+        "news_5a29a5c6d60a",
+        "news_1b8e14b50197"
       ],
       "status": "developing"
     },
@@ -318,7 +282,7 @@
       "eventId": "event_7687251fbe8d",
       "title": "美国10年期国债收益率升至5.04%，为2007年以来最高水平。",
       "firstSeenAt": "2026-09-23T17:14:36.029Z",
-      "lastSeenAt": "2026-09-24T09:18:19.548Z",
+      "lastSeenAt": "2026-09-24T13:40:21.808Z",
       "primaryItemId": "news_de13c70763c7",
       "evidenceItemIds": [
         "news_a097cf3b7966",
@@ -331,7 +295,7 @@
       "eventId": "event_91fb625edcc6",
       "title": "华尔街见闻早餐FM-Radio | 2026年9月24日",
       "firstSeenAt": "2026-08-01T03:54:06.184Z",
-      "lastSeenAt": "2026-09-24T09:18:19.548Z",
+      "lastSeenAt": "2026-09-24T13:40:21.808Z",
       "primaryItemId": "news_9d6c9df853fe",
       "evidenceItemIds": [
         "news_17edaa318161",
@@ -374,7 +338,7 @@
       "eventId": "event_538a7904636d",
       "title": "半日主力资金加仓银行股，抛售电子、通信股",
       "firstSeenAt": "2026-08-10T05:44:40.094Z",
-      "lastSeenAt": "2026-09-24T09:18:19.548Z",
+      "lastSeenAt": "2026-09-24T13:40:21.808Z",
       "primaryItemId": "news_bdd496732be4",
       "evidenceItemIds": [
         "news_362d47e51e31",
@@ -391,7 +355,7 @@
       "eventId": "event_7199ad9035fe",
       "title": "住友电气工业股价今日为何大涨？",
       "firstSeenAt": "2026-08-14T05:46:46.798Z",
-      "lastSeenAt": "2026-09-24T09:18:19.548Z",
+      "lastSeenAt": "2026-09-24T13:40:21.808Z",
       "primaryItemId": "news_0589c9b5e3ff",
       "evidenceItemIds": [
         "news_1c0bf3c4fb4e",
@@ -408,7 +372,7 @@
       "eventId": "event_9e97445da79b",
       "title": "人事观察｜57岁王陆进代理河南省长",
       "firstSeenAt": "2026-09-24T04:59:19.730Z",
-      "lastSeenAt": "2026-09-24T09:18:19.548Z",
+      "lastSeenAt": "2026-09-24T13:40:21.808Z",
       "primaryItemId": "news_481181380b5f",
       "evidenceItemIds": [
         "news_481181380b5f",
@@ -418,13 +382,14 @@
     },
     {
       "eventId": "event_69980308fa36",
-      "title": "华尔街最火的“金融AI”创始人：如何做“AI时代的彭博”，为何OpenAI和Anthropic做不好金融",
+      "title": "报道：谷歌、OpenAI和Anthropic人工智能安全组织成形，预计最早今年年底正式启动",
       "firstSeenAt": "2026-09-24T04:59:19.730Z",
-      "lastSeenAt": "2026-09-24T09:18:19.548Z",
-      "primaryItemId": "news_e9da553ace46",
+      "lastSeenAt": "2026-09-24T13:40:21.808Z",
+      "primaryItemId": "news_42aeb965bbdc",
       "evidenceItemIds": [
         "news_e9da553ace46",
-        "news_6d56797dd4da"
+        "news_6d56797dd4da",
+        "news_42aeb965bbdc"
       ],
       "status": "developing"
     },
@@ -432,7 +397,7 @@
       "eventId": "event_a6cda2308735",
       "title": "Meta Connect大会：Muse唱主角，新眼镜发布",
       "firstSeenAt": "2026-09-24T04:59:19.730Z",
-      "lastSeenAt": "2026-09-24T09:18:19.548Z",
+      "lastSeenAt": "2026-09-24T13:40:21.808Z",
       "primaryItemId": "news_5c43d32991ba",
       "evidenceItemIds": [
         "news_5c43d32991ba",
@@ -442,15 +407,16 @@
     },
     {
       "eventId": "event_203eadbc4cdd",
-      "title": "ChatGPT之后，下一个全民AI应用会是Meta Muse吗？",
+      "title": "Muse开门红，但Meta能笑多久？",
       "firstSeenAt": "2026-09-24T04:59:19.730Z",
-      "lastSeenAt": "2026-09-24T09:18:19.548Z",
-      "primaryItemId": "news_7da9c207e6a6",
+      "lastSeenAt": "2026-09-24T13:40:21.808Z",
+      "primaryItemId": "news_6db00764fb30",
       "evidenceItemIds": [
         "news_6db00764fb30",
         "news_db69a7d50e75",
         "news_fba3a3eaad4d",
-        "news_7da9c207e6a6"
+        "news_7da9c207e6a6",
+        "news_8b9f46d71c4a"
       ],
       "status": "developing"
     },
@@ -458,7 +424,7 @@
       "eventId": "event_a9a5df6924cd",
       "title": "美国ITC正式对动态随机存取存储器（DRAM）设备及其下游产品和组件（III）启动337调查",
       "firstSeenAt": "2026-09-24T09:18:19.548Z",
-      "lastSeenAt": "2026-09-24T09:18:19.548Z",
+      "lastSeenAt": "2026-09-24T13:40:21.808Z",
       "primaryItemId": "news_624f6a54419e",
       "evidenceItemIds": [
         "news_624f6a54419e",
@@ -470,11 +436,97 @@
       "eventId": "event_05eded4800db",
       "title": "全球债市抛售加剧，10年期日债收益率创30年新高，10年期美债延续跌势，美股期指走低、油涨金跌",
       "firstSeenAt": "2026-09-24T09:18:19.548Z",
-      "lastSeenAt": "2026-09-24T09:18:19.548Z",
+      "lastSeenAt": "2026-09-24T13:40:21.808Z",
       "primaryItemId": "news_db813cc379ee",
       "evidenceItemIds": [
         "news_db813cc379ee",
         "news_51f9bce98dc9"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_2f5bc2cc3a40",
+      "title": "盘前大跌4%！甲骨文突发“不可抗力”通知，因担忧3000亿美元数据中心项目延期",
+      "firstSeenAt": "2026-09-24T13:40:21.808Z",
+      "lastSeenAt": "2026-09-24T13:40:21.808Z",
+      "primaryItemId": "news_b2f65a4fa94c",
+      "evidenceItemIds": [
+        "news_b2f65a4fa94c",
+        "news_90d3c951058c"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_3a1c1bcf1f2f",
+      "title": "商务部：1-8月我国企业在共建“一带一路”国家非金融类直接投资243.6亿美元，下降7.4%",
+      "firstSeenAt": "2026-09-24T13:40:21.808Z",
+      "lastSeenAt": "2026-09-24T13:40:21.808Z",
+      "primaryItemId": "news_99050c43d492",
+      "evidenceItemIds": [
+        "news_99050c43d492",
+        "news_cecc64fb0294"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_b2ade866a914",
+      "title": "中证指数有限公司决定修订中证全指指数和中证流通指数编制方案",
+      "firstSeenAt": "2026-09-24T13:40:21.808Z",
+      "lastSeenAt": "2026-09-24T13:40:21.808Z",
+      "primaryItemId": "news_d285a91b6299",
+      "evidenceItemIds": [
+        "news_d285a91b6299",
+        "news_355458d90972"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_e49f6c4380cd",
+      "title": "上交所向5连板新华文轩下发监管工作函",
+      "firstSeenAt": "2026-09-24T13:40:21.808Z",
+      "lastSeenAt": "2026-09-24T13:40:21.808Z",
+      "primaryItemId": "news_4304de67d5b2",
+      "evidenceItemIds": [
+        "news_4304de67d5b2",
+        "news_74b3052693c0"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_5bd288e6be30",
+      "title": "布油重返100美元附近 美股期指小幅下挫 | 今夜看点",
+      "firstSeenAt": "2026-09-22T13:29:48.963Z",
+      "lastSeenAt": "2026-09-24T09:18:19.548Z",
+      "primaryItemId": "news_255fe1a85449",
+      "evidenceItemIds": [
+        "news_a7d7dc6ad132",
+        "news_03c997a3b0db",
+        "news_255fe1a85449"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_08833e6a19c6",
+      "title": "中国央行：将在9月28日至10月8日开展隔夜逆回购操作，每日操作量不超过10000亿元",
+      "firstSeenAt": "2026-09-23T09:22:53.776Z",
+      "lastSeenAt": "2026-09-24T09:18:19.548Z",
+      "primaryItemId": "news_14d0f7b5502f",
+      "evidenceItemIds": [
+        "news_14d0f7b5502f",
+        "news_d634d18193e2",
+        "news_c523ba9093a5"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_786d294e96ef",
+      "title": "斥资16.52亿元！350亿MLCC概念股拟投建年产10.3万吨高端功能性BOPET基膜扩产项目|盘后公告集锦",
+      "firstSeenAt": "2026-09-23T13:47:42.487Z",
+      "lastSeenAt": "2026-09-24T09:18:19.548Z",
+      "primaryItemId": "news_55b5fb28ea81",
+      "evidenceItemIds": [
+        "news_55b5fb28ea81",
+        "news_a73ee2e17bc1"
       ],
       "status": "developing"
     },

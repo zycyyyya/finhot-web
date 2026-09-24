@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-09-23T17:14:36.029Z",
+  "generatedAt": "2026-09-24T04:59:19.730Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -8,11 +8,9 @@
       "eventId": "event_32967e3730b8",
       "title": "美股大型科技股盘前多数下跌，SK海力士跌超2%",
       "firstSeenAt": "2026-08-03T15:23:32.854Z",
-      "lastSeenAt": "2026-09-23T17:14:36.029Z",
+      "lastSeenAt": "2026-09-24T04:59:19.730Z",
       "primaryItemId": "news_d8a36369d503",
       "evidenceItemIds": [
-        "news_c2ee800ea3e0",
-        "news_f219ff9ab447",
         "news_b2f9a2b43ad3",
         "news_a181d0019ca1",
         "news_6b40c15032cc",
@@ -60,7 +58,9 @@
         "news_88c0ddbf39db",
         "news_672c679be756",
         "news_ec3712a311c1",
-        "news_d8a36369d503"
+        "news_d8a36369d503",
+        "news_b17e22501980",
+        "news_6089e49c3ca5"
       ],
       "status": "developing"
     },
@@ -68,7 +68,7 @@
       "eventId": "event_0737eac2cabb",
       "title": "连板股追踪丨A股今日共51只个股涨停 这只PCB概念股收获4连板",
       "firstSeenAt": "2026-07-31T02:43:30.494Z",
-      "lastSeenAt": "2026-09-23T17:14:36.029Z",
+      "lastSeenAt": "2026-09-24T04:59:19.730Z",
       "primaryItemId": "news_833e477e9e41",
       "evidenceItemIds": [
         "news_cf2b97a75d61",
@@ -117,13 +117,11 @@
     },
     {
       "eventId": "event_529af3584dc2",
-      "title": "恒指收跌1.01%，恒生科技指数跌1.33%",
+      "title": "恒指午间休盘跌0.52%，恒生科技指数跌1.11%",
       "firstSeenAt": "2026-07-31T02:43:30.494Z",
-      "lastSeenAt": "2026-09-23T17:14:36.029Z",
-      "primaryItemId": "news_bb3932f7986b",
+      "lastSeenAt": "2026-09-24T04:59:19.730Z",
+      "primaryItemId": "news_f94f34ed437f",
       "evidenceItemIds": [
-        "news_dae0295ce191",
-        "news_a816974df43d",
         "news_c1858bceeb50",
         "news_3be203f2d778",
         "news_21ee0b9fb11f",
@@ -171,7 +169,9 @@
         "news_bfdf661f226a",
         "news_06610f4e6f58",
         "news_384ce2a8d65e",
-        "news_bb3932f7986b"
+        "news_bb3932f7986b",
+        "news_f94f34ed437f",
+        "news_58bca20c960d"
       ],
       "status": "developing"
     },
@@ -179,7 +179,7 @@
       "eventId": "event_274777a299d4",
       "title": "什么？GPT比DeepSeek还便宜了？大模型价格战卷出新高度",
       "firstSeenAt": "2026-07-31T14:43:32.623Z",
-      "lastSeenAt": "2026-09-23T17:14:36.029Z",
+      "lastSeenAt": "2026-09-24T04:59:19.730Z",
       "primaryItemId": "news_b6672212b6a7",
       "evidenceItemIds": [
         "news_a4ff46a1602a",
@@ -198,7 +198,7 @@
       "eventId": "event_5bd288e6be30",
       "title": "布油重返100美元附近 美股期指小幅下挫 | 今夜看点",
       "firstSeenAt": "2026-09-22T13:29:48.963Z",
-      "lastSeenAt": "2026-09-23T17:14:36.029Z",
+      "lastSeenAt": "2026-09-24T04:59:19.730Z",
       "primaryItemId": "news_255fe1a85449",
       "evidenceItemIds": [
         "news_a7d7dc6ad132",
@@ -208,26 +208,10 @@
       "status": "developing"
     },
     {
-      "eventId": "event_cd95370ca166",
-      "title": "港股评级汇总：国海证券维持中国重汽增持评级",
-      "firstSeenAt": "2026-09-17T09:31:24.843Z",
-      "lastSeenAt": "2026-09-23T17:14:36.029Z",
-      "primaryItemId": "news_cd0968dafdc0",
-      "evidenceItemIds": [
-        "news_9d86d5423973",
-        "news_a85408ace4d9",
-        "news_aae4a7f07091",
-        "news_8203b5a8430b",
-        "news_b4c17dac091d",
-        "news_cd0968dafdc0"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_11f678d3c5d4",
       "title": "牧原股份旗下内蒙古公司增资至9亿，增幅200%",
       "firstSeenAt": "2026-09-22T05:05:54.052Z",
-      "lastSeenAt": "2026-09-23T17:14:36.029Z",
+      "lastSeenAt": "2026-09-24T04:59:19.730Z",
       "primaryItemId": "news_60738de4c31a",
       "evidenceItemIds": [
         "news_916311ba232a",
@@ -240,7 +224,7 @@
       "eventId": "event_09c4a5403db3",
       "title": "欧元区商业活动增速创41个月新高",
       "firstSeenAt": "2026-09-01T09:28:40.652Z",
-      "lastSeenAt": "2026-09-23T17:14:36.029Z",
+      "lastSeenAt": "2026-09-24T04:59:19.730Z",
       "primaryItemId": "news_7c5df767f867",
       "evidenceItemIds": [
         "news_69d645d9acec",
@@ -255,7 +239,7 @@
       "eventId": "event_08833e6a19c6",
       "title": "中国央行：将在9月28日至10月8日开展隔夜逆回购操作，每日操作量不超过10000亿元",
       "firstSeenAt": "2026-09-23T09:22:53.776Z",
-      "lastSeenAt": "2026-09-23T17:14:36.029Z",
+      "lastSeenAt": "2026-09-24T04:59:19.730Z",
       "primaryItemId": "news_14d0f7b5502f",
       "evidenceItemIds": [
         "news_14d0f7b5502f",
@@ -268,11 +252,12 @@
       "eventId": "event_a13ee9840702",
       "title": "习近平离京对美国进行国事访问",
       "firstSeenAt": "2026-09-23T09:22:53.776Z",
-      "lastSeenAt": "2026-09-23T17:14:36.029Z",
+      "lastSeenAt": "2026-09-24T04:59:19.730Z",
       "primaryItemId": "news_158a7c7dfdd9",
       "evidenceItemIds": [
         "news_158a7c7dfdd9",
-        "news_c4eb1779aadd"
+        "news_c4eb1779aadd",
+        "news_4bf068fe37e1"
       ],
       "status": "developing"
     },
@@ -280,7 +265,7 @@
       "eventId": "event_634a51321f25",
       "title": "“YOYO Claw”等3款提供手机端侧生成式人工智能服务备案信息公布",
       "firstSeenAt": "2026-09-23T09:22:53.776Z",
-      "lastSeenAt": "2026-09-23T17:14:36.029Z",
+      "lastSeenAt": "2026-09-24T04:59:19.730Z",
       "primaryItemId": "news_3ddd4870a639",
       "evidenceItemIds": [
         "news_3ddd4870a639",
@@ -289,23 +274,10 @@
       "status": "developing"
     },
     {
-      "eventId": "event_1a42e06a191d",
-      "title": "又是小作文！地产股大涨的原因找到了",
-      "firstSeenAt": "2026-09-23T09:22:53.776Z",
-      "lastSeenAt": "2026-09-23T17:14:36.029Z",
-      "primaryItemId": "news_febd4c58657a",
-      "evidenceItemIds": [
-        "news_febd4c58657a",
-        "news_7b1500e5324a",
-        "news_52ed77446165"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_bd035a0a7e2d",
       "title": "【VIP日报】玻璃基板概念逆势拉升 王牌栏目追踪解读 提及核心公司涨停",
       "firstSeenAt": "2026-09-23T09:22:53.776Z",
-      "lastSeenAt": "2026-09-23T17:14:36.029Z",
+      "lastSeenAt": "2026-09-24T04:59:19.730Z",
       "primaryItemId": "news_927601d03130",
       "evidenceItemIds": [
         "news_927601d03130",
@@ -317,7 +289,7 @@
       "eventId": "event_202dd878fa19",
       "title": "晚间公告｜9月23日这些公告有看头",
       "firstSeenAt": "2026-07-31T14:43:32.623Z",
-      "lastSeenAt": "2026-09-23T17:14:36.029Z",
+      "lastSeenAt": "2026-09-24T04:59:19.730Z",
       "primaryItemId": "news_c27d9791e31c",
       "evidenceItemIds": [
         "news_eaf56a2f5345",
@@ -374,7 +346,7 @@
       "eventId": "event_73f4b1fb41a8",
       "title": "龙虎榜丨机构今日买入这20股，卖出海正生材1.65亿元",
       "firstSeenAt": "2026-08-03T11:50:30.990Z",
-      "lastSeenAt": "2026-09-23T17:14:36.029Z",
+      "lastSeenAt": "2026-09-24T04:59:19.730Z",
       "primaryItemId": "news_5279581b449e",
       "evidenceItemIds": [
         "news_de7d0ba05e16",
@@ -421,7 +393,7 @@
       "eventId": "event_786d294e96ef",
       "title": "斥资16.52亿元！350亿MLCC概念股拟投建年产10.3万吨高端功能性BOPET基膜扩产项目|盘后公告集锦",
       "firstSeenAt": "2026-09-23T13:47:42.487Z",
-      "lastSeenAt": "2026-09-23T17:14:36.029Z",
+      "lastSeenAt": "2026-09-24T04:59:19.730Z",
       "primaryItemId": "news_55b5fb28ea81",
       "evidenceItemIds": [
         "news_55b5fb28ea81",
@@ -433,7 +405,7 @@
       "eventId": "event_17a3abc05bbe",
       "title": "【数据看盘】机构活跃度明显下降 多路资金联手抢筹中一科技",
       "firstSeenAt": "2026-09-23T13:47:42.487Z",
-      "lastSeenAt": "2026-09-23T17:14:36.029Z",
+      "lastSeenAt": "2026-09-24T04:59:19.730Z",
       "primaryItemId": "news_f040e4fc0c8f",
       "evidenceItemIds": [
         "news_f040e4fc0c8f",
@@ -445,7 +417,7 @@
       "eventId": "event_aa2c4e1c68ba",
       "title": "南向资金追踪｜净买入超34亿港元 加仓腾讯抛售建滔积层板",
       "firstSeenAt": "2026-09-23T13:47:42.487Z",
-      "lastSeenAt": "2026-09-23T17:14:36.029Z",
+      "lastSeenAt": "2026-09-24T04:59:19.730Z",
       "primaryItemId": "news_9599a80179ce",
       "evidenceItemIds": [
         "news_9599a80179ce",
@@ -457,11 +429,166 @@
       "eventId": "event_7687251fbe8d",
       "title": "五年期美债收益率自2007年以来首次涨穿5%",
       "firstSeenAt": "2026-09-23T17:14:36.029Z",
-      "lastSeenAt": "2026-09-23T17:14:36.029Z",
+      "lastSeenAt": "2026-09-24T04:59:19.730Z",
       "primaryItemId": "news_a097cf3b7966",
       "evidenceItemIds": [
         "news_a097cf3b7966",
         "news_de13c70763c7"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_91fb625edcc6",
+      "title": "华尔街见闻早餐FM-Radio | 2026年9月24日",
+      "firstSeenAt": "2026-08-01T03:54:06.184Z",
+      "lastSeenAt": "2026-09-24T04:59:19.730Z",
+      "primaryItemId": "news_9d6c9df853fe",
+      "evidenceItemIds": [
+        "news_17edaa318161",
+        "news_98deb5260008",
+        "news_d6ded5ce3d23",
+        "news_ce5450193ef2",
+        "news_c703d5c64965",
+        "news_f283b8db4f69",
+        "news_1192f017766c",
+        "news_13a9ec382c84",
+        "news_56f2fe7df40c",
+        "news_4bcfcf17662a",
+        "news_1e16c7e47c8f",
+        "news_42d80422ca92",
+        "news_f8de29856631",
+        "news_7c9d70564092",
+        "news_64e205ea0eff",
+        "news_ce46b4659126",
+        "news_6187cca76a84",
+        "news_365d990ddc0a",
+        "news_9b6eace71407",
+        "news_a6898d92a8d6",
+        "news_3db9c3529da4",
+        "news_95deade611b9",
+        "news_cf02042ffbd4",
+        "news_3465a9cb688f",
+        "news_32265c18dcdc",
+        "news_821e31f5c9fa",
+        "news_9c8de095a7c5",
+        "news_de2273d7fbfe",
+        "news_59af9d503fe6",
+        "news_f36a6a3c88fb",
+        "news_6356475afb59",
+        "news_687a7cf50f4e",
+        "news_9d6c9df853fe"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_538a7904636d",
+      "title": "半日主力资金加仓银行股，抛售电子、通信股",
+      "firstSeenAt": "2026-08-10T05:44:40.094Z",
+      "lastSeenAt": "2026-09-24T04:59:19.730Z",
+      "primaryItemId": "news_bdd496732be4",
+      "evidenceItemIds": [
+        "news_362d47e51e31",
+        "news_b45ce18ba023",
+        "news_1d28e72bb2ae",
+        "news_1ac47d575af5",
+        "news_47d391102050",
+        "news_bdd496732be4",
+        "news_69bd17e9fba1"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_7199ad9035fe",
+      "title": "住友电气工业股价今日为何大涨？",
+      "firstSeenAt": "2026-08-14T05:46:46.798Z",
+      "lastSeenAt": "2026-09-24T04:59:19.730Z",
+      "primaryItemId": "news_0589c9b5e3ff",
+      "evidenceItemIds": [
+        "news_1c0bf3c4fb4e",
+        "news_1877016fd283",
+        "news_4c93520bad64",
+        "news_28ce974b04ac",
+        "news_193fef3b311a",
+        "news_0589c9b5e3ff",
+        "news_f0be21f3b73b"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_9e97445da79b",
+      "title": "人事观察｜57岁王陆进代理河南省长",
+      "firstSeenAt": "2026-09-24T04:59:19.730Z",
+      "lastSeenAt": "2026-09-24T04:59:19.730Z",
+      "primaryItemId": "news_481181380b5f",
+      "evidenceItemIds": [
+        "news_481181380b5f",
+        "news_a7bb3f8e2c10"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_69980308fa36",
+      "title": "华尔街最火的“金融AI”创始人：如何做“AI时代的彭博”，为何OpenAI和Anthropic做不好金融",
+      "firstSeenAt": "2026-09-24T04:59:19.730Z",
+      "lastSeenAt": "2026-09-24T04:59:19.730Z",
+      "primaryItemId": "news_e9da553ace46",
+      "evidenceItemIds": [
+        "news_e9da553ace46",
+        "news_6d56797dd4da"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_a6cda2308735",
+      "title": "Meta Connect大会：Muse唱主角，新眼镜发布",
+      "firstSeenAt": "2026-09-24T04:59:19.730Z",
+      "lastSeenAt": "2026-09-24T04:59:19.730Z",
+      "primaryItemId": "news_5c43d32991ba",
+      "evidenceItemIds": [
+        "news_5c43d32991ba",
+        "news_81ca8cbe29bc"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_203eadbc4cdd",
+      "title": "Muse开门红，但Meta能笑多久？",
+      "firstSeenAt": "2026-09-24T04:59:19.730Z",
+      "lastSeenAt": "2026-09-24T04:59:19.730Z",
+      "primaryItemId": "news_6db00764fb30",
+      "evidenceItemIds": [
+        "news_6db00764fb30",
+        "news_db69a7d50e75",
+        "news_fba3a3eaad4d"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_cd95370ca166",
+      "title": "港股评级汇总：国海证券维持中国重汽增持评级",
+      "firstSeenAt": "2026-09-17T09:31:24.843Z",
+      "lastSeenAt": "2026-09-23T17:14:36.029Z",
+      "primaryItemId": "news_cd0968dafdc0",
+      "evidenceItemIds": [
+        "news_9d86d5423973",
+        "news_a85408ace4d9",
+        "news_aae4a7f07091",
+        "news_8203b5a8430b",
+        "news_b4c17dac091d",
+        "news_cd0968dafdc0"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_1a42e06a191d",
+      "title": "又是小作文！地产股大涨的原因找到了",
+      "firstSeenAt": "2026-09-23T09:22:53.776Z",
+      "lastSeenAt": "2026-09-23T17:14:36.029Z",
+      "primaryItemId": "news_febd4c58657a",
+      "evidenceItemIds": [
+        "news_febd4c58657a",
+        "news_7b1500e5324a",
+        "news_52ed77446165"
       ],
       "status": "developing"
     },
@@ -989,48 +1116,6 @@
       "evidenceItemIds": [
         "news_1639cca67dba",
         "news_ecf28e4f6ba0"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_91fb625edcc6",
-      "title": "华尔街见闻早餐FM-Radio | 2026年9月22日",
-      "firstSeenAt": "2026-08-01T03:54:06.184Z",
-      "lastSeenAt": "2026-09-22T09:20:44.754Z",
-      "primaryItemId": "news_687a7cf50f4e",
-      "evidenceItemIds": [
-        "news_17edaa318161",
-        "news_98deb5260008",
-        "news_d6ded5ce3d23",
-        "news_ce5450193ef2",
-        "news_c703d5c64965",
-        "news_f283b8db4f69",
-        "news_1192f017766c",
-        "news_13a9ec382c84",
-        "news_56f2fe7df40c",
-        "news_4bcfcf17662a",
-        "news_1e16c7e47c8f",
-        "news_42d80422ca92",
-        "news_f8de29856631",
-        "news_7c9d70564092",
-        "news_64e205ea0eff",
-        "news_ce46b4659126",
-        "news_6187cca76a84",
-        "news_365d990ddc0a",
-        "news_9b6eace71407",
-        "news_a6898d92a8d6",
-        "news_3db9c3529da4",
-        "news_95deade611b9",
-        "news_cf02042ffbd4",
-        "news_3465a9cb688f",
-        "news_32265c18dcdc",
-        "news_821e31f5c9fa",
-        "news_9c8de095a7c5",
-        "news_de2273d7fbfe",
-        "news_59af9d503fe6",
-        "news_f36a6a3c88fb",
-        "news_6356475afb59",
-        "news_687a7cf50f4e"
       ],
       "status": "developing"
     },
@@ -6523,21 +6608,6 @@
       "status": "developing"
     },
     {
-      "eventId": "event_538a7904636d",
-      "title": "半日主力资金加仓电子股，抛售有色金属板块",
-      "firstSeenAt": "2026-08-10T05:44:40.094Z",
-      "lastSeenAt": "2026-08-25T13:18:38.935Z",
-      "primaryItemId": "news_1ac47d575af5",
-      "evidenceItemIds": [
-        "news_362d47e51e31",
-        "news_b45ce18ba023",
-        "news_1d28e72bb2ae",
-        "news_1ac47d575af5",
-        "news_47d391102050"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_fbbfe5b199ee",
       "title": "国内品牌金饰克价重回1400元",
       "firstSeenAt": "2026-08-08T09:05:33.315Z",
@@ -8159,21 +8229,6 @@
         "news_9e95d368da6c",
         "news_c5d27306206e",
         "news_4c70b036ce79"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_7199ad9035fe",
-      "title": "爱斯乐隆工业股价今日为何大涨？",
-      "firstSeenAt": "2026-08-14T05:46:46.798Z",
-      "lastSeenAt": "2026-08-18T01:54:05.956Z",
-      "primaryItemId": "news_193fef3b311a",
-      "evidenceItemIds": [
-        "news_1c0bf3c4fb4e",
-        "news_1877016fd283",
-        "news_4c93520bad64",
-        "news_28ce974b04ac",
-        "news_193fef3b311a"
       ],
       "status": "developing"
     },

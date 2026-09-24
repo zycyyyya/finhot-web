@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-09-24T04:59:19.730Z",
+  "generatedAt": "2026-09-24T09:18:19.548Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -8,7 +8,7 @@
       "eventId": "event_32967e3730b8",
       "title": "美股大型科技股盘前多数下跌，SK海力士跌超2%",
       "firstSeenAt": "2026-08-03T15:23:32.854Z",
-      "lastSeenAt": "2026-09-24T04:59:19.730Z",
+      "lastSeenAt": "2026-09-24T09:18:19.548Z",
       "primaryItemId": "news_d8a36369d503",
       "evidenceItemIds": [
         "news_b2f9a2b43ad3",
@@ -65,61 +65,10 @@
       "status": "developing"
     },
     {
-      "eventId": "event_0737eac2cabb",
-      "title": "连板股追踪丨A股今日共51只个股涨停 这只PCB概念股收获4连板",
-      "firstSeenAt": "2026-07-31T02:43:30.494Z",
-      "lastSeenAt": "2026-09-24T04:59:19.730Z",
-      "primaryItemId": "news_833e477e9e41",
-      "evidenceItemIds": [
-        "news_cf2b97a75d61",
-        "news_6b2b1bbc6628",
-        "news_0b0558cddf77",
-        "news_2a647756104e",
-        "news_8818289af9a3",
-        "news_11eae49a5b16",
-        "news_9e9caeefd1f2",
-        "news_83287e13cba2",
-        "news_8b8e574d724a",
-        "news_ac696b49df1d",
-        "news_715b15a27912",
-        "news_ecd33045b37e",
-        "news_1870ff4e37cf",
-        "news_98c908c2489d",
-        "news_6c2d9bece434",
-        "news_989085d79c58",
-        "news_10ae0a524615",
-        "news_c6e8e7ce3d1c",
-        "news_db44bec3d3da",
-        "news_30483ad43cda",
-        "news_61212134cdd7",
-        "news_0bce4f63f0f1",
-        "news_7d9073d69bfc",
-        "news_4ef716030320",
-        "news_c67366d8076f",
-        "news_37541f809c24",
-        "news_13504293c80d",
-        "news_f57742543118",
-        "news_4a8649e8ea6a",
-        "news_aaf35e751054",
-        "news_e6cae1fc8d66",
-        "news_49b84dbd3a21",
-        "news_bba3b862f6d2",
-        "news_b1063012f1f8",
-        "news_a1cb09abe3ce",
-        "news_d2a2c4bc213a",
-        "news_37d8c1a3063f",
-        "news_f6a3426fc36c",
-        "news_a0e68b16193a",
-        "news_a01fbd9da400",
-        "news_833e477e9e41"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_529af3584dc2",
       "title": "恒指午间休盘跌0.52%，恒生科技指数跌1.11%",
       "firstSeenAt": "2026-07-31T02:43:30.494Z",
-      "lastSeenAt": "2026-09-24T04:59:19.730Z",
+      "lastSeenAt": "2026-09-24T09:18:19.548Z",
       "primaryItemId": "news_f94f34ed437f",
       "evidenceItemIds": [
         "news_c1858bceeb50",
@@ -177,10 +126,10 @@
     },
     {
       "eventId": "event_274777a299d4",
-      "title": "什么？GPT比DeepSeek还便宜了？大模型价格战卷出新高度",
+      "title": "据报道，DeepSeek完成75亿美元融资，年化营收突破10亿美元",
       "firstSeenAt": "2026-07-31T14:43:32.623Z",
-      "lastSeenAt": "2026-09-24T04:59:19.730Z",
-      "primaryItemId": "news_b6672212b6a7",
+      "lastSeenAt": "2026-09-24T09:18:19.548Z",
+      "primaryItemId": "news_e903c3caf5fe",
       "evidenceItemIds": [
         "news_a4ff46a1602a",
         "news_112d02c83ae9",
@@ -190,7 +139,8 @@
         "news_6ecb0a36e017",
         "news_ec0522071c78",
         "news_7fe66b32d6ba",
-        "news_b6672212b6a7"
+        "news_b6672212b6a7",
+        "news_e903c3caf5fe"
       ],
       "status": "developing"
     },
@@ -198,7 +148,7 @@
       "eventId": "event_5bd288e6be30",
       "title": "布油重返100美元附近 美股期指小幅下挫 | 今夜看点",
       "firstSeenAt": "2026-09-22T13:29:48.963Z",
-      "lastSeenAt": "2026-09-24T04:59:19.730Z",
+      "lastSeenAt": "2026-09-24T09:18:19.548Z",
       "primaryItemId": "news_255fe1a85449",
       "evidenceItemIds": [
         "news_a7d7dc6ad132",
@@ -208,23 +158,10 @@
       "status": "developing"
     },
     {
-      "eventId": "event_11f678d3c5d4",
-      "title": "牧原股份旗下内蒙古公司增资至9亿，增幅200%",
-      "firstSeenAt": "2026-09-22T05:05:54.052Z",
-      "lastSeenAt": "2026-09-24T04:59:19.730Z",
-      "primaryItemId": "news_60738de4c31a",
-      "evidenceItemIds": [
-        "news_916311ba232a",
-        "news_e43b5314cad2",
-        "news_60738de4c31a"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_09c4a5403db3",
       "title": "欧元区商业活动增速创41个月新高",
       "firstSeenAt": "2026-09-01T09:28:40.652Z",
-      "lastSeenAt": "2026-09-24T04:59:19.730Z",
+      "lastSeenAt": "2026-09-24T09:18:19.548Z",
       "primaryItemId": "news_7c5df767f867",
       "evidenceItemIds": [
         "news_69d645d9acec",
@@ -239,7 +176,7 @@
       "eventId": "event_08833e6a19c6",
       "title": "中国央行：将在9月28日至10月8日开展隔夜逆回购操作，每日操作量不超过10000亿元",
       "firstSeenAt": "2026-09-23T09:22:53.776Z",
-      "lastSeenAt": "2026-09-24T04:59:19.730Z",
+      "lastSeenAt": "2026-09-24T09:18:19.548Z",
       "primaryItemId": "news_14d0f7b5502f",
       "evidenceItemIds": [
         "news_14d0f7b5502f",
@@ -250,10 +187,10 @@
     },
     {
       "eventId": "event_a13ee9840702",
-      "title": "习近平离京对美国进行国事访问",
+      "title": "习近平抵达华盛顿对美国进行国事访问",
       "firstSeenAt": "2026-09-23T09:22:53.776Z",
-      "lastSeenAt": "2026-09-24T04:59:19.730Z",
-      "primaryItemId": "news_158a7c7dfdd9",
+      "lastSeenAt": "2026-09-24T09:18:19.548Z",
+      "primaryItemId": "news_4bf068fe37e1",
       "evidenceItemIds": [
         "news_158a7c7dfdd9",
         "news_c4eb1779aadd",
@@ -262,34 +199,10 @@
       "status": "developing"
     },
     {
-      "eventId": "event_634a51321f25",
-      "title": "“YOYO Claw”等3款提供手机端侧生成式人工智能服务备案信息公布",
-      "firstSeenAt": "2026-09-23T09:22:53.776Z",
-      "lastSeenAt": "2026-09-24T04:59:19.730Z",
-      "primaryItemId": "news_3ddd4870a639",
-      "evidenceItemIds": [
-        "news_3ddd4870a639",
-        "news_9dbc56b072fa"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_bd035a0a7e2d",
-      "title": "【VIP日报】玻璃基板概念逆势拉升 王牌栏目追踪解读 提及核心公司涨停",
-      "firstSeenAt": "2026-09-23T09:22:53.776Z",
-      "lastSeenAt": "2026-09-24T04:59:19.730Z",
-      "primaryItemId": "news_927601d03130",
-      "evidenceItemIds": [
-        "news_927601d03130",
-        "news_1aa9fd1146ee"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_202dd878fa19",
       "title": "晚间公告｜9月23日这些公告有看头",
       "firstSeenAt": "2026-07-31T14:43:32.623Z",
-      "lastSeenAt": "2026-09-24T04:59:19.730Z",
+      "lastSeenAt": "2026-09-24T09:18:19.548Z",
       "primaryItemId": "news_c27d9791e31c",
       "evidenceItemIds": [
         "news_eaf56a2f5345",
@@ -346,7 +259,7 @@
       "eventId": "event_73f4b1fb41a8",
       "title": "龙虎榜丨机构今日买入这20股，卖出海正生材1.65亿元",
       "firstSeenAt": "2026-08-03T11:50:30.990Z",
-      "lastSeenAt": "2026-09-24T04:59:19.730Z",
+      "lastSeenAt": "2026-09-24T09:18:19.548Z",
       "primaryItemId": "news_5279581b449e",
       "evidenceItemIds": [
         "news_de7d0ba05e16",
@@ -393,7 +306,7 @@
       "eventId": "event_786d294e96ef",
       "title": "斥资16.52亿元！350亿MLCC概念股拟投建年产10.3万吨高端功能性BOPET基膜扩产项目|盘后公告集锦",
       "firstSeenAt": "2026-09-23T13:47:42.487Z",
-      "lastSeenAt": "2026-09-24T04:59:19.730Z",
+      "lastSeenAt": "2026-09-24T09:18:19.548Z",
       "primaryItemId": "news_55b5fb28ea81",
       "evidenceItemIds": [
         "news_55b5fb28ea81",
@@ -402,38 +315,15 @@
       "status": "developing"
     },
     {
-      "eventId": "event_17a3abc05bbe",
-      "title": "【数据看盘】机构活跃度明显下降 多路资金联手抢筹中一科技",
-      "firstSeenAt": "2026-09-23T13:47:42.487Z",
-      "lastSeenAt": "2026-09-24T04:59:19.730Z",
-      "primaryItemId": "news_f040e4fc0c8f",
-      "evidenceItemIds": [
-        "news_f040e4fc0c8f",
-        "news_07496a7994a5"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_aa2c4e1c68ba",
-      "title": "南向资金追踪｜净买入超34亿港元 加仓腾讯抛售建滔积层板",
-      "firstSeenAt": "2026-09-23T13:47:42.487Z",
-      "lastSeenAt": "2026-09-24T04:59:19.730Z",
-      "primaryItemId": "news_9599a80179ce",
-      "evidenceItemIds": [
-        "news_9599a80179ce",
-        "news_43e0d93cd821"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_7687251fbe8d",
-      "title": "五年期美债收益率自2007年以来首次涨穿5%",
+      "title": "美国10年期国债收益率升至5.04%，为2007年以来最高水平。",
       "firstSeenAt": "2026-09-23T17:14:36.029Z",
-      "lastSeenAt": "2026-09-24T04:59:19.730Z",
-      "primaryItemId": "news_a097cf3b7966",
+      "lastSeenAt": "2026-09-24T09:18:19.548Z",
+      "primaryItemId": "news_de13c70763c7",
       "evidenceItemIds": [
         "news_a097cf3b7966",
-        "news_de13c70763c7"
+        "news_de13c70763c7",
+        "news_3424dc106ce5"
       ],
       "status": "developing"
     },
@@ -441,7 +331,7 @@
       "eventId": "event_91fb625edcc6",
       "title": "华尔街见闻早餐FM-Radio | 2026年9月24日",
       "firstSeenAt": "2026-08-01T03:54:06.184Z",
-      "lastSeenAt": "2026-09-24T04:59:19.730Z",
+      "lastSeenAt": "2026-09-24T09:18:19.548Z",
       "primaryItemId": "news_9d6c9df853fe",
       "evidenceItemIds": [
         "news_17edaa318161",
@@ -484,7 +374,7 @@
       "eventId": "event_538a7904636d",
       "title": "半日主力资金加仓银行股，抛售电子、通信股",
       "firstSeenAt": "2026-08-10T05:44:40.094Z",
-      "lastSeenAt": "2026-09-24T04:59:19.730Z",
+      "lastSeenAt": "2026-09-24T09:18:19.548Z",
       "primaryItemId": "news_bdd496732be4",
       "evidenceItemIds": [
         "news_362d47e51e31",
@@ -501,7 +391,7 @@
       "eventId": "event_7199ad9035fe",
       "title": "住友电气工业股价今日为何大涨？",
       "firstSeenAt": "2026-08-14T05:46:46.798Z",
-      "lastSeenAt": "2026-09-24T04:59:19.730Z",
+      "lastSeenAt": "2026-09-24T09:18:19.548Z",
       "primaryItemId": "news_0589c9b5e3ff",
       "evidenceItemIds": [
         "news_1c0bf3c4fb4e",
@@ -518,7 +408,7 @@
       "eventId": "event_9e97445da79b",
       "title": "人事观察｜57岁王陆进代理河南省长",
       "firstSeenAt": "2026-09-24T04:59:19.730Z",
-      "lastSeenAt": "2026-09-24T04:59:19.730Z",
+      "lastSeenAt": "2026-09-24T09:18:19.548Z",
       "primaryItemId": "news_481181380b5f",
       "evidenceItemIds": [
         "news_481181380b5f",
@@ -530,7 +420,7 @@
       "eventId": "event_69980308fa36",
       "title": "华尔街最火的“金融AI”创始人：如何做“AI时代的彭博”，为何OpenAI和Anthropic做不好金融",
       "firstSeenAt": "2026-09-24T04:59:19.730Z",
-      "lastSeenAt": "2026-09-24T04:59:19.730Z",
+      "lastSeenAt": "2026-09-24T09:18:19.548Z",
       "primaryItemId": "news_e9da553ace46",
       "evidenceItemIds": [
         "news_e9da553ace46",
@@ -542,7 +432,7 @@
       "eventId": "event_a6cda2308735",
       "title": "Meta Connect大会：Muse唱主角，新眼镜发布",
       "firstSeenAt": "2026-09-24T04:59:19.730Z",
-      "lastSeenAt": "2026-09-24T04:59:19.730Z",
+      "lastSeenAt": "2026-09-24T09:18:19.548Z",
       "primaryItemId": "news_5c43d32991ba",
       "evidenceItemIds": [
         "news_5c43d32991ba",
@@ -552,14 +442,151 @@
     },
     {
       "eventId": "event_203eadbc4cdd",
-      "title": "Muse开门红，但Meta能笑多久？",
+      "title": "ChatGPT之后，下一个全民AI应用会是Meta Muse吗？",
       "firstSeenAt": "2026-09-24T04:59:19.730Z",
-      "lastSeenAt": "2026-09-24T04:59:19.730Z",
-      "primaryItemId": "news_6db00764fb30",
+      "lastSeenAt": "2026-09-24T09:18:19.548Z",
+      "primaryItemId": "news_7da9c207e6a6",
       "evidenceItemIds": [
         "news_6db00764fb30",
         "news_db69a7d50e75",
-        "news_fba3a3eaad4d"
+        "news_fba3a3eaad4d",
+        "news_7da9c207e6a6"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_a9a5df6924cd",
+      "title": "美国ITC正式对动态随机存取存储器（DRAM）设备及其下游产品和组件（III）启动337调查",
+      "firstSeenAt": "2026-09-24T09:18:19.548Z",
+      "lastSeenAt": "2026-09-24T09:18:19.548Z",
+      "primaryItemId": "news_624f6a54419e",
+      "evidenceItemIds": [
+        "news_624f6a54419e",
+        "news_6516115bf064"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_05eded4800db",
+      "title": "全球债市抛售加剧，10年期日债收益率创30年新高，10年期美债延续跌势，美股期指走低、油涨金跌",
+      "firstSeenAt": "2026-09-24T09:18:19.548Z",
+      "lastSeenAt": "2026-09-24T09:18:19.548Z",
+      "primaryItemId": "news_db813cc379ee",
+      "evidenceItemIds": [
+        "news_db813cc379ee",
+        "news_51f9bce98dc9"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_0737eac2cabb",
+      "title": "连板股追踪丨A股今日共51只个股涨停 这只PCB概念股收获4连板",
+      "firstSeenAt": "2026-07-31T02:43:30.494Z",
+      "lastSeenAt": "2026-09-24T04:59:19.730Z",
+      "primaryItemId": "news_833e477e9e41",
+      "evidenceItemIds": [
+        "news_cf2b97a75d61",
+        "news_6b2b1bbc6628",
+        "news_0b0558cddf77",
+        "news_2a647756104e",
+        "news_8818289af9a3",
+        "news_11eae49a5b16",
+        "news_9e9caeefd1f2",
+        "news_83287e13cba2",
+        "news_8b8e574d724a",
+        "news_ac696b49df1d",
+        "news_715b15a27912",
+        "news_ecd33045b37e",
+        "news_1870ff4e37cf",
+        "news_98c908c2489d",
+        "news_6c2d9bece434",
+        "news_989085d79c58",
+        "news_10ae0a524615",
+        "news_c6e8e7ce3d1c",
+        "news_db44bec3d3da",
+        "news_30483ad43cda",
+        "news_61212134cdd7",
+        "news_0bce4f63f0f1",
+        "news_7d9073d69bfc",
+        "news_4ef716030320",
+        "news_c67366d8076f",
+        "news_37541f809c24",
+        "news_13504293c80d",
+        "news_f57742543118",
+        "news_4a8649e8ea6a",
+        "news_aaf35e751054",
+        "news_e6cae1fc8d66",
+        "news_49b84dbd3a21",
+        "news_bba3b862f6d2",
+        "news_b1063012f1f8",
+        "news_a1cb09abe3ce",
+        "news_d2a2c4bc213a",
+        "news_37d8c1a3063f",
+        "news_f6a3426fc36c",
+        "news_a0e68b16193a",
+        "news_a01fbd9da400",
+        "news_833e477e9e41"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_11f678d3c5d4",
+      "title": "牧原股份旗下内蒙古公司增资至9亿，增幅200%",
+      "firstSeenAt": "2026-09-22T05:05:54.052Z",
+      "lastSeenAt": "2026-09-24T04:59:19.730Z",
+      "primaryItemId": "news_60738de4c31a",
+      "evidenceItemIds": [
+        "news_916311ba232a",
+        "news_e43b5314cad2",
+        "news_60738de4c31a"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_634a51321f25",
+      "title": "“YOYO Claw”等3款提供手机端侧生成式人工智能服务备案信息公布",
+      "firstSeenAt": "2026-09-23T09:22:53.776Z",
+      "lastSeenAt": "2026-09-24T04:59:19.730Z",
+      "primaryItemId": "news_3ddd4870a639",
+      "evidenceItemIds": [
+        "news_3ddd4870a639",
+        "news_9dbc56b072fa"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_bd035a0a7e2d",
+      "title": "【VIP日报】玻璃基板概念逆势拉升 王牌栏目追踪解读 提及核心公司涨停",
+      "firstSeenAt": "2026-09-23T09:22:53.776Z",
+      "lastSeenAt": "2026-09-24T04:59:19.730Z",
+      "primaryItemId": "news_927601d03130",
+      "evidenceItemIds": [
+        "news_927601d03130",
+        "news_1aa9fd1146ee"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_17a3abc05bbe",
+      "title": "【数据看盘】机构活跃度明显下降 多路资金联手抢筹中一科技",
+      "firstSeenAt": "2026-09-23T13:47:42.487Z",
+      "lastSeenAt": "2026-09-24T04:59:19.730Z",
+      "primaryItemId": "news_f040e4fc0c8f",
+      "evidenceItemIds": [
+        "news_f040e4fc0c8f",
+        "news_07496a7994a5"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_aa2c4e1c68ba",
+      "title": "南向资金追踪｜净买入超34亿港元 加仓腾讯抛售建滔积层板",
+      "firstSeenAt": "2026-09-23T13:47:42.487Z",
+      "lastSeenAt": "2026-09-24T04:59:19.730Z",
+      "primaryItemId": "news_9599a80179ce",
+      "evidenceItemIds": [
+        "news_9599a80179ce",
+        "news_43e0d93cd821"
       ],
       "status": "developing"
     },

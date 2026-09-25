@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-09-25T05:06:41.639Z",
+  "generatedAt": "2026-09-25T09:37:05.679Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -8,7 +8,7 @@
       "eventId": "event_32967e3730b8",
       "title": "美股大型科技股盘前普跌，美光科技跌超2%",
       "firstSeenAt": "2026-08-03T15:23:32.854Z",
-      "lastSeenAt": "2026-09-25T05:06:41.639Z",
+      "lastSeenAt": "2026-09-25T09:37:05.679Z",
       "primaryItemId": "news_50938eea9e00",
       "evidenceItemIds": [
         "news_6b40c15032cc",
@@ -66,12 +66,11 @@
     },
     {
       "eventId": "event_529af3584dc2",
-      "title": "恒指午间休盘跌1.69%，恒生科技指数跌2.14%",
+      "title": "恒指收跌1.01%，恒生科技指数跌1.13%",
       "firstSeenAt": "2026-07-31T02:43:30.494Z",
-      "lastSeenAt": "2026-09-25T05:06:41.639Z",
-      "primaryItemId": "news_5bd22499d70d",
+      "lastSeenAt": "2026-09-25T09:37:05.679Z",
+      "primaryItemId": "news_55ca79843513",
       "evidenceItemIds": [
-        "news_3be203f2d778",
         "news_21ee0b9fb11f",
         "news_4a0d3d6b1b80",
         "news_9ad084c58f34",
@@ -120,22 +119,8 @@
         "news_bb3932f7986b",
         "news_f94f34ed437f",
         "news_58bca20c960d",
-        "news_5bd22499d70d"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_09c4a5403db3",
-      "title": "欧元区商业活动增速创41个月新高",
-      "firstSeenAt": "2026-09-01T09:28:40.652Z",
-      "lastSeenAt": "2026-09-25T05:06:41.639Z",
-      "primaryItemId": "news_7c5df767f867",
-      "evidenceItemIds": [
-        "news_69d645d9acec",
-        "news_093bcefb9894",
-        "news_9598d852f5c7",
-        "news_7c5df767f867",
-        "news_baa126d373cb"
+        "news_5bd22499d70d",
+        "news_55ca79843513"
       ],
       "status": "developing"
     },
@@ -143,7 +128,7 @@
       "eventId": "event_202dd878fa19",
       "title": "晚间公告｜9月24日这些公告有看头",
       "firstSeenAt": "2026-07-31T14:43:32.623Z",
-      "lastSeenAt": "2026-09-25T05:06:41.639Z",
+      "lastSeenAt": "2026-09-25T09:37:05.679Z",
       "primaryItemId": "news_0e1b38e49ce4",
       "evidenceItemIds": [
         "news_eaf56a2f5345",
@@ -198,59 +183,11 @@
       "status": "developing"
     },
     {
-      "eventId": "event_73f4b1fb41a8",
-      "title": "龙虎榜丨机构今日买入这19股，卖出中京电子1.25亿元",
-      "firstSeenAt": "2026-08-03T11:50:30.990Z",
-      "lastSeenAt": "2026-09-25T05:06:41.639Z",
-      "primaryItemId": "news_1b8e14b50197",
-      "evidenceItemIds": [
-        "news_de7d0ba05e16",
-        "news_e7a76dcea2a8",
-        "news_d9bbbfd32f43",
-        "news_9d97988a8b31",
-        "news_f8e689022fb3",
-        "news_a41d521c5c53",
-        "news_50b190578187",
-        "news_45437b89e860",
-        "news_d1e40824a959",
-        "news_d35397f00f85",
-        "news_28eb220b6d7d",
-        "news_83a8f0bce8bc",
-        "news_a434c7856598",
-        "news_a8c173d2f58f",
-        "news_f7c76b8d1160",
-        "news_be3920c8ab0f",
-        "news_7a02bb038160",
-        "news_5e9ecf83e613",
-        "news_40d2672e7c11",
-        "news_c0cf1488e336",
-        "news_9b61e52ad416",
-        "news_93d30ccfe80b",
-        "news_6b446ac18e20",
-        "news_52fedf4cbbb1",
-        "news_03577cf502cc",
-        "news_d0fdb37aef08",
-        "news_8506c5c0912d",
-        "news_4eb1533ada96",
-        "news_c44c352e8ee0",
-        "news_2854369976d9",
-        "news_7d0c5ea15723",
-        "news_45bff668174f",
-        "news_e18320b67a97",
-        "news_0481fc8f2ed7",
-        "news_dfaa8fd92a1b",
-        "news_5279581b449e",
-        "news_5a29a5c6d60a",
-        "news_1b8e14b50197"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_7687251fbe8d",
-      "title": "美国10年期国债收益率升至5.04%，为2007年以来最高水平。",
+      "title": "30年期美债收益率创2004年6月以来新高，美主要股指全线低开",
       "firstSeenAt": "2026-09-23T17:14:36.029Z",
-      "lastSeenAt": "2026-09-25T05:06:41.639Z",
-      "primaryItemId": "news_de13c70763c7",
+      "lastSeenAt": "2026-09-25T09:37:05.679Z",
+      "primaryItemId": "news_4fb63826683c",
       "evidenceItemIds": [
         "news_a097cf3b7966",
         "news_de13c70763c7",
@@ -263,7 +200,7 @@
       "eventId": "event_69980308fa36",
       "title": "报道：谷歌、OpenAI和Anthropic人工智能安全组织成形，预计最早今年年底正式启动",
       "firstSeenAt": "2026-09-24T04:59:19.730Z",
-      "lastSeenAt": "2026-09-25T05:06:41.639Z",
+      "lastSeenAt": "2026-09-25T09:37:05.679Z",
       "primaryItemId": "news_42aeb965bbdc",
       "evidenceItemIds": [
         "news_e9da553ace46",
@@ -276,7 +213,7 @@
       "eventId": "event_a9a5df6924cd",
       "title": "美国ITC正式对动态随机存取存储器（DRAM）设备及其下游产品和组件（III）启动337调查",
       "firstSeenAt": "2026-09-24T09:18:19.548Z",
-      "lastSeenAt": "2026-09-25T05:06:41.639Z",
+      "lastSeenAt": "2026-09-25T09:37:05.679Z",
       "primaryItemId": "news_624f6a54419e",
       "evidenceItemIds": [
         "news_624f6a54419e",
@@ -289,7 +226,7 @@
       "eventId": "event_2f5bc2cc3a40",
       "title": "盘前大跌4%！甲骨文突发“不可抗力”通知，因担忧3000亿美元数据中心项目延期",
       "firstSeenAt": "2026-09-24T13:40:21.808Z",
-      "lastSeenAt": "2026-09-25T05:06:41.639Z",
+      "lastSeenAt": "2026-09-25T09:37:05.679Z",
       "primaryItemId": "news_b2f65a4fa94c",
       "evidenceItemIds": [
         "news_b2f65a4fa94c",
@@ -301,7 +238,7 @@
       "eventId": "event_3a1c1bcf1f2f",
       "title": "商务部：1-8月我国企业在共建“一带一路”国家非金融类直接投资243.6亿美元，下降7.4%",
       "firstSeenAt": "2026-09-24T13:40:21.808Z",
-      "lastSeenAt": "2026-09-25T05:06:41.639Z",
+      "lastSeenAt": "2026-09-25T09:37:05.679Z",
       "primaryItemId": "news_99050c43d492",
       "evidenceItemIds": [
         "news_99050c43d492",
@@ -313,7 +250,7 @@
       "eventId": "event_b2ade866a914",
       "title": "中证指数有限公司决定修订中证全指指数和中证流通指数编制方案",
       "firstSeenAt": "2026-09-24T13:40:21.808Z",
-      "lastSeenAt": "2026-09-25T05:06:41.639Z",
+      "lastSeenAt": "2026-09-25T09:37:05.679Z",
       "primaryItemId": "news_d285a91b6299",
       "evidenceItemIds": [
         "news_d285a91b6299",
@@ -325,7 +262,7 @@
       "eventId": "event_e49f6c4380cd",
       "title": "上交所向5连板新华文轩下发监管工作函",
       "firstSeenAt": "2026-09-24T13:40:21.808Z",
-      "lastSeenAt": "2026-09-25T05:06:41.639Z",
+      "lastSeenAt": "2026-09-25T09:37:05.679Z",
       "primaryItemId": "news_4304de67d5b2",
       "evidenceItemIds": [
         "news_4304de67d5b2",
@@ -337,7 +274,7 @@
       "eventId": "event_a678dcb442aa",
       "title": "英国股市收低；截至收盘Investing.com 英国 100下跌0.30%",
       "firstSeenAt": "2026-09-01T16:50:22.105Z",
-      "lastSeenAt": "2026-09-25T05:06:41.639Z",
+      "lastSeenAt": "2026-09-25T09:37:05.679Z",
       "primaryItemId": "news_9342a712f015",
       "evidenceItemIds": [
         "news_023dcd0d28ad",
@@ -392,7 +329,7 @@
       "eventId": "event_88d37f569468",
       "title": "葡萄牙股市上涨；截至收盘PSI上涨0.54%",
       "firstSeenAt": "2026-08-27T22:27:22.891Z",
-      "lastSeenAt": "2026-09-25T05:06:41.639Z",
+      "lastSeenAt": "2026-09-25T09:37:05.679Z",
       "primaryItemId": "news_012e5d43b2fe",
       "evidenceItemIds": [
         "news_1dcdfda18973",
@@ -418,7 +355,7 @@
       "eventId": "event_17d5c1080366",
       "title": "报道称美伊探讨分阶段重启霍尔木兹海峡，原油涨幅火速“腰斩”",
       "firstSeenAt": "2026-09-24T17:20:47.095Z",
-      "lastSeenAt": "2026-09-25T05:06:41.639Z",
+      "lastSeenAt": "2026-09-25T09:37:05.679Z",
       "primaryItemId": "news_050a71333ad3",
       "evidenceItemIds": [
         "news_050a71333ad3",
@@ -428,10 +365,10 @@
     },
     {
       "eventId": "event_787e801e9d44",
-      "title": "美联储加息后的市场方向",
+      "title": "油价飙升叠加美联储加息预期升温，新兴市场股汇双双承压",
       "firstSeenAt": "2026-09-24T17:20:47.095Z",
-      "lastSeenAt": "2026-09-25T05:06:41.639Z",
-      "primaryItemId": "news_d6d15d7a67b3",
+      "lastSeenAt": "2026-09-25T09:37:05.679Z",
+      "primaryItemId": "news_fa15524b55f8",
       "evidenceItemIds": [
         "news_fa15524b55f8",
         "news_d6d15d7a67b3",
@@ -443,7 +380,7 @@
       "eventId": "event_86706bc3d28c",
       "title": "债券ETF首破万亿",
       "firstSeenAt": "2026-09-24T17:20:47.095Z",
-      "lastSeenAt": "2026-09-25T05:06:41.639Z",
+      "lastSeenAt": "2026-09-25T09:37:05.679Z",
       "primaryItemId": "news_91b8cf1a5ca4",
       "evidenceItemIds": [
         "news_91b8cf1a5ca4",
@@ -453,10 +390,10 @@
     },
     {
       "eventId": "event_047e88dec624",
-      "title": "北京市住建委等部门：商品房预售需封顶，优先选择现房销售",
+      "title": "北京：商品房预售需封顶 优先选择现房销售",
       "firstSeenAt": "2026-09-24T17:20:47.095Z",
-      "lastSeenAt": "2026-09-25T05:06:41.639Z",
-      "primaryItemId": "news_a110761e0589",
+      "lastSeenAt": "2026-09-25T09:37:05.679Z",
+      "primaryItemId": "news_d82041dfb432",
       "evidenceItemIds": [
         "news_a110761e0589",
         "news_d82041dfb432"
@@ -467,7 +404,7 @@
       "eventId": "event_8457eb4024cc",
       "title": "美财长称中美已同意将贸易休战协议延长至明年1月，外交部回应",
       "firstSeenAt": "2026-09-24T17:20:47.095Z",
-      "lastSeenAt": "2026-09-25T05:06:41.639Z",
+      "lastSeenAt": "2026-09-25T09:37:05.679Z",
       "primaryItemId": "news_9b405e3937ae",
       "evidenceItemIds": [
         "news_9b405e3937ae",
@@ -479,7 +416,7 @@
       "eventId": "event_1b191e148fb9",
       "title": "豆包裁员、对话团队砍掉一半？豆包刘星：不实，系分工调整",
       "firstSeenAt": "2026-09-24T17:20:47.095Z",
-      "lastSeenAt": "2026-09-25T05:06:41.639Z",
+      "lastSeenAt": "2026-09-25T09:37:05.679Z",
       "primaryItemId": "news_a7aeb21bb6c5",
       "evidenceItemIds": [
         "news_a7aeb21bb6c5",
@@ -488,22 +425,10 @@
       "status": "developing"
     },
     {
-      "eventId": "event_a553a0b2bea5",
-      "title": "Storage Vault Canada股价今日为何下跌？",
-      "firstSeenAt": "2026-09-24T17:20:47.095Z",
-      "lastSeenAt": "2026-09-25T05:06:41.639Z",
-      "primaryItemId": "news_c1a9fa04036f",
-      "evidenceItemIds": [
-        "news_c1a9fa04036f",
-        "news_7caf4d6c4ecf"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_91fb625edcc6",
       "title": "华尔街见闻早餐FM-Radio | 2026年9月25日",
       "firstSeenAt": "2026-08-01T03:54:06.184Z",
-      "lastSeenAt": "2026-09-25T05:06:41.639Z",
+      "lastSeenAt": "2026-09-25T09:37:05.679Z",
       "primaryItemId": "news_33a9db2a790e",
       "evidenceItemIds": [
         "news_17edaa318161",
@@ -547,7 +472,7 @@
       "eventId": "event_33f394c17933",
       "title": "名创优品(09896)9月24日斥资约20.62万美元回购约9.24万股",
       "firstSeenAt": "2026-09-09T04:48:18.184Z",
-      "lastSeenAt": "2026-09-25T05:06:41.639Z",
+      "lastSeenAt": "2026-09-25T09:37:05.679Z",
       "primaryItemId": "news_0b05547cfdc8",
       "evidenceItemIds": [
         "news_c24ccb2cb70f",
@@ -559,7 +484,8 @@
         "news_3bd2d997f498",
         "news_95f8af839dbb",
         "news_0b05547cfdc8",
-        "news_753ff545f718"
+        "news_753ff545f718",
+        "news_d1ca6084e3ef"
       ],
       "status": "developing"
     },
@@ -567,7 +493,7 @@
       "eventId": "event_a1295490789c",
       "title": "习近平主席在欢迎仪式上发表致辞。（央视）",
       "firstSeenAt": "2026-09-25T05:06:41.639Z",
-      "lastSeenAt": "2026-09-25T05:06:41.639Z",
+      "lastSeenAt": "2026-09-25T09:37:05.679Z",
       "primaryItemId": "news_abd068def4e2",
       "evidenceItemIds": [
         "news_abd068def4e2",
@@ -579,7 +505,7 @@
       "eventId": "event_9ef8391147bc",
       "title": "习近平谈中东局势",
       "firstSeenAt": "2026-09-25T05:06:41.639Z",
-      "lastSeenAt": "2026-09-25T05:06:41.639Z",
+      "lastSeenAt": "2026-09-25T09:37:05.679Z",
       "primaryItemId": "news_e73ecd0137a6",
       "evidenceItemIds": [
         "news_e73ecd0137a6",
@@ -591,7 +517,7 @@
       "eventId": "event_b16bf2547dff",
       "title": "商务部：中美第八轮经贸磋商达成多项共识",
       "firstSeenAt": "2026-09-25T05:06:41.639Z",
-      "lastSeenAt": "2026-09-25T05:06:41.639Z",
+      "lastSeenAt": "2026-09-25T09:37:05.679Z",
       "primaryItemId": "news_8f87edf6a80c",
       "evidenceItemIds": [
         "news_8f87edf6a80c",
@@ -603,11 +529,86 @@
       "eventId": "event_be1a4b4b4dbf",
       "title": "OpenAI、Anthropic被要求在完成白宫测试前不能向英国分享新模型",
       "firstSeenAt": "2026-09-25T05:06:41.639Z",
-      "lastSeenAt": "2026-09-25T05:06:41.639Z",
+      "lastSeenAt": "2026-09-25T09:37:05.679Z",
       "primaryItemId": "news_1058c20014c4",
       "evidenceItemIds": [
         "news_1058c20014c4",
         "news_6c31d10de7c1"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_09c4a5403db3",
+      "title": "欧元区商业活动增速创41个月新高",
+      "firstSeenAt": "2026-09-01T09:28:40.652Z",
+      "lastSeenAt": "2026-09-25T05:06:41.639Z",
+      "primaryItemId": "news_7c5df767f867",
+      "evidenceItemIds": [
+        "news_69d645d9acec",
+        "news_093bcefb9894",
+        "news_9598d852f5c7",
+        "news_7c5df767f867",
+        "news_baa126d373cb"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_73f4b1fb41a8",
+      "title": "龙虎榜丨机构今日买入这19股，卖出中京电子1.25亿元",
+      "firstSeenAt": "2026-08-03T11:50:30.990Z",
+      "lastSeenAt": "2026-09-25T05:06:41.639Z",
+      "primaryItemId": "news_1b8e14b50197",
+      "evidenceItemIds": [
+        "news_de7d0ba05e16",
+        "news_e7a76dcea2a8",
+        "news_d9bbbfd32f43",
+        "news_9d97988a8b31",
+        "news_f8e689022fb3",
+        "news_a41d521c5c53",
+        "news_50b190578187",
+        "news_45437b89e860",
+        "news_d1e40824a959",
+        "news_d35397f00f85",
+        "news_28eb220b6d7d",
+        "news_83a8f0bce8bc",
+        "news_a434c7856598",
+        "news_a8c173d2f58f",
+        "news_f7c76b8d1160",
+        "news_be3920c8ab0f",
+        "news_7a02bb038160",
+        "news_5e9ecf83e613",
+        "news_40d2672e7c11",
+        "news_c0cf1488e336",
+        "news_9b61e52ad416",
+        "news_93d30ccfe80b",
+        "news_6b446ac18e20",
+        "news_52fedf4cbbb1",
+        "news_03577cf502cc",
+        "news_d0fdb37aef08",
+        "news_8506c5c0912d",
+        "news_4eb1533ada96",
+        "news_c44c352e8ee0",
+        "news_2854369976d9",
+        "news_7d0c5ea15723",
+        "news_45bff668174f",
+        "news_e18320b67a97",
+        "news_0481fc8f2ed7",
+        "news_dfaa8fd92a1b",
+        "news_5279581b449e",
+        "news_5a29a5c6d60a",
+        "news_1b8e14b50197"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_a553a0b2bea5",
+      "title": "Storage Vault Canada股价今日为何下跌？",
+      "firstSeenAt": "2026-09-24T17:20:47.095Z",
+      "lastSeenAt": "2026-09-25T05:06:41.639Z",
+      "primaryItemId": "news_c1a9fa04036f",
+      "evidenceItemIds": [
+        "news_c1a9fa04036f",
+        "news_7caf4d6c4ecf"
       ],
       "status": "developing"
     },

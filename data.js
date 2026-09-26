@@ -1,5 +1,5 @@
 // finhot auto-generated data - powered by RSSHub + financial sources
-// Generated: 2026-09-26T13:19:12.302Z
+// Generated: 2026-09-26T16:33:42.256Z
 // Practitioner value scoring: relevance(25) + authority(20) + impact(20) + recency(15) + depth(10) + actionability(10)
 
 window.CATEGORIES = [
@@ -94,10 +94,253 @@ window.CATEGORY_CONFIG = {
 };
 
 window.FINHOT_DATA = {
-  "date": "2026-09-26",
-  "generatedAt": "2026-09-26T13:19:12.302Z",
-  "lead": "今日新增 62 条，共 150 条精选资讯",
+  "date": "2026-09-27",
+  "generatedAt": "2026-09-26T16:33:42.256Z",
+  "lead": "今日新增 40 条，共 150 条精选资讯",
   "items": [
+    {
+      "title": "沙特阿美考虑拆分天然气业务，估值或超1,000亿美元",
+      "sourceUrl": "https://cn.investing.com/news/stock-market-news/article-3584415",
+      "publishedAt": "2026-09-26T15:41:51.000Z",
+      "fetchedAt": "2026-09-26T16:33:42.043Z",
+      "timeConfidence": "source",
+      "summary": "",
+      "sourceName": "英为财情",
+      "category": "industry",
+      "tags": [
+        "行业动态"
+      ],
+      "evidenceType": "financial_media",
+      "discoveredVia": "Investing.com",
+      "id": "news_3f91d04c126c",
+      "tier": "S2",
+      "sourceTier": "S2",
+      "sourceTierLabel": "专业财经媒体",
+      "score": 57,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 12,
+        "authority": 15,
+        "impact": 8,
+        "recency": 15,
+        "depth": 3,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "专业财经媒体跟进",
+        "时效性高"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 20,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "marketEducation": {
+          "score": 42,
+          "reasons": [
+            "命中二级市场投教核心主题 1 项"
+          ]
+        },
+        "privateFundSales": {
+          "score": 20,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        }
+      },
+      "primaryScene": "marketEducation",
+      "selectedForFeatured": false,
+      "contentTags": [
+        "行业动态"
+      ],
+      "eventId": null
+    },
+    {
+      "title": "火线评论｜中美元首华盛顿会谈的启示：重温历史感召 共应未来变局",
+      "sourceUrl": "https://opinion.caixin.com/2026-09-26/102488973.html",
+      "publishedAt": "2026-09-26T13:51:19.000Z",
+      "fetchedAt": "2026-09-26T16:30:50.870Z",
+      "timeConfidence": "source",
+      "summary": "一度备受经贸摩擦、科技竞争和疫情因素影响而遭遇重重考验的中美关系，正逐步在各领域筑起防止滑向恶性斗争的护栏\n       　　【财新网】/火线评论\n　　举世瞩目的2026年第二场中美元首交往议程，国家主席习近平与夫人彭丽媛时隔11年的又一次赴美国事访问，在美国国家档案馆前的宏伟阶梯上，以两国元首夫妇的郑重话别，写下了句号。\n　　令中美两国社会乃至于全球关心中美关系发展的有识者为之振奋的是，在习近平",
+      "sourceName": "财新网",
+      "category": "industry",
+      "tags": [
+        "行业动态"
+      ],
+      "evidenceType": "financial_media",
+      "discoveredVia": "RSSHub",
+      "id": "news_d621874b4fe3",
+      "tier": "S2",
+      "sourceTier": "S2",
+      "sourceTierLabel": "专业财经媒体",
+      "score": 64,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 12,
+        "authority": 15,
+        "impact": 8,
+        "recency": 15,
+        "depth": 10,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "专业财经媒体跟进",
+        "时效性高",
+        "摘要信息较完整"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 20,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "marketEducation": {
+          "score": 20,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "privateFundSales": {
+          "score": 20,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        }
+      },
+      "primaryScene": "marketEducation",
+      "selectedForFeatured": false,
+      "contentTags": [
+        "行业动态"
+      ],
+      "eventId": null
+    },
+    {
+      "title": "伊朗总统：已与最高领袖协调",
+      "sourceUrl": "https://wallstreetcn.com/livenews/3171000",
+      "publishedAt": "2026-09-26T13:43:53.000Z",
+      "fetchedAt": "2026-09-26T16:31:06.433Z",
+      "timeConfidence": "source",
+      "summary": "据法新社9月26日报道，伊朗媒体26日援引伊朗总统佩泽希齐扬接受美国媒体的采访报道说，佩泽希齐扬表示，关于德黑兰重新开放霍尔木兹海峡的新计划，已与最高领袖穆杰塔巴·哈梅内伊协调一致。佩泽希齐扬还表示，如果美国同意该提议，伊朗将履行其义务。\n\n佩泽希齐扬表示，伊朗的一个6人小组一直在开会讨论，并“拥有决策权”。该小组包括“来自不同组织和机构的代表，包括军方、议会和政府”。（参考消息）",
+      "sourceName": "华尔街见闻",
+      "category": "industry",
+      "tags": [
+        "行业动态"
+      ],
+      "evidenceType": "financial_media",
+      "discoveredVia": "RSSHub",
+      "id": "news_48affc9f00a1",
+      "tier": "S2",
+      "sourceTier": "S2",
+      "sourceTierLabel": "专业财经媒体",
+      "score": 64,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 12,
+        "authority": 15,
+        "impact": 8,
+        "recency": 15,
+        "depth": 10,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "专业财经媒体跟进",
+        "时效性高",
+        "摘要信息较完整"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 20,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "marketEducation": {
+          "score": 20,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "privateFundSales": {
+          "score": 20,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        }
+      },
+      "primaryScene": "marketEducation",
+      "selectedForFeatured": false,
+      "contentTags": [
+        "行业动态"
+      ],
+      "eventId": null
+    },
+    {
+      "title": "刘欢去世：把音乐看得大一些，把自己看得小一些",
+      "sourceUrl": "https://www.yicai.com/news/103378606.html",
+      "publishedAt": "2026-09-26T13:27:46.000Z",
+      "fetchedAt": "2026-09-26T16:31:22.547Z",
+      "timeConfidence": "source",
+      "summary": "在中国流行乐坛，刘欢几乎是一个符号。刘欢去世的消息传来，音乐人左小祖咒想起的，不是哪一场盛大的演出，而是刘欢的声音。“很多人，几乎是在不知不觉中听着它长大的。收音机里，电视里、街上的店里，总有那么一刻，他开口了，你就停下来了。”\n\n9月26日，对外经济贸易大学发布讣告，该校退休教师、音乐家刘欢，于2026年9月25日上午9时52分在上海病逝，享年63岁。遵照刘欢生前遗愿，丧事从简，不设治丧委员会，",
+      "sourceName": "第一财经",
+      "category": "industry",
+      "tags": [
+        "行业动态"
+      ],
+      "evidenceType": "financial_media",
+      "discoveredVia": "RSSHub",
+      "id": "news_8156163cd6ab",
+      "tier": "S2",
+      "sourceTier": "S2",
+      "sourceTierLabel": "专业财经媒体",
+      "score": 64,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 12,
+        "authority": 15,
+        "impact": 8,
+        "recency": 15,
+        "depth": 10,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "专业财经媒体跟进",
+        "时效性高",
+        "摘要信息较完整"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 20,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "marketEducation": {
+          "score": 20,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "privateFundSales": {
+          "score": 20,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        }
+      },
+      "primaryScene": "marketEducation",
+      "selectedForFeatured": false,
+      "contentTags": [
+        "行业动态"
+      ],
+      "eventId": null
+    },
     {
       "title": "壹快评｜盖茨、奥尔特曼、马斯克，为何都在担忧这件事",
       "sourceUrl": "https://www.yicai.com/news/103378600.html",
@@ -9049,250 +9292,6 @@ window.FINHOT_DATA = {
         "行业动态"
       ],
       "eventId": null
-    },
-    {
-      "title": "刘元春：为什么说AI治理的关口必须前移",
-      "sourceUrl": "https://www.yicai.com/news/103378281.html",
-      "publishedAt": "2026-09-25T05:39:09.000Z",
-      "fetchedAt": "2026-09-25T09:35:21.092Z",
-      "timeConfidence": "source",
-      "summary": "科技与人文的关系演变成了治理的核心底盘。随着人工智能（AI）技术近年来迅速发展，它对生产力、资本乃至人类社会结构的重构，也超出了以往工业革命的推演路径。上海财经大学校长刘元春在24日举行的“数智人文 创新生态”高端对话会上表示，AI并非传统意义上的技术更迭，而是一种典型的“超级技术”。从传统的经济增长路径演变，到高校人文学科的现实冲击，再到涉及生存、分配与组织体制的治理深水区，人类现有的应对框架正",
-      "sourceName": "第一财经",
-      "category": "industry",
-      "tags": [
-        "行业动态"
-      ],
-      "evidenceType": "financial_media",
-      "discoveredVia": "RSSHub",
-      "id": "news_2ccf34e93100",
-      "tier": "S2",
-      "sourceTier": "S2",
-      "sourceTierLabel": "专业财经媒体",
-      "score": 64,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 12,
-        "authority": 15,
-        "impact": 8,
-        "recency": 15,
-        "depth": 10,
-        "actionability": 4
-      },
-      "confidence": "low",
-      "why": [
-        "专业财经媒体跟进",
-        "时效性高",
-        "摘要信息较完整"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 20,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        },
-        "marketEducation": {
-          "score": 20,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        },
-        "privateFundSales": {
-          "score": 20,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        }
-      },
-      "primaryScene": "marketEducation",
-      "selectedForFeatured": false,
-      "contentTags": [
-        "行业动态"
-      ],
-      "eventId": null
-    },
-    {
-      "title": "推进新一代通信网建设，多家通信运营商发声",
-      "sourceUrl": "https://www.yicai.com/news/103378280.html",
-      "publishedAt": "2026-09-25T05:37:42.000Z",
-      "fetchedAt": "2026-09-25T09:35:21.092Z",
-      "timeConfidence": "source",
-      "summary": "强化人工智能、量子科技、信息光子、智能终端等领域科技创新作为“六张网”之一，新一代通信网是培育新质生产力、发展人工智能的关键基建设施。机构测算，未来五年，新一代通信网预计将带动上下游总产出约7万亿元，拉动GDP增长约1.5个百分点。9月22日至24日，2026年中国国际信息通信展览会在北京举办。本届展览会以“强网兴算·智汇生态”为主题，重点展示5G-A规模商用、6G技术试验、算力设施、卫星互联网、",
-      "sourceName": "第一财经",
-      "category": "industry",
-      "tags": [
-        "行业动态"
-      ],
-      "evidenceType": "financial_media",
-      "discoveredVia": "RSSHub",
-      "id": "news_ada1c484d8b8",
-      "tier": "S2",
-      "sourceTier": "S2",
-      "sourceTierLabel": "专业财经媒体",
-      "score": 64,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 12,
-        "authority": 15,
-        "impact": 8,
-        "recency": 15,
-        "depth": 10,
-        "actionability": 4
-      },
-      "confidence": "low",
-      "why": [
-        "专业财经媒体跟进",
-        "时效性高",
-        "摘要信息较完整"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 20,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        },
-        "marketEducation": {
-          "score": 29,
-          "reasons": [
-            "命中关联主题 1 项"
-          ]
-        },
-        "privateFundSales": {
-          "score": 20,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        }
-      },
-      "primaryScene": "marketEducation",
-      "selectedForFeatured": false,
-      "contentTags": [
-        "行业动态"
-      ],
-      "eventId": null
-    },
-    {
-      "title": "苹果与高通续签专利协议：芯片可以不用，专利仍绕不开",
-      "sourceUrl": "https://www.yicai.com/news/103378273.html",
-      "publishedAt": "2026-09-25T05:36:20.000Z",
-      "fetchedAt": "2026-09-25T09:35:21.092Z",
-      "timeConfidence": "source",
-      "summary": "中国手机厂商在推进芯片自研的同时仍需长期应对通信标准必要专利的许可问题。苹果正在减少对高通基带芯片的依赖，但双方的专利关系仍在延续。\n\n当地时间9月24日，高通宣布与苹果续签全球专利许可协议，新协议将于2027年4月1日起生效。高通并没有披露新协议的期限、费率及其他财务条款。\n\n这份简短声明之所以受到关注，在于苹果正在推进基带芯片自研。\n\n2019年，高通与苹果结束持续两年的全球专利诉讼。双方当时",
-      "sourceName": "第一财经",
-      "category": "industry",
-      "tags": [
-        "行业动态"
-      ],
-      "evidenceType": "financial_media",
-      "discoveredVia": "RSSHub",
-      "id": "news_0979e6c33964",
-      "tier": "S2",
-      "sourceTier": "S2",
-      "sourceTierLabel": "专业财经媒体",
-      "score": 64,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 12,
-        "authority": 15,
-        "impact": 8,
-        "recency": 15,
-        "depth": 10,
-        "actionability": 4
-      },
-      "confidence": "low",
-      "why": [
-        "专业财经媒体跟进",
-        "时效性高",
-        "摘要信息较完整"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 20,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        },
-        "marketEducation": {
-          "score": 20,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        },
-        "privateFundSales": {
-          "score": 20,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        }
-      },
-      "primaryScene": "marketEducation",
-      "selectedForFeatured": false,
-      "contentTags": [
-        "行业动态"
-      ],
-      "eventId": null
-    },
-    {
-      "title": "当就业遇上AI，劳动力市场迎来哪些改变？",
-      "sourceUrl": "https://www.yicai.com/news/103378271.html",
-      "publishedAt": "2026-09-25T05:33:47.000Z",
-      "fetchedAt": "2026-09-25T09:35:21.092Z",
-      "timeConfidence": "source",
-      "summary": "技术本身不是最大障碍人工智能会替代多少岗位？又会创造多少新机会？企业和劳动者该如何应对这场技术变革？这些问题，正从学界讨论走向政策议程。从近期召开的第八届APEC人力资源开发部长会，到正在上海举行的2026年世界技能大会，两场重量级会议不约而同地将人工智能对就业格局的深刻改变列入核心议题。AI以远超预期的速度重塑就业结构24日，2026年世界技能大会举办《准备好了吗？人工智能对未来劳动力市场的真实",
-      "sourceName": "第一财经",
-      "category": "industry",
-      "tags": [
-        "行业动态"
-      ],
-      "evidenceType": "financial_media",
-      "discoveredVia": "RSSHub",
-      "id": "news_4869615437f3",
-      "tier": "S2",
-      "sourceTier": "S2",
-      "sourceTierLabel": "专业财经媒体",
-      "score": 64,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 12,
-        "authority": 15,
-        "impact": 8,
-        "recency": 15,
-        "depth": 10,
-        "actionability": 4
-      },
-      "confidence": "low",
-      "why": [
-        "专业财经媒体跟进",
-        "时效性高",
-        "摘要信息较完整"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 20,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        },
-        "marketEducation": {
-          "score": 42,
-          "reasons": [
-            "命中二级市场投教核心主题 1 项"
-          ]
-        },
-        "privateFundSales": {
-          "score": 29,
-          "reasons": [
-            "命中关联主题 1 项"
-          ]
-        }
-      },
-      "primaryScene": "marketEducation",
-      "selectedForFeatured": false,
-      "contentTags": [
-        "行业动态"
-      ],
-      "eventId": null
     }
   ],
   "curationStats": {
@@ -9309,16 +9308,16 @@ window.FINHOT_DATA = {
     ],
     "products": [],
     "industry": [
+      "news_3f91d04c126c",
+      "news_d621874b4fe3",
+      "news_48affc9f00a1",
+      "news_8156163cd6ab",
       "news_5b45ceb46082",
       "news_b8cc5c9b7c5b",
       "news_07b9ec71d081",
       "news_585f5ac3da37",
       "news_518e35408f25",
-      "news_dfc29602b941",
-      "news_8fabdf284e79",
-      "news_7e5ab4cf6aa6",
-      "news_3469f3bacf6a",
-      "news_2cdf6c5dd9be"
+      "news_dfc29602b941"
     ],
     "research": [
       "news_ad6bfce6f3dd",
@@ -9347,6 +9346,22 @@ window.FINHOT_DATA = {
   },
   "flashes": [
     {
+      "id": "news_3f91d04c126c",
+      "dotClass": "flash-dot-blue"
+    },
+    {
+      "id": "news_d621874b4fe3",
+      "dotClass": "flash-dot-blue"
+    },
+    {
+      "id": "news_48affc9f00a1",
+      "dotClass": "flash-dot-blue"
+    },
+    {
+      "id": "news_8156163cd6ab",
+      "dotClass": "flash-dot-blue"
+    },
+    {
       "id": "news_5b45ceb46082",
       "dotClass": "flash-dot-blue"
     },
@@ -9360,22 +9375,6 @@ window.FINHOT_DATA = {
     },
     {
       "id": "news_07b9ec71d081",
-      "dotClass": "flash-dot-blue"
-    },
-    {
-      "id": "news_585f5ac3da37",
-      "dotClass": "flash-dot-blue"
-    },
-    {
-      "id": "news_518e35408f25",
-      "dotClass": "flash-dot-blue"
-    },
-    {
-      "id": "news_e750297d92c0",
-      "dotClass": "flash-dot-blue"
-    },
-    {
-      "id": "news_dfc29602b941",
       "dotClass": "flash-dot-blue"
     }
   ],
@@ -9398,6 +9397,7 @@ window.FINHOT_DATA = {
       "news_4156a8a283df"
     ],
     "退休": [
+      "news_8156163cd6ab",
       "news_03b615baedfe",
       "news_aba2613a2bc0"
     ],
@@ -9586,6 +9586,7 @@ window.FINHOT_DATA = {
       "news_e82c1cb65d73"
     ],
     "机构": [
+      "news_48affc9f00a1",
       "news_643b960b9a5a",
       "news_fa27b70a13a1",
       "news_e2b6a7115ef0",
@@ -9597,8 +9598,7 @@ window.FINHOT_DATA = {
       "news_fc29acc93813",
       "news_e095576918fe",
       "news_8da31ce92151",
-      "news_7680230c76b7",
-      "news_ada1c484d8b8"
+      "news_7680230c76b7"
     ],
     "监管": [
       "news_5b45ceb46082",
@@ -9633,8 +9633,7 @@ window.FINHOT_DATA = {
       "news_df95a15e485e",
       "news_c09e5b7fbb9d",
       "news_6c1c56486c21",
-      "news_ee4986528aac",
-      "news_0979e6c33964"
+      "news_ee4986528aac"
     ],
     "通知": [
       "news_0b685aeaaf4f",
@@ -9661,6 +9660,7 @@ window.FINHOT_DATA = {
       "news_f7cc088e2310"
     ],
     "经济": [
+      "news_8156163cd6ab",
       "news_07b9ec71d081",
       "news_dfc29602b941",
       "news_03b615baedfe",
@@ -9681,8 +9681,7 @@ window.FINHOT_DATA = {
       "news_e095576918fe",
       "news_20dfa0f02b34",
       "news_e33ae2a85a24",
-      "news_098e3fa9fcce",
-      "news_2ccf34e93100"
+      "news_098e3fa9fcce"
     ],
     "宏观经济": [
       "news_61a6a8bb6321"
@@ -9691,8 +9690,7 @@ window.FINHOT_DATA = {
       "news_3469f3bacf6a",
       "news_7ee2e7c82bee",
       "news_c600c2d26512",
-      "news_d5fd6d040aa6",
-      "news_ada1c484d8b8"
+      "news_d5fd6d040aa6"
     ],
     "信贷": [
       "news_4156a8a283df",
@@ -9716,6 +9714,8 @@ window.FINHOT_DATA = {
       "news_2e9a02085efd"
     ],
     "美元": [
+      "news_3f91d04c126c",
+      "news_d621874b4fe3",
       "news_b8cc5c9b7c5b",
       "news_07b9ec71d081",
       "news_518e35408f25",
@@ -9838,6 +9838,7 @@ window.FINHOT_DATA = {
       "news_ee1ce1f70f59"
     ],
     "贸易": [
+      "news_8156163cd6ab",
       "news_c0e87cfde2a6",
       "news_e3c7d2e7f275",
       "news_ca60a6ea5046",
@@ -9859,9 +9860,6 @@ window.FINHOT_DATA = {
       "news_474a1d23be8a",
       "news_ad1432f6cd0e",
       "news_f01912a212ad"
-    ],
-    "就业": [
-      "news_4869615437f3"
     ],
     "收入": [
       "news_25b643a36d03",
@@ -9895,8 +9893,7 @@ window.FINHOT_DATA = {
       "news_61a6a8bb6321",
       "news_ed1eb6d1697e",
       "news_e095576918fe",
-      "news_ee1ce1f70f59",
-      "news_2ccf34e93100"
+      "news_ee1ce1f70f59"
     ],
     "利润": [
       "news_e2b6a7115ef0",
@@ -9946,21 +9943,84 @@ window.FINHOT_DATA = {
     ]
   },
   "sourceHealth": {
-    "generatedAt": "2026-09-26T13:19:12.302Z",
+    "generatedAt": "2026-09-26T16:33:42.256Z",
     "status": "healthy",
     "totalSources": 10,
     "successfulSources": 9,
-    "usableSources": 8,
+    "usableSources": 9,
     "failedSources": 1,
     "staleSources": 0,
-    "fetchLimitReachedSources": 2,
-    "coverageRate": 0.8,
-    "freshestPublishedAt": "2026-09-26T13:07:39.000Z",
+    "fetchLimitReachedSources": 1,
+    "coverageRate": 0.9,
+    "freshestPublishedAt": "2026-09-26T15:41:51.000Z",
     "sources": [
       {
         "sourceId": "source_a6a2153c0b",
         "sourceName": "财新网",
         "tier": "S2",
+        "category": "industry",
+        "transport": "rsshub",
+        "success": true,
+        "usable": true,
+        "stale": false,
+        "itemCount": 19,
+        "rawItemCount": 19,
+        "acceptedItemCount": 19,
+        "initialFetchLimit": 30,
+        "fetchLimit": 30,
+        "fetchLimitExpanded": false,
+        "fetchLimitReached": false,
+        "addedCount": 1,
+        "durationMs": 17735,
+        "latestPublishedAt": "2026-09-26T13:51:19.000Z",
+        "usedEndpoint": "rsshub.rssforever.com"
+      },
+      {
+        "sourceId": "source_6a677efcc2",
+        "sourceName": "华尔街见闻",
+        "tier": "S2",
+        "category": "industry",
+        "transport": "rsshub",
+        "success": true,
+        "usable": true,
+        "stale": false,
+        "itemCount": 32,
+        "rawItemCount": 32,
+        "acceptedItemCount": 32,
+        "initialFetchLimit": 30,
+        "fetchLimit": 50,
+        "fetchLimitExpanded": true,
+        "fetchLimitReached": false,
+        "addedCount": 1,
+        "durationMs": 15560,
+        "latestPublishedAt": "2026-09-26T13:43:53.000Z",
+        "usedEndpoint": "rsshub.rssforever.com"
+      },
+      {
+        "sourceId": "source_71b645ddf5",
+        "sourceName": "第一财经",
+        "tier": "S2",
+        "category": "industry",
+        "transport": "rsshub",
+        "success": true,
+        "usable": true,
+        "stale": false,
+        "itemCount": 30,
+        "rawItemCount": 30,
+        "acceptedItemCount": 30,
+        "initialFetchLimit": 30,
+        "fetchLimit": 50,
+        "fetchLimitExpanded": true,
+        "fetchLimitReached": false,
+        "addedCount": 5,
+        "durationMs": 16113,
+        "latestPublishedAt": "2026-09-26T13:27:46.000Z",
+        "usedEndpoint": "rsshub.rssforever.com"
+      },
+      {
+        "sourceId": "source_dae28d24f5",
+        "sourceName": "财联社",
+        "tier": "S3",
         "category": "industry",
         "transport": "rsshub",
         "success": false,
@@ -9974,72 +10034,9 @@ window.FINHOT_DATA = {
         "fetchLimitExpanded": false,
         "fetchLimitReached": false,
         "addedCount": 0,
-        "durationMs": 54430,
+        "durationMs": 42582,
         "latestPublishedAt": null,
         "usedEndpoint": null
-      },
-      {
-        "sourceId": "source_6a677efcc2",
-        "sourceName": "华尔街见闻",
-        "tier": "S2",
-        "category": "industry",
-        "transport": "rsshub",
-        "success": true,
-        "usable": true,
-        "stale": false,
-        "itemCount": 29,
-        "rawItemCount": 29,
-        "acceptedItemCount": 29,
-        "initialFetchLimit": 30,
-        "fetchLimit": 30,
-        "fetchLimitExpanded": false,
-        "fetchLimitReached": false,
-        "addedCount": 5,
-        "durationMs": 51604,
-        "latestPublishedAt": "2026-09-26T11:50:41.000Z",
-        "usedEndpoint": "rsshub-balancer.virworks.moe"
-      },
-      {
-        "sourceId": "source_71b645ddf5",
-        "sourceName": "第一财经",
-        "tier": "S2",
-        "category": "industry",
-        "transport": "rsshub",
-        "success": true,
-        "usable": true,
-        "stale": false,
-        "itemCount": 50,
-        "rawItemCount": 50,
-        "acceptedItemCount": 50,
-        "initialFetchLimit": 30,
-        "fetchLimit": 50,
-        "fetchLimitExpanded": true,
-        "fetchLimitReached": true,
-        "addedCount": 19,
-        "durationMs": 63174,
-        "latestPublishedAt": "2026-09-26T12:52:12.000Z",
-        "usedEndpoint": "rsshub-balancer.virworks.moe"
-      },
-      {
-        "sourceId": "source_dae28d24f5",
-        "sourceName": "财联社",
-        "tier": "S3",
-        "category": "industry",
-        "transport": "rsshub",
-        "success": true,
-        "usable": false,
-        "stale": false,
-        "itemCount": 0,
-        "rawItemCount": 20,
-        "acceptedItemCount": 0,
-        "initialFetchLimit": 30,
-        "fetchLimit": 30,
-        "fetchLimitExpanded": false,
-        "fetchLimitReached": false,
-        "addedCount": 0,
-        "durationMs": 50710,
-        "latestPublishedAt": "2026-09-26T13:07:05.000Z",
-        "usedEndpoint": "rsshub-balancer.virworks.moe"
       },
       {
         "sourceId": "source_7b954bfc72",
@@ -10057,8 +10054,8 @@ window.FINHOT_DATA = {
         "fetchLimit": 50,
         "fetchLimitExpanded": true,
         "fetchLimitReached": true,
-        "addedCount": 28,
-        "durationMs": 61120,
+        "addedCount": 26,
+        "durationMs": 52089,
         "latestPublishedAt": "2026-09-26T13:07:39.000Z",
         "usedEndpoint": "rsshub-balancer.virworks.moe"
       },
@@ -10079,7 +10076,7 @@ window.FINHOT_DATA = {
         "fetchLimitExpanded": false,
         "fetchLimitReached": false,
         "addedCount": 0,
-        "durationMs": 636,
+        "durationMs": 596,
         "latestPublishedAt": "2026-09-26T10:35:13.000Z",
         "usedEndpoint": "rsshub.rssforever.com"
       },
@@ -10100,9 +10097,9 @@ window.FINHOT_DATA = {
         "fetchLimitExpanded": false,
         "fetchLimitReached": false,
         "addedCount": 0,
-        "durationMs": 51222,
+        "durationMs": 29332,
         "latestPublishedAt": "2026-09-21T16:00:00.000Z",
-        "usedEndpoint": "rsshub-balancer.virworks.moe"
+        "usedEndpoint": "rsshub.rssforever.com"
       },
       {
         "sourceId": "source_adf9a67b7f",
@@ -10121,9 +10118,9 @@ window.FINHOT_DATA = {
         "fetchLimitExpanded": false,
         "fetchLimitReached": false,
         "addedCount": 0,
-        "durationMs": 79749,
+        "durationMs": 14772,
         "latestPublishedAt": "2026-09-17T23:27:06.000Z",
-        "usedEndpoint": "rsshub-balancer.virworks.moe"
+        "usedEndpoint": "rsshub.rssforever.com"
       },
       {
         "sourceId": "source_0936db37cf",
@@ -10141,9 +10138,9 @@ window.FINHOT_DATA = {
         "fetchLimit": 30,
         "fetchLimitExpanded": false,
         "fetchLimitReached": false,
-        "addedCount": 4,
-        "durationMs": 104,
-        "latestPublishedAt": "2026-09-26T12:48:11.000Z",
+        "addedCount": 1,
+        "durationMs": 120,
+        "latestPublishedAt": "2026-09-26T15:41:51.000Z",
         "usedEndpoint": "cn.investing.com"
       },
       {
@@ -10163,7 +10160,7 @@ window.FINHOT_DATA = {
         "fetchLimitExpanded": false,
         "fetchLimitReached": false,
         "addedCount": 6,
-        "durationMs": 41,
+        "durationMs": 74,
         "latestPublishedAt": "2026-09-25T10:04:08.000Z",
         "usedEndpoint": "cn.investing.com"
       }
@@ -10175,7 +10172,7 @@ window.FINHOT_DATA = {
     "retentionDays": 90
   },
   "macro": {
-    "updatedAt": "2026-09-26T13:19:12.302Z",
+    "updatedAt": "2026-09-26T16:33:42.256Z",
     "indicators": [
       {
         "key": "lpr1y",
@@ -10273,7 +10270,7 @@ window.FINHOT_DATA = {
         ],
         "historicalEvidenceCount": 49,
         "firstSeenAt": "2026-07-31T02:43:30.494Z",
-        "lastSeenAt": "2026-09-26T13:19:12.302Z",
+        "lastSeenAt": "2026-09-26T16:33:42.256Z",
         "status": "developing"
       },
       {
@@ -10291,7 +10288,7 @@ window.FINHOT_DATA = {
         ],
         "historicalEvidenceCount": 47,
         "firstSeenAt": "2026-09-01T16:50:22.105Z",
-        "lastSeenAt": "2026-09-26T13:19:12.302Z",
+        "lastSeenAt": "2026-09-26T16:33:42.256Z",
         "status": "developing"
       },
       {
@@ -10307,7 +10304,7 @@ window.FINHOT_DATA = {
         ],
         "historicalEvidenceCount": 17,
         "firstSeenAt": "2026-08-27T22:27:22.891Z",
-        "lastSeenAt": "2026-09-26T13:19:12.302Z",
+        "lastSeenAt": "2026-09-26T16:33:42.256Z",
         "status": "developing"
       },
       {
@@ -10320,12 +10317,12 @@ window.FINHOT_DATA = {
         ],
         "historicalEvidenceCount": 34,
         "firstSeenAt": "2026-08-01T03:54:06.184Z",
-        "lastSeenAt": "2026-09-26T13:19:12.302Z",
+        "lastSeenAt": "2026-09-26T16:33:42.256Z",
         "status": "developing"
       },
       {
         "eventId": "event_33f394c17933",
-        "title": "名创优品(09896)9月24日斥资约20.62万美元回购约9.24万股",
+        "title": "渣打集团(02888)9月24日斥资823.74万英镑回购36.34万股",
         "mainItemId": "news_d1ca6084e3ef",
         "relatedItemIds": [],
         "evidenceItemIds": [
@@ -10333,7 +10330,7 @@ window.FINHOT_DATA = {
         ],
         "historicalEvidenceCount": 10,
         "firstSeenAt": "2026-09-09T04:48:18.184Z",
-        "lastSeenAt": "2026-09-26T13:19:12.302Z",
+        "lastSeenAt": "2026-09-26T16:33:42.256Z",
         "status": "developing"
       },
       {
@@ -10346,7 +10343,7 @@ window.FINHOT_DATA = {
         ],
         "historicalEvidenceCount": 1,
         "firstSeenAt": "2026-09-25T13:57:45.825Z",
-        "lastSeenAt": "2026-09-26T13:19:12.302Z",
+        "lastSeenAt": "2026-09-26T16:33:42.256Z",
         "status": "developing"
       },
       {
@@ -10362,7 +10359,7 @@ window.FINHOT_DATA = {
         ],
         "historicalEvidenceCount": 0,
         "firstSeenAt": "2026-09-25T13:57:45.825Z",
-        "lastSeenAt": "2026-09-26T13:19:12.302Z",
+        "lastSeenAt": "2026-09-26T16:33:42.256Z",
         "status": "developing"
       },
       {
@@ -10380,7 +10377,7 @@ window.FINHOT_DATA = {
         ],
         "historicalEvidenceCount": 0,
         "firstSeenAt": "2026-09-25T13:57:45.825Z",
-        "lastSeenAt": "2026-09-26T13:19:12.302Z",
+        "lastSeenAt": "2026-09-26T16:33:42.256Z",
         "status": "developing"
       },
       {
@@ -10396,7 +10393,7 @@ window.FINHOT_DATA = {
         ],
         "historicalEvidenceCount": 0,
         "firstSeenAt": "2026-09-25T13:57:45.825Z",
-        "lastSeenAt": "2026-09-26T13:19:12.302Z",
+        "lastSeenAt": "2026-09-26T16:33:42.256Z",
         "status": "developing"
       },
       {
@@ -10418,7 +10415,7 @@ window.FINHOT_DATA = {
         ],
         "historicalEvidenceCount": 0,
         "firstSeenAt": "2026-09-25T17:20:35.902Z",
-        "lastSeenAt": "2026-09-26T13:19:12.302Z",
+        "lastSeenAt": "2026-09-26T16:33:42.256Z",
         "status": "developing"
       }
     ],
@@ -10778,6 +10775,7 @@ window.KEYWORD_INDEX = {
     "news_4156a8a283df"
   ],
   "退休": [
+    "news_8156163cd6ab",
     "news_03b615baedfe",
     "news_aba2613a2bc0"
   ],
@@ -10966,6 +10964,7 @@ window.KEYWORD_INDEX = {
     "news_e82c1cb65d73"
   ],
   "机构": [
+    "news_48affc9f00a1",
     "news_643b960b9a5a",
     "news_fa27b70a13a1",
     "news_e2b6a7115ef0",
@@ -10977,8 +10976,7 @@ window.KEYWORD_INDEX = {
     "news_fc29acc93813",
     "news_e095576918fe",
     "news_8da31ce92151",
-    "news_7680230c76b7",
-    "news_ada1c484d8b8"
+    "news_7680230c76b7"
   ],
   "监管": [
     "news_5b45ceb46082",
@@ -11013,8 +11011,7 @@ window.KEYWORD_INDEX = {
     "news_df95a15e485e",
     "news_c09e5b7fbb9d",
     "news_6c1c56486c21",
-    "news_ee4986528aac",
-    "news_0979e6c33964"
+    "news_ee4986528aac"
   ],
   "通知": [
     "news_0b685aeaaf4f",
@@ -11041,6 +11038,7 @@ window.KEYWORD_INDEX = {
     "news_f7cc088e2310"
   ],
   "经济": [
+    "news_8156163cd6ab",
     "news_07b9ec71d081",
     "news_dfc29602b941",
     "news_03b615baedfe",
@@ -11061,8 +11059,7 @@ window.KEYWORD_INDEX = {
     "news_e095576918fe",
     "news_20dfa0f02b34",
     "news_e33ae2a85a24",
-    "news_098e3fa9fcce",
-    "news_2ccf34e93100"
+    "news_098e3fa9fcce"
   ],
   "宏观经济": [
     "news_61a6a8bb6321"
@@ -11071,8 +11068,7 @@ window.KEYWORD_INDEX = {
     "news_3469f3bacf6a",
     "news_7ee2e7c82bee",
     "news_c600c2d26512",
-    "news_d5fd6d040aa6",
-    "news_ada1c484d8b8"
+    "news_d5fd6d040aa6"
   ],
   "信贷": [
     "news_4156a8a283df",
@@ -11096,6 +11092,8 @@ window.KEYWORD_INDEX = {
     "news_2e9a02085efd"
   ],
   "美元": [
+    "news_3f91d04c126c",
+    "news_d621874b4fe3",
     "news_b8cc5c9b7c5b",
     "news_07b9ec71d081",
     "news_518e35408f25",
@@ -11218,6 +11216,7 @@ window.KEYWORD_INDEX = {
     "news_ee1ce1f70f59"
   ],
   "贸易": [
+    "news_8156163cd6ab",
     "news_c0e87cfde2a6",
     "news_e3c7d2e7f275",
     "news_ca60a6ea5046",
@@ -11239,9 +11238,6 @@ window.KEYWORD_INDEX = {
     "news_474a1d23be8a",
     "news_ad1432f6cd0e",
     "news_f01912a212ad"
-  ],
-  "就业": [
-    "news_4869615437f3"
   ],
   "收入": [
     "news_25b643a36d03",
@@ -11275,8 +11271,7 @@ window.KEYWORD_INDEX = {
     "news_61a6a8bb6321",
     "news_ed1eb6d1697e",
     "news_e095576918fe",
-    "news_ee1ce1f70f59",
-    "news_2ccf34e93100"
+    "news_ee1ce1f70f59"
   ],
   "利润": [
     "news_e2b6a7115ef0",

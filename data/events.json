@@ -1,9 +1,356 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-09-27T05:27:32.826Z",
+  "generatedAt": "2026-09-27T10:01:22.358Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
+    {
+      "eventId": "event_a678dcb442aa",
+      "title": "英国股市上涨；截至收盘Investing.com 英国 100上涨0.15%",
+      "firstSeenAt": "2026-09-01T16:50:22.105Z",
+      "lastSeenAt": "2026-09-27T10:01:22.358Z",
+      "primaryItemId": "news_787f69c0fdec",
+      "evidenceItemIds": [
+        "news_023dcd0d28ad",
+        "news_22038d02d938",
+        "news_47d9a1ccf7bb",
+        "news_5811f57d353a",
+        "news_7e9658008a2e",
+        "news_38b7bfcc4b83",
+        "news_10d178482868",
+        "news_0f952ebfed92",
+        "news_180bac2b42ba",
+        "news_d4e7ddbb143a",
+        "news_8c3edbf23e13",
+        "news_f0c7fe40fe6a",
+        "news_922b608e8c83",
+        "news_aed5d32e17ed",
+        "news_6800b6e7a3ca",
+        "news_8605edb299d9",
+        "news_878225efce45",
+        "news_b01264e386c3",
+        "news_65499b7ad1a5",
+        "news_63ba88008a33",
+        "news_f1bc9cdcabdf",
+        "news_f70af526899f",
+        "news_9483c15243f1",
+        "news_9b71d2a347d7",
+        "news_20d437ad78cf",
+        "news_202420cfd648",
+        "news_6ab739934395",
+        "news_c771634da64f",
+        "news_1198d1e2f5c3",
+        "news_9824e39c5142",
+        "news_bb3ab743c93d",
+        "news_5c711d3fc9c4",
+        "news_cc33ec45cea7",
+        "news_eca3b91af0a4",
+        "news_edb14436a491",
+        "news_a3e1c903d859",
+        "news_f6e90f29f9ce",
+        "news_75090b091644",
+        "news_2c68be998633",
+        "news_bfacac5bcbb7",
+        "news_af4536333d28",
+        "news_a3a9163c5c6c",
+        "news_bef8a265fd53",
+        "news_9342a712f015",
+        "news_7270ef89731c",
+        "news_787f69c0fdec",
+        "news_2d94bafb40cd",
+        "news_ac20a92f290a",
+        "news_012e5d43b2fe",
+        "news_d860e9e6c6b6"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_88d37f569468",
+      "title": "瑞典股市上涨；截至收盘瑞典OMX斯德哥尔摩30指数上涨0.73%",
+      "firstSeenAt": "2026-08-27T22:27:22.891Z",
+      "lastSeenAt": "2026-09-27T10:01:22.358Z",
+      "primaryItemId": "news_78ffc87f6905",
+      "evidenceItemIds": [
+        "news_1dcdfda18973",
+        "news_7c91b51b1eef",
+        "news_18d78b1ded1d",
+        "news_e9ee9b2bc410",
+        "news_ef8e83ac503e",
+        "news_50072042a675",
+        "news_593594203e7b",
+        "news_e43cf75233f0",
+        "news_2c3fa09c34c0",
+        "news_095c235df2cf",
+        "news_75c3fd425d61",
+        "news_aedf3b1ac8ba",
+        "news_d170dd46e686",
+        "news_b8acb3d32a61",
+        "news_012e5d43b2fe",
+        "news_038a0e7a4a1c",
+        "news_78ffc87f6905",
+        "news_1d9c5f93826f",
+        "news_98c9a0e39e85"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_91fb625edcc6",
+      "title": "华尔街见闻早餐FM-Radio | 2026年9月26日",
+      "firstSeenAt": "2026-08-01T03:54:06.184Z",
+      "lastSeenAt": "2026-09-27T10:01:22.358Z",
+      "primaryItemId": "news_a0223e9b4b9d",
+      "evidenceItemIds": [
+        "news_17edaa318161",
+        "news_98deb5260008",
+        "news_d6ded5ce3d23",
+        "news_ce5450193ef2",
+        "news_c703d5c64965",
+        "news_f283b8db4f69",
+        "news_1192f017766c",
+        "news_13a9ec382c84",
+        "news_56f2fe7df40c",
+        "news_4bcfcf17662a",
+        "news_1e16c7e47c8f",
+        "news_42d80422ca92",
+        "news_f8de29856631",
+        "news_7c9d70564092",
+        "news_64e205ea0eff",
+        "news_ce46b4659126",
+        "news_6187cca76a84",
+        "news_365d990ddc0a",
+        "news_9b6eace71407",
+        "news_a6898d92a8d6",
+        "news_3db9c3529da4",
+        "news_95deade611b9",
+        "news_cf02042ffbd4",
+        "news_3465a9cb688f",
+        "news_32265c18dcdc",
+        "news_821e31f5c9fa",
+        "news_9c8de095a7c5",
+        "news_de2273d7fbfe",
+        "news_59af9d503fe6",
+        "news_f36a6a3c88fb",
+        "news_6356475afb59",
+        "news_687a7cf50f4e",
+        "news_9d6c9df853fe",
+        "news_33a9db2a790e",
+        "news_a0223e9b4b9d"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_b20ed02641d5",
+      "title": "恩格斯停顿会重演吗？人工智能时代的资本、劳动与分配（四）",
+      "firstSeenAt": "2026-09-25T13:57:45.825Z",
+      "lastSeenAt": "2026-09-27T10:01:22.358Z",
+      "primaryItemId": "news_f89718a45855",
+      "evidenceItemIds": [
+        "news_ed1eb6d1697e",
+        "news_a5f0a23fecf3",
+        "news_f89718a45855"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_afe9692ca82d",
+      "title": "圣贝拉集团(02508)9月25日斥资38.79万港元回购13.1万股",
+      "firstSeenAt": "2026-09-25T13:57:45.825Z",
+      "lastSeenAt": "2026-09-27T10:01:22.358Z",
+      "primaryItemId": "news_3824aede7639",
+      "evidenceItemIds": [
+        "news_3824aede7639",
+        "news_3aab5453c4cc",
+        "news_9cf0b8ddc855"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_dc7ea009afde",
+      "title": "MONGOL MINING(00975)9月25日斥资262.08万港元回购30万股",
+      "firstSeenAt": "2026-09-25T13:57:45.825Z",
+      "lastSeenAt": "2026-09-27T10:01:22.358Z",
+      "primaryItemId": "news_4cb99b45bca5",
+      "evidenceItemIds": [
+        "news_4cb99b45bca5",
+        "news_7f04ec8678bb"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_1bd9d69a0d2a",
+      "title": "报道：SK海力士旗下Solidigm考虑2027年IPO，估值可能为1500亿美元",
+      "firstSeenAt": "2026-09-25T17:20:35.902Z",
+      "lastSeenAt": "2026-09-27T10:01:22.358Z",
+      "primaryItemId": "news_c09e5b7fbb9d",
+      "evidenceItemIds": [
+        "news_c09e5b7fbb9d",
+        "news_f383c270817a",
+        "news_1c5a87f8eb94",
+        "news_34f72abb9141",
+        "news_dbc78a332e6e"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_2f5bc2cc3a40",
+      "title": "甲骨文的多米诺骨牌： 新墨西哥州数据中心会是AI地雷导火索吗？",
+      "firstSeenAt": "2026-09-24T13:40:21.808Z",
+      "lastSeenAt": "2026-09-27T10:01:22.358Z",
+      "primaryItemId": "news_0b685aeaaf4f",
+      "evidenceItemIds": [
+        "news_b2f65a4fa94c",
+        "news_90d3c951058c",
+        "news_0b685aeaaf4f"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_a973cc5f0945",
+      "title": "中美达成八点成果共识。（新华社）",
+      "firstSeenAt": "2026-09-26T09:23:42.563Z",
+      "lastSeenAt": "2026-09-27T10:01:22.358Z",
+      "primaryItemId": "news_bc9052fa948c",
+      "evidenceItemIds": [
+        "news_bc9052fa948c",
+        "news_f3db7abdcf7d",
+        "news_e1de83fcfb7e",
+        "news_0a306c01b644",
+        "news_6d17e1b37c42"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_d2bdeacc76eb",
+      "title": "中美同意共同构建“基于尊重、公平、对等的建设性战略稳定关系”",
+      "firstSeenAt": "2026-09-26T13:19:12.302Z",
+      "lastSeenAt": "2026-09-27T10:01:22.358Z",
+      "primaryItemId": "news_6c1c56486c21",
+      "evidenceItemIds": [
+        "news_6c1c56486c21",
+        "news_dfc29602b941"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_96118cb669e2",
+      "title": "外交部发言人就人工智能问题答记者问",
+      "firstSeenAt": "2026-09-26T13:19:12.302Z",
+      "lastSeenAt": "2026-09-27T10:01:22.358Z",
+      "primaryItemId": "news_518e35408f25",
+      "evidenceItemIds": [
+        "news_518e35408f25",
+        "news_e750297d92c0"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_274777a299d4",
+      "title": "AI周报| Meta旗下Muse爆火；高瓴90后合伙人出任DeepSeek CFO",
+      "firstSeenAt": "2026-07-31T14:43:32.623Z",
+      "lastSeenAt": "2026-09-27T10:01:22.358Z",
+      "primaryItemId": "news_5c0b12fb8dcd",
+      "evidenceItemIds": [
+        "news_a4ff46a1602a",
+        "news_112d02c83ae9",
+        "news_c86d8e270915",
+        "news_cbed6a25d17b",
+        "news_ef1d7bb91b00",
+        "news_6ecb0a36e017",
+        "news_ec0522071c78",
+        "news_7fe66b32d6ba",
+        "news_b6672212b6a7",
+        "news_e903c3caf5fe",
+        "news_5c0b12fb8dcd"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_bebf6347f794",
+      "title": "被误读的Akamai：Anthropic为何签下116 亿美元算力大单并用换股权绑定它？",
+      "firstSeenAt": "2026-09-27T05:27:32.826Z",
+      "lastSeenAt": "2026-09-27T10:01:22.358Z",
+      "primaryItemId": "news_9ea52c07f957",
+      "evidenceItemIds": [
+        "news_9ea52c07f957",
+        "news_6a586412d695"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_484605365baf",
+      "title": "三大运营商暂停金融分期业务，“0元购机”全面停办",
+      "firstSeenAt": "2026-09-27T05:27:32.826Z",
+      "lastSeenAt": "2026-09-27T10:01:22.358Z",
+      "primaryItemId": "news_997f46c55f92",
+      "evidenceItemIds": [
+        "news_997f46c55f92",
+        "news_deca6203ceac"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_5c596486678d",
+      "title": "伯恩斯坦：澜起科技维持“跑赢大市”评级，目标价520港元",
+      "firstSeenAt": "2026-09-27T05:27:32.826Z",
+      "lastSeenAt": "2026-09-27T10:01:22.358Z",
+      "primaryItemId": "news_83aad8fb64f4",
+      "evidenceItemIds": [
+        "news_83aad8fb64f4",
+        "news_887b49cebf57"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_7687251fbe8d",
+      "title": "30年期美债收益率创2004年6月以来新高，美主要股指全线低开",
+      "firstSeenAt": "2026-09-23T17:14:36.029Z",
+      "lastSeenAt": "2026-09-27T10:01:22.358Z",
+      "primaryItemId": "news_4fb63826683c",
+      "evidenceItemIds": [
+        "news_a097cf3b7966",
+        "news_de13c70763c7",
+        "news_3424dc106ce5",
+        "news_4fb63826683c"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_37a43c9e1cfd",
+      "title": "机构论后市丨短期市场迎来修复式反弹；做多窗口开启，可持股过节",
+      "firstSeenAt": "2026-09-27T10:01:22.358Z",
+      "lastSeenAt": "2026-09-27T10:01:22.358Z",
+      "primaryItemId": "news_6ae548739de7",
+      "evidenceItemIds": [
+        "news_6ae548739de7",
+        "news_cee679e5d30f",
+        "news_9234327f8d37"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_5c1b7acfe05e",
+      "title": "下周重磅日程：美国非农与中国PMI、OpenAI开发者大会、美光财报",
+      "firstSeenAt": "2026-09-27T10:01:22.358Z",
+      "lastSeenAt": "2026-09-27T10:01:22.358Z",
+      "primaryItemId": "news_55f51b17058b",
+      "evidenceItemIds": [
+        "news_55f51b17058b",
+        "news_327c14b01d84"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_9e7d7703df9d",
+      "title": "盈新发展(000620.SZ)拟推2026年限制性股票激励计划",
+      "firstSeenAt": "2026-09-27T10:01:22.358Z",
+      "lastSeenAt": "2026-09-27T10:01:22.358Z",
+      "primaryItemId": "news_f13a247cb690",
+      "evidenceItemIds": [
+        "news_f13a247cb690",
+        "news_6274520a64a4"
+      ],
+      "status": "developing"
+    },
     {
       "eventId": "event_529af3584dc2",
       "title": "恒指收跌1.01%，恒生科技指数跌1.13%",
@@ -65,140 +412,6 @@
       "status": "developing"
     },
     {
-      "eventId": "event_a678dcb442aa",
-      "title": "英国股市上涨；截至收盘Investing.com 英国 100上涨0.15%",
-      "firstSeenAt": "2026-09-01T16:50:22.105Z",
-      "lastSeenAt": "2026-09-27T05:27:32.826Z",
-      "primaryItemId": "news_787f69c0fdec",
-      "evidenceItemIds": [
-        "news_023dcd0d28ad",
-        "news_22038d02d938",
-        "news_47d9a1ccf7bb",
-        "news_5811f57d353a",
-        "news_7e9658008a2e",
-        "news_38b7bfcc4b83",
-        "news_10d178482868",
-        "news_0f952ebfed92",
-        "news_180bac2b42ba",
-        "news_d4e7ddbb143a",
-        "news_8c3edbf23e13",
-        "news_f0c7fe40fe6a",
-        "news_922b608e8c83",
-        "news_aed5d32e17ed",
-        "news_6800b6e7a3ca",
-        "news_8605edb299d9",
-        "news_878225efce45",
-        "news_b01264e386c3",
-        "news_65499b7ad1a5",
-        "news_63ba88008a33",
-        "news_f1bc9cdcabdf",
-        "news_f70af526899f",
-        "news_9483c15243f1",
-        "news_9b71d2a347d7",
-        "news_20d437ad78cf",
-        "news_202420cfd648",
-        "news_6ab739934395",
-        "news_c771634da64f",
-        "news_1198d1e2f5c3",
-        "news_9824e39c5142",
-        "news_bb3ab743c93d",
-        "news_5c711d3fc9c4",
-        "news_cc33ec45cea7",
-        "news_eca3b91af0a4",
-        "news_edb14436a491",
-        "news_a3e1c903d859",
-        "news_f6e90f29f9ce",
-        "news_75090b091644",
-        "news_2c68be998633",
-        "news_bfacac5bcbb7",
-        "news_af4536333d28",
-        "news_a3a9163c5c6c",
-        "news_bef8a265fd53",
-        "news_9342a712f015",
-        "news_7270ef89731c",
-        "news_787f69c0fdec",
-        "news_2d94bafb40cd",
-        "news_ac20a92f290a",
-        "news_012e5d43b2fe",
-        "news_d860e9e6c6b6"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_88d37f569468",
-      "title": "瑞典股市上涨；截至收盘瑞典OMX斯德哥尔摩30指数上涨0.73%",
-      "firstSeenAt": "2026-08-27T22:27:22.891Z",
-      "lastSeenAt": "2026-09-27T05:27:32.826Z",
-      "primaryItemId": "news_78ffc87f6905",
-      "evidenceItemIds": [
-        "news_1dcdfda18973",
-        "news_7c91b51b1eef",
-        "news_18d78b1ded1d",
-        "news_e9ee9b2bc410",
-        "news_ef8e83ac503e",
-        "news_50072042a675",
-        "news_593594203e7b",
-        "news_e43cf75233f0",
-        "news_2c3fa09c34c0",
-        "news_095c235df2cf",
-        "news_75c3fd425d61",
-        "news_aedf3b1ac8ba",
-        "news_d170dd46e686",
-        "news_b8acb3d32a61",
-        "news_012e5d43b2fe",
-        "news_038a0e7a4a1c",
-        "news_78ffc87f6905",
-        "news_1d9c5f93826f",
-        "news_98c9a0e39e85"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_91fb625edcc6",
-      "title": "华尔街见闻早餐FM-Radio | 2026年9月26日",
-      "firstSeenAt": "2026-08-01T03:54:06.184Z",
-      "lastSeenAt": "2026-09-27T05:27:32.826Z",
-      "primaryItemId": "news_a0223e9b4b9d",
-      "evidenceItemIds": [
-        "news_17edaa318161",
-        "news_98deb5260008",
-        "news_d6ded5ce3d23",
-        "news_ce5450193ef2",
-        "news_c703d5c64965",
-        "news_f283b8db4f69",
-        "news_1192f017766c",
-        "news_13a9ec382c84",
-        "news_56f2fe7df40c",
-        "news_4bcfcf17662a",
-        "news_1e16c7e47c8f",
-        "news_42d80422ca92",
-        "news_f8de29856631",
-        "news_7c9d70564092",
-        "news_64e205ea0eff",
-        "news_ce46b4659126",
-        "news_6187cca76a84",
-        "news_365d990ddc0a",
-        "news_9b6eace71407",
-        "news_a6898d92a8d6",
-        "news_3db9c3529da4",
-        "news_95deade611b9",
-        "news_cf02042ffbd4",
-        "news_3465a9cb688f",
-        "news_32265c18dcdc",
-        "news_821e31f5c9fa",
-        "news_9c8de095a7c5",
-        "news_de2273d7fbfe",
-        "news_59af9d503fe6",
-        "news_f36a6a3c88fb",
-        "news_6356475afb59",
-        "news_687a7cf50f4e",
-        "news_9d6c9df853fe",
-        "news_33a9db2a790e",
-        "news_a0223e9b4b9d"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_33f394c17933",
       "title": "渣打集团(02888)9月24日斥资823.74万英镑回购36.34万股",
       "firstSeenAt": "2026-09-09T04:48:18.184Z",
@@ -233,18 +446,6 @@
       "status": "developing"
     },
     {
-      "eventId": "event_b20ed02641d5",
-      "title": "恩格斯停顿会重演吗？人工智能时代的资本、劳动与分配（二）",
-      "firstSeenAt": "2026-09-25T13:57:45.825Z",
-      "lastSeenAt": "2026-09-27T05:27:32.826Z",
-      "primaryItemId": "news_ed1eb6d1697e",
-      "evidenceItemIds": [
-        "news_ed1eb6d1697e",
-        "news_a5f0a23fecf3"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_a036042ca013",
       "title": "IMF：2026年全球AI投资规模或突破2万亿美元，成为增长重要驱动力",
       "firstSeenAt": "2026-09-25T13:57:45.825Z",
@@ -253,167 +454,6 @@
       "evidenceItemIds": [
         "news_7ee2e7c82bee",
         "news_c600c2d26512"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_afe9692ca82d",
-      "title": "圣贝拉集团(02508)9月25日斥资38.79万港元回购13.1万股",
-      "firstSeenAt": "2026-09-25T13:57:45.825Z",
-      "lastSeenAt": "2026-09-27T05:27:32.826Z",
-      "primaryItemId": "news_3824aede7639",
-      "evidenceItemIds": [
-        "news_3824aede7639",
-        "news_3aab5453c4cc",
-        "news_9cf0b8ddc855"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_dc7ea009afde",
-      "title": "MONGOL MINING(00975)9月25日斥资262.08万港元回购30万股",
-      "firstSeenAt": "2026-09-25T13:57:45.825Z",
-      "lastSeenAt": "2026-09-27T05:27:32.826Z",
-      "primaryItemId": "news_4cb99b45bca5",
-      "evidenceItemIds": [
-        "news_4cb99b45bca5",
-        "news_7f04ec8678bb"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_1bd9d69a0d2a",
-      "title": "报道：SK海力士旗下Solidigm考虑2027年IPO，估值可能为1500亿美元",
-      "firstSeenAt": "2026-09-25T17:20:35.902Z",
-      "lastSeenAt": "2026-09-27T05:27:32.826Z",
-      "primaryItemId": "news_c09e5b7fbb9d",
-      "evidenceItemIds": [
-        "news_c09e5b7fbb9d",
-        "news_f383c270817a",
-        "news_1c5a87f8eb94",
-        "news_34f72abb9141",
-        "news_dbc78a332e6e"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_2f5bc2cc3a40",
-      "title": "甲骨文的多米诺骨牌： 新墨西哥州数据中心会是AI地雷导火索吗？",
-      "firstSeenAt": "2026-09-24T13:40:21.808Z",
-      "lastSeenAt": "2026-09-27T05:27:32.826Z",
-      "primaryItemId": "news_0b685aeaaf4f",
-      "evidenceItemIds": [
-        "news_b2f65a4fa94c",
-        "news_90d3c951058c",
-        "news_0b685aeaaf4f"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_a973cc5f0945",
-      "title": "中美达成八点成果共识。（新华社）",
-      "firstSeenAt": "2026-09-26T09:23:42.563Z",
-      "lastSeenAt": "2026-09-27T05:27:32.826Z",
-      "primaryItemId": "news_bc9052fa948c",
-      "evidenceItemIds": [
-        "news_bc9052fa948c",
-        "news_f3db7abdcf7d",
-        "news_e1de83fcfb7e"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_d2bdeacc76eb",
-      "title": "中美同意共同构建“基于尊重、公平、对等的建设性战略稳定关系”",
-      "firstSeenAt": "2026-09-26T13:19:12.302Z",
-      "lastSeenAt": "2026-09-27T05:27:32.826Z",
-      "primaryItemId": "news_6c1c56486c21",
-      "evidenceItemIds": [
-        "news_6c1c56486c21",
-        "news_dfc29602b941"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_96118cb669e2",
-      "title": "外交部发言人就人工智能问题答记者问",
-      "firstSeenAt": "2026-09-26T13:19:12.302Z",
-      "lastSeenAt": "2026-09-27T05:27:32.826Z",
-      "primaryItemId": "news_518e35408f25",
-      "evidenceItemIds": [
-        "news_518e35408f25",
-        "news_e750297d92c0"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_274777a299d4",
-      "title": "AI周报| Meta旗下Muse爆火；高瓴90后合伙人出任DeepSeek CFO",
-      "firstSeenAt": "2026-07-31T14:43:32.623Z",
-      "lastSeenAt": "2026-09-27T05:27:32.826Z",
-      "primaryItemId": "news_5c0b12fb8dcd",
-      "evidenceItemIds": [
-        "news_a4ff46a1602a",
-        "news_112d02c83ae9",
-        "news_c86d8e270915",
-        "news_cbed6a25d17b",
-        "news_ef1d7bb91b00",
-        "news_6ecb0a36e017",
-        "news_ec0522071c78",
-        "news_7fe66b32d6ba",
-        "news_b6672212b6a7",
-        "news_e903c3caf5fe",
-        "news_5c0b12fb8dcd"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_bebf6347f794",
-      "title": "被误读的Akamai：Anthropic为何签下116 亿美元算力大单并用换股权绑定它？",
-      "firstSeenAt": "2026-09-27T05:27:32.826Z",
-      "lastSeenAt": "2026-09-27T05:27:32.826Z",
-      "primaryItemId": "news_9ea52c07f957",
-      "evidenceItemIds": [
-        "news_9ea52c07f957",
-        "news_6a586412d695"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_484605365baf",
-      "title": "三大运营商暂停金融分期业务，“0元购机”全面停办",
-      "firstSeenAt": "2026-09-27T05:27:32.826Z",
-      "lastSeenAt": "2026-09-27T05:27:32.826Z",
-      "primaryItemId": "news_997f46c55f92",
-      "evidenceItemIds": [
-        "news_997f46c55f92",
-        "news_deca6203ceac"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_5c596486678d",
-      "title": "伯恩斯坦：澜起科技维持“跑赢大市”评级，目标价520港元",
-      "firstSeenAt": "2026-09-27T05:27:32.826Z",
-      "lastSeenAt": "2026-09-27T05:27:32.826Z",
-      "primaryItemId": "news_83aad8fb64f4",
-      "evidenceItemIds": [
-        "news_83aad8fb64f4",
-        "news_887b49cebf57"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_7687251fbe8d",
-      "title": "30年期美债收益率创2004年6月以来新高，美主要股指全线低开",
-      "firstSeenAt": "2026-09-23T17:14:36.029Z",
-      "lastSeenAt": "2026-09-26T16:33:42.256Z",
-      "primaryItemId": "news_4fb63826683c",
-      "evidenceItemIds": [
-        "news_a097cf3b7966",
-        "news_de13c70763c7",
-        "news_3424dc106ce5",
-        "news_4fb63826683c"
       ],
       "status": "developing"
     },

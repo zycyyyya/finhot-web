@@ -1,5 +1,5 @@
 // finhot auto-generated data - powered by RSSHub + financial sources
-// Generated: 2026-09-27T14:07:05.260Z
+// Generated: 2026-09-27T17:07:44.451Z
 // Practitioner value scoring: relevance(25) + authority(20) + impact(20) + recency(15) + depth(10) + actionability(10)
 
 window.CATEGORIES = [
@@ -94,10 +94,131 @@ window.CATEGORY_CONFIG = {
 };
 
 window.FINHOT_DATA = {
-  "date": "2026-09-27",
-  "generatedAt": "2026-09-27T14:07:05.260Z",
-  "lead": "今日新增 36 条，共 150 条精选资讯",
+  "date": "2026-09-28",
+  "generatedAt": "2026-09-27T17:07:44.451Z",
+  "lead": "今日新增 14 条，共 150 条精选资讯",
   "items": [
+    {
+      "title": "智通港股投资日志|9月28日",
+      "sourceUrl": "https://cn.investing.com/news/stock-market-news/article-3584696",
+      "publishedAt": "2026-09-27T16:05:27.000Z",
+      "fetchedAt": "2026-09-27T17:07:44.162Z",
+      "timeConfidence": "source",
+      "summary": "",
+      "sourceName": "英为财情",
+      "category": "industry",
+      "tags": [
+        "行业动态"
+      ],
+      "evidenceType": "financial_media",
+      "discoveredVia": "Investing.com",
+      "id": "news_d8c7ccc39272",
+      "tier": "S2",
+      "sourceTier": "S2",
+      "sourceTierLabel": "专业财经媒体",
+      "score": 57,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 12,
+        "authority": 15,
+        "impact": 8,
+        "recency": 15,
+        "depth": 3,
+        "actionability": 4
+      },
+      "confidence": "low",
+      "why": [
+        "专业财经媒体跟进",
+        "时效性高"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 20,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "marketEducation": {
+          "score": 42,
+          "reasons": [
+            "命中二级市场投教核心主题 1 项"
+          ]
+        },
+        "privateFundSales": {
+          "score": 20,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        }
+      },
+      "primaryScene": "marketEducation",
+      "selectedForFeatured": false,
+      "contentTags": [
+        "行业动态"
+      ],
+      "eventId": null
+    },
+    {
+      "title": "开源证券：券商3季报有望超预期 继续看好头部券商配置价值",
+      "sourceUrl": "https://cn.investing.com/news/stock-market-news/article-3584685",
+      "publishedAt": "2026-09-27T14:05:12.000Z",
+      "fetchedAt": "2026-09-27T17:07:44.162Z",
+      "timeConfidence": "source",
+      "summary": "",
+      "sourceName": "英为财情",
+      "category": "industry",
+      "tags": [
+        "行业动态"
+      ],
+      "evidenceType": "financial_media",
+      "discoveredVia": "Investing.com",
+      "id": "news_162b6574fb5c",
+      "tier": "S2",
+      "sourceTier": "S2",
+      "sourceTierLabel": "专业财经媒体",
+      "score": 73,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 22,
+        "authority": 15,
+        "impact": 8,
+        "recency": 15,
+        "depth": 3,
+        "actionability": 10
+      },
+      "confidence": "low",
+      "why": [
+        "专业财经媒体跟进",
+        "可转化为客户沟通或投研关注",
+        "时效性高"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 20,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "marketEducation": {
+          "score": 29,
+          "reasons": [
+            "命中关联主题 1 项"
+          ]
+        },
+        "privateFundSales": {
+          "score": 38,
+          "reasons": [
+            "命中关联主题 2 项"
+          ]
+        }
+      },
+      "primaryScene": "privateFundSales",
+      "selectedForFeatured": false,
+      "contentTags": [
+        "行业动态"
+      ],
+      "eventId": null
+    },
     {
       "title": "“超级数据周”长假来袭，全球大类资产等待重估",
       "sourceUrl": "https://www.yicai.com/news/103378837.html",
@@ -9180,135 +9301,13 @@ window.FINHOT_DATA = {
         "行业动态"
       ],
       "eventId": null
-    },
-    {
-      "title": "【周刊提前读】绿氢迎来新一轮政策窗口 降本仍是经济性与规模化关键",
-      "sourceUrl": "https://database.caixin.com/2026-09-26/102488787.html",
-      "publishedAt": "2026-09-26T01:10:07.000Z",
-      "fetchedAt": "2026-09-26T05:03:56.645Z",
-      "timeConfidence": "source",
-      "summary": "【本文系数据通用户提前专享】氢能新一轮城市群综合应用试点，能否带动全产业链实现经济性、规模化的关键一跃？\n    \n     \n     2026年6月10日，第十届国际氢能与燃料电池汽车大会暨展览会（FCVC 2026）在昆山花桥国际博览中心启幕。",
-      "sourceName": "财新网",
-      "category": "industry",
-      "tags": [
-        "行业动态"
-      ],
-      "evidenceType": "financial_media",
-      "discoveredVia": "RSSHub",
-      "id": "news_466a61edb653",
-      "tier": "S2",
-      "sourceTier": "S2",
-      "sourceTierLabel": "专业财经媒体",
-      "score": 62,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 12,
-        "authority": 15,
-        "impact": 8,
-        "recency": 15,
-        "depth": 8,
-        "actionability": 4
-      },
-      "confidence": "low",
-      "why": [
-        "专业财经媒体跟进",
-        "时效性高"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 20,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        },
-        "marketEducation": {
-          "score": 20,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        },
-        "privateFundSales": {
-          "score": 20,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        }
-      },
-      "primaryScene": "marketEducation",
-      "selectedForFeatured": false,
-      "contentTags": [
-        "行业动态"
-      ],
-      "eventId": null
-    },
-    {
-      "title": "欧洲四大联赛呼吁国际足联进行“根本性”改革",
-      "sourceUrl": "https://www.36kr.com/newsflashes/3999525734846339",
-      "publishedAt": "2026-09-26T01:06:49.000Z",
-      "fetchedAt": "2026-09-26T05:05:49.959Z",
-      "timeConfidence": "source",
-      "summary": "欧洲四大足球联赛英超、德甲、西甲和意甲联赛9月25日发表联合声明，称国际足联主席因凡蒂诺近年来“非但未能防范，反而主动推进具有剥削性的方案”，呼吁国际足联进行“根本性”治理改革。四大联赛表示，需要建立更加“透明、客观、均衡和包容”的治理架构。此前，国际足联推动设立“国际足联前进公司”的计划因引发广泛争议而被放弃。该计划涉及引入私人投资者参与国际足联商业权益。四大联赛称，足球界利益相关方最终促使该计",
-      "sourceName": "36氪",
-      "category": "insights",
-      "tags": [
-        "观点"
-      ],
-      "evidenceType": "news_flash",
-      "discoveredVia": "RSSHub",
-      "id": "news_33094676b370",
-      "tier": "S3",
-      "sourceTier": "S3",
-      "sourceTierLabel": "快讯/观点线索",
-      "score": 58,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 12,
-        "authority": 9,
-        "impact": 8,
-        "recency": 15,
-        "depth": 10,
-        "actionability": 4
-      },
-      "confidence": "low",
-      "why": [
-        "快讯线索，需结合原文判断",
-        "时效性高",
-        "摘要信息较完整"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 16,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        },
-        "marketEducation": {
-          "score": 16,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        },
-        "privateFundSales": {
-          "score": 16,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        }
-      },
-      "primaryScene": "marketEducation",
-      "selectedForFeatured": false,
-      "contentTags": [
-        "观点",
-        "快讯"
-      ],
-      "eventId": null
     }
   ],
   "curationStats": {
     "scenes": {
       "insurance": 7,
-      "privateFundSales": 23,
-      "marketEducation": 120
+      "privateFundSales": 24,
+      "marketEducation": 119
     },
     "featured": 24
   },
@@ -9316,6 +9315,8 @@ window.FINHOT_DATA = {
     "regulatory": [],
     "products": [],
     "industry": [
+      "news_d8c7ccc39272",
+      "news_162b6574fb5c",
       "news_6411812c83f6",
       "news_d6c009f0ca22",
       "news_d314c22ea658",
@@ -9323,9 +9324,7 @@ window.FINHOT_DATA = {
       "news_bd5d99591384",
       "news_3619f9837ba3",
       "news_605952090e1a",
-      "news_2bfb2d49fbc7",
-      "news_9d91f5d2ec4a",
-      "news_b22e9718cb16"
+      "news_2bfb2d49fbc7"
     ],
     "research": [
       "news_1c8492a740fe",
@@ -9354,6 +9353,14 @@ window.FINHOT_DATA = {
   },
   "flashes": [
     {
+      "id": "news_d8c7ccc39272",
+      "dotClass": "flash-dot-blue"
+    },
+    {
+      "id": "news_162b6574fb5c",
+      "dotClass": "flash-dot-blue"
+    },
+    {
       "id": "news_6411812c83f6",
       "dotClass": "flash-dot-blue"
     },
@@ -9375,14 +9382,6 @@ window.FINHOT_DATA = {
     },
     {
       "id": "news_3619f9837ba3",
-      "dotClass": "flash-dot-blue"
-    },
-    {
-      "id": "news_605952090e1a",
-      "dotClass": "flash-dot-green"
-    },
-    {
-      "id": "news_2bfb2d49fbc7",
       "dotClass": "flash-dot-blue"
     }
   ],
@@ -9459,6 +9458,7 @@ window.FINHOT_DATA = {
       "news_83aad8fb64f4"
     ],
     "港股": [
+      "news_d8c7ccc39272",
       "news_14c09f5ee446",
       "news_bad82e859617"
     ],
@@ -9557,6 +9557,7 @@ window.FINHOT_DATA = {
       "news_2cdf6c5dd9be"
     ],
     "券商": [
+      "news_162b6574fb5c",
       "news_1c8492a740fe",
       "news_b7d4bd98c235"
     ],
@@ -9575,8 +9576,7 @@ window.FINHOT_DATA = {
       "news_2e8b5e10a522",
       "news_07b9ec71d081",
       "news_35dfab487e2b",
-      "news_bda4723359e6",
-      "news_33094676b370"
+      "news_bda4723359e6"
     ],
     "机构": [
       "news_beafd9475e51",
@@ -9689,8 +9689,7 @@ window.FINHOT_DATA = {
       "news_07b9ec71d081",
       "news_dfc29602b941",
       "news_03b615baedfe",
-      "news_d28a4c782f3c",
-      "news_466a61edb653"
+      "news_d28a4c782f3c"
     ],
     "GDP": [
       "news_6411812c83f6",
@@ -9797,6 +9796,7 @@ window.FINHOT_DATA = {
       "news_d28a4c782f3c"
     ],
     "投资": [
+      "news_d8c7ccc39272",
       "news_d314c22ea658",
       "news_3619f9837ba3",
       "news_9fef9fbfa40c",
@@ -9821,8 +9821,7 @@ window.FINHOT_DATA = {
       "news_b2c554a01c8a",
       "news_35dfab487e2b",
       "news_1c5a87f8eb94",
-      "news_bda4723359e6",
-      "news_33094676b370"
+      "news_bda4723359e6"
     ],
     "出口": [
       "news_7e5ab4cf6aa6",
@@ -9846,8 +9845,7 @@ window.FINHOT_DATA = {
       "news_0c2a4cc1f6ea",
       "news_7b8441591c5c",
       "news_5f3a7d4e2439",
-      "news_1b68d3dfb4d5",
-      "news_466a61edb653"
+      "news_1b68d3dfb4d5"
     ],
     "供应链": [
       "news_5f3a7d4e2439",
@@ -9914,8 +9912,7 @@ window.FINHOT_DATA = {
       "news_799beb9d5917"
     ],
     "权益": [
-      "news_ed72214e4b68",
-      "news_33094676b370"
+      "news_ed72214e4b68"
     ],
     "年化": [
       "news_6411812c83f6",
@@ -9928,7 +9925,7 @@ window.FINHOT_DATA = {
     ]
   },
   "sourceHealth": {
-    "generatedAt": "2026-09-27T14:07:05.260Z",
+    "generatedAt": "2026-09-27T17:07:44.451Z",
     "status": "healthy",
     "totalSources": 10,
     "successfulSources": 10,
@@ -9937,7 +9934,7 @@ window.FINHOT_DATA = {
     "staleSources": 0,
     "fetchLimitReachedSources": 0,
     "coverageRate": 0.9,
-    "freshestPublishedAt": "2026-09-27T13:59:40.000Z",
+    "freshestPublishedAt": "2026-09-27T16:25:02.000Z",
     "sources": [
       {
         "sourceId": "source_a6a2153c0b",
@@ -9955,8 +9952,8 @@ window.FINHOT_DATA = {
         "fetchLimit": 30,
         "fetchLimitExpanded": false,
         "fetchLimitReached": false,
-        "addedCount": 1,
-        "durationMs": 1383,
+        "addedCount": 0,
+        "durationMs": 1957,
         "latestPublishedAt": "2026-09-27T11:50:20.000Z",
         "usedEndpoint": "rsshub.rssforever.com"
       },
@@ -9976,8 +9973,8 @@ window.FINHOT_DATA = {
         "fetchLimit": 50,
         "fetchLimitExpanded": true,
         "fetchLimitReached": false,
-        "addedCount": 2,
-        "durationMs": 15358,
+        "addedCount": 0,
+        "durationMs": 7238,
         "latestPublishedAt": "2026-09-27T11:51:28.000Z",
         "usedEndpoint": "rsshub.rssforever.com"
       },
@@ -9997,9 +9994,9 @@ window.FINHOT_DATA = {
         "fetchLimit": 50,
         "fetchLimitExpanded": true,
         "fetchLimitReached": false,
-        "addedCount": 13,
-        "durationMs": 15668,
-        "latestPublishedAt": "2026-09-27T13:35:29.000Z",
+        "addedCount": 0,
+        "durationMs": 15372,
+        "latestPublishedAt": "2026-09-27T16:00:24.000Z",
         "usedEndpoint": "rsshub.rssforever.com"
       },
       {
@@ -10019,8 +10016,8 @@ window.FINHOT_DATA = {
         "fetchLimitExpanded": false,
         "fetchLimitReached": false,
         "addedCount": 0,
-        "durationMs": 50741,
-        "latestPublishedAt": "2026-09-27T13:59:40.000Z",
+        "durationMs": 49185,
+        "latestPublishedAt": "2026-09-27T16:25:02.000Z",
         "usedEndpoint": "rsshub-balancer.virworks.moe"
       },
       {
@@ -10039,8 +10036,8 @@ window.FINHOT_DATA = {
         "fetchLimit": 50,
         "fetchLimitExpanded": true,
         "fetchLimitReached": false,
-        "addedCount": 4,
-        "durationMs": 64214,
+        "addedCount": 3,
+        "durationMs": 52161,
         "latestPublishedAt": "2026-09-27T12:05:09.000Z",
         "usedEndpoint": "rsshub-balancer.virworks.moe"
       },
@@ -10061,7 +10058,7 @@ window.FINHOT_DATA = {
         "fetchLimitExpanded": false,
         "fetchLimitReached": false,
         "addedCount": 0,
-        "durationMs": 362,
+        "durationMs": 370,
         "latestPublishedAt": "2026-09-27T08:45:43.000Z",
         "usedEndpoint": "rsshub.rssforever.com"
       },
@@ -10082,9 +10079,9 @@ window.FINHOT_DATA = {
         "fetchLimitExpanded": false,
         "fetchLimitReached": false,
         "addedCount": 0,
-        "durationMs": 22481,
+        "durationMs": 64839,
         "latestPublishedAt": "2026-09-21T16:00:00.000Z",
-        "usedEndpoint": "rsshub.rssforever.com"
+        "usedEndpoint": "rsshub-balancer.virworks.moe"
       },
       {
         "sourceId": "source_adf9a67b7f",
@@ -10103,9 +10100,9 @@ window.FINHOT_DATA = {
         "fetchLimitExpanded": false,
         "fetchLimitReached": false,
         "addedCount": 0,
-        "durationMs": 13226,
+        "durationMs": 72347,
         "latestPublishedAt": "2026-09-17T23:27:06.000Z",
-        "usedEndpoint": "rsshub.rssforever.com"
+        "usedEndpoint": "rsshub-balancer.virworks.moe"
       },
       {
         "sourceId": "source_0936db37cf",
@@ -10123,9 +10120,9 @@ window.FINHOT_DATA = {
         "fetchLimit": 30,
         "fetchLimitExpanded": false,
         "fetchLimitReached": false,
-        "addedCount": 7,
-        "durationMs": 150,
-        "latestPublishedAt": "2026-09-27T12:45:12.000Z",
+        "addedCount": 2,
+        "durationMs": 79,
+        "latestPublishedAt": "2026-09-27T16:05:27.000Z",
         "usedEndpoint": "cn.investing.com"
       },
       {
@@ -10145,7 +10142,7 @@ window.FINHOT_DATA = {
         "fetchLimitExpanded": false,
         "fetchLimitReached": false,
         "addedCount": 9,
-        "durationMs": 63,
+        "durationMs": 61,
         "latestPublishedAt": "2026-09-25T10:04:08.000Z",
         "usedEndpoint": "cn.investing.com"
       }
@@ -10157,7 +10154,7 @@ window.FINHOT_DATA = {
     "retentionDays": 90
   },
   "macro": {
-    "updatedAt": "2026-09-27T14:07:05.260Z",
+    "updatedAt": "2026-09-27T17:07:44.451Z",
     "indicators": [
       {
         "key": "lpr1y",
@@ -10255,7 +10252,7 @@ window.FINHOT_DATA = {
         ],
         "historicalEvidenceCount": 49,
         "firstSeenAt": "2026-09-01T16:50:22.105Z",
-        "lastSeenAt": "2026-09-27T14:07:05.260Z",
+        "lastSeenAt": "2026-09-27T17:07:44.451Z",
         "status": "developing"
       },
       {
@@ -10268,7 +10265,7 @@ window.FINHOT_DATA = {
         ],
         "historicalEvidenceCount": 2,
         "firstSeenAt": "2026-09-25T13:57:45.825Z",
-        "lastSeenAt": "2026-09-27T14:07:05.260Z",
+        "lastSeenAt": "2026-09-27T17:07:44.451Z",
         "status": "developing"
       },
       {
@@ -10286,7 +10283,7 @@ window.FINHOT_DATA = {
         ],
         "historicalEvidenceCount": 2,
         "firstSeenAt": "2026-09-25T17:20:35.902Z",
-        "lastSeenAt": "2026-09-27T14:07:05.260Z",
+        "lastSeenAt": "2026-09-27T17:07:44.451Z",
         "status": "developing"
       },
       {
@@ -10299,7 +10296,7 @@ window.FINHOT_DATA = {
         ],
         "historicalEvidenceCount": 2,
         "firstSeenAt": "2026-09-24T13:40:21.808Z",
-        "lastSeenAt": "2026-09-27T14:07:05.260Z",
+        "lastSeenAt": "2026-09-27T17:07:44.451Z",
         "status": "developing"
       },
       {
@@ -10321,7 +10318,7 @@ window.FINHOT_DATA = {
         ],
         "historicalEvidenceCount": 0,
         "firstSeenAt": "2026-09-26T09:23:42.563Z",
-        "lastSeenAt": "2026-09-27T14:07:05.260Z",
+        "lastSeenAt": "2026-09-27T17:07:44.451Z",
         "status": "developing"
       },
       {
@@ -10334,7 +10331,7 @@ window.FINHOT_DATA = {
         ],
         "historicalEvidenceCount": 1,
         "firstSeenAt": "2026-09-26T13:19:12.302Z",
-        "lastSeenAt": "2026-09-27T14:07:05.260Z",
+        "lastSeenAt": "2026-09-27T17:07:44.451Z",
         "status": "developing"
       },
       {
@@ -10350,20 +10347,7 @@ window.FINHOT_DATA = {
         ],
         "historicalEvidenceCount": 0,
         "firstSeenAt": "2026-09-26T13:19:12.302Z",
-        "lastSeenAt": "2026-09-27T14:07:05.260Z",
-        "status": "developing"
-      },
-      {
-        "eventId": "event_274777a299d4",
-        "title": "AI周报| Meta旗下Muse爆火；高瓴90后合伙人出任DeepSeek CFO",
-        "mainItemId": "news_5c0b12fb8dcd",
-        "relatedItemIds": [],
-        "evidenceItemIds": [
-          "news_5c0b12fb8dcd"
-        ],
-        "historicalEvidenceCount": 10,
-        "firstSeenAt": "2026-07-31T14:43:32.623Z",
-        "lastSeenAt": "2026-09-27T14:07:05.260Z",
+        "lastSeenAt": "2026-09-27T17:07:44.451Z",
         "status": "developing"
       },
       {
@@ -10376,7 +10360,7 @@ window.FINHOT_DATA = {
         ],
         "historicalEvidenceCount": 1,
         "firstSeenAt": "2026-09-27T05:27:32.826Z",
-        "lastSeenAt": "2026-09-27T14:07:05.260Z",
+        "lastSeenAt": "2026-09-27T17:07:44.451Z",
         "status": "developing"
       },
       {
@@ -10389,7 +10373,23 @@ window.FINHOT_DATA = {
         ],
         "historicalEvidenceCount": 1,
         "firstSeenAt": "2026-09-27T05:27:32.826Z",
-        "lastSeenAt": "2026-09-27T14:07:05.260Z",
+        "lastSeenAt": "2026-09-27T17:07:44.451Z",
+        "status": "developing"
+      },
+      {
+        "eventId": "event_5c596486678d",
+        "title": "伯恩斯坦：澜起科技维持“跑赢大市”评级，目标价520港元",
+        "mainItemId": "news_83aad8fb64f4",
+        "relatedItemIds": [
+          "news_887b49cebf57"
+        ],
+        "evidenceItemIds": [
+          "news_83aad8fb64f4",
+          "news_887b49cebf57"
+        ],
+        "historicalEvidenceCount": 0,
+        "firstSeenAt": "2026-09-27T05:27:32.826Z",
+        "lastSeenAt": "2026-09-27T17:07:44.451Z",
         "status": "developing"
       }
     ],
@@ -10763,6 +10763,7 @@ window.KEYWORD_INDEX = {
     "news_83aad8fb64f4"
   ],
   "港股": [
+    "news_d8c7ccc39272",
     "news_14c09f5ee446",
     "news_bad82e859617"
   ],
@@ -10861,6 +10862,7 @@ window.KEYWORD_INDEX = {
     "news_2cdf6c5dd9be"
   ],
   "券商": [
+    "news_162b6574fb5c",
     "news_1c8492a740fe",
     "news_b7d4bd98c235"
   ],
@@ -10879,8 +10881,7 @@ window.KEYWORD_INDEX = {
     "news_2e8b5e10a522",
     "news_07b9ec71d081",
     "news_35dfab487e2b",
-    "news_bda4723359e6",
-    "news_33094676b370"
+    "news_bda4723359e6"
   ],
   "机构": [
     "news_beafd9475e51",
@@ -10993,8 +10994,7 @@ window.KEYWORD_INDEX = {
     "news_07b9ec71d081",
     "news_dfc29602b941",
     "news_03b615baedfe",
-    "news_d28a4c782f3c",
-    "news_466a61edb653"
+    "news_d28a4c782f3c"
   ],
   "GDP": [
     "news_6411812c83f6",
@@ -11101,6 +11101,7 @@ window.KEYWORD_INDEX = {
     "news_d28a4c782f3c"
   ],
   "投资": [
+    "news_d8c7ccc39272",
     "news_d314c22ea658",
     "news_3619f9837ba3",
     "news_9fef9fbfa40c",
@@ -11125,8 +11126,7 @@ window.KEYWORD_INDEX = {
     "news_b2c554a01c8a",
     "news_35dfab487e2b",
     "news_1c5a87f8eb94",
-    "news_bda4723359e6",
-    "news_33094676b370"
+    "news_bda4723359e6"
   ],
   "出口": [
     "news_7e5ab4cf6aa6",
@@ -11150,8 +11150,7 @@ window.KEYWORD_INDEX = {
     "news_0c2a4cc1f6ea",
     "news_7b8441591c5c",
     "news_5f3a7d4e2439",
-    "news_1b68d3dfb4d5",
-    "news_466a61edb653"
+    "news_1b68d3dfb4d5"
   ],
   "供应链": [
     "news_5f3a7d4e2439",
@@ -11218,8 +11217,7 @@ window.KEYWORD_INDEX = {
     "news_799beb9d5917"
   ],
   "权益": [
-    "news_ed72214e4b68",
-    "news_33094676b370"
+    "news_ed72214e4b68"
   ],
   "年化": [
     "news_6411812c83f6",

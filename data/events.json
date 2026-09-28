@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-09-27T17:07:44.451Z",
+  "generatedAt": "2026-09-28T05:35:22.132Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -8,7 +8,7 @@
       "eventId": "event_a678dcb442aa",
       "title": "沙特阿拉伯股市上涨；截至收盘沙特阿拉伯TASI指数上涨0.78%",
       "firstSeenAt": "2026-09-01T16:50:22.105Z",
-      "lastSeenAt": "2026-09-27T17:07:44.451Z",
+      "lastSeenAt": "2026-09-28T05:35:22.132Z",
       "primaryItemId": "news_2bfb2d49fbc7",
       "evidenceItemIds": [
         "news_5811f57d353a",
@@ -68,7 +68,7 @@
       "eventId": "event_b20ed02641d5",
       "title": "恩格斯停顿会重演吗？人工智能时代的资本、劳动与分配（四）",
       "firstSeenAt": "2026-09-25T13:57:45.825Z",
-      "lastSeenAt": "2026-09-27T17:07:44.451Z",
+      "lastSeenAt": "2026-09-28T05:35:22.132Z",
       "primaryItemId": "news_f89718a45855",
       "evidenceItemIds": [
         "news_ed1eb6d1697e",
@@ -81,7 +81,7 @@
       "eventId": "event_1bd9d69a0d2a",
       "title": "Solidigm冲刺美股史上最大半导体IPO！英特尔曾以90亿美元卖掉，如今估值或达1500亿美元",
       "firstSeenAt": "2026-09-25T17:20:35.902Z",
-      "lastSeenAt": "2026-09-27T17:07:44.451Z",
+      "lastSeenAt": "2026-09-28T05:35:22.132Z",
       "primaryItemId": "news_1c5a87f8eb94",
       "evidenceItemIds": [
         "news_c09e5b7fbb9d",
@@ -96,7 +96,7 @@
       "eventId": "event_2f5bc2cc3a40",
       "title": "甲骨文的多米诺骨牌： 新墨西哥州数据中心会是AI地雷导火索吗？",
       "firstSeenAt": "2026-09-24T13:40:21.808Z",
-      "lastSeenAt": "2026-09-27T17:07:44.451Z",
+      "lastSeenAt": "2026-09-28T05:35:22.132Z",
       "primaryItemId": "news_0b685aeaaf4f",
       "evidenceItemIds": [
         "news_b2f65a4fa94c",
@@ -109,7 +109,7 @@
       "eventId": "event_a973cc5f0945",
       "title": "中美达成八点成果共识。（新华社）",
       "firstSeenAt": "2026-09-26T09:23:42.563Z",
-      "lastSeenAt": "2026-09-27T17:07:44.451Z",
+      "lastSeenAt": "2026-09-28T05:35:22.132Z",
       "primaryItemId": "news_bc9052fa948c",
       "evidenceItemIds": [
         "news_bc9052fa948c",
@@ -124,7 +124,7 @@
       "eventId": "event_d2bdeacc76eb",
       "title": "新华社评论员：共同构建“基于尊重、公平、对等的建设性战略稳定关系”",
       "firstSeenAt": "2026-09-26T13:19:12.302Z",
-      "lastSeenAt": "2026-09-27T17:07:44.451Z",
+      "lastSeenAt": "2026-09-28T05:35:22.132Z",
       "primaryItemId": "news_dfc29602b941",
       "evidenceItemIds": [
         "news_6c1c56486c21",
@@ -136,7 +136,7 @@
       "eventId": "event_96118cb669e2",
       "title": "外交部发言人就人工智能问题答记者问",
       "firstSeenAt": "2026-09-26T13:19:12.302Z",
-      "lastSeenAt": "2026-09-27T17:07:44.451Z",
+      "lastSeenAt": "2026-09-28T05:35:22.132Z",
       "primaryItemId": "news_518e35408f25",
       "evidenceItemIds": [
         "news_518e35408f25",
@@ -148,7 +148,7 @@
       "eventId": "event_bebf6347f794",
       "title": "被误读的Akamai：Anthropic为何签下116 亿美元算力大单并用换股权绑定它？",
       "firstSeenAt": "2026-09-27T05:27:32.826Z",
-      "lastSeenAt": "2026-09-27T17:07:44.451Z",
+      "lastSeenAt": "2026-09-28T05:35:22.132Z",
       "primaryItemId": "news_9ea52c07f957",
       "evidenceItemIds": [
         "news_9ea52c07f957",
@@ -160,7 +160,7 @@
       "eventId": "event_484605365baf",
       "title": "三大运营商暂停金融分期业务，“0元购机”全面停办",
       "firstSeenAt": "2026-09-27T05:27:32.826Z",
-      "lastSeenAt": "2026-09-27T17:07:44.451Z",
+      "lastSeenAt": "2026-09-28T05:35:22.132Z",
       "primaryItemId": "news_997f46c55f92",
       "evidenceItemIds": [
         "news_997f46c55f92",
@@ -172,7 +172,7 @@
       "eventId": "event_5c596486678d",
       "title": "伯恩斯坦：澜起科技维持“跑赢大市”评级，目标价520港元",
       "firstSeenAt": "2026-09-27T05:27:32.826Z",
-      "lastSeenAt": "2026-09-27T17:07:44.451Z",
+      "lastSeenAt": "2026-09-28T05:35:22.132Z",
       "primaryItemId": "news_83aad8fb64f4",
       "evidenceItemIds": [
         "news_83aad8fb64f4",
@@ -184,7 +184,7 @@
       "eventId": "event_37a43c9e1cfd",
       "title": "机构论后市丨短期市场迎来修复式反弹；做多窗口开启，可持股过节",
       "firstSeenAt": "2026-09-27T10:01:22.358Z",
-      "lastSeenAt": "2026-09-27T17:07:44.451Z",
+      "lastSeenAt": "2026-09-28T05:35:22.132Z",
       "primaryItemId": "news_6ae548739de7",
       "evidenceItemIds": [
         "news_6ae548739de7",
@@ -197,7 +197,7 @@
       "eventId": "event_5c1b7acfe05e",
       "title": "下周重磅日程：美国非农与中国PMI、OpenAI开发者大会、美光财报",
       "firstSeenAt": "2026-09-27T10:01:22.358Z",
-      "lastSeenAt": "2026-09-27T17:07:44.451Z",
+      "lastSeenAt": "2026-09-28T05:35:22.132Z",
       "primaryItemId": "news_55f51b17058b",
       "evidenceItemIds": [
         "news_55f51b17058b",
@@ -209,7 +209,7 @@
       "eventId": "event_9e7d7703df9d",
       "title": "盈新发展(000620.SZ)拟推2026年限制性股票激励计划",
       "firstSeenAt": "2026-09-27T10:01:22.358Z",
-      "lastSeenAt": "2026-09-27T17:07:44.451Z",
+      "lastSeenAt": "2026-09-28T05:35:22.132Z",
       "primaryItemId": "news_f13a247cb690",
       "evidenceItemIds": [
         "news_f13a247cb690",
@@ -221,7 +221,7 @@
       "eventId": "event_202dd878fa19",
       "title": "晚间公告丨9月27日这些公告有看头",
       "firstSeenAt": "2026-07-31T14:43:32.623Z",
-      "lastSeenAt": "2026-09-27T17:07:44.451Z",
+      "lastSeenAt": "2026-09-28T05:35:22.132Z",
       "primaryItemId": "news_26fc897a9685",
       "evidenceItemIds": [
         "news_eaf56a2f5345",
@@ -280,7 +280,7 @@
       "eventId": "event_bad540489eaf",
       "title": "管涛：复盘上世纪末美联储加息周期与互联网泡沫的破裂",
       "firstSeenAt": "2026-09-27T14:07:05.260Z",
-      "lastSeenAt": "2026-09-27T17:07:44.451Z",
+      "lastSeenAt": "2026-09-28T05:35:22.132Z",
       "primaryItemId": "news_bd5d99591384",
       "evidenceItemIds": [
         "news_bd5d99591384",
@@ -292,7 +292,7 @@
       "eventId": "event_bd988e76422a",
       "title": "新股消息 | 智驾供应商寅家科技递表港交所 2026上半年毛利率修复至17.8%",
       "firstSeenAt": "2026-09-27T14:07:05.260Z",
-      "lastSeenAt": "2026-09-27T17:07:44.451Z",
+      "lastSeenAt": "2026-09-28T05:35:22.132Z",
       "primaryItemId": "news_b22e9718cb16",
       "evidenceItemIds": [
         "news_b22e9718cb16",
@@ -304,7 +304,7 @@
       "eventId": "event_820756ad4842",
       "title": "FMR LLC减持国药控股(01099)73.24万股 每股作价约15.01港元",
       "firstSeenAt": "2026-09-27T14:07:05.260Z",
-      "lastSeenAt": "2026-09-27T17:07:44.451Z",
+      "lastSeenAt": "2026-09-28T05:35:22.132Z",
       "primaryItemId": "news_81a5303b65cc",
       "evidenceItemIds": [
         "news_81a5303b65cc",
@@ -314,10 +314,10 @@
     },
     {
       "eventId": "event_91fb625edcc6",
-      "title": "华尔街见闻早餐FM-Radio | 2026年9月26日",
+      "title": "华尔街见闻早餐FM-Radio | 2026年9月28日",
       "firstSeenAt": "2026-08-01T03:54:06.184Z",
-      "lastSeenAt": "2026-09-27T14:07:05.260Z",
-      "primaryItemId": "news_a0223e9b4b9d",
+      "lastSeenAt": "2026-09-28T05:35:22.132Z",
+      "primaryItemId": "news_4aab1a3bfcb1",
       "evidenceItemIds": [
         "news_17edaa318161",
         "news_98deb5260008",
@@ -353,7 +353,256 @@
         "news_687a7cf50f4e",
         "news_9d6c9df853fe",
         "news_33a9db2a790e",
-        "news_a0223e9b4b9d"
+        "news_a0223e9b4b9d",
+        "news_4aab1a3bfcb1"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_529af3584dc2",
+      "title": "恒指午间休盘涨0.64%，恒生科技指数跌0.54%",
+      "firstSeenAt": "2026-07-31T02:43:30.494Z",
+      "lastSeenAt": "2026-09-28T05:35:22.132Z",
+      "primaryItemId": "news_8e47b7bea260",
+      "evidenceItemIds": [
+        "news_4a0d3d6b1b80",
+        "news_9ad084c58f34",
+        "news_8e56de0598da",
+        "news_9329393092b2",
+        "news_db6f05e3a62a",
+        "news_a67efbf791ea",
+        "news_3fbffa58cc34",
+        "news_4fd39e2b0bc4",
+        "news_da40c026f648",
+        "news_526f8c1f6ee0",
+        "news_f24a647a25f0",
+        "news_a8e3b50883ac",
+        "news_36c33b7efa7a",
+        "news_3ce688620f6b",
+        "news_b15f29635579",
+        "news_d500b1d3ebf0",
+        "news_7a3ba44ec820",
+        "news_5032b1b1e270",
+        "news_dec96877aed6",
+        "news_7e76aa9dc564",
+        "news_a7841e1f7444",
+        "news_6b270da68dc7",
+        "news_418b1f72d789",
+        "news_7d0a8e877726",
+        "news_a370a83889a3",
+        "news_26c523260f0b",
+        "news_1a929c44af7a",
+        "news_e7ee6601c3cf",
+        "news_30ce26e12abb",
+        "news_bdebbb50d397",
+        "news_3dc786acb560",
+        "news_d853838d4105",
+        "news_422bf9816e67",
+        "news_81e8f64ea33a",
+        "news_6d255f0628bf",
+        "news_5952a7dfa04d",
+        "news_11034186b7e8",
+        "news_e8c3607ce3a2",
+        "news_1dd387975bd3",
+        "news_11c167294afa",
+        "news_cf58d2f09e30",
+        "news_bfdf661f226a",
+        "news_06610f4e6f58",
+        "news_384ce2a8d65e",
+        "news_bb3932f7986b",
+        "news_f94f34ed437f",
+        "news_58bca20c960d",
+        "news_5bd22499d70d",
+        "news_55ca79843513",
+        "news_8e47b7bea260"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_86706bc3d28c",
+      "title": "债券ETF首破万亿",
+      "firstSeenAt": "2026-09-24T17:20:47.095Z",
+      "lastSeenAt": "2026-09-28T05:35:22.132Z",
+      "primaryItemId": "news_91b8cf1a5ca4",
+      "evidenceItemIds": [
+        "news_91b8cf1a5ca4",
+        "news_a47a251a1293",
+        "news_a04fb9c2a2f3"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_b16bf2547dff",
+      "title": "商务部美大司负责人解读第八轮中美经贸磋商成果",
+      "firstSeenAt": "2026-09-25T05:06:41.639Z",
+      "lastSeenAt": "2026-09-28T05:35:22.132Z",
+      "primaryItemId": "news_f6e1465cdb50",
+      "evidenceItemIds": [
+        "news_8f87edf6a80c",
+        "news_687f6a536f55",
+        "news_f6e1465cdb50"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_32967e3730b8",
+      "title": "A股三大指数午间休盘集体下跌，全市场近4800股下跌",
+      "firstSeenAt": "2026-08-03T15:23:32.854Z",
+      "lastSeenAt": "2026-09-28T05:35:22.132Z",
+      "primaryItemId": "news_c7b56748030f",
+      "evidenceItemIds": [
+        "news_55a99e361fd9",
+        "news_e3cbd1d4091e",
+        "news_1cac0313fa36",
+        "news_2dae2543ea57",
+        "news_d3633f74e1be",
+        "news_13a404d5aebb",
+        "news_2801be608ab2",
+        "news_b497a6eb590d",
+        "news_0c203dd7e5f6",
+        "news_93d7e52ddd4e",
+        "news_5caa1ba21c83",
+        "news_14aeb3fbbd9f",
+        "news_3a4d68335c54",
+        "news_ba4a5507e68d",
+        "news_dd4dbb6d80c3",
+        "news_9f9aa9a3732e",
+        "news_d1231b21a30a",
+        "news_9b5b7ce5fd25",
+        "news_fdbb5aa5caf1",
+        "news_17b7df805aa3",
+        "news_ddeea6299f3b",
+        "news_c9e3c6e822bf",
+        "news_9fa4d2e3b0f0",
+        "news_df93bbe4db74",
+        "news_bb71550ff9bf",
+        "news_1cb84ecb465d",
+        "news_8753aa769c8e",
+        "news_14c7b527d369",
+        "news_832e20de7c6d",
+        "news_21694382272f",
+        "news_2132f9617e5a",
+        "news_bd356f3c3e43",
+        "news_df9ae4ef33fd",
+        "news_e737ee6dc3c7",
+        "news_b05549c0a329",
+        "news_e9a1070c37b7",
+        "news_1ce5d5d93aef",
+        "news_aa494797b262",
+        "news_0de38f07c64c",
+        "news_d4235c6c967f",
+        "news_88c0ddbf39db",
+        "news_672c679be756",
+        "news_ec3712a311c1",
+        "news_d8a36369d503",
+        "news_b17e22501980",
+        "news_6089e49c3ca5",
+        "news_cc1a01241c90",
+        "news_50938eea9e00",
+        "news_6029c581c862",
+        "news_c7b56748030f"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_606b04596798",
+      "title": "盒马在广西成立桂鲜达网络科技公司，注册资本1000万",
+      "firstSeenAt": "2026-09-23T04:49:55.384Z",
+      "lastSeenAt": "2026-09-28T05:35:22.132Z",
+      "primaryItemId": "news_3b9df99d9bff",
+      "evidenceItemIds": [
+        "news_d80694ef6c27",
+        "news_d9182539edef",
+        "news_3b9df99d9bff"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_74158378db4b",
+      "title": "今日开盘：两市双双低开 沪指跌幅0.26%",
+      "firstSeenAt": "2026-08-06T03:43:23.319Z",
+      "lastSeenAt": "2026-09-28T05:35:22.132Z",
+      "primaryItemId": "news_0fe085269763",
+      "evidenceItemIds": [
+        "news_5c70752541f1",
+        "news_4e57f6baed6e",
+        "news_e9e2a1fc2551",
+        "news_a1671de823c1",
+        "news_7df695aa3d10",
+        "news_fd96e76babcb",
+        "news_002a5afcff3b",
+        "news_da9ad91cb33a",
+        "news_df51b1764e08",
+        "news_4a76c392df1e",
+        "news_075795deda4d",
+        "news_011398fcfd6a",
+        "news_25184331b792",
+        "news_0fe085269763",
+        "news_68ce3df603b7"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_b8137c9734e7",
+      "title": "国家统计局：2026年1—8月全国规模以上工业企业利润同比增长15.7% 利润延续较快增长",
+      "firstSeenAt": "2026-08-27T09:56:46.110Z",
+      "lastSeenAt": "2026-09-28T05:35:22.132Z",
+      "primaryItemId": "news_32a44aaa899a",
+      "evidenceItemIds": [
+        "news_03dd738e8494",
+        "news_9bdbe629e0b1",
+        "news_32a44aaa899a",
+        "news_03b0b06b325f"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_ea47a474f416",
+      "title": "又一“高中签率”新股明日申购",
+      "firstSeenAt": "2026-08-26T02:04:09.531Z",
+      "lastSeenAt": "2026-09-28T05:35:22.132Z",
+      "primaryItemId": "news_3d8ea3bf6079",
+      "evidenceItemIds": [
+        "news_a372a6e6d6d9",
+        "news_ebacac1896c9",
+        "news_3d8ea3bf6079",
+        "news_2a9b5ba8e907"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_897ec510a484",
+      "title": "【华尔街原声】分析人士：AI支出已成为美国经济主要驱动力",
+      "firstSeenAt": "2026-09-28T05:35:22.132Z",
+      "lastSeenAt": "2026-09-28T05:35:22.132Z",
+      "primaryItemId": "news_f0e32a8a0846",
+      "evidenceItemIds": [
+        "news_f0e32a8a0846",
+        "news_7bed79a80530"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_b919cae38249",
+      "title": "中国8月规模以上工业企业利润同比 4.2%，前值 11.2%",
+      "firstSeenAt": "2026-09-28T05:35:22.132Z",
+      "lastSeenAt": "2026-09-28T05:35:22.132Z",
+      "primaryItemId": "news_b616aa7154a3",
+      "evidenceItemIds": [
+        "news_b616aa7154a3",
+        "news_2a1e317d536d"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_a82c3ed44837",
+      "title": "事关美国柴油出口禁令！特朗普最新表态：正“非常认真地”考虑此事",
+      "firstSeenAt": "2026-09-28T05:35:22.132Z",
+      "lastSeenAt": "2026-09-28T05:35:22.132Z",
+      "primaryItemId": "news_97a227d01dc5",
+      "evidenceItemIds": [
+        "news_97a227d01dc5",
+        "news_968b555488f6"
       ],
       "status": "developing"
     },
@@ -447,66 +696,6 @@
       "status": "developing"
     },
     {
-      "eventId": "event_529af3584dc2",
-      "title": "恒指收跌1.01%，恒生科技指数跌1.13%",
-      "firstSeenAt": "2026-07-31T02:43:30.494Z",
-      "lastSeenAt": "2026-09-27T05:27:32.826Z",
-      "primaryItemId": "news_55ca79843513",
-      "evidenceItemIds": [
-        "news_21ee0b9fb11f",
-        "news_4a0d3d6b1b80",
-        "news_9ad084c58f34",
-        "news_8e56de0598da",
-        "news_9329393092b2",
-        "news_db6f05e3a62a",
-        "news_a67efbf791ea",
-        "news_3fbffa58cc34",
-        "news_4fd39e2b0bc4",
-        "news_da40c026f648",
-        "news_526f8c1f6ee0",
-        "news_f24a647a25f0",
-        "news_a8e3b50883ac",
-        "news_36c33b7efa7a",
-        "news_3ce688620f6b",
-        "news_b15f29635579",
-        "news_d500b1d3ebf0",
-        "news_7a3ba44ec820",
-        "news_5032b1b1e270",
-        "news_dec96877aed6",
-        "news_7e76aa9dc564",
-        "news_a7841e1f7444",
-        "news_6b270da68dc7",
-        "news_418b1f72d789",
-        "news_7d0a8e877726",
-        "news_a370a83889a3",
-        "news_26c523260f0b",
-        "news_1a929c44af7a",
-        "news_e7ee6601c3cf",
-        "news_30ce26e12abb",
-        "news_bdebbb50d397",
-        "news_3dc786acb560",
-        "news_d853838d4105",
-        "news_422bf9816e67",
-        "news_81e8f64ea33a",
-        "news_6d255f0628bf",
-        "news_5952a7dfa04d",
-        "news_11034186b7e8",
-        "news_e8c3607ce3a2",
-        "news_1dd387975bd3",
-        "news_11c167294afa",
-        "news_cf58d2f09e30",
-        "news_bfdf661f226a",
-        "news_06610f4e6f58",
-        "news_384ce2a8d65e",
-        "news_bb3932f7986b",
-        "news_f94f34ed437f",
-        "news_58bca20c960d",
-        "news_5bd22499d70d",
-        "news_55ca79843513"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_33f394c17933",
       "title": "渣打集团(02888)9月24日斥资823.74万英镑回购36.34万股",
       "firstSeenAt": "2026-09-09T04:48:18.184Z",
@@ -566,18 +755,6 @@
       "status": "developing"
     },
     {
-      "eventId": "event_86706bc3d28c",
-      "title": "债券ETF首破万亿",
-      "firstSeenAt": "2026-09-24T17:20:47.095Z",
-      "lastSeenAt": "2026-09-26T16:33:42.256Z",
-      "primaryItemId": "news_91b8cf1a5ca4",
-      "evidenceItemIds": [
-        "news_91b8cf1a5ca4",
-        "news_a47a251a1293"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_047e88dec624",
       "title": "北京：商品房预售需封顶 优先选择现房销售",
       "firstSeenAt": "2026-09-24T17:20:47.095Z",
@@ -586,18 +763,6 @@
       "evidenceItemIds": [
         "news_a110761e0589",
         "news_d82041dfb432"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_b16bf2547dff",
-      "title": "商务部：中美第八轮经贸磋商达成多项共识",
-      "firstSeenAt": "2026-09-25T05:06:41.639Z",
-      "lastSeenAt": "2026-09-26T16:33:42.256Z",
-      "primaryItemId": "news_8f87edf6a80c",
-      "evidenceItemIds": [
-        "news_8f87edf6a80c",
-        "news_687f6a536f55"
       ],
       "status": "developing"
     },
@@ -706,66 +871,6 @@
       "evidenceItemIds": [
         "news_e73ecd0137a6",
         "news_6b66b252f3d0"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_32967e3730b8",
-      "title": "美股大型科技股盘前普跌，美光科技跌超2%",
-      "firstSeenAt": "2026-08-03T15:23:32.854Z",
-      "lastSeenAt": "2026-09-25T13:57:45.825Z",
-      "primaryItemId": "news_50938eea9e00",
-      "evidenceItemIds": [
-        "news_6b40c15032cc",
-        "news_dcde525a191c",
-        "news_55a99e361fd9",
-        "news_e3cbd1d4091e",
-        "news_1cac0313fa36",
-        "news_2dae2543ea57",
-        "news_d3633f74e1be",
-        "news_13a404d5aebb",
-        "news_2801be608ab2",
-        "news_b497a6eb590d",
-        "news_0c203dd7e5f6",
-        "news_93d7e52ddd4e",
-        "news_5caa1ba21c83",
-        "news_14aeb3fbbd9f",
-        "news_3a4d68335c54",
-        "news_ba4a5507e68d",
-        "news_dd4dbb6d80c3",
-        "news_9f9aa9a3732e",
-        "news_d1231b21a30a",
-        "news_9b5b7ce5fd25",
-        "news_fdbb5aa5caf1",
-        "news_17b7df805aa3",
-        "news_ddeea6299f3b",
-        "news_c9e3c6e822bf",
-        "news_9fa4d2e3b0f0",
-        "news_df93bbe4db74",
-        "news_bb71550ff9bf",
-        "news_1cb84ecb465d",
-        "news_8753aa769c8e",
-        "news_14c7b527d369",
-        "news_832e20de7c6d",
-        "news_21694382272f",
-        "news_2132f9617e5a",
-        "news_bd356f3c3e43",
-        "news_df9ae4ef33fd",
-        "news_e737ee6dc3c7",
-        "news_b05549c0a329",
-        "news_e9a1070c37b7",
-        "news_1ce5d5d93aef",
-        "news_aa494797b262",
-        "news_0de38f07c64c",
-        "news_d4235c6c967f",
-        "news_88c0ddbf39db",
-        "news_672c679be756",
-        "news_ec3712a311c1",
-        "news_d8a36369d503",
-        "news_b17e22501980",
-        "news_6089e49c3ca5",
-        "news_cc1a01241c90",
-        "news_50938eea9e00"
       ],
       "status": "developing"
     },
@@ -1336,18 +1441,6 @@
       "evidenceItemIds": [
         "news_dc9991f00b48",
         "news_e3794260a3e2"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_606b04596798",
-      "title": "广汽能源在北京成立新科技公司，注册资本5000万",
-      "firstSeenAt": "2026-09-23T04:49:55.384Z",
-      "lastSeenAt": "2026-09-23T09:22:53.776Z",
-      "primaryItemId": "news_d80694ef6c27",
-      "evidenceItemIds": [
-        "news_d80694ef6c27",
-        "news_d9182539edef"
       ],
       "status": "developing"
     },
@@ -3171,29 +3264,6 @@
         "news_724d0e98eed1",
         "news_5818a525956f",
         "news_8d7c5425c70a"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_74158378db4b",
-      "title": "今日开盘：两市双双低开 沪指跌幅0.54%",
-      "firstSeenAt": "2026-08-06T03:43:23.319Z",
-      "lastSeenAt": "2026-09-14T15:09:26.454Z",
-      "primaryItemId": "news_25184331b792",
-      "evidenceItemIds": [
-        "news_5c70752541f1",
-        "news_4e57f6baed6e",
-        "news_e9e2a1fc2551",
-        "news_a1671de823c1",
-        "news_7df695aa3d10",
-        "news_fd96e76babcb",
-        "news_002a5afcff3b",
-        "news_da9ad91cb33a",
-        "news_df51b1764e08",
-        "news_4a76c392df1e",
-        "news_075795deda4d",
-        "news_011398fcfd6a",
-        "news_25184331b792"
       ],
       "status": "developing"
     },
@@ -5739,18 +5809,6 @@
       "status": "developing"
     },
     {
-      "eventId": "event_b8137c9734e7",
-      "title": "国家统计局：2026年1—7月份全国规模以上工业企业利润增长17.6%",
-      "firstSeenAt": "2026-08-27T09:56:46.110Z",
-      "lastSeenAt": "2026-08-31T05:43:28.761Z",
-      "primaryItemId": "news_03dd738e8494",
-      "evidenceItemIds": [
-        "news_03dd738e8494",
-        "news_9bdbe629e0b1"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_52fa9241d7fa",
       "title": "下周重磅日程：中国PMI与美国非农，G20会议，特斯拉Cybercab，博通、智谱财报",
       "firstSeenAt": "2026-08-30T05:31:34.067Z",
@@ -6918,18 +6976,6 @@
       "evidenceItemIds": [
         "news_2ff76f9db3c5",
         "news_f286e257cc92"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_ea47a474f416",
-      "title": "【数读IPO】高中签率新股，今日申购",
-      "firstSeenAt": "2026-08-26T02:04:09.531Z",
-      "lastSeenAt": "2026-08-26T04:55:38.141Z",
-      "primaryItemId": "news_a372a6e6d6d9",
-      "evidenceItemIds": [
-        "news_a372a6e6d6d9",
-        "news_ebacac1896c9"
       ],
       "status": "developing"
     },

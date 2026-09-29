@@ -1,17 +1,16 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-09-29T10:43:22.355Z",
+  "generatedAt": "2026-09-29T14:59:52.553Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
       "eventId": "event_a678dcb442aa",
-      "title": "葡萄牙股市上涨；截至收盘PSI上涨0.08%",
+      "title": "以色列股市上涨；截至收盘特拉维夫TA35指数上涨0.02%",
       "firstSeenAt": "2026-09-01T16:50:22.105Z",
-      "lastSeenAt": "2026-09-29T10:43:22.355Z",
-      "primaryItemId": "news_5a3e1bfde74f",
+      "lastSeenAt": "2026-09-29T14:59:52.553Z",
+      "primaryItemId": "news_bd13c52fa612",
       "evidenceItemIds": [
-        "news_8c3edbf23e13",
         "news_f0c7fe40fe6a",
         "news_922b608e8c83",
         "news_aed5d32e17ed",
@@ -60,7 +59,8 @@
         "news_52026de2e58e",
         "news_e7217b1787f7",
         "news_5a3e1bfde74f",
-        "news_16ab5a23feb5"
+        "news_16ab5a23feb5",
+        "news_bd13c52fa612"
       ],
       "status": "developing"
     },
@@ -68,7 +68,7 @@
       "eventId": "event_202dd878fa19",
       "title": "晚间公告｜9月29日这些公告有看头",
       "firstSeenAt": "2026-07-31T14:43:32.623Z",
-      "lastSeenAt": "2026-09-29T10:43:22.355Z",
+      "lastSeenAt": "2026-09-29T14:59:52.553Z",
       "primaryItemId": "news_1abc08c293bc",
       "evidenceItemIds": [
         "news_8b256f193830",
@@ -126,13 +126,11 @@
     },
     {
       "eventId": "event_32967e3730b8",
-      "title": "A股四大指数集体低开，房地产板块走高",
+      "title": "美股大型科技股盘前涨跌不一，Meta涨超1%",
       "firstSeenAt": "2026-08-03T15:23:32.854Z",
-      "lastSeenAt": "2026-09-29T10:43:22.355Z",
-      "primaryItemId": "news_564fde48e9d5",
+      "lastSeenAt": "2026-09-29T14:59:52.553Z",
+      "primaryItemId": "news_b39b5e6b4e40",
       "evidenceItemIds": [
-        "news_2dae2543ea57",
-        "news_d3633f74e1be",
         "news_13a404d5aebb",
         "news_2801be608ab2",
         "news_b497a6eb590d",
@@ -180,7 +178,9 @@
         "news_c7b56748030f",
         "news_d6fe2a5e0ac0",
         "news_247994bd83d8",
-        "news_564fde48e9d5"
+        "news_564fde48e9d5",
+        "news_12aef86de4e9",
+        "news_b39b5e6b4e40"
       ],
       "status": "developing"
     },
@@ -188,7 +188,7 @@
       "eventId": "event_b8137c9734e7",
       "title": "国家统计局：2026年1—8月全国规模以上工业企业利润同比增长15.7% 利润延续较快增长",
       "firstSeenAt": "2026-08-27T09:56:46.110Z",
-      "lastSeenAt": "2026-09-29T10:43:22.355Z",
+      "lastSeenAt": "2026-09-29T14:59:52.553Z",
       "primaryItemId": "news_32a44aaa899a",
       "evidenceItemIds": [
         "news_03dd738e8494",
@@ -201,16 +201,18 @@
     },
     {
       "eventId": "event_dc7ea009afde",
-      "title": "高伟电子(01415)9月29日斥资776.52万港元回购35万股",
+      "title": "极兔速递-W(01519)9月29日斥资2746.2万港元回购319.1万股",
       "firstSeenAt": "2026-09-25T13:57:45.825Z",
-      "lastSeenAt": "2026-09-29T10:43:22.355Z",
-      "primaryItemId": "news_db20ae363ab1",
+      "lastSeenAt": "2026-09-29T14:59:52.553Z",
+      "primaryItemId": "news_37434ac30b8b",
       "evidenceItemIds": [
         "news_4cb99b45bca5",
         "news_7f04ec8678bb",
         "news_7d02d4965cd0",
         "news_db20ae363ab1",
-        "news_8e864d2c0f5f"
+        "news_8e864d2c0f5f",
+        "news_37434ac30b8b",
+        "news_633a09dee9c8"
       ],
       "status": "developing"
     },
@@ -218,7 +220,7 @@
       "eventId": "event_73f4b1fb41a8",
       "title": "龙虎榜丨机构今日买入这18股，卖出电科思仪9718万元",
       "firstSeenAt": "2026-08-03T11:50:30.990Z",
-      "lastSeenAt": "2026-09-29T10:43:22.355Z",
+      "lastSeenAt": "2026-09-29T14:59:52.553Z",
       "primaryItemId": "news_9f04f0f55e65",
       "evidenceItemIds": [
         "news_de7d0ba05e16",
@@ -262,6 +264,219 @@
         "news_705d9a58a1b5",
         "news_97c34aca7bb6",
         "news_9f04f0f55e65"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_60426332848a",
+      "title": "【市场动态】AMD拟收购李飞飞创办的AI初创公司 交易金额82亿美元",
+      "firstSeenAt": "2026-09-29T05:53:54.123Z",
+      "lastSeenAt": "2026-09-29T14:59:52.553Z",
+      "primaryItemId": "news_003bb4315058",
+      "evidenceItemIds": [
+        "news_8dc70d3fac37",
+        "news_003bb4315058"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_029bf332eba5",
+      "title": "诺和诺德加仓减重赛道，26亿美元买下恒瑞医药周口服减肥药",
+      "firstSeenAt": "2026-09-29T05:53:54.123Z",
+      "lastSeenAt": "2026-09-29T14:59:52.553Z",
+      "primaryItemId": "news_0e4f397235e4",
+      "evidenceItemIds": [
+        "news_b0ed40e4ac2b",
+        "news_f76aa039365e",
+        "news_0e4f397235e4"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_d074666c2ac3",
+      "title": "恒瑞医药：将HRS-1596有偿许可给诺和，潜在总交易额最高可达26亿美元",
+      "firstSeenAt": "2026-09-29T05:53:54.123Z",
+      "lastSeenAt": "2026-09-29T14:59:52.553Z",
+      "primaryItemId": "news_28a31c437926",
+      "evidenceItemIds": [
+        "news_28a31c437926",
+        "news_b453ba669357",
+        "news_5e3c0b660741"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_158132866cee",
+      "title": "日环比增长10%！“当红个人AI代理”Instinct最大的难题：算力",
+      "firstSeenAt": "2026-09-29T05:53:54.123Z",
+      "lastSeenAt": "2026-09-29T14:59:52.553Z",
+      "primaryItemId": "news_812a5bb8e34f",
+      "evidenceItemIds": [
+        "news_38fe20174f68",
+        "news_812a5bb8e34f"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_013f2abedbf7",
+      "title": "Anthropic 招股书里，最耐人寻味的 7 个细节",
+      "firstSeenAt": "2026-09-29T05:53:54.123Z",
+      "lastSeenAt": "2026-09-29T14:59:52.553Z",
+      "primaryItemId": "news_17a00e735a92",
+      "evidenceItemIds": [
+        "news_872d7279072d",
+        "news_d804b5c37440",
+        "news_c24069e4d08b",
+        "news_17a00e735a92"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_0737eac2cabb",
+      "title": "连板股追踪丨A股今日共57只个股涨停 这只传媒股6连板",
+      "firstSeenAt": "2026-07-31T02:43:30.494Z",
+      "lastSeenAt": "2026-09-29T14:59:52.553Z",
+      "primaryItemId": "news_4ca41910edae",
+      "evidenceItemIds": [
+        "news_cf2b97a75d61",
+        "news_6b2b1bbc6628",
+        "news_0b0558cddf77",
+        "news_2a647756104e",
+        "news_8818289af9a3",
+        "news_11eae49a5b16",
+        "news_9e9caeefd1f2",
+        "news_83287e13cba2",
+        "news_8b8e574d724a",
+        "news_ac696b49df1d",
+        "news_715b15a27912",
+        "news_ecd33045b37e",
+        "news_1870ff4e37cf",
+        "news_98c908c2489d",
+        "news_6c2d9bece434",
+        "news_989085d79c58",
+        "news_10ae0a524615",
+        "news_c6e8e7ce3d1c",
+        "news_db44bec3d3da",
+        "news_30483ad43cda",
+        "news_61212134cdd7",
+        "news_0bce4f63f0f1",
+        "news_7d9073d69bfc",
+        "news_4ef716030320",
+        "news_c67366d8076f",
+        "news_37541f809c24",
+        "news_13504293c80d",
+        "news_f57742543118",
+        "news_4a8649e8ea6a",
+        "news_aaf35e751054",
+        "news_e6cae1fc8d66",
+        "news_49b84dbd3a21",
+        "news_bba3b862f6d2",
+        "news_b1063012f1f8",
+        "news_a1cb09abe3ce",
+        "news_d2a2c4bc213a",
+        "news_37d8c1a3063f",
+        "news_f6a3426fc36c",
+        "news_a0e68b16193a",
+        "news_a01fbd9da400",
+        "news_833e477e9e41",
+        "news_c4986d8ad107",
+        "news_4ca41910edae"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_de7b4d83f41f",
+      "title": "Muse需求传导至CPU，CPU交货期拉长至25-30周",
+      "firstSeenAt": "2026-09-29T10:43:22.355Z",
+      "lastSeenAt": "2026-09-29T14:59:52.553Z",
+      "primaryItemId": "news_f102a960f2a4",
+      "evidenceItemIds": [
+        "news_f102a960f2a4",
+        "news_817f47e9d69b"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_e989d1a1fa13",
+      "title": "OpenAI Codex产品负责人：明天将重新向新用户开放月费200美元的Pro订阅。 但同时也将调整该订阅的用量计算方",
+      "firstSeenAt": "2026-09-29T10:43:22.355Z",
+      "lastSeenAt": "2026-09-29T14:59:52.553Z",
+      "primaryItemId": "news_296f47322e58",
+      "evidenceItemIds": [
+        "news_296f47322e58",
+        "news_9c87500bbe5a"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_9e4e117a5472",
+      "title": "美国芯片公司AMD斥资82亿收购李飞飞世界模型公司",
+      "firstSeenAt": "2026-09-29T10:43:22.355Z",
+      "lastSeenAt": "2026-09-29T14:59:52.553Z",
+      "primaryItemId": "news_561d2aa2a88a",
+      "evidenceItemIds": [
+        "news_561d2aa2a88a",
+        "news_9c5fe9060db5"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_221d023b1061",
+      "title": "英伟达接触保险公司，为AI芯片融资分担风险",
+      "firstSeenAt": "2026-09-29T10:43:22.355Z",
+      "lastSeenAt": "2026-09-29T14:59:52.553Z",
+      "primaryItemId": "news_0e7a330f63a5",
+      "evidenceItemIds": [
+        "news_0e7a330f63a5",
+        "news_22a46ba454b0"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_274777a299d4",
+      "title": "Meta小企业版Muse来了！",
+      "firstSeenAt": "2026-07-31T14:43:32.623Z",
+      "lastSeenAt": "2026-09-29T14:59:52.553Z",
+      "primaryItemId": "news_45ec9a73614b",
+      "evidenceItemIds": [
+        "news_a4ff46a1602a",
+        "news_112d02c83ae9",
+        "news_c86d8e270915",
+        "news_cbed6a25d17b",
+        "news_ef1d7bb91b00",
+        "news_6ecb0a36e017",
+        "news_ec0522071c78",
+        "news_7fe66b32d6ba",
+        "news_b6672212b6a7",
+        "news_e903c3caf5fe",
+        "news_5c0b12fb8dcd",
+        "news_45ec9a73614b",
+        "news_6f400e5fa707",
+        "news_b8cc5c9b7c5b"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_ccf757e55c7a",
+      "title": "个人房贷贴息政策10月1日起实施 哪些首套房可享1个百分点贴息？",
+      "firstSeenAt": "2026-09-29T14:59:52.553Z",
+      "lastSeenAt": "2026-09-29T14:59:52.553Z",
+      "primaryItemId": "news_56ed819a9745",
+      "evidenceItemIds": [
+        "news_56ed819a9745",
+        "news_f65d1f605264"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_dcba80a7b1ce",
+      "title": "“推出一批务实管用的增量政策”！如何落地见效？",
+      "firstSeenAt": "2026-09-29T14:59:52.553Z",
+      "lastSeenAt": "2026-09-29T14:59:52.553Z",
+      "primaryItemId": "news_387ef59f4e8e",
+      "evidenceItemIds": [
+        "news_387ef59f4e8e",
+        "news_887592a2f87b"
       ],
       "status": "developing"
     },
@@ -332,70 +547,6 @@
       "status": "developing"
     },
     {
-      "eventId": "event_60426332848a",
-      "title": "伸手向物理AI，AMD 82亿美元收购李飞飞创办的World Labs",
-      "firstSeenAt": "2026-09-29T05:53:54.123Z",
-      "lastSeenAt": "2026-09-29T10:43:22.355Z",
-      "primaryItemId": "news_8dc70d3fac37",
-      "evidenceItemIds": [
-        "news_8dc70d3fac37",
-        "news_003bb4315058"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_029bf332eba5",
-      "title": "诺和诺德加仓减重赛道，26亿美元买下恒瑞医药周口服减肥药",
-      "firstSeenAt": "2026-09-29T05:53:54.123Z",
-      "lastSeenAt": "2026-09-29T10:43:22.355Z",
-      "primaryItemId": "news_0e4f397235e4",
-      "evidenceItemIds": [
-        "news_b0ed40e4ac2b",
-        "news_f76aa039365e",
-        "news_0e4f397235e4"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_d074666c2ac3",
-      "title": "恒瑞医药：将HRS-1596有偿许可给诺和，潜在总交易额最高可达26亿美元",
-      "firstSeenAt": "2026-09-29T05:53:54.123Z",
-      "lastSeenAt": "2026-09-29T10:43:22.355Z",
-      "primaryItemId": "news_28a31c437926",
-      "evidenceItemIds": [
-        "news_28a31c437926",
-        "news_b453ba669357",
-        "news_5e3c0b660741"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_158132866cee",
-      "title": "“用户日增速10%”！成立仅1年，“当红个人AI代理”Instinct估值已达100亿美元，红杉、Benchmark等大",
-      "firstSeenAt": "2026-09-29T05:53:54.123Z",
-      "lastSeenAt": "2026-09-29T10:43:22.355Z",
-      "primaryItemId": "news_38fe20174f68",
-      "evidenceItemIds": [
-        "news_38fe20174f68",
-        "news_812a5bb8e34f"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_013f2abedbf7",
-      "title": "Anthropic 招股书里，最耐人寻味的 7 个细节",
-      "firstSeenAt": "2026-09-29T05:53:54.123Z",
-      "lastSeenAt": "2026-09-29T10:43:22.355Z",
-      "primaryItemId": "news_17a00e735a92",
-      "evidenceItemIds": [
-        "news_872d7279072d",
-        "news_d804b5c37440",
-        "news_c24069e4d08b",
-        "news_17a00e735a92"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_f06b06c0c77f",
       "title": "阿斯利康20亿美元入股，驰援康方海外合作伙伴Summit",
       "firstSeenAt": "2026-09-29T05:53:54.123Z",
@@ -416,107 +567,6 @@
       "evidenceItemIds": [
         "news_db7236daac92",
         "news_ebdaaa59e153"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_0737eac2cabb",
-      "title": "连板股追踪丨A股今日共57只个股涨停 这只传媒股6连板",
-      "firstSeenAt": "2026-07-31T02:43:30.494Z",
-      "lastSeenAt": "2026-09-29T10:43:22.355Z",
-      "primaryItemId": "news_4ca41910edae",
-      "evidenceItemIds": [
-        "news_cf2b97a75d61",
-        "news_6b2b1bbc6628",
-        "news_0b0558cddf77",
-        "news_2a647756104e",
-        "news_8818289af9a3",
-        "news_11eae49a5b16",
-        "news_9e9caeefd1f2",
-        "news_83287e13cba2",
-        "news_8b8e574d724a",
-        "news_ac696b49df1d",
-        "news_715b15a27912",
-        "news_ecd33045b37e",
-        "news_1870ff4e37cf",
-        "news_98c908c2489d",
-        "news_6c2d9bece434",
-        "news_989085d79c58",
-        "news_10ae0a524615",
-        "news_c6e8e7ce3d1c",
-        "news_db44bec3d3da",
-        "news_30483ad43cda",
-        "news_61212134cdd7",
-        "news_0bce4f63f0f1",
-        "news_7d9073d69bfc",
-        "news_4ef716030320",
-        "news_c67366d8076f",
-        "news_37541f809c24",
-        "news_13504293c80d",
-        "news_f57742543118",
-        "news_4a8649e8ea6a",
-        "news_aaf35e751054",
-        "news_e6cae1fc8d66",
-        "news_49b84dbd3a21",
-        "news_bba3b862f6d2",
-        "news_b1063012f1f8",
-        "news_a1cb09abe3ce",
-        "news_d2a2c4bc213a",
-        "news_37d8c1a3063f",
-        "news_f6a3426fc36c",
-        "news_a0e68b16193a",
-        "news_a01fbd9da400",
-        "news_833e477e9e41",
-        "news_c4986d8ad107",
-        "news_4ca41910edae"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_de7b4d83f41f",
-      "title": "Muse需求传导至CPU，CPU交货期拉长至25-30周",
-      "firstSeenAt": "2026-09-29T10:43:22.355Z",
-      "lastSeenAt": "2026-09-29T10:43:22.355Z",
-      "primaryItemId": "news_f102a960f2a4",
-      "evidenceItemIds": [
-        "news_f102a960f2a4",
-        "news_817f47e9d69b"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_e989d1a1fa13",
-      "title": "OpenAI Codex产品负责人：明天将重新向新用户开放月费200美元的Pro订阅。 但同时也将调整该订阅的用量计算方",
-      "firstSeenAt": "2026-09-29T10:43:22.355Z",
-      "lastSeenAt": "2026-09-29T10:43:22.355Z",
-      "primaryItemId": "news_296f47322e58",
-      "evidenceItemIds": [
-        "news_296f47322e58",
-        "news_9c87500bbe5a"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_9e4e117a5472",
-      "title": "美国芯片公司AMD斥资82亿收购李飞飞世界模型公司",
-      "firstSeenAt": "2026-09-29T10:43:22.355Z",
-      "lastSeenAt": "2026-09-29T10:43:22.355Z",
-      "primaryItemId": "news_561d2aa2a88a",
-      "evidenceItemIds": [
-        "news_561d2aa2a88a",
-        "news_9c5fe9060db5"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_221d023b1061",
-      "title": "英伟达接触保险公司，为AI芯片融资分担风险",
-      "firstSeenAt": "2026-09-29T10:43:22.355Z",
-      "lastSeenAt": "2026-09-29T10:43:22.355Z",
-      "primaryItemId": "news_0e7a330f63a5",
-      "evidenceItemIds": [
-        "news_0e7a330f63a5",
-        "news_22a46ba454b0"
       ],
       "status": "developing"
     },
@@ -1026,27 +1076,6 @@
       "evidenceItemIds": [
         "news_97a227d01dc5",
         "news_968b555488f6"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_274777a299d4",
-      "title": "AI周报| Meta旗下Muse爆火；高瓴90后合伙人出任DeepSeek CFO",
-      "firstSeenAt": "2026-07-31T14:43:32.623Z",
-      "lastSeenAt": "2026-09-27T14:07:05.260Z",
-      "primaryItemId": "news_5c0b12fb8dcd",
-      "evidenceItemIds": [
-        "news_a4ff46a1602a",
-        "news_112d02c83ae9",
-        "news_c86d8e270915",
-        "news_cbed6a25d17b",
-        "news_ef1d7bb91b00",
-        "news_6ecb0a36e017",
-        "news_ec0522071c78",
-        "news_7fe66b32d6ba",
-        "news_b6672212b6a7",
-        "news_e903c3caf5fe",
-        "news_5c0b12fb8dcd"
       ],
       "status": "developing"
     },

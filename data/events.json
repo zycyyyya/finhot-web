@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-09-28T19:45:13.207Z",
+  "generatedAt": "2026-09-29T05:53:54.123Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -8,7 +8,7 @@
       "eventId": "event_a678dcb442aa",
       "title": "葡萄牙股市上涨；截至收盘PSI上涨0.08%",
       "firstSeenAt": "2026-09-01T16:50:22.105Z",
-      "lastSeenAt": "2026-09-28T19:45:13.207Z",
+      "lastSeenAt": "2026-09-29T05:53:54.123Z",
       "primaryItemId": "news_5a3e1bfde74f",
       "evidenceItemIds": [
         "news_8c3edbf23e13",
@@ -68,7 +68,7 @@
       "eventId": "event_202dd878fa19",
       "title": "晚间公告｜9月28日这些公告有看头",
       "firstSeenAt": "2026-07-31T14:43:32.623Z",
-      "lastSeenAt": "2026-09-28T19:45:13.207Z",
+      "lastSeenAt": "2026-09-29T05:53:54.123Z",
       "primaryItemId": "news_dcbd639793dc",
       "evidenceItemIds": [
         "news_eaf56a2f5345",
@@ -128,10 +128,9 @@
       "eventId": "event_32967e3730b8",
       "title": "美股大型科技股盘前多数下跌，微软跌1.29%",
       "firstSeenAt": "2026-08-03T15:23:32.854Z",
-      "lastSeenAt": "2026-09-28T19:45:13.207Z",
+      "lastSeenAt": "2026-09-29T05:53:54.123Z",
       "primaryItemId": "news_247994bd83d8",
       "evidenceItemIds": [
-        "news_1cac0313fa36",
         "news_2dae2543ea57",
         "news_d3633f74e1be",
         "news_13a404d5aebb",
@@ -180,7 +179,8 @@
         "news_6029c581c862",
         "news_c7b56748030f",
         "news_d6fe2a5e0ac0",
-        "news_247994bd83d8"
+        "news_247994bd83d8",
+        "news_564fde48e9d5"
       ],
       "status": "developing"
     },
@@ -188,7 +188,7 @@
       "eventId": "event_b8137c9734e7",
       "title": "国家统计局：2026年1—8月全国规模以上工业企业利润同比增长15.7% 利润延续较快增长",
       "firstSeenAt": "2026-08-27T09:56:46.110Z",
-      "lastSeenAt": "2026-09-28T19:45:13.207Z",
+      "lastSeenAt": "2026-09-29T05:53:54.123Z",
       "primaryItemId": "news_32a44aaa899a",
       "evidenceItemIds": [
         "news_03dd738e8494",
@@ -203,7 +203,7 @@
       "eventId": "event_afe9692ca82d",
       "title": "天鸽互动(01980)9月28日斥资6765港元回购1.1万股",
       "firstSeenAt": "2026-09-25T13:57:45.825Z",
-      "lastSeenAt": "2026-09-28T19:45:13.207Z",
+      "lastSeenAt": "2026-09-29T05:53:54.123Z",
       "primaryItemId": "news_ba55a0331c0e",
       "evidenceItemIds": [
         "news_3824aede7639",
@@ -218,7 +218,7 @@
       "eventId": "event_dc7ea009afde",
       "title": "高伟电子(01415)9月28日斥资1082.17万港元回购50万股",
       "firstSeenAt": "2026-09-25T13:57:45.825Z",
-      "lastSeenAt": "2026-09-28T19:45:13.207Z",
+      "lastSeenAt": "2026-09-29T05:53:54.123Z",
       "primaryItemId": "news_7d02d4965cd0",
       "evidenceItemIds": [
         "news_4cb99b45bca5",
@@ -231,7 +231,7 @@
       "eventId": "event_73f4b1fb41a8",
       "title": "龙虎榜丨机构今日买入这12股，卖出我爱我家1.34亿元",
       "firstSeenAt": "2026-08-03T11:50:30.990Z",
-      "lastSeenAt": "2026-09-28T19:45:13.207Z",
+      "lastSeenAt": "2026-09-29T05:53:54.123Z",
       "primaryItemId": "news_705d9a58a1b5",
       "evidenceItemIds": [
         "news_de7d0ba05e16",
@@ -281,7 +281,7 @@
       "eventId": "event_f7a2150379f4",
       "title": "中美达成“300亿对300亿”对等降税框架 建立AI对话并增设航班等",
       "firstSeenAt": "2026-09-28T16:55:05.350Z",
-      "lastSeenAt": "2026-09-28T19:45:13.207Z",
+      "lastSeenAt": "2026-09-29T05:53:54.123Z",
       "primaryItemId": "news_634b03477e85",
       "evidenceItemIds": [
         "news_634b03477e85",
@@ -293,7 +293,7 @@
       "eventId": "event_89c551ba92ef",
       "title": "港股通ETF将迎内地长钱，监管“放开”险资投资新通道",
       "firstSeenAt": "2026-09-28T16:55:05.350Z",
-      "lastSeenAt": "2026-09-28T19:45:13.207Z",
+      "lastSeenAt": "2026-09-29T05:53:54.123Z",
       "primaryItemId": "news_f6e8868eb159",
       "evidenceItemIds": [
         "news_f6e8868eb159",
@@ -305,7 +305,7 @@
       "eventId": "event_17ee82280352",
       "title": "楼市新政发布满月，上海出台地方落地细则",
       "firstSeenAt": "2026-09-28T16:55:05.350Z",
-      "lastSeenAt": "2026-09-28T19:45:13.207Z",
+      "lastSeenAt": "2026-09-29T05:53:54.123Z",
       "primaryItemId": "news_f88b0fa2beaa",
       "evidenceItemIds": [
         "news_f88b0fa2beaa",
@@ -317,7 +317,7 @@
       "eventId": "event_e02a2ae99ee1",
       "title": "英伟达追加回购1500亿美元，盘前涨超2%",
       "firstSeenAt": "2026-09-28T16:55:05.350Z",
-      "lastSeenAt": "2026-09-28T19:45:13.207Z",
+      "lastSeenAt": "2026-09-29T05:53:54.123Z",
       "primaryItemId": "news_d56a033ea20c",
       "evidenceItemIds": [
         "news_d56a033ea20c",
@@ -330,11 +330,175 @@
       "eventId": "event_e156ccd7c945",
       "title": "独家｜中资券商启动清理内地业务，国泰君安国际已限制账户入金和买入",
       "firstSeenAt": "2026-09-28T16:55:05.350Z",
-      "lastSeenAt": "2026-09-28T19:45:13.207Z",
+      "lastSeenAt": "2026-09-29T05:53:54.123Z",
       "primaryItemId": "news_c28299bc8dae",
       "evidenceItemIds": [
         "news_c28299bc8dae",
         "news_8cdb93469753"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_a00a7b0ec41a",
+      "title": "2050年到期美国国债价格跌穿43，创历史新低。20年期美债收益率涨超9个基点，刷新日高、逼近5.64%，彭博数据显示，",
+      "firstSeenAt": "2026-09-25T13:57:45.825Z",
+      "lastSeenAt": "2026-09-29T05:53:54.123Z",
+      "primaryItemId": "news_7f404809b80a",
+      "evidenceItemIds": [
+        "news_2ace8195b50d",
+        "news_3badc22f730d",
+        "news_7f404809b80a"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_29c459d5cefb",
+      "title": "希音：上半年净收入为201亿美元，同比增长1%",
+      "firstSeenAt": "2026-09-28T19:45:13.207Z",
+      "lastSeenAt": "2026-09-29T05:53:54.123Z",
+      "primaryItemId": "news_cf38131f6e71",
+      "evidenceItemIds": [
+        "news_cf38131f6e71",
+        "news_2baf64c80455"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_74158378db4b",
+      "title": "今日开盘：两市双双低开 沪指跌幅0.20%",
+      "firstSeenAt": "2026-08-06T03:43:23.319Z",
+      "lastSeenAt": "2026-09-29T05:53:54.123Z",
+      "primaryItemId": "news_b0801c3a3549",
+      "evidenceItemIds": [
+        "news_5c70752541f1",
+        "news_4e57f6baed6e",
+        "news_e9e2a1fc2551",
+        "news_a1671de823c1",
+        "news_7df695aa3d10",
+        "news_fd96e76babcb",
+        "news_002a5afcff3b",
+        "news_da9ad91cb33a",
+        "news_df51b1764e08",
+        "news_4a76c392df1e",
+        "news_075795deda4d",
+        "news_011398fcfd6a",
+        "news_25184331b792",
+        "news_0fe085269763",
+        "news_68ce3df603b7",
+        "news_b0801c3a3549"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_33a61549d8b5",
+      "title": "Anthropic首席经济学家：AI或让劳动收入占比暴跌，未来要征“Token税”？",
+      "firstSeenAt": "2026-09-28T16:55:05.350Z",
+      "lastSeenAt": "2026-09-29T05:53:54.123Z",
+      "primaryItemId": "news_85197aee69f6",
+      "evidenceItemIds": [
+        "news_a8434386e0e3",
+        "news_6d2301bf2835",
+        "news_85197aee69f6"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_37a43c9e1cfd",
+      "title": "【权益周观察】国庆长假进入倒计时 持股过节还是持币过节？",
+      "firstSeenAt": "2026-09-27T10:01:22.358Z",
+      "lastSeenAt": "2026-09-29T05:53:54.123Z",
+      "primaryItemId": "news_2433169730d3",
+      "evidenceItemIds": [
+        "news_6ae548739de7",
+        "news_cee679e5d30f",
+        "news_9234327f8d37",
+        "news_2433169730d3"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_60426332848a",
+      "title": "伸手向物理AI，AMD 82亿美元收购李飞飞创办的World Labs",
+      "firstSeenAt": "2026-09-29T05:53:54.123Z",
+      "lastSeenAt": "2026-09-29T05:53:54.123Z",
+      "primaryItemId": "news_8dc70d3fac37",
+      "evidenceItemIds": [
+        "news_8dc70d3fac37",
+        "news_003bb4315058"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_029bf332eba5",
+      "title": "加速出海！恒瑞医药口服GLP-1/GIP减重药授权诺和诺德，潜在交易额最高26亿美元",
+      "firstSeenAt": "2026-09-29T05:53:54.123Z",
+      "lastSeenAt": "2026-09-29T05:53:54.123Z",
+      "primaryItemId": "news_b0ed40e4ac2b",
+      "evidenceItemIds": [
+        "news_b0ed40e4ac2b",
+        "news_f76aa039365e"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_d074666c2ac3",
+      "title": "恒瑞医药：将HRS-1596有偿许可给诺和，潜在总交易额最高可达26亿美元",
+      "firstSeenAt": "2026-09-29T05:53:54.123Z",
+      "lastSeenAt": "2026-09-29T05:53:54.123Z",
+      "primaryItemId": "news_28a31c437926",
+      "evidenceItemIds": [
+        "news_28a31c437926",
+        "news_b453ba669357",
+        "news_5e3c0b660741"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_158132866cee",
+      "title": "“用户日增速10%”！成立仅1年，“当红个人AI代理”Instinct估值已达100亿美元，红杉、Benchmark等大",
+      "firstSeenAt": "2026-09-29T05:53:54.123Z",
+      "lastSeenAt": "2026-09-29T05:53:54.123Z",
+      "primaryItemId": "news_38fe20174f68",
+      "evidenceItemIds": [
+        "news_38fe20174f68",
+        "news_812a5bb8e34f"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_013f2abedbf7",
+      "title": "Anthropic招股书曝光：净亏损420亿美元，预警AI风险",
+      "firstSeenAt": "2026-09-29T05:53:54.123Z",
+      "lastSeenAt": "2026-09-29T05:53:54.123Z",
+      "primaryItemId": "news_872d7279072d",
+      "evidenceItemIds": [
+        "news_872d7279072d",
+        "news_d804b5c37440",
+        "news_c24069e4d08b"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_f06b06c0c77f",
+      "title": "阿斯利康20亿美元入股，驰援康方海外合作伙伴Summit",
+      "firstSeenAt": "2026-09-29T05:53:54.123Z",
+      "lastSeenAt": "2026-09-29T05:53:54.123Z",
+      "primaryItemId": "news_e5e39de43208",
+      "evidenceItemIds": [
+        "news_e5e39de43208",
+        "news_3083436addc5"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_c47e030514e8",
+      "title": "债市早参9月29日|国常会最新部署，加大宏观政策逆周期调节力度；风雨骤至，昨超长债日内最大调整2BP",
+      "firstSeenAt": "2026-09-29T05:53:54.123Z",
+      "lastSeenAt": "2026-09-29T05:53:54.123Z",
+      "primaryItemId": "news_db7236daac92",
+      "evidenceItemIds": [
+        "news_db7236daac92",
+        "news_ebdaaa59e153"
       ],
       "status": "developing"
     },
@@ -363,19 +527,6 @@
       "status": "developing"
     },
     {
-      "eventId": "event_a00a7b0ec41a",
-      "title": "2050年到期美国国债价格跌穿43，创历史新低。20年期美债收益率涨超9个基点，刷新日高、逼近5.64%，彭博数据显示，",
-      "firstSeenAt": "2026-09-25T13:57:45.825Z",
-      "lastSeenAt": "2026-09-28T19:45:13.207Z",
-      "primaryItemId": "news_7f404809b80a",
-      "evidenceItemIds": [
-        "news_2ace8195b50d",
-        "news_3badc22f730d",
-        "news_7f404809b80a"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_e49f6c4380cd",
       "title": "上交所向五连板新华传媒下发监管工作函",
       "firstSeenAt": "2026-09-24T13:40:21.808Z",
@@ -385,18 +536,6 @@
         "news_4304de67d5b2",
         "news_74b3052693c0",
         "news_a61277fa4cff"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_29c459d5cefb",
-      "title": "希音：上半年净收入为201亿美元，同比增长1%",
-      "firstSeenAt": "2026-09-28T19:45:13.207Z",
-      "lastSeenAt": "2026-09-28T19:45:13.207Z",
-      "primaryItemId": "news_cf38131f6e71",
-      "evidenceItemIds": [
-        "news_cf38131f6e71",
-        "news_2baf64c80455"
       ],
       "status": "developing"
     },
@@ -545,31 +684,6 @@
       "status": "developing"
     },
     {
-      "eventId": "event_74158378db4b",
-      "title": "今日开盘：两市双双低开 沪指跌幅0.26%",
-      "firstSeenAt": "2026-08-06T03:43:23.319Z",
-      "lastSeenAt": "2026-09-28T16:55:05.350Z",
-      "primaryItemId": "news_0fe085269763",
-      "evidenceItemIds": [
-        "news_5c70752541f1",
-        "news_4e57f6baed6e",
-        "news_e9e2a1fc2551",
-        "news_a1671de823c1",
-        "news_7df695aa3d10",
-        "news_fd96e76babcb",
-        "news_002a5afcff3b",
-        "news_da9ad91cb33a",
-        "news_df51b1764e08",
-        "news_4a76c392df1e",
-        "news_075795deda4d",
-        "news_011398fcfd6a",
-        "news_25184331b792",
-        "news_0fe085269763",
-        "news_68ce3df603b7"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_ea47a474f416",
       "title": "【数读IPO】又一只高中签率新股来了",
       "firstSeenAt": "2026-08-26T02:04:09.531Z",
@@ -636,18 +750,6 @@
       "status": "developing"
     },
     {
-      "eventId": "event_33a61549d8b5",
-      "title": "Anthropic首席经济学家：AI冲击的“三大奇点”",
-      "firstSeenAt": "2026-09-28T16:55:05.350Z",
-      "lastSeenAt": "2026-09-28T16:55:05.350Z",
-      "primaryItemId": "news_a8434386e0e3",
-      "evidenceItemIds": [
-        "news_a8434386e0e3",
-        "news_6d2301bf2835"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_4e7e00a2e32c",
       "title": "“AI空头”思考：云大厂“ROIC下滑”、大模型“难有护城河”、OpenAI是“AI时代WeWork”、Muse背后“人",
       "firstSeenAt": "2026-09-28T16:55:05.350Z",
@@ -697,19 +799,6 @@
       "evidenceItemIds": [
         "news_83aad8fb64f4",
         "news_887b49cebf57"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_37a43c9e1cfd",
-      "title": "机构论后市丨短期市场迎来修复式反弹；做多窗口开启，可持股过节",
-      "firstSeenAt": "2026-09-27T10:01:22.358Z",
-      "lastSeenAt": "2026-09-28T10:57:57.772Z",
-      "primaryItemId": "news_6ae548739de7",
-      "evidenceItemIds": [
-        "news_6ae548739de7",
-        "news_cee679e5d30f",
-        "news_9234327f8d37"
       ],
       "status": "developing"
     },

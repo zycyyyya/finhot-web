@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-09-30T05:43:19.971Z",
+  "generatedAt": "2026-09-30T10:35:11.805Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -8,7 +8,7 @@
       "eventId": "event_a678dcb442aa",
       "title": "以色列股市上涨；截至收盘特拉维夫TA35指数上涨0.02%",
       "firstSeenAt": "2026-09-01T16:50:22.105Z",
-      "lastSeenAt": "2026-09-30T05:43:19.971Z",
+      "lastSeenAt": "2026-09-30T10:35:11.805Z",
       "primaryItemId": "news_bd13c52fa612",
       "evidenceItemIds": [
         "news_f0c7fe40fe6a",
@@ -61,6 +61,463 @@
         "news_5a3e1bfde74f",
         "news_16ab5a23feb5",
         "news_bd13c52fa612"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_32967e3730b8",
+      "title": "美股大型科技股盘前涨跌不一，Meta涨超1%",
+      "firstSeenAt": "2026-08-03T15:23:32.854Z",
+      "lastSeenAt": "2026-09-30T10:35:11.805Z",
+      "primaryItemId": "news_b39b5e6b4e40",
+      "evidenceItemIds": [
+        "news_2801be608ab2",
+        "news_b497a6eb590d",
+        "news_0c203dd7e5f6",
+        "news_93d7e52ddd4e",
+        "news_5caa1ba21c83",
+        "news_14aeb3fbbd9f",
+        "news_3a4d68335c54",
+        "news_ba4a5507e68d",
+        "news_dd4dbb6d80c3",
+        "news_9f9aa9a3732e",
+        "news_d1231b21a30a",
+        "news_9b5b7ce5fd25",
+        "news_fdbb5aa5caf1",
+        "news_17b7df805aa3",
+        "news_ddeea6299f3b",
+        "news_c9e3c6e822bf",
+        "news_9fa4d2e3b0f0",
+        "news_df93bbe4db74",
+        "news_bb71550ff9bf",
+        "news_1cb84ecb465d",
+        "news_8753aa769c8e",
+        "news_14c7b527d369",
+        "news_832e20de7c6d",
+        "news_21694382272f",
+        "news_2132f9617e5a",
+        "news_bd356f3c3e43",
+        "news_df9ae4ef33fd",
+        "news_e737ee6dc3c7",
+        "news_b05549c0a329",
+        "news_e9a1070c37b7",
+        "news_1ce5d5d93aef",
+        "news_aa494797b262",
+        "news_0de38f07c64c",
+        "news_d4235c6c967f",
+        "news_88c0ddbf39db",
+        "news_672c679be756",
+        "news_ec3712a311c1",
+        "news_d8a36369d503",
+        "news_b17e22501980",
+        "news_6089e49c3ca5",
+        "news_cc1a01241c90",
+        "news_50938eea9e00",
+        "news_6029c581c862",
+        "news_c7b56748030f",
+        "news_d6fe2a5e0ac0",
+        "news_247994bd83d8",
+        "news_564fde48e9d5",
+        "news_12aef86de4e9",
+        "news_b39b5e6b4e40",
+        "news_943234fa21c3"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_dc7ea009afde",
+      "title": "极兔速递-W(01519)9月29日斥资2746.2万港元回购319.1万股",
+      "firstSeenAt": "2026-09-25T13:57:45.825Z",
+      "lastSeenAt": "2026-09-30T10:35:11.805Z",
+      "primaryItemId": "news_37434ac30b8b",
+      "evidenceItemIds": [
+        "news_4cb99b45bca5",
+        "news_7f04ec8678bb",
+        "news_7d02d4965cd0",
+        "news_db20ae363ab1",
+        "news_8e864d2c0f5f",
+        "news_37434ac30b8b",
+        "news_633a09dee9c8"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_73f4b1fb41a8",
+      "title": "龙虎榜丨机构今日买入这18股，卖出近岸蛋白2.23亿元",
+      "firstSeenAt": "2026-08-03T11:50:30.990Z",
+      "lastSeenAt": "2026-09-30T10:35:11.805Z",
+      "primaryItemId": "news_70f2c4b09db8",
+      "evidenceItemIds": [
+        "news_de7d0ba05e16",
+        "news_e7a76dcea2a8",
+        "news_d9bbbfd32f43",
+        "news_9d97988a8b31",
+        "news_f8e689022fb3",
+        "news_a41d521c5c53",
+        "news_50b190578187",
+        "news_45437b89e860",
+        "news_d1e40824a959",
+        "news_d35397f00f85",
+        "news_28eb220b6d7d",
+        "news_83a8f0bce8bc",
+        "news_a434c7856598",
+        "news_a8c173d2f58f",
+        "news_f7c76b8d1160",
+        "news_be3920c8ab0f",
+        "news_7a02bb038160",
+        "news_5e9ecf83e613",
+        "news_40d2672e7c11",
+        "news_c0cf1488e336",
+        "news_9b61e52ad416",
+        "news_93d30ccfe80b",
+        "news_6b446ac18e20",
+        "news_52fedf4cbbb1",
+        "news_03577cf502cc",
+        "news_d0fdb37aef08",
+        "news_8506c5c0912d",
+        "news_4eb1533ada96",
+        "news_c44c352e8ee0",
+        "news_2854369976d9",
+        "news_7d0c5ea15723",
+        "news_45bff668174f",
+        "news_e18320b67a97",
+        "news_0481fc8f2ed7",
+        "news_dfaa8fd92a1b",
+        "news_5279581b449e",
+        "news_5a29a5c6d60a",
+        "news_1b8e14b50197",
+        "news_705d9a58a1b5",
+        "news_97c34aca7bb6",
+        "news_9f04f0f55e65",
+        "news_70f2c4b09db8"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_9e4e117a5472",
+      "title": "T早报｜OpenAI推出个人智能体Dots及新模型GPT‑6.1 Sol；SHEIN公布上市后首份财报；美国芯片公司AM",
+      "firstSeenAt": "2026-09-29T10:43:22.355Z",
+      "lastSeenAt": "2026-09-30T10:35:11.805Z",
+      "primaryItemId": "news_d5bf5af6e174",
+      "evidenceItemIds": [
+        "news_561d2aa2a88a",
+        "news_9c5fe9060db5",
+        "news_d5bf5af6e174",
+        "news_d0b288616918"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_274777a299d4",
+      "title": "OpenAI现场翻车，发布个人AI助手Dots迎战Meta Muse，但是......",
+      "firstSeenAt": "2026-07-31T14:43:32.623Z",
+      "lastSeenAt": "2026-09-30T10:35:11.805Z",
+      "primaryItemId": "news_5b5e97679932",
+      "evidenceItemIds": [
+        "news_a4ff46a1602a",
+        "news_112d02c83ae9",
+        "news_c86d8e270915",
+        "news_cbed6a25d17b",
+        "news_ef1d7bb91b00",
+        "news_6ecb0a36e017",
+        "news_ec0522071c78",
+        "news_7fe66b32d6ba",
+        "news_b6672212b6a7",
+        "news_e903c3caf5fe",
+        "news_5c0b12fb8dcd",
+        "news_45ec9a73614b",
+        "news_6f400e5fa707",
+        "news_b8cc5c9b7c5b",
+        "news_5b5e97679932"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_bebf6347f794",
+      "title": "5180亿美元惊天账单，Anthropic为何敢把未来先花掉？",
+      "firstSeenAt": "2026-09-27T05:27:32.826Z",
+      "lastSeenAt": "2026-09-30T10:35:11.805Z",
+      "primaryItemId": "news_27c0411e0859",
+      "evidenceItemIds": [
+        "news_9ea52c07f957",
+        "news_6a586412d695",
+        "news_27c0411e0859",
+        "news_96923e27e0af"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_7687251fbe8d",
+      "title": "美国30年期国债收益率升至5.59%，创2004年以来新高。",
+      "firstSeenAt": "2026-09-23T17:14:36.029Z",
+      "lastSeenAt": "2026-09-30T10:35:11.805Z",
+      "primaryItemId": "news_64bea1237589",
+      "evidenceItemIds": [
+        "news_a097cf3b7966",
+        "news_de13c70763c7",
+        "news_3424dc106ce5",
+        "news_4fb63826683c",
+        "news_64bea1237589",
+        "news_4c7425dd55e5"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_a4fee602bb16",
+      "title": "OpenAI考虑按1.4万亿美元估值融资300亿美元",
+      "firstSeenAt": "2026-09-29T18:14:08.502Z",
+      "lastSeenAt": "2026-09-30T10:35:11.805Z",
+      "primaryItemId": "news_824d9a29ecfa",
+      "evidenceItemIds": [
+        "news_824d9a29ecfa",
+        "news_054d066dc47e",
+        "news_bc27587fa83e"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_177d454276e7",
+      "title": "报道：OpenAI年化经常性收入逼近700亿美元，甲骨文股价一度涨超8%",
+      "firstSeenAt": "2026-09-29T18:14:08.502Z",
+      "lastSeenAt": "2026-09-30T10:35:11.805Z",
+      "primaryItemId": "news_30ecd2ec49eb",
+      "evidenceItemIds": [
+        "news_30ecd2ec49eb",
+        "news_11f81ac75de2",
+        "news_02cc8c8ef22e"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_116d0288b244",
+      "title": "中央财政史上首次！“房贷贴息”落地，影响有多大？",
+      "firstSeenAt": "2026-09-29T18:14:08.502Z",
+      "lastSeenAt": "2026-09-30T10:35:11.805Z",
+      "primaryItemId": "news_0188700a0f38",
+      "evidenceItemIds": [
+        "news_0eca7c5bbb2a",
+        "news_0188700a0f38"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_74158378db4b",
+      "title": "今日开盘：两市双双高开 沪指涨幅0.23%",
+      "firstSeenAt": "2026-08-06T03:43:23.319Z",
+      "lastSeenAt": "2026-09-30T10:35:11.805Z",
+      "primaryItemId": "news_630bb323abce",
+      "evidenceItemIds": [
+        "news_5c70752541f1",
+        "news_4e57f6baed6e",
+        "news_e9e2a1fc2551",
+        "news_a1671de823c1",
+        "news_7df695aa3d10",
+        "news_fd96e76babcb",
+        "news_002a5afcff3b",
+        "news_da9ad91cb33a",
+        "news_df51b1764e08",
+        "news_4a76c392df1e",
+        "news_075795deda4d",
+        "news_011398fcfd6a",
+        "news_25184331b792",
+        "news_0fe085269763",
+        "news_68ce3df603b7",
+        "news_b0801c3a3549",
+        "news_630bb323abce"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_352a3cbffeba",
+      "title": "中国9月RatingDog制造业PMI 52.1，前值 51.5。中国9月RatingDog服务业PMI 51.6，前值",
+      "firstSeenAt": "2026-08-03T03:58:04.220Z",
+      "lastSeenAt": "2026-09-30T10:35:11.805Z",
+      "primaryItemId": "news_b034ef72a059",
+      "evidenceItemIds": [
+        "news_5791a7720090",
+        "news_c65f8400aac2",
+        "news_897882d09fb7",
+        "news_2f3c10768953",
+        "news_6269ae20cc24",
+        "news_5125b82ab54f",
+        "news_b034ef72a059",
+        "news_7c8aeef90a23"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_e19822419452",
+      "title": "国家统计局：9月份采购经理指数升至扩张区间",
+      "firstSeenAt": "2026-07-31T02:27:13.623Z",
+      "lastSeenAt": "2026-09-30T10:35:11.805Z",
+      "primaryItemId": "news_25a8d72deeae",
+      "evidenceItemIds": [
+        "news_1e1eb7294fe1",
+        "news_52fa5fbcca93",
+        "news_4b628ba757ac",
+        "news_cfea1d75eb52",
+        "news_25a8d72deeae",
+        "news_5f8f87c5c400",
+        "news_7929c7967a05"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_b43acd356d7f",
+      "title": "倒查25年、数额特别巨大 山东检方对易会满涉嫌受贿案提起公诉",
+      "firstSeenAt": "2026-09-30T05:43:19.971Z",
+      "lastSeenAt": "2026-09-30T10:35:11.805Z",
+      "primaryItemId": "news_138060f418a2",
+      "evidenceItemIds": [
+        "news_138060f418a2",
+        "news_b4942e8f29df"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_c31250279717",
+      "title": "能源内参｜宁德时代匈牙利工厂投产 为中企海外最大电池生产基地；广汽拟接手一汽丰田全部中方股权 交易对价待定",
+      "firstSeenAt": "2026-09-30T05:43:19.971Z",
+      "lastSeenAt": "2026-09-30T10:35:11.805Z",
+      "primaryItemId": "news_079b1d2bbd41",
+      "evidenceItemIds": [
+        "news_079b1d2bbd41",
+        "news_978e4ed98de4",
+        "news_ee2489a131f3"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_4ea40dbfbc07",
+      "title": "免申即享！房贷贴息政策落地次日，六大行集体公告！",
+      "firstSeenAt": "2026-09-30T05:43:19.971Z",
+      "lastSeenAt": "2026-09-30T10:35:11.805Z",
+      "primaryItemId": "news_497392ce247d",
+      "evidenceItemIds": [
+        "news_89e185373862",
+        "news_412351105388",
+        "news_497392ce247d"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_daafc64d6d4f",
+      "title": "首套房贷财政贴息政策落地，将刺激三四级家电市场需求释放",
+      "firstSeenAt": "2026-09-30T05:43:19.971Z",
+      "lastSeenAt": "2026-09-30T10:35:11.805Z",
+      "primaryItemId": "news_31a49b178362",
+      "evidenceItemIds": [
+        "news_31a49b178362",
+        "news_313cc65123bf"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_0737eac2cabb",
+      "title": "连板股追踪丨A股今日共56只个股涨停 这只机器人股4连板",
+      "firstSeenAt": "2026-07-31T02:43:30.494Z",
+      "lastSeenAt": "2026-09-30T10:35:11.805Z",
+      "primaryItemId": "news_2ab795833aa2",
+      "evidenceItemIds": [
+        "news_cf2b97a75d61",
+        "news_6b2b1bbc6628",
+        "news_0b0558cddf77",
+        "news_2a647756104e",
+        "news_8818289af9a3",
+        "news_11eae49a5b16",
+        "news_9e9caeefd1f2",
+        "news_83287e13cba2",
+        "news_8b8e574d724a",
+        "news_ac696b49df1d",
+        "news_715b15a27912",
+        "news_ecd33045b37e",
+        "news_1870ff4e37cf",
+        "news_98c908c2489d",
+        "news_6c2d9bece434",
+        "news_989085d79c58",
+        "news_10ae0a524615",
+        "news_c6e8e7ce3d1c",
+        "news_db44bec3d3da",
+        "news_30483ad43cda",
+        "news_61212134cdd7",
+        "news_0bce4f63f0f1",
+        "news_7d9073d69bfc",
+        "news_4ef716030320",
+        "news_c67366d8076f",
+        "news_37541f809c24",
+        "news_13504293c80d",
+        "news_f57742543118",
+        "news_4a8649e8ea6a",
+        "news_aaf35e751054",
+        "news_e6cae1fc8d66",
+        "news_49b84dbd3a21",
+        "news_bba3b862f6d2",
+        "news_b1063012f1f8",
+        "news_a1cb09abe3ce",
+        "news_d2a2c4bc213a",
+        "news_37d8c1a3063f",
+        "news_f6a3426fc36c",
+        "news_a0e68b16193a",
+        "news_a01fbd9da400",
+        "news_833e477e9e41",
+        "news_c4986d8ad107",
+        "news_4ca41910edae",
+        "news_2ab795833aa2"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_f06b06c0c77f",
+      "title": "阿斯利康落子中国明星双抗肿瘤药 20亿美元入股Summit",
+      "firstSeenAt": "2026-09-29T05:53:54.123Z",
+      "lastSeenAt": "2026-09-30T10:35:11.805Z",
+      "primaryItemId": "news_d84c01bc69d1",
+      "evidenceItemIds": [
+        "news_e5e39de43208",
+        "news_3083436addc5",
+        "news_d84c01bc69d1"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_cc4b8fe5cf45",
+      "title": "腾讯控股获南向资金净买入14.07亿港元",
+      "firstSeenAt": "2026-08-16T08:53:04.224Z",
+      "lastSeenAt": "2026-09-30T10:35:11.805Z",
+      "primaryItemId": "news_85db1d1f4580",
+      "evidenceItemIds": [
+        "news_9516cdd077c4",
+        "news_a9d35db5f7ac",
+        "news_85db1d1f4580",
+        "news_bad82e859617"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_f29858e4be56",
+      "title": "融创服务(01516)9月30日斥资78.55万港元回购100万股",
+      "firstSeenAt": "2026-09-30T10:35:11.805Z",
+      "lastSeenAt": "2026-09-30T10:35:11.805Z",
+      "primaryItemId": "news_4fd589699068",
+      "evidenceItemIds": [
+        "news_4fd589699068",
+        "news_f42006c7e57a",
+        "news_83dac0e8f078",
+        "news_22bda80d0c02",
+        "news_5caa3e77b01f"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_8459ef40e451",
+      "title": "波兰9月通胀率升至4.0%",
+      "firstSeenAt": "2026-09-30T10:35:11.805Z",
+      "lastSeenAt": "2026-09-30T10:35:11.805Z",
+      "primaryItemId": "news_48131f3f1043",
+      "evidenceItemIds": [
+        "news_48131f3f1043",
+        "news_01dda2a0eaf1",
+        "news_fd0621e9dc15"
       ],
       "status": "developing"
     },
@@ -125,66 +582,6 @@
       "status": "developing"
     },
     {
-      "eventId": "event_32967e3730b8",
-      "title": "美股大型科技股盘前涨跌不一，Meta涨超1%",
-      "firstSeenAt": "2026-08-03T15:23:32.854Z",
-      "lastSeenAt": "2026-09-30T05:43:19.971Z",
-      "primaryItemId": "news_b39b5e6b4e40",
-      "evidenceItemIds": [
-        "news_2801be608ab2",
-        "news_b497a6eb590d",
-        "news_0c203dd7e5f6",
-        "news_93d7e52ddd4e",
-        "news_5caa1ba21c83",
-        "news_14aeb3fbbd9f",
-        "news_3a4d68335c54",
-        "news_ba4a5507e68d",
-        "news_dd4dbb6d80c3",
-        "news_9f9aa9a3732e",
-        "news_d1231b21a30a",
-        "news_9b5b7ce5fd25",
-        "news_fdbb5aa5caf1",
-        "news_17b7df805aa3",
-        "news_ddeea6299f3b",
-        "news_c9e3c6e822bf",
-        "news_9fa4d2e3b0f0",
-        "news_df93bbe4db74",
-        "news_bb71550ff9bf",
-        "news_1cb84ecb465d",
-        "news_8753aa769c8e",
-        "news_14c7b527d369",
-        "news_832e20de7c6d",
-        "news_21694382272f",
-        "news_2132f9617e5a",
-        "news_bd356f3c3e43",
-        "news_df9ae4ef33fd",
-        "news_e737ee6dc3c7",
-        "news_b05549c0a329",
-        "news_e9a1070c37b7",
-        "news_1ce5d5d93aef",
-        "news_aa494797b262",
-        "news_0de38f07c64c",
-        "news_d4235c6c967f",
-        "news_88c0ddbf39db",
-        "news_672c679be756",
-        "news_ec3712a311c1",
-        "news_d8a36369d503",
-        "news_b17e22501980",
-        "news_6089e49c3ca5",
-        "news_cc1a01241c90",
-        "news_50938eea9e00",
-        "news_6029c581c862",
-        "news_c7b56748030f",
-        "news_d6fe2a5e0ac0",
-        "news_247994bd83d8",
-        "news_564fde48e9d5",
-        "news_12aef86de4e9",
-        "news_b39b5e6b4e40",
-        "news_943234fa21c3"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_b8137c9734e7",
       "title": "国家统计局：2026年1—8月全国规模以上工业企业利润同比增长15.7% 利润延续较快增长",
       "firstSeenAt": "2026-08-27T09:56:46.110Z",
@@ -196,74 +593,6 @@
         "news_32a44aaa899a",
         "news_03b0b06b325f",
         "news_2a1e317d536d"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_dc7ea009afde",
-      "title": "极兔速递-W(01519)9月29日斥资2746.2万港元回购319.1万股",
-      "firstSeenAt": "2026-09-25T13:57:45.825Z",
-      "lastSeenAt": "2026-09-30T05:43:19.971Z",
-      "primaryItemId": "news_37434ac30b8b",
-      "evidenceItemIds": [
-        "news_4cb99b45bca5",
-        "news_7f04ec8678bb",
-        "news_7d02d4965cd0",
-        "news_db20ae363ab1",
-        "news_8e864d2c0f5f",
-        "news_37434ac30b8b",
-        "news_633a09dee9c8"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_73f4b1fb41a8",
-      "title": "龙虎榜丨机构今日买入这18股，卖出电科思仪9718万元",
-      "firstSeenAt": "2026-08-03T11:50:30.990Z",
-      "lastSeenAt": "2026-09-30T05:43:19.971Z",
-      "primaryItemId": "news_9f04f0f55e65",
-      "evidenceItemIds": [
-        "news_de7d0ba05e16",
-        "news_e7a76dcea2a8",
-        "news_d9bbbfd32f43",
-        "news_9d97988a8b31",
-        "news_f8e689022fb3",
-        "news_a41d521c5c53",
-        "news_50b190578187",
-        "news_45437b89e860",
-        "news_d1e40824a959",
-        "news_d35397f00f85",
-        "news_28eb220b6d7d",
-        "news_83a8f0bce8bc",
-        "news_a434c7856598",
-        "news_a8c173d2f58f",
-        "news_f7c76b8d1160",
-        "news_be3920c8ab0f",
-        "news_7a02bb038160",
-        "news_5e9ecf83e613",
-        "news_40d2672e7c11",
-        "news_c0cf1488e336",
-        "news_9b61e52ad416",
-        "news_93d30ccfe80b",
-        "news_6b446ac18e20",
-        "news_52fedf4cbbb1",
-        "news_03577cf502cc",
-        "news_d0fdb37aef08",
-        "news_8506c5c0912d",
-        "news_4eb1533ada96",
-        "news_c44c352e8ee0",
-        "news_2854369976d9",
-        "news_7d0c5ea15723",
-        "news_45bff668174f",
-        "news_e18320b67a97",
-        "news_0481fc8f2ed7",
-        "news_dfaa8fd92a1b",
-        "news_5279581b449e",
-        "news_5a29a5c6d60a",
-        "news_1b8e14b50197",
-        "news_705d9a58a1b5",
-        "news_97c34aca7bb6",
-        "news_9f04f0f55e65"
       ],
       "status": "developing"
     },
@@ -292,44 +621,6 @@
       "status": "developing"
     },
     {
-      "eventId": "event_9e4e117a5472",
-      "title": "T早报｜OpenAI推出个人智能体Dots及新模型GPT‑6.1 Sol；SHEIN公布上市后首份财报；美国芯片公司AM",
-      "firstSeenAt": "2026-09-29T10:43:22.355Z",
-      "lastSeenAt": "2026-09-30T05:43:19.971Z",
-      "primaryItemId": "news_d5bf5af6e174",
-      "evidenceItemIds": [
-        "news_561d2aa2a88a",
-        "news_9c5fe9060db5",
-        "news_d5bf5af6e174",
-        "news_d0b288616918"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_274777a299d4",
-      "title": "Meta小企业版Muse来了！",
-      "firstSeenAt": "2026-07-31T14:43:32.623Z",
-      "lastSeenAt": "2026-09-30T05:43:19.971Z",
-      "primaryItemId": "news_45ec9a73614b",
-      "evidenceItemIds": [
-        "news_a4ff46a1602a",
-        "news_112d02c83ae9",
-        "news_c86d8e270915",
-        "news_cbed6a25d17b",
-        "news_ef1d7bb91b00",
-        "news_6ecb0a36e017",
-        "news_ec0522071c78",
-        "news_7fe66b32d6ba",
-        "news_b6672212b6a7",
-        "news_e903c3caf5fe",
-        "news_5c0b12fb8dcd",
-        "news_45ec9a73614b",
-        "news_6f400e5fa707",
-        "news_b8cc5c9b7c5b"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_ccf757e55c7a",
       "title": "个人房贷贴息政策10月1日起实施 哪些首套房可享1个百分点贴息？",
       "firstSeenAt": "2026-09-29T14:59:52.553Z",
@@ -350,185 +641,6 @@
       "evidenceItemIds": [
         "news_387ef59f4e8e",
         "news_887592a2f87b"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_bebf6347f794",
-      "title": "5180亿美元惊天账单，Anthropic为何敢把未来先花掉？",
-      "firstSeenAt": "2026-09-27T05:27:32.826Z",
-      "lastSeenAt": "2026-09-30T05:43:19.971Z",
-      "primaryItemId": "news_27c0411e0859",
-      "evidenceItemIds": [
-        "news_9ea52c07f957",
-        "news_6a586412d695",
-        "news_27c0411e0859",
-        "news_96923e27e0af"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_7687251fbe8d",
-      "title": "美国30年期国债收益率升至5.59%，创2004年以来新高。",
-      "firstSeenAt": "2026-09-23T17:14:36.029Z",
-      "lastSeenAt": "2026-09-30T05:43:19.971Z",
-      "primaryItemId": "news_64bea1237589",
-      "evidenceItemIds": [
-        "news_a097cf3b7966",
-        "news_de13c70763c7",
-        "news_3424dc106ce5",
-        "news_4fb63826683c",
-        "news_64bea1237589",
-        "news_4c7425dd55e5"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_a4fee602bb16",
-      "title": "OpenAI考虑按1.4万亿美元估值融资300亿美元",
-      "firstSeenAt": "2026-09-29T18:14:08.502Z",
-      "lastSeenAt": "2026-09-30T05:43:19.971Z",
-      "primaryItemId": "news_824d9a29ecfa",
-      "evidenceItemIds": [
-        "news_824d9a29ecfa",
-        "news_054d066dc47e",
-        "news_bc27587fa83e"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_177d454276e7",
-      "title": "报道：OpenAI年化经常性收入逼近700亿美元，甲骨文股价一度涨超8%",
-      "firstSeenAt": "2026-09-29T18:14:08.502Z",
-      "lastSeenAt": "2026-09-30T05:43:19.971Z",
-      "primaryItemId": "news_30ecd2ec49eb",
-      "evidenceItemIds": [
-        "news_30ecd2ec49eb",
-        "news_11f81ac75de2",
-        "news_02cc8c8ef22e"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_116d0288b244",
-      "title": "中央财政史上首次！“房贷贴息”节前落地：首套、120平方米以下、150万元以内可享",
-      "firstSeenAt": "2026-09-29T18:14:08.502Z",
-      "lastSeenAt": "2026-09-30T05:43:19.971Z",
-      "primaryItemId": "news_0eca7c5bbb2a",
-      "evidenceItemIds": [
-        "news_0eca7c5bbb2a",
-        "news_0188700a0f38"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_74158378db4b",
-      "title": "今日开盘：两市双双高开 沪指涨幅0.23%",
-      "firstSeenAt": "2026-08-06T03:43:23.319Z",
-      "lastSeenAt": "2026-09-30T05:43:19.971Z",
-      "primaryItemId": "news_630bb323abce",
-      "evidenceItemIds": [
-        "news_5c70752541f1",
-        "news_4e57f6baed6e",
-        "news_e9e2a1fc2551",
-        "news_a1671de823c1",
-        "news_7df695aa3d10",
-        "news_fd96e76babcb",
-        "news_002a5afcff3b",
-        "news_da9ad91cb33a",
-        "news_df51b1764e08",
-        "news_4a76c392df1e",
-        "news_075795deda4d",
-        "news_011398fcfd6a",
-        "news_25184331b792",
-        "news_0fe085269763",
-        "news_68ce3df603b7",
-        "news_b0801c3a3549",
-        "news_630bb323abce"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_352a3cbffeba",
-      "title": "中国9月RatingDog制造业PMI 52.1，前值 51.5。中国9月RatingDog服务业PMI 51.6，前值",
-      "firstSeenAt": "2026-08-03T03:58:04.220Z",
-      "lastSeenAt": "2026-09-30T05:43:19.971Z",
-      "primaryItemId": "news_b034ef72a059",
-      "evidenceItemIds": [
-        "news_5791a7720090",
-        "news_c65f8400aac2",
-        "news_897882d09fb7",
-        "news_2f3c10768953",
-        "news_6269ae20cc24",
-        "news_5125b82ab54f",
-        "news_b034ef72a059",
-        "news_7c8aeef90a23"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_e19822419452",
-      "title": "国家统计局：9月份采购经理指数升至扩张区间",
-      "firstSeenAt": "2026-07-31T02:27:13.623Z",
-      "lastSeenAt": "2026-09-30T05:43:19.971Z",
-      "primaryItemId": "news_25a8d72deeae",
-      "evidenceItemIds": [
-        "news_1e1eb7294fe1",
-        "news_52fa5fbcca93",
-        "news_4b628ba757ac",
-        "news_cfea1d75eb52",
-        "news_25a8d72deeae",
-        "news_5f8f87c5c400",
-        "news_7929c7967a05"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_b43acd356d7f",
-      "title": "倒查25年、数额特别巨大 山东检方对易会满涉嫌受贿案提起公诉",
-      "firstSeenAt": "2026-09-30T05:43:19.971Z",
-      "lastSeenAt": "2026-09-30T05:43:19.971Z",
-      "primaryItemId": "news_138060f418a2",
-      "evidenceItemIds": [
-        "news_138060f418a2",
-        "news_b4942e8f29df"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_c31250279717",
-      "title": "能源内参｜宁德时代匈牙利工厂投产 为中企海外最大电池生产基地；广汽拟接手一汽丰田全部中方股权 交易对价待定",
-      "firstSeenAt": "2026-09-30T05:43:19.971Z",
-      "lastSeenAt": "2026-09-30T05:43:19.971Z",
-      "primaryItemId": "news_079b1d2bbd41",
-      "evidenceItemIds": [
-        "news_079b1d2bbd41",
-        "news_978e4ed98de4",
-        "news_ee2489a131f3"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_4ea40dbfbc07",
-      "title": "大行明确！房贷贴息免申即享",
-      "firstSeenAt": "2026-09-30T05:43:19.971Z",
-      "lastSeenAt": "2026-09-30T05:43:19.971Z",
-      "primaryItemId": "news_89e185373862",
-      "evidenceItemIds": [
-        "news_89e185373862",
-        "news_412351105388"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_daafc64d6d4f",
-      "title": "首套房贷财政贴息政策落地，将刺激三四级家电市场需求释放",
-      "firstSeenAt": "2026-09-30T05:43:19.971Z",
-      "lastSeenAt": "2026-09-30T05:43:19.971Z",
-      "primaryItemId": "news_31a49b178362",
-      "evidenceItemIds": [
-        "news_31a49b178362",
-        "news_313cc65123bf"
       ],
       "status": "developing"
     },
@@ -569,59 +681,6 @@
         "news_d804b5c37440",
         "news_c24069e4d08b",
         "news_17a00e735a92"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_0737eac2cabb",
-      "title": "连板股追踪丨A股今日共57只个股涨停 这只传媒股6连板",
-      "firstSeenAt": "2026-07-31T02:43:30.494Z",
-      "lastSeenAt": "2026-09-29T18:14:08.502Z",
-      "primaryItemId": "news_4ca41910edae",
-      "evidenceItemIds": [
-        "news_cf2b97a75d61",
-        "news_6b2b1bbc6628",
-        "news_0b0558cddf77",
-        "news_2a647756104e",
-        "news_8818289af9a3",
-        "news_11eae49a5b16",
-        "news_9e9caeefd1f2",
-        "news_83287e13cba2",
-        "news_8b8e574d724a",
-        "news_ac696b49df1d",
-        "news_715b15a27912",
-        "news_ecd33045b37e",
-        "news_1870ff4e37cf",
-        "news_98c908c2489d",
-        "news_6c2d9bece434",
-        "news_989085d79c58",
-        "news_10ae0a524615",
-        "news_c6e8e7ce3d1c",
-        "news_db44bec3d3da",
-        "news_30483ad43cda",
-        "news_61212134cdd7",
-        "news_0bce4f63f0f1",
-        "news_7d9073d69bfc",
-        "news_4ef716030320",
-        "news_c67366d8076f",
-        "news_37541f809c24",
-        "news_13504293c80d",
-        "news_f57742543118",
-        "news_4a8649e8ea6a",
-        "news_aaf35e751054",
-        "news_e6cae1fc8d66",
-        "news_49b84dbd3a21",
-        "news_bba3b862f6d2",
-        "news_b1063012f1f8",
-        "news_a1cb09abe3ce",
-        "news_d2a2c4bc213a",
-        "news_37d8c1a3063f",
-        "news_f6a3426fc36c",
-        "news_a0e68b16193a",
-        "news_a01fbd9da400",
-        "news_833e477e9e41",
-        "news_c4986d8ad107",
-        "news_4ca41910edae"
       ],
       "status": "developing"
     },
@@ -698,18 +757,6 @@
         "news_cee679e5d30f",
         "news_9234327f8d37",
         "news_2433169730d3"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_f06b06c0c77f",
-      "title": "阿斯利康20亿美元入股，驰援康方海外合作伙伴Summit",
-      "firstSeenAt": "2026-09-29T05:53:54.123Z",
-      "lastSeenAt": "2026-09-29T10:43:22.355Z",
-      "primaryItemId": "news_e5e39de43208",
-      "evidenceItemIds": [
-        "news_e5e39de43208",
-        "news_3083436addc5"
       ],
       "status": "developing"
     },
@@ -9363,18 +9410,6 @@
       "evidenceItemIds": [
         "news_1c50803620db",
         "news_a1c5c0b2a452"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_cc4b8fe5cf45",
-      "title": "本周南向资金净买入腾讯控股超70亿港元 14股南向资金持股量环比增长超15%",
-      "firstSeenAt": "2026-08-16T08:53:04.224Z",
-      "lastSeenAt": "2026-08-17T04:58:05.715Z",
-      "primaryItemId": "news_9516cdd077c4",
-      "evidenceItemIds": [
-        "news_9516cdd077c4",
-        "news_a9d35db5f7ac"
       ],
       "status": "developing"
     },

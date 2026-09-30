@@ -97,7 +97,7 @@ function buildSourceHealth(source, result) {
     sourceName: src.sourceName || '未知来源',
     tier: src.tier || 'S3',
     category: src.category || 'industry',
-    transport: src.directUrl ? 'direct-rss' : 'rsshub',
+    transport: src.transport || (src.directUrl ? 'direct-rss' : 'rsshub'),
     success,
     usable: details.usable !== undefined ? Boolean(details.usable) : success && !stale && items.length > 0,
     stale,

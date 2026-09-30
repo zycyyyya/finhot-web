@@ -6,6 +6,7 @@ const {
   containsCorruptedText,
   deduplicateSimilarTitles,
   isSafeHttpUrl,
+  limitWithSourceReserve,
   normalizePublishedAt,
   normalizeTitle,
   qualityErrors,
@@ -94,6 +95,44 @@ const sorted = sortAndLimit([
   { title: 'middle', publishedAt: '2026-07-29T00:00:00Z' },
 ], 2);
 assert.deepStrictEqual(sorted.map(item => item.title), ['new', 'middle']);
+
+// === limitWithSourceReserve：截断时给每个来源留底 ===
+// 纯按时间截断会让时效窗口长的来源（知乎 30 天）被窗口短的新闻源整体挤出 150 条上限。
+const reservePool = [];
+for (let index = 0; index < 10; index += 1) {
+  reservePool.push({
+    id: `news_fresh_${index}`,
+    sourceName: '快讯源',
+    publishedAt: new Date(Date.UTC(2026, 6, 30, 12, 0, index)).toISOString(),
+  });
+}
+for (let index = 0; index < 3; index += 1) {
+  reservePool.push({
+    id: `news_slow_${index}`,
+    sourceName: '长窗口源',
+    publishedAt: new Date(Date.UTC(2026, 6, 10, 0, 0, index)).toISOString(),
+  });
+}
+const reserved = limitWithSourceReserve(reservePool, 4, 2);
+assert.strictEqual(reserved.length, 4);
+assert.strictEqual(reserved.filter(item => item.sourceName === '长窗口源').length, 2, '长窗口源必须有留底名额');
+assert.strictEqual(reserved.filter(item => item.sourceName === '快讯源').length, 2, '剩余名额按时间补齐');
+assert.deepStrictEqual(reserved.map(item => item.id), ['news_fresh_9', 'news_fresh_8', 'news_slow_2', 'news_slow_1']);
+// 留底名额会被压缩到 floor(上限 / 来源数)，保证留底总数不超上限。
+const tight = limitWithSourceReserve(reservePool, 3, 2);
+assert.strictEqual(tight.length, 3);
+assert.strictEqual(tight.filter(item => item.sourceName === '长窗口源').length, 1, '上限 3、2 个来源时每个来源最多留 1 条');
+assert.strictEqual(tight.filter(item => item.sourceName === '快讯源').length, 2);
+// 池子不超上限时原样返回（仍按时间排序）。
+assert.deepStrictEqual(
+  limitWithSourceReserve(reservePool, 100, 2).map(item => item.id),
+  sortAndLimit(reservePool, 100).map(item => item.id),
+);
+// 留底为 0 时退化成 sortAndLimit。
+assert.deepStrictEqual(
+  limitWithSourceReserve(reservePool, 4, 0).map(item => item.id),
+  sortAndLimit(reservePool, 4).map(item => item.id),
+);
 
 assert.strictEqual(beijingDateString(new Date('2026-07-30T16:30:00Z')), '2026-07-31');
 

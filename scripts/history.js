@@ -4,7 +4,13 @@ const crypto = require('crypto');
 const fs = require('fs');
 const path = require('path');
 const { clusterEvents } = require('./analysis');
-const { normalizeTitle, normalizePublishedAt } = require('./core');
+const {
+  eventDateBucket,
+  eventSimilarity,
+  normalizeTitle,
+  normalizePublishedAt,
+  withinEventWindow,
+} = require('./core');
 
 const DATA_DIR = path.resolve(__dirname, '..', 'data');
 const HISTORY_FILE = path.join(DATA_DIR, 'history.json');
@@ -15,6 +21,21 @@ const MAX_HISTORY_ITEMS = 5000;
 const MAX_EVENTS = 1000;
 const MAX_EVENT_EVIDENCE = 50;
 const EVENT_MATCH_HISTORY_ITEMS = 800;
+/** 不同来源报道同一事件时，允许用标题匹配把新聚类并进已有事件的最低相似度。 */
+const EVENT_MATCH_THRESHOLD = 0.60;
+/**
+ * 事件归组算法的版本号。
+ *
+ * v1 的巨型聚类（实测 6 个事件顶到 50 条证据上限、横跨两个月，如"以色列股市上涨"、
+ * "恒指午间休盘"）是旧相似度算法 `交集 / min(|A|,|B|)` 的产物，而 events.json 的保留期是
+ * 120 天。光换成新算法不够：旧事件会被 retainedEvents 原样续命，实测仍有 45 个 ≥10 条证据的
+ * 巨型事件留在文件里、其中 6 个还挂在首页事件链上。
+ *
+ * 这类事件无法逐条判定真伪（证据本身就是错的），所以直接按版本号做一次淘汰：
+ * 当前事件每轮都是重新聚类得出的，历史事件只负责沿用 eventId 与 firstSeenAt，
+ * 因此丢弃它们只损失"事件连续性"，不会丢失任何当期事件。
+ */
+const EVENT_CLUSTER_VERSION = 2;
 
 function loadJson(file, fallback) {
   try {
@@ -64,39 +85,28 @@ function compactHistoryItem(item, nowIso, eventId) {
   };
 }
 
-function eventTokens(title) {
-  const text = String(title || '').toLowerCase();
-  const normalized = normalizeTitle(title || '');
-  const tokens = new Set();
-  for (let index = 0; index < normalized.length - 1; index += 1) tokens.add(normalized.slice(index, index + 2));
-  const topics = ['保险', '私募', '基金', '证券', '银行', '央行', '利率', '降息', '降准', '债券', 'ETF', '监管', '处罚', '政策', '房地产', '人工智能', '养老', '量化', '汇率', 'A股', '港股', '美股'];
-  topics.forEach(topic => { if (text.includes(topic.toLowerCase())) tokens.add(`topic:${topic}`); });
-  return tokens;
-}
-
-function titleSimilarity(a, b) {
-  const left = eventTokens(a);
-  const right = eventTokens(b);
-  if (!left.size || !right.size) return 0;
-  let intersection = 0;
-  let topicIntersection = 0;
-  left.forEach(token => {
-    if (!right.has(token)) return;
-    intersection += 1;
-    if (token.startsWith('topic:')) topicIntersection += 1;
-  });
-  const lexical = intersection / Math.min(left.size, right.size);
-  return topicIntersection >= 2 ? Math.max(lexical, 0.60) : lexical;
-}
-
-function preferredExistingEvent(cluster, events) {
+// === 事件匹配 ===
+// 旧的 titleSimilarity 有两个致命问题：
+//  1) 分母用 min(|A|,|B|)（包含度而非 Jaccard），短标题被长标题包含即接近 1.0；
+//  2) "共同主题词 >= 2 就强制 0.60"，而同一栏目的任意两篇稿子几乎必然共享保险/监管这类粗主题，
+//     于是不同日期、不同事件被反复并进同一个事件，证据列表一路涨到 50 条上限并横跨两个月。
+// 现在改为共享的 eventSimilarity（Jaccard + 严格主体锚点），并在匹配已有事件时强制时间窗。
+function eventMatchScore(cluster, event, clusterPublishedAt) {
   const evidence = new Set(cluster.evidenceItemIds || []);
+  const overlap = (event.evidenceItemIds || []).filter(id => evidence.has(id)).length;
+  if (overlap > 0) return 1 + overlap;
+  // 标题匹配必须同时落在时间窗内，否则两个月前的"同名行情快讯"会被当成同一事件。
+  if (!withinEventWindow(clusterPublishedAt, event.latestItemPublishedAt)) return 0;
+  const similarity = eventSimilarity(cluster.title, event.title);
+  return similarity >= EVENT_MATCH_THRESHOLD ? similarity : 0;
+}
+
+function preferredExistingEvent(cluster, events, clusterPublishedAt) {
   let best = null;
   let bestScore = 0;
   for (const event of events) {
-    const overlap = (event.evidenceItemIds || []).filter(id => evidence.has(id)).length;
-    const score = overlap > 0 ? 1 + overlap : titleSimilarity(cluster.title, event.title);
-    if (score > bestScore && score >= 0.52) {
+    const score = eventMatchScore(cluster, event, clusterPublishedAt);
+    if (score > bestScore && score >= EVENT_MATCH_THRESHOLD) {
       best = event;
       bestScore = score;
     }
@@ -104,8 +114,13 @@ function preferredExistingEvent(cluster, events) {
   return best;
 }
 
-function newEventId(cluster) {
-  const seed = normalizeTitle(cluster.title || '') || (cluster.evidenceItemIds || []).slice().sort().join('|');
+// 事件身份里带上日期桶：标题完全相同的资讯在不同日期属于不同的发生，
+// 不能靠规范化标题撞成同一个 eventId。
+function newEventId(cluster, publishedAt) {
+  const normalized = normalizeTitle(cluster.title || '');
+  const seed = normalized
+    ? `${normalized}@${eventDateBucket(publishedAt)}`
+    : (cluster.evidenceItemIds || []).slice().sort().join('|');
   return `event_${crypto.createHash('sha256').update(seed).digest('hex').slice(0, 12)}`;
 }
 
@@ -145,23 +160,46 @@ function reconcileEvents(activeItems, historyItems, existingEvents, now) {
 
   const retainedEvents = existingEvents.filter(event => {
     const timestamp = event.lastSeenAt ? new Date(event.lastSeenAt).getTime() : NaN;
-    return Number.isFinite(timestamp) && timestamp >= eventCutoff;
+    if (!Number.isFinite(timestamp) || timestamp < eventCutoff) return false;
+    // 旧版本算法产生的事件一律不续命，见 EVENT_CLUSTER_VERSION 说明。
+    return event.clusterVersion === EVENT_CLUSTER_VERSION;
   });
   const clusters = clusterEvents([...combinedMap.values()], { maxClusters: MAX_EVENTS });
   const activeClusters = clusters.filter(cluster => cluster.evidenceItemIds.some(id => activeIds.has(id)));
   const itemEventIds = new Map();
   const updatedById = new Map(retainedEvents.map(event => [event.eventId, { ...event }]));
 
+  // 聚类的内容时间：取成员里最新的发布时间。用于匹配已有事件时的时间窗判断。
+  const clusterPublishedAt = cluster => {
+    const times = (cluster.evidenceItemIds || [])
+      .map(id => {
+        const item = combinedMap.get(id);
+        return item && item.publishedAt ? new Date(item.publishedAt).getTime() : NaN;
+      })
+      .filter(Number.isFinite);
+    return times.length > 0 ? new Date(Math.max(...times)).toISOString() : null;
+  };
+
   for (const cluster of activeClusters) {
-    const matched = preferredExistingEvent(cluster, retainedEvents);
-    const eventId = matched ? matched.eventId : newEventId(cluster);
+    const publishedAt = clusterPublishedAt(cluster) || (cluster.evidenceItemIds || [])
+      .map(id => combinedMap.get(id))
+      .filter(Boolean)
+      .map(item => item.fetchedAt)
+      .filter(Boolean)
+      .sort()
+      .pop() || null;
+    const matched = preferredExistingEvent(cluster, retainedEvents, publishedAt);
+    const eventId = matched ? matched.eventId : newEventId(cluster, publishedAt);
     const previous = updatedById.get(eventId);
     const evidenceItemIds = [...new Set([...(previous && previous.evidenceItemIds || []), ...cluster.evidenceItemIds])].slice(-MAX_EVENT_EVIDENCE);
     const event = {
       eventId,
+      clusterVersion: EVENT_CLUSTER_VERSION,
       title: cluster.title,
       firstSeenAt: previous && previous.firstSeenAt ? previous.firstSeenAt : nowIso,
       lastSeenAt: nowIso,
+      // 事件最后一条内容的发布时间（不是运行时间）。下次匹配时用它做时间窗判断。
+      latestItemPublishedAt: publishedAt || (previous && previous.latestItemPublishedAt) || null,
       primaryItemId: cluster.mainItemId,
       evidenceItemIds,
       status: 'developing',
@@ -170,8 +208,12 @@ function reconcileEvents(activeItems, historyItems, existingEvents, now) {
     cluster.evidenceItemIds.forEach(id => itemEventIds.set(id, eventId));
   }
 
+  // 只沿用仍然存在的事件 ID，避免历史条目挂到已被淘汰的旧事件上（前端拿到悬空的 eventId）。
+  const liveEventIds = new Set(updatedById.keys());
   historyItems.forEach(item => {
-    if (item.eventId && !itemEventIds.has(item.id)) itemEventIds.set(item.id, item.eventId);
+    if (item.eventId && liveEventIds.has(item.eventId) && !itemEventIds.has(item.id)) {
+      itemEventIds.set(item.id, item.eventId);
+    }
   });
 
   const events = [...updatedById.values()]
@@ -222,6 +264,7 @@ function writeHistoryFiles(historyItems, events, generatedAt) {
 
 module.exports = {
   EVENTS_FILE,
+  EVENT_CLUSTER_VERSION,
   HISTORY_FILE,
   HISTORY_RETENTION_DAYS,
   MAX_HISTORY_ITEMS,

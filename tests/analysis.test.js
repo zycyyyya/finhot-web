@@ -124,4 +124,33 @@ const cachedFailure = normalizeAIAnalysis({
 }, items, fallback, 'llm');
 assert.strictEqual(cachedFailure.weeklyTrends.summary, '规则');
 
+// === 补充类内容（UGC）在精选里的占比上限 ===
+// UGC 在"从业价值"评分里天然占优（相关性拉满 + 时效靠前，而证据轴只有 0~8 分），
+// 实测 6 条知乎内容全进精选、4 条挤进前十。这里锁死它不得盖过 1/6。
+const scoreBuilders = (evidenceType, score, base) => Array.from({ length: 40 }, (_, index) => ({
+  id: `news_${base}${index}`,
+  title: `${base}${index}`,
+  evidenceType,
+  score: score - index * 0.1,
+  category: base === 'u' ? 'insights' : 'regulatory',
+  sourceTier: base === 'u' ? 'S3' : 'S0',
+  scenarioScores: { insurance: { score: base === 'u' ? 80 : 70 }, privateFundSales: { score: 5 }, marketEducation: { score: 5 } },
+}));
+const mixedPool = [...scoreBuilders('ugc_opinion', 95, 'u'), ...scoreBuilders('official_notice', 60, 'r')];
+applyBusinessCuration(mixedPool, 24);
+const mixedFeatured = mixedPool.filter(item => item.selectedForFeatured);
+assert.strictEqual(mixedFeatured.length, 24);
+assert.strictEqual(
+  mixedFeatured.filter(item => item.evidenceType === 'ugc_opinion').length,
+  4,
+  '高分的补充类内容再多，精选占比也不得超过 1/6（24 条里 4 条）',
+);
+// 被上限挡下的条目不该白占栏目下限名额：其余 20 条仍应被填满。
+assert.strictEqual(mixedFeatured.filter(item => item.evidenceType !== 'ugc_opinion').length, 20);
+
+// 兜底：池子里几乎全是补充类内容时必须按分数补齐，不能让精选开天窗。
+const ugcOnlyPool = scoreBuilders('ugc_opinion', 80, 'o');
+applyBusinessCuration(ugcOnlyPool, 24);
+assert.strictEqual(ugcOnlyPool.filter(item => item.selectedForFeatured).length, 24);
+
 console.log('analysis tests passed');

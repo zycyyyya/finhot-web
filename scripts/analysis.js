@@ -1,7 +1,32 @@
 'use strict';
 
 const crypto = require('crypto');
-const { normalizeTitle, normalizePublishedAt } = require('./core');
+const {
+  eventSimilarity,
+  isNonEventTitle,
+  normalizeTitle,
+  normalizePublishedAt,
+  withinEventWindow,
+} = require('./core');
+
+/** 事件聚类的相似度门槛。Jaccard 天然比包含度低，所以数值与旧实现不同。 */
+const EVENT_SAME_CATEGORY_THRESHOLD = 0.50;
+const EVENT_CROSS_CATEGORY_THRESHOLD = 0.60;
+
+/** 每栏在"今日精选"里的最低占比（1/6）与最高占比（1/3），用于防止整栏缺失。 */
+const SCENE_FLOOR_MIN_RATIO = 1 / 6;
+const SCENE_FLOOR_MAX_RATIO = 1 / 3;
+
+/**
+ * 补充类证据（个人创作）在精选里的占比上限，与栏目下限同为 1/6。
+ *
+ * 为什么需要：知乎这类 UGC 内容在"从业价值"评分里天然占优——相关性拉满（保险关键词密集）、
+ * 时效也在窗口前段，而证据轴本来就只有 0~8 分（没有监管文号/机构名/数字），罚得不够抵消。
+ * 实测 6 条知乎内容全进精选、4 条挤进前十。它只占全部候选的 4%，却拿走近 1/4 的精选位。
+ * 这不是说内容不好，而是它作为"补充源"不该盖过监管原文与财经媒体。分数与门槛都不动。
+ */
+const SUPPLEMENTARY_EVIDENCE_TYPES = new Set(['ugc_opinion']);
+const SUPPLEMENTARY_FEATURED_RATIO = SCENE_FLOOR_MIN_RATIO;
 
 const TRACKING_PARAMS = new Set(['from', 'spm', 'ref', 'refer', 'source', 'share', 'sharefrom']);
 const TIER_RANK = { S0: 4, S1: 3, S2: 2, S3: 1 };
@@ -68,17 +93,19 @@ function scoreScenario(item, config) {
   const text = `${item.title || ''} ${item.summary || ''}`;
   const strongHits = config.strong.filter(keyword => hasAny(text, [keyword])).length;
   const mediumHits = config.medium.filter(keyword => hasAny(text, [keyword])).length;
-  const authority = item.sourceTier === 'S0' || item.tier === 'S0' ? 12 : item.sourceTier === 'S2' || item.tier === 'S2' ? 8 : 4;
+  // 场景分只反映"这条内容与这个栏目的话题贴合度"。旧实现在这里也加了来源等级分
+  // （S0 +12 / S2 +8 / 其他 +4），等于让官方身份参与栏目归属判断，已移除。
+  const evidence = item.scoreBreakdown && Number.isFinite(item.scoreBreakdown.evidence) ? item.scoreBreakdown.evidence : 6;
   const impact = item.scoreBreakdown && Number.isFinite(item.scoreBreakdown.impact) ? item.scoreBreakdown.impact : 8;
   const recency = item.scoreBreakdown && Number.isFinite(item.scoreBreakdown.recency) ? item.scoreBreakdown.recency : 0;
-  let score = strongHits * 22 + mediumHits * 9 + authority + Math.round(impact * 0.7) + Math.round(recency * 0.4);
+  let score = strongHits * 22 + mediumHits * 9 + Math.round(evidence * 0.6) + Math.round(impact * 0.7) + Math.round(recency * 0.4);
   if (strongHits === 0) score = Math.min(score, mediumHits > 0 ? 54 : 25);
   if (strongHits === 0 && mediumHits === 0) score = Math.min(score, 20);
   score = clamp(score, 0, 100);
   const reasons = [];
   if (strongHits > 0) reasons.push(`命中${config.label}核心主题 ${strongHits} 项`);
   if (mediumHits > 0) reasons.push(`命中关联主题 ${mediumHits} 项`);
-  if (authority >= 12) reasons.push('权威原始来源');
+  if (evidence >= 14) reasons.push('含可核对要素');
   else if (impact >= 16) reasons.push('业务影响较高');
   if (reasons.length === 0) reasons.push('与该场景关联度较弱');
   return { score, reasons: reasons.slice(0, 3) };
@@ -112,34 +139,26 @@ function businessRank(item, scene) {
     + authorityRank(item);
 }
 
-function sortedCandidates(items, scene, threshold, excludedIds) {
-  return items
-    .filter(item => item && item.id && !excludedIds.has(item.id) && scenarioScore(item, scene) >= threshold)
-    .sort((a, b) => businessRank(b, scene) - businessRank(a, scene));
+/** 全局排序：先看从业价值总分，再看适配该场景的分数，最后才用来源等级做同分兜底。 */
+function globalRank(item) {
+  return (Number(item && item.score) || 0) * 10000
+    + scenarioScore(item, item && item.primaryScene) * 100
+    + authorityRank(item);
 }
 
+// === 栏目归属 ===
+// 旧实现是"配额分配制"：先给保险切 15~24 条，再给私募切 25~40 条，剩下的全算投教。
+// 结果一条资讯属于哪个栏目取决于当时池子里有多少条，而不是它本身最贴近哪个场景，
+// 同一篇稿子会随池子大小在不同栏目之间跳来跳去。
+// 现在改为取最高场景分（argmax），栏目归属直接反映内容本身。
 function assignPrimaryScenes(items) {
   const source = Array.isArray(items) ? items : [];
-  const assignedIds = new Set();
-  const insuranceTarget = Math.min(24, Math.max(15, Math.ceil(source.length * 0.14)));
-  const privateFundTarget = Math.min(40, Math.max(25, Math.ceil(source.length * 0.22)));
-
-  sortedCandidates(source, 'insurance', 30, assignedIds)
-    .slice(0, insuranceTarget)
-    .forEach(item => {
-      item.primaryScene = 'insurance';
-      assignedIds.add(item.id);
-    });
-
-  sortedCandidates(source, 'privateFundSales', 30, assignedIds)
-    .slice(0, privateFundTarget)
-    .forEach(item => {
-      item.primaryScene = 'privateFundSales';
-      assignedIds.add(item.id);
-    });
-
+  const sceneOrder = Object.keys(SCENARIOS);
   source.forEach(item => {
-    if (!assignedIds.has(item.id)) item.primaryScene = 'marketEducation';
+    const ranked = sceneOrder
+      .map(scene => ({ scene, score: scenarioScore(item, scene) }))
+      .sort((a, b) => b.score - a.score || sceneOrder.indexOf(a.scene) - sceneOrder.indexOf(b.scene));
+    item.primaryScene = ranked[0].score > 0 ? ranked[0].scene : 'marketEducation';
   });
   return source;
 }
@@ -156,30 +175,61 @@ function buildContentTags(item) {
 function selectFeaturedItems(items, limit) {
   const source = Array.isArray(items) ? items : [];
   const total = Math.min(Number.isInteger(limit) && limit > 0 ? limit : 24, source.length);
-  const quotas = {
-    insurance: Math.min(6, total),
-    privateFundSales: Math.min(7, Math.max(0, total - Math.min(6, total))),
-  };
-  quotas.marketEducation = Math.max(0, total - quotas.insurance - quotas.privateFundSales);
+  const sceneOrder = Object.keys(SCENARIOS);
+  // 入选门槛按来源等级分档（S0 50 / S1 55 / S2 60 / S3 70，见 scoring.js）。
+  // 等级只决定"能不能进精选"，不再进分数。够格条目不足时退回全量，避免首页开天窗。
+  const gated = source.filter(item => item.passesTierGate !== false);
+  const pool = gated.length >= total ? gated : source;
+  // 每栏下限只用于防止首页整栏缺失，不再是硬配额：候选不够时名额直接让给全局高分条目，
+  // 而不是塞一条低分稿子把栏目填满。
+  const floor = Math.max(1, Math.min(
+    Math.floor(total * SCENE_FLOOR_MAX_RATIO),
+    Math.ceil(total * SCENE_FLOOR_MIN_RATIO),
+  ));
+  const supplementaryQuota = Math.max(1, Math.floor(total * SUPPLEMENTARY_FEATURED_RATIO));
   const selected = new Set();
+  const sceneUsed = Object.fromEntries(sceneOrder.map(scene => [scene, 0]));
+  let supplementaryUsed = 0;
+  const isSupplementary = item => SUPPLEMENTARY_EVIDENCE_TYPES.has(item && item.evidenceType);
+  const selectWith = enforceQuota => item => {
+    if (!item || selected.has(item.id)) return false;
+    if (isSupplementary(item)) {
+      if (enforceQuota && supplementaryUsed >= supplementaryQuota) return false;
+      supplementaryUsed += 1;
+    }
+    selected.add(item.id);
+    return true;
+  };
+  const trySelect = selectWith(true);
 
-  Object.entries(quotas).forEach(([scene, quota]) => {
-    source
+  sceneOrder.forEach(scene => {
+    pool
       .filter(item => item.primaryScene === scene)
       .sort((a, b) => businessRank(b, scene) - businessRank(a, scene))
-      .slice(0, quota)
-      .forEach(item => selected.add(item.id));
+      .forEach(item => {
+        // 被占比上限挡下的条目不该白占一个下限名额，直接顺延给同栏的下一条。
+        if (sceneUsed[scene] >= floor || selected.size >= total) return;
+        if (trySelect(item)) sceneUsed[scene] += 1;
+      });
   });
 
-  source
-    .filter(item => !selected.has(item.id))
-    .sort((a, b) => (
-      (Number(b.score) || 0) * 100 + businessRank(b, b.primaryScene)
-    ) - (
-      (Number(a.score) || 0) * 100 + businessRank(a, a.primaryScene)
-    ))
-    .slice(0, Math.max(0, total - selected.size))
-    .forEach(item => selected.add(item.id));
+  pool
+    .slice()
+    .sort((a, b) => globalRank(b) - globalRank(a))
+    .forEach(item => {
+      if (selected.size < total) trySelect(item);
+    });
+
+  // 兜底：池子里几乎全是补充类内容时，配额会让精选开天窗。此时宁可按分数补齐。
+  if (selected.size < total) {
+    const relaxed = selectWith(false);
+    pool
+      .slice()
+      .sort((a, b) => globalRank(b) - globalRank(a))
+      .forEach(item => {
+        if (selected.size < total) relaxed(item);
+      });
+  }
 
   source.forEach(item => {
     item.selectedForFeatured = selected.has(item.id);
@@ -203,24 +253,19 @@ function businessCurationStats(items) {
   return {
     scenes,
     featured: source.filter(item => item.selectedForFeatured).length,
+    // 入选门槛的通过情况：让"这批货到底够不够格"在数据里可见，而不是只看精选条数。
+    gate: {
+      passed: source.filter(item => item.passesTierGate === true).length,
+      total: source.length,
+      byTier: source.reduce((acc, item) => {
+        const tier = item.sourceTier || item.tier || 'S3';
+        acc[tier] = acc[tier] || { total: 0, passed: 0 };
+        acc[tier].total += 1;
+        if (item.passesTierGate === true) acc[tier].passed += 1;
+        return acc;
+      }, {}),
+    },
   };
-}
-
-function eventTokens(item) {
-  const text = `${item.title || ''} ${item.summary || ''}`.toLowerCase();
-  const tokens = new Set();
-  const normalized = normalizeTitle(item.title || '');
-  for (let i = 0; i < normalized.length - 1; i += 1) tokens.add(normalized.slice(i, i + 2));
-  const topics = ['保险', '私募', '基金', '证券', '银行', '央行', '利率', '债券', 'ETF', '监管', '处罚', '政策', '房地产', '人工智能', '养老', '量化', '汇率', 'A股', '港股', '美股'];
-  topics.forEach(topic => { if (text.includes(topic.toLowerCase())) tokens.add(`topic:${topic}`); });
-  return tokens;
-}
-
-function similarity(a, b) {
-  if (!a.size || !b.size) return 0;
-  let intersection = 0;
-  a.forEach(token => { if (b.has(token)) intersection += 1; });
-  return intersection / Math.min(a.size, b.size);
 }
 
 function preferredMain(a, b) {
@@ -234,23 +279,34 @@ function preferredMain(a, b) {
   return at >= bt ? a : b;
 }
 
+// === 事件聚类 ===
+// 修掉两个线上问题：
+//  1) 旧相似度用 `交集 / min(|A|,|B|)`（包含度），短标题被长标题包含就会接近 1.0；
+//  2) 没有时间窗，且对日频行情播报（"截至收盘…"）和多事件盘点（"晚间公告…"）照常聚类，
+//     于是整个月的行情快讯被并成同一个事件（实测曾有 6 个事件顶到证据上限并横跨两个月）。
+// 现在：非事件类标题直接不参与；成员必须落在同一时间窗内；相似度用 Jaccard + 严格主体锚点。
 function clusterEvents(items, options) {
   const settings = options || {};
   const maxClusters = Number.isInteger(settings.maxClusters) && settings.maxClusters > 0 ? settings.maxClusters : 10;
-  const prepared = items.filter(item => item && item.id && item.title).map(item => ({ item, tokens: eventTokens(item) }));
+  const prepared = items
+    .filter(item => item && item.id && item.title && !isNonEventTitle(item.title))
+    .map(item => ({ item }));
   const visited = new Set();
   const clusters = [];
   for (let index = 0; index < prepared.length; index += 1) {
     if (visited.has(index)) continue;
-    const members = [prepared[index].item];
+    const seed = prepared[index].item;
+    const members = [seed];
     visited.add(index);
     for (let next = index + 1; next < prepared.length; next += 1) {
       if (visited.has(next)) continue;
-      const score = similarity(prepared[index].tokens, prepared[next].tokens);
-      const sameCategory = prepared[index].item.category === prepared[next].item.category;
-      if (score >= (sameCategory ? 0.42 : 0.56)) {
+      const candidate = prepared[next].item;
+      if (!withinEventWindow(seed.publishedAt, candidate.publishedAt)) continue;
+      const sameCategory = seed.category === candidate.category;
+      const threshold = sameCategory ? EVENT_SAME_CATEGORY_THRESHOLD : EVENT_CROSS_CATEGORY_THRESHOLD;
+      if (eventSimilarity(seed.title, candidate.title) >= threshold) {
         visited.add(next);
-        members.push(prepared[next].item);
+        members.push(candidate);
       }
     }
     if (members.length < 2) continue;

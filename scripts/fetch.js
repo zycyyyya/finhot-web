@@ -16,6 +16,7 @@ const {
   containsCorruptedText,
   deduplicateSimilarTitles,
   isSafeHttpUrl,
+  limitWithSourceReserve,
   normalizePublishedAt,
   normalizeTitle,
   sortAndLimit,
@@ -46,6 +47,15 @@ const {
   writeHistoryFiles,
 } = require('./history');
 const {
+  TIER_GATES,
+  scoreItem,
+  tierGateFor,
+} = require('./scoring');
+const {
+  ZHIHU_QUERIES,
+  fetchZhihu,
+} = require('./zhihu');
+const {
   defaultDeps: macroDefaultDeps,
   formatMacroContext,
   loadMacro,
@@ -64,6 +74,8 @@ const RSSHUB_INSTANCES = [
 ];
 const MAX_ITEMS = 150;
 const MAX_AGE_DAYS = 7;
+/** 每个产出有效内容的来源在前端列表里至少保留的条数（见 core.limitWithSourceReserve）。 */
+const SOURCE_RESERVE_MIN = 6;
 const INITIAL_SOURCE_FETCH_LIMIT = 30;
 const EXPANDED_SOURCE_FETCH_LIMIT = 50;
 const DATA_FILE = path.resolve(__dirname, '..', 'data.js');
@@ -85,6 +97,18 @@ const SOURCES = [
   // 替换为市场资讯+技术分析，提升内容深度
   { directUrl: 'https://cn.investing.com/rss/news_25.rss',             sourceName: '\u82f1\u4e3a\u8d22\u60c5', category: 'industry',  tier: 'S2', evidenceType: 'financial_media' },
   { directUrl: 'https://cn.investing.com/rss/news_95.rss',            sourceName: '\u82f1\u4e3a\u8d22\u60c5', category: 'research',   tier: 'S2', evidenceType: 'financial_media' },
+  // 知乎搜索：补充保险从业者视角内容（产品实测、避坑、展业方法）。走官方开放平台接口，不是 RSS。
+  // 内容为个人创作，一律按 S3（快讯/观点线索）对待，入选门槛最高；EditTime 是最后编辑时间而非发布时间。
+  {
+    transport: 'zhihu',
+    sourceName: '\u77e5\u4e4e',
+    category: 'insights',
+    tier: 'S3',
+    tierLabel: '\u4ece\u4e1a\u8005\u89c2\u70b9',
+    evidenceType: 'ugc_opinion',
+    maxAgeDays: 30,
+    discoveredVia: 'Zhihu OpenAPI',
+  },
 ];
 
 const TIER_LABELS = {
@@ -508,102 +532,30 @@ function isSourceNoise(item) {
   return false;
 }
 
-function hasAny(text, keywords) {
-  const lower = (text || '').toLowerCase();
-  return keywords.some(k => lower.includes(k.toLowerCase()));
-}
-
-function clamp(num, min, max) {
-  return Math.max(min, Math.min(max, num));
-}
-
-function scoreByKeywords(text, groups, fallback) {
-  let score = fallback;
-  for (const group of groups) {
-    if (hasAny(text, group.keywords)) score = Math.max(score, group.score);
-  }
-  return score;
-}
-
-function buildWhy(scoreBreakdown, item, source) {
-  const why = [];
-  if (source.tier === 'S0') why.push('\u6743\u5a01\u539f\u59cb\u6765\u6e90');
-  if (source.tier === 'S2') why.push('\u4e13\u4e1a\u8d22\u7ecf\u5a92\u4f53\u8ddf\u8fdb');
-  if (source.tier === 'S3') why.push('\u5feb\u8baf\u7ebf\u7d22\uff0c\u9700\u7ed3\u5408\u539f\u6587\u5224\u65ad');
-  if (scoreBreakdown.impact >= 16) why.push('\u5bf9\u5c55\u4e1a/\u914d\u7f6e/\u5408\u89c4\u6709\u76f4\u63a5\u5f71\u54cd');
-  if (scoreBreakdown.actionability >= 8) why.push('\u53ef\u8f6c\u5316\u4e3a\u5ba2\u6237\u6c9f\u901a\u6216\u6295\u7814\u5173\u6ce8');
-  if (scoreBreakdown.recency >= 13) why.push('\u65f6\u6548\u6027\u9ad8');
-  if ((item.summary || '').length > 150) why.push('\u6458\u8981\u4fe1\u606f\u8f83\u5b8c\u6574');
-  return why.slice(0, 3);
-}
-
-function confidenceFor(source, scoreBreakdown) {
-  if (source.tier === 'S0') return 'high';
-  if (scoreBreakdown.authority >= 16 && scoreBreakdown.depth >= 7) return 'medium';
-  return 'low';
-}
-
-// === Practitioner value scoring ===
-function scoreItem(item, source) {
-  const text = `${item.title || ''} ${item.summary || ''}`;
-  const publishedTimestamp = item.publishedAt ? new Date(item.publishedAt).getTime() : NaN;
-  const ageHours = Number.isNaN(publishedTimestamp) ? Infinity : (Date.now() - publishedTimestamp) / 3600000;
-  const recency = ageHours < 6 ? 15 : ageHours < 24 ? 13 : ageHours < 72 ? 10 : ageHours < 168 ? 7 : 0;
-  const authority = source.tier === 'S0' ? 20 : source.tier === 'S1' ? 18 : source.tier === 'S2' ? 15 : 9;
-  const summaryLen = (item.summary || '').length;
-  const depth = source.tier === 'S0' ? 8 : summaryLen > 180 ? 10 : summaryLen > 100 ? 8 : summaryLen > 40 ? 6 : 3;
-  const relevance = scoreByKeywords(text, [
-    { score: 25, keywords: ['\u4fdd\u9669', '\u9669\u4f01', '\u9669\u8d44', '\u5bff\u9669', '\u8d22\u9669', '\u5065\u5eb7\u9669', '\u91d1\u76d1\u603b\u5c40', '\u507f\u4ed8', '\u7cbe\u7b97'] },
-    { score: 22, keywords: ['\u57fa\u91d1', '\u79c1\u52df', '\u8d44\u7ba1', '\u7406\u8d22', '\u503a\u5238', 'ETF', '\u8bc1\u5238'] },
-    { score: 18, keywords: ['\u94f6\u884c', '\u5229\u7387', '\u592e\u884c', '\u8bc1\u76d1\u4f1a', '\u964d\u51c6', '\u964d\u606f', 'LPR', 'MLF'] },
-  ], source.category === 'regulatory' ? 18 : 12);
-  const impact = scoreByKeywords(text, [
-    { score: 20, keywords: ['\u76d1\u7ba1', '\u5904\u7f5a', '\u6cd5\u89c4', '\u901a\u77e5', '\u6279\u590d', '\u507f\u4ed8\u80fd\u529b', '\u964d\u606f', '\u964d\u51c6'] },
-    { score: 17, keywords: ['\u4e1a\u7ee9', '\u4fdd\u8d39', '\u8d54\u4ed8', '\u5e76\u8d2d', '\u589e\u8d44', '\u8d44\u4ea7\u914d\u7f6e', '\u80a1\u503a'] },
-    { score: 14, keywords: ['\u4ea7\u54c1', '\u65b0\u57fa\u91d1', '\u7406\u8d22\u4ea7\u54c1', '\u5e74\u91d1', '\u517b\u8001'] },
-  ], 8);
-  const actionability = scoreByKeywords(text, [
-    { score: 10, keywords: ['\u98ce\u9669\u63d0\u793a', '\u5408\u89c4', '\u5ba2\u6237', '\u914d\u7f6e', '\u7406\u8d22', '\u5e74\u91d1', '\u517b\u8001', '\u4ea7\u54c1'] },
-    { score: 8, keywords: ['\u5229\u7387', '\u4fdd\u8d39', '\u507f\u4ed8', '\u7814\u62a5', '\u8bc4\u7ea7', '\u8d44\u91d1\u6d41\u5411'] },
-  ], 4);
-  const scoreBreakdown = {
-    relevance,
-    authority,
-    impact,
-    recency,
-    depth,
-    actionability,
-  };
-  let score = Object.values(scoreBreakdown).reduce((sum, val) => sum + val, 0);
-  if (source.tier === 'S3') score = Math.min(score, 75);
-  if (source.tier !== 'S0' && hasAny(text, ['\u76d1\u7ba1', '\u5904\u7f5a', '\u6cd5\u89c4', '\u6279\u590d'])) score = Math.min(score, 82);
-  score = clamp(Math.round(score), 0, 100);
-  return {
-    score,
-    scoreLabel: '\u4ece\u4e1a\u4ef7\u503c',
-    scoreBreakdown,
-    confidence: confidenceFor(source, scoreBreakdown),
-    why: buildWhy(scoreBreakdown, item, source),
-  };
-}
-
+// === 从业价值评分 ===
+// 评分逻辑已抽到 scripts/scoring.js：内容决定分数，来源等级只决定入选门槛（TIER_GATES）。
+// 这里只负责把评分结果挂到条目上，不再做任何来源身份加分。
 function enrichItem(item) {
   const src = sourceForItem(item);
   item.category = item.category || src.category;
   item.tier = src.tier;
   item.sourceTier = src.tier;
-  item.sourceTierLabel = TIER_LABELS[src.tier] || '';
+  item.sourceTierLabel = src.tierLabel || TIER_LABELS[src.tier] || '';
   item.evidenceType = item.evidenceType || src.evidenceType;
   item.discoveredVia = item.discoveredVia || 'RSSHub';
   item.id = stableItemId(item);
-  if (!item.scoreBreakdown || !item.why) {
-    const scoreMeta = scoreItem(item, src);
-    item.score = scoreMeta.score;
-    item.scoreLabel = scoreMeta.scoreLabel;
-    item.scoreBreakdown = scoreMeta.scoreBreakdown;
-    item.confidence = scoreMeta.confidence;
-    item.why = scoreMeta.why;
-  }
+  // 每次重算：旧缓存里的 scoreBreakdown 只有 authority/depth 两轴，沿用会让前端读到 undefined。
+  const scoreMeta = scoreItem(item, src);
+  item.score = scoreMeta.score;
+  item.rawScore = scoreMeta.rawScore;
+  item.scoreLabel = scoreMeta.scoreLabel;
+  item.scoreBreakdown = scoreMeta.scoreBreakdown;
+  item.evidenceBreakdown = scoreMeta.evidenceBreakdown;
+  item.noiseCaps = scoreMeta.noiseCaps;
+  item.tierGate = scoreMeta.tierGate;
+  item.passesTierGate = scoreMeta.passesTierGate;
+  item.confidence = scoreMeta.confidence;
+  item.why = scoreMeta.why;
   item.scenarioScores = buildScenarioScores(item);
   return item;
 }
@@ -614,6 +566,9 @@ function enrichItem(item) {
 // Only reclassifies industry/insights; never touches research.
 function reclassifyCategory(item) {
   if (item.category !== 'industry' && item.category !== 'insights') return;
+  // 用户创作内容（知乎等）不参与监管/产品的归类改写：
+  // 一篇讨论"偿付能力新规"的知乎回答不是监管原文，归到"官方监管"会误导读者。
+  if (item.evidenceType === 'ugc_opinion') return;
 
   const text = (item.title + ' ' + (item.summary || '')).toLowerCase();
 
@@ -1250,11 +1205,18 @@ async function main() {
   const cutoff = Date.now() - MAX_AGE_DAYS * 86400000;
 
   let newItems = [];
+  let zhihuUsage = null;
   const sourceHealthRecords = [];
   for (const src of SOURCES) {
     console.error(`[fetching] ${src.sourceName}...`);
-    const fetchResult = src.directUrl ? await fetchDirectRSS(src) : await fetchRSS(src);
+    const fetchResult = src.transport === 'zhihu'
+      ? await fetchZhihu(src)
+      : (src.directUrl ? await fetchDirectRSS(src) : await fetchRSS(src));
+    if (src.transport === 'zhihu' && fetchResult.usage) zhihuUsage = fetchResult.usage;
     const items = fetchResult.items;
+    // 每个源可以有自己的时效窗口。监管类与知乎的存量内容天然更新慢，
+    // 套用全局 7 天会把它们几乎全部过滤掉，所以按源的 maxAgeDays 分别判断。
+    const sourceCutoff = Date.now() - (src.maxAgeDays || MAX_AGE_DAYS) * 86400000;
     let added = 0;
     for (const item of items) {
       if (!isSafeHttpUrl(item.sourceUrl) || existing.existingUrls.has(item.sourceUrl)) continue;
@@ -1264,7 +1226,7 @@ async function main() {
       if (titleHash.length >= 6 && existing.titleSet.has(titleHash)) continue;
       // Time integrity: undated items are retained as low-confidence leads, but never receive recency points.
       const publishedTimestamp = item.publishedAt ? new Date(item.publishedAt).getTime() : NaN;
-      if (!Number.isNaN(publishedTimestamp) && publishedTimestamp < cutoff) continue;
+      if (!Number.isNaN(publishedTimestamp) && publishedTimestamp < sourceCutoff) continue;
       if (!isFinanceRelated(item)) continue;
       if (isLowQuality(item)) continue;
       // Set source metadata before source-specific filters
@@ -1273,7 +1235,7 @@ async function main() {
       item.category = src.category;
       item.tags = [CATEGORY_TAGS[src.category]];
       item.evidenceType = src.evidenceType;
-      item.discoveredVia = src.directUrl ? 'Investing.com' : 'RSSHub';
+      item.discoveredVia = src.discoveredVia || (src.directUrl ? 'Investing.com' : 'RSSHub');
       item.id = '';
       enrichItem(item);
       reclassifyCategory(item);
@@ -1287,12 +1249,14 @@ async function main() {
     console.error(`  +${added} new (${items.length - added} skipped as dup/filtered)`);
   }
   // Merge new + existing, then sort before truncating so newer cached items are never lost.
+  // 缓存条目也按各自源的时效窗口判断，否则知乎这类 30 天窗口的源在 7 天后就会被清空。
   const mergedCandidates = [
     ...newItems,
     ...existing.items.map(sanitizeCachedItem).filter(i => {
       if (!i) return false;
       const publishedTimestamp = i.publishedAt ? new Date(i.publishedAt).getTime() : NaN;
-      if (!Number.isNaN(publishedTimestamp) && publishedTimestamp <= cutoff) return false;
+      const cachedCutoff = Date.now() - (sourceForItem(i).maxAgeDays || MAX_AGE_DAYS) * 86400000;
+      if (!Number.isNaN(publishedTimestamp) && publishedTimestamp <= cachedCutoff) return false;
       if (isSourceNoise(i)) return false;
       return true;
     }),
@@ -1308,7 +1272,8 @@ async function main() {
     item.id = stableItemId(item);
     item.scenarioScores = buildScenarioScores(item);
   });
-  const allItems = sortAndLimit(mergedItems, MAX_ITEMS);
+  // 截断到前端上限时给每个来源留底：否则 30 天窗口的知乎会被 7 天窗口的新闻源整体挤出去。
+  const allItems = limitWithSourceReserve(mergedItems, MAX_ITEMS, SOURCE_RESERVE_MIN);
   applyBusinessCuration(allItems, 24);
   const curationStats = businessCurationStats(allItems);
   console.error(`[curation] featured=${curationStats.featured}, insurance=${curationStats.scenes.insurance}, privateFund=${curationStats.scenes.privateFundSales}, education=${curationStats.scenes.marketEducation}`);
@@ -1346,6 +1311,8 @@ async function main() {
     },
     thresholds,
     gateErrors,
+    // 知乎开放平台的调用用量（按北京时间自然日累计）。配额 5000/天，这里留档以便核对。
+    zhihu: zhihuUsage,
     summary: sourceHealthSummary,
     sources: sourceHealthRecords,
     itemCounts: {
@@ -1394,9 +1361,10 @@ async function main() {
   // (`node fetch.js > data.js` truncates the file BEFORE loadExisting() reads it,
   //  which silently disables all incremental dedup logic)
   const lines = [];
-  lines.push(`// finhot auto-generated data - powered by RSSHub + financial sources`);
+  lines.push(`// finhot auto-generated data - powered by RSSHub + financial sources + Zhihu OpenAPI`);
   lines.push(`// Generated: ${now.toISOString()}`);
-  lines.push(`// Practitioner value scoring: relevance(25) + authority(20) + impact(20) + recency(15) + depth(10) + actionability(10)\n`);
+  lines.push(`// Practitioner value scoring: relevance(30) + impact(25) + evidence(20) + recency(15) + actionability(10)`);
+  lines.push(`// Source tier decides the selection gate only (S0 50 / S1 55 / S2 60 / S3 70), not the score.\n`);
   lines.push(`window.CATEGORIES = ${JSON.stringify([
     { slug: 'featured', label: '\u4eca\u65e5\u7cbe\u9009' },
     { slug: 'insurance', label: '\u4fdd\u9669' },

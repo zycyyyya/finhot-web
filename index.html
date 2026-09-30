@@ -292,7 +292,9 @@
     var sourceTier = item.sourceTierLabel || item.sourceTier || '';
     var why = Array.isArray(item.why) ? item.why : [];
     var scoreTitle = item.scoreBreakdown
-      ? '相关性 ' + item.scoreBreakdown.relevance + '/25，权威性 ' + item.scoreBreakdown.authority + '/20，业务影响 ' + item.scoreBreakdown.impact + '/20，时效 ' + item.scoreBreakdown.recency + '/15，深度 ' + item.scoreBreakdown.depth + '/10，可行动性 ' + item.scoreBreakdown.actionability + '/10'
+      ? '相关性 ' + item.scoreBreakdown.relevance + '/30，业务影响 ' + item.scoreBreakdown.impact + '/25，可核验要素 ' + item.scoreBreakdown.evidence + '/20，时效 ' + item.scoreBreakdown.recency + '/15，可行动性 ' + item.scoreBreakdown.actionability + '/10'
+        + (typeof item.tierGate === 'number' ? '；入选门槛 ' + item.tierGate + '（' + (item.sourceTier || '') + '）' : '')
+        + (Array.isArray(item.noiseCaps) && item.noiseCaps.length ? '；命中噪声限制：' + item.noiseCaps.join('、') : '')
       : '';
     var scoreBadge = item.score >= featuredThreshold
       ? '<span class="card-score card-score-featured" title="' + escapeHtml(scoreTitle) + '">' + escapeHtml(item.scoreLabel || '从业价值') + ' ' + item.score + '</span>'

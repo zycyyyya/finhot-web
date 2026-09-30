@@ -55,6 +55,7 @@ const {
   ZHIHU_QUERIES,
   fetchZhihu,
 } = require('./zhihu');
+const { fetchHuibaoxian } = require('./huibaoxian');
 const { resolveLLMConfig } = require('./llm');
 const {
   applyLLMScores,
@@ -1259,6 +1260,41 @@ async function main() {
     sourceHealthRecords.push(fetchResult.health);
     console.error(`  +${added} new (${items.length - added} skipped as dup/filtered)`);
   }
+
+  // === 慧保天下（保险垂直新媒体）===
+  try {
+    console.error('[fetching] 慧保天下...');
+    const hbResult = await fetchHuibaoxian();
+    const hbItems = hbResult.items;
+    const hbCutoff = Date.now() - MAX_AGE_DAYS * 86400000;
+    let hbAdded = 0;
+    for (const item of hbItems) {
+      if (!isSafeHttpUrl(item.link) || existing.existingUrls.has(item.link)) continue;
+      if (containsCorruptedText(item.title) || containsCorruptedText(item.excerpt || '')) continue;
+      const titleHash = normalizeTitle(item.title);
+      if (titleHash.length >= 6 && existing.titleSet.has(titleHash)) continue;
+      const publishedTimestamp = item.publishedAt ? new Date(item.publishedAt).getTime() : NaN;
+      if (!Number.isNaN(publishedTimestamp) && publishedTimestamp < hbCutoff) continue;
+      if (!isFinanceRelated(item)) continue;
+      if (isLowQuality(item)) continue;
+      if (isSourceNoise(item)) continue;
+      item.discoveredVia = item.discoveredVia || '慧保天下官网';
+      item.id = '';
+      enrichItem(item);
+      reclassifyCategory(item);
+      newItems.push(item);
+      existing.existingUrls.add(item.link);
+      existing.titleSet.add(titleHash);
+      hbAdded++;
+    }
+    hbResult.health.addedCount = hbAdded;
+    sourceHealthRecords.push(hbResult.health);
+    console.error(`  +${hbAdded} new (${hbItems.length - hbAdded} skipped as dup/filtered)`);
+  } catch (hbErr) {
+    console.error(`  慧保天下抓取失败: ${hbErr.message}`);
+    sourceHealthRecords.push({ sourceName: '慧保天下', ok: false, error: hbErr.message });
+  }
+
   // Merge new + existing, then sort before truncating so newer cached items are never lost.
   // 缓存条目也按各自源的时效窗口判断，否则知乎这类 30 天窗口的源在 7 天后就会被清空。
   const mergedCandidates = [

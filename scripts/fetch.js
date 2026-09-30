@@ -55,6 +55,17 @@ const {
   ZHIHU_QUERIES,
   fetchZhihu,
 } = require('./zhihu');
+const { resolveLLMConfig } = require('./llm');
+const {
+  applyLLMScores,
+  resolveOptions: resolveLLMSelectOptions,
+  restoreStoredLLMScore,
+  selectWithLLM,
+} = require('./select-llm');
+const {
+  judgeEventPairs,
+  summarizeEvents,
+} = require('./events-llm');
 const {
   defaultDeps: macroDefaultDeps,
   formatMacroContext,
@@ -1272,6 +1283,25 @@ async function main() {
     item.id = stableItemId(item);
     item.scenarioScores = buildScenarioScores(item);
   });
+  // === P1 模型双次独立打分（AIHOT 方法 1）===
+  // full 模式 + 配置了 LLM 才送模型（两次独立采样，都过门槛才进精选，展示平均分）；
+  // cached / 无 key 时恢复条目上已缓存的模型分；任何失败软降级回启发式，不影响发布门。
+  const llmConfig = resolveLLMConfig(process.env);
+  const llmActive = (process.env.FINHOT_ANALYSIS_MODE || 'full') === 'full' && llmConfig.configured;
+  if (llmActive) {
+    try {
+      const opts = resolveLLMSelectOptions();
+      const sel = await selectWithLLM(mergedItems, { ...opts, log: console.error });
+      const applied = applyLLMScores(mergedItems, sel.results, opts.gate);
+      console.error(`[llm-select] 应用模型分 ${applied} 条（双次门槛 ${opts.gate}）`);
+    } catch (error) {
+      console.error(`[llm-select] 失败，回退启发式：${error.message}`);
+    }
+  } else {
+    let restored = 0;
+    mergedItems.forEach(item => { if (restoreStoredLLMScore(item)) restored += 1; });
+    if (restored > 0) console.error(`[llm-select] cached/无 key：恢复 ${restored} 条缓存模型分`);
+  }
   // 截断到前端上限时给每个来源留底：否则 30 天窗口的知乎会被 7 天窗口的新闻源整体挤出去。
   const allItems = limitWithSourceReserve(mergedItems, MAX_ITEMS, SOURCE_RESERVE_MIN);
   applyBusinessCuration(allItems, 24);
@@ -1283,9 +1313,49 @@ async function main() {
   const now = new Date();
   const existingHistory = loadHistory();
   const existingEvents = loadEvents();
+  // === P1 模型 pairwise 事件归组（AIHOT 方法 3）：只判启发式边界对，判定表注入聚类 ===
+  // 判定表是"预计算"的（fetch 侧先批量问模型），clusterEvents 保持同步、无需 async。
+  let pairJudge = null;
+  if (llmActive) {
+    try {
+      const judged = await judgeEventPairs(mergedItems, {
+        apiKey: llmConfig.primary.apiKey,
+        baseUrl: llmConfig.primary.baseUrl,
+        model: llmConfig.primary.model,
+        fallback: llmConfig.fallback,
+        log: console.error,
+      });
+      if (judged.judgeMap.size > 0) pairJudge = judged.judgeMap;
+    } catch (error) {
+      console.error(`[llm-events] 判定失败，回退纯启发式聚类：${error.message}`);
+    }
+  }
   // Use the full valid candidate pool for archival/event matching before the
   // frontend is capped at MAX_ITEMS, otherwise low-ranked valid items vanish.
-  const eventState = reconcileEvents(mergedItems, existingHistory, existingEvents, now);
+  const eventState = reconcileEvents(mergedItems, existingHistory, existingEvents, now, { pairJudge });
+  // === P1 事件综述 + 最新进展挂牌（方法 4 轻量版）：一句话综述 + 以最新报道为准的进展 ===
+  if (llmActive) {
+    try {
+      const activeIds = new Set(mergedItems.map(i => i.id));
+      const activeEvents = eventState.events.filter(e => (e.evidenceItemIds || []).some(id => activeIds.has(id)));
+      const itemById = new Map(mergedItems.map(i => [i.id, i]));
+      const { summaries } = await summarizeEvents(activeEvents, itemById, {
+        apiKey: llmConfig.primary.apiKey,
+        baseUrl: llmConfig.primary.baseUrl,
+        model: llmConfig.primary.model,
+        fallback: llmConfig.fallback,
+        log: console.error,
+      });
+      let attached = 0;
+      for (const event of eventState.events) {
+        const s = summaries.get(event.eventId);
+        if (s) { event.summary = s.summary; event.latestProgress = s.latestProgress; attached += 1; }
+      }
+      if (attached > 0) console.error(`[llm-events] ${attached} 个事件挂了综述/最新进展`);
+    } catch (error) {
+      console.error(`[llm-events] 综述失败，仅影响展示：${error.message}`);
+    }
+  }
   const historyItems = mergeHistory(existingHistory, mergedItems, eventState.itemEventIds, now);
   const activeEventClusters = projectActiveEventClusters(eventState.events, allItems);
   allItems.forEach(item => { item.eventId = eventState.itemEventIds.get(item.id) || null; });
@@ -1325,6 +1395,9 @@ async function main() {
     },
     ai: {
       keyConfigured: Boolean(process.env.DEEPSEEK_API_KEY),
+      llmConfigured: llmConfig.configured,
+      llmActive,
+      llmProvider: llmConfig.configured ? (llmConfig.primary.baseUrl || 'sensenova') : null,
       generatedBy: null,
     },
   };
@@ -1364,7 +1437,8 @@ async function main() {
   lines.push(`// finhot auto-generated data - powered by RSSHub + financial sources + Zhihu OpenAPI`);
   lines.push(`// Generated: ${now.toISOString()}`);
   lines.push(`// Practitioner value scoring: relevance(30) + impact(25) + evidence(20) + recency(15) + actionability(10)`);
-  lines.push(`// Source tier decides the selection gate only (S0 50 / S1 55 / S2 60 / S3 70), not the score.\n`);
+  lines.push(`// Source tier decides the selection gate only (S0 50 / S1 55 / S2 60 / S3 70), not the score.`);
+  lines.push(`// P1 model selection: full mode double-scores via LLM (both passes >= FINHOT_LLM_GATE, default 60; displayed = average); any failure falls back to heuristic.\n`);
   lines.push(`window.CATEGORIES = ${JSON.stringify([
     { slug: 'featured', label: '\u4eca\u65e5\u7cbe\u9009' },
     { slug: 'insurance', label: '\u4fdd\u9669' },

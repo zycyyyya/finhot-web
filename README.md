@@ -4,7 +4,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/version-2.5.0-blue" alt="version"/>
+  <img src="https://img.shields.io/badge/version-2.6.0-blue" alt="version"/>
   <img src="https://img.shields.io/badge/license-MIT-green" alt="license"/>
   <img src="https://img.shields.io/badge/framework-pure_static-lightgrey" alt="static"/>
   <img src="https://img.shields.io/badge/deploy-GitHub_Pages-success" alt="deploy"/>
@@ -55,6 +55,20 @@ finhot-web 是集自动采集、AI 分析、数据质量控制与静态页面展
 
 配置方法：在仓库 Settings → Secrets 添加 `ZHIHU_API_TOKEN`（开放平台 Access Secret）。**未配置时该数据源自动跳过，不影响发布门**，其余来源照常运行。
 
+## LLM 评分层（可选增强）
+
+在启发式评分之上，可启用 **LLM 双次独立打分** 作为增强层。默认关闭，配置 `DEEPSEEK_API_KEY` / `LONGCAT_API_KEY` / `SENSENOVA_API_KEY` 任一即开启。
+
+- **预筛控成本**：启发式分 ≥ 45 才送模型，每轮上限 15 条
+- **双次独立采样**：同一提示词两次调用（`temperature: 0.8`），两次都 ≥ `FINHOT_LLM_GATE`（默认 50）才入选；最终 `item.score = 平均分`，并保留两次原始分 `llmScores`
+- **金融口径提示词**：`prompts/selection-score.md`，7 种金融条目类型 × 5 轴权重，强调可核验要素、口径纪律与噪声识别
+- **软降级**：LLM 任何失败（超时、格式异常、余额不足）都回退启发式分，**不影响发布门**
+- **多提供方**：`scripts/llm.js` 统一封装，支持 LongCat / SenseNova / DeepSeek，带 429 重试与 JSON 解析兜底
+
+### 校准与门槛
+
+`data/gold.jsonl` 含 31 条手工标注（分层抽样：精选 / 高分未精选 / 中档 / 噪声 / 知乎）。运行 `node scripts/eval-selection.js --llm` 可扫描门槛 40–90 输出 F1 报告。LongCat 实测 F1 75.0%（启发式 73.3%），查准率 90%。
+
 ## 从业价值评分
 
 总分 100，五轴全部只看内容，**来源等级不进分数**：
@@ -102,6 +116,10 @@ finhot-web 是集自动采集、AI 分析、数据质量控制与静态页面展
 - **不参与归组**：日频行情播报（"截至收盘…"）与时间性盘点本身就是逐日刷新的模板，不是事件。
 
 > 修复说明：v2.4.0 及更早版本用 `交集 / min(|A|,|B|)`（包含度）当相似度，短标题被长标题包含就会接近 1.0；又用「共同主题词 ≥ 2 就强制 0.60」提权，而同一栏目的任意两篇稿子几乎必然共享"保险/监管"这类粗主题；再叠加没有时间窗，实测出现 6 个事件顶到证据上限并横跨两个月（如"以色列股市上涨"累计 50 条）。现版本在同一语料上巨型聚类由 14 个降为 0 个，最大规模由 32 条降为 5 条。
+
+**模型 pairwise 判定（可选）**：启发式预筛后，对模糊候选对调用 LLM 做 pairwise 判定，输出 `SAME_OCCURRENCE` / `SAME_STORY` / `UNRELATED` / `ROUNDUP`。判定结果注入 `judgedSimilarity` 表供后续归组参考，每日设调用上限防成本失控。开启方式与评分层相同（任一 LLM API Key 即可）。
+
+**事件综述与最新进展（full 模式）**：`full` 运行时为每个事件生成一句话综述，并挂牌最新进展（日期 + 一句话）。写入 `events.json`，前端事件链直接展示。
 
 **旧事件一次性淘汰**：换算法不够——`events.json` 保留 120 天，旧版本产生的巨型事件会被 `retainedEvents` 原样续命（实测仍有 45 个 ≥10 条证据的事件留在文件里，其中 6 个还挂在首页事件链上）。因此事件对象带上 `clusterVersion`；版本号不匹配的历史事件直接不续命。当前事件每轮都是重新聚类得出的，历史事件只负责沿用 `eventId` 与 `firstSeenAt`，丢弃它们只损失事件连续性，不会丢失任何当期事件。
 
@@ -162,7 +180,7 @@ finhot-web 是集自动采集、AI 分析、数据质量控制与静态页面展
 - 发布时间可信化（无时间不冒充当日；知乎编辑时间单独标注，不当作发布时间）
 - 每条资讯记录命中的噪声限制与入选门槛，可逐条复核评分依据
 - AI 内容经结构/枚举/长度/证据 ID 四重校验
-- 本地自检：`npm run check`（13 个脚本语法检查 + 10 个测试文件，全部使用本地替身、不访问外部服务）
+- 本地自检：`npm run check`（17 个脚本语法检查 + 14 个测试文件，全部使用本地替身、不访问外部服务）
 
 ## 合规声明
 

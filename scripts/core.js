@@ -33,6 +33,15 @@ function normalizeTitle(value) {
     .join('');
 }
 
+/**
+ * 无序对键：用于"预计算的模型 pairwise 判定表"（events-llm.js → clusterEvents）。
+ * 与顺序无关，与 eventSimilarity 使用同一套 normalizeTitle，保证判定表能命中。
+ */
+function eventPairKey(titleA, titleB) {
+  const parts = [normalizeTitle(titleA || ''), normalizeTitle(titleB || '')].sort();
+  return `${parts[0]}||${parts[1]}`;
+}
+
 function titleBigrams(value) {
   const normalized = normalizeTitle(value);
   const counts = new Map();
@@ -461,6 +470,7 @@ module.exports = {
   containsCorruptedText,
   deduplicateSimilarTitles,
   eventDateBucket,
+  eventPairKey,
   eventSimilarity,
   hoursBetween,
   isMarketTickTitle,

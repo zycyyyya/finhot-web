@@ -2,6 +2,7 @@
 
 const crypto = require('crypto');
 const {
+  eventPairKey,
   eventSimilarity,
   isNonEventTitle,
   normalizeTitle,
@@ -285,6 +286,21 @@ function preferredMain(a, b) {
 //  2) 没有时间窗，且对日频行情播报（"截至收盘…"）和多事件盘点（"晚间公告…"）照常聚类，
 //     于是整个月的行情快讯被并成同一个事件（实测曾有 6 个事件顶到证据上限并横跨两个月）。
 // 现在：非事件类标题直接不参与；成员必须落在同一时间窗内；相似度用 Jaccard + 严格主体锚点。
+/**
+ * P1：模型 pairwise 判定表（可选）。settings.pairJudge 是 Map<pairKey, decision>，
+ * 由 events-llm.js 预计算（SAME_OCCURRENCE / SAME_STORY / UNRELATED / ROUNDUP）。
+ * 命中判定表的对子用模型结论替换启发式相似度；未命中的对子维持启发式。
+ * 这样聚类本身保持同步，LLM 调用全部发生在 fetch.js 侧。
+ */
+function judgedSimilarity(pairJudge, titleA, titleB) {
+  if (!pairJudge || typeof pairJudge.get !== 'function') return null;
+  const decision = pairJudge.get(eventPairKey(titleA, titleB));
+  if (decision === 'SAME_OCCURRENCE') return 0.9;
+  if (decision === 'SAME_STORY') return 0.75;
+  if (decision === 'UNRELATED' || decision === 'ROUNDUP') return 0.05;
+  return null;
+}
+
 function clusterEvents(items, options) {
   const settings = options || {};
   const maxClusters = Number.isInteger(settings.maxClusters) && settings.maxClusters > 0 ? settings.maxClusters : 10;
@@ -304,7 +320,9 @@ function clusterEvents(items, options) {
       if (!withinEventWindow(seed.publishedAt, candidate.publishedAt)) continue;
       const sameCategory = seed.category === candidate.category;
       const threshold = sameCategory ? EVENT_SAME_CATEGORY_THRESHOLD : EVENT_CROSS_CATEGORY_THRESHOLD;
-      if (eventSimilarity(seed.title, candidate.title) >= threshold) {
+      const judged = judgedSimilarity(settings.pairJudge, seed.title, candidate.title);
+      const similarity = judged !== null ? judged : eventSimilarity(seed.title, candidate.title);
+      if (similarity >= threshold) {
         visited.add(next);
         members.push(candidate);
       }

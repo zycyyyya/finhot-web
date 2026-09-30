@@ -142,11 +142,14 @@ function projectActiveEventClusters(events, activeItems) {
         firstSeenAt: event.firstSeenAt,
         lastSeenAt: event.lastSeenAt,
         status: event.status,
+        summary: event.summary || '',
+        latestProgress: event.latestProgress || '',
       };
     });
 }
 
-function reconcileEvents(activeItems, historyItems, existingEvents, now) {
+function reconcileEvents(activeItems, historyItems, existingEvents, now, options) {
+  const settings = options || {};
   const nowDate = now instanceof Date ? now : new Date(now || Date.now());
   const nowIso = nowDate.toISOString();
   const eventCutoff = nowDate.getTime() - EVENT_RETENTION_DAYS * 86400000;
@@ -164,7 +167,7 @@ function reconcileEvents(activeItems, historyItems, existingEvents, now) {
     // 旧版本算法产生的事件一律不续命，见 EVENT_CLUSTER_VERSION 说明。
     return event.clusterVersion === EVENT_CLUSTER_VERSION;
   });
-  const clusters = clusterEvents([...combinedMap.values()], { maxClusters: MAX_EVENTS });
+  const clusters = clusterEvents([...combinedMap.values()], { maxClusters: MAX_EVENTS, pairJudge: settings.pairJudge });
   const activeClusters = clusters.filter(cluster => cluster.evidenceItemIds.some(id => activeIds.has(id)));
   const itemEventIds = new Map();
   const updatedById = new Map(retainedEvents.map(event => [event.eventId, { ...event }]));
@@ -203,6 +206,9 @@ function reconcileEvents(activeItems, historyItems, existingEvents, now) {
       primaryItemId: cluster.mainItemId,
       evidenceItemIds,
       status: 'developing',
+      // P1：综述/最新进展由 events-llm 在 full 模式生成；跨运行沿用旧值，避免 cached 模式丢牌。
+      summary: (previous && previous.summary) || '',
+      latestProgress: (previous && previous.latestProgress) || '',
     };
     updatedById.set(eventId, event);
     cluster.evidenceItemIds.forEach(id => itemEventIds.set(id, eventId));

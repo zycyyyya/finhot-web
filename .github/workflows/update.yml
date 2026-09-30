@@ -43,6 +43,12 @@ jobs:
         id: fetch
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          # 知乎开放平台 Access Secret。未配置时该数据源自动跳过，不影响发布门。
+          ZHIHU_API_TOKEN: ${{ secrets.ZHIHU_API_TOKEN }}
+          # 单次运行的查询上限与每日累计上限。配额 5000/天，这里只用很小一部分：
+          # 40 次/运行 × 4 次/天 = 160 次/天，留足余量应对手动重跑。
+          FINHOT_ZHIHU_MAX_QUERIES: "40"
+          FINHOT_ZHIHU_DAILY_BUDGET: "800"
           FINHOT_TRIGGER_EVENT: ${{ github.event_name }}
           FINHOT_SCHEDULE: ${{ github.event.schedule || '' }}
           FINHOT_RUN_ID: ${{ github.run_id }}
@@ -152,12 +158,14 @@ jobs:
       - name: Commit updated data when changed
         if: success()
         run: |
-          if git diff --quiet -- data.js data/history.json data/events.json data/alert-state.json data/macro.json; then
+          # data/zhihu-usage.json 记录知乎开放平台的当日调用次数。提交它可以让
+          # 一天内的 4 次运行共享同一份配额账本，避免手动重跑打穿 5000 次/天的上限。
+          if git diff --quiet -- data.js data/history.json data/events.json data/alert-state.json data/macro.json data/zhihu-usage.json; then
             echo "No data changes"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data.js data/history.json data/events.json data/alert-state.json data/macro.json
+          git add data.js data/history.json data/events.json data/alert-state.json data/macro.json data/zhihu-usage.json
           git commit -m "chore: update finhot data"
           git push

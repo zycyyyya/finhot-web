@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-09-30T13:40:58.103Z",
+  "generatedAt": "2026-09-30T15:04:45.414Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -9,24 +9,27 @@
       "clusterVersion": 2,
       "title": "宁德时代：拟推2026年A股第二期员工持股计划，受让价158.42元/股",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-09-30T13:40:58.103Z",
-      "latestItemPublishedAt": "2026-09-30T12:14:02.000Z",
+      "lastSeenAt": "2026-09-30T15:04:45.414Z",
+      "latestItemPublishedAt": "2026-09-30T14:12:44.000Z",
       "primaryItemId": "news_de9aae9a8f2f",
       "evidenceItemIds": [
         "news_943234fa21c3",
         "news_de9aae9a8f2f",
         "news_5caa3e77b01f",
         "news_06fa44416513",
-        "news_521c4cce405f"
+        "news_521c4cce405f",
+        "news_88a9dd182dd9"
       ],
-      "status": "developing"
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
     },
     {
       "eventId": "event_f101880ef7bc",
       "clusterVersion": 2,
       "title": "睡着觉也能炒股？“美股散户大本营”Robinhood开放AI智能体，可24小时自动盯盘交易",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-09-30T13:40:58.103Z",
+      "lastSeenAt": "2026-09-30T15:04:45.414Z",
       "latestItemPublishedAt": "2026-09-30T11:26:06.000Z",
       "primaryItemId": "news_19e0345bcec3",
       "evidenceItemIds": [
@@ -36,66 +39,132 @@
         "news_b84e7f290616",
         "news_093b378ea5bc"
       ],
-      "status": "developing"
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
     },
     {
       "eventId": "event_c8d6bf3ad169",
       "clusterVersion": 2,
       "title": "斥资最高12亿元！900亿算力租赁概念股控股股东及一致行动人拟增持公司股份|盘后公告集锦",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-09-30T13:40:58.103Z",
+      "lastSeenAt": "2026-09-30T15:04:45.414Z",
       "latestItemPublishedAt": "2026-09-30T12:33:37.000Z",
       "primaryItemId": "news_e8808ecec417",
       "evidenceItemIds": [
         "news_e8808ecec417",
         "news_4c5e6c1a3eed"
       ],
-      "status": "developing"
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
     },
     {
       "eventId": "event_270c3bff1a30",
       "clusterVersion": 2,
-      "title": "美三大股指再跌！美债收益率持续走高，美联储官员称年内或再加息一次，国际油价回落",
+      "title": "10月加息警报解除？美联储关键通胀指标低于预期，美股黄金集体上扬",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-09-30T13:40:58.103Z",
-      "latestItemPublishedAt": "2026-09-30T02:13:42.000Z",
-      "primaryItemId": "news_2549395149df",
+      "lastSeenAt": "2026-09-30T15:04:45.414Z",
+      "latestItemPublishedAt": "2026-09-30T14:28:21.000Z",
+      "primaryItemId": "news_fd1fe14aa776",
       "evidenceItemIds": [
         "news_2549395149df",
         "news_68f1747fcdec",
         "news_f8feea85c7ee",
         "news_809523003a21",
-        "news_0fa4686d20af"
+        "news_0fa4686d20af",
+        "news_fd1fe14aa776"
       ],
-      "status": "developing"
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
     },
     {
       "eventId": "event_cba1a5ffd9bc",
       "clusterVersion": 2,
       "title": "美国实际利率飙升、中国长假到来、关键支撑位还被跌破，黄金面临“严峻压力”",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-09-30T13:40:58.103Z",
+      "lastSeenAt": "2026-09-30T15:04:45.414Z",
       "latestItemPublishedAt": "2026-09-30T11:35:10.000Z",
       "primaryItemId": "news_2e94c3711894",
       "evidenceItemIds": [
         "news_2e94c3711894",
         "news_80c8c35c9cb0"
       ],
-      "status": "developing"
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
     },
     {
       "eventId": "event_6983dcda38f4",
       "clusterVersion": 2,
       "title": "谁在接盘美国国债？对冲基金扛起7%份额，但高杠杆是定时炸弹",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-09-30T13:40:58.103Z",
+      "lastSeenAt": "2026-09-30T15:04:45.414Z",
       "latestItemPublishedAt": "2026-09-30T11:18:19.000Z",
       "primaryItemId": "news_9707e9a81974",
       "evidenceItemIds": [
         "news_9707e9a81974",
         "news_7446665c7069"
       ],
-      "status": "developing"
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_2cf716748ce1",
+      "clusterVersion": 2,
+      "title": "中国央行：10月8日将开展12000亿元买断式逆回购操作",
+      "firstSeenAt": "2026-09-30T13:30:13.189Z",
+      "lastSeenAt": "2026-09-30T15:04:45.414Z",
+      "latestItemPublishedAt": "2026-09-30T09:55:25.000Z",
+      "primaryItemId": "news_5de8a00d999f",
+      "evidenceItemIds": [
+        "news_5de8a00d999f",
+        "news_90f768d7e736",
+        "news_bdce82dbe6c8",
+        "news_9a0bf58b7497",
+        "news_79a109a7b441"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_9d0ff617ba6e",
+      "clusterVersion": 2,
+      "title": "美国8月PCE低于预期 市场削减加息押注 美股期指上涨 | 今夜看点",
+      "firstSeenAt": "2026-09-30T13:40:58.103Z",
+      "lastSeenAt": "2026-09-30T15:04:45.414Z",
+      "latestItemPublishedAt": "2026-09-30T14:24:10.000Z",
+      "primaryItemId": "news_d201010aedbe",
+      "evidenceItemIds": [
+        "news_d201010aedbe",
+        "news_c42b397270b0",
+        "news_691ae698b0ac"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_c68d651d4ff9",
+      "clusterVersion": 2,
+      "title": "专利侵权索赔一审遭驳回！“3D视觉第一股”奥比中光冲刺港股，实控人及高管套现近8亿",
+      "firstSeenAt": "2026-09-30T15:04:45.414Z",
+      "lastSeenAt": "2026-09-30T15:04:45.414Z",
+      "latestItemPublishedAt": "2026-09-30T13:40:07.000Z",
+      "primaryItemId": "news_2b090183c8dd",
+      "evidenceItemIds": [
+        "news_2b090183c8dd",
+        "news_7c802606a071",
+        "news_1e86edf3aa02",
+        "news_d59f7b7114ad",
+        "news_c195db5fb6c8"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
     },
     {
       "eventId": "event_7a6d2af4562f",
@@ -123,37 +192,6 @@
       "evidenceItemIds": [
         "news_f71f9c0ca914",
         "news_7bf6318013b8"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_2cf716748ce1",
-      "clusterVersion": 2,
-      "title": "中国央行：10月8日将开展12000亿元买断式逆回购操作",
-      "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-09-30T13:40:58.103Z",
-      "latestItemPublishedAt": "2026-09-30T09:55:25.000Z",
-      "primaryItemId": "news_5de8a00d999f",
-      "evidenceItemIds": [
-        "news_5de8a00d999f",
-        "news_90f768d7e736",
-        "news_bdce82dbe6c8",
-        "news_9a0bf58b7497",
-        "news_79a109a7b441"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_9d0ff617ba6e",
-      "clusterVersion": 2,
-      "title": "美国8月PCE低于预期 市场削减加息押注 美股期指上涨 | 今夜看点",
-      "firstSeenAt": "2026-09-30T13:40:58.103Z",
-      "lastSeenAt": "2026-09-30T13:40:58.103Z",
-      "latestItemPublishedAt": "2026-09-30T13:30:56.000Z",
-      "primaryItemId": "news_d201010aedbe",
-      "evidenceItemIds": [
-        "news_d201010aedbe",
-        "news_c42b397270b0"
       ],
       "status": "developing"
     },

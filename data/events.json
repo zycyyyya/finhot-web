@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-09-29T18:14:08.502Z",
+  "generatedAt": "2026-09-30T05:43:19.971Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -8,7 +8,7 @@
       "eventId": "event_a678dcb442aa",
       "title": "以色列股市上涨；截至收盘特拉维夫TA35指数上涨0.02%",
       "firstSeenAt": "2026-09-01T16:50:22.105Z",
-      "lastSeenAt": "2026-09-29T18:14:08.502Z",
+      "lastSeenAt": "2026-09-30T05:43:19.971Z",
       "primaryItemId": "news_bd13c52fa612",
       "evidenceItemIds": [
         "news_f0c7fe40fe6a",
@@ -68,7 +68,7 @@
       "eventId": "event_202dd878fa19",
       "title": "晚间公告｜9月29日这些公告有看头",
       "firstSeenAt": "2026-07-31T14:43:32.623Z",
-      "lastSeenAt": "2026-09-29T18:14:08.502Z",
+      "lastSeenAt": "2026-09-30T05:43:19.971Z",
       "primaryItemId": "news_1abc08c293bc",
       "evidenceItemIds": [
         "news_8b256f193830",
@@ -128,10 +128,9 @@
       "eventId": "event_32967e3730b8",
       "title": "美股大型科技股盘前涨跌不一，Meta涨超1%",
       "firstSeenAt": "2026-08-03T15:23:32.854Z",
-      "lastSeenAt": "2026-09-29T18:14:08.502Z",
+      "lastSeenAt": "2026-09-30T05:43:19.971Z",
       "primaryItemId": "news_b39b5e6b4e40",
       "evidenceItemIds": [
-        "news_13a404d5aebb",
         "news_2801be608ab2",
         "news_b497a6eb590d",
         "news_0c203dd7e5f6",
@@ -180,7 +179,8 @@
         "news_247994bd83d8",
         "news_564fde48e9d5",
         "news_12aef86de4e9",
-        "news_b39b5e6b4e40"
+        "news_b39b5e6b4e40",
+        "news_943234fa21c3"
       ],
       "status": "developing"
     },
@@ -188,7 +188,7 @@
       "eventId": "event_b8137c9734e7",
       "title": "国家统计局：2026年1—8月全国规模以上工业企业利润同比增长15.7% 利润延续较快增长",
       "firstSeenAt": "2026-08-27T09:56:46.110Z",
-      "lastSeenAt": "2026-09-29T18:14:08.502Z",
+      "lastSeenAt": "2026-09-30T05:43:19.971Z",
       "primaryItemId": "news_32a44aaa899a",
       "evidenceItemIds": [
         "news_03dd738e8494",
@@ -203,7 +203,7 @@
       "eventId": "event_dc7ea009afde",
       "title": "极兔速递-W(01519)9月29日斥资2746.2万港元回购319.1万股",
       "firstSeenAt": "2026-09-25T13:57:45.825Z",
-      "lastSeenAt": "2026-09-29T18:14:08.502Z",
+      "lastSeenAt": "2026-09-30T05:43:19.971Z",
       "primaryItemId": "news_37434ac30b8b",
       "evidenceItemIds": [
         "news_4cb99b45bca5",
@@ -220,7 +220,7 @@
       "eventId": "event_73f4b1fb41a8",
       "title": "龙虎榜丨机构今日买入这18股，卖出电科思仪9718万元",
       "firstSeenAt": "2026-08-03T11:50:30.990Z",
-      "lastSeenAt": "2026-09-29T18:14:08.502Z",
+      "lastSeenAt": "2026-09-30T05:43:19.971Z",
       "primaryItemId": "news_9f04f0f55e65",
       "evidenceItemIds": [
         "news_de7d0ba05e16",
@@ -264,6 +264,271 @@
         "news_705d9a58a1b5",
         "news_97c34aca7bb6",
         "news_9f04f0f55e65"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_de7b4d83f41f",
+      "title": "Muse需求传导至CPU，CPU交货期拉长至25-30周",
+      "firstSeenAt": "2026-09-29T10:43:22.355Z",
+      "lastSeenAt": "2026-09-30T05:43:19.971Z",
+      "primaryItemId": "news_f102a960f2a4",
+      "evidenceItemIds": [
+        "news_f102a960f2a4",
+        "news_817f47e9d69b"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_e989d1a1fa13",
+      "title": "OpenAI将重新开放200美元套餐，但Tibo被骂惨了",
+      "firstSeenAt": "2026-09-29T10:43:22.355Z",
+      "lastSeenAt": "2026-09-30T05:43:19.971Z",
+      "primaryItemId": "news_9c87500bbe5a",
+      "evidenceItemIds": [
+        "news_296f47322e58",
+        "news_9c87500bbe5a"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_9e4e117a5472",
+      "title": "T早报｜OpenAI推出个人智能体Dots及新模型GPT‑6.1 Sol；SHEIN公布上市后首份财报；美国芯片公司AM",
+      "firstSeenAt": "2026-09-29T10:43:22.355Z",
+      "lastSeenAt": "2026-09-30T05:43:19.971Z",
+      "primaryItemId": "news_d5bf5af6e174",
+      "evidenceItemIds": [
+        "news_561d2aa2a88a",
+        "news_9c5fe9060db5",
+        "news_d5bf5af6e174",
+        "news_d0b288616918"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_274777a299d4",
+      "title": "Meta小企业版Muse来了！",
+      "firstSeenAt": "2026-07-31T14:43:32.623Z",
+      "lastSeenAt": "2026-09-30T05:43:19.971Z",
+      "primaryItemId": "news_45ec9a73614b",
+      "evidenceItemIds": [
+        "news_a4ff46a1602a",
+        "news_112d02c83ae9",
+        "news_c86d8e270915",
+        "news_cbed6a25d17b",
+        "news_ef1d7bb91b00",
+        "news_6ecb0a36e017",
+        "news_ec0522071c78",
+        "news_7fe66b32d6ba",
+        "news_b6672212b6a7",
+        "news_e903c3caf5fe",
+        "news_5c0b12fb8dcd",
+        "news_45ec9a73614b",
+        "news_6f400e5fa707",
+        "news_b8cc5c9b7c5b"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_ccf757e55c7a",
+      "title": "个人房贷贴息政策10月1日起实施 哪些首套房可享1个百分点贴息？",
+      "firstSeenAt": "2026-09-29T14:59:52.553Z",
+      "lastSeenAt": "2026-09-30T05:43:19.971Z",
+      "primaryItemId": "news_56ed819a9745",
+      "evidenceItemIds": [
+        "news_56ed819a9745",
+        "news_f65d1f605264"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_dcba80a7b1ce",
+      "title": "“推出一批务实管用的增量政策”！如何落地见效？",
+      "firstSeenAt": "2026-09-29T14:59:52.553Z",
+      "lastSeenAt": "2026-09-30T05:43:19.971Z",
+      "primaryItemId": "news_387ef59f4e8e",
+      "evidenceItemIds": [
+        "news_387ef59f4e8e",
+        "news_887592a2f87b"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_bebf6347f794",
+      "title": "5180亿美元惊天账单，Anthropic为何敢把未来先花掉？",
+      "firstSeenAt": "2026-09-27T05:27:32.826Z",
+      "lastSeenAt": "2026-09-30T05:43:19.971Z",
+      "primaryItemId": "news_27c0411e0859",
+      "evidenceItemIds": [
+        "news_9ea52c07f957",
+        "news_6a586412d695",
+        "news_27c0411e0859",
+        "news_96923e27e0af"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_7687251fbe8d",
+      "title": "美国30年期国债收益率升至5.59%，创2004年以来新高。",
+      "firstSeenAt": "2026-09-23T17:14:36.029Z",
+      "lastSeenAt": "2026-09-30T05:43:19.971Z",
+      "primaryItemId": "news_64bea1237589",
+      "evidenceItemIds": [
+        "news_a097cf3b7966",
+        "news_de13c70763c7",
+        "news_3424dc106ce5",
+        "news_4fb63826683c",
+        "news_64bea1237589",
+        "news_4c7425dd55e5"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_a4fee602bb16",
+      "title": "OpenAI考虑按1.4万亿美元估值融资300亿美元",
+      "firstSeenAt": "2026-09-29T18:14:08.502Z",
+      "lastSeenAt": "2026-09-30T05:43:19.971Z",
+      "primaryItemId": "news_824d9a29ecfa",
+      "evidenceItemIds": [
+        "news_824d9a29ecfa",
+        "news_054d066dc47e",
+        "news_bc27587fa83e"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_177d454276e7",
+      "title": "报道：OpenAI年化经常性收入逼近700亿美元，甲骨文股价一度涨超8%",
+      "firstSeenAt": "2026-09-29T18:14:08.502Z",
+      "lastSeenAt": "2026-09-30T05:43:19.971Z",
+      "primaryItemId": "news_30ecd2ec49eb",
+      "evidenceItemIds": [
+        "news_30ecd2ec49eb",
+        "news_11f81ac75de2",
+        "news_02cc8c8ef22e"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_116d0288b244",
+      "title": "中央财政史上首次！“房贷贴息”节前落地：首套、120平方米以下、150万元以内可享",
+      "firstSeenAt": "2026-09-29T18:14:08.502Z",
+      "lastSeenAt": "2026-09-30T05:43:19.971Z",
+      "primaryItemId": "news_0eca7c5bbb2a",
+      "evidenceItemIds": [
+        "news_0eca7c5bbb2a",
+        "news_0188700a0f38"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_74158378db4b",
+      "title": "今日开盘：两市双双高开 沪指涨幅0.23%",
+      "firstSeenAt": "2026-08-06T03:43:23.319Z",
+      "lastSeenAt": "2026-09-30T05:43:19.971Z",
+      "primaryItemId": "news_630bb323abce",
+      "evidenceItemIds": [
+        "news_5c70752541f1",
+        "news_4e57f6baed6e",
+        "news_e9e2a1fc2551",
+        "news_a1671de823c1",
+        "news_7df695aa3d10",
+        "news_fd96e76babcb",
+        "news_002a5afcff3b",
+        "news_da9ad91cb33a",
+        "news_df51b1764e08",
+        "news_4a76c392df1e",
+        "news_075795deda4d",
+        "news_011398fcfd6a",
+        "news_25184331b792",
+        "news_0fe085269763",
+        "news_68ce3df603b7",
+        "news_b0801c3a3549",
+        "news_630bb323abce"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_352a3cbffeba",
+      "title": "中国9月RatingDog制造业PMI 52.1，前值 51.5。中国9月RatingDog服务业PMI 51.6，前值",
+      "firstSeenAt": "2026-08-03T03:58:04.220Z",
+      "lastSeenAt": "2026-09-30T05:43:19.971Z",
+      "primaryItemId": "news_b034ef72a059",
+      "evidenceItemIds": [
+        "news_5791a7720090",
+        "news_c65f8400aac2",
+        "news_897882d09fb7",
+        "news_2f3c10768953",
+        "news_6269ae20cc24",
+        "news_5125b82ab54f",
+        "news_b034ef72a059",
+        "news_7c8aeef90a23"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_e19822419452",
+      "title": "国家统计局：9月份采购经理指数升至扩张区间",
+      "firstSeenAt": "2026-07-31T02:27:13.623Z",
+      "lastSeenAt": "2026-09-30T05:43:19.971Z",
+      "primaryItemId": "news_25a8d72deeae",
+      "evidenceItemIds": [
+        "news_1e1eb7294fe1",
+        "news_52fa5fbcca93",
+        "news_4b628ba757ac",
+        "news_cfea1d75eb52",
+        "news_25a8d72deeae",
+        "news_5f8f87c5c400",
+        "news_7929c7967a05"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_b43acd356d7f",
+      "title": "倒查25年、数额特别巨大 山东检方对易会满涉嫌受贿案提起公诉",
+      "firstSeenAt": "2026-09-30T05:43:19.971Z",
+      "lastSeenAt": "2026-09-30T05:43:19.971Z",
+      "primaryItemId": "news_138060f418a2",
+      "evidenceItemIds": [
+        "news_138060f418a2",
+        "news_b4942e8f29df"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_c31250279717",
+      "title": "能源内参｜宁德时代匈牙利工厂投产 为中企海外最大电池生产基地；广汽拟接手一汽丰田全部中方股权 交易对价待定",
+      "firstSeenAt": "2026-09-30T05:43:19.971Z",
+      "lastSeenAt": "2026-09-30T05:43:19.971Z",
+      "primaryItemId": "news_079b1d2bbd41",
+      "evidenceItemIds": [
+        "news_079b1d2bbd41",
+        "news_978e4ed98de4",
+        "news_ee2489a131f3"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_4ea40dbfbc07",
+      "title": "大行明确！房贷贴息免申即享",
+      "firstSeenAt": "2026-09-30T05:43:19.971Z",
+      "lastSeenAt": "2026-09-30T05:43:19.971Z",
+      "primaryItemId": "news_89e185373862",
+      "evidenceItemIds": [
+        "news_89e185373862",
+        "news_412351105388"
+      ],
+      "status": "developing"
+    },
+    {
+      "eventId": "event_daafc64d6d4f",
+      "title": "首套房贷财政贴息政策落地，将刺激三四级家电市场需求释放",
+      "firstSeenAt": "2026-09-30T05:43:19.971Z",
+      "lastSeenAt": "2026-09-30T05:43:19.971Z",
+      "primaryItemId": "news_31a49b178362",
+      "evidenceItemIds": [
+        "news_31a49b178362",
+        "news_313cc65123bf"
       ],
       "status": "developing"
     },
@@ -361,42 +626,6 @@
       "status": "developing"
     },
     {
-      "eventId": "event_de7b4d83f41f",
-      "title": "Muse需求传导至CPU，CPU交货期拉长至25-30周",
-      "firstSeenAt": "2026-09-29T10:43:22.355Z",
-      "lastSeenAt": "2026-09-29T18:14:08.502Z",
-      "primaryItemId": "news_f102a960f2a4",
-      "evidenceItemIds": [
-        "news_f102a960f2a4",
-        "news_817f47e9d69b"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_e989d1a1fa13",
-      "title": "OpenAI Codex产品负责人：明天将重新向新用户开放月费200美元的Pro订阅。 但同时也将调整该订阅的用量计算方",
-      "firstSeenAt": "2026-09-29T10:43:22.355Z",
-      "lastSeenAt": "2026-09-29T18:14:08.502Z",
-      "primaryItemId": "news_296f47322e58",
-      "evidenceItemIds": [
-        "news_296f47322e58",
-        "news_9c87500bbe5a"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_9e4e117a5472",
-      "title": "AMD 的 82 亿美元赌注：为何要收购李飞飞的物理世界模型？市场为何无动于衷？",
-      "firstSeenAt": "2026-09-29T10:43:22.355Z",
-      "lastSeenAt": "2026-09-29T18:14:08.502Z",
-      "primaryItemId": "news_9c5fe9060db5",
-      "evidenceItemIds": [
-        "news_561d2aa2a88a",
-        "news_9c5fe9060db5"
-      ],
-      "status": "developing"
-    },
-    {
       "eventId": "event_221d023b1061",
       "title": "英伟达接触保险公司，为AI芯片融资分担风险",
       "firstSeenAt": "2026-09-29T10:43:22.355Z",
@@ -405,121 +634,6 @@
       "evidenceItemIds": [
         "news_0e7a330f63a5",
         "news_22a46ba454b0"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_274777a299d4",
-      "title": "Meta小企业版Muse来了！",
-      "firstSeenAt": "2026-07-31T14:43:32.623Z",
-      "lastSeenAt": "2026-09-29T18:14:08.502Z",
-      "primaryItemId": "news_45ec9a73614b",
-      "evidenceItemIds": [
-        "news_a4ff46a1602a",
-        "news_112d02c83ae9",
-        "news_c86d8e270915",
-        "news_cbed6a25d17b",
-        "news_ef1d7bb91b00",
-        "news_6ecb0a36e017",
-        "news_ec0522071c78",
-        "news_7fe66b32d6ba",
-        "news_b6672212b6a7",
-        "news_e903c3caf5fe",
-        "news_5c0b12fb8dcd",
-        "news_45ec9a73614b",
-        "news_6f400e5fa707",
-        "news_b8cc5c9b7c5b"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_ccf757e55c7a",
-      "title": "个人房贷贴息政策10月1日起实施 哪些首套房可享1个百分点贴息？",
-      "firstSeenAt": "2026-09-29T14:59:52.553Z",
-      "lastSeenAt": "2026-09-29T18:14:08.502Z",
-      "primaryItemId": "news_56ed819a9745",
-      "evidenceItemIds": [
-        "news_56ed819a9745",
-        "news_f65d1f605264"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_dcba80a7b1ce",
-      "title": "“推出一批务实管用的增量政策”！如何落地见效？",
-      "firstSeenAt": "2026-09-29T14:59:52.553Z",
-      "lastSeenAt": "2026-09-29T18:14:08.502Z",
-      "primaryItemId": "news_387ef59f4e8e",
-      "evidenceItemIds": [
-        "news_387ef59f4e8e",
-        "news_887592a2f87b"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_bebf6347f794",
-      "title": "5180亿美元惊天账单，Anthropic为何敢把未来先花掉？",
-      "firstSeenAt": "2026-09-27T05:27:32.826Z",
-      "lastSeenAt": "2026-09-29T18:14:08.502Z",
-      "primaryItemId": "news_27c0411e0859",
-      "evidenceItemIds": [
-        "news_9ea52c07f957",
-        "news_6a586412d695",
-        "news_27c0411e0859",
-        "news_96923e27e0af"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_7687251fbe8d",
-      "title": "美国30年期国债收益率升至5.59%，创2004年以来新高。",
-      "firstSeenAt": "2026-09-23T17:14:36.029Z",
-      "lastSeenAt": "2026-09-29T18:14:08.502Z",
-      "primaryItemId": "news_64bea1237589",
-      "evidenceItemIds": [
-        "news_a097cf3b7966",
-        "news_de13c70763c7",
-        "news_3424dc106ce5",
-        "news_4fb63826683c",
-        "news_64bea1237589",
-        "news_4c7425dd55e5"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_a4fee602bb16",
-      "title": "OpenAI考虑按1.4万亿美元估值融资300亿美元",
-      "firstSeenAt": "2026-09-29T18:14:08.502Z",
-      "lastSeenAt": "2026-09-29T18:14:08.502Z",
-      "primaryItemId": "news_824d9a29ecfa",
-      "evidenceItemIds": [
-        "news_824d9a29ecfa",
-        "news_054d066dc47e"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_177d454276e7",
-      "title": "报道：OpenAI年化经常性收入逼近700亿美元，甲骨文股价一度涨超8%",
-      "firstSeenAt": "2026-09-29T18:14:08.502Z",
-      "lastSeenAt": "2026-09-29T18:14:08.502Z",
-      "primaryItemId": "news_30ecd2ec49eb",
-      "evidenceItemIds": [
-        "news_30ecd2ec49eb",
-        "news_11f81ac75de2",
-        "news_02cc8c8ef22e"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_116d0288b244",
-      "title": "中央财政史上首次！“房贷贴息”节前落地：首套、120平方米以下、150万元以内可享",
-      "firstSeenAt": "2026-09-29T18:14:08.502Z",
-      "lastSeenAt": "2026-09-29T18:14:08.502Z",
-      "primaryItemId": "news_0eca7c5bbb2a",
-      "evidenceItemIds": [
-        "news_0eca7c5bbb2a",
-        "news_0188700a0f38"
       ],
       "status": "developing"
     },
@@ -557,32 +671,6 @@
         "news_2ace8195b50d",
         "news_3badc22f730d",
         "news_7f404809b80a"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_74158378db4b",
-      "title": "今日开盘：两市双双低开 沪指跌幅0.20%",
-      "firstSeenAt": "2026-08-06T03:43:23.319Z",
-      "lastSeenAt": "2026-09-29T10:43:22.355Z",
-      "primaryItemId": "news_b0801c3a3549",
-      "evidenceItemIds": [
-        "news_5c70752541f1",
-        "news_4e57f6baed6e",
-        "news_e9e2a1fc2551",
-        "news_a1671de823c1",
-        "news_7df695aa3d10",
-        "news_fd96e76babcb",
-        "news_002a5afcff3b",
-        "news_da9ad91cb33a",
-        "news_df51b1764e08",
-        "news_4a76c392df1e",
-        "news_075795deda4d",
-        "news_011398fcfd6a",
-        "news_25184331b792",
-        "news_0fe085269763",
-        "news_68ce3df603b7",
-        "news_b0801c3a3549"
       ],
       "status": "developing"
     },
@@ -5383,22 +5471,6 @@
         "news_add6fe3af46b",
         "news_530a3ce1eec5",
         "news_f1bc9cdcabdf"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_352a3cbffeba",
-      "title": "中国8月RatingDog服务业PMI回升至51.4，就业连续四个月增长创两年最长纪录",
-      "firstSeenAt": "2026-08-03T03:58:04.220Z",
-      "lastSeenAt": "2026-09-03T12:55:55.174Z",
-      "primaryItemId": "news_2f3c10768953",
-      "evidenceItemIds": [
-        "news_5791a7720090",
-        "news_c65f8400aac2",
-        "news_897882d09fb7",
-        "news_2f3c10768953",
-        "news_6269ae20cc24",
-        "news_5125b82ab54f"
       ],
       "status": "developing"
     },
@@ -12312,20 +12384,6 @@
       "evidenceItemIds": [
         "news_cc43860c1077",
         "news_519d73dd934a"
-      ],
-      "status": "developing"
-    },
-    {
-      "eventId": "event_e19822419452",
-      "title": "国家统计局解读：7月份中国采购经理指数有所回落",
-      "firstSeenAt": "2026-07-31T02:27:13.623Z",
-      "lastSeenAt": "2026-08-03T03:58:04.220Z",
-      "primaryItemId": "news_4b628ba757ac",
-      "evidenceItemIds": [
-        "news_1e1eb7294fe1",
-        "news_52fa5fbcca93",
-        "news_4b628ba757ac",
-        "news_cfea1d75eb52"
       ],
       "status": "developing"
     },

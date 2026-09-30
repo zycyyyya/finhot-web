@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-09-29T18:14:08.502Z",
+  "updatedAt": "2026-09-30T05:43:19.971Z",
   "note": "auto 指标由 scripts/macro.js 每日自动刷新；manual 指标为人工核实值，核实日期见 asOf。",
   "indicators": [
     {
@@ -56,16 +56,16 @@
     {
       "key": "us10y",
       "name": "美债 10年期",
-      "value": "5.24%",
-      "numericValue": 5.24,
-      "note": "较9月25日 5.17% 上升",
+      "value": "5.26%",
+      "numericValue": 5.26,
+      "note": "较9月28日 5.24% 上升",
       "direction": "up",
-      "asOf": "2026-09-28",
+      "asOf": "2026-09-29",
       "source": "美国财政部",
       "mode": "auto",
-      "prevValue": "5.17%",
-      "prevNumericValue": 5.17,
-      "prevAsOf": "2026-09-25"
+      "prevValue": "5.24%",
+      "prevNumericValue": 5.24,
+      "prevAsOf": "2026-09-28"
     },
     {
       "key": "fedRate",
@@ -95,16 +95,16 @@
     {
       "key": "gold",
       "name": "现货黄金",
-      "value": "$4,167",
-      "numericValue": 4167.299805,
-      "note": "较9月28日 $4,130 上升",
+      "value": "$4,178",
+      "numericValue": 4177.600098,
+      "note": "较9月29日 $4,167 上升",
       "direction": "up",
-      "asOf": "2026-09-29",
+      "asOf": "2026-09-30",
       "source": "gold-api.com",
       "mode": "auto",
-      "prevValue": "$4,130",
-      "prevNumericValue": 4130.399902,
-      "prevAsOf": "2026-09-28"
+      "prevValue": "$4,167",
+      "prevNumericValue": 4167.299805,
+      "prevAsOf": "2026-09-29"
     }
   ]
 }

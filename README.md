@@ -4,7 +4,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/version-2.6.0-blue" alt="version"/>
+  <img src="https://img.shields.io/badge/version-2.7.0-blue" alt="version"/>
   <img src="https://img.shields.io/badge/license-MIT-green" alt="license"/>
   <img src="https://img.shields.io/badge/framework-pure_static-lightgrey" alt="static"/>
   <img src="https://img.shields.io/badge/deploy-GitHub_Pages-success" alt="deploy"/>
@@ -161,6 +161,18 @@ finhot-web 是集自动采集、AI 分析、数据质量控制与静态页面展
 
 北京时间每日 08:15 主运行（完整 LLM 分析），12:17、16:19、20:21 错峰保底运行（复用 AI 内容 + 增量采集），数据质量门通过后自动提交并部署。11 个来源中任一失败都不会阻塞发布（发布门只看可用源数量与覆盖率下限）。
 
+### 调度延迟与监控
+
+GitHub 自带的 `schedule` 是 **best-effort 派发，不是精确时钟**。本仓库 2026-09 至 2026-10 连续 40+ 次运行实测：每个槽位实际启动时间比计划晚 **5.3–6.7 小时**，且每天 4 个槽位通常只有 2–3 个真正被派发。这是平台侧行为，与站点代码无关。
+
+因此监控（`.github/workflows/watchdog.yml` + `scripts/schedule-watch.js`）**刻意不对齐计划时刻**，只判定一件事：**最近一次成功采集距今是否超过 10 小时**（`FINHOT_STALE_MINUTES`，默认 600 分钟）。
+
+- 判定依据直接来自 Actions API 的实际运行记录，不读 `data/alert-state.json`——后者要靠 workflow 自己提交，失败或并发推送被拒时会滞后。
+- 超过阈值 → 创建或刷新 `[finhot-alert]` Issue；恢复正常 → 自动关闭并留言。
+- 单次运行的延迟阈值由 `FINHOT_SCHEDULE_DELAY_MINUTES` 控制（线上 8 小时）；低于它的延迟属常态，不告警。
+
+> 历史教训：初版监控按「计划时刻 + 4 小时 grace」判定槽位是否缺失。grace（4h）小于实测延迟（5–7h），于是每一个被检查的槽位都必然判定为缺失，自 2026-09-21 起连续 11 天误报（Issue #34）。
+
 ## 数据质量
 
 发布门（`scripts/health.js` 的 `DEFAULT_THRESHOLDS`，可用 `FINHOT_MIN_*` 环境变量覆盖）：
@@ -180,7 +192,7 @@ finhot-web 是集自动采集、AI 分析、数据质量控制与静态页面展
 - 发布时间可信化（无时间不冒充当日；知乎编辑时间单独标注，不当作发布时间）
 - 每条资讯记录命中的噪声限制与入选门槛，可逐条复核评分依据
 - AI 内容经结构/枚举/长度/证据 ID 四重校验
-- 本地自检：`npm run check`（17 个脚本语法检查 + 14 个测试文件，全部使用本地替身、不访问外部服务）
+- 本地自检：`npm run check`（18 个脚本语法检查 + 15 个测试文件，全部使用本地替身、不访问外部服务）
 
 ## 合规声明
 

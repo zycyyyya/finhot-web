@@ -3,8 +3,9 @@ name: Monitor Scheduled Data Runs
 on:
   workflow_dispatch:
   schedule:
-    # GitHub-hosted schedules are best-effort and this repository commonly sees
-    # 2-3.5 hour delays. Check each data slot after a four-hour grace window.
+    # 本 workflow 只回答一个问题：数据管线最近还在更新吗？
+    # 它刻意不对齐 update.yml 的计划时刻——GitHub 免费调度在本仓库实测
+    # 延迟 5-7 小时，按计划时刻断言必然误报（见 Issue #34）。
     - cron: "31 4,8,12,16 * * *"
 
 concurrency:
@@ -15,63 +16,96 @@ jobs:
   watchdog:
     runs-on: ubuntu-latest
     permissions:
+      actions: read
       contents: read
       issues: write
     steps:
       - uses: actions/checkout@v4
 
-      - name: Detect a missing scheduled run
+      - name: Detect stale data pipeline
         uses: actions/github-script@v7
+        env:
+          # 数据陈旧阈值：超过这个时长没有任何成功采集才告警。
+          FINHOT_STALE_MINUTES: "600"
         with:
           script: |
             const path = require('path');
             const {
-              findMissingSchedule,
+              findStaleData,
+              latestSuccessfulRunAt,
             } = require(path.join(
               process.env.GITHUB_WORKSPACE,
               'scripts',
               'schedule-watch.js'
             ));
 
-            const fs = require('fs');
-            const stateFile = path.join(
-              process.env.GITHUB_WORKSPACE,
-              'data',
-              'alert-state.json'
-            );
-            let state = { scheduleRuns: {} };
-            try {
-              state = JSON.parse(fs.readFileSync(stateFile, 'utf8'));
-            } catch (error) {
-              core.warning(`Unable to read alert state: ${error.message}`);
-            }
-            const graceMinutes = 240;
-            const missing = findMissingSchedule(
-              state.scheduleRuns || {},
-              new Date().toISOString(),
-              graceMinutes
-            );
+            const staleMinutes = Number(process.env.FINHOT_STALE_MINUTES || 600);
             const labelName = 'finhot-alert';
-            const missingTitle = '[finhot-alert] 严重：定时采集任务未按窗口启动';
-            const { data: openAlerts } = await github.rest.issues.listForRepo({
+            const title = '[finhot-alert] 严重：数据采集长时间未更新';
+            const legacyMarker = 'finhot-missing-schedule';
+            const marker = 'finhot-stale-data';
+
+            // 直接读 Actions 的实际运行记录，而不是本地 data/alert-state.json：
+            // 后者要靠 workflow 自己提交，失败或并发推送被拒时会滞后，
+            // 正是上一版判定失真的原因之一。
+            const { data } = await github.rest.actions.listWorkflowRuns({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              state: 'open',
-              labels: labelName,
-              per_page: 100,
-            }).catch(error => {
-              if (error.status === 404) return { data: [] };
-              throw error;
+              workflow_id: 'update.yml',
+              per_page: 40,
             });
-            const missingAlerts = openAlerts.filter(issue => issue.title === missingTitle);
-            if (!missing) {
-              core.info('The latest expected data schedule has a matching run.');
-              for (const issue of missingAlerts) {
+            const runs = data.workflow_runs
+              .filter(
+                run =>
+                  run.event === 'schedule' || run.event === 'workflow_dispatch'
+              )
+              .map(run => ({
+                createdAt: run.run_started_at || run.created_at,
+                status: run.status,
+                conclusion: run.conclusion,
+              }));
+
+            // 一条运行记录都没有时不告警，避免刚改 workflow 时误报。
+            const lastRunAt = latestSuccessfulRunAt(runs);
+            const stale =
+              runs.length === 0
+                ? null
+                : findStaleData(
+                    lastRunAt,
+                    new Date().toISOString(),
+                    staleMinutes
+                  );
+
+            const { data: openAlerts } = await github.rest.issues
+              .listForRepo({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                state: 'open',
+                labels: labelName,
+                per_page: 100,
+              })
+              .catch(error => {
+                if (error.status === 404) return { data: [] };
+                throw error;
+              });
+            // 只回收本监控自己开的 Issue：新标题，或历史误报使用的标记。
+            const selfAlerts = openAlerts.filter(
+              issue =>
+                issue.title === title ||
+                (issue.body || '').includes(legacyMarker) ||
+                (issue.body || '').includes(marker)
+            );
+
+            if (!stale) {
+              core.info(
+                `Data pipeline is fresh (last success: ${lastRunAt || 'n/a'}).`
+              );
+              for (const issue of selfAlerts) {
                 await github.rest.issues.createComment({
                   owner: context.repo.owner,
                   repo: context.repo.repo,
                   issue_number: issue.number,
-                  body: '监控已确认最新计划窗口存在成功记录，自动关闭历史缺失告警。',
+                  body: '监控确认数据管线仍在正常更新，自动关闭该告警。',
                 });
                 await github.rest.issues.update({
                   owner: context.repo.owner,
@@ -101,40 +135,42 @@ jobs:
               });
             }
 
-            const marker = `<!-- finhot-missing-schedule:${missing.expectedAt} -->`;
+            const ageText =
+              stale.ageMinutes === null
+                ? '从未成功采集'
+                : `${(stale.ageMinutes / 60).toFixed(1)} 小时`;
             const detail = [
-              marker,
-              '## finhot 定时任务缺失告警',
+              `<!-- ${marker} -->`,
+              '## finhot 数据采集停滞告警',
               '',
-              `- 应触发时间：${missing.expectedAt}`,
-              `- 对应 cron：${missing.schedule}`,
-              `- 检查阈值：计划时间后 ${graceMinutes} 分钟`,
+              `- 最近一次成功采集：${stale.lastRunAt || '无记录'}`,
+              `- 距今：${ageText}`,
+              `- 告警阈值：${Math.round(stale.staleMinutes / 60)} 小时`,
+              `- 检查时间：${new Date().toISOString()}`,
               `- Watchdog Run ID：${context.runId}`,
               '',
-              '在阈值窗口内未查询到 `Validate and Update Data` 的 schedule 运行。',
-              '请检查 GitHub Actions 调度状态；必要时手动触发主数据工作流。',
+              `在阈值内未查询到 \`Validate and Update Data\` 的成功运行（近 ${runs.length} 条记录中）。`,
+              '请检查 Actions 状态；必要时手动触发主数据工作流。',
             ].join('\n');
 
-            const existing = missingAlerts[0];
+            const existing = selfAlerts[0];
             if (existing) {
-              if ((existing.body || '').includes(marker)) {
-                core.info(`Missing schedule already reported in issue #${existing.number}.`);
-                return;
-              }
-              await github.rest.issues.createComment({
+              // 用刷新正文代替追加评论，保证告警里始终是最新状态且不刷屏。
+              await github.rest.issues.update({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
                 issue_number: existing.number,
+                title,
                 body: detail,
               });
-              core.info(`Updated existing missing-schedule issue #${existing.number}.`);
+              core.info(`Refreshed stale-data issue #${existing.number}.`);
               return;
             }
 
             await github.rest.issues.create({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              title: missingTitle,
+              title,
               body: detail,
               labels: [labelName],
             });

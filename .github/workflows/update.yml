@@ -73,6 +73,9 @@ jobs:
           FINHOT_RUN_CREATED_AT: ${{ steps.run-meta.outputs.created_at }}
           FINHOT_ANALYSIS_MODE: ${{ (github.event_name == 'workflow_dispatch' || github.event.schedule == '15 0 * * *') && 'full' || 'cached' }}
           FINHOT_WORKFLOW_FAILED: ${{ steps.fetch.outcome == 'failure' || steps.post-check.outcome == 'failure' }}
+          # GitHub schedule 在本仓库实测延迟 5.3-6.7 小时。阈值设 8 小时，
+          # 常态延迟不再产生噪声，只有明显异常（如调度停摆）才告警。
+          FINHOT_SCHEDULE_DELAY_MINUTES: "480"
         run: node scripts/alerts.js
 
       - name: Ensure alert label exists

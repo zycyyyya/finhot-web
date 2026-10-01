@@ -180,6 +180,7 @@ function main() {
   const previousState = loadAlertState();
   const result = evaluateAlerts(report, previousState, {
     workflowFailed: process.env.FINHOT_WORKFLOW_FAILED === 'true',
+    scheduleDelayMinutes: process.env.FINHOT_SCHEDULE_DELAY_MINUTES,
   });
   fs.mkdirSync(path.dirname(STATE_FILE), { recursive: true });
   fs.writeFileSync(STATE_FILE, `${JSON.stringify(result.state, null, 2)}\n`, 'utf8');

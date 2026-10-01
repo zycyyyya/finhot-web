@@ -154,6 +154,42 @@ function parseArticlePage(html) {
   return { title, publishedAt, summary, content };
 }
 
+/**
+ * 由列表页条目 + 详情页解析结果组装站点内部条目结构。
+ *
+ * 字段名必须与 RSSHub / 知乎等其它来源对齐，否则会静默损坏下游：
+ * - 链接字段叫 `sourceUrl`（不是 link）——`stableItemId()`、跨源去重集合
+ *   `existingUrls`、以及 `assertDataQuality()` 的 ID 校验都只读 `sourceUrl`。
+ *   用错名字会让 `stableItemId()` 返回空串，进而让整个 fetch 进程在数据质检处
+ *   抛错退出（CI 表现为 "Fetch and validate data" 步骤失败）。
+ * - 摘要字段叫 `summary`（不是 excerpt）——`isFinanceRelated()`、相关性评分与
+ *   前端展示都读 `summary`。
+ *
+ * @returns {object|null} 链接无法规范化时返回 null，由调用方丢弃。
+ */
+function buildItem(entry, parsed, cat, extraOriginal) {
+  const sourceUrl = canonicalizeUrl(entry.link);
+  if (!sourceUrl) return null;
+  const linkId = entry.link.match(/(\d+)\.html$/)?.[1] || Math.random().toString(36).slice(2);
+  const rawDate = parsed.publishedAt || entry.dateStr;
+  const publishedAt = normalizePublishedAt(rawDate ? new Date(rawDate) : new Date());
+  return {
+    id: `huibaoxian_${linkId}`,
+    title: normalizeTitle(parsed.title || entry.title),
+    sourceUrl,
+    publishedAt,
+    sourceName: '慧保天下',
+    category: cat.mapped,
+    tier: 'S2',
+    evidenceType: 'financial_media',
+    summary: (parsed.summary || entry.summary || parsed.content || '').slice(0, 280),
+    contentTags: [],
+    scoreDetails: {},
+    score: 0,
+    original: Object.assign({ huibaoxianCategory: cat.name }, extraOriginal || {}),
+  };
+}
+
 async function fetchCategory(cat, maxItems, maxPages) {
   const results = [];
   let page = 1;
@@ -176,41 +212,17 @@ async function fetchCategory(cat, maxItems, maxPages) {
           try {
             const detail = await fetchText(entry.link);
             const parsed = parseArticlePage(detail);
-            const publishedAt = parsed.publishedAt || entry.dateStr;
-            const normDate = normalizePublishedAt(publishedAt ? new Date(publishedAt) : new Date());
-
-            results.push({
-              id: `huibaoxian_${entry.link.match(/(\d+)\.html$/)?.[1] || Math.random().toString(36).slice(2)}`,
-              title: normalizeTitle(parsed.title || entry.title),
-              link: canonicalizeUrl(entry.link),
-              publishedAt: normDate,
-              sourceName: '慧保天下',
-              category: cat.mapped,
-              tier: 'S2',
-              evidenceType: 'financial_media',
-              excerpt: (parsed.summary || entry.summary || parsed.content || '').slice(0, 280),
-              contentTags: [],
-              scoreDetails: {},
-              score: 0,
-              original: { huibaoxianCategory: cat.name },
-            });
+            const item = buildItem(entry, parsed, cat);
+            if (item) results.push(item);
           } catch (detailErr) {
             // 详情页失败不阻塞，用列表页信息兜底
-            results.push({
-              id: `huibaoxian_${entry.link.match(/(\d+)\.html$/)?.[1] || Math.random().toString(36).slice(2)}`,
-              title: normalizeTitle(entry.title),
-              link: canonicalizeUrl(entry.link),
-              publishedAt: normalizePublishedAt(entry.dateStr ? new Date(entry.dateStr) : new Date()),
-              sourceName: '慧保天下',
-              category: cat.mapped,
-              tier: 'S2',
-              evidenceType: 'financial_media',
-              excerpt: entry.summary.slice(0, 280),
-              contentTags: [],
-              scoreDetails: {},
-              score: 0,
-              original: { huibaoxianCategory: cat.name, detailError: sanitizeError(detailErr) },
-            });
+            const item = buildItem(
+              entry,
+              { title: entry.title, publishedAt: entry.dateStr, summary: entry.summary, content: '' },
+              cat,
+              { detailError: sanitizeError(detailErr) }
+            );
+            if (item) results.push(item);
           }
         }
       }
@@ -221,6 +233,23 @@ async function fetchCategory(cat, maxItems, maxPages) {
   }
 
   return results;
+}
+
+/**
+ * 按 `sourceUrl` 去重：同一篇文章会在多个栏目重复出现。
+ * 必须读 sourceUrl（构建后的条目已不带 link），字段写错会把所有条目判为同一条，
+ * 表现为"抓了 50 条只留 1 条"。
+ */
+function dedupeBySourceUrl(items) {
+  const seen = new Set();
+  const unique = [];
+  for (const item of Array.isArray(items) ? items : []) {
+    if (item && item.sourceUrl && !seen.has(item.sourceUrl)) {
+      seen.add(item.sourceUrl);
+      unique.push(item);
+    }
+  }
+  return unique;
 }
 
 async function fetchHuibaoxian(options = {}) {
@@ -238,15 +267,7 @@ async function fetchHuibaoxian(options = {}) {
     }
   }
 
-  // 去重
-  const seen = new Set();
-  const unique = [];
-  for (const item of allItems) {
-    if (!seen.has(item.link)) {
-      seen.add(item.link);
-      unique.push(item);
-    }
-  }
+  const unique = dedupeBySourceUrl(allItems);
 
   const health = buildSourceHealth(
     { sourceName: '慧保天下', tier: 'S2', category: 'industry', transport: 'scraper' },
@@ -264,6 +285,8 @@ async function fetchHuibaoxian(options = {}) {
 module.exports = {
   fetchHuibaoxian,
   AD_TITLE_PATTERNS,
+  buildItem,
+  dedupeBySourceUrl,
   isAdByTitle,
   parseListPage,
   parseArticlePage,

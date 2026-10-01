@@ -1,6 +1,8 @@
 'use strict';
 
-const { isAdByTitle, parseListPage, parseArticlePage } = require('../scripts/huibaoxian');
+const { isAdByTitle, parseListPage, parseArticlePage, buildItem, dedupeBySourceUrl } = require('../scripts/huibaoxian');
+const { stableItemId } = require('../scripts/analysis');
+const { VALID_CATEGORIES } = require('../scripts/core');
 
 function assert(cond, msg) {
   if (!cond) throw new Error(msg || 'assertion failed');
@@ -111,5 +113,51 @@ const relHtml = `
 const relItems = parseListPage(relHtml, 'yc');
 assert(relItems[0].link.startsWith('http://www.huibaoxian.com.cn'), `relative link not resolved: ${relItems[0].link}`);
 console.log('relative link tests passed');
+
+// === 条目字段契约测试（回归：曾因字段名不一致导致 CI 全红）===
+// 症状：buildItem 用了 link/excerpt，而 stableItemId() 只认 sourceUrl，
+// 结果 ID 为空串 → assertDataQuality 抛 "invalid stable ID" → fetch 非 0 退出。
+const cat = { code: 'kb', name: '行业动态', mapped: 'industry' };
+const built = buildItem(
+  listItems[0],
+  { title: listItems[0].title, publishedAt: '2026-09-28 11:31', summary: '友邦等出资成立合伙企业', content: '正文' },
+  cat
+);
+
+assert(built !== null, 'buildItem should return an item for a valid link');
+assert(typeof built.sourceUrl === 'string' && built.sourceUrl.startsWith('http'), `sourceUrl missing: ${built.sourceUrl}`);
+assert(typeof built.summary === 'string' && built.summary.length > 0, 'summary missing');
+assert(!('link' in built), 'must not use legacy "link" field');
+assert(!('excerpt' in built), 'must not use legacy "excerpt" field');
+assert(VALID_CATEGORIES.has(built.category), `invalid category: ${built.category}`);
+
+// 最关键的一条：算出的稳定 ID 必须符合 news_<12hex>，否则数据质检会拒绝整个批次。
+const id = stableItemId(built);
+assert(/^news_[a-f0-9]{12}$/.test(id), `stableItemId invalid (regression!): "${id}"`);
+
+// 详情页失败时的兜底路径也必须产出合法字段
+const fallback = buildItem(
+  listItems[0],
+  { title: listItems[0].title, publishedAt: listItems[0].dateStr, summary: '兜底摘要', content: '' },
+  cat,
+  { detailError: 'timeout' }
+);
+assert(/^news_[a-f0-9]{12}$/.test(stableItemId(fallback)), 'fallback item stableItemId invalid');
+assert(fallback.original.detailError === 'timeout', 'detailError not preserved');
+console.log('item contract tests passed');
+
+// === 去重测试（回归：字段名写错会让所有条目被判为同一条）===
+const a1 = buildItem(listItems[0], { title: 'A', summary: 'a' }, cat);
+const a2 = buildItem(listItems[0], { title: 'A duplicate', summary: 'a2' }, cat); // 同一链接
+const b1 = buildItem(
+  { link: 'http://www.huibaoxian.com.cn//htm/kb/20260928/6166.html', title: 'B', dateStr: '2026-09-28' },
+  { title: 'B', summary: 'b' },
+  cat
+);
+const deduped = dedupeBySourceUrl([a1, a2, b1]);
+assert(deduped.length === 2, `dedupe should keep 2 distinct urls, got ${deduped.length}`);
+assert(deduped[0].sourceUrl === a1.sourceUrl, 'dedupe kept wrong first item');
+assert(dedupeBySourceUrl([{ sourceUrl: '' }, { sourceUrl: '' }]).length === 0, 'empty sourceUrl must be dropped');
+console.log('dedupe tests passed');
 
 console.log('huibaoxian tests passed');

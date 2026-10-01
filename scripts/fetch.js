@@ -1269,8 +1269,8 @@ async function main() {
     const hbCutoff = Date.now() - MAX_AGE_DAYS * 86400000;
     let hbAdded = 0;
     for (const item of hbItems) {
-      if (!isSafeHttpUrl(item.link) || existing.existingUrls.has(item.link)) continue;
-      if (containsCorruptedText(item.title) || containsCorruptedText(item.excerpt || '')) continue;
+      if (!isSafeHttpUrl(item.sourceUrl) || existing.existingUrls.has(item.sourceUrl)) continue;
+      if (containsCorruptedText(item.title) || containsCorruptedText(item.summary || '')) continue;
       const titleHash = normalizeTitle(item.title);
       if (titleHash.length >= 6 && existing.titleSet.has(titleHash)) continue;
       const publishedTimestamp = item.publishedAt ? new Date(item.publishedAt).getTime() : NaN;
@@ -1283,7 +1283,7 @@ async function main() {
       enrichItem(item);
       reclassifyCategory(item);
       newItems.push(item);
-      existing.existingUrls.add(item.link);
+      existing.existingUrls.add(item.sourceUrl);
       existing.titleSet.add(titleHash);
       hbAdded++;
     }

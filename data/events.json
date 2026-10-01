@@ -1,17 +1,17 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-01T15:34:21.037Z",
+  "generatedAt": "2026-10-01T18:31:25.653Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
       "eventId": "event_a3c5d0364922",
       "clusterVersion": 2,
-      "title": "宁德时代：拟推2026年A股第二期员工持股计划，受让价158.42元/股",
+      "title": "【行业速递】金融营销新规落地 A股互联网平台或迎估值重估",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-01T15:34:21.037Z",
+      "lastSeenAt": "2026-10-01T18:31:25.653Z",
       "latestItemPublishedAt": "2026-10-01T09:42:57.000Z",
-      "primaryItemId": "news_de9aae9a8f2f",
+      "primaryItemId": "news_88a9dd182dd9",
       "evidenceItemIds": [
         "news_943234fa21c3",
         "news_de9aae9a8f2f",
@@ -30,7 +30,7 @@
       "clusterVersion": 2,
       "title": "美股股指期货涨幅收窄，布伦特原油突破100美元",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-01T15:34:21.037Z",
+      "lastSeenAt": "2026-10-01T18:31:25.653Z",
       "latestItemPublishedAt": "2026-10-01T13:35:31.000Z",
       "primaryItemId": "news_714e7dcc99a1",
       "evidenceItemIds": [
@@ -54,7 +54,7 @@
       "clusterVersion": 2,
       "title": "斥资最高12亿元！900亿算力租赁概念股控股股东及一致行动人拟增持公司股份|盘后公告集锦",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-01T15:34:21.037Z",
+      "lastSeenAt": "2026-10-01T18:31:25.653Z",
       "latestItemPublishedAt": "2026-09-30T12:33:37.000Z",
       "primaryItemId": "news_e8808ecec417",
       "evidenceItemIds": [
@@ -70,7 +70,7 @@
       "clusterVersion": 2,
       "title": "8月PCE假降温背后：方法修订会否动摇美联储加息路径？",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-01T15:34:21.037Z",
+      "lastSeenAt": "2026-10-01T18:31:25.653Z",
       "latestItemPublishedAt": "2026-10-01T12:10:39.000Z",
       "primaryItemId": "news_6d433d4e4fef",
       "evidenceItemIds": [
@@ -93,7 +93,7 @@
       "clusterVersion": 2,
       "title": "美国总统特朗普：不断提高利率“非常糟糕”。 关于利率的问题并不责怪凯文（凯文沃什）。 将很快填充战略石油储备。 好数据”",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-01T15:34:21.037Z",
+      "lastSeenAt": "2026-10-01T18:31:25.653Z",
       "latestItemPublishedAt": "2026-10-01T11:11:09.000Z",
       "primaryItemId": "news_bec32e135b03",
       "evidenceItemIds": [
@@ -110,7 +110,7 @@
       "clusterVersion": 2,
       "title": "谁在接盘美国国债？对冲基金扛起7%份额，但高杠杆是定时炸弹",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-01T15:34:21.037Z",
+      "lastSeenAt": "2026-10-01T18:31:25.653Z",
       "latestItemPublishedAt": "2026-09-30T16:36:17.000Z",
       "primaryItemId": "news_9707e9a81974",
       "evidenceItemIds": [
@@ -127,7 +127,7 @@
       "clusterVersion": 2,
       "title": "美国8月PCE低于预期 市场削减加息押注 美股期指上涨 | 今夜看点",
       "firstSeenAt": "2026-09-30T13:40:58.103Z",
-      "lastSeenAt": "2026-10-01T15:34:21.037Z",
+      "lastSeenAt": "2026-10-01T18:31:25.653Z",
       "latestItemPublishedAt": "2026-09-30T14:24:10.000Z",
       "primaryItemId": "news_d201010aedbe",
       "evidenceItemIds": [
@@ -144,7 +144,7 @@
       "clusterVersion": 2,
       "title": "中国超长债走强机构买盘扩张，美元区间震荡人民币震荡偏强，港股回调后估值优势凸显---1001宏观脱水",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-10-01T15:34:21.037Z",
+      "lastSeenAt": "2026-10-01T18:31:25.653Z",
       "latestItemPublishedAt": "2026-10-01T14:18:32.000Z",
       "primaryItemId": "news_43da5cba1923",
       "evidenceItemIds": [
@@ -164,7 +164,7 @@
       "clusterVersion": 2,
       "title": "连平：美联储货币政策紧缩效应几何 | 国庆大咖谈",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-01T15:34:21.037Z",
+      "lastSeenAt": "2026-10-01T18:31:25.653Z",
       "latestItemPublishedAt": "2026-10-01T02:05:36.000Z",
       "primaryItemId": "news_d97ee6ad6468",
       "evidenceItemIds": [
@@ -182,7 +182,7 @@
       "clusterVersion": 2,
       "title": "【蓝佛安：精准有效实施更加积极的财政政策】财政部党组书记、部长蓝佛安在求是杂志发文称，今年是“十五五”开局之年，做好接下",
       "firstSeenAt": "2026-10-01T11:43:51.061Z",
-      "lastSeenAt": "2026-10-01T15:34:21.037Z",
+      "lastSeenAt": "2026-10-01T18:31:25.653Z",
       "latestItemPublishedAt": "2026-10-01T04:46:03.000Z",
       "primaryItemId": "news_c1f59c9a4e81",
       "evidenceItemIds": [
@@ -199,12 +199,28 @@
       "clusterVersion": 2,
       "title": "道明银行股价今日为何下滑？",
       "firstSeenAt": "2026-10-01T15:34:21.037Z",
-      "lastSeenAt": "2026-10-01T15:34:21.037Z",
+      "lastSeenAt": "2026-10-01T18:31:25.653Z",
       "latestItemPublishedAt": "2026-10-01T15:04:29.000Z",
       "primaryItemId": "news_70bc1737b70b",
       "evidenceItemIds": [
         "news_70bc1737b70b",
         "news_1d7eea4d1ac5"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_e156b3678093",
+      "clusterVersion": 2,
+      "title": "报道：Anthropic瞄准感恩节前完成大规模IPO",
+      "firstSeenAt": "2026-10-01T18:31:25.653Z",
+      "lastSeenAt": "2026-10-01T18:31:25.653Z",
+      "latestItemPublishedAt": "2026-10-01T17:40:02.000Z",
+      "primaryItemId": "news_faeae778fd24",
+      "evidenceItemIds": [
+        "news_faeae778fd24",
+        "news_309d6031626a"
       ],
       "status": "developing",
       "summary": "",

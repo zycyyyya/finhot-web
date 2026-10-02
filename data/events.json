@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-02T14:51:44.367Z",
+  "generatedAt": "2026-10-02T17:57:23.285Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -9,7 +9,7 @@
       "clusterVersion": 2,
       "title": "晓数点｜一图速览9月A股月报",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-02T14:51:44.367Z",
+      "lastSeenAt": "2026-10-02T17:57:23.285Z",
       "latestItemPublishedAt": "2026-10-01T09:42:57.000Z",
       "primaryItemId": "news_f3c7a8eb5d37",
       "evidenceItemIds": [
@@ -30,7 +30,7 @@
       "clusterVersion": 2,
       "title": "美股10月开局小幅收涨，存储、光通信走强，原油、黄金齐涨",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-02T14:51:44.367Z",
+      "lastSeenAt": "2026-10-02T17:57:23.285Z",
       "latestItemPublishedAt": "2026-10-02T01:52:37.000Z",
       "primaryItemId": "news_46dc867fab44",
       "evidenceItemIds": [
@@ -59,7 +59,7 @@
       "clusterVersion": 2,
       "title": "8月PCE假降温背后：方法修订会否动摇美联储加息路径？",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-02T14:51:44.367Z",
+      "lastSeenAt": "2026-10-02T17:57:23.285Z",
       "latestItemPublishedAt": "2026-10-02T13:43:46.000Z",
       "primaryItemId": "news_6d433d4e4fef",
       "evidenceItemIds": [
@@ -84,7 +84,7 @@
       "clusterVersion": 2,
       "title": "美国按揭贷款利率创4年来最大幅度周涨幅，加剧中选前美国人“可负担”压力",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-02T14:51:44.367Z",
+      "lastSeenAt": "2026-10-02T17:57:23.285Z",
       "latestItemPublishedAt": "2026-10-02T03:27:11.000Z",
       "primaryItemId": "news_dd5c5f982f92",
       "evidenceItemIds": [
@@ -102,7 +102,7 @@
       "clusterVersion": 2,
       "title": "中国超长债走强机构买盘扩张，美元区间震荡人民币震荡偏强，港股回调后估值优势凸显---1001宏观脱水",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-10-02T14:51:44.367Z",
+      "lastSeenAt": "2026-10-02T17:57:23.285Z",
       "latestItemPublishedAt": "2026-10-02T12:56:16.000Z",
       "primaryItemId": "news_43da5cba1923",
       "evidenceItemIds": [
@@ -128,7 +128,7 @@
       "clusterVersion": 2,
       "title": "连平：美联储货币政策紧缩效应几何 | 国庆大咖谈",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-02T14:51:44.367Z",
+      "lastSeenAt": "2026-10-02T17:57:23.285Z",
       "latestItemPublishedAt": "2026-10-01T02:05:36.000Z",
       "primaryItemId": "news_d97ee6ad6468",
       "evidenceItemIds": [
@@ -147,7 +147,7 @@
       "clusterVersion": 2,
       "title": "道明银行股价今日为何下滑？",
       "firstSeenAt": "2026-10-01T15:34:21.037Z",
-      "lastSeenAt": "2026-10-02T14:51:44.367Z",
+      "lastSeenAt": "2026-10-02T17:57:23.285Z",
       "latestItemPublishedAt": "2026-10-01T15:04:29.000Z",
       "primaryItemId": "news_70bc1737b70b",
       "evidenceItemIds": [
@@ -163,7 +163,7 @@
       "clusterVersion": 2,
       "title": "报道：Anthropic瞄准感恩节前完成大规模IPO",
       "firstSeenAt": "2026-10-01T18:31:25.653Z",
-      "lastSeenAt": "2026-10-02T14:51:44.367Z",
+      "lastSeenAt": "2026-10-02T17:57:23.285Z",
       "latestItemPublishedAt": "2026-10-01T17:40:02.000Z",
       "primaryItemId": "news_faeae778fd24",
       "evidenceItemIds": [
@@ -180,7 +180,7 @@
       "clusterVersion": 2,
       "title": "全球央行艰难重启加息周期，这次有什么不同|海外市场月报",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-02T14:51:44.367Z",
+      "lastSeenAt": "2026-10-02T17:57:23.285Z",
       "latestItemPublishedAt": "2026-10-02T06:35:18.000Z",
       "primaryItemId": "news_7cce498ba7b6",
       "evidenceItemIds": [
@@ -201,7 +201,7 @@
       "clusterVersion": 2,
       "title": "财新闻｜偷税等处罚细则有了全国统一标准，11月1日起施行",
       "firstSeenAt": "2026-10-02T06:11:58.933Z",
-      "lastSeenAt": "2026-10-02T14:51:44.367Z",
+      "lastSeenAt": "2026-10-02T17:57:23.285Z",
       "latestItemPublishedAt": "2026-10-02T04:15:40.000Z",
       "primaryItemId": "news_bd2aa3b66859",
       "evidenceItemIds": [
@@ -217,7 +217,7 @@
       "clusterVersion": 2,
       "title": "能源内参｜福建电力现货市场转入正式运行；大众汽车集团与中国企业合资 建设欧洲磷酸铁锂电池产能",
       "firstSeenAt": "2026-10-02T06:11:58.933Z",
-      "lastSeenAt": "2026-10-02T14:51:44.367Z",
+      "lastSeenAt": "2026-10-02T17:57:23.285Z",
       "latestItemPublishedAt": "2026-10-02T01:42:02.000Z",
       "primaryItemId": "news_6457cf7c0c88",
       "evidenceItemIds": [
@@ -233,7 +233,7 @@
       "clusterVersion": 2,
       "title": "恒指低开2.09%，恒生科技指数跌1.81%",
       "firstSeenAt": "2026-10-02T06:11:58.933Z",
-      "lastSeenAt": "2026-10-02T14:51:44.367Z",
+      "lastSeenAt": "2026-10-02T17:57:23.285Z",
       "latestItemPublishedAt": "2026-10-02T01:24:51.000Z",
       "primaryItemId": "news_e2cce1544fa4",
       "evidenceItemIds": [
@@ -249,7 +249,7 @@
       "clusterVersion": 2,
       "title": "华为与赛力斯达成新五年合作",
       "firstSeenAt": "2026-10-02T06:11:58.933Z",
-      "lastSeenAt": "2026-10-02T14:51:44.367Z",
+      "lastSeenAt": "2026-10-02T17:57:23.285Z",
       "latestItemPublishedAt": "2026-10-02T01:01:13.000Z",
       "primaryItemId": "news_60d5aca8d5f8",
       "evidenceItemIds": [
@@ -263,11 +263,11 @@
     {
       "eventId": "event_63d6c1a77164",
       "clusterVersion": 2,
-      "title": "日本央行纪要显示部分决策者认为有必要加快加息步伐，政府罕见发声施压日元走低",
+      "title": "东京通胀9月加速，日本央行进一步加息预期升温",
       "firstSeenAt": "2026-10-02T06:11:58.933Z",
-      "lastSeenAt": "2026-10-02T14:51:44.367Z",
+      "lastSeenAt": "2026-10-02T17:57:23.285Z",
       "latestItemPublishedAt": "2026-10-02T00:08:43.000Z",
-      "primaryItemId": "news_1804264a0fff",
+      "primaryItemId": "news_c9dff436648f",
       "evidenceItemIds": [
         "news_1804264a0fff",
         "news_c9dff436648f"
@@ -281,7 +281,7 @@
       "clusterVersion": 2,
       "title": "普京：很快所有人都将开中国车",
       "firstSeenAt": "2026-10-02T10:30:07.237Z",
-      "lastSeenAt": "2026-10-02T14:51:44.367Z",
+      "lastSeenAt": "2026-10-02T17:57:23.285Z",
       "latestItemPublishedAt": "2026-10-02T09:52:34.000Z",
       "primaryItemId": "news_4d533087caa8",
       "evidenceItemIds": [
@@ -297,7 +297,7 @@
       "clusterVersion": 2,
       "title": "美国9月新增就业2.9万逊于预期 中期选举前不加息概率升至83%",
       "firstSeenAt": "2026-09-30T13:40:58.103Z",
-      "lastSeenAt": "2026-10-02T14:51:44.367Z",
+      "lastSeenAt": "2026-10-02T17:57:23.285Z",
       "latestItemPublishedAt": "2026-10-02T13:57:15.000Z",
       "primaryItemId": "news_cbd30f4059ca",
       "evidenceItemIds": [

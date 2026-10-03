@@ -1,17 +1,17 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-03T05:51:40.546Z",
+  "generatedAt": "2026-10-03T09:57:49.973Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
       "eventId": "event_a3c5d0364922",
       "clusterVersion": 2,
-      "title": "晓数点｜一图速览9月A股月报",
+      "title": "A股节后上涨胜率超60%，机构：持股过节或更合算！外围股市上涨，股民盼着开门红",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-03T05:51:40.546Z",
-      "latestItemPublishedAt": "2026-10-01T09:42:57.000Z",
-      "primaryItemId": "news_f3c7a8eb5d37",
+      "lastSeenAt": "2026-10-03T09:57:49.973Z",
+      "latestItemPublishedAt": "2026-10-03T07:05:55.000Z",
+      "primaryItemId": "news_ab2f509e249b",
       "evidenceItemIds": [
         "news_943234fa21c3",
         "news_de9aae9a8f2f",
@@ -19,7 +19,8 @@
         "news_06fa44416513",
         "news_521c4cce405f",
         "news_88a9dd182dd9",
-        "news_f3c7a8eb5d37"
+        "news_f3c7a8eb5d37",
+        "news_ab2f509e249b"
       ],
       "status": "developing",
       "summary": "9月A股市场月报发布，以图表形式速览要点。",
@@ -28,11 +29,11 @@
     {
       "eventId": "event_f101880ef7bc",
       "clusterVersion": 2,
-      "title": "非农不及预期！加息前景再降温，美股收涨，特斯拉涨近5%，存储板块走弱，金银回落",
+      "title": "美股四季度“逼空”信号浮现：CTA仓位大撤退，1.3万亿美元回购蓄势待发",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-03T05:51:40.546Z",
-      "latestItemPublishedAt": "2026-10-02T23:18:05.000Z",
-      "primaryItemId": "news_b2e3c32775b6",
+      "lastSeenAt": "2026-10-03T09:57:49.973Z",
+      "latestItemPublishedAt": "2026-10-03T08:41:40.000Z",
+      "primaryItemId": "news_d16169f56c2c",
       "evidenceItemIds": [
         "news_19e0345bcec3",
         "news_9458584cb250",
@@ -51,7 +52,8 @@
         "news_ecbfd7e2abb6",
         "news_227fb0758330",
         "news_f5f409f9d2b0",
-        "news_b2e3c32775b6"
+        "news_b2e3c32775b6",
+        "news_d16169f56c2c"
       ],
       "status": "developing",
       "summary": "非农不及预期，加息预期降温，美股收涨，特斯拉涨近5%，存储走弱，金银回落。",
@@ -60,11 +62,11 @@
     {
       "eventId": "event_270c3bff1a30",
       "clusterVersion": 2,
-      "title": "机构高呼9月非农“杀死”10月加息预期！“新美联储通讯社”：就业报告未改联储立场，9月CPI更重要",
+      "title": "一批增量政策密集落地；美联储加息预期骤降｜一周热点回顾",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-03T05:51:40.546Z",
-      "latestItemPublishedAt": "2026-10-03T00:40:59.000Z",
-      "primaryItemId": "news_7aa5e1dfc105",
+      "lastSeenAt": "2026-10-03T09:57:49.973Z",
+      "latestItemPublishedAt": "2026-10-03T03:41:22.000Z",
+      "primaryItemId": "news_02724c6441fe",
       "evidenceItemIds": [
         "news_2549395149df",
         "news_68f1747fcdec",
@@ -78,7 +80,8 @@
         "news_4ba829ea46a0",
         "news_bfab9f46a7a0",
         "news_7aa5e1dfc105",
-        "news_e515d22b1720"
+        "news_e515d22b1720",
+        "news_02724c6441fe"
       ],
       "status": "developing",
       "summary": "8月PCE假降温引关注，方法修订或影响美联储加息路径判断。",
@@ -89,7 +92,7 @@
       "clusterVersion": 2,
       "title": "美国按揭贷款利率创4年来最大幅度周涨幅，加剧中选前美国人“可负担”压力",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-03T05:51:40.546Z",
+      "lastSeenAt": "2026-10-03T09:57:49.973Z",
       "latestItemPublishedAt": "2026-10-02T03:27:11.000Z",
       "primaryItemId": "news_dd5c5f982f92",
       "evidenceItemIds": [
@@ -105,11 +108,11 @@
     {
       "eventId": "event_c68d651d4ff9",
       "clusterVersion": 2,
-      "title": "彤程新材正式登陆港股市场，实现A+H两地上市",
+      "title": "中国超长债走强机构买盘扩张，美元区间震荡人民币震荡偏强，港股回调后估值优势凸显---1001宏观脱水",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-10-03T05:51:40.546Z",
-      "latestItemPublishedAt": "2026-10-02T02:30:28.000Z",
-      "primaryItemId": "news_43e41540c67e",
+      "lastSeenAt": "2026-10-03T09:57:49.973Z",
+      "latestItemPublishedAt": "2026-10-02T12:56:16.000Z",
+      "primaryItemId": "news_43da5cba1923",
       "evidenceItemIds": [
         "news_2b090183c8dd",
         "news_7c802606a071",
@@ -131,6 +134,127 @@
       "status": "developing",
       "summary": "彤程新材正式登陆港股，实现A+H两地上市。",
       "latestProgress": "最新报道未涉及彤程新材具体动态，港股整体震荡。"
+    },
+    {
+      "eventId": "event_2cf716748ce1",
+      "clusterVersion": 2,
+      "title": "全球央行艰难重启加息周期，这次有什么不同|海外市场月报",
+      "firstSeenAt": "2026-09-30T13:30:13.189Z",
+      "lastSeenAt": "2026-10-03T09:57:49.973Z",
+      "latestItemPublishedAt": "2026-10-02T06:35:18.000Z",
+      "primaryItemId": "news_7cce498ba7b6",
+      "evidenceItemIds": [
+        "news_5de8a00d999f",
+        "news_90f768d7e736",
+        "news_bdce82dbe6c8",
+        "news_9a0bf58b7497",
+        "news_79a109a7b441",
+        "news_7cce498ba7b6",
+        "news_570b6a39a4b5"
+      ],
+      "status": "developing",
+      "summary": "韩国核心通胀2.8%粘性未消，出口创纪录，央行11月加息预期升温。",
+      "latestProgress": "核心通胀2.8%粘性未消，出口1209亿美元创纪录，11月加息预期升温。"
+    },
+    {
+      "eventId": "event_1d2e538fe09b",
+      "clusterVersion": 2,
+      "title": "财新闻｜偷税等处罚细则有了全国统一标准，11月1日起施行",
+      "firstSeenAt": "2026-10-02T06:11:58.933Z",
+      "lastSeenAt": "2026-10-03T09:57:49.973Z",
+      "latestItemPublishedAt": "2026-10-02T04:15:40.000Z",
+      "primaryItemId": "news_bd2aa3b66859",
+      "evidenceItemIds": [
+        "news_bd2aa3b66859",
+        "news_32bf179393a8"
+      ],
+      "status": "developing",
+      "summary": "偷税等处罚细则全国统一，11月1日起施行。",
+      "latestProgress": "标准已明确，将于11月1日正式实施。"
+    },
+    {
+      "eventId": "event_63d6c1a77164",
+      "clusterVersion": 2,
+      "title": "日本央行加息、特朗普警告都没用？对冲基金重新做空日元",
+      "firstSeenAt": "2026-10-02T06:11:58.933Z",
+      "lastSeenAt": "2026-10-03T09:57:49.973Z",
+      "latestItemPublishedAt": "2026-10-03T02:06:20.000Z",
+      "primaryItemId": "news_c12568f80039",
+      "evidenceItemIds": [
+        "news_1804264a0fff",
+        "news_c9dff436648f",
+        "news_c12568f80039"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_66a333af8fce",
+      "clusterVersion": 2,
+      "title": "普京：很快所有人都将开中国车",
+      "firstSeenAt": "2026-10-02T10:30:07.237Z",
+      "lastSeenAt": "2026-10-03T09:57:49.973Z",
+      "latestItemPublishedAt": "2026-10-02T09:52:34.000Z",
+      "primaryItemId": "news_4d533087caa8",
+      "evidenceItemIds": [
+        "news_4d533087caa8",
+        "news_65c19fbc55f2"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_9d0ff617ba6e",
+      "clusterVersion": 2,
+      "title": "美国9月非农大幅低于预期 美股三大期指集体上涨 | 今夜看点",
+      "firstSeenAt": "2026-09-30T13:40:58.103Z",
+      "lastSeenAt": "2026-10-03T09:57:49.973Z",
+      "latestItemPublishedAt": "2026-10-02T12:53:19.000Z",
+      "primaryItemId": "news_37406c5c3644",
+      "evidenceItemIds": [
+        "news_d201010aedbe",
+        "news_c42b397270b0",
+        "news_691ae698b0ac",
+        "news_cbd30f4059ca",
+        "news_37406c5c3644"
+      ],
+      "status": "developing",
+      "summary": "美国8月PCE通胀低于预期，消费强劲，10月加息预期降温。",
+      "latestProgress": "美国8月核心PCE低于预期，美股高开，加息预期降温。"
+    },
+    {
+      "eventId": "event_157adcf7bc49",
+      "clusterVersion": 2,
+      "title": "华泰证券：AI链放量推动韩国出口继续攀升",
+      "firstSeenAt": "2026-10-03T09:57:49.973Z",
+      "lastSeenAt": "2026-10-03T09:57:49.973Z",
+      "latestItemPublishedAt": "2026-10-03T04:45:51.000Z",
+      "primaryItemId": "news_1e7aca1314e3",
+      "evidenceItemIds": [
+        "news_1e7aca1314e3",
+        "news_ca01aa0b9d0a"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_99b6c1e3a191",
+      "clusterVersion": 2,
+      "title": "华尔街见闻早餐FM-Radio | 2026年10月3日",
+      "firstSeenAt": "2026-10-03T09:57:49.973Z",
+      "lastSeenAt": "2026-10-03T09:57:49.973Z",
+      "latestItemPublishedAt": "2026-10-02T23:59:56.000Z",
+      "primaryItemId": "news_a8d16e17da7a",
+      "evidenceItemIds": [
+        "news_a8d16e17da7a",
+        "news_69ddf9be3394"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
     },
     {
       "eventId": "event_7a6d2af4562f",
@@ -186,43 +310,6 @@
       "latestProgress": ""
     },
     {
-      "eventId": "event_2cf716748ce1",
-      "clusterVersion": 2,
-      "title": "核心通胀2.8%粘性未消、出口1209亿美元创纪录，韩国央行11月加息预期升温",
-      "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-03T05:51:40.546Z",
-      "latestItemPublishedAt": "2026-10-02T06:35:18.000Z",
-      "primaryItemId": "news_570b6a39a4b5",
-      "evidenceItemIds": [
-        "news_5de8a00d999f",
-        "news_90f768d7e736",
-        "news_bdce82dbe6c8",
-        "news_9a0bf58b7497",
-        "news_79a109a7b441",
-        "news_7cce498ba7b6",
-        "news_570b6a39a4b5"
-      ],
-      "status": "developing",
-      "summary": "韩国核心通胀2.8%粘性未消，出口创纪录，央行11月加息预期升温。",
-      "latestProgress": "核心通胀2.8%粘性未消，出口1209亿美元创纪录，11月加息预期升温。"
-    },
-    {
-      "eventId": "event_1d2e538fe09b",
-      "clusterVersion": 2,
-      "title": "财新闻｜偷税等处罚细则有了全国统一标准，11月1日起施行",
-      "firstSeenAt": "2026-10-02T06:11:58.933Z",
-      "lastSeenAt": "2026-10-03T05:51:40.546Z",
-      "latestItemPublishedAt": "2026-10-02T04:15:40.000Z",
-      "primaryItemId": "news_bd2aa3b66859",
-      "evidenceItemIds": [
-        "news_bd2aa3b66859",
-        "news_32bf179393a8"
-      ],
-      "status": "developing",
-      "summary": "偷税等处罚细则全国统一，11月1日起施行。",
-      "latestProgress": "标准已明确，将于11月1日正式实施。"
-    },
-    {
       "eventId": "event_27bb6f7ea828",
       "clusterVersion": 2,
       "title": "能源内参｜福建电力现货市场转入正式运行；大众汽车集团与中国企业合资 建设欧洲磷酸铁锂电池产能",
@@ -270,58 +357,6 @@
       "status": "developing",
       "summary": "",
       "latestProgress": ""
-    },
-    {
-      "eventId": "event_63d6c1a77164",
-      "clusterVersion": 2,
-      "title": "日本央行加息、特朗普警告都没用？对冲基金重新做空日元",
-      "firstSeenAt": "2026-10-02T06:11:58.933Z",
-      "lastSeenAt": "2026-10-03T05:51:40.546Z",
-      "latestItemPublishedAt": "2026-10-03T02:06:20.000Z",
-      "primaryItemId": "news_c12568f80039",
-      "evidenceItemIds": [
-        "news_1804264a0fff",
-        "news_c9dff436648f",
-        "news_c12568f80039"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_66a333af8fce",
-      "clusterVersion": 2,
-      "title": "普京：很快所有人都将开中国车",
-      "firstSeenAt": "2026-10-02T10:30:07.237Z",
-      "lastSeenAt": "2026-10-03T05:51:40.546Z",
-      "latestItemPublishedAt": "2026-10-02T09:52:34.000Z",
-      "primaryItemId": "news_4d533087caa8",
-      "evidenceItemIds": [
-        "news_4d533087caa8",
-        "news_65c19fbc55f2"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_9d0ff617ba6e",
-      "clusterVersion": 2,
-      "title": "美国9月新增就业2.9万逊于预期 中期选举前不加息概率升至83%",
-      "firstSeenAt": "2026-09-30T13:40:58.103Z",
-      "lastSeenAt": "2026-10-03T05:51:40.546Z",
-      "latestItemPublishedAt": "2026-10-02T13:57:15.000Z",
-      "primaryItemId": "news_cbd30f4059ca",
-      "evidenceItemIds": [
-        "news_d201010aedbe",
-        "news_c42b397270b0",
-        "news_691ae698b0ac",
-        "news_cbd30f4059ca",
-        "news_37406c5c3644"
-      ],
-      "status": "developing",
-      "summary": "美国8月PCE通胀低于预期，消费强劲，10月加息预期降温。",
-      "latestProgress": "美国8月核心PCE低于预期，美股高开，加息预期降温。"
     },
     {
       "eventId": "event_ec4201b5d2bf",

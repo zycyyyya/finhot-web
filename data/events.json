@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-04T14:15:44.710Z",
+  "generatedAt": "2026-10-04T16:56:16.595Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -9,7 +9,7 @@
       "clusterVersion": 2,
       "title": "崔东树：9月美股汽车整车企业市值环比降5% 港股降11% A股降4%",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-04T14:15:44.710Z",
+      "lastSeenAt": "2026-10-04T16:56:16.595Z",
       "latestItemPublishedAt": "2026-10-04T06:00:00.000Z",
       "primaryItemId": "news_198de3964b7c",
       "evidenceItemIds": [
@@ -33,7 +33,7 @@
       "clusterVersion": 2,
       "title": "美股四季度“逼空”信号浮现：CTA仓位大撤退，1.3万亿美元回购蓄势待发",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-04T14:15:44.710Z",
+      "lastSeenAt": "2026-10-04T16:56:16.595Z",
       "latestItemPublishedAt": "2026-10-03T08:41:40.000Z",
       "primaryItemId": "news_d16169f56c2c",
       "evidenceItemIds": [
@@ -66,7 +66,7 @@
       "clusterVersion": 2,
       "title": "下周重磅日程：美伊与也门局势牵动油价、美联储纪要定价加息预期、诺贝尔奖揭晓",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-04T14:15:44.710Z",
+      "lastSeenAt": "2026-10-04T16:56:16.595Z",
       "latestItemPublishedAt": "2026-10-04T04:15:10.000Z",
       "primaryItemId": "news_8cbf5ca3fc2f",
       "evidenceItemIds": [
@@ -93,11 +93,11 @@
     {
       "eventId": "event_c68d651d4ff9",
       "clusterVersion": 2,
-      "title": "国信证券：9月以来外资流出港股互联网规模靠前",
+      "title": "智通港股投资日志|10月5日",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-10-04T14:15:44.710Z",
-      "latestItemPublishedAt": "2026-10-04T07:35:11.000Z",
-      "primaryItemId": "news_d073bec14996",
+      "lastSeenAt": "2026-10-04T16:56:16.595Z",
+      "latestItemPublishedAt": "2026-10-04T16:05:10.000Z",
+      "primaryItemId": "news_9a91c69e9266",
       "evidenceItemIds": [
         "news_2b090183c8dd",
         "news_7c802606a071",
@@ -115,7 +115,8 @@
         "news_43e41540c67e",
         "news_848533d5bbc8",
         "news_2c4752b4f0ea",
-        "news_d073bec14996"
+        "news_d073bec14996",
+        "news_9a91c69e9266"
       ],
       "status": "developing",
       "summary": "港股科技指数续创新低，深演智能累计涨幅超60%。",
@@ -126,7 +127,7 @@
       "clusterVersion": 2,
       "title": "全球央行艰难重启加息周期，这次有什么不同|海外市场月报",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-04T14:15:44.710Z",
+      "lastSeenAt": "2026-10-04T16:56:16.595Z",
       "latestItemPublishedAt": "2026-10-02T06:35:18.000Z",
       "primaryItemId": "news_7cce498ba7b6",
       "evidenceItemIds": [
@@ -147,7 +148,7 @@
       "clusterVersion": 2,
       "title": "日本央行加息、特朗普警告都没用？对冲基金重新做空日元",
       "firstSeenAt": "2026-10-02T06:11:58.933Z",
-      "lastSeenAt": "2026-10-04T14:15:44.710Z",
+      "lastSeenAt": "2026-10-04T16:56:16.595Z",
       "latestItemPublishedAt": "2026-10-03T02:06:20.000Z",
       "primaryItemId": "news_c12568f80039",
       "evidenceItemIds": [
@@ -164,7 +165,7 @@
       "clusterVersion": 2,
       "title": "美国9月新增就业2.9万逊于预期 中期选举前不加息概率升至83%",
       "firstSeenAt": "2026-09-30T13:40:58.103Z",
-      "lastSeenAt": "2026-10-04T14:15:44.710Z",
+      "lastSeenAt": "2026-10-04T16:56:16.595Z",
       "latestItemPublishedAt": "2026-10-02T13:57:15.000Z",
       "primaryItemId": "news_cbd30f4059ca",
       "evidenceItemIds": [
@@ -183,7 +184,7 @@
       "clusterVersion": 2,
       "title": "华泰证券：美联储难以在10月连续加息 基准情形下12月再次加息",
       "firstSeenAt": "2026-10-03T09:57:49.973Z",
-      "lastSeenAt": "2026-10-04T14:15:44.710Z",
+      "lastSeenAt": "2026-10-04T16:56:16.595Z",
       "latestItemPublishedAt": "2026-10-03T04:45:51.000Z",
       "primaryItemId": "news_ca01aa0b9d0a",
       "evidenceItemIds": [
@@ -199,7 +200,7 @@
       "clusterVersion": 2,
       "title": "华尔街见闻早餐FM-Radio | 2026年10月3日",
       "firstSeenAt": "2026-10-03T09:57:49.973Z",
-      "lastSeenAt": "2026-10-04T14:15:44.710Z",
+      "lastSeenAt": "2026-10-04T16:56:16.595Z",
       "latestItemPublishedAt": "2026-10-02T23:59:56.000Z",
       "primaryItemId": "news_a8d16e17da7a",
       "evidenceItemIds": [
@@ -215,7 +216,7 @@
       "clusterVersion": 2,
       "title": "7.5%房贷利率有多可怕？美国博主算账：贷款50万美元，3年还12.6万，本金只少1.5万",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-04T14:15:44.710Z",
+      "lastSeenAt": "2026-10-04T16:56:16.595Z",
       "latestItemPublishedAt": "2026-10-04T12:03:25.000Z",
       "primaryItemId": "news_2679482aa2ad",
       "evidenceItemIds": [
@@ -228,6 +229,26 @@
       "status": "developing",
       "summary": "特朗普称高利率糟糕，不怪沃什，将尽快填充战略石油储备。",
       "latestProgress": "美国按揭贷款利率创4年最大周涨幅，加剧中期选举前压力。"
+    },
+    {
+      "eventId": "event_7a6d2af4562f",
+      "clusterVersion": 2,
+      "title": "连平：美联储货币政策紧缩效应几何 | 国庆大咖谈",
+      "firstSeenAt": "2026-09-30T13:30:13.189Z",
+      "lastSeenAt": "2026-10-04T16:56:16.595Z",
+      "latestItemPublishedAt": "2026-10-03T03:41:22.000Z",
+      "primaryItemId": "news_d97ee6ad6468",
+      "evidenceItemIds": [
+        "news_bec3501fa712",
+        "news_bfa2b561dd1f",
+        "news_1813ef46c88c",
+        "news_d97ee6ad6468",
+        "news_5595e0c553cd",
+        "news_02724c6441fe"
+      ],
+      "status": "developing",
+      "summary": "连平分析美联储货币政策紧缩效应，引发关注。",
+      "latestProgress": "一批增量政策密集落地，美联储加息预期骤降。"
     },
     {
       "eventId": "event_66a333af8fce",
@@ -244,26 +265,6 @@
       "status": "developing",
       "summary": "",
       "latestProgress": ""
-    },
-    {
-      "eventId": "event_7a6d2af4562f",
-      "clusterVersion": 2,
-      "title": "连平：美联储货币政策紧缩效应几何 | 国庆大咖谈",
-      "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-04T06:27:31.850Z",
-      "latestItemPublishedAt": "2026-10-01T02:05:36.000Z",
-      "primaryItemId": "news_d97ee6ad6468",
-      "evidenceItemIds": [
-        "news_bec3501fa712",
-        "news_bfa2b561dd1f",
-        "news_1813ef46c88c",
-        "news_d97ee6ad6468",
-        "news_5595e0c553cd",
-        "news_02724c6441fe"
-      ],
-      "status": "developing",
-      "summary": "连平分析美联储货币政策紧缩效应，引发关注。",
-      "latestProgress": "一批增量政策密集落地，美联储加息预期骤降。"
     },
     {
       "eventId": "event_ec4201b5d2bf",

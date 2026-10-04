@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-04T10:39:06.762Z",
+  "generatedAt": "2026-10-04T14:15:44.710Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -9,7 +9,7 @@
       "clusterVersion": 2,
       "title": "崔东树：9月美股汽车整车企业市值环比降5% 港股降11% A股降4%",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-04T10:39:06.762Z",
+      "lastSeenAt": "2026-10-04T14:15:44.710Z",
       "latestItemPublishedAt": "2026-10-04T06:00:00.000Z",
       "primaryItemId": "news_198de3964b7c",
       "evidenceItemIds": [
@@ -33,7 +33,7 @@
       "clusterVersion": 2,
       "title": "美股四季度“逼空”信号浮现：CTA仓位大撤退，1.3万亿美元回购蓄势待发",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-04T10:39:06.762Z",
+      "lastSeenAt": "2026-10-04T14:15:44.710Z",
       "latestItemPublishedAt": "2026-10-03T08:41:40.000Z",
       "primaryItemId": "news_d16169f56c2c",
       "evidenceItemIds": [
@@ -66,7 +66,7 @@
       "clusterVersion": 2,
       "title": "下周重磅日程：美伊与也门局势牵动油价、美联储纪要定价加息预期、诺贝尔奖揭晓",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-04T10:39:06.762Z",
+      "lastSeenAt": "2026-10-04T14:15:44.710Z",
       "latestItemPublishedAt": "2026-10-04T04:15:10.000Z",
       "primaryItemId": "news_8cbf5ca3fc2f",
       "evidenceItemIds": [
@@ -95,7 +95,7 @@
       "clusterVersion": 2,
       "title": "国信证券：9月以来外资流出港股互联网规模靠前",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-10-04T10:39:06.762Z",
+      "lastSeenAt": "2026-10-04T14:15:44.710Z",
       "latestItemPublishedAt": "2026-10-04T07:35:11.000Z",
       "primaryItemId": "news_d073bec14996",
       "evidenceItemIds": [
@@ -126,7 +126,7 @@
       "clusterVersion": 2,
       "title": "全球央行艰难重启加息周期，这次有什么不同|海外市场月报",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-04T10:39:06.762Z",
+      "lastSeenAt": "2026-10-04T14:15:44.710Z",
       "latestItemPublishedAt": "2026-10-02T06:35:18.000Z",
       "primaryItemId": "news_7cce498ba7b6",
       "evidenceItemIds": [
@@ -147,7 +147,7 @@
       "clusterVersion": 2,
       "title": "日本央行加息、特朗普警告都没用？对冲基金重新做空日元",
       "firstSeenAt": "2026-10-02T06:11:58.933Z",
-      "lastSeenAt": "2026-10-04T10:39:06.762Z",
+      "lastSeenAt": "2026-10-04T14:15:44.710Z",
       "latestItemPublishedAt": "2026-10-03T02:06:20.000Z",
       "primaryItemId": "news_c12568f80039",
       "evidenceItemIds": [
@@ -162,11 +162,11 @@
     {
       "eventId": "event_9d0ff617ba6e",
       "clusterVersion": 2,
-      "title": "美国9月非农大幅低于预期 美股三大期指集体上涨 | 今夜看点",
+      "title": "美国9月新增就业2.9万逊于预期 中期选举前不加息概率升至83%",
       "firstSeenAt": "2026-09-30T13:40:58.103Z",
-      "lastSeenAt": "2026-10-04T10:39:06.762Z",
-      "latestItemPublishedAt": "2026-10-02T12:53:19.000Z",
-      "primaryItemId": "news_37406c5c3644",
+      "lastSeenAt": "2026-10-04T14:15:44.710Z",
+      "latestItemPublishedAt": "2026-10-02T13:57:15.000Z",
+      "primaryItemId": "news_cbd30f4059ca",
       "evidenceItemIds": [
         "news_d201010aedbe",
         "news_c42b397270b0",
@@ -183,7 +183,7 @@
       "clusterVersion": 2,
       "title": "华泰证券：美联储难以在10月连续加息 基准情形下12月再次加息",
       "firstSeenAt": "2026-10-03T09:57:49.973Z",
-      "lastSeenAt": "2026-10-04T10:39:06.762Z",
+      "lastSeenAt": "2026-10-04T14:15:44.710Z",
       "latestItemPublishedAt": "2026-10-03T04:45:51.000Z",
       "primaryItemId": "news_ca01aa0b9d0a",
       "evidenceItemIds": [
@@ -199,7 +199,7 @@
       "clusterVersion": 2,
       "title": "华尔街见闻早餐FM-Radio | 2026年10月3日",
       "firstSeenAt": "2026-10-03T09:57:49.973Z",
-      "lastSeenAt": "2026-10-04T10:39:06.762Z",
+      "lastSeenAt": "2026-10-04T14:15:44.710Z",
       "latestItemPublishedAt": "2026-10-02T23:59:56.000Z",
       "primaryItemId": "news_a8d16e17da7a",
       "evidenceItemIds": [
@@ -209,6 +209,25 @@
       "status": "developing",
       "summary": "",
       "latestProgress": ""
+    },
+    {
+      "eventId": "event_cba1a5ffd9bc",
+      "clusterVersion": 2,
+      "title": "7.5%房贷利率有多可怕？美国博主算账：贷款50万美元，3年还12.6万，本金只少1.5万",
+      "firstSeenAt": "2026-09-30T13:30:13.189Z",
+      "lastSeenAt": "2026-10-04T14:15:44.710Z",
+      "latestItemPublishedAt": "2026-10-04T12:03:25.000Z",
+      "primaryItemId": "news_2679482aa2ad",
+      "evidenceItemIds": [
+        "news_2e94c3711894",
+        "news_80c8c35c9cb0",
+        "news_bec32e135b03",
+        "news_dd5c5f982f92",
+        "news_2679482aa2ad"
+      ],
+      "status": "developing",
+      "summary": "特朗普称高利率糟糕，不怪沃什，将尽快填充战略石油储备。",
+      "latestProgress": "美国按揭贷款利率创4年最大周涨幅，加剧中期选举前压力。"
     },
     {
       "eventId": "event_66a333af8fce",
@@ -325,24 +344,6 @@
       "status": "developing",
       "summary": "偷税等处罚细则全国统一，11月1日起施行。",
       "latestProgress": "标准已明确，将于11月1日正式实施。"
-    },
-    {
-      "eventId": "event_cba1a5ffd9bc",
-      "clusterVersion": 2,
-      "title": "美国按揭贷款利率创4年来最大幅度周涨幅，加剧中选前美国人“可负担”压力",
-      "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-03T09:57:49.973Z",
-      "latestItemPublishedAt": "2026-10-02T03:27:11.000Z",
-      "primaryItemId": "news_dd5c5f982f92",
-      "evidenceItemIds": [
-        "news_2e94c3711894",
-        "news_80c8c35c9cb0",
-        "news_bec32e135b03",
-        "news_dd5c5f982f92"
-      ],
-      "status": "developing",
-      "summary": "特朗普称高利率糟糕，不怪沃什，将尽快填充战略石油储备。",
-      "latestProgress": "美国按揭贷款利率创4年最大周涨幅，加剧中期选举前压力。"
     },
     {
       "eventId": "event_ee80a8259ecc",

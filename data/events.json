@@ -1,17 +1,17 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-04T06:27:31.850Z",
+  "generatedAt": "2026-10-04T10:39:06.762Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
       "eventId": "event_a3c5d0364922",
       "clusterVersion": 2,
-      "title": "晓数点｜一图速览9月A股月报",
+      "title": "崔东树：9月美股汽车整车企业市值环比降5% 港股降11% A股降4%",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-04T06:27:31.850Z",
-      "latestItemPublishedAt": "2026-10-01T09:42:57.000Z",
-      "primaryItemId": "news_f3c7a8eb5d37",
+      "lastSeenAt": "2026-10-04T10:39:06.762Z",
+      "latestItemPublishedAt": "2026-10-04T06:00:00.000Z",
+      "primaryItemId": "news_198de3964b7c",
       "evidenceItemIds": [
         "news_943234fa21c3",
         "news_de9aae9a8f2f",
@@ -20,7 +20,9 @@
         "news_521c4cce405f",
         "news_88a9dd182dd9",
         "news_f3c7a8eb5d37",
-        "news_ab2f509e249b"
+        "news_ab2f509e249b",
+        "news_198de3964b7c",
+        "news_32db98e8f039"
       ],
       "status": "developing",
       "summary": "9月A股月报发布，一图速览市场表现。",
@@ -31,7 +33,7 @@
       "clusterVersion": 2,
       "title": "美股四季度“逼空”信号浮现：CTA仓位大撤退，1.3万亿美元回购蓄势待发",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-04T06:27:31.850Z",
+      "lastSeenAt": "2026-10-04T10:39:06.762Z",
       "latestItemPublishedAt": "2026-10-03T08:41:40.000Z",
       "primaryItemId": "news_d16169f56c2c",
       "evidenceItemIds": [
@@ -62,11 +64,11 @@
     {
       "eventId": "event_270c3bff1a30",
       "clusterVersion": 2,
-      "title": "机构高呼9月非农“杀死”10月加息预期！“新美联储通讯社”：就业报告未改联储立场，9月CPI更重要",
+      "title": "下周重磅日程：美伊与也门局势牵动油价、美联储纪要定价加息预期、诺贝尔奖揭晓",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-04T06:27:31.850Z",
-      "latestItemPublishedAt": "2026-10-03T00:40:59.000Z",
-      "primaryItemId": "news_7aa5e1dfc105",
+      "lastSeenAt": "2026-10-04T10:39:06.762Z",
+      "latestItemPublishedAt": "2026-10-04T04:15:10.000Z",
+      "primaryItemId": "news_8cbf5ca3fc2f",
       "evidenceItemIds": [
         "news_2549395149df",
         "news_68f1747fcdec",
@@ -91,11 +93,11 @@
     {
       "eventId": "event_c68d651d4ff9",
       "clusterVersion": 2,
-      "title": "港股收盘 | 科技指数周内续创新低 深演智能累计涨幅超60%",
+      "title": "国信证券：9月以来外资流出港股互联网规模靠前",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-10-04T06:27:31.850Z",
-      "latestItemPublishedAt": "2026-10-02T09:00:04.000Z",
-      "primaryItemId": "news_9efc31ad2c41",
+      "lastSeenAt": "2026-10-04T10:39:06.762Z",
+      "latestItemPublishedAt": "2026-10-04T07:35:11.000Z",
+      "primaryItemId": "news_d073bec14996",
       "evidenceItemIds": [
         "news_2b090183c8dd",
         "news_7c802606a071",
@@ -112,7 +114,8 @@
         "news_e11038186574",
         "news_43e41540c67e",
         "news_848533d5bbc8",
-        "news_2c4752b4f0ea"
+        "news_2c4752b4f0ea",
+        "news_d073bec14996"
       ],
       "status": "developing",
       "summary": "港股科技指数续创新低，深演智能累计涨幅超60%。",
@@ -123,8 +126,8 @@
       "clusterVersion": 2,
       "title": "全球央行艰难重启加息周期，这次有什么不同|海外市场月报",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-04T06:27:31.850Z",
-      "latestItemPublishedAt": "2026-10-02T02:33:27.000Z",
+      "lastSeenAt": "2026-10-04T10:39:06.762Z",
+      "latestItemPublishedAt": "2026-10-02T06:35:18.000Z",
       "primaryItemId": "news_7cce498ba7b6",
       "evidenceItemIds": [
         "news_5de8a00d999f",
@@ -144,7 +147,7 @@
       "clusterVersion": 2,
       "title": "日本央行加息、特朗普警告都没用？对冲基金重新做空日元",
       "firstSeenAt": "2026-10-02T06:11:58.933Z",
-      "lastSeenAt": "2026-10-04T06:27:31.850Z",
+      "lastSeenAt": "2026-10-04T10:39:06.762Z",
       "latestItemPublishedAt": "2026-10-03T02:06:20.000Z",
       "primaryItemId": "news_c12568f80039",
       "evidenceItemIds": [
@@ -157,27 +160,11 @@
       "latestProgress": ""
     },
     {
-      "eventId": "event_66a333af8fce",
-      "clusterVersion": 2,
-      "title": "普京：很快所有人都将开中国车",
-      "firstSeenAt": "2026-10-02T10:30:07.237Z",
-      "lastSeenAt": "2026-10-04T06:27:31.850Z",
-      "latestItemPublishedAt": "2026-10-02T09:52:34.000Z",
-      "primaryItemId": "news_4d533087caa8",
-      "evidenceItemIds": [
-        "news_4d533087caa8",
-        "news_65c19fbc55f2"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
       "eventId": "event_9d0ff617ba6e",
       "clusterVersion": 2,
       "title": "美国9月非农大幅低于预期 美股三大期指集体上涨 | 今夜看点",
       "firstSeenAt": "2026-09-30T13:40:58.103Z",
-      "lastSeenAt": "2026-10-04T06:27:31.850Z",
+      "lastSeenAt": "2026-10-04T10:39:06.762Z",
       "latestItemPublishedAt": "2026-10-02T12:53:19.000Z",
       "primaryItemId": "news_37406c5c3644",
       "evidenceItemIds": [
@@ -196,7 +183,7 @@
       "clusterVersion": 2,
       "title": "华泰证券：美联储难以在10月连续加息 基准情形下12月再次加息",
       "firstSeenAt": "2026-10-03T09:57:49.973Z",
-      "lastSeenAt": "2026-10-04T06:27:31.850Z",
+      "lastSeenAt": "2026-10-04T10:39:06.762Z",
       "latestItemPublishedAt": "2026-10-03T04:45:51.000Z",
       "primaryItemId": "news_ca01aa0b9d0a",
       "evidenceItemIds": [
@@ -212,12 +199,28 @@
       "clusterVersion": 2,
       "title": "华尔街见闻早餐FM-Radio | 2026年10月3日",
       "firstSeenAt": "2026-10-03T09:57:49.973Z",
-      "lastSeenAt": "2026-10-04T06:27:31.850Z",
+      "lastSeenAt": "2026-10-04T10:39:06.762Z",
       "latestItemPublishedAt": "2026-10-02T23:59:56.000Z",
       "primaryItemId": "news_a8d16e17da7a",
       "evidenceItemIds": [
         "news_a8d16e17da7a",
         "news_69ddf9be3394"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_66a333af8fce",
+      "clusterVersion": 2,
+      "title": "普京：很快所有人都将开中国车",
+      "firstSeenAt": "2026-10-02T10:30:07.237Z",
+      "lastSeenAt": "2026-10-04T06:27:31.850Z",
+      "latestItemPublishedAt": "2026-10-02T09:52:34.000Z",
+      "primaryItemId": "news_4d533087caa8",
+      "evidenceItemIds": [
+        "news_4d533087caa8",
+        "news_65c19fbc55f2"
       ],
       "status": "developing",
       "summary": "",

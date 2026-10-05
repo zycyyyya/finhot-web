@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-05T17:16:10.682Z",
+  "generatedAt": "2026-10-05T20:40:30.893Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -9,7 +9,7 @@
       "clusterVersion": 2,
       "title": "崔东树：9月美股汽车整车企业市值环比降5% 港股降11% A股降4%",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-05T17:16:10.682Z",
+      "lastSeenAt": "2026-10-05T20:40:30.893Z",
       "latestItemPublishedAt": "2026-10-04T06:00:00.000Z",
       "primaryItemId": "news_198de3964b7c",
       "evidenceItemIds": [
@@ -31,11 +31,11 @@
     {
       "eventId": "event_f101880ef7bc",
       "clusterVersion": 2,
-      "title": "美股四季度“逼空”信号浮现：CTA仓位大撤退，1.3万亿美元回购蓄势待发",
+      "title": "一半的股票已进入熊市！美股走到“十字路口”，关键看美债波动率",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-05T17:16:10.682Z",
+      "lastSeenAt": "2026-10-05T20:40:30.893Z",
       "latestItemPublishedAt": "2026-10-05T16:54:27.000Z",
-      "primaryItemId": "news_d16169f56c2c",
+      "primaryItemId": "news_12894a198cdd",
       "evidenceItemIds": [
         "news_19e0345bcec3",
         "news_9458584cb250",
@@ -58,7 +58,8 @@
         "news_d16169f56c2c",
         "news_7818135fe424",
         "news_6edfe4751ab8",
-        "news_12894a198cdd"
+        "news_12894a198cdd",
+        "news_e3e94b1c4834"
       ],
       "status": "developing",
       "summary": "美股12月起迈入23小时交易时代，华尔街将“通宵”。",
@@ -69,7 +70,7 @@
       "clusterVersion": 2,
       "title": "一批增量政策密集落地；美联储加息预期骤降｜一周热点回顾",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-05T17:16:10.682Z",
+      "lastSeenAt": "2026-10-05T20:40:30.893Z",
       "latestItemPublishedAt": "2026-10-04T23:05:17.000Z",
       "primaryItemId": "news_02724c6441fe",
       "evidenceItemIds": [
@@ -101,7 +102,7 @@
       "clusterVersion": 2,
       "title": "智通港股投资日志|10月5日",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-10-05T17:16:10.682Z",
+      "lastSeenAt": "2026-10-05T20:40:30.893Z",
       "latestItemPublishedAt": "2026-10-05T13:15:07.000Z",
       "primaryItemId": "news_9a91c69e9266",
       "evidenceItemIds": [
@@ -138,7 +139,7 @@
       "clusterVersion": 2,
       "title": "中国央行结构性降息与债市盘整，中国9月PMI重回扩张---W40国内宏观脱水",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-05T17:16:10.682Z",
+      "lastSeenAt": "2026-10-05T20:40:30.893Z",
       "latestItemPublishedAt": "2026-10-04T22:17:15.000Z",
       "primaryItemId": "news_1035aecf181c",
       "evidenceItemIds": [
@@ -160,7 +161,7 @@
       "clusterVersion": 2,
       "title": "华尔街见闻早餐FM-Radio | 2026年10月5日",
       "firstSeenAt": "2026-10-03T09:57:49.973Z",
-      "lastSeenAt": "2026-10-05T17:16:10.682Z",
+      "lastSeenAt": "2026-10-05T20:40:30.893Z",
       "latestItemPublishedAt": "2026-10-04T23:00:11.000Z",
       "primaryItemId": "news_da00dec8ad17",
       "evidenceItemIds": [
@@ -177,7 +178,7 @@
       "clusterVersion": 2,
       "title": "7.5%房贷利率有多可怕？美国博主算账：贷款50万美元，3年还12.6万，本金只少1.5万",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-05T17:16:10.682Z",
+      "lastSeenAt": "2026-10-05T20:40:30.893Z",
       "latestItemPublishedAt": "2026-10-04T12:03:25.000Z",
       "primaryItemId": "news_2679482aa2ad",
       "evidenceItemIds": [
@@ -196,7 +197,7 @@
       "clusterVersion": 2,
       "title": "AI进化速递丨华为与高通宣布达成广泛专利许可协议",
       "firstSeenAt": "2026-10-05T17:16:10.682Z",
-      "lastSeenAt": "2026-10-05T17:16:10.682Z",
+      "lastSeenAt": "2026-10-05T20:40:30.893Z",
       "latestItemPublishedAt": "2026-10-05T13:00:07.000Z",
       "primaryItemId": "news_e689c676b03b",
       "evidenceItemIds": [
@@ -212,12 +213,29 @@
       "clusterVersion": 2,
       "title": "现房销售新政叠加房贷贴息落地，多地国庆楼市表现亮眼",
       "firstSeenAt": "2026-10-05T17:16:10.682Z",
-      "lastSeenAt": "2026-10-05T17:16:10.682Z",
+      "lastSeenAt": "2026-10-05T20:40:30.893Z",
       "latestItemPublishedAt": "2026-10-05T12:55:17.000Z",
       "primaryItemId": "news_f8410f653bea",
       "evidenceItemIds": [
         "news_f8410f653bea",
         "news_8523619ea358"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_9fd716aed68c",
+      "clusterVersion": 2,
+      "title": "商务部新闻发言人就二十国集团贸易部长会议及相关情况答记者问",
+      "firstSeenAt": "2026-10-04T06:27:31.850Z",
+      "lastSeenAt": "2026-10-05T20:40:30.893Z",
+      "latestItemPublishedAt": "2026-10-04T04:04:17.000Z",
+      "primaryItemId": "news_1ec8560943d0",
+      "evidenceItemIds": [
+        "news_24d272e42e6a",
+        "news_2ab3082270c9",
+        "news_1ec8560943d0"
       ],
       "status": "developing",
       "summary": "",
@@ -274,22 +292,6 @@
       "status": "developing",
       "summary": "华泰证券称美联储10月难连续加息，基准情形下12月或再加息。",
       "latestProgress": "华泰证券维持判断：美联储基准情形下12月再次加息。"
-    },
-    {
-      "eventId": "event_9fd716aed68c",
-      "clusterVersion": 2,
-      "title": "商务部新闻发言人就二十国集团贸易部长会议及相关情况答记者问",
-      "firstSeenAt": "2026-10-04T06:27:31.850Z",
-      "lastSeenAt": "2026-10-05T06:18:08.041Z",
-      "latestItemPublishedAt": "2026-10-04T04:04:17.000Z",
-      "primaryItemId": "news_24d272e42e6a",
-      "evidenceItemIds": [
-        "news_24d272e42e6a",
-        "news_2ab3082270c9"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
     },
     {
       "eventId": "event_090656555f3a",

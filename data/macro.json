@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-10-05T17:16:10.682Z",
+  "updatedAt": "2026-10-05T20:40:30.893Z",
   "note": "auto 指标由 scripts/macro.js 每日自动刷新；manual 指标为人工核实值，核实日期见 asOf。",
   "indicators": [
     {
@@ -56,16 +56,16 @@
     {
       "key": "us10y",
       "name": "美债 10年期",
-      "value": "5.28%",
-      "numericValue": 5.28,
-      "note": "较10月1日 5.24% 上升",
+      "value": "5.31%",
+      "numericValue": 5.31,
+      "note": "较10月2日 5.28% 上升",
       "direction": "up",
-      "asOf": "2026-10-02",
+      "asOf": "2026-10-05",
       "source": "美国财政部",
       "mode": "auto",
-      "prevValue": "5.24%",
-      "prevNumericValue": 5.24,
-      "prevAsOf": "2026-10-01"
+      "prevValue": "5.28%",
+      "prevNumericValue": 5.28,
+      "prevAsOf": "2026-10-02"
     },
     {
       "key": "fedRate",
@@ -95,8 +95,8 @@
     {
       "key": "gold",
       "name": "现货黄金",
-      "value": "$4,131",
-      "numericValue": 4131.100098,
+      "value": "$4,140",
+      "numericValue": 4140.399902,
       "note": "较10月4日 $4,142 下降",
       "direction": "down",
       "asOf": "2026-10-05",

@@ -1,17 +1,17 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-04T16:56:16.595Z",
+  "generatedAt": "2026-10-05T06:18:08.041Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
       "eventId": "event_a3c5d0364922",
       "clusterVersion": 2,
-      "title": "崔东树：9月美股汽车整车企业市值环比降5% 港股降11% A股降4%",
+      "title": "A股节后上涨胜率超60%，机构：持股过节或更合算！外围股市上涨，股民盼着开门红",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-04T16:56:16.595Z",
-      "latestItemPublishedAt": "2026-10-04T06:00:00.000Z",
-      "primaryItemId": "news_198de3964b7c",
+      "lastSeenAt": "2026-10-05T06:18:08.041Z",
+      "latestItemPublishedAt": "2026-10-03T07:05:55.000Z",
+      "primaryItemId": "news_ab2f509e249b",
       "evidenceItemIds": [
         "news_943234fa21c3",
         "news_de9aae9a8f2f",
@@ -31,11 +31,11 @@
     {
       "eventId": "event_f101880ef7bc",
       "clusterVersion": 2,
-      "title": "美股四季度“逼空”信号浮现：CTA仓位大撤退，1.3万亿美元回购蓄势待发",
+      "title": "美股要“通宵”了！12月起迈入23小时交易时代",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-04T16:56:16.595Z",
-      "latestItemPublishedAt": "2026-10-03T08:41:40.000Z",
-      "primaryItemId": "news_d16169f56c2c",
+      "lastSeenAt": "2026-10-05T06:18:08.041Z",
+      "latestItemPublishedAt": "2026-10-03T04:35:09.000Z",
+      "primaryItemId": "news_227fb0758330",
       "evidenceItemIds": [
         "news_19e0345bcec3",
         "news_9458584cb250",
@@ -58,17 +58,17 @@
         "news_d16169f56c2c"
       ],
       "status": "developing",
-      "summary": "美股四季度逼空信号浮现，CTA仓位大撤退，1.3万亿美元回购蓄势待发。",
-      "latestProgress": "10月3日报告揭示CTA仓位撤退与万亿回购，逼空信号显现。"
+      "summary": "美股12月起迈入23小时交易时代，华尔街将“通宵”。",
+      "latestProgress": "23/5交易模式倒计时，全球资金接力或强化长牛之路。"
     },
     {
       "eventId": "event_270c3bff1a30",
       "clusterVersion": 2,
-      "title": "下周重磅日程：美伊与也门局势牵动油价、美联储纪要定价加息预期、诺贝尔奖揭晓",
+      "title": "加息预期骤变！美联储官员鹰派立场软化 又一大行“撕报告”",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-04T16:56:16.595Z",
-      "latestItemPublishedAt": "2026-10-04T04:15:10.000Z",
-      "primaryItemId": "news_8cbf5ca3fc2f",
+      "lastSeenAt": "2026-10-05T06:18:08.041Z",
+      "latestItemPublishedAt": "2026-10-03T00:40:59.000Z",
+      "primaryItemId": "news_e515d22b1720",
       "evidenceItemIds": [
         "news_2549395149df",
         "news_68f1747fcdec",
@@ -84,7 +84,9 @@
         "news_7aa5e1dfc105",
         "news_e515d22b1720",
         "news_02724c6441fe",
-        "news_8cbf5ca3fc2f"
+        "news_8cbf5ca3fc2f",
+        "news_d97ee6ad6468",
+        "news_bec3501fa712"
       ],
       "status": "developing",
       "summary": "非农爆冷致10月加息预期骤降，但美联储立场未改，聚焦9月CPI。",
@@ -93,11 +95,11 @@
     {
       "eventId": "event_c68d651d4ff9",
       "clusterVersion": 2,
-      "title": "智通港股投资日志|10月5日",
+      "title": "国信证券：9月以来外资流出港股互联网规模靠前",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-10-04T16:56:16.595Z",
-      "latestItemPublishedAt": "2026-10-04T16:05:10.000Z",
-      "primaryItemId": "news_9a91c69e9266",
+      "lastSeenAt": "2026-10-05T06:18:08.041Z",
+      "latestItemPublishedAt": "2026-10-04T07:35:11.000Z",
+      "primaryItemId": "news_d073bec14996",
       "evidenceItemIds": [
         "news_2b090183c8dd",
         "news_7c802606a071",
@@ -116,19 +118,20 @@
         "news_848533d5bbc8",
         "news_2c4752b4f0ea",
         "news_d073bec14996",
-        "news_9a91c69e9266"
+        "news_9a91c69e9266",
+        "news_9bd9c11b4dea"
       ],
       "status": "developing",
-      "summary": "港股科技指数续创新低，深演智能累计涨幅超60%。",
-      "latestProgress": "恒指再跌破24000点，美债扰动下港股前景承压。"
+      "summary": "国信证券：9月以来外资流出港股互联网规模靠前。",
+      "latestProgress": "智谱港股涨超5%。"
     },
     {
       "eventId": "event_2cf716748ce1",
       "clusterVersion": 2,
       "title": "全球央行艰难重启加息周期，这次有什么不同|海外市场月报",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-04T16:56:16.595Z",
-      "latestItemPublishedAt": "2026-10-02T06:35:18.000Z",
+      "lastSeenAt": "2026-10-05T06:18:08.041Z",
+      "latestItemPublishedAt": "2026-10-02T02:33:27.000Z",
       "primaryItemId": "news_7cce498ba7b6",
       "evidenceItemIds": [
         "news_5de8a00d999f",
@@ -137,18 +140,19 @@
         "news_9a0bf58b7497",
         "news_79a109a7b441",
         "news_7cce498ba7b6",
-        "news_570b6a39a4b5"
+        "news_570b6a39a4b5",
+        "news_1035aecf181c"
       ],
       "status": "developing",
-      "summary": "全球央行艰难重启加息周期，韩国央行11月加息预期升温。",
-      "latestProgress": "韩国核心通胀2.8%粘性未消，出口创纪录，市场预计11月加息。"
+      "summary": "全球央行艰难重启加息周期，市场关注政策分化与通胀压力。",
+      "latestProgress": "中国央行结构性降息，9月PMI重回扩张，债市盘整。"
     },
     {
       "eventId": "event_63d6c1a77164",
       "clusterVersion": 2,
       "title": "日本央行加息、特朗普警告都没用？对冲基金重新做空日元",
       "firstSeenAt": "2026-10-02T06:11:58.933Z",
-      "lastSeenAt": "2026-10-04T16:56:16.595Z",
+      "lastSeenAt": "2026-10-05T06:18:08.041Z",
       "latestItemPublishedAt": "2026-10-03T02:06:20.000Z",
       "primaryItemId": "news_c12568f80039",
       "evidenceItemIds": [
@@ -157,15 +161,15 @@
         "news_c12568f80039"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "日本央行加息及特朗普警告未奏效，对冲基金重新做空日元。",
+      "latestProgress": "10月3日报道称，东京通胀加速推升加息预期，但基金仍做空日元。"
     },
     {
       "eventId": "event_9d0ff617ba6e",
       "clusterVersion": 2,
       "title": "美国9月新增就业2.9万逊于预期 中期选举前不加息概率升至83%",
       "firstSeenAt": "2026-09-30T13:40:58.103Z",
-      "lastSeenAt": "2026-10-04T16:56:16.595Z",
+      "lastSeenAt": "2026-10-05T06:18:08.041Z",
       "latestItemPublishedAt": "2026-10-02T13:57:15.000Z",
       "primaryItemId": "news_cbd30f4059ca",
       "evidenceItemIds": [
@@ -176,15 +180,15 @@
         "news_37406c5c3644"
       ],
       "status": "developing",
-      "summary": "美国9月非农大幅低于预期，美股三大期指集体上涨。",
-      "latestProgress": "9月新增就业2.9万逊于预期，不加息概率升至83%。"
+      "summary": "美国9月新增就业2.9万，远逊预期，中期选举前不加息概率升至83%。",
+      "latestProgress": "截至10月2日，市场预期11月不加息概率达83%。"
     },
     {
       "eventId": "event_157adcf7bc49",
       "clusterVersion": 2,
       "title": "华泰证券：美联储难以在10月连续加息 基准情形下12月再次加息",
       "firstSeenAt": "2026-10-03T09:57:49.973Z",
-      "lastSeenAt": "2026-10-04T16:56:16.595Z",
+      "lastSeenAt": "2026-10-05T06:18:08.041Z",
       "latestItemPublishedAt": "2026-10-03T04:45:51.000Z",
       "primaryItemId": "news_ca01aa0b9d0a",
       "evidenceItemIds": [
@@ -192,20 +196,21 @@
         "news_ca01aa0b9d0a"
       ],
       "status": "developing",
-      "summary": "华泰证券认为美联储难以在10月连续加息，基准情形下12月再次加息。",
-      "latestProgress": "华泰证券最新报告预计美联储12月再次加息，10月连续加息可能性低。"
+      "summary": "华泰证券称美联储10月难连续加息，基准情形下12月或再加息。",
+      "latestProgress": "华泰证券维持判断：美联储基准情形下12月再次加息。"
     },
     {
       "eventId": "event_99b6c1e3a191",
       "clusterVersion": 2,
-      "title": "华尔街见闻早餐FM-Radio | 2026年10月3日",
+      "title": "华尔街见闻早餐FM-Radio | 2026年10月5日",
       "firstSeenAt": "2026-10-03T09:57:49.973Z",
-      "lastSeenAt": "2026-10-04T16:56:16.595Z",
-      "latestItemPublishedAt": "2026-10-02T23:59:56.000Z",
-      "primaryItemId": "news_a8d16e17da7a",
+      "lastSeenAt": "2026-10-05T06:18:08.041Z",
+      "latestItemPublishedAt": "2026-10-04T23:00:11.000Z",
+      "primaryItemId": "news_da00dec8ad17",
       "evidenceItemIds": [
         "news_a8d16e17da7a",
-        "news_69ddf9be3394"
+        "news_69ddf9be3394",
+        "news_da00dec8ad17"
       ],
       "status": "developing",
       "summary": "",
@@ -216,7 +221,7 @@
       "clusterVersion": 2,
       "title": "7.5%房贷利率有多可怕？美国博主算账：贷款50万美元，3年还12.6万，本金只少1.5万",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-04T16:56:16.595Z",
+      "lastSeenAt": "2026-10-05T06:18:08.041Z",
       "latestItemPublishedAt": "2026-10-04T12:03:25.000Z",
       "primaryItemId": "news_2679482aa2ad",
       "evidenceItemIds": [
@@ -227,8 +232,72 @@
         "news_2679482aa2ad"
       ],
       "status": "developing",
-      "summary": "特朗普称高利率糟糕，不怪沃什，将尽快填充战略石油储备。",
-      "latestProgress": "美国按揭贷款利率创4年最大周涨幅，加剧中期选举前压力。"
+      "summary": "7.5%房贷利率下，50万贷款3年还12.6万，本金仅少1.5万",
+      "latestProgress": "最新报道（2026-10-04）重申该数据，引发讨论"
+    },
+    {
+      "eventId": "event_9fd716aed68c",
+      "clusterVersion": 2,
+      "title": "商务部新闻发言人就二十国集团贸易部长会议及相关情况答记者问",
+      "firstSeenAt": "2026-10-04T06:27:31.850Z",
+      "lastSeenAt": "2026-10-05T06:18:08.041Z",
+      "latestItemPublishedAt": "2026-10-04T04:04:17.000Z",
+      "primaryItemId": "news_24d272e42e6a",
+      "evidenceItemIds": [
+        "news_24d272e42e6a",
+        "news_2ab3082270c9"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_090656555f3a",
+      "clusterVersion": 2,
+      "title": "美国司法部长：不会重启对鲍威尔的刑事调查",
+      "firstSeenAt": "2026-10-04T06:27:31.850Z",
+      "lastSeenAt": "2026-10-05T06:18:08.041Z",
+      "latestItemPublishedAt": "2026-10-03T16:05:48.000Z",
+      "primaryItemId": "news_01ab39b1e774",
+      "evidenceItemIds": [
+        "news_01ab39b1e774",
+        "news_d1eedc381720"
+      ],
+      "status": "developing",
+      "summary": "美国司法部长明确表示不会重启对鲍威尔的刑事调查。",
+      "latestProgress": "调查虽不重启，但翻修项目的问责工作仍将继续。"
+    },
+    {
+      "eventId": "event_07a46ed03a25",
+      "clusterVersion": 2,
+      "title": "马斯克回应！Terafab与台积电谈上了，此前已牵手英特尔",
+      "firstSeenAt": "2026-10-04T06:27:31.850Z",
+      "lastSeenAt": "2026-10-05T06:18:08.041Z",
+      "latestItemPublishedAt": "2026-10-04T02:16:52.000Z",
+      "primaryItemId": "news_2665dacc4e01",
+      "evidenceItemIds": [
+        "news_2665dacc4e01",
+        "news_c01692484868"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_82892481dbf7",
+      "clusterVersion": 2,
+      "title": "一汽丰田发布声明：“一汽丰田或将彻底退出历史舞台”“丰田大降价”等均为不实言论",
+      "firstSeenAt": "2026-10-05T06:18:08.041Z",
+      "lastSeenAt": "2026-10-05T06:18:08.041Z",
+      "latestItemPublishedAt": "2026-10-05T02:51:43.000Z",
+      "primaryItemId": "news_2b339de4aafc",
+      "evidenceItemIds": [
+        "news_2b339de4aafc",
+        "news_da85d7c59133"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
     },
     {
       "eventId": "event_7a6d2af4562f",
@@ -281,54 +350,6 @@
       "status": "developing",
       "summary": "博通联手黑石筹措600亿美元，为AI公司发展算力铺路",
       "latestProgress": "博通与黑石正式联手，600亿美元资金将用于Anthropic等AI芯片项目"
-    },
-    {
-      "eventId": "event_9fd716aed68c",
-      "clusterVersion": 2,
-      "title": "商务部新闻发言人就二十国集团贸易部长会议及相关情况答记者问",
-      "firstSeenAt": "2026-10-04T06:27:31.850Z",
-      "lastSeenAt": "2026-10-04T06:27:31.850Z",
-      "latestItemPublishedAt": "2026-10-04T04:04:17.000Z",
-      "primaryItemId": "news_24d272e42e6a",
-      "evidenceItemIds": [
-        "news_24d272e42e6a",
-        "news_2ab3082270c9"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_090656555f3a",
-      "clusterVersion": 2,
-      "title": "美国司法部长：不会重启对鲍威尔的刑事调查",
-      "firstSeenAt": "2026-10-04T06:27:31.850Z",
-      "lastSeenAt": "2026-10-04T06:27:31.850Z",
-      "latestItemPublishedAt": "2026-10-03T16:05:48.000Z",
-      "primaryItemId": "news_01ab39b1e774",
-      "evidenceItemIds": [
-        "news_01ab39b1e774",
-        "news_d1eedc381720"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_07a46ed03a25",
-      "clusterVersion": 2,
-      "title": "马斯克回应！Terafab与台积电谈上了，此前已牵手英特尔",
-      "firstSeenAt": "2026-10-04T06:27:31.850Z",
-      "lastSeenAt": "2026-10-04T06:27:31.850Z",
-      "latestItemPublishedAt": "2026-10-04T02:16:52.000Z",
-      "primaryItemId": "news_2665dacc4e01",
-      "evidenceItemIds": [
-        "news_2665dacc4e01",
-        "news_c01692484868"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
     },
     {
       "eventId": "event_1d2e538fe09b",

@@ -1,17 +1,17 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-05T06:18:08.041Z",
+  "generatedAt": "2026-10-05T17:16:10.682Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
       "eventId": "event_a3c5d0364922",
       "clusterVersion": 2,
-      "title": "A股节后上涨胜率超60%，机构：持股过节或更合算！外围股市上涨，股民盼着开门红",
+      "title": "崔东树：9月美股汽车整车企业市值环比降5% 港股降11% A股降4%",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-05T06:18:08.041Z",
-      "latestItemPublishedAt": "2026-10-03T07:05:55.000Z",
-      "primaryItemId": "news_ab2f509e249b",
+      "lastSeenAt": "2026-10-05T17:16:10.682Z",
+      "latestItemPublishedAt": "2026-10-04T06:00:00.000Z",
+      "primaryItemId": "news_198de3964b7c",
       "evidenceItemIds": [
         "news_943234fa21c3",
         "news_de9aae9a8f2f",
@@ -31,11 +31,11 @@
     {
       "eventId": "event_f101880ef7bc",
       "clusterVersion": 2,
-      "title": "美股要“通宵”了！12月起迈入23小时交易时代",
+      "title": "美股四季度“逼空”信号浮现：CTA仓位大撤退，1.3万亿美元回购蓄势待发",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-05T06:18:08.041Z",
-      "latestItemPublishedAt": "2026-10-03T04:35:09.000Z",
-      "primaryItemId": "news_227fb0758330",
+      "lastSeenAt": "2026-10-05T17:16:10.682Z",
+      "latestItemPublishedAt": "2026-10-05T16:54:27.000Z",
+      "primaryItemId": "news_d16169f56c2c",
       "evidenceItemIds": [
         "news_19e0345bcec3",
         "news_9458584cb250",
@@ -55,7 +55,10 @@
         "news_227fb0758330",
         "news_f5f409f9d2b0",
         "news_b2e3c32775b6",
-        "news_d16169f56c2c"
+        "news_d16169f56c2c",
+        "news_7818135fe424",
+        "news_6edfe4751ab8",
+        "news_12894a198cdd"
       ],
       "status": "developing",
       "summary": "美股12月起迈入23小时交易时代，华尔街将“通宵”。",
@@ -64,11 +67,11 @@
     {
       "eventId": "event_270c3bff1a30",
       "clusterVersion": 2,
-      "title": "加息预期骤变！美联储官员鹰派立场软化 又一大行“撕报告”",
+      "title": "一批增量政策密集落地；美联储加息预期骤降｜一周热点回顾",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-05T06:18:08.041Z",
-      "latestItemPublishedAt": "2026-10-03T00:40:59.000Z",
-      "primaryItemId": "news_e515d22b1720",
+      "lastSeenAt": "2026-10-05T17:16:10.682Z",
+      "latestItemPublishedAt": "2026-10-04T23:05:17.000Z",
+      "primaryItemId": "news_02724c6441fe",
       "evidenceItemIds": [
         "news_2549395149df",
         "news_68f1747fcdec",
@@ -86,7 +89,8 @@
         "news_02724c6441fe",
         "news_8cbf5ca3fc2f",
         "news_d97ee6ad6468",
-        "news_bec3501fa712"
+        "news_bec3501fa712",
+        "news_bb61cda7a982"
       ],
       "status": "developing",
       "summary": "非农爆冷致10月加息预期骤降，但美联储立场未改，聚焦9月CPI。",
@@ -95,11 +99,11 @@
     {
       "eventId": "event_c68d651d4ff9",
       "clusterVersion": 2,
-      "title": "国信证券：9月以来外资流出港股互联网规模靠前",
+      "title": "智通港股投资日志|10月5日",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-10-05T06:18:08.041Z",
-      "latestItemPublishedAt": "2026-10-04T07:35:11.000Z",
-      "primaryItemId": "news_d073bec14996",
+      "lastSeenAt": "2026-10-05T17:16:10.682Z",
+      "latestItemPublishedAt": "2026-10-05T13:15:07.000Z",
+      "primaryItemId": "news_9a91c69e9266",
       "evidenceItemIds": [
         "news_2b090183c8dd",
         "news_7c802606a071",
@@ -119,7 +123,11 @@
         "news_2c4752b4f0ea",
         "news_d073bec14996",
         "news_9a91c69e9266",
-        "news_9bd9c11b4dea"
+        "news_9bd9c11b4dea",
+        "news_222f6d738031",
+        "news_1474788dda27",
+        "news_799f47c6bd0f",
+        "news_37ea638a41c1"
       ],
       "status": "developing",
       "summary": "国信证券：9月以来外资流出港股互联网规模靠前。",
@@ -128,11 +136,11 @@
     {
       "eventId": "event_2cf716748ce1",
       "clusterVersion": 2,
-      "title": "全球央行艰难重启加息周期，这次有什么不同|海外市场月报",
+      "title": "中国央行结构性降息与债市盘整，中国9月PMI重回扩张---W40国内宏观脱水",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-05T06:18:08.041Z",
-      "latestItemPublishedAt": "2026-10-02T02:33:27.000Z",
-      "primaryItemId": "news_7cce498ba7b6",
+      "lastSeenAt": "2026-10-05T17:16:10.682Z",
+      "latestItemPublishedAt": "2026-10-04T22:17:15.000Z",
+      "primaryItemId": "news_1035aecf181c",
       "evidenceItemIds": [
         "news_5de8a00d999f",
         "news_90f768d7e736",
@@ -146,6 +154,74 @@
       "status": "developing",
       "summary": "全球央行艰难重启加息周期，市场关注政策分化与通胀压力。",
       "latestProgress": "中国央行结构性降息，9月PMI重回扩张，债市盘整。"
+    },
+    {
+      "eventId": "event_99b6c1e3a191",
+      "clusterVersion": 2,
+      "title": "华尔街见闻早餐FM-Radio | 2026年10月5日",
+      "firstSeenAt": "2026-10-03T09:57:49.973Z",
+      "lastSeenAt": "2026-10-05T17:16:10.682Z",
+      "latestItemPublishedAt": "2026-10-04T23:00:11.000Z",
+      "primaryItemId": "news_da00dec8ad17",
+      "evidenceItemIds": [
+        "news_a8d16e17da7a",
+        "news_69ddf9be3394",
+        "news_da00dec8ad17"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_cba1a5ffd9bc",
+      "clusterVersion": 2,
+      "title": "7.5%房贷利率有多可怕？美国博主算账：贷款50万美元，3年还12.6万，本金只少1.5万",
+      "firstSeenAt": "2026-09-30T13:30:13.189Z",
+      "lastSeenAt": "2026-10-05T17:16:10.682Z",
+      "latestItemPublishedAt": "2026-10-04T12:03:25.000Z",
+      "primaryItemId": "news_2679482aa2ad",
+      "evidenceItemIds": [
+        "news_2e94c3711894",
+        "news_80c8c35c9cb0",
+        "news_bec32e135b03",
+        "news_dd5c5f982f92",
+        "news_2679482aa2ad"
+      ],
+      "status": "developing",
+      "summary": "7.5%房贷利率下，50万贷款3年还12.6万，本金仅少1.5万",
+      "latestProgress": "最新报道（2026-10-04）重申该数据，引发讨论"
+    },
+    {
+      "eventId": "event_934053bb00e3",
+      "clusterVersion": 2,
+      "title": "AI进化速递丨华为与高通宣布达成广泛专利许可协议",
+      "firstSeenAt": "2026-10-05T17:16:10.682Z",
+      "lastSeenAt": "2026-10-05T17:16:10.682Z",
+      "latestItemPublishedAt": "2026-10-05T13:00:07.000Z",
+      "primaryItemId": "news_e689c676b03b",
+      "evidenceItemIds": [
+        "news_e689c676b03b",
+        "news_020f0d9aa27d"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_c94a63e01b8e",
+      "clusterVersion": 2,
+      "title": "现房销售新政叠加房贷贴息落地，多地国庆楼市表现亮眼",
+      "firstSeenAt": "2026-10-05T17:16:10.682Z",
+      "lastSeenAt": "2026-10-05T17:16:10.682Z",
+      "latestItemPublishedAt": "2026-10-05T12:55:17.000Z",
+      "primaryItemId": "news_f8410f653bea",
+      "evidenceItemIds": [
+        "news_f8410f653bea",
+        "news_8523619ea358"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
     },
     {
       "eventId": "event_63d6c1a77164",
@@ -198,42 +274,6 @@
       "status": "developing",
       "summary": "华泰证券称美联储10月难连续加息，基准情形下12月或再加息。",
       "latestProgress": "华泰证券维持判断：美联储基准情形下12月再次加息。"
-    },
-    {
-      "eventId": "event_99b6c1e3a191",
-      "clusterVersion": 2,
-      "title": "华尔街见闻早餐FM-Radio | 2026年10月5日",
-      "firstSeenAt": "2026-10-03T09:57:49.973Z",
-      "lastSeenAt": "2026-10-05T06:18:08.041Z",
-      "latestItemPublishedAt": "2026-10-04T23:00:11.000Z",
-      "primaryItemId": "news_da00dec8ad17",
-      "evidenceItemIds": [
-        "news_a8d16e17da7a",
-        "news_69ddf9be3394",
-        "news_da00dec8ad17"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_cba1a5ffd9bc",
-      "clusterVersion": 2,
-      "title": "7.5%房贷利率有多可怕？美国博主算账：贷款50万美元，3年还12.6万，本金只少1.5万",
-      "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-05T06:18:08.041Z",
-      "latestItemPublishedAt": "2026-10-04T12:03:25.000Z",
-      "primaryItemId": "news_2679482aa2ad",
-      "evidenceItemIds": [
-        "news_2e94c3711894",
-        "news_80c8c35c9cb0",
-        "news_bec32e135b03",
-        "news_dd5c5f982f92",
-        "news_2679482aa2ad"
-      ],
-      "status": "developing",
-      "summary": "7.5%房贷利率下，50万贷款3年还12.6万，本金仅少1.5万",
-      "latestProgress": "最新报道（2026-10-04）重申该数据，引发讨论"
     },
     {
       "eventId": "event_9fd716aed68c",

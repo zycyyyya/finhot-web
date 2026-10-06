@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-06T11:19:47.379Z",
+  "generatedAt": "2026-10-06T15:25:45.517Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -9,7 +9,7 @@
       "clusterVersion": 2,
       "title": "当40万亿险资遇上低利率，A股的定价规则开始变了",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-06T11:19:47.379Z",
+      "lastSeenAt": "2026-10-06T15:25:45.517Z",
       "latestItemPublishedAt": "2026-10-06T01:25:39.000Z",
       "primaryItemId": "news_21bfd6078a4b",
       "evidenceItemIds": [
@@ -32,11 +32,11 @@
     {
       "eventId": "event_f101880ef7bc",
       "clusterVersion": 2,
-      "title": "一半的股票已进入熊市！美股走到“十字路口”，关键看美债波动率",
+      "title": "美股异动 | 存储芯片概念股普跌 希捷科技(STX.US)跌逾7%",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-06T11:19:47.379Z",
-      "latestItemPublishedAt": "2026-10-06T10:21:39.000Z",
-      "primaryItemId": "news_12894a198cdd",
+      "lastSeenAt": "2026-10-06T15:25:45.517Z",
+      "latestItemPublishedAt": "2026-10-06T15:15:17.000Z",
+      "primaryItemId": "news_73a1f88dc387",
       "evidenceItemIds": [
         "news_19e0345bcec3",
         "news_9458584cb250",
@@ -61,7 +61,10 @@
         "news_6edfe4751ab8",
         "news_12894a198cdd",
         "news_e3e94b1c4834",
-        "news_103f6c78f97b"
+        "news_103f6c78f97b",
+        "news_73a1f88dc387",
+        "news_55da0a4aa387",
+        "news_33fdf43777c8"
       ],
       "status": "developing",
       "summary": "美股半数股票进入熊市，后市关键看美债波动率。",
@@ -72,8 +75,8 @@
       "clusterVersion": 2,
       "title": "中国AI双雄冲刺港股：月之暗面完成融资最早明年Q1上市 ，可灵AI拟募资至少10亿美元",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-10-06T11:19:47.379Z",
-      "latestItemPublishedAt": "2026-10-06T06:23:47.000Z",
+      "lastSeenAt": "2026-10-06T15:25:45.517Z",
+      "latestItemPublishedAt": "2026-10-06T13:24:19.000Z",
       "primaryItemId": "news_9b6d4ce3fae7",
       "evidenceItemIds": [
         "news_2b090183c8dd",
@@ -101,7 +104,11 @@
         "news_37ea638a41c1",
         "news_ac13f7363e37",
         "news_9b6d4ce3fae7",
-        "news_d3774d842c2c"
+        "news_d3774d842c2c",
+        "news_e46b4ae2feba",
+        "news_928215186ac9",
+        "news_a6787f1964f2",
+        "news_2f5875a3fa25"
       ],
       "status": "developing",
       "summary": "国信证券：9月以来外资流出港股互联网规模靠前。",
@@ -112,7 +119,7 @@
       "clusterVersion": 2,
       "title": "华尔街见闻早餐FM-Radio | 2026年10月6日",
       "firstSeenAt": "2026-10-03T09:57:49.973Z",
-      "lastSeenAt": "2026-10-06T11:19:47.379Z",
+      "lastSeenAt": "2026-10-06T15:25:45.517Z",
       "latestItemPublishedAt": "2026-10-05T23:01:04.000Z",
       "primaryItemId": "news_98f336c10212",
       "evidenceItemIds": [
@@ -130,7 +137,7 @@
       "clusterVersion": 2,
       "title": "AI进化速递丨华为与高通宣布达成广泛专利许可协议",
       "firstSeenAt": "2026-10-05T17:16:10.682Z",
-      "lastSeenAt": "2026-10-06T11:19:47.379Z",
+      "lastSeenAt": "2026-10-06T15:25:45.517Z",
       "latestItemPublishedAt": "2026-10-05T13:00:07.000Z",
       "primaryItemId": "news_e689c676b03b",
       "evidenceItemIds": [
@@ -146,7 +153,7 @@
       "clusterVersion": 2,
       "title": "现房销售新政叠加房贷贴息落地，国庆期间多地楼市表现亮眼",
       "firstSeenAt": "2026-10-05T17:16:10.682Z",
-      "lastSeenAt": "2026-10-06T11:19:47.379Z",
+      "lastSeenAt": "2026-10-06T15:25:45.517Z",
       "latestItemPublishedAt": "2026-10-05T12:55:17.000Z",
       "primaryItemId": "news_8523619ea358",
       "evidenceItemIds": [
@@ -162,7 +169,7 @@
       "clusterVersion": 2,
       "title": "商务部新闻发言人就二十国集团贸易部长会议及相关情况答记者问",
       "firstSeenAt": "2026-10-04T06:27:31.850Z",
-      "lastSeenAt": "2026-10-06T11:19:47.379Z",
+      "lastSeenAt": "2026-10-06T15:25:45.517Z",
       "latestItemPublishedAt": "2026-10-04T04:04:17.000Z",
       "primaryItemId": "news_1ec8560943d0",
       "evidenceItemIds": [
@@ -173,6 +180,22 @@
       "status": "developing",
       "summary": "商务部就G20贸易部长会议答记者问",
       "latestProgress": "发言人回应会议及相关情况"
+    },
+    {
+      "eventId": "event_e28709d78af5",
+      "clusterVersion": 2,
+      "title": "2026年诺贝尔生理学或医学奖揭晓",
+      "firstSeenAt": "2026-10-06T15:25:45.517Z",
+      "lastSeenAt": "2026-10-06T15:25:45.517Z",
+      "latestItemPublishedAt": "2026-10-06T09:49:27.000Z",
+      "primaryItemId": "news_8224a9505621",
+      "evidenceItemIds": [
+        "news_8224a9505621",
+        "news_df5ace029df0"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
     },
     {
       "eventId": "event_270c3bff1a30",

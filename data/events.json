@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-06T15:25:45.517Z",
+  "generatedAt": "2026-10-06T18:34:18.628Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -9,7 +9,7 @@
       "clusterVersion": 2,
       "title": "当40万亿险资遇上低利率，A股的定价规则开始变了",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-06T15:25:45.517Z",
+      "lastSeenAt": "2026-10-06T18:34:18.628Z",
       "latestItemPublishedAt": "2026-10-06T01:25:39.000Z",
       "primaryItemId": "news_21bfd6078a4b",
       "evidenceItemIds": [
@@ -34,7 +34,7 @@
       "clusterVersion": 2,
       "title": "美股异动 | 存储芯片概念股普跌 希捷科技(STX.US)跌逾7%",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-06T15:25:45.517Z",
+      "lastSeenAt": "2026-10-06T18:34:18.628Z",
       "latestItemPublishedAt": "2026-10-06T15:15:17.000Z",
       "primaryItemId": "news_73a1f88dc387",
       "evidenceItemIds": [
@@ -75,8 +75,8 @@
       "clusterVersion": 2,
       "title": "中国AI双雄冲刺港股：月之暗面完成融资最早明年Q1上市 ，可灵AI拟募资至少10亿美元",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-10-06T15:25:45.517Z",
-      "latestItemPublishedAt": "2026-10-06T13:24:19.000Z",
+      "lastSeenAt": "2026-10-06T18:34:18.628Z",
+      "latestItemPublishedAt": "2026-10-06T06:23:47.000Z",
       "primaryItemId": "news_9b6d4ce3fae7",
       "evidenceItemIds": [
         "news_2b090183c8dd",
@@ -119,7 +119,7 @@
       "clusterVersion": 2,
       "title": "华尔街见闻早餐FM-Radio | 2026年10月6日",
       "firstSeenAt": "2026-10-03T09:57:49.973Z",
-      "lastSeenAt": "2026-10-06T15:25:45.517Z",
+      "lastSeenAt": "2026-10-06T18:34:18.628Z",
       "latestItemPublishedAt": "2026-10-05T23:01:04.000Z",
       "primaryItemId": "news_98f336c10212",
       "evidenceItemIds": [
@@ -131,6 +131,54 @@
       "status": "developing",
       "summary": "华尔街见闻早餐FM-Radio持续每日更新财经资讯。",
       "latestProgress": "10月6日版早餐FM-Radio已发布。"
+    },
+    {
+      "eventId": "event_c94a63e01b8e",
+      "clusterVersion": 2,
+      "title": "现房销售新政叠加房贷贴息落地，多地国庆楼市表现亮眼",
+      "firstSeenAt": "2026-10-05T17:16:10.682Z",
+      "lastSeenAt": "2026-10-06T18:34:18.628Z",
+      "latestItemPublishedAt": "2026-10-05T12:55:17.000Z",
+      "primaryItemId": "news_f8410f653bea",
+      "evidenceItemIds": [
+        "news_f8410f653bea",
+        "news_8523619ea358"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_e28709d78af5",
+      "clusterVersion": 2,
+      "title": "2026年诺贝尔物理学奖揭晓",
+      "firstSeenAt": "2026-10-06T15:25:45.517Z",
+      "lastSeenAt": "2026-10-06T18:34:18.628Z",
+      "latestItemPublishedAt": "2026-10-06T09:49:27.000Z",
+      "primaryItemId": "news_df5ace029df0",
+      "evidenceItemIds": [
+        "news_8224a9505621",
+        "news_df5ace029df0"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_62f38f1eea61",
+      "clusterVersion": 2,
+      "title": "美联储拟大改银行监管机制，副主席Bowman：重组区域架构并调整资产门槛",
+      "firstSeenAt": "2026-10-06T18:34:18.628Z",
+      "lastSeenAt": "2026-10-06T18:34:18.628Z",
+      "latestItemPublishedAt": "2026-10-06T17:49:22.000Z",
+      "primaryItemId": "news_04293e3315b1",
+      "evidenceItemIds": [
+        "news_04293e3315b1",
+        "news_eea33c3288d6"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
     },
     {
       "eventId": "event_934053bb00e3",
@@ -149,22 +197,6 @@
       "latestProgress": "华为与高通宣布达成广泛专利许可协议。"
     },
     {
-      "eventId": "event_c94a63e01b8e",
-      "clusterVersion": 2,
-      "title": "现房销售新政叠加房贷贴息落地，国庆期间多地楼市表现亮眼",
-      "firstSeenAt": "2026-10-05T17:16:10.682Z",
-      "lastSeenAt": "2026-10-06T15:25:45.517Z",
-      "latestItemPublishedAt": "2026-10-05T12:55:17.000Z",
-      "primaryItemId": "news_8523619ea358",
-      "evidenceItemIds": [
-        "news_f8410f653bea",
-        "news_8523619ea358"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
       "eventId": "event_9fd716aed68c",
       "clusterVersion": 2,
       "title": "商务部新闻发言人就二十国集团贸易部长会议及相关情况答记者问",
@@ -180,22 +212,6 @@
       "status": "developing",
       "summary": "商务部就G20贸易部长会议答记者问",
       "latestProgress": "发言人回应会议及相关情况"
-    },
-    {
-      "eventId": "event_e28709d78af5",
-      "clusterVersion": 2,
-      "title": "2026年诺贝尔生理学或医学奖揭晓",
-      "firstSeenAt": "2026-10-06T15:25:45.517Z",
-      "lastSeenAt": "2026-10-06T15:25:45.517Z",
-      "latestItemPublishedAt": "2026-10-06T09:49:27.000Z",
-      "primaryItemId": "news_8224a9505621",
-      "evidenceItemIds": [
-        "news_8224a9505621",
-        "news_df5ace029df0"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
     },
     {
       "eventId": "event_270c3bff1a30",

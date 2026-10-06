@@ -1,17 +1,17 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-06T06:53:31.570Z",
+  "generatedAt": "2026-10-06T11:19:47.379Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
       "eventId": "event_a3c5d0364922",
       "clusterVersion": 2,
-      "title": "晓数点｜一图速览9月A股月报",
+      "title": "当40万亿险资遇上低利率，A股的定价规则开始变了",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-06T06:53:31.570Z",
-      "latestItemPublishedAt": "2026-10-01T09:42:57.000Z",
-      "primaryItemId": "news_f3c7a8eb5d37",
+      "lastSeenAt": "2026-10-06T11:19:47.379Z",
+      "latestItemPublishedAt": "2026-10-06T01:25:39.000Z",
+      "primaryItemId": "news_21bfd6078a4b",
       "evidenceItemIds": [
         "news_943234fa21c3",
         "news_de9aae9a8f2f",
@@ -34,8 +34,8 @@
       "clusterVersion": 2,
       "title": "一半的股票已进入熊市！美股走到“十字路口”，关键看美债波动率",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-06T06:53:31.570Z",
-      "latestItemPublishedAt": "2026-10-05T16:54:27.000Z",
+      "lastSeenAt": "2026-10-06T11:19:47.379Z",
+      "latestItemPublishedAt": "2026-10-06T10:21:39.000Z",
       "primaryItemId": "news_12894a198cdd",
       "evidenceItemIds": [
         "news_19e0345bcec3",
@@ -60,11 +60,119 @@
         "news_7818135fe424",
         "news_6edfe4751ab8",
         "news_12894a198cdd",
-        "news_e3e94b1c4834"
+        "news_e3e94b1c4834",
+        "news_103f6c78f97b"
       ],
       "status": "developing",
       "summary": "美股半数股票进入熊市，后市关键看美债波动率。",
       "latestProgress": "10月5日美股走高，财报季周四揭幕，贵金属原油同步上涨。"
+    },
+    {
+      "eventId": "event_c68d651d4ff9",
+      "clusterVersion": 2,
+      "title": "中国AI双雄冲刺港股：月之暗面完成融资最早明年Q1上市 ，可灵AI拟募资至少10亿美元",
+      "firstSeenAt": "2026-09-30T15:04:45.414Z",
+      "lastSeenAt": "2026-10-06T11:19:47.379Z",
+      "latestItemPublishedAt": "2026-10-06T06:23:47.000Z",
+      "primaryItemId": "news_9b6d4ce3fae7",
+      "evidenceItemIds": [
+        "news_2b090183c8dd",
+        "news_7c802606a071",
+        "news_1e86edf3aa02",
+        "news_d59f7b7114ad",
+        "news_c195db5fb6c8",
+        "news_43da5cba1923",
+        "news_27762e3b0ee9",
+        "news_cade43d4ed28",
+        "news_f6e8868eb159",
+        "news_9efc31ad2c41",
+        "news_db607a9c3eea",
+        "news_1073e72a1f77",
+        "news_e11038186574",
+        "news_43e41540c67e",
+        "news_848533d5bbc8",
+        "news_2c4752b4f0ea",
+        "news_d073bec14996",
+        "news_9a91c69e9266",
+        "news_9bd9c11b4dea",
+        "news_222f6d738031",
+        "news_1474788dda27",
+        "news_799f47c6bd0f",
+        "news_37ea638a41c1",
+        "news_ac13f7363e37",
+        "news_9b6d4ce3fae7",
+        "news_d3774d842c2c"
+      ],
+      "status": "developing",
+      "summary": "国信证券：9月以来外资流出港股互联网规模靠前。",
+      "latestProgress": "智谱港股涨超5%。"
+    },
+    {
+      "eventId": "event_99b6c1e3a191",
+      "clusterVersion": 2,
+      "title": "华尔街见闻早餐FM-Radio | 2026年10月6日",
+      "firstSeenAt": "2026-10-03T09:57:49.973Z",
+      "lastSeenAt": "2026-10-06T11:19:47.379Z",
+      "latestItemPublishedAt": "2026-10-05T23:01:04.000Z",
+      "primaryItemId": "news_98f336c10212",
+      "evidenceItemIds": [
+        "news_a8d16e17da7a",
+        "news_69ddf9be3394",
+        "news_da00dec8ad17",
+        "news_98f336c10212"
+      ],
+      "status": "developing",
+      "summary": "华尔街见闻早餐FM-Radio持续每日更新财经资讯。",
+      "latestProgress": "10月6日版早餐FM-Radio已发布。"
+    },
+    {
+      "eventId": "event_934053bb00e3",
+      "clusterVersion": 2,
+      "title": "AI进化速递丨华为与高通宣布达成广泛专利许可协议",
+      "firstSeenAt": "2026-10-05T17:16:10.682Z",
+      "lastSeenAt": "2026-10-06T11:19:47.379Z",
+      "latestItemPublishedAt": "2026-10-05T13:00:07.000Z",
+      "primaryItemId": "news_e689c676b03b",
+      "evidenceItemIds": [
+        "news_e689c676b03b",
+        "news_020f0d9aa27d"
+      ],
+      "status": "developing",
+      "summary": "华为与高通宣布达成广泛专利许可协议。",
+      "latestProgress": "华为与高通宣布达成广泛专利许可协议。"
+    },
+    {
+      "eventId": "event_c94a63e01b8e",
+      "clusterVersion": 2,
+      "title": "现房销售新政叠加房贷贴息落地，国庆期间多地楼市表现亮眼",
+      "firstSeenAt": "2026-10-05T17:16:10.682Z",
+      "lastSeenAt": "2026-10-06T11:19:47.379Z",
+      "latestItemPublishedAt": "2026-10-05T12:55:17.000Z",
+      "primaryItemId": "news_8523619ea358",
+      "evidenceItemIds": [
+        "news_f8410f653bea",
+        "news_8523619ea358"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_9fd716aed68c",
+      "clusterVersion": 2,
+      "title": "商务部新闻发言人就二十国集团贸易部长会议及相关情况答记者问",
+      "firstSeenAt": "2026-10-04T06:27:31.850Z",
+      "lastSeenAt": "2026-10-06T11:19:47.379Z",
+      "latestItemPublishedAt": "2026-10-04T04:04:17.000Z",
+      "primaryItemId": "news_1ec8560943d0",
+      "evidenceItemIds": [
+        "news_24d272e42e6a",
+        "news_2ab3082270c9",
+        "news_1ec8560943d0"
+      ],
+      "status": "developing",
+      "summary": "商务部就G20贸易部长会议答记者问",
+      "latestProgress": "发言人回应会议及相关情况"
     },
     {
       "eventId": "event_270c3bff1a30",
@@ -99,44 +207,6 @@
       "latestProgress": "港股国庆假期继续开市，美联储将公布货币政策会议纪要。"
     },
     {
-      "eventId": "event_c68d651d4ff9",
-      "clusterVersion": 2,
-      "title": "智通港股投资日志|10月5日",
-      "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-10-06T06:53:31.570Z",
-      "latestItemPublishedAt": "2026-10-04T16:05:10.000Z",
-      "primaryItemId": "news_9a91c69e9266",
-      "evidenceItemIds": [
-        "news_2b090183c8dd",
-        "news_7c802606a071",
-        "news_1e86edf3aa02",
-        "news_d59f7b7114ad",
-        "news_c195db5fb6c8",
-        "news_43da5cba1923",
-        "news_27762e3b0ee9",
-        "news_cade43d4ed28",
-        "news_f6e8868eb159",
-        "news_9efc31ad2c41",
-        "news_db607a9c3eea",
-        "news_1073e72a1f77",
-        "news_e11038186574",
-        "news_43e41540c67e",
-        "news_848533d5bbc8",
-        "news_2c4752b4f0ea",
-        "news_d073bec14996",
-        "news_9a91c69e9266",
-        "news_9bd9c11b4dea",
-        "news_222f6d738031",
-        "news_1474788dda27",
-        "news_799f47c6bd0f",
-        "news_37ea638a41c1",
-        "news_ac13f7363e37"
-      ],
-      "status": "developing",
-      "summary": "国信证券：9月以来外资流出港股互联网规模靠前。",
-      "latestProgress": "智谱港股涨超5%。"
-    },
-    {
       "eventId": "event_2cf716748ce1",
       "clusterVersion": 2,
       "title": "全球央行艰难重启加息周期，这次有什么不同|海外市场月报",
@@ -159,24 +229,6 @@
       "latestProgress": "中国央行结构性降息，9月PMI重回扩张，债市盘整。"
     },
     {
-      "eventId": "event_99b6c1e3a191",
-      "clusterVersion": 2,
-      "title": "华尔街见闻早餐FM-Radio | 2026年10月5日",
-      "firstSeenAt": "2026-10-03T09:57:49.973Z",
-      "lastSeenAt": "2026-10-06T06:53:31.570Z",
-      "latestItemPublishedAt": "2026-10-04T23:00:11.000Z",
-      "primaryItemId": "news_da00dec8ad17",
-      "evidenceItemIds": [
-        "news_a8d16e17da7a",
-        "news_69ddf9be3394",
-        "news_da00dec8ad17",
-        "news_98f336c10212"
-      ],
-      "status": "developing",
-      "summary": "华尔街见闻早餐FM-Radio持续每日更新财经资讯。",
-      "latestProgress": "10月6日版早餐FM-Radio已发布。"
-    },
-    {
       "eventId": "event_cba1a5ffd9bc",
       "clusterVersion": 2,
       "title": "7.5%房贷利率有多可怕？美国博主算账：贷款50万美元，3年还12.6万，本金只少1.5万",
@@ -194,55 +246,6 @@
       "status": "developing",
       "summary": "美国博主算账：7.5%房贷利率下，贷50万美元3年还12.6万，本金仅减1.5万。",
       "latestProgress": "该报道指出高利率下前期还款主要支付利息，本金削减缓慢。"
-    },
-    {
-      "eventId": "event_934053bb00e3",
-      "clusterVersion": 2,
-      "title": "AI进化速递丨华为与高通宣布达成广泛专利许可协议",
-      "firstSeenAt": "2026-10-05T17:16:10.682Z",
-      "lastSeenAt": "2026-10-06T06:53:31.570Z",
-      "latestItemPublishedAt": "2026-10-05T13:00:07.000Z",
-      "primaryItemId": "news_e689c676b03b",
-      "evidenceItemIds": [
-        "news_e689c676b03b",
-        "news_020f0d9aa27d"
-      ],
-      "status": "developing",
-      "summary": "华为与高通宣布达成广泛专利许可协议。",
-      "latestProgress": "华为与高通宣布达成广泛专利许可协议。"
-    },
-    {
-      "eventId": "event_c94a63e01b8e",
-      "clusterVersion": 2,
-      "title": "现房销售新政叠加房贷贴息落地，国庆期间多地楼市表现亮眼",
-      "firstSeenAt": "2026-10-05T17:16:10.682Z",
-      "lastSeenAt": "2026-10-06T06:53:31.570Z",
-      "latestItemPublishedAt": "2026-10-05T12:55:17.000Z",
-      "primaryItemId": "news_8523619ea358",
-      "evidenceItemIds": [
-        "news_f8410f653bea",
-        "news_8523619ea358"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_9fd716aed68c",
-      "clusterVersion": 2,
-      "title": "商务部新闻发言人就二十国集团贸易部长会议及相关情况答记者问",
-      "firstSeenAt": "2026-10-04T06:27:31.850Z",
-      "lastSeenAt": "2026-10-06T06:53:31.570Z",
-      "latestItemPublishedAt": "2026-10-04T04:04:17.000Z",
-      "primaryItemId": "news_1ec8560943d0",
-      "evidenceItemIds": [
-        "news_24d272e42e6a",
-        "news_2ab3082270c9",
-        "news_1ec8560943d0"
-      ],
-      "status": "developing",
-      "summary": "商务部就G20贸易部长会议答记者问",
-      "latestProgress": "发言人回应会议及相关情况"
     },
     {
       "eventId": "event_82892481dbf7",

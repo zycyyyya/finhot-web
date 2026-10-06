@@ -1,17 +1,17 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-05T20:40:30.893Z",
+  "generatedAt": "2026-10-06T06:53:31.570Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
       "eventId": "event_a3c5d0364922",
       "clusterVersion": 2,
-      "title": "崔东树：9月美股汽车整车企业市值环比降5% 港股降11% A股降4%",
+      "title": "晓数点｜一图速览9月A股月报",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-05T20:40:30.893Z",
-      "latestItemPublishedAt": "2026-10-04T06:00:00.000Z",
-      "primaryItemId": "news_198de3964b7c",
+      "lastSeenAt": "2026-10-06T06:53:31.570Z",
+      "latestItemPublishedAt": "2026-10-01T09:42:57.000Z",
+      "primaryItemId": "news_f3c7a8eb5d37",
       "evidenceItemIds": [
         "news_943234fa21c3",
         "news_de9aae9a8f2f",
@@ -22,18 +22,19 @@
         "news_f3c7a8eb5d37",
         "news_ab2f509e249b",
         "news_198de3964b7c",
-        "news_32db98e8f039"
+        "news_32db98e8f039",
+        "news_21bfd6078a4b"
       ],
       "status": "developing",
-      "summary": "9月A股月报发布，一图速览市场表现。",
-      "latestProgress": "机构称A股节后上涨胜率超60%，外围股市上涨，股民盼开门红。"
+      "summary": "9月A股月报发布，一图速览市场概况与关键数据。",
+      "latestProgress": "40万亿险资遇低利率，A股定价规则开始改变。"
     },
     {
       "eventId": "event_f101880ef7bc",
       "clusterVersion": 2,
       "title": "一半的股票已进入熊市！美股走到“十字路口”，关键看美债波动率",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-05T20:40:30.893Z",
+      "lastSeenAt": "2026-10-06T06:53:31.570Z",
       "latestItemPublishedAt": "2026-10-05T16:54:27.000Z",
       "primaryItemId": "news_12894a198cdd",
       "evidenceItemIds": [
@@ -62,16 +63,16 @@
         "news_e3e94b1c4834"
       ],
       "status": "developing",
-      "summary": "美股12月起迈入23小时交易时代，华尔街将“通宵”。",
-      "latestProgress": "23/5交易模式倒计时，全球资金接力或强化长牛之路。"
+      "summary": "美股半数股票进入熊市，后市关键看美债波动率。",
+      "latestProgress": "10月5日美股走高，财报季周四揭幕，贵金属原油同步上涨。"
     },
     {
       "eventId": "event_270c3bff1a30",
       "clusterVersion": 2,
       "title": "一批增量政策密集落地；美联储加息预期骤降｜一周热点回顾",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-05T20:40:30.893Z",
-      "latestItemPublishedAt": "2026-10-04T23:05:17.000Z",
+      "lastSeenAt": "2026-10-06T06:53:31.570Z",
+      "latestItemPublishedAt": "2026-10-04T04:15:10.000Z",
       "primaryItemId": "news_02724c6441fe",
       "evidenceItemIds": [
         "news_2549395149df",
@@ -94,16 +95,16 @@
         "news_bb61cda7a982"
       ],
       "status": "developing",
-      "summary": "非农爆冷致10月加息预期骤降，但美联储立场未改，聚焦9月CPI。",
-      "latestProgress": "下周关注美联储纪要定价加息预期，及美伊与也门局势对油价影响。"
+      "summary": "一批增量政策密集落地，美联储加息预期骤降。",
+      "latestProgress": "港股国庆假期继续开市，美联储将公布货币政策会议纪要。"
     },
     {
       "eventId": "event_c68d651d4ff9",
       "clusterVersion": 2,
       "title": "智通港股投资日志|10月5日",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-10-05T20:40:30.893Z",
-      "latestItemPublishedAt": "2026-10-05T13:15:07.000Z",
+      "lastSeenAt": "2026-10-06T06:53:31.570Z",
+      "latestItemPublishedAt": "2026-10-04T16:05:10.000Z",
       "primaryItemId": "news_9a91c69e9266",
       "evidenceItemIds": [
         "news_2b090183c8dd",
@@ -128,7 +129,8 @@
         "news_222f6d738031",
         "news_1474788dda27",
         "news_799f47c6bd0f",
-        "news_37ea638a41c1"
+        "news_37ea638a41c1",
+        "news_ac13f7363e37"
       ],
       "status": "developing",
       "summary": "国信证券：9月以来外资流出港股互联网规模靠前。",
@@ -137,11 +139,11 @@
     {
       "eventId": "event_2cf716748ce1",
       "clusterVersion": 2,
-      "title": "中国央行结构性降息与债市盘整，中国9月PMI重回扩张---W40国内宏观脱水",
+      "title": "全球央行艰难重启加息周期，这次有什么不同|海外市场月报",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-05T20:40:30.893Z",
-      "latestItemPublishedAt": "2026-10-04T22:17:15.000Z",
-      "primaryItemId": "news_1035aecf181c",
+      "lastSeenAt": "2026-10-06T06:53:31.570Z",
+      "latestItemPublishedAt": "2026-10-02T06:35:18.000Z",
+      "primaryItemId": "news_7cce498ba7b6",
       "evidenceItemIds": [
         "news_5de8a00d999f",
         "news_90f768d7e736",
@@ -161,24 +163,25 @@
       "clusterVersion": 2,
       "title": "华尔街见闻早餐FM-Radio | 2026年10月5日",
       "firstSeenAt": "2026-10-03T09:57:49.973Z",
-      "lastSeenAt": "2026-10-05T20:40:30.893Z",
+      "lastSeenAt": "2026-10-06T06:53:31.570Z",
       "latestItemPublishedAt": "2026-10-04T23:00:11.000Z",
       "primaryItemId": "news_da00dec8ad17",
       "evidenceItemIds": [
         "news_a8d16e17da7a",
         "news_69ddf9be3394",
-        "news_da00dec8ad17"
+        "news_da00dec8ad17",
+        "news_98f336c10212"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "华尔街见闻早餐FM-Radio持续每日更新财经资讯。",
+      "latestProgress": "10月6日版早餐FM-Radio已发布。"
     },
     {
       "eventId": "event_cba1a5ffd9bc",
       "clusterVersion": 2,
       "title": "7.5%房贷利率有多可怕？美国博主算账：贷款50万美元，3年还12.6万，本金只少1.5万",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-05T20:40:30.893Z",
+      "lastSeenAt": "2026-10-06T06:53:31.570Z",
       "latestItemPublishedAt": "2026-10-04T12:03:25.000Z",
       "primaryItemId": "news_2679482aa2ad",
       "evidenceItemIds": [
@@ -189,15 +192,15 @@
         "news_2679482aa2ad"
       ],
       "status": "developing",
-      "summary": "7.5%房贷利率下，50万贷款3年还12.6万，本金仅少1.5万",
-      "latestProgress": "最新报道（2026-10-04）重申该数据，引发讨论"
+      "summary": "美国博主算账：7.5%房贷利率下，贷50万美元3年还12.6万，本金仅减1.5万。",
+      "latestProgress": "该报道指出高利率下前期还款主要支付利息，本金削减缓慢。"
     },
     {
       "eventId": "event_934053bb00e3",
       "clusterVersion": 2,
       "title": "AI进化速递丨华为与高通宣布达成广泛专利许可协议",
       "firstSeenAt": "2026-10-05T17:16:10.682Z",
-      "lastSeenAt": "2026-10-05T20:40:30.893Z",
+      "lastSeenAt": "2026-10-06T06:53:31.570Z",
       "latestItemPublishedAt": "2026-10-05T13:00:07.000Z",
       "primaryItemId": "news_e689c676b03b",
       "evidenceItemIds": [
@@ -205,17 +208,17 @@
         "news_020f0d9aa27d"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "华为与高通宣布达成广泛专利许可协议。",
+      "latestProgress": "华为与高通宣布达成广泛专利许可协议。"
     },
     {
       "eventId": "event_c94a63e01b8e",
       "clusterVersion": 2,
-      "title": "现房销售新政叠加房贷贴息落地，多地国庆楼市表现亮眼",
+      "title": "现房销售新政叠加房贷贴息落地，国庆期间多地楼市表现亮眼",
       "firstSeenAt": "2026-10-05T17:16:10.682Z",
-      "lastSeenAt": "2026-10-05T20:40:30.893Z",
+      "lastSeenAt": "2026-10-06T06:53:31.570Z",
       "latestItemPublishedAt": "2026-10-05T12:55:17.000Z",
-      "primaryItemId": "news_f8410f653bea",
+      "primaryItemId": "news_8523619ea358",
       "evidenceItemIds": [
         "news_f8410f653bea",
         "news_8523619ea358"
@@ -229,13 +232,78 @@
       "clusterVersion": 2,
       "title": "商务部新闻发言人就二十国集团贸易部长会议及相关情况答记者问",
       "firstSeenAt": "2026-10-04T06:27:31.850Z",
-      "lastSeenAt": "2026-10-05T20:40:30.893Z",
+      "lastSeenAt": "2026-10-06T06:53:31.570Z",
       "latestItemPublishedAt": "2026-10-04T04:04:17.000Z",
       "primaryItemId": "news_1ec8560943d0",
       "evidenceItemIds": [
         "news_24d272e42e6a",
         "news_2ab3082270c9",
         "news_1ec8560943d0"
+      ],
+      "status": "developing",
+      "summary": "商务部就G20贸易部长会议答记者问",
+      "latestProgress": "发言人回应会议及相关情况"
+    },
+    {
+      "eventId": "event_82892481dbf7",
+      "clusterVersion": 2,
+      "title": "一汽丰田发布声明：“一汽丰田或将彻底退出历史舞台”“丰田大降价”等均为不实言论",
+      "firstSeenAt": "2026-10-05T06:18:08.041Z",
+      "lastSeenAt": "2026-10-06T06:53:31.570Z",
+      "latestItemPublishedAt": "2026-10-05T02:51:43.000Z",
+      "primaryItemId": "news_2b339de4aafc",
+      "evidenceItemIds": [
+        "news_2b339de4aafc",
+        "news_da85d7c59133"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_16e58ed62828",
+      "clusterVersion": 2,
+      "title": "谷歌与Constellation酝酿十亿美元核电协议，科技巨头抢购清洁电力大幕正式开启",
+      "firstSeenAt": "2026-10-06T06:53:31.570Z",
+      "lastSeenAt": "2026-10-06T06:53:31.570Z",
+      "latestItemPublishedAt": "2026-10-06T03:18:06.000Z",
+      "primaryItemId": "news_a311c20ba4e5",
+      "evidenceItemIds": [
+        "news_a311c20ba4e5",
+        "news_ec7e8c0b5d10"
+      ],
+      "status": "developing",
+      "summary": "谷歌与Constellation酝酿十亿美元核电协议，科技巨头抢购清洁电力。",
+      "latestProgress": "双方接近达成十亿美元核电采购协议。"
+    },
+    {
+      "eventId": "event_4dd732015bad",
+      "clusterVersion": 2,
+      "title": "香港恒生指数开盘涨1％，恒生科技指数涨1.02％",
+      "firstSeenAt": "2026-10-06T06:53:31.570Z",
+      "lastSeenAt": "2026-10-06T06:53:31.570Z",
+      "latestItemPublishedAt": "2026-10-06T01:27:00.000Z",
+      "primaryItemId": "news_8dfaa3e7c03b",
+      "evidenceItemIds": [
+        "news_8dfaa3e7c03b",
+        "news_d3774d842c2c",
+        "news_a9fcce83faa9"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_7ce297194a26",
+      "clusterVersion": 2,
+      "title": "报道：OpenAI正与阿联酋基金、贝莱德洽谈300亿美元融资轮",
+      "firstSeenAt": "2026-10-06T06:53:31.570Z",
+      "lastSeenAt": "2026-10-06T06:53:31.570Z",
+      "latestItemPublishedAt": "2026-10-06T02:15:25.000Z",
+      "primaryItemId": "news_45692583a3f3",
+      "evidenceItemIds": [
+        "news_45692583a3f3",
+        "news_02cab4aa599f"
       ],
       "status": "developing",
       "summary": "",
@@ -320,22 +388,6 @@
       "evidenceItemIds": [
         "news_2665dacc4e01",
         "news_c01692484868"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_82892481dbf7",
-      "clusterVersion": 2,
-      "title": "一汽丰田发布声明：“一汽丰田或将彻底退出历史舞台”“丰田大降价”等均为不实言论",
-      "firstSeenAt": "2026-10-05T06:18:08.041Z",
-      "lastSeenAt": "2026-10-05T06:18:08.041Z",
-      "latestItemPublishedAt": "2026-10-05T02:51:43.000Z",
-      "primaryItemId": "news_2b339de4aafc",
-      "evidenceItemIds": [
-        "news_2b339de4aafc",
-        "news_da85d7c59133"
       ],
       "status": "developing",
       "summary": "",

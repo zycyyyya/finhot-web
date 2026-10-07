@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-07T06:34:40.532Z",
+  "generatedAt": "2026-10-07T11:08:58.769Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -9,8 +9,8 @@
       "clusterVersion": 2,
       "title": "当40万亿险资遇上低利率，A股的定价规则开始变了",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-07T06:34:40.532Z",
-      "latestItemPublishedAt": "2026-10-06T01:25:39.000Z",
+      "lastSeenAt": "2026-10-07T11:08:58.769Z",
+      "latestItemPublishedAt": "2026-10-07T09:02:43.000Z",
       "primaryItemId": "news_21bfd6078a4b",
       "evidenceItemIds": [
         "news_943234fa21c3",
@@ -23,7 +23,9 @@
         "news_ab2f509e249b",
         "news_198de3964b7c",
         "news_32db98e8f039",
-        "news_21bfd6078a4b"
+        "news_21bfd6078a4b",
+        "news_e93308d2b52c",
+        "news_d75b678e0f5e"
       ],
       "status": "developing",
       "summary": "40万亿险资遇上低利率，A股定价规则开始改变。",
@@ -32,11 +34,11 @@
     {
       "eventId": "event_f101880ef7bc",
       "clusterVersion": 2,
-      "title": "美股四季度“逼空”信号浮现：CTA仓位大撤退，1.3万亿美元回购蓄势待发",
+      "title": "全球长端利率冲向新高：美债5.3%之后，美股还能撑多久？",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-07T06:34:40.532Z",
-      "latestItemPublishedAt": "2026-10-05T21:25:26.000Z",
-      "primaryItemId": "news_d16169f56c2c",
+      "lastSeenAt": "2026-10-07T11:08:58.769Z",
+      "latestItemPublishedAt": "2026-10-06T21:20:57.000Z",
+      "primaryItemId": "news_103f6c78f97b",
       "evidenceItemIds": [
         "news_19e0345bcec3",
         "news_9458584cb250",
@@ -76,8 +78,8 @@
       "clusterVersion": 2,
       "title": "中国AI双雄冲刺港股：月之暗面完成融资最早明年Q1上市 ，可灵AI拟募资至少10亿美元",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-10-07T06:34:40.532Z",
-      "latestItemPublishedAt": "2026-10-06T07:31:05.000Z",
+      "lastSeenAt": "2026-10-07T11:08:58.769Z",
+      "latestItemPublishedAt": "2026-10-07T08:34:13.000Z",
       "primaryItemId": "news_9b6d4ce3fae7",
       "evidenceItemIds": [
         "news_2b090183c8dd",
@@ -112,11 +114,138 @@
         "news_2f5875a3fa25",
         "news_3446c2998f5b",
         "news_887a4354f2a2",
-        "news_c624ce7c5b32"
+        "news_c624ce7c5b32",
+        "news_cd091725a8b0",
+        "news_6437af7ee72b"
       ],
       "status": "developing",
       "summary": "国信证券：9月以来外资流出港股互联网规模靠前。",
       "latestProgress": "智谱港股涨超5%。"
+    },
+    {
+      "eventId": "event_e28709d78af5",
+      "clusterVersion": 2,
+      "title": "2026年诺贝尔物理学奖揭晓",
+      "firstSeenAt": "2026-10-06T15:25:45.517Z",
+      "lastSeenAt": "2026-10-07T11:08:58.769Z",
+      "latestItemPublishedAt": "2026-10-06T09:49:27.000Z",
+      "primaryItemId": "news_df5ace029df0",
+      "evidenceItemIds": [
+        "news_8224a9505621",
+        "news_df5ace029df0"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_62f38f1eea61",
+      "clusterVersion": 2,
+      "title": "美联储拟大改银行监管机制，副主席Bowman：重组区域架构并调整资产门槛",
+      "firstSeenAt": "2026-10-06T18:34:18.628Z",
+      "lastSeenAt": "2026-10-07T11:08:58.769Z",
+      "latestItemPublishedAt": "2026-10-06T17:49:22.000Z",
+      "primaryItemId": "news_04293e3315b1",
+      "evidenceItemIds": [
+        "news_04293e3315b1",
+        "news_eea33c3288d6"
+      ],
+      "status": "developing",
+      "summary": "美联储拟大改银行监管，副主席Bowman建议重组区域架构并调整资产门槛。",
+      "latestProgress": "美联储宣布重组美国银行监管体系。"
+    },
+    {
+      "eventId": "event_934053bb00e3",
+      "clusterVersion": 2,
+      "title": "AI进化速递丨华为与高通宣布达成广泛专利许可协议",
+      "firstSeenAt": "2026-10-05T17:16:10.682Z",
+      "lastSeenAt": "2026-10-07T11:08:58.769Z",
+      "latestItemPublishedAt": "2026-10-05T13:00:07.000Z",
+      "primaryItemId": "news_e689c676b03b",
+      "evidenceItemIds": [
+        "news_e689c676b03b",
+        "news_020f0d9aa27d"
+      ],
+      "status": "developing",
+      "summary": "华为与高通宣布达成广泛专利许可协议。",
+      "latestProgress": "华为与高通宣布达成广泛专利许可协议。"
+    },
+    {
+      "eventId": "event_2cf716748ce1",
+      "clusterVersion": 2,
+      "title": "中国央行连续第23个月增持黄金",
+      "firstSeenAt": "2026-09-30T13:30:13.189Z",
+      "lastSeenAt": "2026-10-07T11:08:58.769Z",
+      "latestItemPublishedAt": "2026-10-07T10:43:36.000Z",
+      "primaryItemId": "news_2f288323fb81",
+      "evidenceItemIds": [
+        "news_5de8a00d999f",
+        "news_90f768d7e736",
+        "news_bdce82dbe6c8",
+        "news_9a0bf58b7497",
+        "news_79a109a7b441",
+        "news_7cce498ba7b6",
+        "news_570b6a39a4b5",
+        "news_1035aecf181c",
+        "news_2f288323fb81",
+        "news_f2a80898dd81",
+        "news_ab4f531b05fb",
+        "news_0a19f837484a",
+        "news_1442f3f350f0",
+        "news_a4a8cb30d8e9"
+      ],
+      "status": "developing",
+      "summary": "中国央行连续第23个月增持黄金",
+      "latestProgress": "9月末外汇储备报34002.51亿美元"
+    },
+    {
+      "eventId": "event_c451a076d7dd",
+      "clusterVersion": 2,
+      "title": "印度股市在印度储备银行近4年来首次加息后下跌",
+      "firstSeenAt": "2026-10-07T06:34:40.532Z",
+      "lastSeenAt": "2026-10-07T11:08:58.769Z",
+      "latestItemPublishedAt": "2026-10-07T05:45:08.000Z",
+      "primaryItemId": "news_add98489850a",
+      "evidenceItemIds": [
+        "news_5ac9a222900b",
+        "news_add98489850a",
+        "news_fd64b64d4e6d"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_d745e391fed3",
+      "clusterVersion": 2,
+      "title": "港股午盘：恒生指数跌0.53% 恒生科技指数跌0.91%",
+      "firstSeenAt": "2026-10-07T11:08:58.769Z",
+      "lastSeenAt": "2026-10-07T11:08:58.769Z",
+      "latestItemPublishedAt": "2026-10-07T04:09:59.000Z",
+      "primaryItemId": "news_59dbea524f7c",
+      "evidenceItemIds": [
+        "news_59dbea524f7c",
+        "news_7054b55b2c1b"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_bd1dfbe5e705",
+      "clusterVersion": 2,
+      "title": "新高！美股三大股指全线上扬，芯片股走强，纳指、标普500再破纪录，中概股普涨，油价小幅上涨",
+      "firstSeenAt": "2026-10-07T11:08:58.769Z",
+      "lastSeenAt": "2026-10-07T11:08:58.769Z",
+      "latestItemPublishedAt": "2026-10-07T02:34:15.000Z",
+      "primaryItemId": "news_399ff957635a",
+      "evidenceItemIds": [
+        "news_399ff957635a",
+        "news_6f0c41dcae74"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
     },
     {
       "eventId": "event_99b6c1e3a191",
@@ -137,54 +266,6 @@
       "latestProgress": "该期节目已于10月5日发布，提供当日早间市场要闻概览。"
     },
     {
-      "eventId": "event_e28709d78af5",
-      "clusterVersion": 2,
-      "title": "2026年诺贝尔物理学奖揭晓",
-      "firstSeenAt": "2026-10-06T15:25:45.517Z",
-      "lastSeenAt": "2026-10-07T06:34:40.532Z",
-      "latestItemPublishedAt": "2026-10-06T09:49:27.000Z",
-      "primaryItemId": "news_df5ace029df0",
-      "evidenceItemIds": [
-        "news_8224a9505621",
-        "news_df5ace029df0"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_62f38f1eea61",
-      "clusterVersion": 2,
-      "title": "美联储拟大改银行监管机制，副主席Bowman：重组区域架构并调整资产门槛",
-      "firstSeenAt": "2026-10-06T18:34:18.628Z",
-      "lastSeenAt": "2026-10-07T06:34:40.532Z",
-      "latestItemPublishedAt": "2026-10-06T17:49:22.000Z",
-      "primaryItemId": "news_04293e3315b1",
-      "evidenceItemIds": [
-        "news_04293e3315b1",
-        "news_eea33c3288d6"
-      ],
-      "status": "developing",
-      "summary": "美联储拟大改银行监管，副主席Bowman建议重组区域架构并调整资产门槛。",
-      "latestProgress": "美联储宣布重组美国银行监管体系。"
-    },
-    {
-      "eventId": "event_934053bb00e3",
-      "clusterVersion": 2,
-      "title": "AI进化速递丨华为与高通宣布达成广泛专利许可协议",
-      "firstSeenAt": "2026-10-05T17:16:10.682Z",
-      "lastSeenAt": "2026-10-07T06:34:40.532Z",
-      "latestItemPublishedAt": "2026-10-05T13:00:07.000Z",
-      "primaryItemId": "news_e689c676b03b",
-      "evidenceItemIds": [
-        "news_e689c676b03b",
-        "news_020f0d9aa27d"
-      ],
-      "status": "developing",
-      "summary": "华为与高通宣布达成广泛专利许可协议。",
-      "latestProgress": "华为与高通宣布达成广泛专利许可协议。"
-    },
-    {
       "eventId": "event_9fd716aed68c",
       "clusterVersion": 2,
       "title": "商务部新闻发言人就二十国集团贸易部长会议及相关情况答记者问",
@@ -200,30 +281,6 @@
       "status": "developing",
       "summary": "商务部就二十国集团贸易部长会议答记者问。",
       "latestProgress": "商务部新闻发言人今日答记者问，介绍相关情况。"
-    },
-    {
-      "eventId": "event_2cf716748ce1",
-      "clusterVersion": 2,
-      "title": "中国央行连续第23个月增持黄金",
-      "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-07T06:34:40.532Z",
-      "latestItemPublishedAt": "2026-10-07T02:12:50.000Z",
-      "primaryItemId": "news_2f288323fb81",
-      "evidenceItemIds": [
-        "news_5de8a00d999f",
-        "news_90f768d7e736",
-        "news_bdce82dbe6c8",
-        "news_9a0bf58b7497",
-        "news_79a109a7b441",
-        "news_7cce498ba7b6",
-        "news_570b6a39a4b5",
-        "news_1035aecf181c",
-        "news_2f288323fb81",
-        "news_f2a80898dd81"
-      ],
-      "status": "developing",
-      "summary": "中国央行连续第23个月增持黄金",
-      "latestProgress": "9月末外汇储备报34002.51亿美元"
     },
     {
       "eventId": "event_16e58ed62828",
@@ -285,23 +342,6 @@
       "evidenceItemIds": [
         "news_ab1185830942",
         "news_c5764e932222"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_c451a076d7dd",
-      "clusterVersion": 2,
-      "title": "印度银行股走高，押注印度储备银行加息，Nifty私人银行指数涨逾1%",
-      "firstSeenAt": "2026-10-07T06:34:40.532Z",
-      "lastSeenAt": "2026-10-07T06:34:40.532Z",
-      "latestItemPublishedAt": "2026-10-07T05:45:08.000Z",
-      "primaryItemId": "news_5ac9a222900b",
-      "evidenceItemIds": [
-        "news_5ac9a222900b",
-        "news_add98489850a",
-        "news_fd64b64d4e6d"
       ],
       "status": "developing",
       "summary": "",

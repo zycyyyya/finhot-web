@@ -1,11 +1,11 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-10-07T11:08:58.769Z",
+  "updatedAt": "2026-10-07T15:39:51.765Z",
   "consecutiveFailures": 0,
   "sourceLimitRuns": {
     "source_a6a2153c0b": 0,
     "source_6a677efcc2": 0,
-    "source_71b645ddf5": 0,
+    "source_71b645ddf5": 1,
     "source_dae28d24f5": 0,
     "source_7b954bfc72": 0,
     "source_4087f16353": 0,
@@ -18,7 +18,7 @@
   },
   "scheduleRuns": {
     "17 4 * * *": "2026-10-07T11:02:27Z",
-    "19 8 * * *": "2026-10-06T15:17:00Z",
+    "19 8 * * *": "2026-10-07T15:37:08Z",
     "21 12 * * *": "2026-10-06T18:27:58Z",
     "15 0 * * *": "2026-10-07T06:04:58Z"
   }

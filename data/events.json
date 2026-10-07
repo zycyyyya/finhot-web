@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-07T15:39:51.765Z",
+  "generatedAt": "2026-10-07T19:00:47.344Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -9,7 +9,7 @@
       "clusterVersion": 2,
       "title": "当40万亿险资遇上低利率，A股的定价规则开始变了",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-07T15:39:51.765Z",
+      "lastSeenAt": "2026-10-07T19:00:47.344Z",
       "latestItemPublishedAt": "2026-10-07T12:53:18.000Z",
       "primaryItemId": "news_21bfd6078a4b",
       "evidenceItemIds": [
@@ -38,7 +38,7 @@
       "clusterVersion": 2,
       "title": "全球长端利率冲向新高：美债5.3%之后，美股还能撑多久？",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-07T15:39:51.765Z",
+      "lastSeenAt": "2026-10-07T19:00:47.344Z",
       "latestItemPublishedAt": "2026-10-07T09:17:03.000Z",
       "primaryItemId": "news_103f6c78f97b",
       "evidenceItemIds": [
@@ -80,7 +80,7 @@
       "clusterVersion": 2,
       "title": "中国AI双雄冲刺港股：月之暗面完成融资最早明年Q1上市 ，可灵AI拟募资至少10亿美元",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-10-07T15:39:51.765Z",
+      "lastSeenAt": "2026-10-07T19:00:47.344Z",
       "latestItemPublishedAt": "2026-10-07T13:15:42.000Z",
       "primaryItemId": "news_9b6d4ce3fae7",
       "evidenceItemIds": [
@@ -127,27 +127,11 @@
       "latestProgress": "智谱港股涨超5%。"
     },
     {
-      "eventId": "event_62f38f1eea61",
-      "clusterVersion": 2,
-      "title": "美联储拟大改银行监管机制，副主席Bowman：重组区域架构并调整资产门槛",
-      "firstSeenAt": "2026-10-06T18:34:18.628Z",
-      "lastSeenAt": "2026-10-07T15:39:51.765Z",
-      "latestItemPublishedAt": "2026-10-06T17:49:22.000Z",
-      "primaryItemId": "news_04293e3315b1",
-      "evidenceItemIds": [
-        "news_04293e3315b1",
-        "news_eea33c3288d6"
-      ],
-      "status": "developing",
-      "summary": "美联储拟大改银行监管，副主席Bowman建议重组区域架构并调整资产门槛。",
-      "latestProgress": "美联储宣布重组美国银行监管体系。"
-    },
-    {
       "eventId": "event_934053bb00e3",
       "clusterVersion": 2,
       "title": "AI进化速递丨华为与高通宣布达成广泛专利许可协议",
       "firstSeenAt": "2026-10-05T17:16:10.682Z",
-      "lastSeenAt": "2026-10-07T15:39:51.765Z",
+      "lastSeenAt": "2026-10-07T19:00:47.344Z",
       "latestItemPublishedAt": "2026-10-05T13:00:07.000Z",
       "primaryItemId": "news_e689c676b03b",
       "evidenceItemIds": [
@@ -163,7 +147,7 @@
       "clusterVersion": 2,
       "title": "中国央行连续第23个月增持黄金",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-07T15:39:51.765Z",
+      "lastSeenAt": "2026-10-07T19:00:47.344Z",
       "latestItemPublishedAt": "2026-10-07T12:34:55.000Z",
       "primaryItemId": "news_2f288323fb81",
       "evidenceItemIds": [
@@ -193,7 +177,7 @@
       "clusterVersion": 2,
       "title": "印度股市在印度储备银行近4年来首次加息后下跌",
       "firstSeenAt": "2026-10-07T06:34:40.532Z",
-      "lastSeenAt": "2026-10-07T15:39:51.765Z",
+      "lastSeenAt": "2026-10-07T19:00:47.344Z",
       "latestItemPublishedAt": "2026-10-07T05:45:08.000Z",
       "primaryItemId": "news_add98489850a",
       "evidenceItemIds": [
@@ -210,7 +194,7 @@
       "clusterVersion": 2,
       "title": "港股午盘：恒生指数跌0.53% 恒生科技指数跌0.91%",
       "firstSeenAt": "2026-10-07T11:08:58.769Z",
-      "lastSeenAt": "2026-10-07T15:39:51.765Z",
+      "lastSeenAt": "2026-10-07T19:00:47.344Z",
       "latestItemPublishedAt": "2026-10-07T04:09:59.000Z",
       "primaryItemId": "news_59dbea524f7c",
       "evidenceItemIds": [
@@ -226,7 +210,7 @@
       "clusterVersion": 2,
       "title": "新高！美股三大股指全线上扬，芯片股走强，纳指、标普500再破纪录，中概股普涨，油价小幅上涨",
       "firstSeenAt": "2026-10-07T11:08:58.769Z",
-      "lastSeenAt": "2026-10-07T15:39:51.765Z",
+      "lastSeenAt": "2026-10-07T19:00:47.344Z",
       "latestItemPublishedAt": "2026-10-07T02:34:15.000Z",
       "primaryItemId": "news_399ff957635a",
       "evidenceItemIds": [
@@ -236,6 +220,22 @@
       "status": "developing",
       "summary": "",
       "latestProgress": ""
+    },
+    {
+      "eventId": "event_62f38f1eea61",
+      "clusterVersion": 2,
+      "title": "美联储拟大改银行监管机制，副主席Bowman：重组区域架构并调整资产门槛",
+      "firstSeenAt": "2026-10-06T18:34:18.628Z",
+      "lastSeenAt": "2026-10-07T15:39:51.765Z",
+      "latestItemPublishedAt": "2026-10-06T17:49:22.000Z",
+      "primaryItemId": "news_04293e3315b1",
+      "evidenceItemIds": [
+        "news_04293e3315b1",
+        "news_eea33c3288d6"
+      ],
+      "status": "developing",
+      "summary": "美联储拟大改银行监管，副主席Bowman建议重组区域架构并调整资产门槛。",
+      "latestProgress": "美联储宣布重组美国银行监管体系。"
     },
     {
       "eventId": "event_e28709d78af5",

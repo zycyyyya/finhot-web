@@ -1,17 +1,17 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-08T06:40:59.994Z",
+  "generatedAt": "2026-10-08T11:25:20.366Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
       "eventId": "event_a3c5d0364922",
       "clusterVersion": 2,
-      "title": "连续地量，A股节后行情怎么走",
+      "title": "【量化观察】A股高质量因子量化策略月报（2026年9月）",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-08T06:40:59.994Z",
-      "latestItemPublishedAt": "2026-10-08T01:35:00.000Z",
-      "primaryItemId": "news_a34eb7dab59a",
+      "lastSeenAt": "2026-10-08T11:25:20.366Z",
+      "latestItemPublishedAt": "2026-10-08T10:55:51.000Z",
+      "primaryItemId": "news_44cf3374398d",
       "evidenceItemIds": [
         "news_943234fa21c3",
         "news_de9aae9a8f2f",
@@ -29,7 +29,9 @@
         "news_a34eb7dab59a",
         "news_9098c1e911fd",
         "news_14228ec4ee11",
-        "news_6b225c588500"
+        "news_6b225c588500",
+        "news_44cf3374398d",
+        "news_af2bd677978f"
       ],
       "status": "developing",
       "summary": "连续地量引发关注，券商集体研判A股节后行情走势。",
@@ -40,7 +42,7 @@
       "clusterVersion": 2,
       "title": "英伟达首度冲击6万亿美元，科技七巨头这一次能“扛”美股走多远？",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-08T06:40:59.994Z",
+      "lastSeenAt": "2026-10-08T11:25:20.366Z",
       "latestItemPublishedAt": "2026-10-08T02:48:40.000Z",
       "primaryItemId": "news_c0a95965e33d",
       "evidenceItemIds": [
@@ -82,11 +84,11 @@
     {
       "eventId": "event_c68d651d4ff9",
       "clusterVersion": 2,
-      "title": "国信证券：9月以来外资流出港股互联网规模靠前",
+      "title": "中文在线放弃港股IPO，28亿AIGC扩张计划遭遇追问",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-10-08T06:40:59.994Z",
-      "latestItemPublishedAt": "2026-10-07T02:00:19.000Z",
-      "primaryItemId": "news_d073bec14996",
+      "lastSeenAt": "2026-10-08T11:25:20.366Z",
+      "latestItemPublishedAt": "2026-10-08T09:01:27.000Z",
+      "primaryItemId": "news_e7deda1d545a",
       "evidenceItemIds": [
         "news_2b090183c8dd",
         "news_7c802606a071",
@@ -124,7 +126,8 @@
         "news_cd091725a8b0",
         "news_6437af7ee72b",
         "news_858f4603b7ff",
-        "news_53e170307e71"
+        "news_53e170307e71",
+        "news_e7deda1d545a"
       ],
       "status": "developing",
       "summary": "国信证券：9月以来外资流出港股互联网规模靠前",
@@ -133,11 +136,11 @@
     {
       "eventId": "event_2cf716748ce1",
       "clusterVersion": 2,
-      "title": "日本实际工资八连涨背后：补贴减税托底，破产潮与加息预期令央行两难",
+      "title": "央行托底与加息压制并存，黄金价格等待趋势信号",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-08T06:40:59.994Z",
-      "latestItemPublishedAt": "2026-10-07T05:44:32.000Z",
-      "primaryItemId": "news_ab4f531b05fb",
+      "lastSeenAt": "2026-10-08T11:25:20.366Z",
+      "latestItemPublishedAt": "2026-10-08T11:05:31.000Z",
+      "primaryItemId": "news_0a19f837484a",
       "evidenceItemIds": [
         "news_5de8a00d999f",
         "news_90f768d7e736",
@@ -157,7 +160,11 @@
         "news_a65ee7317b4d",
         "news_1ec27da9d574",
         "news_628706a199cd",
-        "news_4298d79d3d21"
+        "news_4298d79d3d21",
+        "news_ac43ad12693a",
+        "news_6c0ac371796c",
+        "news_a3210a89abaa",
+        "news_6c929a5b30e5"
       ],
       "status": "developing",
       "summary": "中国央行连续第23个月增持黄金",
@@ -166,19 +173,87 @@
     {
       "eventId": "event_c451a076d7dd",
       "clusterVersion": 2,
-      "title": "印度储备银行近四年来首次加息，暗示后续或将继续收紧",
+      "title": "加息25基点难阻资本外流，印度卢比逼近历史新低、基准债券收益率创近三年最高",
       "firstSeenAt": "2026-10-07T06:34:40.532Z",
-      "lastSeenAt": "2026-10-08T06:40:59.994Z",
-      "latestItemPublishedAt": "2026-10-07T05:45:08.000Z",
-      "primaryItemId": "news_fd64b64d4e6d",
+      "lastSeenAt": "2026-10-08T11:25:20.366Z",
+      "latestItemPublishedAt": "2026-10-08T07:19:16.000Z",
+      "primaryItemId": "news_0af31d94385d",
       "evidenceItemIds": [
         "news_5ac9a222900b",
         "news_add98489850a",
-        "news_fd64b64d4e6d"
+        "news_fd64b64d4e6d",
+        "news_0af31d94385d"
       ],
       "status": "developing",
       "summary": "",
       "latestProgress": ""
+    },
+    {
+      "eventId": "event_c8c3d6e3079d",
+      "clusterVersion": 2,
+      "title": "国庆假期1546.2万人次出入境 日均220.9万人次 较去年同期增长6.7%",
+      "firstSeenAt": "2026-10-08T06:40:59.994Z",
+      "lastSeenAt": "2026-10-08T11:25:20.366Z",
+      "latestItemPublishedAt": "2026-10-08T06:02:08.000Z",
+      "primaryItemId": "news_3c5a15d6da6c",
+      "evidenceItemIds": [
+        "news_3c5a15d6da6c",
+        "news_999b92843adf"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_c7d616f54a01",
+      "clusterVersion": 2,
+      "title": "俄称鼠疫研究机构一员工确诊“不明原因肺炎” 克宫和世卫组织发声",
+      "firstSeenAt": "2026-10-08T06:40:59.994Z",
+      "lastSeenAt": "2026-10-08T11:25:20.366Z",
+      "latestItemPublishedAt": "2026-10-08T04:37:31.000Z",
+      "primaryItemId": "news_fb981aaa4608",
+      "evidenceItemIds": [
+        "news_fb981aaa4608",
+        "news_0ec971dcbd6c"
+      ],
+      "status": "developing",
+      "summary": "俄鼠疫研究机构员工确诊不明原因肺炎，克宫和世卫组织发声。",
+      "latestProgress": "克宫和世卫组织就员工确诊不明原因肺炎作出回应。"
+    },
+    {
+      "eventId": "event_6ab2a13609c6",
+      "clusterVersion": 2,
+      "title": "美联储9月纪要释放重要信号：“保险式加息”正在回归！",
+      "firstSeenAt": "2026-10-08T06:40:59.994Z",
+      "lastSeenAt": "2026-10-08T11:25:20.366Z",
+      "latestItemPublishedAt": "2026-10-08T08:41:42.000Z",
+      "primaryItemId": "news_653fc1efe942",
+      "evidenceItemIds": [
+        "news_1d0c31b07d1b",
+        "news_ecab20992500",
+        "news_653fc1efe942",
+        "news_44a82f6088f4",
+        "news_a17e98dc402b"
+      ],
+      "status": "developing",
+      "summary": "美联储纪要显示所有19名官员支持9月加息，但加息理由存在分歧。",
+      "latestProgress": "美联储纪要称加息理由存分歧，年内或将再上调利率一次。"
+    },
+    {
+      "eventId": "event_1fa6d83d8f5e",
+      "clusterVersion": 2,
+      "title": "通胀已“大致达标”，日本央行为何仍不敢连续加息？",
+      "firstSeenAt": "2026-10-08T06:40:59.994Z",
+      "lastSeenAt": "2026-10-08T11:25:20.366Z",
+      "latestItemPublishedAt": "2026-10-08T05:08:26.000Z",
+      "primaryItemId": "news_bda3cd5dc60b",
+      "evidenceItemIds": [
+        "news_bda3cd5dc60b",
+        "news_019cbcda35a1"
+      ],
+      "status": "developing",
+      "summary": "日本央行维持地区评估，通胀达标但仍谨慎，未连续加息。",
+      "latestProgress": "日本央行季度报告维持对七个地区的评估不变。"
     },
     {
       "eventId": "event_d745e391fed3",
@@ -227,70 +302,6 @@
       "status": "developing",
       "summary": "",
       "latestProgress": ""
-    },
-    {
-      "eventId": "event_c8c3d6e3079d",
-      "clusterVersion": 2,
-      "title": "国庆假期1546.2万人次出入境 日均220.9万人次 较去年同期增长6.7%",
-      "firstSeenAt": "2026-10-08T06:40:59.994Z",
-      "lastSeenAt": "2026-10-08T06:40:59.994Z",
-      "latestItemPublishedAt": "2026-10-08T06:02:08.000Z",
-      "primaryItemId": "news_3c5a15d6da6c",
-      "evidenceItemIds": [
-        "news_3c5a15d6da6c",
-        "news_999b92843adf"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_c7d616f54a01",
-      "clusterVersion": 2,
-      "title": "俄称鼠疫研究机构一员工确诊“不明原因肺炎” 克宫和世卫组织发声",
-      "firstSeenAt": "2026-10-08T06:40:59.994Z",
-      "lastSeenAt": "2026-10-08T06:40:59.994Z",
-      "latestItemPublishedAt": "2026-10-08T04:37:31.000Z",
-      "primaryItemId": "news_fb981aaa4608",
-      "evidenceItemIds": [
-        "news_fb981aaa4608",
-        "news_0ec971dcbd6c"
-      ],
-      "status": "developing",
-      "summary": "俄鼠疫研究机构员工确诊不明原因肺炎，克宫和世卫组织发声。",
-      "latestProgress": "克宫和世卫组织就员工确诊不明原因肺炎作出回应。"
-    },
-    {
-      "eventId": "event_6ab2a13609c6",
-      "clusterVersion": 2,
-      "title": "美联储会议纪要：所有19名官员都在9月支持加息",
-      "firstSeenAt": "2026-10-08T06:40:59.994Z",
-      "lastSeenAt": "2026-10-08T06:40:59.994Z",
-      "latestItemPublishedAt": "2026-10-07T23:10:41.000Z",
-      "primaryItemId": "news_1d0c31b07d1b",
-      "evidenceItemIds": [
-        "news_1d0c31b07d1b",
-        "news_ecab20992500"
-      ],
-      "status": "developing",
-      "summary": "美联储纪要显示所有19名官员支持9月加息，但加息理由存在分歧。",
-      "latestProgress": "美联储纪要称加息理由存分歧，年内或将再上调利率一次。"
-    },
-    {
-      "eventId": "event_1fa6d83d8f5e",
-      "clusterVersion": 2,
-      "title": "通胀已“大致达标”，日本央行为何仍不敢连续加息？",
-      "firstSeenAt": "2026-10-08T06:40:59.994Z",
-      "lastSeenAt": "2026-10-08T06:40:59.994Z",
-      "latestItemPublishedAt": "2026-10-08T05:08:26.000Z",
-      "primaryItemId": "news_bda3cd5dc60b",
-      "evidenceItemIds": [
-        "news_bda3cd5dc60b",
-        "news_019cbcda35a1"
-      ],
-      "status": "developing",
-      "summary": "日本央行维持地区评估，通胀达标但仍谨慎，未连续加息。",
-      "latestProgress": "日本央行季度报告维持对七个地区的评估不变。"
     },
     {
       "eventId": "event_a54f31e8908f",

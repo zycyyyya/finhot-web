@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-08T11:25:20.366Z",
+  "generatedAt": "2026-10-08T15:45:42.144Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -9,8 +9,8 @@
       "clusterVersion": 2,
       "title": "【量化观察】A股高质量因子量化策略月报（2026年9月）",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-08T11:25:20.366Z",
-      "latestItemPublishedAt": "2026-10-08T10:55:51.000Z",
+      "lastSeenAt": "2026-10-08T15:45:42.144Z",
+      "latestItemPublishedAt": "2026-10-08T15:34:17.000Z",
       "primaryItemId": "news_44cf3374398d",
       "evidenceItemIds": [
         "news_943234fa21c3",
@@ -31,7 +31,11 @@
         "news_14228ec4ee11",
         "news_6b225c588500",
         "news_44cf3374398d",
-        "news_af2bd677978f"
+        "news_af2bd677978f",
+        "news_2a0dee8c9362",
+        "news_b9eb50c5908e",
+        "news_1bad60b6b10d",
+        "news_3d834db8f44f"
       ],
       "status": "developing",
       "summary": "连续地量引发关注，券商集体研判A股节后行情走势。",
@@ -40,11 +44,11 @@
     {
       "eventId": "event_f101880ef7bc",
       "clusterVersion": 2,
-      "title": "英伟达首度冲击6万亿美元，科技七巨头这一次能“扛”美股走多远？",
+      "title": "【家庭财富】百年美股的聪与明：长期主义缘何知易行难",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-08T11:25:20.366Z",
-      "latestItemPublishedAt": "2026-10-08T02:48:40.000Z",
-      "primaryItemId": "news_c0a95965e33d",
+      "lastSeenAt": "2026-10-08T15:45:42.144Z",
+      "latestItemPublishedAt": "2026-10-08T15:06:05.000Z",
+      "primaryItemId": "news_023c548a3017",
       "evidenceItemIds": [
         "news_19e0345bcec3",
         "news_9458584cb250",
@@ -75,7 +79,12 @@
         "news_33fdf43777c8",
         "news_e4a027f090b2",
         "news_c0a95965e33d",
-        "news_b9db315a7395"
+        "news_b9db315a7395",
+        "news_023c548a3017",
+        "news_a37d225b50d5",
+        "news_fdf5a6c25051",
+        "news_f3f4ef808a38",
+        "news_db31ca2186d8"
       ],
       "status": "developing",
       "summary": "美股半数股票进入熊市，后市关键看美债波动率。",
@@ -86,8 +95,8 @@
       "clusterVersion": 2,
       "title": "中文在线放弃港股IPO，28亿AIGC扩张计划遭遇追问",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-10-08T11:25:20.366Z",
-      "latestItemPublishedAt": "2026-10-08T09:01:27.000Z",
+      "lastSeenAt": "2026-10-08T15:45:42.144Z",
+      "latestItemPublishedAt": "2026-10-08T13:29:05.000Z",
       "primaryItemId": "news_e7deda1d545a",
       "evidenceItemIds": [
         "news_2b090183c8dd",
@@ -127,7 +136,9 @@
         "news_6437af7ee72b",
         "news_858f4603b7ff",
         "news_53e170307e71",
-        "news_e7deda1d545a"
+        "news_e7deda1d545a",
+        "news_6652e1f22db1",
+        "news_813d4bcebecc"
       ],
       "status": "developing",
       "summary": "国信证券：9月以来外资流出港股互联网规模靠前",
@@ -136,11 +147,11 @@
     {
       "eventId": "event_2cf716748ce1",
       "clusterVersion": 2,
-      "title": "央行托底与加息压制并存，黄金价格等待趋势信号",
+      "title": "不预设目标水平，央行权威表态人民币汇率政策立场",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-08T11:25:20.366Z",
-      "latestItemPublishedAt": "2026-10-08T11:05:31.000Z",
-      "primaryItemId": "news_0a19f837484a",
+      "lastSeenAt": "2026-10-08T15:45:42.144Z",
+      "latestItemPublishedAt": "2026-10-08T11:58:46.000Z",
+      "primaryItemId": "news_6c0ac371796c",
       "evidenceItemIds": [
         "news_5de8a00d999f",
         "news_90f768d7e736",
@@ -164,7 +175,9 @@
         "news_ac43ad12693a",
         "news_6c0ac371796c",
         "news_a3210a89abaa",
-        "news_6c929a5b30e5"
+        "news_6c929a5b30e5",
+        "news_6e755d6b0d8d",
+        "news_80c0ef3cffb3"
       ],
       "status": "developing",
       "summary": "中国央行连续第23个月增持黄金",
@@ -175,7 +188,7 @@
       "clusterVersion": 2,
       "title": "加息25基点难阻资本外流，印度卢比逼近历史新低、基准债券收益率创近三年最高",
       "firstSeenAt": "2026-10-07T06:34:40.532Z",
-      "lastSeenAt": "2026-10-08T11:25:20.366Z",
+      "lastSeenAt": "2026-10-08T15:45:42.144Z",
       "latestItemPublishedAt": "2026-10-08T07:19:16.000Z",
       "primaryItemId": "news_0af31d94385d",
       "evidenceItemIds": [
@@ -193,7 +206,7 @@
       "clusterVersion": 2,
       "title": "国庆假期1546.2万人次出入境 日均220.9万人次 较去年同期增长6.7%",
       "firstSeenAt": "2026-10-08T06:40:59.994Z",
-      "lastSeenAt": "2026-10-08T11:25:20.366Z",
+      "lastSeenAt": "2026-10-08T15:45:42.144Z",
       "latestItemPublishedAt": "2026-10-08T06:02:08.000Z",
       "primaryItemId": "news_3c5a15d6da6c",
       "evidenceItemIds": [
@@ -209,7 +222,7 @@
       "clusterVersion": 2,
       "title": "俄称鼠疫研究机构一员工确诊“不明原因肺炎” 克宫和世卫组织发声",
       "firstSeenAt": "2026-10-08T06:40:59.994Z",
-      "lastSeenAt": "2026-10-08T11:25:20.366Z",
+      "lastSeenAt": "2026-10-08T15:45:42.144Z",
       "latestItemPublishedAt": "2026-10-08T04:37:31.000Z",
       "primaryItemId": "news_fb981aaa4608",
       "evidenceItemIds": [
@@ -225,15 +238,16 @@
       "clusterVersion": 2,
       "title": "美联储9月纪要释放重要信号：“保险式加息”正在回归！",
       "firstSeenAt": "2026-10-08T06:40:59.994Z",
-      "lastSeenAt": "2026-10-08T11:25:20.366Z",
-      "latestItemPublishedAt": "2026-10-08T08:41:42.000Z",
+      "lastSeenAt": "2026-10-08T15:45:42.144Z",
+      "latestItemPublishedAt": "2026-10-08T12:07:46.000Z",
       "primaryItemId": "news_653fc1efe942",
       "evidenceItemIds": [
         "news_1d0c31b07d1b",
         "news_ecab20992500",
         "news_653fc1efe942",
         "news_44a82f6088f4",
-        "news_a17e98dc402b"
+        "news_a17e98dc402b",
+        "news_c3d63417f749"
       ],
       "status": "developing",
       "summary": "美联储纪要显示所有19名官员支持9月加息，但加息理由存在分歧。",
@@ -244,7 +258,7 @@
       "clusterVersion": 2,
       "title": "通胀已“大致达标”，日本央行为何仍不敢连续加息？",
       "firstSeenAt": "2026-10-08T06:40:59.994Z",
-      "lastSeenAt": "2026-10-08T11:25:20.366Z",
+      "lastSeenAt": "2026-10-08T15:45:42.144Z",
       "latestItemPublishedAt": "2026-10-08T05:08:26.000Z",
       "primaryItemId": "news_bda3cd5dc60b",
       "evidenceItemIds": [
@@ -254,6 +268,55 @@
       "status": "developing",
       "summary": "日本央行维持地区评估，通胀达标但仍谨慎，未连续加息。",
       "latestProgress": "日本央行季度报告维持对七个地区的评估不变。"
+    },
+    {
+      "eventId": "event_bd1dfbe5e705",
+      "clusterVersion": 2,
+      "title": "美股三季报下周拉开帷幕：标普500每股收益预计增长27%，英伟达和美光两家公司将贡献1/3",
+      "firstSeenAt": "2026-10-07T11:08:58.769Z",
+      "lastSeenAt": "2026-10-08T15:45:42.144Z",
+      "latestItemPublishedAt": "2026-10-08T03:18:51.000Z",
+      "primaryItemId": "news_6f0c41dcae74",
+      "evidenceItemIds": [
+        "news_399ff957635a",
+        "news_6f0c41dcae74",
+        "news_965dd1f63f4d"
+      ],
+      "status": "developing",
+      "summary": "美股三大指数创新高，芯片股与中概股普涨，油价小幅上行。",
+      "latestProgress": "美股三季报将启，标普500每股收益预增27%，英伟达美光贡献三分之一。"
+    },
+    {
+      "eventId": "event_462c374e92e3",
+      "clusterVersion": 2,
+      "title": "行云科技：预计2026年前三季度净利润2.4亿元-2.9亿元，同比扭亏为盈",
+      "firstSeenAt": "2026-10-08T15:45:42.144Z",
+      "lastSeenAt": "2026-10-08T15:45:42.144Z",
+      "latestItemPublishedAt": "2026-10-08T15:05:09.000Z",
+      "primaryItemId": "news_9b7aa1ccab27",
+      "evidenceItemIds": [
+        "news_9b7aa1ccab27",
+        "news_a3a42c24fd56"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_76002b83cb84",
+      "clusterVersion": 2,
+      "title": "美国航空对阿苏尔航空1亿美元的投资获巴西监管批准",
+      "firstSeenAt": "2026-10-08T15:45:42.144Z",
+      "lastSeenAt": "2026-10-08T15:45:42.144Z",
+      "latestItemPublishedAt": "2026-10-08T12:08:39.000Z",
+      "primaryItemId": "news_4fb48734a9a8",
+      "evidenceItemIds": [
+        "news_4fb48734a9a8",
+        "news_219361a47d11"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
     },
     {
       "eventId": "event_d745e391fed3",
@@ -270,22 +333,6 @@
       "status": "developing",
       "summary": "港股午盘恒指跌0.53%，恒生科技指数跌0.91%。",
       "latestProgress": "截至午盘，恒指与恒生科技指数均下跌，市场情绪偏弱。"
-    },
-    {
-      "eventId": "event_bd1dfbe5e705",
-      "clusterVersion": 2,
-      "title": "新高！美股三大股指全线上扬，芯片股走强，纳指、标普500再破纪录，中概股普涨，油价小幅上涨",
-      "firstSeenAt": "2026-10-07T11:08:58.769Z",
-      "lastSeenAt": "2026-10-08T06:40:59.994Z",
-      "latestItemPublishedAt": "2026-10-07T02:34:15.000Z",
-      "primaryItemId": "news_399ff957635a",
-      "evidenceItemIds": [
-        "news_399ff957635a",
-        "news_6f0c41dcae74"
-      ],
-      "status": "developing",
-      "summary": "美股三大指数创新高，芯片股与中概股普涨，油价小幅上行。",
-      "latestProgress": "美股三季报将启，标普500每股收益预增27%，英伟达美光贡献三分之一。"
     },
     {
       "eventId": "event_acf278108262",

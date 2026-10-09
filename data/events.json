@@ -1,17 +1,17 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-09T06:44:52.975Z",
+  "generatedAt": "2026-10-09T11:23:10.875Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
       "eventId": "event_a3c5d0364922",
       "clusterVersion": 2,
-      "title": "A股四大指数集体低开，江淮汽车再度跌停",
+      "title": "从光芯片到覆铜板，A股AI硬件板块因何轮番走低？",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-09T06:44:52.975Z",
-      "latestItemPublishedAt": "2026-10-09T06:07:26.000Z",
-      "primaryItemId": "news_2fa6c74e8339",
+      "lastSeenAt": "2026-10-09T11:23:10.875Z",
+      "latestItemPublishedAt": "2026-10-09T10:12:27.000Z",
+      "primaryItemId": "news_b0dfe8c423af",
       "evidenceItemIds": [
         "news_943234fa21c3",
         "news_de9aae9a8f2f",
@@ -41,7 +41,9 @@
         "news_ef1c4497f1b9",
         "news_2fa6c74e8339",
         "news_806edb4e8b95",
-        "news_fa376e493170"
+        "news_fa376e493170",
+        "news_b0dfe8c423af",
+        "news_25f15cb075f3"
       ],
       "status": "developing",
       "summary": "连续地量引发关注，券商集体研判A股节后行情走势。",
@@ -52,7 +54,7 @@
       "clusterVersion": 2,
       "title": "【家庭财富】百年美股的聪与明：长期主义缘何知易行难",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-09T06:44:52.975Z",
+      "lastSeenAt": "2026-10-09T11:23:10.875Z",
       "latestItemPublishedAt": "2026-10-09T02:23:34.000Z",
       "primaryItemId": "news_023c548a3017",
       "evidenceItemIds": [
@@ -103,7 +105,7 @@
       "clusterVersion": 2,
       "title": "中文在线放弃港股IPO，28亿AIGC扩张计划遭遇追问",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-10-09T06:44:52.975Z",
+      "lastSeenAt": "2026-10-09T11:23:10.875Z",
       "latestItemPublishedAt": "2026-10-08T13:29:05.000Z",
       "primaryItemId": "news_e7deda1d545a",
       "evidenceItemIds": [
@@ -155,11 +157,11 @@
     {
       "eventId": "event_2cf716748ce1",
       "clusterVersion": 2,
-      "title": "对冲基金协会警告英国央行：英国国债回购市场改革或损害流动性",
+      "title": "谭谈：央行为什么发布关于人民币汇率的政策立场",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-09T06:44:52.975Z",
-      "latestItemPublishedAt": "2026-10-07T05:32:12.000Z",
-      "primaryItemId": "news_4298d79d3d21",
+      "lastSeenAt": "2026-10-09T11:23:10.875Z",
+      "latestItemPublishedAt": "2026-10-09T05:26:40.000Z",
+      "primaryItemId": "news_78689efa326d",
       "evidenceItemIds": [
         "news_5de8a00d999f",
         "news_90f768d7e736",
@@ -187,7 +189,8 @@
         "news_6e755d6b0d8d",
         "news_80c0ef3cffb3",
         "news_7173a9e7e57a",
-        "news_78689efa326d"
+        "news_78689efa326d",
+        "news_c40eb932210e"
       ],
       "status": "developing",
       "summary": "对冲基金协会警告英国央行，国债回购市场改革或损害流动性。",
@@ -196,18 +199,19 @@
     {
       "eventId": "event_6ab2a13609c6",
       "clusterVersion": 2,
-      "title": "美联储理事沃勒：加息无需连续进行。2027年点阵图可能反映年初加息，之后再降息",
+      "title": "下周美国CPI的决定性意义：美联储10月不加息？",
       "firstSeenAt": "2026-10-08T06:40:59.994Z",
-      "lastSeenAt": "2026-10-09T06:44:52.975Z",
-      "latestItemPublishedAt": "2026-10-08T12:07:46.000Z",
-      "primaryItemId": "news_44a82f6088f4",
+      "lastSeenAt": "2026-10-09T11:23:10.875Z",
+      "latestItemPublishedAt": "2026-10-09T09:06:56.000Z",
+      "primaryItemId": "news_68e9d0c16666",
       "evidenceItemIds": [
         "news_1d0c31b07d1b",
         "news_ecab20992500",
         "news_653fc1efe942",
         "news_44a82f6088f4",
         "news_a17e98dc402b",
-        "news_c3d63417f749"
+        "news_c3d63417f749",
+        "news_68e9d0c16666"
       ],
       "status": "developing",
       "summary": "美联储沃勒称进一步加息仍有必要，但无需连续采取行动。",
@@ -216,14 +220,96 @@
     {
       "eventId": "event_462c374e92e3",
       "clusterVersion": 2,
-      "title": "行云科技：预计2026年前三季度净利润2.4亿元-2.9亿元，同比扭亏为盈",
+      "title": "行云科技(300209.SZ)发预盈，预计前三季度归母净利润2.4亿元至2.9亿元，同比扭亏为盈",
       "firstSeenAt": "2026-10-08T15:45:42.144Z",
-      "lastSeenAt": "2026-10-09T06:44:52.975Z",
+      "lastSeenAt": "2026-10-09T11:23:10.875Z",
       "latestItemPublishedAt": "2026-10-08T15:05:09.000Z",
-      "primaryItemId": "news_9b7aa1ccab27",
+      "primaryItemId": "news_a3a42c24fd56",
       "evidenceItemIds": [
         "news_9b7aa1ccab27",
         "news_a3a42c24fd56"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_62f38f1eea61",
+      "clusterVersion": 2,
+      "title": "美联储宣布重组美国银行监管体系",
+      "firstSeenAt": "2026-10-06T18:34:18.628Z",
+      "lastSeenAt": "2026-10-09T11:23:10.875Z",
+      "latestItemPublishedAt": "2026-10-09T03:58:25.000Z",
+      "primaryItemId": "news_eea33c3288d6",
+      "evidenceItemIds": [
+        "news_04293e3315b1",
+        "news_eea33c3288d6",
+        "news_ecab20992500",
+        "news_d8d07bfcbe78"
+      ],
+      "status": "developing",
+      "summary": "美联储纪要显示加息存分歧，年内或再加一次。",
+      "latestProgress": "外资行境内美元存款利率上行至最高4.1%。"
+    },
+    {
+      "eventId": "event_b6b6148b7537",
+      "clusterVersion": 2,
+      "title": "美国预算赤字飙升至近2万亿美元，占GDP比例将超6%，高利率、减税加剧赤字恶化",
+      "firstSeenAt": "2026-10-09T06:44:52.975Z",
+      "lastSeenAt": "2026-10-09T11:23:10.875Z",
+      "latestItemPublishedAt": "2026-10-09T00:04:18.000Z",
+      "primaryItemId": "news_2afa81af5999",
+      "evidenceItemIds": [
+        "news_2afa81af5999",
+        "news_19b18a80c06c"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_11fbdbe8083c",
+      "clusterVersion": 2,
+      "title": "中共中央 国务院关于发展新质生产力的意见",
+      "firstSeenAt": "2026-10-09T11:23:10.875Z",
+      "lastSeenAt": "2026-10-09T11:23:10.875Z",
+      "latestItemPublishedAt": "2026-10-09T11:00:48.000Z",
+      "primaryItemId": "news_00b8057840f3",
+      "evidenceItemIds": [
+        "news_00b8057840f3",
+        "news_17259e8e1e7b"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_36c66c3405a0",
+      "clusterVersion": 2,
+      "title": "中国人民银行关于人民币汇率的政策立场",
+      "firstSeenAt": "2026-10-09T11:23:10.875Z",
+      "lastSeenAt": "2026-10-09T11:23:10.875Z",
+      "latestItemPublishedAt": "2026-10-09T10:48:33.000Z",
+      "primaryItemId": "news_886b8231825a",
+      "evidenceItemIds": [
+        "news_886b8231825a",
+        "news_612815e422db"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_f2a1b1e0cfd1",
+      "clusterVersion": 2,
+      "title": "叮当健康(09886)10月9日斥资46.25万港元回购56万股",
+      "firstSeenAt": "2026-10-09T11:23:10.875Z",
+      "lastSeenAt": "2026-10-09T11:23:10.875Z",
+      "latestItemPublishedAt": "2026-10-09T11:05:16.000Z",
+      "primaryItemId": "news_b27834b9ba98",
+      "evidenceItemIds": [
+        "news_b27834b9ba98",
+        "news_ea93ba3ee9b2"
       ],
       "status": "developing",
       "summary": "",
@@ -244,40 +330,6 @@
       "status": "developing",
       "summary": "美国航空对阿苏尔航空1亿美元投资获巴西监管批准。",
       "latestProgress": "暂无该投资后续进展报道。"
-    },
-    {
-      "eventId": "event_62f38f1eea61",
-      "clusterVersion": 2,
-      "title": "美联储会议纪要：加息理由存在分歧，年内或将再上调利率一次",
-      "firstSeenAt": "2026-10-06T18:34:18.628Z",
-      "lastSeenAt": "2026-10-09T06:44:52.975Z",
-      "latestItemPublishedAt": "2026-10-09T03:58:25.000Z",
-      "primaryItemId": "news_ecab20992500",
-      "evidenceItemIds": [
-        "news_04293e3315b1",
-        "news_eea33c3288d6",
-        "news_ecab20992500",
-        "news_d8d07bfcbe78"
-      ],
-      "status": "developing",
-      "summary": "美联储纪要显示加息存分歧，年内或再加一次。",
-      "latestProgress": "外资行境内美元存款利率上行至最高4.1%。"
-    },
-    {
-      "eventId": "event_b6b6148b7537",
-      "clusterVersion": 2,
-      "title": "美国预算赤字飙升至近2万亿美元，占GDP比例将超6%，高利率、减税加剧赤字恶化",
-      "firstSeenAt": "2026-10-09T06:44:52.975Z",
-      "lastSeenAt": "2026-10-09T06:44:52.975Z",
-      "latestItemPublishedAt": "2026-10-09T00:04:18.000Z",
-      "primaryItemId": "news_2afa81af5999",
-      "evidenceItemIds": [
-        "news_2afa81af5999",
-        "news_19b18a80c06c"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
     },
     {
       "eventId": "event_ed182d327d2c",

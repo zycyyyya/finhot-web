@@ -1,17 +1,17 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-08T18:56:37.900Z",
+  "generatedAt": "2026-10-09T06:44:52.975Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
       "eventId": "event_a3c5d0364922",
       "clusterVersion": 2,
-      "title": "【量化观察】A股高质量因子量化策略月报（2026年9月）",
+      "title": "A股四大指数集体低开，江淮汽车再度跌停",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-08T18:56:37.900Z",
-      "latestItemPublishedAt": "2026-10-08T15:34:17.000Z",
-      "primaryItemId": "news_44cf3374398d",
+      "lastSeenAt": "2026-10-09T06:44:52.975Z",
+      "latestItemPublishedAt": "2026-10-09T06:07:26.000Z",
+      "primaryItemId": "news_2fa6c74e8339",
       "evidenceItemIds": [
         "news_943234fa21c3",
         "news_de9aae9a8f2f",
@@ -36,7 +36,12 @@
         "news_b9eb50c5908e",
         "news_1bad60b6b10d",
         "news_3d834db8f44f",
-        "news_e3822054ff89"
+        "news_e3822054ff89",
+        "news_aa9ec3af7c1e",
+        "news_ef1c4497f1b9",
+        "news_2fa6c74e8339",
+        "news_806edb4e8b95",
+        "news_fa376e493170"
       ],
       "status": "developing",
       "summary": "连续地量引发关注，券商集体研判A股节后行情走势。",
@@ -47,8 +52,8 @@
       "clusterVersion": 2,
       "title": "【家庭财富】百年美股的聪与明：长期主义缘何知易行难",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-08T18:56:37.900Z",
-      "latestItemPublishedAt": "2026-10-08T15:06:05.000Z",
+      "lastSeenAt": "2026-10-09T06:44:52.975Z",
+      "latestItemPublishedAt": "2026-10-09T02:23:34.000Z",
       "primaryItemId": "news_023c548a3017",
       "evidenceItemIds": [
         "news_19e0345bcec3",
@@ -85,18 +90,20 @@
         "news_a37d225b50d5",
         "news_fdf5a6c25051",
         "news_f3f4ef808a38",
-        "news_db31ca2186d8"
+        "news_db31ca2186d8",
+        "news_343b43269cbc",
+        "news_c24c9213fcdc"
       ],
       "status": "developing",
-      "summary": "美股半数股票进入熊市，后市关键看美债波动率。",
-      "latestProgress": "10月5日美股走高，财报季周四揭幕，贵金属原油同步上涨。"
+      "summary": "美股长期主义理念与现实博弈并存，生物科技、消费及半导体板块异动频繁。",
+      "latestProgress": "OpenAI收入不及预期引发半导体股下挫，中期选举前板块多空博弈升温。"
     },
     {
       "eventId": "event_c68d651d4ff9",
       "clusterVersion": 2,
       "title": "中文在线放弃港股IPO，28亿AIGC扩张计划遭遇追问",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-10-08T18:56:37.900Z",
+      "lastSeenAt": "2026-10-09T06:44:52.975Z",
       "latestItemPublishedAt": "2026-10-08T13:29:05.000Z",
       "primaryItemId": "news_e7deda1d545a",
       "evidenceItemIds": [
@@ -148,11 +155,11 @@
     {
       "eventId": "event_2cf716748ce1",
       "clusterVersion": 2,
-      "title": "不预设目标水平，央行权威表态人民币汇率政策立场",
+      "title": "对冲基金协会警告英国央行：英国国债回购市场改革或损害流动性",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-08T18:56:37.900Z",
-      "latestItemPublishedAt": "2026-10-08T11:58:46.000Z",
-      "primaryItemId": "news_6c0ac371796c",
+      "lastSeenAt": "2026-10-09T06:44:52.975Z",
+      "latestItemPublishedAt": "2026-10-07T05:32:12.000Z",
+      "primaryItemId": "news_4298d79d3d21",
       "evidenceItemIds": [
         "news_5de8a00d999f",
         "news_90f768d7e736",
@@ -179,11 +186,114 @@
         "news_6c929a5b30e5",
         "news_6e755d6b0d8d",
         "news_80c0ef3cffb3",
-        "news_7173a9e7e57a"
+        "news_7173a9e7e57a",
+        "news_78689efa326d"
       ],
       "status": "developing",
-      "summary": "中国央行连续第23个月增持黄金",
-      "latestProgress": "9月末外汇储备报34002.51亿美元"
+      "summary": "对冲基金协会警告英国央行，国债回购市场改革或损害流动性。",
+      "latestProgress": "截至目前无后续相关报道，该警告仍为最新进展。"
+    },
+    {
+      "eventId": "event_6ab2a13609c6",
+      "clusterVersion": 2,
+      "title": "美联储理事沃勒：加息无需连续进行。2027年点阵图可能反映年初加息，之后再降息",
+      "firstSeenAt": "2026-10-08T06:40:59.994Z",
+      "lastSeenAt": "2026-10-09T06:44:52.975Z",
+      "latestItemPublishedAt": "2026-10-08T12:07:46.000Z",
+      "primaryItemId": "news_44a82f6088f4",
+      "evidenceItemIds": [
+        "news_1d0c31b07d1b",
+        "news_ecab20992500",
+        "news_653fc1efe942",
+        "news_44a82f6088f4",
+        "news_a17e98dc402b",
+        "news_c3d63417f749"
+      ],
+      "status": "developing",
+      "summary": "美联储沃勒称进一步加息仍有必要，但无需连续采取行动。",
+      "latestProgress": "沃勒表示加息无需连续进行，未来政策将视数据灵活调整。"
+    },
+    {
+      "eventId": "event_462c374e92e3",
+      "clusterVersion": 2,
+      "title": "行云科技：预计2026年前三季度净利润2.4亿元-2.9亿元，同比扭亏为盈",
+      "firstSeenAt": "2026-10-08T15:45:42.144Z",
+      "lastSeenAt": "2026-10-09T06:44:52.975Z",
+      "latestItemPublishedAt": "2026-10-08T15:05:09.000Z",
+      "primaryItemId": "news_9b7aa1ccab27",
+      "evidenceItemIds": [
+        "news_9b7aa1ccab27",
+        "news_a3a42c24fd56"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_76002b83cb84",
+      "clusterVersion": 2,
+      "title": "美国航空对阿苏尔航空1亿美元的投资获巴西监管批准",
+      "firstSeenAt": "2026-10-08T15:45:42.144Z",
+      "lastSeenAt": "2026-10-09T06:44:52.975Z",
+      "latestItemPublishedAt": "2026-10-08T12:08:39.000Z",
+      "primaryItemId": "news_4fb48734a9a8",
+      "evidenceItemIds": [
+        "news_4fb48734a9a8",
+        "news_219361a47d11"
+      ],
+      "status": "developing",
+      "summary": "美国航空对阿苏尔航空1亿美元投资获巴西监管批准。",
+      "latestProgress": "暂无该投资后续进展报道。"
+    },
+    {
+      "eventId": "event_62f38f1eea61",
+      "clusterVersion": 2,
+      "title": "美联储会议纪要：加息理由存在分歧，年内或将再上调利率一次",
+      "firstSeenAt": "2026-10-06T18:34:18.628Z",
+      "lastSeenAt": "2026-10-09T06:44:52.975Z",
+      "latestItemPublishedAt": "2026-10-09T03:58:25.000Z",
+      "primaryItemId": "news_ecab20992500",
+      "evidenceItemIds": [
+        "news_04293e3315b1",
+        "news_eea33c3288d6",
+        "news_ecab20992500",
+        "news_d8d07bfcbe78"
+      ],
+      "status": "developing",
+      "summary": "美联储纪要显示加息存分歧，年内或再加一次。",
+      "latestProgress": "外资行境内美元存款利率上行至最高4.1%。"
+    },
+    {
+      "eventId": "event_b6b6148b7537",
+      "clusterVersion": 2,
+      "title": "美国预算赤字飙升至近2万亿美元，占GDP比例将超6%，高利率、减税加剧赤字恶化",
+      "firstSeenAt": "2026-10-09T06:44:52.975Z",
+      "lastSeenAt": "2026-10-09T06:44:52.975Z",
+      "latestItemPublishedAt": "2026-10-09T00:04:18.000Z",
+      "primaryItemId": "news_2afa81af5999",
+      "evidenceItemIds": [
+        "news_2afa81af5999",
+        "news_19b18a80c06c"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_ed182d327d2c",
+      "clusterVersion": 2,
+      "title": "德国大幅上调2026年经济增长预期至1.3%，制造业复苏成关键支撑",
+      "firstSeenAt": "2026-10-09T06:44:52.975Z",
+      "lastSeenAt": "2026-10-09T06:44:52.975Z",
+      "latestItemPublishedAt": "2026-10-08T12:38:56.000Z",
+      "primaryItemId": "news_38ca4fa49ee4",
+      "evidenceItemIds": [
+        "news_38ca4fa49ee4",
+        "news_37dbbac8e03f"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
     },
     {
       "eventId": "event_c451a076d7dd",
@@ -220,26 +330,6 @@
       "latestProgress": "克宫和世卫组织就员工确诊不明原因肺炎作出回应。"
     },
     {
-      "eventId": "event_6ab2a13609c6",
-      "clusterVersion": 2,
-      "title": "美联储理事沃勒：加息无需连续进行。2027年点阵图可能反映年初加息，之后再降息",
-      "firstSeenAt": "2026-10-08T06:40:59.994Z",
-      "lastSeenAt": "2026-10-08T18:56:37.900Z",
-      "latestItemPublishedAt": "2026-10-08T12:07:46.000Z",
-      "primaryItemId": "news_44a82f6088f4",
-      "evidenceItemIds": [
-        "news_1d0c31b07d1b",
-        "news_ecab20992500",
-        "news_653fc1efe942",
-        "news_44a82f6088f4",
-        "news_a17e98dc402b",
-        "news_c3d63417f749"
-      ],
-      "status": "developing",
-      "summary": "美联储纪要显示所有19名官员支持9月加息，但加息理由存在分歧。",
-      "latestProgress": "美联储纪要称加息理由存分歧，年内或将再上调利率一次。"
-    },
-    {
       "eventId": "event_bd1dfbe5e705",
       "clusterVersion": 2,
       "title": "美股三季报下周拉开帷幕：标普500每股收益预计增长27%，英伟达和美光两家公司将贡献1/3",
@@ -255,38 +345,6 @@
       "status": "developing",
       "summary": "美股三大指数创新高，芯片股与中概股普涨，油价小幅上行。",
       "latestProgress": "美股三季报将启，标普500每股收益预增27%，英伟达美光贡献三分之一。"
-    },
-    {
-      "eventId": "event_462c374e92e3",
-      "clusterVersion": 2,
-      "title": "行云科技：预计2026年前三季度净利润2.4亿元-2.9亿元，同比扭亏为盈",
-      "firstSeenAt": "2026-10-08T15:45:42.144Z",
-      "lastSeenAt": "2026-10-08T18:56:37.900Z",
-      "latestItemPublishedAt": "2026-10-08T15:05:09.000Z",
-      "primaryItemId": "news_9b7aa1ccab27",
-      "evidenceItemIds": [
-        "news_9b7aa1ccab27",
-        "news_a3a42c24fd56"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_76002b83cb84",
-      "clusterVersion": 2,
-      "title": "美国航空对阿苏尔航空1亿美元的投资获巴西监管批准",
-      "firstSeenAt": "2026-10-08T15:45:42.144Z",
-      "lastSeenAt": "2026-10-08T18:56:37.900Z",
-      "latestItemPublishedAt": "2026-10-08T12:08:39.000Z",
-      "primaryItemId": "news_4fb48734a9a8",
-      "evidenceItemIds": [
-        "news_4fb48734a9a8",
-        "news_219361a47d11"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
     },
     {
       "eventId": "event_c8c3d6e3079d",
@@ -383,22 +441,6 @@
       "status": "developing",
       "summary": "华为与高通宣布达成广泛专利许可协议。",
       "latestProgress": "华为与高通宣布达成广泛专利许可协议。"
-    },
-    {
-      "eventId": "event_62f38f1eea61",
-      "clusterVersion": 2,
-      "title": "美联储拟大改银行监管机制，副主席Bowman：重组区域架构并调整资产门槛",
-      "firstSeenAt": "2026-10-06T18:34:18.628Z",
-      "lastSeenAt": "2026-10-07T15:39:51.765Z",
-      "latestItemPublishedAt": "2026-10-06T17:49:22.000Z",
-      "primaryItemId": "news_04293e3315b1",
-      "evidenceItemIds": [
-        "news_04293e3315b1",
-        "news_eea33c3288d6"
-      ],
-      "status": "developing",
-      "summary": "美联储拟大改银行监管，副主席Bowman建议重组区域架构并调整资产门槛。",
-      "latestProgress": "美联储宣布重组美国银行监管体系。"
     },
     {
       "eventId": "event_e28709d78af5",

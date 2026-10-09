@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-09T15:28:32.011Z",
+  "generatedAt": "2026-10-09T18:28:14.001Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -9,7 +9,7 @@
       "clusterVersion": 2,
       "title": "从光芯片到覆铜板，A股AI硬件板块因何轮番走低？",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-09T15:28:32.011Z",
+      "lastSeenAt": "2026-10-09T18:28:14.001Z",
       "latestItemPublishedAt": "2026-10-09T14:21:20.000Z",
       "primaryItemId": "news_b0dfe8c423af",
       "evidenceItemIds": [
@@ -54,11 +54,11 @@
     {
       "eventId": "event_f101880ef7bc",
       "clusterVersion": 2,
-      "title": "美股异动 | SpaceX频谱交易刺激通信铁塔租赁需求 冠城国际(CCI.US)大涨逾11%",
+      "title": "美股异动 | Trex Bio(TRXB.US)登陆美股市场 开盘后跌超1.3%",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-09T15:28:32.011Z",
-      "latestItemPublishedAt": "2026-10-09T15:05:36.000Z",
-      "primaryItemId": "news_14c0884db494",
+      "lastSeenAt": "2026-10-09T18:28:14.001Z",
+      "latestItemPublishedAt": "2026-10-09T16:35:36.000Z",
+      "primaryItemId": "news_8b7b65981866",
       "evidenceItemIds": [
         "news_19e0345bcec3",
         "news_9458584cb250",
@@ -97,7 +97,8 @@
         "news_db31ca2186d8",
         "news_343b43269cbc",
         "news_c24c9213fcdc",
-        "news_14c0884db494"
+        "news_14c0884db494",
+        "news_8b7b65981866"
       ],
       "status": "developing",
       "summary": "美股长期主义理念与现实博弈并存，生物科技、消费及半导体板块异动频繁。",
@@ -108,7 +109,7 @@
       "clusterVersion": 2,
       "title": "中文在线放弃港股IPO，28亿AIGC扩张计划遭遇追问",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-10-09T15:28:32.011Z",
+      "lastSeenAt": "2026-10-09T18:28:14.001Z",
       "latestItemPublishedAt": "2026-10-09T13:05:06.000Z",
       "primaryItemId": "news_e7deda1d545a",
       "evidenceItemIds": [
@@ -163,7 +164,7 @@
       "clusterVersion": 2,
       "title": "央行酝酿征信数据库管理办法 对六种代理征信投诉行为不予受理",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-09T15:28:32.011Z",
+      "lastSeenAt": "2026-10-09T18:28:14.001Z",
       "latestItemPublishedAt": "2026-10-09T14:13:03.000Z",
       "primaryItemId": "news_16f1be7de1cd",
       "evidenceItemIds": [
@@ -195,7 +196,8 @@
         "news_7173a9e7e57a",
         "news_78689efa326d",
         "news_c40eb932210e",
-        "news_16f1be7de1cd"
+        "news_16f1be7de1cd",
+        "news_b7653907c31f"
       ],
       "status": "developing",
       "summary": "对冲基金协会警告英国央行，国债回购市场改革或损害流动性。",
@@ -206,7 +208,7 @@
       "clusterVersion": 2,
       "title": "下周美国CPI的决定性意义：美联储10月不加息？",
       "firstSeenAt": "2026-10-08T06:40:59.994Z",
-      "lastSeenAt": "2026-10-09T15:28:32.011Z",
+      "lastSeenAt": "2026-10-09T18:28:14.001Z",
       "latestItemPublishedAt": "2026-10-09T09:06:56.000Z",
       "primaryItemId": "news_68e9d0c16666",
       "evidenceItemIds": [
@@ -221,6 +223,135 @@
       "status": "developing",
       "summary": "美联储沃勒称进一步加息仍有必要，但无需连续采取行动。",
       "latestProgress": "沃勒表示加息无需连续进行，未来政策将视数据灵活调整。"
+    },
+    {
+      "eventId": "event_b6b6148b7537",
+      "clusterVersion": 2,
+      "title": "通胀与高利率持续施压 美国10月消费者信心降至5月以来最低水平",
+      "firstSeenAt": "2026-10-09T06:44:52.975Z",
+      "lastSeenAt": "2026-10-09T18:28:14.001Z",
+      "latestItemPublishedAt": "2026-10-09T15:05:08.000Z",
+      "primaryItemId": "news_f4f1cf6080e5",
+      "evidenceItemIds": [
+        "news_2afa81af5999",
+        "news_19b18a80c06c",
+        "news_f4f1cf6080e5"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_11fbdbe8083c",
+      "clusterVersion": 2,
+      "title": "中共中央 国务院关于发展新质生产力的意见",
+      "firstSeenAt": "2026-10-09T11:23:10.875Z",
+      "lastSeenAt": "2026-10-09T18:28:14.001Z",
+      "latestItemPublishedAt": "2026-10-09T11:00:48.000Z",
+      "primaryItemId": "news_00b8057840f3",
+      "evidenceItemIds": [
+        "news_00b8057840f3",
+        "news_17259e8e1e7b"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_36c66c3405a0",
+      "clusterVersion": 2,
+      "title": "中国人民银行关于人民币汇率的政策立场",
+      "firstSeenAt": "2026-10-09T11:23:10.875Z",
+      "lastSeenAt": "2026-10-09T18:28:14.001Z",
+      "latestItemPublishedAt": "2026-10-09T10:48:33.000Z",
+      "primaryItemId": "news_886b8231825a",
+      "evidenceItemIds": [
+        "news_886b8231825a",
+        "news_612815e422db"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_f2a1b1e0cfd1",
+      "clusterVersion": 2,
+      "title": "叮当健康(09886)10月9日斥资46.25万港元回购56万股",
+      "firstSeenAt": "2026-10-09T11:23:10.875Z",
+      "lastSeenAt": "2026-10-09T18:28:14.001Z",
+      "latestItemPublishedAt": "2026-10-09T11:05:16.000Z",
+      "primaryItemId": "news_b27834b9ba98",
+      "evidenceItemIds": [
+        "news_b27834b9ba98",
+        "news_ea93ba3ee9b2"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_22b933f0c6fc",
+      "clusterVersion": 2,
+      "title": "何立峰会见欧盟委员会贸易和经济安全委员谢夫乔维奇",
+      "firstSeenAt": "2026-10-09T15:28:32.011Z",
+      "lastSeenAt": "2026-10-09T18:28:14.001Z",
+      "latestItemPublishedAt": "2026-10-09T13:21:38.000Z",
+      "primaryItemId": "news_cf8bee568341",
+      "evidenceItemIds": [
+        "news_cf8bee568341",
+        "news_10011d84a49e"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_cd4bf28b1279",
+      "clusterVersion": 2,
+      "title": "南向资金追踪｜净买入约3亿港元 加仓友邦保险及阿里流出小米集团",
+      "firstSeenAt": "2026-10-09T15:28:32.011Z",
+      "lastSeenAt": "2026-10-09T18:28:14.001Z",
+      "latestItemPublishedAt": "2026-10-09T10:49:12.000Z",
+      "primaryItemId": "news_3962901ee7c7",
+      "evidenceItemIds": [
+        "news_3962901ee7c7",
+        "news_29386f4b4116"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_f354f20933bd",
+      "clusterVersion": 2,
+      "title": "AI进化速递丨OpenAI预计2026年底年化营收将达700亿美元",
+      "firstSeenAt": "2026-10-09T18:28:14.001Z",
+      "lastSeenAt": "2026-10-09T18:28:14.001Z",
+      "latestItemPublishedAt": "2026-10-09T12:55:59.000Z",
+      "primaryItemId": "news_7e496975d340",
+      "evidenceItemIds": [
+        "news_7e496975d340",
+        "news_99e4aab42a38"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_08623ef88c30",
+      "clusterVersion": 2,
+      "title": "美股异动 | 美国临床阶段生物制药公司Retension Pharmaceuticals(RTSN.US)登陆美股市场 ",
+      "firstSeenAt": "2026-10-09T18:28:14.001Z",
+      "lastSeenAt": "2026-10-09T18:28:14.001Z",
+      "latestItemPublishedAt": "2026-10-09T16:35:36.000Z",
+      "primaryItemId": "news_7056a8f754f8",
+      "evidenceItemIds": [
+        "news_7056a8f754f8",
+        "news_9f054758b41a"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
     },
     {
       "eventId": "event_62f38f1eea61",
@@ -239,103 +370,6 @@
       "status": "developing",
       "summary": "美联储纪要显示加息存分歧，年内或再加一次。",
       "latestProgress": "外资行境内美元存款利率上行至最高4.1%。"
-    },
-    {
-      "eventId": "event_b6b6148b7537",
-      "clusterVersion": 2,
-      "title": "通胀与高利率持续施压 美国10月消费者信心降至5月以来最低水平",
-      "firstSeenAt": "2026-10-09T06:44:52.975Z",
-      "lastSeenAt": "2026-10-09T15:28:32.011Z",
-      "latestItemPublishedAt": "2026-10-09T15:05:08.000Z",
-      "primaryItemId": "news_f4f1cf6080e5",
-      "evidenceItemIds": [
-        "news_2afa81af5999",
-        "news_19b18a80c06c",
-        "news_f4f1cf6080e5"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_11fbdbe8083c",
-      "clusterVersion": 2,
-      "title": "中共中央 国务院关于发展新质生产力的意见",
-      "firstSeenAt": "2026-10-09T11:23:10.875Z",
-      "lastSeenAt": "2026-10-09T15:28:32.011Z",
-      "latestItemPublishedAt": "2026-10-09T11:00:48.000Z",
-      "primaryItemId": "news_00b8057840f3",
-      "evidenceItemIds": [
-        "news_00b8057840f3",
-        "news_17259e8e1e7b"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_36c66c3405a0",
-      "clusterVersion": 2,
-      "title": "中国人民银行关于人民币汇率的政策立场",
-      "firstSeenAt": "2026-10-09T11:23:10.875Z",
-      "lastSeenAt": "2026-10-09T15:28:32.011Z",
-      "latestItemPublishedAt": "2026-10-09T10:48:33.000Z",
-      "primaryItemId": "news_886b8231825a",
-      "evidenceItemIds": [
-        "news_886b8231825a",
-        "news_612815e422db"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_f2a1b1e0cfd1",
-      "clusterVersion": 2,
-      "title": "叮当健康(09886)10月9日斥资46.25万港元回购56万股",
-      "firstSeenAt": "2026-10-09T11:23:10.875Z",
-      "lastSeenAt": "2026-10-09T15:28:32.011Z",
-      "latestItemPublishedAt": "2026-10-09T11:05:16.000Z",
-      "primaryItemId": "news_b27834b9ba98",
-      "evidenceItemIds": [
-        "news_b27834b9ba98",
-        "news_ea93ba3ee9b2"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_22b933f0c6fc",
-      "clusterVersion": 2,
-      "title": "何立峰会见欧盟委员会贸易和经济安全委员谢夫乔维奇",
-      "firstSeenAt": "2026-10-09T15:28:32.011Z",
-      "lastSeenAt": "2026-10-09T15:28:32.011Z",
-      "latestItemPublishedAt": "2026-10-09T13:21:38.000Z",
-      "primaryItemId": "news_cf8bee568341",
-      "evidenceItemIds": [
-        "news_cf8bee568341",
-        "news_10011d84a49e"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_cd4bf28b1279",
-      "clusterVersion": 2,
-      "title": "南向资金追踪｜净买入约3亿港元 加仓友邦保险及阿里流出小米集团",
-      "firstSeenAt": "2026-10-09T15:28:32.011Z",
-      "lastSeenAt": "2026-10-09T15:28:32.011Z",
-      "latestItemPublishedAt": "2026-10-09T10:49:12.000Z",
-      "primaryItemId": "news_3962901ee7c7",
-      "evidenceItemIds": [
-        "news_3962901ee7c7",
-        "news_29386f4b4116"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
     },
     {
       "eventId": "event_462c374e92e3",

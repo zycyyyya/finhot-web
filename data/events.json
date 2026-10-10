@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-09T18:28:14.001Z",
+  "generatedAt": "2026-10-10T06:26:11.207Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -9,7 +9,7 @@
       "clusterVersion": 2,
       "title": "从光芯片到覆铜板，A股AI硬件板块因何轮番走低？",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-09T18:28:14.001Z",
+      "lastSeenAt": "2026-10-10T06:26:11.207Z",
       "latestItemPublishedAt": "2026-10-09T14:21:20.000Z",
       "primaryItemId": "news_b0dfe8c423af",
       "evidenceItemIds": [
@@ -48,17 +48,17 @@
         "news_7acc221d8aae"
       ],
       "status": "developing",
-      "summary": "连续地量引发关注，券商集体研判A股节后行情走势。",
-      "latestProgress": "10月8日A股开盘分化，动物疫苗、石化板块走强，风格切换。"
+      "summary": "A股AI硬件板块从光芯片到覆铜板轮番走低，市场关注原因。",
+      "latestProgress": "最新报道显示AI硬件板块走低，多股业绩报喜及开户数据出炉。"
     },
     {
       "eventId": "event_f101880ef7bc",
       "clusterVersion": 2,
-      "title": "美股异动 | Trex Bio(TRXB.US)登陆美股市场 开盘后跌超1.3%",
+      "title": "美股异动 | SpaceX频谱交易刺激通信铁塔租赁需求 冠城国际(CCI.US)大涨逾11%",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-09T18:28:14.001Z",
-      "latestItemPublishedAt": "2026-10-09T16:35:36.000Z",
-      "primaryItemId": "news_8b7b65981866",
+      "lastSeenAt": "2026-10-10T06:26:11.207Z",
+      "latestItemPublishedAt": "2026-10-09T15:05:36.000Z",
+      "primaryItemId": "news_14c0884db494",
       "evidenceItemIds": [
         "news_19e0345bcec3",
         "news_9458584cb250",
@@ -101,15 +101,15 @@
         "news_8b7b65981866"
       ],
       "status": "developing",
-      "summary": "美股长期主义理念与现实博弈并存，生物科技、消费及半导体板块异动频繁。",
-      "latestProgress": "OpenAI收入不及预期引发半导体股下挫，中期选举前板块多空博弈升温。"
+      "summary": "SpaceX频谱交易刺激通信铁塔租赁需求，冠城国际大涨逾11%",
+      "latestProgress": "冠城国际因SpaceX频谱交易大涨逾11%"
     },
     {
       "eventId": "event_c68d651d4ff9",
       "clusterVersion": 2,
       "title": "中文在线放弃港股IPO，28亿AIGC扩张计划遭遇追问",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-10-09T18:28:14.001Z",
+      "lastSeenAt": "2026-10-10T06:26:11.207Z",
       "latestItemPublishedAt": "2026-10-09T13:05:06.000Z",
       "primaryItemId": "news_e7deda1d545a",
       "evidenceItemIds": [
@@ -156,15 +156,15 @@
         "news_79eec34b6d6d"
       ],
       "status": "developing",
-      "summary": "国信证券：9月以来外资流出港股互联网规模靠前",
-      "latestProgress": "截至10月7日暂无该事件后续报道"
+      "summary": "中文在线放弃港股IPO，28亿AIGC扩张计划遭遇追问。",
+      "latestProgress": "截至2026年10月9日，未见中文在线对该事件的进一步回应。"
     },
     {
       "eventId": "event_2cf716748ce1",
       "clusterVersion": 2,
       "title": "央行酝酿征信数据库管理办法 对六种代理征信投诉行为不予受理",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-09T18:28:14.001Z",
+      "lastSeenAt": "2026-10-10T06:26:11.207Z",
       "latestItemPublishedAt": "2026-10-09T14:13:03.000Z",
       "primaryItemId": "news_16f1be7de1cd",
       "evidenceItemIds": [
@@ -200,15 +200,15 @@
         "news_b7653907c31f"
       ],
       "status": "developing",
-      "summary": "对冲基金协会警告英国央行，国债回购市场改革或损害流动性。",
-      "latestProgress": "截至目前无后续相关报道，该警告仍为最新进展。"
+      "summary": "央行拟出台征信数据库管理办法，明确六种代理征信投诉不予受理。",
+      "latestProgress": "央行最新酝酿征信数据库管理办法，规范代理征信投诉受理范围。"
     },
     {
       "eventId": "event_6ab2a13609c6",
       "clusterVersion": 2,
       "title": "下周美国CPI的决定性意义：美联储10月不加息？",
       "firstSeenAt": "2026-10-08T06:40:59.994Z",
-      "lastSeenAt": "2026-10-09T18:28:14.001Z",
+      "lastSeenAt": "2026-10-10T06:26:11.207Z",
       "latestItemPublishedAt": "2026-10-09T09:06:56.000Z",
       "primaryItemId": "news_68e9d0c16666",
       "evidenceItemIds": [
@@ -221,15 +221,15 @@
         "news_68e9d0c16666"
       ],
       "status": "developing",
-      "summary": "美联储沃勒称进一步加息仍有必要，但无需连续采取行动。",
-      "latestProgress": "沃勒表示加息无需连续进行，未来政策将视数据灵活调整。"
+      "summary": "美国下周CPI数据将成关键，或决定美联储10月是否加息。",
+      "latestProgress": "据10月9日报道，下周CPI将决定美联储10月是否加息。"
     },
     {
       "eventId": "event_b6b6148b7537",
       "clusterVersion": 2,
       "title": "通胀与高利率持续施压 美国10月消费者信心降至5月以来最低水平",
       "firstSeenAt": "2026-10-09T06:44:52.975Z",
-      "lastSeenAt": "2026-10-09T18:28:14.001Z",
+      "lastSeenAt": "2026-10-10T06:26:11.207Z",
       "latestItemPublishedAt": "2026-10-09T15:05:08.000Z",
       "primaryItemId": "news_f4f1cf6080e5",
       "evidenceItemIds": [
@@ -238,15 +238,15 @@
         "news_f4f1cf6080e5"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "通胀与高利率施压，美国10月消费者信心降至5月以来最低。",
+      "latestProgress": "10月消费者信心指数为5月以来最低，反映经济压力持续。"
     },
     {
       "eventId": "event_11fbdbe8083c",
       "clusterVersion": 2,
       "title": "中共中央 国务院关于发展新质生产力的意见",
       "firstSeenAt": "2026-10-09T11:23:10.875Z",
-      "lastSeenAt": "2026-10-09T18:28:14.001Z",
+      "lastSeenAt": "2026-10-10T06:26:11.207Z",
       "latestItemPublishedAt": "2026-10-09T11:00:48.000Z",
       "primaryItemId": "news_00b8057840f3",
       "evidenceItemIds": [
@@ -254,15 +254,15 @@
         "news_17259e8e1e7b"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "中共中央、国务院印发关于发展新质生产力的意见。",
+      "latestProgress": "2026年10月9日，中共中央、国务院正式印发该意见。"
     },
     {
       "eventId": "event_36c66c3405a0",
       "clusterVersion": 2,
       "title": "中国人民银行关于人民币汇率的政策立场",
       "firstSeenAt": "2026-10-09T11:23:10.875Z",
-      "lastSeenAt": "2026-10-09T18:28:14.001Z",
+      "lastSeenAt": "2026-10-10T06:26:11.207Z",
       "latestItemPublishedAt": "2026-10-09T10:48:33.000Z",
       "primaryItemId": "news_886b8231825a",
       "evidenceItemIds": [
@@ -278,7 +278,7 @@
       "clusterVersion": 2,
       "title": "叮当健康(09886)10月9日斥资46.25万港元回购56万股",
       "firstSeenAt": "2026-10-09T11:23:10.875Z",
-      "lastSeenAt": "2026-10-09T18:28:14.001Z",
+      "lastSeenAt": "2026-10-10T06:26:11.207Z",
       "latestItemPublishedAt": "2026-10-09T11:05:16.000Z",
       "primaryItemId": "news_b27834b9ba98",
       "evidenceItemIds": [
@@ -294,7 +294,7 @@
       "clusterVersion": 2,
       "title": "何立峰会见欧盟委员会贸易和经济安全委员谢夫乔维奇",
       "firstSeenAt": "2026-10-09T15:28:32.011Z",
-      "lastSeenAt": "2026-10-09T18:28:14.001Z",
+      "lastSeenAt": "2026-10-10T06:26:11.207Z",
       "latestItemPublishedAt": "2026-10-09T13:21:38.000Z",
       "primaryItemId": "news_cf8bee568341",
       "evidenceItemIds": [
@@ -310,7 +310,7 @@
       "clusterVersion": 2,
       "title": "南向资金追踪｜净买入约3亿港元 加仓友邦保险及阿里流出小米集团",
       "firstSeenAt": "2026-10-09T15:28:32.011Z",
-      "lastSeenAt": "2026-10-09T18:28:14.001Z",
+      "lastSeenAt": "2026-10-10T06:26:11.207Z",
       "latestItemPublishedAt": "2026-10-09T10:49:12.000Z",
       "primaryItemId": "news_3962901ee7c7",
       "evidenceItemIds": [
@@ -324,30 +324,143 @@
     {
       "eventId": "event_f354f20933bd",
       "clusterVersion": 2,
-      "title": "AI进化速递丨OpenAI预计2026年底年化营收将达700亿美元",
+      "title": "OpenAI澄清年化营收：截至9月底约500亿美元，年底目标700亿美元",
       "firstSeenAt": "2026-10-09T18:28:14.001Z",
-      "lastSeenAt": "2026-10-09T18:28:14.001Z",
+      "lastSeenAt": "2026-10-10T06:26:11.207Z",
       "latestItemPublishedAt": "2026-10-09T12:55:59.000Z",
-      "primaryItemId": "news_7e496975d340",
+      "primaryItemId": "news_ffc1c02dbcd0",
       "evidenceItemIds": [
         "news_7e496975d340",
-        "news_99e4aab42a38"
+        "news_99e4aab42a38",
+        "news_ffc1c02dbcd0"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "OpenAI澄清年化营收：截至9月底约500亿美元，年底目标700亿美元。",
+      "latestProgress": "OpenAI预计2026年底年化营收将达700亿美元。"
     },
     {
       "eventId": "event_08623ef88c30",
       "clusterVersion": 2,
       "title": "美股异动 | 美国临床阶段生物制药公司Retension Pharmaceuticals(RTSN.US)登陆美股市场 ",
       "firstSeenAt": "2026-10-09T18:28:14.001Z",
-      "lastSeenAt": "2026-10-09T18:28:14.001Z",
+      "lastSeenAt": "2026-10-10T06:26:11.207Z",
       "latestItemPublishedAt": "2026-10-09T16:35:36.000Z",
       "primaryItemId": "news_7056a8f754f8",
       "evidenceItemIds": [
         "news_7056a8f754f8",
         "news_9f054758b41a"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_668e7c3605a8",
+      "clusterVersion": 2,
+      "title": "新华保险举牌国泰海通 持有H股比例至20%",
+      "firstSeenAt": "2026-10-10T06:26:11.207Z",
+      "lastSeenAt": "2026-10-10T06:26:11.207Z",
+      "latestItemPublishedAt": "2026-10-10T05:30:19.000Z",
+      "primaryItemId": "news_fef05089f1e0",
+      "evidenceItemIds": [
+        "news_fef05089f1e0",
+        "news_3576d7157187"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_4594ac7c2424",
+      "clusterVersion": 2,
+      "title": "再次谋求罢免美联储理事 特朗普特设委员会调查库克",
+      "firstSeenAt": "2026-10-10T06:26:11.207Z",
+      "lastSeenAt": "2026-10-10T06:26:11.207Z",
+      "latestItemPublishedAt": "2026-10-10T04:27:40.000Z",
+      "primaryItemId": "news_17ab68af29eb",
+      "evidenceItemIds": [
+        "news_17ab68af29eb",
+        "news_92278da827c9"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_610947a2d4ff",
+      "clusterVersion": 2,
+      "title": "中欧贸易投资磋商机制第二次例会联合声明",
+      "firstSeenAt": "2026-10-10T06:26:11.207Z",
+      "lastSeenAt": "2026-10-10T06:26:11.207Z",
+      "latestItemPublishedAt": "2026-10-10T05:35:02.000Z",
+      "primaryItemId": "news_c2824bcf09b9",
+      "evidenceItemIds": [
+        "news_c2824bcf09b9",
+        "news_a5265c027df7"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_0b11edf1bfa9",
+      "clusterVersion": 2,
+      "title": "AI要钱、欧美政府也要钱！全球“资本争夺战”打响，债券风暴才“刚刚开始”",
+      "firstSeenAt": "2026-10-10T06:26:11.207Z",
+      "lastSeenAt": "2026-10-10T06:26:11.207Z",
+      "latestItemPublishedAt": "2026-10-10T05:18:31.000Z",
+      "primaryItemId": "news_f1f4230b28bf",
+      "evidenceItemIds": [
+        "news_f1f4230b28bf",
+        "news_d5456b738dd3"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_50deeacdcb56",
+      "clusterVersion": 2,
+      "title": "诺奖得主警告：法国债务危机或已“大到无法救”，欧元区面临“爆炸性”危机",
+      "firstSeenAt": "2026-10-10T06:26:11.207Z",
+      "lastSeenAt": "2026-10-10T06:26:11.207Z",
+      "latestItemPublishedAt": "2026-10-09T20:59:19.000Z",
+      "primaryItemId": "news_eacb2250fc58",
+      "evidenceItemIds": [
+        "news_eacb2250fc58",
+        "news_ef8b3031cc36"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_aec5deb64198",
+      "clusterVersion": 2,
+      "title": "人社部答一财：力争到2030年技能人才占就业人员比例升至35%",
+      "firstSeenAt": "2026-10-10T06:26:11.207Z",
+      "lastSeenAt": "2026-10-10T06:26:11.207Z",
+      "latestItemPublishedAt": "2026-10-10T04:21:14.000Z",
+      "primaryItemId": "news_9bccbd357ac5",
+      "evidenceItemIds": [
+        "news_9bccbd357ac5",
+        "news_f534ef228b98"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_7269daf7732c",
+      "clusterVersion": 2,
+      "title": "天孚通信：近期海外进出口传闻的政策限制未对光器件产品进行约束 不涉及对公司业务产生影响",
+      "firstSeenAt": "2026-10-10T06:26:11.207Z",
+      "lastSeenAt": "2026-10-10T06:26:11.207Z",
+      "latestItemPublishedAt": "2026-10-09T12:45:57.000Z",
+      "primaryItemId": "news_09ff0a2cf6a8",
+      "evidenceItemIds": [
+        "news_09ff0a2cf6a8",
+        "news_8e2ddc46a0da"
       ],
       "status": "developing",
       "summary": "",

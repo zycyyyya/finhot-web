@@ -1,17 +1,17 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-10T10:39:53.006Z",
+  "generatedAt": "2026-10-10T14:37:01.176Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
       "eventId": "event_a3c5d0364922",
       "clusterVersion": 2,
-      "title": "从光芯片到覆铜板，A股AI硬件板块因何轮番走低？",
+      "title": "A股第一份三季报出炉：沃华医药单季净利环比转跌，年内分红1.52亿元超前三季净利",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-10T10:39:53.006Z",
-      "latestItemPublishedAt": "2026-10-09T14:21:20.000Z",
-      "primaryItemId": "news_b0dfe8c423af",
+      "lastSeenAt": "2026-10-10T14:37:01.176Z",
+      "latestItemPublishedAt": "2026-10-10T13:05:46.000Z",
+      "primaryItemId": "news_3cc7bb01f717",
       "evidenceItemIds": [
         "news_943234fa21c3",
         "news_de9aae9a8f2f",
@@ -46,7 +46,8 @@
         "news_25f15cb075f3",
         "news_28a96594e500",
         "news_7acc221d8aae",
-        "news_254d7c3cee8d"
+        "news_254d7c3cee8d",
+        "news_3cc7bb01f717"
       ],
       "status": "developing",
       "summary": "A股AI硬件板块从光芯片到覆铜板轮番走低，市场关注原因。",
@@ -57,7 +58,7 @@
       "clusterVersion": 2,
       "title": "野村警告：美股指数“严重失真”，十只股票贡献标普七成涨幅，警惕柴油带来新冲击",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-10T10:39:53.006Z",
+      "lastSeenAt": "2026-10-10T14:37:01.176Z",
       "latestItemPublishedAt": "2026-10-10T10:23:15.000Z",
       "primaryItemId": "news_ff0e3a8d634b",
       "evidenceItemIds": [
@@ -112,7 +113,7 @@
       "clusterVersion": 2,
       "title": "张忆东：港股10月大概率反弹，先抑后扬，把握两条主线",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-10-10T10:39:53.006Z",
+      "lastSeenAt": "2026-10-10T14:37:01.176Z",
       "latestItemPublishedAt": "2026-10-10T10:21:27.000Z",
       "primaryItemId": "news_0f071e7c111d",
       "evidenceItemIds": [
@@ -168,11 +169,11 @@
     {
       "eventId": "event_2cf716748ce1",
       "clusterVersion": 2,
-      "title": "央行酝酿征信数据库管理办法 对六种代理征信投诉行为不予受理",
+      "title": "波兰央行维持基准利率不变，继续按兵不动",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-10T10:39:53.006Z",
+      "lastSeenAt": "2026-10-10T14:37:01.176Z",
       "latestItemPublishedAt": "2026-10-09T14:13:03.000Z",
-      "primaryItemId": "news_16f1be7de1cd",
+      "primaryItemId": "news_7173a9e7e57a",
       "evidenceItemIds": [
         "news_5de8a00d999f",
         "news_90f768d7e736",
@@ -210,6 +211,103 @@
       "latestProgress": "央行最新酝酿征信数据库管理办法，规范代理征信投诉受理范围。"
     },
     {
+      "eventId": "event_11fbdbe8083c",
+      "clusterVersion": 2,
+      "title": "中共中央 国务院关于发展新质生产力的意见",
+      "firstSeenAt": "2026-10-09T11:23:10.875Z",
+      "lastSeenAt": "2026-10-10T14:37:01.176Z",
+      "latestItemPublishedAt": "2026-10-09T11:00:48.000Z",
+      "primaryItemId": "news_00b8057840f3",
+      "evidenceItemIds": [
+        "news_00b8057840f3",
+        "news_17259e8e1e7b",
+        "news_6724cccca262"
+      ],
+      "status": "developing",
+      "summary": "中共中央、国务院印发关于发展新质生产力的意见。",
+      "latestProgress": "2026年10月9日，中共中央、国务院正式印发该意见。"
+    },
+    {
+      "eventId": "event_cd4bf28b1279",
+      "clusterVersion": 2,
+      "title": "南向资金追踪｜净买入约3亿港元 加仓友邦保险及阿里流出小米集团",
+      "firstSeenAt": "2026-10-09T15:28:32.011Z",
+      "lastSeenAt": "2026-10-10T14:37:01.176Z",
+      "latestItemPublishedAt": "2026-10-09T10:49:12.000Z",
+      "primaryItemId": "news_3962901ee7c7",
+      "evidenceItemIds": [
+        "news_3962901ee7c7",
+        "news_29386f4b4116"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_668e7c3605a8",
+      "clusterVersion": 2,
+      "title": "新华保险举牌国泰海通 持有H股比例至20%",
+      "firstSeenAt": "2026-10-10T06:26:11.207Z",
+      "lastSeenAt": "2026-10-10T14:37:01.176Z",
+      "latestItemPublishedAt": "2026-10-10T05:30:19.000Z",
+      "primaryItemId": "news_fef05089f1e0",
+      "evidenceItemIds": [
+        "news_fef05089f1e0",
+        "news_3576d7157187"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_0b11edf1bfa9",
+      "clusterVersion": 2,
+      "title": "AI要钱、欧美政府也要钱！全球“资本争夺战”打响，债券风暴才“刚刚开始”",
+      "firstSeenAt": "2026-10-10T06:26:11.207Z",
+      "lastSeenAt": "2026-10-10T14:37:01.176Z",
+      "latestItemPublishedAt": "2026-10-10T05:18:31.000Z",
+      "primaryItemId": "news_f1f4230b28bf",
+      "evidenceItemIds": [
+        "news_f1f4230b28bf",
+        "news_d5456b738dd3"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_aec5deb64198",
+      "clusterVersion": 2,
+      "title": "人社部答一财：力争到2030年技能人才占就业人员比例升至35%",
+      "firstSeenAt": "2026-10-10T06:26:11.207Z",
+      "lastSeenAt": "2026-10-10T14:37:01.176Z",
+      "latestItemPublishedAt": "2026-10-10T04:21:14.000Z",
+      "primaryItemId": "news_9bccbd357ac5",
+      "evidenceItemIds": [
+        "news_9bccbd357ac5",
+        "news_f534ef228b98"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_f2c5dabe4a30",
+      "clusterVersion": 2,
+      "title": "花旗：法国财政风险或令欧央行12月后暂停加息，欧元料跌破1.10",
+      "firstSeenAt": "2026-10-10T10:39:53.006Z",
+      "lastSeenAt": "2026-10-10T14:37:01.176Z",
+      "latestItemPublishedAt": "2026-10-10T07:39:15.000Z",
+      "primaryItemId": "news_6dde80b2692e",
+      "evidenceItemIds": [
+        "news_6dde80b2692e",
+        "news_25bec413462d"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
       "eventId": "event_b6b6148b7537",
       "clusterVersion": 2,
       "title": "通胀与高利率持续施压 美国10月消费者信心降至5月以来最低水平",
@@ -227,23 +325,6 @@
       "latestProgress": "10月消费者信心指数为5月以来最低，反映经济压力持续。"
     },
     {
-      "eventId": "event_11fbdbe8083c",
-      "clusterVersion": 2,
-      "title": "中共中央 国务院关于发展新质生产力的意见",
-      "firstSeenAt": "2026-10-09T11:23:10.875Z",
-      "lastSeenAt": "2026-10-10T10:39:53.006Z",
-      "latestItemPublishedAt": "2026-10-09T11:00:48.000Z",
-      "primaryItemId": "news_00b8057840f3",
-      "evidenceItemIds": [
-        "news_00b8057840f3",
-        "news_17259e8e1e7b",
-        "news_6724cccca262"
-      ],
-      "status": "developing",
-      "summary": "中共中央、国务院印发关于发展新质生产力的意见。",
-      "latestProgress": "2026年10月9日，中共中央、国务院正式印发该意见。"
-    },
-    {
       "eventId": "event_22b933f0c6fc",
       "clusterVersion": 2,
       "title": "何立峰会见欧盟委员会贸易和经济安全委员谢夫乔维奇",
@@ -254,22 +335,6 @@
       "evidenceItemIds": [
         "news_cf8bee568341",
         "news_10011d84a49e"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_cd4bf28b1279",
-      "clusterVersion": 2,
-      "title": "南向资金追踪｜净买入约3亿港元 加仓友邦保险及阿里流出小米集团",
-      "firstSeenAt": "2026-10-09T15:28:32.011Z",
-      "lastSeenAt": "2026-10-10T10:39:53.006Z",
-      "latestItemPublishedAt": "2026-10-09T10:49:12.000Z",
-      "primaryItemId": "news_3962901ee7c7",
-      "evidenceItemIds": [
-        "news_3962901ee7c7",
-        "news_29386f4b4116"
       ],
       "status": "developing",
       "summary": "",
@@ -303,70 +368,6 @@
       "evidenceItemIds": [
         "news_7056a8f754f8",
         "news_9f054758b41a"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_668e7c3605a8",
-      "clusterVersion": 2,
-      "title": "新华保险举牌国泰海通 持有H股比例至20%",
-      "firstSeenAt": "2026-10-10T06:26:11.207Z",
-      "lastSeenAt": "2026-10-10T10:39:53.006Z",
-      "latestItemPublishedAt": "2026-10-10T05:30:19.000Z",
-      "primaryItemId": "news_fef05089f1e0",
-      "evidenceItemIds": [
-        "news_fef05089f1e0",
-        "news_3576d7157187"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_0b11edf1bfa9",
-      "clusterVersion": 2,
-      "title": "AI要钱、欧美政府也要钱！全球“资本争夺战”打响，债券风暴才“刚刚开始”",
-      "firstSeenAt": "2026-10-10T06:26:11.207Z",
-      "lastSeenAt": "2026-10-10T10:39:53.006Z",
-      "latestItemPublishedAt": "2026-10-10T05:18:31.000Z",
-      "primaryItemId": "news_f1f4230b28bf",
-      "evidenceItemIds": [
-        "news_f1f4230b28bf",
-        "news_d5456b738dd3"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_aec5deb64198",
-      "clusterVersion": 2,
-      "title": "人社部答一财：力争到2030年技能人才占就业人员比例升至35%",
-      "firstSeenAt": "2026-10-10T06:26:11.207Z",
-      "lastSeenAt": "2026-10-10T10:39:53.006Z",
-      "latestItemPublishedAt": "2026-10-10T04:21:14.000Z",
-      "primaryItemId": "news_9bccbd357ac5",
-      "evidenceItemIds": [
-        "news_9bccbd357ac5",
-        "news_f534ef228b98"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_f2c5dabe4a30",
-      "clusterVersion": 2,
-      "title": "花旗：法国财政风险或令欧央行12月后暂停加息，欧元料跌破1.10",
-      "firstSeenAt": "2026-10-10T10:39:53.006Z",
-      "lastSeenAt": "2026-10-10T10:39:53.006Z",
-      "latestItemPublishedAt": "2026-10-10T07:39:15.000Z",
-      "primaryItemId": "news_6dde80b2692e",
-      "evidenceItemIds": [
-        "news_6dde80b2692e",
-        "news_25bec413462d"
       ],
       "status": "developing",
       "summary": "",

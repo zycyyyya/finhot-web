@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-10T14:37:01.176Z",
+  "generatedAt": "2026-10-10T17:26:01.101Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -9,7 +9,7 @@
       "clusterVersion": 2,
       "title": "A股第一份三季报出炉：沃华医药单季净利环比转跌，年内分红1.52亿元超前三季净利",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-10T14:37:01.176Z",
+      "lastSeenAt": "2026-10-10T17:26:01.101Z",
       "latestItemPublishedAt": "2026-10-10T13:05:46.000Z",
       "primaryItemId": "news_3cc7bb01f717",
       "evidenceItemIds": [
@@ -58,7 +58,7 @@
       "clusterVersion": 2,
       "title": "野村警告：美股指数“严重失真”，十只股票贡献标普七成涨幅，警惕柴油带来新冲击",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-10T14:37:01.176Z",
+      "lastSeenAt": "2026-10-10T17:26:01.101Z",
       "latestItemPublishedAt": "2026-10-10T10:23:15.000Z",
       "primaryItemId": "news_ff0e3a8d634b",
       "evidenceItemIds": [
@@ -102,7 +102,8 @@
         "news_14c0884db494",
         "news_8b7b65981866",
         "news_ff0e3a8d634b",
-        "news_cf97ade448a2"
+        "news_cf97ade448a2",
+        "news_61bbc83b2fb2"
       ],
       "status": "developing",
       "summary": "SpaceX频谱交易刺激通信铁塔租赁需求，冠城国际大涨逾11%",
@@ -113,7 +114,7 @@
       "clusterVersion": 2,
       "title": "张忆东：港股10月大概率反弹，先抑后扬，把握两条主线",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-10-10T14:37:01.176Z",
+      "lastSeenAt": "2026-10-10T17:26:01.101Z",
       "latestItemPublishedAt": "2026-10-10T10:21:27.000Z",
       "primaryItemId": "news_0f071e7c111d",
       "evidenceItemIds": [
@@ -169,11 +170,11 @@
     {
       "eventId": "event_2cf716748ce1",
       "clusterVersion": 2,
-      "title": "波兰央行维持基准利率不变，继续按兵不动",
+      "title": "人民币汇率被低估了吗？央行最新政策立场给出答案",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-10T14:37:01.176Z",
+      "lastSeenAt": "2026-10-10T17:26:01.101Z",
       "latestItemPublishedAt": "2026-10-09T14:13:03.000Z",
-      "primaryItemId": "news_7173a9e7e57a",
+      "primaryItemId": "news_b7653907c31f",
       "evidenceItemIds": [
         "news_5de8a00d999f",
         "news_90f768d7e736",
@@ -215,7 +216,7 @@
       "clusterVersion": 2,
       "title": "中共中央 国务院关于发展新质生产力的意见",
       "firstSeenAt": "2026-10-09T11:23:10.875Z",
-      "lastSeenAt": "2026-10-10T14:37:01.176Z",
+      "lastSeenAt": "2026-10-10T17:26:01.101Z",
       "latestItemPublishedAt": "2026-10-09T11:00:48.000Z",
       "primaryItemId": "news_00b8057840f3",
       "evidenceItemIds": [
@@ -228,32 +229,17 @@
       "latestProgress": "2026年10月9日，中共中央、国务院正式印发该意见。"
     },
     {
-      "eventId": "event_cd4bf28b1279",
-      "clusterVersion": 2,
-      "title": "南向资金追踪｜净买入约3亿港元 加仓友邦保险及阿里流出小米集团",
-      "firstSeenAt": "2026-10-09T15:28:32.011Z",
-      "lastSeenAt": "2026-10-10T14:37:01.176Z",
-      "latestItemPublishedAt": "2026-10-09T10:49:12.000Z",
-      "primaryItemId": "news_3962901ee7c7",
-      "evidenceItemIds": [
-        "news_3962901ee7c7",
-        "news_29386f4b4116"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
       "eventId": "event_668e7c3605a8",
       "clusterVersion": 2,
       "title": "新华保险举牌国泰海通 持有H股比例至20%",
       "firstSeenAt": "2026-10-10T06:26:11.207Z",
-      "lastSeenAt": "2026-10-10T14:37:01.176Z",
-      "latestItemPublishedAt": "2026-10-10T05:30:19.000Z",
+      "lastSeenAt": "2026-10-10T17:26:01.101Z",
+      "latestItemPublishedAt": "2026-10-10T10:19:43.000Z",
       "primaryItemId": "news_fef05089f1e0",
       "evidenceItemIds": [
         "news_fef05089f1e0",
-        "news_3576d7157187"
+        "news_3576d7157187",
+        "news_eab302ba1e3f"
       ],
       "status": "developing",
       "summary": "",
@@ -264,7 +250,7 @@
       "clusterVersion": 2,
       "title": "AI要钱、欧美政府也要钱！全球“资本争夺战”打响，债券风暴才“刚刚开始”",
       "firstSeenAt": "2026-10-10T06:26:11.207Z",
-      "lastSeenAt": "2026-10-10T14:37:01.176Z",
+      "lastSeenAt": "2026-10-10T17:26:01.101Z",
       "latestItemPublishedAt": "2026-10-10T05:18:31.000Z",
       "primaryItemId": "news_f1f4230b28bf",
       "evidenceItemIds": [
@@ -280,7 +266,7 @@
       "clusterVersion": 2,
       "title": "人社部答一财：力争到2030年技能人才占就业人员比例升至35%",
       "firstSeenAt": "2026-10-10T06:26:11.207Z",
-      "lastSeenAt": "2026-10-10T14:37:01.176Z",
+      "lastSeenAt": "2026-10-10T17:26:01.101Z",
       "latestItemPublishedAt": "2026-10-10T04:21:14.000Z",
       "primaryItemId": "news_9bccbd357ac5",
       "evidenceItemIds": [
@@ -296,12 +282,61 @@
       "clusterVersion": 2,
       "title": "花旗：法国财政风险或令欧央行12月后暂停加息，欧元料跌破1.10",
       "firstSeenAt": "2026-10-10T10:39:53.006Z",
-      "lastSeenAt": "2026-10-10T14:37:01.176Z",
+      "lastSeenAt": "2026-10-10T17:26:01.101Z",
       "latestItemPublishedAt": "2026-10-10T07:39:15.000Z",
       "primaryItemId": "news_6dde80b2692e",
       "evidenceItemIds": [
         "news_6dde80b2692e",
         "news_25bec413462d"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_f354f20933bd",
+      "clusterVersion": 2,
+      "title": "AI进化速递丨OpenAI预计2026年底年化营收将达700亿美元",
+      "firstSeenAt": "2026-10-09T18:28:14.001Z",
+      "lastSeenAt": "2026-10-10T17:26:01.101Z",
+      "latestItemPublishedAt": "2026-10-09T12:55:59.000Z",
+      "primaryItemId": "news_7e496975d340",
+      "evidenceItemIds": [
+        "news_7e496975d340",
+        "news_99e4aab42a38",
+        "news_ffc1c02dbcd0"
+      ],
+      "status": "developing",
+      "summary": "OpenAI澄清年化营收：截至9月底约500亿美元，年底目标700亿美元。",
+      "latestProgress": "OpenAI预计2026年底年化营收将达700亿美元。"
+    },
+    {
+      "eventId": "event_c6aba8e259ef",
+      "clusterVersion": 2,
+      "title": "国家发改委：推动“十五五”规划、“六张网”建设实施方案等明确的重大工程项目尽早开工建设",
+      "firstSeenAt": "2026-10-10T17:26:01.101Z",
+      "lastSeenAt": "2026-10-10T17:26:01.101Z",
+      "latestItemPublishedAt": "2026-10-10T11:23:55.000Z",
+      "primaryItemId": "news_11aeb2f2c9d5",
+      "evidenceItemIds": [
+        "news_11aeb2f2c9d5",
+        "news_48caeda1921f"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_cd4bf28b1279",
+      "clusterVersion": 2,
+      "title": "南向资金追踪｜净买入约3亿港元 加仓友邦保险及阿里流出小米集团",
+      "firstSeenAt": "2026-10-09T15:28:32.011Z",
+      "lastSeenAt": "2026-10-10T14:37:01.176Z",
+      "latestItemPublishedAt": "2026-10-09T10:49:12.000Z",
+      "primaryItemId": "news_3962901ee7c7",
+      "evidenceItemIds": [
+        "news_3962901ee7c7",
+        "news_29386f4b4116"
       ],
       "status": "developing",
       "summary": "",
@@ -339,23 +374,6 @@
       "status": "developing",
       "summary": "",
       "latestProgress": ""
-    },
-    {
-      "eventId": "event_f354f20933bd",
-      "clusterVersion": 2,
-      "title": "AI进化速递丨OpenAI预计2026年底年化营收将达700亿美元",
-      "firstSeenAt": "2026-10-09T18:28:14.001Z",
-      "lastSeenAt": "2026-10-10T10:39:53.006Z",
-      "latestItemPublishedAt": "2026-10-09T12:55:59.000Z",
-      "primaryItemId": "news_7e496975d340",
-      "evidenceItemIds": [
-        "news_7e496975d340",
-        "news_99e4aab42a38",
-        "news_ffc1c02dbcd0"
-      ],
-      "status": "developing",
-      "summary": "OpenAI澄清年化营收：截至9月底约500亿美元，年底目标700亿美元。",
-      "latestProgress": "OpenAI预计2026年底年化营收将达700亿美元。"
     },
     {
       "eventId": "event_08623ef88c30",

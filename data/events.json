@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-11T15:01:35.272Z",
+  "generatedAt": "2026-10-11T17:46:41.167Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -9,7 +9,7 @@
       "clusterVersion": 2,
       "title": "瑛泰医疗(01501)：建议发行总数不超过3727.06万股A股",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-11T15:01:35.272Z",
+      "lastSeenAt": "2026-10-11T17:46:41.167Z",
       "latestItemPublishedAt": "2026-10-11T12:05:05.000Z",
       "primaryItemId": "news_861ea390c337",
       "evidenceItemIds": [
@@ -57,11 +57,11 @@
     {
       "eventId": "event_f101880ef7bc",
       "clusterVersion": 2,
-      "title": "野村警告：美股指数“严重失真”，十只股票贡献标普七成涨幅，警惕柴油带来新冲击",
+      "title": "“只剩一笔交易”的美股牛市",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-11T15:01:35.272Z",
+      "lastSeenAt": "2026-10-11T17:46:41.167Z",
       "latestItemPublishedAt": "2026-10-11T08:07:20.000Z",
-      "primaryItemId": "news_ff0e3a8d634b",
+      "primaryItemId": "news_28e5a7e399fd",
       "evidenceItemIds": [
         "news_19e0345bcec3",
         "news_9458584cb250",
@@ -117,11 +117,11 @@
     {
       "eventId": "event_c68d651d4ff9",
       "clusterVersion": 2,
-      "title": "张忆东：港股10月大概率反弹，先抑后扬，把握两条主线",
+      "title": "智通港股投资日志|10月12日",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-10-11T15:01:35.272Z",
-      "latestItemPublishedAt": "2026-10-10T10:21:27.000Z",
-      "primaryItemId": "news_0f071e7c111d",
+      "lastSeenAt": "2026-10-11T17:46:41.167Z",
+      "latestItemPublishedAt": "2026-10-11T16:05:05.000Z",
+      "primaryItemId": "news_01242cd7a951",
       "evidenceItemIds": [
         "news_2b090183c8dd",
         "news_7c802606a071",
@@ -166,7 +166,8 @@
         "news_79eec34b6d6d",
         "news_0f071e7c111d",
         "news_a638f594b75e",
-        "news_16efa3ec46ab"
+        "news_16efa3ec46ab",
+        "news_01242cd7a951"
       ],
       "status": "developing",
       "summary": "张忆东预计港股10月先抑后扬，大概率反弹，建议把握两条主线。",
@@ -175,11 +176,11 @@
     {
       "eventId": "event_2cf716748ce1",
       "clusterVersion": 2,
-      "title": "波兰央行维持基准利率不变，继续按兵不动",
+      "title": "投机资金离场，央行买盘托底，金价能否稳住4200美元",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-11T15:01:35.272Z",
-      "latestItemPublishedAt": "2026-10-08T11:05:31.000Z",
-      "primaryItemId": "news_7173a9e7e57a",
+      "lastSeenAt": "2026-10-11T17:46:41.167Z",
+      "latestItemPublishedAt": "2026-10-11T13:32:12.000Z",
+      "primaryItemId": "news_39c9b44c3211",
       "evidenceItemIds": [
         "news_5de8a00d999f",
         "news_90f768d7e736",
@@ -223,7 +224,7 @@
       "clusterVersion": 2,
       "title": "持股比例突破20%！新华保险增持国泰海通H股，年内险资举牌降温，转道押注硬科技IPO",
       "firstSeenAt": "2026-10-10T06:26:11.207Z",
-      "lastSeenAt": "2026-10-11T15:01:35.272Z",
+      "lastSeenAt": "2026-10-11T17:46:41.167Z",
       "latestItemPublishedAt": "2026-10-11T04:05:52.000Z",
       "primaryItemId": "news_ee3acd077506",
       "evidenceItemIds": [
@@ -237,27 +238,11 @@
       "latestProgress": "持股破20%，新华保险增持国泰海通H股；险资举牌降温转投硬科技IPO"
     },
     {
-      "eventId": "event_c6aba8e259ef",
-      "clusterVersion": 2,
-      "title": "国家发改委：推动“十五五”规划、“六张网”建设实施方案等明确的重大工程项目尽早开工建设",
-      "firstSeenAt": "2026-10-10T17:26:01.101Z",
-      "lastSeenAt": "2026-10-11T15:01:35.272Z",
-      "latestItemPublishedAt": "2026-10-10T11:23:55.000Z",
-      "primaryItemId": "news_11aeb2f2c9d5",
-      "evidenceItemIds": [
-        "news_11aeb2f2c9d5",
-        "news_48caeda1921f"
-      ],
-      "status": "developing",
-      "summary": "发改委推动“十五五”规划、“六张网”等重大工程尽早开工。",
-      "latestProgress": "明确相关实施方案，加快重大工程项目前期工作并推动落地。"
-    },
-    {
       "eventId": "event_6ab2a13609c6",
       "clusterVersion": 2,
       "title": "下周外盘看点丨美国CPI如何影响美联储加息，美股财报季开幕",
       "firstSeenAt": "2026-10-08T06:40:59.994Z",
-      "lastSeenAt": "2026-10-11T15:01:35.272Z",
+      "lastSeenAt": "2026-10-11T17:46:41.167Z",
       "latestItemPublishedAt": "2026-10-11T03:31:48.000Z",
       "primaryItemId": "news_c58f0c74ae4b",
       "evidenceItemIds": [
@@ -280,7 +265,7 @@
       "clusterVersion": 2,
       "title": "长鑫科技登顶！ETF成加仓主渠道，前三季度韩国投资者A股、港股“扫货”名单来了",
       "firstSeenAt": "2026-10-11T06:22:36.641Z",
-      "lastSeenAt": "2026-10-11T15:01:35.272Z",
+      "lastSeenAt": "2026-10-11T17:46:41.167Z",
       "latestItemPublishedAt": "2026-10-11T04:45:13.000Z",
       "primaryItemId": "news_41ba52ba0f9f",
       "evidenceItemIds": [
@@ -296,7 +281,7 @@
       "clusterVersion": 2,
       "title": "美国市场叙事“剧烈反转”：从“AI通缩论和美债可控论”转向“AI挤爆债市、贝森特控不住长端利率”",
       "firstSeenAt": "2026-10-09T06:44:52.975Z",
-      "lastSeenAt": "2026-10-11T15:01:35.272Z",
+      "lastSeenAt": "2026-10-11T17:46:41.167Z",
       "latestItemPublishedAt": "2026-10-11T07:31:20.000Z",
       "primaryItemId": "news_01a9492f3d52",
       "evidenceItemIds": [
@@ -314,7 +299,7 @@
       "clusterVersion": 2,
       "title": "高盛讨论会：AI交易从硬件转向应用，市场迫切渴望“下一个AI故事”",
       "firstSeenAt": "2026-10-11T10:54:46.778Z",
-      "lastSeenAt": "2026-10-11T15:01:35.272Z",
+      "lastSeenAt": "2026-10-11T17:46:41.167Z",
       "latestItemPublishedAt": "2026-10-11T07:35:23.000Z",
       "primaryItemId": "news_effe159cf911",
       "evidenceItemIds": [
@@ -330,7 +315,7 @@
       "clusterVersion": 2,
       "title": "如何应对高利率？中信证券：配置景气和供给出清品种",
       "firstSeenAt": "2026-10-11T10:54:46.778Z",
-      "lastSeenAt": "2026-10-11T15:01:35.272Z",
+      "lastSeenAt": "2026-10-11T17:46:41.167Z",
       "latestItemPublishedAt": "2026-10-11T11:37:24.000Z",
       "primaryItemId": "news_1057a3a3c518",
       "evidenceItemIds": [
@@ -348,7 +333,7 @@
       "clusterVersion": 2,
       "title": "工业富联：美国国际贸易委员会对公司及控股子公司启动337调查",
       "firstSeenAt": "2026-10-11T15:01:35.272Z",
-      "lastSeenAt": "2026-10-11T15:01:35.272Z",
+      "lastSeenAt": "2026-10-11T17:46:41.167Z",
       "latestItemPublishedAt": "2026-10-11T09:05:08.000Z",
       "primaryItemId": "news_aa582b16f094",
       "evidenceItemIds": [
@@ -359,6 +344,22 @@
       "status": "developing",
       "summary": "",
       "latestProgress": ""
+    },
+    {
+      "eventId": "event_c6aba8e259ef",
+      "clusterVersion": 2,
+      "title": "国家发改委：推动“十五五”规划、“六张网”建设实施方案等明确的重大工程项目尽早开工建设",
+      "firstSeenAt": "2026-10-10T17:26:01.101Z",
+      "lastSeenAt": "2026-10-11T15:01:35.272Z",
+      "latestItemPublishedAt": "2026-10-10T11:23:55.000Z",
+      "primaryItemId": "news_11aeb2f2c9d5",
+      "evidenceItemIds": [
+        "news_11aeb2f2c9d5",
+        "news_48caeda1921f"
+      ],
+      "status": "developing",
+      "summary": "发改委推动“十五五”规划、“六张网”等重大工程尽早开工。",
+      "latestProgress": "明确相关实施方案，加快重大工程项目前期工作并推动落地。"
     },
     {
       "eventId": "event_0b11edf1bfa9",

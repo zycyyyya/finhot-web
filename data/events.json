@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-11T06:22:36.641Z",
+  "generatedAt": "2026-10-11T10:54:46.778Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -9,7 +9,7 @@
       "clusterVersion": 2,
       "title": "A股第一份三季报出炉：沃华医药单季净利环比转跌，年内分红1.52亿元超前三季净利",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-11T06:22:36.641Z",
+      "lastSeenAt": "2026-10-11T10:54:46.778Z",
       "latestItemPublishedAt": "2026-10-10T13:05:46.000Z",
       "primaryItemId": "news_3cc7bb01f717",
       "evidenceItemIds": [
@@ -56,11 +56,11 @@
     {
       "eventId": "event_f101880ef7bc",
       "clusterVersion": 2,
-      "title": "【华尔街原声】RBC：市场波动蔓延至美股只是时间问题",
+      "title": "野村警告：美股指数“严重失真”，十只股票贡献标普七成涨幅，警惕柴油带来新冲击",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-11T06:22:36.641Z",
-      "latestItemPublishedAt": "2026-10-10T09:30:12.000Z",
-      "primaryItemId": "news_b9db315a7395",
+      "lastSeenAt": "2026-10-11T10:54:46.778Z",
+      "latestItemPublishedAt": "2026-10-11T08:07:20.000Z",
+      "primaryItemId": "news_ff0e3a8d634b",
       "evidenceItemIds": [
         "news_19e0345bcec3",
         "news_9458584cb250",
@@ -106,7 +106,8 @@
         "news_61bbc83b2fb2",
         "news_9592ebe5735c",
         "news_28e5a7e399fd",
-        "news_8265af5f0ba7"
+        "news_8265af5f0ba7",
+        "news_aa1f2402e9e7"
       ],
       "status": "developing",
       "summary": "多家机构警示美股风险，财报季临近，市场波动或蔓延，牛市存疑。",
@@ -117,7 +118,7 @@
       "clusterVersion": 2,
       "title": "张忆东：港股10月大概率反弹，先抑后扬，把握两条主线",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-10-11T06:22:36.641Z",
+      "lastSeenAt": "2026-10-11T10:54:46.778Z",
       "latestItemPublishedAt": "2026-10-10T10:21:27.000Z",
       "primaryItemId": "news_0f071e7c111d",
       "evidenceItemIds": [
@@ -175,8 +176,8 @@
       "clusterVersion": 2,
       "title": "波兰央行维持基准利率不变，继续按兵不动",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-11T06:22:36.641Z",
-      "latestItemPublishedAt": "2026-10-09T14:13:03.000Z",
+      "lastSeenAt": "2026-10-11T10:54:46.778Z",
+      "latestItemPublishedAt": "2026-10-08T09:09:08.000Z",
       "primaryItemId": "news_7173a9e7e57a",
       "evidenceItemIds": [
         "news_5de8a00d999f",
@@ -208,7 +209,8 @@
         "news_78689efa326d",
         "news_c40eb932210e",
         "news_16f1be7de1cd",
-        "news_b7653907c31f"
+        "news_b7653907c31f",
+        "news_39c9b44c3211"
       ],
       "status": "developing",
       "summary": "波兰央行维持基准利率不变，继续按兵不动。",
@@ -217,11 +219,11 @@
     {
       "eventId": "event_668e7c3605a8",
       "clusterVersion": 2,
-      "title": "新华保险举牌国泰海通 持有H股比例至20%",
+      "title": "持股比例突破20%！新华保险增持国泰海通H股，年内险资举牌降温，转道押注硬科技IPO",
       "firstSeenAt": "2026-10-10T06:26:11.207Z",
-      "lastSeenAt": "2026-10-11T06:22:36.641Z",
-      "latestItemPublishedAt": "2026-10-10T10:19:43.000Z",
-      "primaryItemId": "news_fef05089f1e0",
+      "lastSeenAt": "2026-10-11T10:54:46.778Z",
+      "latestItemPublishedAt": "2026-10-11T04:05:52.000Z",
+      "primaryItemId": "news_ee3acd077506",
       "evidenceItemIds": [
         "news_fef05089f1e0",
         "news_3576d7157187",
@@ -231,6 +233,112 @@
       "status": "developing",
       "summary": "新华保险举牌国泰海通，H股持股比例升至20%以上",
       "latestProgress": "持股破20%，新华保险增持国泰海通H股；险资举牌降温转投硬科技IPO"
+    },
+    {
+      "eventId": "event_c6aba8e259ef",
+      "clusterVersion": 2,
+      "title": "国家发改委：推动“十五五”规划、“六张网”建设实施方案等明确的重大工程项目尽早开工建设",
+      "firstSeenAt": "2026-10-10T17:26:01.101Z",
+      "lastSeenAt": "2026-10-11T10:54:46.778Z",
+      "latestItemPublishedAt": "2026-10-10T11:23:55.000Z",
+      "primaryItemId": "news_11aeb2f2c9d5",
+      "evidenceItemIds": [
+        "news_11aeb2f2c9d5",
+        "news_48caeda1921f"
+      ],
+      "status": "developing",
+      "summary": "发改委推动“十五五”规划、“六张网”等重大工程尽早开工。",
+      "latestProgress": "明确相关实施方案，加快重大工程项目前期工作并推动落地。"
+    },
+    {
+      "eventId": "event_6ab2a13609c6",
+      "clusterVersion": 2,
+      "title": "下周外盘看点丨美国CPI如何影响美联储加息，美股财报季开幕",
+      "firstSeenAt": "2026-10-08T06:40:59.994Z",
+      "lastSeenAt": "2026-10-11T10:54:46.778Z",
+      "latestItemPublishedAt": "2026-10-11T03:31:48.000Z",
+      "primaryItemId": "news_c58f0c74ae4b",
+      "evidenceItemIds": [
+        "news_1d0c31b07d1b",
+        "news_ecab20992500",
+        "news_653fc1efe942",
+        "news_44a82f6088f4",
+        "news_a17e98dc402b",
+        "news_c3d63417f749",
+        "news_68e9d0c16666",
+        "news_c58f0c74ae4b",
+        "news_d2cfa2203826"
+      ],
+      "status": "developing",
+      "summary": "美国下周CPI数据将成关键，或决定美联储10月是否加息。",
+      "latestProgress": "据10月9日报道，下周CPI将决定美联储10月是否加息。"
+    },
+    {
+      "eventId": "event_44e7f67f045c",
+      "clusterVersion": 2,
+      "title": "长鑫科技登顶！ETF成加仓主渠道，前三季度韩国投资者A股、港股“扫货”名单来了",
+      "firstSeenAt": "2026-10-11T06:22:36.641Z",
+      "lastSeenAt": "2026-10-11T10:54:46.778Z",
+      "latestItemPublishedAt": "2026-10-11T04:45:13.000Z",
+      "primaryItemId": "news_41ba52ba0f9f",
+      "evidenceItemIds": [
+        "news_41ba52ba0f9f",
+        "news_728976608e50"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_b6b6148b7537",
+      "clusterVersion": 2,
+      "title": "美国市场叙事“剧烈反转”：从“AI通缩论和美债可控论”转向“AI挤爆债市、贝森特控不住长端利率”",
+      "firstSeenAt": "2026-10-09T06:44:52.975Z",
+      "lastSeenAt": "2026-10-11T10:54:46.778Z",
+      "latestItemPublishedAt": "2026-10-11T07:31:20.000Z",
+      "primaryItemId": "news_01a9492f3d52",
+      "evidenceItemIds": [
+        "news_2afa81af5999",
+        "news_19b18a80c06c",
+        "news_f4f1cf6080e5",
+        "news_01a9492f3d52"
+      ],
+      "status": "developing",
+      "summary": "通胀与高利率施压，美国10月消费者信心降至5月以来最低。",
+      "latestProgress": "10月消费者信心指数为5月以来最低，反映经济压力持续。"
+    },
+    {
+      "eventId": "event_4d7be72fe3f6",
+      "clusterVersion": 2,
+      "title": "高盛讨论会：AI交易从硬件转向应用，市场迫切渴望“下一个AI故事”",
+      "firstSeenAt": "2026-10-11T10:54:46.778Z",
+      "lastSeenAt": "2026-10-11T10:54:46.778Z",
+      "latestItemPublishedAt": "2026-10-11T07:35:23.000Z",
+      "primaryItemId": "news_effe159cf911",
+      "evidenceItemIds": [
+        "news_effe159cf911",
+        "news_9ec93cce0d64"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_c1e929b1c17b",
+      "clusterVersion": 2,
+      "title": "如何应对高利率？中信证券：配置景气和供给出清品种",
+      "firstSeenAt": "2026-10-11T10:54:46.778Z",
+      "lastSeenAt": "2026-10-11T10:54:46.778Z",
+      "latestItemPublishedAt": "2026-10-11T09:35:07.000Z",
+      "primaryItemId": "news_1057a3a3c518",
+      "evidenceItemIds": [
+        "news_1057a3a3c518",
+        "news_aafad99b0aa9",
+        "news_6580da63b57c"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
     },
     {
       "eventId": "event_0b11edf1bfa9",
@@ -279,61 +387,6 @@
       "status": "developing",
       "summary": "花旗警告法国财政风险或致欧央行12月后暂停加息，欧元料跌破1.10。",
       "latestProgress": "花旗最新预计欧央行12月后暂停加息，欧元或跌破1.10。"
-    },
-    {
-      "eventId": "event_c6aba8e259ef",
-      "clusterVersion": 2,
-      "title": "国家发改委：推动“十五五”规划、“六张网”建设实施方案等明确的重大工程项目尽早开工建设",
-      "firstSeenAt": "2026-10-10T17:26:01.101Z",
-      "lastSeenAt": "2026-10-11T06:22:36.641Z",
-      "latestItemPublishedAt": "2026-10-10T11:23:55.000Z",
-      "primaryItemId": "news_11aeb2f2c9d5",
-      "evidenceItemIds": [
-        "news_11aeb2f2c9d5",
-        "news_48caeda1921f"
-      ],
-      "status": "developing",
-      "summary": "发改委推动“十五五”规划、“六张网”等重大工程尽早开工。",
-      "latestProgress": "明确相关实施方案，加快重大工程项目前期工作并推动落地。"
-    },
-    {
-      "eventId": "event_6ab2a13609c6",
-      "clusterVersion": 2,
-      "title": "下周外盘看点丨美国CPI如何影响美联储加息，美股财报季开幕",
-      "firstSeenAt": "2026-10-08T06:40:59.994Z",
-      "lastSeenAt": "2026-10-11T06:22:36.641Z",
-      "latestItemPublishedAt": "2026-10-11T03:31:48.000Z",
-      "primaryItemId": "news_c58f0c74ae4b",
-      "evidenceItemIds": [
-        "news_1d0c31b07d1b",
-        "news_ecab20992500",
-        "news_653fc1efe942",
-        "news_44a82f6088f4",
-        "news_a17e98dc402b",
-        "news_c3d63417f749",
-        "news_68e9d0c16666",
-        "news_c58f0c74ae4b",
-        "news_d2cfa2203826"
-      ],
-      "status": "developing",
-      "summary": "美国下周CPI数据将成关键，或决定美联储10月是否加息。",
-      "latestProgress": "据10月9日报道，下周CPI将决定美联储10月是否加息。"
-    },
-    {
-      "eventId": "event_44e7f67f045c",
-      "clusterVersion": 2,
-      "title": "长鑫科技登顶！ETF成加仓主渠道，前三季度韩国投资者A股、港股“扫货”名单来了",
-      "firstSeenAt": "2026-10-11T06:22:36.641Z",
-      "lastSeenAt": "2026-10-11T06:22:36.641Z",
-      "latestItemPublishedAt": "2026-10-11T04:45:13.000Z",
-      "primaryItemId": "news_41ba52ba0f9f",
-      "evidenceItemIds": [
-        "news_41ba52ba0f9f",
-        "news_728976608e50"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
     },
     {
       "eventId": "event_c15d7de81979",
@@ -417,23 +470,6 @@
       "status": "developing",
       "summary": "",
       "latestProgress": ""
-    },
-    {
-      "eventId": "event_b6b6148b7537",
-      "clusterVersion": 2,
-      "title": "通胀与高利率持续施压 美国10月消费者信心降至5月以来最低水平",
-      "firstSeenAt": "2026-10-09T06:44:52.975Z",
-      "lastSeenAt": "2026-10-10T10:39:53.006Z",
-      "latestItemPublishedAt": "2026-10-09T15:05:08.000Z",
-      "primaryItemId": "news_f4f1cf6080e5",
-      "evidenceItemIds": [
-        "news_2afa81af5999",
-        "news_19b18a80c06c",
-        "news_f4f1cf6080e5"
-      ],
-      "status": "developing",
-      "summary": "通胀与高利率施压，美国10月消费者信心降至5月以来最低。",
-      "latestProgress": "10月消费者信心指数为5月以来最低，反映经济压力持续。"
     },
     {
       "eventId": "event_22b933f0c6fc",

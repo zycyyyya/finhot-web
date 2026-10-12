@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-11T17:46:41.167Z",
+  "generatedAt": "2026-10-12T06:32:34.342Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -9,7 +9,7 @@
       "clusterVersion": 2,
       "title": "瑛泰医疗(01501)：建议发行总数不超过3727.06万股A股",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-11T17:46:41.167Z",
+      "lastSeenAt": "2026-10-12T06:32:34.342Z",
       "latestItemPublishedAt": "2026-10-11T12:05:05.000Z",
       "primaryItemId": "news_861ea390c337",
       "evidenceItemIds": [
@@ -48,19 +48,20 @@
         "news_7acc221d8aae",
         "news_254d7c3cee8d",
         "news_3cc7bb01f717",
-        "news_861ea390c337"
+        "news_861ea390c337",
+        "news_a92872842995"
       ],
       "status": "developing",
-      "summary": "沃华医药发布A股首份三季报，单季净利环比下滑，年内分红超前三季净利。",
-      "latestProgress": "据10月10日报道，沃华医药三季报显示单季净利环比转跌，年内分红1.52亿元高于前三季净利。"
+      "summary": "瑛泰医疗建议发行总数不超过3727.06万股A股。",
+      "latestProgress": "A股四大指数集体低开，市场逾2900股下跌。"
     },
     {
       "eventId": "event_f101880ef7bc",
       "clusterVersion": 2,
       "title": "“只剩一笔交易”的美股牛市",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-11T17:46:41.167Z",
-      "latestItemPublishedAt": "2026-10-11T08:07:20.000Z",
+      "lastSeenAt": "2026-10-12T06:32:34.342Z",
+      "latestItemPublishedAt": "2026-10-11T03:17:39.000Z",
       "primaryItemId": "news_28e5a7e399fd",
       "evidenceItemIds": [
         "news_19e0345bcec3",
@@ -108,7 +109,8 @@
         "news_9592ebe5735c",
         "news_28e5a7e399fd",
         "news_8265af5f0ba7",
-        "news_aa1f2402e9e7"
+        "news_aa1f2402e9e7",
+        "news_29f14bb7387e"
       ],
       "status": "developing",
       "summary": "多家机构警示美股风险，财报季临近，市场波动或蔓延，牛市存疑。",
@@ -117,11 +119,11 @@
     {
       "eventId": "event_c68d651d4ff9",
       "clusterVersion": 2,
-      "title": "智通港股投资日志|10月12日",
+      "title": "张忆东：港股10月大概率反弹，先抑后扬，把握两条主线",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-10-11T17:46:41.167Z",
-      "latestItemPublishedAt": "2026-10-11T16:05:05.000Z",
-      "primaryItemId": "news_01242cd7a951",
+      "lastSeenAt": "2026-10-12T06:32:34.342Z",
+      "latestItemPublishedAt": "2026-10-12T02:27:15.000Z",
+      "primaryItemId": "news_0f071e7c111d",
       "evidenceItemIds": [
         "news_2b090183c8dd",
         "news_7c802606a071",
@@ -167,7 +169,8 @@
         "news_0f071e7c111d",
         "news_a638f594b75e",
         "news_16efa3ec46ab",
-        "news_01242cd7a951"
+        "news_01242cd7a951",
+        "news_761539e682e3"
       ],
       "status": "developing",
       "summary": "张忆东预计港股10月先抑后扬，大概率反弹，建议把握两条主线。",
@@ -176,11 +179,11 @@
     {
       "eventId": "event_2cf716748ce1",
       "clusterVersion": 2,
-      "title": "投机资金离场，央行买盘托底，金价能否稳住4200美元",
+      "title": "波兰央行维持基准利率不变，继续按兵不动",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-11T17:46:41.167Z",
-      "latestItemPublishedAt": "2026-10-11T13:32:12.000Z",
-      "primaryItemId": "news_39c9b44c3211",
+      "lastSeenAt": "2026-10-12T06:32:34.342Z",
+      "latestItemPublishedAt": "2026-10-09T02:15:52.000Z",
+      "primaryItemId": "news_7173a9e7e57a",
       "evidenceItemIds": [
         "news_5de8a00d999f",
         "news_90f768d7e736",
@@ -213,7 +216,11 @@
         "news_16f1be7de1cd",
         "news_b7653907c31f",
         "news_39c9b44c3211",
-        "news_b6b547434998"
+        "news_b6b547434998",
+        "news_6c2adc0cf183",
+        "news_47e9a5951976",
+        "news_92cf9f7cd221",
+        "news_a9cc4fc7f127"
       ],
       "status": "developing",
       "summary": "波兰央行维持基准利率不变，继续按兵不动。",
@@ -224,7 +231,7 @@
       "clusterVersion": 2,
       "title": "持股比例突破20%！新华保险增持国泰海通H股，年内险资举牌降温，转道押注硬科技IPO",
       "firstSeenAt": "2026-10-10T06:26:11.207Z",
-      "lastSeenAt": "2026-10-11T17:46:41.167Z",
+      "lastSeenAt": "2026-10-12T06:32:34.342Z",
       "latestItemPublishedAt": "2026-10-11T04:05:52.000Z",
       "primaryItemId": "news_ee3acd077506",
       "evidenceItemIds": [
@@ -240,11 +247,11 @@
     {
       "eventId": "event_6ab2a13609c6",
       "clusterVersion": 2,
-      "title": "下周外盘看点丨美国CPI如何影响美联储加息，美股财报季开幕",
+      "title": "能源内参｜3C证书大面积暂停 国内电动自行车销售接近停滞；美联储加息预期之下，谁还在买入黄金？",
       "firstSeenAt": "2026-10-08T06:40:59.994Z",
-      "lastSeenAt": "2026-10-11T17:46:41.167Z",
-      "latestItemPublishedAt": "2026-10-11T03:31:48.000Z",
-      "primaryItemId": "news_c58f0c74ae4b",
+      "lastSeenAt": "2026-10-12T06:32:34.342Z",
+      "latestItemPublishedAt": "2026-10-12T02:02:58.000Z",
+      "primaryItemId": "news_69f7d4ba364f",
       "evidenceItemIds": [
         "news_1d0c31b07d1b",
         "news_ecab20992500",
@@ -254,18 +261,19 @@
         "news_c3d63417f749",
         "news_68e9d0c16666",
         "news_c58f0c74ae4b",
-        "news_d2cfa2203826"
+        "news_d2cfa2203826",
+        "news_69f7d4ba364f"
       ],
       "status": "developing",
-      "summary": "美国下周CPI数据将成关键，或决定美联储10月是否加息。",
-      "latestProgress": "据10月9日报道，下周CPI将决定美联储10月是否加息。"
+      "summary": "多条报道聚焦美联储加息预期与市场影响，同时电动自行车销售因3C证书暂停接近停滞。",
+      "latestProgress": "能源内参称3C证书大面积暂停，国内电动自行车销售接近停滞。"
     },
     {
       "eventId": "event_44e7f67f045c",
       "clusterVersion": 2,
       "title": "长鑫科技登顶！ETF成加仓主渠道，前三季度韩国投资者A股、港股“扫货”名单来了",
       "firstSeenAt": "2026-10-11T06:22:36.641Z",
-      "lastSeenAt": "2026-10-11T17:46:41.167Z",
+      "lastSeenAt": "2026-10-12T06:32:34.342Z",
       "latestItemPublishedAt": "2026-10-11T04:45:13.000Z",
       "primaryItemId": "news_41ba52ba0f9f",
       "evidenceItemIds": [
@@ -281,7 +289,7 @@
       "clusterVersion": 2,
       "title": "美国市场叙事“剧烈反转”：从“AI通缩论和美债可控论”转向“AI挤爆债市、贝森特控不住长端利率”",
       "firstSeenAt": "2026-10-09T06:44:52.975Z",
-      "lastSeenAt": "2026-10-11T17:46:41.167Z",
+      "lastSeenAt": "2026-10-12T06:32:34.342Z",
       "latestItemPublishedAt": "2026-10-11T07:31:20.000Z",
       "primaryItemId": "news_01a9492f3d52",
       "evidenceItemIds": [
@@ -291,15 +299,15 @@
         "news_01a9492f3d52"
       ],
       "status": "developing",
-      "summary": "通胀与高利率施压，美国10月消费者信心降至5月以来最低。",
-      "latestProgress": "10月消费者信心指数为5月以来最低，反映经济压力持续。"
+      "summary": "美国市场叙事反转，从AI通缩论转向AI挤爆债市、长端利率失控。",
+      "latestProgress": "报道指出贝森特难以控制长端利率，市场担忧AI引发债市风险。"
     },
     {
       "eventId": "event_4d7be72fe3f6",
       "clusterVersion": 2,
       "title": "高盛讨论会：AI交易从硬件转向应用，市场迫切渴望“下一个AI故事”",
       "firstSeenAt": "2026-10-11T10:54:46.778Z",
-      "lastSeenAt": "2026-10-11T17:46:41.167Z",
+      "lastSeenAt": "2026-10-12T06:32:34.342Z",
       "latestItemPublishedAt": "2026-10-11T07:35:23.000Z",
       "primaryItemId": "news_effe159cf911",
       "evidenceItemIds": [
@@ -307,15 +315,15 @@
         "news_9ec93cce0d64"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "高盛讨论会指出AI交易从硬件转向应用，市场热盼新故事。",
+      "latestProgress": "高盛讨论会聚焦AI交易转向应用领域，市场寻觅新增长点。"
     },
     {
       "eventId": "event_c1e929b1c17b",
       "clusterVersion": 2,
       "title": "如何应对高利率？中信证券：配置景气和供给出清品种",
       "firstSeenAt": "2026-10-11T10:54:46.778Z",
-      "lastSeenAt": "2026-10-11T17:46:41.167Z",
+      "lastSeenAt": "2026-10-12T06:32:34.342Z",
       "latestItemPublishedAt": "2026-10-11T11:37:24.000Z",
       "primaryItemId": "news_1057a3a3c518",
       "evidenceItemIds": [
@@ -333,13 +341,46 @@
       "clusterVersion": 2,
       "title": "工业富联：美国国际贸易委员会对公司及控股子公司启动337调查",
       "firstSeenAt": "2026-10-11T15:01:35.272Z",
-      "lastSeenAt": "2026-10-11T17:46:41.167Z",
+      "lastSeenAt": "2026-10-12T06:32:34.342Z",
       "latestItemPublishedAt": "2026-10-11T09:05:08.000Z",
       "primaryItemId": "news_aa582b16f094",
       "evidenceItemIds": [
         "news_aa582b16f094",
         "news_53034388e8a3",
         "news_fdee990588eb"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_c15d7de81979",
+      "clusterVersion": 2,
+      "title": "英伟达加码布局开放AI模型！据悉正洽谈收购Reflection AI",
+      "firstSeenAt": "2026-10-11T06:22:36.641Z",
+      "lastSeenAt": "2026-10-12T06:32:34.342Z",
+      "latestItemPublishedAt": "2026-10-11T07:59:21.000Z",
+      "primaryItemId": "news_0fc9bb0620eb",
+      "evidenceItemIds": [
+        "news_92712b6ff397",
+        "news_0fc9bb0620eb",
+        "news_6efcd88ba95d"
+      ],
+      "status": "developing",
+      "summary": "英伟达洽谈收购开放AI模型公司Reflection AI。",
+      "latestProgress": "谈判或涉收购及追加投资，黄仁勋或亲自参与。"
+    },
+    {
+      "eventId": "event_26154030d391",
+      "clusterVersion": 2,
+      "title": "宜信被立案侦查，投资人正积极报案登记",
+      "firstSeenAt": "2026-10-12T06:32:34.342Z",
+      "lastSeenAt": "2026-10-12T06:32:34.342Z",
+      "latestItemPublishedAt": "2026-10-12T05:19:15.000Z",
+      "primaryItemId": "news_a890312acc57",
+      "evidenceItemIds": [
+        "news_a890312acc57",
+        "news_4a53de3f2f76"
       ],
       "status": "developing",
       "summary": "",
@@ -408,22 +449,6 @@
       "status": "developing",
       "summary": "花旗警告法国财政风险或致欧央行12月后暂停加息，欧元料跌破1.10。",
       "latestProgress": "花旗最新预计欧央行12月后暂停加息，欧元或跌破1.10。"
-    },
-    {
-      "eventId": "event_c15d7de81979",
-      "clusterVersion": 2,
-      "title": "黄仁勋要“亲自下场”？英伟达洽谈收购“美国DeepSeek”Reflection AI",
-      "firstSeenAt": "2026-10-11T06:22:36.641Z",
-      "lastSeenAt": "2026-10-11T06:22:36.641Z",
-      "latestItemPublishedAt": "2026-10-11T01:29:56.000Z",
-      "primaryItemId": "news_92712b6ff397",
-      "evidenceItemIds": [
-        "news_92712b6ff397",
-        "news_0fc9bb0620eb"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
     },
     {
       "eventId": "event_a6f1a5a5635d",

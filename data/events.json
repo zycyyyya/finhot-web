@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-12T12:01:07.382Z",
+  "generatedAt": "2026-10-12T18:04:16.088Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -9,8 +9,8 @@
       "clusterVersion": 2,
       "title": "国投林荣雄：A股科技年内第二波行情可期，10月下旬是关键窗口",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-12T12:01:07.382Z",
-      "latestItemPublishedAt": "2026-10-12T10:35:25.000Z",
+      "lastSeenAt": "2026-10-12T18:04:16.088Z",
+      "latestItemPublishedAt": "2026-10-12T14:58:16.000Z",
       "primaryItemId": "news_a598445a15d5",
       "evidenceItemIds": [
         "news_943234fa21c3",
@@ -52,7 +52,10 @@
         "news_a92872842995",
         "news_a598445a15d5",
         "news_bb996317153b",
-        "news_e3e3ae145b89"
+        "news_e3e3ae145b89",
+        "news_10394ba8cee2",
+        "news_a6783d46638a",
+        "news_12903c117eef"
       ],
       "status": "developing",
       "summary": "瑛泰医疗建议发行总数不超过3727.06万股A股。",
@@ -61,15 +64,12 @@
     {
       "eventId": "event_f101880ef7bc",
       "clusterVersion": 2,
-      "title": "美股接近历史高点，机构却忧虑重重！高盛合伙人：不要跟市场对抗",
+      "title": "财报季乐观预期与中东风险交织，美股指涨跌互现，存储芯片股普跌，油价走高，黄金小幅下跌",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-12T12:01:07.382Z",
-      "latestItemPublishedAt": "2026-10-12T09:53:39.000Z",
-      "primaryItemId": "news_aa1f2402e9e7",
+      "lastSeenAt": "2026-10-12T18:04:16.088Z",
+      "latestItemPublishedAt": "2026-10-12T15:36:19.000Z",
+      "primaryItemId": "news_cdc3948e4401",
       "evidenceItemIds": [
-        "news_19e0345bcec3",
-        "news_9458584cb250",
-        "news_360dd9669f2f",
         "news_b84e7f290616",
         "news_093b378ea5bc",
         "news_714e7dcc99a1",
@@ -116,7 +116,10 @@
         "news_29f14bb7387e",
         "news_a8d09cf4fa54",
         "news_e5535c0f1857",
-        "news_48bc73625ce8"
+        "news_48bc73625ce8",
+        "news_cdc3948e4401",
+        "news_2e59f6c91737",
+        "news_74a59a115b21"
       ],
       "status": "developing",
       "summary": "多家机构警示美股风险，财报季临近，市场波动或蔓延，牛市存疑。",
@@ -127,8 +130,8 @@
       "clusterVersion": 2,
       "title": "智通港股投资日志|10月12日",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-10-12T12:01:07.382Z",
-      "latestItemPublishedAt": "2026-10-12T02:27:15.000Z",
+      "lastSeenAt": "2026-10-12T18:04:16.088Z",
+      "latestItemPublishedAt": "2026-10-12T12:49:21.000Z",
       "primaryItemId": "news_01242cd7a951",
       "evidenceItemIds": [
         "news_2b090183c8dd",
@@ -176,7 +179,8 @@
         "news_a638f594b75e",
         "news_16efa3ec46ab",
         "news_01242cd7a951",
-        "news_761539e682e3"
+        "news_761539e682e3",
+        "news_32c3f9d19c78"
       ],
       "status": "developing",
       "summary": "张忆东预计港股10月先抑后扬，大概率反弹，建议把握两条主线。",
@@ -187,7 +191,7 @@
       "clusterVersion": 2,
       "title": "波兰央行维持基准利率不变，继续按兵不动",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-12T12:01:07.382Z",
+      "lastSeenAt": "2026-10-12T18:04:16.088Z",
       "latestItemPublishedAt": "2026-10-09T05:26:40.000Z",
       "primaryItemId": "news_7173a9e7e57a",
       "evidenceItemIds": [
@@ -228,7 +232,11 @@
         "news_92cf9f7cd221",
         "news_a9cc4fc7f127",
         "news_4cfdccbcd6f4",
-        "news_a679ed14e61b"
+        "news_a679ed14e61b",
+        "news_3672688b9e75",
+        "news_3cfce6290810",
+        "news_4295be216da3",
+        "news_97b37b21f151"
       ],
       "status": "developing",
       "summary": "波兰央行维持基准利率不变，继续按兵不动。",
@@ -239,7 +247,7 @@
       "clusterVersion": 2,
       "title": "大摩Wilson：债市已在替美联储“加息”，美股反弹还看两大信号",
       "firstSeenAt": "2026-10-08T06:40:59.994Z",
-      "lastSeenAt": "2026-10-12T12:01:07.382Z",
+      "lastSeenAt": "2026-10-12T18:04:16.088Z",
       "latestItemPublishedAt": "2026-10-12T11:26:50.000Z",
       "primaryItemId": "news_07284c302f01",
       "evidenceItemIds": [
@@ -260,29 +268,11 @@
       "latestProgress": "能源内参称3C证书大面积暂停，国内电动自行车销售接近停滞。"
     },
     {
-      "eventId": "event_c1e929b1c17b",
-      "clusterVersion": 2,
-      "title": "如何应对高利率？中信证券：配置景气和供给出清品种",
-      "firstSeenAt": "2026-10-11T10:54:46.778Z",
-      "lastSeenAt": "2026-10-12T12:01:07.382Z",
-      "latestItemPublishedAt": "2026-10-11T11:37:24.000Z",
-      "primaryItemId": "news_1057a3a3c518",
-      "evidenceItemIds": [
-        "news_1057a3a3c518",
-        "news_aafad99b0aa9",
-        "news_6580da63b57c",
-        "news_cbabd866e774"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
       "eventId": "event_cd4bf28b1279",
       "clusterVersion": 2,
       "title": "南向资金追踪｜净买入超26亿港元 加仓友邦保险流出中芯国际及长飞光纤",
       "firstSeenAt": "2026-10-09T15:28:32.011Z",
-      "lastSeenAt": "2026-10-12T12:01:07.382Z",
+      "lastSeenAt": "2026-10-12T18:04:16.088Z",
       "latestItemPublishedAt": "2026-10-12T10:10:31.000Z",
       "primaryItemId": "news_30887d1e3fc0",
       "evidenceItemIds": [
@@ -299,7 +289,7 @@
       "clusterVersion": 2,
       "title": "歌尔股份：终止分拆所属子公司歌尔微电子至香港联交所主板上市。",
       "firstSeenAt": "2026-10-12T12:01:07.382Z",
-      "lastSeenAt": "2026-10-12T12:01:07.382Z",
+      "lastSeenAt": "2026-10-12T18:04:16.088Z",
       "latestItemPublishedAt": "2026-10-12T11:37:27.000Z",
       "primaryItemId": "news_17fcaf568f7e",
       "evidenceItemIds": [
@@ -315,7 +305,7 @@
       "clusterVersion": 2,
       "title": "财政部：明年4月1日起，新能源汽车增值税出口退税率由13%下调至9%",
       "firstSeenAt": "2026-10-12T12:01:07.382Z",
-      "lastSeenAt": "2026-10-12T12:01:07.382Z",
+      "lastSeenAt": "2026-10-12T18:04:16.088Z",
       "latestItemPublishedAt": "2026-10-12T09:17:15.000Z",
       "primaryItemId": "news_d7114cd45faa",
       "evidenceItemIds": [
@@ -331,12 +321,63 @@
       "clusterVersion": 2,
       "title": "马斯克称只有三家公司拥有足够的编程训练数据",
       "firstSeenAt": "2026-10-12T12:01:07.382Z",
-      "lastSeenAt": "2026-10-12T12:01:07.382Z",
+      "lastSeenAt": "2026-10-12T18:04:16.088Z",
       "latestItemPublishedAt": "2026-10-12T11:42:05.000Z",
       "primaryItemId": "news_4e1d2c006c17",
       "evidenceItemIds": [
         "news_4e1d2c006c17",
         "news_c34bad7807e3"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_08623ef88c30",
+      "clusterVersion": 2,
+      "title": "美股异动 | 美国临床阶段生物制药公司Retension Pharmaceuticals(RTSN.US)登陆美股市场 ",
+      "firstSeenAt": "2026-10-09T18:28:14.001Z",
+      "lastSeenAt": "2026-10-12T18:04:16.088Z",
+      "latestItemPublishedAt": "2026-10-12T12:52:22.000Z",
+      "primaryItemId": "news_7056a8f754f8",
+      "evidenceItemIds": [
+        "news_7056a8f754f8",
+        "news_9f054758b41a",
+        "news_5d4e99e1b566"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_0e47dee32e28",
+      "clusterVersion": 2,
+      "title": "吴清主席会见阿联酋穆巴达拉投资公司首席执行官兼董事总经理哈勒敦",
+      "firstSeenAt": "2026-10-12T18:04:16.088Z",
+      "lastSeenAt": "2026-10-12T18:04:16.088Z",
+      "latestItemPublishedAt": "2026-10-12T11:28:37.000Z",
+      "primaryItemId": "news_0c68188ecbdf",
+      "evidenceItemIds": [
+        "news_0c68188ecbdf",
+        "news_001850cf293f"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_c1e929b1c17b",
+      "clusterVersion": 2,
+      "title": "如何应对高利率？中信证券：配置景气和供给出清品种",
+      "firstSeenAt": "2026-10-11T10:54:46.778Z",
+      "lastSeenAt": "2026-10-12T12:01:07.382Z",
+      "latestItemPublishedAt": "2026-10-11T11:37:24.000Z",
+      "primaryItemId": "news_1057a3a3c518",
+      "evidenceItemIds": [
+        "news_1057a3a3c518",
+        "news_aafad99b0aa9",
+        "news_6580da63b57c",
+        "news_cbabd866e774"
       ],
       "status": "developing",
       "summary": "",
@@ -602,22 +643,6 @@
       "evidenceItemIds": [
         "news_cf8bee568341",
         "news_10011d84a49e"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_08623ef88c30",
-      "clusterVersion": 2,
-      "title": "美股异动 | 美国临床阶段生物制药公司Retension Pharmaceuticals(RTSN.US)登陆美股市场 ",
-      "firstSeenAt": "2026-10-09T18:28:14.001Z",
-      "lastSeenAt": "2026-10-10T10:39:53.006Z",
-      "latestItemPublishedAt": "2026-10-09T16:35:36.000Z",
-      "primaryItemId": "news_7056a8f754f8",
-      "evidenceItemIds": [
-        "news_7056a8f754f8",
-        "news_9f054758b41a"
       ],
       "status": "developing",
       "summary": "",

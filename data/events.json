@@ -1,17 +1,17 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-12T06:32:34.342Z",
+  "generatedAt": "2026-10-12T12:01:07.382Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
       "eventId": "event_a3c5d0364922",
       "clusterVersion": 2,
-      "title": "瑛泰医疗(01501)：建议发行总数不超过3727.06万股A股",
+      "title": "国投林荣雄：A股科技年内第二波行情可期，10月下旬是关键窗口",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-12T06:32:34.342Z",
-      "latestItemPublishedAt": "2026-10-11T12:05:05.000Z",
-      "primaryItemId": "news_861ea390c337",
+      "lastSeenAt": "2026-10-12T12:01:07.382Z",
+      "latestItemPublishedAt": "2026-10-12T10:35:25.000Z",
+      "primaryItemId": "news_a598445a15d5",
       "evidenceItemIds": [
         "news_943234fa21c3",
         "news_de9aae9a8f2f",
@@ -49,7 +49,10 @@
         "news_254d7c3cee8d",
         "news_3cc7bb01f717",
         "news_861ea390c337",
-        "news_a92872842995"
+        "news_a92872842995",
+        "news_a598445a15d5",
+        "news_bb996317153b",
+        "news_e3e3ae145b89"
       ],
       "status": "developing",
       "summary": "瑛泰医疗建议发行总数不超过3727.06万股A股。",
@@ -58,11 +61,11 @@
     {
       "eventId": "event_f101880ef7bc",
       "clusterVersion": 2,
-      "title": "“只剩一笔交易”的美股牛市",
+      "title": "美股接近历史高点，机构却忧虑重重！高盛合伙人：不要跟市场对抗",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-12T06:32:34.342Z",
-      "latestItemPublishedAt": "2026-10-11T03:17:39.000Z",
-      "primaryItemId": "news_28e5a7e399fd",
+      "lastSeenAt": "2026-10-12T12:01:07.382Z",
+      "latestItemPublishedAt": "2026-10-12T09:53:39.000Z",
+      "primaryItemId": "news_aa1f2402e9e7",
       "evidenceItemIds": [
         "news_19e0345bcec3",
         "news_9458584cb250",
@@ -110,7 +113,10 @@
         "news_28e5a7e399fd",
         "news_8265af5f0ba7",
         "news_aa1f2402e9e7",
-        "news_29f14bb7387e"
+        "news_29f14bb7387e",
+        "news_a8d09cf4fa54",
+        "news_e5535c0f1857",
+        "news_48bc73625ce8"
       ],
       "status": "developing",
       "summary": "多家机构警示美股风险，财报季临近，市场波动或蔓延，牛市存疑。",
@@ -119,11 +125,11 @@
     {
       "eventId": "event_c68d651d4ff9",
       "clusterVersion": 2,
-      "title": "张忆东：港股10月大概率反弹，先抑后扬，把握两条主线",
+      "title": "智通港股投资日志|10月12日",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-10-12T06:32:34.342Z",
+      "lastSeenAt": "2026-10-12T12:01:07.382Z",
       "latestItemPublishedAt": "2026-10-12T02:27:15.000Z",
-      "primaryItemId": "news_0f071e7c111d",
+      "primaryItemId": "news_01242cd7a951",
       "evidenceItemIds": [
         "news_2b090183c8dd",
         "news_7c802606a071",
@@ -181,8 +187,8 @@
       "clusterVersion": 2,
       "title": "波兰央行维持基准利率不变，继续按兵不动",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-12T06:32:34.342Z",
-      "latestItemPublishedAt": "2026-10-09T02:15:52.000Z",
+      "lastSeenAt": "2026-10-12T12:01:07.382Z",
+      "latestItemPublishedAt": "2026-10-09T05:26:40.000Z",
       "primaryItemId": "news_7173a9e7e57a",
       "evidenceItemIds": [
         "news_5de8a00d999f",
@@ -220,11 +226,137 @@
         "news_6c2adc0cf183",
         "news_47e9a5951976",
         "news_92cf9f7cd221",
-        "news_a9cc4fc7f127"
+        "news_a9cc4fc7f127",
+        "news_4cfdccbcd6f4",
+        "news_a679ed14e61b"
       ],
       "status": "developing",
       "summary": "波兰央行维持基准利率不变，继续按兵不动。",
       "latestProgress": "波兰央行维持基准利率不变，继续按兵不动。"
+    },
+    {
+      "eventId": "event_6ab2a13609c6",
+      "clusterVersion": 2,
+      "title": "大摩Wilson：债市已在替美联储“加息”，美股反弹还看两大信号",
+      "firstSeenAt": "2026-10-08T06:40:59.994Z",
+      "lastSeenAt": "2026-10-12T12:01:07.382Z",
+      "latestItemPublishedAt": "2026-10-12T11:26:50.000Z",
+      "primaryItemId": "news_07284c302f01",
+      "evidenceItemIds": [
+        "news_1d0c31b07d1b",
+        "news_ecab20992500",
+        "news_653fc1efe942",
+        "news_44a82f6088f4",
+        "news_a17e98dc402b",
+        "news_c3d63417f749",
+        "news_68e9d0c16666",
+        "news_c58f0c74ae4b",
+        "news_d2cfa2203826",
+        "news_69f7d4ba364f",
+        "news_07284c302f01"
+      ],
+      "status": "developing",
+      "summary": "多条报道聚焦美联储加息预期与市场影响，同时电动自行车销售因3C证书暂停接近停滞。",
+      "latestProgress": "能源内参称3C证书大面积暂停，国内电动自行车销售接近停滞。"
+    },
+    {
+      "eventId": "event_c1e929b1c17b",
+      "clusterVersion": 2,
+      "title": "如何应对高利率？中信证券：配置景气和供给出清品种",
+      "firstSeenAt": "2026-10-11T10:54:46.778Z",
+      "lastSeenAt": "2026-10-12T12:01:07.382Z",
+      "latestItemPublishedAt": "2026-10-11T11:37:24.000Z",
+      "primaryItemId": "news_1057a3a3c518",
+      "evidenceItemIds": [
+        "news_1057a3a3c518",
+        "news_aafad99b0aa9",
+        "news_6580da63b57c",
+        "news_cbabd866e774"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_cd4bf28b1279",
+      "clusterVersion": 2,
+      "title": "南向资金追踪｜净买入超26亿港元 加仓友邦保险流出中芯国际及长飞光纤",
+      "firstSeenAt": "2026-10-09T15:28:32.011Z",
+      "lastSeenAt": "2026-10-12T12:01:07.382Z",
+      "latestItemPublishedAt": "2026-10-12T10:10:31.000Z",
+      "primaryItemId": "news_30887d1e3fc0",
+      "evidenceItemIds": [
+        "news_3962901ee7c7",
+        "news_29386f4b4116",
+        "news_30887d1e3fc0"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_91792f8e1947",
+      "clusterVersion": 2,
+      "title": "歌尔股份：终止分拆所属子公司歌尔微电子至香港联交所主板上市。",
+      "firstSeenAt": "2026-10-12T12:01:07.382Z",
+      "lastSeenAt": "2026-10-12T12:01:07.382Z",
+      "latestItemPublishedAt": "2026-10-12T11:37:27.000Z",
+      "primaryItemId": "news_17fcaf568f7e",
+      "evidenceItemIds": [
+        "news_17fcaf568f7e",
+        "news_8c8fe0c08a9a"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_9fec0f897874",
+      "clusterVersion": 2,
+      "title": "财政部：明年4月1日起，新能源汽车增值税出口退税率由13%下调至9%",
+      "firstSeenAt": "2026-10-12T12:01:07.382Z",
+      "lastSeenAt": "2026-10-12T12:01:07.382Z",
+      "latestItemPublishedAt": "2026-10-12T09:17:15.000Z",
+      "primaryItemId": "news_d7114cd45faa",
+      "evidenceItemIds": [
+        "news_d7114cd45faa",
+        "news_f86c558933b6"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_81075a47eb9e",
+      "clusterVersion": 2,
+      "title": "马斯克称只有三家公司拥有足够的编程训练数据",
+      "firstSeenAt": "2026-10-12T12:01:07.382Z",
+      "lastSeenAt": "2026-10-12T12:01:07.382Z",
+      "latestItemPublishedAt": "2026-10-12T11:42:05.000Z",
+      "primaryItemId": "news_4e1d2c006c17",
+      "evidenceItemIds": [
+        "news_4e1d2c006c17",
+        "news_c34bad7807e3"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_2719f4e88dee",
+      "clusterVersion": 2,
+      "title": "上交所向东百集团下发监管工作函",
+      "firstSeenAt": "2026-10-12T12:01:07.382Z",
+      "lastSeenAt": "2026-10-12T12:01:07.382Z",
+      "latestItemPublishedAt": "2026-10-12T00:49:12.000Z",
+      "primaryItemId": "news_47efc733e505",
+      "evidenceItemIds": [
+        "news_47efc733e505",
+        "news_7434b851d741"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
     },
     {
       "eventId": "event_668e7c3605a8",
@@ -243,30 +375,6 @@
       "status": "developing",
       "summary": "新华保险举牌国泰海通，H股持股比例升至20%以上",
       "latestProgress": "持股破20%，新华保险增持国泰海通H股；险资举牌降温转投硬科技IPO"
-    },
-    {
-      "eventId": "event_6ab2a13609c6",
-      "clusterVersion": 2,
-      "title": "能源内参｜3C证书大面积暂停 国内电动自行车销售接近停滞；美联储加息预期之下，谁还在买入黄金？",
-      "firstSeenAt": "2026-10-08T06:40:59.994Z",
-      "lastSeenAt": "2026-10-12T06:32:34.342Z",
-      "latestItemPublishedAt": "2026-10-12T02:02:58.000Z",
-      "primaryItemId": "news_69f7d4ba364f",
-      "evidenceItemIds": [
-        "news_1d0c31b07d1b",
-        "news_ecab20992500",
-        "news_653fc1efe942",
-        "news_44a82f6088f4",
-        "news_a17e98dc402b",
-        "news_c3d63417f749",
-        "news_68e9d0c16666",
-        "news_c58f0c74ae4b",
-        "news_d2cfa2203826",
-        "news_69f7d4ba364f"
-      ],
-      "status": "developing",
-      "summary": "多条报道聚焦美联储加息预期与市场影响，同时电动自行车销售因3C证书暂停接近停滞。",
-      "latestProgress": "能源内参称3C证书大面积暂停，国内电动自行车销售接近停滞。"
     },
     {
       "eventId": "event_44e7f67f045c",
@@ -317,24 +425,6 @@
       "status": "developing",
       "summary": "高盛讨论会指出AI交易从硬件转向应用，市场热盼新故事。",
       "latestProgress": "高盛讨论会聚焦AI交易转向应用领域，市场寻觅新增长点。"
-    },
-    {
-      "eventId": "event_c1e929b1c17b",
-      "clusterVersion": 2,
-      "title": "如何应对高利率？中信证券：配置景气和供给出清品种",
-      "firstSeenAt": "2026-10-11T10:54:46.778Z",
-      "lastSeenAt": "2026-10-12T06:32:34.342Z",
-      "latestItemPublishedAt": "2026-10-11T11:37:24.000Z",
-      "primaryItemId": "news_1057a3a3c518",
-      "evidenceItemIds": [
-        "news_1057a3a3c518",
-        "news_aafad99b0aa9",
-        "news_6580da63b57c",
-        "news_cbabd866e774"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
     },
     {
       "eventId": "event_1c509fe62b64",
@@ -500,22 +590,6 @@
       "status": "developing",
       "summary": "OpenAI澄清年化营收：截至9月底约500亿美元，年底目标700亿美元。",
       "latestProgress": "OpenAI预计2026年底年化营收将达700亿美元。"
-    },
-    {
-      "eventId": "event_cd4bf28b1279",
-      "clusterVersion": 2,
-      "title": "南向资金追踪｜净买入约3亿港元 加仓友邦保险及阿里流出小米集团",
-      "firstSeenAt": "2026-10-09T15:28:32.011Z",
-      "lastSeenAt": "2026-10-10T14:37:01.176Z",
-      "latestItemPublishedAt": "2026-10-09T10:49:12.000Z",
-      "primaryItemId": "news_3962901ee7c7",
-      "evidenceItemIds": [
-        "news_3962901ee7c7",
-        "news_29386f4b4116"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
     },
     {
       "eventId": "event_22b933f0c6fc",

@@ -1,17 +1,17 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-13T07:12:40.810Z",
+  "generatedAt": "2026-10-13T11:49:47.364Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
       "eventId": "event_a3c5d0364922",
       "clusterVersion": 2,
-      "title": "两只A股前“股王”预告第三季度业绩，净利润暴涨",
+      "title": "A股三大指数集体低开",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-13T07:12:40.810Z",
-      "latestItemPublishedAt": "2026-10-13T02:10:59.000Z",
-      "primaryItemId": "news_10394ba8cee2",
+      "lastSeenAt": "2026-10-13T11:49:47.364Z",
+      "latestItemPublishedAt": "2026-10-13T05:11:45.000Z",
+      "primaryItemId": "news_13d0ca91614a",
       "evidenceItemIds": [
         "news_943234fa21c3",
         "news_de9aae9a8f2f",
@@ -69,13 +69,12 @@
     {
       "eventId": "event_f101880ef7bc",
       "clusterVersion": 2,
-      "title": "博通、英特尔CEO警告资金成为AI扩张瓶颈，美股多只半导体股下跌",
+      "title": "四年上涨131%，美股牛市时候结束了吗？",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-13T07:12:40.810Z",
-      "latestItemPublishedAt": "2026-10-13T01:56:29.000Z",
-      "primaryItemId": "news_3e435a05226b",
+      "lastSeenAt": "2026-10-13T11:49:47.364Z",
+      "latestItemPublishedAt": "2026-10-13T08:40:25.000Z",
+      "primaryItemId": "news_c41fcd28d36a",
       "evidenceItemIds": [
-        "news_714e7dcc99a1",
         "news_352a4512821d",
         "news_69c4b193d651",
         "news_c6779e66f330",
@@ -124,7 +123,8 @@
         "news_2e59f6c91737",
         "news_74a59a115b21",
         "news_3e435a05226b",
-        "news_ae7d259eba2e"
+        "news_ae7d259eba2e",
+        "news_c41fcd28d36a"
       ],
       "status": "developing",
       "summary": "博通、英特尔CEO警示资金成AI扩张瓶颈，美股半导体股应声下跌。",
@@ -135,7 +135,7 @@
       "clusterVersion": 2,
       "title": "港股异动 | 中船防务(00317)涨超4% 新造船价格保持上涨趋势 机构看好三季度船企业绩增长",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-10-13T07:12:40.810Z",
+      "lastSeenAt": "2026-10-13T11:49:47.364Z",
       "latestItemPublishedAt": "2026-10-13T06:05:11.000Z",
       "primaryItemId": "news_c5710db2dfdf",
       "evidenceItemIds": [
@@ -197,11 +197,11 @@
     {
       "eventId": "event_2cf716748ce1",
       "clusterVersion": 2,
-      "title": "波兰央行维持基准利率不变，继续按兵不动",
+      "title": "印度重启“货币保卫战”：央行接管石油巨头购汇，投机炒汇的空间被砍掉95%",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-13T07:12:40.810Z",
-      "latestItemPublishedAt": "2026-10-09T14:13:03.000Z",
-      "primaryItemId": "news_7173a9e7e57a",
+      "lastSeenAt": "2026-10-13T11:49:47.364Z",
+      "latestItemPublishedAt": "2026-10-13T06:09:50.000Z",
+      "primaryItemId": "news_8d7ace2c3ba5",
       "evidenceItemIds": [
         "news_5de8a00d999f",
         "news_90f768d7e736",
@@ -252,6 +252,125 @@
       "status": "developing",
       "summary": "波兰央行维持基准利率不变，继续按兵不动。",
       "latestProgress": "波兰央行维持基准利率不变，继续按兵不动。"
+    },
+    {
+      "eventId": "event_0e47dee32e28",
+      "clusterVersion": 2,
+      "title": "吴清主席会见阿联酋穆巴达拉投资公司首席执行官兼董事总经理哈勒敦",
+      "firstSeenAt": "2026-10-12T18:04:16.088Z",
+      "lastSeenAt": "2026-10-13T11:49:47.364Z",
+      "latestItemPublishedAt": "2026-10-12T11:28:37.000Z",
+      "primaryItemId": "news_0c68188ecbdf",
+      "evidenceItemIds": [
+        "news_0c68188ecbdf",
+        "news_001850cf293f"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_b6b6148b7537",
+      "clusterVersion": 2,
+      "title": "美国9月通胀虚火与核心降温：10月加息暂停，美债利率能否阶段性见顶？",
+      "firstSeenAt": "2026-10-09T06:44:52.975Z",
+      "lastSeenAt": "2026-10-13T11:49:47.364Z",
+      "latestItemPublishedAt": "2026-10-13T09:44:03.000Z",
+      "primaryItemId": "news_64cb31499291",
+      "evidenceItemIds": [
+        "news_2afa81af5999",
+        "news_19b18a80c06c",
+        "news_f4f1cf6080e5",
+        "news_01a9492f3d52",
+        "news_65a8e5727648",
+        "news_d3daee9a7f63",
+        "news_64cb31499291",
+        "news_ef38bbe6f138",
+        "news_ccf84c91ea78"
+      ],
+      "status": "developing",
+      "summary": "美国市场叙事反转，从AI通缩论转向AI挤爆债市、长端利率失控。",
+      "latestProgress": "报道指出贝森特难以控制长端利率，市场担忧AI引发债市风险。"
+    },
+    {
+      "eventId": "event_d349cb1869f0",
+      "clusterVersion": 2,
+      "title": "【市场动态】比亚迪加码欧洲招聘 拟将当地员工人数增至4万",
+      "firstSeenAt": "2026-10-13T07:12:40.810Z",
+      "lastSeenAt": "2026-10-13T11:49:47.364Z",
+      "latestItemPublishedAt": "2026-10-13T00:49:24.000Z",
+      "primaryItemId": "news_1f665a19c4c1",
+      "evidenceItemIds": [
+        "news_1f665a19c4c1",
+        "news_b9c5f867322a"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_ebc189bef9fe",
+      "clusterVersion": 2,
+      "title": "巴菲特看了会摇头！华尔街出现对赌ETF：标普500指数何时上万点",
+      "firstSeenAt": "2026-10-13T07:12:40.810Z",
+      "lastSeenAt": "2026-10-13T11:49:47.364Z",
+      "latestItemPublishedAt": "2026-10-12T23:35:06.000Z",
+      "primaryItemId": "news_fe7f686b4c32",
+      "evidenceItemIds": [
+        "news_fe7f686b4c32",
+        "news_13fef49e350b"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_9320a1a037ff",
+      "clusterVersion": 2,
+      "title": "市场监管总局：经营者集中简易案件平均审查时间从39.9天缩至18.6天",
+      "firstSeenAt": "2026-10-13T07:12:40.810Z",
+      "lastSeenAt": "2026-10-13T11:49:47.364Z",
+      "latestItemPublishedAt": "2026-10-13T06:24:05.000Z",
+      "primaryItemId": "news_c72888513c4b",
+      "evidenceItemIds": [
+        "news_c72888513c4b",
+        "news_56842541adec"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_88d9095dd622",
+      "clusterVersion": 2,
+      "title": "盐湖股份：预计2026年前三季度净利润88.4亿元—90.5亿元，同比增长87.96%—92.42%",
+      "firstSeenAt": "2026-10-13T11:49:47.364Z",
+      "lastSeenAt": "2026-10-13T11:49:47.364Z",
+      "latestItemPublishedAt": "2026-10-13T10:47:55.000Z",
+      "primaryItemId": "news_d80215561f08",
+      "evidenceItemIds": [
+        "news_d80215561f08",
+        "news_9c27ff2264cc"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_234600faadf1",
+      "clusterVersion": 2,
+      "title": "报道：日本央行拟在10月“按兵不动”，12月加息仍在考虑之中",
+      "firstSeenAt": "2026-10-13T11:49:47.364Z",
+      "lastSeenAt": "2026-10-13T11:49:47.364Z",
+      "latestItemPublishedAt": "2026-10-13T10:24:12.000Z",
+      "primaryItemId": "news_3db4dbd4e7a1",
+      "evidenceItemIds": [
+        "news_3db4dbd4e7a1",
+        "news_cba32acfc238"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
     },
     {
       "eventId": "event_6ab2a13609c6",
@@ -328,42 +447,6 @@
       "latestProgress": ""
     },
     {
-      "eventId": "event_0e47dee32e28",
-      "clusterVersion": 2,
-      "title": "吴清主席会见阿联酋穆巴达拉投资公司首席执行官兼董事总经理哈勒敦",
-      "firstSeenAt": "2026-10-12T18:04:16.088Z",
-      "lastSeenAt": "2026-10-13T07:12:40.810Z",
-      "latestItemPublishedAt": "2026-10-12T11:28:37.000Z",
-      "primaryItemId": "news_0c68188ecbdf",
-      "evidenceItemIds": [
-        "news_0c68188ecbdf",
-        "news_001850cf293f"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_b6b6148b7537",
-      "clusterVersion": 2,
-      "title": "7.4%高利率“锁死”美国楼市：买家离场、卖家撤牌，横盘僵局何时破？",
-      "firstSeenAt": "2026-10-09T06:44:52.975Z",
-      "lastSeenAt": "2026-10-13T07:12:40.810Z",
-      "latestItemPublishedAt": "2026-10-13T05:37:58.000Z",
-      "primaryItemId": "news_d3daee9a7f63",
-      "evidenceItemIds": [
-        "news_2afa81af5999",
-        "news_19b18a80c06c",
-        "news_f4f1cf6080e5",
-        "news_01a9492f3d52",
-        "news_65a8e5727648",
-        "news_d3daee9a7f63"
-      ],
-      "status": "developing",
-      "summary": "美国市场叙事反转，从AI通缩论转向AI挤爆债市、长端利率失控。",
-      "latestProgress": "报道指出贝森特难以控制长端利率，市场担忧AI引发债市风险。"
-    },
-    {
       "eventId": "event_ad5f762f53c9",
       "clusterVersion": 2,
       "title": "落实中美经贸磋商成果 VISA获筹银行卡清算机构",
@@ -374,54 +457,6 @@
       "evidenceItemIds": [
         "news_ea3455173294",
         "news_1f35d37ba3bb"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_d349cb1869f0",
-      "clusterVersion": 2,
-      "title": "【市场动态】比亚迪加码欧洲招聘 拟将当地员工人数增至4万",
-      "firstSeenAt": "2026-10-13T07:12:40.810Z",
-      "lastSeenAt": "2026-10-13T07:12:40.810Z",
-      "latestItemPublishedAt": "2026-10-13T00:49:24.000Z",
-      "primaryItemId": "news_1f665a19c4c1",
-      "evidenceItemIds": [
-        "news_1f665a19c4c1",
-        "news_b9c5f867322a"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_ebc189bef9fe",
-      "clusterVersion": 2,
-      "title": "巴菲特看了会摇头！华尔街出现对赌ETF：标普500指数何时上万点",
-      "firstSeenAt": "2026-10-13T07:12:40.810Z",
-      "lastSeenAt": "2026-10-13T07:12:40.810Z",
-      "latestItemPublishedAt": "2026-10-12T23:35:06.000Z",
-      "primaryItemId": "news_fe7f686b4c32",
-      "evidenceItemIds": [
-        "news_fe7f686b4c32",
-        "news_13fef49e350b"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_9320a1a037ff",
-      "clusterVersion": 2,
-      "title": "市场监管总局：经营者集中简易案件平均审查时间从39.9天缩至18.6天",
-      "firstSeenAt": "2026-10-13T07:12:40.810Z",
-      "lastSeenAt": "2026-10-13T07:12:40.810Z",
-      "latestItemPublishedAt": "2026-10-13T06:24:05.000Z",
-      "primaryItemId": "news_c72888513c4b",
-      "evidenceItemIds": [
-        "news_c72888513c4b",
-        "news_56842541adec"
       ],
       "status": "developing",
       "summary": "",

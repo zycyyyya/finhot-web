@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-12T21:20:22.089Z",
+  "generatedAt": "2026-10-13T07:12:40.810Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -9,8 +9,8 @@
       "clusterVersion": 2,
       "title": "两只A股前“股王”预告第三季度业绩，净利润暴涨",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-12T21:20:22.089Z",
-      "latestItemPublishedAt": "2026-10-12T14:58:16.000Z",
+      "lastSeenAt": "2026-10-13T07:12:40.810Z",
+      "latestItemPublishedAt": "2026-10-13T02:10:59.000Z",
       "primaryItemId": "news_10394ba8cee2",
       "evidenceItemIds": [
         "news_943234fa21c3",
@@ -55,7 +55,12 @@
         "news_e3e3ae145b89",
         "news_10394ba8cee2",
         "news_a6783d46638a",
-        "news_12903c117eef"
+        "news_12903c117eef",
+        "news_6d61e1d353ec",
+        "news_13d0ca91614a",
+        "news_c5322da109c5",
+        "news_db4926c2289d",
+        "news_435567c53c1c"
       ],
       "status": "developing",
       "summary": "瑛泰医疗建议发行总数不超过3727.06万股A股。",
@@ -64,14 +69,12 @@
     {
       "eventId": "event_f101880ef7bc",
       "clusterVersion": 2,
-      "title": "宜信立案通报冲击市场，宜人智科美股开盘暴跌44%",
+      "title": "博通、英特尔CEO警告资金成为AI扩张瓶颈，美股多只半导体股下跌",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-12T21:20:22.089Z",
-      "latestItemPublishedAt": "2026-10-12T15:36:19.000Z",
-      "primaryItemId": "news_2e59f6c91737",
+      "lastSeenAt": "2026-10-13T07:12:40.810Z",
+      "latestItemPublishedAt": "2026-10-13T01:56:29.000Z",
+      "primaryItemId": "news_3e435a05226b",
       "evidenceItemIds": [
-        "news_b84e7f290616",
-        "news_093b378ea5bc",
         "news_714e7dcc99a1",
         "news_352a4512821d",
         "news_69c4b193d651",
@@ -119,20 +122,22 @@
         "news_48bc73625ce8",
         "news_cdc3948e4401",
         "news_2e59f6c91737",
-        "news_74a59a115b21"
+        "news_74a59a115b21",
+        "news_3e435a05226b",
+        "news_ae7d259eba2e"
       ],
       "status": "developing",
-      "summary": "多家机构警示美股风险，财报季临近，市场波动或蔓延，牛市存疑。",
-      "latestProgress": "德银称科技股反弹或见顶，警惕倒V反转，投资者持币观望。"
+      "summary": "博通、英特尔CEO警示资金成AI扩张瓶颈，美股半导体股应声下跌。",
+      "latestProgress": "CEO警告引发关注，多只半导体股当日承压下行。"
     },
     {
       "eventId": "event_c68d651d4ff9",
       "clusterVersion": 2,
-      "title": "智通港股投资日志|10月12日",
+      "title": "港股异动 | 中船防务(00317)涨超4% 新造船价格保持上涨趋势 机构看好三季度船企业绩增长",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-10-12T21:20:22.089Z",
-      "latestItemPublishedAt": "2026-10-12T12:49:21.000Z",
-      "primaryItemId": "news_01242cd7a951",
+      "lastSeenAt": "2026-10-13T07:12:40.810Z",
+      "latestItemPublishedAt": "2026-10-13T06:05:11.000Z",
+      "primaryItemId": "news_c5710db2dfdf",
       "evidenceItemIds": [
         "news_2b090183c8dd",
         "news_7c802606a071",
@@ -180,20 +185,23 @@
         "news_16efa3ec46ab",
         "news_01242cd7a951",
         "news_761539e682e3",
-        "news_32c3f9d19c78"
+        "news_32c3f9d19c78",
+        "news_c5710db2dfdf",
+        "news_234bf26c601c",
+        "news_f90f40c2c188"
       ],
       "status": "developing",
-      "summary": "张忆东预计港股10月先抑后扬，大概率反弹，建议把握两条主线。",
-      "latestProgress": "张忆东最新观点：港股10月反弹概率大，操作上先抑后扬。"
+      "summary": "中船防务涨超4%，新造船价格上涨，机构看好三季度船企业绩。",
+      "latestProgress": "新造船价格保持上涨趋势，机构看好三季度船企业绩增长。"
     },
     {
       "eventId": "event_2cf716748ce1",
       "clusterVersion": 2,
-      "title": "当央行学会倾听市场：2026年诺贝尔经济学奖重新定义宏观稳定的秘密",
+      "title": "波兰央行维持基准利率不变，继续按兵不动",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-12T21:20:22.089Z",
-      "latestItemPublishedAt": "2026-10-12T17:19:12.000Z",
-      "primaryItemId": "news_3672688b9e75",
+      "lastSeenAt": "2026-10-13T07:12:40.810Z",
+      "latestItemPublishedAt": "2026-10-09T14:13:03.000Z",
+      "primaryItemId": "news_7173a9e7e57a",
       "evidenceItemIds": [
         "news_5de8a00d999f",
         "news_90f768d7e736",
@@ -236,7 +244,10 @@
         "news_3672688b9e75",
         "news_3cfce6290810",
         "news_4295be216da3",
-        "news_97b37b21f151"
+        "news_97b37b21f151",
+        "news_8d7ace2c3ba5",
+        "news_5bfe313c5b8d",
+        "news_91fa208f9ac0"
       ],
       "status": "developing",
       "summary": "波兰央行维持基准利率不变，继续按兵不动。",
@@ -247,7 +258,7 @@
       "clusterVersion": 2,
       "title": "大摩Wilson：债市已在替美联储“加息”，美股反弹还看两大信号",
       "firstSeenAt": "2026-10-08T06:40:59.994Z",
-      "lastSeenAt": "2026-10-12T21:20:22.089Z",
+      "lastSeenAt": "2026-10-13T07:12:40.810Z",
       "latestItemPublishedAt": "2026-10-12T11:26:50.000Z",
       "primaryItemId": "news_07284c302f01",
       "evidenceItemIds": [
@@ -264,15 +275,15 @@
         "news_07284c302f01"
       ],
       "status": "developing",
-      "summary": "多条报道聚焦美联储加息预期与市场影响，同时电动自行车销售因3C证书暂停接近停滞。",
-      "latestProgress": "能源内参称3C证书大面积暂停，国内电动自行车销售接近停滞。"
+      "summary": "大摩Wilson称债市替美联储加息，美股反弹需看两大信号。",
+      "latestProgress": "大摩Wilson指出债市已替美联储加息，美股反弹需关注两大信号。"
     },
     {
       "eventId": "event_91792f8e1947",
       "clusterVersion": 2,
       "title": "歌尔股份：终止分拆所属子公司歌尔微电子至香港联交所主板上市。",
       "firstSeenAt": "2026-10-12T12:01:07.382Z",
-      "lastSeenAt": "2026-10-12T21:20:22.089Z",
+      "lastSeenAt": "2026-10-13T07:12:40.810Z",
       "latestItemPublishedAt": "2026-10-12T11:37:27.000Z",
       "primaryItemId": "news_17fcaf568f7e",
       "evidenceItemIds": [
@@ -280,15 +291,15 @@
         "news_8c8fe0c08a9a"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "歌尔股份终止分拆子公司歌尔微电子至香港联交所主板上市。",
+      "latestProgress": "歌尔股份宣布终止分拆歌尔微至香港联交所主板上市。"
     },
     {
       "eventId": "event_81075a47eb9e",
       "clusterVersion": 2,
       "title": "马斯克称只有三家公司拥有足够的编程训练数据",
       "firstSeenAt": "2026-10-12T12:01:07.382Z",
-      "lastSeenAt": "2026-10-12T21:20:22.089Z",
+      "lastSeenAt": "2026-10-13T07:12:40.810Z",
       "latestItemPublishedAt": "2026-10-12T11:42:05.000Z",
       "primaryItemId": "news_4e1d2c006c17",
       "evidenceItemIds": [
@@ -304,7 +315,7 @@
       "clusterVersion": 2,
       "title": "美股异动 | 美国临床阶段生物制药公司Retension Pharmaceuticals(RTSN.US)登陆美股市场 ",
       "firstSeenAt": "2026-10-09T18:28:14.001Z",
-      "lastSeenAt": "2026-10-12T21:20:22.089Z",
+      "lastSeenAt": "2026-10-13T07:12:40.810Z",
       "latestItemPublishedAt": "2026-10-12T12:52:22.000Z",
       "primaryItemId": "news_7056a8f754f8",
       "evidenceItemIds": [
@@ -321,7 +332,7 @@
       "clusterVersion": 2,
       "title": "吴清主席会见阿联酋穆巴达拉投资公司首席执行官兼董事总经理哈勒敦",
       "firstSeenAt": "2026-10-12T18:04:16.088Z",
-      "lastSeenAt": "2026-10-12T21:20:22.089Z",
+      "lastSeenAt": "2026-10-13T07:12:40.810Z",
       "latestItemPublishedAt": "2026-10-12T11:28:37.000Z",
       "primaryItemId": "news_0c68188ecbdf",
       "evidenceItemIds": [
@@ -335,21 +346,134 @@
     {
       "eventId": "event_b6b6148b7537",
       "clusterVersion": 2,
-      "title": "抵押贷款利率重返7%，美国成屋待售签约量跌至近十二年低点",
+      "title": "7.4%高利率“锁死”美国楼市：买家离场、卖家撤牌，横盘僵局何时破？",
       "firstSeenAt": "2026-10-09T06:44:52.975Z",
-      "lastSeenAt": "2026-10-12T21:20:22.089Z",
-      "latestItemPublishedAt": "2026-10-12T20:33:02.000Z",
-      "primaryItemId": "news_65a8e5727648",
+      "lastSeenAt": "2026-10-13T07:12:40.810Z",
+      "latestItemPublishedAt": "2026-10-13T05:37:58.000Z",
+      "primaryItemId": "news_d3daee9a7f63",
       "evidenceItemIds": [
         "news_2afa81af5999",
         "news_19b18a80c06c",
         "news_f4f1cf6080e5",
         "news_01a9492f3d52",
-        "news_65a8e5727648"
+        "news_65a8e5727648",
+        "news_d3daee9a7f63"
       ],
       "status": "developing",
       "summary": "美国市场叙事反转，从AI通缩论转向AI挤爆债市、长端利率失控。",
       "latestProgress": "报道指出贝森特难以控制长端利率，市场担忧AI引发债市风险。"
+    },
+    {
+      "eventId": "event_ad5f762f53c9",
+      "clusterVersion": 2,
+      "title": "落实中美经贸磋商成果 VISA获筹银行卡清算机构",
+      "firstSeenAt": "2026-10-13T07:12:40.810Z",
+      "lastSeenAt": "2026-10-13T07:12:40.810Z",
+      "latestItemPublishedAt": "2026-10-13T06:09:43.000Z",
+      "primaryItemId": "news_ea3455173294",
+      "evidenceItemIds": [
+        "news_ea3455173294",
+        "news_1f35d37ba3bb"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_d349cb1869f0",
+      "clusterVersion": 2,
+      "title": "【市场动态】比亚迪加码欧洲招聘 拟将当地员工人数增至4万",
+      "firstSeenAt": "2026-10-13T07:12:40.810Z",
+      "lastSeenAt": "2026-10-13T07:12:40.810Z",
+      "latestItemPublishedAt": "2026-10-13T00:49:24.000Z",
+      "primaryItemId": "news_1f665a19c4c1",
+      "evidenceItemIds": [
+        "news_1f665a19c4c1",
+        "news_b9c5f867322a"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_ebc189bef9fe",
+      "clusterVersion": 2,
+      "title": "巴菲特看了会摇头！华尔街出现对赌ETF：标普500指数何时上万点",
+      "firstSeenAt": "2026-10-13T07:12:40.810Z",
+      "lastSeenAt": "2026-10-13T07:12:40.810Z",
+      "latestItemPublishedAt": "2026-10-12T23:35:06.000Z",
+      "primaryItemId": "news_fe7f686b4c32",
+      "evidenceItemIds": [
+        "news_fe7f686b4c32",
+        "news_13fef49e350b"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_9320a1a037ff",
+      "clusterVersion": 2,
+      "title": "市场监管总局：经营者集中简易案件平均审查时间从39.9天缩至18.6天",
+      "firstSeenAt": "2026-10-13T07:12:40.810Z",
+      "lastSeenAt": "2026-10-13T07:12:40.810Z",
+      "latestItemPublishedAt": "2026-10-13T06:24:05.000Z",
+      "primaryItemId": "news_c72888513c4b",
+      "evidenceItemIds": [
+        "news_c72888513c4b",
+        "news_56842541adec"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_ddcdeab2efa2",
+      "clusterVersion": 2,
+      "title": "新能源汽车出口优惠收紧 增值税退税率降至9%",
+      "firstSeenAt": "2026-10-13T07:12:40.810Z",
+      "lastSeenAt": "2026-10-13T07:12:40.810Z",
+      "latestItemPublishedAt": "2026-10-12T13:37:18.000Z",
+      "primaryItemId": "news_174d45c5c537",
+      "evidenceItemIds": [
+        "news_174d45c5c537",
+        "news_f50f53dd230d"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_875891609a81",
+      "clusterVersion": 2,
+      "title": "国产芯组团亮相工博会，上海启动新一代智能制造行动",
+      "firstSeenAt": "2026-10-13T07:12:40.810Z",
+      "lastSeenAt": "2026-10-13T07:12:40.810Z",
+      "latestItemPublishedAt": "2026-10-12T13:34:29.000Z",
+      "primaryItemId": "news_b8fb099fc29a",
+      "evidenceItemIds": [
+        "news_b8fb099fc29a",
+        "news_20df40093fda"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_aeea2b7bedcf",
+      "clusterVersion": 2,
+      "title": "创新宏观经济模型 美国两位经济学家分享2026年诺贝尔经济学奖",
+      "firstSeenAt": "2026-10-13T07:12:40.810Z",
+      "lastSeenAt": "2026-10-13T07:12:40.810Z",
+      "latestItemPublishedAt": "2026-10-12T13:19:05.000Z",
+      "primaryItemId": "news_1bda99e162c8",
+      "evidenceItemIds": [
+        "news_1bda99e162c8",
+        "news_e42664d2d034"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
     },
     {
       "eventId": "event_525fb603dac8",

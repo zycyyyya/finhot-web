@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-13T16:11:55.093Z",
+  "generatedAt": "2026-10-13T19:23:35.788Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -9,7 +9,7 @@
       "clusterVersion": 2,
       "title": "追高科技后低位砍仓，谁是A股近期主力卖盘",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-13T16:11:55.093Z",
+      "lastSeenAt": "2026-10-13T19:23:35.788Z",
       "latestItemPublishedAt": "2026-10-13T13:39:40.000Z",
       "primaryItemId": "news_8d403d8880be",
       "evidenceItemIds": [
@@ -71,13 +71,12 @@
     {
       "eventId": "event_f101880ef7bc",
       "clusterVersion": 2,
-      "title": "四年上涨131%，美股牛市时候结束了吗？",
+      "title": "美股异动 | 银行股涨跌不一 富国银行(WFC.US)跌近3% 高盛(GS.US)涨超1%",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-13T16:11:55.093Z",
+      "lastSeenAt": "2026-10-13T19:23:35.788Z",
       "latestItemPublishedAt": "2026-10-13T15:52:58.000Z",
-      "primaryItemId": "news_c41fcd28d36a",
+      "primaryItemId": "news_fe2b455a3e88",
       "evidenceItemIds": [
-        "news_46dc867fab44",
         "news_da8b0e170808",
         "news_7c7d85230866",
         "news_105fd8caf106",
@@ -126,7 +125,8 @@
         "news_f379d3ac047b",
         "news_461da70259bf",
         "news_1caf39f4b085",
-        "news_31e49ae39353"
+        "news_31e49ae39353",
+        "news_fe2b455a3e88"
       ],
       "status": "developing",
       "summary": "博通、英特尔CEO警示资金成AI扩张瓶颈，美股半导体股应声下跌。",
@@ -135,11 +135,11 @@
     {
       "eventId": "event_c68d651d4ff9",
       "clusterVersion": 2,
-      "title": "港股异动 | 中船防务(00317)涨超4% 新造船价格保持上涨趋势 机构看好三季度船企业绩增长",
+      "title": "港股异动 | 中远海能(01138)午后涨超6% 霍尔木兹暗航打通 VLCC运价再度跳涨创新高",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-10-13T16:11:55.093Z",
+      "lastSeenAt": "2026-10-13T19:23:35.788Z",
       "latestItemPublishedAt": "2026-10-13T12:55:13.000Z",
-      "primaryItemId": "news_c5710db2dfdf",
+      "primaryItemId": "news_234bf26c601c",
       "evidenceItemIds": [
         "news_1e86edf3aa02",
         "news_d59f7b7114ad",
@@ -201,7 +201,7 @@
       "clusterVersion": 2,
       "title": "央行重视人民币汇率波动节奏，美金融条件偏松但依赖AI盈利，超强厄尔尼诺影响农业金属电力---1013宏观脱水",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-13T16:11:55.093Z",
+      "lastSeenAt": "2026-10-13T19:23:35.788Z",
       "latestItemPublishedAt": "2026-10-13T14:18:31.000Z",
       "primaryItemId": "news_3a5d15a951e6",
       "evidenceItemIds": [
@@ -261,7 +261,7 @@
       "clusterVersion": 2,
       "title": "吴清主席会见阿联酋穆巴达拉投资公司首席执行官兼董事总经理哈勒敦",
       "firstSeenAt": "2026-10-12T18:04:16.088Z",
-      "lastSeenAt": "2026-10-13T16:11:55.093Z",
+      "lastSeenAt": "2026-10-13T19:23:35.788Z",
       "latestItemPublishedAt": "2026-10-12T11:28:37.000Z",
       "primaryItemId": "news_0c68188ecbdf",
       "evidenceItemIds": [
@@ -277,7 +277,7 @@
       "clusterVersion": 2,
       "title": "美国9月通胀虚火与核心降温：10月加息暂停，美债利率能否阶段性见顶？",
       "firstSeenAt": "2026-10-09T06:44:52.975Z",
-      "lastSeenAt": "2026-10-13T16:11:55.093Z",
+      "lastSeenAt": "2026-10-13T19:23:35.788Z",
       "latestItemPublishedAt": "2026-10-13T15:55:58.000Z",
       "primaryItemId": "news_64cb31499291",
       "evidenceItemIds": [
@@ -297,27 +297,11 @@
       "latestProgress": "报道指出贝森特难以控制长端利率，市场担忧AI引发债市风险。"
     },
     {
-      "eventId": "event_9320a1a037ff",
-      "clusterVersion": 2,
-      "title": "市场监管总局：经营者集中简易案件平均审查时间从39.9天缩至18.6天",
-      "firstSeenAt": "2026-10-13T07:12:40.810Z",
-      "lastSeenAt": "2026-10-13T16:11:55.093Z",
-      "latestItemPublishedAt": "2026-10-13T06:24:05.000Z",
-      "primaryItemId": "news_c72888513c4b",
-      "evidenceItemIds": [
-        "news_c72888513c4b",
-        "news_56842541adec"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
       "eventId": "event_88d9095dd622",
       "clusterVersion": 2,
       "title": "中钨高新：预计2026年前三季度净利润同比增长219% -241%",
       "firstSeenAt": "2026-10-13T11:49:47.364Z",
-      "lastSeenAt": "2026-10-13T16:11:55.093Z",
+      "lastSeenAt": "2026-10-13T19:23:35.788Z",
       "latestItemPublishedAt": "2026-10-13T11:53:31.000Z",
       "primaryItemId": "news_d4cad0ecc4c2",
       "evidenceItemIds": [
@@ -334,7 +318,7 @@
       "clusterVersion": 2,
       "title": "报道：日本央行拟在10月“按兵不动”，12月加息仍在考虑之中",
       "firstSeenAt": "2026-10-13T11:49:47.364Z",
-      "lastSeenAt": "2026-10-13T16:11:55.093Z",
+      "lastSeenAt": "2026-10-13T19:23:35.788Z",
       "latestItemPublishedAt": "2026-10-13T10:24:12.000Z",
       "primaryItemId": "news_3db4dbd4e7a1",
       "evidenceItemIds": [
@@ -348,11 +332,11 @@
     {
       "eventId": "event_6ab2a13609c6",
       "clusterVersion": 2,
-      "title": "大摩Wilson：债市已在替美联储“加息”，美股反弹还看两大信号",
+      "title": "美联储三把手威廉姆斯：现在看来，美联储无需在2027年加息",
       "firstSeenAt": "2026-10-08T06:40:59.994Z",
-      "lastSeenAt": "2026-10-13T16:11:55.093Z",
-      "latestItemPublishedAt": "2026-10-13T12:13:49.000Z",
-      "primaryItemId": "news_07284c302f01",
+      "lastSeenAt": "2026-10-13T19:23:35.788Z",
+      "latestItemPublishedAt": "2026-10-13T18:06:35.000Z",
+      "primaryItemId": "news_63872f64fc9d",
       "evidenceItemIds": [
         "news_1d0c31b07d1b",
         "news_ecab20992500",
@@ -365,7 +349,8 @@
         "news_d2cfa2203826",
         "news_69f7d4ba364f",
         "news_07284c302f01",
-        "news_7694cbef03d0"
+        "news_7694cbef03d0",
+        "news_63872f64fc9d"
       ],
       "status": "developing",
       "summary": "大摩Wilson称债市替美联储加息，美股反弹需看两大信号。",
@@ -376,7 +361,7 @@
       "clusterVersion": 2,
       "title": "苹果推出智能家居中枢HomeView，售价299美元",
       "firstSeenAt": "2026-10-13T16:11:55.093Z",
-      "lastSeenAt": "2026-10-13T16:11:55.093Z",
+      "lastSeenAt": "2026-10-13T19:23:35.788Z",
       "latestItemPublishedAt": "2026-10-13T13:00:18.000Z",
       "primaryItemId": "news_8dc6c4edfa3f",
       "evidenceItemIds": [
@@ -392,7 +377,7 @@
       "clusterVersion": 2,
       "title": "港股IPO新动向！香港证监会重拳出击3个IPO操纵案，修改上市规则强化监管",
       "firstSeenAt": "2026-10-13T16:11:55.093Z",
-      "lastSeenAt": "2026-10-13T16:11:55.093Z",
+      "lastSeenAt": "2026-10-13T19:23:35.788Z",
       "latestItemPublishedAt": "2026-10-13T15:06:23.000Z",
       "primaryItemId": "news_43903225eac9",
       "evidenceItemIds": [
@@ -408,12 +393,28 @@
       "clusterVersion": 2,
       "title": "罗马尼亚9月通胀率升至6.6%，燃料成本为主要推手",
       "firstSeenAt": "2026-10-13T16:11:55.093Z",
-      "lastSeenAt": "2026-10-13T16:11:55.093Z",
+      "lastSeenAt": "2026-10-13T19:23:35.788Z",
       "latestItemPublishedAt": "2026-10-13T11:38:14.000Z",
       "primaryItemId": "news_7c8bc9a97859",
       "evidenceItemIds": [
         "news_7c8bc9a97859",
         "news_d8498ffc6b5b"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_9320a1a037ff",
+      "clusterVersion": 2,
+      "title": "市场监管总局：经营者集中简易案件平均审查时间从39.9天缩至18.6天",
+      "firstSeenAt": "2026-10-13T07:12:40.810Z",
+      "lastSeenAt": "2026-10-13T16:11:55.093Z",
+      "latestItemPublishedAt": "2026-10-13T06:24:05.000Z",
+      "primaryItemId": "news_c72888513c4b",
+      "evidenceItemIds": [
+        "news_c72888513c4b",
+        "news_56842541adec"
       ],
       "status": "developing",
       "summary": "",

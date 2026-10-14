@@ -1,19 +1,18 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-14T13:57:07.940Z",
+  "generatedAt": "2026-10-14T17:25:56.699Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
       "eventId": "event_a3c5d0364922",
       "clusterVersion": 2,
-      "title": "追高科技后低位砍仓，谁是A股近期主力卖盘",
+      "title": "A股缩量走低 谁在减仓？",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-14T13:57:07.940Z",
+      "lastSeenAt": "2026-10-14T17:25:56.699Z",
       "latestItemPublishedAt": "2026-10-14T12:54:50.000Z",
-      "primaryItemId": "news_8d403d8880be",
+      "primaryItemId": "news_e0c67768f1a8",
       "evidenceItemIds": [
-        "news_06fa44416513",
         "news_521c4cce405f",
         "news_88a9dd182dd9",
         "news_f3c7a8eb5d37",
@@ -62,7 +61,8 @@
         "news_6eabdd2e0374",
         "news_e9c94f968475",
         "news_cbf963d19f7f",
-        "news_e0c67768f1a8"
+        "news_e0c67768f1a8",
+        "news_3b781ae6d25d"
       ],
       "status": "developing",
       "summary": "沃华医药披露A股首份三季报，单季净利环比转跌，年内分红超前三季净利。",
@@ -71,14 +71,12 @@
     {
       "eventId": "event_f101880ef7bc",
       "clusterVersion": 2,
-      "title": "科技股暴跌之际，高盛出了一份美股看多报告，但读完后人们更担心了……",
+      "title": "内存崩溃，高盛：谁高位接盘了美股科技？",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-14T13:57:07.940Z",
-      "latestItemPublishedAt": "2026-10-14T12:10:13.000Z",
-      "primaryItemId": "news_abcd0f3c1c67",
+      "lastSeenAt": "2026-10-14T17:25:56.699Z",
+      "latestItemPublishedAt": "2026-10-14T16:43:10.000Z",
+      "primaryItemId": "news_9e9ede62dfb6",
       "evidenceItemIds": [
-        "news_6edfe4751ab8",
-        "news_12894a198cdd",
         "news_e3e94b1c4834",
         "news_103f6c78f97b",
         "news_73a1f88dc387",
@@ -126,7 +124,9 @@
         "news_adbc2e989a00",
         "news_9e9ede62dfb6",
         "news_d23d92ef6496",
-        "news_a47fbb4e17e6"
+        "news_a47fbb4e17e6",
+        "news_b634738e878f",
+        "news_4ec31171e1ec"
       ],
       "status": "developing",
       "summary": "博通、英特尔CEO警示资金成AI扩张瓶颈，美股半导体股应声下跌。",
@@ -137,11 +137,10 @@
       "clusterVersion": 2,
       "title": "从拨康视云到茶百道：港股 IPO“包盘”盛宴与崩塌",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-10-14T13:57:07.940Z",
+      "lastSeenAt": "2026-10-14T17:25:56.699Z",
       "latestItemPublishedAt": "2026-10-14T13:21:15.000Z",
       "primaryItemId": "news_c90a6c182ac2",
       "evidenceItemIds": [
-        "news_f6e8868eb159",
         "news_9efc31ad2c41",
         "news_db607a9c3eea",
         "news_1073e72a1f77",
@@ -190,7 +189,8 @@
         "news_e9ccbd44c4be",
         "news_dce723bb4363",
         "news_bdd301427e86",
-        "news_c90a6c182ac2"
+        "news_c90a6c182ac2",
+        "news_2d4304838bb9"
       ],
       "status": "developing",
       "summary": "港股恒指早盘涨0.16%，小米领涨蓝筹，但机构忧四季度逆风增多。",
@@ -201,8 +201,8 @@
       "clusterVersion": 2,
       "title": "AI热+通胀高 韩国央行行长申铉松谈如何应对K型经济",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-14T13:57:07.940Z",
-      "latestItemPublishedAt": "2026-10-14T08:17:36.000Z",
+      "lastSeenAt": "2026-10-14T17:25:56.699Z",
+      "latestItemPublishedAt": "2026-10-14T13:33:03.000Z",
       "primaryItemId": "news_3a6a513cfe80",
       "evidenceItemIds": [
         "news_5de8a00d999f",
@@ -253,7 +253,8 @@
         "news_3a5d15a951e6",
         "news_3a6a513cfe80",
         "news_b0c43c59654b",
-        "news_1ac578b8792b"
+        "news_1ac578b8792b",
+        "news_be20915b924e"
       ],
       "status": "developing",
       "summary": "多国央行应对汇率与通胀，人民币波动受重视，美金融偏松依赖AI，厄尔尼诺冲击多行业。",
@@ -264,7 +265,7 @@
       "clusterVersion": 2,
       "title": "吴清主席会见阿联酋穆巴达拉投资公司首席执行官兼董事总经理哈勒敦",
       "firstSeenAt": "2026-10-12T18:04:16.088Z",
-      "lastSeenAt": "2026-10-14T13:57:07.940Z",
+      "lastSeenAt": "2026-10-14T17:25:56.699Z",
       "latestItemPublishedAt": "2026-10-12T11:28:37.000Z",
       "primaryItemId": "news_0c68188ecbdf",
       "evidenceItemIds": [
@@ -280,7 +281,7 @@
       "clusterVersion": 2,
       "title": "五个月来最大涨幅！美国9月CPI同比3.7%，核心CPI同比2.6%超预期，10月加息预期飙升",
       "firstSeenAt": "2026-10-09T06:44:52.975Z",
-      "lastSeenAt": "2026-10-14T13:57:07.940Z",
+      "lastSeenAt": "2026-10-14T17:25:56.699Z",
       "latestItemPublishedAt": "2026-10-14T12:30:26.000Z",
       "primaryItemId": "news_7400298fb402",
       "evidenceItemIds": [
@@ -295,7 +296,8 @@
         "news_ccf84c91ea78",
         "news_30ba401b1148",
         "news_64fc0bb7c7d4",
-        "news_7400298fb402"
+        "news_7400298fb402",
+        "news_f3a02e71be47"
       ],
       "status": "developing",
       "summary": "美国市场叙事反转，从AI通缩论转向AI挤爆债市、长端利率失控。",
@@ -306,7 +308,7 @@
       "clusterVersion": 2,
       "title": "左手“印钱”，右手利率：美联储控制全球流动性的两只手【胡捷大师课3.1】",
       "firstSeenAt": "2026-10-08T06:40:59.994Z",
-      "lastSeenAt": "2026-10-14T13:57:07.940Z",
+      "lastSeenAt": "2026-10-14T17:25:56.699Z",
       "latestItemPublishedAt": "2026-10-14T12:36:09.000Z",
       "primaryItemId": "news_0954e7dd9e02",
       "evidenceItemIds": [
@@ -329,34 +331,20 @@
         "news_6ad35265a087",
         "news_0954e7dd9e02",
         "news_5810e3b62617",
-        "news_6e80459d1483"
+        "news_6e80459d1483",
+        "news_d5da4c726023",
+        "news_1815caf5f326"
       ],
       "status": "developing",
       "summary": "大摩Wilson称债市替美联储加息，美股反弹需看两大信号。",
       "latestProgress": "大摩Wilson指出债市已替美联储加息，美股反弹需关注两大信号。"
     },
     {
-      "eventId": "event_7162d12086dc",
-      "clusterVersion": 2,
-      "title": "港股IPO新动向！香港证监会重拳出击3个IPO操纵案，修改上市规则强化监管",
-      "firstSeenAt": "2026-10-13T16:11:55.093Z",
-      "lastSeenAt": "2026-10-14T13:57:07.940Z",
-      "latestItemPublishedAt": "2026-10-13T15:06:23.000Z",
-      "primaryItemId": "news_43903225eac9",
-      "evidenceItemIds": [
-        "news_43903225eac9",
-        "news_dbe449a9939e"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
       "eventId": "event_baf35d87aac1",
       "clusterVersion": 2,
       "title": "罗马尼亚9月通胀率升至6.6%，燃料成本为主要推手",
       "firstSeenAt": "2026-10-13T16:11:55.093Z",
-      "lastSeenAt": "2026-10-14T13:57:07.940Z",
+      "lastSeenAt": "2026-10-14T17:25:56.699Z",
       "latestItemPublishedAt": "2026-10-13T11:38:14.000Z",
       "primaryItemId": "news_7c8bc9a97859",
       "evidenceItemIds": [
@@ -372,7 +360,7 @@
       "clusterVersion": 2,
       "title": "市场监管总局：深入推进饱和水蒸汽球罐风险隐患专项整治",
       "firstSeenAt": "2026-10-13T07:12:40.810Z",
-      "lastSeenAt": "2026-10-14T13:57:07.940Z",
+      "lastSeenAt": "2026-10-14T17:25:56.699Z",
       "latestItemPublishedAt": "2026-10-14T03:21:17.000Z",
       "primaryItemId": "news_7162ea6e9cf1",
       "evidenceItemIds": [
@@ -385,27 +373,11 @@
       "latestProgress": ""
     },
     {
-      "eventId": "event_1bd0c91e4a2b",
-      "clusterVersion": 2,
-      "title": "全球银行股“东升西落”的启示",
-      "firstSeenAt": "2026-10-14T05:21:21.512Z",
-      "lastSeenAt": "2026-10-14T13:57:07.940Z",
-      "latestItemPublishedAt": "2026-10-14T03:10:41.000Z",
-      "primaryItemId": "news_5f2e01c20b8b",
-      "evidenceItemIds": [
-        "news_5f2e01c20b8b",
-        "news_6f9f4f276dcc"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
       "eventId": "event_a02f231decd4",
       "clusterVersion": 2,
       "title": "国家统计局：9月份PPI同比上涨5.0% 环比上涨1.2%",
       "firstSeenAt": "2026-10-14T05:21:21.512Z",
-      "lastSeenAt": "2026-10-14T13:57:07.940Z",
+      "lastSeenAt": "2026-10-14T17:25:56.699Z",
       "latestItemPublishedAt": "2026-10-14T02:28:05.000Z",
       "primaryItemId": "news_b6347b2f2f3e",
       "evidenceItemIds": [
@@ -421,7 +393,7 @@
       "clusterVersion": 2,
       "title": "中信证券：金价底部或抬升，黄金板块有望先行",
       "firstSeenAt": "2026-10-11T10:54:46.778Z",
-      "lastSeenAt": "2026-10-14T13:57:07.940Z",
+      "lastSeenAt": "2026-10-14T17:25:56.699Z",
       "latestItemPublishedAt": "2026-10-14T06:43:45.000Z",
       "primaryItemId": "news_45217ce91219",
       "evidenceItemIds": [
@@ -440,7 +412,7 @@
       "clusterVersion": 2,
       "title": "卫星化学：预计2026年前三季度净利润同比增长132%-158%",
       "firstSeenAt": "2026-10-13T11:49:47.364Z",
-      "lastSeenAt": "2026-10-14T13:57:07.940Z",
+      "lastSeenAt": "2026-10-14T17:25:56.699Z",
       "latestItemPublishedAt": "2026-10-14T12:29:21.000Z",
       "primaryItemId": "news_a1d610943171",
       "evidenceItemIds": [
@@ -449,6 +421,54 @@
         "news_d4cad0ecc4c2",
         "news_a1d610943171",
         "news_c576dbb1e6c3"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_3de83a8b6b89",
+      "clusterVersion": 2,
+      "title": "国家统计局：9月份CPI、PPI同比涨幅均扩大",
+      "firstSeenAt": "2026-10-14T17:25:56.699Z",
+      "lastSeenAt": "2026-10-14T17:25:56.699Z",
+      "latestItemPublishedAt": "2026-10-14T02:27:37.000Z",
+      "primaryItemId": "news_2fdb1cbcd052",
+      "evidenceItemIds": [
+        "news_2fdb1cbcd052",
+        "news_d5099d6164f6"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_7162d12086dc",
+      "clusterVersion": 2,
+      "title": "港股IPO新动向！香港证监会重拳出击3个IPO操纵案，修改上市规则强化监管",
+      "firstSeenAt": "2026-10-13T16:11:55.093Z",
+      "lastSeenAt": "2026-10-14T13:57:07.940Z",
+      "latestItemPublishedAt": "2026-10-13T15:06:23.000Z",
+      "primaryItemId": "news_43903225eac9",
+      "evidenceItemIds": [
+        "news_43903225eac9",
+        "news_dbe449a9939e"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_1bd0c91e4a2b",
+      "clusterVersion": 2,
+      "title": "全球银行股“东升西落”的启示",
+      "firstSeenAt": "2026-10-14T05:21:21.512Z",
+      "lastSeenAt": "2026-10-14T13:57:07.940Z",
+      "latestItemPublishedAt": "2026-10-14T03:10:41.000Z",
+      "primaryItemId": "news_5f2e01c20b8b",
+      "evidenceItemIds": [
+        "news_5f2e01c20b8b",
+        "news_6f9f4f276dcc"
       ],
       "status": "developing",
       "summary": "",

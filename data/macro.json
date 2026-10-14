@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-10-14T09:35:47.621Z",
+  "updatedAt": "2026-10-14T13:57:07.940Z",
   "note": "auto 指标由 scripts/macro.js 每日自动刷新；manual 指标为人工核实值，核实日期见 asOf。",
   "indicators": [
     {
@@ -95,8 +95,8 @@
     {
       "key": "gold",
       "name": "现货黄金",
-      "value": "$4,144",
-      "numericValue": 4143.700195,
+      "value": "$4,095",
+      "numericValue": 4094.800049,
       "note": "较10月13日 $4,163 下降",
       "direction": "down",
       "asOf": "2026-10-14",

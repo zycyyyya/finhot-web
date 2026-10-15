@@ -1,21 +1,18 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-14T17:25:56.699Z",
+  "generatedAt": "2026-10-15T05:13:54.689Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
       "eventId": "event_a3c5d0364922",
       "clusterVersion": 2,
-      "title": "A股缩量走低 谁在减仓？",
+      "title": "A股三大指数集体低开",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-14T17:25:56.699Z",
-      "latestItemPublishedAt": "2026-10-14T12:54:50.000Z",
-      "primaryItemId": "news_e0c67768f1a8",
+      "lastSeenAt": "2026-10-15T05:13:54.689Z",
+      "latestItemPublishedAt": "2026-10-15T03:09:37.000Z",
+      "primaryItemId": "news_5b4f9e126cba",
       "evidenceItemIds": [
-        "news_521c4cce405f",
-        "news_88a9dd182dd9",
-        "news_f3c7a8eb5d37",
         "news_ab2f509e249b",
         "news_198de3964b7c",
         "news_32db98e8f039",
@@ -62,22 +59,24 @@
         "news_e9c94f968475",
         "news_cbf963d19f7f",
         "news_e0c67768f1a8",
-        "news_3b781ae6d25d"
+        "news_3b781ae6d25d",
+        "news_5b4f9e126cba",
+        "news_27ff5a8cdcf7",
+        "news_0cde50e751d4"
       ],
       "status": "developing",
-      "summary": "沃华医药披露A股首份三季报，单季净利环比转跌，年内分红超前三季净利。",
-      "latestProgress": "A股四大指数集体低开，光通信、传媒等板块调整。"
+      "summary": "A股集体低开，三季报预喜潮延续但缩量走低，科技板块调整。",
+      "latestProgress": "瑞银称A股科技板块拥挤度已释放，下行风险有限，AI基础设施板块普跌。"
     },
     {
       "eventId": "event_f101880ef7bc",
       "clusterVersion": 2,
-      "title": "内存崩溃，高盛：谁高位接盘了美股科技？",
+      "title": "【华尔街原声】传奇投资人琼斯：2027年美股将面临严峻挑战",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-14T17:25:56.699Z",
-      "latestItemPublishedAt": "2026-10-14T16:43:10.000Z",
-      "primaryItemId": "news_9e9ede62dfb6",
+      "lastSeenAt": "2026-10-15T05:13:54.689Z",
+      "latestItemPublishedAt": "2026-10-14T20:00:57.000Z",
+      "primaryItemId": "news_d12ffe1e0b92",
       "evidenceItemIds": [
-        "news_e3e94b1c4834",
         "news_103f6c78f97b",
         "news_73a1f88dc387",
         "news_55da0a4aa387",
@@ -126,7 +125,8 @@
         "news_d23d92ef6496",
         "news_a47fbb4e17e6",
         "news_b634738e878f",
-        "news_4ec31171e1ec"
+        "news_4ec31171e1ec",
+        "news_4da93be2b8d1"
       ],
       "status": "developing",
       "summary": "博通、英特尔CEO警示资金成AI扩张瓶颈，美股半导体股应声下跌。",
@@ -135,11 +135,11 @@
     {
       "eventId": "event_c68d651d4ff9",
       "clusterVersion": 2,
-      "title": "从拨康视云到茶百道：港股 IPO“包盘”盛宴与崩塌",
+      "title": "港股午评|恒生指数早盘涨0.16%     小米领涨恒生蓝筹股",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-10-14T17:25:56.699Z",
-      "latestItemPublishedAt": "2026-10-14T13:21:15.000Z",
-      "primaryItemId": "news_c90a6c182ac2",
+      "lastSeenAt": "2026-10-15T05:13:54.689Z",
+      "latestItemPublishedAt": "2026-10-14T04:35:07.000Z",
+      "primaryItemId": "news_babd371f9e64",
       "evidenceItemIds": [
         "news_9efc31ad2c41",
         "news_db607a9c3eea",
@@ -199,13 +199,12 @@
     {
       "eventId": "event_2cf716748ce1",
       "clusterVersion": 2,
-      "title": "AI热+通胀高 韩国央行行长申铉松谈如何应对K型经济",
+      "title": "央行发文之后人民币是否加速升值",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-14T17:25:56.699Z",
-      "latestItemPublishedAt": "2026-10-14T13:33:03.000Z",
-      "primaryItemId": "news_3a6a513cfe80",
+      "lastSeenAt": "2026-10-15T05:13:54.689Z",
+      "latestItemPublishedAt": "2026-10-15T02:57:48.000Z",
+      "primaryItemId": "news_1ac578b8792b",
       "evidenceItemIds": [
-        "news_5de8a00d999f",
         "news_90f768d7e736",
         "news_bdce82dbe6c8",
         "news_9a0bf58b7497",
@@ -254,18 +253,19 @@
         "news_3a6a513cfe80",
         "news_b0c43c59654b",
         "news_1ac578b8792b",
-        "news_be20915b924e"
+        "news_be20915b924e",
+        "news_38fc8af548e4"
       ],
       "status": "developing",
-      "summary": "多国央行应对汇率与通胀，人民币波动受重视，美金融偏松依赖AI，厄尔尼诺冲击多行业。",
-      "latestProgress": "韩国央行讨论AI热与通胀下的K型经济，印度外储骤降救卢比，远期美元负债风险升高。"
+      "summary": "央行开展7000亿元逆回购，潘功胜出席国际央行行长会，人民币升值节奏待观察。",
+      "latestProgress": "潘功胜出席中国与海合会央行行长会，或就人民币汇率政策与各方沟通。"
     },
     {
       "eventId": "event_0e47dee32e28",
       "clusterVersion": 2,
       "title": "吴清主席会见阿联酋穆巴达拉投资公司首席执行官兼董事总经理哈勒敦",
       "firstSeenAt": "2026-10-12T18:04:16.088Z",
-      "lastSeenAt": "2026-10-14T17:25:56.699Z",
+      "lastSeenAt": "2026-10-15T05:13:54.689Z",
       "latestItemPublishedAt": "2026-10-12T11:28:37.000Z",
       "primaryItemId": "news_0c68188ecbdf",
       "evidenceItemIds": [
@@ -273,17 +273,17 @@
         "news_001850cf293f"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "吴清主席会见阿联酋穆巴达拉投资公司CEO兼董事总经理哈勒敦。",
+      "latestProgress": "双方就金融合作等议题进行交流，具体内容待后续披露。"
     },
     {
       "eventId": "event_b6b6148b7537",
       "clusterVersion": 2,
-      "title": "五个月来最大涨幅！美国9月CPI同比3.7%，核心CPI同比2.6%超预期，10月加息预期飙升",
+      "title": "美国房贷利率高企或持续至2027年！房利美大幅上调预测 明年30年期房贷利率料达7.5%",
       "firstSeenAt": "2026-10-09T06:44:52.975Z",
-      "lastSeenAt": "2026-10-14T17:25:56.699Z",
-      "latestItemPublishedAt": "2026-10-14T12:30:26.000Z",
-      "primaryItemId": "news_7400298fb402",
+      "lastSeenAt": "2026-10-15T05:13:54.689Z",
+      "latestItemPublishedAt": "2026-10-14T16:35:06.000Z",
+      "primaryItemId": "news_f3a02e71be47",
       "evidenceItemIds": [
         "news_2afa81af5999",
         "news_19b18a80c06c",
@@ -297,20 +297,21 @@
         "news_30ba401b1148",
         "news_64fc0bb7c7d4",
         "news_7400298fb402",
-        "news_f3a02e71be47"
+        "news_f3a02e71be47",
+        "news_842de397bac9"
       ],
       "status": "developing",
-      "summary": "美国市场叙事反转，从AI通缩论转向AI挤爆债市、长端利率失控。",
-      "latestProgress": "报道指出贝森特难以控制长端利率，市场担忧AI引发债市风险。"
+      "summary": "房利美上调预测，美国房贷利率高企或持续至2027年，明年30年期料达7.5%。",
+      "latestProgress": "中金称通胀反弹支持加息，但下次加息未必发生在10月。"
     },
     {
       "eventId": "event_6ab2a13609c6",
       "clusterVersion": 2,
-      "title": "左手“印钱”，右手利率：美联储控制全球流动性的两只手【胡捷大师课3.1】",
+      "title": "美联储今年票委哈玛克：抗通胀需更快、更频繁小幅调整利率，警惕通胀预期固化",
       "firstSeenAt": "2026-10-08T06:40:59.994Z",
-      "lastSeenAt": "2026-10-14T17:25:56.699Z",
+      "lastSeenAt": "2026-10-15T05:13:54.689Z",
       "latestItemPublishedAt": "2026-10-14T12:36:09.000Z",
-      "primaryItemId": "news_0954e7dd9e02",
+      "primaryItemId": "news_6e80459d1483",
       "evidenceItemIds": [
         "news_1d0c31b07d1b",
         "news_ecab20992500",
@@ -333,11 +334,96 @@
         "news_5810e3b62617",
         "news_6e80459d1483",
         "news_d5da4c726023",
-        "news_1815caf5f326"
+        "news_1815caf5f326",
+        "news_11aa474b2065"
       ],
       "status": "developing",
       "summary": "大摩Wilson称债市替美联储加息，美股反弹需看两大信号。",
       "latestProgress": "大摩Wilson指出债市已替美联储加息，美股反弹需关注两大信号。"
+    },
+    {
+      "eventId": "event_a02f231decd4",
+      "clusterVersion": 2,
+      "title": "国家统计局：9月份PPI同比上涨5.0% 环比上涨1.2%",
+      "firstSeenAt": "2026-10-14T05:21:21.512Z",
+      "lastSeenAt": "2026-10-15T05:13:54.689Z",
+      "latestItemPublishedAt": "2026-10-14T02:28:05.000Z",
+      "primaryItemId": "news_b6347b2f2f3e",
+      "evidenceItemIds": [
+        "news_b6347b2f2f3e",
+        "news_203215567ca0",
+        "news_2fdb1cbcd052"
+      ],
+      "status": "developing",
+      "summary": "9月PPI同比上涨5.0%，环比上涨1.2%。",
+      "latestProgress": "9月CPI、PPI同比涨幅均扩大。"
+    },
+    {
+      "eventId": "event_88d9095dd622",
+      "clusterVersion": 2,
+      "title": "卫星化学：预计2026年前三季度净利润同比增长132%-158%",
+      "firstSeenAt": "2026-10-13T11:49:47.364Z",
+      "lastSeenAt": "2026-10-15T05:13:54.689Z",
+      "latestItemPublishedAt": "2026-10-14T12:29:21.000Z",
+      "primaryItemId": "news_a1d610943171",
+      "evidenceItemIds": [
+        "news_d80215561f08",
+        "news_9c27ff2264cc",
+        "news_d4cad0ecc4c2",
+        "news_a1d610943171",
+        "news_c576dbb1e6c3"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_26b13028a55c",
+      "clusterVersion": 2,
+      "title": "【市场动态】美国芯片股跌势加剧 合计市值蒸发逾1万亿美元",
+      "firstSeenAt": "2026-10-15T05:13:54.689Z",
+      "lastSeenAt": "2026-10-15T05:13:54.689Z",
+      "latestItemPublishedAt": "2026-10-15T01:35:31.000Z",
+      "primaryItemId": "news_e33d8ca57f76",
+      "evidenceItemIds": [
+        "news_e33d8ca57f76",
+        "news_a47724be6f16"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_2f23e2da7bed",
+      "clusterVersion": 2,
+      "title": "9月份我国货物贸易进出口首破5万亿元 增长27.5%",
+      "firstSeenAt": "2026-10-15T05:13:54.689Z",
+      "lastSeenAt": "2026-10-15T05:13:54.689Z",
+      "latestItemPublishedAt": "2026-10-14T02:03:01.000Z",
+      "primaryItemId": "news_41d8367a5c34",
+      "evidenceItemIds": [
+        "news_41d8367a5c34",
+        "news_9a121f549096"
+      ],
+      "status": "developing",
+      "summary": "9月我国货物贸易进出口首破5万亿元，同比增长27.5%。",
+      "latestProgress": "9月进出口首破5万亿元，增长27.5%，创历史新高。"
+    },
+    {
+      "eventId": "event_12996853bb59",
+      "clusterVersion": 2,
+      "title": "名创优品(09896)10月14日斥资约21.43万美元回购约8.38万股",
+      "firstSeenAt": "2026-10-15T05:13:54.689Z",
+      "lastSeenAt": "2026-10-15T05:13:54.689Z",
+      "latestItemPublishedAt": "2026-10-15T04:35:06.000Z",
+      "primaryItemId": "news_ebf15ceccf50",
+      "evidenceItemIds": [
+        "news_ebf15ceccf50",
+        "news_1b621bb8747b"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
     },
     {
       "eventId": "event_baf35d87aac1",
@@ -373,22 +459,6 @@
       "latestProgress": ""
     },
     {
-      "eventId": "event_a02f231decd4",
-      "clusterVersion": 2,
-      "title": "国家统计局：9月份PPI同比上涨5.0% 环比上涨1.2%",
-      "firstSeenAt": "2026-10-14T05:21:21.512Z",
-      "lastSeenAt": "2026-10-14T17:25:56.699Z",
-      "latestItemPublishedAt": "2026-10-14T02:28:05.000Z",
-      "primaryItemId": "news_b6347b2f2f3e",
-      "evidenceItemIds": [
-        "news_b6347b2f2f3e",
-        "news_203215567ca0"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
       "eventId": "event_c1e929b1c17b",
       "clusterVersion": 2,
       "title": "中信证券：金价底部或抬升，黄金板块有望先行",
@@ -402,25 +472,6 @@
         "news_6580da63b57c",
         "news_cbabd866e774",
         "news_45217ce91219"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_88d9095dd622",
-      "clusterVersion": 2,
-      "title": "卫星化学：预计2026年前三季度净利润同比增长132%-158%",
-      "firstSeenAt": "2026-10-13T11:49:47.364Z",
-      "lastSeenAt": "2026-10-14T17:25:56.699Z",
-      "latestItemPublishedAt": "2026-10-14T12:29:21.000Z",
-      "primaryItemId": "news_a1d610943171",
-      "evidenceItemIds": [
-        "news_d80215561f08",
-        "news_9c27ff2264cc",
-        "news_d4cad0ecc4c2",
-        "news_a1d610943171",
-        "news_c576dbb1e6c3"
       ],
       "status": "developing",
       "summary": "",

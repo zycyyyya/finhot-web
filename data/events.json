@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-15T13:38:11.870Z",
+  "generatedAt": "2026-10-15T17:15:26.833Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -9,7 +9,7 @@
       "clusterVersion": 2,
       "title": "A股跌破3700点 科技股腰斩、翻倍基金收益全部转负",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-15T13:38:11.870Z",
+      "lastSeenAt": "2026-10-15T17:15:26.833Z",
       "latestItemPublishedAt": "2026-10-15T13:03:39.000Z",
       "primaryItemId": "news_56fdb6bfbec5",
       "evidenceItemIds": [
@@ -73,11 +73,10 @@
       "clusterVersion": 2,
       "title": "美银警告AI泡沫破裂信号：美股与美债收益率同步下跌",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-15T13:38:11.870Z",
-      "latestItemPublishedAt": "2026-10-15T08:53:27.000Z",
+      "lastSeenAt": "2026-10-15T17:15:26.833Z",
+      "latestItemPublishedAt": "2026-10-15T16:35:45.000Z",
       "primaryItemId": "news_7b5169649b3c",
       "evidenceItemIds": [
-        "news_73a1f88dc387",
         "news_55da0a4aa387",
         "news_33fdf43777c8",
         "news_e4a027f090b2",
@@ -126,7 +125,8 @@
         "news_b634738e878f",
         "news_4ec31171e1ec",
         "news_4da93be2b8d1",
-        "news_7b5169649b3c"
+        "news_7b5169649b3c",
+        "news_918cc843d495"
       ],
       "status": "developing",
       "summary": "博通、英特尔CEO警示资金成AI扩张瓶颈，美股半导体股应声下跌。",
@@ -137,7 +137,7 @@
       "clusterVersion": 2,
       "title": "从拨康视云到茶百道：港股 IPO“包盘”盛宴与崩塌",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-10-15T13:38:11.870Z",
+      "lastSeenAt": "2026-10-15T17:15:26.833Z",
       "latestItemPublishedAt": "2026-10-15T13:19:38.000Z",
       "primaryItemId": "news_c90a6c182ac2",
       "evidenceItemIds": [
@@ -201,7 +201,7 @@
       "clusterVersion": 2,
       "title": "全球央行持续买金！投资者预计金价将在两年内创下新高",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-15T13:38:11.870Z",
+      "lastSeenAt": "2026-10-15T17:15:26.833Z",
       "latestItemPublishedAt": "2026-10-15T11:25:04.000Z",
       "primaryItemId": "news_cfc332e9ddc9",
       "evidenceItemIds": [
@@ -265,8 +265,8 @@
       "clusterVersion": 2,
       "title": "美国9月通胀虚火与核心降温：10月加息暂停，美债利率能否阶段性见顶？",
       "firstSeenAt": "2026-10-09T06:44:52.975Z",
-      "lastSeenAt": "2026-10-15T13:38:11.870Z",
-      "latestItemPublishedAt": "2026-10-15T08:02:56.000Z",
+      "lastSeenAt": "2026-10-15T17:15:26.833Z",
+      "latestItemPublishedAt": "2026-10-15T16:02:13.000Z",
       "primaryItemId": "news_64cb31499291",
       "evidenceItemIds": [
         "news_2afa81af5999",
@@ -282,7 +282,8 @@
         "news_64fc0bb7c7d4",
         "news_7400298fb402",
         "news_f3a02e71be47",
-        "news_842de397bac9"
+        "news_842de397bac9",
+        "news_223f50cd0168"
       ],
       "status": "developing",
       "summary": "房利美上调预测，美国房贷利率高企或持续至2027年，明年30年期料达7.5%。",
@@ -291,11 +292,11 @@
     {
       "eventId": "event_6ab2a13609c6",
       "clusterVersion": 2,
-      "title": "最早说对9月加息的分析师：美联储10月按兵不动，12月或加息50基点",
+      "title": "盛松成：美联储利率路径仍有不确定性",
       "firstSeenAt": "2026-10-08T06:40:59.994Z",
-      "lastSeenAt": "2026-10-15T13:38:11.870Z",
-      "latestItemPublishedAt": "2026-10-15T03:18:45.000Z",
-      "primaryItemId": "news_11aa474b2065",
+      "lastSeenAt": "2026-10-15T17:15:26.833Z",
+      "latestItemPublishedAt": "2026-10-15T12:48:39.000Z",
+      "primaryItemId": "news_42397c0a4905",
       "evidenceItemIds": [
         "news_1d0c31b07d1b",
         "news_ecab20992500",
@@ -321,7 +322,8 @@
         "news_1815caf5f326",
         "news_11aa474b2065",
         "news_143d12c75cfd",
-        "news_42397c0a4905"
+        "news_42397c0a4905",
+        "news_066b46f49dad"
       ],
       "status": "developing",
       "summary": "大摩Wilson称债市替美联储加息，美股反弹需看两大信号。",
@@ -332,7 +334,7 @@
       "clusterVersion": 2,
       "title": "国家统计局：9月份PPI同比上涨5.0% 环比上涨1.2%",
       "firstSeenAt": "2026-10-14T05:21:21.512Z",
-      "lastSeenAt": "2026-10-15T13:38:11.870Z",
+      "lastSeenAt": "2026-10-15T17:15:26.833Z",
       "latestItemPublishedAt": "2026-10-14T02:28:05.000Z",
       "primaryItemId": "news_b6347b2f2f3e",
       "evidenceItemIds": [
@@ -343,6 +345,135 @@
       "status": "developing",
       "summary": "9月PPI同比上涨5.0%，环比上涨1.2%。",
       "latestProgress": "9月CPI、PPI同比涨幅均扩大。"
+    },
+    {
+      "eventId": "event_6c181cb4a375",
+      "clusterVersion": 2,
+      "title": "英国8月GDP增长0.1%，超出市场预期",
+      "firstSeenAt": "2026-10-15T09:09:25.906Z",
+      "lastSeenAt": "2026-10-15T17:15:26.833Z",
+      "latestItemPublishedAt": "2026-10-15T06:40:09.000Z",
+      "primaryItemId": "news_9af44bf9b863",
+      "evidenceItemIds": [
+        "news_9af44bf9b863",
+        "news_1e03655a7143"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_6522b142e2e4",
+      "clusterVersion": 2,
+      "title": "利弗莫尔中概股龙头指数开盘跌2%",
+      "firstSeenAt": "2026-10-15T13:38:11.870Z",
+      "lastSeenAt": "2026-10-15T17:15:26.833Z",
+      "latestItemPublishedAt": "2026-10-15T13:31:45.000Z",
+      "primaryItemId": "news_bef9bed3351a",
+      "evidenceItemIds": [
+        "news_bef9bed3351a",
+        "news_ebc1586a98b5"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_d64369ede7ea",
+      "clusterVersion": 2,
+      "title": "机构预测到2030年 超80%的新云服务商将出局",
+      "firstSeenAt": "2026-10-15T13:38:11.870Z",
+      "lastSeenAt": "2026-10-15T17:15:26.833Z",
+      "latestItemPublishedAt": "2026-10-15T13:00:11.000Z",
+      "primaryItemId": "news_b10baab196b0",
+      "evidenceItemIds": [
+        "news_b10baab196b0",
+        "news_b1ce321bdd8c"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_25527e9507c8",
+      "clusterVersion": 2,
+      "title": "楼市没爆，风险在银行：美国固定按揭的久期陷阱",
+      "firstSeenAt": "2026-10-15T13:38:11.870Z",
+      "lastSeenAt": "2026-10-15T17:15:26.833Z",
+      "latestItemPublishedAt": "2026-10-15T13:12:56.000Z",
+      "primaryItemId": "news_56a178b716de",
+      "evidenceItemIds": [
+        "news_56a178b716de",
+        "news_e059515b6797",
+        "news_7a168ee23914"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_82b1efd0cbe7",
+      "clusterVersion": 2,
+      "title": "【数据看盘】沪深300ETF易方达成交额激增超22倍，西大街席位1.54亿元抢筹华林证券",
+      "firstSeenAt": "2026-10-15T13:38:11.870Z",
+      "lastSeenAt": "2026-10-15T17:15:26.833Z",
+      "latestItemPublishedAt": "2026-10-15T09:53:14.000Z",
+      "primaryItemId": "news_d94cf69e71f8",
+      "evidenceItemIds": [
+        "news_d94cf69e71f8",
+        "news_3901ba19f63b"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_d090be5025bb",
+      "clusterVersion": 2,
+      "title": "报道：纽约市主计长敦促Anthropic暂停推进IPO",
+      "firstSeenAt": "2026-10-15T17:15:26.833Z",
+      "lastSeenAt": "2026-10-15T17:15:26.833Z",
+      "latestItemPublishedAt": "2026-10-15T12:13:07.000Z",
+      "primaryItemId": "news_e372b14cc544",
+      "evidenceItemIds": [
+        "news_e372b14cc544",
+        "news_2675270e781f"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_44e91ca84eaa",
+      "clusterVersion": 2,
+      "title": "中金黄金：预计前三季度归母净利润55.2亿元-58亿元，同比增长50.05%-57.66%",
+      "firstSeenAt": "2026-10-15T17:15:26.833Z",
+      "lastSeenAt": "2026-10-15T17:15:26.833Z",
+      "latestItemPublishedAt": "2026-10-15T09:05:54.000Z",
+      "primaryItemId": "news_6b343ab25d24",
+      "evidenceItemIds": [
+        "news_6b343ab25d24",
+        "news_f84fae9cb52f"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_e348373a0370",
+      "clusterVersion": 2,
+      "title": "LME金属期货收盘普跌",
+      "firstSeenAt": "2026-10-15T17:15:26.833Z",
+      "lastSeenAt": "2026-10-15T17:15:26.833Z",
+      "latestItemPublishedAt": "2026-10-15T16:57:30.000Z",
+      "primaryItemId": "news_26bd9a2ffcc0",
+      "evidenceItemIds": [
+        "news_26bd9a2ffcc0",
+        "news_0ab859f7b38d"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
     },
     {
       "eventId": "event_12996853bb59",
@@ -375,87 +506,6 @@
         "news_cbabd866e774",
         "news_45217ce91219",
         "news_9563103821ef"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_6c181cb4a375",
-      "clusterVersion": 2,
-      "title": "英国8月GDP增长0.1%，超出市场预期",
-      "firstSeenAt": "2026-10-15T09:09:25.906Z",
-      "lastSeenAt": "2026-10-15T13:38:11.870Z",
-      "latestItemPublishedAt": "2026-10-15T06:40:09.000Z",
-      "primaryItemId": "news_9af44bf9b863",
-      "evidenceItemIds": [
-        "news_9af44bf9b863",
-        "news_1e03655a7143"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_6522b142e2e4",
-      "clusterVersion": 2,
-      "title": "利弗莫尔中概股龙头指数开盘跌2%",
-      "firstSeenAt": "2026-10-15T13:38:11.870Z",
-      "lastSeenAt": "2026-10-15T13:38:11.870Z",
-      "latestItemPublishedAt": "2026-10-15T13:31:45.000Z",
-      "primaryItemId": "news_bef9bed3351a",
-      "evidenceItemIds": [
-        "news_bef9bed3351a",
-        "news_ebc1586a98b5"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_d64369ede7ea",
-      "clusterVersion": 2,
-      "title": "机构预测到2030年 超80%的新云服务商将出局",
-      "firstSeenAt": "2026-10-15T13:38:11.870Z",
-      "lastSeenAt": "2026-10-15T13:38:11.870Z",
-      "latestItemPublishedAt": "2026-10-15T13:00:11.000Z",
-      "primaryItemId": "news_b10baab196b0",
-      "evidenceItemIds": [
-        "news_b10baab196b0",
-        "news_b1ce321bdd8c"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_25527e9507c8",
-      "clusterVersion": 2,
-      "title": "楼市没爆，风险在银行：美国固定按揭的久期陷阱",
-      "firstSeenAt": "2026-10-15T13:38:11.870Z",
-      "lastSeenAt": "2026-10-15T13:38:11.870Z",
-      "latestItemPublishedAt": "2026-10-15T13:12:56.000Z",
-      "primaryItemId": "news_56a178b716de",
-      "evidenceItemIds": [
-        "news_56a178b716de",
-        "news_e059515b6797",
-        "news_7a168ee23914"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_82b1efd0cbe7",
-      "clusterVersion": 2,
-      "title": "【数据看盘】沪深300ETF易方达成交额激增超22倍，西大街席位1.54亿元抢筹华林证券",
-      "firstSeenAt": "2026-10-15T13:38:11.870Z",
-      "lastSeenAt": "2026-10-15T13:38:11.870Z",
-      "latestItemPublishedAt": "2026-10-15T09:53:14.000Z",
-      "primaryItemId": "news_d94cf69e71f8",
-      "evidenceItemIds": [
-        "news_d94cf69e71f8",
-        "news_3901ba19f63b"
       ],
       "status": "developing",
       "summary": "",

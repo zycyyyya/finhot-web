@@ -1,23 +1,18 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-15T17:15:26.833Z",
+  "generatedAt": "2026-10-16T05:04:10.403Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
       "eventId": "event_a3c5d0364922",
       "clusterVersion": 2,
-      "title": "A股跌破3700点 科技股腰斩、翻倍基金收益全部转负",
+      "title": "沪指3700点拉锯：外围因素冲击A股，宽基ETF逆势承接",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-15T17:15:26.833Z",
-      "latestItemPublishedAt": "2026-10-15T13:03:39.000Z",
-      "primaryItemId": "news_56fdb6bfbec5",
+      "lastSeenAt": "2026-10-16T05:04:10.403Z",
+      "latestItemPublishedAt": "2026-10-16T02:42:56.000Z",
+      "primaryItemId": "news_fd33c0671dab",
       "evidenceItemIds": [
-        "news_e93308d2b52c",
-        "news_d75b678e0f5e",
-        "news_a34eb7dab59a",
-        "news_9098c1e911fd",
-        "news_14228ec4ee11",
         "news_6b225c588500",
         "news_44cf3374398d",
         "news_af2bd677978f",
@@ -62,23 +57,26 @@
         "news_20293291bdeb",
         "news_56fdb6bfbec5",
         "news_e10469249c57",
-        "news_d8d5be05990f"
+        "news_d8d5be05990f",
+        "news_fd33c0671dab",
+        "news_099c1b1ccef3",
+        "news_02449ab3f99e",
+        "news_d959fbf0ba60",
+        "news_8f0afaa9b83c"
       ],
       "status": "developing",
-      "summary": "A股集体低开，三季报预喜潮延续但缩量走低，科技板块调整。",
-      "latestProgress": "瑞银称A股科技板块拥挤度已释放，下行风险有限，AI基础设施板块普跌。"
+      "summary": "沪指3700点拉锯，外围冲击下宽基ETF逆势承接，业绩预增与监管并存。",
+      "latestProgress": "10月16日A股集体高开，逾4900股上涨，券商指估值与盈利修复支撑。"
     },
     {
       "eventId": "event_f101880ef7bc",
       "clusterVersion": 2,
-      "title": "美银警告AI泡沫破裂信号：美股与美债收益率同步下跌",
+      "title": "财报季来袭！Citadel证券：未来数周是美股基本面真正的压力测试",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-15T17:15:26.833Z",
-      "latestItemPublishedAt": "2026-10-15T16:35:45.000Z",
-      "primaryItemId": "news_7b5169649b3c",
+      "lastSeenAt": "2026-10-16T05:04:10.403Z",
+      "latestItemPublishedAt": "2026-10-16T03:46:51.000Z",
+      "primaryItemId": "news_7a94c29aa9a2",
       "evidenceItemIds": [
-        "news_55da0a4aa387",
-        "news_33fdf43777c8",
         "news_e4a027f090b2",
         "news_c0a95965e33d",
         "news_b9db315a7395",
@@ -126,24 +124,23 @@
         "news_4ec31171e1ec",
         "news_4da93be2b8d1",
         "news_7b5169649b3c",
-        "news_918cc843d495"
+        "news_918cc843d495",
+        "news_7a94c29aa9a2",
+        "news_9c5314fd0ea4"
       ],
       "status": "developing",
-      "summary": "博通、英特尔CEO警示资金成AI扩张瓶颈，美股半导体股应声下跌。",
-      "latestProgress": "CEO警告引发关注，多只半导体股当日承压下行。"
+      "summary": "财报季来袭，Citadel证券称未来数周是美股基本面真正压力测试。",
+      "latestProgress": "Citadel证券预警，财报季将考验美股基本面，市场关注后续表现。"
     },
     {
       "eventId": "event_c68d651d4ff9",
       "clusterVersion": 2,
-      "title": "从拨康视云到茶百道：港股 IPO“包盘”盛宴与崩塌",
+      "title": "港股异动 | 赣锋锂业(01772)早盘跌超6% 前三季度纯利增长195倍 第三季纯利环比下滑68%",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-10-15T17:15:26.833Z",
-      "latestItemPublishedAt": "2026-10-15T13:19:38.000Z",
-      "primaryItemId": "news_c90a6c182ac2",
+      "lastSeenAt": "2026-10-16T05:04:10.403Z",
+      "latestItemPublishedAt": "2026-10-16T04:05:24.000Z",
+      "primaryItemId": "news_4f4bbb99dcaf",
       "evidenceItemIds": [
-        "news_e11038186574",
-        "news_43e41540c67e",
-        "news_848533d5bbc8",
         "news_2c4752b4f0ea",
         "news_d073bec14996",
         "news_9a91c69e9266",
@@ -190,22 +187,24 @@
         "news_2d4304838bb9",
         "news_f3c2854da432",
         "news_726f1425e78d",
-        "news_6cd07080a387"
+        "news_6cd07080a387",
+        "news_db8538a8597f",
+        "news_4f4bbb99dcaf",
+        "news_72a1665a05a8"
       ],
       "status": "developing",
-      "summary": "港股恒指早盘涨0.16%，小米领涨蓝筹，但机构忧四季度逆风增多。",
-      "latestProgress": "恒指早盘涨0.16%，小米领涨恒生蓝筹股。"
+      "summary": "赣锋锂业前三季纯利增195倍，但第三季环比下滑68%，早盘跌超6%。",
+      "latestProgress": "10月16日早盘，赣锋锂业跌超6%，市场关注其第三季度纯利环比大降。"
     },
     {
       "eventId": "event_2cf716748ce1",
       "clusterVersion": 2,
       "title": "全球央行持续买金！投资者预计金价将在两年内创下新高",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-15T17:15:26.833Z",
-      "latestItemPublishedAt": "2026-10-15T11:25:04.000Z",
+      "lastSeenAt": "2026-10-16T05:04:10.403Z",
+      "latestItemPublishedAt": "2026-10-16T02:16:13.000Z",
       "primaryItemId": "news_cfc332e9ddc9",
       "evidenceItemIds": [
-        "news_9a0bf58b7497",
         "news_79a109a7b441",
         "news_7cce498ba7b6",
         "news_570b6a39a4b5",
@@ -254,7 +253,8 @@
         "news_be20915b924e",
         "news_38fc8af548e4",
         "news_cfc332e9ddc9",
-        "news_bc6db1358a53"
+        "news_bc6db1358a53",
+        "news_9fbff9180326"
       ],
       "status": "developing",
       "summary": "央行开展7000亿元逆回购，潘功胜出席国际央行行长会，人民币升值节奏待观察。",
@@ -265,7 +265,7 @@
       "clusterVersion": 2,
       "title": "美国9月通胀虚火与核心降温：10月加息暂停，美债利率能否阶段性见顶？",
       "firstSeenAt": "2026-10-09T06:44:52.975Z",
-      "lastSeenAt": "2026-10-15T17:15:26.833Z",
+      "lastSeenAt": "2026-10-16T05:04:10.403Z",
       "latestItemPublishedAt": "2026-10-15T16:02:13.000Z",
       "primaryItemId": "news_64cb31499291",
       "evidenceItemIds": [
@@ -294,7 +294,7 @@
       "clusterVersion": 2,
       "title": "盛松成：美联储利率路径仍有不确定性",
       "firstSeenAt": "2026-10-08T06:40:59.994Z",
-      "lastSeenAt": "2026-10-15T17:15:26.833Z",
+      "lastSeenAt": "2026-10-16T05:04:10.403Z",
       "latestItemPublishedAt": "2026-10-15T12:48:39.000Z",
       "primaryItemId": "news_42397c0a4905",
       "evidenceItemIds": [
@@ -323,18 +323,19 @@
         "news_11aa474b2065",
         "news_143d12c75cfd",
         "news_42397c0a4905",
-        "news_066b46f49dad"
+        "news_066b46f49dad",
+        "news_0f29ce3b915c"
       ],
       "status": "developing",
-      "summary": "大摩Wilson称债市替美联储加息，美股反弹需看两大信号。",
-      "latestProgress": "大摩Wilson指出债市已替美联储加息，美股反弹需关注两大信号。"
+      "summary": "盛松成称美联储利率路径仍有不确定性，美国9月PPI超预期强化加息预期。",
+      "latestProgress": "瑞银预计美联储本轮将加息三次，下次行动在12月。"
     },
     {
       "eventId": "event_a02f231decd4",
       "clusterVersion": 2,
       "title": "国家统计局：9月份PPI同比上涨5.0% 环比上涨1.2%",
       "firstSeenAt": "2026-10-14T05:21:21.512Z",
-      "lastSeenAt": "2026-10-15T17:15:26.833Z",
+      "lastSeenAt": "2026-10-16T05:04:10.403Z",
       "latestItemPublishedAt": "2026-10-14T02:28:05.000Z",
       "primaryItemId": "news_b6347b2f2f3e",
       "evidenceItemIds": [
@@ -351,7 +352,7 @@
       "clusterVersion": 2,
       "title": "英国8月GDP增长0.1%，超出市场预期",
       "firstSeenAt": "2026-10-15T09:09:25.906Z",
-      "lastSeenAt": "2026-10-15T17:15:26.833Z",
+      "lastSeenAt": "2026-10-16T05:04:10.403Z",
       "latestItemPublishedAt": "2026-10-15T06:40:09.000Z",
       "primaryItemId": "news_9af44bf9b863",
       "evidenceItemIds": [
@@ -367,7 +368,7 @@
       "clusterVersion": 2,
       "title": "利弗莫尔中概股龙头指数开盘跌2%",
       "firstSeenAt": "2026-10-15T13:38:11.870Z",
-      "lastSeenAt": "2026-10-15T17:15:26.833Z",
+      "lastSeenAt": "2026-10-16T05:04:10.403Z",
       "latestItemPublishedAt": "2026-10-15T13:31:45.000Z",
       "primaryItemId": "news_bef9bed3351a",
       "evidenceItemIds": [
@@ -383,7 +384,7 @@
       "clusterVersion": 2,
       "title": "机构预测到2030年 超80%的新云服务商将出局",
       "firstSeenAt": "2026-10-15T13:38:11.870Z",
-      "lastSeenAt": "2026-10-15T17:15:26.833Z",
+      "lastSeenAt": "2026-10-16T05:04:10.403Z",
       "latestItemPublishedAt": "2026-10-15T13:00:11.000Z",
       "primaryItemId": "news_b10baab196b0",
       "evidenceItemIds": [
@@ -391,21 +392,165 @@
         "news_b1ce321bdd8c"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "机构预测新云服务商将大量出局",
+      "latestProgress": "到2030年超八成新云服务商将出局"
     },
     {
       "eventId": "event_25527e9507c8",
       "clusterVersion": 2,
-      "title": "楼市没爆，风险在银行：美国固定按揭的久期陷阱",
+      "title": "美国银行重启支付行业研究覆盖，看好FIS、Global Payments及Toast",
       "firstSeenAt": "2026-10-15T13:38:11.870Z",
-      "lastSeenAt": "2026-10-15T17:15:26.833Z",
+      "lastSeenAt": "2026-10-16T05:04:10.403Z",
       "latestItemPublishedAt": "2026-10-15T13:12:56.000Z",
-      "primaryItemId": "news_56a178b716de",
+      "primaryItemId": "news_7a168ee23914",
       "evidenceItemIds": [
         "news_56a178b716de",
         "news_e059515b6797",
         "news_7a168ee23914"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_d090be5025bb",
+      "clusterVersion": 2,
+      "title": "报道：纽约市主计长敦促Anthropic暂停推进IPO",
+      "firstSeenAt": "2026-10-15T17:15:26.833Z",
+      "lastSeenAt": "2026-10-16T05:04:10.403Z",
+      "latestItemPublishedAt": "2026-10-15T12:13:07.000Z",
+      "primaryItemId": "news_e372b14cc544",
+      "evidenceItemIds": [
+        "news_e372b14cc544",
+        "news_2675270e781f"
+      ],
+      "status": "developing",
+      "summary": "纽约市主计长敦促Anthropic暂停推进IPO。",
+      "latestProgress": "10月15日，主计长正式提出暂停IPO要求。"
+    },
+    {
+      "eventId": "event_e348373a0370",
+      "clusterVersion": 2,
+      "title": "LME金属期货收盘普跌",
+      "firstSeenAt": "2026-10-15T17:15:26.833Z",
+      "lastSeenAt": "2026-10-16T05:04:10.403Z",
+      "latestItemPublishedAt": "2026-10-15T16:57:30.000Z",
+      "primaryItemId": "news_26bd9a2ffcc0",
+      "evidenceItemIds": [
+        "news_26bd9a2ffcc0",
+        "news_0ab859f7b38d"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_10a16a51c5f7",
+      "clusterVersion": 2,
+      "title": "能源内参｜欧洲天然气价格升至近四年最高水平；9月出口增速冲至36.3% 对欧盟汽车或因“抢出口”加速",
+      "firstSeenAt": "2026-10-16T05:04:10.403Z",
+      "lastSeenAt": "2026-10-16T05:04:10.403Z",
+      "latestItemPublishedAt": "2026-10-16T02:49:15.000Z",
+      "primaryItemId": "news_a3a9d9fa20c6",
+      "evidenceItemIds": [
+        "news_a3a9d9fa20c6",
+        "news_a29be9d7d4e3"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_d9a24dd0e85e",
+      "clusterVersion": 2,
+      "title": "工信部等三部门联合调查有关车辆刹车踏板支架断裂问题",
+      "firstSeenAt": "2026-10-16T05:04:10.403Z",
+      "lastSeenAt": "2026-10-16T05:04:10.403Z",
+      "latestItemPublishedAt": "2026-10-16T02:04:34.000Z",
+      "primaryItemId": "news_66c17849715f",
+      "evidenceItemIds": [
+        "news_66c17849715f",
+        "news_aeae404df9e2"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_1144d3b4f66f",
+      "clusterVersion": 2,
+      "title": "危险的信号？CoreWeave三位创始人IPO后套现33亿美元",
+      "firstSeenAt": "2026-10-16T05:04:10.403Z",
+      "lastSeenAt": "2026-10-16T05:04:10.403Z",
+      "latestItemPublishedAt": "2026-10-16T03:42:03.000Z",
+      "primaryItemId": "news_f5d6c47fa12e",
+      "evidenceItemIds": [
+        "news_f5d6c47fa12e",
+        "news_99a94d7b19d1"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_79638e5a6f02",
+      "clusterVersion": 2,
+      "title": "美联储主席沃什：10月和12月议息会议至关重要，不会提前预判政策决定",
+      "firstSeenAt": "2026-10-16T05:04:10.403Z",
+      "lastSeenAt": "2026-10-16T05:04:10.403Z",
+      "latestItemPublishedAt": "2026-10-16T03:40:33.000Z",
+      "primaryItemId": "news_d342f5cd7b1b",
+      "evidenceItemIds": [
+        "news_d342f5cd7b1b",
+        "news_96b0c5bd6c84"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_2c6870dde677",
+      "clusterVersion": 2,
+      "title": "存款利率普遍上调了！5年期涨幅最高",
+      "firstSeenAt": "2026-10-16T05:04:10.403Z",
+      "lastSeenAt": "2026-10-16T05:04:10.403Z",
+      "latestItemPublishedAt": "2026-10-16T04:30:01.000Z",
+      "primaryItemId": "news_1e2498c85bf7",
+      "evidenceItemIds": [
+        "news_1e2498c85bf7",
+        "news_9182ccb7801f"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_d0caf6dfd738",
+      "clusterVersion": 2,
+      "title": "欧洲央行管委Nagel称不排除再次加息",
+      "firstSeenAt": "2026-10-16T05:04:10.403Z",
+      "lastSeenAt": "2026-10-16T05:04:10.403Z",
+      "latestItemPublishedAt": "2026-10-16T04:32:48.000Z",
+      "primaryItemId": "news_1b8b1278bcaf",
+      "evidenceItemIds": [
+        "news_1b8b1278bcaf",
+        "news_6dc8d339b4e1"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_93c8a14a47f6",
+      "clusterVersion": 2,
+      "title": "中际旭创：拟将回购股份全部注销",
+      "firstSeenAt": "2026-10-16T05:04:10.403Z",
+      "lastSeenAt": "2026-10-16T05:04:10.403Z",
+      "latestItemPublishedAt": "2026-10-15T13:15:14.000Z",
+      "primaryItemId": "news_95f2b82ad462",
+      "evidenceItemIds": [
+        "news_95f2b82ad462",
+        "news_83f53c055f39"
       ],
       "status": "developing",
       "summary": "",
@@ -428,22 +573,6 @@
       "latestProgress": ""
     },
     {
-      "eventId": "event_d090be5025bb",
-      "clusterVersion": 2,
-      "title": "报道：纽约市主计长敦促Anthropic暂停推进IPO",
-      "firstSeenAt": "2026-10-15T17:15:26.833Z",
-      "lastSeenAt": "2026-10-15T17:15:26.833Z",
-      "latestItemPublishedAt": "2026-10-15T12:13:07.000Z",
-      "primaryItemId": "news_e372b14cc544",
-      "evidenceItemIds": [
-        "news_e372b14cc544",
-        "news_2675270e781f"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
       "eventId": "event_44e91ca84eaa",
       "clusterVersion": 2,
       "title": "中金黄金：预计前三季度归母净利润55.2亿元-58亿元，同比增长50.05%-57.66%",
@@ -454,22 +583,6 @@
       "evidenceItemIds": [
         "news_6b343ab25d24",
         "news_f84fae9cb52f"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_e348373a0370",
-      "clusterVersion": 2,
-      "title": "LME金属期货收盘普跌",
-      "firstSeenAt": "2026-10-15T17:15:26.833Z",
-      "lastSeenAt": "2026-10-15T17:15:26.833Z",
-      "latestItemPublishedAt": "2026-10-15T16:57:30.000Z",
-      "primaryItemId": "news_26bd9a2ffcc0",
-      "evidenceItemIds": [
-        "news_26bd9a2ffcc0",
-        "news_0ab859f7b38d"
       ],
       "status": "developing",
       "summary": "",

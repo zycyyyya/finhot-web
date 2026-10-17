@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-17T12:20:14.073Z",
+  "generatedAt": "2026-10-17T15:44:52.317Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -9,7 +9,7 @@
       "clusterVersion": 2,
       "title": "【量化观察】A股九月震荡调整，成长承压、防御抬升",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-17T12:20:14.073Z",
+      "lastSeenAt": "2026-10-17T15:44:52.317Z",
       "latestItemPublishedAt": "2026-10-17T01:40:02.000Z",
       "primaryItemId": "news_35ed4f57a02d",
       "evidenceItemIds": [
@@ -73,7 +73,7 @@
       "clusterVersion": 2,
       "title": "MSCI(MSCI.US) 新规悬顶，微策略(MSTR.US)暴跌 9% 引爆美股与比特币双杀",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-17T12:20:14.073Z",
+      "lastSeenAt": "2026-10-17T15:44:52.317Z",
       "latestItemPublishedAt": "2026-10-17T03:51:11.000Z",
       "primaryItemId": "news_3f4f9afe6859",
       "evidenceItemIds": [
@@ -137,7 +137,7 @@
       "clusterVersion": 2,
       "title": "港股收评：三大指数全线收涨，科技半导体AI硬件集体活跃，农行建行回调",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-10-17T12:20:14.073Z",
+      "lastSeenAt": "2026-10-17T15:44:52.317Z",
       "latestItemPublishedAt": "2026-10-17T03:00:23.000Z",
       "primaryItemId": "news_06bff02de933",
       "evidenceItemIds": [
@@ -201,7 +201,7 @@
       "clusterVersion": 2,
       "title": "卢比单周涨2%创七个月最大，贸易逆差却扩大至302亿美元，印度央行护盘资金已动用约一半",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-17T12:20:14.073Z",
+      "lastSeenAt": "2026-10-17T15:44:52.317Z",
       "latestItemPublishedAt": "2026-10-17T00:29:45.000Z",
       "primaryItemId": "news_3b1d64d6ce2b",
       "evidenceItemIds": [
@@ -263,11 +263,11 @@
     {
       "eventId": "event_6ab2a13609c6",
       "clusterVersion": 2,
-      "title": "沃什曼谷发言“偏鸽”，市场押注美联储10月按兵不动，加息概率跌破15%",
+      "title": "盛松成：美联储利率路径仍有不确定性",
       "firstSeenAt": "2026-10-08T06:40:59.994Z",
-      "lastSeenAt": "2026-10-17T12:20:14.073Z",
-      "latestItemPublishedAt": "2026-10-16T15:39:40.000Z",
-      "primaryItemId": "news_c45f67c666f2",
+      "lastSeenAt": "2026-10-17T15:44:52.317Z",
+      "latestItemPublishedAt": "2026-10-17T09:42:11.000Z",
+      "primaryItemId": "news_5fe4ad6c73bb",
       "evidenceItemIds": [
         "news_1d0c31b07d1b",
         "news_ecab20992500",
@@ -310,7 +310,7 @@
       "clusterVersion": 2,
       "title": "英国8月GDP增长0.1%，超出市场预期",
       "firstSeenAt": "2026-10-15T09:09:25.906Z",
-      "lastSeenAt": "2026-10-17T12:20:14.073Z",
+      "lastSeenAt": "2026-10-17T15:44:52.317Z",
       "latestItemPublishedAt": "2026-10-15T06:40:09.000Z",
       "primaryItemId": "news_9af44bf9b863",
       "evidenceItemIds": [
@@ -326,7 +326,7 @@
       "clusterVersion": 2,
       "title": "中国人民银行行长潘功胜会见欧盟委员会经济和生产力委员东布罗夫斯基斯、欧洲中央银行行长拉加德、欧元集团主席皮埃拉卡基斯及欧",
       "firstSeenAt": "2026-10-16T13:24:13.606Z",
-      "lastSeenAt": "2026-10-17T12:20:14.073Z",
+      "lastSeenAt": "2026-10-17T15:44:52.317Z",
       "latestItemPublishedAt": "2026-10-17T10:11:24.000Z",
       "primaryItemId": "news_77c515effb50",
       "evidenceItemIds": [
@@ -344,7 +344,7 @@
       "clusterVersion": 2,
       "title": "AI公司主动寻求监管！Anthropic向美国政府提交AI监管法案草案 拟设“杀伤红线”",
       "firstSeenAt": "2026-10-15T13:38:11.870Z",
-      "lastSeenAt": "2026-10-17T12:20:14.073Z",
+      "lastSeenAt": "2026-10-17T15:44:52.317Z",
       "latestItemPublishedAt": "2026-10-17T04:35:05.000Z",
       "primaryItemId": "news_b4162a97c8e8",
       "evidenceItemIds": [
@@ -364,7 +364,7 @@
       "clusterVersion": 2,
       "title": "日本央行行长重申通胀超调风险 强调锚定2%目标重要性",
       "firstSeenAt": "2026-10-16T16:49:31.035Z",
-      "lastSeenAt": "2026-10-17T12:20:14.073Z",
+      "lastSeenAt": "2026-10-17T15:44:52.317Z",
       "latestItemPublishedAt": "2026-10-16T15:27:54.000Z",
       "primaryItemId": "news_a9f7e6a7069d",
       "evidenceItemIds": [
@@ -378,11 +378,11 @@
     {
       "eventId": "event_4dc40699de45",
       "clusterVersion": 2,
-      "title": "量化基金巨头Two Sigma停止为不动产部门筹资并裁撤高层",
+      "title": "量化基金巨头Two Sigma据悉停止为不动产部门筹资并裁撤高层",
       "firstSeenAt": "2026-10-17T05:03:15.599Z",
-      "lastSeenAt": "2026-10-17T12:20:14.073Z",
+      "lastSeenAt": "2026-10-17T15:44:52.317Z",
       "latestItemPublishedAt": "2026-10-17T04:02:08.000Z",
-      "primaryItemId": "news_6713afdcdc3b",
+      "primaryItemId": "news_4ff3e897d2cf",
       "evidenceItemIds": [
         "news_6713afdcdc3b",
         "news_4ff3e897d2cf"
@@ -396,7 +396,7 @@
       "clusterVersion": 2,
       "title": "欧洲央行行长拉加德：应采取适度政策举措遏制通胀",
       "firstSeenAt": "2026-10-16T05:04:10.403Z",
-      "lastSeenAt": "2026-10-17T12:20:14.073Z",
+      "lastSeenAt": "2026-10-17T15:44:52.317Z",
       "latestItemPublishedAt": "2026-10-17T08:01:35.000Z",
       "primaryItemId": "news_40a6cd32feb0",
       "evidenceItemIds": [
@@ -405,6 +405,22 @@
         "news_40a6cd32feb0",
         "news_3cedf76954f6",
         "news_4cb77d150c92"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_fdd1284ff76d",
+      "clusterVersion": 2,
+      "title": "伊朗革命卫队：又一超级油轮在霍尔木兹海峡触雷起火",
+      "firstSeenAt": "2026-10-17T15:44:52.317Z",
+      "lastSeenAt": "2026-10-17T15:44:52.317Z",
+      "latestItemPublishedAt": "2026-10-17T12:55:49.000Z",
+      "primaryItemId": "news_21669d6bdbff",
+      "evidenceItemIds": [
+        "news_21669d6bdbff",
+        "news_88bf9914e8a0"
       ],
       "status": "developing",
       "summary": "",

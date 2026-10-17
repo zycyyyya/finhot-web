@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-16T16:49:31.035Z",
+  "generatedAt": "2026-10-17T05:03:15.599Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -9,11 +9,10 @@
       "clusterVersion": 2,
       "title": "【量化观察】A股九月震荡调整，成长承压、防御抬升",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-16T16:49:31.035Z",
-      "latestItemPublishedAt": "2026-10-16T13:16:04.000Z",
+      "lastSeenAt": "2026-10-17T05:03:15.599Z",
+      "latestItemPublishedAt": "2026-10-17T01:40:02.000Z",
       "primaryItemId": "news_35ed4f57a02d",
       "evidenceItemIds": [
-        "news_1bad60b6b10d",
         "news_3d834db8f44f",
         "news_e3822054ff89",
         "news_aa9ec3af7c1e",
@@ -62,25 +61,22 @@
         "news_deeac9645e08",
         "news_437137f0ec83",
         "news_06d5ef24373f",
-        "news_20b88c5f352a"
+        "news_20b88c5f352a",
+        "news_3faed33a89da"
       ],
       "status": "developing",
-      "summary": "沪指3700点拉锯，外围冲击下宽基ETF逆势承接，业绩预增与监管并存。",
-      "latestProgress": "10月16日A股集体高开，逾4900股上涨，券商指估值与盈利修复支撑。"
+      "summary": "A股9月震荡调整，成长承压、防御抬升，近期三季报预喜与回购增持潮涌现。",
+      "latestProgress": "10月17日，A股性价比进一步提升，上市公司积极开展回购。"
     },
     {
       "eventId": "event_f101880ef7bc",
       "clusterVersion": 2,
-      "title": "财报季来袭！Citadel证券：未来数周是美股基本面真正的压力测试",
+      "title": "纳指重挫2.14%！美股AI板块血流成河，英伟达跌1.43%，油价大幅飙高",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-16T16:49:31.035Z",
-      "latestItemPublishedAt": "2026-10-16T16:30:33.000Z",
-      "primaryItemId": "news_7a94c29aa9a2",
+      "lastSeenAt": "2026-10-17T05:03:15.599Z",
+      "latestItemPublishedAt": "2026-10-17T03:51:11.000Z",
+      "primaryItemId": "news_3229ba9c947c",
       "evidenceItemIds": [
-        "news_fdf5a6c25051",
-        "news_f3f4ef808a38",
-        "news_db31ca2186d8",
-        "news_343b43269cbc",
         "news_c24c9213fcdc",
         "news_14c0884db494",
         "news_8b7b65981866",
@@ -126,7 +122,11 @@
         "news_bc3ef0ffc52e",
         "news_f57cec5bfbbe",
         "news_5a8eb6e8e1cb",
-        "news_8e842b2c9fe4"
+        "news_8e842b2c9fe4",
+        "news_3229ba9c947c",
+        "news_be66d15ae177",
+        "news_98108c4f9c6e",
+        "news_3e14b6e5e7d9"
       ],
       "status": "developing",
       "summary": "财报季来袭，Citadel证券称未来数周是美股基本面真正压力测试。",
@@ -137,11 +137,10 @@
       "clusterVersion": 2,
       "title": "港股收评：三大指数全线收涨，科技半导体AI硬件集体活跃，农行建行回调",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-10-16T16:49:31.035Z",
-      "latestItemPublishedAt": "2026-10-16T13:08:34.000Z",
+      "lastSeenAt": "2026-10-17T05:03:15.599Z",
+      "latestItemPublishedAt": "2026-10-17T03:00:23.000Z",
       "primaryItemId": "news_06bff02de933",
       "evidenceItemIds": [
-        "news_799f47c6bd0f",
         "news_37ea638a41c1",
         "news_ac13f7363e37",
         "news_9b6d4ce3fae7",
@@ -190,7 +189,8 @@
         "news_e35779d5fc93",
         "news_06bff02de933",
         "news_286e5bc6ae94",
-        "news_dc89283c90ce"
+        "news_dc89283c90ce",
+        "news_712a8ef7932f"
       ],
       "status": "developing",
       "summary": "赣锋锂业前三季纯利增195倍，但第三季环比下滑68%，早盘跌超6%。",
@@ -201,11 +201,10 @@
       "clusterVersion": 2,
       "title": "央行规范银行间债券市场债券发行行为，禁止发行人认购、变相认购自己发行的债券",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-16T16:49:31.035Z",
+      "lastSeenAt": "2026-10-17T05:03:15.599Z",
       "latestItemPublishedAt": "2026-10-16T12:04:25.000Z",
       "primaryItemId": "news_407554acd08b",
       "evidenceItemIds": [
-        "news_570b6a39a4b5",
         "news_1035aecf181c",
         "news_2f288323fb81",
         "news_f2a80898dd81",
@@ -254,18 +253,19 @@
         "news_bc6db1358a53",
         "news_9fbff9180326",
         "news_407554acd08b",
-        "news_2b2ab39147d1"
+        "news_2b2ab39147d1",
+        "news_3b1d64d6ce2b"
       ],
       "status": "developing",
-      "summary": "央行开展7000亿元逆回购，潘功胜出席国际央行行长会，人民币升值节奏待观察。",
-      "latestProgress": "潘功胜出席中国与海合会央行行长会，或就人民币汇率政策与各方沟通。"
+      "summary": "央行规范银行间债券发行，禁止发行人认购或变相认购自身债券。",
+      "latestProgress": "央行发布规定，禁止发行人认购或变相认购自身债券。"
     },
     {
       "eventId": "event_6ab2a13609c6",
       "clusterVersion": 2,
       "title": "沃什曼谷发言“偏鸽”，市场押注美联储10月按兵不动，加息概率跌破15%",
       "firstSeenAt": "2026-10-08T06:40:59.994Z",
-      "lastSeenAt": "2026-10-16T16:49:31.035Z",
+      "lastSeenAt": "2026-10-17T05:03:15.599Z",
       "latestItemPublishedAt": "2026-10-16T15:39:40.000Z",
       "primaryItemId": "news_c45f67c666f2",
       "evidenceItemIds": [
@@ -301,20 +301,234 @@
         "news_5bcb81ff45d2"
       ],
       "status": "developing",
-      "summary": "盛松成称美联储利率路径仍有不确定性，美国9月PPI超预期强化加息预期。",
-      "latestProgress": "瑞银预计美联储本轮将加息三次，下次行动在12月。"
+      "summary": "沃什曼谷发言偏鸽，市场押注美联储10月按兵不动，加息概率跌破15%。",
+      "latestProgress": "巴克莱预计美联储12月和1月加息。"
     },
     {
       "eventId": "event_6c181cb4a375",
       "clusterVersion": 2,
       "title": "英国8月GDP增长0.1%，超出市场预期",
       "firstSeenAt": "2026-10-15T09:09:25.906Z",
-      "lastSeenAt": "2026-10-16T16:49:31.035Z",
+      "lastSeenAt": "2026-10-17T05:03:15.599Z",
       "latestItemPublishedAt": "2026-10-15T06:40:09.000Z",
       "primaryItemId": "news_9af44bf9b863",
       "evidenceItemIds": [
         "news_9af44bf9b863",
         "news_1e03655a7143"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_1144d3b4f66f",
+      "clusterVersion": 2,
+      "title": "报道：CoreWeave三位创始人在股价崩跌前套现33亿美元",
+      "firstSeenAt": "2026-10-16T05:04:10.403Z",
+      "lastSeenAt": "2026-10-17T05:03:15.599Z",
+      "latestItemPublishedAt": "2026-10-16T12:58:54.000Z",
+      "primaryItemId": "news_60f6195b7e1a",
+      "evidenceItemIds": [
+        "news_f5d6c47fa12e",
+        "news_99a94d7b19d1",
+        "news_60f6195b7e1a"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_6f54732cf4dc",
+      "clusterVersion": 2,
+      "title": "胜宏科技：实际控制人、董事长提议以人民币1.5亿元至人民币3亿元回购股份",
+      "firstSeenAt": "2026-10-16T13:24:13.606Z",
+      "lastSeenAt": "2026-10-17T05:03:15.599Z",
+      "latestItemPublishedAt": "2026-10-16T11:07:58.000Z",
+      "primaryItemId": "news_3788cdd6c746",
+      "evidenceItemIds": [
+        "news_3788cdd6c746",
+        "news_3327c68e88ad"
+      ],
+      "status": "developing",
+      "summary": "胜宏科技董事长提议回购1.5亿至3亿元股份。",
+      "latestProgress": "2026年10月16日，董事长提议以1.5亿至3亿元回购股份。"
+    },
+    {
+      "eventId": "event_81b4533a07b7",
+      "clusterVersion": 2,
+      "title": "中国人民银行行长潘功胜会见欧盟委员会经济和生产力委员东布罗夫斯基斯、欧洲中央银行行长拉加德、欧元集团主席皮埃拉卡基斯及欧",
+      "firstSeenAt": "2026-10-16T13:24:13.606Z",
+      "lastSeenAt": "2026-10-17T05:03:15.599Z",
+      "latestItemPublishedAt": "2026-10-16T10:54:49.000Z",
+      "primaryItemId": "news_77c515effb50",
+      "evidenceItemIds": [
+        "news_77c515effb50",
+        "news_51e583dd66f5"
+      ],
+      "status": "developing",
+      "summary": "中国人民银行行长潘功胜会见欧盟财经高层官员。",
+      "latestProgress": "潘功胜会见欧盟委员会及欧洲央行等高层。"
+    },
+    {
+      "eventId": "event_56223905fce7",
+      "clusterVersion": 2,
+      "title": "三部门：同意京津冀等5个城市群开展氢能综合应用试点工作",
+      "firstSeenAt": "2026-10-16T13:24:13.606Z",
+      "lastSeenAt": "2026-10-17T05:03:15.599Z",
+      "latestItemPublishedAt": "2026-10-16T13:08:48.000Z",
+      "primaryItemId": "news_2a39e9ad1051",
+      "evidenceItemIds": [
+        "news_2a39e9ad1051",
+        "news_324f83a9958e"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_40432a127a85",
+      "clusterVersion": 2,
+      "title": "财联社10月16日电，摩根士丹利将贝莱德目标价从1468美元上调至1531美元。",
+      "firstSeenAt": "2026-10-16T13:24:13.606Z",
+      "lastSeenAt": "2026-10-17T05:03:15.599Z",
+      "latestItemPublishedAt": "2026-10-16T13:06:50.000Z",
+      "primaryItemId": "news_2562680103c3",
+      "evidenceItemIds": [
+        "news_2562680103c3",
+        "news_4b3af008d800"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_2f1df2495673",
+      "clusterVersion": 2,
+      "title": "净利同比最高增长181%！2800亿覆铜板龙头发布前三季度业绩预告|盘后公告集锦",
+      "firstSeenAt": "2026-10-16T13:24:13.606Z",
+      "lastSeenAt": "2026-10-17T05:03:15.599Z",
+      "latestItemPublishedAt": "2026-10-16T12:14:47.000Z",
+      "primaryItemId": "news_933ec70360d8",
+      "evidenceItemIds": [
+        "news_933ec70360d8",
+        "news_53f45bdf4fdc"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_25527e9507c8",
+      "clusterVersion": 2,
+      "title": "美国银行重启支付行业研究覆盖，看好FIS、Global Payments及Toast",
+      "firstSeenAt": "2026-10-15T13:38:11.870Z",
+      "lastSeenAt": "2026-10-17T05:03:15.599Z",
+      "latestItemPublishedAt": "2026-10-16T16:01:37.000Z",
+      "primaryItemId": "news_7a168ee23914",
+      "evidenceItemIds": [
+        "news_56a178b716de",
+        "news_e059515b6797",
+        "news_7a168ee23914",
+        "news_d193f657258f",
+        "news_afdd48e49b31"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_cc2fe1f953ef",
+      "clusterVersion": 2,
+      "title": "长鑫科技：预计2026年前三季度净利润1310亿元至1325亿元，同比扭亏为盈",
+      "firstSeenAt": "2026-10-16T16:49:31.035Z",
+      "lastSeenAt": "2026-10-17T05:03:15.599Z",
+      "latestItemPublishedAt": "2026-10-16T13:49:47.000Z",
+      "primaryItemId": "news_f0f2dc4ae887",
+      "evidenceItemIds": [
+        "news_f0f2dc4ae887",
+        "news_6f164e540d34"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_fb672685511d",
+      "clusterVersion": 2,
+      "title": "国常会：注重以落地应用牵引技术创新，不断深化拓展“人工智能+”行动",
+      "firstSeenAt": "2026-10-16T16:49:31.035Z",
+      "lastSeenAt": "2026-10-17T05:03:15.599Z",
+      "latestItemPublishedAt": "2026-10-16T11:56:08.000Z",
+      "primaryItemId": "news_572e49e727c1",
+      "evidenceItemIds": [
+        "news_572e49e727c1",
+        "news_275c0934672b"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_294387429284",
+      "clusterVersion": 2,
+      "title": "日本央行行长重申通胀超调风险 强调锚定2%目标重要性",
+      "firstSeenAt": "2026-10-16T16:49:31.035Z",
+      "lastSeenAt": "2026-10-17T05:03:15.599Z",
+      "latestItemPublishedAt": "2026-10-16T15:27:54.000Z",
+      "primaryItemId": "news_a9f7e6a7069d",
+      "evidenceItemIds": [
+        "news_a9f7e6a7069d",
+        "news_43131ce49d34"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_a02f231decd4",
+      "clusterVersion": 2,
+      "title": "国家统计局：9月份PPI同比上涨5.0% 环比上涨1.2%",
+      "firstSeenAt": "2026-10-14T05:21:21.512Z",
+      "lastSeenAt": "2026-10-17T05:03:15.599Z",
+      "latestItemPublishedAt": "2026-10-14T02:28:05.000Z",
+      "primaryItemId": "news_b6347b2f2f3e",
+      "evidenceItemIds": [
+        "news_b6347b2f2f3e",
+        "news_203215567ca0",
+        "news_2fdb1cbcd052",
+        "news_73fd11cb08e4"
+      ],
+      "status": "developing",
+      "summary": "9月PPI同比上涨5.0%，环比上涨1.2%。",
+      "latestProgress": "9月CPI、PPI同比涨幅均扩大。"
+    },
+    {
+      "eventId": "event_11f22fae56f9",
+      "clusterVersion": 2,
+      "title": "Anthropic被曝秘密游说国会：AI造成超10亿美元损失，政府才能叫停？",
+      "firstSeenAt": "2026-10-17T05:03:15.599Z",
+      "lastSeenAt": "2026-10-17T05:03:15.599Z",
+      "latestItemPublishedAt": "2026-10-17T03:22:17.000Z",
+      "primaryItemId": "news_f6531abcf28f",
+      "evidenceItemIds": [
+        "news_f6531abcf28f",
+        "news_8e8aae4f1d19"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_4dc40699de45",
+      "clusterVersion": 2,
+      "title": "量化基金巨头Two Sigma停止为不动产部门筹资并裁撤高层",
+      "firstSeenAt": "2026-10-17T05:03:15.599Z",
+      "lastSeenAt": "2026-10-17T05:03:15.599Z",
+      "latestItemPublishedAt": "2026-10-17T04:02:08.000Z",
+      "primaryItemId": "news_6713afdcdc3b",
+      "evidenceItemIds": [
+        "news_6713afdcdc3b",
+        "news_4ff3e897d2cf"
       ],
       "status": "developing",
       "summary": "",
@@ -367,187 +581,6 @@
       "status": "developing",
       "summary": "",
       "latestProgress": ""
-    },
-    {
-      "eventId": "event_1144d3b4f66f",
-      "clusterVersion": 2,
-      "title": "报道：CoreWeave三位创始人在股价崩跌前套现33亿美元",
-      "firstSeenAt": "2026-10-16T05:04:10.403Z",
-      "lastSeenAt": "2026-10-16T16:49:31.035Z",
-      "latestItemPublishedAt": "2026-10-16T12:58:54.000Z",
-      "primaryItemId": "news_60f6195b7e1a",
-      "evidenceItemIds": [
-        "news_f5d6c47fa12e",
-        "news_99a94d7b19d1",
-        "news_60f6195b7e1a"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_6f54732cf4dc",
-      "clusterVersion": 2,
-      "title": "胜宏科技：实际控制人、董事长提议以人民币1.5亿元至人民币3亿元回购股份",
-      "firstSeenAt": "2026-10-16T13:24:13.606Z",
-      "lastSeenAt": "2026-10-16T16:49:31.035Z",
-      "latestItemPublishedAt": "2026-10-16T11:07:58.000Z",
-      "primaryItemId": "news_3788cdd6c746",
-      "evidenceItemIds": [
-        "news_3788cdd6c746",
-        "news_3327c68e88ad"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_81b4533a07b7",
-      "clusterVersion": 2,
-      "title": "中国人民银行行长潘功胜会见欧盟委员会经济和生产力委员东布罗夫斯基斯、欧洲中央银行行长拉加德、欧元集团主席皮埃拉卡基斯及欧",
-      "firstSeenAt": "2026-10-16T13:24:13.606Z",
-      "lastSeenAt": "2026-10-16T16:49:31.035Z",
-      "latestItemPublishedAt": "2026-10-16T10:54:49.000Z",
-      "primaryItemId": "news_77c515effb50",
-      "evidenceItemIds": [
-        "news_77c515effb50",
-        "news_51e583dd66f5"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_56223905fce7",
-      "clusterVersion": 2,
-      "title": "三部门：同意京津冀等5个城市群开展氢能综合应用试点工作",
-      "firstSeenAt": "2026-10-16T13:24:13.606Z",
-      "lastSeenAt": "2026-10-16T16:49:31.035Z",
-      "latestItemPublishedAt": "2026-10-16T13:08:48.000Z",
-      "primaryItemId": "news_2a39e9ad1051",
-      "evidenceItemIds": [
-        "news_2a39e9ad1051",
-        "news_324f83a9958e"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_40432a127a85",
-      "clusterVersion": 2,
-      "title": "财联社10月16日电，摩根士丹利将贝莱德目标价从1468美元上调至1531美元。",
-      "firstSeenAt": "2026-10-16T13:24:13.606Z",
-      "lastSeenAt": "2026-10-16T16:49:31.035Z",
-      "latestItemPublishedAt": "2026-10-16T13:06:50.000Z",
-      "primaryItemId": "news_2562680103c3",
-      "evidenceItemIds": [
-        "news_2562680103c3",
-        "news_4b3af008d800"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_2f1df2495673",
-      "clusterVersion": 2,
-      "title": "净利同比最高增长181%！2800亿覆铜板龙头发布前三季度业绩预告|盘后公告集锦",
-      "firstSeenAt": "2026-10-16T13:24:13.606Z",
-      "lastSeenAt": "2026-10-16T16:49:31.035Z",
-      "latestItemPublishedAt": "2026-10-16T12:14:47.000Z",
-      "primaryItemId": "news_933ec70360d8",
-      "evidenceItemIds": [
-        "news_933ec70360d8",
-        "news_53f45bdf4fdc"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_25527e9507c8",
-      "clusterVersion": 2,
-      "title": "美国银行重启支付行业研究覆盖，看好FIS、Global Payments及Toast",
-      "firstSeenAt": "2026-10-15T13:38:11.870Z",
-      "lastSeenAt": "2026-10-16T16:49:31.035Z",
-      "latestItemPublishedAt": "2026-10-16T16:01:37.000Z",
-      "primaryItemId": "news_7a168ee23914",
-      "evidenceItemIds": [
-        "news_56a178b716de",
-        "news_e059515b6797",
-        "news_7a168ee23914",
-        "news_d193f657258f",
-        "news_afdd48e49b31"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_cc2fe1f953ef",
-      "clusterVersion": 2,
-      "title": "长鑫科技：预计2026年前三季度净利润1310亿元至1325亿元，同比扭亏为盈",
-      "firstSeenAt": "2026-10-16T16:49:31.035Z",
-      "lastSeenAt": "2026-10-16T16:49:31.035Z",
-      "latestItemPublishedAt": "2026-10-16T13:49:47.000Z",
-      "primaryItemId": "news_f0f2dc4ae887",
-      "evidenceItemIds": [
-        "news_f0f2dc4ae887",
-        "news_6f164e540d34"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_fb672685511d",
-      "clusterVersion": 2,
-      "title": "国常会：注重以落地应用牵引技术创新，不断深化拓展“人工智能+”行动",
-      "firstSeenAt": "2026-10-16T16:49:31.035Z",
-      "lastSeenAt": "2026-10-16T16:49:31.035Z",
-      "latestItemPublishedAt": "2026-10-16T11:56:08.000Z",
-      "primaryItemId": "news_572e49e727c1",
-      "evidenceItemIds": [
-        "news_572e49e727c1",
-        "news_275c0934672b"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_294387429284",
-      "clusterVersion": 2,
-      "title": "日本央行行长重申通胀超调风险 强调锚定2%目标重要性",
-      "firstSeenAt": "2026-10-16T16:49:31.035Z",
-      "lastSeenAt": "2026-10-16T16:49:31.035Z",
-      "latestItemPublishedAt": "2026-10-16T15:27:54.000Z",
-      "primaryItemId": "news_a9f7e6a7069d",
-      "evidenceItemIds": [
-        "news_a9f7e6a7069d",
-        "news_43131ce49d34"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_a02f231decd4",
-      "clusterVersion": 2,
-      "title": "国家统计局：9月份PPI同比上涨5.0% 环比上涨1.2%",
-      "firstSeenAt": "2026-10-14T05:21:21.512Z",
-      "lastSeenAt": "2026-10-16T13:24:13.606Z",
-      "latestItemPublishedAt": "2026-10-14T02:28:05.000Z",
-      "primaryItemId": "news_b6347b2f2f3e",
-      "evidenceItemIds": [
-        "news_b6347b2f2f3e",
-        "news_203215567ca0",
-        "news_2fdb1cbcd052"
-      ],
-      "status": "developing",
-      "summary": "9月PPI同比上涨5.0%，环比上涨1.2%。",
-      "latestProgress": "9月CPI、PPI同比涨幅均扩大。"
     },
     {
       "eventId": "event_10a16a51c5f7",

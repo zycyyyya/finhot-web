@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-17T15:44:52.317Z",
+  "generatedAt": "2026-10-18T05:03:56.332Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -9,7 +9,7 @@
       "clusterVersion": 2,
       "title": "【量化观察】A股九月震荡调整，成长承压、防御抬升",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-17T15:44:52.317Z",
+      "lastSeenAt": "2026-10-18T05:03:56.332Z",
       "latestItemPublishedAt": "2026-10-17T01:40:02.000Z",
       "primaryItemId": "news_35ed4f57a02d",
       "evidenceItemIds": [
@@ -65,19 +65,18 @@
         "news_3faed33a89da"
       ],
       "status": "developing",
-      "summary": "A股9月震荡调整，成长承压、防御抬升，近期三季报预喜与回购增持潮涌现。",
-      "latestProgress": "10月17日，A股性价比进一步提升，上市公司积极开展回购。"
+      "summary": "A股九月震荡调整，成长承压防御抬升。",
+      "latestProgress": "十月A股性价比提升，上市公司积极回购。"
     },
     {
       "eventId": "event_f101880ef7bc",
       "clusterVersion": 2,
       "title": "MSCI(MSCI.US) 新规悬顶，微策略(MSTR.US)暴跌 9% 引爆美股与比特币双杀",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-17T15:44:52.317Z",
-      "latestItemPublishedAt": "2026-10-17T03:51:11.000Z",
+      "lastSeenAt": "2026-10-18T05:03:56.332Z",
+      "latestItemPublishedAt": "2026-10-17T01:05:06.000Z",
       "primaryItemId": "news_3f4f9afe6859",
       "evidenceItemIds": [
-        "news_14c0884db494",
         "news_8b7b65981866",
         "news_ff0e3a8d634b",
         "news_cf97ade448a2",
@@ -126,18 +125,19 @@
         "news_be66d15ae177",
         "news_98108c4f9c6e",
         "news_3e14b6e5e7d9",
-        "news_3f4f9afe6859"
+        "news_3f4f9afe6859",
+        "news_dfee4f8671be"
       ],
       "status": "developing",
-      "summary": "财报季来袭，Citadel证券称未来数周是美股基本面真正压力测试。",
-      "latestProgress": "Citadel证券预警，财报季将考验美股基本面，市场关注后续表现。"
+      "summary": "MSCI新规悬顶致微策略暴跌9%，引爆美股与比特币双重下挫。",
+      "latestProgress": "AI债务恐慌叠加油价飙升，科技股动荡持续，市场分化加剧。"
     },
     {
       "eventId": "event_c68d651d4ff9",
       "clusterVersion": 2,
       "title": "港股收评：三大指数全线收涨，科技半导体AI硬件集体活跃，农行建行回调",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-10-17T15:44:52.317Z",
+      "lastSeenAt": "2026-10-18T05:03:56.332Z",
       "latestItemPublishedAt": "2026-10-17T03:00:23.000Z",
       "primaryItemId": "news_06bff02de933",
       "evidenceItemIds": [
@@ -193,19 +193,18 @@
         "news_cd53e72ee1f7"
       ],
       "status": "developing",
-      "summary": "赣锋锂业前三季纯利增195倍，但第三季环比下滑68%，早盘跌超6%。",
-      "latestProgress": "10月16日早盘，赣锋锂业跌超6%，市场关注其第三季度纯利环比大降。"
+      "summary": "港股三大指数全线收涨，科技半导体AI硬件活跃，农行建行回调。",
+      "latestProgress": "港股结算机制将改T+1，2028下半年完成；年内25家公司强制退市。"
     },
     {
       "eventId": "event_2cf716748ce1",
       "clusterVersion": 2,
-      "title": "卢比单周涨2%创七个月最大，贸易逆差却扩大至302亿美元，印度央行护盘资金已动用约一半",
+      "title": "央行规范银行间债券市场债券发行行为，禁止发行人认购、变相认购自己发行的债券",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-17T15:44:52.317Z",
-      "latestItemPublishedAt": "2026-10-17T00:29:45.000Z",
-      "primaryItemId": "news_3b1d64d6ce2b",
+      "lastSeenAt": "2026-10-18T05:03:56.332Z",
+      "latestItemPublishedAt": "2026-10-18T02:02:34.000Z",
+      "primaryItemId": "news_407554acd08b",
       "evidenceItemIds": [
-        "news_1035aecf181c",
         "news_2f288323fb81",
         "news_f2a80898dd81",
         "news_ab4f531b05fb",
@@ -254,7 +253,8 @@
         "news_9fbff9180326",
         "news_407554acd08b",
         "news_2b2ab39147d1",
-        "news_3b1d64d6ce2b"
+        "news_3b1d64d6ce2b",
+        "news_49559c45fc42"
       ],
       "status": "developing",
       "summary": "央行规范银行间债券发行，禁止发行人认购或变相认购自身债券。",
@@ -265,7 +265,7 @@
       "clusterVersion": 2,
       "title": "盛松成：美联储利率路径仍有不确定性",
       "firstSeenAt": "2026-10-08T06:40:59.994Z",
-      "lastSeenAt": "2026-10-17T15:44:52.317Z",
+      "lastSeenAt": "2026-10-18T05:03:56.332Z",
       "latestItemPublishedAt": "2026-10-17T09:42:11.000Z",
       "primaryItemId": "news_5fe4ad6c73bb",
       "evidenceItemIds": [
@@ -310,7 +310,7 @@
       "clusterVersion": 2,
       "title": "英国8月GDP增长0.1%，超出市场预期",
       "firstSeenAt": "2026-10-15T09:09:25.906Z",
-      "lastSeenAt": "2026-10-17T15:44:52.317Z",
+      "lastSeenAt": "2026-10-18T05:03:56.332Z",
       "latestItemPublishedAt": "2026-10-15T06:40:09.000Z",
       "primaryItemId": "news_9af44bf9b863",
       "evidenceItemIds": [
@@ -318,15 +318,15 @@
         "news_1e03655a7143"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "英国8月GDP增长0.1%，优于市场预期。",
+      "latestProgress": "英国8月GDP增长0.1%，超出市场预期。"
     },
     {
       "eventId": "event_81b4533a07b7",
       "clusterVersion": 2,
       "title": "中国人民银行行长潘功胜会见欧盟委员会经济和生产力委员东布罗夫斯基斯、欧洲中央银行行长拉加德、欧元集团主席皮埃拉卡基斯及欧",
       "firstSeenAt": "2026-10-16T13:24:13.606Z",
-      "lastSeenAt": "2026-10-17T15:44:52.317Z",
+      "lastSeenAt": "2026-10-18T05:03:56.332Z",
       "latestItemPublishedAt": "2026-10-17T10:11:24.000Z",
       "primaryItemId": "news_77c515effb50",
       "evidenceItemIds": [
@@ -344,7 +344,7 @@
       "clusterVersion": 2,
       "title": "AI公司主动寻求监管！Anthropic向美国政府提交AI监管法案草案 拟设“杀伤红线”",
       "firstSeenAt": "2026-10-15T13:38:11.870Z",
-      "lastSeenAt": "2026-10-17T15:44:52.317Z",
+      "lastSeenAt": "2026-10-18T05:03:56.332Z",
       "latestItemPublishedAt": "2026-10-17T04:35:05.000Z",
       "primaryItemId": "news_b4162a97c8e8",
       "evidenceItemIds": [
@@ -356,15 +356,15 @@
         "news_b4162a97c8e8"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "人工智能企业Anthropic主动向美国政府提交监管草案，拟设杀伤红线。",
+      "latestProgress": "Anthropic已向美国递交AI监管法案草案，包括杀伤红线条款。"
     },
     {
       "eventId": "event_294387429284",
       "clusterVersion": 2,
       "title": "日本央行行长重申通胀超调风险 强调锚定2%目标重要性",
       "firstSeenAt": "2026-10-16T16:49:31.035Z",
-      "lastSeenAt": "2026-10-17T15:44:52.317Z",
+      "lastSeenAt": "2026-10-18T05:03:56.332Z",
       "latestItemPublishedAt": "2026-10-16T15:27:54.000Z",
       "primaryItemId": "news_a9f7e6a7069d",
       "evidenceItemIds": [
@@ -380,7 +380,7 @@
       "clusterVersion": 2,
       "title": "量化基金巨头Two Sigma据悉停止为不动产部门筹资并裁撤高层",
       "firstSeenAt": "2026-10-17T05:03:15.599Z",
-      "lastSeenAt": "2026-10-17T15:44:52.317Z",
+      "lastSeenAt": "2026-10-18T05:03:56.332Z",
       "latestItemPublishedAt": "2026-10-17T04:02:08.000Z",
       "primaryItemId": "news_4ff3e897d2cf",
       "evidenceItemIds": [
@@ -396,7 +396,7 @@
       "clusterVersion": 2,
       "title": "欧洲央行行长拉加德：应采取适度政策举措遏制通胀",
       "firstSeenAt": "2026-10-16T05:04:10.403Z",
-      "lastSeenAt": "2026-10-17T15:44:52.317Z",
+      "lastSeenAt": "2026-10-18T05:03:56.332Z",
       "latestItemPublishedAt": "2026-10-17T08:01:35.000Z",
       "primaryItemId": "news_40a6cd32feb0",
       "evidenceItemIds": [
@@ -407,20 +407,134 @@
         "news_4cb77d150c92"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "欧洲央行行长拉加德称应采取适度政策举措遏制通胀",
+      "latestProgress": "同日管委雷恩警告警惕能源涨价引发二轮通胀效应"
     },
     {
       "eventId": "event_fdd1284ff76d",
       "clusterVersion": 2,
       "title": "伊朗革命卫队：又一超级油轮在霍尔木兹海峡触雷起火",
       "firstSeenAt": "2026-10-17T15:44:52.317Z",
-      "lastSeenAt": "2026-10-17T15:44:52.317Z",
+      "lastSeenAt": "2026-10-18T05:03:56.332Z",
       "latestItemPublishedAt": "2026-10-17T12:55:49.000Z",
       "primaryItemId": "news_21669d6bdbff",
       "evidenceItemIds": [
         "news_21669d6bdbff",
         "news_88bf9914e8a0"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_a02f231decd4",
+      "clusterVersion": 2,
+      "title": "国家统计局：9月份PPI同比上涨5.0% 环比上涨1.2%",
+      "firstSeenAt": "2026-10-14T05:21:21.512Z",
+      "lastSeenAt": "2026-10-18T05:03:56.332Z",
+      "latestItemPublishedAt": "2026-10-14T02:28:05.000Z",
+      "primaryItemId": "news_b6347b2f2f3e",
+      "evidenceItemIds": [
+        "news_b6347b2f2f3e",
+        "news_203215567ca0",
+        "news_2fdb1cbcd052",
+        "news_73fd11cb08e4"
+      ],
+      "status": "developing",
+      "summary": "9月PPI同比上涨5.0%，环比上涨1.2%。",
+      "latestProgress": "9月CPI、PPI同比涨幅均扩大。"
+    },
+    {
+      "eventId": "event_11f22fae56f9",
+      "clusterVersion": 2,
+      "title": "Anthropic被曝秘密游说国会：AI造成超10亿美元损失，政府才能叫停？",
+      "firstSeenAt": "2026-10-17T05:03:15.599Z",
+      "lastSeenAt": "2026-10-18T05:03:56.332Z",
+      "latestItemPublishedAt": "2026-10-17T03:22:17.000Z",
+      "primaryItemId": "news_f6531abcf28f",
+      "evidenceItemIds": [
+        "news_f6531abcf28f",
+        "news_8e8aae4f1d19"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_13f37207435d",
+      "clusterVersion": 2,
+      "title": "全球贸易迈入三维重构，WTO首席经济学家答一财：呼吁打造“韧性”供应链",
+      "firstSeenAt": "2026-10-18T05:03:56.332Z",
+      "lastSeenAt": "2026-10-18T05:03:56.332Z",
+      "latestItemPublishedAt": "2026-10-18T04:07:19.000Z",
+      "primaryItemId": "news_b1af5e1afee4",
+      "evidenceItemIds": [
+        "news_b1af5e1afee4",
+        "news_e38016466e93"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_e671505fff95",
+      "clusterVersion": 2,
+      "title": "费城半导体指数创2008年以来最长连跌纪录，AI前景忧虑持续升温",
+      "firstSeenAt": "2026-10-18T05:03:56.332Z",
+      "lastSeenAt": "2026-10-18T05:03:56.332Z",
+      "latestItemPublishedAt": "2026-10-17T12:04:36.000Z",
+      "primaryItemId": "news_a9868e19a7f7",
+      "evidenceItemIds": [
+        "news_a9868e19a7f7",
+        "news_269120f020cf"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_b4a208b4abe1",
+      "clusterVersion": 2,
+      "title": "两艘油轮在沙特附近海域遭袭",
+      "firstSeenAt": "2026-10-18T05:03:56.332Z",
+      "lastSeenAt": "2026-10-18T05:03:56.332Z",
+      "latestItemPublishedAt": "2026-10-17T11:12:18.000Z",
+      "primaryItemId": "news_ed3eb1b7f0c1",
+      "evidenceItemIds": [
+        "news_ed3eb1b7f0c1",
+        "news_15166c785f63"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_144c361c643b",
+      "clusterVersion": 2,
+      "title": "AI融资成本攀升：Anthropic拟向黑石提供超10%收益率",
+      "firstSeenAt": "2026-10-18T05:03:56.332Z",
+      "lastSeenAt": "2026-10-18T05:03:56.332Z",
+      "latestItemPublishedAt": "2026-10-17T08:14:47.000Z",
+      "primaryItemId": "news_a411c9893eda",
+      "evidenceItemIds": [
+        "news_a411c9893eda",
+        "news_70fa6032f9a8"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_ddc01f83160c",
+      "clusterVersion": 2,
+      "title": "华储网：10月22日中央储备冻猪肉收储竞价交易挂牌13800吨",
+      "firstSeenAt": "2026-10-18T05:03:56.332Z",
+      "lastSeenAt": "2026-10-18T05:03:56.332Z",
+      "latestItemPublishedAt": "2026-10-17T01:58:42.000Z",
+      "primaryItemId": "news_1ed4d5b046b4",
+      "evidenceItemIds": [
+        "news_1ed4d5b046b4",
+        "news_636c431e617b"
       ],
       "status": "developing",
       "summary": "",
@@ -534,40 +648,6 @@
       "evidenceItemIds": [
         "news_572e49e727c1",
         "news_275c0934672b"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_a02f231decd4",
-      "clusterVersion": 2,
-      "title": "国家统计局：9月份PPI同比上涨5.0% 环比上涨1.2%",
-      "firstSeenAt": "2026-10-14T05:21:21.512Z",
-      "lastSeenAt": "2026-10-17T05:03:15.599Z",
-      "latestItemPublishedAt": "2026-10-14T02:28:05.000Z",
-      "primaryItemId": "news_b6347b2f2f3e",
-      "evidenceItemIds": [
-        "news_b6347b2f2f3e",
-        "news_203215567ca0",
-        "news_2fdb1cbcd052",
-        "news_73fd11cb08e4"
-      ],
-      "status": "developing",
-      "summary": "9月PPI同比上涨5.0%，环比上涨1.2%。",
-      "latestProgress": "9月CPI、PPI同比涨幅均扩大。"
-    },
-    {
-      "eventId": "event_11f22fae56f9",
-      "clusterVersion": 2,
-      "title": "Anthropic被曝秘密游说国会：AI造成超10亿美元损失，政府才能叫停？",
-      "firstSeenAt": "2026-10-17T05:03:15.599Z",
-      "lastSeenAt": "2026-10-17T05:03:15.599Z",
-      "latestItemPublishedAt": "2026-10-17T03:22:17.000Z",
-      "primaryItemId": "news_f6531abcf28f",
-      "evidenceItemIds": [
-        "news_f6531abcf28f",
-        "news_8e8aae4f1d19"
       ],
       "status": "developing",
       "summary": "",

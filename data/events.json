@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-18T12:42:10.406Z",
+  "generatedAt": "2026-10-18T16:00:26.999Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -9,12 +9,10 @@
       "clusterVersion": 2,
       "title": "机构论后市丨A股短期可能见底，关注科技成长短期超跌后的修复机会",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-18T12:42:10.406Z",
-      "latestItemPublishedAt": "2026-10-18T11:20:22.000Z",
+      "lastSeenAt": "2026-10-18T16:00:26.999Z",
+      "latestItemPublishedAt": "2026-10-18T12:48:30.000Z",
       "primaryItemId": "news_c3d4c0cc9d6e",
       "evidenceItemIds": [
-        "news_fa376e493170",
-        "news_b0dfe8c423af",
         "news_25f15cb075f3",
         "news_28a96594e500",
         "news_7acc221d8aae",
@@ -62,7 +60,9 @@
         "news_45bee687d419",
         "news_c3d4c0cc9d6e",
         "news_8893d7dd69b8",
-        "news_8daadc6735a0"
+        "news_8daadc6735a0",
+        "news_03213b6bd1f8",
+        "news_7a65363ab7ad"
       ],
       "status": "developing",
       "summary": "A股九月震荡调整，成长承压防御抬升。",
@@ -73,7 +73,7 @@
       "clusterVersion": 2,
       "title": "美股点金丨AI债务恐慌叠加油价双击！科技股动荡何时结束",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-18T12:42:10.406Z",
+      "lastSeenAt": "2026-10-18T16:00:26.999Z",
       "latestItemPublishedAt": "2026-10-18T09:07:00.000Z",
       "primaryItemId": "news_dfee4f8671be",
       "evidenceItemIds": [
@@ -137,7 +137,7 @@
       "clusterVersion": 2,
       "title": "港股收评：三大指数全线收涨，科技半导体AI硬件集体活跃，农行建行回调",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-10-18T12:42:10.406Z",
+      "lastSeenAt": "2026-10-18T16:00:26.999Z",
       "latestItemPublishedAt": "2026-10-18T07:30:54.000Z",
       "primaryItemId": "news_06bff02de933",
       "evidenceItemIds": [
@@ -201,7 +201,7 @@
       "clusterVersion": 2,
       "title": "全球主要央行政策信号分化，若民主党胜利或加剧科技股压力---W42海外宏观脱水",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-18T12:42:10.406Z",
+      "lastSeenAt": "2026-10-18T16:00:26.999Z",
       "latestItemPublishedAt": "2026-10-18T09:56:53.000Z",
       "primaryItemId": "news_f3a05a0000db",
       "evidenceItemIds": [
@@ -265,7 +265,7 @@
       "clusterVersion": 2,
       "title": "盛松成：美联储利率路径仍有不确定性",
       "firstSeenAt": "2026-10-08T06:40:59.994Z",
-      "lastSeenAt": "2026-10-18T12:42:10.406Z",
+      "lastSeenAt": "2026-10-18T16:00:26.999Z",
       "latestItemPublishedAt": "2026-10-17T09:42:11.000Z",
       "primaryItemId": "news_5fe4ad6c73bb",
       "evidenceItemIds": [
@@ -310,7 +310,7 @@
       "clusterVersion": 2,
       "title": "英国8月GDP增长0.1%，超出市场预期",
       "firstSeenAt": "2026-10-15T09:09:25.906Z",
-      "lastSeenAt": "2026-10-18T12:42:10.406Z",
+      "lastSeenAt": "2026-10-18T16:00:26.999Z",
       "latestItemPublishedAt": "2026-10-15T06:40:09.000Z",
       "primaryItemId": "news_9af44bf9b863",
       "evidenceItemIds": [
@@ -320,6 +320,157 @@
       "status": "developing",
       "summary": "英国8月GDP增长0.1%，优于市场预期。",
       "latestProgress": "英国8月GDP增长0.1%，超出市场预期。"
+    },
+    {
+      "eventId": "event_d0caf6dfd738",
+      "clusterVersion": 2,
+      "title": "欧洲央行行长：欧元区通胀率创新高但不必惊慌",
+      "firstSeenAt": "2026-10-16T05:04:10.403Z",
+      "lastSeenAt": "2026-10-18T16:00:26.999Z",
+      "latestItemPublishedAt": "2026-10-18T06:23:58.000Z",
+      "primaryItemId": "news_0023d6611567",
+      "evidenceItemIds": [
+        "news_1b8b1278bcaf",
+        "news_6dc8d339b4e1",
+        "news_40a6cd32feb0",
+        "news_3cedf76954f6",
+        "news_4cb77d150c92",
+        "news_0023d6611567"
+      ],
+      "status": "developing",
+      "summary": "欧洲央行行长拉加德称应采取适度政策举措遏制通胀",
+      "latestProgress": "同日管委雷恩警告警惕能源涨价引发二轮通胀效应"
+    },
+    {
+      "eventId": "event_13f37207435d",
+      "clusterVersion": 2,
+      "title": "全球贸易迈入三维重构，WTO首席经济学家答一财：呼吁打造“韧性”供应链",
+      "firstSeenAt": "2026-10-18T05:03:56.332Z",
+      "lastSeenAt": "2026-10-18T16:00:26.999Z",
+      "latestItemPublishedAt": "2026-10-18T04:07:19.000Z",
+      "primaryItemId": "news_b1af5e1afee4",
+      "evidenceItemIds": [
+        "news_b1af5e1afee4",
+        "news_e38016466e93"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_684c15883f4e",
+      "clusterVersion": 2,
+      "title": "东兴证券(601198.SH)发布前三季度业绩，归母净利润16.11亿元，同比增长0.75%",
+      "firstSeenAt": "2026-10-18T08:52:08.735Z",
+      "lastSeenAt": "2026-10-18T16:00:26.999Z",
+      "latestItemPublishedAt": "2026-10-18T08:05:06.000Z",
+      "primaryItemId": "news_ce6ab892abad",
+      "evidenceItemIds": [
+        "news_ce6ab892abad",
+        "news_e3b87387b473"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_35f5d4b55762",
+      "clusterVersion": 2,
+      "title": "信达证券(601059.SH)发布前三季度业绩，归母净利润12.88亿元，同比下降4.83%",
+      "firstSeenAt": "2026-10-18T08:52:08.735Z",
+      "lastSeenAt": "2026-10-18T16:00:26.999Z",
+      "latestItemPublishedAt": "2026-10-18T08:05:07.000Z",
+      "primaryItemId": "news_c73ac7663825",
+      "evidenceItemIds": [
+        "news_c73ac7663825",
+        "news_ec1cd4d5d5c3"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_1b5d7c2a0298",
+      "clusterVersion": 2,
+      "title": "生益科技：董事长提议回购2亿至3亿元股份",
+      "firstSeenAt": "2026-10-18T08:52:08.735Z",
+      "lastSeenAt": "2026-10-18T16:00:26.999Z",
+      "latestItemPublishedAt": "2026-10-18T07:35:22.000Z",
+      "primaryItemId": "news_056c17160982",
+      "evidenceItemIds": [
+        "news_056c17160982",
+        "news_c35394705e0c"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_85af27f3b689",
+      "clusterVersion": 2,
+      "title": "雀巢、联合利华在印度因误导性健康声明面临监管处罚",
+      "firstSeenAt": "2026-10-18T08:52:08.735Z",
+      "lastSeenAt": "2026-10-18T16:00:26.999Z",
+      "latestItemPublishedAt": "2026-10-18T07:40:53.000Z",
+      "primaryItemId": "news_6be83cf61ed2",
+      "evidenceItemIds": [
+        "news_6be83cf61ed2",
+        "news_8d3d6faefbe1"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_f5e6ad7b567d",
+      "clusterVersion": 2,
+      "title": "中信证券：A股市场调整接近尾声",
+      "firstSeenAt": "2026-10-18T12:42:10.406Z",
+      "lastSeenAt": "2026-10-18T16:00:26.999Z",
+      "latestItemPublishedAt": "2026-10-18T11:35:06.000Z",
+      "primaryItemId": "news_571ad4c79e77",
+      "evidenceItemIds": [
+        "news_571ad4c79e77",
+        "news_0ccc4f217b79",
+        "news_a937c2c74632",
+        "news_7e9f341a1960",
+        "news_d934d88fc62c"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_58fab29cbd69",
+      "clusterVersion": 2,
+      "title": "恒力石化：预计前三季度净利润为102.56亿元左右，同比增加104.20%左右",
+      "firstSeenAt": "2026-10-18T12:42:10.406Z",
+      "lastSeenAt": "2026-10-18T16:00:26.999Z",
+      "latestItemPublishedAt": "2026-10-18T09:19:24.000Z",
+      "primaryItemId": "news_0894a50622aa",
+      "evidenceItemIds": [
+        "news_0894a50622aa",
+        "news_d3e21db65354"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_6c27fdb562ef",
+      "clusterVersion": 2,
+      "title": "下周资本市场大事提醒： 金融街论坛明日开幕 潘功胜、丁向群、吴清、朱鹤新将作主题演讲",
+      "firstSeenAt": "2026-10-18T16:00:26.999Z",
+      "lastSeenAt": "2026-10-18T16:00:26.999Z",
+      "latestItemPublishedAt": "2026-10-18T13:46:09.000Z",
+      "primaryItemId": "news_8c3f83b86fe3",
+      "evidenceItemIds": [
+        "news_8c3f83b86fe3",
+        "news_e6c914000306"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
     },
     {
       "eventId": "event_81b4533a07b7",
@@ -340,26 +491,6 @@
       "latestProgress": "潘功胜会见欧盟委员会及欧洲央行等高层。"
     },
     {
-      "eventId": "event_d0caf6dfd738",
-      "clusterVersion": 2,
-      "title": "欧洲央行行长：欧元区通胀率创新高但不必惊慌",
-      "firstSeenAt": "2026-10-16T05:04:10.403Z",
-      "lastSeenAt": "2026-10-18T12:42:10.406Z",
-      "latestItemPublishedAt": "2026-10-18T06:23:58.000Z",
-      "primaryItemId": "news_0023d6611567",
-      "evidenceItemIds": [
-        "news_1b8b1278bcaf",
-        "news_6dc8d339b4e1",
-        "news_40a6cd32feb0",
-        "news_3cedf76954f6",
-        "news_4cb77d150c92",
-        "news_0023d6611567"
-      ],
-      "status": "developing",
-      "summary": "欧洲央行行长拉加德称应采取适度政策举措遏制通胀",
-      "latestProgress": "同日管委雷恩警告警惕能源涨价引发二轮通胀效应"
-    },
-    {
       "eventId": "event_fdd1284ff76d",
       "clusterVersion": 2,
       "title": "伊朗革命卫队：又一超级油轮在霍尔木兹海峡触雷起火",
@@ -370,121 +501,6 @@
       "evidenceItemIds": [
         "news_21669d6bdbff",
         "news_88bf9914e8a0"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_13f37207435d",
-      "clusterVersion": 2,
-      "title": "全球贸易迈入三维重构，WTO首席经济学家答一财：呼吁打造“韧性”供应链",
-      "firstSeenAt": "2026-10-18T05:03:56.332Z",
-      "lastSeenAt": "2026-10-18T12:42:10.406Z",
-      "latestItemPublishedAt": "2026-10-18T04:07:19.000Z",
-      "primaryItemId": "news_b1af5e1afee4",
-      "evidenceItemIds": [
-        "news_b1af5e1afee4",
-        "news_e38016466e93"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_684c15883f4e",
-      "clusterVersion": 2,
-      "title": "东兴证券(601198.SH)发布前三季度业绩，归母净利润16.11亿元，同比增长0.75%",
-      "firstSeenAt": "2026-10-18T08:52:08.735Z",
-      "lastSeenAt": "2026-10-18T12:42:10.406Z",
-      "latestItemPublishedAt": "2026-10-18T08:05:06.000Z",
-      "primaryItemId": "news_ce6ab892abad",
-      "evidenceItemIds": [
-        "news_ce6ab892abad",
-        "news_e3b87387b473"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_35f5d4b55762",
-      "clusterVersion": 2,
-      "title": "信达证券(601059.SH)发布前三季度业绩，归母净利润12.88亿元，同比下降4.83%",
-      "firstSeenAt": "2026-10-18T08:52:08.735Z",
-      "lastSeenAt": "2026-10-18T12:42:10.406Z",
-      "latestItemPublishedAt": "2026-10-18T08:05:07.000Z",
-      "primaryItemId": "news_c73ac7663825",
-      "evidenceItemIds": [
-        "news_c73ac7663825",
-        "news_ec1cd4d5d5c3"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_1b5d7c2a0298",
-      "clusterVersion": 2,
-      "title": "生益科技：董事长提议回购2亿至3亿元股份",
-      "firstSeenAt": "2026-10-18T08:52:08.735Z",
-      "lastSeenAt": "2026-10-18T12:42:10.406Z",
-      "latestItemPublishedAt": "2026-10-18T07:35:22.000Z",
-      "primaryItemId": "news_056c17160982",
-      "evidenceItemIds": [
-        "news_056c17160982",
-        "news_c35394705e0c"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_85af27f3b689",
-      "clusterVersion": 2,
-      "title": "雀巢、联合利华在印度因误导性健康声明面临监管处罚",
-      "firstSeenAt": "2026-10-18T08:52:08.735Z",
-      "lastSeenAt": "2026-10-18T12:42:10.406Z",
-      "latestItemPublishedAt": "2026-10-18T07:40:53.000Z",
-      "primaryItemId": "news_6be83cf61ed2",
-      "evidenceItemIds": [
-        "news_6be83cf61ed2",
-        "news_8d3d6faefbe1"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_f5e6ad7b567d",
-      "clusterVersion": 2,
-      "title": "中信证券：A股市场调整接近尾声",
-      "firstSeenAt": "2026-10-18T12:42:10.406Z",
-      "lastSeenAt": "2026-10-18T12:42:10.406Z",
-      "latestItemPublishedAt": "2026-10-18T11:35:06.000Z",
-      "primaryItemId": "news_571ad4c79e77",
-      "evidenceItemIds": [
-        "news_571ad4c79e77",
-        "news_0ccc4f217b79",
-        "news_a937c2c74632",
-        "news_7e9f341a1960",
-        "news_d934d88fc62c"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_58fab29cbd69",
-      "clusterVersion": 2,
-      "title": "恒力石化：预计前三季度净利润为102.56亿元左右，同比增加104.20%左右",
-      "firstSeenAt": "2026-10-18T12:42:10.406Z",
-      "lastSeenAt": "2026-10-18T12:42:10.406Z",
-      "latestItemPublishedAt": "2026-10-18T09:19:24.000Z",
-      "primaryItemId": "news_0894a50622aa",
-      "evidenceItemIds": [
-        "news_0894a50622aa",
-        "news_d3e21db65354"
       ],
       "status": "developing",
       "summary": "",

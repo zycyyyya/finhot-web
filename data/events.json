@@ -1,20 +1,18 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-19T05:19:14.386Z",
+  "generatedAt": "2026-10-19T09:52:28.413Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
       "eventId": "event_a3c5d0364922",
       "clusterVersion": 2,
-      "title": "澜起科技(688008.SH)独立董事提议3亿元至5亿元回购公司A股股份",
+      "title": "银河证券章俊：经济长期向好基本面稳固，A股核心定价逻辑未改",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-19T05:19:14.386Z",
-      "latestItemPublishedAt": "2026-10-18T08:05:08.000Z",
-      "primaryItemId": "news_e6d4e26bd4df",
+      "lastSeenAt": "2026-10-19T09:52:28.413Z",
+      "latestItemPublishedAt": "2026-10-19T09:23:13.000Z",
+      "primaryItemId": "news_fec41667ba9a",
       "evidenceItemIds": [
-        "news_861ea390c337",
-        "news_a92872842995",
         "news_a598445a15d5",
         "news_bb996317153b",
         "news_e3e3ae145b89",
@@ -62,7 +60,9 @@
         "news_7df66d8259e6",
         "news_882b652f9cdf",
         "news_39ef69ddef34",
-        "news_fec41667ba9a"
+        "news_fec41667ba9a",
+        "news_cbccc19eb29d",
+        "news_571eaaeef0ff"
       ],
       "status": "developing",
       "summary": "澜起科技独董提议回购3亿至5亿元A股股份。",
@@ -71,13 +71,12 @@
     {
       "eventId": "event_f101880ef7bc",
       "clusterVersion": 2,
-      "title": "美股点金丨AI债务恐慌叠加油价双击！科技股动荡何时结束",
+      "title": "美股上周素描：机构创纪录地“抛”，散户创纪录地“抄”",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-19T05:19:14.386Z",
-      "latestItemPublishedAt": "2026-10-19T03:04:28.000Z",
-      "primaryItemId": "news_dfee4f8671be",
+      "lastSeenAt": "2026-10-19T09:52:28.413Z",
+      "latestItemPublishedAt": "2026-10-19T06:31:32.000Z",
+      "primaryItemId": "news_725b3854a630",
       "evidenceItemIds": [
-        "news_61bbc83b2fb2",
         "news_9592ebe5735c",
         "news_28e5a7e399fd",
         "news_8265af5f0ba7",
@@ -126,7 +125,8 @@
         "news_dfee4f8671be",
         "news_406de24f33f2",
         "news_725b3854a630",
-        "news_6fa9b55b74d7"
+        "news_6fa9b55b74d7",
+        "news_5bd7a0b497d9"
       ],
       "status": "developing",
       "summary": "MSCI新规悬顶致微策略暴跌9%，引爆美股与比特币双重下挫。",
@@ -137,11 +137,10 @@
       "clusterVersion": 2,
       "title": "港股收评：三大指数全线收涨，科技半导体AI硬件集体活跃，农行建行回调",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-10-19T05:19:14.386Z",
-      "latestItemPublishedAt": "2026-10-18T07:30:54.000Z",
+      "lastSeenAt": "2026-10-19T09:52:28.413Z",
+      "latestItemPublishedAt": "2026-10-19T07:14:55.000Z",
       "primaryItemId": "news_06bff02de933",
       "evidenceItemIds": [
-        "news_9b6d4ce3fae7",
         "news_d3774d842c2c",
         "news_e46b4ae2feba",
         "news_928215186ac9",
@@ -190,7 +189,8 @@
         "news_dc89283c90ce",
         "news_712a8ef7932f",
         "news_cd53e72ee1f7",
-        "news_cd4f68a5fdf8"
+        "news_cd4f68a5fdf8",
+        "news_d793d0adfdfe"
       ],
       "status": "developing",
       "summary": "港股三大指数全线收涨，科技半导体AI硬件活跃，农行建行回调。",
@@ -199,13 +199,12 @@
     {
       "eventId": "event_2cf716748ce1",
       "clusterVersion": 2,
-      "title": "越南央行要求贷款机构降息以支持经济增长",
+      "title": "全球主要央行政策信号分化，若民主党胜利或加剧科技股压力---W42海外宏观脱水",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-19T05:19:14.386Z",
-      "latestItemPublishedAt": "2026-10-18T09:56:53.000Z",
-      "primaryItemId": "news_2359088af44e",
+      "lastSeenAt": "2026-10-19T09:52:28.413Z",
+      "latestItemPublishedAt": "2026-10-19T08:34:42.000Z",
+      "primaryItemId": "news_f3a05a0000db",
       "evidenceItemIds": [
-        "news_0a19f837484a",
         "news_1442f3f350f0",
         "news_a4a8cb30d8e9",
         "news_92a0687cd502",
@@ -254,7 +253,8 @@
         "news_49559c45fc42",
         "news_f3a05a0000db",
         "news_2359088af44e",
-        "news_82a49203aabf"
+        "news_82a49203aabf",
+        "news_cbff58a02c03"
       ],
       "status": "developing",
       "summary": "越南央行要求贷款机构降息以支持经济增长",
@@ -263,11 +263,11 @@
     {
       "eventId": "event_6ab2a13609c6",
       "clusterVersion": 2,
-      "title": "沃什曼谷发言“偏鸽”，市场押注美联储10月按兵不动，加息概率跌破15%",
+      "title": "市场只给17%概率，经济学家却喊“五五开”：美联储10月加息悬念被严重低估？",
       "firstSeenAt": "2026-10-08T06:40:59.994Z",
-      "lastSeenAt": "2026-10-19T05:19:14.386Z",
-      "latestItemPublishedAt": "2026-10-19T01:40:23.000Z",
-      "primaryItemId": "news_c45f67c666f2",
+      "lastSeenAt": "2026-10-19T09:52:28.413Z",
+      "latestItemPublishedAt": "2026-10-19T06:40:51.000Z",
+      "primaryItemId": "news_008e37cd3794",
       "evidenceItemIds": [
         "news_1d0c31b07d1b",
         "news_ecab20992500",
@@ -300,11 +300,217 @@
         "news_84c4d894afb2",
         "news_5bcb81ff45d2",
         "news_5fe4ad6c73bb",
-        "news_4a3ba5bdafe8"
+        "news_4a3ba5bdafe8",
+        "news_008e37cd3794"
       ],
       "status": "developing",
       "summary": "沃什曼谷发言偏鸽，市场押注美联储10月按兵不动，加息概率跌破15%。",
       "latestProgress": "最新报道称，下周加息概率仅16%，华尔街提醒不应迷信市场定价，结果仍难料。"
+    },
+    {
+      "eventId": "event_1b5d7c2a0298",
+      "clusterVersion": 2,
+      "title": "金发科技：董事长提议回购3亿至5亿元股份",
+      "firstSeenAt": "2026-10-18T08:52:08.735Z",
+      "lastSeenAt": "2026-10-19T09:52:28.413Z",
+      "latestItemPublishedAt": "2026-10-19T09:28:28.000Z",
+      "primaryItemId": "news_98e9d775b4cd",
+      "evidenceItemIds": [
+        "news_056c17160982",
+        "news_c35394705e0c",
+        "news_5219c25a202f",
+        "news_98e9d775b4cd"
+      ],
+      "status": "developing",
+      "summary": "生益科技董事长提议2亿至3亿元回购股份。",
+      "latestProgress": "董事长提议回购2亿至3亿元股份，待实施。"
+    },
+    {
+      "eventId": "event_f5e6ad7b567d",
+      "clusterVersion": 2,
+      "title": "中信证券：市场对Coreweave担忧过度，新云厂商短期资金缺口“仍可承接”",
+      "firstSeenAt": "2026-10-18T12:42:10.406Z",
+      "lastSeenAt": "2026-10-19T09:52:28.413Z",
+      "latestItemPublishedAt": "2026-10-19T02:55:35.000Z",
+      "primaryItemId": "news_0be435167ba1",
+      "evidenceItemIds": [
+        "news_571ad4c79e77",
+        "news_0ccc4f217b79",
+        "news_a937c2c74632",
+        "news_7e9f341a1960",
+        "news_d934d88fc62c",
+        "news_0be435167ba1"
+      ],
+      "status": "developing",
+      "summary": "中信证券研报称A股市场调整接近尾声，行业配置价值显现。",
+      "latestProgress": "中信证券表示证券板块业绩韧性仍存，关注券商新红利价值。"
+    },
+    {
+      "eventId": "event_294387429284",
+      "clusterVersion": 2,
+      "title": "日本央行12月加息稳了？行长“鹰声”嘹亮：中东冲突和AI需求加剧通胀压力",
+      "firstSeenAt": "2026-10-16T16:49:31.035Z",
+      "lastSeenAt": "2026-10-19T09:52:28.413Z",
+      "latestItemPublishedAt": "2026-10-19T09:34:31.000Z",
+      "primaryItemId": "news_12c6c3b1ca4e",
+      "evidenceItemIds": [
+        "news_a9f7e6a7069d",
+        "news_43131ce49d34",
+        "news_67379ab3d587",
+        "news_12c6c3b1ca4e"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_c7b8ea00d72e",
+      "clusterVersion": 2,
+      "title": "1—9月份，全国房地产开发投资53364亿元，同比下降20.6%",
+      "firstSeenAt": "2026-10-19T05:19:14.386Z",
+      "lastSeenAt": "2026-10-19T09:52:28.413Z",
+      "latestItemPublishedAt": "2026-10-19T02:58:22.000Z",
+      "primaryItemId": "news_d020edd6ad15",
+      "evidenceItemIds": [
+        "news_d020edd6ad15",
+        "news_dba7855df70b",
+        "news_fa5e6f15374b"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_266d386c017b",
+      "clusterVersion": 2,
+      "title": "国家统计局：9月一线城市商品住宅销售价格环比继续上涨",
+      "firstSeenAt": "2026-10-19T05:19:14.386Z",
+      "lastSeenAt": "2026-10-19T09:52:28.413Z",
+      "latestItemPublishedAt": "2026-10-19T01:52:24.000Z",
+      "primaryItemId": "news_4ca067116d5f",
+      "evidenceItemIds": [
+        "news_4ca067116d5f",
+        "news_4a3344c8a5ee"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_3d62241bc3f8",
+      "clusterVersion": 2,
+      "title": "财联社10月19日电，投行道明考恩将恩智浦半导体目标价从290美元下调至275美元。",
+      "firstSeenAt": "2026-10-19T05:19:14.386Z",
+      "lastSeenAt": "2026-10-19T09:52:28.413Z",
+      "latestItemPublishedAt": "2026-10-19T04:09:24.000Z",
+      "primaryItemId": "news_39fe46fe53e2",
+      "evidenceItemIds": [
+        "news_39fe46fe53e2",
+        "news_8493536dd517",
+        "news_fee5ce6a7989",
+        "news_a62540c706c0"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_6c27fdb562ef",
+      "clusterVersion": 2,
+      "title": "下周资本市场大事提醒： 金融街论坛明日开幕 潘功胜、丁向群、吴清、朱鹤新将作主题演讲",
+      "firstSeenAt": "2026-10-18T16:00:26.999Z",
+      "lastSeenAt": "2026-10-19T09:52:28.413Z",
+      "latestItemPublishedAt": "2026-10-18T13:46:09.000Z",
+      "primaryItemId": "news_8c3f83b86fe3",
+      "evidenceItemIds": [
+        "news_8c3f83b86fe3",
+        "news_e6c914000306"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_7e6326bdf2f1",
+      "clusterVersion": 2,
+      "title": "3家券商、2家基金公司因在境外调研违规行为采取监管措施",
+      "firstSeenAt": "2026-10-19T09:52:28.413Z",
+      "lastSeenAt": "2026-10-19T09:52:28.413Z",
+      "latestItemPublishedAt": "2026-10-19T07:21:41.000Z",
+      "primaryItemId": "news_e077a8470704",
+      "evidenceItemIds": [
+        "news_e077a8470704",
+        "news_912e35ffb388"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_56fb9bcfb35c",
+      "clusterVersion": 2,
+      "title": "金融街论坛开幕，潘功胜：将推出非银机构大额赎回流动性支持工具",
+      "firstSeenAt": "2026-10-19T09:52:28.413Z",
+      "lastSeenAt": "2026-10-19T09:52:28.413Z",
+      "latestItemPublishedAt": "2026-10-19T08:58:30.000Z",
+      "primaryItemId": "news_a05c4a33ff9c",
+      "evidenceItemIds": [
+        "news_a05c4a33ff9c",
+        "news_ec0c7651c7c1"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_5f5343b6a9e2",
+      "clusterVersion": 2,
+      "title": "金融监管总局：稳妥处置高风险机构，推动风险持续收敛",
+      "firstSeenAt": "2026-10-19T09:52:28.413Z",
+      "lastSeenAt": "2026-10-19T09:52:28.413Z",
+      "latestItemPublishedAt": "2026-10-19T09:27:04.000Z",
+      "primaryItemId": "news_6775cbc38683",
+      "evidenceItemIds": [
+        "news_6775cbc38683",
+        "news_4f9a5d07307b",
+        "news_f37d2af33a7e"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_11e9c2a48b07",
+      "clusterVersion": 2,
+      "title": "“存储双雄”血崩之际：韩国养老基金“亏惨了”！",
+      "firstSeenAt": "2026-10-19T09:52:28.413Z",
+      "lastSeenAt": "2026-10-19T09:52:28.413Z",
+      "latestItemPublishedAt": "2026-10-19T06:14:14.000Z",
+      "primaryItemId": "news_2875980eab12",
+      "evidenceItemIds": [
+        "news_2875980eab12",
+        "news_2f93f60a31cc",
+        "news_499c2746fe94"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_a1b18c07c4ab",
+      "clusterVersion": 2,
+      "title": "国家外汇局：推出优化资本项目外汇管理一揽子政策",
+      "firstSeenAt": "2026-10-19T09:52:28.413Z",
+      "lastSeenAt": "2026-10-19T09:52:28.413Z",
+      "latestItemPublishedAt": "2026-10-19T09:44:44.000Z",
+      "primaryItemId": "news_da25a38b200e",
+      "evidenceItemIds": [
+        "news_da25a38b200e",
+        "news_18ffa3283cb8"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
     },
     {
       "eventId": "event_d0caf6dfd738",
@@ -375,23 +581,6 @@
       "latestProgress": "信达证券披露最新季报，净利润同比降幅4.83%，业绩承压。"
     },
     {
-      "eventId": "event_1b5d7c2a0298",
-      "clusterVersion": 2,
-      "title": "生益科技：董事长提议2亿元-3亿元回购股份",
-      "firstSeenAt": "2026-10-18T08:52:08.735Z",
-      "lastSeenAt": "2026-10-19T05:19:14.386Z",
-      "latestItemPublishedAt": "2026-10-18T07:35:22.000Z",
-      "primaryItemId": "news_5219c25a202f",
-      "evidenceItemIds": [
-        "news_056c17160982",
-        "news_c35394705e0c",
-        "news_5219c25a202f"
-      ],
-      "status": "developing",
-      "summary": "生益科技董事长提议2亿至3亿元回购股份。",
-      "latestProgress": "董事长提议回购2亿至3亿元股份，待实施。"
-    },
-    {
       "eventId": "event_85af27f3b689",
       "clusterVersion": 2,
       "title": "雀巢、联合利华在印度因误导性健康声明面临监管处罚",
@@ -408,25 +597,6 @@
       "latestProgress": "截至2026年10月18日，两家公司尚未回应处罚决定。"
     },
     {
-      "eventId": "event_f5e6ad7b567d",
-      "clusterVersion": 2,
-      "title": "中信证券：A股市场调整接近尾声",
-      "firstSeenAt": "2026-10-18T12:42:10.406Z",
-      "lastSeenAt": "2026-10-19T05:19:14.386Z",
-      "latestItemPublishedAt": "2026-10-18T11:07:32.000Z",
-      "primaryItemId": "news_571ad4c79e77",
-      "evidenceItemIds": [
-        "news_571ad4c79e77",
-        "news_0ccc4f217b79",
-        "news_a937c2c74632",
-        "news_7e9f341a1960",
-        "news_d934d88fc62c"
-      ],
-      "status": "developing",
-      "summary": "中信证券研报称A股市场调整接近尾声，行业配置价值显现。",
-      "latestProgress": "中信证券表示证券板块业绩韧性仍存，关注券商新红利价值。"
-    },
-    {
       "eventId": "event_58fab29cbd69",
       "clusterVersion": 2,
       "title": "恒力石化：预计前三季度净利润为102.56亿元左右，同比增加104.20%左右",
@@ -437,72 +607,6 @@
       "evidenceItemIds": [
         "news_0894a50622aa",
         "news_d3e21db65354"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_294387429284",
-      "clusterVersion": 2,
-      "title": "日本央行行长重申通胀超调风险 强调锚定2%目标重要性",
-      "firstSeenAt": "2026-10-16T16:49:31.035Z",
-      "lastSeenAt": "2026-10-19T05:19:14.386Z",
-      "latestItemPublishedAt": "2026-10-19T03:11:46.000Z",
-      "primaryItemId": "news_a9f7e6a7069d",
-      "evidenceItemIds": [
-        "news_a9f7e6a7069d",
-        "news_43131ce49d34",
-        "news_67379ab3d587"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_c7b8ea00d72e",
-      "clusterVersion": 2,
-      "title": "1—9月份，全国房地产开发投资53364亿元，同比下降20.6%",
-      "firstSeenAt": "2026-10-19T05:19:14.386Z",
-      "lastSeenAt": "2026-10-19T05:19:14.386Z",
-      "latestItemPublishedAt": "2026-10-19T02:58:22.000Z",
-      "primaryItemId": "news_d020edd6ad15",
-      "evidenceItemIds": [
-        "news_d020edd6ad15",
-        "news_dba7855df70b"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_266d386c017b",
-      "clusterVersion": 2,
-      "title": "国家统计局：9月一线城市商品住宅销售价格环比继续上涨",
-      "firstSeenAt": "2026-10-19T05:19:14.386Z",
-      "lastSeenAt": "2026-10-19T05:19:14.386Z",
-      "latestItemPublishedAt": "2026-10-19T01:52:24.000Z",
-      "primaryItemId": "news_4ca067116d5f",
-      "evidenceItemIds": [
-        "news_4ca067116d5f",
-        "news_4a3344c8a5ee"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_3d62241bc3f8",
-      "clusterVersion": 2,
-      "title": "财联社10月19日电，投行道明考恩将恩智浦半导体目标价从290美元下调至275美元。",
-      "firstSeenAt": "2026-10-19T05:19:14.386Z",
-      "lastSeenAt": "2026-10-19T05:19:14.386Z",
-      "latestItemPublishedAt": "2026-10-19T04:09:24.000Z",
-      "primaryItemId": "news_39fe46fe53e2",
-      "evidenceItemIds": [
-        "news_39fe46fe53e2",
-        "news_8493536dd517",
-        "news_fee5ce6a7989"
       ],
       "status": "developing",
       "summary": "",
@@ -523,22 +627,6 @@
       "status": "developing",
       "summary": "英国8月GDP增长0.1%，优于市场预期。",
       "latestProgress": "英国8月GDP增长0.1%，超出市场预期。"
-    },
-    {
-      "eventId": "event_6c27fdb562ef",
-      "clusterVersion": 2,
-      "title": "下周资本市场大事提醒： 金融街论坛明日开幕 潘功胜、丁向群、吴清、朱鹤新将作主题演讲",
-      "firstSeenAt": "2026-10-18T16:00:26.999Z",
-      "lastSeenAt": "2026-10-18T16:00:26.999Z",
-      "latestItemPublishedAt": "2026-10-18T13:46:09.000Z",
-      "primaryItemId": "news_8c3f83b86fe3",
-      "evidenceItemIds": [
-        "news_8c3f83b86fe3",
-        "news_e6c914000306"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
     },
     {
       "eventId": "event_81b4533a07b7",

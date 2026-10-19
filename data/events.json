@@ -1,23 +1,18 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-19T09:52:28.413Z",
+  "generatedAt": "2026-10-19T15:45:09.770Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
       "eventId": "event_a3c5d0364922",
       "clusterVersion": 2,
-      "title": "银河证券章俊：经济长期向好基本面稳固，A股核心定价逻辑未改",
+      "title": "A股午评 | 沪指涨0.16% 工行创新高 银行军工逆势走强",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-19T09:52:28.413Z",
-      "latestItemPublishedAt": "2026-10-19T09:23:13.000Z",
-      "primaryItemId": "news_fec41667ba9a",
+      "lastSeenAt": "2026-10-19T15:45:09.770Z",
+      "latestItemPublishedAt": "2026-10-19T12:51:08.000Z",
+      "primaryItemId": "news_882b652f9cdf",
       "evidenceItemIds": [
-        "news_a598445a15d5",
-        "news_bb996317153b",
-        "news_e3e3ae145b89",
-        "news_10394ba8cee2",
-        "news_a6783d46638a",
         "news_12903c117eef",
         "news_6d61e1d353ec",
         "news_13d0ca91614a",
@@ -62,7 +57,12 @@
         "news_39ef69ddef34",
         "news_fec41667ba9a",
         "news_cbccc19eb29d",
-        "news_571eaaeef0ff"
+        "news_571eaaeef0ff",
+        "news_8cdd883c651c",
+        "news_655390834f42",
+        "news_3a19acb39eb8",
+        "news_06618f6a4418",
+        "news_8ceaf5c2c9e1"
       ],
       "status": "developing",
       "summary": "澜起科技独董提议回购3亿至5亿元A股股份。",
@@ -71,16 +71,12 @@
     {
       "eventId": "event_f101880ef7bc",
       "clusterVersion": 2,
-      "title": "美股上周素描：机构创纪录地“抛”，散户创纪录地“抄”",
+      "title": "美股异动 | 与SpaceX合并传闻升温 特斯拉(TSLA.US)涨逾3%",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-19T09:52:28.413Z",
-      "latestItemPublishedAt": "2026-10-19T06:31:32.000Z",
-      "primaryItemId": "news_725b3854a630",
+      "lastSeenAt": "2026-10-19T15:45:09.770Z",
+      "latestItemPublishedAt": "2026-10-19T15:06:13.000Z",
+      "primaryItemId": "news_07a62ddbb05c",
       "evidenceItemIds": [
-        "news_9592ebe5735c",
-        "news_28e5a7e399fd",
-        "news_8265af5f0ba7",
-        "news_aa1f2402e9e7",
         "news_29f14bb7387e",
         "news_a8d09cf4fa54",
         "news_e5535c0f1857",
@@ -126,7 +122,11 @@
         "news_406de24f33f2",
         "news_725b3854a630",
         "news_6fa9b55b74d7",
-        "news_5bd7a0b497d9"
+        "news_5bd7a0b497d9",
+        "news_07a62ddbb05c",
+        "news_a39328118ac2",
+        "news_a95244cfe337",
+        "news_cf3ddfea6f0e"
       ],
       "status": "developing",
       "summary": "MSCI新规悬顶致微策略暴跌9%，引爆美股与比特币双重下挫。",
@@ -137,7 +137,7 @@
       "clusterVersion": 2,
       "title": "港股收评：三大指数全线收涨，科技半导体AI硬件集体活跃，农行建行回调",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-10-19T09:52:28.413Z",
+      "lastSeenAt": "2026-10-19T15:45:09.770Z",
       "latestItemPublishedAt": "2026-10-19T07:14:55.000Z",
       "primaryItemId": "news_06bff02de933",
       "evidenceItemIds": [
@@ -199,14 +199,12 @@
     {
       "eventId": "event_2cf716748ce1",
       "clusterVersion": 2,
-      "title": "全球主要央行政策信号分化，若民主党胜利或加剧科技股压力---W42海外宏观脱水",
+      "title": "央行宣布多项新政：设立非银大额赎回流动性支持工具、SLF扩围",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-19T09:52:28.413Z",
-      "latestItemPublishedAt": "2026-10-19T08:34:42.000Z",
-      "primaryItemId": "news_f3a05a0000db",
+      "lastSeenAt": "2026-10-19T15:45:09.770Z",
+      "latestItemPublishedAt": "2026-10-19T12:51:37.000Z",
+      "primaryItemId": "news_4b83ded2e166",
       "evidenceItemIds": [
-        "news_1442f3f350f0",
-        "news_a4a8cb30d8e9",
         "news_92a0687cd502",
         "news_a65ee7317b4d",
         "news_1ec27da9d574",
@@ -254,7 +252,9 @@
         "news_f3a05a0000db",
         "news_2359088af44e",
         "news_82a49203aabf",
-        "news_cbff58a02c03"
+        "news_cbff58a02c03",
+        "news_4b83ded2e166",
+        "news_7af241171939"
       ],
       "status": "developing",
       "summary": "越南央行要求贷款机构降息以支持经济增长",
@@ -265,7 +265,7 @@
       "clusterVersion": 2,
       "title": "市场只给17%概率，经济学家却喊“五五开”：美联储10月加息悬念被严重低估？",
       "firstSeenAt": "2026-10-08T06:40:59.994Z",
-      "lastSeenAt": "2026-10-19T09:52:28.413Z",
+      "lastSeenAt": "2026-10-19T15:45:09.770Z",
       "latestItemPublishedAt": "2026-10-19T06:40:51.000Z",
       "primaryItemId": "news_008e37cd3794",
       "evidenceItemIds": [
@@ -312,7 +312,7 @@
       "clusterVersion": 2,
       "title": "金发科技：董事长提议回购3亿至5亿元股份",
       "firstSeenAt": "2026-10-18T08:52:08.735Z",
-      "lastSeenAt": "2026-10-19T09:52:28.413Z",
+      "lastSeenAt": "2026-10-19T15:45:09.770Z",
       "latestItemPublishedAt": "2026-10-19T09:28:28.000Z",
       "primaryItemId": "news_98e9d775b4cd",
       "evidenceItemIds": [
@@ -324,6 +324,197 @@
       "status": "developing",
       "summary": "生益科技董事长提议2亿至3亿元回购股份。",
       "latestProgress": "董事长提议回购2亿至3亿元股份，待实施。"
+    },
+    {
+      "eventId": "event_294387429284",
+      "clusterVersion": 2,
+      "title": "日本央行12月加息稳了？行长“鹰声”嘹亮：中东冲突和AI需求加剧通胀压力",
+      "firstSeenAt": "2026-10-16T16:49:31.035Z",
+      "lastSeenAt": "2026-10-19T15:45:09.770Z",
+      "latestItemPublishedAt": "2026-10-19T09:34:31.000Z",
+      "primaryItemId": "news_12c6c3b1ca4e",
+      "evidenceItemIds": [
+        "news_a9f7e6a7069d",
+        "news_43131ce49d34",
+        "news_67379ab3d587",
+        "news_12c6c3b1ca4e"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_c7b8ea00d72e",
+      "clusterVersion": 2,
+      "title": "国家统计局：1—9月份全国房地产开发投资53364亿元 同比下降20.6%",
+      "firstSeenAt": "2026-10-19T05:19:14.386Z",
+      "lastSeenAt": "2026-10-19T15:45:09.770Z",
+      "latestItemPublishedAt": "2026-10-19T02:58:22.000Z",
+      "primaryItemId": "news_dba7855df70b",
+      "evidenceItemIds": [
+        "news_d020edd6ad15",
+        "news_dba7855df70b",
+        "news_fa5e6f15374b"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_3d62241bc3f8",
+      "clusterVersion": 2,
+      "title": "财联社10月19日电，投行道明考恩将恩智浦半导体目标价从290美元下调至275美元。",
+      "firstSeenAt": "2026-10-19T05:19:14.386Z",
+      "lastSeenAt": "2026-10-19T15:45:09.770Z",
+      "latestItemPublishedAt": "2026-10-19T04:09:24.000Z",
+      "primaryItemId": "news_39fe46fe53e2",
+      "evidenceItemIds": [
+        "news_39fe46fe53e2",
+        "news_8493536dd517",
+        "news_fee5ce6a7989",
+        "news_a62540c706c0"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_7e6326bdf2f1",
+      "clusterVersion": 2,
+      "title": "3家券商、2家基金公司因在境外调研违规行为采取监管措施",
+      "firstSeenAt": "2026-10-19T09:52:28.413Z",
+      "lastSeenAt": "2026-10-19T15:45:09.770Z",
+      "latestItemPublishedAt": "2026-10-19T07:21:41.000Z",
+      "primaryItemId": "news_e077a8470704",
+      "evidenceItemIds": [
+        "news_e077a8470704",
+        "news_912e35ffb388"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_56fb9bcfb35c",
+      "clusterVersion": 2,
+      "title": "金融街论坛开幕，潘功胜：将推出非银机构大额赎回流动性支持工具",
+      "firstSeenAt": "2026-10-19T09:52:28.413Z",
+      "lastSeenAt": "2026-10-19T15:45:09.770Z",
+      "latestItemPublishedAt": "2026-10-19T08:58:30.000Z",
+      "primaryItemId": "news_a05c4a33ff9c",
+      "evidenceItemIds": [
+        "news_a05c4a33ff9c",
+        "news_ec0c7651c7c1"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_5f5343b6a9e2",
+      "clusterVersion": 2,
+      "title": "金融监管总局：依法将所有金融活动全部纳入监管，加力推动中国银行业保险业转型升级",
+      "firstSeenAt": "2026-10-19T09:52:28.413Z",
+      "lastSeenAt": "2026-10-19T15:45:09.770Z",
+      "latestItemPublishedAt": "2026-10-19T12:33:18.000Z",
+      "primaryItemId": "news_ee6b839be035",
+      "evidenceItemIds": [
+        "news_6775cbc38683",
+        "news_4f9a5d07307b",
+        "news_f37d2af33a7e",
+        "news_ee6b839be035",
+        "news_d8ca42d828c6"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_11e9c2a48b07",
+      "clusterVersion": 2,
+      "title": "“存储双雄”血崩之际：韩国养老基金“亏惨了”！",
+      "firstSeenAt": "2026-10-19T09:52:28.413Z",
+      "lastSeenAt": "2026-10-19T15:45:09.770Z",
+      "latestItemPublishedAt": "2026-10-19T06:14:14.000Z",
+      "primaryItemId": "news_2875980eab12",
+      "evidenceItemIds": [
+        "news_2875980eab12",
+        "news_2f93f60a31cc",
+        "news_499c2746fe94"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_a1b18c07c4ab",
+      "clusterVersion": 2,
+      "title": "国家外汇局：推出优化资本项目外汇管理一揽子政策",
+      "firstSeenAt": "2026-10-19T09:52:28.413Z",
+      "lastSeenAt": "2026-10-19T15:45:09.770Z",
+      "latestItemPublishedAt": "2026-10-19T09:44:44.000Z",
+      "primaryItemId": "news_da25a38b200e",
+      "evidenceItemIds": [
+        "news_da25a38b200e",
+        "news_18ffa3283cb8"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_81b4533a07b7",
+      "clusterVersion": 2,
+      "title": "中国人民银行等多部门印发《关于金融支持建设北京（京津冀）、上海（长三角）、粤港澳大湾区国际科技创新中心的指导意见》",
+      "firstSeenAt": "2026-10-16T13:24:13.606Z",
+      "lastSeenAt": "2026-10-19T15:45:09.770Z",
+      "latestItemPublishedAt": "2026-10-19T10:22:29.000Z",
+      "primaryItemId": "news_c213992e96c7",
+      "evidenceItemIds": [
+        "news_77c515effb50",
+        "news_51e583dd66f5",
+        "news_55e2bc85a0aa",
+        "news_4c16de83a5f7",
+        "news_c213992e96c7"
+      ],
+      "status": "developing",
+      "summary": "中国人民银行行长潘功胜会见欧盟财经高层官员。",
+      "latestProgress": "潘功胜会见欧盟委员会及欧洲央行等高层。"
+    },
+    {
+      "eventId": "event_81903830edd9",
+      "clusterVersion": 2,
+      "title": "中国证监会就《证券市场先行赔付指导意见》公开征求意见",
+      "firstSeenAt": "2026-10-19T15:45:09.770Z",
+      "lastSeenAt": "2026-10-19T15:45:09.770Z",
+      "latestItemPublishedAt": "2026-10-19T10:59:07.000Z",
+      "primaryItemId": "news_c61e8342121c",
+      "evidenceItemIds": [
+        "news_c61e8342121c",
+        "news_b086a9025dff",
+        "news_6d9f484df45b",
+        "news_02e4f032d1a6",
+        "news_29d1bc110417"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_bece15c73ba8",
+      "clusterVersion": 2,
+      "title": "潘功胜：公开市场隔夜回购利率将成为主要政策利率",
+      "firstSeenAt": "2026-10-19T15:45:09.770Z",
+      "lastSeenAt": "2026-10-19T15:45:09.770Z",
+      "latestItemPublishedAt": "2026-10-19T12:14:46.000Z",
+      "primaryItemId": "news_10d0c3a17b8f",
+      "evidenceItemIds": [
+        "news_10d0c3a17b8f",
+        "news_7fd836317332"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
     },
     {
       "eventId": "event_f5e6ad7b567d",
@@ -346,41 +537,6 @@
       "latestProgress": "中信证券表示证券板块业绩韧性仍存，关注券商新红利价值。"
     },
     {
-      "eventId": "event_294387429284",
-      "clusterVersion": 2,
-      "title": "日本央行12月加息稳了？行长“鹰声”嘹亮：中东冲突和AI需求加剧通胀压力",
-      "firstSeenAt": "2026-10-16T16:49:31.035Z",
-      "lastSeenAt": "2026-10-19T09:52:28.413Z",
-      "latestItemPublishedAt": "2026-10-19T09:34:31.000Z",
-      "primaryItemId": "news_12c6c3b1ca4e",
-      "evidenceItemIds": [
-        "news_a9f7e6a7069d",
-        "news_43131ce49d34",
-        "news_67379ab3d587",
-        "news_12c6c3b1ca4e"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_c7b8ea00d72e",
-      "clusterVersion": 2,
-      "title": "1—9月份，全国房地产开发投资53364亿元，同比下降20.6%",
-      "firstSeenAt": "2026-10-19T05:19:14.386Z",
-      "lastSeenAt": "2026-10-19T09:52:28.413Z",
-      "latestItemPublishedAt": "2026-10-19T02:58:22.000Z",
-      "primaryItemId": "news_d020edd6ad15",
-      "evidenceItemIds": [
-        "news_d020edd6ad15",
-        "news_dba7855df70b",
-        "news_fa5e6f15374b"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
       "eventId": "event_266d386c017b",
       "clusterVersion": 2,
       "title": "国家统计局：9月一线城市商品住宅销售价格环比继续上涨",
@@ -397,24 +553,6 @@
       "latestProgress": ""
     },
     {
-      "eventId": "event_3d62241bc3f8",
-      "clusterVersion": 2,
-      "title": "财联社10月19日电，投行道明考恩将恩智浦半导体目标价从290美元下调至275美元。",
-      "firstSeenAt": "2026-10-19T05:19:14.386Z",
-      "lastSeenAt": "2026-10-19T09:52:28.413Z",
-      "latestItemPublishedAt": "2026-10-19T04:09:24.000Z",
-      "primaryItemId": "news_39fe46fe53e2",
-      "evidenceItemIds": [
-        "news_39fe46fe53e2",
-        "news_8493536dd517",
-        "news_fee5ce6a7989",
-        "news_a62540c706c0"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
       "eventId": "event_6c27fdb562ef",
       "clusterVersion": 2,
       "title": "下周资本市场大事提醒： 金融街论坛明日开幕 潘功胜、丁向群、吴清、朱鹤新将作主题演讲",
@@ -425,88 +563,6 @@
       "evidenceItemIds": [
         "news_8c3f83b86fe3",
         "news_e6c914000306"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_7e6326bdf2f1",
-      "clusterVersion": 2,
-      "title": "3家券商、2家基金公司因在境外调研违规行为采取监管措施",
-      "firstSeenAt": "2026-10-19T09:52:28.413Z",
-      "lastSeenAt": "2026-10-19T09:52:28.413Z",
-      "latestItemPublishedAt": "2026-10-19T07:21:41.000Z",
-      "primaryItemId": "news_e077a8470704",
-      "evidenceItemIds": [
-        "news_e077a8470704",
-        "news_912e35ffb388"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_56fb9bcfb35c",
-      "clusterVersion": 2,
-      "title": "金融街论坛开幕，潘功胜：将推出非银机构大额赎回流动性支持工具",
-      "firstSeenAt": "2026-10-19T09:52:28.413Z",
-      "lastSeenAt": "2026-10-19T09:52:28.413Z",
-      "latestItemPublishedAt": "2026-10-19T08:58:30.000Z",
-      "primaryItemId": "news_a05c4a33ff9c",
-      "evidenceItemIds": [
-        "news_a05c4a33ff9c",
-        "news_ec0c7651c7c1"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_5f5343b6a9e2",
-      "clusterVersion": 2,
-      "title": "金融监管总局：稳妥处置高风险机构，推动风险持续收敛",
-      "firstSeenAt": "2026-10-19T09:52:28.413Z",
-      "lastSeenAt": "2026-10-19T09:52:28.413Z",
-      "latestItemPublishedAt": "2026-10-19T09:27:04.000Z",
-      "primaryItemId": "news_6775cbc38683",
-      "evidenceItemIds": [
-        "news_6775cbc38683",
-        "news_4f9a5d07307b",
-        "news_f37d2af33a7e"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_11e9c2a48b07",
-      "clusterVersion": 2,
-      "title": "“存储双雄”血崩之际：韩国养老基金“亏惨了”！",
-      "firstSeenAt": "2026-10-19T09:52:28.413Z",
-      "lastSeenAt": "2026-10-19T09:52:28.413Z",
-      "latestItemPublishedAt": "2026-10-19T06:14:14.000Z",
-      "primaryItemId": "news_2875980eab12",
-      "evidenceItemIds": [
-        "news_2875980eab12",
-        "news_2f93f60a31cc",
-        "news_499c2746fe94"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_a1b18c07c4ab",
-      "clusterVersion": 2,
-      "title": "国家外汇局：推出优化资本项目外汇管理一揽子政策",
-      "firstSeenAt": "2026-10-19T09:52:28.413Z",
-      "lastSeenAt": "2026-10-19T09:52:28.413Z",
-      "latestItemPublishedAt": "2026-10-19T09:44:44.000Z",
-      "primaryItemId": "news_da25a38b200e",
-      "evidenceItemIds": [
-        "news_da25a38b200e",
-        "news_18ffa3283cb8"
       ],
       "status": "developing",
       "summary": "",
@@ -627,24 +683,6 @@
       "status": "developing",
       "summary": "英国8月GDP增长0.1%，优于市场预期。",
       "latestProgress": "英国8月GDP增长0.1%，超出市场预期。"
-    },
-    {
-      "eventId": "event_81b4533a07b7",
-      "clusterVersion": 2,
-      "title": "中国人民银行行长潘功胜会见欧盟委员会经济和生产力委员东布罗夫斯基斯、欧洲中央银行行长拉加德、欧元集团主席皮埃拉卡基斯及欧",
-      "firstSeenAt": "2026-10-16T13:24:13.606Z",
-      "lastSeenAt": "2026-10-18T12:42:10.406Z",
-      "latestItemPublishedAt": "2026-10-17T10:11:24.000Z",
-      "primaryItemId": "news_77c515effb50",
-      "evidenceItemIds": [
-        "news_77c515effb50",
-        "news_51e583dd66f5",
-        "news_55e2bc85a0aa",
-        "news_4c16de83a5f7"
-      ],
-      "status": "developing",
-      "summary": "中国人民银行行长潘功胜会见欧盟财经高层官员。",
-      "latestProgress": "潘功胜会见欧盟委员会及欧洲央行等高层。"
     },
     {
       "eventId": "event_fdd1284ff76d",

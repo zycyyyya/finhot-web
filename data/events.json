@@ -1,23 +1,18 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-18T16:00:26.999Z",
+  "generatedAt": "2026-10-19T05:19:14.386Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
       "eventId": "event_a3c5d0364922",
       "clusterVersion": 2,
-      "title": "机构论后市丨A股短期可能见底，关注科技成长短期超跌后的修复机会",
+      "title": "澜起科技(688008.SH)独立董事提议3亿元至5亿元回购公司A股股份",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-18T16:00:26.999Z",
-      "latestItemPublishedAt": "2026-10-18T12:48:30.000Z",
-      "primaryItemId": "news_c3d4c0cc9d6e",
+      "lastSeenAt": "2026-10-19T05:19:14.386Z",
+      "latestItemPublishedAt": "2026-10-18T08:05:08.000Z",
+      "primaryItemId": "news_e6d4e26bd4df",
       "evidenceItemIds": [
-        "news_25f15cb075f3",
-        "news_28a96594e500",
-        "news_7acc221d8aae",
-        "news_254d7c3cee8d",
-        "news_3cc7bb01f717",
         "news_861ea390c337",
         "news_a92872842995",
         "news_a598445a15d5",
@@ -62,23 +57,26 @@
         "news_8893d7dd69b8",
         "news_8daadc6735a0",
         "news_03213b6bd1f8",
-        "news_7a65363ab7ad"
+        "news_7a65363ab7ad",
+        "news_2ddd0acae0b2",
+        "news_7df66d8259e6",
+        "news_882b652f9cdf",
+        "news_39ef69ddef34",
+        "news_fec41667ba9a"
       ],
       "status": "developing",
-      "summary": "A股九月震荡调整，成长承压防御抬升。",
-      "latestProgress": "十月A股性价比提升，上市公司积极回购。"
+      "summary": "澜起科技独董提议回购3亿至5亿元A股股份。",
+      "latestProgress": "A股再掀护盘行动，单周回购增持超30亿元。"
     },
     {
       "eventId": "event_f101880ef7bc",
       "clusterVersion": 2,
       "title": "美股点金丨AI债务恐慌叠加油价双击！科技股动荡何时结束",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-18T16:00:26.999Z",
-      "latestItemPublishedAt": "2026-10-18T09:07:00.000Z",
+      "lastSeenAt": "2026-10-19T05:19:14.386Z",
+      "latestItemPublishedAt": "2026-10-19T03:04:28.000Z",
       "primaryItemId": "news_dfee4f8671be",
       "evidenceItemIds": [
-        "news_ff0e3a8d634b",
-        "news_cf97ade448a2",
         "news_61bbc83b2fb2",
         "news_9592ebe5735c",
         "news_28e5a7e399fd",
@@ -126,7 +124,9 @@
         "news_3e14b6e5e7d9",
         "news_3f4f9afe6859",
         "news_dfee4f8671be",
-        "news_406de24f33f2"
+        "news_406de24f33f2",
+        "news_725b3854a630",
+        "news_6fa9b55b74d7"
       ],
       "status": "developing",
       "summary": "MSCI新规悬顶致微策略暴跌9%，引爆美股与比特币双重下挫。",
@@ -137,7 +137,7 @@
       "clusterVersion": 2,
       "title": "港股收评：三大指数全线收涨，科技半导体AI硬件集体活跃，农行建行回调",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-10-18T16:00:26.999Z",
+      "lastSeenAt": "2026-10-19T05:19:14.386Z",
       "latestItemPublishedAt": "2026-10-18T07:30:54.000Z",
       "primaryItemId": "news_06bff02de933",
       "evidenceItemIds": [
@@ -199,13 +199,12 @@
     {
       "eventId": "event_2cf716748ce1",
       "clusterVersion": 2,
-      "title": "全球主要央行政策信号分化，若民主党胜利或加剧科技股压力---W42海外宏观脱水",
+      "title": "越南央行要求贷款机构降息以支持经济增长",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-18T16:00:26.999Z",
+      "lastSeenAt": "2026-10-19T05:19:14.386Z",
       "latestItemPublishedAt": "2026-10-18T09:56:53.000Z",
-      "primaryItemId": "news_f3a05a0000db",
+      "primaryItemId": "news_2359088af44e",
       "evidenceItemIds": [
-        "news_ab4f531b05fb",
         "news_0a19f837484a",
         "news_1442f3f350f0",
         "news_a4a8cb30d8e9",
@@ -254,20 +253,21 @@
         "news_3b1d64d6ce2b",
         "news_49559c45fc42",
         "news_f3a05a0000db",
-        "news_2359088af44e"
+        "news_2359088af44e",
+        "news_82a49203aabf"
       ],
       "status": "developing",
-      "summary": "央行规范银行间债券发行，禁止发行人认购或变相认购自身债券。",
-      "latestProgress": "央行发布规定，禁止发行人认购或变相认购自身债券。"
+      "summary": "越南央行要求贷款机构降息以支持经济增长",
+      "latestProgress": "根据十月十八日报道，暂无进一步消息"
     },
     {
       "eventId": "event_6ab2a13609c6",
       "clusterVersion": 2,
-      "title": "盛松成：美联储利率路径仍有不确定性",
+      "title": "沃什曼谷发言“偏鸽”，市场押注美联储10月按兵不动，加息概率跌破15%",
       "firstSeenAt": "2026-10-08T06:40:59.994Z",
-      "lastSeenAt": "2026-10-18T16:00:26.999Z",
-      "latestItemPublishedAt": "2026-10-17T09:42:11.000Z",
-      "primaryItemId": "news_5fe4ad6c73bb",
+      "lastSeenAt": "2026-10-19T05:19:14.386Z",
+      "latestItemPublishedAt": "2026-10-19T01:40:23.000Z",
+      "primaryItemId": "news_c45f67c666f2",
       "evidenceItemIds": [
         "news_1d0c31b07d1b",
         "news_ecab20992500",
@@ -299,34 +299,19 @@
         "news_c45f67c666f2",
         "news_84c4d894afb2",
         "news_5bcb81ff45d2",
-        "news_5fe4ad6c73bb"
+        "news_5fe4ad6c73bb",
+        "news_4a3ba5bdafe8"
       ],
       "status": "developing",
       "summary": "沃什曼谷发言偏鸽，市场押注美联储10月按兵不动，加息概率跌破15%。",
-      "latestProgress": "巴克莱预计美联储12月和1月加息。"
-    },
-    {
-      "eventId": "event_6c181cb4a375",
-      "clusterVersion": 2,
-      "title": "英国8月GDP增长0.1%，超出市场预期",
-      "firstSeenAt": "2026-10-15T09:09:25.906Z",
-      "lastSeenAt": "2026-10-18T16:00:26.999Z",
-      "latestItemPublishedAt": "2026-10-15T06:40:09.000Z",
-      "primaryItemId": "news_9af44bf9b863",
-      "evidenceItemIds": [
-        "news_9af44bf9b863",
-        "news_1e03655a7143"
-      ],
-      "status": "developing",
-      "summary": "英国8月GDP增长0.1%，优于市场预期。",
-      "latestProgress": "英国8月GDP增长0.1%，超出市场预期。"
+      "latestProgress": "最新报道称，下周加息概率仅16%，华尔街提醒不应迷信市场定价，结果仍难料。"
     },
     {
       "eventId": "event_d0caf6dfd738",
       "clusterVersion": 2,
       "title": "欧洲央行行长：欧元区通胀率创新高但不必惊慌",
       "firstSeenAt": "2026-10-16T05:04:10.403Z",
-      "lastSeenAt": "2026-10-18T16:00:26.999Z",
+      "lastSeenAt": "2026-10-19T05:19:14.386Z",
       "latestItemPublishedAt": "2026-10-18T06:23:58.000Z",
       "primaryItemId": "news_0023d6611567",
       "evidenceItemIds": [
@@ -346,7 +331,7 @@
       "clusterVersion": 2,
       "title": "全球贸易迈入三维重构，WTO首席经济学家答一财：呼吁打造“韧性”供应链",
       "firstSeenAt": "2026-10-18T05:03:56.332Z",
-      "lastSeenAt": "2026-10-18T16:00:26.999Z",
+      "lastSeenAt": "2026-10-19T05:19:14.386Z",
       "latestItemPublishedAt": "2026-10-18T04:07:19.000Z",
       "primaryItemId": "news_b1af5e1afee4",
       "evidenceItemIds": [
@@ -362,7 +347,7 @@
       "clusterVersion": 2,
       "title": "东兴证券(601198.SH)发布前三季度业绩，归母净利润16.11亿元，同比增长0.75%",
       "firstSeenAt": "2026-10-18T08:52:08.735Z",
-      "lastSeenAt": "2026-10-18T16:00:26.999Z",
+      "lastSeenAt": "2026-10-19T05:19:14.386Z",
       "latestItemPublishedAt": "2026-10-18T08:05:06.000Z",
       "primaryItemId": "news_ce6ab892abad",
       "evidenceItemIds": [
@@ -378,7 +363,7 @@
       "clusterVersion": 2,
       "title": "信达证券(601059.SH)发布前三季度业绩，归母净利润12.88亿元，同比下降4.83%",
       "firstSeenAt": "2026-10-18T08:52:08.735Z",
-      "lastSeenAt": "2026-10-18T16:00:26.999Z",
+      "lastSeenAt": "2026-10-19T05:19:14.386Z",
       "latestItemPublishedAt": "2026-10-18T08:05:07.000Z",
       "primaryItemId": "news_c73ac7663825",
       "evidenceItemIds": [
@@ -386,31 +371,32 @@
         "news_ec1cd4d5d5c3"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "信达证券前三季度归母净利润12.88亿元，同比下降4.83%。",
+      "latestProgress": "信达证券披露最新季报，净利润同比降幅4.83%，业绩承压。"
     },
     {
       "eventId": "event_1b5d7c2a0298",
       "clusterVersion": 2,
-      "title": "生益科技：董事长提议回购2亿至3亿元股份",
+      "title": "生益科技：董事长提议2亿元-3亿元回购股份",
       "firstSeenAt": "2026-10-18T08:52:08.735Z",
-      "lastSeenAt": "2026-10-18T16:00:26.999Z",
+      "lastSeenAt": "2026-10-19T05:19:14.386Z",
       "latestItemPublishedAt": "2026-10-18T07:35:22.000Z",
-      "primaryItemId": "news_056c17160982",
+      "primaryItemId": "news_5219c25a202f",
       "evidenceItemIds": [
         "news_056c17160982",
-        "news_c35394705e0c"
+        "news_c35394705e0c",
+        "news_5219c25a202f"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "生益科技董事长提议2亿至3亿元回购股份。",
+      "latestProgress": "董事长提议回购2亿至3亿元股份，待实施。"
     },
     {
       "eventId": "event_85af27f3b689",
       "clusterVersion": 2,
       "title": "雀巢、联合利华在印度因误导性健康声明面临监管处罚",
       "firstSeenAt": "2026-10-18T08:52:08.735Z",
-      "lastSeenAt": "2026-10-18T16:00:26.999Z",
+      "lastSeenAt": "2026-10-19T05:19:14.386Z",
       "latestItemPublishedAt": "2026-10-18T07:40:53.000Z",
       "primaryItemId": "news_6be83cf61ed2",
       "evidenceItemIds": [
@@ -418,16 +404,16 @@
         "news_8d3d6faefbe1"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "雀巢、联合利华在印度因误导性健康声明面临监管处罚。",
+      "latestProgress": "截至2026年10月18日，两家公司尚未回应处罚决定。"
     },
     {
       "eventId": "event_f5e6ad7b567d",
       "clusterVersion": 2,
       "title": "中信证券：A股市场调整接近尾声",
       "firstSeenAt": "2026-10-18T12:42:10.406Z",
-      "lastSeenAt": "2026-10-18T16:00:26.999Z",
-      "latestItemPublishedAt": "2026-10-18T11:35:06.000Z",
+      "lastSeenAt": "2026-10-19T05:19:14.386Z",
+      "latestItemPublishedAt": "2026-10-18T11:07:32.000Z",
       "primaryItemId": "news_571ad4c79e77",
       "evidenceItemIds": [
         "news_571ad4c79e77",
@@ -437,15 +423,15 @@
         "news_d934d88fc62c"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "中信证券研报称A股市场调整接近尾声，行业配置价值显现。",
+      "latestProgress": "中信证券表示证券板块业绩韧性仍存，关注券商新红利价值。"
     },
     {
       "eventId": "event_58fab29cbd69",
       "clusterVersion": 2,
       "title": "恒力石化：预计前三季度净利润为102.56亿元左右，同比增加104.20%左右",
       "firstSeenAt": "2026-10-18T12:42:10.406Z",
-      "lastSeenAt": "2026-10-18T16:00:26.999Z",
+      "lastSeenAt": "2026-10-19T05:19:14.386Z",
       "latestItemPublishedAt": "2026-10-18T09:19:24.000Z",
       "primaryItemId": "news_0894a50622aa",
       "evidenceItemIds": [
@@ -455,6 +441,88 @@
       "status": "developing",
       "summary": "",
       "latestProgress": ""
+    },
+    {
+      "eventId": "event_294387429284",
+      "clusterVersion": 2,
+      "title": "日本央行行长重申通胀超调风险 强调锚定2%目标重要性",
+      "firstSeenAt": "2026-10-16T16:49:31.035Z",
+      "lastSeenAt": "2026-10-19T05:19:14.386Z",
+      "latestItemPublishedAt": "2026-10-19T03:11:46.000Z",
+      "primaryItemId": "news_a9f7e6a7069d",
+      "evidenceItemIds": [
+        "news_a9f7e6a7069d",
+        "news_43131ce49d34",
+        "news_67379ab3d587"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_c7b8ea00d72e",
+      "clusterVersion": 2,
+      "title": "1—9月份，全国房地产开发投资53364亿元，同比下降20.6%",
+      "firstSeenAt": "2026-10-19T05:19:14.386Z",
+      "lastSeenAt": "2026-10-19T05:19:14.386Z",
+      "latestItemPublishedAt": "2026-10-19T02:58:22.000Z",
+      "primaryItemId": "news_d020edd6ad15",
+      "evidenceItemIds": [
+        "news_d020edd6ad15",
+        "news_dba7855df70b"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_266d386c017b",
+      "clusterVersion": 2,
+      "title": "国家统计局：9月一线城市商品住宅销售价格环比继续上涨",
+      "firstSeenAt": "2026-10-19T05:19:14.386Z",
+      "lastSeenAt": "2026-10-19T05:19:14.386Z",
+      "latestItemPublishedAt": "2026-10-19T01:52:24.000Z",
+      "primaryItemId": "news_4ca067116d5f",
+      "evidenceItemIds": [
+        "news_4ca067116d5f",
+        "news_4a3344c8a5ee"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_3d62241bc3f8",
+      "clusterVersion": 2,
+      "title": "财联社10月19日电，投行道明考恩将恩智浦半导体目标价从290美元下调至275美元。",
+      "firstSeenAt": "2026-10-19T05:19:14.386Z",
+      "lastSeenAt": "2026-10-19T05:19:14.386Z",
+      "latestItemPublishedAt": "2026-10-19T04:09:24.000Z",
+      "primaryItemId": "news_39fe46fe53e2",
+      "evidenceItemIds": [
+        "news_39fe46fe53e2",
+        "news_8493536dd517",
+        "news_fee5ce6a7989"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_6c181cb4a375",
+      "clusterVersion": 2,
+      "title": "英国8月GDP增长0.1%，超出市场预期",
+      "firstSeenAt": "2026-10-15T09:09:25.906Z",
+      "lastSeenAt": "2026-10-18T16:00:26.999Z",
+      "latestItemPublishedAt": "2026-10-15T06:40:09.000Z",
+      "primaryItemId": "news_9af44bf9b863",
+      "evidenceItemIds": [
+        "news_9af44bf9b863",
+        "news_1e03655a7143"
+      ],
+      "status": "developing",
+      "summary": "英国8月GDP增长0.1%，优于市场预期。",
+      "latestProgress": "英国8月GDP增长0.1%，超出市场预期。"
     },
     {
       "eventId": "event_6c27fdb562ef",
@@ -553,22 +621,6 @@
       "evidenceItemIds": [
         "news_5219c25a202f",
         "news_39ef69ddef34"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_294387429284",
-      "clusterVersion": 2,
-      "title": "日本央行行长重申通胀超调风险 强调锚定2%目标重要性",
-      "firstSeenAt": "2026-10-16T16:49:31.035Z",
-      "lastSeenAt": "2026-10-18T05:03:56.332Z",
-      "latestItemPublishedAt": "2026-10-16T15:27:54.000Z",
-      "primaryItemId": "news_a9f7e6a7069d",
-      "evidenceItemIds": [
-        "news_a9f7e6a7069d",
-        "news_43131ce49d34"
       ],
       "status": "developing",
       "summary": "",

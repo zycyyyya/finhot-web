@@ -1,17 +1,17 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-20T13:42:04.100Z",
+  "generatedAt": "2026-10-20T17:21:17.260Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
       "eventId": "event_a3c5d0364922",
       "clusterVersion": 2,
-      "title": "A股风格切换将至？AI科技牛市临近尾声？听徐小庆分享股债汇市场最新洞察，推演四季度配置逻辑",
+      "title": "A股半导体概念午后震荡反弹，摩尔线程涨超10%，翱捷科技、云天励飞、沐曦股份、芯原股份等跟涨。",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-20T13:42:04.100Z",
+      "lastSeenAt": "2026-10-20T17:21:17.260Z",
       "latestItemPublishedAt": "2026-10-20T13:13:06.000Z",
-      "primaryItemId": "news_52b141ccd419",
+      "primaryItemId": "news_f75191e41f77",
       "evidenceItemIds": [
         "news_cbf963d19f7f",
         "news_e0c67768f1a8",
@@ -71,13 +71,12 @@
     {
       "eventId": "event_f101880ef7bc",
       "clusterVersion": 2,
-      "title": "谁在为美股加杠杆？",
+      "title": "CoreWeave一度涨超5.3%，美股盘初曾跌超6.3%。 美股AI软件先驱指数涨幅扩大至1.1%，AI赢家指数涨幅一",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-20T13:42:04.100Z",
-      "latestItemPublishedAt": "2026-10-20T13:31:02.000Z",
-      "primaryItemId": "news_54801b02a622",
+      "lastSeenAt": "2026-10-20T17:21:17.260Z",
+      "latestItemPublishedAt": "2026-10-20T14:57:13.000Z",
+      "primaryItemId": "news_e6d35a91a0bc",
       "evidenceItemIds": [
-        "news_2e59f6c91737",
         "news_74a59a115b21",
         "news_3e435a05226b",
         "news_ae7d259eba2e",
@@ -126,7 +125,8 @@
         "news_ee511349b24d",
         "news_54801b02a622",
         "news_e2e89b5875b5",
-        "news_173c3dcef4b2"
+        "news_173c3dcef4b2",
+        "news_e6d35a91a0bc"
       ],
       "status": "developing",
       "summary": "美股牛市满四年，市场担忧熊市将至，科技股反弹但风险仍存。",
@@ -137,7 +137,7 @@
       "clusterVersion": 2,
       "title": "央行完善短端利率调控机制 隔夜回购将成主要操作品种",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-20T13:42:04.100Z",
+      "lastSeenAt": "2026-10-20T17:21:17.260Z",
       "latestItemPublishedAt": "2026-10-20T11:51:04.000Z",
       "primaryItemId": "news_18f80d945d5e",
       "evidenceItemIds": [
@@ -201,7 +201,7 @@
       "clusterVersion": 2,
       "title": "中国证监会就《证券市场先行赔付指导意见》公开征求意见",
       "firstSeenAt": "2026-10-19T15:45:09.770Z",
-      "lastSeenAt": "2026-10-20T13:42:04.100Z",
+      "lastSeenAt": "2026-10-20T17:21:17.260Z",
       "latestItemPublishedAt": "2026-10-20T10:07:37.000Z",
       "primaryItemId": "news_c61e8342121c",
       "evidenceItemIds": [
@@ -220,11 +220,11 @@
     {
       "eventId": "event_c68d651d4ff9",
       "clusterVersion": 2,
-      "title": "港股评级汇总：东北证券维持药明生物买入评级",
+      "title": "港股公告精选｜澜起科技三季度盈利同比增超150% 中船防务前三季度新接订单近360亿元",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-10-20T13:42:04.100Z",
+      "lastSeenAt": "2026-10-20T17:21:17.260Z",
       "latestItemPublishedAt": "2026-10-20T13:27:57.000Z",
-      "primaryItemId": "news_b615ea6c1c97",
+      "primaryItemId": "news_a6f80a8a4005",
       "evidenceItemIds": [
         "news_a6787f1964f2",
         "news_2f5875a3fa25",
@@ -280,6 +280,120 @@
       "status": "developing",
       "summary": "港股三大指数全线收涨，科技半导体AI硬件活跃，农行建行回调。",
       "latestProgress": "港股结算机制将改T+1，2028下半年完成；年内25家公司强制退市。"
+    },
+    {
+      "eventId": "event_6ab2a13609c6",
+      "clusterVersion": 2,
+      "title": "CoreWeave债券暴跌敲响警钟，美联储或需重新审视加息节奏",
+      "firstSeenAt": "2026-10-08T06:40:59.994Z",
+      "lastSeenAt": "2026-10-20T17:21:17.260Z",
+      "latestItemPublishedAt": "2026-10-20T12:15:37.000Z",
+      "primaryItemId": "news_bd67e678a075",
+      "evidenceItemIds": [
+        "news_1d0c31b07d1b",
+        "news_ecab20992500",
+        "news_653fc1efe942",
+        "news_44a82f6088f4",
+        "news_a17e98dc402b",
+        "news_c3d63417f749",
+        "news_68e9d0c16666",
+        "news_c58f0c74ae4b",
+        "news_d2cfa2203826",
+        "news_69f7d4ba364f",
+        "news_07284c302f01",
+        "news_7694cbef03d0",
+        "news_63872f64fc9d",
+        "news_12dc1550b7ac",
+        "news_1cddd77418dc",
+        "news_fa9f2db5b2d9",
+        "news_6ad35265a087",
+        "news_0954e7dd9e02",
+        "news_5810e3b62617",
+        "news_6e80459d1483",
+        "news_d5da4c726023",
+        "news_1815caf5f326",
+        "news_11aa474b2065",
+        "news_143d12c75cfd",
+        "news_42397c0a4905",
+        "news_066b46f49dad",
+        "news_0f29ce3b915c",
+        "news_c45f67c666f2",
+        "news_84c4d894afb2",
+        "news_5bcb81ff45d2",
+        "news_5fe4ad6c73bb",
+        "news_4a3ba5bdafe8",
+        "news_008e37cd3794",
+        "news_bd67e678a075"
+      ],
+      "status": "developing",
+      "summary": "沃什曼谷发言偏鸽，市场押注美联储10月按兵不动，加息概率跌破15%。",
+      "latestProgress": "最新报道称，下周加息概率仅16%，华尔街提醒不应迷信市场定价，结果仍难料。"
+    },
+    {
+      "eventId": "event_a48c0fe7fc42",
+      "clusterVersion": 2,
+      "title": "美国土安全部发布针对中国企业的联邦采购排除和移除命令通知，商务部回应",
+      "firstSeenAt": "2026-10-20T13:42:04.100Z",
+      "lastSeenAt": "2026-10-20T17:21:17.260Z",
+      "latestItemPublishedAt": "2026-10-20T13:34:24.000Z",
+      "primaryItemId": "news_8c09d27289ef",
+      "evidenceItemIds": [
+        "news_8c09d27289ef",
+        "news_d814ee45ceea"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_2fd776e0d8d5",
+      "clusterVersion": 2,
+      "title": "宁德时代：前三季度归母净利润645.3亿元，同比增长31.60%",
+      "firstSeenAt": "2026-10-20T13:42:04.100Z",
+      "lastSeenAt": "2026-10-20T17:21:17.260Z",
+      "latestItemPublishedAt": "2026-10-20T11:59:38.000Z",
+      "primaryItemId": "news_d56947fe1040",
+      "evidenceItemIds": [
+        "news_d56947fe1040",
+        "news_ceba7648c4b3"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_a9c8c835e65f",
+      "clusterVersion": 2,
+      "title": "美国待售房屋销量降至历史低点，抵押贷款利率上升",
+      "firstSeenAt": "2026-10-20T13:42:04.100Z",
+      "lastSeenAt": "2026-10-20T17:21:17.260Z",
+      "latestItemPublishedAt": "2026-10-20T14:01:44.000Z",
+      "primaryItemId": "news_e2091b2b3027",
+      "evidenceItemIds": [
+        "news_a080827a7a71",
+        "news_076dd54fea82",
+        "news_e2091b2b3027",
+        "news_2be59929ac2e"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_c39fcd403e76",
+      "clusterVersion": 2,
+      "title": "美股见顶最直接的信号：韩国芯片出口？",
+      "firstSeenAt": "2026-10-20T13:42:04.100Z",
+      "lastSeenAt": "2026-10-20T17:21:17.260Z",
+      "latestItemPublishedAt": "2026-10-20T13:08:19.000Z",
+      "primaryItemId": "news_d41dc38eaf78",
+      "evidenceItemIds": [
+        "news_d41dc38eaf78",
+        "news_b414efb8d2ed"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
     },
     {
       "eventId": "event_d0caf6dfd738",
@@ -413,118 +527,6 @@
       "evidenceItemIds": [
         "news_00eeec2f8a10",
         "news_ba6566599b87"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_6ab2a13609c6",
-      "clusterVersion": 2,
-      "title": "CoreWeave债券暴跌敲响警钟，美联储或需重新审视加息节奏",
-      "firstSeenAt": "2026-10-08T06:40:59.994Z",
-      "lastSeenAt": "2026-10-20T13:42:04.100Z",
-      "latestItemPublishedAt": "2026-10-20T12:15:37.000Z",
-      "primaryItemId": "news_bd67e678a075",
-      "evidenceItemIds": [
-        "news_1d0c31b07d1b",
-        "news_ecab20992500",
-        "news_653fc1efe942",
-        "news_44a82f6088f4",
-        "news_a17e98dc402b",
-        "news_c3d63417f749",
-        "news_68e9d0c16666",
-        "news_c58f0c74ae4b",
-        "news_d2cfa2203826",
-        "news_69f7d4ba364f",
-        "news_07284c302f01",
-        "news_7694cbef03d0",
-        "news_63872f64fc9d",
-        "news_12dc1550b7ac",
-        "news_1cddd77418dc",
-        "news_fa9f2db5b2d9",
-        "news_6ad35265a087",
-        "news_0954e7dd9e02",
-        "news_5810e3b62617",
-        "news_6e80459d1483",
-        "news_d5da4c726023",
-        "news_1815caf5f326",
-        "news_11aa474b2065",
-        "news_143d12c75cfd",
-        "news_42397c0a4905",
-        "news_066b46f49dad",
-        "news_0f29ce3b915c",
-        "news_c45f67c666f2",
-        "news_84c4d894afb2",
-        "news_5bcb81ff45d2",
-        "news_5fe4ad6c73bb",
-        "news_4a3ba5bdafe8",
-        "news_008e37cd3794",
-        "news_bd67e678a075"
-      ],
-      "status": "developing",
-      "summary": "沃什曼谷发言偏鸽，市场押注美联储10月按兵不动，加息概率跌破15%。",
-      "latestProgress": "最新报道称，下周加息概率仅16%，华尔街提醒不应迷信市场定价，结果仍难料。"
-    },
-    {
-      "eventId": "event_a48c0fe7fc42",
-      "clusterVersion": 2,
-      "title": "美国土安全部发布针对中国企业的联邦采购排除和移除命令通知，商务部回应",
-      "firstSeenAt": "2026-10-20T13:42:04.100Z",
-      "lastSeenAt": "2026-10-20T13:42:04.100Z",
-      "latestItemPublishedAt": "2026-10-20T13:34:24.000Z",
-      "primaryItemId": "news_8c09d27289ef",
-      "evidenceItemIds": [
-        "news_8c09d27289ef",
-        "news_d814ee45ceea"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_2fd776e0d8d5",
-      "clusterVersion": 2,
-      "title": "宁德时代：前三季度归母净利润645.3亿元，同比增长31.60%",
-      "firstSeenAt": "2026-10-20T13:42:04.100Z",
-      "lastSeenAt": "2026-10-20T13:42:04.100Z",
-      "latestItemPublishedAt": "2026-10-20T11:59:38.000Z",
-      "primaryItemId": "news_d56947fe1040",
-      "evidenceItemIds": [
-        "news_d56947fe1040",
-        "news_ceba7648c4b3"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_a9c8c835e65f",
-      "clusterVersion": 2,
-      "title": "美国房屋建筑商信心超预期跌至14年低点，高利率与成本压力双重夹击",
-      "firstSeenAt": "2026-10-20T13:42:04.100Z",
-      "lastSeenAt": "2026-10-20T13:42:04.100Z",
-      "latestItemPublishedAt": "2026-10-20T13:25:22.000Z",
-      "primaryItemId": "news_a080827a7a71",
-      "evidenceItemIds": [
-        "news_a080827a7a71",
-        "news_076dd54fea82"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_c39fcd403e76",
-      "clusterVersion": 2,
-      "title": "美股见顶最直接的信号：韩国芯片出口？",
-      "firstSeenAt": "2026-10-20T13:42:04.100Z",
-      "lastSeenAt": "2026-10-20T13:42:04.100Z",
-      "latestItemPublishedAt": "2026-10-20T13:08:19.000Z",
-      "primaryItemId": "news_d41dc38eaf78",
-      "evidenceItemIds": [
-        "news_d41dc38eaf78",
-        "news_b414efb8d2ed"
       ],
       "status": "developing",
       "summary": "",

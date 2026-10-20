@@ -14,6 +14,7 @@ const {
   applyNoiseCaps,
   buildWhy,
   confidenceFor,
+  isHardLeadAd,
   recencyScore,
   scoreEvidence,
   scoreItem,
@@ -193,5 +194,64 @@ assert.strictEqual(flashMeta.why[0], '快讯线索，需结合原文判断');
 
 // why 最多三条。
 assert.ok(scoreItem(regulatoryItem, { tier: 'S0', category: 'regulatory' }).why.length <= 3);
+
+// === 导购软文与企业公关稿 ===
+// 背景：慧保天下是保险垂直媒体，专写「重疾险怎么选」「企业品牌公关稿」。
+// 这类内容的词汇就是行业词，相关性天然满分，旧规则下能拿 60+ 分稳过 S2 门槛，
+// 于是进了首页精选。压到门槛以下即可下架，但条目仍保留在「全部动态」。
+
+const softAdCap = applyNoiseCaps(90, '重疾险怎么选？', '条款对比');
+const prCap = applyNoiseCaps(90, '新华保险史上最大规模荣耀峰会赋能代理人升级', '企业动态');
+assert.ok(softAdCap.matched.includes('选购向导购软文'));
+assert.ok(prCap.matched.includes('企业品牌公关稿'));
+// 压到 45/40，低于 S2 门槛 60 —— 关键不变量：软文必须过不了门槛。
+assert.ok(softAdCap.score < TIER_GATES.S2, '选购向软文必须低于 S2 门槛');
+assert.ok(prCap.score < TIER_GATES.S2, '企业公关稿必须低于 S2 门槛');
+
+// 报道性内容豁免：监管通报、征求意见、财报数据解读同样会带「怎么选」字样。
+assert.ok(!applyNoiseCaps(90, '重疾险怎么选？', '<p>金监总局发布通知，行业整改</p>').matched.includes('选购向导购软文'));
+assert.ok(!applyNoiseCaps(90, '监管通报多家险企违规销售', '<p>处罚决定书</p>').matched.includes('企业品牌公关稿'));
+
+// 官方主体豁免：证监会主席演讲稿里的「谱写新篇章」是正式表述，不是营销。
+assert.ok(!applyNoiseCaps(90, '奋力谱写资本市场高质量发展新篇章——吴清主席主题演讲', '<p>金融街论坛</p>').matched.includes('企业品牌公关稿'));
+
+// 通用措辞不得误伤财经新闻：这些词在股市/科技新闻里极常见。
+const nonInsuranceNews = [
+  ['美股市值前十公司仅苹果上涨 大型科技股普遍承压', '盘面'],
+  ['小扎打赢AI翻身仗？3D实测却惨遭打脸', '模型评测'],
+  ['10月16日投资避雷针：高盛发布研报称储能增长难抵供应过剩', '提示风险'],
+  ['国产车企自主四强齐聚 方盒子进入大厂混战', '行业'],
+  ['OpenAI现场翻车 发布个人AI助手迎战Meta', '发布会'],
+];
+nonInsuranceNews.forEach(([title, summary]) => {
+  const caps = applyNoiseCaps(90, title, summary);
+  assert.ok(
+    !caps.matched.includes('选购向导购软文') && !caps.matched.includes('企业品牌公关稿'),
+    `通用措辞不得误伤: ${title}`,
+  );
+});
+
+// 真实软文必须被识别（来自线上 5000 条历史存档的实测样本）。
+const realAdTitles = [
+  '2026年分红险测评:市场TOP2分红型增额寿险PK',
+  '养老年金该怎么买?',
+  '保险界四大金刚(重疾险、寿险、医疗险、意外险),保险应该怎么买?',
+  '三十年长期主义华泰财险质量效益理念铺就价值型成长之路',
+  '新华保险史上最大规模荣耀峰会保险服务投资三端密集新动作赋能代理人升级',
+  '十年长护足迹亿万家庭的老有所护',
+];
+realAdTitles.forEach(title => {
+  const caps = applyNoiseCaps(90, title, '保险年金养老');
+  assert.ok(
+    caps.matched.includes('选购向导购软文') || caps.matched.includes('企业品牌公关稿'),
+    `真实软文必须被识别: ${title}`,
+  );
+});
+
+// 硬引流：选购向 + 引流动作 = 纯广告，直接丢弃。
+assert.strictEqual(isHardLeadAd('重疾险怎么选？', '<p>扫码进群领取资料</p>'), true);
+assert.strictEqual(isHardLeadAd('重疾险怎么选？', '<p>条款对比分析</p>'), false);
+// 非保险语境不丢（避免把「避雷」类财经快讯误杀）。
+assert.strictEqual(isHardLeadAd('投资避雷针：市场风险提示', '<p>扫码关注获取报告</p>'), false);
 
 console.log('scoring tests passed');

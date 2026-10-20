@@ -48,6 +48,7 @@ const {
 } = require('./history');
 const {
   TIER_GATES,
+  isHardLeadAd,
   scoreItem,
   tierGateFor,
 } = require('./scoring');
@@ -525,6 +526,9 @@ function isLowQuality(item) {
   if (promoPatterns.some(p => t.includes(p) || s.includes(p))) return true;
   // Video-only / live stream
   if (/<video|<iframe|<embed/i.test(s)) return true;
+  // 选购向导购标题叠加强引流信号 = 纯广告，直接丢弃。
+  // 单纯的选购向长文（无引流动作）只降权不丢弃，保留条款解读的参考价值。
+  if (isHardLeadAd(t, s)) return true;
   return false;
 }
 

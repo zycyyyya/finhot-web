@@ -1,20 +1,18 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-19T18:47:35.082Z",
+  "generatedAt": "2026-10-20T05:20:30.853Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
       "eventId": "event_a3c5d0364922",
       "clusterVersion": 2,
-      "title": "沪指再守3700！券商：资金托底信号出现，A股进一步调整空间受限",
+      "title": "A股四大指数集体低开，农业、教育板块表现活跃",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-19T18:47:35.082Z",
-      "latestItemPublishedAt": "2026-10-19T12:51:08.000Z",
-      "primaryItemId": "news_cbccc19eb29d",
+      "lastSeenAt": "2026-10-20T05:20:30.853Z",
+      "latestItemPublishedAt": "2026-10-20T01:32:46.000Z",
+      "primaryItemId": "news_8f407efc985f",
       "evidenceItemIds": [
-        "news_6d61e1d353ec",
-        "news_13d0ca91614a",
         "news_c5322da109c5",
         "news_db4926c2289d",
         "news_435567c53c1c",
@@ -62,23 +60,23 @@
         "news_3a19acb39eb8",
         "news_06618f6a4418",
         "news_8ceaf5c2c9e1",
-        "news_0f33bc0b3cf4"
+        "news_0f33bc0b3cf4",
+        "news_0587264e6882",
+        "news_8f407efc985f"
       ],
       "status": "developing",
-      "summary": "澜起科技独董提议回购3亿至5亿元A股股份。",
-      "latestProgress": "A股再掀护盘行动，单周回购增持超30亿元。"
+      "summary": "A股再现回购潮，半导体与算力板块业绩亮眼，首批主动ETF获批启动发行。",
+      "latestProgress": "四大指数低开，农业教育活跃，双创翻红，AI硬件反弹，北证50涨5%。"
     },
     {
       "eventId": "event_f101880ef7bc",
       "clusterVersion": 2,
-      "title": "美股异动 | 与SpaceX合并传闻升温 特斯拉(TSLA.US)涨逾3%",
+      "title": "美股牛市4岁了！未来一年能否躲过“熊出没”",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-19T18:47:35.082Z",
-      "latestItemPublishedAt": "2026-10-19T15:06:13.000Z",
-      "primaryItemId": "news_07a62ddbb05c",
+      "lastSeenAt": "2026-10-20T05:20:30.853Z",
+      "latestItemPublishedAt": "2026-10-20T02:29:47.000Z",
+      "primaryItemId": "news_ac4afceb3e21",
       "evidenceItemIds": [
-        "news_29f14bb7387e",
-        "news_a8d09cf4fa54",
         "news_e5535c0f1857",
         "news_48bc73625ce8",
         "news_cdc3948e4401",
@@ -126,25 +124,23 @@
         "news_07a62ddbb05c",
         "news_a39328118ac2",
         "news_a95244cfe337",
-        "news_cf3ddfea6f0e"
+        "news_cf3ddfea6f0e",
+        "news_ac4afceb3e21",
+        "news_ee511349b24d"
       ],
       "status": "developing",
-      "summary": "MSCI新规悬顶致微策略暴跌9%，引爆美股与比特币双重下挫。",
-      "latestProgress": "AI债务恐慌叠加油价飙升，科技股动荡持续，市场分化加剧。"
+      "summary": "美股牛市满四年，市场担忧熊市将至，科技股反弹但风险仍存。",
+      "latestProgress": "AI风险担忧未消，日韩科技股早间大跌，未能延续美股反弹。"
     },
     {
       "eventId": "event_2cf716748ce1",
       "clusterVersion": 2,
       "title": "央行宣布多项新政：设立非银大额赎回流动性支持工具、SLF扩围",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-19T18:47:35.082Z",
-      "latestItemPublishedAt": "2026-10-19T16:48:46.000Z",
+      "lastSeenAt": "2026-10-20T05:20:30.853Z",
+      "latestItemPublishedAt": "2026-10-20T00:55:55.000Z",
       "primaryItemId": "news_4b83ded2e166",
       "evidenceItemIds": [
-        "news_a65ee7317b4d",
-        "news_1ec27da9d574",
-        "news_628706a199cd",
-        "news_4298d79d3d21",
         "news_ac43ad12693a",
         "news_6c0ac371796c",
         "news_a3210a89abaa",
@@ -190,69 +186,40 @@
         "news_cbff58a02c03",
         "news_4b83ded2e166",
         "news_7af241171939",
-        "news_3b68eac4230d"
+        "news_3b68eac4230d",
+        "news_d98a9556158b",
+        "news_fc09f7d707bd",
+        "news_17176d64cb1f",
+        "news_034d2aef9277"
       ],
       "status": "developing",
-      "summary": "越南央行要求贷款机构降息以支持经济增长",
-      "latestProgress": "根据十月十八日报道，暂无进一步消息"
-    },
-    {
-      "eventId": "event_294387429284",
-      "clusterVersion": 2,
-      "title": "日本央行12月加息稳了？行长“鹰声”嘹亮：中东冲突和AI需求加剧通胀压力",
-      "firstSeenAt": "2026-10-16T16:49:31.035Z",
-      "lastSeenAt": "2026-10-19T18:47:35.082Z",
-      "latestItemPublishedAt": "2026-10-19T09:34:31.000Z",
-      "primaryItemId": "news_12c6c3b1ca4e",
-      "evidenceItemIds": [
-        "news_a9f7e6a7069d",
-        "news_43131ce49d34",
-        "news_67379ab3d587",
-        "news_12c6c3b1ca4e"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "央行宣布设立非银大额赎回流动性支持工具，并扩大SLF范围。",
+      "latestProgress": "央行新政明确隔夜回购利率为主要政策利率，将退出存贷款基准利率。"
     },
     {
       "eventId": "event_c7b8ea00d72e",
       "clusterVersion": 2,
       "title": "国家统计局：1—9月份全国房地产开发投资53364亿元 同比下降20.6%",
       "firstSeenAt": "2026-10-19T05:19:14.386Z",
-      "lastSeenAt": "2026-10-19T18:47:35.082Z",
+      "lastSeenAt": "2026-10-20T05:20:30.853Z",
       "latestItemPublishedAt": "2026-10-19T02:58:22.000Z",
       "primaryItemId": "news_dba7855df70b",
       "evidenceItemIds": [
         "news_d020edd6ad15",
         "news_dba7855df70b",
-        "news_fa5e6f15374b"
+        "news_fa5e6f15374b",
+        "news_5e0df519260b"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_56fb9bcfb35c",
-      "clusterVersion": 2,
-      "title": "金融街论坛开幕，潘功胜：将推出非银机构大额赎回流动性支持工具",
-      "firstSeenAt": "2026-10-19T09:52:28.413Z",
-      "lastSeenAt": "2026-10-19T18:47:35.082Z",
-      "latestItemPublishedAt": "2026-10-19T08:58:30.000Z",
-      "primaryItemId": "news_a05c4a33ff9c",
-      "evidenceItemIds": [
-        "news_a05c4a33ff9c",
-        "news_ec0c7651c7c1"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "统计局数据显示，1-9月全国房地产开发投资同比下降20.6%，行业持续承压。",
+      "latestProgress": "10月19日发布，1-9月房地产投资53364亿元，同比降20.6%；同期固投降7.2%。"
     },
     {
       "eventId": "event_5f5343b6a9e2",
       "clusterVersion": 2,
       "title": "金融监管总局：依法将所有金融活动全部纳入监管，加力推动中国银行业保险业转型升级",
       "firstSeenAt": "2026-10-19T09:52:28.413Z",
-      "lastSeenAt": "2026-10-19T18:47:35.082Z",
+      "lastSeenAt": "2026-10-20T05:20:30.853Z",
       "latestItemPublishedAt": "2026-10-19T12:33:18.000Z",
       "primaryItemId": "news_ee6b839be035",
       "evidenceItemIds": [
@@ -267,47 +234,11 @@
       "latestProgress": ""
     },
     {
-      "eventId": "event_11e9c2a48b07",
-      "clusterVersion": 2,
-      "title": "“存储双雄”血崩之际：韩国养老基金“亏惨了”！",
-      "firstSeenAt": "2026-10-19T09:52:28.413Z",
-      "lastSeenAt": "2026-10-19T18:47:35.082Z",
-      "latestItemPublishedAt": "2026-10-19T06:14:14.000Z",
-      "primaryItemId": "news_2875980eab12",
-      "evidenceItemIds": [
-        "news_2875980eab12",
-        "news_2f93f60a31cc",
-        "news_499c2746fe94"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_81b4533a07b7",
-      "clusterVersion": 2,
-      "title": "中国人民银行等多部门印发《关于金融支持建设北京（京津冀）、上海（长三角）、粤港澳大湾区国际科技创新中心的指导意见》",
-      "firstSeenAt": "2026-10-16T13:24:13.606Z",
-      "lastSeenAt": "2026-10-19T18:47:35.082Z",
-      "latestItemPublishedAt": "2026-10-19T10:22:29.000Z",
-      "primaryItemId": "news_c213992e96c7",
-      "evidenceItemIds": [
-        "news_77c515effb50",
-        "news_51e583dd66f5",
-        "news_55e2bc85a0aa",
-        "news_4c16de83a5f7",
-        "news_c213992e96c7"
-      ],
-      "status": "developing",
-      "summary": "中国人民银行行长潘功胜会见欧盟财经高层官员。",
-      "latestProgress": "潘功胜会见欧盟委员会及欧洲央行等高层。"
-    },
-    {
       "eventId": "event_81903830edd9",
       "clusterVersion": 2,
       "title": "中国证监会就《证券市场先行赔付指导意见》公开征求意见",
       "firstSeenAt": "2026-10-19T15:45:09.770Z",
-      "lastSeenAt": "2026-10-19T18:47:35.082Z",
+      "lastSeenAt": "2026-10-20T05:20:30.853Z",
       "latestItemPublishedAt": "2026-10-19T10:59:07.000Z",
       "primaryItemId": "news_c61e8342121c",
       "evidenceItemIds": [
@@ -315,7 +246,8 @@
         "news_b086a9025dff",
         "news_6d9f484df45b",
         "news_02e4f032d1a6",
-        "news_29d1bc110417"
+        "news_29d1bc110417",
+        "news_16340f2ed3ad"
       ],
       "status": "developing",
       "summary": "",
@@ -326,7 +258,7 @@
       "clusterVersion": 2,
       "title": "潘功胜：审慎评估人工智能对金融市场、货币政策影响，前瞻性做好政策准备",
       "firstSeenAt": "2026-10-19T15:45:09.770Z",
-      "lastSeenAt": "2026-10-19T18:47:35.082Z",
+      "lastSeenAt": "2026-10-20T05:20:30.853Z",
       "latestItemPublishedAt": "2026-10-19T12:14:46.000Z",
       "primaryItemId": "news_7fd836317332",
       "evidenceItemIds": [
@@ -342,7 +274,7 @@
       "clusterVersion": 2,
       "title": "诺布尔公司股票或因10月26日财报发布而波动3.5%",
       "firstSeenAt": "2026-10-19T18:47:35.082Z",
-      "lastSeenAt": "2026-10-19T18:47:35.082Z",
+      "lastSeenAt": "2026-10-20T05:20:30.853Z",
       "latestItemPublishedAt": "2026-10-19T18:27:32.000Z",
       "primaryItemId": "news_f1e3d0f9cfa1",
       "evidenceItemIds": [
@@ -356,13 +288,12 @@
     {
       "eventId": "event_c68d651d4ff9",
       "clusterVersion": 2,
-      "title": "港股收评：三大指数全线收涨，科技半导体AI硬件集体活跃，农行建行回调",
+      "title": "港股IPO早播报：东山精密和微亿智造开启招股",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-10-19T15:45:09.770Z",
-      "latestItemPublishedAt": "2026-10-19T07:14:55.000Z",
-      "primaryItemId": "news_06bff02de933",
+      "lastSeenAt": "2026-10-20T05:20:30.853Z",
+      "latestItemPublishedAt": "2026-10-20T02:03:43.000Z",
+      "primaryItemId": "news_2c9cb9ea2a9f",
       "evidenceItemIds": [
-        "news_d3774d842c2c",
         "news_e46b4ae2feba",
         "news_928215186ac9",
         "news_a6787f1964f2",
@@ -411,11 +342,215 @@
         "news_712a8ef7932f",
         "news_cd53e72ee1f7",
         "news_cd4f68a5fdf8",
-        "news_d793d0adfdfe"
+        "news_d793d0adfdfe",
+        "news_2c9cb9ea2a9f"
       ],
       "status": "developing",
       "summary": "港股三大指数全线收涨，科技半导体AI硬件活跃，农行建行回调。",
       "latestProgress": "港股结算机制将改T+1，2028下半年完成；年内25家公司强制退市。"
+    },
+    {
+      "eventId": "event_d0caf6dfd738",
+      "clusterVersion": 2,
+      "title": "全球央行独立性为何关键？美联储、欧洲央行、日本央行有何经验",
+      "firstSeenAt": "2026-10-16T05:04:10.403Z",
+      "lastSeenAt": "2026-10-20T05:20:30.853Z",
+      "latestItemPublishedAt": "2026-10-20T00:51:22.000Z",
+      "primaryItemId": "news_6567aead4b97",
+      "evidenceItemIds": [
+        "news_1b8b1278bcaf",
+        "news_6dc8d339b4e1",
+        "news_40a6cd32feb0",
+        "news_3cedf76954f6",
+        "news_4cb77d150c92",
+        "news_0023d6611567",
+        "news_6567aead4b97"
+      ],
+      "status": "developing",
+      "summary": "全球央行独立性对稳定经济至关重要，美联储、欧央行、日央行经验可供借鉴。",
+      "latestProgress": "最新报道阐释了三大央行独立性实践，强调其对政策可信度的支撑作用。"
+    },
+    {
+      "eventId": "event_9e54bc76fce7",
+      "clusterVersion": 2,
+      "title": "新加坡向10家印尼企业发防火通知 或动用金融监管或修法追责",
+      "firstSeenAt": "2026-10-20T05:20:30.853Z",
+      "lastSeenAt": "2026-10-20T05:20:30.853Z",
+      "latestItemPublishedAt": "2026-10-20T04:31:53.000Z",
+      "primaryItemId": "news_636484a29487",
+      "evidenceItemIds": [
+        "news_636484a29487",
+        "news_de324c9c3f4c"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_16895dddb833",
+      "clusterVersion": 2,
+      "title": "「循查五步审慎入市」之“跟风违规”吞苦果 思量后果守红线",
+      "firstSeenAt": "2026-10-20T05:20:30.853Z",
+      "lastSeenAt": "2026-10-20T05:20:30.853Z",
+      "latestItemPublishedAt": "2026-10-20T02:28:40.000Z",
+      "primaryItemId": "news_562dbdd03ce6",
+      "evidenceItemIds": [
+        "news_562dbdd03ce6",
+        "news_fa7a534aa340"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_3dce8a965214",
+      "clusterVersion": 2,
+      "title": "10月20日午间涨停分析",
+      "firstSeenAt": "2026-10-20T05:20:30.853Z",
+      "lastSeenAt": "2026-10-20T05:20:30.853Z",
+      "latestItemPublishedAt": "2026-10-20T03:50:24.000Z",
+      "primaryItemId": "news_44df0764d23e",
+      "evidenceItemIds": [
+        "news_44df0764d23e",
+        "news_8b7de7db7c9c"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_bc6ee832c70c",
+      "clusterVersion": 2,
+      "title": "国家发改委：多措并举加大力度扩大内需 合理提高公共服务支出占财政支出比重",
+      "firstSeenAt": "2026-10-20T05:20:30.853Z",
+      "lastSeenAt": "2026-10-20T05:20:30.853Z",
+      "latestItemPublishedAt": "2026-10-20T03:15:01.000Z",
+      "primaryItemId": "news_95f801875bea",
+      "evidenceItemIds": [
+        "news_95f801875bea",
+        "news_2390a0bbd017"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_4673b2dfcae8",
+      "clusterVersion": 2,
+      "title": "财政部拟发行2026年记账式贴现（六十八期）国债，招标面值总额550亿元",
+      "firstSeenAt": "2026-10-20T05:20:30.853Z",
+      "lastSeenAt": "2026-10-20T05:20:30.853Z",
+      "latestItemPublishedAt": "2026-10-20T04:17:24.000Z",
+      "primaryItemId": "news_6ad844c2b6a9",
+      "evidenceItemIds": [
+        "news_6ad844c2b6a9",
+        "news_f014e49a745e"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_f0b7105badd1",
+      "clusterVersion": 2,
+      "title": "半日主力资金加仓电子板块，抛售银行板块",
+      "firstSeenAt": "2026-10-20T05:20:30.853Z",
+      "lastSeenAt": "2026-10-20T05:20:30.853Z",
+      "latestItemPublishedAt": "2026-10-20T03:41:37.000Z",
+      "primaryItemId": "news_14fd54cf5f22",
+      "evidenceItemIds": [
+        "news_14fd54cf5f22",
+        "news_0226a7effdd2"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_04f98fc7a446",
+      "clusterVersion": 2,
+      "title": "亚马逊再押注核电：联手美国电力公司、X-energy评估960兆瓦小型堆项目",
+      "firstSeenAt": "2026-10-20T05:20:30.853Z",
+      "lastSeenAt": "2026-10-20T05:20:30.853Z",
+      "latestItemPublishedAt": "2026-10-19T16:09:25.000Z",
+      "primaryItemId": "news_3b828a8b7b55",
+      "evidenceItemIds": [
+        "news_3b828a8b7b55",
+        "news_079f32b468ea"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_294387429284",
+      "clusterVersion": 2,
+      "title": "日本央行12月加息稳了？行长“鹰声”嘹亮：中东冲突和AI需求加剧通胀压力",
+      "firstSeenAt": "2026-10-16T16:49:31.035Z",
+      "lastSeenAt": "2026-10-19T18:47:35.082Z",
+      "latestItemPublishedAt": "2026-10-19T09:34:31.000Z",
+      "primaryItemId": "news_12c6c3b1ca4e",
+      "evidenceItemIds": [
+        "news_a9f7e6a7069d",
+        "news_43131ce49d34",
+        "news_67379ab3d587",
+        "news_12c6c3b1ca4e"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_56fb9bcfb35c",
+      "clusterVersion": 2,
+      "title": "金融街论坛开幕，潘功胜：将推出非银机构大额赎回流动性支持工具",
+      "firstSeenAt": "2026-10-19T09:52:28.413Z",
+      "lastSeenAt": "2026-10-19T18:47:35.082Z",
+      "latestItemPublishedAt": "2026-10-19T08:58:30.000Z",
+      "primaryItemId": "news_a05c4a33ff9c",
+      "evidenceItemIds": [
+        "news_a05c4a33ff9c",
+        "news_ec0c7651c7c1"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_11e9c2a48b07",
+      "clusterVersion": 2,
+      "title": "“存储双雄”血崩之际：韩国养老基金“亏惨了”！",
+      "firstSeenAt": "2026-10-19T09:52:28.413Z",
+      "lastSeenAt": "2026-10-19T18:47:35.082Z",
+      "latestItemPublishedAt": "2026-10-19T06:14:14.000Z",
+      "primaryItemId": "news_2875980eab12",
+      "evidenceItemIds": [
+        "news_2875980eab12",
+        "news_2f93f60a31cc",
+        "news_499c2746fe94"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_81b4533a07b7",
+      "clusterVersion": 2,
+      "title": "中国人民银行等多部门印发《关于金融支持建设北京（京津冀）、上海（长三角）、粤港澳大湾区国际科技创新中心的指导意见》",
+      "firstSeenAt": "2026-10-16T13:24:13.606Z",
+      "lastSeenAt": "2026-10-19T18:47:35.082Z",
+      "latestItemPublishedAt": "2026-10-19T10:22:29.000Z",
+      "primaryItemId": "news_c213992e96c7",
+      "evidenceItemIds": [
+        "news_77c515effb50",
+        "news_51e583dd66f5",
+        "news_55e2bc85a0aa",
+        "news_4c16de83a5f7",
+        "news_c213992e96c7"
+      ],
+      "status": "developing",
+      "summary": "中国人民银行行长潘功胜会见欧盟财经高层官员。",
+      "latestProgress": "潘功胜会见欧盟委员会及欧洲央行等高层。"
     },
     {
       "eventId": "event_6ab2a13609c6",
@@ -583,26 +718,6 @@
       "status": "developing",
       "summary": "",
       "latestProgress": ""
-    },
-    {
-      "eventId": "event_d0caf6dfd738",
-      "clusterVersion": 2,
-      "title": "欧洲央行行长：欧元区通胀率创新高但不必惊慌",
-      "firstSeenAt": "2026-10-16T05:04:10.403Z",
-      "lastSeenAt": "2026-10-19T05:19:14.386Z",
-      "latestItemPublishedAt": "2026-10-18T06:23:58.000Z",
-      "primaryItemId": "news_0023d6611567",
-      "evidenceItemIds": [
-        "news_1b8b1278bcaf",
-        "news_6dc8d339b4e1",
-        "news_40a6cd32feb0",
-        "news_3cedf76954f6",
-        "news_4cb77d150c92",
-        "news_0023d6611567"
-      ],
-      "status": "developing",
-      "summary": "欧洲央行行长拉加德称应采取适度政策举措遏制通胀",
-      "latestProgress": "同日管委雷恩警告警惕能源涨价引发二轮通胀效应"
     },
     {
       "eventId": "event_13f37207435d",

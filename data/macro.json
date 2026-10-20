@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-10-19T18:47:35.082Z",
+  "updatedAt": "2026-10-20T05:20:30.853Z",
   "note": "auto 指标由 scripts/macro.js 每日自动刷新；manual 指标为人工核实值，核实日期见 asOf。",
   "indicators": [
     {
@@ -8,28 +8,28 @@
       "name": "LPR 1年期",
       "value": "3.00%",
       "numericValue": 3,
-      "note": "较8月20日 3.00% 持平",
+      "note": "较9月20日 3.00% 持平",
       "direction": "flat",
-      "asOf": "2026-09-20",
+      "asOf": "2026-10-20",
       "source": "中国货币网",
       "mode": "auto",
       "prevValue": "3.00%",
       "prevNumericValue": 3,
-      "prevAsOf": "2026-08-20"
+      "prevAsOf": "2026-09-20"
     },
     {
       "key": "lpr5y",
       "name": "LPR 5年期以上",
       "value": "3.50%",
       "numericValue": 3.5,
-      "note": "较8月20日 3.50% 持平",
+      "note": "较9月20日 3.50% 持平",
       "direction": "flat",
-      "asOf": "2026-09-20",
+      "asOf": "2026-10-20",
       "source": "中国货币网",
       "mode": "auto",
       "prevValue": "3.50%",
       "prevNumericValue": 3.5,
-      "prevAsOf": "2026-08-20"
+      "prevAsOf": "2026-09-20"
     },
     {
       "key": "cn10y",
@@ -56,16 +56,16 @@
     {
       "key": "us10y",
       "name": "美债 10年期",
-      "value": "5.09%",
-      "numericValue": 5.09,
-      "note": "较10月15日 5.10% 下降",
-      "direction": "down",
-      "asOf": "2026-10-16",
+      "value": "5.15%",
+      "numericValue": 5.15,
+      "note": "较10月16日 5.09% 上升",
+      "direction": "up",
+      "asOf": "2026-10-19",
       "source": "美国财政部",
       "mode": "auto",
-      "prevValue": "5.10%",
-      "prevNumericValue": 5.1,
-      "prevAsOf": "2026-10-15"
+      "prevValue": "5.09%",
+      "prevNumericValue": 5.09,
+      "prevAsOf": "2026-10-16"
     },
     {
       "key": "fedRate",
@@ -95,16 +95,16 @@
     {
       "key": "gold",
       "name": "现货黄金",
-      "value": "$4,148",
-      "numericValue": 4148.100098,
-      "note": "较10月18日 $4,166 下降",
+      "value": "$4,137",
+      "numericValue": 4136.600098,
+      "note": "较10月19日 $4,148 下降",
       "direction": "down",
-      "asOf": "2026-10-19",
+      "asOf": "2026-10-20",
       "source": "gold-api.com",
       "mode": "auto",
-      "prevValue": "$4,166",
-      "prevNumericValue": 4166.100098,
-      "prevAsOf": "2026-10-18"
+      "prevValue": "$4,148",
+      "prevNumericValue": 4148.100098,
+      "prevAsOf": "2026-10-19"
     }
   ]
 }

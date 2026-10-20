@@ -1,22 +1,18 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-20T05:20:30.853Z",
+  "generatedAt": "2026-10-20T09:25:42.105Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
       "eventId": "event_a3c5d0364922",
       "clusterVersion": 2,
-      "title": "A股四大指数集体低开，农业、教育板块表现活跃",
+      "title": "A股双创指数盘初跌超1%之后翻红，AI硬件股反弹，北证50暴涨5%，宁德时代AH股同步下滑，恒指、恒科指齐跌1%",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-20T05:20:30.853Z",
-      "latestItemPublishedAt": "2026-10-20T01:32:46.000Z",
-      "primaryItemId": "news_8f407efc985f",
+      "lastSeenAt": "2026-10-20T09:25:42.105Z",
+      "latestItemPublishedAt": "2026-10-20T07:33:05.000Z",
+      "primaryItemId": "news_0587264e6882",
       "evidenceItemIds": [
-        "news_c5322da109c5",
-        "news_db4926c2289d",
-        "news_435567c53c1c",
-        "news_8d403d8880be",
         "news_6eabdd2e0374",
         "news_e9c94f968475",
         "news_cbf963d19f7f",
@@ -62,7 +58,11 @@
         "news_8ceaf5c2c9e1",
         "news_0f33bc0b3cf4",
         "news_0587264e6882",
-        "news_8f407efc985f"
+        "news_8f407efc985f",
+        "news_f75191e41f77",
+        "news_52b141ccd419",
+        "news_e1003cb9d5c1",
+        "news_c46e8b88b0d7"
       ],
       "status": "developing",
       "summary": "A股再现回购潮，半导体与算力板块业绩亮眼，首批主动ETF获批启动发行。",
@@ -71,13 +71,12 @@
     {
       "eventId": "event_f101880ef7bc",
       "clusterVersion": 2,
-      "title": "美股牛市4岁了！未来一年能否躲过“熊出没”",
+      "title": "谁在为美股加杠杆？",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-20T05:20:30.853Z",
-      "latestItemPublishedAt": "2026-10-20T02:29:47.000Z",
-      "primaryItemId": "news_ac4afceb3e21",
+      "lastSeenAt": "2026-10-20T09:25:42.105Z",
+      "latestItemPublishedAt": "2026-10-20T08:25:43.000Z",
+      "primaryItemId": "news_54801b02a622",
       "evidenceItemIds": [
-        "news_e5535c0f1857",
         "news_48bc73625ce8",
         "news_cdc3948e4401",
         "news_2e59f6c91737",
@@ -126,7 +125,8 @@
         "news_a95244cfe337",
         "news_cf3ddfea6f0e",
         "news_ac4afceb3e21",
-        "news_ee511349b24d"
+        "news_ee511349b24d",
+        "news_54801b02a622"
       ],
       "status": "developing",
       "summary": "美股牛市满四年，市场担忧熊市将至，科技股反弹但风险仍存。",
@@ -135,13 +135,12 @@
     {
       "eventId": "event_2cf716748ce1",
       "clusterVersion": 2,
-      "title": "央行宣布多项新政：设立非银大额赎回流动性支持工具、SLF扩围",
+      "title": "不等同降息！权威解读央行货币政策目标利率择机“换锚”",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-20T05:20:30.853Z",
-      "latestItemPublishedAt": "2026-10-20T00:55:55.000Z",
-      "primaryItemId": "news_4b83ded2e166",
+      "lastSeenAt": "2026-10-20T09:25:42.105Z",
+      "latestItemPublishedAt": "2026-10-20T07:24:49.000Z",
+      "primaryItemId": "news_d98a9556158b",
       "evidenceItemIds": [
-        "news_ac43ad12693a",
         "news_6c0ac371796c",
         "news_a3210a89abaa",
         "news_6c929a5b30e5",
@@ -190,55 +189,19 @@
         "news_d98a9556158b",
         "news_fc09f7d707bd",
         "news_17176d64cb1f",
-        "news_034d2aef9277"
+        "news_034d2aef9277",
+        "news_edab0f29da0c"
       ],
       "status": "developing",
       "summary": "央行宣布设立非银大额赎回流动性支持工具，并扩大SLF范围。",
       "latestProgress": "央行新政明确隔夜回购利率为主要政策利率，将退出存贷款基准利率。"
     },
     {
-      "eventId": "event_c7b8ea00d72e",
-      "clusterVersion": 2,
-      "title": "国家统计局：1—9月份全国房地产开发投资53364亿元 同比下降20.6%",
-      "firstSeenAt": "2026-10-19T05:19:14.386Z",
-      "lastSeenAt": "2026-10-20T05:20:30.853Z",
-      "latestItemPublishedAt": "2026-10-19T02:58:22.000Z",
-      "primaryItemId": "news_dba7855df70b",
-      "evidenceItemIds": [
-        "news_d020edd6ad15",
-        "news_dba7855df70b",
-        "news_fa5e6f15374b",
-        "news_5e0df519260b"
-      ],
-      "status": "developing",
-      "summary": "统计局数据显示，1-9月全国房地产开发投资同比下降20.6%，行业持续承压。",
-      "latestProgress": "10月19日发布，1-9月房地产投资53364亿元，同比降20.6%；同期固投降7.2%。"
-    },
-    {
-      "eventId": "event_5f5343b6a9e2",
-      "clusterVersion": 2,
-      "title": "金融监管总局：依法将所有金融活动全部纳入监管，加力推动中国银行业保险业转型升级",
-      "firstSeenAt": "2026-10-19T09:52:28.413Z",
-      "lastSeenAt": "2026-10-20T05:20:30.853Z",
-      "latestItemPublishedAt": "2026-10-19T12:33:18.000Z",
-      "primaryItemId": "news_ee6b839be035",
-      "evidenceItemIds": [
-        "news_6775cbc38683",
-        "news_4f9a5d07307b",
-        "news_f37d2af33a7e",
-        "news_ee6b839be035",
-        "news_d8ca42d828c6"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
       "eventId": "event_81903830edd9",
       "clusterVersion": 2,
       "title": "中国证监会就《证券市场先行赔付指导意见》公开征求意见",
       "firstSeenAt": "2026-10-19T15:45:09.770Z",
-      "lastSeenAt": "2026-10-20T05:20:30.853Z",
+      "lastSeenAt": "2026-10-20T09:25:42.105Z",
       "latestItemPublishedAt": "2026-10-19T10:59:07.000Z",
       "primaryItemId": "news_c61e8342121c",
       "evidenceItemIds": [
@@ -254,27 +217,11 @@
       "latestProgress": ""
     },
     {
-      "eventId": "event_bece15c73ba8",
-      "clusterVersion": 2,
-      "title": "潘功胜：审慎评估人工智能对金融市场、货币政策影响，前瞻性做好政策准备",
-      "firstSeenAt": "2026-10-19T15:45:09.770Z",
-      "lastSeenAt": "2026-10-20T05:20:30.853Z",
-      "latestItemPublishedAt": "2026-10-19T12:14:46.000Z",
-      "primaryItemId": "news_7fd836317332",
-      "evidenceItemIds": [
-        "news_10d0c3a17b8f",
-        "news_7fd836317332"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
       "eventId": "event_c8469b3b49b7",
       "clusterVersion": 2,
       "title": "诺布尔公司股票或因10月26日财报发布而波动3.5%",
       "firstSeenAt": "2026-10-19T18:47:35.082Z",
-      "lastSeenAt": "2026-10-20T05:20:30.853Z",
+      "lastSeenAt": "2026-10-20T09:25:42.105Z",
       "latestItemPublishedAt": "2026-10-19T18:27:32.000Z",
       "primaryItemId": "news_f1e3d0f9cfa1",
       "evidenceItemIds": [
@@ -290,11 +237,10 @@
       "clusterVersion": 2,
       "title": "港股IPO早播报：东山精密和微亿智造开启招股",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-10-20T05:20:30.853Z",
-      "latestItemPublishedAt": "2026-10-20T02:03:43.000Z",
+      "lastSeenAt": "2026-10-20T09:25:42.105Z",
+      "latestItemPublishedAt": "2026-10-20T07:10:37.000Z",
       "primaryItemId": "news_2c9cb9ea2a9f",
       "evidenceItemIds": [
-        "news_e46b4ae2feba",
         "news_928215186ac9",
         "news_a6787f1964f2",
         "news_2f5875a3fa25",
@@ -343,7 +289,8 @@
         "news_cd53e72ee1f7",
         "news_cd4f68a5fdf8",
         "news_d793d0adfdfe",
-        "news_2c9cb9ea2a9f"
+        "news_2c9cb9ea2a9f",
+        "news_b615ea6c1c97"
       ],
       "status": "developing",
       "summary": "港股三大指数全线收涨，科技半导体AI硬件活跃，农行建行回调。",
@@ -354,8 +301,8 @@
       "clusterVersion": 2,
       "title": "全球央行独立性为何关键？美联储、欧洲央行、日本央行有何经验",
       "firstSeenAt": "2026-10-16T05:04:10.403Z",
-      "lastSeenAt": "2026-10-20T05:20:30.853Z",
-      "latestItemPublishedAt": "2026-10-20T00:51:22.000Z",
+      "lastSeenAt": "2026-10-20T09:25:42.105Z",
+      "latestItemPublishedAt": "2026-10-20T08:02:40.000Z",
       "primaryItemId": "news_6567aead4b97",
       "evidenceItemIds": [
         "news_1b8b1278bcaf",
@@ -364,7 +311,8 @@
         "news_3cedf76954f6",
         "news_4cb77d150c92",
         "news_0023d6611567",
-        "news_6567aead4b97"
+        "news_6567aead4b97",
+        "news_9217ad4c27ec"
       ],
       "status": "developing",
       "summary": "全球央行独立性对稳定经济至关重要，美联储、欧央行、日央行经验可供借鉴。",
@@ -375,12 +323,180 @@
       "clusterVersion": 2,
       "title": "新加坡向10家印尼企业发防火通知 或动用金融监管或修法追责",
       "firstSeenAt": "2026-10-20T05:20:30.853Z",
-      "lastSeenAt": "2026-10-20T05:20:30.853Z",
+      "lastSeenAt": "2026-10-20T09:25:42.105Z",
       "latestItemPublishedAt": "2026-10-20T04:31:53.000Z",
       "primaryItemId": "news_636484a29487",
       "evidenceItemIds": [
         "news_636484a29487",
         "news_de324c9c3f4c"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_3dce8a965214",
+      "clusterVersion": 2,
+      "title": "10月20日午间涨停分析",
+      "firstSeenAt": "2026-10-20T05:20:30.853Z",
+      "lastSeenAt": "2026-10-20T09:25:42.105Z",
+      "latestItemPublishedAt": "2026-10-20T03:50:24.000Z",
+      "primaryItemId": "news_44df0764d23e",
+      "evidenceItemIds": [
+        "news_44df0764d23e",
+        "news_8b7de7db7c9c"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_4673b2dfcae8",
+      "clusterVersion": 2,
+      "title": "财政部拟发行2026年记账式贴现（六十八期）国债，招标面值总额550亿元",
+      "firstSeenAt": "2026-10-20T05:20:30.853Z",
+      "lastSeenAt": "2026-10-20T09:25:42.105Z",
+      "latestItemPublishedAt": "2026-10-20T04:17:24.000Z",
+      "primaryItemId": "news_6ad844c2b6a9",
+      "evidenceItemIds": [
+        "news_6ad844c2b6a9",
+        "news_f014e49a745e"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_f0b7105badd1",
+      "clusterVersion": 2,
+      "title": "半日主力资金加仓电子板块，抛售银行板块",
+      "firstSeenAt": "2026-10-20T05:20:30.853Z",
+      "lastSeenAt": "2026-10-20T09:25:42.105Z",
+      "latestItemPublishedAt": "2026-10-20T03:41:37.000Z",
+      "primaryItemId": "news_14fd54cf5f22",
+      "evidenceItemIds": [
+        "news_14fd54cf5f22",
+        "news_0226a7effdd2"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_294387429284",
+      "clusterVersion": 2,
+      "title": "油价传导超预期，日本央行拟12月加息，10月按兵不动",
+      "firstSeenAt": "2026-10-16T16:49:31.035Z",
+      "lastSeenAt": "2026-10-20T09:25:42.105Z",
+      "latestItemPublishedAt": "2026-10-20T07:29:43.000Z",
+      "primaryItemId": "news_a49bd63570e0",
+      "evidenceItemIds": [
+        "news_a9f7e6a7069d",
+        "news_43131ce49d34",
+        "news_67379ab3d587",
+        "news_12c6c3b1ca4e",
+        "news_a49bd63570e0"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_22a355db8111",
+      "clusterVersion": 2,
+      "title": "工信部：600亿元国家AI基金投出一批项目 人工智能企业超6600家",
+      "firstSeenAt": "2026-10-20T09:25:42.105Z",
+      "lastSeenAt": "2026-10-20T09:25:42.105Z",
+      "latestItemPublishedAt": "2026-10-20T07:34:31.000Z",
+      "primaryItemId": "news_16e2249869fc",
+      "evidenceItemIds": [
+        "news_16e2249869fc",
+        "news_c34b33b3aa8d"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_b9a8ecc42c55",
+      "clusterVersion": 2,
+      "title": "上期所发布关于调整天然橡胶品种套保持仓额度自动转化标准的通知",
+      "firstSeenAt": "2026-10-20T09:25:42.105Z",
+      "lastSeenAt": "2026-10-20T09:25:42.105Z",
+      "latestItemPublishedAt": "2026-10-20T08:19:24.000Z",
+      "primaryItemId": "news_964afb49d38c",
+      "evidenceItemIds": [
+        "news_964afb49d38c",
+        "news_8c492b901603"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_079393a33d4c",
+      "clusterVersion": 2,
+      "title": "法国遭遇股债双杀！示威活动冲击金融市场，欧央行会出手么？丨欧洲观察",
+      "firstSeenAt": "2026-10-20T09:25:42.105Z",
+      "lastSeenAt": "2026-10-20T09:25:42.105Z",
+      "latestItemPublishedAt": "2026-10-20T05:38:16.000Z",
+      "primaryItemId": "news_00eeec2f8a10",
+      "evidenceItemIds": [
+        "news_00eeec2f8a10",
+        "news_ba6566599b87"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_c7b8ea00d72e",
+      "clusterVersion": 2,
+      "title": "国家统计局：1—9月份全国房地产开发投资53364亿元 同比下降20.6%",
+      "firstSeenAt": "2026-10-19T05:19:14.386Z",
+      "lastSeenAt": "2026-10-20T05:20:30.853Z",
+      "latestItemPublishedAt": "2026-10-19T02:58:22.000Z",
+      "primaryItemId": "news_dba7855df70b",
+      "evidenceItemIds": [
+        "news_d020edd6ad15",
+        "news_dba7855df70b",
+        "news_fa5e6f15374b",
+        "news_5e0df519260b"
+      ],
+      "status": "developing",
+      "summary": "统计局数据显示，1-9月全国房地产开发投资同比下降20.6%，行业持续承压。",
+      "latestProgress": "10月19日发布，1-9月房地产投资53364亿元，同比降20.6%；同期固投降7.2%。"
+    },
+    {
+      "eventId": "event_5f5343b6a9e2",
+      "clusterVersion": 2,
+      "title": "金融监管总局：依法将所有金融活动全部纳入监管，加力推动中国银行业保险业转型升级",
+      "firstSeenAt": "2026-10-19T09:52:28.413Z",
+      "lastSeenAt": "2026-10-20T05:20:30.853Z",
+      "latestItemPublishedAt": "2026-10-19T12:33:18.000Z",
+      "primaryItemId": "news_ee6b839be035",
+      "evidenceItemIds": [
+        "news_6775cbc38683",
+        "news_4f9a5d07307b",
+        "news_f37d2af33a7e",
+        "news_ee6b839be035",
+        "news_d8ca42d828c6"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_bece15c73ba8",
+      "clusterVersion": 2,
+      "title": "潘功胜：审慎评估人工智能对金融市场、货币政策影响，前瞻性做好政策准备",
+      "firstSeenAt": "2026-10-19T15:45:09.770Z",
+      "lastSeenAt": "2026-10-20T05:20:30.853Z",
+      "latestItemPublishedAt": "2026-10-19T12:14:46.000Z",
+      "primaryItemId": "news_7fd836317332",
+      "evidenceItemIds": [
+        "news_10d0c3a17b8f",
+        "news_7fd836317332"
       ],
       "status": "developing",
       "summary": "",
@@ -403,22 +519,6 @@
       "latestProgress": ""
     },
     {
-      "eventId": "event_3dce8a965214",
-      "clusterVersion": 2,
-      "title": "10月20日午间涨停分析",
-      "firstSeenAt": "2026-10-20T05:20:30.853Z",
-      "lastSeenAt": "2026-10-20T05:20:30.853Z",
-      "latestItemPublishedAt": "2026-10-20T03:50:24.000Z",
-      "primaryItemId": "news_44df0764d23e",
-      "evidenceItemIds": [
-        "news_44df0764d23e",
-        "news_8b7de7db7c9c"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
       "eventId": "event_bc6ee832c70c",
       "clusterVersion": 2,
       "title": "国家发改委：多措并举加大力度扩大内需 合理提高公共服务支出占财政支出比重",
@@ -435,38 +535,6 @@
       "latestProgress": ""
     },
     {
-      "eventId": "event_4673b2dfcae8",
-      "clusterVersion": 2,
-      "title": "财政部拟发行2026年记账式贴现（六十八期）国债，招标面值总额550亿元",
-      "firstSeenAt": "2026-10-20T05:20:30.853Z",
-      "lastSeenAt": "2026-10-20T05:20:30.853Z",
-      "latestItemPublishedAt": "2026-10-20T04:17:24.000Z",
-      "primaryItemId": "news_6ad844c2b6a9",
-      "evidenceItemIds": [
-        "news_6ad844c2b6a9",
-        "news_f014e49a745e"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_f0b7105badd1",
-      "clusterVersion": 2,
-      "title": "半日主力资金加仓电子板块，抛售银行板块",
-      "firstSeenAt": "2026-10-20T05:20:30.853Z",
-      "lastSeenAt": "2026-10-20T05:20:30.853Z",
-      "latestItemPublishedAt": "2026-10-20T03:41:37.000Z",
-      "primaryItemId": "news_14fd54cf5f22",
-      "evidenceItemIds": [
-        "news_14fd54cf5f22",
-        "news_0226a7effdd2"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
       "eventId": "event_04f98fc7a446",
       "clusterVersion": 2,
       "title": "亚马逊再押注核电：联手美国电力公司、X-energy评估960兆瓦小型堆项目",
@@ -477,24 +545,6 @@
       "evidenceItemIds": [
         "news_3b828a8b7b55",
         "news_079f32b468ea"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_294387429284",
-      "clusterVersion": 2,
-      "title": "日本央行12月加息稳了？行长“鹰声”嘹亮：中东冲突和AI需求加剧通胀压力",
-      "firstSeenAt": "2026-10-16T16:49:31.035Z",
-      "lastSeenAt": "2026-10-19T18:47:35.082Z",
-      "latestItemPublishedAt": "2026-10-19T09:34:31.000Z",
-      "primaryItemId": "news_12c6c3b1ca4e",
-      "evidenceItemIds": [
-        "news_a9f7e6a7069d",
-        "news_43131ce49d34",
-        "news_67379ab3d587",
-        "news_12c6c3b1ca4e"
       ],
       "status": "developing",
       "summary": "",

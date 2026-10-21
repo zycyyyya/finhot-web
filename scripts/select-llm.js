@@ -89,9 +89,12 @@ async function scoreItemTwice(item, template, options) {
     baseUrl: options.baseUrl,
     model: options.model,
     fallback: options.fallback,
+    // 有序渠道链（多供应商轮换），比单fallback 槽更能抵御单家限流。
+    channels: options.channels,
     temperature: options.temperature,
-    // 推理模型会消耗大量 reasoning token（实测 800 会被思考吃光导致 content 为空），给足余量。
-    maxTokens: 4000,
+    // 推理模型会消耗大量 reasoning token（实测 800 会被思考吃光导致 content 为空），
+    // 给足余量；StepFun 的 16000 由 resolveLLMConfig 按渠道名给出。
+    maxTokens: options.maxTokens || 4000,
     fetchImpl: options.fetchImpl,
     // 阶段共享的熔断器：限流时让整个阶段一起停下，而不是这条继续空转重试。
     guard: options.guard,
@@ -223,6 +226,7 @@ function restoreStoredLLMScore(item, gate) {
 function resolveOptions(env) {
   const e = env || process.env;
   const config = resolveLLMConfig(e);
+  const primary = config.primary || {};
   return {
     gate: envNumber(e, 'FINHOT_LLM_GATE', DEFAULTS.gate),
     prefilterMinScore: envNumber(e, 'FINHOT_LLM_PREFILTER_MIN', DEFAULTS.prefilterMinScore),
@@ -233,10 +237,15 @@ function resolveOptions(env) {
     retryDelays: Array.isArray(DEFAULTS.retryDelays) ? DEFAULTS.retryDelays.slice() : undefined,
     stageBudgetMs: envNumber(e, 'FINHOT_LLM_STAGE_BUDGET_MS', DEFAULTS.stageBudgetMs),
     temperature: DEFAULTS.temperature,
-    apiKey: config.primary.apiKey,
-    baseUrl: config.primary.baseUrl,
-    model: config.primary.model,
+    // 无任何渠道配置时 primary 为 undefined，这里给空对象占位，
+    // 避免 resolveOptions 在「一个 key 都没配」的场景直接崩 TypeError。
+    apiKey: primary.apiKey,
+    baseUrl: primary.baseUrl,
+    model: primary.model,
     fallback: config.fallback,
+    // 完整渠道链 + 按渠道校准过的 maxTokens。
+    channels: config.channels,
+    maxTokens: config.maxTokens,
     configured: config.configured,
   };
 }

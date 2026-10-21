@@ -90,9 +90,10 @@ async function judgeEventPairs(items, options) {
     baseUrl: opts.baseUrl,
     model: opts.model,
     fallback: opts.fallback,
+    channels: opts.channels,
     temperature: opts.temperature,
     // 6 对一批的判定 + 推理模型的思考余量。
-    maxTokens: 6000,
+    maxTokens: opts.maxTokens || 6000,
     fetchImpl: opts.fetchImpl,
     // 与评分路径共用批次级熔断：事件点评也在打同一份配额，
     // 不接熔断会在主渠道限流时重演「空转十几分钟」。
@@ -143,8 +144,9 @@ async function summarizeEvents(events, itemById, options) {
     baseUrl: opts.baseUrl,
     model: opts.model,
     fallback: opts.fallback,
+    channels: opts.channels,
     temperature: 0.3,
-    maxTokens: 3000,
+    maxTokens: opts.maxTokens || 3000,
     fetchImpl: opts.fetchImpl,
     guard: opts.guard,
     retryDelays: opts.retryDelays,

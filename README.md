@@ -102,25 +102,48 @@ finhot-web 是集自动采集、AI 分析、数据质量控制与静态页面展
 | `FINHOT_LLM_MAX_ITEMS` | 120 | 单轮送模型上限 |
 | `FINHOT_LLM_CONCURRENCY` | 4 | 并发上限 |
 
-### 备用渠道（fallback）
+### 备用渠道（多渠道链）
 
-`resolveLLMConfig` 的挂载规则：
+`resolveLLMConfig` 按固定顺序构建**有序渠道链**，任一家限流/欠费自动切下一家：
 
-| 场景 | 主渠道 | fallback |
+| 顺序 | 渠道名 | 触发的环境变量 | 备注 |
+|---|---|---|---|
+| 1 | `custom` | `FINHOT_LLM_API_KEY` + `_BASE_URL` + `_MODEL` | 通用自定义端点（LongCat 等） |
+| 2 | `stepfun` | `STEPFUN_API_KEY` + `FINHOT_LLM_STEPFUN_BASE_URL` + `_MODEL` | 阶跃星辰 |
+| 3 | `sensenova` | `DEEPSEEK_API_KEY` | 免费端点，永远垫底 |
+
+未配置对应变量则该级自动跳过。全部为空时 `configured: false`，整个 LLM 阶段不运行。
+
+**熔断与渠道切换的语义边界**：熔断只管**当前渠道**。每家配额独立，
+换到下一级时必须清掉 guard，否则上一家的限流会把有独立额度的下一家一起误杀。
+
+#### StepFun 接入注意
+
+StepFun 有**两个端点，取决于 Key 类型**，代码不猜，整串由 `FINHOT_LLM_STEPFUN_BASE_URL` 提供：
+
+| Key 类型 | base_url |
+|---|---|
+| 按量付费 Key | `https://api.stepfun.com/v1/chat/completions` |
+| Step Plan 订阅 Key | `https://api.stepfun.com/step_plan/v1/chat/completions` |
+
+推荐模型：`step-3.7-flash`（旗舰多模态推理）、`step-3.5-flash`（高速）。
+
+⚠️ **StepFun 主渠道时 `maxTokens` 自动放大到 16000**：step 系列会把 token 花在
+`reasoning_content` 上，`max_tokens` 给 800 会返回空 content、`finish_reason: length`。
+实测 16000 才稳且耗时反而更短。这是 `resolveLLMConfig` 按**渠道名**判定的（不按 baseUrl），
+避免没配 baseUrl 时判断失效。
+
+#### GitHub Actions 配置
+
+在仓库 Settings → Secrets and variables → Actions → Repository secrets 新建：
+
+| Secret | 必填 | 示例 |
 |---|---|---|
-| 只配 `DEEPSEEK_API_KEY` | SenseNova | **无** |
-| 配 `FINHOT_LLM_*` + `DEEPSEEK_API_KEY` | 自定义端点 | SenseNova |
-| 只配 `FINHOT_LLM_*` | 自定义端点 | 无 |
+| `STEPFUN_API_KEY` | 否 | `sk-...` |
+| `STEPFUN_BASE_URL` | **配了 Key 就必填** | `https://api.stepfun.com/v1/chat/completions` |
+| `STEPFUN_MODEL` | 否 | `step-3.7-flash` |
 
-⚠️ **CI 当前只配了 `DEEPSEEK_API_KEY`，即没有备用渠道**（单点依赖）。
-要启用兜底需在 Actions secrets 里补`FINHOT_LLM_API_KEY` / `FINHOT_LLM_BASE_URL` / `FINHOT_LLM_MODEL`。
-
-**熔断与 fallback 的语义边界**：熔断只针对主渠道。fallback 是另一家供应商的独立配额，
-不共享限流窗口，因此主渠道熔断打开时会**放行 fallback**——否则「主渠道限流」会退化成
-「全渠道放弃」，明明有备用额度却不用。已用测试锁定这条不变量。
-
-两条调用路径都接了熔断：`select-llm.js`（评分）与 `events-llm.js`（事件点评 / 综述），
-共用同一份配额，必须一起限流。
+三个都是可选的：不配就退化成单渠道 SenseNova，管线照常跑。
 
 ### 校准与门槛
 

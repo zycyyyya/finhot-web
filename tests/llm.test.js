@@ -222,8 +222,8 @@ assert.strictEqual(coerceScore('abc'), null);
       fetchImpl: async () => { throw new Error('HTTP 429: primary limited'); },
       fallback: { apiKey: 'fbk', fetchImpl: async () => { throw new Error('HTTP 500: backup down'); } },
     }, 'test'),
-    /primary limited \| fallback failed: HTTP 500/,
-    '两渠道都失败时应合并错误信息',
+    /primary limited \| fallback: HTTP 500/,
+    '两渠道都失败时应合并错误信息且标明渠道',
   );
 
   // fallback 不应被主渠道的 guard 连坐：主渠道熔断后 fallback 成功不应让 guard 记成功
@@ -236,6 +236,51 @@ assert.strictEqual(coerceScore('abc'), null);
     fallback: { apiKey: 'fbk', fetchImpl: async () => 'FB' },
   }, 'test');
   assert.strictEqual(gIsolate.count429(), 2, 'fallback 成功不应冲淡主渠道的 429 计数');
+
+  // === 三级渠道链：前两家都限流时必须能走到第三家 ===
+  const three = await callChatWithRetry([{ role: 'user', content: 'x' }], {
+    apiKey: 'k1',
+    channels: [
+      { name: 'primary-c', apiKey: 'k1', baseUrl: '', model: 'm1' },
+      { name: 'stepfun', apiKey: 'k2', baseUrl: '', model: 'm2' },
+      { name: 'sensenova', apiKey: 'k3', baseUrl: '', model: 'm3' },
+    ],
+    guard: createRateLimitGuard({ threshold: 2, windowSize: 4 }),
+    retryDelays: [1, 1],
+    fetchImpl: async (messages, o) => {
+      if (o.model === 'm1') throw new Error('HTTP 429: primary limited');
+      if (o.model === 'm2') throw new Error('HTTP 429: stepfun limited');
+      return 'THIRD_OK';
+    },
+  }, 'test');
+  assert.strictEqual(three, 'THIRD_OK', '两级限流后应落到第三级渠道');
+
+  // 整条链全挂：错误信息要包含每一家，便于判断该续哪个额度
+  await assert.rejects(
+    () => callChatWithRetry([{ role: 'user', content: 'x' }], {
+      apiKey: 'k1',
+      channels: [
+        { name: 'primary-c', apiKey: 'k1', model: 'm1' },
+        { name: 'stepfun', apiKey: 'k2', model: 'm2' },
+      ],
+      retryDelays: [1, 1],
+      fetchImpl: async () => { throw new Error('HTTP 429: all limited'); },
+    }, 'test'),
+    /stepfun: HTTP 429/,
+    '错误信息应标明每级渠道',
+  );
+
+  // 单渠道且限流时不应因为「有链」就误以为有备用
+  await assert.rejects(
+    () => callChatWithRetry([{ role: 'user', content: 'x' }], {
+      apiKey: 'k1',
+      channels: [{ name: 'only', apiKey: 'k1', model: 'm1' }],
+      guard: createRateLimitGuard({ threshold: 1, windowSize: 1 }),
+      fetchImpl: async () => { throw new Error('HTTP 429: only limited'); },
+    }, 'test'),
+    error => error.code === 'RATE_LIMIT_OPEN' || /429/.test(error.message),
+    '单渠道限流应报限流而非「no channel available」',
+  );
 
   // === runPool：并发执行且互不影响 ===
   const order = [];
@@ -263,10 +308,53 @@ assert.strictEqual(coerceScore('abc'), null);
   const def = resolveLLMConfig({ DEEPSEEK_API_KEY: 'sk-sensenova' });
   assert.strictEqual(def.primary.apiKey, 'sk-sensenova');
   assert.strictEqual(def.primary.baseUrl, '');
+  assert.strictEqual(def.primary.name, 'sensenova', '未配自定义端点时 SenseNova 是主渠道');
   assert.strictEqual(def.fallback, undefined);
+  assert.strictEqual(def.channels.length, 1, '单渠道');
+  assert.strictEqual(def.maxTokens, undefined, '非推理渠道不特殊放大 maxTokens');
 
   const none = resolveLLMConfig({});
   assert.strictEqual(none.configured, false);
+  assert.strictEqual(none.channels.length, 0);
+
+  // === 渠道链：配了就用，按custom → stepfun → sensenova 排序 ===
+  const chain = resolveLLMConfig({
+    FINHOT_LLM_API_KEY: 'ak-custom',
+    FINHOT_LLM_BASE_URL: 'https://api.longcat.chat/openai/v1/chat/completions',
+    FINHOT_LLM_MODEL: 'LongCat-2.5-Preview',
+    STEPFUN_API_KEY: 'sk-stepfun',
+    FINHOT_LLM_STEPFUN_BASE_URL: 'https://api.stepfun.com/v1/chat/completions',
+    FINHOT_LLM_STEPFUN_MODEL: 'step-3.7-flash',
+    DEEPSEEK_API_KEY: 'sk-sensenova',
+  });
+  assert.deepStrictEqual(chain.channels.map(c => c.name), ['custom', 'stepfun', 'sensenova']);
+  assert.strictEqual(chain.primary.name, 'custom', '链首=显式指定的 custom');
+  assert.strictEqual(chain.fallback.name, 'stepfun', '保留旧字段：第二个渠道当 fallback');
+  assert.strictEqual(chain.channels[1].baseUrl, 'https://api.stepfun.com/v1/chat/completions');
+  assert.strictEqual(chain.channels[1].model, 'step-3.7-flash');
+  assert.strictEqual(chain.channels[2].apiKey, 'sk-sensenova', 'SenseNova 垫底');
+
+  // StepFun 作为主渠道时必须放大 maxTokens（推理模型会吃光 800/4000）
+  const stepFirst = resolveLLMConfig({
+    STEPFUN_API_KEY: 'sk-stepfun',
+    FINHOT_LLM_STEPFUN_BASE_URL: 'https://api.stepfun.com/step_plan/v1/chat/completions',
+    FINHOT_LLM_STEPFUN_MODEL: 'step-3.7-flash',
+    DEEPSEEK_API_KEY: 'sk-sensenova',
+  });
+  assert.strictEqual(stepFirst.primary.name, 'stepfun');
+  assert.strictEqual(stepFirst.maxTokens, 16000, 'StepFun 主渠道 maxTokens 应为 16000');
+
+  // Step Plan 端点与按量端点路径不同，必须由env 整串传入，代码不猜
+  assert.strictEqual(
+    stepFirst.channels[0].baseUrl,
+    'https://api.stepfun.com/step_plan/v1/chat/completions',
+    '端点原样保留，不做拼接',
+  );
+
+  // 只配 StepFun 没有 baseUrl 时不该凭空造端点
+  const bareStep = resolveLLMConfig({ STEPFUN_API_KEY: 'sk-stepfun' });
+  assert.strictEqual(bareStep.channels[0].baseUrl, '', '未给baseUrl 就留空，由 DEFAULT 兜底');
+  assert.strictEqual(bareStep.maxTokens, 16000, '按渠道名判断而非 baseUrl');
 
   console.log('llm tests passed');
 })().catch(error => { console.error(error); process.exit(1); });

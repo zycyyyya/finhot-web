@@ -189,28 +189,52 @@ async function callChatWithRetry(messages, options, label) {
   const opts = options || {};
   const delays = Array.isArray(opts.retryDelays) ? opts.retryDelays : [8000, 16000];
   const guard = opts.guard || null;
-  const hasFallback = Boolean(opts.fallback && opts.fallback.apiKey);
+  const chain = Array.isArray(opts.channels) && opts.channels.length
+    ? opts.channels
+    : [opts].concat(opts.fallback ? [opts.fallback] : []);
+  const hasFallback = chain.length > 1;
 
   /**
-   * 切到兜底渠道重试一次（不再递归）。
-   * fallback 不传 guard：它是独立配额，不该被主渠道的熔断器连坐。
+   * 沿渠道链逐个尝试，直到某个渠道成功。
+   *
+   * 关键语义：**熔断只针对当前渠道**。每家供应商配额独立，换到下一个渠道时
+   * 必须清掉 guard，否则上一家的限流会把有独立额度的下一家一起误杀。
+   * 已试过的渠道记入 tried，失败原因累积到 errors 里便于排查。
    */
-  async function tryFallback(primaryError) {
-    try {
-      const r = await callChat(messages, { ...opts, ...opts.fallback, fallback: undefined, guard: undefined });
-      if (typeof console !== 'undefined' && label) {
-        console.error(`[llm] ${label} 主渠道不可用，已切fallback（${opts.fallback.model || '默认模型'}）`);
+  async function tryChannelChain(primaryError, labelSuffix) {
+    const list = Array.isArray(opts.channels) && opts.channels.length
+      ? opts.channels
+      : [opts].concat(opts.fallback ? [opts.fallback] : []);
+    const errors = [];
+    if (primaryError) errors.push(String(primaryError.message || primaryError));
+
+    for (let i = 0; i < list.length; i++) {
+      const channel = list[i];
+      if (i === 0 && primaryError) {
+        // 链首就是当前主渠道，已经在重试循环里试过了，不重复发请求。
+        continue;
       }
-      return r;
-    } catch (fallbackError) {
-      throw new Error(`${primaryError.message} | fallback failed: ${fallbackError.message}`);
+      if (!channel || !channel.apiKey) continue;
+      try {
+        const r = await callChat(messages, {
+          ...opts, ...channel, channels: undefined, fallback: undefined, guard: undefined,
+        });
+        if (typeof console !== 'undefined' && label) {
+          console.error(`[llm] ${label} 已切换到备用渠道 ${channel.name}${labelSuffix || ''}`);
+        }
+        return r;
+      } catch (error) {
+        // 老式 fallback 对象可能没有 name，标成 fallback 而不是 undefined。
+        errors.push(`${channel.name || 'fallback'}: ${error.message}`);
+      }
     }
+    throw new Error(errors.join(' | ') || 'no channel available');
   }
 
   // 入口先看熔断：主渠道已经打满就别再发了。但有备用渠道就直奔fallback，
   // 不要因为主渠道限流而让整条链路直接失败。
   if (guard && guard.open) {
-    if (hasFallback) return tryFallback(new RateLimitOpenError(guard));
+    if (hasFallback) return tryChannelChain(new RateLimitOpenError(guard), '（熔断）');
     throw new RateLimitOpenError(guard);
   }
 
@@ -226,13 +250,13 @@ async function callChatWithRetry(messages, options, label) {
         guard.recordRateLimit();
         // 熔断刚被这一条触发：不要睡。有 fallback 就切过去，两者都没有才冒泡。
         if (guard.open) {
-          if (hasFallback) return tryFallback(error);
+          if (hasFallback) return tryChannelChain(error);
           throw new RateLimitOpenError(guard);
         }
       }
 
       if (!rateLimited || attempt === delays.length) {
-        if (hasFallback) return tryFallback(error);
+        if (hasFallback) return tryChannelChain(error);
         throw error;
       }
       const delay = delays[attempt];
@@ -246,21 +270,52 @@ async function callChatWithRetry(messages, options, label) {
 }
 
 /**
- * 从环境解析模型配置：
- * - FINHOT_LLM_API_KEY / FINHOT_LLM_BASE_URL / FINHOT_LLM_MODEL 存在 → 主渠道为自定义端点；
- * - 否则主渠道 = SenseNova + DEEPSEEK_API_KEY。
- * - 主渠道不是 SenseNova 且 DEEPSEEK_API_KEY 存在时，自动把它设为兜底渠道。
+ * 从环境解析模型配置，构建**有序渠道链**。
+ *
+ * 为什么是链而不是「主 + fallback」两个槽：真实可用的小模型端点有多个
+ * （SenseNova / StepFun / LongCat），任一家限流或欠费都不该让整轮停摆。
+ * 单fallback 槽在 StepFun 过期时会直接退化成单点依赖。
+ *
+ * 渠道顺序 = 配了就用的优先， SenseNova 垫底（免费、额度小但一直可用）。
+ * 每家的配额独立，所以熔断只管当前渠道，换渠道时不携带 guard。
+ *
+ * 渠道字段：{ name, apiKey, baseUrl, model }
+ * StepFun 注意有两个端点，走哪个取决于 Key 的类型：
+ *   - 按量付费 Key → https://api.stepfun.com/v1
+ *   - Step Plan订阅 Key → https://api.stepfun.com/step_plan/v1
+ * 端点整串由FINHOT_LLM_STEPFUN_BASE_URL 指定，不要在代码里猜。
  */
 function resolveLLMConfig(env) {
   const e = env || process.env;
-  const custom = Boolean(e.FINHOT_LLM_API_KEY);
-  const primary = custom
-    ? { apiKey: e.FINHOT_LLM_API_KEY, baseUrl: e.FINHOT_LLM_BASE_URL || '', model: e.FINHOT_LLM_MODEL || DEFAULT_MODEL }
-    : { apiKey: e.DEEPSEEK_API_KEY || '', baseUrl: '', model: DEFAULT_MODEL };
-  const fallback = custom && e.DEEPSEEK_API_KEY
-    ? { apiKey: e.DEEPSEEK_API_KEY, baseUrl: '', model: DEFAULT_MODEL }
-    : undefined;
-  return { primary, fallback, configured: Boolean(primary.apiKey) };
+  const channels = [];
+
+  const push = (name, apiKey, baseUrl, model) => {
+    if (apiKey) channels.push({ name, apiKey, baseUrl: baseUrl || '', model: model || '' });
+  };
+
+  // 自定义通用端点（保留旧语义，作为显式指定的首选渠道）
+  push('custom', e.FINHOT_LLM_API_KEY, e.FINHOT_LLM_BASE_URL, e.FINHOT_LLM_MODEL);
+  // StepFun 阶跃星辰：baseUrl 需显式给全（含/v1 或 /step_plan/v1）
+  push('stepfun', e.STEPFUN_API_KEY, e.FINHOT_LLM_STEPFUN_BASE_URL, e.FINHOT_LLM_STEPFUN_MODEL);
+  // SenseNova 免费端点兜底：模型固定，不需baseUrl
+  push('sensenova', e.DEEPSEEK_API_KEY, '', '');
+
+  if (channels.length === 0) {
+    return { channels: [], primary: undefined, fallback: undefined, configured: false };
+  }
+
+  // primary = 链首；fallback = 链中第二个（保留旧字段名，向后兼容既有调用方与测试）
+  const [primary, fallback] = channels;
+  const maxTokens = primary.name === 'stepfun' ? 16000 : undefined;
+  return {
+    channels,
+    primary,
+    fallback: channels.length > 1 ? channels[1] : undefined,
+    configured: true,
+    // StepFun 的推理模型会把 token 花在 reasoning 上，max_tokens 必须给足，
+    // 否则 content 为空 / finish_reason=length（实测 8000 会截断，16000 才稳）。
+    maxTokens,
+  };
 }
 
 /**

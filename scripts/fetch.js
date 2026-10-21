@@ -1384,6 +1384,9 @@ async function main() {
         baseUrl: llmConfig.primary.baseUrl,
         model: llmConfig.primary.model,
         fallback: llmConfig.fallback,
+        // 与评分路径共用同一份渠道链：换供应商限流时两边一起换。
+        channels: llmConfig.channels,
+        maxTokens: llmConfig.maxTokens,
         log: console.error,
       });
       let attached = 0;
@@ -1437,7 +1440,9 @@ async function main() {
       keyConfigured: Boolean(process.env.DEEPSEEK_API_KEY),
       llmConfigured: llmConfig.configured,
       llmActive,
-      llmProvider: llmConfig.configured ? (llmConfig.primary.baseUrl || 'sensenova') : null,
+      llmProvider: llmConfig.configured && llmConfig.primary
+        ? (llmConfig.primary.baseUrl || llmConfig.primary.name || 'sensenova')
+        : null,
       generatedBy: null,
     },
   };

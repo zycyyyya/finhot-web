@@ -19,6 +19,13 @@ const https = require('https');
 const DEFAULT_HOST = 'token.sensenova.cn';
 const DEFAULT_PATH = '/v1/chat/completions';
 const DEFAULT_MODEL = 'deepseek-v4-flash';
+// 各渠道的默认模型。不能统一回落到 DEFAULT_MODEL——那是 SenseNova 的模型名，
+// 发给 StepFun 会直接「模型不存在」。渠道没给 model 时用这里对应的值。
+const CHANNEL_DEFAULT_MODELS = {
+  custom: DEFAULT_MODEL,
+  stepfun: 'step-3.7-flash',
+  sensenova: DEFAULT_MODEL,
+};
 const DEFAULT_TIMEOUT_MS = 90000;
 const MAX_RESPONSE_BYTES = 200 * 1024;
 
@@ -270,6 +277,75 @@ async function callChatWithRetry(messages, options, label) {
 }
 
 /**
+ * 解析单个 secret 里可能塞的多项配置。
+ *
+ * 背景：GitHub 的 secret 只能一个一格，但 StepFun 需要 key + baseUrl + model 三个值。
+ * 用户很容易把三行一起塞进 `STEPFUN_API_KEY`（实测真这么填过）。若原样拿去当
+ * Authorization，整个多行串会被当成 key →必然 401，且报错极难定位。
+ *
+ * 支持两种写法，大小写不敏感，按 `=` 或 `:` 或纯分行分隔：
+ *   多行：
+ *     sk-xxxx
+ *     https://api.stepfun.com/v1/chat/completions
+ *     step-3.7-flash
+ *   带标签：
+ *     STEPFUN_API_KEY=sk-xxxx
+ *     STEPFUN_BASE_URL=https://...
+ *     STEPFUN_MODEL=step-3.7-flash
+ *   带标签+冒号：
+ *     api_key: sk-xxxx
+ *     base_url: https://...
+ *     model: step-3.7-flash
+ *
+ * 返回 { apiKey, baseUrl, model, malformed }。单行纯 key 时 malformed=false，
+ * 原样返回 apiKey（不猜后面还有没有别的值）。
+ */
+function parseCombinedSecret(raw) {
+  const out = { apiKey: '', baseUrl: '', model: '', malformed: false };
+  if (typeof raw !== 'string') return out;
+  const text = raw.trim();
+  if (!text) return out;
+
+  const lines = text.split(/\r?\n/).map(l => l.trim()).filter(Boolean);
+
+  // 带标签的写法：任一行含分隔符且左侧是已知键名。
+  // 标签允许带前缀（STEPFUN_API_KEY / FINHOT_LLM_STEPFUN_BASE_URL），
+  // 所以先剥掉所有已知渠道前缀再比对，否则大写全名匹配不上会静默退化成「整行当 key」。
+  const LABEL_RE = /^(?:stepfun_|finhot_llm_stepfun_|_)?(api[_-]?key|key|base[_-]?url|url|model|name)\s*[=:]\s*(.+)$/i;
+  const labelled = [];
+  for (const line of lines) {
+    const m = line.match(LABEL_RE);
+    if (m) labelled.push([m[1].toLowerCase().replace(/[_-]/g, ''), m[2].trim()]);
+  }
+  if (labelled.length > 0) {
+    for (const [k, v] of labelled) {
+      if (k === 'apikey' || k === 'key') out.apiKey = v;
+      else if (k === 'baseurl' || k === 'url') out.baseUrl = v;
+      else if (k === 'model' || k === 'name') out.model = v;
+    }
+    return out;
+  }
+
+  // 分行写法：key / baseUrl / model各占一行
+  if (lines.length === 1) {
+    // 单行：可能整串就是 key；若长得像 URL 也不动（避免误判撕掉后缀）
+    out.apiKey = lines[0];
+    return out;
+  }
+  if (lines.length === 2) {
+    out.apiKey = lines[0];
+    out.baseUrl = lines[1];
+    return out;
+  }
+  out.apiKey = lines[0];
+  out.baseUrl = lines[1];
+  out.model = lines[2];
+  // 三行以上：后面还有内容但我们只认前三个，必须告警，否则静默丢配置
+  if (lines.length > 3) out.malformed = true;
+  return out;
+}
+
+/**
  * 从环境解析模型配置，构建**有序渠道链**。
  *
  * 为什么是链而不是「主 + fallback」两个槽：真实可用的小模型端点有多个
@@ -290,13 +366,41 @@ function resolveLLMConfig(env) {
   const channels = [];
 
   const push = (name, apiKey, baseUrl, model) => {
-    if (apiKey) channels.push({ name, apiKey, baseUrl: baseUrl || '', model: model || '' });
+    if (apiKey) {
+      channels.push({
+        name,
+        apiKey,
+        baseUrl: baseUrl || '',
+        // 按渠道回落默认模型，绝不跨渠道复用上一个渠道的模型名。
+        model: model || CHANNEL_DEFAULT_MODELS[name] || DEFAULT_MODEL,
+      });
+    }
   };
+
+  // 独立环境变量（推荐，语义最清晰）
+  let stepfunKey = e.STEPFUN_API_KEY || '';
+  let stepfunBase = e.FINHOT_LLM_STEPFUN_BASE_URL || '';
+  let stepfunModel = e.FINHOT_LLM_STEPFUN_MODEL || '';
+
+  // 组合 secret 兜底：GitHub 一格secret 里塞了 key/baseUrl/model 多行时也能识别。
+  // 注意不能写成 `if (!stepfunKey)`——组合 secret 本身就存在 STEPFUN_API_KEY 里，
+  // 那个条件永远不成立，解析器形同虚设。判据是「含换行或带标签」而非「是否为空」。
+  const combined = parseCombinedSecret(e.STEPFUN_API_KEY);
+  const looksCombined = combined.baseUrl || combined.model
+    || (combined.apiKey !== (e.STEPFUN_API_KEY || '').trim());
+  if (combined.apiKey && looksCombined) {
+    stepfunKey = combined.apiKey;
+    stepfunBase = stepfunBase || combined.baseUrl;
+    stepfunModel = stepfunModel || combined.model;
+    if (combined.malformed && typeof console !== 'undefined') {
+      console.error('[llm] STEPFUN_API_KEY 含 4 行以上，只识别前 3 行（key/baseUrl/model），建议拆成独立 secret');
+    }
+  }
 
   // 自定义通用端点（保留旧语义，作为显式指定的首选渠道）
   push('custom', e.FINHOT_LLM_API_KEY, e.FINHOT_LLM_BASE_URL, e.FINHOT_LLM_MODEL);
   // StepFun 阶跃星辰：baseUrl 需显式给全（含/v1 或 /step_plan/v1）
-  push('stepfun', e.STEPFUN_API_KEY, e.FINHOT_LLM_STEPFUN_BASE_URL, e.FINHOT_LLM_STEPFUN_MODEL);
+  push('stepfun', stepfunKey, stepfunBase, stepfunModel);
   // SenseNova 免费端点兜底：模型固定，不需baseUrl
   push('sensenova', e.DEEPSEEK_API_KEY, '', '');
 
@@ -387,6 +491,7 @@ module.exports = {
   createRateLimitGuard,
   extractJSON,
   isRateLimitError,
+  parseCombinedSecret,
   parseEndpoint,
   resolveLLMConfig,
   runPool,

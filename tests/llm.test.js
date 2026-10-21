@@ -9,6 +9,7 @@ const {
   createRateLimitGuard,
   extractJSON,
   isRateLimitError,
+  parseCombinedSecret,
   parseEndpoint,
   resolveLLMConfig,
   runPool,
@@ -292,6 +293,75 @@ assert.strictEqual(coerceScore('abc'), null);
   });
   const results = await runPool(tasks, 3);
   assert.deepStrictEqual(results.map(r => (r.ok ? r.value : 'ERR')), [10, 20, 'ERR', 40, 50]);
+
+  // === parseCombinedSecret：单个 secret 里塞多项配置 ===
+  // 真实场景：用户把三行一起填进 STEPFUN_API_KEY（截图实测）。
+  // 若原样当 key 用，整个多行串会变成 Authorization → 必然 401 且报错难定位。
+  assert.deepStrictEqual(
+    parseCombinedSecret('sk-abc123\nhttps://api.stepfun.com/step_plan/v1/chat/completions\nstep-3.7-flash'),
+    { apiKey: 'sk-abc123', baseUrl: 'https://api.stepfun.com/step_plan/v1/chat/completions', model: 'step-3.7-flash', malformed: false },
+    '三行纯分行写法（截图里的实际填法）',
+  );
+  assert.deepStrictEqual(
+    parseCombinedSecret('  sk-abc123  \r\n  https://api.stepfun.com/v1/chat/completions  \r\n  step-3.5-flash  '),
+    { apiKey: 'sk-abc123', baseUrl: 'https://api.stepfun.com/v1/chat/completions', model: 'step-3.5-flash', malformed: false },
+    'CRLF + 首尾空格应被清理',
+  );
+  assert.deepStrictEqual(
+    parseCombinedSecret('STEPFUN_API_KEY=sk-abc\nSTEPFUN_BASE_URL=https://api.stepfun.com/v1/chat/completions\nSTEPFUN_MODEL=step-3.7-flash'),
+    { apiKey: 'sk-abc', baseUrl: 'https://api.stepfun.com/v1/chat/completions', model: 'step-3.7-flash', malformed: false },
+    '带大写标签的 KEY=VALUE 写法',
+  );
+  assert.deepStrictEqual(
+    parseCombinedSecret('api_key: sk-abc\nbase_url: https://api.stepfun.com/v1/chat/completions\nmodel: step-3.7-flash'),
+    { apiKey: 'sk-abc', baseUrl: 'https://api.stepfun.com/v1/chat/completions', model: 'step-3.7-flash', malformed: false },
+    '小写标签 + 冒号写法',
+  );
+  assert.deepStrictEqual(
+    parseCombinedSecret('sk-only-one-line'),
+    { apiKey: 'sk-only-one-line', baseUrl: '', model: '', malformed: false },
+    '单行纯 key 应原样返回',
+  );
+  const tooMany = parseCombinedSecret('sk-abc\nhttps://api.stepfun.com/v1/chat/completions\nstep-3.7-flash\n多出来的一行');
+  assert.strictEqual(tooMany.malformed, true, '超过三行必须告警，不能静默丢配置');
+  assert.deepStrictEqual(
+    parseCombinedSecret(''),
+    { apiKey: '', baseUrl: '', model: '', malformed: false },
+    '空串应安全返回',
+  );
+  assert.deepStrictEqual(
+    parseCombinedSecret(undefined),
+    { apiKey: '', baseUrl: '', model: '', malformed: false },
+    'undefined 应安全返回',
+  );
+
+  // === resolveLLMConfig 读取组合 secret ===
+  const fromCombined = resolveLLMConfig({
+    STEPFUN_API_KEY: 'sk-combined\nhttps://api.stepfun.com/step_plan/v1/chat/completions\nstep-3.7-flash',
+    DEEPSEEK_API_KEY: 'sk-sensenova',
+  });
+  assert.strictEqual(fromCombined.channels[0].name, 'stepfun', '组合 secret 应被解析成 stepfun 渠道');
+  assert.strictEqual(fromCombined.channels[0].apiKey, 'sk-combined', '不能把整段多行当 key');
+  assert.strictEqual(fromCombined.channels[0].baseUrl, 'https://api.stepfun.com/step_plan/v1/chat/completions');
+  assert.strictEqual(fromCombined.channels[0].model, 'step-3.7-flash');
+  assert.strictEqual(fromCombined.maxTokens, 16000, 'StepFun 主渠道仍需放大 maxTokens');
+
+  // 独立变量优先于组合 secret
+  const split = resolveLLMConfig({
+    STEPFUN_API_KEY: 'sk-combined\nhttps://ignored.example/v1\nignored-model',
+    FINHOT_LLM_STEPFUN_BASE_URL: 'https://explicit.example/v1/chat/completions',
+    FINHOT_LLM_STEPFUN_MODEL: 'explicit-model',
+    DEEPSEEK_API_KEY: 'sk-sensenova',
+  });
+  assert.strictEqual(split.channels[0].baseUrl, 'https://explicit.example/v1/chat/completions', '显式 baseUrl 优先');
+  assert.strictEqual(split.channels[0].model, 'explicit-model', '显式 model 优先');
+  assert.strictEqual(split.channels[0].apiKey, 'sk-combined', 'key 仍来自组合 secret 第一行');
+
+  // 渠道没给 model 时必须回落到本渠道默认模型，不能跨渠道复用 deepseek 名
+  const noModel = resolveLLMConfig({ STEPFUN_API_KEY: 'sk-x', DEEPSEEK_API_KEY: 'sk-sensenova' });
+  assert.strictEqual(noModel.channels[0].model, 'step-3.7-flash',
+    'StepFun 未给 model 时应用 StepFun 默认模型，不能是 deepseek-v4-flash');
+  assert.strictEqual(noModel.channels[1].model, 'deepseek-v4-flash', 'SenseNova 用自己的默认模型');
 
   // === resolveLLMConfig ===
   const custom = resolveLLMConfig({

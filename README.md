@@ -135,15 +135,41 @@ StepFun 有**两个端点，取决于 Key 类型**，代码不猜，整串由 `F
 
 #### GitHub Actions 配置
 
-在仓库 Settings → Secrets and variables → Actions → Repository secrets 新建：
+**推荐：一格一个 secret**（语义清晰，出错好定位）
 
 | Secret | 必填 | 示例 |
 |---|---|---|
-| `STEPFUN_API_KEY` | 否 | `sk-...` |
-| `STEPFUN_BASE_URL` | **配了 Key 就必填** | `https://api.stepfun.com/v1/chat/completions` |
+| `STEPFUN_API_KEY` | 是 | `sk-...` |
+| `STEPFUN_BASE_URL` | 是 | `https://api.stepfun.com/v1/chat/completions` |
 | `STEPFUN_MODEL` | 否 | `step-3.7-flash` |
 
 三个都是可选的：不配就退化成单渠道 SenseNova，管线照常跑。
+
+**也支持：一格塞三项**（`parseCombinedSecret` 会自动拆）
+
+GitHub secret 一格只能一个值，但 StepFun 要三项，很容易顺手全填进`STEPFUN_API_KEY`。
+代码会识别以下写法（大小写不敏感，`=`/`:`/纯分行均可）：
+
+```
+sk-xxxxx
+https://api.stepfun.com/step_plan/v1/chat/completions
+step-3.7-flash
+```
+
+```
+STEPFUN_API_KEY=sk-xxxxx
+STEPFUN_BASE_URL=https://api.stepfun.com/step_plan/v1/chat/completions
+STEPFUN_MODEL=step-3.7-flash
+```
+
+```
+api_key: sk-xxxxx
+base_url: https://api.stepfun.com/step_plan/v1/chat/completions
+model: step-3.7-flash
+```
+
+优先读独立 secret；两者都存在时独立 secret 覆盖组合值。超过三行会打告警
+（只识别前三行，不静默丢配置）。
 
 ### 校准与门槛
 

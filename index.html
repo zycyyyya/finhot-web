@@ -221,32 +221,43 @@
     };
   }
 
-  function pad2(n) {
-    return ('0' + n).slice(-2);
+  // === 未来时间戳自愈（幂等） ===
+  // 源站给的是北京时间墙上时钟（无时区串），历史上被 CI（TZ=UTC）当成 UTC 存，
+  // 整整多了 8 小时，于是渲染出来是「比当下还晚几小时」的时间戳 —— 既霸榜又误导。
+  //
+  // 这里的判据很硬：**一条资讯不可能发布于未来**。所以只要时间戳超过
+  // 当前时刻 2 小时（容差，避开时钟漂移），就认定它是被多加了 8 小时，
+  // 直接回退 8 小时。
+  //
+  // 为什么幂等：已经修好的值不会落在未来，所以不会再触发第二次回退；
+  // 而坏值修一次就对了。这是纯函数式的自愈，不需要等 CI 重采覆盖。
+  var FUTURE_TOLERANCE_MS = 2 * 3600000;
+
+  function normalizeStamp(iso) {
+    var t = new Date(iso).getTime();
+    if (isNaN(t)) return null;
+    if (t > Date.now() + FUTURE_TOLERANCE_MS) {
+      return t - CN_OFFSET_MS;
+    }
+    return t;
   }
 
-  // 排序键：绝对时刻 + 固定偏移。因为偏移对所有条目一致，排序结果与
-  // 「按北京墙上时钟排序」完全等价，但避免了逐条格式化带来的开销。
+  // 排序键：规范化后的绝对时刻 + 固定偏移。因为偏移对所有条目一致，
+  // 排序结果与「按北京墙上时钟排序」完全等价，但避免了逐条格式化带来的开销。
   function timeSortKey(iso) {
-    var t = new Date(iso).getTime();
-    if (isNaN(t)) return 0;
+    var t = normalizeStamp(iso);
+    if (t === null) return 0;
     return t + CN_OFFSET_MS;
   }
 
   function formatTime(iso) {
     try {
-      var d = new Date(iso);
-      if (isNaN(d.getTime())) return '';
+      var raw = new Date(iso).getTime();
+      if (isNaN(raw)) return '';
       var now = Date.now();
-      var diff = now - d.getTime();
-      if (diff < 0) {
-        // 未来时间：说明源站时间被错误加了偏移（历史上 CI 把北京时间串当 UTC 存，
-        // 多了 8 小时）。这类条目不该因为"时间最大"而霸占列表首位 ——
-        // 排序时钳到当前时刻，展示时退回绝对日期，不再显示成未来。
-        var p = beijingParts(iso);
-        if (!p) return '';
-        return p.mo + '月' + p.d + '日 ' + pad2(p.h) + ':' + pad2(p.mi);
-      }
+      // 先自愈再算差值，否则差值恒为负，走不进下面的相对时间分支。
+      var fixed = normalizeStamp(iso);
+      var diff = now - fixed;
       if (diff < 3600000) return Math.floor(diff / 60000) + '分钟前';
       if (diff < 86400000) return Math.floor(diff / 3600000) + '小时前';
       var q = beijingParts(iso);
@@ -372,16 +383,9 @@
   }
 
   function sortByTimeDesc(items) {
-    // 未来时间戳钳到当前时刻：单条坏数据不该霸占列表首位。
-    // 正常条目的偏移对所有人一致，钳制不影响相对顺序。
-    var now = Date.now();
-    var cap = now + CN_OFFSET_MS;
+    // 排序键已含未来时间戳自愈（normalizeStamp），这里只管按北京时间倒序。
     return items.slice().sort(function(a, b) {
-      var ta = timeSortKey(a.publishedAt);
-      var tb = timeSortKey(b.publishedAt);
-      if (ta > cap) ta = cap;
-      if (tb > cap) tb = cap;
-      return tb - ta;
+      return timeSortKey(b.publishedAt) - timeSortKey(a.publishedAt);
     });
   }
 

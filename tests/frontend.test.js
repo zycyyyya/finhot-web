@@ -84,10 +84,22 @@ assert.ok(!indexHtml.includes('d.getHours()'),
   'front end must not render time with browser-local getHours()');
 assert.ok(!indexHtml.includes('d.getMonth()'),
   'front end must not render time with browser-local getMonth()');
-// 未来时间戳必须被钳制，避免单条坏数据霸占列表首位
-assert.ok(indexHtml.includes('if (ta > cap) ta = cap;'),
-  'sort must clamp future timestamps');
-assert.ok(indexHtml.includes('if (tb > cap) tb = cap;'),
-  'sort must clamp future timestamps');
+// 未来时间戳必须被自愈（回退 8h），避免单条坏数据霸占列表首位
+assert.ok(indexHtml.includes('var FUTURE_TOLERANCE_MS = 2 * 3600000;'),
+  'front end must define a future-timestamp tolerance');
+assert.ok(indexHtml.includes('function normalizeStamp(iso)'),
+  'front end must heal future timestamps');
+assert.ok(indexHtml.includes('return t - CN_OFFSET_MS;'),
+  'healing must roll the timestamp back by the 8h offset');
+// 渲染与排序必须共用同一个规范化函数，避免两套口径各自漂移
+assert.ok(indexHtml.includes('var t = normalizeStamp(iso);'),
+  'sort key must go through normalizeStamp');
+assert.ok(indexHtml.includes('var fixed = normalizeStamp(iso);'),
+  'formatTime must go through normalizeStamp');
+// 旧的钳制实现已被规范化取代，不应残留
+assert.ok(!indexHtml.includes('if (ta > cap) ta = cap;'),
+  'the old clamp-based sort must be gone');
+assert.ok(!indexHtml.includes('function pad2(n)'),
+  'pad2 became dead code after healing was introduced');
 
 console.log('frontend tests passed');

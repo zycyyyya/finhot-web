@@ -1,19 +1,18 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-21T09:23:14.689Z",
+  "generatedAt": "2026-10-21T13:58:13.054Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
       "eventId": "event_a3c5d0364922",
       "clusterVersion": 2,
-      "title": "A股四大指数集体高开，光模块、存储板块走强",
+      "title": "【权益周观察】上周A股缩量探底3674点 市场调整是否接近尾声？",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-21T09:23:14.689Z",
-      "latestItemPublishedAt": "2026-10-21T01:34:47.000Z",
-      "primaryItemId": "news_e0aee8c147b6",
+      "lastSeenAt": "2026-10-21T13:58:13.054Z",
+      "latestItemPublishedAt": "2026-10-21T13:03:23.000Z",
+      "primaryItemId": "news_11cdf837b0d4",
       "evidenceItemIds": [
-        "news_5b4f9e126cba",
         "news_27ff5a8cdcf7",
         "news_0cde50e751d4",
         "news_20293291bdeb",
@@ -62,7 +61,8 @@
         "news_95c9b2bb5b20",
         "news_11cdf837b0d4",
         "news_e0aee8c147b6",
-        "news_ee2fb3db4f04"
+        "news_ee2fb3db4f04",
+        "news_5a670580e980"
       ],
       "status": "developing",
       "summary": "A股上周缩量探底3674点 市场调整是否接近尾声引关注",
@@ -73,7 +73,7 @@
       "clusterVersion": 2,
       "title": "【华尔街原声】摩根士丹利策略师：美股调整已接近尾声",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-21T09:23:14.689Z",
+      "lastSeenAt": "2026-10-21T13:58:13.054Z",
       "latestItemPublishedAt": "2026-10-21T03:41:37.000Z",
       "primaryItemId": "news_d89a5f374444",
       "evidenceItemIds": [
@@ -135,13 +135,12 @@
     {
       "eventId": "event_2cf716748ce1",
       "clusterVersion": 2,
-      "title": "央行李伟：聚焦国际科技创新中心三大核心功能建设，争取超长期特别国债等支持",
+      "title": "德国央行：德国经济第三季度可能陷入停滞",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-21T09:23:14.689Z",
+      "lastSeenAt": "2026-10-21T13:58:13.054Z",
       "latestItemPublishedAt": "2026-10-21T08:00:32.000Z",
-      "primaryItemId": "news_8cca02ff0124",
+      "primaryItemId": "news_b948fe11318a",
       "evidenceItemIds": [
-        "news_b7653907c31f",
         "news_39c9b44c3211",
         "news_b6b547434998",
         "news_6c2adc0cf183",
@@ -190,7 +189,8 @@
         "news_b9bd3856630d",
         "news_6c2e790e8706",
         "news_a1ccbdeb879d",
-        "news_ca201a81b27f"
+        "news_ca201a81b27f",
+        "news_b948fe11318a"
       ],
       "status": "developing",
       "summary": "央行宣布设立非银大额赎回流动性支持工具，并扩大SLF范围。",
@@ -201,7 +201,7 @@
       "clusterVersion": 2,
       "title": "中国证监会就《证券市场先行赔付指导意见》公开征求意见",
       "firstSeenAt": "2026-10-19T15:45:09.770Z",
-      "lastSeenAt": "2026-10-21T09:23:14.689Z",
+      "lastSeenAt": "2026-10-21T13:58:13.054Z",
       "latestItemPublishedAt": "2026-10-20T10:07:37.000Z",
       "primaryItemId": "news_c61e8342121c",
       "evidenceItemIds": [
@@ -222,7 +222,7 @@
       "clusterVersion": 2,
       "title": "独家|微创系港股集体停牌追踪：房东是谁？小股东为何直指董事长辞任",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-10-21T09:23:14.689Z",
+      "lastSeenAt": "2026-10-21T13:58:13.054Z",
       "latestItemPublishedAt": "2026-10-21T08:29:16.000Z",
       "primaryItemId": "news_48a40cd112bd",
       "evidenceItemIds": [
@@ -286,7 +286,7 @@
       "clusterVersion": 2,
       "title": "CoreWeave债券暴跌敲响警钟，美联储或需重新审视加息节奏",
       "firstSeenAt": "2026-10-08T06:40:59.994Z",
-      "lastSeenAt": "2026-10-21T09:23:14.689Z",
+      "lastSeenAt": "2026-10-21T13:58:13.054Z",
       "latestItemPublishedAt": "2026-10-21T07:35:59.000Z",
       "primaryItemId": "news_bd67e678a075",
       "evidenceItemIds": [
@@ -335,7 +335,7 @@
       "clusterVersion": 2,
       "title": "全球央行独立性为何关键？美联储、欧洲央行、日本央行有何经验",
       "firstSeenAt": "2026-10-16T05:04:10.403Z",
-      "lastSeenAt": "2026-10-21T09:23:14.689Z",
+      "lastSeenAt": "2026-10-21T13:58:13.054Z",
       "latestItemPublishedAt": "2026-10-21T04:20:10.000Z",
       "primaryItemId": "news_6567aead4b97",
       "evidenceItemIds": [
@@ -358,7 +358,7 @@
       "clusterVersion": 2,
       "title": "10月21日午间涨停分析",
       "firstSeenAt": "2026-10-20T05:20:30.853Z",
-      "lastSeenAt": "2026-10-21T09:23:14.689Z",
+      "lastSeenAt": "2026-10-21T13:58:13.054Z",
       "latestItemPublishedAt": "2026-10-21T04:05:55.000Z",
       "primaryItemId": "news_41681876ba4a",
       "evidenceItemIds": [
@@ -373,18 +373,19 @@
     {
       "eventId": "event_294387429284",
       "clusterVersion": 2,
-      "title": "油价传导超预期，日本央行拟12月加息，10月按兵不动",
+      "title": "日本央行下周开会：或正式宣告实现2%通胀目标，告别“抗通缩模式”",
       "firstSeenAt": "2026-10-16T16:49:31.035Z",
-      "lastSeenAt": "2026-10-21T09:23:14.689Z",
-      "latestItemPublishedAt": "2026-10-21T04:37:37.000Z",
-      "primaryItemId": "news_a49bd63570e0",
+      "lastSeenAt": "2026-10-21T13:58:13.054Z",
+      "latestItemPublishedAt": "2026-10-21T11:11:11.000Z",
+      "primaryItemId": "news_e892bdc3705a",
       "evidenceItemIds": [
         "news_a9f7e6a7069d",
         "news_43131ce49d34",
         "news_67379ab3d587",
         "news_12c6c3b1ca4e",
         "news_a49bd63570e0",
-        "news_d4533d90f614"
+        "news_d4533d90f614",
+        "news_e892bdc3705a"
       ],
       "status": "developing",
       "summary": "",
@@ -395,7 +396,7 @@
       "clusterVersion": 2,
       "title": "财联社10月21日电，杰富瑞将通用汽车目标价从99美元下调至95美元。",
       "firstSeenAt": "2026-10-21T04:57:41.294Z",
-      "lastSeenAt": "2026-10-21T09:23:14.689Z",
+      "lastSeenAt": "2026-10-21T13:58:13.054Z",
       "latestItemPublishedAt": "2026-10-21T04:47:13.000Z",
       "primaryItemId": "news_bce7a3c52a8d",
       "evidenceItemIds": [
@@ -411,7 +412,7 @@
       "clusterVersion": 2,
       "title": "财联社10月21日电，10年期日本国债收益率下跌0.5个基点至2.890%。",
       "firstSeenAt": "2026-10-21T04:57:41.294Z",
-      "lastSeenAt": "2026-10-21T09:23:14.689Z",
+      "lastSeenAt": "2026-10-21T13:58:13.054Z",
       "latestItemPublishedAt": "2026-10-21T04:46:43.000Z",
       "primaryItemId": "news_b1e39af0a62c",
       "evidenceItemIds": [
@@ -428,12 +429,92 @@
       "clusterVersion": 2,
       "title": "SK海力士完成40万亿韩元股份回购。（韩联社）",
       "firstSeenAt": "2026-10-21T09:23:14.689Z",
-      "lastSeenAt": "2026-10-21T09:23:14.689Z",
+      "lastSeenAt": "2026-10-21T13:58:13.054Z",
       "latestItemPublishedAt": "2026-10-21T08:05:57.000Z",
       "primaryItemId": "news_d3840877727e",
       "evidenceItemIds": [
         "news_d3840877727e",
         "news_aa7d62e44563"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_57efd0fada08",
+      "clusterVersion": 2,
+      "title": "泽连斯基：愿在保留75%领土控制权的基础上达成和平协议",
+      "firstSeenAt": "2026-10-21T13:58:13.054Z",
+      "lastSeenAt": "2026-10-21T13:58:13.054Z",
+      "latestItemPublishedAt": "2026-10-21T11:48:40.000Z",
+      "primaryItemId": "news_04174998b1fc",
+      "evidenceItemIds": [
+        "news_04174998b1fc",
+        "news_209db951cc35"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_4a664a06d9b1",
+      "clusterVersion": 2,
+      "title": "《关于推动科技创新和产业创新深度融合的意见》发布｜附一图读懂",
+      "firstSeenAt": "2026-10-21T13:58:13.054Z",
+      "lastSeenAt": "2026-10-21T13:58:13.054Z",
+      "latestItemPublishedAt": "2026-10-21T11:02:20.000Z",
+      "primaryItemId": "news_1d59f0acb66b",
+      "evidenceItemIds": [
+        "news_1d59f0acb66b",
+        "news_f6c9e6079234"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_870545492f3c",
+      "clusterVersion": 2,
+      "title": "恒生科技指数跌破4000点｜市场观察",
+      "firstSeenAt": "2026-10-21T13:58:13.054Z",
+      "lastSeenAt": "2026-10-21T13:58:13.054Z",
+      "latestItemPublishedAt": "2026-10-21T09:41:25.000Z",
+      "primaryItemId": "news_8b6ed9e07cd8",
+      "evidenceItemIds": [
+        "news_8b6ed9e07cd8",
+        "news_d508328f7b4c"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_3bf4a408ab79",
+      "clusterVersion": 2,
+      "title": "2连板同为股份：目前公司大模型AI产品出货数量及营收未形成规模",
+      "firstSeenAt": "2026-10-21T13:58:13.054Z",
+      "lastSeenAt": "2026-10-21T13:58:13.054Z",
+      "latestItemPublishedAt": "2026-10-21T12:32:00.000Z",
+      "primaryItemId": "news_b3357ba517d7",
+      "evidenceItemIds": [
+        "news_b3357ba517d7",
+        "news_fbd7a367f9f6"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_02e54c5a5820",
+      "clusterVersion": 2,
+      "title": "4连板海洋王：公司AI+智慧照明相关业务收入规模有限",
+      "firstSeenAt": "2026-10-21T13:58:13.054Z",
+      "lastSeenAt": "2026-10-21T13:58:13.054Z",
+      "latestItemPublishedAt": "2026-10-21T12:58:20.000Z",
+      "primaryItemId": "news_85134f886b20",
+      "evidenceItemIds": [
+        "news_85134f886b20",
+        "news_655135c81189"
       ],
       "status": "developing",
       "summary": "",

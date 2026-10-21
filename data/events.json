@@ -1,19 +1,18 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-20T17:21:17.260Z",
+  "generatedAt": "2026-10-21T04:57:41.294Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
       "eventId": "event_a3c5d0364922",
       "clusterVersion": 2,
-      "title": "A股半导体概念午后震荡反弹，摩尔线程涨超10%，翱捷科技、云天励飞、沐曦股份、芯原股份等跟涨。",
+      "title": "【权益周观察】上周A股缩量探底3674点 市场调整是否接近尾声？",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-20T17:21:17.260Z",
-      "latestItemPublishedAt": "2026-10-20T13:13:06.000Z",
-      "primaryItemId": "news_f75191e41f77",
+      "lastSeenAt": "2026-10-21T04:57:41.294Z",
+      "latestItemPublishedAt": "2026-10-21T01:34:47.000Z",
+      "primaryItemId": "news_11cdf837b0d4",
       "evidenceItemIds": [
-        "news_cbf963d19f7f",
         "news_e0c67768f1a8",
         "news_3b781ae6d25d",
         "news_5b4f9e126cba",
@@ -62,22 +61,22 @@
         "news_e1003cb9d5c1",
         "news_c46e8b88b0d7",
         "news_4b1aa551cac5",
-        "news_95c9b2bb5b20"
+        "news_95c9b2bb5b20",
+        "news_11cdf837b0d4"
       ],
       "status": "developing",
-      "summary": "A股再现回购潮，半导体与算力板块业绩亮眼，首批主动ETF获批启动发行。",
-      "latestProgress": "四大指数低开，农业教育活跃，双创翻红，AI硬件反弹，北证50涨5%。"
+      "summary": "A股上周缩量探底3674点 市场调整是否接近尾声引关注",
+      "latestProgress": "最新权益周观察分析 调整接近尾声与否待观察"
     },
     {
       "eventId": "event_f101880ef7bc",
       "clusterVersion": 2,
       "title": "CoreWeave一度涨超5.3%，美股盘初曾跌超6.3%。 美股AI软件先驱指数涨幅扩大至1.1%，AI赢家指数涨幅一",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-20T17:21:17.260Z",
+      "lastSeenAt": "2026-10-21T04:57:41.294Z",
       "latestItemPublishedAt": "2026-10-20T14:57:13.000Z",
       "primaryItemId": "news_e6d35a91a0bc",
       "evidenceItemIds": [
-        "news_74a59a115b21",
         "news_3e435a05226b",
         "news_ae7d259eba2e",
         "news_c41fcd28d36a",
@@ -126,7 +125,8 @@
         "news_54801b02a622",
         "news_e2e89b5875b5",
         "news_173c3dcef4b2",
-        "news_e6d35a91a0bc"
+        "news_e6d35a91a0bc",
+        "news_d89a5f374444"
       ],
       "status": "developing",
       "summary": "美股牛市满四年，市场担忧熊市将至，科技股反弹但风险仍存。",
@@ -135,16 +135,12 @@
     {
       "eventId": "event_2cf716748ce1",
       "clusterVersion": 2,
-      "title": "央行完善短端利率调控机制 隔夜回购将成主要操作品种",
+      "title": "央行李伟：聚焦国际科技创新中心三大核心功能建设，争取超长期特别国债等支持",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-20T17:21:17.260Z",
-      "latestItemPublishedAt": "2026-10-20T11:51:04.000Z",
-      "primaryItemId": "news_18f80d945d5e",
+      "lastSeenAt": "2026-10-21T04:57:41.294Z",
+      "latestItemPublishedAt": "2026-10-21T02:58:25.000Z",
+      "primaryItemId": "news_8cca02ff0124",
       "evidenceItemIds": [
-        "news_6c929a5b30e5",
-        "news_6e755d6b0d8d",
-        "news_80c0ef3cffb3",
-        "news_7173a9e7e57a",
         "news_78689efa326d",
         "news_c40eb932210e",
         "news_16f1be7de1cd",
@@ -190,7 +186,11 @@
         "news_034d2aef9277",
         "news_edab0f29da0c",
         "news_18f80d945d5e",
-        "news_76527dd309c0"
+        "news_76527dd309c0",
+        "news_f35da10826ae",
+        "news_8cca02ff0124",
+        "news_a190d331b6a7",
+        "news_b9bd3856630d"
       ],
       "status": "developing",
       "summary": "央行宣布设立非银大额赎回流动性支持工具，并扩大SLF范围。",
@@ -199,11 +199,11 @@
     {
       "eventId": "event_81903830edd9",
       "clusterVersion": 2,
-      "title": "中国证监会就《证券市场先行赔付指导意见》公开征求意见",
+      "title": "中国证监会有关部门负责人就《违规转让证券案件行政处罚实施规则》答记者问",
       "firstSeenAt": "2026-10-19T15:45:09.770Z",
-      "lastSeenAt": "2026-10-20T17:21:17.260Z",
-      "latestItemPublishedAt": "2026-10-20T10:07:37.000Z",
-      "primaryItemId": "news_c61e8342121c",
+      "lastSeenAt": "2026-10-21T04:57:41.294Z",
+      "latestItemPublishedAt": "2026-10-19T10:43:31.000Z",
+      "primaryItemId": "news_29d1bc110417",
       "evidenceItemIds": [
         "news_c61e8342121c",
         "news_b086a9025dff",
@@ -214,15 +214,15 @@
         "news_3ba6b045b23d"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "证监会发布违规转让证券处罚规则，负责人答记者问，明确行政处罚实施细则。",
+      "latestProgress": "证监会就《证券市场先行赔付指导意见》公开征求意见。"
     },
     {
       "eventId": "event_c68d651d4ff9",
       "clusterVersion": 2,
       "title": "港股公告精选｜澜起科技三季度盈利同比增超150% 中船防务前三季度新接订单近360亿元",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-10-20T17:21:17.260Z",
+      "lastSeenAt": "2026-10-21T04:57:41.294Z",
       "latestItemPublishedAt": "2026-10-20T13:27:57.000Z",
       "primaryItemId": "news_a6f80a8a4005",
       "evidenceItemIds": [
@@ -278,15 +278,15 @@
         "news_a6f80a8a4005"
       ],
       "status": "developing",
-      "summary": "港股三大指数全线收涨，科技半导体AI硬件活跃，农行建行回调。",
-      "latestProgress": "港股结算机制将改T+1，2028下半年完成；年内25家公司强制退市。"
+      "summary": "澜起科技三季度盈利同比增超150%，中船防务前三季度新接订单近360亿元。",
+      "latestProgress": "港股公告显示，澜起科技业绩大增，中船防务订单持续增长。"
     },
     {
       "eventId": "event_6ab2a13609c6",
       "clusterVersion": 2,
       "title": "CoreWeave债券暴跌敲响警钟，美联储或需重新审视加息节奏",
       "firstSeenAt": "2026-10-08T06:40:59.994Z",
-      "lastSeenAt": "2026-10-20T17:21:17.260Z",
+      "lastSeenAt": "2026-10-21T04:57:41.294Z",
       "latestItemPublishedAt": "2026-10-20T12:15:37.000Z",
       "primaryItemId": "news_bd67e678a075",
       "evidenceItemIds": [
@@ -334,7 +334,7 @@
       "clusterVersion": 2,
       "title": "美国土安全部发布针对中国企业的联邦采购排除和移除命令通知，商务部回应",
       "firstSeenAt": "2026-10-20T13:42:04.100Z",
-      "lastSeenAt": "2026-10-20T17:21:17.260Z",
+      "lastSeenAt": "2026-10-21T04:57:41.294Z",
       "latestItemPublishedAt": "2026-10-20T13:34:24.000Z",
       "primaryItemId": "news_8c09d27289ef",
       "evidenceItemIds": [
@@ -350,7 +350,7 @@
       "clusterVersion": 2,
       "title": "宁德时代：前三季度归母净利润645.3亿元，同比增长31.60%",
       "firstSeenAt": "2026-10-20T13:42:04.100Z",
-      "lastSeenAt": "2026-10-20T17:21:17.260Z",
+      "lastSeenAt": "2026-10-21T04:57:41.294Z",
       "latestItemPublishedAt": "2026-10-20T11:59:38.000Z",
       "primaryItemId": "news_d56947fe1040",
       "evidenceItemIds": [
@@ -366,7 +366,7 @@
       "clusterVersion": 2,
       "title": "美国待售房屋销量降至历史低点，抵押贷款利率上升",
       "firstSeenAt": "2026-10-20T13:42:04.100Z",
-      "lastSeenAt": "2026-10-20T17:21:17.260Z",
+      "lastSeenAt": "2026-10-21T04:57:41.294Z",
       "latestItemPublishedAt": "2026-10-20T14:01:44.000Z",
       "primaryItemId": "news_e2091b2b3027",
       "evidenceItemIds": [
@@ -384,7 +384,7 @@
       "clusterVersion": 2,
       "title": "美股见顶最直接的信号：韩国芯片出口？",
       "firstSeenAt": "2026-10-20T13:42:04.100Z",
-      "lastSeenAt": "2026-10-20T17:21:17.260Z",
+      "lastSeenAt": "2026-10-21T04:57:41.294Z",
       "latestItemPublishedAt": "2026-10-20T13:08:19.000Z",
       "primaryItemId": "news_d41dc38eaf78",
       "evidenceItemIds": [
@@ -400,8 +400,8 @@
       "clusterVersion": 2,
       "title": "全球央行独立性为何关键？美联储、欧洲央行、日本央行有何经验",
       "firstSeenAt": "2026-10-16T05:04:10.403Z",
-      "lastSeenAt": "2026-10-20T13:42:04.100Z",
-      "latestItemPublishedAt": "2026-10-20T08:02:40.000Z",
+      "lastSeenAt": "2026-10-21T04:57:41.294Z",
+      "latestItemPublishedAt": "2026-10-21T04:20:10.000Z",
       "primaryItemId": "news_6567aead4b97",
       "evidenceItemIds": [
         "news_1b8b1278bcaf",
@@ -411,11 +411,129 @@
         "news_4cb77d150c92",
         "news_0023d6611567",
         "news_6567aead4b97",
-        "news_9217ad4c27ec"
+        "news_9217ad4c27ec",
+        "news_ce1f37181283"
       ],
       "status": "developing",
       "summary": "全球央行独立性对稳定经济至关重要，美联储、欧央行、日央行经验可供借鉴。",
       "latestProgress": "最新报道阐释了三大央行独立性实践，强调其对政策可信度的支撑作用。"
+    },
+    {
+      "eventId": "event_3dce8a965214",
+      "clusterVersion": 2,
+      "title": "10月21日午间涨停分析",
+      "firstSeenAt": "2026-10-20T05:20:30.853Z",
+      "lastSeenAt": "2026-10-21T04:57:41.294Z",
+      "latestItemPublishedAt": "2026-10-21T04:05:55.000Z",
+      "primaryItemId": "news_41681876ba4a",
+      "evidenceItemIds": [
+        "news_44df0764d23e",
+        "news_8b7de7db7c9c",
+        "news_41681876ba4a"
+      ],
+      "status": "developing",
+      "summary": "10月21日午间涨停分析，股市表现受关注。",
+      "latestProgress": "根据10月21日最新报道，午间涨停分析已发布。"
+    },
+    {
+      "eventId": "event_294387429284",
+      "clusterVersion": 2,
+      "title": "油价传导超预期，日本央行拟12月加息，10月按兵不动",
+      "firstSeenAt": "2026-10-16T16:49:31.035Z",
+      "lastSeenAt": "2026-10-21T04:57:41.294Z",
+      "latestItemPublishedAt": "2026-10-21T04:37:37.000Z",
+      "primaryItemId": "news_a49bd63570e0",
+      "evidenceItemIds": [
+        "news_a9f7e6a7069d",
+        "news_43131ce49d34",
+        "news_67379ab3d587",
+        "news_12c6c3b1ca4e",
+        "news_a49bd63570e0",
+        "news_d4533d90f614"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_bcd570f74985",
+      "clusterVersion": 2,
+      "title": "半年亏损超800亿美元，Anthropic的钱被谁赚走了？",
+      "firstSeenAt": "2026-10-21T04:57:41.294Z",
+      "lastSeenAt": "2026-10-21T04:57:41.294Z",
+      "latestItemPublishedAt": "2026-10-21T04:14:16.000Z",
+      "primaryItemId": "news_04011922a09e",
+      "evidenceItemIds": [
+        "news_04011922a09e",
+        "news_dd63450737b4"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_ce3b0478a5b2",
+      "clusterVersion": 2,
+      "title": "财联社10月21日电，杰富瑞将通用汽车目标价从99美元下调至95美元。",
+      "firstSeenAt": "2026-10-21T04:57:41.294Z",
+      "lastSeenAt": "2026-10-21T04:57:41.294Z",
+      "latestItemPublishedAt": "2026-10-21T04:47:13.000Z",
+      "primaryItemId": "news_bce7a3c52a8d",
+      "evidenceItemIds": [
+        "news_bce7a3c52a8d",
+        "news_36889d68e161"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_23945141e614",
+      "clusterVersion": 2,
+      "title": "财联社10月21日电，10年期日本国债收益率下跌1个基点至2.885%。",
+      "firstSeenAt": "2026-10-21T04:57:41.294Z",
+      "lastSeenAt": "2026-10-21T04:57:41.294Z",
+      "latestItemPublishedAt": "2026-10-21T04:46:43.000Z",
+      "primaryItemId": "news_f6b5e7cc51d7",
+      "evidenceItemIds": [
+        "news_f6b5e7cc51d7",
+        "news_7b6067f575aa"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_ce8f7890c39d",
+      "clusterVersion": 2,
+      "title": "商务部新闻发言人就美以窃取商业秘密为由制裁中国企业答记者问",
+      "firstSeenAt": "2026-10-21T04:57:41.294Z",
+      "lastSeenAt": "2026-10-21T04:57:41.294Z",
+      "latestItemPublishedAt": "2026-10-20T16:14:29.000Z",
+      "primaryItemId": "news_20e521a49dd3",
+      "evidenceItemIds": [
+        "news_20e521a49dd3",
+        "news_b63ef47a9e92"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_57653cb31d77",
+      "clusterVersion": 2,
+      "title": "亚马逊计划2027年在德国投资逾160亿欧元，涵盖AI、卫星与物流",
+      "firstSeenAt": "2026-10-21T04:57:41.294Z",
+      "lastSeenAt": "2026-10-21T04:57:41.294Z",
+      "latestItemPublishedAt": "2026-10-20T12:29:51.000Z",
+      "primaryItemId": "news_2cc5eb1b122d",
+      "evidenceItemIds": [
+        "news_2cc5eb1b122d",
+        "news_87c4aeb5833f"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
     },
     {
       "eventId": "event_9e54bc76fce7",
@@ -434,22 +552,6 @@
       "latestProgress": ""
     },
     {
-      "eventId": "event_3dce8a965214",
-      "clusterVersion": 2,
-      "title": "10月20日午间涨停分析",
-      "firstSeenAt": "2026-10-20T05:20:30.853Z",
-      "lastSeenAt": "2026-10-20T13:42:04.100Z",
-      "latestItemPublishedAt": "2026-10-20T03:50:24.000Z",
-      "primaryItemId": "news_44df0764d23e",
-      "evidenceItemIds": [
-        "news_44df0764d23e",
-        "news_8b7de7db7c9c"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
       "eventId": "event_4673b2dfcae8",
       "clusterVersion": 2,
       "title": "财政部拟发行2026年记账式贴现（六十八期）国债，招标面值总额550亿元",
@@ -460,25 +562,6 @@
       "evidenceItemIds": [
         "news_6ad844c2b6a9",
         "news_f014e49a745e"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_294387429284",
-      "clusterVersion": 2,
-      "title": "油价传导超预期，日本央行拟12月加息，10月按兵不动",
-      "firstSeenAt": "2026-10-16T16:49:31.035Z",
-      "lastSeenAt": "2026-10-20T13:42:04.100Z",
-      "latestItemPublishedAt": "2026-10-20T07:29:43.000Z",
-      "primaryItemId": "news_a49bd63570e0",
-      "evidenceItemIds": [
-        "news_a9f7e6a7069d",
-        "news_43131ce49d34",
-        "news_67379ab3d587",
-        "news_12c6c3b1ca4e",
-        "news_a49bd63570e0"
       ],
       "status": "developing",
       "summary": "",

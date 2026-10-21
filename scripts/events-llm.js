@@ -81,6 +81,7 @@ async function judgeEventPairs(items, options) {
 
   const judgeMap = new Map();
   let failed = 0;
+  let aborted = 0;
   const batches = [];
   for (let i = 0; i < pairs.length; i += opts.batchSize) batches.push(pairs.slice(i, i + opts.batchSize));
 
@@ -93,9 +94,19 @@ async function judgeEventPairs(items, options) {
     // 6 对一批的判定 + 推理模型的思考余量。
     maxTokens: 6000,
     fetchImpl: opts.fetchImpl,
+    // 与评分路径共用批次级熔断：事件点评也在打同一份配额，
+    // 不接熔断会在主渠道限流时重演「空转十几分钟」。
+    guard: opts.guard,
+    retryDelays: opts.retryDelays,
   };
   const tasks = batches.map((batch, bi) => async () => {
-    const raw = await callChatWithRetry(buildJudgeMessages(batch), callOpts, `event-judge batch ${bi + 1}`);
+    let raw;
+    try {
+      raw = await callChatWithRetry(buildJudgeMessages(batch), callOpts, `event-judge batch ${bi + 1}`);
+    } catch (error) {
+      if (error.code === 'RATE_LIMIT_OPEN') { aborted += 1; return; }
+      throw error;
+    }
     const decisions = parseDecisions(raw, batch.length);
     batch.forEach((pair, i) => {
       if (decisions[i] === null) { failed += 1; return; }
@@ -105,8 +116,9 @@ async function judgeEventPairs(items, options) {
   await runPool(tasks, opts.concurrency);
 
   const log = opts.log || (() => {});
-  log(`[llm-events] 判定 ${judgeMap.size}/${pairs.length} 对（${batches.length} 次调用，失败对 ${failed}）`);
-  return { judgeMap, judged: judgeMap.size, attempted: pairs.length, failed };
+  log(`[llm-events] 判定 ${judgeMap.size}/${pairs.length} 对（${batches.length} 次调用，失败对 ${failed}`
+    + (aborted > 0 ? `，限流中止批次 ${aborted}` : '') + '）');
+  return { judgeMap, judged: judgeMap.size, attempted: pairs.length, failed, aborted };
 }
 
 const SUMMARY_SYSTEM = '你是金融保险资讯编辑。基于同一事件的多条报道，写一句不超过 40 字的综述，和一句不超过 40 字的最新进展（以时间最新的报道为准）。只返回合法 JSON，不要 Markdown。';
@@ -125,6 +137,7 @@ async function summarizeEvents(events, itemById, options) {
 
   const summaries = new Map();
   let failed = 0;
+  let aborted = 0;
   const callOpts = {
     apiKey: opts.apiKey,
     baseUrl: opts.baseUrl,
@@ -133,6 +146,8 @@ async function summarizeEvents(events, itemById, options) {
     temperature: 0.3,
     maxTokens: 3000,
     fetchImpl: opts.fetchImpl,
+    guard: opts.guard,
+    retryDelays: opts.retryDelays,
   };
   const tasks = picked.map(event => async () => {
     const members = event.evidenceItemIds
@@ -142,10 +157,16 @@ async function summarizeEvents(events, itemById, options) {
       .slice(-8);
     if (members.length === 0) return;
     const lines = members.map(m => `- [${(m.publishedAt || '').slice(0, 10)}] ${m.title}`).join('\n');
-    const raw = await callChatWithRetry([
-      { role: 'system', content: SUMMARY_SYSTEM },
-      { role: 'user', content: `事件：${event.title}\n报道：\n${lines}\n\n返回 {"summary": "...", "latestProgress": "..."}` },
-    ], callOpts, `event-summary ${event.eventId}`);
+    let raw;
+    try {
+      raw = await callChatWithRetry([
+        { role: 'system', content: SUMMARY_SYSTEM },
+        { role: 'user', content: `事件：${event.title}\n报道：\n${lines}\n\n返回 {"summary": "...", "latestProgress": "..."}` },
+      ], callOpts, `event-summary ${event.eventId}`);
+    } catch (error) {
+      if (error.code === 'RATE_LIMIT_OPEN') { aborted += 1; return; }
+      throw error;
+    }
     const parsed = extractJSON(raw, null);
     if (!parsed || typeof parsed.summary !== 'string') { failed += 1; return; }
     summaries.set(event.eventId, {
@@ -156,8 +177,9 @@ async function summarizeEvents(events, itemById, options) {
   await runPool(tasks, opts.concurrency);
 
   const log = opts.log || (() => {});
-  log(`[llm-events] 综述 ${summaries.size}/${picked.length} 个事件（失败 ${failed}）`);
-  return { summaries, attempted: picked.length, failed };
+  log(`[llm-events] 综述 ${summaries.size}/${picked.length} 个事件（失败 ${failed}`
+    + (aborted > 0 ? `，限流中止 ${aborted}` : '') + '）');
+  return { summaries, attempted: picked.length, failed, aborted };
 }
 
 module.exports = {

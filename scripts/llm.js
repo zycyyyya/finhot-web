@@ -180,14 +180,39 @@ async function callChat(messages, options) {
  * - guard: createRateLimitGuard() 的实例。熔断打开时立刻抛 RateLimitOpenError，
  *   不再 sleep、不再重试——这是把「12 分钟空转」压到「几秒内降级」的关键。
  *   每次成功会调guard.recordSuccess()，每次 429 调 recordRateLimit()。
+ *
+ * 熔断的语义边界（重要）：熔断只针对**主渠道**。fallback 走的是另一家供应商的
+ * 独立配额，不共享限流窗口，因此熔断打开时必须放行 fallback —— 否则「主渠道限流」
+ * 会退化成「全渠道放弃」，明明有备用额度却不用。
  */
 async function callChatWithRetry(messages, options, label) {
   const opts = options || {};
   const delays = Array.isArray(opts.retryDelays) ? opts.retryDelays : [8000, 16000];
   const guard = opts.guard || null;
+  const hasFallback = Boolean(opts.fallback && opts.fallback.apiKey);
 
-  // 入口先看熔断：上一条已经把窗口打满就别再发请求了。
-  if (guard && guard.open) throw new RateLimitOpenError(guard);
+  /**
+   * 切到兜底渠道重试一次（不再递归）。
+   * fallback 不传 guard：它是独立配额，不该被主渠道的熔断器连坐。
+   */
+  async function tryFallback(primaryError) {
+    try {
+      const r = await callChat(messages, { ...opts, ...opts.fallback, fallback: undefined, guard: undefined });
+      if (typeof console !== 'undefined' && label) {
+        console.error(`[llm] ${label} 主渠道不可用，已切fallback（${opts.fallback.model || '默认模型'}）`);
+      }
+      return r;
+    } catch (fallbackError) {
+      throw new Error(`${primaryError.message} | fallback failed: ${fallbackError.message}`);
+    }
+  }
+
+  // 入口先看熔断：主渠道已经打满就别再发了。但有备用渠道就直奔fallback，
+  // 不要因为主渠道限流而让整条链路直接失败。
+  if (guard && guard.open) {
+    if (hasFallback) return tryFallback(new RateLimitOpenError(guard));
+    throw new RateLimitOpenError(guard);
+  }
 
   for (let attempt = 0; attempt <= delays.length; attempt++) {
     try {
@@ -199,26 +224,22 @@ async function callChatWithRetry(messages, options, label) {
 
       if (rateLimited && guard) {
         guard.recordRateLimit();
-        // 熔断刚被这一条触发：不要睡，直接冒泡，让整个阶段停掉。
-        if (guard.open) throw new RateLimitOpenError(guard);
+        // 熔断刚被这一条触发：不要睡。有 fallback 就切过去，两者都没有才冒泡。
+        if (guard.open) {
+          if (hasFallback) return tryFallback(error);
+          throw new RateLimitOpenError(guard);
+        }
       }
 
       if (!rateLimited || attempt === delays.length) {
-        if (opts.fallback && opts.fallback.apiKey) {
-          try {
-            // fallback 配置覆盖主配置（可含自己的 fetchImpl，测试注入用）；不再递归 fallback。
-            return await callChat(messages, { ...opts, ...opts.fallback, fallback: undefined });
-          } catch (fallbackError) {
-            throw new Error(`${error.message} | fallback failed: ${fallbackError.message}`);
-          }
-        }
+        if (hasFallback) return tryFallback(error);
         throw error;
       }
       const delay = delays[attempt];
       if (typeof console !== 'undefined') console.error(`[llm] ${label || 'call'} rate limited; retrying in ${delay / 1000}s`);
       await new Promise(resolve => setTimeout(resolve, delay));
-      // sleep 期间别的worker 可能已把熔断打开，下一轮循环前的 sleep 后不重试。
-      if (guard && guard.open) throw new RateLimitOpenError(guard);
+      // sleep 期间别的worker 可能已把熔断打开：让位给 fallback 再决定是否中止。
+      if (guard && guard.open && !hasFallback) throw new RateLimitOpenError(guard);
     }
   }
   return '';

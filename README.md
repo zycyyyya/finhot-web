@@ -102,6 +102,26 @@ finhot-web 是集自动采集、AI 分析、数据质量控制与静态页面展
 | `FINHOT_LLM_MAX_ITEMS` | 120 | 单轮送模型上限 |
 | `FINHOT_LLM_CONCURRENCY` | 4 | 并发上限 |
 
+### 备用渠道（fallback）
+
+`resolveLLMConfig` 的挂载规则：
+
+| 场景 | 主渠道 | fallback |
+|---|---|---|
+| 只配 `DEEPSEEK_API_KEY` | SenseNova | **无** |
+| 配 `FINHOT_LLM_*` + `DEEPSEEK_API_KEY` | 自定义端点 | SenseNova |
+| 只配 `FINHOT_LLM_*` | 自定义端点 | 无 |
+
+⚠️ **CI 当前只配了 `DEEPSEEK_API_KEY`，即没有备用渠道**（单点依赖）。
+要启用兜底需在 Actions secrets 里补`FINHOT_LLM_API_KEY` / `FINHOT_LLM_BASE_URL` / `FINHOT_LLM_MODEL`。
+
+**熔断与 fallback 的语义边界**：熔断只针对主渠道。fallback 是另一家供应商的独立配额，
+不共享限流窗口，因此主渠道熔断打开时会**放行 fallback**——否则「主渠道限流」会退化成
+「全渠道放弃」，明明有备用额度却不用。已用测试锁定这条不变量。
+
+两条调用路径都接了熔断：`select-llm.js`（评分）与 `events-llm.js`（事件点评 / 综述），
+共用同一份配额，必须一起限流。
+
 ### 校准与门槛
 
 `data/gold.jsonl` 含 31 条手工标注（分层抽样：精选 / 高分未精选 / 中档 / 噪声 / 知乎）。运行 `node scripts/eval-selection.js --llm` 可扫描门槛 40–90 输出 F1 报告。LongCat 实测 F1 75.0%（启发式 73.3%），查准率 90%。

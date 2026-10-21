@@ -181,6 +181,62 @@ assert.strictEqual(coerceScore('abc'), null);
   assert.strictEqual(okCalls, 2);
   assert.strictEqual(g2.open, false, '一次 429 不该熔断');
 
+  // === 关键不变量：熔断只针对主渠道，绝不能跳过 fallback ===
+  // fallback 是另一家供应商的独立配额，不共享限流窗口。
+  // 早期实现熔断打开就直接 throw，导致「主渠道限流」退化成「全渠道放弃」。
+  const gFb = createRateLimitGuard({ threshold: 2, windowSize: 4 });
+  let fbPrimary = 0;
+  let fbFallback = 0;
+  const viaFallback = await callChatWithRetry([{ role: 'user', content: 'x' }], {
+    apiKey: 'pk',
+    guard: gFb,
+    retryDelays: [1, 1],
+    fetchImpl: async () => { fbPrimary += 1; throw new Error('HTTP 429: tpm/rpm limit'); },
+    fallback: { apiKey: 'fbk', model: 'backup-model', fetchImpl: async () => { fbFallback += 1; return 'FALLBACK_OK'; } },
+  }, 'test');
+  assert.strictEqual(viaFallback, 'FALLBACK_OK', '熔断触发后应切到备用渠道');
+  assert.strictEqual(fbFallback, 1, '备用渠道应被调用一次');
+  assert.strictEqual(gFb.open, true, '主渠道熔断状态仍然记录');
+  assert.strictEqual(fbPrimary, 2, '主渠道在熔断前只应打到阈值');
+
+  // 熔断在「入口」就已打开时（上一批遗留），仍要放行 fallback
+  const gPre = createRateLimitGuard({ threshold: 1, windowSize: 1 });
+  gPre.recordRateLimit();
+  let prePrimary = 0;
+  let preFallback = 0;
+  const pre = await callChatWithRetry([{ role: 'user', content: 'x' }], {
+    apiKey: 'pk',
+    guard: gPre,
+    fetchImpl: async () => { prePrimary += 1; return 'PRIMARY'; },
+    fallback: { apiKey: 'fbk', fetchImpl: async () => { preFallback += 1; return 'FALLBACK_OK'; } },
+  }, 'test');
+  assert.strictEqual(pre, 'FALLBACK_OK');
+  assert.strictEqual(prePrimary, 0, '熔断已开时不应再打主渠道');
+  assert.strictEqual(preFallback, 1);
+
+  // fallback 自身失败：抛错要带上主渠道原因，便于排查
+  await assert.rejects(
+    () => callChatWithRetry([{ role: 'user', content: 'x' }], {
+      apiKey: 'pk',
+      guard: createRateLimitGuard({ threshold: 1, windowSize: 1 }),
+      fetchImpl: async () => { throw new Error('HTTP 429: primary limited'); },
+      fallback: { apiKey: 'fbk', fetchImpl: async () => { throw new Error('HTTP 500: backup down'); } },
+    }, 'test'),
+    /primary limited \| fallback failed: HTTP 500/,
+    '两渠道都失败时应合并错误信息',
+  );
+
+  // fallback 不应被主渠道的 guard 连坐：主渠道熔断后 fallback 成功不应让 guard 记成功
+  const gIsolate = createRateLimitGuard({ threshold: 2, windowSize: 4 });
+  await callChatWithRetry([{ role: 'user', content: 'x' }], {
+    apiKey: 'pk',
+    guard: gIsolate,
+    retryDelays: [1, 1],
+    fetchImpl: async () => { throw new Error('HTTP 429: tpm/rpm limit'); },
+    fallback: { apiKey: 'fbk', fetchImpl: async () => 'FB' },
+  }, 'test');
+  assert.strictEqual(gIsolate.count429(), 2, 'fallback 成功不应冲淡主渠道的 429 计数');
+
   // === runPool：并发执行且互不影响 ===
   const order = [];
   const tasks = [1, 2, 3, 4, 5].map(n => async () => {

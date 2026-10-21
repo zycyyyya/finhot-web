@@ -45,8 +45,11 @@ jobs:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
           # StepFun 阶跃星辰：第二渠道，SenseNova 限流时接管。
           # 未配置 secret 时该渠道自动跳过，链路降级为单渠道不影响发布。
-          # 端点整串由secret 提供——按量付费 Key 用 /v1，Step Plan 订阅 Key 用 /step_plan/v1，
-          # 代码不猜，写错会直接 404。
+          # 端点由 secret 提供——按量付费 Key 用 /v1，Step Plan 订阅 Key 用 /step_plan/v1，
+          # 代码不猜，写错端点会直接 404。
+          # 两种填法都支持（llm.parseEndpoint 会补全末段）：
+          #   https://api.stepfun.com/v1                            ← 推荐
+          #   https://api.stepfun.com/v1/chat/completions          ← 等价
           STEPFUN_API_KEY: ${{ secrets.STEPFUN_API_KEY }}
           FINHOT_LLM_STEPFUN_BASE_URL: ${{ secrets.STEPFUN_BASE_URL }}
           FINHOT_LLM_STEPFUN_MODEL: ${{ secrets.STEPFUN_MODEL }}

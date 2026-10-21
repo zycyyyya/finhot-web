@@ -123,8 +123,11 @@ StepFun 有**两个端点，取决于 Key 类型**，代码不猜，整串由 `F
 
 | Key 类型 | base_url |
 |---|---|
-| 按量付费 Key | `https://api.stepfun.com/v1/chat/completions` |
-| Step Plan 订阅 Key | `https://api.stepfun.com/step_plan/v1/chat/completions` |
+| 按量付费 Key | `https://api.stepfun.com/v1` |
+| Step Plan 订阅 Key | `https://api.stepfun.com/step_plan/v1` |
+
+末段 `/chat/completions` **可以不写**，`parseEndpoint` 会自动补全（已写全的也不会重复追加）。
+只填到版本段即可，这是更不容易出错的写法。
 
 推荐模型：`step-3.7-flash`（旗舰多模态推理）、`step-3.5-flash`（高速）。
 
@@ -140,7 +143,7 @@ StepFun 有**两个端点，取决于 Key 类型**，代码不猜，整串由 `F
 | Secret | 必填 | 示例 |
 |---|---|---|
 | `STEPFUN_API_KEY` | 是 | `sk-...` |
-| `STEPFUN_BASE_URL` | 是 | `https://api.stepfun.com/v1/chat/completions` |
+| `STEPFUN_BASE_URL` | 是 | `https://api.stepfun.com/v1` |
 | `STEPFUN_MODEL` | 否 | `step-3.7-flash` |
 
 三个都是可选的：不配就退化成单渠道 SenseNova，管线照常跑。

@@ -105,7 +105,14 @@ function createRateLimitGuard(options) {
 function parseEndpoint(baseUrl) {
   if (!baseUrl) return { host: DEFAULT_HOST, path: DEFAULT_PATH };
   const url = new URL(baseUrl);
-  return { host: url.host, path: url.pathname + url.search };
+  // 只给到版本段（如 https://api.stepfun.com/v1）时，pathname 就是 `/v1`，
+  // 直接拿去 POST 必然 404 —— 因为 OpenAI 兼容端点的完整路径是 `/v1/chat/completions`。
+  // 所以这里补全末段；已经写全的（`/v1/chat/completions`）保持原样，不重复追加。
+  const path = url.pathname + url.search;
+  if (/\/chat\/completions\/?$/.test(url.pathname)) {
+    return { host: url.host, path };
+  }
+  return { host: url.host, path: `${path.replace(/\/+$/, '')}/chat/completions` };
 }
 
 function httpsPost(host, path, data, apiKey, timeout) {

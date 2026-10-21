@@ -79,6 +79,26 @@ assert.deepStrictEqual(parseEndpoint(''), { host: 'token.sensenova.cn', path: '/
 assert.deepStrictEqual(parseEndpoint(undefined), { host: 'token.sensenova.cn', path: '/v1/chat/completions' });
 assert.deepStrictEqual(parseEndpoint('https://api.longcat.chat/openai/v1/chat/completions'), { host: 'api.longcat.chat', path: '/openai/v1/chat/completions' });
 
+// 只给到版本段（文档里推荐的写法）时必须补全末段，否则会 POST 到 `/v1` 直接 404。
+// 工作流注释明确写着「baseUrl 需显式给全（含 /v1）」，实测按注释填就会挂。
+assert.deepStrictEqual(parseEndpoint('https://api.stepfun.com/v1'),
+  { host: 'api.stepfun.com', path: '/v1/chat/completions' },
+  '只给版本段时需补全 /chat/completions');
+assert.deepStrictEqual(parseEndpoint('https://api.stepfun.com/step_plan/v1'),
+  { host: 'api.stepfun.com', path: '/step_plan/v1/chat/completions' },
+  'Step Plan 端点同样要补全末段');
+// 尾部斜杠不能拼出 `//chat/completions`
+assert.deepStrictEqual(parseEndpoint('https://api.stepfun.com/v1/'),
+  { host: 'api.stepfun.com', path: '/v1/chat/completions' },
+  '尾部斜杠需被归一化');
+// 已经写全的不能重复追加
+assert.deepStrictEqual(parseEndpoint('https://api.stepfun.com/v1/chat/completions'),
+  { host: 'api.stepfun.com', path: '/v1/chat/completions' },
+  '已含 chat/completions 时不得重复追加');
+// 不带版本段的也要能用
+assert.deepStrictEqual(parseEndpoint('https://api.stepfun.com'),
+  { host: 'api.stepfun.com', path: '/chat/completions' });
+
 // === extractJSON ===
 assert.deepStrictEqual(extractJSON('```json\n{"a":1}\n```', null), { a: 1 });
 assert.deepStrictEqual(extractJSON('前缀 {"a":1} 后缀', null), { a: 1 });

@@ -1,20 +1,18 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-21T04:57:41.294Z",
+  "generatedAt": "2026-10-21T09:23:14.689Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
       "eventId": "event_a3c5d0364922",
       "clusterVersion": 2,
-      "title": "【权益周观察】上周A股缩量探底3674点 市场调整是否接近尾声？",
+      "title": "A股四大指数集体高开，光模块、存储板块走强",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-21T04:57:41.294Z",
+      "lastSeenAt": "2026-10-21T09:23:14.689Z",
       "latestItemPublishedAt": "2026-10-21T01:34:47.000Z",
-      "primaryItemId": "news_11cdf837b0d4",
+      "primaryItemId": "news_e0aee8c147b6",
       "evidenceItemIds": [
-        "news_e0c67768f1a8",
-        "news_3b781ae6d25d",
         "news_5b4f9e126cba",
         "news_27ff5a8cdcf7",
         "news_0cde50e751d4",
@@ -62,7 +60,9 @@
         "news_c46e8b88b0d7",
         "news_4b1aa551cac5",
         "news_95c9b2bb5b20",
-        "news_11cdf837b0d4"
+        "news_11cdf837b0d4",
+        "news_e0aee8c147b6",
+        "news_ee2fb3db4f04"
       ],
       "status": "developing",
       "summary": "A股上周缩量探底3674点 市场调整是否接近尾声引关注",
@@ -71,11 +71,11 @@
     {
       "eventId": "event_f101880ef7bc",
       "clusterVersion": 2,
-      "title": "CoreWeave一度涨超5.3%，美股盘初曾跌超6.3%。 美股AI软件先驱指数涨幅扩大至1.1%，AI赢家指数涨幅一",
+      "title": "【华尔街原声】摩根士丹利策略师：美股调整已接近尾声",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-21T04:57:41.294Z",
-      "latestItemPublishedAt": "2026-10-20T14:57:13.000Z",
-      "primaryItemId": "news_e6d35a91a0bc",
+      "lastSeenAt": "2026-10-21T09:23:14.689Z",
+      "latestItemPublishedAt": "2026-10-21T03:41:37.000Z",
+      "primaryItemId": "news_d89a5f374444",
       "evidenceItemIds": [
         "news_3e435a05226b",
         "news_ae7d259eba2e",
@@ -137,13 +137,10 @@
       "clusterVersion": 2,
       "title": "央行李伟：聚焦国际科技创新中心三大核心功能建设，争取超长期特别国债等支持",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-21T04:57:41.294Z",
-      "latestItemPublishedAt": "2026-10-21T02:58:25.000Z",
+      "lastSeenAt": "2026-10-21T09:23:14.689Z",
+      "latestItemPublishedAt": "2026-10-21T08:00:32.000Z",
       "primaryItemId": "news_8cca02ff0124",
       "evidenceItemIds": [
-        "news_78689efa326d",
-        "news_c40eb932210e",
-        "news_16f1be7de1cd",
         "news_b7653907c31f",
         "news_39c9b44c3211",
         "news_b6b547434998",
@@ -190,7 +187,10 @@
         "news_f35da10826ae",
         "news_8cca02ff0124",
         "news_a190d331b6a7",
-        "news_b9bd3856630d"
+        "news_b9bd3856630d",
+        "news_6c2e790e8706",
+        "news_a1ccbdeb879d",
+        "news_ca201a81b27f"
       ],
       "status": "developing",
       "summary": "央行宣布设立非银大额赎回流动性支持工具，并扩大SLF范围。",
@@ -199,11 +199,11 @@
     {
       "eventId": "event_81903830edd9",
       "clusterVersion": 2,
-      "title": "中国证监会有关部门负责人就《违规转让证券案件行政处罚实施规则》答记者问",
+      "title": "中国证监会就《证券市场先行赔付指导意见》公开征求意见",
       "firstSeenAt": "2026-10-19T15:45:09.770Z",
-      "lastSeenAt": "2026-10-21T04:57:41.294Z",
-      "latestItemPublishedAt": "2026-10-19T10:43:31.000Z",
-      "primaryItemId": "news_29d1bc110417",
+      "lastSeenAt": "2026-10-21T09:23:14.689Z",
+      "latestItemPublishedAt": "2026-10-20T10:07:37.000Z",
+      "primaryItemId": "news_c61e8342121c",
       "evidenceItemIds": [
         "news_c61e8342121c",
         "news_b086a9025dff",
@@ -220,16 +220,12 @@
     {
       "eventId": "event_c68d651d4ff9",
       "clusterVersion": 2,
-      "title": "港股公告精选｜澜起科技三季度盈利同比增超150% 中船防务前三季度新接订单近360亿元",
+      "title": "独家|微创系港股集体停牌追踪：房东是谁？小股东为何直指董事长辞任",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-10-21T04:57:41.294Z",
-      "latestItemPublishedAt": "2026-10-20T13:27:57.000Z",
-      "primaryItemId": "news_a6f80a8a4005",
+      "lastSeenAt": "2026-10-21T09:23:14.689Z",
+      "latestItemPublishedAt": "2026-10-21T08:29:16.000Z",
+      "primaryItemId": "news_48a40cd112bd",
       "evidenceItemIds": [
-        "news_a6787f1964f2",
-        "news_2f5875a3fa25",
-        "news_3446c2998f5b",
-        "news_887a4354f2a2",
         "news_c624ce7c5b32",
         "news_cd091725a8b0",
         "news_6437af7ee72b",
@@ -275,7 +271,11 @@
         "news_d793d0adfdfe",
         "news_2c9cb9ea2a9f",
         "news_b615ea6c1c97",
-        "news_a6f80a8a4005"
+        "news_a6f80a8a4005",
+        "news_48a40cd112bd",
+        "news_99bc54fb0ab5",
+        "news_ca4df8cbc236",
+        "news_46dcaaae8ec1"
       ],
       "status": "developing",
       "summary": "澜起科技三季度盈利同比增超150%，中船防务前三季度新接订单近360亿元。",
@@ -286,8 +286,8 @@
       "clusterVersion": 2,
       "title": "CoreWeave债券暴跌敲响警钟，美联储或需重新审视加息节奏",
       "firstSeenAt": "2026-10-08T06:40:59.994Z",
-      "lastSeenAt": "2026-10-21T04:57:41.294Z",
-      "latestItemPublishedAt": "2026-10-20T12:15:37.000Z",
+      "lastSeenAt": "2026-10-21T09:23:14.689Z",
+      "latestItemPublishedAt": "2026-10-21T07:35:59.000Z",
       "primaryItemId": "news_bd67e678a075",
       "evidenceItemIds": [
         "news_1d0c31b07d1b",
@@ -323,11 +323,121 @@
         "news_5fe4ad6c73bb",
         "news_4a3ba5bdafe8",
         "news_008e37cd3794",
-        "news_bd67e678a075"
+        "news_bd67e678a075",
+        "news_a9538e61c2d2"
       ],
       "status": "developing",
       "summary": "沃什曼谷发言偏鸽，市场押注美联储10月按兵不动，加息概率跌破15%。",
       "latestProgress": "最新报道称，下周加息概率仅16%，华尔街提醒不应迷信市场定价，结果仍难料。"
+    },
+    {
+      "eventId": "event_d0caf6dfd738",
+      "clusterVersion": 2,
+      "title": "全球央行独立性为何关键？美联储、欧洲央行、日本央行有何经验",
+      "firstSeenAt": "2026-10-16T05:04:10.403Z",
+      "lastSeenAt": "2026-10-21T09:23:14.689Z",
+      "latestItemPublishedAt": "2026-10-21T04:20:10.000Z",
+      "primaryItemId": "news_6567aead4b97",
+      "evidenceItemIds": [
+        "news_1b8b1278bcaf",
+        "news_6dc8d339b4e1",
+        "news_40a6cd32feb0",
+        "news_3cedf76954f6",
+        "news_4cb77d150c92",
+        "news_0023d6611567",
+        "news_6567aead4b97",
+        "news_9217ad4c27ec",
+        "news_ce1f37181283"
+      ],
+      "status": "developing",
+      "summary": "全球央行独立性对稳定经济至关重要，美联储、欧央行、日央行经验可供借鉴。",
+      "latestProgress": "最新报道阐释了三大央行独立性实践，强调其对政策可信度的支撑作用。"
+    },
+    {
+      "eventId": "event_3dce8a965214",
+      "clusterVersion": 2,
+      "title": "10月21日午间涨停分析",
+      "firstSeenAt": "2026-10-20T05:20:30.853Z",
+      "lastSeenAt": "2026-10-21T09:23:14.689Z",
+      "latestItemPublishedAt": "2026-10-21T04:05:55.000Z",
+      "primaryItemId": "news_41681876ba4a",
+      "evidenceItemIds": [
+        "news_44df0764d23e",
+        "news_8b7de7db7c9c",
+        "news_41681876ba4a"
+      ],
+      "status": "developing",
+      "summary": "10月21日午间涨停分析，股市表现受关注。",
+      "latestProgress": "根据10月21日最新报道，午间涨停分析已发布。"
+    },
+    {
+      "eventId": "event_294387429284",
+      "clusterVersion": 2,
+      "title": "油价传导超预期，日本央行拟12月加息，10月按兵不动",
+      "firstSeenAt": "2026-10-16T16:49:31.035Z",
+      "lastSeenAt": "2026-10-21T09:23:14.689Z",
+      "latestItemPublishedAt": "2026-10-21T04:37:37.000Z",
+      "primaryItemId": "news_a49bd63570e0",
+      "evidenceItemIds": [
+        "news_a9f7e6a7069d",
+        "news_43131ce49d34",
+        "news_67379ab3d587",
+        "news_12c6c3b1ca4e",
+        "news_a49bd63570e0",
+        "news_d4533d90f614"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_ce3b0478a5b2",
+      "clusterVersion": 2,
+      "title": "财联社10月21日电，杰富瑞将通用汽车目标价从99美元下调至95美元。",
+      "firstSeenAt": "2026-10-21T04:57:41.294Z",
+      "lastSeenAt": "2026-10-21T09:23:14.689Z",
+      "latestItemPublishedAt": "2026-10-21T04:47:13.000Z",
+      "primaryItemId": "news_bce7a3c52a8d",
+      "evidenceItemIds": [
+        "news_bce7a3c52a8d",
+        "news_36889d68e161"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_23945141e614",
+      "clusterVersion": 2,
+      "title": "财联社10月21日电，10年期日本国债收益率下跌0.5个基点至2.890%。",
+      "firstSeenAt": "2026-10-21T04:57:41.294Z",
+      "lastSeenAt": "2026-10-21T09:23:14.689Z",
+      "latestItemPublishedAt": "2026-10-21T04:46:43.000Z",
+      "primaryItemId": "news_b1e39af0a62c",
+      "evidenceItemIds": [
+        "news_f6b5e7cc51d7",
+        "news_7b6067f575aa",
+        "news_b1e39af0a62c"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_1708a015d824",
+      "clusterVersion": 2,
+      "title": "SK海力士完成40万亿韩元股份回购。（韩联社）",
+      "firstSeenAt": "2026-10-21T09:23:14.689Z",
+      "lastSeenAt": "2026-10-21T09:23:14.689Z",
+      "latestItemPublishedAt": "2026-10-21T08:05:57.000Z",
+      "primaryItemId": "news_d3840877727e",
+      "evidenceItemIds": [
+        "news_d3840877727e",
+        "news_aa7d62e44563"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
     },
     {
       "eventId": "event_a48c0fe7fc42",
@@ -396,66 +506,6 @@
       "latestProgress": ""
     },
     {
-      "eventId": "event_d0caf6dfd738",
-      "clusterVersion": 2,
-      "title": "全球央行独立性为何关键？美联储、欧洲央行、日本央行有何经验",
-      "firstSeenAt": "2026-10-16T05:04:10.403Z",
-      "lastSeenAt": "2026-10-21T04:57:41.294Z",
-      "latestItemPublishedAt": "2026-10-21T04:20:10.000Z",
-      "primaryItemId": "news_6567aead4b97",
-      "evidenceItemIds": [
-        "news_1b8b1278bcaf",
-        "news_6dc8d339b4e1",
-        "news_40a6cd32feb0",
-        "news_3cedf76954f6",
-        "news_4cb77d150c92",
-        "news_0023d6611567",
-        "news_6567aead4b97",
-        "news_9217ad4c27ec",
-        "news_ce1f37181283"
-      ],
-      "status": "developing",
-      "summary": "全球央行独立性对稳定经济至关重要，美联储、欧央行、日央行经验可供借鉴。",
-      "latestProgress": "最新报道阐释了三大央行独立性实践，强调其对政策可信度的支撑作用。"
-    },
-    {
-      "eventId": "event_3dce8a965214",
-      "clusterVersion": 2,
-      "title": "10月21日午间涨停分析",
-      "firstSeenAt": "2026-10-20T05:20:30.853Z",
-      "lastSeenAt": "2026-10-21T04:57:41.294Z",
-      "latestItemPublishedAt": "2026-10-21T04:05:55.000Z",
-      "primaryItemId": "news_41681876ba4a",
-      "evidenceItemIds": [
-        "news_44df0764d23e",
-        "news_8b7de7db7c9c",
-        "news_41681876ba4a"
-      ],
-      "status": "developing",
-      "summary": "10月21日午间涨停分析，股市表现受关注。",
-      "latestProgress": "根据10月21日最新报道，午间涨停分析已发布。"
-    },
-    {
-      "eventId": "event_294387429284",
-      "clusterVersion": 2,
-      "title": "油价传导超预期，日本央行拟12月加息，10月按兵不动",
-      "firstSeenAt": "2026-10-16T16:49:31.035Z",
-      "lastSeenAt": "2026-10-21T04:57:41.294Z",
-      "latestItemPublishedAt": "2026-10-21T04:37:37.000Z",
-      "primaryItemId": "news_a49bd63570e0",
-      "evidenceItemIds": [
-        "news_a9f7e6a7069d",
-        "news_43131ce49d34",
-        "news_67379ab3d587",
-        "news_12c6c3b1ca4e",
-        "news_a49bd63570e0",
-        "news_d4533d90f614"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
       "eventId": "event_bcd570f74985",
       "clusterVersion": 2,
       "title": "半年亏损超800亿美元，Anthropic的钱被谁赚走了？",
@@ -466,38 +516,6 @@
       "evidenceItemIds": [
         "news_04011922a09e",
         "news_dd63450737b4"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_ce3b0478a5b2",
-      "clusterVersion": 2,
-      "title": "财联社10月21日电，杰富瑞将通用汽车目标价从99美元下调至95美元。",
-      "firstSeenAt": "2026-10-21T04:57:41.294Z",
-      "lastSeenAt": "2026-10-21T04:57:41.294Z",
-      "latestItemPublishedAt": "2026-10-21T04:47:13.000Z",
-      "primaryItemId": "news_bce7a3c52a8d",
-      "evidenceItemIds": [
-        "news_bce7a3c52a8d",
-        "news_36889d68e161"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_23945141e614",
-      "clusterVersion": 2,
-      "title": "财联社10月21日电，10年期日本国债收益率下跌1个基点至2.885%。",
-      "firstSeenAt": "2026-10-21T04:57:41.294Z",
-      "lastSeenAt": "2026-10-21T04:57:41.294Z",
-      "latestItemPublishedAt": "2026-10-21T04:46:43.000Z",
-      "primaryItemId": "news_f6b5e7cc51d7",
-      "evidenceItemIds": [
-        "news_f6b5e7cc51d7",
-        "news_7b6067f575aa"
       ],
       "status": "developing",
       "summary": "",

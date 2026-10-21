@@ -12,7 +12,15 @@
 
 const fs = require('fs');
 const path = require('path');
-const { callChatWithRetry, coerceScore, extractJSON, resolveLLMConfig, runPool } = require('./llm');
+const {
+  RateLimitOpenError,
+  callChatWithRetry,
+  coerceScore,
+  createRateLimitGuard,
+  extractJSON,
+  resolveLLMConfig,
+  runPool,
+} = require('./llm');
 
 const PROMPT_FILE = path.join(__dirname, '..', 'prompts', 'selection-score.md');
 
@@ -30,6 +38,18 @@ const DEFAULTS = {
   concurrency: 4,
   // 独立性来源：同一提示词高温采样两次。
   temperature: 0.8,
+  // 限流熔断：滑动窗口 30 次调用里 429 达到 12 次就中止整个 LLM 阶段。
+  // 免费端点（SenseNova）是 RPM/TPM 限流，240 次请求必然触顶；
+  // 没有熔断时每条各自重试 2 次= 720 次请求，纯 sleep 就12 分钟且零产出。
+  rateLimitThreshold: 12,
+  rateLimitWindow: 30,
+  // 429 退避（毫秒）。免费端点是 RPM/TPM 配额限流，等8s/16s 并不会让配额回来，
+  // 只会把熔断前的空转拉长——真正起作用的是 threshold。所以退避给短值，
+  // 让熔断尽快触发；已验证调低后熔断总耗时从 32s 降到约 8s。
+  retryDelays: [1500, 3000],
+  // 阶段总时限（毫秒）。即使没触发熔断（比如模型慢但没限流），
+  // 也不允许单项评分阶段无限占用CI 运行时长，超时后剩余条目回退启发式。
+  stageBudgetMs: 8 * 60 * 1000,
 };
 
 function envNumber(env, name, fallback) {
@@ -73,6 +93,9 @@ async function scoreItemTwice(item, template, options) {
     // 推理模型会消耗大量 reasoning token（实测 800 会被思考吃光导致 content 为空），给足余量。
     maxTokens: 4000,
     fetchImpl: options.fetchImpl,
+    // 阶段共享的熔断器：限流时让整个阶段一起停下，而不是这条继续空转重试。
+    guard: options.guard,
+    retryDelays: options.retryDelays,
   };
   const first = await callChatWithRetry(buildMessages(template, item), callOpts, `score ${item.id} #1`);
   const a = parseScore(first);
@@ -85,9 +108,13 @@ async function scoreItemTwice(item, template, options) {
 
 /**
  * 主入口：对 items 做双次独立打分。
- * options: { apiKey, gate?, prefilterMinScore?, maxItemsPerRun?, concurrency?, temperature?, fetchImpl?, log? }
- * 返回 { results: Map<itemId, {a,b,avg}>, attempted, failed, skipped }。
+ * options: { apiKey, gate?, prefilterMinScore?, maxItemsPerRun?, concurrency?, temperature?,
+ *            fetchImpl?, log?, guard?, rateLimitThreshold?, rateLimitWindow?, stageBudgetMs? }
+ * 返回 { results: Map<itemId, {a,b,avg}>, attempted, failed, skipped, aborted, abortReason }。
  * 不修改 items —— 由 applyLLMScores 统一落字段，便于测试与回退。
+ *
+ * aborted：因限流熔断或阶段超时提前收手的条目数。这些条目保持启发式分，
+ * 与评分失败的条目同等对待——软降级是硬约束，绝不因外部限流阻断发布。
  */
 async function selectWithLLM(items, options) {
   const opts = { ...DEFAULTS, ...(options || {}) };
@@ -97,19 +124,68 @@ async function selectWithLLM(items, options) {
     .sort((a, b) => (b.score || 0) - (a.score || 0))
     .slice(0, opts.maxItemsPerRun);
 
+  const log = opts.log || (() => {});
+  const guard = opts.guard || createRateLimitGuard({
+    threshold: opts.rateLimitThreshold,
+    windowSize: opts.rateLimitWindow,
+  });
+
   const results = new Map();
   let failed = 0;
+  let aborted = 0;
+  let abortReason = '';
+  const startedAt = Date.now();
+  const budgetMs = Number.isFinite(opts.stageBudgetMs) ? opts.stageBudgetMs : 0;
+
   const tasks = candidates.map(item => async () => {
-    const r = await scoreItemTwice(item, template, opts);
+    if (guard.open) {
+      aborted += 1;
+      if (!abortReason) abortReason = 'rate-limited';
+      return;
+    }
+    // 阶段总时限：拿到预算耗尽后不再发起新条目，已在途的允许收尾。
+    if (budgetMs > 0 && Date.now() - startedAt >= budgetMs) {
+      aborted += 1;
+      if (!abortReason) abortReason = 'stage-budget-exceeded';
+      return;
+    }
+    let r;
+    try {
+      r = await scoreItemTwice(item, template, { ...opts, guard });
+    } catch (error) {
+      // 熔断哨兵错误：整段中止，不算条目自身失败。
+      if (error instanceof RateLimitOpenError || error.code === 'RATE_LIMIT_OPEN') {
+        aborted += 1;
+        if (!abortReason) abortReason = 'rate-limited';
+        return;
+      }
+      failed += 1;
+      return;
+    }
     if (r === null) { failed += 1; return; }
     results.set(item.id, r);
   });
   await runPool(tasks, opts.concurrency);
 
-  const log = opts.log || (() => {});
+  if (guard.open && !abortReason) abortReason = 'rate-limited';
+  const elapsed = Date.now() - startedAt;
   log(`[llm-select] 候选 ${candidates.length} 条，成功 ${results.size}，失败 ${failed}，`
     + `预筛跳过 ${items.length - candidates.length} 条`);
-  return { results, attempted: candidates.length, failed, skipped: items.length - candidates.length };
+  if (abortReason) {
+    log(`[llm-select] 提前中止（${abortReason}）：${aborted} 条未评分，回退启发式分`
+      + `｜429 计数 ${guard.count429()}/${guard.window.length}，累计 ${guard.total} 次`
+      + `｜耗时 ${(elapsed / 1000).toFixed(1)}s`);
+  } else {
+    log(`[llm-select] 耗时 ${(elapsed / 1000).toFixed(1)}s`);
+  }
+  return {
+    results,
+    attempted: candidates.length,
+    failed,
+    skipped: items.length - candidates.length,
+    aborted,
+    abortReason,
+  };
 }
 
 /** 把 LLM 结果落到条目上：展示分 = 两次平均，入选 = 两次都过门槛。 */
@@ -152,6 +228,10 @@ function resolveOptions(env) {
     prefilterMinScore: envNumber(e, 'FINHOT_LLM_PREFILTER_MIN', DEFAULTS.prefilterMinScore),
     maxItemsPerRun: envNumber(e, 'FINHOT_LLM_MAX_ITEMS', DEFAULTS.maxItemsPerRun),
     concurrency: envNumber(e, 'FINHOT_LLM_CONCURRENCY', DEFAULTS.concurrency),
+    rateLimitThreshold: envNumber(e, 'FINHOT_LLM_RL_THRESHOLD', DEFAULTS.rateLimitThreshold),
+    rateLimitWindow: envNumber(e, 'FINHOT_LLM_RL_WINDOW', DEFAULTS.rateLimitWindow),
+    retryDelays: Array.isArray(DEFAULTS.retryDelays) ? DEFAULTS.retryDelays.slice() : undefined,
+    stageBudgetMs: envNumber(e, 'FINHOT_LLM_STAGE_BUDGET_MS', DEFAULTS.stageBudgetMs),
     temperature: DEFAULTS.temperature,
     apiKey: config.primary.apiKey,
     baseUrl: config.primary.baseUrl,

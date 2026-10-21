@@ -2,14 +2,76 @@
 
 const assert = require('assert');
 const {
+  RateLimitOpenError,
   callChat,
   callChatWithRetry,
   coerceScore,
+  createRateLimitGuard,
   extractJSON,
+  isRateLimitError,
   parseEndpoint,
   resolveLLMConfig,
   runPool,
 } = require('../scripts/llm');
+
+// === isRateLimitError ===
+// SenseNova 免费端点的真实返回体（callChat 会加上 `HTTP 429: ` 前缀）
+assert.strictEqual(
+  isRateLimitError(new Error('HTTP 429: {"error":{"message":"inference exceeds tpm/rpm limit","code":"429003"}}')),
+  true, 'SenseNova tpm/rpm 限流应识别',
+);
+assert.strictEqual(
+  isRateLimitError(new Error('HTTP 429: too many requests')),
+  true, '标准 429 应识别',
+);
+assert.strictEqual(
+  isRateLimitError(new Error('{"error":{"type":"rate_limit_error"}}')),
+  true, '仅凭 type 字段也要识别（自定义端点措辞不保证带状态码）',
+);
+assert.strictEqual(isRateLimitError(new Error('LLM timeout')), false, '超时不算限流');
+assert.strictEqual(isRateLimitError(new Error('HTTP 500: boom')), false);
+
+// === createRateLimitGuard ===
+const guardTest = createRateLimitGuard({ threshold: 3, windowSize: 5 });
+assert.strictEqual(guardTest.open, false, '初始不熔断');
+guardTest.recordRateLimit();
+assert.strictEqual(guardTest.open, false, '1/3 不熔断');
+guardTest.recordRateLimit();
+guardTest.recordSuccess();
+assert.strictEqual(guardTest.count429(), 2, '成功不清零计数，只滑动');
+guardTest.recordRateLimit();
+assert.strictEqual(guardTest.open, true, `窗口内 429 达 3 次应熔断（实际 ${guardTest.count429()}）`);
+assert.strictEqual(guardTest.total, 3, 'total 记录累计 429 总数');
+
+const windowTest = createRateLimitGuard({ threshold: 3, windowSize: 5 });
+windowTest.recordRateLimit();
+windowTest.recordSuccess();
+windowTest.recordRateLimit();
+windowTest.recordSuccess();
+windowTest.recordRateLimit();
+assert.strictEqual(windowTest.count429(), 3);
+assert.strictEqual(windowTest.open, true, '成功穿插不应稀释阈值（这正是用滑动窗口而非连续计数的原因）');
+
+// 窗口容量是硬约束：容量 3 时第 4 次 push 就把最早的 429 挤出，阈值不再累计。
+const capTest = createRateLimitGuard({ threshold: 3, windowSize: 3 });
+for (const outcome of ['429', 'ok', '429', 'ok', '429']) {
+  if (outcome === '429') capTest.recordRateLimit();
+  else capTest.recordSuccess();
+}
+assert.strictEqual(capTest.count429(), 2, `窗口只留最近 3 次（实际 ${capTest.count429()}）`);
+assert.strictEqual(capTest.total, 3, 'total 仍记累计值，不受窗口容量影响');
+assert.strictEqual(capTest.open, false, '窗口容量不足时不应误熔断');
+
+const sliding = createRateLimitGuard({ threshold: 2, windowSize: 2 });
+sliding.recordRateLimit();
+sliding.recordRateLimit();
+assert.strictEqual(sliding.open, true);
+sliding.recordSuccess();
+sliding.recordSuccess();
+assert.strictEqual(sliding.count429(), 0, '旧 429 应被挤出窗口');
+assert.strictEqual(sliding.open, true, '已熔断不因窗口滑出而自动恢复（批次语义）');
+sliding.trip();
+assert.strictEqual(sliding.open, true, 'trip() 可手动触发');
 
 // === parseEndpoint ===
 assert.deepStrictEqual(parseEndpoint(''), { host: 'token.sensenova.cn', path: '/v1/chat/completions' });
@@ -74,6 +136,50 @@ assert.strictEqual(coerceScore('abc'), null);
     fallback: { apiKey: 'fallback-key', fetchImpl: async () => 'fallback-ok' },
   }, 'test');
   assert.strictEqual(fb, 'fallback-ok', '主渠道失败应落到 fallback');
+
+  // === callChatWithRetry：guard 已熔断时不发任何请求 ===
+  const preTripped = createRateLimitGuard({ threshold: 1, windowSize: 1 });
+  preTripped.recordRateLimit();
+  let touched = false;
+  await assert.rejects(
+    () => callChatWithRetry([{ role: 'user', content: 'x' }], {
+      apiKey: 'k',
+      guard: preTripped,
+      fetchImpl: async () => { touched = true; return 'nope'; },
+    }, 'test'),
+    error => error instanceof RateLimitOpenError && error.code === 'RATE_LIMIT_OPEN',
+    '熔断后应抛 RateLimitOpenError',
+  );
+  assert.strictEqual(touched, false, '熔断后不应再调用 fetchImpl');
+
+  // === callChatWithRetry：429 把窗口打满时立刻抛哨兵错误，不继续退避 ===
+  const blow = createRateLimitGuard({ threshold: 2, windowSize: 4 });
+  let blowCalls = 0;
+  const t0 = Date.now();
+  await assert.rejects(
+    () => callChatWithRetry([{ role: 'user', content: 'x' }], {
+      apiKey: 'k',
+      guard: blow,
+      retryDelays: [50, 50, 50],
+      fetchImpl: async () => { blowCalls += 1; throw new Error('HTTP 429: tpm/rpm limit'); },
+    }, 'test'),
+    error => error.code === 'RATE_LIMIT_OPEN',
+  );
+  assert.strictEqual(blowCalls, 2, `达到阈值即中止，不应重试满 4 次（实际 ${blowCalls}）`);
+  assert.ok(Date.now() - t0 < 500, '不应把退避时间睡满');
+
+  // === callChatWithRetry：未达阈值时仍正常重试成功 ===
+  const g2 = createRateLimitGuard({ threshold: 5, windowSize: 10 });
+  let okCalls = 0;
+  const okv = await callChatWithRetry([{ role: 'user', content: 'x' }], {
+    apiKey: 'k',
+    guard: g2,
+    retryDelays: [1, 1],
+    fetchImpl: async () => { okCalls += 1; if (okCalls === 1) throw new Error('HTTP 429: tpm/rpm limit'); return 'done'; },
+  }, 'test');
+  assert.strictEqual(okv, 'done');
+  assert.strictEqual(okCalls, 2);
+  assert.strictEqual(g2.open, false, '一次 429 不该熔断');
 
   // === runPool：并发执行且互不影响 ===
   const order = [];

@@ -22,6 +22,79 @@ const DEFAULT_MODEL = 'deepseek-v4-flash';
 const DEFAULT_TIMEOUT_MS = 90000;
 const MAX_RESPONSE_BYTES = 200 * 1024;
 
+// SenseNova 等免费端点返回体形如：
+//   {"error":{"message":"inference exceeds tpm/rpm limit","type":"rate_limit_error","code":"429003"}}
+// callChat 会把它包成 `HTTP 429: {...}`，但自定义端点的措辞不保证带状态码前缀，
+// 所以三个特征都判一遍，避免限流被当成普通失败而跳过重试。
+function isRateLimitError(error) {
+  const message = (error && error.message) || '';
+  return /HTTP 429/i.test(message)
+    || /rate_limit_error/i.test(message)
+    || /429003/i.test(message)
+    || /\b(tpm|rpm)\b.*limit/i.test(message);
+}
+
+/** 熔断后抛出的哨兵错误：调用方据此区分「限流中止」与「条目自身失败」。 */
+class RateLimitOpenError extends Error {
+  constructor(guard) {
+    super(`rate limit circuit open after ${guard.total} 429s (window ${guard.count429}/${guard.window.length})`);
+    this.name = 'RateLimitOpenError';
+    this.code = 'RATE_LIMIT_OPEN';
+    this.total = guard.total;
+  }
+}
+
+/**
+ * 批次级限流熔断器。
+ *
+ * 为什么必须有：每条新闻独立重试时，240 次请求各自重试 2 次 = 720 次请求，
+ * 重试风暴本身会加剧 RPM 限流；更糟的是每条要空转 8s+16s 才放弃，
+ * 120 条 ÷ 并发 4 = 30 波 × 24s ≈ 12 分钟纯 sleep，且一条都评不出来。
+ *
+ * 判据用「滑动窗口内 429 占比」而不是「连续 429 次数」：并发 4 时成功与429
+ * 交错是常态，连续计数可能一直打不满阈值而永不熔断。
+ *
+ * 一旦 open 就不再自动闭合——单次CI 运行是批次语义，宁可整体回退启发式。
+ *
+ * options: { threshold = 12, windowSize = 30 }
+ */
+function createRateLimitGuard(options) {
+  const opts = options || {};
+  const threshold = Number.isFinite(opts.threshold) && opts.threshold > 0 ? opts.threshold : 12;
+  const windowSize = Number.isFinite(opts.windowSize) && opts.windowSize > 0 ? opts.windowSize : 30;
+  const window = [];
+  let total = 0;
+  let open = false;
+
+  function count429() {
+    let n = 0;
+    for (const outcome of window) if (outcome === '429') n += 1;
+    return n;
+  }
+
+  return {
+    threshold,
+    windowSize,
+    window,
+    get open() { return open; },
+    get total() { return total; },
+    count429,
+    recordRateLimit() {
+      total += 1;
+      window.push('429');
+      if (window.length > windowSize) window.shift();
+      if (count429() >= threshold) open = true;
+      return open;
+    },
+    recordSuccess() {
+      window.push('ok');
+      if (window.length > windowSize) window.shift();
+    },
+    /** 手动触发（如阶段总时限到期），不再发起任何请求。 */
+    trip() { open = true; },
+  };
+}
+
 function parseEndpoint(baseUrl) {
   if (!baseUrl) return { host: DEFAULT_HOST, path: DEFAULT_PATH };
   const url = new URL(baseUrl);
@@ -101,15 +174,35 @@ async function callChat(messages, options) {
 /**
  * 带 429 重试的 callChat；最终失败且配置了 fallback 时，用 fallback 配置再试一次。
  * fallback: { apiKey, baseUrl?, model? }（通常 = SenseNova 兜底）。
+ *
+ * options 额外支持：
+ * - retryDelays: 退避数组，默认 [8000, 16000]
+ * - guard: createRateLimitGuard() 的实例。熔断打开时立刻抛 RateLimitOpenError，
+ *   不再 sleep、不再重试——这是把「12 分钟空转」压到「几秒内降级」的关键。
+ *   每次成功会调guard.recordSuccess()，每次 429 调 recordRateLimit()。
  */
 async function callChatWithRetry(messages, options, label) {
   const opts = options || {};
   const delays = Array.isArray(opts.retryDelays) ? opts.retryDelays : [8000, 16000];
+  const guard = opts.guard || null;
+
+  // 入口先看熔断：上一条已经把窗口打满就别再发请求了。
+  if (guard && guard.open) throw new RateLimitOpenError(guard);
+
   for (let attempt = 0; attempt <= delays.length; attempt++) {
     try {
-      return await callChat(messages, opts);
+      const result = await callChat(messages, opts);
+      if (guard) guard.recordSuccess();
+      return result;
     } catch (error) {
-      const rateLimited = /HTTP 429/i.test(error.message || '');
+      const rateLimited = isRateLimitError(error);
+
+      if (rateLimited && guard) {
+        guard.recordRateLimit();
+        // 熔断刚被这一条触发：不要睡，直接冒泡，让整个阶段停掉。
+        if (guard.open) throw new RateLimitOpenError(guard);
+      }
+
       if (!rateLimited || attempt === delays.length) {
         if (opts.fallback && opts.fallback.apiKey) {
           try {
@@ -124,6 +217,8 @@ async function callChatWithRetry(messages, options, label) {
       const delay = delays[attempt];
       if (typeof console !== 'undefined') console.error(`[llm] ${label || 'call'} rate limited; retrying in ${delay / 1000}s`);
       await new Promise(resolve => setTimeout(resolve, delay));
+      // sleep 期间别的worker 可能已把熔断打开，下一轮循环前的 sleep 后不重试。
+      if (guard && guard.open) throw new RateLimitOpenError(guard);
     }
   }
   return '';
@@ -209,10 +304,13 @@ async function runPool(tasks, limit) {
 
 module.exports = {
   DEFAULT_MODEL,
+  RateLimitOpenError,
   callChat,
   callChatWithRetry,
   coerceScore,
+  createRateLimitGuard,
   extractJSON,
+  isRateLimitError,
   parseEndpoint,
   resolveLLMConfig,
   runPool,

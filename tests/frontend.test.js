@@ -69,4 +69,25 @@ assert.ok(styles.includes('.macro-dir-up'));
 assert.ok(styles.includes('.macro-dir-down'));
 assert.ok(styles.includes('.macro-board[hidden]'));
 
+// === 时间口径：统一按北京时间 ===
+// 源站发布时间是北京时间墙上时钟；数据里存的是绝对时刻。
+// 若前端用浏览器本地时区渲染，处在非 UTC+8 的机器上会看到差几小时的钟面，
+// 排序口径也会跟着漂移 —— 所以必须显式固定 +08:00。
+assert.ok(indexHtml.includes('var CN_OFFSET_MS = 8 * 3600000;'),
+  'front end must pin the Beijing time offset');
+assert.ok(indexHtml.includes('function beijingParts(iso)'),
+  'front end must convert absolute time to Beijing wall clock');
+assert.ok(indexHtml.includes('function timeSortKey(iso)'),
+  'front end must sort by a fixed-offset key');
+// 不得再直接用浏览器本地时区字段渲染时间
+assert.ok(!indexHtml.includes('d.getHours()'),
+  'front end must not render time with browser-local getHours()');
+assert.ok(!indexHtml.includes('d.getMonth()'),
+  'front end must not render time with browser-local getMonth()');
+// 未来时间戳必须被钳制，避免单条坏数据霸占列表首位
+assert.ok(indexHtml.includes('if (ta > cap) ta = cap;'),
+  'sort must clamp future timestamps');
+assert.ok(indexHtml.includes('if (tb > cap) tb = cap;'),
+  'sort must clamp future timestamps');
+
 console.log('frontend tests passed');

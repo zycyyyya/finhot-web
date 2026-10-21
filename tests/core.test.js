@@ -3,14 +3,17 @@
 const assert = require('assert');
 const {
   beijingDateString,
+  beijingWallClock,
   containsCorruptedText,
   deduplicateSimilarTitles,
+  isFutureTimestamp,
   isSafeHttpUrl,
   limitWithSourceReserve,
   normalizePublishedAt,
   repairTimezoneSkew,
   normalizeTitle,
   qualityErrors,
+  refreshTimestampFromFresh,
   sortAndLimit,
   titleSimilarity,
   titlesLikelyDuplicate,
@@ -74,20 +77,54 @@ assert.strictEqual(
     publishedAt: '2026-10-20T17:59:00.000Z',
     sourceUrl: 'http://www.huibaoxian.com.cn//htm/yc/20261020/6194.html',
   };
-  const r = repairTimezoneSkew(bad);
+  const r = repairTimezoneSkew(bad, { nowMs: Date.parse('2026-10-21T06:41:00.000Z') });
   assert.strictEqual(r.timeFixed, true, '应识别为误采并修正');
   assert.strictEqual(r.publishedAt, '2026-10-20T09:59:00.000Z', '回退 8 小时');
 }
 
-// 正确的条目不能被误改（本地采集的 11:56Z 是对的）
+// 同日错位：源站「2026-10-21 11:56」是北京时间，被 CI(TZ=UTC) 当 UTC 存成 11:56Z，
+// 渲染回北京是 19:56 —— 比当下还晚几小时，光看日期无法自证，但"发布时间在未来"
+// 本身就是错位铁证。正确值是 03:56Z。
 {
-  const good = {
+  const bad = {
     publishedAt: '2026-10-21T11:56:00.000Z',
     sourceUrl: 'http://www.huibaoxian.com.cn//htm/pc/20261021/6196.html',
   };
-  const r = repairTimezoneSkew(good);
+  const r = repairTimezoneSkew(bad, { nowMs: Date.parse('2026-10-21T06:41:00.000Z') });
+  assert.strictEqual(r.timeFixed, true, '同日错位应识别为误采并修正');
+  assert.strictEqual(r.publishedAt, '2026-10-21T03:56:00.000Z', '回退 8 小时');
+}
+
+// 已经正确的时间戳不能被误改。
+// 注意：源站「2026-10-21 11:56」（北京时间）的正确存储值是 03:56Z —— 本地 TZ=+08 时
+// new Date('2026-10-21 11:56') 得到的也正是 03:56Z，不可能是 11:56Z。
+{
+  const good = {
+    publishedAt: '2026-10-21T03:56:00.000Z',
+    sourceUrl: 'http://www.huibaoxian.com.cn//htm/pc/20261021/6196.html',
+  };
+  const r = repairTimezoneSkew(good, { nowMs: Date.parse('2026-10-21T06:41:00.000Z') });
   assert.strictEqual(r.timeFixed, false, '正确时间戳不应被修改');
   assert.strictEqual(r.publishedAt, good.publishedAt);
+}
+
+// 未来时间戳但回退 8 小时后对不上 URL 日期 → 不动（宁可漏修不可错修）
+{
+  const r = repairTimezoneSkew({
+    publishedAt: '2026-10-25T11:56:00.000Z',
+    sourceUrl: 'http://www.huibaoxian.com.cn//htm/pc/20261021/6196.html',
+  }, { nowMs: Date.parse('2026-10-21T06:41:00.000Z') });
+  assert.strictEqual(r.timeFixed, false, '回退后对不上 URL 日期就不动');
+  assert.strictEqual(r.publishedAt, '2026-10-25T11:56:00.000Z');
+}
+
+// 未来时间戳在容差内（源站与本地小幅时钟漂移）→ 不动
+{
+  const r = repairTimezoneSkew({
+    publishedAt: '2026-10-21T07:00:00.000Z',
+    sourceUrl: 'http://www.huibaoxian.com.cn//htm/pc/20261021/6196.html',
+  }, { nowMs: Date.parse('2026-10-21T06:41:00.000Z') });
+  assert.strictEqual(r.timeFixed, false, '容差内的未来时间不动');
 }
 
 // URL 里没有日期 → 不动
@@ -258,5 +295,81 @@ assert.ok(qualityErrors([{ ...validItem, scenarioScores: null }]).some(e => e.in
 assert.ok(qualityErrors([{ ...validItem, primaryScene: 'regulatory' }]).some(e => e.includes('primaryScene')));
 assert.ok(qualityErrors([{ ...validItem, selectedForFeatured: 'yes' }]).some(e => e.includes('selectedForFeatured')));
 assert.ok(qualityErrors([{ ...validItem, contentTags: null }]).some(e => e.includes('contentTags')));
+
+// === beijingWallClock：把绝对时刻还原成北京墙上时钟 ===
+// 源站「2026-10-21 11:56」（北京时间）的绝对时刻是 03:56Z，换算回北京仍是 11:56
+assert.deepStrictEqual(
+  beijingWallClock('2026-10-21T03:56:00.000Z'),
+  { year: 2026, month: 10, day: 21, hour: 11, minute: 56, weekday: 3 },
+  '绝对时刻应还原成北京墙上时钟',
+);
+assert.strictEqual(beijingWallClock('bad-date'), null);
+assert.strictEqual(beijingWallClock(null), null);
+assert.strictEqual(beijingWallClock(''), null);
+// Date 对象与字符串等价
+assert.deepStrictEqual(
+  beijingWallClock(new Date('2026-10-21T03:56:00.000Z')),
+  beijingWallClock('2026-10-21T03:56:00.000Z'),
+  'Date 与字符串应得到相同结果',
+);
+// 跨日边界：UTC 20:00 是北京次日 04:00
+assert.strictEqual(beijingWallClock('2026-10-21T20:00:00.000Z').day, 22, '跨日应正确进位');
+
+// === isFutureTimestamp：未来时间戳检测 ===
+{
+  const now = Date.parse('2026-10-21T06:41:00.000Z');
+  assert.strictEqual(isFutureTimestamp('2026-10-21T11:56:00.000Z', now), true, '未来应识别');
+  assert.strictEqual(isFutureTimestamp('2026-10-21T03:56:00.000Z', now), false, '过去不算未来');
+  // 容差内（2 小时）不算未来，避免误伤源站与本地的时钟漂移
+  assert.strictEqual(isFutureTimestamp('2026-10-21T07:00:00.000Z', now), false, '容差内不算未来');
+  assert.strictEqual(isFutureTimestamp('2026-10-21T09:00:00.000Z', now), true, '超出容差算未来');
+  assert.strictEqual(isFutureTimestamp('bad-date', now), false);
+  assert.strictEqual(isFutureTimestamp(null, now), false);
+}
+
+// === refreshTimestampFromFresh：重采覆盖旧条目的时间戳 ===
+// 真实场景：线上 data.js 里慧保天下条目存的是 11:56Z（错的，正确是 03:56Z），
+// 而重采时源站给出的绝对时刻是 03:56Z —— 覆盖后即自愈。
+{
+  const cached = {
+    publishedAt: '2026-10-21T11:56:00.000Z',
+    sourceUrl: 'http://www.huibaoxian.com.cn//htm/pc/20261021/6196.html',
+  };
+  const byUrl = new Map([[cached.sourceUrl, cached]]);
+  const changed = refreshTimestampFromFresh(byUrl, {
+    sourceUrl: cached.sourceUrl,
+    publishedAt: '2026-10-21T03:56:00.000Z',
+  });
+  assert.strictEqual(changed, true, '应发生覆盖');
+  assert.strictEqual(cached.publishedAt, '2026-10-21T03:56:00.000Z', '应写成源站新值');
+  assert.strictEqual(cached.timeFixed, true, '应打上已修正标记');
+}
+
+// 同值覆盖 → 不重复标记（避免每轮都写 timeFixed）
+{
+  const cached = {
+    publishedAt: '2026-10-21T03:56:00.000Z',
+    sourceUrl: 'http://x/1',
+  };
+  const byUrl = new Map([[cached.sourceUrl, cached]]);
+  const changed = refreshTimestampFromFresh(byUrl, {
+    sourceUrl: 'http://x/1',
+    publishedAt: '2026-10-21T03:56:00.000Z',
+  });
+  assert.strictEqual(changed, false, '同值不应触发覆盖');
+  assert.strictEqual(cached.timeFixed, undefined, '同值不应打标记');
+}
+
+// 各种缺字段情形都要安全返回 false
+assert.strictEqual(refreshTimestampFromFresh(null, { sourceUrl: 'http://x/1', publishedAt: '2026-10-21T03:56:00.000Z' }), false);
+assert.strictEqual(refreshTimestampFromFresh(new Map(), { sourceUrl: 'http://x/1', publishedAt: '2026-10-21T03:56:00.000Z' }), false);
+assert.strictEqual(refreshTimestampFromFresh(new Map(), null), false);
+assert.strictEqual(refreshTimestampFromFresh(new Map(), { sourceUrl: '', publishedAt: 'x' }), false);
+assert.strictEqual(refreshTimestampFromFresh(new Map(), { sourceUrl: 'http://x/1', publishedAt: null }), false);
+assert.strictEqual(
+  refreshTimestampFromFresh(new Map([['http://x/1', { publishedAt: 'a' }]]), { sourceUrl: 'http://x/1', publishedAt: 'bad-date' }),
+  false,
+  '新值非法时不覆盖',
+);
 
 console.log('core tests passed');

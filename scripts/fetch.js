@@ -19,6 +19,7 @@ const {
   limitWithSourceReserve,
   normalizePublishedAt,
   normalizeTitle,
+  refreshTimestampFromFresh,
   repairTimezoneSkew,
   sortAndLimit,
 } = require('./core');
@@ -188,11 +189,11 @@ function loadExisting() {
   try {
     const raw = fs.readFileSync(DATA_FILE, 'utf8');
     const assignIdx = raw.indexOf('window.FINHOT_DATA');
-    if (assignIdx === -1) return { items: [], existingUrls: new Set(), titleSet: new Set(), aiAnalysis: null };
+    if (assignIdx === -1) return { items: [], existingUrls: new Set(), titleSet: new Set(), byUrl: new Map(), aiAnalysis: null };
     const eqIdx = raw.indexOf('=', assignIdx);
-    if (eqIdx === -1) return { items: [], existingUrls: new Set(), titleSet: new Set(), aiAnalysis: null };
+    if (eqIdx === -1) return { items: [], existingUrls: new Set(), titleSet: new Set(), byUrl: new Map(), aiAnalysis: null };
     let start = raw.indexOf('{', eqIdx);
-    if (start === -1) return { items: [], existingUrls: new Set(), titleSet: new Set(), aiAnalysis: null };
+    if (start === -1) return { items: [], existingUrls: new Set(), titleSet: new Set(), byUrl: new Map(), aiAnalysis: null };
     let depth = 0, end = start;
     for (; end < raw.length; end++) {
       if (raw[end] === '{') depth++;
@@ -203,11 +204,18 @@ function loadExisting() {
     const items = data.items || [];
     const urls = new Set(items.map(i => i.sourceUrl).filter(Boolean));
     const titleSet = buildTitleSet(items);
+    // URL → 旧条目 索引：重采时用来把源站的新时间戳覆盖回旧条目。
+    // 没有这个索引，历史坏时间戳永远修不掉 —— 旧条目因 URL 已存在而被整体跳过，
+    // 新采到的正确值根本没有机会写回。
+    const byUrl = new Map();
+    items.forEach((item) => {
+      if (item && item.sourceUrl) byUrl.set(item.sourceUrl, item);
+    });
     console.error(`[load] already ${items.length} records, ${titleSet.size} title hashes`);
-    return { items, existingUrls: urls, titleSet, aiAnalysis: data.aiAnalysis || null };
+    return { items, existingUrls: urls, titleSet, byUrl, aiAnalysis: data.aiAnalysis || null };
   } catch (e) {
     console.error(`[load] no existing data, starting fresh: ${e.message}`);
-    return { items: [], existingUrls: new Set(), titleSet: new Set(), aiAnalysis: null };
+    return { items: [], existingUrls: new Set(), titleSet: new Set(), byUrl: new Map(), aiAnalysis: null };
   }
 }
 
@@ -1242,8 +1250,17 @@ async function main() {
     // 套用全局 7 天会把它们几乎全部过滤掉，所以按源的 maxAgeDays 分别判断。
     const sourceCutoff = Date.now() - (src.maxAgeDays || MAX_AGE_DAYS) * 86400000;
     let added = 0;
+    let refreshed = 0;
     for (const item of items) {
-      if (!isSafeHttpUrl(item.sourceUrl) || existing.existingUrls.has(item.sourceUrl)) continue;
+      if (!isSafeHttpUrl(item.sourceUrl)) continue;
+      // 重采到同 URL：先用源站的新时间戳修正旧条目，再走"已存在则跳过"。
+      // 顺序不能反 —— 跳过在前的话修正机会就没了。
+      if (existing.existingUrls.has(item.sourceUrl)) {
+        if (refreshTimestampFromFresh(existing.byUrl, item)) {
+          refreshed += 1;
+        }
+        continue;
+      }
       if (containsCorruptedText(item.title) || containsCorruptedText(item.summary || '')) continue;
       // Title dedup: check normalized title prefix
       const titleHash = normalizeTitle(item.title);
@@ -1271,6 +1288,9 @@ async function main() {
     fetchResult.health.addedCount = added;
     sourceHealthRecords.push(fetchResult.health);
     console.error(`  +${added} new (${items.length - added} skipped as dup/filtered)`);
+    if (refreshed > 0) {
+      console.error(`  ↻ ${refreshed} 条旧条目时间戳已用源站新值修正`);
+    }
   }
 
   // === 慧保天下（保险垂直新媒体）===
@@ -1280,8 +1300,18 @@ async function main() {
     const hbItems = hbResult.items;
     const hbCutoff = Date.now() - MAX_AGE_DAYS * 86400000;
     let hbAdded = 0;
+    let hbRefreshed = 0;
     for (const item of hbItems) {
-      if (!isSafeHttpUrl(item.sourceUrl) || existing.existingUrls.has(item.sourceUrl)) continue;
+      if (!isSafeHttpUrl(item.sourceUrl)) continue;
+      // 同上：重采到同 URL 时用源站新时间戳修正旧条目。
+      // 慧保天下是这条链路的主要受害者 —— 它的发布时间是北京时间无时区串，
+      // 历史上被 CI（TZ=UTC）当成 UTC 存，多了 8 小时，导致条目显示成未来时间并霸榜。
+      if (existing.existingUrls.has(item.sourceUrl)) {
+        if (refreshTimestampFromFresh(existing.byUrl, item)) {
+          hbRefreshed += 1;
+        }
+        continue;
+      }
       if (containsCorruptedText(item.title) || containsCorruptedText(item.summary || '')) continue;
       const titleHash = normalizeTitle(item.title);
       if (titleHash.length >= 6 && existing.titleSet.has(titleHash)) continue;
@@ -1302,6 +1332,9 @@ async function main() {
     hbResult.health.addedCount = hbAdded;
     sourceHealthRecords.push(hbResult.health);
     console.error(`  +${hbAdded} new (${hbItems.length - hbAdded} skipped as dup/filtered)`);
+    if (hbRefreshed > 0) {
+      console.error(`  ↻ ${hbRefreshed} 条旧条目时间戳已用源站新值修正`);
+    }
   } catch (hbErr) {
     console.error(`  慧保天下抓取失败: ${hbErr.message}`);
     sourceHealthRecords.push({ sourceName: '慧保天下', ok: false, error: hbErr.message });

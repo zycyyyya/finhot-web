@@ -200,23 +200,58 @@
     timeLabel.textContent = '今日资讯';
   }
 
+  // === 时间口径：统一按北京时间 ===
+  // 数据里存的是绝对时刻（UTC ISO），但这个站点的语义是「北京时间」：
+  // 采集源是国内媒体，发布时间都是北京时间墙上时钟。
+  // 若直接用浏览器本地时区渲染，处在非 UTC+8 的机器上会看到差几小时的钟面；
+  // 排序口径也会跟着漂移。所以这里显式固定 +08:00，不依赖浏览器时区。
+  var CN_OFFSET_MS = 8 * 3600000;
+
+  // 把绝对时刻换算成「北京墙上时钟」的各字段
+  function beijingParts(iso) {
+    var d = new Date(iso);
+    if (isNaN(d.getTime())) return null;
+    var s = new Date(d.getTime() + CN_OFFSET_MS);
+    return {
+      y: s.getUTCFullYear(),
+      mo: s.getUTCMonth() + 1,
+      d: s.getUTCDate(),
+      h: s.getUTCHours(),
+      mi: s.getUTCMinutes()
+    };
+  }
+
+  function pad2(n) {
+    return ('0' + n).slice(-2);
+  }
+
+  // 排序键：绝对时刻 + 固定偏移。因为偏移对所有条目一致，排序结果与
+  // 「按北京墙上时钟排序」完全等价，但避免了逐条格式化带来的开销。
+  function timeSortKey(iso) {
+    var t = new Date(iso).getTime();
+    if (isNaN(t)) return 0;
+    return t + CN_OFFSET_MS;
+  }
+
   function formatTime(iso) {
     try {
       var d = new Date(iso);
       if (isNaN(d.getTime())) return '';
-      var now = new Date();
-      var diff = now - d;
+      var now = Date.now();
+      var diff = now - d.getTime();
       if (diff < 0) {
-        // 未来时间（源站时区标注错误或采集延迟）：不做时区猜测，
-        // 直接显示绝对日期时间。旧实现把 'Z' 换成 '+08:00' 重解析，
-        // 等于再减8 小时，反而更错。
-        var hh = ('0' + d.getHours()).slice(-2);
-        var mm = ('0' + d.getMinutes()).slice(-2);
-        return (d.getMonth() + 1) + '月' + d.getDate() + '日' + hh + ':' + mm;
+        // 未来时间：说明源站时间被错误加了偏移（历史上 CI 把北京时间串当 UTC 存，
+        // 多了 8 小时）。这类条目不该因为"时间最大"而霸占列表首位 ——
+        // 排序时钳到当前时刻，展示时退回绝对日期，不再显示成未来。
+        var p = beijingParts(iso);
+        if (!p) return '';
+        return p.mo + '月' + p.d + '日 ' + pad2(p.h) + ':' + pad2(p.mi);
       }
       if (diff < 3600000) return Math.floor(diff / 60000) + '分钟前';
       if (diff < 86400000) return Math.floor(diff / 3600000) + '小时前';
-      return (d.getMonth() + 1) + '月' + d.getDate() + '日';
+      var q = beijingParts(iso);
+      if (!q) return '';
+      return q.mo + '月' + q.d + '日';
     } catch(e) {
       return '';
     }
@@ -337,9 +372,15 @@
   }
 
   function sortByTimeDesc(items) {
+    // 未来时间戳钳到当前时刻：单条坏数据不该霸占列表首位。
+    // 正常条目的偏移对所有人一致，钳制不影响相对顺序。
+    var now = Date.now();
+    var cap = now + CN_OFFSET_MS;
     return items.slice().sort(function(a, b) {
-      var ta = new Date(a.publishedAt).getTime() || 0;
-      var tb = new Date(b.publishedAt).getTime() || 0;
+      var ta = timeSortKey(a.publishedAt);
+      var tb = timeSortKey(b.publishedAt);
+      if (ta > cap) ta = cap;
+      if (tb > cap) tb = cap;
       return tb - ta;
     });
   }

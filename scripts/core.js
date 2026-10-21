@@ -32,6 +32,60 @@ function isSafeHttpUrl(value) {
  *   - 其他格式（如 RFC822 的 RSS pubDate）走标准解析。
  */
 const CN_TZ_OFFSET = '+08:00';
+const CN_TZ_OFFSET_MS = 8 * 3600000;
+
+/**
+ * 取「北京墙上时钟」的各字段。
+ *
+ * 与 `normalizePublishedAt` 配对使用：后者把北京时间串解析成**绝对时刻**（UTC ISO），
+ * 前者把绝对时刻还原成**北京墙上时钟**（用户看到的钟面时间）。
+ *
+ * 为什么需要它：排序与展示的语义是「北京时间」，不是「UTC」。
+ * 绝对时刻参与排序是对的，但拿去显示钟面时间时必须换算回北京时区，
+ * 否则处在非 UTC+8 的浏览器上会看到差 8 小时的钟面。
+ *
+ * @param {string|Date} value ISO 串或 Date
+ * @returns {{year:number,month:number,day:number,hour:number,minute:number,weekday:number}|null}
+ */
+function beijingWallClock(value) {
+  if (!value) return null;
+  const date = value instanceof Date ? value : new Date(value);
+  if (Number.isNaN(date.getTime())) return null;
+  // 整体平移 8 小时后，UTC 字段即等于北京墙上时钟字段
+  const shifted = new Date(date.getTime() + CN_TZ_OFFSET_MS);
+  return {
+    year: shifted.getUTCFullYear(),
+    month: shifted.getUTCMonth() + 1,
+    day: shifted.getUTCDate(),
+    hour: shifted.getUTCHours(),
+    minute: shifted.getUTCMinutes(),
+    weekday: shifted.getUTCDay(),
+  };
+}
+
+/**
+ * 判断时间戳是否落在「未来」。
+ *
+ * 用途：新闻的发布时间不可能晚于当前时刻。若某个条目的 publishedAt 在未来，
+ * 说明它被错误地加了偏移（历史上 CI 把北京时间串当 UTC 存，多了 8 小时），
+ * 这类条目会因"时间最大"而霸占列表首位 —— 必须识别出来。
+ *
+ * 容差 2 小时：允许源站与本地存在小幅时钟漂移，也允许定时发布的稿件。
+ *
+ * @param {string|Date} value
+ * @param {number} [nowMs] 参考时刻（便于测试）
+ * @param {number} [toleranceMs] 容差
+ * @returns {boolean}
+ */
+function isFutureTimestamp(value, nowMs, toleranceMs) {
+  if (!value) return false;
+  const date = value instanceof Date ? value : new Date(value);
+  const timestamp = date.getTime();
+  if (Number.isNaN(timestamp)) return false;
+  const now = Number.isFinite(nowMs) ? nowMs : Date.now();
+  const tolerance = Number.isFinite(toleranceMs) ? toleranceMs : 2 * 3600000;
+  return timestamp > now + tolerance;
+}
 
 function normalizePublishedAt(value) {
   if (!value) return null;
@@ -495,19 +549,21 @@ function beijingDateString(date) {
  *
  * 修复策略（只针对能自证的条目，不做全局偏移）：
  * 慧保天下的详情页 URL 里带发布日期（`/htm/pc/20261020/6194.html`），
- * 可用它做交叉校验：若「本地显示日期」比 URL 日期晚一天，说明是多 8 小时，
- * 回退 8 小时后正好对上 → 判定为误采并修正。
+ * 可用它做交叉校验。硬约束是：**回退 8 小时后必须与 URL 日期一致**，否则一律不动。
  *
- * 判定条件必须严格：
- *   1. URL 里有 8 位日期；
- *   2. 修正后的日期与 URL 日期一致（否则不动）；
- *   3. 修正前后的日期恰好相差一天（只修「跨日」这种明显错位）。
- * 不满足任一条就原样返回 —— 宁可漏修，不可错修。
+ * 在此硬约束下有两条触发通道：
+ *   A. 跨日错位 —— 原值的北京日历日比 URL 日期晚一天（多加了 8 小时）；
+ *   B. 同日错位 —— 原值的北京日历日与 URL 日期相同，光看日期无法自证，
+ *      但「发布时间在未来」本身就是错位铁证（新闻不可能晚于当下发布）。
+ *      典型案例：源站 `2026-10-21 11:56`（北京时间）被当成 UTC 存成 `11:56Z`，
+ *      渲染回北京是 19:56 —— 比当下还晚几小时，会霸占列表首位。
+ *
+ * 为什么不满足任一条就原样返回 —— 宁可漏修，不可错修。
  *
  * @param {object} item 条目（需含 publishedAt / sourceUrl）
  * @returns {object} { publishedAt, timeFixed }，timeFixed 标记是否发生修正
  */
-function repairTimezoneSkew(item) {
+function repairTimezoneSkew(item, options) {
   const original = item && item.publishedAt;
   if (!original) return { publishedAt: original, timeFixed: false };
   const url = typeof item.sourceUrl === 'string' ? item.sourceUrl : '';
@@ -518,19 +574,65 @@ function repairTimezoneSkew(item) {
   const parsed = new Date(original);
   if (Number.isNaN(parsed.getTime())) return { publishedAt: original, timeFixed: false };
 
-  // 以 UTC+08:00 还原「本地日历日」（与浏览器显示口径一致）
+  // 以 UTC+08:00 还原「北京日历日」（与前端展示口径一致）
   const localDayOf = date => {
-    const shifted = new Date(date.getTime() + 8 * 3600000);
+    const shifted = new Date(date.getTime() + CN_TZ_OFFSET_MS);
     return shifted.toISOString().slice(0, 10);
   };
-  const before = localDayOf(parsed);
-  if (before === urlDate) return { publishedAt: original, timeFixed: false };
 
-  const shiftedBack = new Date(parsed.getTime() - 8 * 3600000);
-  const after = localDayOf(shiftedBack);
-  if (after !== urlDate) return { publishedAt: original, timeFixed: false };
+  const shiftedBack = new Date(parsed.getTime() - CN_TZ_OFFSET_MS);
+  // 回退 8 小时后必须与 URL 日期自证一致 —— 这是硬约束，不满足就宁可不修
+  if (localDayOf(shiftedBack) !== urlDate) return { publishedAt: original, timeFixed: false };
 
-  return { publishedAt: shiftedBack.toISOString(), timeFixed: true };
+  // 通道 A：跨日错位。原值显示的北京日历日比 URL 日期晚一天 → 多加了 8 小时。
+  if (localDayOf(parsed) !== urlDate) {
+    return { publishedAt: shiftedBack.toISOString(), timeFixed: true };
+  }
+
+  // 通道 B：同日错位。原值显示的日历日与 URL 日期相同，光看日期无法自证 ——
+  // 但「发布时间在未来」本身就是错位铁证：新闻不可能晚于当下发布。
+  // 典型案例：源站 `2026-10-21 11:56`（北京时间）被当成 UTC 存成 `11:56Z`，
+  // 渲染回北京是 19:56 —— 比当下还晚好几个小时，会霸占列表首位。
+  const opts = options || {};
+  if (isFutureTimestamp(parsed, opts.nowMs, opts.toleranceMs)) {
+    return { publishedAt: shiftedBack.toISOString(), timeFixed: true };
+  }
+
+  return { publishedAt: original, timeFixed: false };
+}
+
+/**
+ * 重采覆盖：把源站新采到的 publishedAt 写回旧条目。
+ *
+ * 为什么必须有这一步：CI 每次运行都会重新抓取全部源，但旧条目因
+ * 「URL 已存在」被整体跳过 —— 也就是说**旧条目的 publishedAt 永远保持
+ * 第一次采集时的值**，即便后来修好了解析逻辑。
+ *
+ * 历史教训：修复 normalizePublishedAt 之前，CI（TZ=UTC）把北京时间串
+ * `2026-10-21 11:56` 存成了 `11:56Z`，渲染回北京是 19:56（未来 7 小时），
+ * 于是这类条目霸占列表首位。解析逻辑修好后，旧条目里的坏值依然在 ——
+ * 必须让「重采到」这件事本身成为一次数据修正。
+ *
+ * 源站是唯一真相：新采到的值直接覆盖旧值，不做任何启发式猜测。
+ * 这比「靠日期自证」可靠得多 —— 同日错位（不跨日、也不在未来）在本地
+ * 根本无法与正确值区分，但重采时源站会给出确切答案。
+ *
+ * @param {Map} byUrl URL → 旧条目
+ * @param {object} freshItem 新采到的条目
+ * @returns {boolean} 是否发生了覆盖
+ */
+function refreshTimestampFromFresh(byUrl, freshItem) {
+  if (!byUrl || typeof byUrl.get !== 'function') return false;
+  if (!freshItem || !freshItem.sourceUrl || !freshItem.publishedAt) return false;
+  const cached = byUrl.get(freshItem.sourceUrl);
+  if (!cached) return false;
+  const fresh = normalizePublishedAt(freshItem.publishedAt);
+  if (!fresh) return false;
+  // 已经是同一个值就不必再动，避免每轮都写 timeFixed 标记
+  if (cached.publishedAt === fresh) return false;
+  cached.publishedAt = fresh;
+  cached.timeFixed = true;
+  return true;
 }
 
 module.exports = {
@@ -543,6 +645,7 @@ module.exports = {
   VALID_CATEGORIES,
   assertDataQuality,
   beijingDateString,
+  beijingWallClock,
   bigramTokenSet,
   containsCorruptedText,
   deduplicateSimilarTitles,
@@ -550,6 +653,7 @@ module.exports = {
   eventPairKey,
   eventSimilarity,
   hoursBetween,
+  isFutureTimestamp,
   isMarketTickTitle,
   isNonEventTitle,
   isRoundupTitle,
@@ -561,6 +665,7 @@ module.exports = {
   primarySubject,
   repairTimezoneSkew,
   qualityErrors,
+  refreshTimestampFromFresh,
   sharedTopicCount,
   sortAndLimit,
   titleSimilarity,

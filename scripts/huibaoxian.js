@@ -173,9 +173,14 @@ function buildItem(entry, parsed, cat, extraOriginal) {
   const linkId = entry.link.match(/(\d+)\.html$/)?.[1] || Math.random().toString(36).slice(2);
   const rawDate = parsed.publishedAt || entry.dateStr;
   // 必须传**原始字符串**给 normalizePublishedAt，不能先 new Date()：
-  // 慧保天下的原文是北京时间无时区串（`2026-10-21 19:56`），
+  // 慧保天下的原文是北京时间无时区串（详情页形如 `2026-10-21 11:56`），
   // 先 new Date() 会按运行时 TZ 解析（CI=UTC、本机=+08:00），
   // 导致同一条新闻两次采集相差 8 小时。normalizePublishedAt 内部会显式按 +08:00 处理。
+  //
+  // 注意：源站返回的 `2026-10-21 11:56` 是**发布当天的北京墙上时钟**，
+  // 换算成绝对时刻是 `2026-10-21T03:56:00.000Z` —— 不是 11:56Z。
+  // 早期版本在 CI(UTC) 下存成 `11:56Z`，渲染回北京成了 19:56（未来时间），
+  // 导致这类条目霸占列表首位。
   const publishedAt = normalizePublishedAt(rawDate) || new Date().toISOString();
   return {
     id: `huibaoxian_${linkId}`,

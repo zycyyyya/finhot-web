@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-10-21T13:58:13.054Z",
+  "updatedAt": "2026-10-21T17:24:31.244Z",
   "note": "auto 指标由 scripts/macro.js 每日自动刷新；manual 指标为人工核实值，核实日期见 asOf。",
   "indicators": [
     {
@@ -81,16 +81,16 @@
     {
       "key": "usdcny",
       "name": "美元兑人民币",
-      "value": "6.6780",
-      "numericValue": 6.678,
-      "note": "较10月19日 6.6807 下降",
+      "value": "6.6761",
+      "numericValue": 6.6761,
+      "note": "较10月20日 6.6780 下降",
       "direction": "down",
-      "asOf": "2026-10-20",
+      "asOf": "2026-10-21",
       "source": "Frankfurter/ECB",
       "mode": "auto",
-      "prevValue": "6.6807",
-      "prevNumericValue": 6.6807,
-      "prevAsOf": "2026-10-19"
+      "prevValue": "6.6780",
+      "prevNumericValue": 6.678,
+      "prevAsOf": "2026-10-20"
     },
     {
       "key": "gold",

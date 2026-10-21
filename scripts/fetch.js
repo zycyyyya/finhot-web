@@ -19,6 +19,7 @@ const {
   limitWithSourceReserve,
   normalizePublishedAt,
   normalizeTitle,
+  repairTimezoneSkew,
   sortAndLimit,
 } = require('./core');
 const {
@@ -560,6 +561,13 @@ function enrichItem(item) {
   item.evidenceType = item.evidenceType || src.evidenceType;
   item.discoveredVia = item.discoveredVia || 'RSSHub';
   item.id = stableItemId(item);
+  // 修正历史上被 CI 误采的时间戳（北京时间串被当UTC，多 8 小时）。
+  // 只在能靠 URL 日期自证时才改，宁可漏修不可错修。
+  const timeRepair = repairTimezoneSkew(item);
+  if (timeRepair.timeFixed) {
+    item.publishedAt = timeRepair.publishedAt;
+    item.timeFixed = true;
+  }
   // 每次重算：旧缓存里的 scoreBreakdown 只有 authority/depth 两轴，沿用会让前端读到 undefined。
   const scoreMeta = scoreItem(item, src);
   item.score = scoreMeta.score;

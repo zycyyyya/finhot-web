@@ -172,7 +172,11 @@ function buildItem(entry, parsed, cat, extraOriginal) {
   if (!sourceUrl) return null;
   const linkId = entry.link.match(/(\d+)\.html$/)?.[1] || Math.random().toString(36).slice(2);
   const rawDate = parsed.publishedAt || entry.dateStr;
-  const publishedAt = normalizePublishedAt(rawDate ? new Date(rawDate) : new Date());
+  // 必须传**原始字符串**给 normalizePublishedAt，不能先 new Date()：
+  // 慧保天下的原文是北京时间无时区串（`2026-10-21 19:56`），
+  // 先 new Date() 会按运行时 TZ 解析（CI=UTC、本机=+08:00），
+  // 导致同一条新闻两次采集相差 8 小时。normalizePublishedAt 内部会显式按 +08:00 处理。
+  const publishedAt = normalizePublishedAt(rawDate) || new Date().toISOString();
   return {
     id: `huibaoxian_${linkId}`,
     title: normalizeTitle(parsed.title || entry.title),

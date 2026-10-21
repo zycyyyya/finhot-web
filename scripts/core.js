@@ -14,8 +14,38 @@ function isSafeHttpUrl(value) {
   }
 }
 
+/**
+ * 归一化发布时间为 ISO 字符串。
+ *
+ * 为什么要显式处理时区：很多国内源的发布时间是**不带时区的北京时间串**
+ * （如慧保天下的 `2026-10-21 19:56`、正文页meta 里的 `2026-10-21 19:56`）。
+ * `new Date('2026-10-21 19:56')` 的解析结果**依赖运行时 TZ**：
+ *   - TZ=Asia/Shanghai（本机）→ 11:56Z ✅ 正确
+ *   - TZ=UTC（GitHub Actions runner）→ 19:56Z❌ 快了 8 小时
+ * CI 与本机结果不一致 → 同一条新闻在两次采集里时间戳差 8 小时 → 排序错乱、
+ * 相对时间显示错误（甚至出现「未来时间」被前端渲染成空）。
+ *
+ * 规则：
+ *   - 带时区标识（Z / ±HH:MM）的串按标准解析，不干预；
+ *   - 形如 `YYYY-MM-DD HH:mm(:ss)` 或 `YYYY-MM-DDTHH:mm(:ss)` 的**无时区**串，
+ *     显式按 Asia/Shanghai (+08:00) 解释；
+ *   - 其他格式（如 RFC822 的 RSS pubDate）走标准解析。
+ */
+const CN_TZ_OFFSET = '+08:00';
+
 function normalizePublishedAt(value) {
   if (!value) return null;
+  if (typeof value === 'string') {
+    const trimmed = value.trim();
+    // 无时区的本地时间串：显式按北京时间解释，不受运行时 TZ 影响
+    const naive = trimmed.match(/^(\d{4})-(\d{2})-(\d{2})[T ](\d{2}):(\d{2})(?::(\d{2}))?$/);
+    if (naive) {
+      const [, y, mo, d, h, mi, s] = naive;
+      const withOffset = `${y}-${mo}-${d}T${h}:${mi}:${s || '00'}${CN_TZ_OFFSET}`;
+      const parsed = new Date(withOffset);
+      if (!Number.isNaN(parsed.getTime())) return parsed.toISOString();
+    }
+  }
   const date = new Date(value);
   if (Number.isNaN(date.getTime())) return null;
   return date.toISOString();
@@ -456,6 +486,53 @@ function beijingDateString(date) {
   return `${values.year}-${values.month}-${values.day}`;
 }
 
+/**
+ * 修复历史上被 CI 误采的时间戳（北京时间无时区串被当成 UTC，多 8 小时）。
+ *
+ * 背景：修复 normalizePublishedAt 之前，CI（TZ=UTC）采集国内源时会把
+ * `2026-10-20 17:59`（北京时间）存成 `17:59Z`，而正确值是 `09:59Z`。
+ * 这类条目的浏览器本地显示时间会跑到次日，排序也随之错乱。
+ *
+ * 修复策略（只针对能自证的条目，不做全局偏移）：
+ * 慧保天下的详情页 URL 里带发布日期（`/htm/pc/20261020/6194.html`），
+ * 可用它做交叉校验：若「本地显示日期」比 URL 日期晚一天，说明是多 8 小时，
+ * 回退 8 小时后正好对上 → 判定为误采并修正。
+ *
+ * 判定条件必须严格：
+ *   1. URL 里有 8 位日期；
+ *   2. 修正后的日期与 URL 日期一致（否则不动）；
+ *   3. 修正前后的日期恰好相差一天（只修「跨日」这种明显错位）。
+ * 不满足任一条就原样返回 —— 宁可漏修，不可错修。
+ *
+ * @param {object} item 条目（需含 publishedAt / sourceUrl）
+ * @returns {object} { publishedAt, timeFixed }，timeFixed 标记是否发生修正
+ */
+function repairTimezoneSkew(item) {
+  const original = item && item.publishedAt;
+  if (!original) return { publishedAt: original, timeFixed: false };
+  const url = typeof item.sourceUrl === 'string' ? item.sourceUrl : '';
+  const urlDateMatch = url.match(/\/(\d{4})(\d{2})(\d{2})\//);
+  if (!urlDateMatch) return { publishedAt: original, timeFixed: false };
+
+  const urlDate = `${urlDateMatch[1]}-${urlDateMatch[2]}-${urlDateMatch[3]}`;
+  const parsed = new Date(original);
+  if (Number.isNaN(parsed.getTime())) return { publishedAt: original, timeFixed: false };
+
+  // 以 UTC+08:00 还原「本地日历日」（与浏览器显示口径一致）
+  const localDayOf = date => {
+    const shifted = new Date(date.getTime() + 8 * 3600000);
+    return shifted.toISOString().slice(0, 10);
+  };
+  const before = localDayOf(parsed);
+  if (before === urlDate) return { publishedAt: original, timeFixed: false };
+
+  const shiftedBack = new Date(parsed.getTime() - 8 * 3600000);
+  const after = localDayOf(shiftedBack);
+  if (after !== urlDate) return { publishedAt: original, timeFixed: false };
+
+  return { publishedAt: shiftedBack.toISOString(), timeFixed: true };
+}
+
 module.exports = {
   ANCHOR_FLOOR,
   EVENT_SUBJECTS,
@@ -482,6 +559,7 @@ module.exports = {
   normalizePublishedAt,
   normalizeTitle,
   primarySubject,
+  repairTimezoneSkew,
   qualityErrors,
   sharedTopicCount,
   sortAndLimit,

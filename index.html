@@ -207,10 +207,13 @@
       var now = new Date();
       var diff = now - d;
       if (diff < 0) {
-        d = new Date(iso.replace('Z', '+08:00'));
-        diff = now - d;
+        // 未来时间（源站时区标注错误或采集延迟）：不做时区猜测，
+        // 直接显示绝对日期时间。旧实现把 'Z' 换成 '+08:00' 重解析，
+        // 等于再减8 小时，反而更错。
+        var hh = ('0' + d.getHours()).slice(-2);
+        var mm = ('0' + d.getMinutes()).slice(-2);
+        return (d.getMonth() + 1) + '月' + d.getDate() + '日' + hh + ':' + mm;
       }
-      if (diff < 0) return '';
       if (diff < 3600000) return Math.floor(diff / 60000) + '分钟前';
       if (diff < 86400000) return Math.floor(diff / 3600000) + '小时前';
       return (d.getMonth() + 1) + '月' + d.getDate() + '日';

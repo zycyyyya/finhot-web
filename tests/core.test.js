@@ -8,6 +8,7 @@ const {
   isSafeHttpUrl,
   limitWithSourceReserve,
   normalizePublishedAt,
+  repairTimezoneSkew,
   normalizeTitle,
   qualityErrors,
   sortAndLimit,
@@ -24,6 +25,92 @@ assert.strictEqual(isSafeHttpUrl('file:///tmp/a'), false);
 assert.strictEqual(normalizePublishedAt('2026-07-30T08:00:00Z'), '2026-07-30T08:00:00.000Z');
 assert.strictEqual(normalizePublishedAt('not-a-date'), null);
 assert.strictEqual(normalizePublishedAt(null), null);
+
+// === normalizePublishedAt：时区无关性 ===
+// 根因：国内源的时间串是不带时区的北京时间（如慧保天下 `2026-10-21 19:56`）。
+// new Date() 对无时区串的解析依赖运行时 TZ：
+//   TZ=UTC（CI runner）→ 19:56Z，比真实时间快 8 小时
+//   TZ=Asia/Shanghai（本机）→ 11:56Z，正确
+// 结果是同一条新闻两次采集时间戳差 8 小时 → 排序错乱、相对时间显示异常。
+// 修复：显式按 +08:00 解释无时区串，输出必须与运行时 TZ 无关。
+assert.strictEqual(
+  normalizePublishedAt('2026-10-21 19:56'),
+  '2026-10-21T11:56:00.000Z',
+  '无时区串按北京时间解释（19:56 CST = 11:56 UTC）',
+);
+assert.strictEqual(
+  normalizePublishedAt('2026-10-21 19:56:30'),
+  '2026-10-21T11:56:30.000Z',
+  '带秒的无时区串',
+);
+assert.strictEqual(
+  normalizePublishedAt('2026-10-21T19:56'),
+  '2026-10-21T11:56:00.000Z',
+  'ISO 形式但无时区，同样按北京时间',
+);
+// 带时区标识的串必须原样按标准解析，不被 +08:00 规则干扰
+assert.strictEqual(
+  normalizePublishedAt('2026-10-21T19:56:00+08:00'),
+  '2026-10-21T11:56:00.000Z',
+  '带 +08:00 偏移的串按标准解析',
+);
+assert.strictEqual(
+  normalizePublishedAt('2026-10-21T19:56:00Z'),
+  '2026-10-21T19:56:00.000Z',
+  '带 Z 的串不受影响',
+);
+// RFC822（RSS pubDate 常见格式）走标准解析
+assert.strictEqual(
+  normalizePublishedAt('Tue, 21 Oct 2026 04:53:25 +0000'),
+  '2026-10-21T04:53:25.000Z',
+  'RFC822 格式',
+);
+
+// === repairTimezoneSkew：修复 CI 误采的历史时间戳 ===
+// 真实样本（线上 data.js）：URL 日期 20261020，存储值 2026-10-20T17:59Z
+// （北京时间 17:59 被当UTC 存，多 8 小时），正确值应为 09:59Z
+{
+  const bad = {
+    publishedAt: '2026-10-20T17:59:00.000Z',
+    sourceUrl: 'http://www.huibaoxian.com.cn//htm/yc/20261020/6194.html',
+  };
+  const r = repairTimezoneSkew(bad);
+  assert.strictEqual(r.timeFixed, true, '应识别为误采并修正');
+  assert.strictEqual(r.publishedAt, '2026-10-20T09:59:00.000Z', '回退 8 小时');
+}
+
+// 正确的条目不能被误改（本地采集的 11:56Z 是对的）
+{
+  const good = {
+    publishedAt: '2026-10-21T11:56:00.000Z',
+    sourceUrl: 'http://www.huibaoxian.com.cn//htm/pc/20261021/6196.html',
+  };
+  const r = repairTimezoneSkew(good);
+  assert.strictEqual(r.timeFixed, false, '正确时间戳不应被修改');
+  assert.strictEqual(r.publishedAt, good.publishedAt);
+}
+
+// URL 里没有日期 → 不动
+{
+  const r = repairTimezoneSkew({ publishedAt: '2026-10-20T17:59:00.000Z', sourceUrl: 'https://example.com/news/1' });
+  assert.strictEqual(r.timeFixed, false, '无 URL 日期时不动');
+  assert.strictEqual(r.publishedAt, '2026-10-20T17:59:00.000Z');
+}
+
+// 修正后仍对不上 URL 日期 → 不动（宁可漏修不可错修）
+{
+  const r = repairTimezoneSkew({
+    publishedAt: '2026-10-15T10:00:00.000Z',
+    sourceUrl: 'http://www.huibaoxian.com.cn//htm/yc/20261020/6194.html',
+  });
+  assert.strictEqual(r.timeFixed, false, '对不上就不改');
+  assert.strictEqual(r.publishedAt, '2026-10-15T10:00:00.000Z');
+}
+
+// 缺字段要安全
+assert.strictEqual(repairTimezoneSkew(null).timeFixed, false);
+assert.strictEqual(repairTimezoneSkew({}).timeFixed, false);
+assert.strictEqual(repairTimezoneSkew({ publishedAt: 'bad-date' }).timeFixed, false);
 
 assert.strictEqual(containsCorruptedText('盘前��读'), true);
 assert.strictEqual(containsCorruptedText('正常文本'), false);

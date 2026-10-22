@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-22T13:58:25.993Z",
+  "generatedAt": "2026-10-22T17:20:32.782Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -9,7 +9,7 @@
       "clusterVersion": 2,
       "title": "A股四大指数开盘表现分化，软件开发、网络安全等板块涨幅居前",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-22T13:58:25.993Z",
+      "lastSeenAt": "2026-10-22T17:20:32.782Z",
       "latestItemPublishedAt": "2026-10-22T08:50:19.000Z",
       "primaryItemId": "news_a4a7d3555597",
       "evidenceItemIds": [
@@ -73,7 +73,7 @@
       "clusterVersion": 2,
       "title": "央行详解境外主体获取人民币的四个渠道：收、募、借、兑",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-22T13:58:25.993Z",
+      "lastSeenAt": "2026-10-22T17:20:32.782Z",
       "latestItemPublishedAt": "2026-10-22T13:39:29.000Z",
       "primaryItemId": "news_fee36df0e62e",
       "evidenceItemIds": [
@@ -137,7 +137,7 @@
       "clusterVersion": 2,
       "title": "中国证监会有关部门负责人就《违规转让证券案件行政处罚实施规则》答记者问",
       "firstSeenAt": "2026-10-19T15:45:09.770Z",
-      "lastSeenAt": "2026-10-22T13:58:25.993Z",
+      "lastSeenAt": "2026-10-22T17:20:32.782Z",
       "latestItemPublishedAt": "2026-10-18T19:52:26.000Z",
       "primaryItemId": "news_29d1bc110417",
       "evidenceItemIds": [
@@ -156,14 +156,12 @@
     {
       "eventId": "event_c68d651d4ff9",
       "clusterVersion": 2,
-      "title": "近七成港股次新股破发，34只“A+H”股平均破发35%",
+      "title": "港股再迎调整：恒科指跌超5%，短线何时企稳？",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-10-22T13:58:25.993Z",
-      "latestItemPublishedAt": "2026-10-22T12:54:36.000Z",
-      "primaryItemId": "news_a7063c6851c5",
+      "lastSeenAt": "2026-10-22T17:20:32.782Z",
+      "latestItemPublishedAt": "2026-10-22T16:00:24.000Z",
+      "primaryItemId": "news_bb835e55c794",
       "evidenceItemIds": [
-        "news_0f071e7c111d",
-        "news_a638f594b75e",
         "news_16efa3ec46ab",
         "news_01242cd7a951",
         "news_761539e682e3",
@@ -211,7 +209,9 @@
         "news_ef6c01c480e8",
         "news_20aef9d583bf",
         "news_ebe5871ab2a3",
-        "news_1d4eab6ca35f"
+        "news_1d4eab6ca35f",
+        "news_bb835e55c794",
+        "news_abbf40f1a861"
       ],
       "status": "developing",
       "summary": "微创系港股集体停牌，小股东质疑董事长辞任，追问房东背景。",
@@ -222,7 +222,7 @@
       "clusterVersion": 2,
       "title": "面对面｜中金缪延亮：反思欧债危机，任何政策都需博弈",
       "firstSeenAt": "2026-10-22T09:25:46.974Z",
-      "lastSeenAt": "2026-10-22T13:58:25.993Z",
+      "lastSeenAt": "2026-10-22T17:20:32.782Z",
       "latestItemPublishedAt": "2026-10-22T08:53:08.000Z",
       "primaryItemId": "news_729d033ef11f",
       "evidenceItemIds": [
@@ -234,27 +234,11 @@
       "latestProgress": ""
     },
     {
-      "eventId": "event_2c203a0af86e",
-      "clusterVersion": 2,
-      "title": "传媒大亨预言：SpaceX或向派拉蒙天舞投资多达100亿美元",
-      "firstSeenAt": "2026-10-22T09:25:46.974Z",
-      "lastSeenAt": "2026-10-22T13:58:25.993Z",
-      "latestItemPublishedAt": "2026-10-22T08:20:21.000Z",
-      "primaryItemId": "news_816a70b69514",
-      "evidenceItemIds": [
-        "news_816a70b69514",
-        "news_c04d14ee0ab3"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
       "eventId": "event_6ab2a13609c6",
       "clusterVersion": 2,
       "title": "美联储先加息后或猛降息：AI 是利率关键阀门，开支拐点将触发政策转向！",
       "firstSeenAt": "2026-10-08T06:40:59.994Z",
-      "lastSeenAt": "2026-10-22T13:58:25.993Z",
+      "lastSeenAt": "2026-10-22T17:20:32.782Z",
       "latestItemPublishedAt": "2026-10-22T12:39:05.000Z",
       "primaryItemId": "news_96841701f1e1",
       "evidenceItemIds": [
@@ -304,15 +288,16 @@
       "clusterVersion": 2,
       "title": "高利率压垮美国楼市：销售暴跌、开工下滑，华尔街却浑然不觉",
       "firstSeenAt": "2026-10-20T13:42:04.100Z",
-      "lastSeenAt": "2026-10-22T13:58:25.993Z",
-      "latestItemPublishedAt": "2026-10-22T10:12:49.000Z",
+      "lastSeenAt": "2026-10-22T17:20:32.782Z",
+      "latestItemPublishedAt": "2026-10-22T16:01:39.000Z",
       "primaryItemId": "news_2e80b5aec95c",
       "evidenceItemIds": [
         "news_a080827a7a71",
         "news_076dd54fea82",
         "news_e2091b2b3027",
         "news_2be59929ac2e",
-        "news_2e80b5aec95c"
+        "news_2e80b5aec95c",
+        "news_dc946523197b"
       ],
       "status": "developing",
       "summary": "",
@@ -323,7 +308,7 @@
       "clusterVersion": 2,
       "title": "Q3净利同比增超30倍！300亿PCB概念股发布三季报|盘后公告集锦",
       "firstSeenAt": "2026-10-22T13:58:25.993Z",
-      "lastSeenAt": "2026-10-22T13:58:25.993Z",
+      "lastSeenAt": "2026-10-22T17:20:32.782Z",
       "latestItemPublishedAt": "2026-10-22T12:34:29.000Z",
       "primaryItemId": "news_7b291579ee0b",
       "evidenceItemIds": [
@@ -339,7 +324,7 @@
       "clusterVersion": 2,
       "title": "汇添富基金宣布2亿元自购旗下主动ETF",
       "firstSeenAt": "2026-10-22T13:58:25.993Z",
-      "lastSeenAt": "2026-10-22T13:58:25.993Z",
+      "lastSeenAt": "2026-10-22T17:20:32.782Z",
       "latestItemPublishedAt": "2026-10-22T12:37:57.000Z",
       "primaryItemId": "news_e6ed1785282f",
       "evidenceItemIds": [
@@ -355,7 +340,7 @@
       "clusterVersion": 2,
       "title": "京蓝科技(000711.SZ)发布前三季度业绩，归母净利润1.02亿元，同比扭亏为盈",
       "firstSeenAt": "2026-10-22T13:58:25.993Z",
-      "lastSeenAt": "2026-10-22T13:58:25.993Z",
+      "lastSeenAt": "2026-10-22T17:20:32.782Z",
       "latestItemPublishedAt": "2026-10-22T05:05:11.000Z",
       "primaryItemId": "news_24163eabdabf",
       "evidenceItemIds": [
@@ -367,34 +352,14 @@
       "latestProgress": ""
     },
     {
-      "eventId": "event_1708a015d824",
-      "clusterVersion": 2,
-      "title": "提前一个月，SK海力士完成40万亿韩元股票回购",
-      "firstSeenAt": "2026-10-21T09:23:14.689Z",
-      "lastSeenAt": "2026-10-22T09:25:46.974Z",
-      "latestItemPublishedAt": "2026-10-21T15:48:35.000Z",
-      "primaryItemId": "news_2423a079175f",
-      "evidenceItemIds": [
-        "news_d3840877727e",
-        "news_aa7d62e44563",
-        "news_2423a079175f"
-      ],
-      "status": "developing",
-      "summary": "SK海力士提前一个月完成40万亿韩元股票回购",
-      "latestProgress": "SK海力士提前一个月完成40万亿韩元股票回购计划"
-    },
-    {
       "eventId": "event_f101880ef7bc",
       "clusterVersion": 2,
-      "title": "美股“最不希望涨的板块”涨起来了",
+      "title": "美股杠杆加不动了？华尔街“已耗尽资产负债表”，只能劝对冲基金“加空仓”",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-22T09:25:46.974Z",
-      "latestItemPublishedAt": "2026-10-22T00:20:09.000Z",
-      "primaryItemId": "news_0e2c434a75bb",
+      "lastSeenAt": "2026-10-22T17:20:32.782Z",
+      "latestItemPublishedAt": "2026-10-22T16:41:54.000Z",
+      "primaryItemId": "news_bb0bc36877ea",
       "evidenceItemIds": [
-        "news_c41fcd28d36a",
-        "news_f379d3ac047b",
-        "news_461da70259bf",
         "news_1caf39f4b085",
         "news_31e49ae39353",
         "news_fe2b455a3e88",
@@ -441,11 +406,47 @@
         "news_e6d35a91a0bc",
         "news_d89a5f374444",
         "news_bb0bc36877ea",
-        "news_0e2c434a75bb"
+        "news_0e2c434a75bb",
+        "news_8c826379799a",
+        "news_38f2b4607a06",
+        "news_5c4ba8c325c1"
       ],
       "status": "developing",
       "summary": "华尔街称自身资产负债表耗尽，美股杠杆难再加，呼吁对冲基金增持空仓",
       "latestProgress": "最新报道披露华尔街因资产负债表耗尽，建议对冲基金加空仓应对美股杠杆加不动问题"
+    },
+    {
+      "eventId": "event_2c203a0af86e",
+      "clusterVersion": 2,
+      "title": "传媒大亨预言：SpaceX或向派拉蒙天舞投资多达100亿美元",
+      "firstSeenAt": "2026-10-22T09:25:46.974Z",
+      "lastSeenAt": "2026-10-22T13:58:25.993Z",
+      "latestItemPublishedAt": "2026-10-22T08:20:21.000Z",
+      "primaryItemId": "news_816a70b69514",
+      "evidenceItemIds": [
+        "news_816a70b69514",
+        "news_c04d14ee0ab3"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_1708a015d824",
+      "clusterVersion": 2,
+      "title": "提前一个月，SK海力士完成40万亿韩元股票回购",
+      "firstSeenAt": "2026-10-21T09:23:14.689Z",
+      "lastSeenAt": "2026-10-22T09:25:46.974Z",
+      "latestItemPublishedAt": "2026-10-21T15:48:35.000Z",
+      "primaryItemId": "news_2423a079175f",
+      "evidenceItemIds": [
+        "news_d3840877727e",
+        "news_aa7d62e44563",
+        "news_2423a079175f"
+      ],
+      "status": "developing",
+      "summary": "SK海力士提前一个月完成40万亿韩元股票回购",
+      "latestProgress": "SK海力士提前一个月完成40万亿韩元股票回购计划"
     },
     {
       "eventId": "event_c047ddf7e9ad",

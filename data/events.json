@@ -1,20 +1,18 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-21T17:24:31.244Z",
+  "generatedAt": "2026-10-22T05:06:45.023Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
       "eventId": "event_a3c5d0364922",
       "clusterVersion": 2,
-      "title": "【权益周观察】上周A股缩量探底3674点 市场调整是否接近尾声？",
+      "title": "A股四大指数开盘表现分化，软件开发、网络安全等板块涨幅居前",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-21T17:24:31.244Z",
-      "latestItemPublishedAt": "2026-10-21T13:03:23.000Z",
-      "primaryItemId": "news_11cdf837b0d4",
+      "lastSeenAt": "2026-10-22T05:06:45.023Z",
+      "latestItemPublishedAt": "2026-10-22T02:48:07.000Z",
+      "primaryItemId": "news_a4a7d3555597",
       "evidenceItemIds": [
-        "news_27ff5a8cdcf7",
-        "news_0cde50e751d4",
         "news_20293291bdeb",
         "news_56fdb6bfbec5",
         "news_e10469249c57",
@@ -62,23 +60,23 @@
         "news_11cdf837b0d4",
         "news_e0aee8c147b6",
         "news_ee2fb3db4f04",
-        "news_5a670580e980"
+        "news_5a670580e980",
+        "news_a4a7d3555597",
+        "news_4dcc0f428d3a"
       ],
       "status": "developing",
-      "summary": "A股上周缩量探底3674点 市场调整是否接近尾声引关注",
-      "latestProgress": "最新权益周观察分析 调整接近尾声与否待观察"
+      "summary": "A股四大指数开盘表现分化，软件开发、网络安全等板块涨幅居前。",
+      "latestProgress": "A股千元股出现下跌。"
     },
     {
       "eventId": "event_2cf716748ce1",
       "clusterVersion": 2,
-      "title": "德国央行：德国经济第三季度可能陷入停滞",
+      "title": "连续加息两次后，韩国央行本月按兵不动，行长：暂停不等于紧缩终结",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-21T17:24:31.244Z",
-      "latestItemPublishedAt": "2026-10-21T08:00:32.000Z",
-      "primaryItemId": "news_b948fe11318a",
+      "lastSeenAt": "2026-10-22T05:06:45.023Z",
+      "latestItemPublishedAt": "2026-10-22T04:14:55.000Z",
+      "primaryItemId": "news_d7df0363c722",
       "evidenceItemIds": [
-        "news_39c9b44c3211",
-        "news_b6b547434998",
         "news_6c2adc0cf183",
         "news_47e9a5951976",
         "news_92cf9f7cd221",
@@ -126,20 +124,22 @@
         "news_6c2e790e8706",
         "news_a1ccbdeb879d",
         "news_ca201a81b27f",
-        "news_b948fe11318a"
+        "news_b948fe11318a",
+        "news_d7df0363c722",
+        "news_2c81f355b59c"
       ],
       "status": "developing",
-      "summary": "央行宣布设立非银大额赎回流动性支持工具，并扩大SLF范围。",
-      "latestProgress": "央行新政明确隔夜回购利率为主要政策利率，将退出存贷款基准利率。"
+      "summary": "连续两次加息后韩国央行本月暂不加息，行长称暂停不等于紧缩终结。",
+      "latestProgress": "韩国央行行长表示从部分汇率指标看韩元较过去几年偏弱。"
     },
     {
       "eventId": "event_81903830edd9",
       "clusterVersion": 2,
-      "title": "中国证监会就《证券市场先行赔付指导意见》公开征求意见",
+      "title": "中国证监会有关部门负责人就《违规转让证券案件行政处罚实施规则》答记者问",
       "firstSeenAt": "2026-10-19T15:45:09.770Z",
-      "lastSeenAt": "2026-10-21T17:24:31.244Z",
+      "lastSeenAt": "2026-10-22T05:06:45.023Z",
       "latestItemPublishedAt": "2026-10-20T10:07:37.000Z",
-      "primaryItemId": "news_c61e8342121c",
+      "primaryItemId": "news_29d1bc110417",
       "evidenceItemIds": [
         "news_c61e8342121c",
         "news_b086a9025dff",
@@ -150,15 +150,15 @@
         "news_3ba6b045b23d"
       ],
       "status": "developing",
-      "summary": "证监会发布违规转让证券处罚规则，负责人答记者问，明确行政处罚实施细则。",
-      "latestProgress": "证监会就《证券市场先行赔付指导意见》公开征求意见。"
+      "summary": "中国证监会就违规转让证券处罚规则答记者问，同日就证券先行赔付规则征求意见",
+      "latestProgress": "中国证监会就《证券市场先行赔付指导意见》公开征求意见"
     },
     {
       "eventId": "event_294387429284",
       "clusterVersion": 2,
       "title": "日本央行下周开会：或正式宣告实现2%通胀目标，告别“抗通缩模式”",
       "firstSeenAt": "2026-10-16T16:49:31.035Z",
-      "lastSeenAt": "2026-10-21T17:24:31.244Z",
+      "lastSeenAt": "2026-10-22T05:06:45.023Z",
       "latestItemPublishedAt": "2026-10-21T11:11:11.000Z",
       "primaryItemId": "news_e892bdc3705a",
       "evidenceItemIds": [
@@ -171,15 +171,15 @@
         "news_e892bdc3705a"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "日本央行下周开会，或正式宣告实现2%通胀目标，告别抗通缩模式。",
+      "latestProgress": "最新消息显示日本央行下周开会，或正式宣告实现2%通胀目标，告别抗通缩模式。"
     },
     {
       "eventId": "event_1708a015d824",
       "clusterVersion": 2,
       "title": "提前一个月，SK海力士完成40万亿韩元股票回购",
       "firstSeenAt": "2026-10-21T09:23:14.689Z",
-      "lastSeenAt": "2026-10-21T17:24:31.244Z",
+      "lastSeenAt": "2026-10-22T05:06:45.023Z",
       "latestItemPublishedAt": "2026-10-21T15:48:35.000Z",
       "primaryItemId": "news_2423a079175f",
       "evidenceItemIds": [
@@ -188,15 +188,15 @@
         "news_2423a079175f"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "SK海力士提前一个月完成40万亿韩元股票回购",
+      "latestProgress": "SK海力士提前一个月完成40万亿韩元股票回购计划"
     },
     {
       "eventId": "event_57efd0fada08",
       "clusterVersion": 2,
       "title": "泽连斯基：愿在保留75%领土控制权的基础上达成和平协议",
       "firstSeenAt": "2026-10-21T13:58:13.054Z",
-      "lastSeenAt": "2026-10-21T17:24:31.244Z",
+      "lastSeenAt": "2026-10-22T05:06:45.023Z",
       "latestItemPublishedAt": "2026-10-21T15:04:31.000Z",
       "primaryItemId": "news_04174998b1fc",
       "evidenceItemIds": [
@@ -205,15 +205,15 @@
         "news_65d566798c80"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "泽连斯基表态愿在保留至少75%领土控制权基础上达成和平协议",
+      "latestProgress": "俄美乌三方和谈有望重启"
     },
     {
       "eventId": "event_4a664a06d9b1",
       "clusterVersion": 2,
       "title": "《关于推动科技创新和产业创新深度融合的意见》发布｜附一图读懂",
       "firstSeenAt": "2026-10-21T13:58:13.054Z",
-      "lastSeenAt": "2026-10-21T17:24:31.244Z",
+      "lastSeenAt": "2026-10-22T05:06:45.023Z",
       "latestItemPublishedAt": "2026-10-21T11:02:20.000Z",
       "primaryItemId": "news_1d59f0acb66b",
       "evidenceItemIds": [
@@ -222,31 +222,15 @@
         "news_9122069b108a"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_870545492f3c",
-      "clusterVersion": 2,
-      "title": "恒生科技指数跌破4000点｜市场观察",
-      "firstSeenAt": "2026-10-21T13:58:13.054Z",
-      "lastSeenAt": "2026-10-21T17:24:31.244Z",
-      "latestItemPublishedAt": "2026-10-21T09:41:25.000Z",
-      "primaryItemId": "news_8b6ed9e07cd8",
-      "evidenceItemIds": [
-        "news_8b6ed9e07cd8",
-        "news_d508328f7b4c"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "中办、国办联合印发《关于推动科技创新和产业创新深度融合的意见》",
+      "latestProgress": "配套发布一图读懂版，方便公众快速理解政策内容"
     },
     {
       "eventId": "event_3bf4a408ab79",
       "clusterVersion": 2,
       "title": "2连板同为股份：目前公司大模型AI产品出货数量及营收未形成规模",
       "firstSeenAt": "2026-10-21T13:58:13.054Z",
-      "lastSeenAt": "2026-10-21T17:24:31.244Z",
+      "lastSeenAt": "2026-10-22T05:06:45.023Z",
       "latestItemPublishedAt": "2026-10-21T12:32:00.000Z",
       "primaryItemId": "news_b3357ba517d7",
       "evidenceItemIds": [
@@ -254,19 +238,18 @@
         "news_fbd7a367f9f6"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "2连板同为股份澄清，公司大模型AI产品出货数量及营收暂未形成规模。",
+      "latestProgress": "同为股份发布公告明确，大模型AI产品出货及营收暂未形成规模。"
     },
     {
       "eventId": "event_f101880ef7bc",
       "clusterVersion": 2,
-      "title": "【华尔街原声】摩根士丹利策略师：美股调整已接近尾声",
+      "title": "美股杠杆加不动了？华尔街“已耗尽资产负债表”，只能劝对冲基金“加空仓”",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-21T13:58:13.054Z",
-      "latestItemPublishedAt": "2026-10-21T03:41:37.000Z",
-      "primaryItemId": "news_d89a5f374444",
+      "lastSeenAt": "2026-10-22T05:06:45.023Z",
+      "latestItemPublishedAt": "2026-10-22T00:20:09.000Z",
+      "primaryItemId": "news_bb0bc36877ea",
       "evidenceItemIds": [
-        "news_3e435a05226b",
         "news_ae7d259eba2e",
         "news_c41fcd28d36a",
         "news_f379d3ac047b",
@@ -315,23 +298,22 @@
         "news_e2e89b5875b5",
         "news_173c3dcef4b2",
         "news_e6d35a91a0bc",
-        "news_d89a5f374444"
+        "news_d89a5f374444",
+        "news_bb0bc36877ea"
       ],
       "status": "developing",
-      "summary": "美股牛市满四年，市场担忧熊市将至，科技股反弹但风险仍存。",
-      "latestProgress": "AI风险担忧未消，日韩科技股早间大跌，未能延续美股反弹。"
+      "summary": "华尔街称自身资产负债表耗尽，美股杠杆难再加，呼吁对冲基金增持空仓",
+      "latestProgress": "最新报道披露华尔街因资产负债表耗尽，建议对冲基金加空仓应对美股杠杆加不动问题"
     },
     {
       "eventId": "event_c68d651d4ff9",
       "clusterVersion": 2,
       "title": "独家|微创系港股集体停牌追踪：房东是谁？小股东为何直指董事长辞任",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-10-21T13:58:13.054Z",
-      "latestItemPublishedAt": "2026-10-21T08:29:16.000Z",
+      "lastSeenAt": "2026-10-22T05:06:45.023Z",
+      "latestItemPublishedAt": "2026-10-22T03:18:17.000Z",
       "primaryItemId": "news_48a40cd112bd",
       "evidenceItemIds": [
-        "news_c624ce7c5b32",
-        "news_cd091725a8b0",
         "news_6437af7ee72b",
         "news_858f4603b7ff",
         "news_53e170307e71",
@@ -379,11 +361,126 @@
         "news_48a40cd112bd",
         "news_99bc54fb0ab5",
         "news_ca4df8cbc236",
-        "news_46dcaaae8ec1"
+        "news_46dcaaae8ec1",
+        "news_310791dc3189",
+        "news_66d5d4338b51"
       ],
       "status": "developing",
-      "summary": "澜起科技三季度盈利同比增超150%，中船防务前三季度新接订单近360亿元。",
-      "latestProgress": "港股公告显示，澜起科技业绩大增，中船防务订单持续增长。"
+      "summary": "微创系港股集体停牌，小股东质疑董事长辞任，追问房东背景。",
+      "latestProgress": "截至最新报道，停牌原因未明，董事长辞任待核实。"
+    },
+    {
+      "eventId": "event_c047ddf7e9ad",
+      "clusterVersion": 2,
+      "title": "【市场动态】日本寿险公司拟增加购债 为日本国债市场提供支撑",
+      "firstSeenAt": "2026-10-22T05:06:45.023Z",
+      "lastSeenAt": "2026-10-22T05:06:45.023Z",
+      "latestItemPublishedAt": "2026-10-22T01:37:51.000Z",
+      "primaryItemId": "news_39c55581477a",
+      "evidenceItemIds": [
+        "news_39c55581477a",
+        "news_a16b485cc015"
+      ],
+      "status": "developing",
+      "summary": "日本寿险公司拟增持国债，为日本国债市场提供支撑",
+      "latestProgress": "日本寿险公司明确增持日债计划，稳定国债市场运行"
+    },
+    {
+      "eventId": "event_159f89c7cf58",
+      "clusterVersion": 2,
+      "title": "报道：DeepSeek完成1000亿元融资 宁德时代和腾讯参投",
+      "firstSeenAt": "2026-10-22T05:06:45.023Z",
+      "lastSeenAt": "2026-10-22T05:06:45.023Z",
+      "latestItemPublishedAt": "2026-10-22T03:04:04.000Z",
+      "primaryItemId": "news_32c64fd772e9",
+      "evidenceItemIds": [
+        "news_32c64fd772e9",
+        "news_c5c8e6cc3ea8"
+      ],
+      "status": "developing",
+      "summary": "DeepSeek完成1000亿元融资，宁德时代、腾讯参与投资。",
+      "latestProgress": "DeepSeek据悉完成1000亿元融资，宁德时代与腾讯参投。"
+    },
+    {
+      "eventId": "event_34c104610b9d",
+      "clusterVersion": 2,
+      "title": "上海前三季度GDP增速5.5%，谁支撑了增长，后劲在哪？",
+      "firstSeenAt": "2026-10-22T05:06:45.023Z",
+      "lastSeenAt": "2026-10-22T05:06:45.023Z",
+      "latestItemPublishedAt": "2026-10-22T02:49:47.000Z",
+      "primaryItemId": "news_6c1c747eddaa",
+      "evidenceItemIds": [
+        "news_6c1c747eddaa",
+        "news_afc27721db8a"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_ec3b0b5e1a47",
+      "clusterVersion": 2,
+      "title": "财联社10月22日电，香港恒生指数跌破23000点关口，跌幅扩大至2.76%。",
+      "firstSeenAt": "2026-10-22T05:06:45.023Z",
+      "lastSeenAt": "2026-10-22T05:06:45.023Z",
+      "latestItemPublishedAt": "2026-10-22T02:55:12.000Z",
+      "primaryItemId": "news_8fd00ab71873",
+      "evidenceItemIds": [
+        "news_8fd00ab71873",
+        "news_50b557f5604f"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_54f6d67ab23e",
+      "clusterVersion": 2,
+      "title": "10年期国债收益率创2002年最高，法国会是欧债危机2.0的引爆点吗？",
+      "firstSeenAt": "2026-10-22T05:06:45.023Z",
+      "lastSeenAt": "2026-10-22T05:06:45.023Z",
+      "latestItemPublishedAt": "2026-10-22T00:55:34.000Z",
+      "primaryItemId": "news_0c664df509e7",
+      "evidenceItemIds": [
+        "news_0c664df509e7",
+        "news_9b187d870685",
+        "news_9c0f90fe0801"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_e91640daa36d",
+      "clusterVersion": 2,
+      "title": "名创优品(09896)10月21日斥资24.44万美元回购9.91万股",
+      "firstSeenAt": "2026-10-22T05:06:45.023Z",
+      "lastSeenAt": "2026-10-22T05:06:45.023Z",
+      "latestItemPublishedAt": "2026-10-21T20:35:07.000Z",
+      "primaryItemId": "news_7535564e3ed0",
+      "evidenceItemIds": [
+        "news_7535564e3ed0",
+        "news_62a4e872a13e"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_870545492f3c",
+      "clusterVersion": 2,
+      "title": "恒生科技指数跌破4000点｜市场观察",
+      "firstSeenAt": "2026-10-21T13:58:13.054Z",
+      "lastSeenAt": "2026-10-21T17:24:31.244Z",
+      "latestItemPublishedAt": "2026-10-21T09:41:25.000Z",
+      "primaryItemId": "news_8b6ed9e07cd8",
+      "evidenceItemIds": [
+        "news_8b6ed9e07cd8",
+        "news_d508328f7b4c"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
     },
     {
       "eventId": "event_6ab2a13609c6",

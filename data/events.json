@@ -1,22 +1,18 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-23T05:09:15.400Z",
+  "generatedAt": "2026-10-23T09:21:03.931Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
       "eventId": "event_a3c5d0364922",
       "clusterVersion": 2,
-      "title": "A股四大指数集体低开，贵金属、半导体等板块跌幅居前",
+      "title": "A股风格切换将至？听徐小庆分享股债汇市场最新洞察，推演四季度配置逻辑",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-23T05:09:15.400Z",
-      "latestItemPublishedAt": "2026-10-23T03:29:44.000Z",
-      "primaryItemId": "news_6b79c74a90ad",
+      "lastSeenAt": "2026-10-23T09:21:03.931Z",
+      "latestItemPublishedAt": "2026-10-23T09:07:07.000Z",
+      "primaryItemId": "news_52b141ccd419",
       "evidenceItemIds": [
-        "news_fd33c0671dab",
-        "news_099c1b1ccef3",
-        "news_02449ab3f99e",
-        "news_d959fbf0ba60",
         "news_8f0afaa9b83c",
         "news_35ed4f57a02d",
         "news_deeac9645e08",
@@ -62,7 +58,11 @@
         "news_c66fce64a520",
         "news_6b79c74a90ad",
         "news_67e86492e9f2",
-        "news_f583bfd73465"
+        "news_f583bfd73465",
+        "news_cedcb918c588",
+        "news_a225f3fc559e",
+        "news_b0e779f13245",
+        "news_079df14a4279"
       ],
       "status": "developing",
       "summary": "2026年10月23日A股四大指数集体低开，贵金属、半导体等板块跌幅居前。",
@@ -71,11 +71,11 @@
     {
       "eventId": "event_2cf716748ce1",
       "clusterVersion": 2,
-      "title": "卢比反弹遭遇“避险+油价”双杀，印度央行的防线还能撑多久？",
+      "title": "德国央行：德国经济第三季度可能陷入停滞",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-23T05:09:15.400Z",
+      "lastSeenAt": "2026-10-23T09:21:03.931Z",
       "latestItemPublishedAt": "2026-10-23T04:09:13.000Z",
-      "primaryItemId": "news_572bcafde658",
+      "primaryItemId": "news_b948fe11318a",
       "evidenceItemIds": [
         "news_3672688b9e75",
         "news_3cfce6290810",
@@ -135,11 +135,11 @@
     {
       "eventId": "event_81903830edd9",
       "clusterVersion": 2,
-      "title": "中国证监会有关部门负责人就《违规转让证券案件行政处罚实施规则》答记者问",
+      "title": "中国证监会发布《违规转让证券案件行政处罚实施规则》",
       "firstSeenAt": "2026-10-19T15:45:09.770Z",
-      "lastSeenAt": "2026-10-23T05:09:15.400Z",
-      "latestItemPublishedAt": "2026-10-18T17:55:38.000Z",
-      "primaryItemId": "news_29d1bc110417",
+      "lastSeenAt": "2026-10-23T09:21:03.931Z",
+      "latestItemPublishedAt": "2026-10-18T19:52:26.000Z",
+      "primaryItemId": "news_16340f2ed3ad",
       "evidenceItemIds": [
         "news_c61e8342121c",
         "news_b086a9025dff",
@@ -158,13 +158,10 @@
       "clusterVersion": 2,
       "title": "港股再迎调整：恒科指跌超5%，短线何时企稳？",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-10-23T05:09:15.400Z",
-      "latestItemPublishedAt": "2026-10-23T03:48:20.000Z",
+      "lastSeenAt": "2026-10-23T09:21:03.931Z",
+      "latestItemPublishedAt": "2026-10-23T08:42:42.000Z",
       "primaryItemId": "news_bb835e55c794",
       "evidenceItemIds": [
-        "news_761539e682e3",
-        "news_32c3f9d19c78",
-        "news_c5710db2dfdf",
         "news_234bf26c601c",
         "news_f90f40c2c188",
         "news_cd8728e9509f",
@@ -211,7 +208,10 @@
         "news_bb835e55c794",
         "news_abbf40f1a861",
         "news_25d3b6d3e18c",
-        "news_59024200648c"
+        "news_59024200648c",
+        "news_9a2a0cba3567",
+        "news_397c390f14a2",
+        "news_b8967f4ffb97"
       ],
       "status": "developing",
       "summary": "微创系港股集体停牌，小股东质疑董事长辞任，追问房东背景。",
@@ -222,8 +222,8 @@
       "clusterVersion": 2,
       "title": "美联储先加息后或猛降息：AI 是利率关键阀门，开支拐点将触发政策转向！",
       "firstSeenAt": "2026-10-08T06:40:59.994Z",
-      "lastSeenAt": "2026-10-23T05:09:15.400Z",
-      "latestItemPublishedAt": "2026-10-22T12:39:05.000Z",
+      "lastSeenAt": "2026-10-23T09:21:03.931Z",
+      "latestItemPublishedAt": "2026-10-23T06:28:07.000Z",
       "primaryItemId": "news_96841701f1e1",
       "evidenceItemIds": [
         "news_1d0c31b07d1b",
@@ -261,7 +261,8 @@
         "news_008e37cd3794",
         "news_bd67e678a075",
         "news_a9538e61c2d2",
-        "news_96841701f1e1"
+        "news_96841701f1e1",
+        "news_18ecb48e5344"
       ],
       "status": "developing",
       "summary": "美联储政策走向受AI与开支拐点影响，先加息后续或猛降息",
@@ -272,7 +273,7 @@
       "clusterVersion": 2,
       "title": "高利率压垮美国楼市：销售暴跌、开工下滑，华尔街却浑然不觉",
       "firstSeenAt": "2026-10-20T13:42:04.100Z",
-      "lastSeenAt": "2026-10-23T05:09:15.400Z",
+      "lastSeenAt": "2026-10-23T09:21:03.931Z",
       "latestItemPublishedAt": "2026-10-22T16:01:39.000Z",
       "primaryItemId": "news_2e80b5aec95c",
       "evidenceItemIds": [
@@ -288,48 +289,14 @@
       "latestProgress": ""
     },
     {
-      "eventId": "event_37b098b79df6",
-      "clusterVersion": 2,
-      "title": "Q3净利同比增超30倍！300亿PCB概念股发布三季报|盘后公告集锦",
-      "firstSeenAt": "2026-10-22T13:58:25.993Z",
-      "lastSeenAt": "2026-10-23T05:09:15.400Z",
-      "latestItemPublishedAt": "2026-10-22T12:34:29.000Z",
-      "primaryItemId": "news_7b291579ee0b",
-      "evidenceItemIds": [
-        "news_7b291579ee0b",
-        "news_cb5c11fcdb1b"
-      ],
-      "status": "developing",
-      "summary": "PCB概念股发布三季报，Q3净利同比增超30倍，市值约300亿。",
-      "latestProgress": "公司三季报显示Q3净利同比增超30倍，业绩表现突出。"
-    },
-    {
-      "eventId": "event_aa117a9da903",
-      "clusterVersion": 2,
-      "title": "汇添富基金宣布2亿元自购旗下主动ETF",
-      "firstSeenAt": "2026-10-22T13:58:25.993Z",
-      "lastSeenAt": "2026-10-23T05:09:15.400Z",
-      "latestItemPublishedAt": "2026-10-22T12:37:57.000Z",
-      "primaryItemId": "news_e6ed1785282f",
-      "evidenceItemIds": [
-        "news_e6ed1785282f",
-        "news_27441411d9f5"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
       "eventId": "event_f101880ef7bc",
       "clusterVersion": 2,
-      "title": "美股杠杆加不动了？华尔街“已耗尽资产负债表”，只能劝对冲基金“加空仓”",
+      "title": "一度失守4000美元，黄金为何跟着美股一起跌？汇丰：别把它当成“万能灵药”",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-23T05:09:15.400Z",
-      "latestItemPublishedAt": "2026-10-22T16:41:54.000Z",
-      "primaryItemId": "news_bb0bc36877ea",
+      "lastSeenAt": "2026-10-23T09:21:03.931Z",
+      "latestItemPublishedAt": "2026-10-23T08:34:22.000Z",
+      "primaryItemId": "news_4883cd100ee3",
       "evidenceItemIds": [
-        "news_1caf39f4b085",
-        "news_31e49ae39353",
         "news_fe2b455a3e88",
         "news_abcd0f3c1c67",
         "news_d12ffe1e0b92",
@@ -377,7 +344,9 @@
         "news_0e2c434a75bb",
         "news_8c826379799a",
         "news_38f2b4607a06",
-        "news_5c4ba8c325c1"
+        "news_5c4ba8c325c1",
+        "news_4883cd100ee3",
+        "news_81095aea02b7"
       ],
       "status": "developing",
       "summary": "华尔街称自身资产负债表耗尽，美股杠杆难再加，呼吁对冲基金增持空仓",
@@ -388,7 +357,7 @@
       "clusterVersion": 2,
       "title": "名创优品(09896)10月22日斥资24.91万美元回购9.86万股",
       "firstSeenAt": "2026-10-22T05:06:45.023Z",
-      "lastSeenAt": "2026-10-23T05:09:15.400Z",
+      "lastSeenAt": "2026-10-23T09:21:03.931Z",
       "latestItemPublishedAt": "2026-10-22T20:35:06.000Z",
       "primaryItemId": "news_772212b246bd",
       "evidenceItemIds": [
@@ -405,7 +374,7 @@
       "clusterVersion": 2,
       "title": "日本9月CPI通胀升至9个月高点，超越日本央行目标",
       "firstSeenAt": "2026-10-16T16:49:31.035Z",
-      "lastSeenAt": "2026-10-23T05:09:15.400Z",
+      "lastSeenAt": "2026-10-23T09:21:03.931Z",
       "latestItemPublishedAt": "2026-10-22T15:49:30.000Z",
       "primaryItemId": "news_f9ba962a6611",
       "evidenceItemIds": [
@@ -427,7 +396,7 @@
       "clusterVersion": 2,
       "title": "10月23日午间涨停分析",
       "firstSeenAt": "2026-10-20T05:20:30.853Z",
-      "lastSeenAt": "2026-10-23T05:09:15.400Z",
+      "lastSeenAt": "2026-10-23T09:21:03.931Z",
       "latestItemPublishedAt": "2026-10-23T03:40:59.000Z",
       "primaryItemId": "news_4999dbca23c8",
       "evidenceItemIds": [
@@ -445,12 +414,173 @@
       "clusterVersion": 2,
       "title": "能源内参｜特斯拉第三季度净利润大跌43% 与SpaceX合并事宜受关注；今年前9个月全社会用电量增3.9%",
       "firstSeenAt": "2026-10-23T05:09:15.400Z",
-      "lastSeenAt": "2026-10-23T05:09:15.400Z",
+      "lastSeenAt": "2026-10-23T09:21:03.931Z",
       "latestItemPublishedAt": "2026-10-23T02:29:35.000Z",
       "primaryItemId": "news_882e2f05fc1e",
       "evidenceItemIds": [
         "news_882e2f05fc1e",
         "news_b4ae38b86a16"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_9d1c6bf7d589",
+      "clusterVersion": 2,
+      "title": "财联社10月23日电，截至目前，南向资金净卖出额达70亿港元。",
+      "firstSeenAt": "2026-10-23T05:09:15.400Z",
+      "lastSeenAt": "2026-10-23T09:21:03.931Z",
+      "latestItemPublishedAt": "2026-10-23T03:41:08.000Z",
+      "primaryItemId": "news_175cb7cfbaeb",
+      "evidenceItemIds": [
+        "news_175cb7cfbaeb",
+        "news_b3b364669926"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_b215483666a5",
+      "clusterVersion": 2,
+      "title": "谭谈：“中国AI禁令”是怎么回事",
+      "firstSeenAt": "2026-10-23T05:09:15.400Z",
+      "lastSeenAt": "2026-10-23T09:21:03.931Z",
+      "latestItemPublishedAt": "2026-10-22T23:56:54.000Z",
+      "primaryItemId": "news_92df63e557d7",
+      "evidenceItemIds": [
+        "news_92df63e557d7",
+        "news_2d30ba6e49c1"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_240fe0f4bc7d",
+      "clusterVersion": 2,
+      "title": "中通快递-W(02057)10月22日斥资215.96万美元回购10.81万股",
+      "firstSeenAt": "2026-10-23T05:09:15.400Z",
+      "lastSeenAt": "2026-10-23T09:21:03.931Z",
+      "latestItemPublishedAt": "2026-10-22T20:35:06.000Z",
+      "primaryItemId": "news_12abd5e3cb05",
+      "evidenceItemIds": [
+        "news_12abd5e3cb05",
+        "news_a86fabf1fd5a"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_10f092448968",
+      "clusterVersion": 2,
+      "title": "东岳硅材：前三季度归母净利润5.57亿元，同比增长19413.54%",
+      "firstSeenAt": "2026-10-23T09:21:03.931Z",
+      "lastSeenAt": "2026-10-23T09:21:03.931Z",
+      "latestItemPublishedAt": "2026-10-23T08:46:28.000Z",
+      "primaryItemId": "news_396e65587992",
+      "evidenceItemIds": [
+        "news_396e65587992",
+        "news_685771e969ac"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_35fd66f548c7",
+      "clusterVersion": 2,
+      "title": "商务部新闻发言人就美国防部公布所谓科研安全审查结果事答记者问",
+      "firstSeenAt": "2026-10-23T09:21:03.931Z",
+      "lastSeenAt": "2026-10-23T09:21:03.931Z",
+      "latestItemPublishedAt": "2026-10-23T06:51:27.000Z",
+      "primaryItemId": "news_30f50ca60810",
+      "evidenceItemIds": [
+        "news_30f50ca60810",
+        "news_8196b37c2591"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_fbae3d584b7f",
+      "clusterVersion": 2,
+      "title": "腾景科技：前三季度净利润同比增长50.63%",
+      "firstSeenAt": "2026-10-23T09:21:03.931Z",
+      "lastSeenAt": "2026-10-23T09:21:03.931Z",
+      "latestItemPublishedAt": "2026-10-23T08:41:31.000Z",
+      "primaryItemId": "news_96752ffb0b59",
+      "evidenceItemIds": [
+        "news_96752ffb0b59",
+        "news_5c9667b9a9c1",
+        "news_a630596c8adf"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_013d6f67fb72",
+      "clusterVersion": 2,
+      "title": "国办： 拓展新兴领域人工智能就业新空间",
+      "firstSeenAt": "2026-10-23T09:21:03.931Z",
+      "lastSeenAt": "2026-10-23T09:21:03.931Z",
+      "latestItemPublishedAt": "2026-10-23T09:11:29.000Z",
+      "primaryItemId": "news_1fa1a54087a5",
+      "evidenceItemIds": [
+        "news_1fa1a54087a5",
+        "news_4a06855945cd"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_5ccd38b79188",
+      "clusterVersion": 2,
+      "title": "国务院：鼓励东部地区布局人工智能核心产业",
+      "firstSeenAt": "2026-10-23T09:21:03.931Z",
+      "lastSeenAt": "2026-10-23T09:21:03.931Z",
+      "latestItemPublishedAt": "2026-10-23T09:12:07.000Z",
+      "primaryItemId": "news_732597dffbb8",
+      "evidenceItemIds": [
+        "news_732597dffbb8",
+        "news_9fcb295ef0a1"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_37b098b79df6",
+      "clusterVersion": 2,
+      "title": "Q3净利同比增超30倍！300亿PCB概念股发布三季报|盘后公告集锦",
+      "firstSeenAt": "2026-10-22T13:58:25.993Z",
+      "lastSeenAt": "2026-10-23T05:09:15.400Z",
+      "latestItemPublishedAt": "2026-10-22T12:34:29.000Z",
+      "primaryItemId": "news_7b291579ee0b",
+      "evidenceItemIds": [
+        "news_7b291579ee0b",
+        "news_cb5c11fcdb1b"
+      ],
+      "status": "developing",
+      "summary": "PCB概念股发布三季报，Q3净利同比增超30倍，市值约300亿。",
+      "latestProgress": "公司三季报显示Q3净利同比增超30倍，业绩表现突出。"
+    },
+    {
+      "eventId": "event_aa117a9da903",
+      "clusterVersion": 2,
+      "title": "汇添富基金宣布2亿元自购旗下主动ETF",
+      "firstSeenAt": "2026-10-22T13:58:25.993Z",
+      "lastSeenAt": "2026-10-23T05:09:15.400Z",
+      "latestItemPublishedAt": "2026-10-22T12:37:57.000Z",
+      "primaryItemId": "news_e6ed1785282f",
+      "evidenceItemIds": [
+        "news_e6ed1785282f",
+        "news_27441411d9f5"
       ],
       "status": "developing",
       "summary": "",
@@ -473,22 +603,6 @@
       "latestProgress": ""
     },
     {
-      "eventId": "event_9d1c6bf7d589",
-      "clusterVersion": 2,
-      "title": "财联社10月23日电，截至目前，南向资金净卖出额达70亿港元。",
-      "firstSeenAt": "2026-10-23T05:09:15.400Z",
-      "lastSeenAt": "2026-10-23T05:09:15.400Z",
-      "latestItemPublishedAt": "2026-10-23T03:41:08.000Z",
-      "primaryItemId": "news_175cb7cfbaeb",
-      "evidenceItemIds": [
-        "news_175cb7cfbaeb",
-        "news_b3b364669926"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
       "eventId": "event_4bc94f569c08",
       "clusterVersion": 2,
       "title": "午评：创业板指半日跌超2% 全市场超4800只个股下挫",
@@ -505,22 +619,6 @@
       "latestProgress": ""
     },
     {
-      "eventId": "event_b215483666a5",
-      "clusterVersion": 2,
-      "title": "谭谈：“中国AI禁令”是怎么回事",
-      "firstSeenAt": "2026-10-23T05:09:15.400Z",
-      "lastSeenAt": "2026-10-23T05:09:15.400Z",
-      "latestItemPublishedAt": "2026-10-22T23:56:54.000Z",
-      "primaryItemId": "news_92df63e557d7",
-      "evidenceItemIds": [
-        "news_92df63e557d7",
-        "news_2d30ba6e49c1"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
       "eventId": "event_2b5465da8361",
       "clusterVersion": 2,
       "title": "AI科技恐慌加剧债券抛售 全球信用利差升至17个月高位",
@@ -531,22 +629,6 @@
       "evidenceItemIds": [
         "news_33ee5276085b",
         "news_867a3e86e1f2"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_240fe0f4bc7d",
-      "clusterVersion": 2,
-      "title": "中通快递-W(02057)10月22日斥资215.96万美元回购10.81万股",
-      "firstSeenAt": "2026-10-23T05:09:15.400Z",
-      "lastSeenAt": "2026-10-23T05:09:15.400Z",
-      "latestItemPublishedAt": "2026-10-22T20:35:06.000Z",
-      "primaryItemId": "news_12abd5e3cb05",
-      "evidenceItemIds": [
-        "news_12abd5e3cb05",
-        "news_a86fabf1fd5a"
       ],
       "status": "developing",
       "summary": "",

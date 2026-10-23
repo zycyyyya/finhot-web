@@ -1,21 +1,18 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-22T17:20:32.782Z",
+  "generatedAt": "2026-10-23T05:09:15.400Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
       "eventId": "event_a3c5d0364922",
       "clusterVersion": 2,
-      "title": "A股四大指数开盘表现分化，软件开发、网络安全等板块涨幅居前",
+      "title": "A股四大指数集体低开，贵金属、半导体等板块跌幅居前",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-22T17:20:32.782Z",
-      "latestItemPublishedAt": "2026-10-22T08:50:19.000Z",
-      "primaryItemId": "news_a4a7d3555597",
+      "lastSeenAt": "2026-10-23T05:09:15.400Z",
+      "latestItemPublishedAt": "2026-10-23T03:29:44.000Z",
+      "primaryItemId": "news_6b79c74a90ad",
       "evidenceItemIds": [
-        "news_56fdb6bfbec5",
-        "news_e10469249c57",
-        "news_d8d5be05990f",
         "news_fd33c0671dab",
         "news_099c1b1ccef3",
         "news_02449ab3f99e",
@@ -62,23 +59,24 @@
         "news_5a670580e980",
         "news_a4a7d3555597",
         "news_4dcc0f428d3a",
-        "news_c66fce64a520"
+        "news_c66fce64a520",
+        "news_6b79c74a90ad",
+        "news_67e86492e9f2",
+        "news_f583bfd73465"
       ],
       "status": "developing",
-      "summary": "A股四大指数开盘表现分化，软件开发、网络安全等板块涨幅居前。",
-      "latestProgress": "A股千元股出现下跌。"
+      "summary": "2026年10月23日A股四大指数集体低开，贵金属、半导体等板块跌幅居前。",
+      "latestProgress": "市场复盘三季度资金流变化，分析本轮A股深度调整的影响因素。"
     },
     {
       "eventId": "event_2cf716748ce1",
       "clusterVersion": 2,
-      "title": "央行详解境外主体获取人民币的四个渠道：收、募、借、兑",
+      "title": "卢比反弹遭遇“避险+油价”双杀，印度央行的防线还能撑多久？",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-22T17:20:32.782Z",
-      "latestItemPublishedAt": "2026-10-22T13:39:29.000Z",
-      "primaryItemId": "news_fee36df0e62e",
+      "lastSeenAt": "2026-10-23T05:09:15.400Z",
+      "latestItemPublishedAt": "2026-10-23T04:09:13.000Z",
+      "primaryItemId": "news_572bcafde658",
       "evidenceItemIds": [
-        "news_4cfdccbcd6f4",
-        "news_a679ed14e61b",
         "news_3672688b9e75",
         "news_3cfce6290810",
         "news_4295be216da3",
@@ -126,7 +124,9 @@
         "news_cb80cd6329a0",
         "news_6f5b6af557fc",
         "news_fee36df0e62e",
-        "news_85feceae1a02"
+        "news_85feceae1a02",
+        "news_572bcafde658",
+        "news_9f290162ae85"
       ],
       "status": "developing",
       "summary": "连续两次加息后韩国央行本月暂不加息，行长称暂停不等于紧缩终结。",
@@ -137,8 +137,8 @@
       "clusterVersion": 2,
       "title": "中国证监会有关部门负责人就《违规转让证券案件行政处罚实施规则》答记者问",
       "firstSeenAt": "2026-10-19T15:45:09.770Z",
-      "lastSeenAt": "2026-10-22T17:20:32.782Z",
-      "latestItemPublishedAt": "2026-10-18T19:52:26.000Z",
+      "lastSeenAt": "2026-10-23T05:09:15.400Z",
+      "latestItemPublishedAt": "2026-10-18T17:55:38.000Z",
       "primaryItemId": "news_29d1bc110417",
       "evidenceItemIds": [
         "news_c61e8342121c",
@@ -158,12 +158,10 @@
       "clusterVersion": 2,
       "title": "港股再迎调整：恒科指跌超5%，短线何时企稳？",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-10-22T17:20:32.782Z",
-      "latestItemPublishedAt": "2026-10-22T16:00:24.000Z",
+      "lastSeenAt": "2026-10-23T05:09:15.400Z",
+      "latestItemPublishedAt": "2026-10-23T03:48:20.000Z",
       "primaryItemId": "news_bb835e55c794",
       "evidenceItemIds": [
-        "news_16efa3ec46ab",
-        "news_01242cd7a951",
         "news_761539e682e3",
         "news_32c3f9d19c78",
         "news_c5710db2dfdf",
@@ -211,34 +209,20 @@
         "news_ebe5871ab2a3",
         "news_1d4eab6ca35f",
         "news_bb835e55c794",
-        "news_abbf40f1a861"
+        "news_abbf40f1a861",
+        "news_25d3b6d3e18c",
+        "news_59024200648c"
       ],
       "status": "developing",
       "summary": "微创系港股集体停牌，小股东质疑董事长辞任，追问房东背景。",
       "latestProgress": "截至最新报道，停牌原因未明，董事长辞任待核实。"
     },
     {
-      "eventId": "event_aeae611a7af9",
-      "clusterVersion": 2,
-      "title": "面对面｜中金缪延亮：反思欧债危机，任何政策都需博弈",
-      "firstSeenAt": "2026-10-22T09:25:46.974Z",
-      "lastSeenAt": "2026-10-22T17:20:32.782Z",
-      "latestItemPublishedAt": "2026-10-22T08:53:08.000Z",
-      "primaryItemId": "news_729d033ef11f",
-      "evidenceItemIds": [
-        "news_729d033ef11f",
-        "news_b0a72ea73f8c"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
       "eventId": "event_6ab2a13609c6",
       "clusterVersion": 2,
       "title": "美联储先加息后或猛降息：AI 是利率关键阀门，开支拐点将触发政策转向！",
       "firstSeenAt": "2026-10-08T06:40:59.994Z",
-      "lastSeenAt": "2026-10-22T17:20:32.782Z",
+      "lastSeenAt": "2026-10-23T05:09:15.400Z",
       "latestItemPublishedAt": "2026-10-22T12:39:05.000Z",
       "primaryItemId": "news_96841701f1e1",
       "evidenceItemIds": [
@@ -280,15 +264,15 @@
         "news_96841701f1e1"
       ],
       "status": "developing",
-      "summary": "沃什曼谷发言偏鸽，市场押注美联储10月按兵不动，加息概率跌破15%。",
-      "latestProgress": "最新报道称，下周加息概率仅16%，华尔街提醒不应迷信市场定价，结果仍难料。"
+      "summary": "美联储政策走向受AI与开支拐点影响，先加息后续或猛降息",
+      "latestProgress": "当前市场正密切关注AI相关开支拐点，研判美联储政策转向时点"
     },
     {
       "eventId": "event_a9c8c835e65f",
       "clusterVersion": 2,
       "title": "高利率压垮美国楼市：销售暴跌、开工下滑，华尔街却浑然不觉",
       "firstSeenAt": "2026-10-20T13:42:04.100Z",
-      "lastSeenAt": "2026-10-22T17:20:32.782Z",
+      "lastSeenAt": "2026-10-23T05:09:15.400Z",
       "latestItemPublishedAt": "2026-10-22T16:01:39.000Z",
       "primaryItemId": "news_2e80b5aec95c",
       "evidenceItemIds": [
@@ -308,7 +292,7 @@
       "clusterVersion": 2,
       "title": "Q3净利同比增超30倍！300亿PCB概念股发布三季报|盘后公告集锦",
       "firstSeenAt": "2026-10-22T13:58:25.993Z",
-      "lastSeenAt": "2026-10-22T17:20:32.782Z",
+      "lastSeenAt": "2026-10-23T05:09:15.400Z",
       "latestItemPublishedAt": "2026-10-22T12:34:29.000Z",
       "primaryItemId": "news_7b291579ee0b",
       "evidenceItemIds": [
@@ -316,15 +300,15 @@
         "news_cb5c11fcdb1b"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "PCB概念股发布三季报，Q3净利同比增超30倍，市值约300亿。",
+      "latestProgress": "公司三季报显示Q3净利同比增超30倍，业绩表现突出。"
     },
     {
       "eventId": "event_aa117a9da903",
       "clusterVersion": 2,
       "title": "汇添富基金宣布2亿元自购旗下主动ETF",
       "firstSeenAt": "2026-10-22T13:58:25.993Z",
-      "lastSeenAt": "2026-10-22T17:20:32.782Z",
+      "lastSeenAt": "2026-10-23T05:09:15.400Z",
       "latestItemPublishedAt": "2026-10-22T12:37:57.000Z",
       "primaryItemId": "news_e6ed1785282f",
       "evidenceItemIds": [
@@ -336,27 +320,11 @@
       "latestProgress": ""
     },
     {
-      "eventId": "event_8b10319c93ab",
-      "clusterVersion": 2,
-      "title": "京蓝科技(000711.SZ)发布前三季度业绩，归母净利润1.02亿元，同比扭亏为盈",
-      "firstSeenAt": "2026-10-22T13:58:25.993Z",
-      "lastSeenAt": "2026-10-22T17:20:32.782Z",
-      "latestItemPublishedAt": "2026-10-22T05:05:11.000Z",
-      "primaryItemId": "news_24163eabdabf",
-      "evidenceItemIds": [
-        "news_24163eabdabf",
-        "news_182b22c1e8c8"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
       "eventId": "event_f101880ef7bc",
       "clusterVersion": 2,
       "title": "美股杠杆加不动了？华尔街“已耗尽资产负债表”，只能劝对冲基金“加空仓”",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-22T17:20:32.782Z",
+      "lastSeenAt": "2026-10-23T05:09:15.400Z",
       "latestItemPublishedAt": "2026-10-22T16:41:54.000Z",
       "primaryItemId": "news_bb0bc36877ea",
       "evidenceItemIds": [
@@ -414,6 +382,272 @@
       "status": "developing",
       "summary": "华尔街称自身资产负债表耗尽，美股杠杆难再加，呼吁对冲基金增持空仓",
       "latestProgress": "最新报道披露华尔街因资产负债表耗尽，建议对冲基金加空仓应对美股杠杆加不动问题"
+    },
+    {
+      "eventId": "event_e91640daa36d",
+      "clusterVersion": 2,
+      "title": "名创优品(09896)10月22日斥资24.91万美元回购9.86万股",
+      "firstSeenAt": "2026-10-22T05:06:45.023Z",
+      "lastSeenAt": "2026-10-23T05:09:15.400Z",
+      "latestItemPublishedAt": "2026-10-22T20:35:06.000Z",
+      "primaryItemId": "news_772212b246bd",
+      "evidenceItemIds": [
+        "news_7535564e3ed0",
+        "news_62a4e872a13e",
+        "news_772212b246bd"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_294387429284",
+      "clusterVersion": 2,
+      "title": "日本9月CPI通胀升至9个月高点，超越日本央行目标",
+      "firstSeenAt": "2026-10-16T16:49:31.035Z",
+      "lastSeenAt": "2026-10-23T05:09:15.400Z",
+      "latestItemPublishedAt": "2026-10-22T15:49:30.000Z",
+      "primaryItemId": "news_f9ba962a6611",
+      "evidenceItemIds": [
+        "news_a9f7e6a7069d",
+        "news_43131ce49d34",
+        "news_67379ab3d587",
+        "news_12c6c3b1ca4e",
+        "news_a49bd63570e0",
+        "news_d4533d90f614",
+        "news_e892bdc3705a",
+        "news_f9ba962a6611"
+      ],
+      "status": "developing",
+      "summary": "日本9月CPI通胀升至9个月高点，超出日本央行通胀目标。",
+      "latestProgress": "最新披露数据显示日本9月CPI通胀达9个月高点，超日本央行目标。"
+    },
+    {
+      "eventId": "event_3dce8a965214",
+      "clusterVersion": 2,
+      "title": "10月23日午间涨停分析",
+      "firstSeenAt": "2026-10-20T05:20:30.853Z",
+      "lastSeenAt": "2026-10-23T05:09:15.400Z",
+      "latestItemPublishedAt": "2026-10-23T03:40:59.000Z",
+      "primaryItemId": "news_4999dbca23c8",
+      "evidenceItemIds": [
+        "news_44df0764d23e",
+        "news_8b7de7db7c9c",
+        "news_41681876ba4a",
+        "news_4999dbca23c8"
+      ],
+      "status": "developing",
+      "summary": "10月23日午间A股多板块个股涨停，市场热点轮动特征明显",
+      "latestProgress": "10月23日午间涨停分析报告已发布，相关板块涨停个股情况同步披露"
+    },
+    {
+      "eventId": "event_5de608c9ee89",
+      "clusterVersion": 2,
+      "title": "能源内参｜特斯拉第三季度净利润大跌43% 与SpaceX合并事宜受关注；今年前9个月全社会用电量增3.9%",
+      "firstSeenAt": "2026-10-23T05:09:15.400Z",
+      "lastSeenAt": "2026-10-23T05:09:15.400Z",
+      "latestItemPublishedAt": "2026-10-23T02:29:35.000Z",
+      "primaryItemId": "news_882e2f05fc1e",
+      "evidenceItemIds": [
+        "news_882e2f05fc1e",
+        "news_b4ae38b86a16"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_ee7f474b0c0a",
+      "clusterVersion": 2,
+      "title": "【市场动态】AI支出计划引发担忧 Meta信用风险指标升至新高",
+      "firstSeenAt": "2026-10-23T05:09:15.400Z",
+      "lastSeenAt": "2026-10-23T05:09:15.400Z",
+      "latestItemPublishedAt": "2026-10-23T01:43:51.000Z",
+      "primaryItemId": "news_b4f099acb83b",
+      "evidenceItemIds": [
+        "news_b4f099acb83b",
+        "news_5b1ed5443a54"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_9d1c6bf7d589",
+      "clusterVersion": 2,
+      "title": "财联社10月23日电，截至目前，南向资金净卖出额达70亿港元。",
+      "firstSeenAt": "2026-10-23T05:09:15.400Z",
+      "lastSeenAt": "2026-10-23T05:09:15.400Z",
+      "latestItemPublishedAt": "2026-10-23T03:41:08.000Z",
+      "primaryItemId": "news_175cb7cfbaeb",
+      "evidenceItemIds": [
+        "news_175cb7cfbaeb",
+        "news_b3b364669926"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_4bc94f569c08",
+      "clusterVersion": 2,
+      "title": "午评：创业板指半日跌超2% 全市场超4800只个股下挫",
+      "firstSeenAt": "2026-10-23T05:09:15.400Z",
+      "lastSeenAt": "2026-10-23T05:09:15.400Z",
+      "latestItemPublishedAt": "2026-10-23T04:14:43.000Z",
+      "primaryItemId": "news_4c3939cb43a8",
+      "evidenceItemIds": [
+        "news_4c3939cb43a8",
+        "news_cc3b729d2b08"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_b215483666a5",
+      "clusterVersion": 2,
+      "title": "谭谈：“中国AI禁令”是怎么回事",
+      "firstSeenAt": "2026-10-23T05:09:15.400Z",
+      "lastSeenAt": "2026-10-23T05:09:15.400Z",
+      "latestItemPublishedAt": "2026-10-22T23:56:54.000Z",
+      "primaryItemId": "news_92df63e557d7",
+      "evidenceItemIds": [
+        "news_92df63e557d7",
+        "news_2d30ba6e49c1"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_2b5465da8361",
+      "clusterVersion": 2,
+      "title": "AI科技恐慌加剧债券抛售 全球信用利差升至17个月高位",
+      "firstSeenAt": "2026-10-23T05:09:15.400Z",
+      "lastSeenAt": "2026-10-23T05:09:15.400Z",
+      "latestItemPublishedAt": "2026-10-23T03:12:23.000Z",
+      "primaryItemId": "news_33ee5276085b",
+      "evidenceItemIds": [
+        "news_33ee5276085b",
+        "news_867a3e86e1f2"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_240fe0f4bc7d",
+      "clusterVersion": 2,
+      "title": "中通快递-W(02057)10月22日斥资215.96万美元回购10.81万股",
+      "firstSeenAt": "2026-10-23T05:09:15.400Z",
+      "lastSeenAt": "2026-10-23T05:09:15.400Z",
+      "latestItemPublishedAt": "2026-10-22T20:35:06.000Z",
+      "primaryItemId": "news_12abd5e3cb05",
+      "evidenceItemIds": [
+        "news_12abd5e3cb05",
+        "news_a86fabf1fd5a"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_1775a182cb9b",
+      "clusterVersion": 2,
+      "title": "财联社10月22日电，美国20年期、30年期国债收益率日内下跌7个基点，均创9月23日以来新低。",
+      "firstSeenAt": "2026-10-23T05:09:15.400Z",
+      "lastSeenAt": "2026-10-23T05:09:15.400Z",
+      "latestItemPublishedAt": "2026-10-22T16:44:03.000Z",
+      "primaryItemId": "news_a73ed253cb53",
+      "evidenceItemIds": [
+        "news_a73ed253cb53",
+        "news_51337c92c1e5"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_baa17c5dcc83",
+      "clusterVersion": 2,
+      "title": "财联社10月23日电，现货白银回落至55美元/盎司下方，日内跌超5%。",
+      "firstSeenAt": "2026-10-23T05:09:15.400Z",
+      "lastSeenAt": "2026-10-23T05:09:15.400Z",
+      "latestItemPublishedAt": "2026-10-22T16:21:40.000Z",
+      "primaryItemId": "news_e12901e811c9",
+      "evidenceItemIds": [
+        "news_e12901e811c9",
+        "news_0bd126cad1b5"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_9fefe8702ec5",
+      "clusterVersion": 2,
+      "title": "马斯克斥资$10亿投资Skydance，股价冲高后回落",
+      "firstSeenAt": "2026-10-23T05:09:15.400Z",
+      "lastSeenAt": "2026-10-23T05:09:15.400Z",
+      "latestItemPublishedAt": "2026-10-22T16:06:56.000Z",
+      "primaryItemId": "news_9a0ecb5ee9f2",
+      "evidenceItemIds": [
+        "news_9a0ecb5ee9f2",
+        "news_c32d11605907"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_1da225e7b59c",
+      "clusterVersion": 2,
+      "title": "AI基建投入持续扩张！Meta承诺：未来支出升至8250亿美元",
+      "firstSeenAt": "2026-10-23T05:09:15.400Z",
+      "lastSeenAt": "2026-10-23T05:09:15.400Z",
+      "latestItemPublishedAt": "2026-10-22T22:50:03.000Z",
+      "primaryItemId": "news_c69ec6d3c12b",
+      "evidenceItemIds": [
+        "news_c69ec6d3c12b",
+        "news_72ff87fc9ef1",
+        "news_8154536f304a"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_aeae611a7af9",
+      "clusterVersion": 2,
+      "title": "面对面｜中金缪延亮：反思欧债危机，任何政策都需博弈",
+      "firstSeenAt": "2026-10-22T09:25:46.974Z",
+      "lastSeenAt": "2026-10-22T17:20:32.782Z",
+      "latestItemPublishedAt": "2026-10-22T08:53:08.000Z",
+      "primaryItemId": "news_729d033ef11f",
+      "evidenceItemIds": [
+        "news_729d033ef11f",
+        "news_b0a72ea73f8c"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_8b10319c93ab",
+      "clusterVersion": 2,
+      "title": "京蓝科技(000711.SZ)发布前三季度业绩，归母净利润1.02亿元，同比扭亏为盈",
+      "firstSeenAt": "2026-10-22T13:58:25.993Z",
+      "lastSeenAt": "2026-10-22T17:20:32.782Z",
+      "latestItemPublishedAt": "2026-10-22T05:05:11.000Z",
+      "primaryItemId": "news_24163eabdabf",
+      "evidenceItemIds": [
+        "news_24163eabdabf",
+        "news_182b22c1e8c8"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
     },
     {
       "eventId": "event_2c203a0af86e",
@@ -498,22 +732,6 @@
       "latestProgress": ""
     },
     {
-      "eventId": "event_e91640daa36d",
-      "clusterVersion": 2,
-      "title": "名创优品(09896)10月21日斥资24.44万美元回购9.91万股",
-      "firstSeenAt": "2026-10-22T05:06:45.023Z",
-      "lastSeenAt": "2026-10-22T09:25:46.974Z",
-      "latestItemPublishedAt": "2026-10-21T20:35:07.000Z",
-      "primaryItemId": "news_7535564e3ed0",
-      "evidenceItemIds": [
-        "news_7535564e3ed0",
-        "news_62a4e872a13e"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
       "eventId": "event_f051df25c70f",
       "clusterVersion": 2,
       "title": "财联社10月22日电，烧碱期货主力合约日内跌超5%，报1610元/吨。",
@@ -528,27 +746,6 @@
       "status": "developing",
       "summary": "",
       "latestProgress": ""
-    },
-    {
-      "eventId": "event_294387429284",
-      "clusterVersion": 2,
-      "title": "日本央行下周开会：或正式宣告实现2%通胀目标，告别“抗通缩模式”",
-      "firstSeenAt": "2026-10-16T16:49:31.035Z",
-      "lastSeenAt": "2026-10-22T05:06:45.023Z",
-      "latestItemPublishedAt": "2026-10-21T11:11:11.000Z",
-      "primaryItemId": "news_e892bdc3705a",
-      "evidenceItemIds": [
-        "news_a9f7e6a7069d",
-        "news_43131ce49d34",
-        "news_67379ab3d587",
-        "news_12c6c3b1ca4e",
-        "news_a49bd63570e0",
-        "news_d4533d90f614",
-        "news_e892bdc3705a"
-      ],
-      "status": "developing",
-      "summary": "日本央行下周开会，或正式宣告实现2%通胀目标，告别抗通缩模式。",
-      "latestProgress": "最新消息显示日本央行下周开会，或正式宣告实现2%通胀目标，告别抗通缩模式。"
     },
     {
       "eventId": "event_57efd0fada08",
@@ -670,23 +867,6 @@
       "status": "developing",
       "summary": "全球央行独立性对稳定经济至关重要，美联储、欧央行、日央行经验可供借鉴。",
       "latestProgress": "最新报道阐释了三大央行独立性实践，强调其对政策可信度的支撑作用。"
-    },
-    {
-      "eventId": "event_3dce8a965214",
-      "clusterVersion": 2,
-      "title": "10月21日午间涨停分析",
-      "firstSeenAt": "2026-10-20T05:20:30.853Z",
-      "lastSeenAt": "2026-10-21T13:58:13.054Z",
-      "latestItemPublishedAt": "2026-10-21T04:05:55.000Z",
-      "primaryItemId": "news_41681876ba4a",
-      "evidenceItemIds": [
-        "news_44df0764d23e",
-        "news_8b7de7db7c9c",
-        "news_41681876ba4a"
-      ],
-      "status": "developing",
-      "summary": "10月21日午间涨停分析，股市表现受关注。",
-      "latestProgress": "根据10月21日最新报道，午间涨停分析已发布。"
     },
     {
       "eventId": "event_ce3b0478a5b2",

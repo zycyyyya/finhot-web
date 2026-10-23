@@ -1,20 +1,18 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-23T09:21:03.931Z",
+  "generatedAt": "2026-10-23T13:37:20.063Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
       "eventId": "event_a3c5d0364922",
       "clusterVersion": 2,
-      "title": "A股风格切换将至？听徐小庆分享股债汇市场最新洞察，推演四季度配置逻辑",
+      "title": "但斌出手，买入SpaceX！最新回应：仍坚守A股AI产业链，要“真正优秀的企业一起”",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-23T09:21:03.931Z",
-      "latestItemPublishedAt": "2026-10-23T09:07:07.000Z",
-      "primaryItemId": "news_52b141ccd419",
+      "lastSeenAt": "2026-10-23T13:37:20.063Z",
+      "latestItemPublishedAt": "2026-10-23T11:47:39.000Z",
+      "primaryItemId": "news_230d2f760193",
       "evidenceItemIds": [
-        "news_8f0afaa9b83c",
-        "news_35ed4f57a02d",
         "news_deeac9645e08",
         "news_437137f0ec83",
         "news_06d5ef24373f",
@@ -62,7 +60,9 @@
         "news_cedcb918c588",
         "news_a225f3fc559e",
         "news_b0e779f13245",
-        "news_079df14a4279"
+        "news_079df14a4279",
+        "news_230d2f760193",
+        "news_b13b67873bee"
       ],
       "status": "developing",
       "summary": "2026年10月23日A股四大指数集体低开，贵金属、半导体等板块跌幅居前。",
@@ -73,12 +73,10 @@
       "clusterVersion": 2,
       "title": "德国央行：德国经济第三季度可能陷入停滞",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-23T09:21:03.931Z",
-      "latestItemPublishedAt": "2026-10-23T04:09:13.000Z",
+      "lastSeenAt": "2026-10-23T13:37:20.063Z",
+      "latestItemPublishedAt": "2026-10-23T11:38:48.000Z",
       "primaryItemId": "news_b948fe11318a",
       "evidenceItemIds": [
-        "news_3672688b9e75",
-        "news_3cfce6290810",
         "news_4295be216da3",
         "news_97b37b21f151",
         "news_8d7ace2c3ba5",
@@ -126,7 +124,9 @@
         "news_fee36df0e62e",
         "news_85feceae1a02",
         "news_572bcafde658",
-        "news_9f290162ae85"
+        "news_9f290162ae85",
+        "news_2c6132b54ef1",
+        "news_5aaa342728b1"
       ],
       "status": "developing",
       "summary": "连续两次加息后韩国央行本月暂不加息，行长称暂停不等于紧缩终结。",
@@ -137,7 +137,7 @@
       "clusterVersion": 2,
       "title": "中国证监会发布《违规转让证券案件行政处罚实施规则》",
       "firstSeenAt": "2026-10-19T15:45:09.770Z",
-      "lastSeenAt": "2026-10-23T09:21:03.931Z",
+      "lastSeenAt": "2026-10-23T13:37:20.063Z",
       "latestItemPublishedAt": "2026-10-18T19:52:26.000Z",
       "primaryItemId": "news_16340f2ed3ad",
       "evidenceItemIds": [
@@ -156,13 +156,12 @@
     {
       "eventId": "event_c68d651d4ff9",
       "clusterVersion": 2,
-      "title": "港股再迎调整：恒科指跌超5%，短线何时企稳？",
+      "title": "付鹏：大鱼断水，小鱼搁浅——港股的系统性流动性贫血【付鹏说图表】",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-10-23T09:21:03.931Z",
-      "latestItemPublishedAt": "2026-10-23T08:42:42.000Z",
-      "primaryItemId": "news_bb835e55c794",
+      "lastSeenAt": "2026-10-23T13:37:20.063Z",
+      "latestItemPublishedAt": "2026-10-23T13:05:11.000Z",
+      "primaryItemId": "news_abbf40f1a861",
       "evidenceItemIds": [
-        "news_234bf26c601c",
         "news_f90f40c2c188",
         "news_cd8728e9509f",
         "news_96dd7621f60f",
@@ -211,7 +210,8 @@
         "news_59024200648c",
         "news_9a2a0cba3567",
         "news_397c390f14a2",
-        "news_b8967f4ffb97"
+        "news_b8967f4ffb97",
+        "news_d7d23140bee1"
       ],
       "status": "developing",
       "summary": "微创系港股集体停牌，小股东质疑董事长辞任，追问房东背景。",
@@ -220,11 +220,11 @@
     {
       "eventId": "event_6ab2a13609c6",
       "clusterVersion": 2,
-      "title": "美联储先加息后或猛降息：AI 是利率关键阀门，开支拐点将触发政策转向！",
+      "title": "AI抛售潮引爆增长恐慌，美联储加息预期推迟至明年1月",
       "firstSeenAt": "2026-10-08T06:40:59.994Z",
-      "lastSeenAt": "2026-10-23T09:21:03.931Z",
-      "latestItemPublishedAt": "2026-10-23T06:28:07.000Z",
-      "primaryItemId": "news_96841701f1e1",
+      "lastSeenAt": "2026-10-23T13:37:20.063Z",
+      "latestItemPublishedAt": "2026-10-23T09:43:40.000Z",
+      "primaryItemId": "news_cd3cbabe0b07",
       "evidenceItemIds": [
         "news_1d0c31b07d1b",
         "news_ecab20992500",
@@ -262,42 +262,22 @@
         "news_bd67e678a075",
         "news_a9538e61c2d2",
         "news_96841701f1e1",
-        "news_18ecb48e5344"
+        "news_18ecb48e5344",
+        "news_cd3cbabe0b07"
       ],
       "status": "developing",
       "summary": "美联储政策走向受AI与开支拐点影响，先加息后续或猛降息",
       "latestProgress": "当前市场正密切关注AI相关开支拐点，研判美联储政策转向时点"
     },
     {
-      "eventId": "event_a9c8c835e65f",
-      "clusterVersion": 2,
-      "title": "高利率压垮美国楼市：销售暴跌、开工下滑，华尔街却浑然不觉",
-      "firstSeenAt": "2026-10-20T13:42:04.100Z",
-      "lastSeenAt": "2026-10-23T09:21:03.931Z",
-      "latestItemPublishedAt": "2026-10-22T16:01:39.000Z",
-      "primaryItemId": "news_2e80b5aec95c",
-      "evidenceItemIds": [
-        "news_a080827a7a71",
-        "news_076dd54fea82",
-        "news_e2091b2b3027",
-        "news_2be59929ac2e",
-        "news_2e80b5aec95c",
-        "news_dc946523197b"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
       "eventId": "event_f101880ef7bc",
       "clusterVersion": 2,
       "title": "一度失守4000美元，黄金为何跟着美股一起跌？汇丰：别把它当成“万能灵药”",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-23T09:21:03.931Z",
-      "latestItemPublishedAt": "2026-10-23T08:34:22.000Z",
+      "lastSeenAt": "2026-10-23T13:37:20.063Z",
+      "latestItemPublishedAt": "2026-10-23T11:33:17.000Z",
       "primaryItemId": "news_4883cd100ee3",
       "evidenceItemIds": [
-        "news_fe2b455a3e88",
         "news_abcd0f3c1c67",
         "news_d12ffe1e0b92",
         "news_9ddb437defd1",
@@ -346,11 +326,200 @@
         "news_38f2b4607a06",
         "news_5c4ba8c325c1",
         "news_4883cd100ee3",
-        "news_81095aea02b7"
+        "news_81095aea02b7",
+        "news_fbce47cb119c"
       ],
       "status": "developing",
       "summary": "华尔街称自身资产负债表耗尽，美股杠杆难再加，呼吁对冲基金增持空仓",
       "latestProgress": "最新报道披露华尔街因资产负债表耗尽，建议对冲基金加空仓应对美股杠杆加不动问题"
+    },
+    {
+      "eventId": "event_294387429284",
+      "clusterVersion": 2,
+      "title": "日本9月CPI通胀升至9个月高点，超越日本央行目标",
+      "firstSeenAt": "2026-10-16T16:49:31.035Z",
+      "lastSeenAt": "2026-10-23T13:37:20.063Z",
+      "latestItemPublishedAt": "2026-10-23T12:03:35.000Z",
+      "primaryItemId": "news_f9ba962a6611",
+      "evidenceItemIds": [
+        "news_a9f7e6a7069d",
+        "news_43131ce49d34",
+        "news_67379ab3d587",
+        "news_12c6c3b1ca4e",
+        "news_a49bd63570e0",
+        "news_d4533d90f614",
+        "news_e892bdc3705a",
+        "news_f9ba962a6611",
+        "news_afe4fb349bc3"
+      ],
+      "status": "developing",
+      "summary": "日本9月CPI通胀升至9个月高点，超出日本央行通胀目标。",
+      "latestProgress": "最新披露数据显示日本9月CPI通胀达9个月高点，超日本央行目标。"
+    },
+    {
+      "eventId": "event_10f092448968",
+      "clusterVersion": 2,
+      "title": "东岳硅材：前三季度归母净利润5.57亿元，同比增长19413.54%",
+      "firstSeenAt": "2026-10-23T09:21:03.931Z",
+      "lastSeenAt": "2026-10-23T13:37:20.063Z",
+      "latestItemPublishedAt": "2026-10-23T08:46:28.000Z",
+      "primaryItemId": "news_396e65587992",
+      "evidenceItemIds": [
+        "news_396e65587992",
+        "news_685771e969ac"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_35fd66f548c7",
+      "clusterVersion": 2,
+      "title": "商务部新闻发言人就美国防部公布所谓科研安全审查结果事答记者问",
+      "firstSeenAt": "2026-10-23T09:21:03.931Z",
+      "lastSeenAt": "2026-10-23T13:37:20.063Z",
+      "latestItemPublishedAt": "2026-10-23T06:51:27.000Z",
+      "primaryItemId": "news_30f50ca60810",
+      "evidenceItemIds": [
+        "news_30f50ca60810",
+        "news_8196b37c2591"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_fbae3d584b7f",
+      "clusterVersion": 2,
+      "title": "腾景科技：前三季度净利润同比增长50.63%",
+      "firstSeenAt": "2026-10-23T09:21:03.931Z",
+      "lastSeenAt": "2026-10-23T13:37:20.063Z",
+      "latestItemPublishedAt": "2026-10-23T08:41:31.000Z",
+      "primaryItemId": "news_96752ffb0b59",
+      "evidenceItemIds": [
+        "news_96752ffb0b59",
+        "news_5c9667b9a9c1",
+        "news_a630596c8adf"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_013d6f67fb72",
+      "clusterVersion": 2,
+      "title": "国办： 拓展新兴领域人工智能就业新空间",
+      "firstSeenAt": "2026-10-23T09:21:03.931Z",
+      "lastSeenAt": "2026-10-23T13:37:20.063Z",
+      "latestItemPublishedAt": "2026-10-23T09:11:29.000Z",
+      "primaryItemId": "news_1fa1a54087a5",
+      "evidenceItemIds": [
+        "news_1fa1a54087a5",
+        "news_4a06855945cd"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_5ccd38b79188",
+      "clusterVersion": 2,
+      "title": "国务院：鼓励东部地区布局人工智能核心产业",
+      "firstSeenAt": "2026-10-23T09:21:03.931Z",
+      "lastSeenAt": "2026-10-23T13:37:20.063Z",
+      "latestItemPublishedAt": "2026-10-23T09:12:07.000Z",
+      "primaryItemId": "news_732597dffbb8",
+      "evidenceItemIds": [
+        "news_732597dffbb8",
+        "news_9fcb295ef0a1"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_b5a7fc74ea4f",
+      "clusterVersion": 2,
+      "title": "中国证监会就《私募投资母基金管理规定（征求意见稿）》公开征求意见",
+      "firstSeenAt": "2026-10-23T13:37:20.063Z",
+      "lastSeenAt": "2026-10-23T13:37:20.063Z",
+      "latestItemPublishedAt": "2026-10-23T09:22:51.000Z",
+      "primaryItemId": "news_521509778cba",
+      "evidenceItemIds": [
+        "news_521509778cba",
+        "news_a5d35801801b"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_0681f81cdea8",
+      "clusterVersion": 2,
+      "title": "基金业协会披露私募登记备案典型案例，涉及基金清算、股东出资等问题",
+      "firstSeenAt": "2026-10-23T13:37:20.063Z",
+      "lastSeenAt": "2026-10-23T13:37:20.063Z",
+      "latestItemPublishedAt": "2026-10-23T12:21:55.000Z",
+      "primaryItemId": "news_83d01cb01361",
+      "evidenceItemIds": [
+        "news_83d01cb01361",
+        "news_c13512992d40"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_d29488ac69c1",
+      "clusterVersion": 2,
+      "title": "西测测试：拟定增募资不超11.93亿元 用于商业航天质量保障服务平台等项目",
+      "firstSeenAt": "2026-10-23T13:37:20.063Z",
+      "lastSeenAt": "2026-10-23T13:37:20.063Z",
+      "latestItemPublishedAt": "2026-10-23T11:48:14.000Z",
+      "primaryItemId": "news_d6c557973fb2",
+      "evidenceItemIds": [
+        "news_d6c557973fb2",
+        "news_e7a5799b0f6c"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_bfe815180686",
+      "clusterVersion": 2,
+      "title": "美国最大养老金撤退！Calpers大幅砍仓“Mag 7”转投私募",
+      "firstSeenAt": "2026-10-23T13:37:20.063Z",
+      "lastSeenAt": "2026-10-23T13:37:20.063Z",
+      "latestItemPublishedAt": "2026-10-23T09:54:16.000Z",
+      "primaryItemId": "news_bb4e7affded2",
+      "evidenceItemIds": [
+        "news_bb4e7affded2",
+        "news_7bfc33180b41"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_a9c8c835e65f",
+      "clusterVersion": 2,
+      "title": "高利率压垮美国楼市：销售暴跌、开工下滑，华尔街却浑然不觉",
+      "firstSeenAt": "2026-10-20T13:42:04.100Z",
+      "lastSeenAt": "2026-10-23T09:21:03.931Z",
+      "latestItemPublishedAt": "2026-10-22T16:01:39.000Z",
+      "primaryItemId": "news_2e80b5aec95c",
+      "evidenceItemIds": [
+        "news_a080827a7a71",
+        "news_076dd54fea82",
+        "news_e2091b2b3027",
+        "news_2be59929ac2e",
+        "news_2e80b5aec95c",
+        "news_dc946523197b"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
     },
     {
       "eventId": "event_e91640daa36d",
@@ -368,28 +537,6 @@
       "status": "developing",
       "summary": "",
       "latestProgress": ""
-    },
-    {
-      "eventId": "event_294387429284",
-      "clusterVersion": 2,
-      "title": "日本9月CPI通胀升至9个月高点，超越日本央行目标",
-      "firstSeenAt": "2026-10-16T16:49:31.035Z",
-      "lastSeenAt": "2026-10-23T09:21:03.931Z",
-      "latestItemPublishedAt": "2026-10-22T15:49:30.000Z",
-      "primaryItemId": "news_f9ba962a6611",
-      "evidenceItemIds": [
-        "news_a9f7e6a7069d",
-        "news_43131ce49d34",
-        "news_67379ab3d587",
-        "news_12c6c3b1ca4e",
-        "news_a49bd63570e0",
-        "news_d4533d90f614",
-        "news_e892bdc3705a",
-        "news_f9ba962a6611"
-      ],
-      "status": "developing",
-      "summary": "日本9月CPI通胀升至9个月高点，超出日本央行通胀目标。",
-      "latestProgress": "最新披露数据显示日本9月CPI通胀达9个月高点，超日本央行目标。"
     },
     {
       "eventId": "event_3dce8a965214",
@@ -468,87 +615,6 @@
       "evidenceItemIds": [
         "news_12abd5e3cb05",
         "news_a86fabf1fd5a"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_10f092448968",
-      "clusterVersion": 2,
-      "title": "东岳硅材：前三季度归母净利润5.57亿元，同比增长19413.54%",
-      "firstSeenAt": "2026-10-23T09:21:03.931Z",
-      "lastSeenAt": "2026-10-23T09:21:03.931Z",
-      "latestItemPublishedAt": "2026-10-23T08:46:28.000Z",
-      "primaryItemId": "news_396e65587992",
-      "evidenceItemIds": [
-        "news_396e65587992",
-        "news_685771e969ac"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_35fd66f548c7",
-      "clusterVersion": 2,
-      "title": "商务部新闻发言人就美国防部公布所谓科研安全审查结果事答记者问",
-      "firstSeenAt": "2026-10-23T09:21:03.931Z",
-      "lastSeenAt": "2026-10-23T09:21:03.931Z",
-      "latestItemPublishedAt": "2026-10-23T06:51:27.000Z",
-      "primaryItemId": "news_30f50ca60810",
-      "evidenceItemIds": [
-        "news_30f50ca60810",
-        "news_8196b37c2591"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_fbae3d584b7f",
-      "clusterVersion": 2,
-      "title": "腾景科技：前三季度净利润同比增长50.63%",
-      "firstSeenAt": "2026-10-23T09:21:03.931Z",
-      "lastSeenAt": "2026-10-23T09:21:03.931Z",
-      "latestItemPublishedAt": "2026-10-23T08:41:31.000Z",
-      "primaryItemId": "news_96752ffb0b59",
-      "evidenceItemIds": [
-        "news_96752ffb0b59",
-        "news_5c9667b9a9c1",
-        "news_a630596c8adf"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_013d6f67fb72",
-      "clusterVersion": 2,
-      "title": "国办： 拓展新兴领域人工智能就业新空间",
-      "firstSeenAt": "2026-10-23T09:21:03.931Z",
-      "lastSeenAt": "2026-10-23T09:21:03.931Z",
-      "latestItemPublishedAt": "2026-10-23T09:11:29.000Z",
-      "primaryItemId": "news_1fa1a54087a5",
-      "evidenceItemIds": [
-        "news_1fa1a54087a5",
-        "news_4a06855945cd"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_5ccd38b79188",
-      "clusterVersion": 2,
-      "title": "国务院：鼓励东部地区布局人工智能核心产业",
-      "firstSeenAt": "2026-10-23T09:21:03.931Z",
-      "lastSeenAt": "2026-10-23T09:21:03.931Z",
-      "latestItemPublishedAt": "2026-10-23T09:12:07.000Z",
-      "primaryItemId": "news_732597dffbb8",
-      "evidenceItemIds": [
-        "news_732597dffbb8",
-        "news_9fcb295ef0a1"
       ],
       "status": "developing",
       "summary": "",

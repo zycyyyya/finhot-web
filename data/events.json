@@ -1,21 +1,18 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-23T17:19:17.498Z",
+  "generatedAt": "2026-10-24T04:52:50.096Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
       "eventId": "event_a3c5d0364922",
       "clusterVersion": 2,
-      "title": "但斌出手，买入SpaceX！最新回应：仍坚守A股AI产业链，要“真正优秀的企业一起”",
+      "title": "单日发出超300亿“现金红包”！A股再迎分红热潮",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-23T17:19:17.498Z",
-      "latestItemPublishedAt": "2026-10-23T11:47:39.000Z",
-      "primaryItemId": "news_230d2f760193",
+      "lastSeenAt": "2026-10-24T04:52:50.096Z",
+      "latestItemPublishedAt": "2026-10-24T01:52:08.000Z",
+      "primaryItemId": "news_cedcb918c588",
       "evidenceItemIds": [
-        "news_deeac9645e08",
-        "news_437137f0ec83",
-        "news_06d5ef24373f",
         "news_20b88c5f352a",
         "news_3faed33a89da",
         "news_e6d4e26bd4df",
@@ -62,22 +59,24 @@
         "news_b0e779f13245",
         "news_079df14a4279",
         "news_230d2f760193",
-        "news_b13b67873bee"
+        "news_b13b67873bee",
+        "news_349669373260",
+        "news_a4af82e0ae05",
+        "news_84bfe974bf77"
       ],
       "status": "developing",
-      "summary": "2026年10月23日A股四大指数集体低开，贵金属、半导体等板块跌幅居前。",
-      "latestProgress": "市场复盘三季度资金流变化，分析本轮A股深度调整的影响因素。"
+      "summary": "2026年10月23日A股单日分红超300亿元，掀起分红热潮",
+      "latestProgress": "2026年10月24日645家A股公司年内发布股权激励计划，市场关注后续动向"
     },
     {
       "eventId": "event_2cf716748ce1",
       "clusterVersion": 2,
-      "title": "德国央行：德国经济第三季度可能陷入停滞",
+      "title": "面对面｜中金缪延亮：央行黄金储备超美债，但回不到“金本位”",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-23T17:19:17.498Z",
-      "latestItemPublishedAt": "2026-10-23T11:38:48.000Z",
-      "primaryItemId": "news_b948fe11318a",
+      "lastSeenAt": "2026-10-24T04:52:50.096Z",
+      "latestItemPublishedAt": "2026-10-24T01:00:00.000Z",
+      "primaryItemId": "news_c1c987759be8",
       "evidenceItemIds": [
-        "news_4295be216da3",
         "news_97b37b21f151",
         "news_8d7ace2c3ba5",
         "news_5bfe313c5b8d",
@@ -126,19 +125,20 @@
         "news_572bcafde658",
         "news_9f290162ae85",
         "news_2c6132b54ef1",
-        "news_5aaa342728b1"
+        "news_5aaa342728b1",
+        "news_c1c987759be8"
       ],
       "status": "developing",
-      "summary": "连续两次加息后韩国央行本月暂不加息，行长称暂停不等于紧缩终结。",
-      "latestProgress": "韩国央行行长表示从部分汇率指标看韩元较过去几年偏弱。"
+      "summary": "近期多国央行调整储备与货币政策，中金表示我国央行黄金储备超美债但难回金本位。",
+      "latestProgress": "10月24日中金缪延亮在采访中称央行黄金储备超美债，但回不到金本位。"
     },
     {
       "eventId": "event_81903830edd9",
       "clusterVersion": 2,
       "title": "中国证监会发布《违规转让证券案件行政处罚实施规则》",
       "firstSeenAt": "2026-10-19T15:45:09.770Z",
-      "lastSeenAt": "2026-10-23T17:19:17.498Z",
-      "latestItemPublishedAt": "2026-10-18T19:52:26.000Z",
+      "lastSeenAt": "2026-10-24T04:52:50.096Z",
+      "latestItemPublishedAt": "2026-10-18T17:55:38.000Z",
       "primaryItemId": "news_16340f2ed3ad",
       "evidenceItemIds": [
         "news_c61e8342121c",
@@ -150,15 +150,15 @@
         "news_3ba6b045b23d"
       ],
       "status": "developing",
-      "summary": "中国证监会就违规转让证券处罚规则答记者问，同日就证券先行赔付规则征求意见",
-      "latestProgress": "中国证监会就《证券市场先行赔付指导意见》公开征求意见"
+      "summary": "证监会发布违规转让证券案件行政处罚实施规则，同步就先行赔付指导意见公开征求意见",
+      "latestProgress": "证监会就《证券市场先行赔付指导意见》公开征求意见"
     },
     {
       "eventId": "event_c68d651d4ff9",
       "clusterVersion": 2,
       "title": "付鹏：大鱼断水，小鱼搁浅——港股的系统性流动性贫血【付鹏说图表】",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-10-23T17:19:17.498Z",
+      "lastSeenAt": "2026-10-24T04:52:50.096Z",
       "latestItemPublishedAt": "2026-10-23T13:05:11.000Z",
       "primaryItemId": "news_abbf40f1a861",
       "evidenceItemIds": [
@@ -214,8 +214,309 @@
         "news_d7d23140bee1"
       ],
       "status": "developing",
-      "summary": "微创系港股集体停牌，小股东质疑董事长辞任，追问房东背景。",
-      "latestProgress": "截至最新报道，停牌原因未明，董事长辞任待核实。"
+      "summary": "付鹏指出港股当前存在系统性流动性不足问题。",
+      "latestProgress": "2026年10月23日港股多股披露前三季度业绩，紫金矿业盈利同比增超50%，中国神华前9月营收逾2900亿。"
+    },
+    {
+      "eventId": "event_f101880ef7bc",
+      "clusterVersion": 2,
+      "title": "科技股大跌、美债走强，美股正在经历新一轮风格切换？",
+      "firstSeenAt": "2026-09-30T13:30:13.189Z",
+      "lastSeenAt": "2026-10-24T04:52:50.096Z",
+      "latestItemPublishedAt": "2026-10-24T01:14:14.000Z",
+      "primaryItemId": "news_09ebc08ef507",
+      "evidenceItemIds": [
+        "news_ff17ba6d0a05",
+        "news_adbc2e989a00",
+        "news_9e9ede62dfb6",
+        "news_d23d92ef6496",
+        "news_a47fbb4e17e6",
+        "news_b634738e878f",
+        "news_4ec31171e1ec",
+        "news_4da93be2b8d1",
+        "news_7b5169649b3c",
+        "news_918cc843d495",
+        "news_7a94c29aa9a2",
+        "news_9c5314fd0ea4",
+        "news_fc50205a7816",
+        "news_bc3ef0ffc52e",
+        "news_f57cec5bfbbe",
+        "news_5a8eb6e8e1cb",
+        "news_8e842b2c9fe4",
+        "news_3229ba9c947c",
+        "news_be66d15ae177",
+        "news_98108c4f9c6e",
+        "news_3e14b6e5e7d9",
+        "news_3f4f9afe6859",
+        "news_dfee4f8671be",
+        "news_406de24f33f2",
+        "news_725b3854a630",
+        "news_6fa9b55b74d7",
+        "news_5bd7a0b497d9",
+        "news_07a62ddbb05c",
+        "news_a39328118ac2",
+        "news_a95244cfe337",
+        "news_cf3ddfea6f0e",
+        "news_ac4afceb3e21",
+        "news_ee511349b24d",
+        "news_54801b02a622",
+        "news_e2e89b5875b5",
+        "news_173c3dcef4b2",
+        "news_e6d35a91a0bc",
+        "news_d89a5f374444",
+        "news_bb0bc36877ea",
+        "news_0e2c434a75bb",
+        "news_8c826379799a",
+        "news_38f2b4607a06",
+        "news_5c4ba8c325c1",
+        "news_4883cd100ee3",
+        "news_81095aea02b7",
+        "news_fbce47cb119c",
+        "news_09ebc08ef507",
+        "news_a371de6aac06",
+        "news_653308a529ec",
+        "news_01136ad3ad19"
+      ],
+      "status": "developing",
+      "summary": "2026年10月23日美股主要股指集体收跌，科技股大跌美债走强，市场关注风格切换。",
+      "latestProgress": "2026年10月24日美股三大指数继续集体收跌，油气股大涨。"
+    },
+    {
+      "eventId": "event_294387429284",
+      "clusterVersion": 2,
+      "title": "日本9月CPI通胀升至9个月高点，超越日本央行目标",
+      "firstSeenAt": "2026-10-16T16:49:31.035Z",
+      "lastSeenAt": "2026-10-24T04:52:50.096Z",
+      "latestItemPublishedAt": "2026-10-23T12:03:35.000Z",
+      "primaryItemId": "news_f9ba962a6611",
+      "evidenceItemIds": [
+        "news_a9f7e6a7069d",
+        "news_43131ce49d34",
+        "news_67379ab3d587",
+        "news_12c6c3b1ca4e",
+        "news_a49bd63570e0",
+        "news_d4533d90f614",
+        "news_e892bdc3705a",
+        "news_f9ba962a6611",
+        "news_afe4fb349bc3"
+      ],
+      "status": "developing",
+      "summary": "日本9月CPI通胀升至9个月高点，超越日本央行目标",
+      "latestProgress": "据悉日本央行将维持快速加息节奏，12月成为焦点"
+    },
+    {
+      "eventId": "event_35fd66f548c7",
+      "clusterVersion": 2,
+      "title": "商务部新闻发言人就美国防部公布所谓科研安全审查结果事答记者问",
+      "firstSeenAt": "2026-10-23T09:21:03.931Z",
+      "lastSeenAt": "2026-10-24T04:52:50.096Z",
+      "latestItemPublishedAt": "2026-10-23T06:51:27.000Z",
+      "primaryItemId": "news_30f50ca60810",
+      "evidenceItemIds": [
+        "news_30f50ca60810",
+        "news_8196b37c2591"
+      ],
+      "status": "developing",
+      "summary": "商务部新闻发言人就美国防部所谓科研安全审查结果一事答记者问回应关切",
+      "latestProgress": "2026年10月23日商务部就美防部公布所谓科研安全审查结果答记者问"
+    },
+    {
+      "eventId": "event_013d6f67fb72",
+      "clusterVersion": 2,
+      "title": "国办：拓展新兴领域人工智能就业新空间",
+      "firstSeenAt": "2026-10-23T09:21:03.931Z",
+      "lastSeenAt": "2026-10-24T04:52:50.096Z",
+      "latestItemPublishedAt": "2026-10-23T10:25:27.000Z",
+      "primaryItemId": "news_6c53afb4f4c1",
+      "evidenceItemIds": [
+        "news_1fa1a54087a5",
+        "news_4a06855945cd",
+        "news_6c53afb4f4c1"
+      ],
+      "status": "developing",
+      "summary": "国办发文部署拓展新兴领域人工智能就业新空间",
+      "latestProgress": "2026年10月国办出台举措拓展人工智能等新兴领域就业空间"
+    },
+    {
+      "eventId": "event_b5a7fc74ea4f",
+      "clusterVersion": 2,
+      "title": "中国证监会就《私募投资母基金管理规定（征求意见稿）》公开征求意见",
+      "firstSeenAt": "2026-10-23T13:37:20.063Z",
+      "lastSeenAt": "2026-10-24T04:52:50.096Z",
+      "latestItemPublishedAt": "2026-10-23T09:22:51.000Z",
+      "primaryItemId": "news_521509778cba",
+      "evidenceItemIds": [
+        "news_521509778cba",
+        "news_a5d35801801b"
+      ],
+      "status": "developing",
+      "summary": "中国证监会就《私募投资母基金管理规定（征求意见稿）》公开征求意见",
+      "latestProgress": "该规定目前处于公开征求意见阶段"
+    },
+    {
+      "eventId": "event_0681f81cdea8",
+      "clusterVersion": 2,
+      "title": "基金业协会披露私募登记备案典型案例，涉及基金清算、股东出资等问题",
+      "firstSeenAt": "2026-10-23T13:37:20.063Z",
+      "lastSeenAt": "2026-10-24T04:52:50.096Z",
+      "latestItemPublishedAt": "2026-10-23T12:21:55.000Z",
+      "primaryItemId": "news_83d01cb01361",
+      "evidenceItemIds": [
+        "news_83d01cb01361",
+        "news_c13512992d40"
+      ],
+      "status": "developing",
+      "summary": "基金业协会披露私募登记备案典型案例，涉及基金清算、股东出资等问题",
+      "latestProgress": "2026年10月23日，基金业协会正式披露该批私募登记备案典型案例"
+    },
+    {
+      "eventId": "event_d29488ac69c1",
+      "clusterVersion": 2,
+      "title": "西测测试：拟定增募资不超11.93亿元 用于商业航天质量保障服务平台等项目",
+      "firstSeenAt": "2026-10-23T13:37:20.063Z",
+      "lastSeenAt": "2026-10-24T04:52:50.096Z",
+      "latestItemPublishedAt": "2026-10-23T11:48:14.000Z",
+      "primaryItemId": "news_d6c557973fb2",
+      "evidenceItemIds": [
+        "news_d6c557973fb2",
+        "news_e7a5799b0f6c"
+      ],
+      "status": "developing",
+      "summary": "西测测试拟定增募资不超11.93亿元，用于商业航天质量保障服务平台等项目。",
+      "latestProgress": "西测测试披露拟定增募资不超11.93亿元，投向商业航天质量保障服务平台等项目。"
+    },
+    {
+      "eventId": "event_a9c8c835e65f",
+      "clusterVersion": 2,
+      "title": "美国回购市场面临2027年清算新规“大考”！加拿大帝国商业银行警告：市场准备不足恐引发利率波动",
+      "firstSeenAt": "2026-10-20T13:42:04.100Z",
+      "lastSeenAt": "2026-10-24T04:52:50.096Z",
+      "latestItemPublishedAt": "2026-10-23T16:05:06.000Z",
+      "primaryItemId": "news_9240f3c0348a",
+      "evidenceItemIds": [
+        "news_a080827a7a71",
+        "news_076dd54fea82",
+        "news_e2091b2b3027",
+        "news_2be59929ac2e",
+        "news_2e80b5aec95c",
+        "news_dc946523197b",
+        "news_9240f3c0348a"
+      ],
+      "status": "developing",
+      "summary": "美国回购市场将迎2027年清算新规，加行警告市场准备不足或引发利率波动",
+      "latestProgress": "加拿大帝国商业银行警告美国回购市场未就2027年清算新规做好准备，恐引发利率波动"
+    },
+    {
+      "eventId": "event_855ef040b1eb",
+      "clusterVersion": 2,
+      "title": "穆迪维持法国信用评级不变，负面展望持续",
+      "firstSeenAt": "2026-10-24T04:52:50.096Z",
+      "lastSeenAt": "2026-10-24T04:52:50.096Z",
+      "latestItemPublishedAt": "2026-10-24T02:35:45.000Z",
+      "primaryItemId": "news_9520850bc5fb",
+      "evidenceItemIds": [
+        "news_9520850bc5fb",
+        "news_b645fd682e17"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_b6eccf78fa9a",
+      "clusterVersion": 2,
+      "title": "18只主动ETF首发吸金约150亿元，3只“一日售罄”",
+      "firstSeenAt": "2026-10-24T04:52:50.096Z",
+      "lastSeenAt": "2026-10-24T04:52:50.096Z",
+      "latestItemPublishedAt": "2026-10-24T04:02:24.000Z",
+      "primaryItemId": "news_0a8eae55ae9f",
+      "evidenceItemIds": [
+        "news_0a8eae55ae9f",
+        "news_c73fdcdde7c6"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_ab78450e9dde",
+      "clusterVersion": 2,
+      "title": "本川智能：第三季度净利润同比增长438% 环比增长103%",
+      "firstSeenAt": "2026-10-24T04:52:50.096Z",
+      "lastSeenAt": "2026-10-24T04:52:50.096Z",
+      "latestItemPublishedAt": "2026-10-23T12:49:55.000Z",
+      "primaryItemId": "news_25f903d625e6",
+      "evidenceItemIds": [
+        "news_25f903d625e6",
+        "news_74c133e8acf7"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_5607d228bfd5",
+      "clusterVersion": 2,
+      "title": "李强主持召开国务院常务会议，会议指出，要更好统筹人口与经济社会、资源环境的关系，进一步完善相关政策，持续积累和释放人口综",
+      "firstSeenAt": "2026-10-24T04:52:50.096Z",
+      "lastSeenAt": "2026-10-24T04:52:50.096Z",
+      "latestItemPublishedAt": "2026-10-23T12:21:54.000Z",
+      "primaryItemId": "news_0b21a6304c8c",
+      "evidenceItemIds": [
+        "news_0b21a6304c8c",
+        "news_9bc02a75758c"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_6e07f3fa2296",
+      "clusterVersion": 2,
+      "title": "财联社10月23日电，甲骨文将在4年内向合作伙伴生态系统投资10亿美元，将Marketplace采购服务扩展至印度和日本",
+      "firstSeenAt": "2026-10-24T04:52:50.096Z",
+      "lastSeenAt": "2026-10-24T04:52:50.096Z",
+      "latestItemPublishedAt": "2026-10-23T12:19:06.000Z",
+      "primaryItemId": "news_66d403cfc3b6",
+      "evidenceItemIds": [
+        "news_66d403cfc3b6",
+        "news_3797e003c3d0"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_60578144efd2",
+      "clusterVersion": 2,
+      "title": "山金国际：第三季度归母净利润7.85亿元，同比下降9.14%",
+      "firstSeenAt": "2026-10-24T04:52:50.096Z",
+      "lastSeenAt": "2026-10-24T04:52:50.096Z",
+      "latestItemPublishedAt": "2026-10-23T12:08:27.000Z",
+      "primaryItemId": "news_8f097c9da705",
+      "evidenceItemIds": [
+        "news_8f097c9da705",
+        "news_f2cf953018a4"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_311a5fd217f9",
+      "clusterVersion": 2,
+      "title": "美初创公司宣称实现“汞变稳定黄金”",
+      "firstSeenAt": "2026-10-24T04:52:50.096Z",
+      "lastSeenAt": "2026-10-24T04:52:50.096Z",
+      "latestItemPublishedAt": "2026-10-23T11:51:40.000Z",
+      "primaryItemId": "news_c66f014d2a7b",
+      "evidenceItemIds": [
+        "news_c66f014d2a7b",
+        "news_e6497f2112ac"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
     },
     {
       "eventId": "event_6ab2a13609c6",
@@ -270,125 +571,6 @@
       "latestProgress": "当前市场正密切关注AI相关开支拐点，研判美联储政策转向时点"
     },
     {
-      "eventId": "event_f101880ef7bc",
-      "clusterVersion": 2,
-      "title": "科技股大跌、美债走强，美股正在经历新一轮风格切换？",
-      "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-23T17:19:17.498Z",
-      "latestItemPublishedAt": "2026-10-23T15:31:14.000Z",
-      "primaryItemId": "news_09ebc08ef507",
-      "evidenceItemIds": [
-        "news_d12ffe1e0b92",
-        "news_9ddb437defd1",
-        "news_91be82fb580e",
-        "news_ff17ba6d0a05",
-        "news_adbc2e989a00",
-        "news_9e9ede62dfb6",
-        "news_d23d92ef6496",
-        "news_a47fbb4e17e6",
-        "news_b634738e878f",
-        "news_4ec31171e1ec",
-        "news_4da93be2b8d1",
-        "news_7b5169649b3c",
-        "news_918cc843d495",
-        "news_7a94c29aa9a2",
-        "news_9c5314fd0ea4",
-        "news_fc50205a7816",
-        "news_bc3ef0ffc52e",
-        "news_f57cec5bfbbe",
-        "news_5a8eb6e8e1cb",
-        "news_8e842b2c9fe4",
-        "news_3229ba9c947c",
-        "news_be66d15ae177",
-        "news_98108c4f9c6e",
-        "news_3e14b6e5e7d9",
-        "news_3f4f9afe6859",
-        "news_dfee4f8671be",
-        "news_406de24f33f2",
-        "news_725b3854a630",
-        "news_6fa9b55b74d7",
-        "news_5bd7a0b497d9",
-        "news_07a62ddbb05c",
-        "news_a39328118ac2",
-        "news_a95244cfe337",
-        "news_cf3ddfea6f0e",
-        "news_ac4afceb3e21",
-        "news_ee511349b24d",
-        "news_54801b02a622",
-        "news_e2e89b5875b5",
-        "news_173c3dcef4b2",
-        "news_e6d35a91a0bc",
-        "news_d89a5f374444",
-        "news_bb0bc36877ea",
-        "news_0e2c434a75bb",
-        "news_8c826379799a",
-        "news_38f2b4607a06",
-        "news_5c4ba8c325c1",
-        "news_4883cd100ee3",
-        "news_81095aea02b7",
-        "news_fbce47cb119c",
-        "news_09ebc08ef507"
-      ],
-      "status": "developing",
-      "summary": "华尔街称自身资产负债表耗尽，美股杠杆难再加，呼吁对冲基金增持空仓",
-      "latestProgress": "最新报道披露华尔街因资产负债表耗尽，建议对冲基金加空仓应对美股杠杆加不动问题"
-    },
-    {
-      "eventId": "event_294387429284",
-      "clusterVersion": 2,
-      "title": "日本9月CPI通胀升至9个月高点，超越日本央行目标",
-      "firstSeenAt": "2026-10-16T16:49:31.035Z",
-      "lastSeenAt": "2026-10-23T17:19:17.498Z",
-      "latestItemPublishedAt": "2026-10-23T12:03:35.000Z",
-      "primaryItemId": "news_f9ba962a6611",
-      "evidenceItemIds": [
-        "news_a9f7e6a7069d",
-        "news_43131ce49d34",
-        "news_67379ab3d587",
-        "news_12c6c3b1ca4e",
-        "news_a49bd63570e0",
-        "news_d4533d90f614",
-        "news_e892bdc3705a",
-        "news_f9ba962a6611",
-        "news_afe4fb349bc3"
-      ],
-      "status": "developing",
-      "summary": "日本9月CPI通胀升至9个月高点，超出日本央行通胀目标。",
-      "latestProgress": "最新披露数据显示日本9月CPI通胀达9个月高点，超日本央行目标。"
-    },
-    {
-      "eventId": "event_35fd66f548c7",
-      "clusterVersion": 2,
-      "title": "商务部新闻发言人就美国防部公布所谓科研安全审查结果事答记者问",
-      "firstSeenAt": "2026-10-23T09:21:03.931Z",
-      "lastSeenAt": "2026-10-23T17:19:17.498Z",
-      "latestItemPublishedAt": "2026-10-23T06:51:27.000Z",
-      "primaryItemId": "news_30f50ca60810",
-      "evidenceItemIds": [
-        "news_30f50ca60810",
-        "news_8196b37c2591"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_013d6f67fb72",
-      "clusterVersion": 2,
-      "title": "国办： 拓展新兴领域人工智能就业新空间",
-      "firstSeenAt": "2026-10-23T09:21:03.931Z",
-      "lastSeenAt": "2026-10-23T17:19:17.498Z",
-      "latestItemPublishedAt": "2026-10-23T09:11:29.000Z",
-      "primaryItemId": "news_1fa1a54087a5",
-      "evidenceItemIds": [
-        "news_1fa1a54087a5",
-        "news_4a06855945cd"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
       "eventId": "event_5ccd38b79188",
       "clusterVersion": 2,
       "title": "国务院：鼓励东部地区布局人工智能核心产业",
@@ -399,54 +581,6 @@
       "evidenceItemIds": [
         "news_732597dffbb8",
         "news_9fcb295ef0a1"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_b5a7fc74ea4f",
-      "clusterVersion": 2,
-      "title": "中国证监会就《私募投资母基金管理规定（征求意见稿）》公开征求意见",
-      "firstSeenAt": "2026-10-23T13:37:20.063Z",
-      "lastSeenAt": "2026-10-23T17:19:17.498Z",
-      "latestItemPublishedAt": "2026-10-23T09:22:51.000Z",
-      "primaryItemId": "news_521509778cba",
-      "evidenceItemIds": [
-        "news_521509778cba",
-        "news_a5d35801801b"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_0681f81cdea8",
-      "clusterVersion": 2,
-      "title": "基金业协会披露私募登记备案典型案例，涉及基金清算、股东出资等问题",
-      "firstSeenAt": "2026-10-23T13:37:20.063Z",
-      "lastSeenAt": "2026-10-23T17:19:17.498Z",
-      "latestItemPublishedAt": "2026-10-23T12:21:55.000Z",
-      "primaryItemId": "news_83d01cb01361",
-      "evidenceItemIds": [
-        "news_83d01cb01361",
-        "news_c13512992d40"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_d29488ac69c1",
-      "clusterVersion": 2,
-      "title": "西测测试：拟定增募资不超11.93亿元 用于商业航天质量保障服务平台等项目",
-      "firstSeenAt": "2026-10-23T13:37:20.063Z",
-      "lastSeenAt": "2026-10-23T17:19:17.498Z",
-      "latestItemPublishedAt": "2026-10-23T11:48:14.000Z",
-      "primaryItemId": "news_d6c557973fb2",
-      "evidenceItemIds": [
-        "news_d6c557973fb2",
-        "news_e7a5799b0f6c"
       ],
       "status": "developing",
       "summary": "",
@@ -496,26 +630,6 @@
         "news_96752ffb0b59",
         "news_5c9667b9a9c1",
         "news_a630596c8adf"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_a9c8c835e65f",
-      "clusterVersion": 2,
-      "title": "高利率压垮美国楼市：销售暴跌、开工下滑，华尔街却浑然不觉",
-      "firstSeenAt": "2026-10-20T13:42:04.100Z",
-      "lastSeenAt": "2026-10-23T09:21:03.931Z",
-      "latestItemPublishedAt": "2026-10-22T16:01:39.000Z",
-      "primaryItemId": "news_2e80b5aec95c",
-      "evidenceItemIds": [
-        "news_a080827a7a71",
-        "news_076dd54fea82",
-        "news_e2091b2b3027",
-        "news_2be59929ac2e",
-        "news_2e80b5aec95c",
-        "news_dc946523197b"
       ],
       "status": "developing",
       "summary": "",

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-25T13:17:48.173Z",
+  "generatedAt": "2026-10-25T16:35:33.105Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -9,12 +9,10 @@
       "clusterVersion": 2,
       "title": "851份A股三季报扫描：电子有色业绩领跑，季度业绩环比变化引关注",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-25T13:17:48.173Z",
-      "latestItemPublishedAt": "2026-10-25T12:28:27.000Z",
+      "lastSeenAt": "2026-10-25T16:35:33.105Z",
+      "latestItemPublishedAt": "2026-10-25T13:44:40.000Z",
       "primaryItemId": "news_6c4a10922bc4",
       "evidenceItemIds": [
-        "news_8daadc6735a0",
-        "news_03213b6bd1f8",
         "news_7a65363ab7ad",
         "news_2ddd0acae0b2",
         "news_7df66d8259e6",
@@ -62,7 +60,9 @@
         "news_c79326bd3275",
         "news_8ffb1935d7b2",
         "news_b475d156b4bf",
-        "news_2378f848b9d2"
+        "news_2378f848b9d2",
+        "news_a87cf6ef4ce4",
+        "news_5787b78054d4"
       ],
       "status": "developing",
       "summary": "A股并购对赌后遗症频发，业内认为事后追偿效果有限，需做好事前防范。",
@@ -73,7 +73,7 @@
       "clusterVersion": 2,
       "title": "德国央行：德国经济第三季度可能陷入停滞",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-25T13:17:48.173Z",
+      "lastSeenAt": "2026-10-25T16:35:33.105Z",
       "latestItemPublishedAt": "2026-10-24T01:00:00.000Z",
       "primaryItemId": "news_b948fe11318a",
       "evidenceItemIds": [
@@ -137,7 +137,7 @@
       "clusterVersion": 2,
       "title": "中国证监会发布《违规转让证券案件行政处罚实施规则》",
       "firstSeenAt": "2026-10-19T15:45:09.770Z",
-      "lastSeenAt": "2026-10-25T13:17:48.173Z",
+      "lastSeenAt": "2026-10-25T16:35:33.105Z",
       "latestItemPublishedAt": "2026-10-18T19:52:26.000Z",
       "primaryItemId": "news_16340f2ed3ad",
       "evidenceItemIds": [
@@ -158,7 +158,7 @@
       "clusterVersion": 2,
       "title": "日本9月CPI通胀升至9个月高点，超越日本央行目标",
       "firstSeenAt": "2026-10-16T16:49:31.035Z",
-      "lastSeenAt": "2026-10-25T13:17:48.173Z",
+      "lastSeenAt": "2026-10-25T16:35:33.105Z",
       "latestItemPublishedAt": "2026-10-23T12:03:35.000Z",
       "primaryItemId": "news_f9ba962a6611",
       "evidenceItemIds": [
@@ -181,7 +181,7 @@
       "clusterVersion": 2,
       "title": "中国证监会就《私募投资母基金管理规定（征求意见稿）》公开征求意见",
       "firstSeenAt": "2026-10-23T13:37:20.063Z",
-      "lastSeenAt": "2026-10-25T13:17:48.173Z",
+      "lastSeenAt": "2026-10-25T16:35:33.105Z",
       "latestItemPublishedAt": "2026-10-23T09:22:51.000Z",
       "primaryItemId": "news_521509778cba",
       "evidenceItemIds": [
@@ -197,7 +197,7 @@
       "clusterVersion": 2,
       "title": "专访美国银行全球企业支付主管：中国是支付领域巨大创新者，中资出海前景广阔",
       "firstSeenAt": "2026-10-20T13:42:04.100Z",
-      "lastSeenAt": "2026-10-25T13:17:48.173Z",
+      "lastSeenAt": "2026-10-25T16:35:33.105Z",
       "latestItemPublishedAt": "2026-10-25T07:03:28.000Z",
       "primaryItemId": "news_c27ab6f14e38",
       "evidenceItemIds": [
@@ -219,8 +219,8 @@
       "clusterVersion": 2,
       "title": "高盛警告：美联储12月加不加息，市场可能都没准备好",
       "firstSeenAt": "2026-10-08T06:40:59.994Z",
-      "lastSeenAt": "2026-10-25T13:17:48.173Z",
-      "latestItemPublishedAt": "2026-10-25T05:37:40.000Z",
+      "lastSeenAt": "2026-10-25T16:35:33.105Z",
+      "latestItemPublishedAt": "2026-10-25T13:01:52.000Z",
       "primaryItemId": "news_7952d78d85f9",
       "evidenceItemIds": [
         "news_1d0c31b07d1b",
@@ -263,7 +263,8 @@
         "news_cd3cbabe0b07",
         "news_cb6fe452ad4f",
         "news_69f28835d709",
-        "news_7952d78d85f9"
+        "news_7952d78d85f9",
+        "news_15fb95656722"
       ],
       "status": "developing",
       "summary": "美联储或先加息后猛降息，AI成利率关键阀门，开支拐点将触发政策转向。",
@@ -274,7 +275,7 @@
       "clusterVersion": 2,
       "title": "老有所依｜毫米波雷达走进卧室，AI打开养老新世界",
       "firstSeenAt": "2026-10-25T04:58:31.901Z",
-      "lastSeenAt": "2026-10-25T13:17:48.173Z",
+      "lastSeenAt": "2026-10-25T16:35:33.105Z",
       "latestItemPublishedAt": "2026-10-25T03:15:13.000Z",
       "primaryItemId": "news_4bdbe09947f2",
       "evidenceItemIds": [
@@ -290,7 +291,7 @@
       "clusterVersion": 2,
       "title": "天原股份：前三季度净利润同比增长753.11%",
       "firstSeenAt": "2026-10-25T09:09:10.102Z",
-      "lastSeenAt": "2026-10-25T13:17:48.173Z",
+      "lastSeenAt": "2026-10-25T16:35:33.105Z",
       "latestItemPublishedAt": "2026-10-25T07:40:04.000Z",
       "primaryItemId": "news_99a0a67e63a7",
       "evidenceItemIds": [
@@ -304,13 +305,12 @@
     {
       "eventId": "event_c68d651d4ff9",
       "clusterVersion": 2,
-      "title": "投资收益暴增843%！拉卡拉前三季度净赚8.65亿，终止港股IPO后拟并购跨境支付公司",
+      "title": "智通港股投资日志|10月26日",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-10-25T13:17:48.173Z",
-      "latestItemPublishedAt": "2026-10-25T04:35:52.000Z",
-      "primaryItemId": "news_43b0adc2db28",
+      "lastSeenAt": "2026-10-25T16:35:33.105Z",
+      "latestItemPublishedAt": "2026-10-25T08:05:05.000Z",
+      "primaryItemId": "news_f34b3bebc1f3",
       "evidenceItemIds": [
-        "news_96dd7621f60f",
         "news_babd371f9e64",
         "news_8cc093b50aa2",
         "news_e9ccbd44c4be",
@@ -359,7 +359,8 @@
         "news_b8967f4ffb97",
         "news_d7d23140bee1",
         "news_c7112f70197c",
-        "news_43b0adc2db28"
+        "news_43b0adc2db28",
+        "news_f34b3bebc1f3"
       ],
       "status": "developing",
       "summary": "国信证券分析港股大跌原因，探究卖方力量。",
@@ -370,7 +371,7 @@
       "clusterVersion": 2,
       "title": "财联社10月25日电，纳指ETF富国(513870)将于2026年10月26日开市起至当日10:30停牌。",
       "firstSeenAt": "2026-10-25T13:17:48.173Z",
-      "lastSeenAt": "2026-10-25T13:17:48.173Z",
+      "lastSeenAt": "2026-10-25T16:35:33.105Z",
       "latestItemPublishedAt": "2026-10-25T11:10:57.000Z",
       "primaryItemId": "news_944e21fdcb58",
       "evidenceItemIds": [
@@ -387,7 +388,7 @@
       "clusterVersion": 2,
       "title": "财联社10月25日电，纳斯达克ETF华安(159632)将于2026年10月26日开市起停牌，自2026年10月26日1",
       "firstSeenAt": "2026-10-25T13:17:48.173Z",
-      "lastSeenAt": "2026-10-25T13:17:48.173Z",
+      "lastSeenAt": "2026-10-25T16:35:33.105Z",
       "latestItemPublishedAt": "2026-10-25T11:10:51.000Z",
       "primaryItemId": "news_a19503eac090",
       "evidenceItemIds": [

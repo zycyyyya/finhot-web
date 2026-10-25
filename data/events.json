@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-24T16:07:06.698Z",
+  "generatedAt": "2026-10-25T04:58:31.901Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -9,11 +9,10 @@
       "clusterVersion": 2,
       "title": "【周刊提前读】A股并购对赌多发后遗症 事后追偿不如事先防范",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-24T16:07:06.698Z",
-      "latestItemPublishedAt": "2026-10-24T14:05:12.000Z",
+      "lastSeenAt": "2026-10-25T04:58:31.901Z",
+      "latestItemPublishedAt": "2026-10-24T01:52:08.000Z",
       "primaryItemId": "news_349669373260",
       "evidenceItemIds": [
-        "news_3faed33a89da",
         "news_e6d4e26bd4df",
         "news_c19d1e909d15",
         "news_45bee687d419",
@@ -62,19 +61,20 @@
         "news_349669373260",
         "news_a4af82e0ae05",
         "news_84bfe974bf77",
-        "news_b5e2920135ff"
+        "news_b5e2920135ff",
+        "news_bfc102af88f3"
       ],
       "status": "developing",
-      "summary": "2026年10月23日A股单日分红超300亿元，掀起分红热潮",
-      "latestProgress": "2026年10月24日645家A股公司年内发布股权激励计划，市场关注后续动向"
+      "summary": "A股并购对赌后遗症频发，业内认为事后追偿效果有限，需做好事前防范。",
+      "latestProgress": "10月25日德邦证券指出A股估值已进入合理区间，多重有利条件正汇聚。"
     },
     {
       "eventId": "event_2cf716748ce1",
       "clusterVersion": 2,
       "title": "德国央行：德国经济第三季度可能陷入停滞",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-24T16:07:06.698Z",
-      "latestItemPublishedAt": "2026-10-24T01:00:00.000Z",
+      "lastSeenAt": "2026-10-25T04:58:31.901Z",
+      "latestItemPublishedAt": "2026-10-23T11:38:48.000Z",
       "primaryItemId": "news_b948fe11318a",
       "evidenceItemIds": [
         "news_97b37b21f151",
@@ -129,16 +129,16 @@
         "news_c1c987759be8"
       ],
       "status": "developing",
-      "summary": "近期多国央行调整储备与货币政策，中金表示我国央行黄金储备超美债但难回金本位。",
-      "latestProgress": "10月24日中金缪延亮在采访中称央行黄金储备超美债，但回不到金本位。"
+      "summary": "德国央行称德国经济第三季度可能陷入停滞。",
+      "latestProgress": "中金缪延亮表示央行黄金储备超美债但回不到金本位。"
     },
     {
       "eventId": "event_81903830edd9",
       "clusterVersion": 2,
       "title": "中国证监会发布《违规转让证券案件行政处罚实施规则》",
       "firstSeenAt": "2026-10-19T15:45:09.770Z",
-      "lastSeenAt": "2026-10-24T16:07:06.698Z",
-      "latestItemPublishedAt": "2026-10-18T19:52:26.000Z",
+      "lastSeenAt": "2026-10-25T04:58:31.901Z",
+      "latestItemPublishedAt": "2026-10-18T17:55:38.000Z",
       "primaryItemId": "news_16340f2ed3ad",
       "evidenceItemIds": [
         "news_c61e8342121c",
@@ -150,15 +150,15 @@
         "news_3ba6b045b23d"
       ],
       "status": "developing",
-      "summary": "证监会发布违规转让证券案件行政处罚实施规则，同步就先行赔付指导意见公开征求意见",
-      "latestProgress": "证监会就《证券市场先行赔付指导意见》公开征求意见"
+      "summary": "证监会发布违规转让证券案件行政处罚实施规则",
+      "latestProgress": "证监会有关部门负责人就规则答记者问"
     },
     {
       "eventId": "event_c68d651d4ff9",
       "clusterVersion": 2,
       "title": "国信证券：港股大跌，谁在卖出？",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-10-24T16:07:06.698Z",
+      "lastSeenAt": "2026-10-25T04:58:31.901Z",
       "latestItemPublishedAt": "2026-10-24T00:05:05.000Z",
       "primaryItemId": "news_c7112f70197c",
       "evidenceItemIds": [
@@ -214,17 +214,17 @@
         "news_c7112f70197c"
       ],
       "status": "developing",
-      "summary": "付鹏指出港股当前存在系统性流动性不足问题。",
-      "latestProgress": "2026年10月23日港股多股披露前三季度业绩，紫金矿业盈利同比增超50%，中国神华前9月营收逾2900亿。"
+      "summary": "国信证券分析港股大跌原因，探究卖方力量。",
+      "latestProgress": "国信证券最新报告指出港股大跌，市场关注卖出方动向。"
     },
     {
       "eventId": "event_f101880ef7bc",
       "clusterVersion": 2,
-      "title": "科技股大跌、美债走强，美股正在经历新一轮风格切换？",
+      "title": "道指跌超650点！美股主要股指全线收跌，芯片股反弹，油价大涨，现货黄金失守4000美元关口",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-24T16:07:06.698Z",
+      "lastSeenAt": "2026-10-25T04:58:31.901Z",
       "latestItemPublishedAt": "2026-10-24T01:14:14.000Z",
-      "primaryItemId": "news_09ebc08ef507",
+      "primaryItemId": "news_a371de6aac06",
       "evidenceItemIds": [
         "news_ff17ba6d0a05",
         "news_adbc2e989a00",
@@ -278,15 +278,15 @@
         "news_01136ad3ad19"
       ],
       "status": "developing",
-      "summary": "2026年10月23日美股主要股指集体收跌，科技股大跌美债走强，市场关注风格切换。",
-      "latestProgress": "2026年10月24日美股三大指数继续集体收跌，油气股大涨。"
+      "summary": "2026年10月23日美股主要股指全线收跌，道指跌超650点，芯片股反弹，油价大涨，现货黄金失守4000美元关口",
+      "latestProgress": "2026年10月24日美股三大指数集体收跌，油气股大涨"
     },
     {
       "eventId": "event_294387429284",
       "clusterVersion": 2,
       "title": "日本9月CPI通胀升至9个月高点，超越日本央行目标",
       "firstSeenAt": "2026-10-16T16:49:31.035Z",
-      "lastSeenAt": "2026-10-24T16:07:06.698Z",
+      "lastSeenAt": "2026-10-25T04:58:31.901Z",
       "latestItemPublishedAt": "2026-10-23T12:03:35.000Z",
       "primaryItemId": "news_f9ba962a6611",
       "evidenceItemIds": [
@@ -301,31 +301,15 @@
         "news_afe4fb349bc3"
       ],
       "status": "developing",
-      "summary": "日本9月CPI通胀升至9个月高点，超越日本央行目标",
-      "latestProgress": "据悉日本央行将维持快速加息节奏，12月成为焦点"
-    },
-    {
-      "eventId": "event_35fd66f548c7",
-      "clusterVersion": 2,
-      "title": "商务部新闻发言人就美国防部公布所谓科研安全审查结果事答记者问",
-      "firstSeenAt": "2026-10-23T09:21:03.931Z",
-      "lastSeenAt": "2026-10-24T16:07:06.698Z",
-      "latestItemPublishedAt": "2026-10-23T06:51:27.000Z",
-      "primaryItemId": "news_30f50ca60810",
-      "evidenceItemIds": [
-        "news_30f50ca60810",
-        "news_8196b37c2591"
-      ],
-      "status": "developing",
-      "summary": "商务部新闻发言人就美国防部所谓科研安全审查结果一事答记者问回应关切",
-      "latestProgress": "2026年10月23日商务部就美防部公布所谓科研安全审查结果答记者问"
+      "summary": "日本9月CPI通胀升至9个月高点，已超越日本央行设定的通胀目标",
+      "latestProgress": "日本9月CPI通胀数据公布，升至9个月高点且超出日本央行目标"
     },
     {
       "eventId": "event_b5a7fc74ea4f",
       "clusterVersion": 2,
       "title": "中国证监会就《私募投资母基金管理规定（征求意见稿）》公开征求意见",
       "firstSeenAt": "2026-10-23T13:37:20.063Z",
-      "lastSeenAt": "2026-10-24T16:07:06.698Z",
+      "lastSeenAt": "2026-10-25T04:58:31.901Z",
       "latestItemPublishedAt": "2026-10-23T09:22:51.000Z",
       "primaryItemId": "news_521509778cba",
       "evidenceItemIds": [
@@ -341,7 +325,7 @@
       "clusterVersion": 2,
       "title": "基金业协会披露私募登记备案典型案例，涉及基金清算、股东出资等问题",
       "firstSeenAt": "2026-10-23T13:37:20.063Z",
-      "lastSeenAt": "2026-10-24T16:07:06.698Z",
+      "lastSeenAt": "2026-10-25T04:58:31.901Z",
       "latestItemPublishedAt": "2026-10-23T12:21:55.000Z",
       "primaryItemId": "news_83d01cb01361",
       "evidenceItemIds": [
@@ -349,15 +333,15 @@
         "news_c13512992d40"
       ],
       "status": "developing",
-      "summary": "基金业协会披露私募登记备案典型案例，涉及基金清算、股东出资等问题",
-      "latestProgress": "2026年10月23日，基金业协会正式披露该批私募登记备案典型案例"
+      "summary": "基金业协会披露私募登记备案典型案例，涉及基金清算、股东出资等违规问题。",
+      "latestProgress": "2026年10月23日，基金业协会公布相关典型案例，引导私募行业合规发展。"
     },
     {
       "eventId": "event_a9c8c835e65f",
       "clusterVersion": 2,
       "title": "美国回购市场面临2027年清算新规“大考”！加拿大帝国商业银行警告：市场准备不足恐引发利率波动",
       "firstSeenAt": "2026-10-20T13:42:04.100Z",
-      "lastSeenAt": "2026-10-24T16:07:06.698Z",
+      "lastSeenAt": "2026-10-25T04:58:31.901Z",
       "latestItemPublishedAt": "2026-10-23T16:05:06.000Z",
       "primaryItemId": "news_9240f3c0348a",
       "evidenceItemIds": [
@@ -370,15 +354,15 @@
         "news_9240f3c0348a"
       ],
       "status": "developing",
-      "summary": "美国回购市场将迎2027年清算新规，加行警告市场准备不足或引发利率波动",
-      "latestProgress": "加拿大帝国商业银行警告美国回购市场未就2027年清算新规做好准备，恐引发利率波动"
+      "summary": "加拿大帝国商业银行警告美国回购市场未准备好应对2027年清算新规，恐引发利率波动",
+      "latestProgress": "加拿大帝国商业银行就美国回购市场应对2027年清算新规准备不足发出风险提示"
     },
     {
       "eventId": "event_855ef040b1eb",
       "clusterVersion": 2,
       "title": "穆迪维持法国信用评级不变，负面展望持续",
       "firstSeenAt": "2026-10-24T04:52:50.096Z",
-      "lastSeenAt": "2026-10-24T16:07:06.698Z",
+      "lastSeenAt": "2026-10-25T04:58:31.901Z",
       "latestItemPublishedAt": "2026-10-24T02:35:45.000Z",
       "primaryItemId": "news_9520850bc5fb",
       "evidenceItemIds": [
@@ -386,17 +370,17 @@
         "news_b645fd682e17"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "穆迪维持法国主权信用评级不变，负面展望持续。",
+      "latestProgress": "穆迪确认维持法国主权信用评级及负面展望。"
     },
     {
       "eventId": "event_6ab2a13609c6",
       "clusterVersion": 2,
-      "title": "10月不加息，12月再出手?美联储抗通胀“慢加息”路径浮现 沃什下周讲话成最大看点",
+      "title": "美联储先加息后或猛降息：AI 是利率关键阀门，开支拐点将触发政策转向！",
       "firstSeenAt": "2026-10-08T06:40:59.994Z",
-      "lastSeenAt": "2026-10-24T16:07:06.698Z",
-      "latestItemPublishedAt": "2026-10-23T23:05:05.000Z",
-      "primaryItemId": "news_cb6fe452ad4f",
+      "lastSeenAt": "2026-10-25T04:58:31.901Z",
+      "latestItemPublishedAt": "2026-10-24T21:51:40.000Z",
+      "primaryItemId": "news_96841701f1e1",
       "evidenceItemIds": [
         "news_1d0c31b07d1b",
         "news_ecab20992500",
@@ -436,18 +420,19 @@
         "news_96841701f1e1",
         "news_18ecb48e5344",
         "news_cd3cbabe0b07",
-        "news_cb6fe452ad4f"
+        "news_cb6fe452ad4f",
+        "news_69f28835d709"
       ],
       "status": "developing",
-      "summary": "美联储政策走向受AI与开支拐点影响，先加息后续或猛降息",
-      "latestProgress": "当前市场正密切关注AI相关开支拐点，研判美联储政策转向时点"
+      "summary": "美联储或先加息后猛降息，AI成利率关键阀门，开支拐点将触发政策转向。",
+      "latestProgress": "下周AI巨头财报密集揭晓，美联储议息或为利率定调。"
     },
     {
       "eventId": "event_cbdd8ae5d750",
       "clusterVersion": 2,
       "title": "我国启动自主实验室标准体系研制工作 减少重复开发和建设成本",
       "firstSeenAt": "2026-10-24T08:56:34.085Z",
-      "lastSeenAt": "2026-10-24T16:07:06.698Z",
+      "lastSeenAt": "2026-10-25T04:58:31.901Z",
       "latestItemPublishedAt": "2026-10-24T07:33:26.000Z",
       "primaryItemId": "news_f9cb6285b614",
       "evidenceItemIds": [
@@ -455,8 +440,40 @@
         "news_c18a9d1ff41b"
       ],
       "status": "developing",
+      "summary": "我国启动自主实验室标准体系研制工作，旨在减少重复开发和建设成本",
+      "latestProgress": "我国自主实验室标准体系研制工作正式启动，将减少重复开发建设成本"
+    },
+    {
+      "eventId": "event_7835ea471d4d",
+      "clusterVersion": 2,
+      "title": "老有所依｜毫米波雷达走进卧室，AI打开养老新世界",
+      "firstSeenAt": "2026-10-25T04:58:31.901Z",
+      "lastSeenAt": "2026-10-25T04:58:31.901Z",
+      "latestItemPublishedAt": "2026-10-25T03:15:13.000Z",
+      "primaryItemId": "news_4bdbe09947f2",
+      "evidenceItemIds": [
+        "news_4bdbe09947f2",
+        "news_1c6d09d9fb35"
+      ],
+      "status": "developing",
       "summary": "",
       "latestProgress": ""
+    },
+    {
+      "eventId": "event_35fd66f548c7",
+      "clusterVersion": 2,
+      "title": "商务部新闻发言人就美国防部公布所谓科研安全审查结果事答记者问",
+      "firstSeenAt": "2026-10-23T09:21:03.931Z",
+      "lastSeenAt": "2026-10-24T16:07:06.698Z",
+      "latestItemPublishedAt": "2026-10-23T06:51:27.000Z",
+      "primaryItemId": "news_30f50ca60810",
+      "evidenceItemIds": [
+        "news_30f50ca60810",
+        "news_8196b37c2591"
+      ],
+      "status": "developing",
+      "summary": "商务部新闻发言人就美国防部所谓科研安全审查结果一事答记者问回应关切",
+      "latestProgress": "2026年10月23日商务部就美防部公布所谓科研安全审查结果答记者问"
     },
     {
       "eventId": "event_013d6f67fb72",

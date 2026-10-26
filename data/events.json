@@ -1,20 +1,18 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-25T16:35:33.105Z",
+  "generatedAt": "2026-10-26T05:06:57.925Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
       "eventId": "event_a3c5d0364922",
       "clusterVersion": 2,
-      "title": "851份A股三季报扫描：电子有色业绩领跑，季度业绩环比变化引关注",
+      "title": "A股四大指数集体低开，贵金属、影视等板块跌幅居前",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-25T16:35:33.105Z",
-      "latestItemPublishedAt": "2026-10-25T13:44:40.000Z",
-      "primaryItemId": "news_6c4a10922bc4",
+      "lastSeenAt": "2026-10-26T05:06:57.925Z",
+      "latestItemPublishedAt": "2026-10-26T01:37:27.000Z",
+      "primaryItemId": "news_11aea42e91d0",
       "evidenceItemIds": [
-        "news_7a65363ab7ad",
-        "news_2ddd0acae0b2",
         "news_7df66d8259e6",
         "news_882b652f9cdf",
         "news_39ef69ddef34",
@@ -62,24 +60,23 @@
         "news_b475d156b4bf",
         "news_2378f848b9d2",
         "news_a87cf6ef4ce4",
-        "news_5787b78054d4"
+        "news_5787b78054d4",
+        "news_11aea42e91d0",
+        "news_c5cfe7e18358"
       ],
       "status": "developing",
-      "summary": "A股并购对赌后遗症频发，业内认为事后追偿效果有限，需做好事前防范。",
-      "latestProgress": "10月25日德邦证券指出A股估值已进入合理区间，多重有利条件正汇聚。"
+      "summary": "A股四大指数集体低开，贵金属、影视等板块跌幅居前",
+      "latestProgress": "A股四大指数集体低开，贵金属、影视等板块跌幅居前"
     },
     {
       "eventId": "event_2cf716748ce1",
       "clusterVersion": 2,
       "title": "德国央行：德国经济第三季度可能陷入停滞",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-25T16:35:33.105Z",
-      "latestItemPublishedAt": "2026-10-24T01:00:00.000Z",
+      "lastSeenAt": "2026-10-26T05:06:57.925Z",
+      "latestItemPublishedAt": "2026-10-22T13:39:29.000Z",
       "primaryItemId": "news_b948fe11318a",
       "evidenceItemIds": [
-        "news_97b37b21f151",
-        "news_8d7ace2c3ba5",
-        "news_5bfe313c5b8d",
         "news_91fa208f9ac0",
         "news_3a5d15a951e6",
         "news_3a6a513cfe80",
@@ -126,20 +123,23 @@
         "news_9f290162ae85",
         "news_2c6132b54ef1",
         "news_5aaa342728b1",
-        "news_c1c987759be8"
+        "news_c1c987759be8",
+        "news_fe8d2283a474",
+        "news_f0d73f98eb3a",
+        "news_420c404628ac"
       ],
       "status": "developing",
-      "summary": "德国央行称德国经济第三季度可能陷入停滞。",
-      "latestProgress": "中金缪延亮表示央行黄金储备超美债但回不到金本位。"
+      "summary": "德国央行发布报告预警德国经济第三季度可能陷入停滞。",
+      "latestProgress": "超级央行周来临，市场预期欧央行或暂缓加息支撑经济。"
     },
     {
       "eventId": "event_81903830edd9",
       "clusterVersion": 2,
-      "title": "中国证监会发布《违规转让证券案件行政处罚实施规则》",
+      "title": "中国证监会就《证券市场先行赔付指导意见》公开征求意见",
       "firstSeenAt": "2026-10-19T15:45:09.770Z",
-      "lastSeenAt": "2026-10-25T16:35:33.105Z",
+      "lastSeenAt": "2026-10-26T05:06:57.925Z",
       "latestItemPublishedAt": "2026-10-18T19:52:26.000Z",
-      "primaryItemId": "news_16340f2ed3ad",
+      "primaryItemId": "news_c61e8342121c",
       "evidenceItemIds": [
         "news_c61e8342121c",
         "news_b086a9025dff",
@@ -150,15 +150,15 @@
         "news_3ba6b045b23d"
       ],
       "status": "developing",
-      "summary": "证监会发布违规转让证券案件行政处罚实施规则",
-      "latestProgress": "证监会有关部门负责人就规则答记者问"
+      "summary": "中国证监会就《证券市场先行赔付指导意见》公开征求意见，健全投资者保护机制。",
+      "latestProgress": "2026年10月18日中国证监会同步发布《违规转让证券案件行政处罚实施规则》并答记者问。"
     },
     {
       "eventId": "event_294387429284",
       "clusterVersion": 2,
       "title": "日本9月CPI通胀升至9个月高点，超越日本央行目标",
       "firstSeenAt": "2026-10-16T16:49:31.035Z",
-      "lastSeenAt": "2026-10-25T16:35:33.105Z",
+      "lastSeenAt": "2026-10-26T05:06:57.925Z",
       "latestItemPublishedAt": "2026-10-23T12:03:35.000Z",
       "primaryItemId": "news_f9ba962a6611",
       "evidenceItemIds": [
@@ -173,33 +173,34 @@
         "news_afe4fb349bc3"
       ],
       "status": "developing",
-      "summary": "日本9月CPI通胀升至9个月高点，已超越日本央行设定的通胀目标",
-      "latestProgress": "日本9月CPI通胀数据公布，升至9个月高点且超出日本央行目标"
+      "summary": "日本9月CPI通胀升至9个月高点，超出日本央行通胀目标。",
+      "latestProgress": "日本9月CPI通胀升至9个月高点，超越日本央行通胀目标。"
     },
     {
       "eventId": "event_b5a7fc74ea4f",
       "clusterVersion": 2,
-      "title": "中国证监会就《私募投资母基金管理规定（征求意见稿）》公开征求意见",
+      "title": "证监会：明确对私募投资母基金豁免计入一层投资层级",
       "firstSeenAt": "2026-10-23T13:37:20.063Z",
-      "lastSeenAt": "2026-10-25T16:35:33.105Z",
-      "latestItemPublishedAt": "2026-10-23T09:22:51.000Z",
-      "primaryItemId": "news_521509778cba",
+      "lastSeenAt": "2026-10-26T05:06:57.925Z",
+      "latestItemPublishedAt": "2026-10-26T04:07:36.000Z",
+      "primaryItemId": "news_a5d35801801b",
       "evidenceItemIds": [
         "news_521509778cba",
-        "news_a5d35801801b"
+        "news_a5d35801801b",
+        "news_467c00fe01b7"
       ],
       "status": "developing",
-      "summary": "中国证监会就《私募投资母基金管理规定（征求意见稿）》公开征求意见",
-      "latestProgress": "该规定目前处于公开征求意见阶段"
+      "summary": "证监会明确私募投资母基金豁免计入一层投资层级",
+      "latestProgress": "2026年10月26日香港证监会首次批准向公众发售的代币化基金开展二级交易"
     },
     {
       "eventId": "event_a9c8c835e65f",
       "clusterVersion": 2,
-      "title": "专访美国银行全球企业支付主管：中国是支付领域巨大创新者，中资出海前景广阔",
+      "title": "【华尔街原声】巴克莱前CEO：美国利率或在高位维持更长时间",
       "firstSeenAt": "2026-10-20T13:42:04.100Z",
-      "lastSeenAt": "2026-10-25T16:35:33.105Z",
-      "latestItemPublishedAt": "2026-10-25T07:03:28.000Z",
-      "primaryItemId": "news_c27ab6f14e38",
+      "lastSeenAt": "2026-10-26T05:06:57.925Z",
+      "latestItemPublishedAt": "2026-10-26T03:08:51.000Z",
+      "primaryItemId": "news_4e5326b21b4b",
       "evidenceItemIds": [
         "news_a080827a7a71",
         "news_076dd54fea82",
@@ -208,20 +209,21 @@
         "news_2e80b5aec95c",
         "news_dc946523197b",
         "news_9240f3c0348a",
-        "news_c27ab6f14e38"
+        "news_c27ab6f14e38",
+        "news_4e5326b21b4b"
       ],
       "status": "developing",
-      "summary": "加拿大帝国商业银行警告美国回购市场未准备好应对2027年清算新规，恐引发利率波动",
-      "latestProgress": "加拿大帝国商业银行就美国回购市场应对2027年清算新规准备不足发出风险提示"
+      "summary": "巴克莱前CEO表示美国利率或将在高位维持更长时间。",
+      "latestProgress": "巴克莱前CEO最新发声称美国利率或长期维持高位。"
     },
     {
       "eventId": "event_6ab2a13609c6",
       "clusterVersion": 2,
-      "title": "高盛警告：美联储12月加不加息，市场可能都没准备好",
+      "title": "美股财报季高潮来了！AI交易能否顶住美联储压力|美股点金",
       "firstSeenAt": "2026-10-08T06:40:59.994Z",
-      "lastSeenAt": "2026-10-25T16:35:33.105Z",
+      "lastSeenAt": "2026-10-26T05:06:57.925Z",
       "latestItemPublishedAt": "2026-10-25T13:01:52.000Z",
-      "primaryItemId": "news_7952d78d85f9",
+      "primaryItemId": "news_a1e84522200a",
       "evidenceItemIds": [
         "news_1d0c31b07d1b",
         "news_ecab20992500",
@@ -264,18 +266,21 @@
         "news_cb6fe452ad4f",
         "news_69f28835d709",
         "news_7952d78d85f9",
-        "news_15fb95656722"
+        "news_15fb95656722",
+        "news_832c9498bc51",
+        "news_a954c26a603b",
+        "news_a1e84522200a"
       ],
       "status": "developing",
-      "summary": "美联储或先加息后猛降息，AI成利率关键阀门，开支拐点将触发政策转向。",
-      "latestProgress": "下周AI巨头财报密集揭晓，美联储议息或为利率定调。"
+      "summary": "美股财报季高潮来袭，AI交易走势能否顶住美联储压力受关注",
+      "latestProgress": "通胀数据与官员措辞矛盾，高盛预计美联储10月暂缓、12月加息"
     },
     {
       "eventId": "event_7835ea471d4d",
       "clusterVersion": 2,
       "title": "老有所依｜毫米波雷达走进卧室，AI打开养老新世界",
       "firstSeenAt": "2026-10-25T04:58:31.901Z",
-      "lastSeenAt": "2026-10-25T16:35:33.105Z",
+      "lastSeenAt": "2026-10-26T05:06:57.925Z",
       "latestItemPublishedAt": "2026-10-25T03:15:13.000Z",
       "primaryItemId": "news_4bdbe09947f2",
       "evidenceItemIds": [
@@ -283,40 +288,35 @@
         "news_1c6d09d9fb35"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "毫米波雷达等AI技术落地养老场景，开启智慧养老新方向。",
+      "latestProgress": "毫米波雷达、智慧药房、AI问诊等技术落地，打造智慧养老体系。"
     },
     {
       "eventId": "event_70d4a3f96148",
       "clusterVersion": 2,
-      "title": "天原股份：前三季度净利润同比增长753.11%",
+      "title": "万里石：前三季度净利润同比增长3682.08%",
       "firstSeenAt": "2026-10-25T09:09:10.102Z",
-      "lastSeenAt": "2026-10-25T16:35:33.105Z",
-      "latestItemPublishedAt": "2026-10-25T07:40:04.000Z",
-      "primaryItemId": "news_99a0a67e63a7",
+      "lastSeenAt": "2026-10-26T05:06:57.925Z",
+      "latestItemPublishedAt": "2026-10-25T08:06:07.000Z",
+      "primaryItemId": "news_2d3a3ecf86e9",
       "evidenceItemIds": [
         "news_99a0a67e63a7",
-        "news_0a29bad9a7ec"
+        "news_0a29bad9a7ec",
+        "news_2d3a3ecf86e9"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "万里石2026年前三季度净利润同比增长3682.08%，业绩大幅增长。",
+      "latestProgress": "2026年10月25日万里石正式披露前三季度业绩，净利润同比增3682.08%"
     },
     {
       "eventId": "event_c68d651d4ff9",
       "clusterVersion": 2,
-      "title": "智通港股投资日志|10月26日",
+      "title": "港股异动 | 华虹宏力(01347)早盘跌近8% 下周四将发三季度业绩 高盛曾指业绩指引逊预期",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-10-25T16:35:33.105Z",
-      "latestItemPublishedAt": "2026-10-25T08:05:05.000Z",
-      "primaryItemId": "news_f34b3bebc1f3",
+      "lastSeenAt": "2026-10-26T05:06:57.925Z",
+      "latestItemPublishedAt": "2026-10-25T20:05:10.000Z",
+      "primaryItemId": "news_b27fac4a489e",
       "evidenceItemIds": [
-        "news_babd371f9e64",
-        "news_8cc093b50aa2",
-        "news_e9ccbd44c4be",
-        "news_dce723bb4363",
-        "news_bdd301427e86",
-        "news_c90a6c182ac2",
         "news_2d4304838bb9",
         "news_f3c2854da432",
         "news_726f1425e78d",
@@ -360,24 +360,96 @@
         "news_d7d23140bee1",
         "news_c7112f70197c",
         "news_43b0adc2db28",
-        "news_f34b3bebc1f3"
+        "news_f34b3bebc1f3",
+        "news_c0135a5caf1c",
+        "news_70e5a68ae14e",
+        "news_7844928506be",
+        "news_b27fac4a489e",
+        "news_3bec638b7da0",
+        "news_e23ed3375cb6"
       ],
       "status": "developing",
-      "summary": "国信证券分析港股大跌原因，探究卖方力量。",
-      "latestProgress": "国信证券最新报告指出港股大跌，市场关注卖出方动向。"
+      "summary": "华虹宏力早盘跌近8%，因下周四将发三季报且高盛指业绩指引逊预期",
+      "latestProgress": "华虹宏力将于下周四披露三季度业绩，市场对其实际表现保持关注"
     },
     {
       "eventId": "event_3df1f5b05e3d",
       "clusterVersion": 2,
-      "title": "财联社10月25日电，纳指ETF富国(513870)将于2026年10月26日开市起至当日10:30停牌。",
+      "title": "财联社10月25日电，纳斯达克ETF华安(159632)将于2026年10月26日开市起停牌，自2026年10月26日1",
       "firstSeenAt": "2026-10-25T13:17:48.173Z",
-      "lastSeenAt": "2026-10-25T16:35:33.105Z",
-      "latestItemPublishedAt": "2026-10-25T11:10:57.000Z",
-      "primaryItemId": "news_944e21fdcb58",
+      "lastSeenAt": "2026-10-26T05:06:57.925Z",
+      "latestItemPublishedAt": "2026-10-25T11:10:48.000Z",
+      "primaryItemId": "news_a19503eac090",
       "evidenceItemIds": [
         "news_944e21fdcb58",
         "news_3c553b899c8e",
-        "news_2e636bba354f"
+        "news_2e636bba354f",
+        "news_a19503eac090"
+      ],
+      "status": "developing",
+      "summary": "多只纳指相关ETF将于2026年10月26日开市起停牌至10:30",
+      "latestProgress": "华安纳斯达克ETF停牌期间赎回业务照常办理，其余纳指ETF10:30复牌"
+    },
+    {
+      "eventId": "event_f5043bb74992",
+      "clusterVersion": 2,
+      "title": "马斯克称SpaceX已完成400亿美元GPU债务融资，以可赎回债为主",
+      "firstSeenAt": "2026-10-26T05:06:57.925Z",
+      "lastSeenAt": "2026-10-26T05:06:57.925Z",
+      "latestItemPublishedAt": "2026-10-26T03:11:54.000Z",
+      "primaryItemId": "news_19f9027287bd",
+      "evidenceItemIds": [
+        "news_19f9027287bd",
+        "news_8029a8b37563"
+      ],
+      "status": "developing",
+      "summary": "马斯克称SpaceX完成400亿美元GPU可赎回债融资，加码AI算力竞赛。",
+      "latestProgress": "SpaceX完成400亿美元GPU可赎回债融资，推进AI算力布局。"
+    },
+    {
+      "eventId": "event_53dff26e80f9",
+      "clusterVersion": 2,
+      "title": "AI势头回落并非牛熊分界",
+      "firstSeenAt": "2026-10-26T05:06:57.925Z",
+      "lastSeenAt": "2026-10-26T05:06:57.925Z",
+      "latestItemPublishedAt": "2026-10-26T00:36:04.000Z",
+      "primaryItemId": "news_c19ef0ab85db",
+      "evidenceItemIds": [
+        "news_c19ef0ab85db",
+        "news_60b8509042a1"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_d1f887249bb8",
+      "clusterVersion": 2,
+      "title": "九芝堂：前三季度净利润同比增长100.33%",
+      "firstSeenAt": "2026-10-26T05:06:57.925Z",
+      "lastSeenAt": "2026-10-26T05:06:57.925Z",
+      "latestItemPublishedAt": "2026-10-25T11:34:10.000Z",
+      "primaryItemId": "news_fc508bdb2e43",
+      "evidenceItemIds": [
+        "news_fc508bdb2e43",
+        "news_d001c1568839"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_e4f25ac9ccb4",
+      "clusterVersion": 2,
+      "title": "华盛锂电：第三季度净利润同比增长801% 环比增长148%",
+      "firstSeenAt": "2026-10-26T05:06:57.925Z",
+      "lastSeenAt": "2026-10-26T05:06:57.925Z",
+      "latestItemPublishedAt": "2026-10-25T08:08:10.000Z",
+      "primaryItemId": "news_41c77a9df24b",
+      "evidenceItemIds": [
+        "news_41c77a9df24b",
+        "news_150ecdbd563d",
+        "news_1c0797828072"
       ],
       "status": "developing",
       "summary": "",

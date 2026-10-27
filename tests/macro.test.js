@@ -5,6 +5,7 @@ const fs = require('fs');
 const path = require('path');
 const {
   formatMacroContext,
+  parseSgeDaily,
   publicMacro,
   refreshMacro,
 } = require('../scripts/macro');
@@ -23,6 +24,7 @@ function baseMacro() {
       { key: 'us10y', name: '美债 10年期', value: '4.70%', numericValue: 4.70, note: '高位震荡', direction: 'up', asOf: '2026-08-11', source: '美国财政部', mode: 'auto' },
       { key: 'usdcny', name: '美元兑人民币', value: '6.7442', numericValue: 6.7442, note: '42个月新高', direction: 'up', asOf: '2026-08-11', source: 'Frankfurter/ECB', mode: 'auto' },
       { key: 'gold', name: '现货黄金', value: '$4,393', numericValue: 4393, note: '周涨超 7%', direction: 'up', asOf: '2026-08-11', source: 'gold-api.com', mode: 'auto' },
+      { key: 'cngold', name: '国内金价', value: '¥889.40', numericValue: 889.4, note: '高位震荡', direction: 'up', asOf: '2026-08-11', source: '上海黄金交易所', mode: 'auto' },
     ],
   };
 }
@@ -59,6 +61,30 @@ const okDeps = {
       + '08/11/2026,3.79,4.22,4.70,5.24\n'
       + '08/10/2026,3.80,4.20,4.68,5.20\n';
   },
+  // 第二条取数通道（内置 fetch），只服务 brent 与 cngold。
+  // 打桩同时把所有指标的历史序列固定下来，测试不依赖网络。
+  fetchText: async url => {
+    assert.ok(url.includes('fred.stlouisfed.org'), `unexpected fetch url: ${url}`);
+    // 含一个缺失观测（"."）与一个周末空行，验证它们会被跳过而不是算成 0。
+    return 'observation_date,DCOILBRENTEU\n'
+      + '2026-08-05,79.40\n'
+      + '2026-08-06,.\n'
+      + '2026-08-07,80.10\n'
+      + '2026-08-10,81.50\n'
+      + '2026-08-11,82.30\n';
+  },
+  fetchJson: async url => {
+    assert.ok(url.includes('sge.com.cn'), `unexpected fetch url: ${url}`);
+    // 列序：[日期, 开, 收, 低, 高]，取 index 2 作为收盘价。
+    return {
+      time: [
+        ['2026-08-06', 875.0, 876.2, 872.0, 879.0],
+        ['2026-08-07', 877.5, 880.4, 874.0, 883.0],
+        ['2026-08-10', 882.0, 885.1, 879.0, 888.0],
+        ['2026-08-11', 886.0, 889.4, 882.0, 892.0],
+      ],
+    };
+  },
 };
 
 (async () => {
@@ -79,6 +105,17 @@ const okDeps = {
   assert.strictEqual(byKey1.gold.direction, 'down');
   assert.strictEqual(byKey1.cn10y.value, '1.71%');
   assert.strictEqual(byKey1.cn10y.note, '人工核实');
+
+  // === Series: 国内金价带回历史，可点开折线图 ===
+  assert.strictEqual(byKey1.cngold.value, '¥889.40');
+  assert.strictEqual(byKey1.cngold.asOf, '2026-08-11');
+  // 取的是收盘价（index 2），不是开盘价（index 1）
+  assert.deepStrictEqual(byKey1.cngold.series.map(p => p.value), [876.2, 880.4, 885.1, 889.4]);
+
+  // 美债与汇率的历史本来就在响应里，一并接上
+  assert.deepStrictEqual(byKey1.us10y.series.map(p => p.date), ['2026-08-10', '2026-08-11']);
+  assert.ok(!byKey1.gold.series, 'gold has no upstream history, so no series');
+
   assert.strictEqual(report1.errors.length, 0);
   assert.strictEqual(out1.updatedAt, now.toISOString());
 
@@ -157,7 +194,8 @@ const okDeps = {
   assert.strictEqual(byKey2.lpr1y.value, '3.00%');
   assert.strictEqual(byKey2.usdcny.value, '6.7442');
   assert.strictEqual(byKey2.gold.value, '$4,393');
-  assert.strictEqual(report2.refreshed.length, 1); // only treasury CSV survives
+  // 只有 treasury / cngold 两组通过区间校验，其余超范围被拒
+  assert.strictEqual(report2.refreshed.length, 2);
   assert.strictEqual(report2.errors.length, 3);
 
   // Network failure keeps every previous value and never throws
@@ -165,6 +203,10 @@ const okDeps = {
     now,
     getJson: async () => { throw new Error('ECONNRESET'); },
     getText: async () => { throw new Error('ECONNRESET'); },
+    // 新指标走 fetch 通道，这里必须一并打桩，否则「全源失败」的用例会真的
+    // 发出网络请求 —— 既拖慢测试，也让结果随网络波动。
+    fetchJson: async () => { throw new Error('ECONNRESET'); },
+    fetchText: async () => { throw new Error('ECONNRESET'); },
   };
   const macro3 = baseMacro();
   const { macro: out3, report: report3 } = await refreshMacro(macro3, deadDeps);
@@ -173,13 +215,14 @@ const okDeps = {
     baseMacro().indicators.map(ind => ind.value)
   );
   assert.strictEqual(report3.refreshed.length, 0);
-  assert.strictEqual(report3.errors.length, 4);
+  // 每个 refresher 记一条错误：lpr / us10y / usdcny / gold / cngold
+  assert.strictEqual(report3.errors.length, 5);
 
   // Frontend projection keeps only safe fields
   const pub = publicMacro(out1);
   assert.strictEqual(pub.indicators.length, out1.indicators.length);
   assert.ok(pub.indicators.every(ind => Object.keys(ind).every(k =>
-    ['key', 'name', 'value', 'note', 'direction', 'asOf', 'source', 'mode'].includes(k))));
+    ['key', 'name', 'value', 'note', 'direction', 'asOf', 'source', 'mode', 'series'].includes(k))));
   assert.strictEqual(publicMacro(null), null);
 
   // LLM context is compact and factual
@@ -188,10 +231,60 @@ const okDeps = {
   assert.ok(context.includes('美债 10年期 4.70%（截至2026-08-11）'));
   assert.strictEqual(formatMacroContext(null), '');
 
-  // Seeded macro.json stays well-formed and covers the eight board indicators
+  // Seeded macro.json stays well-formed and covers the nine board indicators
   const seeded = JSON.parse(fs.readFileSync(path.join(root, 'data', 'macro.json'), 'utf8'));
-  assert.strictEqual(seeded.indicators.length, 8);
+  assert.strictEqual(seeded.indicators.length, 9);
   assert.ok(seeded.indicators.every(ind => ind.key && ind.name && ind.value && ind.asOf && ind.source && ['auto', 'manual'].includes(ind.mode)));
+
+  // === 序列解析器：坏数据必须被丢掉，不能被插值或前值填充 ===
+  // 上金所：[日期, 开, 收, 低, 高]，取 index 2
+  assert.deepStrictEqual(
+    parseSgeDaily({ time: [['2026-01-05', 870, 875.5, 868, 878]] }, 7),
+    [{ date: '2026-01-05', value: 875.5 }]);
+  // 收盘价落在 [低, 高] 之外 → 说明列序变了，丢弃而不是画错线
+  assert.deepStrictEqual(
+    parseSgeDaily({ time: [['2026-01-05', 870, 999, 868, 878]] }, 7), []);
+  // 列数不足、日期非法、结构异常都要安全返回
+  assert.deepStrictEqual(parseSgeDaily({ time: [['2026-01-05', 870]] }, 7), []);
+  assert.deepStrictEqual(parseSgeDaily({ time: [['05/01/2026', 870, 875, 868, 878]] }, 7), []);
+  assert.deepStrictEqual(parseSgeDaily(null, 7), []);
+  assert.deepStrictEqual(parseSgeDaily({}, 7), []);
+
+  // === publicMacro 对 series 同样做白名单裁剪 ===
+  const dirty = baseMacro();
+  dirty.indicators[0].series = [
+    { date: '2026-01-01', value: 1 },
+    { date: 'bad-date', value: 2 },
+    { date: '2026-01-02', value: NaN },
+    { date: '2026-01-03', value: 3 },
+    { date: '2026-01-04', value: 4 },
+    { date: '2026-01-05', value: 5 },
+    { date: '2026-01-06', value: 6 },
+    { date: '2026-01-07', value: 7 },
+    { date: '2026-01-08', value: 8 },
+    { date: '2026-01-09', value: 9 },
+  ];
+  const dirtyPub = publicMacro(dirty);
+  const lprSeries = dirtyPub.indicators.find(i => i.key === 'lpr1y').series;
+  assert.ok(lprSeries.length <= 7, 'series must be capped at SERIES_LIMIT');
+  // 10 个点里剔掉坏日期与 NaN 后剩 8 个，再取末 7 个 → 从 01-03 开始
+  assert.deepStrictEqual(lprSeries.map(p => p.date),
+    ['2026-01-03', '2026-01-04', '2026-01-05', '2026-01-06', '2026-01-07', '2026-01-08', '2026-01-09']);
+  assert.ok(lprSeries.every(p => Object.keys(p).sort().join() === 'date,value'));
+  // 没有 series 的指标补空数组，前端不必判空
+  assert.deepStrictEqual(dirtyPub.indicators.find(i => i.key === 'gold').series, []);
+
+  // === macro-view.js 静态契约 ===
+  const view = fs.readFileSync(path.join(root, 'scripts', 'macro-view.js'), 'utf8');
+  assert.ok(view.includes('function buildChart('), 'macro-view must render an inline sparkline');
+  assert.ok(view.includes("class=\"macro-detail-chart\""), 'sparkline must be inline SVG, not a CDN chart lib');
+  assert.ok(!/https?:\/\/[^\s'"]*\.js/.test(view), 'macro-view must not pull a chart library from a CDN');
+  assert.ok(view.includes('macro-kpi-expandable'), 'only series-bearing cards may look clickable');
+  assert.ok(view.includes("role=\"button\"") && view.includes("tabindex=\"0\""),
+    'expandable KPI cards must stay keyboard reachable');
+  assert.ok(view.includes('series.length >= 2'), 'a single point cannot form a line');
+  assert.ok(view.includes("event.key === 'Escape'"), 'overlay must close on Escape');
+  assert.ok(view.includes('__macroSeries'), 'series must live on the element, not a stale closure');
 
   console.log('macro tests passed');
 })().catch(error => {

@@ -44,9 +44,46 @@ async function getJson(url) {
   return JSON.parse(await httpGet(url));
 }
 
+// 第二条取数通道：基于内置 fetch（undici）。
+// 实测上金所对 Node 原生 https 的握手会直接 reset（curl 与 fetch 均正常）。
+// 老的指标继续走 httpGet —— 它们已稳定运行，不动；需要 fetch 的走这条。
+async function fetchText(url, timeout) {
+  const res = await fetch(url, {
+    headers: { 'User-Agent': UA },
+    signal: AbortSignal.timeout(timeout || FETCH_TIMEOUT * 2),
+  });
+  if (!res.ok) throw new Error(`HTTP ${res.status} for ${url}`);
+  return res.text();
+}
+
+async function fetchJson(url, timeout) {
+  return JSON.parse(await fetchText(url, timeout));
+}
+
 function inRange(value, min, max) {
   return Number.isFinite(value) && value >= min && value <= max;
 }
+
+// === Series extraction ===
+// The board only ever showed a current value plus one comparison point, so a
+// KPI had nothing to draw when opened. These helpers pull a short daily series
+// out of the same responses the refreshers already fetch, in chronological order.
+//
+// Two hard rules, because a chart silently implies every point is real:
+//   1. a missing observation is dropped, never interpolated or carried forward;
+//   2. the caller caps the length, so a source that suddenly returns years of
+//      history cannot bloat macro.json.
+const SERIES_LIMIT = 7;
+
+function tailOf(list, limit) {
+  const cap = Number.isFinite(limit) && limit > 0 ? limit : SERIES_LIMIT;
+  return list.slice(-cap);
+}
+
+// Eastmoney kline: `data.klines` is ["YYYY-MM-DD,price", ...] oldest first.
+// 说明：曾用它做国内金价（secid=113.aum 沪金主连），但该域名在部分网络下会直接
+// 断开 Node 的连接（curl 正常），最终改用上金所官网。保留这段说明以免后来者重复试。
+
 
 function directionOf(next, prev, tolerance) {
   if (!Number.isFinite(prev)) return 'flat';
@@ -167,6 +204,13 @@ function applyRefresh(indicator, next, formatValue, options) {
   indicator.numericValue = next;
   indicator.asOf = nextAsOf;
   indicator.direction = direction;
+  // 序列只在本次真的抓到历史时覆盖；抓取失败的指标走不到这里，
+  // 因此旧序列不会被失败的一轮抹掉。少于 2 点画不出线，宁可不写。
+  if (Array.isArray(opts.series) && opts.series.length >= 2) {
+    indicator.series = opts.series
+      .filter(point => point && /^\d{4}-\d{2}-\d{2}$/.test(point.date || '') && Number.isFinite(point.value))
+      .map(point => ({ date: point.date, value: point.value }));
+  }
   if (baseline) {
     // Persist whichever baseline won, so an upstream gap on the next run can
     // still fall back to the last known observation instead of losing the comparison.
@@ -193,6 +237,11 @@ function formatFx(value) {
 
 function formatGold(value) {
   return `$${Math.round(value).toLocaleString('en-US')}`;
+}
+
+// 国内金价按克计价，留两位。
+function formatCnGold(value) {
+  return `¥${value.toFixed(2)}`;
 }
 
 // === Refreshers: one per auto indicator group. Each returns { key: { value, asOf } }. ===
@@ -246,7 +295,14 @@ async function refreshUs10y(deps) {
   if (!inRange(latest.value, 0, 15)) throw new Error(`US10Y out of range: ${lines[1]}`);
   const prior = lines[2] ? readRow(lines[2]) : null;
   const previous = prior && Number.isFinite(prior.value) ? { value: prior.value, asOf: prior.asOf } : null;
-  return { us10y: { value: latest.value, asOf: latest.asOf, previous } };
+  // Treasury CSV 是新日期在前，取够条数后翻转成时间正序，图上才不会左右倒置。
+  const series = [];
+  for (let i = 1; i < lines.length && series.length < SERIES_LIMIT; i++) {
+    const row = readRow(lines[i]);
+    if (Number.isFinite(row.value) && row.asOf) series.push({ date: row.asOf, value: row.value });
+  }
+  series.reverse();
+  return { us10y: { value: latest.value, asOf: latest.asOf, series, previous } };
 }
 
 async function refreshUsdCny(deps) {
@@ -265,7 +321,11 @@ async function refreshUsdCny(deps) {
   const priorDate = dates.length >= 2 ? dates[dates.length - 2] : null;
   const priorValue = priorDate ? parseFloat(rates[priorDate].CNY) : NaN;
   const previous = Number.isFinite(priorValue) ? { value: priorValue, asOf: priorDate } : null;
-  return { usdcny: { value, asOf: latestDate, previous } };
+  // frankfurter 本来就返回区间内每一天，之前只取了最后两天，历史白扔了。
+  const series = dates
+    .map(date => ({ date, value: parseFloat(rates[date] && rates[date].CNY) }))
+    .filter(point => /^\d{4}-\d{2}-\d{2}$/.test(point.date) && Number.isFinite(point.value));
+  return { usdcny: { value, asOf: latestDate, series: tailOf(series, SERIES_LIMIT), previous } };
 }
 
 async function refreshGold(deps) {
@@ -278,15 +338,75 @@ async function refreshGold(deps) {
   return { gold: { value, asOf } };
 }
 
+// 国际油价：暂不上线。
+// 曾用 FRED 的 DCOILBRENTEU（EIA 数据，无需 key，带完整历史），但发布滞后
+// 3-5 个交易日 —— 实测 10/27 拿到的最新一点仍是 10/20（115.22），而当日实时
+// 布伦特已是 109.90。作为「参考看板」，展示一周前的油价会误导决策，故移除。
+//
+// 若将来要恢复，注意取舍：
+//   - 腾讯 qt.gtimg.cn/q=hf_OIL 有实时价（含 13:57 级别的盘中更新），但只给快照，
+//     K 线接口对期货不接受常规 param 形式，拿不到历史；
+//     没有历史的卡片刻意不可点，序列要靠每轮采集自存累积。
+//   - 东财 push2his 的 secid=113.aum 一类接口在部分网络下会直接断开 Node 连接，
+//     本地不可测，不宜作为唯一来源。
+
+// 国内金价：上海黄金交易所 Au99.99 日行情，单位元/克，取收盘价。
+// 与已有的 `gold`（现货黄金，美元/盎司）是两套口径，不能互相换算充数。
+// 用上金所官网而不是聚合站：口径最正，且一次请求带回全部历史。
+//
+// 字段顺序 `[日期, 开盘, 收盘, 最低, 最高]` 是实测反推的，不是文档写死的：
+// 官方页面只给了「开盘/收盘/最高/最低」的列名，JSON 里没有字段标识。
+// 判定方法是拿同日的上期所黄金主力收盘价做基差 —— index 2 的基差稳定在
+// ±2.3 元（7 个交易日），index 1 的基差在 -7.8~+10.1 元之间乱跳，差 6 倍。
+// 下面仍保留「收盘价必须落在最低与最高之间」的校验，接口若改版会直接丢点而不是画错线。
+const SGE_CNGOLD_URL = 'https://www.sge.com.cn/graph/Dailyhq?instid=Au99.99';
+
+function parseSgeDaily(json, limit) {
+  const rows = json && Array.isArray(json.time) ? json.time : [];
+  const out = [];
+  rows.forEach(row => {
+    if (!Array.isArray(row) || row.length < 5) return;
+    const date = String(row[0] || '').trim();
+    const close = parseFloat(row[2]);
+    const low = parseFloat(row[3]);
+    const high = parseFloat(row[4]);
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(date) || !Number.isFinite(close)) return;
+    // 区间校验：收盘价必须落在当日最低与最高之间，否则说明列序变了，丢弃该点。
+    if (Number.isFinite(low) && Number.isFinite(high) && (close < low || close > high)) return;
+    out.push({ date, value: close });
+  });
+  return tailOf(out, limit);
+}
+
+async function refreshCnGold(deps) {
+  const getJson2 = deps && typeof deps.fetchJson === 'function' ? deps.fetchJson : fetchJson;
+  const json = await getJson2(SGE_CNGOLD_URL);
+  const series = parseSgeDaily(json, SERIES_LIMIT);
+  if (series.length === 0) throw new Error('cn gold series empty');
+  const latest = series[series.length - 1];
+  if (!inRange(latest.value, 200, 3000)) throw new Error(`cn gold out of range: ${latest.value}`);
+  const prior = series.length >= 2 ? series[series.length - 2] : null;
+  return {
+    cngold: {
+      value: latest.value,
+      asOf: latest.date,
+      series,
+      previous: prior ? { value: prior.value, asOf: prior.date } : null,
+    },
+  };
+}
+
 const AUTO_REFRESHERS = [
   { keys: ['lpr1y', 'lpr5y'], run: refreshLpr, format: formatPercent, tolerance: 0.005, baselineWindowDays: MONTHLY_BASELINE_WINDOW_DAYS },
   { keys: ['us10y'], run: refreshUs10y, format: formatPercent, tolerance: 0.005 },
   { keys: ['usdcny'], run: refreshUsdCny, format: formatFx, tolerance: 0.0005 },
   { keys: ['gold'], run: refreshGold, format: formatGold, tolerance: 1 },
+  // 国内金价带历史序列，卡片在前端可点开看走势；其余端点都是单一快照。
+  { keys: ['cngold'], run: refreshCnGold, format: formatCnGold, tolerance: 0.05 },
 ];
 
 function defaultDeps(now) {
-  return { now: now || new Date(), getJson, getText: httpGet };
+  return { now: now || new Date(), getJson, getText: httpGet, fetchJson, fetchText };
 }
 
 async function refreshMacro(macro, deps) {
@@ -308,6 +428,7 @@ async function refreshMacro(macro, deps) {
           asOf: next.asOf,
           tolerance: refresher.tolerance,
           previous: next.previous,
+          series: next.series,
           baselineWindowDays: refresher.baselineWindowDays,
           now: d.now,
         });
@@ -344,6 +465,14 @@ function publicMacro(macro) {
       asOf: ind.asOf || null,
       source: ind.source || null,
       mode: ind.mode === 'auto' ? 'auto' : 'manual',
+      // 序列同样走白名单：只放行日期和数值，且在这里再裁一次长度与合法性，
+      // 防止 indicator.series 被其他路径写脏后原样流到前端。
+      series: Array.isArray(ind.series)
+        ? ind.series
+          .filter(point => point && /^\d{4}-\d{2}-\d{2}$/.test(point.date || '') && Number.isFinite(point.value))
+          .map(point => ({ date: point.date, value: point.value }))
+          .slice(-SERIES_LIMIT)
+        : [],
     })),
   };
 }
@@ -374,9 +503,11 @@ if (require.main === module) {
 
 module.exports = {
   MACRO_FILE,
+  SERIES_LIMIT,
   defaultDeps,
   formatMacroContext,
   loadMacro,
+  parseSgeDaily,
   publicMacro,
   refreshMacro,
   writeMacro,

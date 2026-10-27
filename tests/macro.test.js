@@ -286,6 +286,21 @@ const okDeps = {
   assert.ok(view.includes("event.key === 'Escape'"), 'overlay must close on Escape');
   assert.ok(view.includes('__macroSeries'), 'series must live on the element, not a stale closure');
 
+  // === 布局契约：可点开的卡片必须排在后面，且网格是 3 列 ===
+  // 可点卡片聚在下排是产品要求；这里锁住实现方式是「改 DOM 顺序」而不是 CSS order，
+  // 因为 order 会让视觉顺序与 Tab 焦点顺序错位。
+  assert.ok(view.includes('snapshotList.concat(expandableList)'),
+    'expandable cards must be grouped last in DOM order, not just visually');
+
+  const css = fs.readFileSync(path.join(root, 'styles.css'), 'utf8');
+  assert.ok(!/\.macro-kpi-expandable\s*\{[^}]*\border\s*:\s*-?\d/.test(css),
+    'ordering must not rely on CSS order — it desyncs Tab focus order from the visual order');
+  const gridBlock = css.slice(css.indexOf('.macro-kpi-grid {'));
+  assert.ok(/repeat\(3, minmax\(0, 1fr\)\)/.test(gridBlock.slice(0, 400)),
+    'macro KPI grid must be 3 columns so the six cards land as 3 + 3');
+  assert.ok(/\.macro-kpi-expandable::before\s*\{[^}]*background:\s*var\(--accent-blue\)/.test(css),
+    'expandable cards need a visible marker, not only cursor:pointer');
+
   console.log('macro tests passed');
 })().catch(error => {
   console.error(error);

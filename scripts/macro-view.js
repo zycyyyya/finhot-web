@@ -259,8 +259,21 @@
     // innerHTML 变得难读，而且点击时才需要。
     var seriesByKey = {};
 
-    var html = '';
+    // 可点开的卡片统一挪到最后：6 项落在 3×2 网格里，
+    // 正好上排全是快照、下排全是可看走势的，同类聚在一起比夹在中间好扫。
+    // 用两遍 filter 做稳定分区而不是 sort —— 同类内部仍按管线给的顺序。
+    // 注意这里改的是 DOM 顺序本身，不用 CSS order：order 会让视觉顺序和
+    // Tab 焦点顺序错开，键盘用户按 Tab 会跳着走。
+    var snapshotList = [];
+    var expandableList = [];
     indicators.forEach(function (ind) {
+      var hasSeries = Array.isArray(ind.series) && ind.series.length >= 2;
+      (hasSeries ? expandableList : snapshotList).push(ind);
+    });
+    var ordered = snapshotList.concat(expandableList);
+
+    var html = '';
+    ordered.forEach(function (ind) {
       var dirClass = ind.direction === 'up' ? 'macro-dir-up' : (ind.direction === 'down' ? 'macro-dir-down' : '');
       var observed = shortDate(ind.asOf);
       var series = Array.isArray(ind.series) ? ind.series : [];
@@ -297,7 +310,7 @@
       // 事件监听只绑一次，所以序列必须存在元素上而不是闭包里 ——
       // 否则第二次 render 换了指标，监听器还在读上一轮的数据。
       gridEl.__macroSeries = seriesByKey;
-      gridEl.__macroIndicators = indicators;
+      gridEl.__macroIndicators = ordered;
       gridEl.innerHTML = html;
       // 事件挂在网格上做委托，重渲染时不必逐卡解绑。
       if (!gridEl.__macroBound) {

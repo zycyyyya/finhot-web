@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-26T18:49:22.637Z",
+  "generatedAt": "2026-10-27T03:34:02.543Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -9,14 +9,10 @@
       "clusterVersion": 2,
       "title": "财报解读｜A股“药王”日赚7106万元，公司再度上调今年收入预期",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-26T18:49:22.637Z",
+      "lastSeenAt": "2026-10-27T03:34:02.543Z",
       "latestItemPublishedAt": "2026-10-26T13:29:13.000Z",
       "primaryItemId": "news_6d236f9a049b",
       "evidenceItemIds": [
-        "news_cbccc19eb29d",
-        "news_571eaaeef0ff",
-        "news_8cdd883c651c",
-        "news_655390834f42",
         "news_3a19acb39eb8",
         "news_06618f6a4418",
         "news_8ceaf5c2c9e1",
@@ -62,25 +58,25 @@
         "news_6d236f9a049b",
         "news_6e7d10704478",
         "news_db6a53b0939a",
-        "news_c2f92b5dd7a3"
+        "news_c2f92b5dd7a3",
+        "news_e3db620c1796",
+        "news_d0dac765c8b5",
+        "news_f3f03c2bd6e5",
+        "news_370629ddb014"
       ],
       "status": "developing",
-      "summary": "A股四大指数集体低开，贵金属、影视等板块跌幅居前",
-      "latestProgress": "A股四大指数集体低开，贵金属、影视等板块跌幅居前"
+      "summary": "A股\"药王\"日赚7106万元，公司再度上调今年收入预期。",
+      "latestProgress": "10月27日A股生物医药板块下挫，该\"药王\"标的股价承压。"
     },
     {
       "eventId": "event_2cf716748ce1",
       "clusterVersion": 2,
-      "title": "酝酿一年多 央行正式推出面向非银机构的债市流动性支持工具",
+      "title": "全球央行黄金储备现分化！分析师：影响有限，不改金价长期上涨趋势",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-26T18:49:22.637Z",
-      "latestItemPublishedAt": "2026-10-26T12:34:39.000Z",
-      "primaryItemId": "news_0d2b928ecf62",
+      "lastSeenAt": "2026-10-27T03:34:02.543Z",
+      "latestItemPublishedAt": "2026-10-27T02:46:42.000Z",
+      "primaryItemId": "news_54610b02dc2f",
       "evidenceItemIds": [
-        "news_1ac578b8792b",
-        "news_be20915b924e",
-        "news_38fc8af548e4",
-        "news_cfc332e9ddc9",
         "news_bc6db1358a53",
         "news_9fbff9180326",
         "news_407554acd08b",
@@ -126,20 +122,24 @@
         "news_7df5742e25ba",
         "news_0d2b928ecf62",
         "news_369b768aa546",
-        "news_54610b02dc2f"
+        "news_54610b02dc2f",
+        "news_1a1ad99a6c02",
+        "news_99850c8ffa99",
+        "news_ac0656b4974e",
+        "news_920727afc8d9"
       ],
       "status": "developing",
-      "summary": "德国央行发布报告预警德国经济第三季度可能陷入停滞。",
-      "latestProgress": "超级央行周来临，市场预期欧央行或暂缓加息支撑经济。"
+      "summary": "多国央行出台债市流动性支持工具，全球央行黄金储备现分化，分析师称不改金价长期涨势",
+      "latestProgress": "10月27日央行设立债市非银大额赎回互换便利，为债市新增稳定器"
     },
     {
       "eventId": "event_81903830edd9",
       "clusterVersion": 2,
-      "title": "中国证监会有关部门负责人就《违规转让证券案件行政处罚实施规则》答记者问",
+      "title": "中国证监会就《证券市场先行赔付指导意见》公开征求意见",
       "firstSeenAt": "2026-10-19T15:45:09.770Z",
-      "lastSeenAt": "2026-10-26T18:49:22.637Z",
+      "lastSeenAt": "2026-10-27T03:34:02.543Z",
       "latestItemPublishedAt": "2026-10-18T19:52:26.000Z",
-      "primaryItemId": "news_29d1bc110417",
+      "primaryItemId": "news_c61e8342121c",
       "evidenceItemIds": [
         "news_c61e8342121c",
         "news_b086a9025dff",
@@ -154,34 +154,11 @@
       "latestProgress": "2026年10月18日中国证监会同步发布《违规转让证券案件行政处罚实施规则》并答记者问。"
     },
     {
-      "eventId": "event_294387429284",
-      "clusterVersion": 2,
-      "title": "日本9月CPI通胀升至9个月高点，超越日本央行目标",
-      "firstSeenAt": "2026-10-16T16:49:31.035Z",
-      "lastSeenAt": "2026-10-26T18:49:22.637Z",
-      "latestItemPublishedAt": "2026-10-23T12:03:35.000Z",
-      "primaryItemId": "news_f9ba962a6611",
-      "evidenceItemIds": [
-        "news_a9f7e6a7069d",
-        "news_43131ce49d34",
-        "news_67379ab3d587",
-        "news_12c6c3b1ca4e",
-        "news_a49bd63570e0",
-        "news_d4533d90f614",
-        "news_e892bdc3705a",
-        "news_f9ba962a6611",
-        "news_afe4fb349bc3"
-      ],
-      "status": "developing",
-      "summary": "日本9月CPI通胀升至9个月高点，超出日本央行通胀目标。",
-      "latestProgress": "日本9月CPI通胀升至9个月高点，超越日本央行通胀目标。"
-    },
-    {
       "eventId": "event_b5a7fc74ea4f",
       "clusterVersion": 2,
       "title": "中国证监会就《私募投资母基金管理规定（征求意见稿）》公开征求意见",
       "firstSeenAt": "2026-10-23T13:37:20.063Z",
-      "lastSeenAt": "2026-10-26T18:49:22.637Z",
+      "lastSeenAt": "2026-10-27T03:34:02.543Z",
       "latestItemPublishedAt": "2026-10-23T09:22:51.000Z",
       "primaryItemId": "news_521509778cba",
       "evidenceItemIds": [
@@ -198,7 +175,7 @@
       "clusterVersion": 2,
       "title": "美国银行证券：三季度财报前最值得关注的基础设施软件股",
       "firstSeenAt": "2026-10-20T13:42:04.100Z",
-      "lastSeenAt": "2026-10-26T18:49:22.637Z",
+      "lastSeenAt": "2026-10-27T03:34:02.543Z",
       "latestItemPublishedAt": "2026-10-26T10:26:16.000Z",
       "primaryItemId": "news_bdfc92fa84c8",
       "evidenceItemIds": [
@@ -217,16 +194,16 @@
         "news_9daafc1c77e6"
       ],
       "status": "developing",
-      "summary": "巴克莱前CEO表示美国利率或将在高位维持更长时间。",
-      "latestProgress": "巴克莱前CEO最新发声称美国利率或长期维持高位。"
+      "summary": "美国银行证券发布三季度财报前值得关注的基础设施软件股推荐名单。",
+      "latestProgress": "美银证券已公布三季度财报前最值得关注的基础设施软件股相关标的。"
     },
     {
       "eventId": "event_3df1f5b05e3d",
       "clusterVersion": 2,
       "title": "财联社10月26日电，纳斯达克ETF华夏(513300)将于2026年10月27日开市起至当日10:30停牌。",
       "firstSeenAt": "2026-10-25T13:17:48.173Z",
-      "lastSeenAt": "2026-10-26T18:49:22.637Z",
-      "latestItemPublishedAt": "2026-10-26T11:07:34.000Z",
+      "lastSeenAt": "2026-10-27T03:34:02.543Z",
+      "latestItemPublishedAt": "2026-10-26T11:07:36.000Z",
       "primaryItemId": "news_268a8fe96c51",
       "evidenceItemIds": [
         "news_944e21fdcb58",
@@ -235,20 +212,21 @@
         "news_a19503eac090",
         "news_268a8fe96c51",
         "news_94a8416b6583",
-        "news_deccf3a9940d"
+        "news_deccf3a9940d",
+        "news_2b49cad6a120"
       ],
       "status": "developing",
-      "summary": "多只纳指相关ETF将于2026年10月26日开市起停牌至10:30",
-      "latestProgress": "华安纳斯达克ETF停牌期间赎回业务照常办理，其余纳指ETF10:30复牌"
+      "summary": "财联社10月26日电，三只纳斯达克相关ETF均宣布2026年10月27日开市至10:30停牌。",
+      "latestProgress": "三只纳斯达克相关ETF确定将于2026年10月27日开市至10:30停牌。"
     },
     {
       "eventId": "event_f3e4ae8ce24b",
       "clusterVersion": 2,
-      "title": "财联社10月26日电，纳指ETF富国(513870)将于2026年10月27日开市起至当日10:30停牌。",
+      "title": "财联社10月26日电，全球芯片LOF(501225)将于2026年10月27日开市起至当日10:30停牌。",
       "firstSeenAt": "2026-10-25T13:17:48.173Z",
-      "lastSeenAt": "2026-10-26T18:49:22.637Z",
+      "lastSeenAt": "2026-10-27T03:34:02.543Z",
       "latestItemPublishedAt": "2026-10-26T11:07:37.000Z",
-      "primaryItemId": "news_2b49cad6a120",
+      "primaryItemId": "news_8a98bb1ce882",
       "evidenceItemIds": [
         "news_a19503eac090",
         "news_e4fd97b82903",
@@ -258,17 +236,17 @@
         "news_946a30ceeee6"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "财联社10月26日电，三只跨境ETF将于2026年10月27日开市至10:30停牌。",
+      "latestProgress": "纳指ETF国泰、纳指ETF富国、全球芯片LOF均公告10月27日开市至10:30停牌。"
     },
     {
       "eventId": "event_f101880ef7bc",
       "clusterVersion": 2,
-      "title": "陶冬：美股巨震，是熊市来临还是重新洗牌？",
+      "title": "美股异动 | 马斯克预警：200多家AI云厂商面临清洗 新云概念股一度大跌",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-26T18:49:22.637Z",
-      "latestItemPublishedAt": "2026-10-26T11:37:08.000Z",
-      "primaryItemId": "news_909a3e272368",
+      "lastSeenAt": "2026-10-27T03:34:02.543Z",
+      "latestItemPublishedAt": "2026-10-26T07:05:43.000Z",
+      "primaryItemId": "news_fdf543cddeb1",
       "evidenceItemIds": [
         "news_9e9ede62dfb6",
         "news_d23d92ef6496",
@@ -322,31 +300,33 @@
         "news_fdf543cddeb1"
       ],
       "status": "developing",
-      "summary": "2026年10月23日美股主要股指全线收跌，道指跌超650点，芯片股反弹，油价大涨，现货黄金失守4000美元关口",
-      "latestProgress": "2026年10月24日美股三大指数集体收跌，油气股大涨"
+      "summary": "马斯克预警200多家AI云厂商面临清洗，新云概念股美股大跌。",
+      "latestProgress": "陶冬就美股巨震发声，分析其是熊市来临还是行业重新洗牌。"
     },
     {
       "eventId": "event_39172c5217d2",
       "clusterVersion": 2,
       "title": "Anthropic正式提交纳斯达克IPO申请，股票代码定为“ANT”",
       "firstSeenAt": "2026-10-26T15:19:02.422Z",
-      "lastSeenAt": "2026-10-26T18:49:22.637Z",
-      "latestItemPublishedAt": "2026-10-26T13:07:25.000Z",
+      "lastSeenAt": "2026-10-27T03:34:02.543Z",
+      "latestItemPublishedAt": "2026-10-27T02:16:14.000Z",
       "primaryItemId": "news_555bfb13b256",
       "evidenceItemIds": [
         "news_555bfb13b256",
-        "news_3d8431b18bdb"
+        "news_3d8431b18bdb",
+        "news_31d4f1350d1f",
+        "news_d47e1a06313b"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "Anthropic正式提交纳斯达克IPO申请，股票代码定为\"ANT\"",
+      "latestProgress": "Anthropic公开提交IPO招股文件，拟在纳斯达克上市，加入全球AI融资竞赛"
     },
     {
       "eventId": "event_02b2e1e16d40",
       "clusterVersion": 2,
       "title": "韩国7900名富豪净卖三星海力士1483亿韩元，转买杠杆芯片ETF",
       "firstSeenAt": "2026-10-26T15:19:02.422Z",
-      "lastSeenAt": "2026-10-26T18:49:22.637Z",
+      "lastSeenAt": "2026-10-27T03:34:02.543Z",
       "latestItemPublishedAt": "2026-10-26T10:36:00.000Z",
       "primaryItemId": "news_f4107d579a92",
       "evidenceItemIds": [
@@ -354,33 +334,36 @@
         "news_3b399836ba80"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "韩国7900名富豪净抛售三星、海力士股票1483亿韩元，转买杠杆芯片ETF",
+      "latestProgress": "该资金流向异动已被披露，韩国富豪正从个股转向杠杆芯片ETF配置"
     },
     {
       "eventId": "event_5cd501f07c8b",
       "clusterVersion": 2,
-      "title": "中信证券发布三季报：前三季利润增32.66%，单季波动不掩年内向好",
+      "title": "港股公告精选｜中信证券三季度盈利同比下滑约两成 药明康德前三季净赚超190亿元",
       "firstSeenAt": "2026-10-26T15:19:02.422Z",
-      "lastSeenAt": "2026-10-26T18:49:22.637Z",
-      "latestItemPublishedAt": "2026-10-26T15:39:40.000Z",
-      "primaryItemId": "news_dab50852fdc7",
+      "lastSeenAt": "2026-10-27T03:34:02.543Z",
+      "latestItemPublishedAt": "2026-10-27T01:41:00.000Z",
+      "primaryItemId": "news_040e985c6d98",
       "evidenceItemIds": [
         "news_515ee38a5e45",
         "news_040e985c6d98",
         "news_2f039a8d799d",
-        "news_dab50852fdc7"
+        "news_dab50852fdc7",
+        "news_7df1fe4c92ea",
+        "news_4ca3d5ab1b87",
+        "news_6e20169236bf"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "港股公告：中信证券Q3净利降两成，药明康德前三季净赚超190亿，头部券商普遍承压",
+      "latestProgress": "中信证券预计26Q4国内铝价22500元/吨，称黄金买盘韧性支撑价格"
     },
     {
       "eventId": "event_589a8b734271",
       "clusterVersion": 2,
       "title": "AI进化速递丨小鹏Robotaxi获批L4级示范运营资质",
       "firstSeenAt": "2026-10-26T15:19:02.422Z",
-      "lastSeenAt": "2026-10-26T18:49:22.637Z",
+      "lastSeenAt": "2026-10-27T03:34:02.543Z",
       "latestItemPublishedAt": "2026-10-26T12:39:51.000Z",
       "primaryItemId": "news_f7d52e110413",
       "evidenceItemIds": [
@@ -388,17 +371,17 @@
         "news_743a3efe007f"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "小鹏Robotaxi正式获批L4级自动驾驶示范运营资质",
+      "latestProgress": "小鹏Robotaxi已取得L4级示范运营资质"
     },
     {
       "eventId": "event_6ab2a13609c6",
       "clusterVersion": 2,
-      "title": "金融条件收紧≠加息结束！高盛预计：美联储10月暂缓、12月加息",
+      "title": "Anthropic申请IPO提振科技股，美股期货走高；美联储会议及财报季备受关注",
       "firstSeenAt": "2026-10-08T06:40:59.994Z",
-      "lastSeenAt": "2026-10-26T15:19:02.422Z",
-      "latestItemPublishedAt": "2026-10-26T09:40:49.000Z",
-      "primaryItemId": "news_832c9498bc51",
+      "lastSeenAt": "2026-10-27T03:34:02.543Z",
+      "latestItemPublishedAt": "2026-10-26T16:10:24.000Z",
+      "primaryItemId": "news_b4687f12bad7",
       "evidenceItemIds": [
         "news_1d0c31b07d1b",
         "news_ecab20992500",
@@ -445,7 +428,11 @@
         "news_832c9498bc51",
         "news_a954c26a603b",
         "news_a1e84522200a",
-        "news_fbc557946129"
+        "news_fbc557946129",
+        "news_337a2f49bdae",
+        "news_7283533381eb",
+        "news_150dca148c9f",
+        "news_b4687f12bad7"
       ],
       "status": "developing",
       "summary": "美股财报季高潮来袭，AI交易走势能否顶住美联储压力受关注",
@@ -454,18 +441,12 @@
     {
       "eventId": "event_c68d651d4ff9",
       "clusterVersion": 2,
-      "title": "发行频繁推迟，港股IPO开始“临门刹车",
+      "title": "港股异动 | 中集安瑞科(03899)绩后涨超7% 三季度归母净利同比增加47.1% 清洁能源分部收益表现亮眼",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-10-26T15:19:02.422Z",
-      "latestItemPublishedAt": "2026-10-26T04:11:56.000Z",
-      "primaryItemId": "news_c0135a5caf1c",
+      "lastSeenAt": "2026-10-27T03:34:02.543Z",
+      "latestItemPublishedAt": "2026-10-27T01:32:09.000Z",
+      "primaryItemId": "news_4ae42929d8ef",
       "evidenceItemIds": [
-        "news_2d4304838bb9",
-        "news_f3c2854da432",
-        "news_726f1425e78d",
-        "news_6cd07080a387",
-        "news_db8538a8597f",
-        "news_4f4bbb99dcaf",
         "news_72a1665a05a8",
         "news_6e9a0e9f8dff",
         "news_e2499851b5f1",
@@ -509,11 +490,184 @@
         "news_7844928506be",
         "news_b27fac4a489e",
         "news_3bec638b7da0",
-        "news_e23ed3375cb6"
+        "news_e23ed3375cb6",
+        "news_dd2c563e3444",
+        "news_e1ac968d3bd0",
+        "news_1da38c08debb",
+        "news_49bb0a55fec7",
+        "news_4ae42929d8ef",
+        "news_fec775f073f5"
       ],
       "status": "developing",
       "summary": "华虹宏力早盘跌近8%，因下周四将发三季报且高盛指业绩指引逊预期",
       "latestProgress": "华虹宏力将于下周四披露三季度业绩，市场对其实际表现保持关注"
+    },
+    {
+      "eventId": "event_a2bdeb10af7f",
+      "clusterVersion": 2,
+      "title": "【市场动态】城堡投资Salame警示AI融资风险：浪潮之下“一些船会沉没”",
+      "firstSeenAt": "2026-10-27T03:34:02.543Z",
+      "lastSeenAt": "2026-10-27T03:34:02.543Z",
+      "latestItemPublishedAt": "2026-10-27T00:59:10.000Z",
+      "primaryItemId": "news_299b3adc1927",
+      "evidenceItemIds": [
+        "news_299b3adc1927",
+        "news_84053d1fcbe9"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_519b0dbcfdc9",
+      "clusterVersion": 2,
+      "title": "Anthropic发招股书 上半年收入同比增长1300%但净亏损807亿美元",
+      "firstSeenAt": "2026-10-27T03:34:02.543Z",
+      "lastSeenAt": "2026-10-27T03:34:02.543Z",
+      "latestItemPublishedAt": "2026-10-27T00:40:04.000Z",
+      "primaryItemId": "news_07b49ee66583",
+      "evidenceItemIds": [
+        "news_07b49ee66583",
+        "news_11ca6174ed32"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_176279fbe2e9",
+      "clusterVersion": 2,
+      "title": "中国9月规模以上工业企业利润同比 14.4%，前值 4.2%",
+      "firstSeenAt": "2026-10-27T03:34:02.543Z",
+      "lastSeenAt": "2026-10-27T03:34:02.543Z",
+      "latestItemPublishedAt": "2026-10-27T01:33:00.000Z",
+      "primaryItemId": "news_fa723af8a349",
+      "evidenceItemIds": [
+        "news_fa723af8a349",
+        "news_9cbeb1910b19"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_8289c45a4eaf",
+      "clusterVersion": 2,
+      "title": "明年芯片出货量超百万颗？寒武纪董事长否认",
+      "firstSeenAt": "2026-10-27T03:34:02.543Z",
+      "lastSeenAt": "2026-10-27T03:34:02.543Z",
+      "latestItemPublishedAt": "2026-10-27T00:00:11.000Z",
+      "primaryItemId": "news_96fbe09af77a",
+      "evidenceItemIds": [
+        "news_96fbe09af77a",
+        "news_80b912b487a3"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_24b4e0739386",
+      "clusterVersion": 2,
+      "title": "华尔街见闻早餐FM-Radio | 2026年10月27日",
+      "firstSeenAt": "2026-10-27T03:34:02.543Z",
+      "lastSeenAt": "2026-10-27T03:34:02.543Z",
+      "latestItemPublishedAt": "2026-10-26T23:03:56.000Z",
+      "primaryItemId": "news_aac267792285",
+      "evidenceItemIds": [
+        "news_aac267792285",
+        "news_4a6b13f56ecb"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_107dde79d87b",
+      "clusterVersion": 2,
+      "title": "财联社10月27日电，苹果期货主力合约持续下挫跌近4%，报5380元/吨，本月累计已下跌21%。",
+      "firstSeenAt": "2026-10-27T03:34:02.543Z",
+      "lastSeenAt": "2026-10-27T03:34:02.543Z",
+      "latestItemPublishedAt": "2026-10-27T01:57:47.000Z",
+      "primaryItemId": "news_55760a211718",
+      "evidenceItemIds": [
+        "news_55760a211718",
+        "news_e6b54a75fb22"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_d54d7f0b8aa9",
+      "clusterVersion": 2,
+      "title": "SpaceX与Apollo签署约400亿美元GPU设备融资租赁协议",
+      "firstSeenAt": "2026-10-27T03:34:02.543Z",
+      "lastSeenAt": "2026-10-27T03:34:02.543Z",
+      "latestItemPublishedAt": "2026-10-26T13:00:11.000Z",
+      "primaryItemId": "news_35a690ee6905",
+      "evidenceItemIds": [
+        "news_35a690ee6905",
+        "news_6a105517c543"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_71bc386c0cd4",
+      "clusterVersion": 2,
+      "title": "格力电器：前三季度归母净利润172.74亿元，同比下降19.51%",
+      "firstSeenAt": "2026-10-27T03:34:02.543Z",
+      "lastSeenAt": "2026-10-27T03:34:02.543Z",
+      "latestItemPublishedAt": "2026-10-26T12:35:56.000Z",
+      "primaryItemId": "news_af926cd12fdf",
+      "evidenceItemIds": [
+        "news_af926cd12fdf",
+        "news_f4c2e059138d"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_19941d96e8ac",
+      "clusterVersion": 2,
+      "title": "盛新锂能(002240.SZ)发布前三季度业绩，归母净利润12.32亿元，同比增长263.76%",
+      "firstSeenAt": "2026-10-27T03:34:02.543Z",
+      "lastSeenAt": "2026-10-27T03:34:02.543Z",
+      "latestItemPublishedAt": "2026-10-26T10:23:20.000Z",
+      "primaryItemId": "news_62d4025b5d9f",
+      "evidenceItemIds": [
+        "news_62d4025b5d9f",
+        "news_a787848684e8"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_294387429284",
+      "clusterVersion": 2,
+      "title": "日本9月CPI通胀升至9个月高点，超越日本央行目标",
+      "firstSeenAt": "2026-10-16T16:49:31.035Z",
+      "lastSeenAt": "2026-10-26T18:49:22.637Z",
+      "latestItemPublishedAt": "2026-10-23T12:03:35.000Z",
+      "primaryItemId": "news_f9ba962a6611",
+      "evidenceItemIds": [
+        "news_a9f7e6a7069d",
+        "news_43131ce49d34",
+        "news_67379ab3d587",
+        "news_12c6c3b1ca4e",
+        "news_a49bd63570e0",
+        "news_d4533d90f614",
+        "news_e892bdc3705a",
+        "news_f9ba962a6611",
+        "news_afe4fb349bc3"
+      ],
+      "status": "developing",
+      "summary": "日本9月CPI通胀升至9个月高点，超出日本央行通胀目标。",
+      "latestProgress": "日本9月CPI通胀升至9个月高点，超越日本央行通胀目标。"
     },
     {
       "eventId": "event_fbb6928f5453",

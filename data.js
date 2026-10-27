@@ -11628,7 +11628,7 @@ window.FINHOT_DATA = {
     "retentionDays": 90
   },
   "macro": {
-    "updatedAt": "2026-10-27T05:18:50.092Z",
+    "updatedAt": "2026-10-27T06:00:52.071Z",
     "indicators": [
       {
         "key": "lpr1y",
@@ -11638,7 +11638,8 @@ window.FINHOT_DATA = {
         "direction": "flat",
         "asOf": "2026-10-20",
         "source": "中国货币网",
-        "mode": "auto"
+        "mode": "auto",
+        "series": []
       },
       {
         "key": "lpr5y",
@@ -11648,7 +11649,8 @@ window.FINHOT_DATA = {
         "direction": "flat",
         "asOf": "2026-10-20",
         "source": "中国货币网",
-        "mode": "auto"
+        "mode": "auto",
+        "series": []
       },
       {
         "key": "cn10y",
@@ -11658,7 +11660,8 @@ window.FINHOT_DATA = {
         "direction": "down",
         "asOf": "2026-08-11",
         "source": "中国货币网",
-        "mode": "manual"
+        "mode": "manual",
+        "series": []
       },
       {
         "key": "deposit3y",
@@ -11668,7 +11671,8 @@ window.FINHOT_DATA = {
         "direction": "down",
         "asOf": "2026-08-11",
         "source": "五大行官网",
-        "mode": "manual"
+        "mode": "manual",
+        "series": []
       },
       {
         "key": "us10y",
@@ -11678,7 +11682,37 @@ window.FINHOT_DATA = {
         "direction": "flat",
         "asOf": "2026-10-26",
         "source": "美国财政部",
-        "mode": "auto"
+        "mode": "auto",
+        "series": [
+          {
+            "date": "2026-10-16",
+            "value": 5.09
+          },
+          {
+            "date": "2026-10-19",
+            "value": 5.15
+          },
+          {
+            "date": "2026-10-20",
+            "value": 5.12
+          },
+          {
+            "date": "2026-10-21",
+            "value": 5.13
+          },
+          {
+            "date": "2026-10-22",
+            "value": 4.96
+          },
+          {
+            "date": "2026-10-23",
+            "value": 5
+          },
+          {
+            "date": "2026-10-26",
+            "value": 5
+          }
+        ]
       },
       {
         "key": "fedRate",
@@ -11688,7 +11722,8 @@ window.FINHOT_DATA = {
         "direction": "flat",
         "asOf": "2026-08-11",
         "source": "美联储",
-        "mode": "manual"
+        "mode": "manual",
+        "series": []
       },
       {
         "key": "usdcny",
@@ -11698,17 +11733,88 @@ window.FINHOT_DATA = {
         "direction": "down",
         "asOf": "2026-10-26",
         "source": "Frankfurter/ECB",
-        "mode": "auto"
+        "mode": "auto",
+        "series": [
+          {
+            "date": "2026-10-16",
+            "value": 6.6862
+          },
+          {
+            "date": "2026-10-19",
+            "value": 6.6807
+          },
+          {
+            "date": "2026-10-20",
+            "value": 6.678
+          },
+          {
+            "date": "2026-10-21",
+            "value": 6.6761
+          },
+          {
+            "date": "2026-10-22",
+            "value": 6.6743
+          },
+          {
+            "date": "2026-10-23",
+            "value": 6.6702
+          },
+          {
+            "date": "2026-10-26",
+            "value": 6.6681
+          }
+        ]
       },
       {
         "key": "gold",
         "name": "现货黄金",
-        "value": "$4,009",
-        "note": "较10月26日 $4,016 下降",
+        "value": "$4,010",
+        "note": "较10月21日 $4,116 下降",
         "direction": "down",
         "asOf": "2026-10-27",
         "source": "gold-api.com",
-        "mode": "auto"
+        "mode": "auto",
+        "series": []
+      },
+      {
+        "key": "cngold",
+        "name": "国内金价",
+        "value": "¥861.41",
+        "note": "较10月23日 ¥864.00 下降",
+        "direction": "down",
+        "asOf": "2026-10-26",
+        "source": "上海黄金交易所 Au99.99",
+        "mode": "auto",
+        "series": [
+          {
+            "date": "2026-10-16",
+            "value": 901.57
+          },
+          {
+            "date": "2026-10-19",
+            "value": 900.89
+          },
+          {
+            "date": "2026-10-20",
+            "value": 889.78
+          },
+          {
+            "date": "2026-10-21",
+            "value": 887.5
+          },
+          {
+            "date": "2026-10-22",
+            "value": 880.3
+          },
+          {
+            "date": "2026-10-23",
+            "value": 864
+          },
+          {
+            "date": "2026-10-26",
+            "value": 861.41
+          }
+        ]
       }
     ]
   },

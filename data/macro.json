@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-10-27T06:00:52.071Z",
+  "updatedAt": "2026-10-27T09:50:22.391Z",
   "note": "auto 指标由 scripts/macro.js 每日自动刷新；manual 指标为人工核实值，核实日期见 asOf。",
   "indicators": [
     {
@@ -169,18 +169,14 @@
     {
       "key": "cngold",
       "name": "国内金价",
-      "value": "¥861.41",
-      "numericValue": 861.41,
-      "note": "较10月23日 ¥864.00 下降",
+      "value": "¥860.31",
+      "numericValue": 860.31,
+      "note": "较10月26日 ¥861.41 下降",
       "direction": "down",
-      "asOf": "2026-10-26",
+      "asOf": "2026-10-27",
       "source": "上海黄金交易所 Au99.99",
       "mode": "auto",
       "series": [
-        {
-          "date": "2026-10-16",
-          "value": 901.57
-        },
         {
           "date": "2026-10-19",
           "value": 900.89
@@ -204,11 +200,15 @@
         {
           "date": "2026-10-26",
           "value": 861.41
+        },
+        {
+          "date": "2026-10-27",
+          "value": 860.31
         }
       ],
-      "prevValue": "¥864.00",
-      "prevNumericValue": 864,
-      "prevAsOf": "2026-10-23"
+      "prevValue": "¥861.41",
+      "prevNumericValue": 861.41,
+      "prevAsOf": "2026-10-26"
     }
   ]
 }

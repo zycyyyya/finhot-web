@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-28T15:18:48.907Z",
+  "generatedAt": "2026-10-28T18:25:30.231Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -9,7 +9,7 @@
       "clusterVersion": 2,
       "title": "宇树科技带领“双创”拉升，A股能否再现板块轮动？｜市场观察",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-28T15:18:48.907Z",
+      "lastSeenAt": "2026-10-28T18:25:30.231Z",
       "latestItemPublishedAt": "2026-10-28T14:24:30.000Z",
       "primaryItemId": "news_1ac31b2352b1",
       "evidenceItemIds": [
@@ -73,12 +73,10 @@
       "clusterVersion": 2,
       "title": "加拿大央行加息至2.5%，并称可能还需进一步加息",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-28T15:18:48.907Z",
-      "latestItemPublishedAt": "2026-10-28T13:45:59.000Z",
+      "lastSeenAt": "2026-10-28T18:25:30.231Z",
+      "latestItemPublishedAt": "2026-10-28T16:24:37.000Z",
       "primaryItemId": "news_764a54ec02e0",
       "evidenceItemIds": [
-        "news_82a49203aabf",
-        "news_cbff58a02c03",
         "news_4b83ded2e166",
         "news_7af241171939",
         "news_3b68eac4230d",
@@ -126,7 +124,9 @@
         "news_858ad20596aa",
         "news_b795e54f2ba3",
         "news_5e3739171915",
-        "news_764a54ec02e0"
+        "news_764a54ec02e0",
+        "news_23b9b517fb6c",
+        "news_785885f9c534"
       ],
       "status": "developing",
       "summary": "央行设立债市非银流动性支持工具，明确救急不兜底稳债市",
@@ -137,7 +137,7 @@
       "clusterVersion": 2,
       "title": "中国证监会就《证券市场先行赔付指导意见》公开征求意见",
       "firstSeenAt": "2026-10-19T15:45:09.770Z",
-      "lastSeenAt": "2026-10-28T15:18:48.907Z",
+      "lastSeenAt": "2026-10-28T18:25:30.231Z",
       "latestItemPublishedAt": "2026-10-18T19:52:26.000Z",
       "primaryItemId": "news_c61e8342121c",
       "evidenceItemIds": [
@@ -158,11 +158,10 @@
       "clusterVersion": 2,
       "title": "美联储\"金融条件之争\"公开化：哈马克要求加息，威廉姆斯则倾向等待",
       "firstSeenAt": "2026-10-08T06:40:59.994Z",
-      "lastSeenAt": "2026-10-28T15:18:48.907Z",
-      "latestItemPublishedAt": "2026-10-28T13:18:18.000Z",
+      "lastSeenAt": "2026-10-28T18:25:30.231Z",
+      "latestItemPublishedAt": "2026-10-28T18:00:33.000Z",
       "primaryItemId": "news_810009bdd40b",
       "evidenceItemIds": [
-        "news_a17e98dc402b",
         "news_c3d63417f749",
         "news_68e9d0c16666",
         "news_c58f0c74ae4b",
@@ -211,7 +210,8 @@
         "news_3715d126fa2d",
         "news_d2e45d226227",
         "news_6ef6bb77a30e",
-        "news_810009bdd40b"
+        "news_810009bdd40b",
+        "news_6694e4a341d9"
       ],
       "status": "developing",
       "summary": "Anthropic申请IPO提振科技股，美联储会议及财报季备受关注。",
@@ -222,7 +222,7 @@
       "clusterVersion": 2,
       "title": "掘金5530亿智能驾驶蓝海，寅家科技冲刺港股",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-10-28T15:18:48.907Z",
+      "lastSeenAt": "2026-10-28T18:25:30.231Z",
       "latestItemPublishedAt": "2026-10-28T12:56:35.000Z",
       "primaryItemId": "news_92417e213a51",
       "evidenceItemIds": [
@@ -286,11 +286,10 @@
       "clusterVersion": 2,
       "title": "美股最可靠的警报灯亮了！历史两次闪烁后，都迎来大熊市",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-28T15:18:48.907Z",
-      "latestItemPublishedAt": "2026-10-28T14:42:34.000Z",
+      "lastSeenAt": "2026-10-28T18:25:30.231Z",
+      "latestItemPublishedAt": "2026-10-28T17:37:15.000Z",
       "primaryItemId": "news_e6555a9caacc",
       "evidenceItemIds": [
-        "news_bc3ef0ffc52e",
         "news_f57cec5bfbbe",
         "news_5a8eb6e8e1cb",
         "news_8e842b2c9fe4",
@@ -339,7 +338,8 @@
         "news_e0e0571e62ca",
         "news_a29cf45aa4e3",
         "news_2efd576772ec",
-        "news_9e847becf141"
+        "news_9e847becf141",
+        "news_737efbd0b9e2"
       ],
       "status": "developing",
       "summary": "多家机构依据历史规律、AI盈利预期等判断美股已完成年内最后一跌，是买入时机。",
@@ -350,7 +350,7 @@
       "clusterVersion": 2,
       "title": "中国平安前三季度实现稳健增长，归母营运利润同比增8.3%，归母净资产较年初增4.4%",
       "firstSeenAt": "2026-10-28T10:34:32.772Z",
-      "lastSeenAt": "2026-10-28T15:18:48.907Z",
+      "lastSeenAt": "2026-10-28T18:25:30.231Z",
       "latestItemPublishedAt": "2026-10-28T09:44:10.000Z",
       "primaryItemId": "news_a2e59b68966c",
       "evidenceItemIds": [
@@ -366,7 +366,7 @@
       "clusterVersion": 2,
       "title": "Q3净利同比增超500%！780亿存储概念股发布三季报|盘后公告集锦",
       "firstSeenAt": "2026-10-27T14:43:00.107Z",
-      "lastSeenAt": "2026-10-28T15:18:48.907Z",
+      "lastSeenAt": "2026-10-28T18:25:30.231Z",
       "latestItemPublishedAt": "2026-10-28T12:55:43.000Z",
       "primaryItemId": "news_7d9cc795c5a2",
       "evidenceItemIds": [
@@ -383,7 +383,7 @@
       "clusterVersion": 2,
       "title": "8000亿元新型政策性金融工具投放完成 聚焦数字经济和人工智能等",
       "firstSeenAt": "2026-10-28T15:18:48.907Z",
-      "lastSeenAt": "2026-10-28T15:18:48.907Z",
+      "lastSeenAt": "2026-10-28T18:25:30.231Z",
       "latestItemPublishedAt": "2026-10-28T13:31:58.000Z",
       "primaryItemId": "news_9d33ae854054",
       "evidenceItemIds": [
@@ -399,7 +399,7 @@
       "clusterVersion": 2,
       "title": "佰维存储：前三季度归母净利润87.68亿元，同比增长28728.12%",
       "firstSeenAt": "2026-10-28T15:18:48.907Z",
-      "lastSeenAt": "2026-10-28T15:18:48.907Z",
+      "lastSeenAt": "2026-10-28T18:25:30.231Z",
       "latestItemPublishedAt": "2026-10-28T12:33:02.000Z",
       "primaryItemId": "news_bb89a61930e5",
       "evidenceItemIds": [
@@ -415,12 +415,76 @@
       "clusterVersion": 2,
       "title": "欲放宽甲烷排放监管、松绑对俄能源限制，特朗普中期选举前“示好”美国油气行业",
       "firstSeenAt": "2026-10-28T15:18:48.907Z",
-      "lastSeenAt": "2026-10-28T15:18:48.907Z",
+      "lastSeenAt": "2026-10-28T18:25:30.231Z",
       "latestItemPublishedAt": "2026-10-28T11:53:12.000Z",
       "primaryItemId": "news_62b25e6c316d",
       "evidenceItemIds": [
         "news_62b25e6c316d",
         "news_d9ce7bf03957"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_a00ee2b6df78",
+      "clusterVersion": 2,
+      "title": "市场反应：美联储维持利率政策在3.75%-4%不变，两年期美债收益率短线跳水、10年期美债收益率维持上涨，金价维持下跌0",
+      "firstSeenAt": "2026-10-28T18:25:30.231Z",
+      "lastSeenAt": "2026-10-28T18:25:30.231Z",
+      "latestItemPublishedAt": "2026-10-28T18:01:58.000Z",
+      "primaryItemId": "news_88dcd6018680",
+      "evidenceItemIds": [
+        "news_88dcd6018680",
+        "news_40dc6f13fba0"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_8e3e7339108f",
+      "clusterVersion": 2,
+      "title": "欧洲主要股指收盘集体上涨",
+      "firstSeenAt": "2026-10-28T18:25:30.231Z",
+      "lastSeenAt": "2026-10-28T18:25:30.231Z",
+      "latestItemPublishedAt": "2026-10-28T16:41:41.000Z",
+      "primaryItemId": "news_3885cede1db9",
+      "evidenceItemIds": [
+        "news_3885cede1db9",
+        "news_16f35a793ee1"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_10f6be0c3a4d",
+      "clusterVersion": 2,
+      "title": "财联社10月28日电，美国财政部拍卖两年期浮息国债（FRNS），贴现利率0.038%，投标倍数3.05。",
+      "firstSeenAt": "2026-10-28T18:25:30.231Z",
+      "lastSeenAt": "2026-10-28T18:25:30.231Z",
+      "latestItemPublishedAt": "2026-10-28T15:34:13.000Z",
+      "primaryItemId": "news_86b259a9a8a4",
+      "evidenceItemIds": [
+        "news_86b259a9a8a4",
+        "news_6688bd299530"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_f3064b652377",
+      "clusterVersion": 2,
+      "title": "杭氧股份(002430.SZ)发布前三季度业绩，归母净利润9.88亿元，同比增长30.43%",
+      "firstSeenAt": "2026-10-28T18:25:30.231Z",
+      "lastSeenAt": "2026-10-28T18:25:30.231Z",
+      "latestItemPublishedAt": "2026-10-28T09:35:10.000Z",
+      "primaryItemId": "news_d4a5cffaf927",
+      "evidenceItemIds": [
+        "news_d4a5cffaf927",
+        "news_ce9a88e30069"
       ],
       "status": "developing",
       "summary": "",

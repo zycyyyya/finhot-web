@@ -1,20 +1,18 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-27T18:06:34.295Z",
+  "generatedAt": "2026-10-28T06:00:05.051Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
       "eventId": "event_a3c5d0364922",
       "clusterVersion": 2,
-      "title": "Anthropic冲刺IPO，A股AI产业链为何“先涨后跌”",
+      "title": "A股四大指数集体高开，光刻机、存储芯片等板块表现活跃",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-27T18:06:34.295Z",
-      "latestItemPublishedAt": "2026-10-27T15:59:41.000Z",
-      "primaryItemId": "news_e2113988be03",
+      "lastSeenAt": "2026-10-28T06:00:05.051Z",
+      "latestItemPublishedAt": "2026-10-28T01:35:26.000Z",
+      "primaryItemId": "news_b60b6e94bacf",
       "evidenceItemIds": [
-        "news_f75191e41f77",
-        "news_52b141ccd419",
         "news_e1003cb9d5c1",
         "news_c46e8b88b0d7",
         "news_4b1aa551cac5",
@@ -62,23 +60,23 @@
         "news_0fba21a34d3f",
         "news_e2113988be03",
         "news_ad2faf3a112e",
-        "news_c70449ae665a"
+        "news_c70449ae665a",
+        "news_b60b6e94bacf",
+        "news_c2ce65584ede"
       ],
       "status": "developing",
-      "summary": "A股“药王”日赚7106万元，公司上调今年收入预期。",
-      "latestProgress": "10月27日A股三大股指震荡走高，算力硬件反弹，生物医药下挫。"
+      "summary": "A股四大指数集体高开，光刻机、存储芯片等板块活跃，多公司获机构牛散三季度增仓",
+      "latestProgress": "A股四大指数集体高开，光刻机、存储芯片等板块表现活跃"
     },
     {
       "eventId": "event_2cf716748ce1",
       "clusterVersion": 2,
       "title": "央行设立债市非银机构流动性支持工具 如何救急而不兜底？",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-27T18:06:34.295Z",
-      "latestItemPublishedAt": "2026-10-27T12:49:08.000Z",
+      "lastSeenAt": "2026-10-28T06:00:05.051Z",
+      "latestItemPublishedAt": "2026-10-28T00:40:30.000Z",
       "primaryItemId": "news_0cd61aed6f0f",
       "evidenceItemIds": [
-        "news_2b2ab39147d1",
-        "news_3b1d64d6ce2b",
         "news_49559c45fc42",
         "news_f3a05a0000db",
         "news_2359088af44e",
@@ -126,20 +124,22 @@
         "news_920727afc8d9",
         "news_5a48428d3d76",
         "news_f87cee983009",
-        "news_0cd61aed6f0f"
+        "news_0cd61aed6f0f",
+        "news_155ced191caf",
+        "news_858ad20596aa"
       ],
       "status": "developing",
-      "summary": "缪延亮：央行黄金储备超美债，但回不到金本位。",
-      "latestProgress": "同日央行逆回购净投放超万亿，并设立债市新工具。"
+      "summary": "央行设立债市非银流动性支持工具，明确救急不兜底稳债市",
+      "latestProgress": "最新报道显示债基规模突破12.6万亿元创新高，央行稳债市新工具引市场热议"
     },
     {
       "eventId": "event_81903830edd9",
       "clusterVersion": 2,
-      "title": "中国证监会就《证券市场先行赔付指导意见》公开征求意见",
+      "title": "中国证监会发布《违规转让证券案件行政处罚实施规则》",
       "firstSeenAt": "2026-10-19T15:45:09.770Z",
-      "lastSeenAt": "2026-10-27T18:06:34.295Z",
+      "lastSeenAt": "2026-10-28T06:00:05.051Z",
       "latestItemPublishedAt": "2026-10-18T19:52:26.000Z",
-      "primaryItemId": "news_c61e8342121c",
+      "primaryItemId": "news_16340f2ed3ad",
       "evidenceItemIds": [
         "news_c61e8342121c",
         "news_b086a9025dff",
@@ -150,43 +150,18 @@
         "news_3ba6b045b23d"
       ],
       "status": "developing",
-      "summary": "证监会发布违规转让证券处罚新规，负责人答记者问。",
-      "latestProgress": "证监会负责人就新规答记者问，回应市场关注。"
-    },
-    {
-      "eventId": "event_5cd501f07c8b",
-      "clusterVersion": 2,
-      "title": "自营拖累三季度业绩，中信证券提三大举措应对市场波动",
-      "firstSeenAt": "2026-10-26T15:19:02.422Z",
-      "lastSeenAt": "2026-10-27T18:06:34.295Z",
-      "latestItemPublishedAt": "2026-10-27T09:04:29.000Z",
-      "primaryItemId": "news_7b00d2071867",
-      "evidenceItemIds": [
-        "news_515ee38a5e45",
-        "news_040e985c6d98",
-        "news_2f039a8d799d",
-        "news_dab50852fdc7",
-        "news_7df1fe4c92ea",
-        "news_4ca3d5ab1b87",
-        "news_6e20169236bf",
-        "news_7b00d2071867"
-      ],
-      "status": "developing",
-      "summary": "港股公告：中信证券Q3净利降两成，药明康德前三季净赚超190亿，头部券商普遍承压",
-      "latestProgress": "中信证券预计26Q4国内铝价22500元/吨，称黄金买盘韧性支撑价格"
+      "summary": "10月18日证监会发布违规转让证券处罚规则及配套答疑，同步就先行赔付指导意见征求意见。",
+      "latestProgress": "证监会就《证券市场先行赔付指导意见》公开征求意见。"
     },
     {
       "eventId": "event_6ab2a13609c6",
       "clusterVersion": 2,
       "title": "Anthropic申请IPO提振科技股，美股期货走高；美联储会议及财报季备受关注",
       "firstSeenAt": "2026-10-08T06:40:59.994Z",
-      "lastSeenAt": "2026-10-27T18:06:34.295Z",
+      "lastSeenAt": "2026-10-28T06:00:05.051Z",
       "latestItemPublishedAt": "2026-10-26T16:10:24.000Z",
       "primaryItemId": "news_b4687f12bad7",
       "evidenceItemIds": [
-        "news_1d0c31b07d1b",
-        "news_ecab20992500",
-        "news_653fc1efe942",
         "news_44a82f6088f4",
         "news_a17e98dc402b",
         "news_c3d63417f749",
@@ -233,25 +208,24 @@
         "news_337a2f49bdae",
         "news_7283533381eb",
         "news_150dca148c9f",
-        "news_b4687f12bad7"
+        "news_b4687f12bad7",
+        "news_3715d126fa2d",
+        "news_d2e45d226227",
+        "news_6ef6bb77a30e"
       ],
       "status": "developing",
-      "summary": "美股财报季高潮来袭，AI交易走势能否顶住美联储压力受关注",
-      "latestProgress": "通胀数据与官员措辞矛盾，高盛预计美联储10月暂缓、12月加息"
+      "summary": "Anthropic申请IPO提振科技股，美联储会议及财报季备受关注。",
+      "latestProgress": "美联储决议日来袭，华尔街紧盯沃什表态，关注是否加息。"
     },
     {
       "eventId": "event_c68d651d4ff9",
       "clusterVersion": 2,
-      "title": "港股异动 | 中集安瑞科(03899)绩后涨超7% 三季度归母净利同比增加47.1% 清洁能源分部收益表现亮眼",
+      "title": "渣打香港股价今日为何上涨？",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-10-27T18:06:34.295Z",
-      "latestItemPublishedAt": "2026-10-27T12:59:47.000Z",
-      "primaryItemId": "news_4ae42929d8ef",
+      "lastSeenAt": "2026-10-28T06:00:05.051Z",
+      "latestItemPublishedAt": "2026-10-28T02:14:46.000Z",
+      "primaryItemId": "news_75d702cfd4aa",
       "evidenceItemIds": [
-        "news_e35779d5fc93",
-        "news_06bff02de933",
-        "news_286e5bc6ae94",
-        "news_dc89283c90ce",
         "news_712a8ef7932f",
         "news_cd53e72ee1f7",
         "news_cd4f68a5fdf8",
@@ -297,26 +271,25 @@
         "news_fec775f073f5",
         "news_138c989ad4b4",
         "news_d04f0cf734de",
-        "news_038bceafb5da"
+        "news_038bceafb5da",
+        "news_92417e213a51",
+        "news_89d278dc2c90",
+        "news_75d702cfd4aa",
+        "news_e138eb4c13fe"
       ],
       "status": "developing",
-      "summary": "中集安瑞科绩后涨超7%，三季度归母净利同比增47.1%，清洁能源分部收益亮眼",
-      "latestProgress": "截至10月26日，中集安瑞科因三季度业绩向好绩后涨超7%"
+      "summary": "2026年10月27日渣打香港股价上涨引发市场关注，具体原因待官方披露。",
+      "latestProgress": "截至10月28日，港股科技板块整体走强，暂无渣打香港后续相关公告。"
     },
     {
       "eventId": "event_f101880ef7bc",
       "clusterVersion": 2,
-      "title": "陶冬：美股巨震，是熊市来临还是重新洗牌？",
+      "title": "纵观过去100年历史，德银算命：“美股已完成今年最后一跌”",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-27T18:06:34.295Z",
-      "latestItemPublishedAt": "2026-10-27T08:01:31.000Z",
-      "primaryItemId": "news_909a3e272368",
+      "lastSeenAt": "2026-10-28T06:00:05.051Z",
+      "latestItemPublishedAt": "2026-10-28T05:13:10.000Z",
+      "primaryItemId": "news_faa8a468b39e",
       "evidenceItemIds": [
-        "news_d23d92ef6496",
-        "news_a47fbb4e17e6",
-        "news_b634738e878f",
-        "news_4ec31171e1ec",
-        "news_4da93be2b8d1",
         "news_7b5169649b3c",
         "news_918cc843d495",
         "news_7a94c29aa9a2",
@@ -361,34 +334,23 @@
         "news_01136ad3ad19",
         "news_909a3e272368",
         "news_fdf543cddeb1",
-        "news_27f022105386"
+        "news_27f022105386",
+        "news_faa8a468b39e",
+        "news_5eab00953b10",
+        "news_5f0699f2dd17",
+        "news_17dbec960796",
+        "news_9721ae25bd5f"
       ],
       "status": "developing",
-      "summary": "马斯克预警200多家AI云厂商面临清洗，新云概念股美股大跌。",
-      "latestProgress": "陶冬就美股巨震发声，分析其是熊市来临还是行业重新洗牌。"
-    },
-    {
-      "eventId": "event_1bd6609364b0",
-      "clusterVersion": 2,
-      "title": "外媒称欧盟计划减少从中国进口相关产品，外交部回应",
-      "firstSeenAt": "2026-10-27T09:50:22.391Z",
-      "lastSeenAt": "2026-10-27T18:06:34.295Z",
-      "latestItemPublishedAt": "2026-10-27T07:37:16.000Z",
-      "primaryItemId": "news_eddddc6ef47b",
-      "evidenceItemIds": [
-        "news_eddddc6ef47b",
-        "news_e2ee79a688d6"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "多家机构依据历史规律、AI盈利预期等判断美股已完成年内最后一跌，是买入时机。",
+      "latestProgress": "英伟达向Meta投资30亿元，AI循环交易延伸至美股七巨头。"
     },
     {
       "eventId": "event_a9c8c835e65f",
       "clusterVersion": 2,
       "title": "利率其实并不高？市场预期未来十年美国短期利率均值达到4.3%",
       "firstSeenAt": "2026-10-20T13:42:04.100Z",
-      "lastSeenAt": "2026-10-27T18:06:34.295Z",
+      "lastSeenAt": "2026-10-28T06:00:05.051Z",
       "latestItemPublishedAt": "2026-10-27T13:00:58.000Z",
       "primaryItemId": "news_82cab9938034",
       "evidenceItemIds": [
@@ -408,20 +370,220 @@
         "news_82cab9938034"
       ],
       "status": "developing",
-      "summary": "美国银行证券发布三季度财报前值得关注的基础设施软件股推荐名单。",
-      "latestProgress": "美银证券已公布三季度财报前最值得关注的基础设施软件股相关标的。"
+      "summary": "市场预期未来十年美国短期利率均值达4.3%，认为该利率水平并不高",
+      "latestProgress": "2026年10月27日上述十年期美短期利率预期数据正式披露"
     },
     {
       "eventId": "event_20ad53a15993",
       "clusterVersion": 2,
       "title": "红果短剧：网传“红果短剧年收入400亿”等为不实信息",
       "firstSeenAt": "2026-10-27T14:43:00.107Z",
-      "lastSeenAt": "2026-10-27T18:06:34.295Z",
+      "lastSeenAt": "2026-10-28T06:00:05.051Z",
       "latestItemPublishedAt": "2026-10-27T12:25:21.000Z",
       "primaryItemId": "news_3b9ed10421b4",
       "evidenceItemIds": [
         "news_3b9ed10421b4",
         "news_415e0b43c268"
+      ],
+      "status": "developing",
+      "summary": "红果短剧官方辟谣网传年收入400亿等不实信息",
+      "latestProgress": "红果短剧发布声明否认网传年收入400亿等不实传言"
+    },
+    {
+      "eventId": "event_41cea7aa5dd5",
+      "clusterVersion": 2,
+      "title": "Q3净利同比大增26倍！500亿存储芯片股发布三季报|盘后公告集锦",
+      "firstSeenAt": "2026-10-27T14:43:00.107Z",
+      "lastSeenAt": "2026-10-28T06:00:05.051Z",
+      "latestItemPublishedAt": "2026-10-27T12:42:53.000Z",
+      "primaryItemId": "news_79cebe5e9744",
+      "evidenceItemIds": [
+        "news_79cebe5e9744",
+        "news_6f529ccf3232"
+      ],
+      "status": "developing",
+      "summary": "500亿市值存储芯片股披露三季报，Q3净利同比大增26倍",
+      "latestProgress": "2026年10月27日盘后该股发布三季报，Q3净利同比增26倍"
+    },
+    {
+      "eventId": "event_4f30aa3007c9",
+      "clusterVersion": 2,
+      "title": "普京与佩泽希齐扬今年第三次会晤，讨论中东局势",
+      "firstSeenAt": "2026-10-27T18:06:34.295Z",
+      "lastSeenAt": "2026-10-28T06:00:05.051Z",
+      "latestItemPublishedAt": "2026-10-27T17:12:51.000Z",
+      "primaryItemId": "news_64ee613d9329",
+      "evidenceItemIds": [
+        "news_64ee613d9329",
+        "news_c6d801fa51e7"
+      ],
+      "status": "developing",
+      "summary": "普京与佩泽希齐扬今年第三次会晤，双方讨论中东局势",
+      "latestProgress": "2026年10月27日，普京与佩泽希齐扬会晤讨论中东局势"
+    },
+    {
+      "eventId": "event_c7b2cb10b791",
+      "clusterVersion": 2,
+      "title": "财联社10月28日午间新闻精选",
+      "firstSeenAt": "2026-10-27T05:18:50.092Z",
+      "lastSeenAt": "2026-10-28T06:00:05.051Z",
+      "latestItemPublishedAt": "2026-10-28T04:10:41.000Z",
+      "primaryItemId": "news_229a2afab062",
+      "evidenceItemIds": [
+        "news_bf1ce95f2416",
+        "news_e39cf8c14755",
+        "news_229a2afab062"
+      ],
+      "status": "developing",
+      "summary": "财联社发布10月28日午间新闻精选，汇总当日午间重要财经资讯",
+      "latestProgress": "该精选已正式发布，可查阅当日午间多领域财经动态"
+    },
+    {
+      "eventId": "event_df1d1bdcf25f",
+      "clusterVersion": 2,
+      "title": "港股午评：恒生指数涨0.43% 恒生科技指数涨1.8%",
+      "firstSeenAt": "2026-10-28T06:00:05.051Z",
+      "lastSeenAt": "2026-10-28T06:00:05.051Z",
+      "latestItemPublishedAt": "2026-10-28T04:01:47.000Z",
+      "primaryItemId": "news_f53f0a717d40",
+      "evidenceItemIds": [
+        "news_f53f0a717d40",
+        "news_7955d24e115b"
+      ],
+      "status": "developing",
+      "summary": "港股午盘收涨，恒生指数涨0.43%，恒生科技指数涨1.8%",
+      "latestProgress": "2026年10月28日港股午盘收涨，恒生指数涨0.43%，恒生科技指数涨1.8%"
+    },
+    {
+      "eventId": "event_43bb74c0598d",
+      "clusterVersion": 2,
+      "title": "10月28日午间涨停分析",
+      "firstSeenAt": "2026-10-28T06:00:05.051Z",
+      "lastSeenAt": "2026-10-28T06:00:05.051Z",
+      "latestItemPublishedAt": "2026-10-28T03:57:30.000Z",
+      "primaryItemId": "news_4eb656828866",
+      "evidenceItemIds": [
+        "news_4eb656828866",
+        "news_0f02e3d18c1d"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_5c1d222f3bb1",
+      "clusterVersion": 2,
+      "title": "半日主力资金加仓电子板块，抛售非银金融板块",
+      "firstSeenAt": "2026-10-28T06:00:05.051Z",
+      "lastSeenAt": "2026-10-28T06:00:05.051Z",
+      "latestItemPublishedAt": "2026-10-28T04:03:19.000Z",
+      "primaryItemId": "news_8a6288fb9b65",
+      "evidenceItemIds": [
+        "news_8a6288fb9b65",
+        "news_884fc094922f"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_a283e25438a1",
+      "clusterVersion": 2,
+      "title": "财报解读｜泡泡玛特三季度收益同比降45%至50%，高管说法来了",
+      "firstSeenAt": "2026-10-28T06:00:05.051Z",
+      "lastSeenAt": "2026-10-28T06:00:05.051Z",
+      "latestItemPublishedAt": "2026-10-27T13:10:20.000Z",
+      "primaryItemId": "news_c146ab643fa5",
+      "evidenceItemIds": [
+        "news_c146ab643fa5",
+        "news_9217986033ea"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_12359af7266b",
+      "clusterVersion": 2,
+      "title": "东北证券：前三季度净利润10.17亿元，同比下降4.63%",
+      "firstSeenAt": "2026-10-28T06:00:05.051Z",
+      "lastSeenAt": "2026-10-28T06:00:05.051Z",
+      "latestItemPublishedAt": "2026-10-27T12:15:08.000Z",
+      "primaryItemId": "news_d0c2775ba417",
+      "evidenceItemIds": [
+        "news_d0c2775ba417",
+        "news_05bc967f1eaa"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_3ed2fe0855ea",
+      "clusterVersion": 2,
+      "title": "伟测科技：前三季度净利润2.47亿元，同比增长21.94%",
+      "firstSeenAt": "2026-10-28T06:00:05.051Z",
+      "lastSeenAt": "2026-10-28T06:00:05.051Z",
+      "latestItemPublishedAt": "2026-10-27T12:12:25.000Z",
+      "primaryItemId": "news_12d3ed2e17e2",
+      "evidenceItemIds": [
+        "news_12d3ed2e17e2",
+        "news_d61c6f1823ec"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_5ccd0d6e64b7",
+      "clusterVersion": 2,
+      "title": "建投能源(000600.SZ)发布前三季度业绩，归母净利润7亿元，同比下降55.77%",
+      "firstSeenAt": "2026-10-28T06:00:05.051Z",
+      "lastSeenAt": "2026-10-28T06:00:05.051Z",
+      "latestItemPublishedAt": "2026-10-27T09:35:11.000Z",
+      "primaryItemId": "news_c64b99310570",
+      "evidenceItemIds": [
+        "news_c64b99310570",
+        "news_52093e7e1895",
+        "news_b7027291081e"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_5cd501f07c8b",
+      "clusterVersion": 2,
+      "title": "自营拖累三季度业绩，中信证券提三大举措应对市场波动",
+      "firstSeenAt": "2026-10-26T15:19:02.422Z",
+      "lastSeenAt": "2026-10-27T18:06:34.295Z",
+      "latestItemPublishedAt": "2026-10-27T09:04:29.000Z",
+      "primaryItemId": "news_7b00d2071867",
+      "evidenceItemIds": [
+        "news_515ee38a5e45",
+        "news_040e985c6d98",
+        "news_2f039a8d799d",
+        "news_dab50852fdc7",
+        "news_7df1fe4c92ea",
+        "news_4ca3d5ab1b87",
+        "news_6e20169236bf",
+        "news_7b00d2071867"
+      ],
+      "status": "developing",
+      "summary": "港股公告：中信证券Q3净利降两成，药明康德前三季净赚超190亿，头部券商普遍承压",
+      "latestProgress": "中信证券预计26Q4国内铝价22500元/吨，称黄金买盘韧性支撑价格"
+    },
+    {
+      "eventId": "event_1bd6609364b0",
+      "clusterVersion": 2,
+      "title": "外媒称欧盟计划减少从中国进口相关产品，外交部回应",
+      "firstSeenAt": "2026-10-27T09:50:22.391Z",
+      "lastSeenAt": "2026-10-27T18:06:34.295Z",
+      "latestItemPublishedAt": "2026-10-27T07:37:16.000Z",
+      "primaryItemId": "news_eddddc6ef47b",
+      "evidenceItemIds": [
+        "news_eddddc6ef47b",
+        "news_e2ee79a688d6"
       ],
       "status": "developing",
       "summary": "",
@@ -439,38 +601,6 @@
         "news_b88add5004c4",
         "news_babc1dd696b1",
         "news_002b56a5d4d0"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_41cea7aa5dd5",
-      "clusterVersion": 2,
-      "title": "Q3净利同比大增26倍！500亿存储芯片股发布三季报|盘后公告集锦",
-      "firstSeenAt": "2026-10-27T14:43:00.107Z",
-      "lastSeenAt": "2026-10-27T18:06:34.295Z",
-      "latestItemPublishedAt": "2026-10-27T12:42:53.000Z",
-      "primaryItemId": "news_79cebe5e9744",
-      "evidenceItemIds": [
-        "news_79cebe5e9744",
-        "news_6f529ccf3232"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_4f30aa3007c9",
-      "clusterVersion": 2,
-      "title": "普京与佩泽希齐扬今年第三次会晤，讨论中东局势",
-      "firstSeenAt": "2026-10-27T18:06:34.295Z",
-      "lastSeenAt": "2026-10-27T18:06:34.295Z",
-      "latestItemPublishedAt": "2026-10-27T17:12:51.000Z",
-      "primaryItemId": "news_64ee613d9329",
-      "evidenceItemIds": [
-        "news_64ee613d9329",
-        "news_c6d801fa51e7"
       ],
       "status": "developing",
       "summary": "",
@@ -507,22 +637,6 @@
       "status": "developing",
       "summary": "",
       "latestProgress": ""
-    },
-    {
-      "eventId": "event_c7b2cb10b791",
-      "clusterVersion": 2,
-      "title": "财联社10月27日午间新闻精选",
-      "firstSeenAt": "2026-10-27T05:18:50.092Z",
-      "lastSeenAt": "2026-10-27T14:43:00.107Z",
-      "latestItemPublishedAt": "2026-10-27T04:02:43.000Z",
-      "primaryItemId": "news_bf1ce95f2416",
-      "evidenceItemIds": [
-        "news_bf1ce95f2416",
-        "news_e39cf8c14755"
-      ],
-      "status": "developing",
-      "summary": "财联社发布10月27日午间新闻精选，汇总当日午间重要财经资讯",
-      "latestProgress": "该午间新闻精选已正式发布，可查阅当日午间重要财经动态"
     },
     {
       "eventId": "event_119f7d886583",

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-28T10:34:32.772Z",
+  "generatedAt": "2026-10-28T15:18:48.907Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -9,13 +9,10 @@
       "clusterVersion": 2,
       "title": "宇树科技带领“双创”拉升，A股能否再现板块轮动？｜市场观察",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-28T10:34:32.772Z",
-      "latestItemPublishedAt": "2026-10-28T09:16:24.000Z",
+      "lastSeenAt": "2026-10-28T15:18:48.907Z",
+      "latestItemPublishedAt": "2026-10-28T14:24:30.000Z",
       "primaryItemId": "news_1ac31b2352b1",
       "evidenceItemIds": [
-        "news_95c9b2bb5b20",
-        "news_11cdf837b0d4",
-        "news_e0aee8c147b6",
         "news_ee2fb3db4f04",
         "news_5a670580e980",
         "news_a4a7d3555597",
@@ -62,7 +59,10 @@
         "news_c2ce65584ede",
         "news_1ac31b2352b1",
         "news_48e45612242e",
-        "news_c6f52fc8f9c9"
+        "news_c6f52fc8f9c9",
+        "news_22cd4a44a630",
+        "news_5a10bdf6fb25",
+        "news_9fc37f8edae9"
       ],
       "status": "developing",
       "summary": "A股四大指数集体高开，光刻机、存储芯片等板块活跃，多公司获机构牛散三季度增仓",
@@ -71,13 +71,12 @@
     {
       "eventId": "event_2cf716748ce1",
       "clusterVersion": 2,
-      "title": "中国央行：2026年三季度末人民币房地产贷款余额50.08万亿元，同比下降5.2%",
+      "title": "加拿大央行加息至2.5%，并称可能还需进一步加息",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-28T10:34:32.772Z",
-      "latestItemPublishedAt": "2026-10-28T09:16:34.000Z",
-      "primaryItemId": "news_b795e54f2ba3",
+      "lastSeenAt": "2026-10-28T15:18:48.907Z",
+      "latestItemPublishedAt": "2026-10-28T13:45:59.000Z",
+      "primaryItemId": "news_764a54ec02e0",
       "evidenceItemIds": [
-        "news_2359088af44e",
         "news_82a49203aabf",
         "news_cbff58a02c03",
         "news_4b83ded2e166",
@@ -126,7 +125,8 @@
         "news_155ced191caf",
         "news_858ad20596aa",
         "news_b795e54f2ba3",
-        "news_5e3739171915"
+        "news_5e3739171915",
+        "news_764a54ec02e0"
       ],
       "status": "developing",
       "summary": "央行设立债市非银流动性支持工具，明确救急不兜底稳债市",
@@ -137,7 +137,7 @@
       "clusterVersion": 2,
       "title": "中国证监会就《证券市场先行赔付指导意见》公开征求意见",
       "firstSeenAt": "2026-10-19T15:45:09.770Z",
-      "lastSeenAt": "2026-10-28T10:34:32.772Z",
+      "lastSeenAt": "2026-10-28T15:18:48.907Z",
       "latestItemPublishedAt": "2026-10-18T19:52:26.000Z",
       "primaryItemId": "news_c61e8342121c",
       "evidenceItemIds": [
@@ -156,13 +156,12 @@
     {
       "eventId": "event_6ab2a13609c6",
       "clusterVersion": 2,
-      "title": "美联储决议前瞻：按兵不动背后会有几张反对票？本轮还需加息几次",
+      "title": "美联储\"金融条件之争\"公开化：哈马克要求加息，威廉姆斯则倾向等待",
       "firstSeenAt": "2026-10-08T06:40:59.994Z",
-      "lastSeenAt": "2026-10-28T10:34:32.772Z",
-      "latestItemPublishedAt": "2026-10-28T02:53:18.000Z",
-      "primaryItemId": "news_3715d126fa2d",
+      "lastSeenAt": "2026-10-28T15:18:48.907Z",
+      "latestItemPublishedAt": "2026-10-28T13:18:18.000Z",
+      "primaryItemId": "news_810009bdd40b",
       "evidenceItemIds": [
-        "news_44a82f6088f4",
         "news_a17e98dc402b",
         "news_c3d63417f749",
         "news_68e9d0c16666",
@@ -211,7 +210,8 @@
         "news_b4687f12bad7",
         "news_3715d126fa2d",
         "news_d2e45d226227",
-        "news_6ef6bb77a30e"
+        "news_6ef6bb77a30e",
+        "news_810009bdd40b"
       ],
       "status": "developing",
       "summary": "Anthropic申请IPO提振科技股，美联储会议及财报季备受关注。",
@@ -222,11 +222,10 @@
       "clusterVersion": 2,
       "title": "掘金5530亿智能驾驶蓝海，寅家科技冲刺港股",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-10-28T10:34:32.772Z",
-      "latestItemPublishedAt": "2026-10-28T09:03:28.000Z",
+      "lastSeenAt": "2026-10-28T15:18:48.907Z",
+      "latestItemPublishedAt": "2026-10-28T12:56:35.000Z",
       "primaryItemId": "news_92417e213a51",
       "evidenceItemIds": [
-        "news_2c9cb9ea2a9f",
         "news_b615ea6c1c97",
         "news_a6f80a8a4005",
         "news_48a40cd112bd",
@@ -275,7 +274,8 @@
         "news_3a7ac76a5722",
         "news_8ecce7401f2c",
         "news_cb411c303bfb",
-        "news_c28c788f26c3"
+        "news_c28c788f26c3",
+        "news_fcd2056078a7"
       ],
       "status": "developing",
       "summary": "2026年10月27日渣打香港股价上涨引发市场关注，具体原因待官方披露。",
@@ -284,14 +284,12 @@
     {
       "eventId": "event_f101880ef7bc",
       "clusterVersion": 2,
-      "title": "纵观过去100年历史，德银算命：“美股已完成今年最后一跌”",
+      "title": "美股最可靠的警报灯亮了！历史两次闪烁后，都迎来大熊市",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-28T10:34:32.772Z",
-      "latestItemPublishedAt": "2026-10-28T10:24:44.000Z",
-      "primaryItemId": "news_faa8a468b39e",
+      "lastSeenAt": "2026-10-28T15:18:48.907Z",
+      "latestItemPublishedAt": "2026-10-28T14:42:34.000Z",
+      "primaryItemId": "news_e6555a9caacc",
       "evidenceItemIds": [
-        "news_9c5314fd0ea4",
-        "news_fc50205a7816",
         "news_bc3ef0ffc52e",
         "news_f57cec5bfbbe",
         "news_5a8eb6e8e1cb",
@@ -339,11 +337,110 @@
         "news_9721ae25bd5f",
         "news_e6555a9caacc",
         "news_e0e0571e62ca",
-        "news_a29cf45aa4e3"
+        "news_a29cf45aa4e3",
+        "news_2efd576772ec",
+        "news_9e847becf141"
       ],
       "status": "developing",
       "summary": "多家机构依据历史规律、AI盈利预期等判断美股已完成年内最后一跌，是买入时机。",
       "latestProgress": "英伟达向Meta投资30亿元，AI循环交易延伸至美股七巨头。"
+    },
+    {
+      "eventId": "event_2550d67107be",
+      "clusterVersion": 2,
+      "title": "中国平安前三季度实现稳健增长，归母营运利润同比增8.3%，归母净资产较年初增4.4%",
+      "firstSeenAt": "2026-10-28T10:34:32.772Z",
+      "lastSeenAt": "2026-10-28T15:18:48.907Z",
+      "latestItemPublishedAt": "2026-10-28T09:44:10.000Z",
+      "primaryItemId": "news_a2e59b68966c",
+      "evidenceItemIds": [
+        "news_a2e59b68966c",
+        "news_3467b56e1d91"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_41cea7aa5dd5",
+      "clusterVersion": 2,
+      "title": "Q3净利同比增超500%！780亿存储概念股发布三季报|盘后公告集锦",
+      "firstSeenAt": "2026-10-27T14:43:00.107Z",
+      "lastSeenAt": "2026-10-28T15:18:48.907Z",
+      "latestItemPublishedAt": "2026-10-28T12:55:43.000Z",
+      "primaryItemId": "news_7d9cc795c5a2",
+      "evidenceItemIds": [
+        "news_79cebe5e9744",
+        "news_6f529ccf3232",
+        "news_7d9cc795c5a2"
+      ],
+      "status": "developing",
+      "summary": "500亿市值存储芯片股披露三季报，Q3净利同比大增26倍",
+      "latestProgress": "2026年10月27日盘后该股发布三季报，Q3净利同比增26倍"
+    },
+    {
+      "eventId": "event_c0a181a1a9cc",
+      "clusterVersion": 2,
+      "title": "8000亿元新型政策性金融工具投放完成 聚焦数字经济和人工智能等",
+      "firstSeenAt": "2026-10-28T15:18:48.907Z",
+      "lastSeenAt": "2026-10-28T15:18:48.907Z",
+      "latestItemPublishedAt": "2026-10-28T13:31:58.000Z",
+      "primaryItemId": "news_9d33ae854054",
+      "evidenceItemIds": [
+        "news_9d33ae854054",
+        "news_32cd05989e38"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_d5974def1d81",
+      "clusterVersion": 2,
+      "title": "佰维存储：前三季度归母净利润87.68亿元，同比增长28728.12%",
+      "firstSeenAt": "2026-10-28T15:18:48.907Z",
+      "lastSeenAt": "2026-10-28T15:18:48.907Z",
+      "latestItemPublishedAt": "2026-10-28T12:33:02.000Z",
+      "primaryItemId": "news_bb89a61930e5",
+      "evidenceItemIds": [
+        "news_bb89a61930e5",
+        "news_f42a872bbb89"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_b3a0a5104780",
+      "clusterVersion": 2,
+      "title": "欲放宽甲烷排放监管、松绑对俄能源限制，特朗普中期选举前“示好”美国油气行业",
+      "firstSeenAt": "2026-10-28T15:18:48.907Z",
+      "lastSeenAt": "2026-10-28T15:18:48.907Z",
+      "latestItemPublishedAt": "2026-10-28T11:53:12.000Z",
+      "primaryItemId": "news_62b25e6c316d",
+      "evidenceItemIds": [
+        "news_62b25e6c316d",
+        "news_d9ce7bf03957"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_f0011c78c04c",
+      "clusterVersion": 2,
+      "title": "HubSpot期权数据显示，11月4日财报发布后股价或波动12%",
+      "firstSeenAt": "2026-10-28T15:18:48.907Z",
+      "lastSeenAt": "2026-10-28T15:18:48.907Z",
+      "latestItemPublishedAt": "2026-10-28T06:50:33.000Z",
+      "primaryItemId": "news_23558fba96aa",
+      "evidenceItemIds": [
+        "news_23558fba96aa",
+        "news_531d0957628f"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
     },
     {
       "eventId": "event_4f30aa3007c9",
@@ -427,22 +524,6 @@
       "latestProgress": ""
     },
     {
-      "eventId": "event_2550d67107be",
-      "clusterVersion": 2,
-      "title": "中国平安前三季度实现稳健增长，归母营运利润同比增8.3%，归母净资产较年初增4.4%",
-      "firstSeenAt": "2026-10-28T10:34:32.772Z",
-      "lastSeenAt": "2026-10-28T10:34:32.772Z",
-      "latestItemPublishedAt": "2026-10-28T09:44:10.000Z",
-      "primaryItemId": "news_a2e59b68966c",
-      "evidenceItemIds": [
-        "news_a2e59b68966c",
-        "news_3467b56e1d91"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
       "eventId": "event_a9c8c835e65f",
       "clusterVersion": 2,
       "title": "利率其实并不高？市场预期未来十年美国短期利率均值达到4.3%",
@@ -485,22 +566,6 @@
       "status": "developing",
       "summary": "红果短剧官方辟谣网传年收入400亿等不实信息",
       "latestProgress": "红果短剧发布声明否认网传年收入400亿等不实传言"
-    },
-    {
-      "eventId": "event_41cea7aa5dd5",
-      "clusterVersion": 2,
-      "title": "Q3净利同比大增26倍！500亿存储芯片股发布三季报|盘后公告集锦",
-      "firstSeenAt": "2026-10-27T14:43:00.107Z",
-      "lastSeenAt": "2026-10-28T06:00:05.051Z",
-      "latestItemPublishedAt": "2026-10-27T12:42:53.000Z",
-      "primaryItemId": "news_79cebe5e9744",
-      "evidenceItemIds": [
-        "news_79cebe5e9744",
-        "news_6f529ccf3232"
-      ],
-      "status": "developing",
-      "summary": "500亿市值存储芯片股披露三季报，Q3净利同比大增26倍",
-      "latestProgress": "2026年10月27日盘后该股发布三季报，Q3净利同比增26倍"
     },
     {
       "eventId": "event_a283e25438a1",

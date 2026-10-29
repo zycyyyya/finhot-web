@@ -1,20 +1,18 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-29T10:57:37.423Z",
+  "generatedAt": "2026-10-29T15:20:34.870Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
       "eventId": "event_a3c5d0364922",
       "clusterVersion": 2,
-      "title": "工行、建行A股市值再创新高，国有大行年内61次刷新纪录",
+      "title": "谁是A股业绩“增降王”，三季报披露期机构忙调研",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-29T10:57:37.423Z",
-      "latestItemPublishedAt": "2026-10-29T10:47:38.000Z",
-      "primaryItemId": "news_2e9ced049a7f",
+      "lastSeenAt": "2026-10-29T15:20:34.870Z",
+      "latestItemPublishedAt": "2026-10-29T13:13:26.000Z",
+      "primaryItemId": "news_5650e393aa7f",
       "evidenceItemIds": [
-        "news_4dcc0f428d3a",
-        "news_c66fce64a520",
         "news_6b79c74a90ad",
         "news_67e86492e9f2",
         "news_f583bfd73465",
@@ -62,7 +60,9 @@
         "news_9fc37f8edae9",
         "news_eb3034b1e6ae",
         "news_2e9ced049a7f",
-        "news_ee663cbdfc0f"
+        "news_ee663cbdfc0f",
+        "news_5650e393aa7f",
+        "news_b75c84d36617"
       ],
       "status": "developing",
       "summary": "A股四大指数集体低开，培育钻石、港口航运板块活跃，多家公司抛回购银行个贷承压",
@@ -73,7 +73,7 @@
       "clusterVersion": 2,
       "title": "韩国央行委员警告韩元波动风险，AI芯片出口繁荣难掩内需疲软",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-29T10:57:37.423Z",
+      "lastSeenAt": "2026-10-29T15:20:34.870Z",
       "latestItemPublishedAt": "2026-10-29T09:30:38.000Z",
       "primaryItemId": "news_03fd9f35461e",
       "evidenceItemIds": [
@@ -137,7 +137,7 @@
       "clusterVersion": 2,
       "title": "中国证监会就《证券市场先行赔付指导意见》公开征求意见",
       "firstSeenAt": "2026-10-19T15:45:09.770Z",
-      "lastSeenAt": "2026-10-29T10:57:37.423Z",
+      "lastSeenAt": "2026-10-29T15:20:34.870Z",
       "latestItemPublishedAt": "2026-10-18T19:52:26.000Z",
       "primaryItemId": "news_c61e8342121c",
       "evidenceItemIds": [
@@ -156,13 +156,12 @@
     {
       "eventId": "event_6ab2a13609c6",
       "clusterVersion": 2,
-      "title": "新美联储通讯社：沃什暗示\"高利率压制AI热潮\"，加息路径面临双向难题",
+      "title": "【华尔街原声】美国财长贝森特：能源供应冲击下美联储应谨慎加息",
       "firstSeenAt": "2026-10-08T06:40:59.994Z",
-      "lastSeenAt": "2026-10-29T10:57:37.423Z",
-      "latestItemPublishedAt": "2026-10-29T03:55:07.000Z",
-      "primaryItemId": "news_d9926e6e5d33",
+      "lastSeenAt": "2026-10-29T15:20:34.870Z",
+      "latestItemPublishedAt": "2026-10-29T12:38:05.000Z",
+      "primaryItemId": "news_27d509ecb1a4",
       "evidenceItemIds": [
-        "news_07284c302f01",
         "news_7694cbef03d0",
         "news_63872f64fc9d",
         "news_12dc1550b7ac",
@@ -211,7 +210,8 @@
         "news_27d509ecb1a4",
         "news_48a2eebd1304",
         "news_394b62145084",
-        "news_4489caec5f2b"
+        "news_4489caec5f2b",
+        "news_a288a5dc9b6f"
       ],
       "status": "developing",
       "summary": "Anthropic申请IPO提振科技股，美联储会议及财报季备受关注。",
@@ -222,11 +222,10 @@
       "clusterVersion": 2,
       "title": "港股IPO市场反转 新股破发不断、多家延期取消",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-10-29T10:57:37.423Z",
-      "latestItemPublishedAt": "2026-10-29T08:41:03.000Z",
+      "lastSeenAt": "2026-10-29T15:20:34.870Z",
+      "latestItemPublishedAt": "2026-10-29T14:54:47.000Z",
       "primaryItemId": "news_ff31f7c687cd",
       "evidenceItemIds": [
-        "news_99bc54fb0ab5",
         "news_ca4df8cbc236",
         "news_46dcaaae8ec1",
         "news_310791dc3189",
@@ -275,7 +274,8 @@
         "news_fcd2056078a7",
         "news_ff31f7c687cd",
         "news_94741aa51393",
-        "news_f21d06cc607e"
+        "news_f21d06cc607e",
+        "news_c0b1cae99a54"
       ],
       "status": "developing",
       "summary": "近期港股IPO市场反转，新股破发频现，多家公司延期或取消上市。",
@@ -284,11 +284,11 @@
     {
       "eventId": "event_f101880ef7bc",
       "clusterVersion": 2,
-      "title": "微软美股盘后涨幅扩大至超过6%。 微软在电话会上预计第二财季资本支出预计超500亿美元，预计第二财季总收入960亿-97",
+      "title": "上美股份(02145)10月29日耗资约1014.23万港元回购46万股",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-29T10:57:37.423Z",
+      "lastSeenAt": "2026-10-29T15:20:34.870Z",
       "latestItemPublishedAt": "2026-10-29T02:54:49.000Z",
-      "primaryItemId": "news_6f863c18dc45",
+      "primaryItemId": "news_212d89b8247a",
       "evidenceItemIds": [
         "news_98108c4f9c6e",
         "news_3e14b6e5e7d9",
@@ -344,6 +344,63 @@
       "status": "developing",
       "summary": "多家机构依据历史规律、AI盈利预期等判断美股已完成年内最后一跌，是买入时机。",
       "latestProgress": "英伟达向Meta投资30亿元，AI循环交易延伸至美股七巨头。"
+    },
+    {
+      "eventId": "event_4b8adcbd2db2",
+      "clusterVersion": 2,
+      "title": "按兵不动！欧洲央行维持利率不变",
+      "firstSeenAt": "2026-10-29T10:57:37.423Z",
+      "lastSeenAt": "2026-10-29T15:20:34.870Z",
+      "latestItemPublishedAt": "2026-10-29T15:07:47.000Z",
+      "primaryItemId": "news_682813e7eba3",
+      "evidenceItemIds": [
+        "news_5dc75a2cf395",
+        "news_10155ef9c4d5",
+        "news_682813e7eba3",
+        "news_26d4eb4ce0f4",
+        "news_e3dfcb7fab07",
+        "news_a257b4107527",
+        "news_fed969dc7306"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_a00ee2b6df78",
+      "clusterVersion": 2,
+      "title": "彭博全球首席经济学家：12月美联储也可能维持利率不变｜独家",
+      "firstSeenAt": "2026-10-28T18:25:30.231Z",
+      "lastSeenAt": "2026-10-29T15:20:34.870Z",
+      "latestItemPublishedAt": "2026-10-29T11:42:46.000Z",
+      "primaryItemId": "news_7b96a7366257",
+      "evidenceItemIds": [
+        "news_88dcd6018680",
+        "news_40dc6f13fba0",
+        "news_dbf0acc23c24",
+        "news_03e0b046c041",
+        "news_7b96a7366257",
+        "news_d9926e6e5d33"
+      ],
+      "status": "developing",
+      "summary": "香港维持基准利率4.25%不变，与美联储利率决议保持一致。",
+      "latestProgress": "美联储维持利率不变后，两年期美债收益率短线跳水，金价跌0.5%。"
+    },
+    {
+      "eventId": "event_653e7e0da972",
+      "clusterVersion": 2,
+      "title": "四部门：进一步提高海南自由贸易港贸易自由化便利化水平",
+      "firstSeenAt": "2026-10-29T15:20:34.870Z",
+      "lastSeenAt": "2026-10-29T15:20:34.870Z",
+      "latestItemPublishedAt": "2026-10-29T03:54:20.000Z",
+      "primaryItemId": "news_7aefce741390",
+      "evidenceItemIds": [
+        "news_7aefce741390",
+        "news_48b067bd8bd5"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
     },
     {
       "eventId": "event_8e3e7339108f",
@@ -428,22 +485,6 @@
       "latestProgress": "2026年10月27日上述十年期美短期利率预期数据正式披露"
     },
     {
-      "eventId": "event_4b8adcbd2db2",
-      "clusterVersion": 2,
-      "title": "据报道，欧洲央行行长拉加德将提前卸任",
-      "firstSeenAt": "2026-10-29T10:57:37.423Z",
-      "lastSeenAt": "2026-10-29T10:57:37.423Z",
-      "latestItemPublishedAt": "2026-10-29T10:18:03.000Z",
-      "primaryItemId": "news_5dc75a2cf395",
-      "evidenceItemIds": [
-        "news_5dc75a2cf395",
-        "news_10155ef9c4d5"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
       "eventId": "event_4c625947751c",
       "clusterVersion": 2,
       "title": "炸裂的美国能源业！涨幅领跑美股，特朗普持仓盈利翻倍，美国家庭面却面临史高账单",
@@ -523,23 +564,6 @@
       "status": "developing",
       "summary": "特朗普为中期选举示好美国油气行业，拟放宽甲烷排放监管、松绑对俄能源限制。",
       "latestProgress": "2026年10月28日，美国监管机构拟出台新规加快LNG项目审批并扩大出口能力。"
-    },
-    {
-      "eventId": "event_a00ee2b6df78",
-      "clusterVersion": 2,
-      "title": "香港维持基准利率4.25%不变，与美联储决定保持一致",
-      "firstSeenAt": "2026-10-28T18:25:30.231Z",
-      "lastSeenAt": "2026-10-29T06:04:09.069Z",
-      "latestItemPublishedAt": "2026-10-28T21:29:06.000Z",
-      "primaryItemId": "news_dbf0acc23c24",
-      "evidenceItemIds": [
-        "news_88dcd6018680",
-        "news_40dc6f13fba0",
-        "news_dbf0acc23c24"
-      ],
-      "status": "developing",
-      "summary": "香港维持基准利率4.25%不变，与美联储利率决议保持一致。",
-      "latestProgress": "美联储维持利率不变后，两年期美债收益率短线跳水，金价跌0.5%。"
     },
     {
       "eventId": "event_10f6be0c3a4d",

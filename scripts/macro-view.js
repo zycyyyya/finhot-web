@@ -37,14 +37,34 @@
     return match[1] + '-' + match[2] + '-' + match[3];
   }
 
+  // 显示精度必须跟着数据本身走，不能写死。
+  // 之前统一按 2 位小数格式化，汇率 6.6664→6.67、日变动 0.0013→0.00，
+  // 于是走势图和表格里每一天都显示「持平」——趋势是真的在跌，但看起来是平的，
+  // 这比不显示更误导。取「value 字符串的小数位」与「series 实际小数位」的较大者，
+  // 上限 4 位：再多也看不过来，且列宽会对不齐。
+  function decimalsOf(indicator, series) {
+    var digits = 0;
+    var value = String((indicator && indicator.value) || '');
+    var match = value.match(/\.(\d+)/);
+    if (match) digits = match[1].length;
+    (series || []).forEach(function (point) {
+      var raw = String(point && point.value);
+      var dot = raw.indexOf('.');
+      var len = dot >= 0 ? raw.length - dot - 1 : 0;
+      if (len > digits && len <= 8) digits = len;
+    });
+    return Math.min(digits, 4);
+  }
+
   // 数值单位从已格式化的 value 里读，避免再给 data 增加一个 unit 字段。
   // macro.json 的 value 已经带了货币符号或百分号，是唯一权威来源。
-  function unitOf(indicator) {
+  function unitOf(indicator, series) {
     var value = String((indicator && indicator.value) || '');
-    if (value.charAt(0) === '\u00a5') return { prefix: '\u00a5', suffix: '', digits: 2 };
-    if (value.charAt(0) === '$') return { prefix: '$', suffix: '', digits: 2 };
-    if (/%$/.test(value)) return { prefix: '', suffix: '%', digits: 2 };
-    return { prefix: '', suffix: '', digits: 2 };
+    var digits = decimalsOf(indicator, series);
+    if (value.charAt(0) === '\u00a5') return { prefix: '\u00a5', suffix: '', digits: digits };
+    if (value.charAt(0) === '$') return { prefix: '$', suffix: '', digits: digits };
+    if (/%$/.test(value)) return { prefix: '', suffix: '%', digits: digits };
+    return { prefix: '', suffix: '', digits: digits };
   }
 
   function formatPoint(value, unit) {
@@ -194,7 +214,7 @@
 
   function openDetail(indicator, series) {
     var el = ensureOverlay();
-    var unit = unitOf(indicator);
+    var unit = unitOf(indicator, series);
     var first = series[0];
     var last = series[series.length - 1];
     var rising = last.value >= first.value;

@@ -301,6 +301,20 @@ const okDeps = {
   assert.ok(/\.macro-kpi-expandable::before\s*\{[^}]*background:\s*var\(--accent-blue\)/.test(css),
     'expandable cards need a visible marker, not only cursor:pointer');
 
+  // === 精度契约：显示位数必须跟着数据走 ===
+  // 曾经统一按 2 位小数格式化：汇率日变动 0.0013 被抹成 0.00，
+  // 表格整列显示「持平」、图上标签全是 6.67——趋势是真的在跌，但看起来是平的。
+  assert.ok(view.includes('function decimalsOf('),
+    'display precision must be derived from the data, not hardcoded');
+  assert.ok(view.includes('Math.min(digits, 4)'),
+    'display precision must cap at 4 decimals so table columns stay aligned');
+  // 注意断言的是调用处而不是函数签名：签名里本来就有 series，
+  // 只断言签名的话，调用处漏传 series 也照样通过。
+  assert.ok(/var unit = unitOf\(indicator,\s*series\)/.test(view),
+    'the caller must pass the series, otherwise precision falls back to the bare value');
+  assert.ok(!/digits:\s*\d\s*\}/.test(view),
+    'unitOf must not hardcode a decimal count');
+
   console.log('macro tests passed');
 })().catch(error => {
   console.error(error);

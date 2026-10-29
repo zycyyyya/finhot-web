@@ -1,20 +1,18 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-29T06:04:09.069Z",
+  "generatedAt": "2026-10-29T10:57:37.423Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
       "eventId": "event_a3c5d0364922",
       "clusterVersion": 2,
-      "title": "A股四大指数集体低开，培育钻石、港口航运板块表现活跃",
+      "title": "工行、建行A股市值再创新高，国有大行年内61次刷新纪录",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-29T06:04:09.069Z",
-      "latestItemPublishedAt": "2026-10-29T01:36:43.000Z",
-      "primaryItemId": "news_eb3034b1e6ae",
+      "lastSeenAt": "2026-10-29T10:57:37.423Z",
+      "latestItemPublishedAt": "2026-10-29T10:47:38.000Z",
+      "primaryItemId": "news_2e9ced049a7f",
       "evidenceItemIds": [
-        "news_5a670580e980",
-        "news_a4a7d3555597",
         "news_4dcc0f428d3a",
         "news_c66fce64a520",
         "news_6b79c74a90ad",
@@ -62,7 +60,9 @@
         "news_22cd4a44a630",
         "news_5a10bdf6fb25",
         "news_9fc37f8edae9",
-        "news_eb3034b1e6ae"
+        "news_eb3034b1e6ae",
+        "news_2e9ced049a7f",
+        "news_ee663cbdfc0f"
       ],
       "status": "developing",
       "summary": "A股四大指数集体低开，培育钻石、港口航运板块活跃，多家公司抛回购银行个贷承压",
@@ -71,13 +71,12 @@
     {
       "eventId": "event_2cf716748ce1",
       "clusterVersion": 2,
-      "title": "加拿大央行加息至2.5%，并称可能还需进一步加息",
+      "title": "韩国央行委员警告韩元波动风险，AI芯片出口繁荣难掩内需疲软",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-29T06:04:09.069Z",
-      "latestItemPublishedAt": "2026-10-28T21:32:21.000Z",
-      "primaryItemId": "news_764a54ec02e0",
+      "lastSeenAt": "2026-10-29T10:57:37.423Z",
+      "latestItemPublishedAt": "2026-10-29T09:30:38.000Z",
+      "primaryItemId": "news_03fd9f35461e",
       "evidenceItemIds": [
-        "news_7af241171939",
         "news_3b68eac4230d",
         "news_d98a9556158b",
         "news_fc09f7d707bd",
@@ -126,7 +125,8 @@
         "news_764a54ec02e0",
         "news_23b9b517fb6c",
         "news_785885f9c534",
-        "news_03fd9f35461e"
+        "news_03fd9f35461e",
+        "news_98b9ab8fe0d4"
       ],
       "status": "developing",
       "summary": "央行设立债市非银流动性支持工具，明确救急不兜底稳债市",
@@ -135,11 +135,11 @@
     {
       "eventId": "event_81903830edd9",
       "clusterVersion": 2,
-      "title": "中国证监会发布《违规转让证券案件行政处罚实施规则》",
+      "title": "中国证监会就《证券市场先行赔付指导意见》公开征求意见",
       "firstSeenAt": "2026-10-19T15:45:09.770Z",
-      "lastSeenAt": "2026-10-29T06:04:09.069Z",
-      "latestItemPublishedAt": "2026-10-18T17:55:38.000Z",
-      "primaryItemId": "news_16340f2ed3ad",
+      "lastSeenAt": "2026-10-29T10:57:37.423Z",
+      "latestItemPublishedAt": "2026-10-18T19:52:26.000Z",
+      "primaryItemId": "news_c61e8342121c",
       "evidenceItemIds": [
         "news_c61e8342121c",
         "news_b086a9025dff",
@@ -158,7 +158,7 @@
       "clusterVersion": 2,
       "title": "新美联储通讯社：沃什暗示\"高利率压制AI热潮\"，加息路径面临双向难题",
       "firstSeenAt": "2026-10-08T06:40:59.994Z",
-      "lastSeenAt": "2026-10-29T06:04:09.069Z",
+      "lastSeenAt": "2026-10-29T10:57:37.423Z",
       "latestItemPublishedAt": "2026-10-29T03:55:07.000Z",
       "primaryItemId": "news_d9926e6e5d33",
       "evidenceItemIds": [
@@ -222,12 +222,10 @@
       "clusterVersion": 2,
       "title": "港股IPO市场反转 新股破发不断、多家延期取消",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-10-29T06:04:09.069Z",
-      "latestItemPublishedAt": "2026-10-29T04:42:04.000Z",
+      "lastSeenAt": "2026-10-29T10:57:37.423Z",
+      "latestItemPublishedAt": "2026-10-29T08:41:03.000Z",
       "primaryItemId": "news_ff31f7c687cd",
       "evidenceItemIds": [
-        "news_a6f80a8a4005",
-        "news_48a40cd112bd",
         "news_99bc54fb0ab5",
         "news_ca4df8cbc236",
         "news_46dcaaae8ec1",
@@ -275,7 +273,9 @@
         "news_cb411c303bfb",
         "news_c28c788f26c3",
         "news_fcd2056078a7",
-        "news_ff31f7c687cd"
+        "news_ff31f7c687cd",
+        "news_94741aa51393",
+        "news_f21d06cc607e"
       ],
       "status": "developing",
       "summary": "近期港股IPO市场反转，新股破发频现，多家公司延期或取消上市。",
@@ -286,11 +286,10 @@
       "clusterVersion": 2,
       "title": "微软美股盘后涨幅扩大至超过6%。 微软在电话会上预计第二财季资本支出预计超500亿美元，预计第二财季总收入960亿-97",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-29T06:04:09.069Z",
+      "lastSeenAt": "2026-10-29T10:57:37.423Z",
       "latestItemPublishedAt": "2026-10-29T02:54:49.000Z",
       "primaryItemId": "news_6f863c18dc45",
       "evidenceItemIds": [
-        "news_be66d15ae177",
         "news_98108c4f9c6e",
         "news_3e14b6e5e7d9",
         "news_3f4f9afe6859",
@@ -339,11 +338,126 @@
         "news_6f863c18dc45",
         "news_64ed0e805733",
         "news_6daf3fc5b933",
-        "news_c207ac9361f8"
+        "news_c207ac9361f8",
+        "news_212d89b8247a"
       ],
       "status": "developing",
       "summary": "多家机构依据历史规律、AI盈利预期等判断美股已完成年内最后一跌，是买入时机。",
       "latestProgress": "英伟达向Meta投资30亿元，AI循环交易延伸至美股七巨头。"
+    },
+    {
+      "eventId": "event_8e3e7339108f",
+      "clusterVersion": 2,
+      "title": "欧洲主要股指收盘集体上涨",
+      "firstSeenAt": "2026-10-28T18:25:30.231Z",
+      "lastSeenAt": "2026-10-29T10:57:37.423Z",
+      "latestItemPublishedAt": "2026-10-28T16:41:41.000Z",
+      "primaryItemId": "news_3885cede1db9",
+      "evidenceItemIds": [
+        "news_3885cede1db9",
+        "news_16f35a793ee1"
+      ],
+      "status": "developing",
+      "summary": "2026年10月28日欧洲主要股指收盘集体上涨",
+      "latestProgress": "最新报道显示2026年10月28日欧洲主要股指收盘集体上涨"
+    },
+    {
+      "eventId": "event_c7b2cb10b791",
+      "clusterVersion": 2,
+      "title": "10月29日午间涨停分析",
+      "firstSeenAt": "2026-10-27T05:18:50.092Z",
+      "lastSeenAt": "2026-10-29T10:57:37.423Z",
+      "latestItemPublishedAt": "2026-10-29T04:06:19.000Z",
+      "primaryItemId": "news_870e1570481d",
+      "evidenceItemIds": [
+        "news_bf1ce95f2416",
+        "news_e39cf8c14755",
+        "news_229a2afab062",
+        "news_870e1570481d",
+        "news_d0c5716140ac",
+        "news_4eb656828866"
+      ],
+      "status": "developing",
+      "summary": "财联社发布10月28日午间新闻精选，汇总当日午间重要财经资讯",
+      "latestProgress": "该精选已正式发布，可查阅当日午间多领域财经动态"
+    },
+    {
+      "eventId": "event_df1d1bdcf25f",
+      "clusterVersion": 2,
+      "title": "港股午评：恒生指数涨0.05% 恒生科技指数跌1.98%",
+      "firstSeenAt": "2026-10-28T06:00:05.051Z",
+      "lastSeenAt": "2026-10-29T10:57:37.423Z",
+      "latestItemPublishedAt": "2026-10-29T04:05:03.000Z",
+      "primaryItemId": "news_45de99f62468",
+      "evidenceItemIds": [
+        "news_f53f0a717d40",
+        "news_7955d24e115b",
+        "news_45de99f62468"
+      ],
+      "status": "developing",
+      "summary": "港股午盘收涨，恒生指数涨0.43%，恒生科技指数涨1.8%",
+      "latestProgress": "2026年10月28日港股午盘收涨，恒生指数涨0.43%，恒生科技指数涨1.8%"
+    },
+    {
+      "eventId": "event_a9c8c835e65f",
+      "clusterVersion": 2,
+      "title": "美国能承受多高的利率？",
+      "firstSeenAt": "2026-10-20T13:42:04.100Z",
+      "lastSeenAt": "2026-10-29T10:57:37.423Z",
+      "latestItemPublishedAt": "2026-10-29T01:43:15.000Z",
+      "primaryItemId": "news_b2b87274c745",
+      "evidenceItemIds": [
+        "news_a080827a7a71",
+        "news_076dd54fea82",
+        "news_e2091b2b3027",
+        "news_2be59929ac2e",
+        "news_2e80b5aec95c",
+        "news_dc946523197b",
+        "news_9240f3c0348a",
+        "news_c27ab6f14e38",
+        "news_4e5326b21b4b",
+        "news_a91fe6d308f1",
+        "news_b82c82720d07",
+        "news_bdfc92fa84c8",
+        "news_9daafc1c77e6",
+        "news_82cab9938034",
+        "news_b2b87274c745"
+      ],
+      "status": "developing",
+      "summary": "市场预期未来十年美国短期利率均值达4.3%，认为该利率水平并不高",
+      "latestProgress": "2026年10月27日上述十年期美短期利率预期数据正式披露"
+    },
+    {
+      "eventId": "event_4b8adcbd2db2",
+      "clusterVersion": 2,
+      "title": "据报道，欧洲央行行长拉加德将提前卸任",
+      "firstSeenAt": "2026-10-29T10:57:37.423Z",
+      "lastSeenAt": "2026-10-29T10:57:37.423Z",
+      "latestItemPublishedAt": "2026-10-29T10:18:03.000Z",
+      "primaryItemId": "news_5dc75a2cf395",
+      "evidenceItemIds": [
+        "news_5dc75a2cf395",
+        "news_10155ef9c4d5"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_4c625947751c",
+      "clusterVersion": 2,
+      "title": "炸裂的美国能源业！涨幅领跑美股，特朗普持仓盈利翻倍，美国家庭面却面临史高账单",
+      "firstSeenAt": "2026-10-29T10:57:37.423Z",
+      "lastSeenAt": "2026-10-29T10:57:37.423Z",
+      "latestItemPublishedAt": "2026-10-28T23:12:11.000Z",
+      "primaryItemId": "news_6d2422a21568",
+      "evidenceItemIds": [
+        "news_6d2422a21568",
+        "news_b41f5514cbcc"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
     },
     {
       "eventId": "event_41cea7aa5dd5",
@@ -428,22 +542,6 @@
       "latestProgress": "美联储维持利率不变后，两年期美债收益率短线跳水，金价跌0.5%。"
     },
     {
-      "eventId": "event_8e3e7339108f",
-      "clusterVersion": 2,
-      "title": "欧洲主要股指收盘集体上涨",
-      "firstSeenAt": "2026-10-28T18:25:30.231Z",
-      "lastSeenAt": "2026-10-29T06:04:09.069Z",
-      "latestItemPublishedAt": "2026-10-28T16:41:41.000Z",
-      "primaryItemId": "news_3885cede1db9",
-      "evidenceItemIds": [
-        "news_3885cede1db9",
-        "news_16f35a793ee1"
-      ],
-      "status": "developing",
-      "summary": "2026年10月28日欧洲主要股指收盘集体上涨",
-      "latestProgress": "最新报道显示2026年10月28日欧洲主要股指收盘集体上涨"
-    },
-    {
       "eventId": "event_10f6be0c3a4d",
       "clusterVersion": 2,
       "title": "财联社10月28日电，美国财政部拍卖两年期浮息国债（FRNS），贴现利率0.038%，投标倍数3.05。",
@@ -475,71 +573,6 @@
       "status": "developing",
       "summary": "",
       "latestProgress": ""
-    },
-    {
-      "eventId": "event_c7b2cb10b791",
-      "clusterVersion": 2,
-      "title": "10月29日午间涨停分析",
-      "firstSeenAt": "2026-10-27T05:18:50.092Z",
-      "lastSeenAt": "2026-10-29T06:04:09.069Z",
-      "latestItemPublishedAt": "2026-10-29T04:07:34.000Z",
-      "primaryItemId": "news_870e1570481d",
-      "evidenceItemIds": [
-        "news_bf1ce95f2416",
-        "news_e39cf8c14755",
-        "news_229a2afab062",
-        "news_870e1570481d",
-        "news_d0c5716140ac"
-      ],
-      "status": "developing",
-      "summary": "财联社发布10月28日午间新闻精选，汇总当日午间重要财经资讯",
-      "latestProgress": "该精选已正式发布，可查阅当日午间多领域财经动态"
-    },
-    {
-      "eventId": "event_df1d1bdcf25f",
-      "clusterVersion": 2,
-      "title": "港股午评：恒生指数涨0.05% 恒生科技指数跌1.98%",
-      "firstSeenAt": "2026-10-28T06:00:05.051Z",
-      "lastSeenAt": "2026-10-29T06:04:09.069Z",
-      "latestItemPublishedAt": "2026-10-29T04:05:03.000Z",
-      "primaryItemId": "news_45de99f62468",
-      "evidenceItemIds": [
-        "news_f53f0a717d40",
-        "news_7955d24e115b",
-        "news_45de99f62468"
-      ],
-      "status": "developing",
-      "summary": "港股午盘收涨，恒生指数涨0.43%，恒生科技指数涨1.8%",
-      "latestProgress": "2026年10月28日港股午盘收涨，恒生指数涨0.43%，恒生科技指数涨1.8%"
-    },
-    {
-      "eventId": "event_a9c8c835e65f",
-      "clusterVersion": 2,
-      "title": "美国能承受多高的利率？",
-      "firstSeenAt": "2026-10-20T13:42:04.100Z",
-      "lastSeenAt": "2026-10-29T06:04:09.069Z",
-      "latestItemPublishedAt": "2026-10-29T01:43:15.000Z",
-      "primaryItemId": "news_b2b87274c745",
-      "evidenceItemIds": [
-        "news_a080827a7a71",
-        "news_076dd54fea82",
-        "news_e2091b2b3027",
-        "news_2be59929ac2e",
-        "news_2e80b5aec95c",
-        "news_dc946523197b",
-        "news_9240f3c0348a",
-        "news_c27ab6f14e38",
-        "news_4e5326b21b4b",
-        "news_a91fe6d308f1",
-        "news_b82c82720d07",
-        "news_bdfc92fa84c8",
-        "news_9daafc1c77e6",
-        "news_82cab9938034",
-        "news_b2b87274c745"
-      ],
-      "status": "developing",
-      "summary": "市场预期未来十年美国短期利率均值达4.3%，认为该利率水平并不高",
-      "latestProgress": "2026年10月27日上述十年期美短期利率预期数据正式披露"
     },
     {
       "eventId": "event_87d9d2e2809a",

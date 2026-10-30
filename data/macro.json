@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-10-29T18:35:34.105Z",
+  "updatedAt": "2026-10-30T06:05:12.913Z",
   "note": "auto 指标由 scripts/macro.js 每日自动刷新；manual 指标为人工核实值，核实日期见 asOf。",
   "indicators": [
     {
@@ -56,21 +56,17 @@
     {
       "key": "us10y",
       "name": "美债 10年期",
-      "value": "5.05%",
-      "numericValue": 5.05,
-      "note": "较10月27日 4.99% 上升",
-      "direction": "up",
-      "asOf": "2026-10-28",
+      "value": "4.98%",
+      "numericValue": 4.98,
+      "note": "较10月28日 5.05% 下降",
+      "direction": "down",
+      "asOf": "2026-10-29",
       "source": "美国财政部",
       "mode": "auto",
-      "prevValue": "4.99%",
-      "prevNumericValue": 4.99,
-      "prevAsOf": "2026-10-27",
+      "prevValue": "5.05%",
+      "prevNumericValue": 5.05,
+      "prevAsOf": "2026-10-28",
       "series": [
-        {
-          "date": "2026-10-20",
-          "value": 5.12
-        },
         {
           "date": "2026-10-21",
           "value": 5.13
@@ -94,6 +90,10 @@
         {
           "date": "2026-10-28",
           "value": 5.05
+        },
+        {
+          "date": "2026-10-29",
+          "value": 4.98
         }
       ]
     },
@@ -155,16 +155,16 @@
     {
       "key": "gold",
       "name": "现货黄金",
-      "value": "$4,008",
-      "numericValue": 4008,
-      "note": "较10月28日 $4,033 下降",
+      "value": "$3,990",
+      "numericValue": 3990.399902,
+      "note": "较10月29日 $4,008 下降",
       "direction": "down",
-      "asOf": "2026-10-29",
+      "asOf": "2026-10-30",
       "source": "gold-api.com",
       "mode": "auto",
-      "prevValue": "$4,033",
-      "prevNumericValue": 4033.100098,
-      "prevAsOf": "2026-10-28"
+      "prevValue": "$4,008",
+      "prevNumericValue": 4008,
+      "prevAsOf": "2026-10-29"
     },
     {
       "key": "cngold",

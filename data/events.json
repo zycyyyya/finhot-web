@@ -1,23 +1,18 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-29T18:35:34.105Z",
+  "generatedAt": "2026-10-30T06:05:12.913Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
       "eventId": "event_a3c5d0364922",
       "clusterVersion": 2,
-      "title": "谁是A股业绩“增降王”，三季报披露期机构忙调研",
+      "title": "胜宏科技三季度业绩“失速”，H股破发逾40%、A股回撤超六成",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-29T18:35:34.105Z",
-      "latestItemPublishedAt": "2026-10-29T17:08:44.000Z",
-      "primaryItemId": "news_5650e393aa7f",
+      "lastSeenAt": "2026-10-30T06:05:12.913Z",
+      "latestItemPublishedAt": "2026-10-30T02:46:13.000Z",
+      "primaryItemId": "news_a85906bfbee8",
       "evidenceItemIds": [
-        "news_67e86492e9f2",
-        "news_f583bfd73465",
-        "news_cedcb918c588",
-        "news_a225f3fc559e",
-        "news_b0e779f13245",
         "news_079df14a4279",
         "news_230d2f760193",
         "news_b13b67873bee",
@@ -62,20 +57,25 @@
         "news_ee663cbdfc0f",
         "news_5650e393aa7f",
         "news_b75c84d36617",
-        "news_7ea584ec1727"
+        "news_7ea584ec1727",
+        "news_a1596eb7f6e0",
+        "news_68360abe6a3c",
+        "news_ca47157c8d9b",
+        "news_77858778c6f7",
+        "news_a85906bfbee8"
       ],
       "status": "developing",
-      "summary": "A股四大指数集体低开，培育钻石、港口航运板块活跃，多家公司抛回购银行个贷承压",
-      "latestProgress": "10月29日A股四大指数集体低开，培育钻石、港口航运板块表现活跃"
+      "summary": "胜宏科技三季度业绩失速，H股破发逾40%、A股回撤超六成",
+      "latestProgress": "10月30日算力硬件股延续调整，胜宏科技股价持续承压"
     },
     {
       "eventId": "event_81903830edd9",
       "clusterVersion": 2,
-      "title": "中国证监会就《证券市场先行赔付指导意见》公开征求意见",
+      "title": "中国证监会发布《违规转让证券案件行政处罚实施规则》",
       "firstSeenAt": "2026-10-19T15:45:09.770Z",
-      "lastSeenAt": "2026-10-29T18:35:34.105Z",
-      "latestItemPublishedAt": "2026-10-18T19:52:26.000Z",
-      "primaryItemId": "news_c61e8342121c",
+      "lastSeenAt": "2026-10-30T06:05:12.913Z",
+      "latestItemPublishedAt": "2026-10-18T17:55:38.000Z",
+      "primaryItemId": "news_16340f2ed3ad",
       "evidenceItemIds": [
         "news_c61e8342121c",
         "news_b086a9025dff",
@@ -94,13 +94,10 @@
       "clusterVersion": 2,
       "title": "新美联储通讯社：沃什暗示\"高利率压制AI热潮\"，加息路径面临双向难题",
       "firstSeenAt": "2026-10-08T06:40:59.994Z",
-      "lastSeenAt": "2026-10-29T18:35:34.105Z",
-      "latestItemPublishedAt": "2026-10-29T12:38:05.000Z",
+      "lastSeenAt": "2026-10-30T06:05:12.913Z",
+      "latestItemPublishedAt": "2026-10-30T04:28:05.000Z",
       "primaryItemId": "news_d9926e6e5d33",
       "evidenceItemIds": [
-        "news_7694cbef03d0",
-        "news_63872f64fc9d",
-        "news_12dc1550b7ac",
         "news_1cddd77418dc",
         "news_fa9f2db5b2d9",
         "news_6ad35265a087",
@@ -147,18 +144,21 @@
         "news_48a2eebd1304",
         "news_394b62145084",
         "news_4489caec5f2b",
-        "news_a288a5dc9b6f"
+        "news_a288a5dc9b6f",
+        "news_3d0812b386c2",
+        "news_9b97f66a09da",
+        "news_43ead2df1d48"
       ],
       "status": "developing",
-      "summary": "Anthropic申请IPO提振科技股，美联储会议及财报季备受关注。",
-      "latestProgress": "美联储决议日来袭，华尔街紧盯沃什表态，关注是否加息。"
+      "summary": "新美联储通讯社称沃什暗示高利率压制AI热潮，美联储加息路径面临双向难题",
+      "latestProgress": "10月30日机构研判美联储12月及明年3月或各加息25基点，加息预期升温"
     },
     {
       "eventId": "event_c68d651d4ff9",
       "clusterVersion": 2,
       "title": "港股IPO市场反转 新股破发不断、多家延期取消",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-10-29T18:35:34.105Z",
+      "lastSeenAt": "2026-10-30T06:05:12.913Z",
       "latestItemPublishedAt": "2026-10-29T14:54:47.000Z",
       "primaryItemId": "news_ff31f7c687cd",
       "evidenceItemIds": [
@@ -214,20 +214,18 @@
         "news_c0b1cae99a54"
       ],
       "status": "developing",
-      "summary": "近期港股IPO市场反转，新股破发频现，多家公司延期或取消上市。",
-      "latestProgress": "2026年10月29日港股IPO市场反转，新股破发不断，多家企业延期取消上市。"
+      "summary": "港股IPO市场反转，新股破发不断，多家延期取消。",
+      "latestProgress": "百亿商业航天独角兽国星宇航通过港股聆讯，冲刺太空AI第一股。"
     },
     {
       "eventId": "event_f101880ef7bc",
       "clusterVersion": 2,
-      "title": "上美股份(02145)10月29日耗资约1014.23万港元回购46万股",
+      "title": "野村：Anthropic和SK海力士双重提振，美股已“摆脱恐慌”并“关键性企稳”",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-29T18:35:34.105Z",
-      "latestItemPublishedAt": "2026-10-29T02:54:49.000Z",
-      "primaryItemId": "news_212d89b8247a",
+      "lastSeenAt": "2026-10-30T06:05:12.913Z",
+      "latestItemPublishedAt": "2026-10-30T05:08:03.000Z",
+      "primaryItemId": "news_64ed0e805733",
       "evidenceItemIds": [
-        "news_98108c4f9c6e",
-        "news_3e14b6e5e7d9",
         "news_3f4f9afe6859",
         "news_dfee4f8671be",
         "news_406de24f33f2",
@@ -275,20 +273,22 @@
         "news_64ed0e805733",
         "news_6daf3fc5b933",
         "news_c207ac9361f8",
-        "news_212d89b8247a"
+        "news_212d89b8247a",
+        "news_3d1e60feb323",
+        "news_5def72190027"
       ],
       "status": "developing",
-      "summary": "多家机构依据历史规律、AI盈利预期等判断美股已完成年内最后一跌，是买入时机。",
-      "latestProgress": "英伟达向Meta投资30亿元，AI循环交易延伸至美股七巨头。"
+      "summary": "野村称受Anthropic与SK海力士提振，美股已摆脱恐慌并关键性企稳。",
+      "latestProgress": "最新披露美股四大科技巨头2026年合计资本支出上限有望破7400亿美元，投入节奏分化。"
     },
     {
       "eventId": "event_4b8adcbd2db2",
       "clusterVersion": 2,
-      "title": "按兵不动！欧洲央行维持利率不变",
+      "title": "欧洲央行按兵不动，12月或加息25基点",
       "firstSeenAt": "2026-10-29T10:57:37.423Z",
-      "lastSeenAt": "2026-10-29T18:35:34.105Z",
-      "latestItemPublishedAt": "2026-10-29T15:37:02.000Z",
-      "primaryItemId": "news_682813e7eba3",
+      "lastSeenAt": "2026-10-30T06:05:12.913Z",
+      "latestItemPublishedAt": "2026-10-29T23:29:51.000Z",
+      "primaryItemId": "news_1c0d67a81441",
       "evidenceItemIds": [
         "news_5dc75a2cf395",
         "news_10155ef9c4d5",
@@ -297,18 +297,19 @@
         "news_e3dfcb7fab07",
         "news_a257b4107527",
         "news_fed969dc7306",
-        "news_1659b6ec6359"
+        "news_1659b6ec6359",
+        "news_1c0d67a81441"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "10月29日欧洲央行维持利率不变，预计12月或加息25基点",
+      "latestProgress": "欧洲央行官员已做好12月加息准备"
     },
     {
       "eventId": "event_a00ee2b6df78",
       "clusterVersion": 2,
       "title": "彭博全球首席经济学家：12月美联储也可能维持利率不变｜独家",
       "firstSeenAt": "2026-10-28T18:25:30.231Z",
-      "lastSeenAt": "2026-10-29T18:35:34.105Z",
+      "lastSeenAt": "2026-10-30T06:05:12.913Z",
       "latestItemPublishedAt": "2026-10-29T11:42:46.000Z",
       "primaryItemId": "news_7b96a7366257",
       "evidenceItemIds": [
@@ -320,31 +321,15 @@
         "news_d9926e6e5d33"
       ],
       "status": "developing",
-      "summary": "香港维持基准利率4.25%不变，与美联储利率决议保持一致。",
-      "latestProgress": "美联储维持利率不变后，两年期美债收益率短线跳水，金价跌0.5%。"
-    },
-    {
-      "eventId": "event_653e7e0da972",
-      "clusterVersion": 2,
-      "title": "四部门：进一步提高海南自由贸易港贸易自由化便利化水平",
-      "firstSeenAt": "2026-10-29T15:20:34.870Z",
-      "lastSeenAt": "2026-10-29T18:35:34.105Z",
-      "latestItemPublishedAt": "2026-10-29T03:54:20.000Z",
-      "primaryItemId": "news_7aefce741390",
-      "evidenceItemIds": [
-        "news_7aefce741390",
-        "news_48b067bd8bd5"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "彭博经济学家：美联储12月或维持利率不变，一财社论指其货币政策锚定增长叙事。",
+      "latestProgress": "彭博经济学家释放12月美联储或按兵不动信号，市场关注其货币政策锚定增长导向。"
     },
     {
       "eventId": "event_a9c8c835e65f",
       "clusterVersion": 2,
       "title": "美国能承受多高的利率？",
       "firstSeenAt": "2026-10-20T13:42:04.100Z",
-      "lastSeenAt": "2026-10-29T18:35:34.105Z",
+      "lastSeenAt": "2026-10-30T06:05:12.913Z",
       "latestItemPublishedAt": "2026-10-29T16:02:04.000Z",
       "primaryItemId": "news_b2b87274c745",
       "evidenceItemIds": [
@@ -366,15 +351,15 @@
         "news_53b5de3e3d90"
       ],
       "status": "developing",
-      "summary": "市场预期未来十年美国短期利率均值达4.3%，认为该利率水平并不高",
-      "latestProgress": "2026年10月27日上述十年期美短期利率预期数据正式披露"
+      "summary": "美国利率承受能力受市场关注，近期其抵押贷款利率连续两周下降，报7.24%。",
+      "latestProgress": "财联社10月30日消息，美国抵押贷款利率连续第二周下降至7.24%。"
     },
     {
       "eventId": "event_f3064b652377",
       "clusterVersion": 2,
       "title": "韵达股份(002120.SZ)发布前三季度业绩，归母净利润12.57亿元，同比增长72.13%",
       "firstSeenAt": "2026-10-28T18:25:30.231Z",
-      "lastSeenAt": "2026-10-29T18:35:34.105Z",
+      "lastSeenAt": "2026-10-30T06:05:12.913Z",
       "latestItemPublishedAt": "2026-10-29T10:05:06.000Z",
       "primaryItemId": "news_49451e0865c5",
       "evidenceItemIds": [
@@ -383,6 +368,137 @@
         "news_4d0131619bbb",
         "news_49451e0865c5",
         "news_4571b8a80125"
+      ],
+      "status": "developing",
+      "summary": "韵达股份前三季度归母净利润12.57亿元，同比增长72.13%",
+      "latestProgress": "韵达股份披露前三季度业绩，归母净利润12.57亿元同比增72.13%"
+    },
+    {
+      "eventId": "event_4b88dfd4f91e",
+      "clusterVersion": 2,
+      "title": "财联社10月29日电，欧洲银行称，前9个月净利润为11.6亿欧元，2025年同期为10.3亿欧元。",
+      "firstSeenAt": "2026-10-29T18:35:34.105Z",
+      "lastSeenAt": "2026-10-30T06:05:12.913Z",
+      "latestItemPublishedAt": "2026-10-29T15:35:53.000Z",
+      "primaryItemId": "news_baa0a0812971",
+      "evidenceItemIds": [
+        "news_baa0a0812971",
+        "news_72afe84b7856"
+      ],
+      "status": "developing",
+      "summary": "10月29日欧洲银行称前9个月净利润11.6亿欧元，较2025年同期增1.3亿欧元",
+      "latestProgress": "同月29日埃及央行将基准利率上调至20%，超出市场预期的19%"
+    },
+    {
+      "eventId": "event_63e2afd696fd",
+      "clusterVersion": 2,
+      "title": "能源内参｜中电联：全年用电量预计增4%—4.5%；奔驰三季度乘用车业务盈利承压 在华表现持续疲软",
+      "firstSeenAt": "2026-10-30T06:05:12.913Z",
+      "lastSeenAt": "2026-10-30T06:05:12.913Z",
+      "latestItemPublishedAt": "2026-10-30T02:18:18.000Z",
+      "primaryItemId": "news_8a6a78cd2cc8",
+      "evidenceItemIds": [
+        "news_8a6a78cd2cc8",
+        "news_c1eddf2a838a"
+      ],
+      "status": "developing",
+      "summary": "中电联预计全年用电量增4%至4.5%，奔驰三季度乘用车在华表现疲软盈利承压",
+      "latestProgress": "中电联披露全年用电量增长预期，奔驰三季度乘用车在华业务盈利承压"
+    },
+    {
+      "eventId": "event_8d3bc9eb7478",
+      "clusterVersion": 2,
+      "title": "前美联储顾问：沃什可能让美国经济直接撞进衰退，市场很快会讨论紧急降息",
+      "firstSeenAt": "2026-10-30T06:05:12.913Z",
+      "lastSeenAt": "2026-10-30T06:05:12.913Z",
+      "latestItemPublishedAt": "2026-10-30T03:41:15.000Z",
+      "primaryItemId": "news_bb103a5b404c",
+      "evidenceItemIds": [
+        "news_bb103a5b404c",
+        "news_54cbbdbad9f4"
+      ],
+      "status": "developing",
+      "summary": "前美联储顾问警告沃什政策或引美国经济衰退，特朗普称美联储不愿降息",
+      "latestProgress": "前美联储顾问称沃什可能让美国经济直接撞进衰退，市场很快将讨论紧急降息"
+    },
+    {
+      "eventId": "event_563ee83a7333",
+      "clusterVersion": 2,
+      "title": "日本央行维持基准利率在1.25%不变，符合预期",
+      "firstSeenAt": "2026-10-30T06:05:12.913Z",
+      "lastSeenAt": "2026-10-30T06:05:12.913Z",
+      "latestItemPublishedAt": "2026-10-30T04:48:28.000Z",
+      "primaryItemId": "news_c426b3353065",
+      "evidenceItemIds": [
+        "news_c426b3353065",
+        "news_8fe83c117bc1",
+        "news_9b914834c269",
+        "news_87a0e7f92bd1"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_c7a730c1aa1a",
+      "clusterVersion": 2,
+      "title": "美国三季度GDP增速超预期 9月通胀提速",
+      "firstSeenAt": "2026-10-30T06:05:12.913Z",
+      "lastSeenAt": "2026-10-30T06:05:12.913Z",
+      "latestItemPublishedAt": "2026-10-29T14:22:14.000Z",
+      "primaryItemId": "news_9199ea7c8aec",
+      "evidenceItemIds": [
+        "news_9199ea7c8aec",
+        "news_be2d5d1188b7",
+        "news_f6bba5b7d322"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_b79503cf44bf",
+      "clusterVersion": 2,
+      "title": "财联社10月29日电，白宫经济顾问哈塞特表示，10月份CPI和PCE数据应该能明确美联储应采取什么行动。",
+      "firstSeenAt": "2026-10-30T06:05:12.913Z",
+      "lastSeenAt": "2026-10-30T06:05:12.913Z",
+      "latestItemPublishedAt": "2026-10-29T14:46:28.000Z",
+      "primaryItemId": "news_d51db052d310",
+      "evidenceItemIds": [
+        "news_d51db052d310",
+        "news_d8fa78b20f39"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_3c20ff432ca8",
+      "clusterVersion": 2,
+      "title": "巨人网络(002558.SZ)发布前三季度业绩，归母净利润28.86亿元，同比增长103.73%",
+      "firstSeenAt": "2026-10-30T06:05:12.913Z",
+      "lastSeenAt": "2026-10-30T06:05:12.913Z",
+      "latestItemPublishedAt": "2026-10-29T12:35:42.000Z",
+      "primaryItemId": "news_3d7a68fc21cc",
+      "evidenceItemIds": [
+        "news_3d7a68fc21cc",
+        "news_7c1b6fd2bc6a"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_653e7e0da972",
+      "clusterVersion": 2,
+      "title": "四部门：进一步提高海南自由贸易港贸易自由化便利化水平",
+      "firstSeenAt": "2026-10-29T15:20:34.870Z",
+      "lastSeenAt": "2026-10-29T18:35:34.105Z",
+      "latestItemPublishedAt": "2026-10-29T03:54:20.000Z",
+      "primaryItemId": "news_7aefce741390",
+      "evidenceItemIds": [
+        "news_7aefce741390",
+        "news_48b067bd8bd5"
       ],
       "status": "developing",
       "summary": "",
@@ -399,22 +515,6 @@
       "evidenceItemIds": [
         "news_f98740b602f4",
         "news_c7756ce19b74"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_4b88dfd4f91e",
-      "clusterVersion": 2,
-      "title": "财联社10月29日电，欧洲银行称，前9个月净利润为11.6亿欧元，2025年同期为10.3亿欧元。",
-      "firstSeenAt": "2026-10-29T18:35:34.105Z",
-      "lastSeenAt": "2026-10-29T18:35:34.105Z",
-      "latestItemPublishedAt": "2026-10-29T15:35:53.000Z",
-      "primaryItemId": "news_baa0a0812971",
-      "evidenceItemIds": [
-        "news_baa0a0812971",
-        "news_72afe84b7856"
       ],
       "status": "developing",
       "summary": "",

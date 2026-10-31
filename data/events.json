@@ -1,17 +1,17 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-30T18:08:13.695Z",
+  "generatedAt": "2026-10-31T06:05:11.934Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
       "eventId": "event_81903830edd9",
       "clusterVersion": 2,
-      "title": "中国证监会就《证券市场先行赔付指导意见》公开征求意见",
+      "title": "中国证监会有关部门负责人就《违规转让证券案件行政处罚实施规则》答记者问",
       "firstSeenAt": "2026-10-19T15:45:09.770Z",
-      "lastSeenAt": "2026-10-30T18:08:13.695Z",
+      "lastSeenAt": "2026-10-31T06:05:11.934Z",
       "latestItemPublishedAt": "2026-10-18T19:52:26.000Z",
-      "primaryItemId": "news_c61e8342121c",
+      "primaryItemId": "news_29d1bc110417",
       "evidenceItemIds": [
         "news_c61e8342121c",
         "news_b086a9025dff",
@@ -22,15 +22,15 @@
         "news_3ba6b045b23d"
       ],
       "status": "developing",
-      "summary": "2026年10月18日中国证监会发布违规转让证券案件行政处罚实施规则，并就证券市场先行赔付指导意见公开征求意见。",
-      "latestProgress": "中国证监会就《证券市场先行赔付指导意见》公开征求意见。"
+      "summary": "2026年10月18日证监会就《违规转让证券案件行政处罚实施规则》答记者问，同时就《证券市场先行赔付指导意见》公开征求意见",
+      "latestProgress": "证监会当日发布《违规转让证券案件行政处罚实施规则》并公开征求先行赔付指导意见意见"
     },
     {
       "eventId": "event_c68d651d4ff9",
       "clusterVersion": 2,
       "title": "港股IPO市场反转 新股破发不断、多家延期取消",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-10-30T18:08:13.695Z",
+      "lastSeenAt": "2026-10-31T06:05:11.934Z",
       "latestItemPublishedAt": "2026-10-30T13:18:33.000Z",
       "primaryItemId": "news_ff31f7c687cd",
       "evidenceItemIds": [
@@ -86,20 +86,18 @@
         "news_4e69402797c8"
       ],
       "status": "developing",
-      "summary": "港股IPO市场反转，新股破发不断，多家延期取消。",
-      "latestProgress": "百亿商业航天独角兽国星宇航通过港股聆讯，冲刺太空AI第一股。"
+      "summary": "港股IPO市场反转，新股破发频现，多家项目延期取消，基石投资现大面积浮亏。",
+      "latestProgress": "2026年10月30日消息，未来半年逾900亿港元港股基石投资将集中解禁。"
     },
     {
       "eventId": "event_f101880ef7bc",
       "clusterVersion": 2,
-      "title": "AI退潮、利率回落：美股广度修复，谁将成为下一批赢家？",
+      "title": "美股科技巨头加码“烧钱”！AI支出承诺超3万亿美元",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-30T18:08:13.695Z",
-      "latestItemPublishedAt": "2026-10-30T17:23:26.000Z",
-      "primaryItemId": "news_bc2f882b8c82",
+      "lastSeenAt": "2026-10-31T06:05:11.934Z",
+      "latestItemPublishedAt": "2026-10-31T04:12:50.000Z",
+      "primaryItemId": "news_e818ff93d026",
       "evidenceItemIds": [
-        "news_406de24f33f2",
-        "news_725b3854a630",
         "news_6fa9b55b74d7",
         "news_5bd7a0b497d9",
         "news_07a62ddbb05c",
@@ -147,18 +145,20 @@
         "news_3d1e60feb323",
         "news_5def72190027",
         "news_bc2f882b8c82",
-        "news_dd82b7552b80"
+        "news_dd82b7552b80",
+        "news_e818ff93d026",
+        "news_44a511a3de39"
       ],
       "status": "developing",
-      "summary": "野村称受Anthropic与SK海力士提振，美股已摆脱恐慌并关键性企稳。",
-      "latestProgress": "最新披露美股四大科技巨头2026年合计资本支出上限有望破7400亿美元，投入节奏分化。"
+      "summary": "美股科技巨头加码AI投入，支出承诺超3万亿美元，市场表现现分化。",
+      "latestProgress": "最新付鹏警示美股AI巨头有三重风险，高投入模式可持续性存疑。"
     },
     {
       "eventId": "event_4b8adcbd2db2",
       "clusterVersion": 2,
       "title": "欧洲央行调查显示2026年和2027年通胀预期上升",
       "firstSeenAt": "2026-10-29T10:57:37.423Z",
-      "lastSeenAt": "2026-10-30T18:08:13.695Z",
+      "lastSeenAt": "2026-10-31T06:05:11.934Z",
       "latestItemPublishedAt": "2026-10-30T01:37:32.000Z",
       "primaryItemId": "news_20f35290876c",
       "evidenceItemIds": [
@@ -174,15 +174,15 @@
         "news_20f35290876c"
       ],
       "status": "developing",
-      "summary": "10月29日欧洲央行维持利率不变，预计12月或加息25基点",
-      "latestProgress": "欧洲央行官员已做好12月加息准备"
+      "summary": "欧洲央行调查显示2026年、2027年通胀预期上升",
+      "latestProgress": "欧央行发布最新调查，2026和2027年通胀预期呈上升趋势"
     },
     {
       "eventId": "event_563ee83a7333",
       "clusterVersion": 2,
       "title": "日本央行维持基准利率在1.25%不变，符合预期",
       "firstSeenAt": "2026-10-30T06:05:12.913Z",
-      "lastSeenAt": "2026-10-30T18:08:13.695Z",
+      "lastSeenAt": "2026-10-31T06:05:11.934Z",
       "latestItemPublishedAt": "2026-10-30T07:21:33.000Z",
       "primaryItemId": "news_c426b3353065",
       "evidenceItemIds": [
@@ -193,17 +193,17 @@
         "news_45681e532693"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "日本央行维持1.25%基准利率不变符合预期，同步加快ETF抛售步伐。",
+      "latestProgress": "2026年10月30日，日本央行年ETF抛售规模增至约8600亿日元。"
     },
     {
       "eventId": "event_2cf716748ce1",
       "clusterVersion": 2,
-      "title": "中国央行：续实施适度宽松的货币政策，保持流动性充裕",
+      "title": "央行政策利率“换锚”落地：隔夜正式接棒7天期逆回购",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-30T18:08:13.695Z",
+      "lastSeenAt": "2026-10-31T06:05:11.934Z",
       "latestItemPublishedAt": "2026-10-30T11:36:23.000Z",
-      "primaryItemId": "news_e52b5f91be07",
+      "primaryItemId": "news_dc50070dac9c",
       "evidenceItemIds": [
         "news_034d2aef9277",
         "news_edab0f29da0c",
@@ -257,47 +257,15 @@
         "news_0fefeb16dc4a"
       ],
       "status": "developing",
-      "summary": "央行设立债市非银流动性支持工具，明确救急不兜底稳债市",
-      "latestProgress": "最新报道显示债基规模突破12.6万亿元创新高，央行稳债市新工具引市场热议"
-    },
-    {
-      "eventId": "event_77930a08e373",
-      "clusterVersion": 2,
-      "title": "沐曦股份：前三季度归母净利润6.39亿元，扭亏为盈",
-      "firstSeenAt": "2026-10-30T10:52:51.656Z",
-      "lastSeenAt": "2026-10-30T18:08:13.695Z",
-      "latestItemPublishedAt": "2026-10-30T10:37:46.000Z",
-      "primaryItemId": "news_eb7a172fbb27",
-      "evidenceItemIds": [
-        "news_eb7a172fbb27",
-        "news_913a45f7c724"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_3d0bfeccf029",
-      "clusterVersion": 2,
-      "title": "中国黄金：2026年第三季度净利润5574.99万元，同比增长246.52%",
-      "firstSeenAt": "2026-10-30T15:09:24.813Z",
-      "lastSeenAt": "2026-10-30T18:08:13.695Z",
-      "latestItemPublishedAt": "2026-10-30T12:10:50.000Z",
-      "primaryItemId": "news_6181f9509b1f",
-      "evidenceItemIds": [
-        "news_6181f9509b1f",
-        "news_eb716c3d0399"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "央行政策利率“换锚”落地，隔夜正式接棒7天期逆回购成为主要政策利率",
+      "latestProgress": "2026年10月30日央行称将继续实施适度宽松货币政策，保持流动性充裕"
     },
     {
       "eventId": "event_16cc2fc8ea0f",
       "clusterVersion": 2,
       "title": "金融监管总局：稳妥推进中小金融机构改革化险、减量提质",
       "firstSeenAt": "2026-10-30T15:09:24.813Z",
-      "lastSeenAt": "2026-10-30T18:08:13.695Z",
+      "lastSeenAt": "2026-10-31T06:05:11.934Z",
       "latestItemPublishedAt": "2026-10-30T12:02:37.000Z",
       "primaryItemId": "news_0b39f90f254f",
       "evidenceItemIds": [
@@ -305,50 +273,35 @@
         "news_8a8d7dbb7e9d"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "金融监管总局部署稳妥推进中小金融机构改革化险、减量提质工作。",
+      "latestProgress": "金融监管总局将积极支持配合化解房地产和地方政府债务风险。"
     },
     {
       "eventId": "event_d76d4510a2cd",
       "clusterVersion": 2,
-      "title": "建设银行：第三季度净利润1,046.6亿元人民币，同比增长9.8%。",
+      "title": "交通银行(601328.SH)发布前三季度业绩，归母净利润742.62亿元，同比增长6.10%",
       "firstSeenAt": "2026-10-30T15:09:24.813Z",
-      "lastSeenAt": "2026-10-30T18:08:13.695Z",
+      "lastSeenAt": "2026-10-31T06:05:11.934Z",
       "latestItemPublishedAt": "2026-10-30T12:26:26.000Z",
-      "primaryItemId": "news_63fc99190543",
+      "primaryItemId": "news_e90b85593973",
       "evidenceItemIds": [
         "news_63fc99190543",
-        "news_20d74c163068"
+        "news_20d74c163068",
+        "news_e90b85593973",
+        "news_eb716c3d0399"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_f7ba18d11be8",
-      "clusterVersion": 2,
-      "title": "上交所本周对108起拉抬打压、虚假申报等证券异常交易行为采取了自律监管措施",
-      "firstSeenAt": "2026-10-30T15:09:24.813Z",
-      "lastSeenAt": "2026-10-30T18:08:13.695Z",
-      "latestItemPublishedAt": "2026-10-30T12:01:42.000Z",
-      "primaryItemId": "news_6cebe82eb202",
-      "evidenceItemIds": [
-        "news_6cebe82eb202",
-        "news_109207c20eaa",
-        "news_c65a26c2b71f"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "交通银行发布前三季度业绩，归母净利润742.62亿元，同比增长6.10%",
+      "latestProgress": "交通银行前三季度归母净利润达742.62亿元，同比提升6.10%"
     },
     {
       "eventId": "event_a3c5d0364922",
       "clusterVersion": 2,
-      "title": "A股三季报风云丨2026年前三季度谁最吸金？",
+      "title": "A股四大指数集体低开，培育钻石、港口航运板块表现活跃",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-30T18:08:13.695Z",
-      "latestItemPublishedAt": "2026-10-30T15:52:56.000Z",
-      "primaryItemId": "news_9b99c55edda5",
+      "lastSeenAt": "2026-10-31T06:05:11.934Z",
+      "latestItemPublishedAt": "2026-10-30T15:35:35.000Z",
+      "primaryItemId": "news_eb3034b1e6ae",
       "evidenceItemIds": [
         "news_349669373260",
         "news_a4af82e0ae05",
@@ -402,19 +355,18 @@
         "news_9ed6ac176634"
       ],
       "status": "developing",
-      "summary": "胜宏科技三季度业绩失速，H股破发逾40%、A股回撤超六成",
-      "latestProgress": "10月30日算力硬件股延续调整，胜宏科技股价持续承压"
+      "summary": "A股四大指数集体低开，培育钻石、港口航运板块表现活跃",
+      "latestProgress": "2026年三季报密集披露，相关营收盈利数据受市场关注"
     },
     {
       "eventId": "event_6ab2a13609c6",
       "clusterVersion": 2,
-      "title": "美联储票委Logan：仍然预计还需加息两次，但节奏可循序渐进",
+      "title": "美联储官员接连放鹰：洛根预计至少再加息两次，穆萨莱姆呼吁尽快行动",
       "firstSeenAt": "2026-10-08T06:40:59.994Z",
-      "lastSeenAt": "2026-10-30T18:08:13.695Z",
-      "latestItemPublishedAt": "2026-10-30T17:42:20.000Z",
-      "primaryItemId": "news_cf5a5d446882",
+      "lastSeenAt": "2026-10-31T06:05:11.934Z",
+      "latestItemPublishedAt": "2026-10-31T00:04:53.000Z",
+      "primaryItemId": "news_be1966c4e82a",
       "evidenceItemIds": [
-        "news_0954e7dd9e02",
         "news_5810e3b62617",
         "news_6e80459d1483",
         "news_d5da4c726023",
@@ -463,18 +415,19 @@
         "news_43ead2df1d48",
         "news_cf5a5d446882",
         "news_d89d94b3a370",
-        "news_d97cbe0b8367"
+        "news_d97cbe0b8367",
+        "news_be1966c4e82a"
       ],
       "status": "developing",
-      "summary": "新美联储通讯社称沃什暗示高利率压制AI热潮，美联储加息路径面临双向难题",
-      "latestProgress": "10月30日机构研判美联储12月及明年3月或各加息25基点，加息预期升温"
+      "summary": "美联储官员接连放鹰，洛根预计至少再加息两次，穆萨莱姆呼吁尽快行动。",
+      "latestProgress": "洛根明确至少加息两次共50基点，加息50基点后可暂停评估。"
     },
     {
       "eventId": "event_2ffc3326e607",
       "clusterVersion": 2,
       "title": "纳斯达克100指数跌幅扩大至4% 费城半导体指数跌8.7%",
       "firstSeenAt": "2026-10-30T18:08:13.695Z",
-      "lastSeenAt": "2026-10-30T18:08:13.695Z",
+      "lastSeenAt": "2026-10-31T06:05:11.934Z",
       "latestItemPublishedAt": "2026-10-30T18:03:33.000Z",
       "primaryItemId": "news_ca7783dacd94",
       "evidenceItemIds": [
@@ -482,15 +435,15 @@
         "news_aadaa0db6851"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "2026年10月30日美股科技类指数大跌，纳斯达克100跌4%，费城半导体指数跌8.7%",
+      "latestProgress": "纳斯达克100指数跌幅扩大至4%，费城半导体指数跌8.7%"
     },
     {
       "eventId": "event_89d89e97f01e",
       "clusterVersion": 2,
       "title": "利弗莫尔中概股龙头指数跌幅扩大至3%",
       "firstSeenAt": "2026-10-30T18:08:13.695Z",
-      "lastSeenAt": "2026-10-30T18:08:13.695Z",
+      "lastSeenAt": "2026-10-31T06:05:11.934Z",
       "latestItemPublishedAt": "2026-10-30T17:36:50.000Z",
       "primaryItemId": "news_5fa16bf38ad2",
       "evidenceItemIds": [
@@ -498,20 +451,166 @@
         "news_9671615ff1a7"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "2026年10月30日利弗莫尔中概股龙头指数跌幅持续扩大",
+      "latestProgress": "利弗莫尔中概股龙头指数跌幅扩大至3%"
     },
     {
       "eventId": "event_60e12e5253e1",
       "clusterVersion": 2,
       "title": "国家统计局发布2025年社会民生统计报告",
       "firstSeenAt": "2026-10-30T18:08:13.695Z",
-      "lastSeenAt": "2026-10-30T18:08:13.695Z",
+      "lastSeenAt": "2026-10-31T06:05:11.934Z",
       "latestItemPublishedAt": "2026-10-30T09:08:23.000Z",
       "primaryItemId": "news_b6e65d896739",
       "evidenceItemIds": [
         "news_b6e65d896739",
         "news_a5c39bee19f5"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_98223ec4972b",
+      "clusterVersion": 2,
+      "title": "科创无界 产业共生，2026沿沪宁城市协同创新日启幕在即",
+      "firstSeenAt": "2026-10-30T10:52:51.656Z",
+      "lastSeenAt": "2026-10-31T06:05:11.934Z",
+      "latestItemPublishedAt": "2026-10-30T09:07:20.000Z",
+      "primaryItemId": "news_39f40d6f076f",
+      "evidenceItemIds": [
+        "news_fb0192292fa5",
+        "news_39f40d6f076f"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_ac96327d5c88",
+      "clusterVersion": 2,
+      "title": "”零售之王“招商银行的三季报答卷：息差企稳，客户资产逼近19万亿",
+      "firstSeenAt": "2026-10-31T06:05:11.934Z",
+      "lastSeenAt": "2026-10-31T06:05:11.934Z",
+      "latestItemPublishedAt": "2026-10-31T03:23:28.000Z",
+      "primaryItemId": "news_61b8f711a83c",
+      "evidenceItemIds": [
+        "news_61b8f711a83c",
+        "news_8e82c3dc5724"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_b8aec982f9aa",
+      "clusterVersion": 2,
+      "title": "黑石：Anthropic在IPO后或只能获得“垃圾”评级",
+      "firstSeenAt": "2026-10-31T06:05:11.934Z",
+      "lastSeenAt": "2026-10-31T06:05:11.934Z",
+      "latestItemPublishedAt": "2026-10-31T02:29:30.000Z",
+      "primaryItemId": "news_63faccb26c00",
+      "evidenceItemIds": [
+        "news_63faccb26c00",
+        "news_ce52d953c21c"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_d0036a4d2cd0",
+      "clusterVersion": 2,
+      "title": "国家统计局：10月份综合PMI产出指数为49.7% 比上月下降1.0个百分点",
+      "firstSeenAt": "2026-10-31T06:05:11.934Z",
+      "lastSeenAt": "2026-10-31T06:05:11.934Z",
+      "latestItemPublishedAt": "2026-10-31T01:38:11.000Z",
+      "primaryItemId": "news_85da88dcfbdf",
+      "evidenceItemIds": [
+        "news_85da88dcfbdf",
+        "news_a71d2214e545",
+        "news_1810cae270e5"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_ba142b46f6ab",
+      "clusterVersion": 2,
+      "title": "亚马逊启用800亿美元供应商贷款额度，为AI提供资金支持",
+      "firstSeenAt": "2026-10-31T06:05:11.934Z",
+      "lastSeenAt": "2026-10-31T06:05:11.934Z",
+      "latestItemPublishedAt": "2026-10-30T16:38:44.000Z",
+      "primaryItemId": "news_026275d84f47",
+      "evidenceItemIds": [
+        "news_026275d84f47",
+        "news_4279cfd207e0"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_da4e1dedbc8a",
+      "clusterVersion": 2,
+      "title": "中国人寿前三季度总投资收益率达323位居行业前列",
+      "firstSeenAt": "2026-10-31T06:05:11.934Z",
+      "lastSeenAt": "2026-10-31T06:05:11.934Z",
+      "latestItemPublishedAt": "2026-10-30T15:03:01.000Z",
+      "primaryItemId": "news_a5317a84bf9c",
+      "evidenceItemIds": [
+        "news_a5317a84bf9c",
+        "news_aaed2d0c2c9c"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_77930a08e373",
+      "clusterVersion": 2,
+      "title": "沐曦股份：前三季度归母净利润6.39亿元，扭亏为盈",
+      "firstSeenAt": "2026-10-30T10:52:51.656Z",
+      "lastSeenAt": "2026-10-30T18:08:13.695Z",
+      "latestItemPublishedAt": "2026-10-30T10:37:46.000Z",
+      "primaryItemId": "news_eb7a172fbb27",
+      "evidenceItemIds": [
+        "news_eb7a172fbb27",
+        "news_913a45f7c724"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_3d0bfeccf029",
+      "clusterVersion": 2,
+      "title": "中国黄金：2026年第三季度净利润5574.99万元，同比增长246.52%",
+      "firstSeenAt": "2026-10-30T15:09:24.813Z",
+      "lastSeenAt": "2026-10-30T18:08:13.695Z",
+      "latestItemPublishedAt": "2026-10-30T12:10:50.000Z",
+      "primaryItemId": "news_6181f9509b1f",
+      "evidenceItemIds": [
+        "news_6181f9509b1f",
+        "news_eb716c3d0399"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_f7ba18d11be8",
+      "clusterVersion": 2,
+      "title": "上交所本周对108起拉抬打压、虚假申报等证券异常交易行为采取了自律监管措施",
+      "firstSeenAt": "2026-10-30T15:09:24.813Z",
+      "lastSeenAt": "2026-10-30T18:08:13.695Z",
+      "latestItemPublishedAt": "2026-10-30T12:01:42.000Z",
+      "primaryItemId": "news_6cebe82eb202",
+      "evidenceItemIds": [
+        "news_6cebe82eb202",
+        "news_109207c20eaa",
+        "news_c65a26c2b71f"
       ],
       "status": "developing",
       "summary": "",
@@ -528,22 +627,6 @@
       "evidenceItemIds": [
         "news_f60c82a0b358",
         "news_3a417b5919f8"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_98223ec4972b",
-      "clusterVersion": 2,
-      "title": "2026沿沪宁城市协同创新日明天启幕",
-      "firstSeenAt": "2026-10-30T10:52:51.656Z",
-      "lastSeenAt": "2026-10-30T15:09:24.813Z",
-      "latestItemPublishedAt": "2026-10-30T09:07:20.000Z",
-      "primaryItemId": "news_fb0192292fa5",
-      "evidenceItemIds": [
-        "news_fb0192292fa5",
-        "news_39f40d6f076f"
       ],
       "status": "developing",
       "summary": "",

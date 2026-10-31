@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-31T14:41:57.211Z",
+  "generatedAt": "2026-10-31T17:22:55.690Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -9,7 +9,7 @@
       "clusterVersion": 2,
       "title": "中国证监会就《证券市场先行赔付指导意见》公开征求意见",
       "firstSeenAt": "2026-10-19T15:45:09.770Z",
-      "lastSeenAt": "2026-10-31T14:41:57.211Z",
+      "lastSeenAt": "2026-10-31T17:22:55.690Z",
       "latestItemPublishedAt": "2026-10-18T19:52:26.000Z",
       "primaryItemId": "news_c61e8342121c",
       "evidenceItemIds": [
@@ -30,7 +30,7 @@
       "clusterVersion": 2,
       "title": "英特尔业绩不及预期股价下挫 美股科技板块缘何连日下挫",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-31T14:41:57.211Z",
+      "lastSeenAt": "2026-10-31T17:22:55.690Z",
       "latestItemPublishedAt": "2026-10-31T06:54:25.000Z",
       "primaryItemId": "news_e66b1fccfe71",
       "evidenceItemIds": [
@@ -92,11 +92,11 @@
     {
       "eventId": "event_4b8adcbd2db2",
       "clusterVersion": 2,
-      "title": "欧洲央行调查显示2026年和2027年通胀预期上升",
+      "title": "花旗解读\"鹰派\"与\"鸽派\"的真正含义，欧洲央行面临领导层变动",
       "firstSeenAt": "2026-10-29T10:57:37.423Z",
-      "lastSeenAt": "2026-10-31T14:41:57.211Z",
-      "latestItemPublishedAt": "2026-10-30T01:37:32.000Z",
-      "primaryItemId": "news_20f35290876c",
+      "lastSeenAt": "2026-10-31T17:22:55.690Z",
+      "latestItemPublishedAt": "2026-10-31T06:53:31.000Z",
+      "primaryItemId": "news_5c723de7c41e",
       "evidenceItemIds": [
         "news_5dc75a2cf395",
         "news_10155ef9c4d5",
@@ -107,7 +107,8 @@
         "news_fed969dc7306",
         "news_1659b6ec6359",
         "news_1c0d67a81441",
-        "news_20f35290876c"
+        "news_20f35290876c",
+        "news_5c723de7c41e"
       ],
       "status": "developing",
       "summary": "欧洲央行调查显示2026年、2027年通胀预期上升",
@@ -116,11 +117,11 @@
     {
       "eventId": "event_a3c5d0364922",
       "clusterVersion": 2,
-      "title": "A股三季报风云丨2026年前三季度谁研发投入最高？",
+      "title": "A股四大指数集体低开，培育钻石、港口航运板块表现活跃",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-31T14:41:57.211Z",
+      "lastSeenAt": "2026-10-31T17:22:55.690Z",
       "latestItemPublishedAt": "2026-10-31T14:04:25.000Z",
-      "primaryItemId": "news_0d2e1adbe188",
+      "primaryItemId": "news_eb3034b1e6ae",
       "evidenceItemIds": [
         "news_8ffb1935d7b2",
         "news_b475d156b4bf",
@@ -182,7 +183,7 @@
       "clusterVersion": 2,
       "title": "美联储官员接连放鹰：洛根预计至少再加息两次，穆萨莱姆呼吁尽快行动",
       "firstSeenAt": "2026-10-08T06:40:59.994Z",
-      "lastSeenAt": "2026-10-31T14:41:57.211Z",
+      "lastSeenAt": "2026-10-31T17:22:55.690Z",
       "latestItemPublishedAt": "2026-10-31T03:11:17.000Z",
       "primaryItemId": "news_be1966c4e82a",
       "evidenceItemIds": [
@@ -242,43 +243,11 @@
       "latestProgress": "洛根明确至少加息两次共50基点，加息50基点后可暂停评估。"
     },
     {
-      "eventId": "event_2ffc3326e607",
-      "clusterVersion": 2,
-      "title": "纳斯达克100指数跌幅扩大至4% 费城半导体指数跌8.7%",
-      "firstSeenAt": "2026-10-30T18:08:13.695Z",
-      "lastSeenAt": "2026-10-31T14:41:57.211Z",
-      "latestItemPublishedAt": "2026-10-30T18:03:33.000Z",
-      "primaryItemId": "news_ca7783dacd94",
-      "evidenceItemIds": [
-        "news_ca7783dacd94",
-        "news_aadaa0db6851"
-      ],
-      "status": "developing",
-      "summary": "2026年10月30日美股科技类指数大跌，纳斯达克100跌4%，费城半导体指数跌8.7%",
-      "latestProgress": "纳斯达克100指数跌幅扩大至4%，费城半导体指数跌8.7%"
-    },
-    {
-      "eventId": "event_89d89e97f01e",
-      "clusterVersion": 2,
-      "title": "利弗莫尔中概股龙头指数跌幅扩大至3%",
-      "firstSeenAt": "2026-10-30T18:08:13.695Z",
-      "lastSeenAt": "2026-10-31T14:41:57.211Z",
-      "latestItemPublishedAt": "2026-10-30T17:36:50.000Z",
-      "primaryItemId": "news_5fa16bf38ad2",
-      "evidenceItemIds": [
-        "news_5fa16bf38ad2",
-        "news_9671615ff1a7"
-      ],
-      "status": "developing",
-      "summary": "2026年10月30日利弗莫尔中概股龙头指数跌幅持续扩大",
-      "latestProgress": "利弗莫尔中概股龙头指数跌幅扩大至3%"
-    },
-    {
       "eventId": "event_ac96327d5c88",
       "clusterVersion": 2,
       "title": "”零售之王“招商银行的三季报答卷：息差企稳，客户资产逼近19万亿",
       "firstSeenAt": "2026-10-31T06:05:11.934Z",
-      "lastSeenAt": "2026-10-31T14:41:57.211Z",
+      "lastSeenAt": "2026-10-31T17:22:55.690Z",
       "latestItemPublishedAt": "2026-10-31T03:23:28.000Z",
       "primaryItemId": "news_61b8f711a83c",
       "evidenceItemIds": [
@@ -294,7 +263,7 @@
       "clusterVersion": 2,
       "title": "白酒逆市涨停潮：中信证券称板块处“出清尾声”，锚定2027供需新均衡",
       "firstSeenAt": "2026-10-31T10:28:54.938Z",
-      "lastSeenAt": "2026-10-31T14:41:57.211Z",
+      "lastSeenAt": "2026-10-31T17:22:55.690Z",
       "latestItemPublishedAt": "2026-10-31T08:58:28.000Z",
       "primaryItemId": "news_2f260ca29782",
       "evidenceItemIds": [
@@ -311,7 +280,7 @@
       "clusterVersion": 2,
       "title": "港股IPO市场反转 新股破发不断、多家延期取消",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-10-31T14:41:57.211Z",
+      "lastSeenAt": "2026-10-31T17:22:55.690Z",
       "latestItemPublishedAt": "2026-10-31T07:59:26.000Z",
       "primaryItemId": "news_ff31f7c687cd",
       "evidenceItemIds": [
@@ -375,7 +344,7 @@
       "clusterVersion": 2,
       "title": "拉加德提前辞卸欧央行行长职务 疫情与战争考验货币掌舵能力",
       "firstSeenAt": "2026-10-31T14:41:57.211Z",
-      "lastSeenAt": "2026-10-31T14:41:57.211Z",
+      "lastSeenAt": "2026-10-31T17:22:55.690Z",
       "latestItemPublishedAt": "2026-10-31T12:35:33.000Z",
       "primaryItemId": "news_0b01b195f592",
       "evidenceItemIds": [
@@ -391,7 +360,7 @@
       "clusterVersion": 2,
       "title": "直击长鑫科技业绩会：已与多家头部客户协商长期供货协议 预计Q4毛利率将保持稳定",
       "firstSeenAt": "2026-10-31T14:41:57.211Z",
-      "lastSeenAt": "2026-10-31T14:41:57.211Z",
+      "lastSeenAt": "2026-10-31T17:22:55.690Z",
       "latestItemPublishedAt": "2026-10-31T10:40:18.000Z",
       "primaryItemId": "news_bca4a86f8ea8",
       "evidenceItemIds": [
@@ -407,7 +376,7 @@
       "clusterVersion": 2,
       "title": "金价跌至一年来新低",
       "firstSeenAt": "2026-10-31T14:41:57.211Z",
-      "lastSeenAt": "2026-10-31T14:41:57.211Z",
+      "lastSeenAt": "2026-10-31T17:22:55.690Z",
       "latestItemPublishedAt": "2026-10-31T01:50:21.000Z",
       "primaryItemId": "news_9324fbc60536",
       "evidenceItemIds": [
@@ -423,7 +392,7 @@
       "clusterVersion": 2,
       "title": "十年期及以上期交保费大涨75.2% 新华保险前三季度保险业务交出满意成绩单",
       "firstSeenAt": "2026-10-31T14:41:57.211Z",
-      "lastSeenAt": "2026-10-31T14:41:57.211Z",
+      "lastSeenAt": "2026-10-31T17:22:55.690Z",
       "latestItemPublishedAt": "2026-10-30T23:44:26.000Z",
       "primaryItemId": "news_4e6e73ec38cd",
       "evidenceItemIds": [
@@ -433,6 +402,70 @@
       "status": "developing",
       "summary": "",
       "latestProgress": ""
+    },
+    {
+      "eventId": "event_98223ec4972b",
+      "clusterVersion": 2,
+      "title": "科创无界 产业共生，2026沿沪宁城市协同创新日启幕在即",
+      "firstSeenAt": "2026-10-30T10:52:51.656Z",
+      "lastSeenAt": "2026-10-31T17:22:55.690Z",
+      "latestItemPublishedAt": "2026-10-30T09:07:20.000Z",
+      "primaryItemId": "news_39f40d6f076f",
+      "evidenceItemIds": [
+        "news_fb0192292fa5",
+        "news_39f40d6f076f"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_e3e3db91e36b",
+      "clusterVersion": 2,
+      "title": "经港珠澳大桥珠海公路口岸对APEC经济体进出口总值破万亿元",
+      "firstSeenAt": "2026-10-31T17:22:55.690Z",
+      "lastSeenAt": "2026-10-31T17:22:55.690Z",
+      "latestItemPublishedAt": "2026-10-31T08:36:19.000Z",
+      "primaryItemId": "news_75bef4cccf95",
+      "evidenceItemIds": [
+        "news_75bef4cccf95",
+        "news_fd6f8f236e6c"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_2ffc3326e607",
+      "clusterVersion": 2,
+      "title": "纳斯达克100指数跌幅扩大至4% 费城半导体指数跌8.7%",
+      "firstSeenAt": "2026-10-30T18:08:13.695Z",
+      "lastSeenAt": "2026-10-31T14:41:57.211Z",
+      "latestItemPublishedAt": "2026-10-30T18:03:33.000Z",
+      "primaryItemId": "news_ca7783dacd94",
+      "evidenceItemIds": [
+        "news_ca7783dacd94",
+        "news_aadaa0db6851"
+      ],
+      "status": "developing",
+      "summary": "2026年10月30日美股科技类指数大跌，纳斯达克100跌4%，费城半导体指数跌8.7%",
+      "latestProgress": "纳斯达克100指数跌幅扩大至4%，费城半导体指数跌8.7%"
+    },
+    {
+      "eventId": "event_89d89e97f01e",
+      "clusterVersion": 2,
+      "title": "利弗莫尔中概股龙头指数跌幅扩大至3%",
+      "firstSeenAt": "2026-10-30T18:08:13.695Z",
+      "lastSeenAt": "2026-10-31T14:41:57.211Z",
+      "latestItemPublishedAt": "2026-10-30T17:36:50.000Z",
+      "primaryItemId": "news_5fa16bf38ad2",
+      "evidenceItemIds": [
+        "news_5fa16bf38ad2",
+        "news_9671615ff1a7"
+      ],
+      "status": "developing",
+      "summary": "2026年10月30日利弗莫尔中概股龙头指数跌幅持续扩大",
+      "latestProgress": "利弗莫尔中概股龙头指数跌幅扩大至3%"
     },
     {
       "eventId": "event_563ee83a7333",
@@ -544,22 +577,6 @@
       "evidenceItemIds": [
         "news_b6e65d896739",
         "news_a5c39bee19f5"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_98223ec4972b",
-      "clusterVersion": 2,
-      "title": "科创无界 产业共生，2026沿沪宁城市协同创新日启幕在即",
-      "firstSeenAt": "2026-10-30T10:52:51.656Z",
-      "lastSeenAt": "2026-10-31T10:28:54.938Z",
-      "latestItemPublishedAt": "2026-10-30T09:07:20.000Z",
-      "primaryItemId": "news_39f40d6f076f",
-      "evidenceItemIds": [
-        "news_fb0192292fa5",
-        "news_39f40d6f076f"
       ],
       "status": "developing",
       "summary": "",

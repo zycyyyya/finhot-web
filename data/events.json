@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-01T11:16:36.004Z",
+  "generatedAt": "2026-11-01T15:21:30.530Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -9,7 +9,7 @@
       "clusterVersion": 2,
       "title": "中国证监会有关部门负责人就《违规转让证券案件行政处罚实施规则》答记者问",
       "firstSeenAt": "2026-10-19T15:45:09.770Z",
-      "lastSeenAt": "2026-11-01T11:16:36.004Z",
+      "lastSeenAt": "2026-11-01T15:21:30.530Z",
       "latestItemPublishedAt": "2026-10-18T19:52:26.000Z",
       "primaryItemId": "news_29d1bc110417",
       "evidenceItemIds": [
@@ -28,11 +28,11 @@
     {
       "eventId": "event_f101880ef7bc",
       "clusterVersion": 2,
-      "title": "英特尔业绩不及预期股价下挫 美股科技板块缘何连日下挫",
+      "title": "美股点金丨恐慌抛售席卷市场，11月开局动荡预定？",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-01T11:16:36.004Z",
+      "lastSeenAt": "2026-11-01T15:21:30.530Z",
       "latestItemPublishedAt": "2026-11-01T09:24:38.000Z",
-      "primaryItemId": "news_e66b1fccfe71",
+      "primaryItemId": "news_8d1cc3f32bd9",
       "evidenceItemIds": [
         "news_cf3ddfea6f0e",
         "news_ac4afceb3e21",
@@ -92,11 +92,11 @@
     {
       "eventId": "event_4b8adcbd2db2",
       "clusterVersion": 2,
-      "title": "花旗解读\"鹰派\"与\"鸽派\"的真正含义，欧洲央行面临领导层变动",
+      "title": "欧洲央行调查显示2026年和2027年通胀预期上升",
       "firstSeenAt": "2026-10-29T10:57:37.423Z",
-      "lastSeenAt": "2026-11-01T11:16:36.004Z",
+      "lastSeenAt": "2026-11-01T15:21:30.530Z",
       "latestItemPublishedAt": "2026-10-31T06:53:31.000Z",
-      "primaryItemId": "news_5c723de7c41e",
+      "primaryItemId": "news_20f35290876c",
       "evidenceItemIds": [
         "news_5dc75a2cf395",
         "news_10155ef9c4d5",
@@ -117,13 +117,12 @@
     {
       "eventId": "event_a3c5d0364922",
       "clusterVersion": 2,
-      "title": "A股三季报风云丨2026年前三季度谁研发投入最高？",
+      "title": "A股三季报全景：银行撑总量、AI贡献增量，热门赛道环比表现引关注",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-01T11:16:36.004Z",
-      "latestItemPublishedAt": "2026-10-31T17:05:05.000Z",
-      "primaryItemId": "news_0d2e1adbe188",
+      "lastSeenAt": "2026-11-01T15:21:30.530Z",
+      "latestItemPublishedAt": "2026-11-01T12:04:37.000Z",
+      "primaryItemId": "news_aa63f5c7dd7f",
       "evidenceItemIds": [
-        "news_b475d156b4bf",
         "news_2378f848b9d2",
         "news_a87cf6ef4ce4",
         "news_5787b78054d4",
@@ -172,7 +171,8 @@
         "news_7d1aeafe3b72",
         "news_ff05a98a208d",
         "news_0493c2e0e322",
-        "news_801c473dba23"
+        "news_801c473dba23",
+        "news_aa63f5c7dd7f"
       ],
       "status": "developing",
       "summary": "2026年A股三季报披露收官，银行板块营收利润双增，多维度亮点凸显。",
@@ -183,13 +183,14 @@
       "clusterVersion": 2,
       "title": "白酒逆市涨停潮：中信证券称板块处“出清尾声”，锚定2027供需新均衡",
       "firstSeenAt": "2026-10-31T10:28:54.938Z",
-      "lastSeenAt": "2026-11-01T11:16:36.004Z",
-      "latestItemPublishedAt": "2026-10-31T08:58:28.000Z",
+      "lastSeenAt": "2026-11-01T15:21:30.530Z",
+      "latestItemPublishedAt": "2026-11-01T11:11:46.000Z",
       "primaryItemId": "news_2f260ca29782",
       "evidenceItemIds": [
         "news_2f260ca29782",
         "news_8a64461a9692",
-        "news_a89fd0e14ee7"
+        "news_a89fd0e14ee7",
+        "news_d35df84b2d51"
       ],
       "status": "developing",
       "summary": "中信证券称白酒板块处于出清尾声，锚定2027供需新均衡，板块逆市涨停。",
@@ -198,13 +199,12 @@
     {
       "eventId": "event_c68d651d4ff9",
       "clusterVersion": 2,
-      "title": "港股打新遇冷？六只新股同日招股，首日融资认购均不足1倍",
+      "title": "智通财经港股11月投资策略及十大金股",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-11-01T11:16:36.004Z",
-      "latestItemPublishedAt": "2026-10-31T07:59:26.000Z",
-      "primaryItemId": "news_54e72a40d9fd",
+      "lastSeenAt": "2026-11-01T15:21:30.530Z",
+      "latestItemPublishedAt": "2026-11-01T03:05:12.000Z",
+      "primaryItemId": "news_2e14392284ad",
       "evidenceItemIds": [
-        "news_586e4f1a7570",
         "news_cedb724a6ae0",
         "news_a7063c6851c5",
         "news_ef6c01c480e8",
@@ -253,36 +253,21 @@
         "news_4bc0c8475fc1",
         "news_4a2e31a08990",
         "news_4e69402797c8",
-        "news_54e72a40d9fd"
+        "news_54e72a40d9fd",
+        "news_2e14392284ad"
       ],
       "status": "developing",
       "summary": "六只港股新股同日招股，首日融资认购均不足1倍，打新遇冷。",
       "latestProgress": "截至2026年10月31日，六只新股首日融资认购均未满1倍。"
     },
     {
-      "eventId": "event_bf2cf94d1907",
-      "clusterVersion": 2,
-      "title": "拉加德提前辞卸欧央行行长职务 疫情与战争考验货币掌舵能力",
-      "firstSeenAt": "2026-10-31T14:41:57.211Z",
-      "lastSeenAt": "2026-11-01T11:16:36.004Z",
-      "latestItemPublishedAt": "2026-10-31T12:35:33.000Z",
-      "primaryItemId": "news_0b01b195f592",
-      "evidenceItemIds": [
-        "news_0b01b195f592",
-        "news_36b2b735989c"
-      ],
-      "status": "developing",
-      "summary": "拉加德提前辞卸欧央行行长职务，面临疫情与战争的货币掌舵考验。",
-      "latestProgress": "2026年10月31日，拉加德宣布提前辞卸欧央行行长职务。"
-    },
-    {
       "eventId": "event_6e67dc8e11a2",
       "clusterVersion": 2,
-      "title": "长鑫科技：已与多家头部客户协商长期供货协议 预计Q4毛利率保持稳定",
+      "title": "直击长鑫科技业绩会：已与多家头部客户协商长期供货协议 预计Q4毛利率将保持稳定",
       "firstSeenAt": "2026-10-31T14:41:57.211Z",
-      "lastSeenAt": "2026-11-01T11:16:36.004Z",
+      "lastSeenAt": "2026-11-01T15:21:30.530Z",
       "latestItemPublishedAt": "2026-10-31T10:40:18.000Z",
-      "primaryItemId": "news_5f3a6a15f08a",
+      "primaryItemId": "news_bca4a86f8ea8",
       "evidenceItemIds": [
         "news_bca4a86f8ea8",
         "news_5f3a6a15f08a"
@@ -292,31 +277,14 @@
       "latestProgress": "长鑫科技在业绩会透露已与多家头部客户协商长期供货协议，预计Q4毛利率将保持稳定。"
     },
     {
-      "eventId": "event_e3e3db91e36b",
-      "clusterVersion": 2,
-      "title": "经港珠澳大桥珠海公路口岸对APEC经济体进出口总值破万亿元",
-      "firstSeenAt": "2026-10-31T17:22:55.690Z",
-      "lastSeenAt": "2026-11-01T11:16:36.004Z",
-      "latestItemPublishedAt": "2026-10-31T08:36:19.000Z",
-      "primaryItemId": "news_75bef4cccf95",
-      "evidenceItemIds": [
-        "news_75bef4cccf95",
-        "news_fd6f8f236e6c"
-      ],
-      "status": "developing",
-      "summary": "经港珠澳大桥珠海公路口岸对APEC经济体进出口总值突破万亿元",
-      "latestProgress": "截至2026年10月31日，该口岸对APEC经济体进出口总值破万亿元"
-    },
-    {
       "eventId": "event_2cf716748ce1",
       "clusterVersion": 2,
-      "title": "央行政策利率“换锚”落地：隔夜正式接棒7天期逆回购",
+      "title": "管涛：美欧日央行如期暂停加息",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-01T11:16:36.004Z",
-      "latestItemPublishedAt": "2026-11-01T08:27:53.000Z",
-      "primaryItemId": "news_dc50070dac9c",
+      "lastSeenAt": "2026-11-01T15:21:30.530Z",
+      "latestItemPublishedAt": "2026-11-01T12:23:42.000Z",
+      "primaryItemId": "news_fd8eb03326fc",
       "evidenceItemIds": [
-        "news_edab0f29da0c",
         "news_18f80d945d5e",
         "news_76527dd309c0",
         "news_f35da10826ae",
@@ -365,7 +333,8 @@
         "news_dc50070dac9c",
         "news_e52b5f91be07",
         "news_0fefeb16dc4a",
-        "news_1459a058ea76"
+        "news_1459a058ea76",
+        "news_fd8eb03326fc"
       ],
       "status": "developing",
       "summary": "央行政策利率“换锚”落地，隔夜正式接棒7天期逆回购成为主要政策利率",
@@ -376,7 +345,7 @@
       "clusterVersion": 2,
       "title": "央行、金融监管总局、证监会，明日将召开会议",
       "firstSeenAt": "2026-10-30T15:09:24.813Z",
-      "lastSeenAt": "2026-11-01T11:16:36.004Z",
+      "lastSeenAt": "2026-11-01T15:21:30.530Z",
       "latestItemPublishedAt": "2026-11-01T08:47:07.000Z",
       "primaryItemId": "news_15016c580061",
       "evidenceItemIds": [
@@ -394,7 +363,7 @@
       "clusterVersion": 2,
       "title": "沪深上市公司净利润超5万亿元 创四年新高",
       "firstSeenAt": "2026-11-01T11:16:36.004Z",
-      "lastSeenAt": "2026-11-01T11:16:36.004Z",
+      "lastSeenAt": "2026-11-01T15:21:30.530Z",
       "latestItemPublishedAt": "2026-11-01T08:56:56.000Z",
       "primaryItemId": "news_8b9d14bbf791",
       "evidenceItemIds": [
@@ -405,6 +374,54 @@
       "status": "developing",
       "summary": "",
       "latestProgress": ""
+    },
+    {
+      "eventId": "event_d581b9d2214f",
+      "clusterVersion": 2,
+      "title": "事关资本市场，金融监管部门将开会；韩国10月半导体出口增超450%……周末重磅消息来了！",
+      "firstSeenAt": "2026-11-01T15:21:30.530Z",
+      "lastSeenAt": "2026-11-01T15:21:30.530Z",
+      "latestItemPublishedAt": "2026-11-01T11:56:56.000Z",
+      "primaryItemId": "news_e50edd3c9ce1",
+      "evidenceItemIds": [
+        "news_e50edd3c9ce1",
+        "news_b792719d6a6f"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_bf2cf94d1907",
+      "clusterVersion": 2,
+      "title": "拉加德提前辞卸欧央行行长职务 疫情与战争考验货币掌舵能力",
+      "firstSeenAt": "2026-10-31T14:41:57.211Z",
+      "lastSeenAt": "2026-11-01T11:16:36.004Z",
+      "latestItemPublishedAt": "2026-10-31T12:35:33.000Z",
+      "primaryItemId": "news_0b01b195f592",
+      "evidenceItemIds": [
+        "news_0b01b195f592",
+        "news_36b2b735989c"
+      ],
+      "status": "developing",
+      "summary": "拉加德提前辞卸欧央行行长职务，面临疫情与战争的货币掌舵考验。",
+      "latestProgress": "2026年10月31日，拉加德宣布提前辞卸欧央行行长职务。"
+    },
+    {
+      "eventId": "event_e3e3db91e36b",
+      "clusterVersion": 2,
+      "title": "经港珠澳大桥珠海公路口岸对APEC经济体进出口总值破万亿元",
+      "firstSeenAt": "2026-10-31T17:22:55.690Z",
+      "lastSeenAt": "2026-11-01T11:16:36.004Z",
+      "latestItemPublishedAt": "2026-10-31T08:36:19.000Z",
+      "primaryItemId": "news_75bef4cccf95",
+      "evidenceItemIds": [
+        "news_75bef4cccf95",
+        "news_fd6f8f236e6c"
+      ],
+      "status": "developing",
+      "summary": "经港珠澳大桥珠海公路口岸对APEC经济体进出口总值突破万亿元",
+      "latestProgress": "截至2026年10月31日，该口岸对APEC经济体进出口总值破万亿元"
     },
     {
       "eventId": "event_6ab2a13609c6",

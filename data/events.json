@@ -1,17 +1,17 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-10-31T17:22:55.690Z",
+  "generatedAt": "2026-11-01T06:26:13.200Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
       "eventId": "event_81903830edd9",
       "clusterVersion": 2,
-      "title": "中国证监会就《证券市场先行赔付指导意见》公开征求意见",
+      "title": "中国证监会有关部门负责人就《违规转让证券案件行政处罚实施规则》答记者问",
       "firstSeenAt": "2026-10-19T15:45:09.770Z",
-      "lastSeenAt": "2026-10-31T17:22:55.690Z",
-      "latestItemPublishedAt": "2026-10-18T19:52:26.000Z",
-      "primaryItemId": "news_c61e8342121c",
+      "lastSeenAt": "2026-11-01T06:26:13.200Z",
+      "latestItemPublishedAt": "2026-10-18T17:55:38.000Z",
+      "primaryItemId": "news_29d1bc110417",
       "evidenceItemIds": [
         "news_c61e8342121c",
         "news_b086a9025dff",
@@ -22,19 +22,18 @@
         "news_3ba6b045b23d"
       ],
       "status": "developing",
-      "summary": "2026年10月18日证监会就《违规转让证券案件行政处罚实施规则》答记者问，同时就《证券市场先行赔付指导意见》公开征求意见",
-      "latestProgress": "证监会当日发布《违规转让证券案件行政处罚实施规则》并公开征求先行赔付指导意见意见"
+      "summary": "中国证监会发布违规转让证券行政处罚规则，就规则答记者问，并就先行赔付指导意见征求意见",
+      "latestProgress": "中国证监会就《证券市场先行赔付指导意见》公开征求意见"
     },
     {
       "eventId": "event_f101880ef7bc",
       "clusterVersion": 2,
       "title": "英特尔业绩不及预期股价下挫 美股科技板块缘何连日下挫",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-31T17:22:55.690Z",
-      "latestItemPublishedAt": "2026-10-31T06:54:25.000Z",
+      "lastSeenAt": "2026-11-01T06:26:13.200Z",
+      "latestItemPublishedAt": "2026-11-01T02:36:11.000Z",
       "primaryItemId": "news_e66b1fccfe71",
       "evidenceItemIds": [
-        "news_a39328118ac2",
         "news_a95244cfe337",
         "news_cf3ddfea6f0e",
         "news_ac4afceb3e21",
@@ -83,20 +82,21 @@
         "news_44a511a3de39",
         "news_e66b1fccfe71",
         "news_1901b89cbf46",
-        "news_08c2d7e147b1"
+        "news_08c2d7e147b1",
+        "news_8d1cc3f32bd9"
       ],
       "status": "developing",
-      "summary": "美股科技巨头加码AI投入，支出承诺超3万亿美元，市场表现现分化。",
-      "latestProgress": "最新付鹏警示美股AI巨头有三重风险，高投入模式可持续性存疑。"
+      "summary": "英特尔业绩不及预期股价下挫，叠加多重风险，美股科技板块连日下挫。",
+      "latestProgress": "恐慌抛售席卷市场，11月美股开局动荡已预定。"
     },
     {
       "eventId": "event_4b8adcbd2db2",
       "clusterVersion": 2,
-      "title": "花旗解读\"鹰派\"与\"鸽派\"的真正含义，欧洲央行面临领导层变动",
+      "title": "欧洲央行调查显示2026年和2027年通胀预期上升",
       "firstSeenAt": "2026-10-29T10:57:37.423Z",
-      "lastSeenAt": "2026-10-31T17:22:55.690Z",
-      "latestItemPublishedAt": "2026-10-31T06:53:31.000Z",
-      "primaryItemId": "news_5c723de7c41e",
+      "lastSeenAt": "2026-11-01T06:26:13.200Z",
+      "latestItemPublishedAt": "2026-10-30T01:37:32.000Z",
+      "primaryItemId": "news_20f35290876c",
       "evidenceItemIds": [
         "news_5dc75a2cf395",
         "news_10155ef9c4d5",
@@ -111,19 +111,18 @@
         "news_5c723de7c41e"
       ],
       "status": "developing",
-      "summary": "欧洲央行调查显示2026年、2027年通胀预期上升",
-      "latestProgress": "欧央行发布最新调查，2026和2027年通胀预期呈上升趋势"
+      "summary": "欧洲央行调查显示2026年、2027年通胀预期有所上升",
+      "latestProgress": "花旗解读欧央行鹰派与鸽派含义，欧央行面临领导层变动"
     },
     {
       "eventId": "event_a3c5d0364922",
       "clusterVersion": 2,
-      "title": "A股四大指数集体低开，培育钻石、港口航运板块表现活跃",
+      "title": "A股三季报风云丨2026年第三季度谁“发红包”最壕？",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-10-31T17:22:55.690Z",
+      "lastSeenAt": "2026-11-01T06:26:13.200Z",
       "latestItemPublishedAt": "2026-10-31T14:04:25.000Z",
-      "primaryItemId": "news_eb3034b1e6ae",
+      "primaryItemId": "news_7d1aeafe3b72",
       "evidenceItemIds": [
-        "news_8ffb1935d7b2",
         "news_b475d156b4bf",
         "news_2378f848b9d2",
         "news_a87cf6ef4ce4",
@@ -172,20 +171,21 @@
         "news_adbda4541877",
         "news_7d1aeafe3b72",
         "news_ff05a98a208d",
-        "news_0493c2e0e322"
+        "news_0493c2e0e322",
+        "news_801c473dba23"
       ],
       "status": "developing",
-      "summary": "A股四大指数集体低开，培育钻石、港口航运板块表现活跃",
-      "latestProgress": "2026年三季报密集披露，相关营收盈利数据受市场关注"
+      "summary": "2026年A股三季报披露收官，银行板块营收利润双增，多维度亮点凸显。",
+      "latestProgress": "华金证券称11月A股将震荡筑底，建议均衡配置科技成长与低估值蓝筹。"
     },
     {
       "eventId": "event_6ab2a13609c6",
       "clusterVersion": 2,
-      "title": "美联储官员接连放鹰：洛根预计至少再加息两次，穆萨莱姆呼吁尽快行动",
+      "title": "美联储暂停加息；科技股抛售加剧｜一周热点回顾",
       "firstSeenAt": "2026-10-08T06:40:59.994Z",
-      "lastSeenAt": "2026-10-31T17:22:55.690Z",
+      "lastSeenAt": "2026-11-01T06:26:13.200Z",
       "latestItemPublishedAt": "2026-10-31T03:11:17.000Z",
-      "primaryItemId": "news_be1966c4e82a",
+      "primaryItemId": "news_2a84e5711211",
       "evidenceItemIds": [
         "news_6e80459d1483",
         "news_d5da4c726023",
@@ -239,15 +239,15 @@
         "news_2a84e5711211"
       ],
       "status": "developing",
-      "summary": "美联储官员接连放鹰，洛根预计至少再加息两次，穆萨莱姆呼吁尽快行动。",
-      "latestProgress": "洛根明确至少加息两次共50基点，加息50基点后可暂停评估。"
+      "summary": "美联储暂停加息后官员接连放鹰，科技股抛售加剧，上周市场波动显著。",
+      "latestProgress": "最新美联储官员放鹰，洛根预计至少再加息两次，穆萨莱姆呼吁尽快行动。"
     },
     {
       "eventId": "event_ac96327d5c88",
       "clusterVersion": 2,
       "title": "”零售之王“招商银行的三季报答卷：息差企稳，客户资产逼近19万亿",
       "firstSeenAt": "2026-10-31T06:05:11.934Z",
-      "lastSeenAt": "2026-10-31T17:22:55.690Z",
+      "lastSeenAt": "2026-11-01T06:26:13.200Z",
       "latestItemPublishedAt": "2026-10-31T03:23:28.000Z",
       "primaryItemId": "news_61b8f711a83c",
       "evidenceItemIds": [
@@ -255,15 +255,15 @@
         "news_8e82c3dc5724"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "零售之王招商银行披露三季报，息差企稳，客户资产逼近19万亿",
+      "latestProgress": "招行2026年三季报出炉，息差企稳，客户资产逼近19万亿"
     },
     {
       "eventId": "event_413564c93754",
       "clusterVersion": 2,
       "title": "白酒逆市涨停潮：中信证券称板块处“出清尾声”，锚定2027供需新均衡",
       "firstSeenAt": "2026-10-31T10:28:54.938Z",
-      "lastSeenAt": "2026-10-31T17:22:55.690Z",
+      "lastSeenAt": "2026-11-01T06:26:13.200Z",
       "latestItemPublishedAt": "2026-10-31T08:58:28.000Z",
       "primaryItemId": "news_2f260ca29782",
       "evidenceItemIds": [
@@ -272,17 +272,17 @@
         "news_a89fd0e14ee7"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "中信证券称白酒板块处于出清尾声，锚定2027供需新均衡，板块逆市涨停。",
+      "latestProgress": "2026年10月31日中信证券称银行板块有望向高确定性权益资产重估，全年估值上行。"
     },
     {
       "eventId": "event_c68d651d4ff9",
       "clusterVersion": 2,
-      "title": "港股IPO市场反转 新股破发不断、多家延期取消",
+      "title": "港股打新遇冷？六只新股同日招股，首日融资认购均不足1倍",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-10-31T17:22:55.690Z",
+      "lastSeenAt": "2026-11-01T06:26:13.200Z",
       "latestItemPublishedAt": "2026-10-31T07:59:26.000Z",
-      "primaryItemId": "news_ff31f7c687cd",
+      "primaryItemId": "news_54e72a40d9fd",
       "evidenceItemIds": [
         "news_586e4f1a7570",
         "news_cedb724a6ae0",
@@ -336,15 +336,15 @@
         "news_54e72a40d9fd"
       ],
       "status": "developing",
-      "summary": "港股IPO市场反转，新股破发频现，多家项目延期取消，基石投资现大面积浮亏。",
-      "latestProgress": "2026年10月30日消息，未来半年逾900亿港元港股基石投资将集中解禁。"
+      "summary": "六只港股新股同日招股，首日融资认购均不足1倍，打新遇冷。",
+      "latestProgress": "截至2026年10月31日，六只新股首日融资认购均未满1倍。"
     },
     {
       "eventId": "event_bf2cf94d1907",
       "clusterVersion": 2,
       "title": "拉加德提前辞卸欧央行行长职务 疫情与战争考验货币掌舵能力",
       "firstSeenAt": "2026-10-31T14:41:57.211Z",
-      "lastSeenAt": "2026-10-31T17:22:55.690Z",
+      "lastSeenAt": "2026-11-01T06:26:13.200Z",
       "latestItemPublishedAt": "2026-10-31T12:35:33.000Z",
       "primaryItemId": "news_0b01b195f592",
       "evidenceItemIds": [
@@ -352,36 +352,100 @@
         "news_36b2b735989c"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "拉加德提前辞卸欧央行行长职务，面临疫情与战争的货币掌舵考验。",
+      "latestProgress": "2026年10月31日，拉加德宣布提前辞卸欧央行行长职务。"
     },
     {
       "eventId": "event_6e67dc8e11a2",
       "clusterVersion": 2,
-      "title": "直击长鑫科技业绩会：已与多家头部客户协商长期供货协议 预计Q4毛利率将保持稳定",
+      "title": "长鑫科技：已与多家头部客户协商长期供货协议 预计Q4毛利率保持稳定",
       "firstSeenAt": "2026-10-31T14:41:57.211Z",
-      "lastSeenAt": "2026-10-31T17:22:55.690Z",
+      "lastSeenAt": "2026-11-01T06:26:13.200Z",
       "latestItemPublishedAt": "2026-10-31T10:40:18.000Z",
-      "primaryItemId": "news_bca4a86f8ea8",
+      "primaryItemId": "news_5f3a6a15f08a",
       "evidenceItemIds": [
         "news_bca4a86f8ea8",
         "news_5f3a6a15f08a"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "长鑫科技已与多家头部客户协商长期供货协议，预计Q4毛利率保持稳定。",
+      "latestProgress": "长鑫科技在业绩会透露已与多家头部客户协商长期供货协议，预计Q4毛利率将保持稳定。"
     },
     {
       "eventId": "event_104e72a0db40",
       "clusterVersion": 2,
       "title": "金价跌至一年来新低",
       "firstSeenAt": "2026-10-31T14:41:57.211Z",
-      "lastSeenAt": "2026-10-31T17:22:55.690Z",
+      "lastSeenAt": "2026-11-01T06:26:13.200Z",
       "latestItemPublishedAt": "2026-10-31T01:50:21.000Z",
       "primaryItemId": "news_9324fbc60536",
       "evidenceItemIds": [
         "news_9324fbc60536",
         "news_07ce101930d1"
+      ],
+      "status": "developing",
+      "summary": "2026年10月31日国际金价跌至一年来新低",
+      "latestProgress": "截至2026年10月31日，金价已触及近一年最低水平"
+    },
+    {
+      "eventId": "event_e3e3db91e36b",
+      "clusterVersion": 2,
+      "title": "经港珠澳大桥珠海公路口岸对APEC经济体进出口总值破万亿元",
+      "firstSeenAt": "2026-10-31T17:22:55.690Z",
+      "lastSeenAt": "2026-11-01T06:26:13.200Z",
+      "latestItemPublishedAt": "2026-10-31T08:36:19.000Z",
+      "primaryItemId": "news_75bef4cccf95",
+      "evidenceItemIds": [
+        "news_75bef4cccf95",
+        "news_fd6f8f236e6c"
+      ],
+      "status": "developing",
+      "summary": "经港珠澳大桥珠海公路口岸对APEC经济体进出口总值突破万亿元",
+      "latestProgress": "截至2026年10月31日，该口岸对APEC经济体进出口总值破万亿元"
+    },
+    {
+      "eventId": "event_ab4ef5b5a2f7",
+      "clusterVersion": 2,
+      "title": "AI巨头融资压力显现？OpenAI据称将融资目标下调百亿美元",
+      "firstSeenAt": "2026-11-01T06:26:13.200Z",
+      "lastSeenAt": "2026-11-01T06:26:13.200Z",
+      "latestItemPublishedAt": "2026-10-31T16:42:24.000Z",
+      "primaryItemId": "news_4bde4127f0ce",
+      "evidenceItemIds": [
+        "news_4bde4127f0ce",
+        "news_b554894ea8da"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_d903c1060e8d",
+      "clusterVersion": 2,
+      "title": "金饰克价，年内暴跌近550元",
+      "firstSeenAt": "2026-11-01T06:26:13.200Z",
+      "lastSeenAt": "2026-11-01T06:26:13.200Z",
+      "latestItemPublishedAt": "2026-10-31T08:24:53.000Z",
+      "primaryItemId": "news_e6c74f461448",
+      "evidenceItemIds": [
+        "news_e6c74f461448",
+        "news_3316f9970413"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_0fb756b750ef",
+      "clusterVersion": 2,
+      "title": "10月制造业PMI降至49.3%，价格指数高位回落",
+      "firstSeenAt": "2026-11-01T06:26:13.200Z",
+      "lastSeenAt": "2026-11-01T06:26:13.200Z",
+      "latestItemPublishedAt": "2026-10-31T03:21:28.000Z",
+      "primaryItemId": "news_7115da89e92b",
+      "evidenceItemIds": [
+        "news_7115da89e92b",
+        "news_3f7aea987efc"
       ],
       "status": "developing",
       "summary": "",
@@ -414,22 +478,6 @@
       "evidenceItemIds": [
         "news_fb0192292fa5",
         "news_39f40d6f076f"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_e3e3db91e36b",
-      "clusterVersion": 2,
-      "title": "经港珠澳大桥珠海公路口岸对APEC经济体进出口总值破万亿元",
-      "firstSeenAt": "2026-10-31T17:22:55.690Z",
-      "lastSeenAt": "2026-10-31T17:22:55.690Z",
-      "latestItemPublishedAt": "2026-10-31T08:36:19.000Z",
-      "primaryItemId": "news_75bef4cccf95",
-      "evidenceItemIds": [
-        "news_75bef4cccf95",
-        "news_fd6f8f236e6c"
       ],
       "status": "developing",
       "summary": "",

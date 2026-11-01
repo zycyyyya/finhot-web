@@ -1,17 +1,17 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-01T15:21:30.530Z",
+  "generatedAt": "2026-11-01T18:00:00.923Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
       "eventId": "event_81903830edd9",
       "clusterVersion": 2,
-      "title": "中国证监会有关部门负责人就《违规转让证券案件行政处罚实施规则》答记者问",
+      "title": "中国证监会就《证券市场先行赔付指导意见》公开征求意见",
       "firstSeenAt": "2026-10-19T15:45:09.770Z",
-      "lastSeenAt": "2026-11-01T15:21:30.530Z",
+      "lastSeenAt": "2026-11-01T18:00:00.923Z",
       "latestItemPublishedAt": "2026-10-18T19:52:26.000Z",
-      "primaryItemId": "news_29d1bc110417",
+      "primaryItemId": "news_c61e8342121c",
       "evidenceItemIds": [
         "news_c61e8342121c",
         "news_b086a9025dff",
@@ -30,11 +30,10 @@
       "clusterVersion": 2,
       "title": "美股点金丨恐慌抛售席卷市场，11月开局动荡预定？",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-01T15:21:30.530Z",
-      "latestItemPublishedAt": "2026-11-01T09:24:38.000Z",
+      "lastSeenAt": "2026-11-01T18:00:00.923Z",
+      "latestItemPublishedAt": "2026-11-01T14:01:07.000Z",
       "primaryItemId": "news_8d1cc3f32bd9",
       "evidenceItemIds": [
-        "news_cf3ddfea6f0e",
         "news_ac4afceb3e21",
         "news_ee511349b24d",
         "news_54801b02a622",
@@ -83,7 +82,8 @@
         "news_1901b89cbf46",
         "news_08c2d7e147b1",
         "news_8d1cc3f32bd9",
-        "news_d802b1da84be"
+        "news_d802b1da84be",
+        "news_92532f73d9b9"
       ],
       "status": "developing",
       "summary": "英特尔业绩不及预期股价下挫，叠加多重风险，美股科技板块连日下挫。",
@@ -94,7 +94,7 @@
       "clusterVersion": 2,
       "title": "欧洲央行调查显示2026年和2027年通胀预期上升",
       "firstSeenAt": "2026-10-29T10:57:37.423Z",
-      "lastSeenAt": "2026-11-01T15:21:30.530Z",
+      "lastSeenAt": "2026-11-01T18:00:00.923Z",
       "latestItemPublishedAt": "2026-10-31T06:53:31.000Z",
       "primaryItemId": "news_20f35290876c",
       "evidenceItemIds": [
@@ -119,7 +119,7 @@
       "clusterVersion": 2,
       "title": "A股三季报全景：银行撑总量、AI贡献增量，热门赛道环比表现引关注",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-01T15:21:30.530Z",
+      "lastSeenAt": "2026-11-01T18:00:00.923Z",
       "latestItemPublishedAt": "2026-11-01T12:04:37.000Z",
       "primaryItemId": "news_aa63f5c7dd7f",
       "evidenceItemIds": [
@@ -183,7 +183,7 @@
       "clusterVersion": 2,
       "title": "白酒逆市涨停潮：中信证券称板块处“出清尾声”，锚定2027供需新均衡",
       "firstSeenAt": "2026-10-31T10:28:54.938Z",
-      "lastSeenAt": "2026-11-01T15:21:30.530Z",
+      "lastSeenAt": "2026-11-01T18:00:00.923Z",
       "latestItemPublishedAt": "2026-11-01T11:11:46.000Z",
       "primaryItemId": "news_2f260ca29782",
       "evidenceItemIds": [
@@ -199,13 +199,12 @@
     {
       "eventId": "event_c68d651d4ff9",
       "clusterVersion": 2,
-      "title": "智通财经港股11月投资策略及十大金股",
+      "title": "智通港股投资日志|11月2日",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-11-01T15:21:30.530Z",
-      "latestItemPublishedAt": "2026-11-01T03:05:12.000Z",
-      "primaryItemId": "news_2e14392284ad",
+      "lastSeenAt": "2026-11-01T18:00:00.923Z",
+      "latestItemPublishedAt": "2026-11-01T08:05:06.000Z",
+      "primaryItemId": "news_514a7684ebd1",
       "evidenceItemIds": [
-        "news_cedb724a6ae0",
         "news_a7063c6851c5",
         "news_ef6c01c480e8",
         "news_20aef9d583bf",
@@ -254,34 +253,19 @@
         "news_4a2e31a08990",
         "news_4e69402797c8",
         "news_54e72a40d9fd",
-        "news_2e14392284ad"
+        "news_2e14392284ad",
+        "news_514a7684ebd1"
       ],
       "status": "developing",
       "summary": "六只港股新股同日招股，首日融资认购均不足1倍，打新遇冷。",
       "latestProgress": "截至2026年10月31日，六只新股首日融资认购均未满1倍。"
     },
     {
-      "eventId": "event_6e67dc8e11a2",
-      "clusterVersion": 2,
-      "title": "直击长鑫科技业绩会：已与多家头部客户协商长期供货协议 预计Q4毛利率将保持稳定",
-      "firstSeenAt": "2026-10-31T14:41:57.211Z",
-      "lastSeenAt": "2026-11-01T15:21:30.530Z",
-      "latestItemPublishedAt": "2026-10-31T10:40:18.000Z",
-      "primaryItemId": "news_bca4a86f8ea8",
-      "evidenceItemIds": [
-        "news_bca4a86f8ea8",
-        "news_5f3a6a15f08a"
-      ],
-      "status": "developing",
-      "summary": "长鑫科技已与多家头部客户协商长期供货协议，预计Q4毛利率保持稳定。",
-      "latestProgress": "长鑫科技在业绩会透露已与多家头部客户协商长期供货协议，预计Q4毛利率将保持稳定。"
-    },
-    {
       "eventId": "event_2cf716748ce1",
       "clusterVersion": 2,
       "title": "管涛：美欧日央行如期暂停加息",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-01T15:21:30.530Z",
+      "lastSeenAt": "2026-11-01T18:00:00.923Z",
       "latestItemPublishedAt": "2026-11-01T12:23:42.000Z",
       "primaryItemId": "news_fd8eb03326fc",
       "evidenceItemIds": [
@@ -345,7 +329,7 @@
       "clusterVersion": 2,
       "title": "央行、金融监管总局、证监会，明日将召开会议",
       "firstSeenAt": "2026-10-30T15:09:24.813Z",
-      "lastSeenAt": "2026-11-01T15:21:30.530Z",
+      "lastSeenAt": "2026-11-01T18:00:00.923Z",
       "latestItemPublishedAt": "2026-11-01T08:47:07.000Z",
       "primaryItemId": "news_15016c580061",
       "evidenceItemIds": [
@@ -363,7 +347,7 @@
       "clusterVersion": 2,
       "title": "沪深上市公司净利润超5万亿元 创四年新高",
       "firstSeenAt": "2026-11-01T11:16:36.004Z",
-      "lastSeenAt": "2026-11-01T15:21:30.530Z",
+      "lastSeenAt": "2026-11-01T18:00:00.923Z",
       "latestItemPublishedAt": "2026-11-01T08:56:56.000Z",
       "primaryItemId": "news_8b9d14bbf791",
       "evidenceItemIds": [
@@ -380,7 +364,7 @@
       "clusterVersion": 2,
       "title": "事关资本市场，金融监管部门将开会；韩国10月半导体出口增超450%……周末重磅消息来了！",
       "firstSeenAt": "2026-11-01T15:21:30.530Z",
-      "lastSeenAt": "2026-11-01T15:21:30.530Z",
+      "lastSeenAt": "2026-11-01T18:00:00.923Z",
       "latestItemPublishedAt": "2026-11-01T11:56:56.000Z",
       "primaryItemId": "news_e50edd3c9ce1",
       "evidenceItemIds": [
@@ -390,6 +374,22 @@
       "status": "developing",
       "summary": "",
       "latestProgress": ""
+    },
+    {
+      "eventId": "event_6e67dc8e11a2",
+      "clusterVersion": 2,
+      "title": "直击长鑫科技业绩会：已与多家头部客户协商长期供货协议 预计Q4毛利率将保持稳定",
+      "firstSeenAt": "2026-10-31T14:41:57.211Z",
+      "lastSeenAt": "2026-11-01T15:21:30.530Z",
+      "latestItemPublishedAt": "2026-10-31T10:40:18.000Z",
+      "primaryItemId": "news_bca4a86f8ea8",
+      "evidenceItemIds": [
+        "news_bca4a86f8ea8",
+        "news_5f3a6a15f08a"
+      ],
+      "status": "developing",
+      "summary": "长鑫科技已与多家头部客户协商长期供货协议，预计Q4毛利率保持稳定。",
+      "latestProgress": "长鑫科技在业绩会透露已与多家头部客户协商长期供货协议，预计Q4毛利率将保持稳定。"
     },
     {
       "eventId": "event_bf2cf94d1907",

@@ -1,17 +1,17 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-02T18:33:55.156Z",
+  "generatedAt": "2026-11-02T21:50:24.855Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
       "eventId": "event_f101880ef7bc",
       "clusterVersion": 2,
-      "title": "AI退潮、利率回落：美股广度修复，谁将成为下一批赢家？",
+      "title": "企业盈利增长加速时代终结，美股牛市立足的磐石正在动摇",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-02T18:33:55.156Z",
+      "lastSeenAt": "2026-11-02T21:50:24.855Z",
       "latestItemPublishedAt": "2026-11-02T14:46:12.000Z",
-      "primaryItemId": "news_bc2f882b8c82",
+      "primaryItemId": "news_a733460fd4e5",
       "evidenceItemIds": [
         "news_d89a5f374444",
         "news_bb0bc36877ea",
@@ -73,7 +73,7 @@
       "clusterVersion": 2,
       "title": "一日两会托底市场！两大稳市工具升级，A股将迎千亿级增量资金",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-02T18:33:55.156Z",
+      "lastSeenAt": "2026-11-02T21:50:24.855Z",
       "latestItemPublishedAt": "2026-11-02T14:17:57.000Z",
       "primaryItemId": "news_13e15eb68940",
       "evidenceItemIds": [
@@ -137,7 +137,7 @@
       "clusterVersion": 2,
       "title": "港股异动 | 快手-W(01024)涨超4% 可灵AI已完成约198亿元增资交割 机构看好模型性能迭代与商业化推进",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-11-02T18:33:55.156Z",
+      "lastSeenAt": "2026-11-02T21:50:24.855Z",
       "latestItemPublishedAt": "2026-11-02T12:50:38.000Z",
       "primaryItemId": "news_4418eafa2303",
       "evidenceItemIds": [
@@ -201,11 +201,10 @@
       "clusterVersion": 2,
       "title": "央行等三部门优化资本市场支持工具，回购增持再贷款利率降至1%",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-02T18:33:55.156Z",
-      "latestItemPublishedAt": "2026-11-02T13:04:25.000Z",
+      "lastSeenAt": "2026-11-02T21:50:24.855Z",
+      "latestItemPublishedAt": "2026-11-02T21:22:40.000Z",
       "primaryItemId": "news_dbc19c8cdc38",
       "evidenceItemIds": [
-        "news_b948fe11318a",
         "news_d7df0363c722",
         "news_2c81f355b59c",
         "news_cb80cd6329a0",
@@ -254,11 +253,95 @@
         "news_6aa5fb229fd5",
         "news_54c346a8f7ea",
         "news_67f5ce88ce5b",
-        "news_f56a621fce0e"
+        "news_f56a621fce0e",
+        "news_210c0f1966c2"
       ],
       "status": "developing",
       "summary": "管涛表示美欧日央行已如期暂停加息。",
       "latestProgress": "高盛预计英国央行2027年2月将加息25个基点，终端利率升至4.25%。"
+    },
+    {
+      "eventId": "event_1a84aae83f59",
+      "clusterVersion": 2,
+      "title": "中国央行：为支持资本市场健康稳定发展，中国人民银行将于11月3日开展证券、基金、保险公司互换便利操作，互换期限1年，可视",
+      "firstSeenAt": "2026-11-02T12:24:31.599Z",
+      "lastSeenAt": "2026-11-02T21:50:24.855Z",
+      "latestItemPublishedAt": "2026-11-02T12:04:37.000Z",
+      "primaryItemId": "news_fed63faa2936",
+      "evidenceItemIds": [
+        "news_fed63faa2936",
+        "news_da1c2bdb3d17"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_a5664b9ab4bc",
+      "clusterVersion": 2,
+      "title": "财联社11月2日电，标普500ETF博时(513500)将于2026年11月3日开市起至当日10:30停牌。",
+      "firstSeenAt": "2026-11-02T12:24:31.599Z",
+      "lastSeenAt": "2026-11-02T21:50:24.855Z",
+      "latestItemPublishedAt": "2026-11-02T11:06:58.000Z",
+      "primaryItemId": "news_31e240624247",
+      "evidenceItemIds": [
+        "news_31e240624247",
+        "news_7ef678bc5df0",
+        "news_e79c3160a50a",
+        "news_b16222831e7e",
+        "news_60bef2327170"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_0ea88ea9ea5a",
+      "clusterVersion": 2,
+      "title": "科力远：因涉嫌信息披露违法违规，证监会决定对公司及控股股东立案",
+      "firstSeenAt": "2026-11-02T12:24:31.599Z",
+      "lastSeenAt": "2026-11-02T21:50:24.855Z",
+      "latestItemPublishedAt": "2026-11-02T11:47:54.000Z",
+      "primaryItemId": "news_55c26a8b9a8d",
+      "evidenceItemIds": [
+        "news_55c26a8b9a8d",
+        "news_fb4712120573"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_122711a3e3c0",
+      "clusterVersion": 2,
+      "title": "涉嫌信息披露违法违规 科力远及控股股东遭证监会立案 | 速读公告",
+      "firstSeenAt": "2026-11-02T18:33:55.156Z",
+      "lastSeenAt": "2026-11-02T21:50:24.855Z",
+      "latestItemPublishedAt": "2026-11-02T13:01:57.000Z",
+      "primaryItemId": "news_0e2090b51c11",
+      "evidenceItemIds": [
+        "news_0e2090b51c11",
+        "news_397db8e4ed1a"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_11170e6619a3",
+      "clusterVersion": 2,
+      "title": "金融法草案二审稿充实金融消费者、投资者保护相关内容",
+      "firstSeenAt": "2026-11-02T18:33:55.156Z",
+      "lastSeenAt": "2026-11-02T21:50:24.855Z",
+      "latestItemPublishedAt": "2026-11-02T04:46:58.000Z",
+      "primaryItemId": "news_48876e91ceca",
+      "evidenceItemIds": [
+        "news_48876e91ceca",
+        "news_a4ec802c5a7f"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
     },
     {
       "eventId": "event_563ee83a7333",
@@ -298,41 +381,6 @@
       "latestProgress": "2026年10月31日，拉加德宣布提前辞卸欧央行行长职务。"
     },
     {
-      "eventId": "event_1a84aae83f59",
-      "clusterVersion": 2,
-      "title": "中国央行：为支持资本市场健康稳定发展，中国人民银行将于11月3日开展证券、基金、保险公司互换便利操作，互换期限1年，可视",
-      "firstSeenAt": "2026-11-02T12:24:31.599Z",
-      "lastSeenAt": "2026-11-02T18:33:55.156Z",
-      "latestItemPublishedAt": "2026-11-02T12:04:37.000Z",
-      "primaryItemId": "news_fed63faa2936",
-      "evidenceItemIds": [
-        "news_fed63faa2936",
-        "news_da1c2bdb3d17"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_a5664b9ab4bc",
-      "clusterVersion": 2,
-      "title": "财联社11月2日电，标普500ETF博时(513500)将于2026年11月3日开市起至当日10:30停牌。",
-      "firstSeenAt": "2026-11-02T12:24:31.599Z",
-      "lastSeenAt": "2026-11-02T18:33:55.156Z",
-      "latestItemPublishedAt": "2026-11-02T11:06:58.000Z",
-      "primaryItemId": "news_31e240624247",
-      "evidenceItemIds": [
-        "news_31e240624247",
-        "news_7ef678bc5df0",
-        "news_e79c3160a50a",
-        "news_b16222831e7e",
-        "news_60bef2327170"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
       "eventId": "event_2d62b41df74b",
       "clusterVersion": 2,
       "title": "美国逆变器进口政策趋严 中企将受哪些影响？｜出海·能源",
@@ -343,54 +391,6 @@
       "evidenceItemIds": [
         "news_23ad830f1d25",
         "news_ab4a79d8289d"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_0ea88ea9ea5a",
-      "clusterVersion": 2,
-      "title": "科力远：因涉嫌信息披露违法违规，证监会决定对公司及控股股东立案",
-      "firstSeenAt": "2026-11-02T12:24:31.599Z",
-      "lastSeenAt": "2026-11-02T18:33:55.156Z",
-      "latestItemPublishedAt": "2026-11-02T11:47:54.000Z",
-      "primaryItemId": "news_55c26a8b9a8d",
-      "evidenceItemIds": [
-        "news_55c26a8b9a8d",
-        "news_fb4712120573"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_122711a3e3c0",
-      "clusterVersion": 2,
-      "title": "涉嫌信息披露违法违规 科力远及控股股东遭证监会立案 | 速读公告",
-      "firstSeenAt": "2026-11-02T18:33:55.156Z",
-      "lastSeenAt": "2026-11-02T18:33:55.156Z",
-      "latestItemPublishedAt": "2026-11-02T13:01:57.000Z",
-      "primaryItemId": "news_0e2090b51c11",
-      "evidenceItemIds": [
-        "news_0e2090b51c11",
-        "news_397db8e4ed1a"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_11170e6619a3",
-      "clusterVersion": 2,
-      "title": "金融法草案二审稿充实金融消费者、投资者保护相关内容",
-      "firstSeenAt": "2026-11-02T18:33:55.156Z",
-      "lastSeenAt": "2026-11-02T18:33:55.156Z",
-      "latestItemPublishedAt": "2026-11-02T04:46:58.000Z",
-      "primaryItemId": "news_48876e91ceca",
-      "evidenceItemIds": [
-        "news_48876e91ceca",
-        "news_a4ec802c5a7f"
       ],
       "status": "developing",
       "summary": "",

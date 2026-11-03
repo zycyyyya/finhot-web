@@ -1,23 +1,18 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-03T11:57:43.416Z",
+  "generatedAt": "2026-11-03T16:24:07.205Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
       "eventId": "event_f101880ef7bc",
       "clusterVersion": 2,
-      "title": "大摩Wilson：美股调整已进入尾声，中选结束或是抄底良机",
+      "title": "美股AI向下，老登向上！伯克希尔又新高了",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-03T11:57:43.416Z",
-      "latestItemPublishedAt": "2026-11-03T08:34:25.000Z",
-      "primaryItemId": "news_ed9e442aa6d2",
+      "lastSeenAt": "2026-11-03T16:24:07.205Z",
+      "latestItemPublishedAt": "2026-11-03T15:02:41.000Z",
+      "primaryItemId": "news_51ad14751285",
       "evidenceItemIds": [
-        "news_5c4ba8c325c1",
-        "news_4883cd100ee3",
-        "news_81095aea02b7",
-        "news_fbce47cb119c",
-        "news_09ebc08ef507",
         "news_a371de6aac06",
         "news_653308a529ec",
         "news_01136ad3ad19",
@@ -62,7 +57,12 @@
         "news_f6ad3a469c4d",
         "news_57d02b8b056d",
         "news_ed9e442aa6d2",
-        "news_e65cbce01c12"
+        "news_e65cbce01c12",
+        "news_51ad14751285",
+        "news_0dbdb701ce8c",
+        "news_961679c4e14d",
+        "news_e1be8a2476b9",
+        "news_cd928ee322e8"
       ],
       "status": "developing",
       "summary": "企业盈利增长加速时代终结，美股牛市根基动摇，科技板块承压明显。",
@@ -73,7 +73,7 @@
       "clusterVersion": 2,
       "title": "2026年10月A股新开户150.06万户 同比下降35.04%",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-03T11:57:43.416Z",
+      "lastSeenAt": "2026-11-03T16:24:07.205Z",
       "latestItemPublishedAt": "2026-11-03T11:49:47.000Z",
       "primaryItemId": "news_8cacc1ab05aa",
       "evidenceItemIds": [
@@ -135,15 +135,12 @@
     {
       "eventId": "event_c68d651d4ff9",
       "clusterVersion": 2,
-      "title": "港股异动 | 华润置地(01109)涨近3% 成功竞拍收购深圳市湖贝乐兴房地产开发全部股权",
+      "title": "智通港股投资日志|11月4日",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-11-03T11:57:43.416Z",
-      "latestItemPublishedAt": "2026-11-03T06:45:35.000Z",
-      "primaryItemId": "news_3da5a4f78dc8",
+      "lastSeenAt": "2026-11-03T16:24:07.205Z",
+      "latestItemPublishedAt": "2026-11-03T13:18:26.000Z",
+      "primaryItemId": "news_15075deb8815",
       "evidenceItemIds": [
-        "news_9a2a0cba3567",
-        "news_397c390f14a2",
-        "news_b8967f4ffb97",
         "news_d7d23140bee1",
         "news_c7112f70197c",
         "news_43b0adc2db28",
@@ -190,7 +187,10 @@
         "news_89c3307b2fdb",
         "news_3da5a4f78dc8",
         "news_88fd141087ee",
-        "news_b16e8360d76f"
+        "news_b16e8360d76f",
+        "news_15075deb8815",
+        "news_adea2e7f9252",
+        "news_c8656b86df79"
       ],
       "status": "developing",
       "summary": "彭博报道百度AI芯片子公司港股IPO或推迟至明年。",
@@ -199,16 +199,12 @@
     {
       "eventId": "event_2cf716748ce1",
       "clusterVersion": 2,
-      "title": "中国央行：11月3日开展了1000亿元证券、基金、保险公司互换便利操作",
+      "title": "多家券商中标，央行第三批互换便利操作落地",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-03T11:57:43.416Z",
-      "latestItemPublishedAt": "2026-11-03T11:27:29.000Z",
-      "primaryItemId": "news_7aa8a777ef3d",
+      "lastSeenAt": "2026-11-03T16:24:07.205Z",
+      "latestItemPublishedAt": "2026-11-03T16:03:02.000Z",
+      "primaryItemId": "news_4dba62f206fc",
       "evidenceItemIds": [
-        "news_f0d73f98eb3a",
-        "news_420c404628ac",
-        "news_7df5742e25ba",
-        "news_0d2b928ecf62",
         "news_369b768aa546",
         "news_54610b02dc2f",
         "news_1a1ad99a6c02",
@@ -254,11 +250,144 @@
         "news_fc34ab501c6a",
         "news_e003b719d8ee",
         "news_935af352cd4c",
-        "news_762943903cae"
+        "news_762943903cae",
+        "news_4dba62f206fc",
+        "news_3a44df05119d",
+        "news_864d35be0dd9",
+        "news_61e0bf602d72"
       ],
       "status": "developing",
       "summary": "股票回购增持再贷款降息并转长期制度，利率降至1%，央行稳汇率举措落地。",
       "latestProgress": "11月3日央行开展1000亿元互换便利操作，上调外汇存准率稳汇率。"
+    },
+    {
+      "eventId": "event_f1d6646b3065",
+      "clusterVersion": 2,
+      "title": "科创50指数跌幅扩大至5%",
+      "firstSeenAt": "2026-11-03T07:05:30.658Z",
+      "lastSeenAt": "2026-11-03T16:24:07.205Z",
+      "latestItemPublishedAt": "2026-11-03T06:03:54.000Z",
+      "primaryItemId": "news_8d6ebd65c745",
+      "evidenceItemIds": [
+        "news_8d6ebd65c745",
+        "news_a6b33ba3d4eb",
+        "news_abb93d3c6488"
+      ],
+      "status": "developing",
+      "summary": "11月3日科创50指数跌幅持续扩大，盘中跌超4%后进一步扩大至5%",
+      "latestProgress": "科创50指数跌幅扩大至5%"
+    },
+    {
+      "eventId": "event_b960467d35b1",
+      "clusterVersion": 2,
+      "title": "多只ETF成交额破百亿，为“9·24行情”以来首次",
+      "firstSeenAt": "2026-11-03T11:57:43.416Z",
+      "lastSeenAt": "2026-11-03T16:24:07.205Z",
+      "latestItemPublishedAt": "2026-11-03T07:55:52.000Z",
+      "primaryItemId": "news_46b6da3c6296",
+      "evidenceItemIds": [
+        "news_46b6da3c6296",
+        "news_dba013d6e8e6"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_1d6f60c61326",
+      "clusterVersion": 2,
+      "title": "美国中选“最可能剧本”，将是美股“最危险剧本”？",
+      "firstSeenAt": "2026-11-03T11:57:43.416Z",
+      "lastSeenAt": "2026-11-03T16:24:07.205Z",
+      "latestItemPublishedAt": "2026-11-03T07:32:17.000Z",
+      "primaryItemId": "news_096277442525",
+      "evidenceItemIds": [
+        "news_096277442525",
+        "news_f495f2a81bee"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_33f311e54d32",
+      "clusterVersion": 2,
+      "title": "涉嫌操纵证券市场！品茗科技实控人莫绪军遭证监会立案",
+      "firstSeenAt": "2026-11-03T11:57:43.416Z",
+      "lastSeenAt": "2026-11-03T16:24:07.205Z",
+      "latestItemPublishedAt": "2026-11-03T11:28:21.000Z",
+      "primaryItemId": "news_f2a641cfc852",
+      "evidenceItemIds": [
+        "news_f2a641cfc852",
+        "news_850173d61e73"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_75d093948d44",
+      "clusterVersion": 2,
+      "title": "港股异动 | 中金公司(03908)午后涨超9% “三合一”重组完成交割 投行主体变更落地",
+      "firstSeenAt": "2026-11-03T11:57:43.416Z",
+      "lastSeenAt": "2026-11-03T16:24:07.205Z",
+      "latestItemPublishedAt": "2026-11-03T08:42:00.000Z",
+      "primaryItemId": "news_011a81aaa8f8",
+      "evidenceItemIds": [
+        "news_011a81aaa8f8",
+        "news_d07a084949aa"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_3c1ee2f0a12d",
+      "clusterVersion": 2,
+      "title": "中国证监会有关部门负责人就近期稳市场稳预期相关工作答记者问",
+      "firstSeenAt": "2026-11-03T11:57:43.416Z",
+      "lastSeenAt": "2026-11-03T16:24:07.205Z",
+      "latestItemPublishedAt": "2026-11-02T12:33:15.000Z",
+      "primaryItemId": "news_dfaa9aab36e9",
+      "evidenceItemIds": [
+        "news_dfaa9aab36e9",
+        "news_0252b2137f32"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_4ebfcc70a27c",
+      "clusterVersion": 2,
+      "title": "潘功胜：维护股票、债券、外汇等金融市场平稳运行，守住不发生系统性金融风险底线",
+      "firstSeenAt": "2026-11-03T16:24:07.205Z",
+      "lastSeenAt": "2026-11-03T16:24:07.205Z",
+      "latestItemPublishedAt": "2026-11-03T14:19:05.000Z",
+      "primaryItemId": "news_976d225140d0",
+      "evidenceItemIds": [
+        "news_976d225140d0",
+        "news_a1c8e8dd8c0c"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_07d89533a9fe",
+      "clusterVersion": 2,
+      "title": "*ST闻泰：股票交易异常波动，无应披露未披露重大事项",
+      "firstSeenAt": "2026-11-03T16:24:07.205Z",
+      "lastSeenAt": "2026-11-03T16:24:07.205Z",
+      "latestItemPublishedAt": "2026-11-03T12:22:52.000Z",
+      "primaryItemId": "news_1efd79a0555b",
+      "evidenceItemIds": [
+        "news_1efd79a0555b",
+        "news_ae4137438404"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
     },
     {
       "eventId": "event_413564c93754",
@@ -279,103 +408,6 @@
       "status": "developing",
       "summary": "中信证券资管减持中广核电力6245.2万股，每股作价约3.43港元。",
       "latestProgress": "2026年11月3日，中信证券董事长邹迎光首次公开亮相谈中国资产底气。"
-    },
-    {
-      "eventId": "event_f1d6646b3065",
-      "clusterVersion": 2,
-      "title": "科创50指数跌幅扩大至5%",
-      "firstSeenAt": "2026-11-03T07:05:30.658Z",
-      "lastSeenAt": "2026-11-03T11:57:43.416Z",
-      "latestItemPublishedAt": "2026-11-03T06:03:54.000Z",
-      "primaryItemId": "news_8d6ebd65c745",
-      "evidenceItemIds": [
-        "news_8d6ebd65c745",
-        "news_a6b33ba3d4eb",
-        "news_abb93d3c6488"
-      ],
-      "status": "developing",
-      "summary": "11月3日科创50指数跌幅持续扩大，盘中跌超4%后进一步扩大至5%",
-      "latestProgress": "科创50指数跌幅扩大至5%"
-    },
-    {
-      "eventId": "event_b960467d35b1",
-      "clusterVersion": 2,
-      "title": "多只ETF成交额破百亿，为“9·24行情”以来首次",
-      "firstSeenAt": "2026-11-03T11:57:43.416Z",
-      "lastSeenAt": "2026-11-03T11:57:43.416Z",
-      "latestItemPublishedAt": "2026-11-03T07:55:52.000Z",
-      "primaryItemId": "news_46b6da3c6296",
-      "evidenceItemIds": [
-        "news_46b6da3c6296",
-        "news_dba013d6e8e6"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_1d6f60c61326",
-      "clusterVersion": 2,
-      "title": "美国中选“最可能剧本”，将是美股“最危险剧本”？",
-      "firstSeenAt": "2026-11-03T11:57:43.416Z",
-      "lastSeenAt": "2026-11-03T11:57:43.416Z",
-      "latestItemPublishedAt": "2026-11-03T07:32:17.000Z",
-      "primaryItemId": "news_096277442525",
-      "evidenceItemIds": [
-        "news_096277442525",
-        "news_f495f2a81bee"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_33f311e54d32",
-      "clusterVersion": 2,
-      "title": "涉嫌操纵证券市场！品茗科技实控人莫绪军遭证监会立案",
-      "firstSeenAt": "2026-11-03T11:57:43.416Z",
-      "lastSeenAt": "2026-11-03T11:57:43.416Z",
-      "latestItemPublishedAt": "2026-11-03T11:28:21.000Z",
-      "primaryItemId": "news_f2a641cfc852",
-      "evidenceItemIds": [
-        "news_f2a641cfc852",
-        "news_850173d61e73"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_75d093948d44",
-      "clusterVersion": 2,
-      "title": "港股异动 | 中金公司(03908)午后涨超9% “三合一”重组完成交割 投行主体变更落地",
-      "firstSeenAt": "2026-11-03T11:57:43.416Z",
-      "lastSeenAt": "2026-11-03T11:57:43.416Z",
-      "latestItemPublishedAt": "2026-11-03T08:42:00.000Z",
-      "primaryItemId": "news_011a81aaa8f8",
-      "evidenceItemIds": [
-        "news_011a81aaa8f8",
-        "news_d07a084949aa"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_3c1ee2f0a12d",
-      "clusterVersion": 2,
-      "title": "中国证监会有关部门负责人就近期稳市场稳预期相关工作答记者问",
-      "firstSeenAt": "2026-11-03T11:57:43.416Z",
-      "lastSeenAt": "2026-11-03T11:57:43.416Z",
-      "latestItemPublishedAt": "2026-11-02T12:33:15.000Z",
-      "primaryItemId": "news_dfaa9aab36e9",
-      "evidenceItemIds": [
-        "news_dfaa9aab36e9",
-        "news_0252b2137f32"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
     },
     {
       "eventId": "event_1a84aae83f59",

@@ -1,19 +1,18 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-04T06:45:50.337Z",
+  "generatedAt": "2026-11-04T12:05:50.120Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
       "eventId": "event_f101880ef7bc",
       "clusterVersion": 2,
-      "title": "美股AI向下，老登向上！伯克希尔又新高了",
+      "title": "可全天交易，并可加杠杆！CFTC放行美股个股永续期货交易",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-04T06:45:50.337Z",
-      "latestItemPublishedAt": "2026-11-03T15:02:41.000Z",
-      "primaryItemId": "news_51ad14751285",
+      "lastSeenAt": "2026-11-04T12:05:50.120Z",
+      "latestItemPublishedAt": "2026-11-04T07:53:13.000Z",
+      "primaryItemId": "news_eca57c9ded15",
       "evidenceItemIds": [
-        "news_27f022105386",
         "news_faa8a468b39e",
         "news_5eab00953b10",
         "news_5f0699f2dd17",
@@ -62,7 +61,8 @@
         "news_47a33c470165",
         "news_11e3d7419867",
         "news_3b9e5ace7928",
-        "news_d69a133f3c6b"
+        "news_d69a133f3c6b",
+        "news_a89ad43e37d4"
       ],
       "status": "developing",
       "summary": "美股AI板块承压，伯克希尔股价创新高，市场多空分歧明显。",
@@ -71,13 +71,12 @@
     {
       "eventId": "event_a3c5d0364922",
       "clusterVersion": 2,
-      "title": "2026年10月A股新开户150.06万户 同比下降35.04%",
+      "title": "港股募资27亿港元，曦智科技半年后再启A股辅导",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-04T06:45:50.337Z",
-      "latestItemPublishedAt": "2026-11-04T02:20:10.000Z",
-      "primaryItemId": "news_8cacc1ab05aa",
+      "lastSeenAt": "2026-11-04T12:05:50.120Z",
+      "latestItemPublishedAt": "2026-11-04T09:44:45.000Z",
+      "primaryItemId": "news_cbe482e399b6",
       "evidenceItemIds": [
-        "news_c70449ae665a",
         "news_b60b6e94bacf",
         "news_c2ce65584ede",
         "news_1ac31b2352b1",
@@ -126,7 +125,8 @@
         "news_3c3068b51359",
         "news_e3ad5de94680",
         "news_81c52239f90b",
-        "news_6a9ba03ceab9"
+        "news_6a9ba03ceab9",
+        "news_80b509bd2c4f"
       ],
       "status": "developing",
       "summary": "2026年10月A股新开户150.06万户，同比降35.04%创年内新低",
@@ -137,11 +137,10 @@
       "clusterVersion": 2,
       "title": "港股异动 | 映恩生物-B(09606)涨近6% 获多名董事及高级管理层作出自愿禁售承诺 Elfe-D有望成为重磅产品",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-11-04T06:45:50.337Z",
-      "latestItemPublishedAt": "2026-11-03T22:05:07.000Z",
+      "lastSeenAt": "2026-11-04T12:05:50.120Z",
+      "latestItemPublishedAt": "2026-11-04T08:59:48.000Z",
       "primaryItemId": "news_27b7dde03d65",
       "evidenceItemIds": [
-        "news_c7112f70197c",
         "news_43b0adc2db28",
         "news_f34b3bebc1f3",
         "news_c0135a5caf1c",
@@ -190,7 +189,8 @@
         "news_15075deb8815",
         "news_adea2e7f9252",
         "news_c8656b86df79",
-        "news_27b7dde03d65"
+        "news_27b7dde03d65",
+        "news_c86872387577"
       ],
       "status": "developing",
       "summary": "映恩生物获多名董事及高管自愿禁售承诺，Elfe-D有望成重磅产品，股价涨近6%。",
@@ -201,12 +201,10 @@
       "clusterVersion": 2,
       "title": "ETF异动 | 易方达黄金矿业ETF(02824)涨超6% 全球央行三季度狂买黄金 美中期选举显示民主党势头强劲",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-04T06:45:50.337Z",
-      "latestItemPublishedAt": "2026-11-03T22:05:08.000Z",
+      "lastSeenAt": "2026-11-04T12:05:50.120Z",
+      "latestItemPublishedAt": "2026-11-04T09:01:53.000Z",
       "primaryItemId": "news_843faa5604d1",
       "evidenceItemIds": [
-        "news_920727afc8d9",
-        "news_5a48428d3d76",
         "news_f87cee983009",
         "news_0cd61aed6f0f",
         "news_155ced191caf",
@@ -254,11 +252,164 @@
         "news_7518ca5173a0",
         "news_1e2162cce252",
         "news_9da75dba4050",
-        "news_843faa5604d1"
+        "news_843faa5604d1",
+        "news_59985e5be6cc",
+        "news_53f9c3ae5ede"
       ],
       "status": "developing",
       "summary": "易方达黄金矿业ETF涨超6%，受全球央行三季度购金、美中期选举民主党占优影响。",
       "latestProgress": "11月4日央行下调回购增持再贷款利率，东山精密涨近6%领涨相关港股。"
+    },
+    {
+      "eventId": "event_3c1ee2f0a12d",
+      "clusterVersion": 2,
+      "title": "中国证监会有关部门负责人就近期稳市场稳预期相关工作答记者问",
+      "firstSeenAt": "2026-11-03T11:57:43.416Z",
+      "lastSeenAt": "2026-11-04T12:05:50.120Z",
+      "latestItemPublishedAt": "2026-11-02T12:33:15.000Z",
+      "primaryItemId": "news_dfaa9aab36e9",
+      "evidenceItemIds": [
+        "news_dfaa9aab36e9",
+        "news_0252b2137f32"
+      ],
+      "status": "developing",
+      "summary": "中国证监会有关部门负责人就近期稳市场稳预期相关工作答记者问回应关切",
+      "latestProgress": "2026年11月2日中国证监会就稳市场稳预期相关工作公开回应记者关切"
+    },
+    {
+      "eventId": "event_07d89533a9fe",
+      "clusterVersion": 2,
+      "title": "马矿股份：股票交易异常波动，无应披露未披露重大事项",
+      "firstSeenAt": "2026-11-03T16:24:07.205Z",
+      "lastSeenAt": "2026-11-04T12:05:50.120Z",
+      "latestItemPublishedAt": "2026-11-04T11:10:54.000Z",
+      "primaryItemId": "news_58a82203c14c",
+      "evidenceItemIds": [
+        "news_1efd79a0555b",
+        "news_ae4137438404",
+        "news_58a82203c14c",
+        "news_031597fd42e0",
+        "news_0ba38cebdd45"
+      ],
+      "status": "developing",
+      "summary": "2026年11月3日*ST闻泰股票交易异常波动，称无应披露未披露重大事项",
+      "latestProgress": "2026年11月3日*ST闻泰披露股票交易异常波动，无应披露未披露重大事项"
+    },
+    {
+      "eventId": "event_74b0e721d892",
+      "clusterVersion": 2,
+      "title": "监管生变？加密股10月承压今日反弹，美国中选或改写特朗普时代金融市场格局",
+      "firstSeenAt": "2026-11-03T19:38:20.438Z",
+      "lastSeenAt": "2026-11-04T12:05:50.120Z",
+      "latestItemPublishedAt": "2026-11-03T19:27:17.000Z",
+      "primaryItemId": "news_fbf82f0c9abd",
+      "evidenceItemIds": [
+        "news_fbf82f0c9abd",
+        "news_04189da72251"
+      ],
+      "status": "developing",
+      "summary": "加密股10月因监管承压后反弹，美国中期选举或改写特朗普时代金融格局。",
+      "latestProgress": "2026年11月3日加密股反弹，美国中期选举结果或重塑金融市场格局。"
+    },
+    {
+      "eventId": "event_871128ca4bc2",
+      "clusterVersion": 2,
+      "title": "财联社11月4日电，美国财政部拍卖六周期国债，得标利率3.940%，投标倍数2.88。",
+      "firstSeenAt": "2026-11-03T19:38:20.438Z",
+      "lastSeenAt": "2026-11-04T12:05:50.120Z",
+      "latestItemPublishedAt": "2026-11-03T16:32:15.000Z",
+      "primaryItemId": "news_33a45be9068d",
+      "evidenceItemIds": [
+        "news_33a45be9068d",
+        "news_318902494c40"
+      ],
+      "status": "developing",
+      "summary": "美国财政部拍卖六周期国债，得标利率3.94%，投标倍数2.88。",
+      "latestProgress": "美财政部六周期国债拍卖结果出炉，得标利率3.94%，投标倍数2.88。"
+    },
+    {
+      "eventId": "event_f1d6646b3065",
+      "clusterVersion": 2,
+      "title": "创业板指涨超3%，科创50指数涨幅扩大至5%",
+      "firstSeenAt": "2026-11-03T07:05:30.658Z",
+      "lastSeenAt": "2026-11-04T12:05:50.120Z",
+      "latestItemPublishedAt": "2026-11-04T05:40:13.000Z",
+      "primaryItemId": "news_a46233d6fd80",
+      "evidenceItemIds": [
+        "news_8d6ebd65c745",
+        "news_a6b33ba3d4eb",
+        "news_abb93d3c6488",
+        "news_a46233d6fd80"
+      ],
+      "status": "developing",
+      "summary": "创业板指涨超3%，科创50指数涨幅扩大至5%，市场科技成长板块表现亮眼",
+      "latestProgress": "2026年11月4日创业板指涨超3%，科创50指数涨幅扩大至5%"
+    },
+    {
+      "eventId": "event_1a84aae83f59",
+      "clusterVersion": 2,
+      "title": "中国人民银行加力实施股票回购增持再贷款政策",
+      "firstSeenAt": "2026-11-02T12:24:31.599Z",
+      "lastSeenAt": "2026-11-04T12:05:50.120Z",
+      "latestItemPublishedAt": "2026-11-04T01:05:01.000Z",
+      "primaryItemId": "news_1b399b62eb18",
+      "evidenceItemIds": [
+        "news_fed63faa2936",
+        "news_da1c2bdb3d17",
+        "news_1b399b62eb18"
+      ],
+      "status": "developing",
+      "summary": "央行加力实施股票回购增持再贷款政策，支持资本市场稳定发展",
+      "latestProgress": "2026年11月4日，央行正式推出加力版股票回购增持再贷款政策"
+    },
+    {
+      "eventId": "event_885550ad77ef",
+      "clusterVersion": 2,
+      "title": "中国10月RatingDog服务业PMI 50.8，前值 51.6。",
+      "firstSeenAt": "2026-11-04T06:45:50.337Z",
+      "lastSeenAt": "2026-11-04T12:05:50.120Z",
+      "latestItemPublishedAt": "2026-11-04T01:45:25.000Z",
+      "primaryItemId": "news_355cc5b36fcd",
+      "evidenceItemIds": [
+        "news_355cc5b36fcd",
+        "news_c068213720ac"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_312f5390b82d",
+      "clusterVersion": 2,
+      "title": "财联社11月4日电，现货黄金日内涨幅扩大至1%，报3969.6美元/盎司。",
+      "firstSeenAt": "2026-11-04T06:45:50.337Z",
+      "lastSeenAt": "2026-11-04T12:05:50.120Z",
+      "latestItemPublishedAt": "2026-11-04T05:35:07.000Z",
+      "primaryItemId": "news_d50d262523b2",
+      "evidenceItemIds": [
+        "news_d50d262523b2",
+        "news_a85f9d33bf51"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_867bcb6d11fd",
+      "clusterVersion": 2,
+      "title": "恒生科技指数涨幅扩大至1%",
+      "firstSeenAt": "2026-11-04T06:45:50.337Z",
+      "lastSeenAt": "2026-11-04T12:05:50.120Z",
+      "latestItemPublishedAt": "2026-11-04T05:55:44.000Z",
+      "primaryItemId": "news_788ef67bc1fe",
+      "evidenceItemIds": [
+        "news_788ef67bc1fe",
+        "news_88dc85e2b13c",
+        "news_a7fe608a612a"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
     },
     {
       "eventId": "event_33f311e54d32",
@@ -277,22 +428,6 @@
       "latestProgress": "证监会已对莫绪军涉嫌操纵证券市场的行为正式立案。"
     },
     {
-      "eventId": "event_3c1ee2f0a12d",
-      "clusterVersion": 2,
-      "title": "中国证监会有关部门负责人就近期稳市场稳预期相关工作答记者问",
-      "firstSeenAt": "2026-11-03T11:57:43.416Z",
-      "lastSeenAt": "2026-11-04T06:45:50.337Z",
-      "latestItemPublishedAt": "2026-11-02T12:33:15.000Z",
-      "primaryItemId": "news_dfaa9aab36e9",
-      "evidenceItemIds": [
-        "news_dfaa9aab36e9",
-        "news_0252b2137f32"
-      ],
-      "status": "developing",
-      "summary": "中国证监会有关部门负责人就近期稳市场稳预期相关工作答记者问回应关切",
-      "latestProgress": "2026年11月2日中国证监会就稳市场稳预期相关工作公开回应记者关切"
-    },
-    {
       "eventId": "event_4ebfcc70a27c",
       "clusterVersion": 2,
       "title": "潘功胜：维护股票、债券、外汇等金融市场平稳运行，守住不发生系统性金融风险底线",
@@ -307,138 +442,6 @@
       "status": "developing",
       "summary": "潘功胜明确要维护股票、债券、外汇等金融市场平稳运行，守住不发生系统性金融风险底线",
       "latestProgress": "潘功胜公开表态将全力维护金融市场平稳运行，守住不发生系统性金融风险底线"
-    },
-    {
-      "eventId": "event_07d89533a9fe",
-      "clusterVersion": 2,
-      "title": "*ST闻泰：股票交易异常波动，无应披露未披露重大事项",
-      "firstSeenAt": "2026-11-03T16:24:07.205Z",
-      "lastSeenAt": "2026-11-04T06:45:50.337Z",
-      "latestItemPublishedAt": "2026-11-03T12:22:52.000Z",
-      "primaryItemId": "news_1efd79a0555b",
-      "evidenceItemIds": [
-        "news_1efd79a0555b",
-        "news_ae4137438404"
-      ],
-      "status": "developing",
-      "summary": "2026年11月3日*ST闻泰股票交易异常波动，称无应披露未披露重大事项",
-      "latestProgress": "2026年11月3日*ST闻泰披露股票交易异常波动，无应披露未披露重大事项"
-    },
-    {
-      "eventId": "event_74b0e721d892",
-      "clusterVersion": 2,
-      "title": "监管生变？加密股10月承压今日反弹，美国中选或改写特朗普时代金融市场格局",
-      "firstSeenAt": "2026-11-03T19:38:20.438Z",
-      "lastSeenAt": "2026-11-04T06:45:50.337Z",
-      "latestItemPublishedAt": "2026-11-03T19:27:17.000Z",
-      "primaryItemId": "news_fbf82f0c9abd",
-      "evidenceItemIds": [
-        "news_fbf82f0c9abd",
-        "news_04189da72251"
-      ],
-      "status": "developing",
-      "summary": "加密股10月因监管承压后反弹，美国中期选举或改写特朗普时代金融格局。",
-      "latestProgress": "2026年11月3日加密股反弹，美国中期选举结果或重塑金融市场格局。"
-    },
-    {
-      "eventId": "event_871128ca4bc2",
-      "clusterVersion": 2,
-      "title": "财联社11月4日电，美国财政部拍卖六周期国债，得标利率3.940%，投标倍数2.88。",
-      "firstSeenAt": "2026-11-03T19:38:20.438Z",
-      "lastSeenAt": "2026-11-04T06:45:50.337Z",
-      "latestItemPublishedAt": "2026-11-03T16:32:15.000Z",
-      "primaryItemId": "news_33a45be9068d",
-      "evidenceItemIds": [
-        "news_33a45be9068d",
-        "news_318902494c40"
-      ],
-      "status": "developing",
-      "summary": "美国财政部拍卖六周期国债，得标利率3.94%，投标倍数2.88。",
-      "latestProgress": "美财政部六周期国债拍卖结果出炉，得标利率3.94%，投标倍数2.88。"
-    },
-    {
-      "eventId": "event_f1d6646b3065",
-      "clusterVersion": 2,
-      "title": "创业板指涨超3%，科创50指数涨幅扩大至5%",
-      "firstSeenAt": "2026-11-03T07:05:30.658Z",
-      "lastSeenAt": "2026-11-04T06:45:50.337Z",
-      "latestItemPublishedAt": "2026-11-04T05:40:13.000Z",
-      "primaryItemId": "news_a46233d6fd80",
-      "evidenceItemIds": [
-        "news_8d6ebd65c745",
-        "news_a6b33ba3d4eb",
-        "news_abb93d3c6488",
-        "news_a46233d6fd80"
-      ],
-      "status": "developing",
-      "summary": "创业板指涨超3%，科创50指数涨幅扩大至5%，市场科技成长板块表现亮眼",
-      "latestProgress": "2026年11月4日创业板指涨超3%，科创50指数涨幅扩大至5%"
-    },
-    {
-      "eventId": "event_1a84aae83f59",
-      "clusterVersion": 2,
-      "title": "中国人民银行加力实施股票回购增持再贷款政策",
-      "firstSeenAt": "2026-11-02T12:24:31.599Z",
-      "lastSeenAt": "2026-11-04T06:45:50.337Z",
-      "latestItemPublishedAt": "2026-11-04T01:05:01.000Z",
-      "primaryItemId": "news_1b399b62eb18",
-      "evidenceItemIds": [
-        "news_fed63faa2936",
-        "news_da1c2bdb3d17",
-        "news_1b399b62eb18"
-      ],
-      "status": "developing",
-      "summary": "央行加力实施股票回购增持再贷款政策，支持资本市场稳定发展",
-      "latestProgress": "2026年11月4日，央行正式推出加力版股票回购增持再贷款政策"
-    },
-    {
-      "eventId": "event_885550ad77ef",
-      "clusterVersion": 2,
-      "title": "中国10月RatingDog服务业PMI 50.8，前值 51.6。",
-      "firstSeenAt": "2026-11-04T06:45:50.337Z",
-      "lastSeenAt": "2026-11-04T06:45:50.337Z",
-      "latestItemPublishedAt": "2026-11-04T01:45:25.000Z",
-      "primaryItemId": "news_355cc5b36fcd",
-      "evidenceItemIds": [
-        "news_355cc5b36fcd",
-        "news_c068213720ac"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_312f5390b82d",
-      "clusterVersion": 2,
-      "title": "财联社11月4日电，现货黄金日内涨幅扩大至1%，报3969.6美元/盎司。",
-      "firstSeenAt": "2026-11-04T06:45:50.337Z",
-      "lastSeenAt": "2026-11-04T06:45:50.337Z",
-      "latestItemPublishedAt": "2026-11-04T05:35:07.000Z",
-      "primaryItemId": "news_d50d262523b2",
-      "evidenceItemIds": [
-        "news_d50d262523b2",
-        "news_a85f9d33bf51"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_867bcb6d11fd",
-      "clusterVersion": 2,
-      "title": "恒生科技指数涨幅扩大至1%",
-      "firstSeenAt": "2026-11-04T06:45:50.337Z",
-      "lastSeenAt": "2026-11-04T06:45:50.337Z",
-      "latestItemPublishedAt": "2026-11-04T05:55:44.000Z",
-      "primaryItemId": "news_788ef67bc1fe",
-      "evidenceItemIds": [
-        "news_788ef67bc1fe",
-        "news_88dc85e2b13c",
-        "news_a7fe608a612a"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
     },
     {
       "eventId": "event_b960467d35b1",

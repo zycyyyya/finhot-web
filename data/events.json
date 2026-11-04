@@ -1,20 +1,18 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-04T12:05:50.120Z",
+  "generatedAt": "2026-11-04T16:27:29.182Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
       "eventId": "event_f101880ef7bc",
       "clusterVersion": 2,
-      "title": "可全天交易，并可加杠杆！CFTC放行美股个股永续期货交易",
+      "title": "美股期货全线下跌，美元下跌，美债上涨",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-04T12:05:50.120Z",
-      "latestItemPublishedAt": "2026-11-04T07:53:13.000Z",
-      "primaryItemId": "news_eca57c9ded15",
+      "lastSeenAt": "2026-11-04T16:27:29.182Z",
+      "latestItemPublishedAt": "2026-11-04T14:37:21.000Z",
+      "primaryItemId": "news_11e3d7419867",
       "evidenceItemIds": [
-        "news_faa8a468b39e",
-        "news_5eab00953b10",
         "news_5f0699f2dd17",
         "news_17dbec960796",
         "news_9721ae25bd5f",
@@ -62,7 +60,9 @@
         "news_11e3d7419867",
         "news_3b9e5ace7928",
         "news_d69a133f3c6b",
-        "news_a89ad43e37d4"
+        "news_a89ad43e37d4",
+        "news_c3c6ab72241f",
+        "news_86077c1c6ffb"
       ],
       "status": "developing",
       "summary": "美股AI板块承压，伯克希尔股价创新高，市场多空分歧明显。",
@@ -71,16 +71,12 @@
     {
       "eventId": "event_a3c5d0364922",
       "clusterVersion": 2,
-      "title": "港股募资27亿港元，曦智科技半年后再启A股辅导",
+      "title": "A股迎来“大奇迹日”，后市怎么看｜市场观察",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-04T12:05:50.120Z",
-      "latestItemPublishedAt": "2026-11-04T09:44:45.000Z",
-      "primaryItemId": "news_cbe482e399b6",
+      "lastSeenAt": "2026-11-04T16:27:29.182Z",
+      "latestItemPublishedAt": "2026-11-04T13:11:47.000Z",
+      "primaryItemId": "news_8c1bb1d3a5e1",
       "evidenceItemIds": [
-        "news_b60b6e94bacf",
-        "news_c2ce65584ede",
-        "news_1ac31b2352b1",
-        "news_48e45612242e",
         "news_c6f52fc8f9c9",
         "news_22cd4a44a630",
         "news_5a10bdf6fb25",
@@ -126,7 +122,11 @@
         "news_e3ad5de94680",
         "news_81c52239f90b",
         "news_6a9ba03ceab9",
-        "news_80b509bd2c4f"
+        "news_80b509bd2c4f",
+        "news_8c1bb1d3a5e1",
+        "news_d3acb352b901",
+        "news_6f891b042f64",
+        "news_b4b557fcb708"
       ],
       "status": "developing",
       "summary": "2026年10月A股新开户150.06万户，同比降35.04%创年内新低",
@@ -135,14 +135,12 @@
     {
       "eventId": "event_c68d651d4ff9",
       "clusterVersion": 2,
-      "title": "港股异动 | 映恩生物-B(09606)涨近6% 获多名董事及高级管理层作出自愿禁售承诺 Elfe-D有望成为重磅产品",
+      "title": "智通港股投资日志|11月5日",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-11-04T12:05:50.120Z",
-      "latestItemPublishedAt": "2026-11-04T08:59:48.000Z",
-      "primaryItemId": "news_27b7dde03d65",
+      "lastSeenAt": "2026-11-04T16:27:29.182Z",
+      "latestItemPublishedAt": "2026-11-04T13:34:41.000Z",
+      "primaryItemId": "news_578decc7b31d",
       "evidenceItemIds": [
-        "news_43b0adc2db28",
-        "news_f34b3bebc1f3",
         "news_c0135a5caf1c",
         "news_70e5a68ae14e",
         "news_7844928506be",
@@ -190,7 +188,9 @@
         "news_adea2e7f9252",
         "news_c8656b86df79",
         "news_27b7dde03d65",
-        "news_c86872387577"
+        "news_c86872387577",
+        "news_578decc7b31d",
+        "news_920e409020d1"
       ],
       "status": "developing",
       "summary": "映恩生物获多名董事及高管自愿禁售承诺，Elfe-D有望成重磅产品，股价涨近6%。",
@@ -199,11 +199,11 @@
     {
       "eventId": "event_2cf716748ce1",
       "clusterVersion": 2,
-      "title": "ETF异动 | 易方达黄金矿业ETF(02824)涨超6% 全球央行三季度狂买黄金 美中期选举显示民主党势头强劲",
+      "title": "中国央行：11月5日，将开展3000亿元买断式逆回购操作",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-04T12:05:50.120Z",
+      "lastSeenAt": "2026-11-04T16:27:29.182Z",
       "latestItemPublishedAt": "2026-11-04T09:01:53.000Z",
-      "primaryItemId": "news_843faa5604d1",
+      "primaryItemId": "news_59985e5be6cc",
       "evidenceItemIds": [
         "news_f87cee983009",
         "news_0cd61aed6f0f",
@@ -265,7 +265,7 @@
       "clusterVersion": 2,
       "title": "中国证监会有关部门负责人就近期稳市场稳预期相关工作答记者问",
       "firstSeenAt": "2026-11-03T11:57:43.416Z",
-      "lastSeenAt": "2026-11-04T12:05:50.120Z",
+      "lastSeenAt": "2026-11-04T16:27:29.182Z",
       "latestItemPublishedAt": "2026-11-02T12:33:15.000Z",
       "primaryItemId": "news_dfaa9aab36e9",
       "evidenceItemIds": [
@@ -281,7 +281,7 @@
       "clusterVersion": 2,
       "title": "马矿股份：股票交易异常波动，无应披露未披露重大事项",
       "firstSeenAt": "2026-11-03T16:24:07.205Z",
-      "lastSeenAt": "2026-11-04T12:05:50.120Z",
+      "lastSeenAt": "2026-11-04T16:27:29.182Z",
       "latestItemPublishedAt": "2026-11-04T11:10:54.000Z",
       "primaryItemId": "news_58a82203c14c",
       "evidenceItemIds": [
@@ -294,6 +294,144 @@
       "status": "developing",
       "summary": "2026年11月3日*ST闻泰股票交易异常波动，称无应披露未披露重大事项",
       "latestProgress": "2026年11月3日*ST闻泰披露股票交易异常波动，无应披露未披露重大事项"
+    },
+    {
+      "eventId": "event_f1d6646b3065",
+      "clusterVersion": 2,
+      "title": "创业板指涨超3%，科创50指数涨幅扩大至5%",
+      "firstSeenAt": "2026-11-03T07:05:30.658Z",
+      "lastSeenAt": "2026-11-04T16:27:29.182Z",
+      "latestItemPublishedAt": "2026-11-04T05:40:13.000Z",
+      "primaryItemId": "news_a46233d6fd80",
+      "evidenceItemIds": [
+        "news_8d6ebd65c745",
+        "news_a6b33ba3d4eb",
+        "news_abb93d3c6488",
+        "news_a46233d6fd80"
+      ],
+      "status": "developing",
+      "summary": "创业板指涨超3%，科创50指数涨幅扩大至5%，市场科技成长板块表现亮眼",
+      "latestProgress": "2026年11月4日创业板指涨超3%，科创50指数涨幅扩大至5%"
+    },
+    {
+      "eventId": "event_312f5390b82d",
+      "clusterVersion": 2,
+      "title": "财联社11月4日电，现货白银日内涨幅扩大至5%，报52.26美元/盎司。",
+      "firstSeenAt": "2026-11-04T06:45:50.337Z",
+      "lastSeenAt": "2026-11-04T16:27:29.182Z",
+      "latestItemPublishedAt": "2026-11-04T14:47:16.000Z",
+      "primaryItemId": "news_0adb3a155da5",
+      "evidenceItemIds": [
+        "news_d50d262523b2",
+        "news_a85f9d33bf51",
+        "news_0adb3a155da5"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_867bcb6d11fd",
+      "clusterVersion": 2,
+      "title": "恒生科技指数涨幅扩大至1%",
+      "firstSeenAt": "2026-11-04T06:45:50.337Z",
+      "lastSeenAt": "2026-11-04T16:27:29.182Z",
+      "latestItemPublishedAt": "2026-11-04T05:55:44.000Z",
+      "primaryItemId": "news_788ef67bc1fe",
+      "evidenceItemIds": [
+        "news_788ef67bc1fe",
+        "news_88dc85e2b13c",
+        "news_a7fe608a612a"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_413564c93754",
+      "clusterVersion": 2,
+      "title": "科技股领涨A股放量反弹，中信证券：多数板块估值收缩主要进程已完成",
+      "firstSeenAt": "2026-10-31T10:28:54.938Z",
+      "lastSeenAt": "2026-11-04T16:27:29.182Z",
+      "latestItemPublishedAt": "2026-11-04T12:17:15.000Z",
+      "primaryItemId": "news_dd0a39bf0629",
+      "evidenceItemIds": [
+        "news_2f260ca29782",
+        "news_8a64461a9692",
+        "news_a89fd0e14ee7",
+        "news_d35df84b2d51",
+        "news_41923e10b75c",
+        "news_05b1bb65e77f",
+        "news_dd0a39bf0629"
+      ],
+      "status": "developing",
+      "summary": "中信证券资管减持中广核电力6245.2万股，每股作价约3.43港元。",
+      "latestProgress": "2026年11月3日，中信证券董事长邹迎光首次公开亮相谈中国资产底气。"
+    },
+    {
+      "eventId": "event_2d62b41df74b",
+      "clusterVersion": 2,
+      "title": "民主党重掌国会：如何影响美国政策与对华关系？资本市场走向何方？",
+      "firstSeenAt": "2026-11-02T12:24:31.599Z",
+      "lastSeenAt": "2026-11-04T16:27:29.182Z",
+      "latestItemPublishedAt": "2026-11-04T12:01:47.000Z",
+      "primaryItemId": "news_ab6743a0f133",
+      "evidenceItemIds": [
+        "news_23ad830f1d25",
+        "news_ab4a79d8289d",
+        "news_ab6743a0f133"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_25919815bffc",
+      "clusterVersion": 2,
+      "title": "欧元区通胀创三年新高！能源冲击未退，欧洲央行12月加息板上钉钉",
+      "firstSeenAt": "2026-11-04T16:27:29.182Z",
+      "lastSeenAt": "2026-11-04T16:27:29.182Z",
+      "latestItemPublishedAt": "2026-11-04T12:45:18.000Z",
+      "primaryItemId": "news_23cf3dbf1721",
+      "evidenceItemIds": [
+        "news_23cf3dbf1721",
+        "news_9721abeadc67"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_f1245093104a",
+      "clusterVersion": 2,
+      "title": "费城半导体指数跌幅扩大至2%",
+      "firstSeenAt": "2026-11-04T16:27:29.182Z",
+      "lastSeenAt": "2026-11-04T16:27:29.182Z",
+      "latestItemPublishedAt": "2026-11-04T14:34:19.000Z",
+      "primaryItemId": "news_3eba9cb67295",
+      "evidenceItemIds": [
+        "news_3eba9cb67295",
+        "news_412b22ca87bf"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_8aac4ac04cdb",
+      "clusterVersion": 2,
+      "title": "凯莱英：拟5亿元至7亿元回购公司股份",
+      "firstSeenAt": "2026-11-04T16:27:29.182Z",
+      "lastSeenAt": "2026-11-04T16:27:29.182Z",
+      "latestItemPublishedAt": "2026-11-04T12:33:01.000Z",
+      "primaryItemId": "news_6458c4a6712c",
+      "evidenceItemIds": [
+        "news_6458c4a6712c",
+        "news_d68a7ac38269"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
     },
     {
       "eventId": "event_74b0e721d892",
@@ -328,24 +466,6 @@
       "latestProgress": "美财政部六周期国债拍卖结果出炉，得标利率3.94%，投标倍数2.88。"
     },
     {
-      "eventId": "event_f1d6646b3065",
-      "clusterVersion": 2,
-      "title": "创业板指涨超3%，科创50指数涨幅扩大至5%",
-      "firstSeenAt": "2026-11-03T07:05:30.658Z",
-      "lastSeenAt": "2026-11-04T12:05:50.120Z",
-      "latestItemPublishedAt": "2026-11-04T05:40:13.000Z",
-      "primaryItemId": "news_a46233d6fd80",
-      "evidenceItemIds": [
-        "news_8d6ebd65c745",
-        "news_a6b33ba3d4eb",
-        "news_abb93d3c6488",
-        "news_a46233d6fd80"
-      ],
-      "status": "developing",
-      "summary": "创业板指涨超3%，科创50指数涨幅扩大至5%，市场科技成长板块表现亮眼",
-      "latestProgress": "2026年11月4日创业板指涨超3%，科创50指数涨幅扩大至5%"
-    },
-    {
       "eventId": "event_1a84aae83f59",
       "clusterVersion": 2,
       "title": "中国人民银行加力实施股票回购增持再贷款政策",
@@ -373,39 +493,6 @@
       "evidenceItemIds": [
         "news_355cc5b36fcd",
         "news_c068213720ac"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_312f5390b82d",
-      "clusterVersion": 2,
-      "title": "财联社11月4日电，现货黄金日内涨幅扩大至1%，报3969.6美元/盎司。",
-      "firstSeenAt": "2026-11-04T06:45:50.337Z",
-      "lastSeenAt": "2026-11-04T12:05:50.120Z",
-      "latestItemPublishedAt": "2026-11-04T05:35:07.000Z",
-      "primaryItemId": "news_d50d262523b2",
-      "evidenceItemIds": [
-        "news_d50d262523b2",
-        "news_a85f9d33bf51"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_867bcb6d11fd",
-      "clusterVersion": 2,
-      "title": "恒生科技指数涨幅扩大至1%",
-      "firstSeenAt": "2026-11-04T06:45:50.337Z",
-      "lastSeenAt": "2026-11-04T12:05:50.120Z",
-      "latestItemPublishedAt": "2026-11-04T05:55:44.000Z",
-      "primaryItemId": "news_788ef67bc1fe",
-      "evidenceItemIds": [
-        "news_788ef67bc1fe",
-        "news_88dc85e2b13c",
-        "news_a7fe608a612a"
       ],
       "status": "developing",
       "summary": "",
@@ -490,26 +577,6 @@
       "status": "developing",
       "summary": "",
       "latestProgress": ""
-    },
-    {
-      "eventId": "event_413564c93754",
-      "clusterVersion": 2,
-      "title": "中信证券资产管理有限公司减持中广核电力(01816)6245.2万股 每股作价约3.43港元",
-      "firstSeenAt": "2026-10-31T10:28:54.938Z",
-      "lastSeenAt": "2026-11-03T11:57:43.416Z",
-      "latestItemPublishedAt": "2026-11-03T03:49:05.000Z",
-      "primaryItemId": "news_41923e10b75c",
-      "evidenceItemIds": [
-        "news_2f260ca29782",
-        "news_8a64461a9692",
-        "news_a89fd0e14ee7",
-        "news_d35df84b2d51",
-        "news_41923e10b75c",
-        "news_05b1bb65e77f"
-      ],
-      "status": "developing",
-      "summary": "中信证券资管减持中广核电力6245.2万股，每股作价约3.43港元。",
-      "latestProgress": "2026年11月3日，中信证券董事长邹迎光首次公开亮相谈中国资产底气。"
     },
     {
       "eventId": "event_0ea88ea9ea5a",
@@ -678,22 +745,6 @@
       "status": "developing",
       "summary": "拉加德提前辞卸欧央行行长职务，面临疫情与战争的货币掌舵考验。",
       "latestProgress": "2026年10月31日，拉加德宣布提前辞卸欧央行行长职务。"
-    },
-    {
-      "eventId": "event_2d62b41df74b",
-      "clusterVersion": 2,
-      "title": "美国逆变器进口政策趋严 中企将受哪些影响？｜出海·能源",
-      "firstSeenAt": "2026-11-02T12:24:31.599Z",
-      "lastSeenAt": "2026-11-02T18:33:55.156Z",
-      "latestItemPublishedAt": "2026-11-02T11:44:58.000Z",
-      "primaryItemId": "news_23ad830f1d25",
-      "evidenceItemIds": [
-        "news_23ad830f1d25",
-        "news_ab4a79d8289d"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
     },
     {
       "eventId": "event_6ab2a13609c6",

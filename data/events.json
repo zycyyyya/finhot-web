@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-04T16:27:29.182Z",
+  "generatedAt": "2026-11-04T19:54:55.710Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -9,7 +9,7 @@
       "clusterVersion": 2,
       "title": "美股期货全线下跌，美元下跌，美债上涨",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-04T16:27:29.182Z",
+      "lastSeenAt": "2026-11-04T19:54:55.710Z",
       "latestItemPublishedAt": "2026-11-04T14:37:21.000Z",
       "primaryItemId": "news_11e3d7419867",
       "evidenceItemIds": [
@@ -73,7 +73,7 @@
       "clusterVersion": 2,
       "title": "A股迎来“大奇迹日”，后市怎么看｜市场观察",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-04T16:27:29.182Z",
+      "lastSeenAt": "2026-11-04T19:54:55.710Z",
       "latestItemPublishedAt": "2026-11-04T13:11:47.000Z",
       "primaryItemId": "news_8c1bb1d3a5e1",
       "evidenceItemIds": [
@@ -137,7 +137,7 @@
       "clusterVersion": 2,
       "title": "智通港股投资日志|11月5日",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-11-04T16:27:29.182Z",
+      "lastSeenAt": "2026-11-04T19:54:55.710Z",
       "latestItemPublishedAt": "2026-11-04T13:34:41.000Z",
       "primaryItemId": "news_578decc7b31d",
       "evidenceItemIds": [
@@ -195,6 +195,179 @@
       "status": "developing",
       "summary": "映恩生物获多名董事及高管自愿禁售承诺，Elfe-D有望成重磅产品，股价涨近6%。",
       "latestProgress": "2026年11月3日映恩生物披露董高自愿禁售承诺及Elfe-D潜力，股价涨近6%。"
+    },
+    {
+      "eventId": "event_3c1ee2f0a12d",
+      "clusterVersion": 2,
+      "title": "中国证监会有关部门负责人就近期稳市场稳预期相关工作答记者问",
+      "firstSeenAt": "2026-11-03T11:57:43.416Z",
+      "lastSeenAt": "2026-11-04T19:54:55.710Z",
+      "latestItemPublishedAt": "2026-11-02T12:33:15.000Z",
+      "primaryItemId": "news_dfaa9aab36e9",
+      "evidenceItemIds": [
+        "news_dfaa9aab36e9",
+        "news_0252b2137f32"
+      ],
+      "status": "developing",
+      "summary": "中国证监会有关部门负责人就近期稳市场稳预期相关工作答记者问回应关切",
+      "latestProgress": "2026年11月2日中国证监会就稳市场稳预期相关工作公开回应记者关切"
+    },
+    {
+      "eventId": "event_07d89533a9fe",
+      "clusterVersion": 2,
+      "title": "马矿股份：股票交易异常波动，无应披露未披露重大事项",
+      "firstSeenAt": "2026-11-03T16:24:07.205Z",
+      "lastSeenAt": "2026-11-04T19:54:55.710Z",
+      "latestItemPublishedAt": "2026-11-04T11:10:54.000Z",
+      "primaryItemId": "news_58a82203c14c",
+      "evidenceItemIds": [
+        "news_1efd79a0555b",
+        "news_ae4137438404",
+        "news_58a82203c14c",
+        "news_031597fd42e0",
+        "news_0ba38cebdd45"
+      ],
+      "status": "developing",
+      "summary": "2026年11月3日*ST闻泰股票交易异常波动，称无应披露未披露重大事项",
+      "latestProgress": "2026年11月3日*ST闻泰披露股票交易异常波动，无应披露未披露重大事项"
+    },
+    {
+      "eventId": "event_312f5390b82d",
+      "clusterVersion": 2,
+      "title": "财联社11月4日电，现货白银日内涨幅扩大至5%，报52.26美元/盎司。",
+      "firstSeenAt": "2026-11-04T06:45:50.337Z",
+      "lastSeenAt": "2026-11-04T19:54:55.710Z",
+      "latestItemPublishedAt": "2026-11-04T14:47:16.000Z",
+      "primaryItemId": "news_0adb3a155da5",
+      "evidenceItemIds": [
+        "news_d50d262523b2",
+        "news_a85f9d33bf51",
+        "news_0adb3a155da5"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_413564c93754",
+      "clusterVersion": 2,
+      "title": "科技股领涨A股放量反弹，中信证券：多数板块估值收缩主要进程已完成",
+      "firstSeenAt": "2026-10-31T10:28:54.938Z",
+      "lastSeenAt": "2026-11-04T19:54:55.710Z",
+      "latestItemPublishedAt": "2026-11-04T12:17:15.000Z",
+      "primaryItemId": "news_dd0a39bf0629",
+      "evidenceItemIds": [
+        "news_2f260ca29782",
+        "news_8a64461a9692",
+        "news_a89fd0e14ee7",
+        "news_d35df84b2d51",
+        "news_41923e10b75c",
+        "news_05b1bb65e77f",
+        "news_dd0a39bf0629"
+      ],
+      "status": "developing",
+      "summary": "中信证券资管减持中广核电力6245.2万股，每股作价约3.43港元。",
+      "latestProgress": "2026年11月3日，中信证券董事长邹迎光首次公开亮相谈中国资产底气。"
+    },
+    {
+      "eventId": "event_2d62b41df74b",
+      "clusterVersion": 2,
+      "title": "美国众议院民主党领导人Jeffries表示，将通过立法来阻止特朗普关税政策，并结束伊朗战争。 布伦特原油日内跌幅达9.5",
+      "firstSeenAt": "2026-11-02T12:24:31.599Z",
+      "lastSeenAt": "2026-11-04T19:54:55.710Z",
+      "latestItemPublishedAt": "2026-11-04T17:37:22.000Z",
+      "primaryItemId": "news_3305fae90863",
+      "evidenceItemIds": [
+        "news_23ad830f1d25",
+        "news_ab4a79d8289d",
+        "news_ab6743a0f133",
+        "news_3305fae90863"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_25919815bffc",
+      "clusterVersion": 2,
+      "title": "欧元区通胀创三年新高！能源冲击未退，欧洲央行12月加息板上钉钉",
+      "firstSeenAt": "2026-11-04T16:27:29.182Z",
+      "lastSeenAt": "2026-11-04T19:54:55.710Z",
+      "latestItemPublishedAt": "2026-11-04T18:49:06.000Z",
+      "primaryItemId": "news_23cf3dbf1721",
+      "evidenceItemIds": [
+        "news_23cf3dbf1721",
+        "news_9721abeadc67",
+        "news_e13d065215af"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_f1245093104a",
+      "clusterVersion": 2,
+      "title": "费城半导体指数跌幅扩大至2%",
+      "firstSeenAt": "2026-11-04T16:27:29.182Z",
+      "lastSeenAt": "2026-11-04T19:54:55.710Z",
+      "latestItemPublishedAt": "2026-11-04T14:34:19.000Z",
+      "primaryItemId": "news_3eba9cb67295",
+      "evidenceItemIds": [
+        "news_3eba9cb67295",
+        "news_412b22ca87bf"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_1d6f60c61326",
+      "clusterVersion": 2,
+      "title": "美国中选“最可能剧本”，将是美股“最危险剧本”？",
+      "firstSeenAt": "2026-11-03T11:57:43.416Z",
+      "lastSeenAt": "2026-11-04T19:54:55.710Z",
+      "latestItemPublishedAt": "2026-11-04T18:24:49.000Z",
+      "primaryItemId": "news_096277442525",
+      "evidenceItemIds": [
+        "news_096277442525",
+        "news_f495f2a81bee",
+        "news_dd2089818270"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_546632f4870c",
+      "clusterVersion": 2,
+      "title": "财联社11月5日电，上期所原油期货2612合约夜盘收跌7.07%，报628.40元人民币/桶。沪金夜盘收涨2.61%，沪",
+      "firstSeenAt": "2026-11-04T19:54:55.710Z",
+      "lastSeenAt": "2026-11-04T19:54:55.710Z",
+      "latestItemPublishedAt": "2026-11-04T18:31:01.000Z",
+      "primaryItemId": "news_814228fbcc07",
+      "evidenceItemIds": [
+        "news_814228fbcc07",
+        "news_36b11212b5a1"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_d88f9047b12a",
+      "clusterVersion": 2,
+      "title": "中金公司中标第三批互换便利163亿元 完成首批质押式回购交易",
+      "firstSeenAt": "2026-11-04T19:54:55.710Z",
+      "lastSeenAt": "2026-11-04T19:54:55.710Z",
+      "latestItemPublishedAt": "2026-11-04T12:25:39.000Z",
+      "primaryItemId": "news_fa1426e40bdb",
+      "evidenceItemIds": [
+        "news_fa1426e40bdb",
+        "news_e443e0d24d2d"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
     },
     {
       "eventId": "event_2cf716748ce1",
@@ -261,41 +434,6 @@
       "latestProgress": "11月4日央行下调回购增持再贷款利率，东山精密涨近6%领涨相关港股。"
     },
     {
-      "eventId": "event_3c1ee2f0a12d",
-      "clusterVersion": 2,
-      "title": "中国证监会有关部门负责人就近期稳市场稳预期相关工作答记者问",
-      "firstSeenAt": "2026-11-03T11:57:43.416Z",
-      "lastSeenAt": "2026-11-04T16:27:29.182Z",
-      "latestItemPublishedAt": "2026-11-02T12:33:15.000Z",
-      "primaryItemId": "news_dfaa9aab36e9",
-      "evidenceItemIds": [
-        "news_dfaa9aab36e9",
-        "news_0252b2137f32"
-      ],
-      "status": "developing",
-      "summary": "中国证监会有关部门负责人就近期稳市场稳预期相关工作答记者问回应关切",
-      "latestProgress": "2026年11月2日中国证监会就稳市场稳预期相关工作公开回应记者关切"
-    },
-    {
-      "eventId": "event_07d89533a9fe",
-      "clusterVersion": 2,
-      "title": "马矿股份：股票交易异常波动，无应披露未披露重大事项",
-      "firstSeenAt": "2026-11-03T16:24:07.205Z",
-      "lastSeenAt": "2026-11-04T16:27:29.182Z",
-      "latestItemPublishedAt": "2026-11-04T11:10:54.000Z",
-      "primaryItemId": "news_58a82203c14c",
-      "evidenceItemIds": [
-        "news_1efd79a0555b",
-        "news_ae4137438404",
-        "news_58a82203c14c",
-        "news_031597fd42e0",
-        "news_0ba38cebdd45"
-      ],
-      "status": "developing",
-      "summary": "2026年11月3日*ST闻泰股票交易异常波动，称无应披露未披露重大事项",
-      "latestProgress": "2026年11月3日*ST闻泰披露股票交易异常波动，无应披露未披露重大事项"
-    },
-    {
       "eventId": "event_f1d6646b3065",
       "clusterVersion": 2,
       "title": "创业板指涨超3%，科创50指数涨幅扩大至5%",
@@ -314,23 +452,6 @@
       "latestProgress": "2026年11月4日创业板指涨超3%，科创50指数涨幅扩大至5%"
     },
     {
-      "eventId": "event_312f5390b82d",
-      "clusterVersion": 2,
-      "title": "财联社11月4日电，现货白银日内涨幅扩大至5%，报52.26美元/盎司。",
-      "firstSeenAt": "2026-11-04T06:45:50.337Z",
-      "lastSeenAt": "2026-11-04T16:27:29.182Z",
-      "latestItemPublishedAt": "2026-11-04T14:47:16.000Z",
-      "primaryItemId": "news_0adb3a155da5",
-      "evidenceItemIds": [
-        "news_d50d262523b2",
-        "news_a85f9d33bf51",
-        "news_0adb3a155da5"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
       "eventId": "event_867bcb6d11fd",
       "clusterVersion": 2,
       "title": "恒生科技指数涨幅扩大至1%",
@@ -342,76 +463,6 @@
         "news_788ef67bc1fe",
         "news_88dc85e2b13c",
         "news_a7fe608a612a"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_413564c93754",
-      "clusterVersion": 2,
-      "title": "科技股领涨A股放量反弹，中信证券：多数板块估值收缩主要进程已完成",
-      "firstSeenAt": "2026-10-31T10:28:54.938Z",
-      "lastSeenAt": "2026-11-04T16:27:29.182Z",
-      "latestItemPublishedAt": "2026-11-04T12:17:15.000Z",
-      "primaryItemId": "news_dd0a39bf0629",
-      "evidenceItemIds": [
-        "news_2f260ca29782",
-        "news_8a64461a9692",
-        "news_a89fd0e14ee7",
-        "news_d35df84b2d51",
-        "news_41923e10b75c",
-        "news_05b1bb65e77f",
-        "news_dd0a39bf0629"
-      ],
-      "status": "developing",
-      "summary": "中信证券资管减持中广核电力6245.2万股，每股作价约3.43港元。",
-      "latestProgress": "2026年11月3日，中信证券董事长邹迎光首次公开亮相谈中国资产底气。"
-    },
-    {
-      "eventId": "event_2d62b41df74b",
-      "clusterVersion": 2,
-      "title": "民主党重掌国会：如何影响美国政策与对华关系？资本市场走向何方？",
-      "firstSeenAt": "2026-11-02T12:24:31.599Z",
-      "lastSeenAt": "2026-11-04T16:27:29.182Z",
-      "latestItemPublishedAt": "2026-11-04T12:01:47.000Z",
-      "primaryItemId": "news_ab6743a0f133",
-      "evidenceItemIds": [
-        "news_23ad830f1d25",
-        "news_ab4a79d8289d",
-        "news_ab6743a0f133"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_25919815bffc",
-      "clusterVersion": 2,
-      "title": "欧元区通胀创三年新高！能源冲击未退，欧洲央行12月加息板上钉钉",
-      "firstSeenAt": "2026-11-04T16:27:29.182Z",
-      "lastSeenAt": "2026-11-04T16:27:29.182Z",
-      "latestItemPublishedAt": "2026-11-04T12:45:18.000Z",
-      "primaryItemId": "news_23cf3dbf1721",
-      "evidenceItemIds": [
-        "news_23cf3dbf1721",
-        "news_9721abeadc67"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_f1245093104a",
-      "clusterVersion": 2,
-      "title": "费城半导体指数跌幅扩大至2%",
-      "firstSeenAt": "2026-11-04T16:27:29.182Z",
-      "lastSeenAt": "2026-11-04T16:27:29.182Z",
-      "latestItemPublishedAt": "2026-11-04T14:34:19.000Z",
-      "primaryItemId": "news_3eba9cb67295",
-      "evidenceItemIds": [
-        "news_3eba9cb67295",
-        "news_412b22ca87bf"
       ],
       "status": "developing",
       "summary": "",
@@ -541,22 +592,6 @@
       "evidenceItemIds": [
         "news_46b6da3c6296",
         "news_dba013d6e8e6"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_1d6f60c61326",
-      "clusterVersion": 2,
-      "title": "美国中选“最可能剧本”，将是美股“最危险剧本”？",
-      "firstSeenAt": "2026-11-03T11:57:43.416Z",
-      "lastSeenAt": "2026-11-03T16:24:07.205Z",
-      "latestItemPublishedAt": "2026-11-03T07:32:17.000Z",
-      "primaryItemId": "news_096277442525",
-      "evidenceItemIds": [
-        "news_096277442525",
-        "news_f495f2a81bee"
       ],
       "status": "developing",
       "summary": "",

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-05T07:05:37.066Z",
+  "updatedAt": "2026-11-05T12:18:41.783Z",
   "note": "auto 指标由 scripts/macro.js 每日自动刷新；manual 指标为人工核实值，核实日期见 asOf。",
   "indicators": [
     {
@@ -156,7 +156,7 @@
       "key": "gold",
       "name": "现货黄金",
       "value": "$4,130",
-      "numericValue": 4130.299805,
+      "numericValue": 4129.600098,
       "note": "较11月4日 $4,059 上升",
       "direction": "up",
       "asOf": "2026-11-05",
@@ -169,18 +169,14 @@
     {
       "key": "cngold",
       "name": "国内金价",
-      "value": "¥863.79",
-      "numericValue": 863.79,
-      "note": "较11月3日 ¥840.01 上升",
+      "value": "¥884.09",
+      "numericValue": 884.09,
+      "note": "较11月4日 ¥863.79 上升",
       "direction": "up",
-      "asOf": "2026-11-04",
+      "asOf": "2026-11-05",
       "source": "上海黄金交易所 Au99.99",
       "mode": "auto",
       "series": [
-        {
-          "date": "2026-10-27",
-          "value": 860.31
-        },
         {
           "date": "2026-10-28",
           "value": 868.99
@@ -204,11 +200,15 @@
         {
           "date": "2026-11-04",
           "value": 863.79
+        },
+        {
+          "date": "2026-11-05",
+          "value": 884.09
         }
       ],
-      "prevValue": "¥840.01",
-      "prevNumericValue": 840.01,
-      "prevAsOf": "2026-11-03"
+      "prevValue": "¥863.79",
+      "prevNumericValue": 863.79,
+      "prevAsOf": "2026-11-04"
     }
   ]
 }

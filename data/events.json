@@ -1,20 +1,18 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-05T07:05:37.066Z",
+  "generatedAt": "2026-11-05T12:18:41.783Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
       "eventId": "event_f101880ef7bc",
       "clusterVersion": 2,
-      "title": "美股异动 | 诺和诺德(NVO.US)涨逾6% Q3业绩超预期并上调全年指引",
+      "title": "中选靴子落地后，华尔街集体转向看多美股",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-05T07:05:37.066Z",
-      "latestItemPublishedAt": "2026-11-04T23:51:53.000Z",
-      "primaryItemId": "news_86077c1c6ffb",
+      "lastSeenAt": "2026-11-05T12:18:41.783Z",
+      "latestItemPublishedAt": "2026-11-05T09:26:27.000Z",
+      "primaryItemId": "news_d5d9f7f83479",
       "evidenceItemIds": [
-        "news_17dbec960796",
-        "news_9721ae25bd5f",
         "news_e6555a9caacc",
         "news_e0e0571e62ca",
         "news_a29cf45aa4e3",
@@ -62,7 +60,9 @@
         "news_a89ad43e37d4",
         "news_c3c6ab72241f",
         "news_86077c1c6ffb",
-        "news_db2399a219e0"
+        "news_db2399a219e0",
+        "news_d5d9f7f83479",
+        "news_be83056cc9ed"
       ],
       "status": "developing",
       "summary": "诺和诺德Q3业绩超预期并上调全年指引，美股股价涨逾6%。",
@@ -71,13 +71,12 @@
     {
       "eventId": "event_a3c5d0364922",
       "clusterVersion": 2,
-      "title": "跌到位了，高盛喊出：逢低买入A股，尤其AI",
+      "title": "香港私人财富管理业界呼吁：扩大A股市场准入",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-05T07:05:37.066Z",
-      "latestItemPublishedAt": "2026-11-05T05:48:05.000Z",
-      "primaryItemId": "news_1c04504c6054",
+      "lastSeenAt": "2026-11-05T12:18:41.783Z",
+      "latestItemPublishedAt": "2026-11-05T07:11:16.000Z",
+      "primaryItemId": "news_28f20db44f1b",
       "evidenceItemIds": [
-        "news_9fc37f8edae9",
         "news_eb3034b1e6ae",
         "news_2e9ced049a7f",
         "news_ee663cbdfc0f",
@@ -126,7 +125,8 @@
         "news_b4b557fcb708",
         "news_1c04504c6054",
         "news_00d90610100c",
-        "news_810a84b5b0c2"
+        "news_810a84b5b0c2",
+        "news_28f20db44f1b"
       ],
       "status": "developing",
       "summary": "2026年10月A股新开户150.06万户，同比降35.04%创年内新低",
@@ -135,16 +135,12 @@
     {
       "eventId": "event_c68d651d4ff9",
       "clusterVersion": 2,
-      "title": "港股异动 | 映恩生物-B(09606)涨近6% 获多名董事及高级管理层作出自愿禁售承诺 Elfe-D有望成为重磅产品",
+      "title": "港股暴涨韩股暴跌：人工智能叙事生变？｜市场观察",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-11-05T07:05:37.066Z",
-      "latestItemPublishedAt": "2026-11-05T02:05:09.000Z",
-      "primaryItemId": "news_27b7dde03d65",
+      "lastSeenAt": "2026-11-05T12:18:41.783Z",
+      "latestItemPublishedAt": "2026-11-05T10:13:10.000Z",
+      "primaryItemId": "news_05053833c974",
       "evidenceItemIds": [
-        "news_70e5a68ae14e",
-        "news_7844928506be",
-        "news_b27fac4a489e",
-        "news_3bec638b7da0",
         "news_e23ed3375cb6",
         "news_dd2c563e3444",
         "news_e1ac968d3bd0",
@@ -190,53 +186,22 @@
         "news_c86872387577",
         "news_578decc7b31d",
         "news_920e409020d1",
-        "news_5e02ca94b93c"
+        "news_5e02ca94b93c",
+        "news_05053833c974",
+        "news_524f9e5d2fdd",
+        "news_490da392ee38",
+        "news_71d58afbcb39"
       ],
       "status": "developing",
       "summary": "映恩生物获多名董事及高管自愿禁售承诺，Elfe-D有望成重磅产品，股价涨近6%。",
       "latestProgress": "2026年11月3日映恩生物披露董高自愿禁售承诺及Elfe-D潜力，股价涨近6%。"
     },
     {
-      "eventId": "event_3c1ee2f0a12d",
-      "clusterVersion": 2,
-      "title": "中国证监会有关部门负责人就近期稳市场稳预期相关工作答记者问",
-      "firstSeenAt": "2026-11-03T11:57:43.416Z",
-      "lastSeenAt": "2026-11-05T07:05:37.066Z",
-      "latestItemPublishedAt": "2026-11-02T12:33:15.000Z",
-      "primaryItemId": "news_dfaa9aab36e9",
-      "evidenceItemIds": [
-        "news_dfaa9aab36e9",
-        "news_0252b2137f32"
-      ],
-      "status": "developing",
-      "summary": "中国证监会有关部门负责人就近期稳市场稳预期相关工作答记者问",
-      "latestProgress": "证监会就稳市场稳预期相关工作回应记者关切"
-    },
-    {
-      "eventId": "event_07d89533a9fe",
-      "clusterVersion": 2,
-      "title": "移远通信：股票交易异常波动，无应披露未披露重大事项",
-      "firstSeenAt": "2026-11-03T16:24:07.205Z",
-      "lastSeenAt": "2026-11-05T07:05:37.066Z",
-      "latestItemPublishedAt": "2026-11-04T11:10:54.000Z",
-      "primaryItemId": "news_031597fd42e0",
-      "evidenceItemIds": [
-        "news_1efd79a0555b",
-        "news_ae4137438404",
-        "news_58a82203c14c",
-        "news_031597fd42e0",
-        "news_0ba38cebdd45"
-      ],
-      "status": "developing",
-      "summary": "移远通信股票交易异常波动，称无应披露未披露重大事项",
-      "latestProgress": "2026年11月4日移远通信公告股票交易异常波动，无应披露未披露重大事项"
-    },
-    {
       "eventId": "event_312f5390b82d",
       "clusterVersion": 2,
       "title": "财联社11月4日电，现货白银日内涨幅扩大至5%，报52.26美元/盎司。",
       "firstSeenAt": "2026-11-04T06:45:50.337Z",
-      "lastSeenAt": "2026-11-05T07:05:37.066Z",
+      "lastSeenAt": "2026-11-05T12:18:41.783Z",
       "latestItemPublishedAt": "2026-11-04T14:47:16.000Z",
       "primaryItemId": "news_0adb3a155da5",
       "evidenceItemIds": [
@@ -251,11 +216,11 @@
     {
       "eventId": "event_413564c93754",
       "clusterVersion": 2,
-      "title": "科技股领涨A股放量反弹，中信证券：多数板块估值收缩主要进程已完成",
+      "title": "中信证券-开元单一资产管理计划减持中广核电力(01816)2582.3万股 每股作价3.4港元",
       "firstSeenAt": "2026-10-31T10:28:54.938Z",
-      "lastSeenAt": "2026-11-05T07:05:37.066Z",
-      "latestItemPublishedAt": "2026-11-04T12:17:15.000Z",
-      "primaryItemId": "news_dd0a39bf0629",
+      "lastSeenAt": "2026-11-05T12:18:41.783Z",
+      "latestItemPublishedAt": "2026-11-05T03:35:17.000Z",
+      "primaryItemId": "news_793e1107aa30",
       "evidenceItemIds": [
         "news_2f260ca29782",
         "news_8a64461a9692",
@@ -263,7 +228,8 @@
         "news_d35df84b2d51",
         "news_41923e10b75c",
         "news_05b1bb65e77f",
-        "news_dd0a39bf0629"
+        "news_dd0a39bf0629",
+        "news_793e1107aa30"
       ],
       "status": "developing",
       "summary": "科技股领涨A股放量反弹，中信证券称多数板块估值收缩主要进程已完成",
@@ -274,7 +240,7 @@
       "clusterVersion": 2,
       "title": "美国众议院民主党领导人Jeffries表示，将通过立法来阻止特朗普关税政策，并结束伊朗战争。 布伦特原油日内跌幅达9.5",
       "firstSeenAt": "2026-11-02T12:24:31.599Z",
-      "lastSeenAt": "2026-11-05T07:05:37.066Z",
+      "lastSeenAt": "2026-11-05T12:18:41.783Z",
       "latestItemPublishedAt": "2026-11-04T17:37:22.000Z",
       "primaryItemId": "news_3305fae90863",
       "evidenceItemIds": [
@@ -292,7 +258,7 @@
       "clusterVersion": 2,
       "title": "欧元区通胀创三年新高！能源冲击未退，欧洲央行12月加息板上钉钉",
       "firstSeenAt": "2026-11-04T16:27:29.182Z",
-      "lastSeenAt": "2026-11-05T07:05:37.066Z",
+      "lastSeenAt": "2026-11-05T12:18:41.783Z",
       "latestItemPublishedAt": "2026-11-04T18:49:06.000Z",
       "primaryItemId": "news_23cf3dbf1721",
       "evidenceItemIds": [
@@ -309,7 +275,7 @@
       "clusterVersion": 2,
       "title": "费城半导体指数跌幅扩大至2%",
       "firstSeenAt": "2026-11-04T16:27:29.182Z",
-      "lastSeenAt": "2026-11-05T07:05:37.066Z",
+      "lastSeenAt": "2026-11-05T12:18:41.783Z",
       "latestItemPublishedAt": "2026-11-04T14:34:19.000Z",
       "primaryItemId": "news_3eba9cb67295",
       "evidenceItemIds": [
@@ -325,7 +291,7 @@
       "clusterVersion": 2,
       "title": "美国民主党中选大胜，一文看清美股各板块赢家输家",
       "firstSeenAt": "2026-11-03T11:57:43.416Z",
-      "lastSeenAt": "2026-11-05T07:05:37.066Z",
+      "lastSeenAt": "2026-11-05T12:18:41.783Z",
       "latestItemPublishedAt": "2026-11-04T21:19:50.000Z",
       "primaryItemId": "news_7b33091399d5",
       "evidenceItemIds": [
@@ -343,7 +309,7 @@
       "clusterVersion": 2,
       "title": "财联社11月5日电，上期所原油期货2612合约夜盘收跌7.07%，报628.40元人民币/桶。沪金夜盘收涨2.61%，沪",
       "firstSeenAt": "2026-11-04T19:54:55.710Z",
-      "lastSeenAt": "2026-11-05T07:05:37.066Z",
+      "lastSeenAt": "2026-11-05T12:18:41.783Z",
       "latestItemPublishedAt": "2026-11-04T18:31:01.000Z",
       "primaryItemId": "news_814228fbcc07",
       "evidenceItemIds": [
@@ -355,27 +321,11 @@
       "latestProgress": "上期所原油期货2612合约夜盘收跌7.07%，沪金涨2.61%、沪银涨4.80%"
     },
     {
-      "eventId": "event_d88f9047b12a",
-      "clusterVersion": 2,
-      "title": "中金公司中标第三批互换便利163亿元 完成首批质押式回购交易",
-      "firstSeenAt": "2026-11-04T19:54:55.710Z",
-      "lastSeenAt": "2026-11-05T07:05:37.066Z",
-      "latestItemPublishedAt": "2026-11-04T12:25:39.000Z",
-      "primaryItemId": "news_fa1426e40bdb",
-      "evidenceItemIds": [
-        "news_fa1426e40bdb",
-        "news_e443e0d24d2d"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
       "eventId": "event_c29ea857621f",
       "clusterVersion": 2,
       "title": "一批宽基规模飙升 华泰柏瑞沪深300ETF逼近2000亿关口",
       "firstSeenAt": "2026-11-05T07:05:37.066Z",
-      "lastSeenAt": "2026-11-05T07:05:37.066Z",
+      "lastSeenAt": "2026-11-05T12:18:41.783Z",
       "latestItemPublishedAt": "2026-11-05T05:17:06.000Z",
       "primaryItemId": "news_bd6bc0153099",
       "evidenceItemIds": [
@@ -391,7 +341,7 @@
       "clusterVersion": 2,
       "title": "财联社11月5日电，丰田汽车股价涨势一度扩大至15%。田计划未来五年安排11万亿至14万亿日元资金用于股东回报，涵盖分红",
       "firstSeenAt": "2026-11-05T07:05:37.066Z",
-      "lastSeenAt": "2026-11-05T07:05:37.066Z",
+      "lastSeenAt": "2026-11-05T12:18:41.783Z",
       "latestItemPublishedAt": "2026-11-05T05:15:46.000Z",
       "primaryItemId": "news_53097c1a60aa",
       "evidenceItemIds": [
@@ -407,7 +357,7 @@
       "clusterVersion": 2,
       "title": "财联社11月5日电，截至目前，南向资金净卖出额达50亿港元。",
       "firstSeenAt": "2026-11-05T07:05:37.066Z",
-      "lastSeenAt": "2026-11-05T07:05:37.066Z",
+      "lastSeenAt": "2026-11-05T12:18:41.783Z",
       "latestItemPublishedAt": "2026-11-05T05:12:21.000Z",
       "primaryItemId": "news_f2bb66a9f1f3",
       "evidenceItemIds": [
@@ -421,16 +371,12 @@
     {
       "eventId": "event_2cf716748ce1",
       "clusterVersion": 2,
-      "title": "中国央行：11月5日，将开展3000亿元买断式逆回购操作",
+      "title": "3个月买断式逆回购缩量续作，央行“削峰填谷”净回笼2000亿",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-04T16:27:29.182Z",
-      "latestItemPublishedAt": "2026-11-04T09:01:53.000Z",
-      "primaryItemId": "news_59985e5be6cc",
+      "lastSeenAt": "2026-11-05T12:18:41.783Z",
+      "latestItemPublishedAt": "2026-11-05T12:02:07.000Z",
+      "primaryItemId": "news_b984e444501e",
       "evidenceItemIds": [
-        "news_f87cee983009",
-        "news_0cd61aed6f0f",
-        "news_155ced191caf",
-        "news_858ad20596aa",
         "news_b795e54f2ba3",
         "news_5e3739171915",
         "news_764a54ec02e0",
@@ -476,11 +422,131 @@
         "news_9da75dba4050",
         "news_843faa5604d1",
         "news_59985e5be6cc",
-        "news_53f9c3ae5ede"
+        "news_53f9c3ae5ede",
+        "news_b984e444501e",
+        "news_5ede4a295c1a",
+        "news_697be358a579",
+        "news_3f1c7c185573"
       ],
       "status": "developing",
       "summary": "易方达黄金矿业ETF涨超6%，受全球央行三季度购金、美中期选举民主党占优影响。",
       "latestProgress": "11月4日央行下调回购增持再贷款利率，东山精密涨近6%领涨相关港股。"
+    },
+    {
+      "eventId": "event_33f311e54d32",
+      "clusterVersion": 2,
+      "title": "中国证监会与阿曼金融服务管理局签署《证券期货监管合作谅解备忘录》",
+      "firstSeenAt": "2026-11-03T11:57:43.416Z",
+      "lastSeenAt": "2026-11-05T12:18:41.783Z",
+      "latestItemPublishedAt": "2026-11-05T11:30:38.000Z",
+      "primaryItemId": "news_df8570abda18",
+      "evidenceItemIds": [
+        "news_f2a641cfc852",
+        "news_850173d61e73",
+        "news_df8570abda18"
+      ],
+      "status": "developing",
+      "summary": "品茗科技实控人莫绪军因涉嫌操纵证券市场遭证监会立案调查。",
+      "latestProgress": "证监会已对莫绪军涉嫌操纵证券市场的行为正式立案。"
+    },
+    {
+      "eventId": "event_d4b9c9afda23",
+      "clusterVersion": 2,
+      "title": "百济神州：上调2026年度营业收入预测为463亿元-470亿元",
+      "firstSeenAt": "2026-11-05T12:18:41.783Z",
+      "lastSeenAt": "2026-11-05T12:18:41.783Z",
+      "latestItemPublishedAt": "2026-11-05T11:45:17.000Z",
+      "primaryItemId": "news_bf92b240176d",
+      "evidenceItemIds": [
+        "news_bf92b240176d",
+        "news_0658f659f179"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_1a8998c42dc6",
+      "clusterVersion": 2,
+      "title": "财联社11月5日电，巴克莱将优步目标价从106美元下调至100美元。",
+      "firstSeenAt": "2026-11-05T12:18:41.783Z",
+      "lastSeenAt": "2026-11-05T12:18:41.783Z",
+      "latestItemPublishedAt": "2026-11-05T11:36:45.000Z",
+      "primaryItemId": "news_1242001d8ef4",
+      "evidenceItemIds": [
+        "news_1242001d8ef4",
+        "news_b66d6ca01b3e"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_be10f9f66c7f",
+      "clusterVersion": 2,
+      "title": "南向资金追踪｜净卖出超213亿港元 抛售三大ETF和小米流入建滔积层板",
+      "firstSeenAt": "2026-11-05T12:18:41.783Z",
+      "lastSeenAt": "2026-11-05T12:18:41.783Z",
+      "latestItemPublishedAt": "2026-11-05T11:43:56.000Z",
+      "primaryItemId": "news_1ce80f4a5a6d",
+      "evidenceItemIds": [
+        "news_1ce80f4a5a6d",
+        "news_447e1b0b9dc2"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_3c1ee2f0a12d",
+      "clusterVersion": 2,
+      "title": "中国证监会有关部门负责人就近期稳市场稳预期相关工作答记者问",
+      "firstSeenAt": "2026-11-03T11:57:43.416Z",
+      "lastSeenAt": "2026-11-05T07:05:37.066Z",
+      "latestItemPublishedAt": "2026-11-02T12:33:15.000Z",
+      "primaryItemId": "news_dfaa9aab36e9",
+      "evidenceItemIds": [
+        "news_dfaa9aab36e9",
+        "news_0252b2137f32"
+      ],
+      "status": "developing",
+      "summary": "中国证监会有关部门负责人就近期稳市场稳预期相关工作答记者问",
+      "latestProgress": "证监会就稳市场稳预期相关工作回应记者关切"
+    },
+    {
+      "eventId": "event_07d89533a9fe",
+      "clusterVersion": 2,
+      "title": "移远通信：股票交易异常波动，无应披露未披露重大事项",
+      "firstSeenAt": "2026-11-03T16:24:07.205Z",
+      "lastSeenAt": "2026-11-05T07:05:37.066Z",
+      "latestItemPublishedAt": "2026-11-04T11:10:54.000Z",
+      "primaryItemId": "news_031597fd42e0",
+      "evidenceItemIds": [
+        "news_1efd79a0555b",
+        "news_ae4137438404",
+        "news_58a82203c14c",
+        "news_031597fd42e0",
+        "news_0ba38cebdd45"
+      ],
+      "status": "developing",
+      "summary": "移远通信股票交易异常波动，称无应披露未披露重大事项",
+      "latestProgress": "2026年11月4日移远通信公告股票交易异常波动，无应披露未披露重大事项"
+    },
+    {
+      "eventId": "event_d88f9047b12a",
+      "clusterVersion": 2,
+      "title": "中金公司中标第三批互换便利163亿元 完成首批质押式回购交易",
+      "firstSeenAt": "2026-11-04T19:54:55.710Z",
+      "lastSeenAt": "2026-11-05T07:05:37.066Z",
+      "latestItemPublishedAt": "2026-11-04T12:25:39.000Z",
+      "primaryItemId": "news_fa1426e40bdb",
+      "evidenceItemIds": [
+        "news_fa1426e40bdb",
+        "news_e443e0d24d2d"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
     },
     {
       "eventId": "event_f1d6646b3065",
@@ -597,22 +663,6 @@
       "status": "developing",
       "summary": "",
       "latestProgress": ""
-    },
-    {
-      "eventId": "event_33f311e54d32",
-      "clusterVersion": 2,
-      "title": "涉嫌操纵证券市场！品茗科技实控人莫绪军遭证监会立案",
-      "firstSeenAt": "2026-11-03T11:57:43.416Z",
-      "lastSeenAt": "2026-11-04T06:45:50.337Z",
-      "latestItemPublishedAt": "2026-11-03T11:28:21.000Z",
-      "primaryItemId": "news_f2a641cfc852",
-      "evidenceItemIds": [
-        "news_f2a641cfc852",
-        "news_850173d61e73"
-      ],
-      "status": "developing",
-      "summary": "品茗科技实控人莫绪军因涉嫌操纵证券市场遭证监会立案调查。",
-      "latestProgress": "证监会已对莫绪军涉嫌操纵证券市场的行为正式立案。"
     },
     {
       "eventId": "event_4ebfcc70a27c",

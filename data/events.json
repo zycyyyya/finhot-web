@@ -1,19 +1,18 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-05T16:34:07.698Z",
+  "generatedAt": "2026-11-05T20:07:28.640Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
       "eventId": "event_f101880ef7bc",
       "clusterVersion": 2,
-      "title": "中选靴子落地后，华尔街集体转向看多美股",
+      "title": "多邻国暴涨26%逆转“AI受害者”叙事，美股AI投资正在进入下半场？",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-05T16:34:07.698Z",
-      "latestItemPublishedAt": "2026-11-05T15:43:20.000Z",
-      "primaryItemId": "news_d5d9f7f83479",
+      "lastSeenAt": "2026-11-05T20:07:28.640Z",
+      "latestItemPublishedAt": "2026-11-05T15:43:45.000Z",
+      "primaryItemId": "news_1c40eb9f2048",
       "evidenceItemIds": [
-        "news_9e847becf141",
         "news_737efbd0b9e2",
         "news_6f863c18dc45",
         "news_64ed0e805733",
@@ -62,7 +61,8 @@
         "news_1c40eb9f2048",
         "news_53b6564717f7",
         "news_869bebcc8da8",
-        "news_f8e6134024ba"
+        "news_f8e6134024ba",
+        "news_cbb6a1975664"
       ],
       "status": "developing",
       "summary": "诺和诺德Q3业绩超预期并上调全年指引，美股股价涨逾6%。",
@@ -73,7 +73,7 @@
       "clusterVersion": 2,
       "title": "香港私人财富管理业界呼吁：扩大A股市场准入",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-05T16:34:07.698Z",
+      "lastSeenAt": "2026-11-05T20:07:28.640Z",
       "latestItemPublishedAt": "2026-11-05T12:38:49.000Z",
       "primaryItemId": "news_28f20db44f1b",
       "evidenceItemIds": [
@@ -137,7 +137,7 @@
       "clusterVersion": 2,
       "title": "港股暴涨韩股暴跌：人工智能叙事生变？｜市场观察",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-11-05T16:34:07.698Z",
+      "lastSeenAt": "2026-11-05T20:07:28.640Z",
       "latestItemPublishedAt": "2026-11-05T13:15:16.000Z",
       "primaryItemId": "news_05053833c974",
       "evidenceItemIds": [
@@ -201,7 +201,7 @@
       "clusterVersion": 2,
       "title": "中信证券-开元单一资产管理计划减持中广核电力(01816)2582.3万股 每股作价3.4港元",
       "firstSeenAt": "2026-10-31T10:28:54.938Z",
-      "lastSeenAt": "2026-11-05T16:34:07.698Z",
+      "lastSeenAt": "2026-11-05T20:07:28.640Z",
       "latestItemPublishedAt": "2026-11-05T03:35:17.000Z",
       "primaryItemId": "news_793e1107aa30",
       "evidenceItemIds": [
@@ -223,12 +223,10 @@
       "clusterVersion": 2,
       "title": "3个月买断式逆回购缩量续作，央行“削峰填谷”净回笼2000亿",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-05T16:34:07.698Z",
-      "latestItemPublishedAt": "2026-11-05T12:02:07.000Z",
+      "lastSeenAt": "2026-11-05T20:07:28.640Z",
+      "latestItemPublishedAt": "2026-11-05T19:00:30.000Z",
       "primaryItemId": "news_b984e444501e",
       "evidenceItemIds": [
-        "news_b795e54f2ba3",
-        "news_5e3739171915",
         "news_764a54ec02e0",
         "news_23b9b517fb6c",
         "news_785885f9c534",
@@ -276,7 +274,9 @@
         "news_b984e444501e",
         "news_5ede4a295c1a",
         "news_697be358a579",
-        "news_3f1c7c185573"
+        "news_3f1c7c185573",
+        "news_e967b4ce976f",
+        "news_ca9af26f11a9"
       ],
       "status": "developing",
       "summary": "易方达黄金矿业ETF涨超6%，受全球央行三季度购金、美中期选举民主党占优影响。",
@@ -287,7 +287,7 @@
       "clusterVersion": 2,
       "title": "中国证监会与阿曼金融服务管理局签署《证券期货监管合作谅解备忘录》",
       "firstSeenAt": "2026-11-03T11:57:43.416Z",
-      "lastSeenAt": "2026-11-05T16:34:07.698Z",
+      "lastSeenAt": "2026-11-05T20:07:28.640Z",
       "latestItemPublishedAt": "2026-11-05T11:30:38.000Z",
       "primaryItemId": "news_df8570abda18",
       "evidenceItemIds": [
@@ -304,7 +304,7 @@
       "clusterVersion": 2,
       "title": "百济神州：上调2026年度营业收入预测为463亿元-470亿元",
       "firstSeenAt": "2026-11-05T12:18:41.783Z",
-      "lastSeenAt": "2026-11-05T16:34:07.698Z",
+      "lastSeenAt": "2026-11-05T20:07:28.640Z",
       "latestItemPublishedAt": "2026-11-05T11:45:17.000Z",
       "primaryItemId": "news_bf92b240176d",
       "evidenceItemIds": [
@@ -320,7 +320,7 @@
       "clusterVersion": 2,
       "title": "财联社11月5日电，巴克莱将优步目标价从106美元下调至100美元。",
       "firstSeenAt": "2026-11-05T12:18:41.783Z",
-      "lastSeenAt": "2026-11-05T16:34:07.698Z",
+      "lastSeenAt": "2026-11-05T20:07:28.640Z",
       "latestItemPublishedAt": "2026-11-05T11:36:45.000Z",
       "primaryItemId": "news_1242001d8ef4",
       "evidenceItemIds": [
@@ -336,7 +336,7 @@
       "clusterVersion": 2,
       "title": "南向资金追踪｜净卖出超213亿港元 抛售三大ETF和小米流入建滔积层板",
       "firstSeenAt": "2026-11-05T12:18:41.783Z",
-      "lastSeenAt": "2026-11-05T16:34:07.698Z",
+      "lastSeenAt": "2026-11-05T20:07:28.640Z",
       "latestItemPublishedAt": "2026-11-05T11:43:56.000Z",
       "primaryItemId": "news_1ce80f4a5a6d",
       "evidenceItemIds": [
@@ -352,12 +352,44 @@
       "clusterVersion": 2,
       "title": "中国连续17年稳居全球第二大进口国，还能买什么？",
       "firstSeenAt": "2026-11-05T16:34:07.698Z",
-      "lastSeenAt": "2026-11-05T16:34:07.698Z",
+      "lastSeenAt": "2026-11-05T20:07:28.640Z",
       "latestItemPublishedAt": "2026-11-05T12:43:29.000Z",
       "primaryItemId": "news_1d48b9ca74ae",
       "evidenceItemIds": [
         "news_1d48b9ca74ae",
         "news_8f5e7e156f5f"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_1dfbcf81d29c",
+      "clusterVersion": 2,
+      "title": "财联社11月6日电，恒生指数主连夜盘收跌1.58%，恒生科技指数主连夜盘收跌2.18%。",
+      "firstSeenAt": "2026-11-05T20:07:28.640Z",
+      "lastSeenAt": "2026-11-05T20:07:28.640Z",
+      "latestItemPublishedAt": "2026-11-05T19:01:19.000Z",
+      "primaryItemId": "news_9a5a941840f2",
+      "evidenceItemIds": [
+        "news_9a5a941840f2",
+        "news_2dcedee2abb7"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_9c0697946625",
+      "clusterVersion": 2,
+      "title": "财联社11月6日电，美国2至5年期国债收益率当日均下跌10个基点。",
+      "firstSeenAt": "2026-11-05T20:07:28.640Z",
+      "lastSeenAt": "2026-11-05T20:07:28.640Z",
+      "latestItemPublishedAt": "2026-11-05T18:06:08.000Z",
+      "primaryItemId": "news_08d22c897d67",
+      "evidenceItemIds": [
+        "news_08d22c897d67",
+        "news_ef50ee3422ab"
       ],
       "status": "developing",
       "summary": "",

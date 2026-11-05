@@ -1,19 +1,18 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-04T19:54:55.710Z",
+  "generatedAt": "2026-11-05T07:05:37.066Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
       "eventId": "event_f101880ef7bc",
       "clusterVersion": 2,
-      "title": "美股期货全线下跌，美元下跌，美债上涨",
+      "title": "美股异动 | 诺和诺德(NVO.US)涨逾6% Q3业绩超预期并上调全年指引",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-04T19:54:55.710Z",
-      "latestItemPublishedAt": "2026-11-04T14:37:21.000Z",
-      "primaryItemId": "news_11e3d7419867",
+      "lastSeenAt": "2026-11-05T07:05:37.066Z",
+      "latestItemPublishedAt": "2026-11-04T23:51:53.000Z",
+      "primaryItemId": "news_86077c1c6ffb",
       "evidenceItemIds": [
-        "news_5f0699f2dd17",
         "news_17dbec960796",
         "news_9721ae25bd5f",
         "news_e6555a9caacc",
@@ -62,24 +61,22 @@
         "news_d69a133f3c6b",
         "news_a89ad43e37d4",
         "news_c3c6ab72241f",
-        "news_86077c1c6ffb"
+        "news_86077c1c6ffb",
+        "news_db2399a219e0"
       ],
       "status": "developing",
-      "summary": "美股AI板块承压，伯克希尔股价创新高，市场多空分歧明显。",
-      "latestProgress": "CFTC放行美股个股永续期货交易，高盛警告美股回调远未结束。"
+      "summary": "诺和诺德Q3业绩超预期并上调全年指引，美股股价涨逾6%。",
+      "latestProgress": "最新报道显示美股科技巨头的AI投资正面临两难困境。"
     },
     {
       "eventId": "event_a3c5d0364922",
       "clusterVersion": 2,
-      "title": "A股迎来“大奇迹日”，后市怎么看｜市场观察",
+      "title": "跌到位了，高盛喊出：逢低买入A股，尤其AI",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-04T19:54:55.710Z",
-      "latestItemPublishedAt": "2026-11-04T13:11:47.000Z",
-      "primaryItemId": "news_8c1bb1d3a5e1",
+      "lastSeenAt": "2026-11-05T07:05:37.066Z",
+      "latestItemPublishedAt": "2026-11-05T05:48:05.000Z",
+      "primaryItemId": "news_1c04504c6054",
       "evidenceItemIds": [
-        "news_c6f52fc8f9c9",
-        "news_22cd4a44a630",
-        "news_5a10bdf6fb25",
         "news_9fc37f8edae9",
         "news_eb3034b1e6ae",
         "news_2e9ced049a7f",
@@ -126,7 +123,10 @@
         "news_8c1bb1d3a5e1",
         "news_d3acb352b901",
         "news_6f891b042f64",
-        "news_b4b557fcb708"
+        "news_b4b557fcb708",
+        "news_1c04504c6054",
+        "news_00d90610100c",
+        "news_810a84b5b0c2"
       ],
       "status": "developing",
       "summary": "2026年10月A股新开户150.06万户，同比降35.04%创年内新低",
@@ -135,13 +135,12 @@
     {
       "eventId": "event_c68d651d4ff9",
       "clusterVersion": 2,
-      "title": "智通港股投资日志|11月5日",
+      "title": "港股异动 | 映恩生物-B(09606)涨近6% 获多名董事及高级管理层作出自愿禁售承诺 Elfe-D有望成为重磅产品",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-11-04T19:54:55.710Z",
-      "latestItemPublishedAt": "2026-11-04T13:34:41.000Z",
-      "primaryItemId": "news_578decc7b31d",
+      "lastSeenAt": "2026-11-05T07:05:37.066Z",
+      "latestItemPublishedAt": "2026-11-05T02:05:09.000Z",
+      "primaryItemId": "news_27b7dde03d65",
       "evidenceItemIds": [
-        "news_c0135a5caf1c",
         "news_70e5a68ae14e",
         "news_7844928506be",
         "news_b27fac4a489e",
@@ -190,7 +189,8 @@
         "news_27b7dde03d65",
         "news_c86872387577",
         "news_578decc7b31d",
-        "news_920e409020d1"
+        "news_920e409020d1",
+        "news_5e02ca94b93c"
       ],
       "status": "developing",
       "summary": "映恩生物获多名董事及高管自愿禁售承诺，Elfe-D有望成重磅产品，股价涨近6%。",
@@ -201,7 +201,7 @@
       "clusterVersion": 2,
       "title": "中国证监会有关部门负责人就近期稳市场稳预期相关工作答记者问",
       "firstSeenAt": "2026-11-03T11:57:43.416Z",
-      "lastSeenAt": "2026-11-04T19:54:55.710Z",
+      "lastSeenAt": "2026-11-05T07:05:37.066Z",
       "latestItemPublishedAt": "2026-11-02T12:33:15.000Z",
       "primaryItemId": "news_dfaa9aab36e9",
       "evidenceItemIds": [
@@ -209,17 +209,17 @@
         "news_0252b2137f32"
       ],
       "status": "developing",
-      "summary": "中国证监会有关部门负责人就近期稳市场稳预期相关工作答记者问回应关切",
-      "latestProgress": "2026年11月2日中国证监会就稳市场稳预期相关工作公开回应记者关切"
+      "summary": "中国证监会有关部门负责人就近期稳市场稳预期相关工作答记者问",
+      "latestProgress": "证监会就稳市场稳预期相关工作回应记者关切"
     },
     {
       "eventId": "event_07d89533a9fe",
       "clusterVersion": 2,
-      "title": "马矿股份：股票交易异常波动，无应披露未披露重大事项",
+      "title": "移远通信：股票交易异常波动，无应披露未披露重大事项",
       "firstSeenAt": "2026-11-03T16:24:07.205Z",
-      "lastSeenAt": "2026-11-04T19:54:55.710Z",
+      "lastSeenAt": "2026-11-05T07:05:37.066Z",
       "latestItemPublishedAt": "2026-11-04T11:10:54.000Z",
-      "primaryItemId": "news_58a82203c14c",
+      "primaryItemId": "news_031597fd42e0",
       "evidenceItemIds": [
         "news_1efd79a0555b",
         "news_ae4137438404",
@@ -228,15 +228,15 @@
         "news_0ba38cebdd45"
       ],
       "status": "developing",
-      "summary": "2026年11月3日*ST闻泰股票交易异常波动，称无应披露未披露重大事项",
-      "latestProgress": "2026年11月3日*ST闻泰披露股票交易异常波动，无应披露未披露重大事项"
+      "summary": "移远通信股票交易异常波动，称无应披露未披露重大事项",
+      "latestProgress": "2026年11月4日移远通信公告股票交易异常波动，无应披露未披露重大事项"
     },
     {
       "eventId": "event_312f5390b82d",
       "clusterVersion": 2,
       "title": "财联社11月4日电，现货白银日内涨幅扩大至5%，报52.26美元/盎司。",
       "firstSeenAt": "2026-11-04T06:45:50.337Z",
-      "lastSeenAt": "2026-11-04T19:54:55.710Z",
+      "lastSeenAt": "2026-11-05T07:05:37.066Z",
       "latestItemPublishedAt": "2026-11-04T14:47:16.000Z",
       "primaryItemId": "news_0adb3a155da5",
       "evidenceItemIds": [
@@ -245,15 +245,15 @@
         "news_0adb3a155da5"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "11月4日现货白银日内涨幅扩大至5%，报52.26美元/盎司。",
+      "latestProgress": "最新报道显示现货白银日内涨超5%，报价52.26美元/盎司。"
     },
     {
       "eventId": "event_413564c93754",
       "clusterVersion": 2,
       "title": "科技股领涨A股放量反弹，中信证券：多数板块估值收缩主要进程已完成",
       "firstSeenAt": "2026-10-31T10:28:54.938Z",
-      "lastSeenAt": "2026-11-04T19:54:55.710Z",
+      "lastSeenAt": "2026-11-05T07:05:37.066Z",
       "latestItemPublishedAt": "2026-11-04T12:17:15.000Z",
       "primaryItemId": "news_dd0a39bf0629",
       "evidenceItemIds": [
@@ -266,15 +266,15 @@
         "news_dd0a39bf0629"
       ],
       "status": "developing",
-      "summary": "中信证券资管减持中广核电力6245.2万股，每股作价约3.43港元。",
-      "latestProgress": "2026年11月3日，中信证券董事长邹迎光首次公开亮相谈中国资产底气。"
+      "summary": "科技股领涨A股放量反弹，中信证券称多数板块估值收缩主要进程已完成",
+      "latestProgress": "当日A股放量反弹，科技股领涨，中信证券指出多数板块估值收缩主要进程已完成"
     },
     {
       "eventId": "event_2d62b41df74b",
       "clusterVersion": 2,
       "title": "美国众议院民主党领导人Jeffries表示，将通过立法来阻止特朗普关税政策，并结束伊朗战争。 布伦特原油日内跌幅达9.5",
       "firstSeenAt": "2026-11-02T12:24:31.599Z",
-      "lastSeenAt": "2026-11-04T19:54:55.710Z",
+      "lastSeenAt": "2026-11-05T07:05:37.066Z",
       "latestItemPublishedAt": "2026-11-04T17:37:22.000Z",
       "primaryItemId": "news_3305fae90863",
       "evidenceItemIds": [
@@ -284,15 +284,15 @@
         "news_3305fae90863"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "美众议院民主党领袖Jeffries称将立法阻止特朗普关税政策、结束伊朗战争，布伦特原油大跌9.5%",
+      "latestProgress": "布伦特原油日内跌9.5%，报93.74美元/桶"
     },
     {
       "eventId": "event_25919815bffc",
       "clusterVersion": 2,
       "title": "欧元区通胀创三年新高！能源冲击未退，欧洲央行12月加息板上钉钉",
       "firstSeenAt": "2026-11-04T16:27:29.182Z",
-      "lastSeenAt": "2026-11-04T19:54:55.710Z",
+      "lastSeenAt": "2026-11-05T07:05:37.066Z",
       "latestItemPublishedAt": "2026-11-04T18:49:06.000Z",
       "primaryItemId": "news_23cf3dbf1721",
       "evidenceItemIds": [
@@ -301,15 +301,15 @@
         "news_e13d065215af"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "欧元区通胀创三年新高，能源冲击未退，欧央行12月加息预期强烈。",
+      "latestProgress": "欧央行管委卡扎克斯称若通胀风险扩散将逐步上调利率。"
     },
     {
       "eventId": "event_f1245093104a",
       "clusterVersion": 2,
       "title": "费城半导体指数跌幅扩大至2%",
       "firstSeenAt": "2026-11-04T16:27:29.182Z",
-      "lastSeenAt": "2026-11-04T19:54:55.710Z",
+      "lastSeenAt": "2026-11-05T07:05:37.066Z",
       "latestItemPublishedAt": "2026-11-04T14:34:19.000Z",
       "primaryItemId": "news_3eba9cb67295",
       "evidenceItemIds": [
@@ -317,32 +317,33 @@
         "news_412b22ca87bf"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "费城半导体指数跌幅扩大至2%",
+      "latestProgress": "费城半导体指数跌幅扩大至2%"
     },
     {
       "eventId": "event_1d6f60c61326",
       "clusterVersion": 2,
-      "title": "美国中选“最可能剧本”，将是美股“最危险剧本”？",
+      "title": "美国民主党中选大胜，一文看清美股各板块赢家输家",
       "firstSeenAt": "2026-11-03T11:57:43.416Z",
-      "lastSeenAt": "2026-11-04T19:54:55.710Z",
-      "latestItemPublishedAt": "2026-11-04T18:24:49.000Z",
-      "primaryItemId": "news_096277442525",
+      "lastSeenAt": "2026-11-05T07:05:37.066Z",
+      "latestItemPublishedAt": "2026-11-04T21:19:50.000Z",
+      "primaryItemId": "news_7b33091399d5",
       "evidenceItemIds": [
         "news_096277442525",
         "news_f495f2a81bee",
-        "news_dd2089818270"
+        "news_dd2089818270",
+        "news_7b33091399d5"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "美国民主党中期选举大胜，相关报道梳理了美股各板块赢家输家。",
+      "latestProgress": "特朗普称伊朗战争何时结束由他决定，不考虑替换国防部长海格塞斯。"
     },
     {
       "eventId": "event_546632f4870c",
       "clusterVersion": 2,
       "title": "财联社11月5日电，上期所原油期货2612合约夜盘收跌7.07%，报628.40元人民币/桶。沪金夜盘收涨2.61%，沪",
       "firstSeenAt": "2026-11-04T19:54:55.710Z",
-      "lastSeenAt": "2026-11-04T19:54:55.710Z",
+      "lastSeenAt": "2026-11-05T07:05:37.066Z",
       "latestItemPublishedAt": "2026-11-04T18:31:01.000Z",
       "primaryItemId": "news_814228fbcc07",
       "evidenceItemIds": [
@@ -350,20 +351,68 @@
         "news_36b11212b5a1"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "11月5日夜盘上期所原油期货2612合约收跌7.07%，沪金沪银上涨。",
+      "latestProgress": "上期所原油期货2612合约夜盘收跌7.07%，沪金涨2.61%、沪银涨4.80%"
     },
     {
       "eventId": "event_d88f9047b12a",
       "clusterVersion": 2,
       "title": "中金公司中标第三批互换便利163亿元 完成首批质押式回购交易",
       "firstSeenAt": "2026-11-04T19:54:55.710Z",
-      "lastSeenAt": "2026-11-04T19:54:55.710Z",
+      "lastSeenAt": "2026-11-05T07:05:37.066Z",
       "latestItemPublishedAt": "2026-11-04T12:25:39.000Z",
       "primaryItemId": "news_fa1426e40bdb",
       "evidenceItemIds": [
         "news_fa1426e40bdb",
         "news_e443e0d24d2d"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_c29ea857621f",
+      "clusterVersion": 2,
+      "title": "一批宽基规模飙升 华泰柏瑞沪深300ETF逼近2000亿关口",
+      "firstSeenAt": "2026-11-05T07:05:37.066Z",
+      "lastSeenAt": "2026-11-05T07:05:37.066Z",
+      "latestItemPublishedAt": "2026-11-05T05:17:06.000Z",
+      "primaryItemId": "news_bd6bc0153099",
+      "evidenceItemIds": [
+        "news_bd6bc0153099",
+        "news_85dfc3aa2840"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_2fb2a06c4adb",
+      "clusterVersion": 2,
+      "title": "财联社11月5日电，丰田汽车股价涨势一度扩大至15%。田计划未来五年安排11万亿至14万亿日元资金用于股东回报，涵盖分红",
+      "firstSeenAt": "2026-11-05T07:05:37.066Z",
+      "lastSeenAt": "2026-11-05T07:05:37.066Z",
+      "latestItemPublishedAt": "2026-11-05T05:15:46.000Z",
+      "primaryItemId": "news_53097c1a60aa",
+      "evidenceItemIds": [
+        "news_53097c1a60aa",
+        "news_d00356a40324"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_b9b123e1f34e",
+      "clusterVersion": 2,
+      "title": "财联社11月5日电，截至目前，南向资金净卖出额达50亿港元。",
+      "firstSeenAt": "2026-11-05T07:05:37.066Z",
+      "lastSeenAt": "2026-11-05T07:05:37.066Z",
+      "latestItemPublishedAt": "2026-11-05T05:12:21.000Z",
+      "primaryItemId": "news_f2bb66a9f1f3",
+      "evidenceItemIds": [
+        "news_f2bb66a9f1f3",
+        "news_c657d0771dc9"
       ],
       "status": "developing",
       "summary": "",

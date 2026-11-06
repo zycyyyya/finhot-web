@@ -1,19 +1,18 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-06T07:06:11.933Z",
+  "generatedAt": "2026-11-06T12:07:36.692Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
       "eventId": "event_f101880ef7bc",
       "clusterVersion": 2,
-      "title": "多邻国暴涨26%逆转“AI受害者”叙事，美股AI投资正在进入下半场？",
+      "title": "美股踩踏风暴！量化+杠杆ETF一天抛售700亿美元，还有500亿美元卖盘在路上",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-06T07:06:11.933Z",
-      "latestItemPublishedAt": "2026-11-06T02:37:19.000Z",
-      "primaryItemId": "news_1c40eb9f2048",
+      "lastSeenAt": "2026-11-06T12:07:36.692Z",
+      "latestItemPublishedAt": "2026-11-06T07:56:15.000Z",
+      "primaryItemId": "news_283e2cf2603f",
       "evidenceItemIds": [
-        "news_212d89b8247a",
         "news_3d1e60feb323",
         "news_5def72190027",
         "news_bc2f882b8c82",
@@ -62,7 +61,8 @@
         "news_89113a6059bd",
         "news_1762dc1837ce",
         "news_d8e2ca6bd98a",
-        "news_c816f0eaf169"
+        "news_c816f0eaf169",
+        "news_f78b1c3de90c"
       ],
       "status": "developing",
       "summary": "多邻国暴涨26%逆转AI受害者叙事，美股AI投资格局生变",
@@ -71,13 +71,12 @@
     {
       "eventId": "event_a3c5d0364922",
       "clusterVersion": 2,
-      "title": "下半年A股新开户逐月降温，前10个月总量仍超去年全年",
+      "title": "龙头股回应海外订单“未发生变化”，机构关注产业韧性与A股长期配置价值",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-06T07:06:11.933Z",
-      "latestItemPublishedAt": "2026-11-06T05:34:37.000Z",
-      "primaryItemId": "news_b27af0efe8f8",
+      "lastSeenAt": "2026-11-06T12:07:36.692Z",
+      "latestItemPublishedAt": "2026-11-06T11:24:19.000Z",
+      "primaryItemId": "news_88102ef247ba",
       "evidenceItemIds": [
-        "news_5650e393aa7f",
         "news_b75c84d36617",
         "news_7ea584ec1727",
         "news_a1596eb7f6e0",
@@ -126,7 +125,8 @@
         "news_28f20db44f1b",
         "news_b27af0efe8f8",
         "news_88102ef247ba",
-        "news_e6949d729759"
+        "news_e6949d729759",
+        "news_179eb2fbc509"
       ],
       "status": "developing",
       "summary": "下半年A股新开户逐月降温，前10个月总量仍超去年全年",
@@ -137,11 +137,10 @@
       "clusterVersion": 2,
       "title": "港股异动 | 博安生物(06955)午后涨超4% BA2201在中国获批开展临床 拟用于治疗炎症性肠病",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-11-06T07:06:11.933Z",
-      "latestItemPublishedAt": "2026-11-06T02:40:21.000Z",
+      "lastSeenAt": "2026-11-06T12:07:36.692Z",
+      "latestItemPublishedAt": "2026-11-06T09:12:33.000Z",
       "primaryItemId": "news_28bc0ce86ead",
       "evidenceItemIds": [
-        "news_4ae42929d8ef",
         "news_fec775f073f5",
         "news_138c989ad4b4",
         "news_d04f0cf734de",
@@ -190,7 +189,8 @@
         "news_5b10d03deae9",
         "news_28bc0ce86ead",
         "news_a9bc91ea3f05",
-        "news_fafb3ff5ebaf"
+        "news_fafb3ff5ebaf",
+        "news_4699b05a3b76"
       ],
       "status": "developing",
       "summary": "博安生物BA2201在华获批开展临床，拟用于治疗炎症性肠病，港股午后涨超4%。",
@@ -201,7 +201,7 @@
       "clusterVersion": 2,
       "title": "三年来首次加息！英国央行：不会是最后一次",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-06T07:06:11.933Z",
+      "lastSeenAt": "2026-11-06T12:07:36.692Z",
       "latestItemPublishedAt": "2026-11-06T00:17:43.000Z",
       "primaryItemId": "news_5f1a2c67505e",
       "evidenceItemIds": [
@@ -265,17 +265,232 @@
       "clusterVersion": 2,
       "title": "中国证监会与阿曼金融服务管理局签署《证券期货监管合作谅解备忘录》",
       "firstSeenAt": "2026-11-03T11:57:43.416Z",
-      "lastSeenAt": "2026-11-06T07:06:11.933Z",
-      "latestItemPublishedAt": "2026-11-05T11:30:38.000Z",
-      "primaryItemId": "news_df8570abda18",
+      "lastSeenAt": "2026-11-06T12:07:36.692Z",
+      "latestItemPublishedAt": "2026-11-06T03:39:13.000Z",
+      "primaryItemId": "news_f0f5113a90ef",
       "evidenceItemIds": [
         "news_f2a641cfc852",
         "news_850173d61e73",
-        "news_df8570abda18"
+        "news_df8570abda18",
+        "news_f0f5113a90ef",
+        "news_a64e994a1298"
       ],
       "status": "developing",
       "summary": "中国证监会与阿曼金融服务管理局签署《证券期货监管合作谅解备忘录》，深化双方监管协作。",
       "latestProgress": "2026年11月5日，中阿双方正式签署该备忘录，推动证券期货领域监管合作落地。"
+    },
+    {
+      "eventId": "event_1dfbcf81d29c",
+      "clusterVersion": 2,
+      "title": "财联社11月6日电，恒生指数主连夜盘收跌1.58%，恒生科技指数主连夜盘收跌2.18%。",
+      "firstSeenAt": "2026-11-05T20:07:28.640Z",
+      "lastSeenAt": "2026-11-06T12:07:36.692Z",
+      "latestItemPublishedAt": "2026-11-05T19:01:19.000Z",
+      "primaryItemId": "news_9a5a941840f2",
+      "evidenceItemIds": [
+        "news_9a5a941840f2",
+        "news_2dcedee2abb7"
+      ],
+      "status": "developing",
+      "summary": "财联社11月6日电，恒生指数主连夜盘收跌1.58%，恒生科技指数主连夜盘收跌2.18%",
+      "latestProgress": "恒生指数及恒生科技指数主连夜盘分别收跌1.58%、2.18%"
+    },
+    {
+      "eventId": "event_9c0697946625",
+      "clusterVersion": 2,
+      "title": "财联社11月6日电，美国2至5年期国债收益率当日均下跌10个基点。",
+      "firstSeenAt": "2026-11-05T20:07:28.640Z",
+      "lastSeenAt": "2026-11-06T12:07:36.692Z",
+      "latestItemPublishedAt": "2026-11-05T18:06:08.000Z",
+      "primaryItemId": "news_08d22c897d67",
+      "evidenceItemIds": [
+        "news_08d22c897d67",
+        "news_ef50ee3422ab"
+      ],
+      "status": "developing",
+      "summary": "财联社11月6日电，美国2至5年期国债收益率当日均下跌10个基点。",
+      "latestProgress": "其中美国两年期国债收益率下跌10个基点后报4.48%。"
+    },
+    {
+      "eventId": "event_2d62b41df74b",
+      "clusterVersion": 2,
+      "title": "中期选举对美国医疗政策的影响",
+      "firstSeenAt": "2026-11-02T12:24:31.599Z",
+      "lastSeenAt": "2026-11-06T12:07:36.692Z",
+      "latestItemPublishedAt": "2026-11-06T02:05:17.000Z",
+      "primaryItemId": "news_9d807736a7d5",
+      "evidenceItemIds": [
+        "news_23ad830f1d25",
+        "news_ab4a79d8289d",
+        "news_ab6743a0f133",
+        "news_3305fae90863",
+        "news_9d807736a7d5"
+      ],
+      "status": "developing",
+      "summary": "2026年美国中期选举结果将直接影响美国医疗政策后续调整方向，引发行业高度关注",
+      "latestProgress": "2026年11月6日中期选举结果正式落地，美国医疗政策走向成市场关注焦点"
+    },
+    {
+      "eventId": "event_d69fa2909cb3",
+      "clusterVersion": 2,
+      "title": "六部门：加快推进具身智能、大语言模型、脑机接口、外骨骼等前沿技术在养老领域应用",
+      "firstSeenAt": "2026-11-06T07:06:11.933Z",
+      "lastSeenAt": "2026-11-06T12:07:36.692Z",
+      "latestItemPublishedAt": "2026-11-06T05:38:19.000Z",
+      "primaryItemId": "news_1186f044b68f",
+      "evidenceItemIds": [
+        "news_1186f044b68f",
+        "news_144a697c6067"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_9e320dba578d",
+      "clusterVersion": 2,
+      "title": "ADP好于预期，10月非农如何影响美联储加息前景",
+      "firstSeenAt": "2026-11-06T07:06:11.933Z",
+      "lastSeenAt": "2026-11-06T12:07:36.692Z",
+      "latestItemPublishedAt": "2026-11-06T04:04:54.000Z",
+      "primaryItemId": "news_e3dfc68073f5",
+      "evidenceItemIds": [
+        "news_e3dfc68073f5",
+        "news_db2f75a6b4f0"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_5c7f6d796fe3",
+      "clusterVersion": 2,
+      "title": "直击华泰证券业绩会：当“All in AI”驶入“深水区”后",
+      "firstSeenAt": "2026-11-06T07:06:11.933Z",
+      "lastSeenAt": "2026-11-06T12:07:36.692Z",
+      "latestItemPublishedAt": "2026-11-06T03:29:55.000Z",
+      "primaryItemId": "news_1080c9363c7e",
+      "evidenceItemIds": [
+        "news_1080c9363c7e",
+        "news_f883e6f801f7"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_618aaf3e7c02",
+      "clusterVersion": 2,
+      "title": "国常会：完善资本市场稳市机制，增强股市内在稳定性，促进资本市场平稳健康发展",
+      "firstSeenAt": "2026-11-06T12:07:36.692Z",
+      "lastSeenAt": "2026-11-06T12:07:36.692Z",
+      "latestItemPublishedAt": "2026-11-06T11:21:42.000Z",
+      "primaryItemId": "news_e0c5c0120f93",
+      "evidenceItemIds": [
+        "news_e0c5c0120f93",
+        "news_405524e56f7e"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_3a95dd3941a1",
+      "clusterVersion": 2,
+      "title": "沪电股份：董事长提议以5亿元-10亿元回购公司股份",
+      "firstSeenAt": "2026-11-06T12:07:36.692Z",
+      "lastSeenAt": "2026-11-06T12:07:36.692Z",
+      "latestItemPublishedAt": "2026-11-06T10:44:47.000Z",
+      "primaryItemId": "news_971069748421",
+      "evidenceItemIds": [
+        "news_971069748421",
+        "news_ddb9f02c9b90"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_a4c277bef24a",
+      "clusterVersion": 2,
+      "title": "油脂油料衍生品再添新品种，证监会同意葵花籽油期货和期权注册",
+      "firstSeenAt": "2026-11-06T12:07:36.692Z",
+      "lastSeenAt": "2026-11-06T12:07:36.692Z",
+      "latestItemPublishedAt": "2026-11-06T09:49:50.000Z",
+      "primaryItemId": "news_f29e9054dccc",
+      "evidenceItemIds": [
+        "news_f29e9054dccc",
+        "news_52303c0c72da"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_ee690145bb13",
+      "clusterVersion": 2,
+      "title": "金融监管总局等七部门发布关于加快航运保险高质量发展的指导意见",
+      "firstSeenAt": "2026-11-06T12:07:36.692Z",
+      "lastSeenAt": "2026-11-06T12:07:36.692Z",
+      "latestItemPublishedAt": "2026-11-06T11:53:01.000Z",
+      "primaryItemId": "news_6dd269cf4404",
+      "evidenceItemIds": [
+        "news_6dd269cf4404",
+        "news_1b6b216faa61"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_42a25c0f6ccf",
+      "clusterVersion": 2,
+      "title": "美国先减关税、中国再履行农产品采购承诺？中国外交部最新回应",
+      "firstSeenAt": "2026-11-06T12:07:36.692Z",
+      "lastSeenAt": "2026-11-06T12:07:36.692Z",
+      "latestItemPublishedAt": "2026-11-06T07:24:36.000Z",
+      "primaryItemId": "news_8ebe74861e83",
+      "evidenceItemIds": [
+        "news_8ebe74861e83",
+        "news_1fe1896237f3"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_bbe068843fd6",
+      "clusterVersion": 2,
+      "title": "上交所对《上海证券交易所港股通交易风险揭示书必备条款》进行了修订 自2026年11月16日起施行",
+      "firstSeenAt": "2026-11-06T12:07:36.692Z",
+      "lastSeenAt": "2026-11-06T12:07:36.692Z",
+      "latestItemPublishedAt": "2026-11-06T11:15:53.000Z",
+      "primaryItemId": "news_5f86c431c754",
+      "evidenceItemIds": [
+        "news_5f86c431c754",
+        "news_922b29a8a2be",
+        "news_5f138bf0ef1a"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_faed385b8644",
+      "clusterVersion": 2,
+      "title": "新股消息 | 立景科技港股IPO获中国证监会接收材料",
+      "firstSeenAt": "2026-11-06T12:07:36.692Z",
+      "lastSeenAt": "2026-11-06T12:07:36.692Z",
+      "latestItemPublishedAt": "2026-11-06T10:03:37.000Z",
+      "primaryItemId": "news_69c930cd4ce3",
+      "evidenceItemIds": [
+        "news_69c930cd4ce3",
+        "news_ab4203fa269c",
+        "news_1b91e251308f"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
     },
     {
       "eventId": "event_d4b9c9afda23",
@@ -342,73 +557,6 @@
       "latestProgress": "2026年11月5日相关报道探讨中国进一步扩大进口的潜在领域。"
     },
     {
-      "eventId": "event_1dfbcf81d29c",
-      "clusterVersion": 2,
-      "title": "财联社11月6日电，恒生指数主连夜盘收跌1.58%，恒生科技指数主连夜盘收跌2.18%。",
-      "firstSeenAt": "2026-11-05T20:07:28.640Z",
-      "lastSeenAt": "2026-11-06T07:06:11.933Z",
-      "latestItemPublishedAt": "2026-11-05T19:01:19.000Z",
-      "primaryItemId": "news_9a5a941840f2",
-      "evidenceItemIds": [
-        "news_9a5a941840f2",
-        "news_2dcedee2abb7"
-      ],
-      "status": "developing",
-      "summary": "财联社11月6日电，恒生指数主连夜盘收跌1.58%，恒生科技指数主连夜盘收跌2.18%",
-      "latestProgress": "恒生指数及恒生科技指数主连夜盘分别收跌1.58%、2.18%"
-    },
-    {
-      "eventId": "event_9c0697946625",
-      "clusterVersion": 2,
-      "title": "财联社11月6日电，美国2至5年期国债收益率当日均下跌10个基点。",
-      "firstSeenAt": "2026-11-05T20:07:28.640Z",
-      "lastSeenAt": "2026-11-06T07:06:11.933Z",
-      "latestItemPublishedAt": "2026-11-05T18:06:08.000Z",
-      "primaryItemId": "news_08d22c897d67",
-      "evidenceItemIds": [
-        "news_08d22c897d67",
-        "news_ef50ee3422ab"
-      ],
-      "status": "developing",
-      "summary": "财联社11月6日电，美国2至5年期国债收益率当日均下跌10个基点。",
-      "latestProgress": "其中美国两年期国债收益率下跌10个基点后报4.48%。"
-    },
-    {
-      "eventId": "event_2d62b41df74b",
-      "clusterVersion": 2,
-      "title": "中期选举对美国医疗政策的影响",
-      "firstSeenAt": "2026-11-02T12:24:31.599Z",
-      "lastSeenAt": "2026-11-06T07:06:11.933Z",
-      "latestItemPublishedAt": "2026-11-06T02:05:17.000Z",
-      "primaryItemId": "news_9d807736a7d5",
-      "evidenceItemIds": [
-        "news_23ad830f1d25",
-        "news_ab4a79d8289d",
-        "news_ab6743a0f133",
-        "news_3305fae90863",
-        "news_9d807736a7d5"
-      ],
-      "status": "developing",
-      "summary": "2026年美国中期选举结果将直接影响美国医疗政策后续调整方向，引发行业高度关注",
-      "latestProgress": "2026年11月6日中期选举结果正式落地，美国医疗政策走向成市场关注焦点"
-    },
-    {
-      "eventId": "event_d69fa2909cb3",
-      "clusterVersion": 2,
-      "title": "六部门：加快推进具身智能、大语言模型、脑机接口、外骨骼等前沿技术在养老领域应用",
-      "firstSeenAt": "2026-11-06T07:06:11.933Z",
-      "lastSeenAt": "2026-11-06T07:06:11.933Z",
-      "latestItemPublishedAt": "2026-11-06T05:38:19.000Z",
-      "primaryItemId": "news_1186f044b68f",
-      "evidenceItemIds": [
-        "news_1186f044b68f",
-        "news_144a697c6067"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
       "eventId": "event_4c55087a58b9",
       "clusterVersion": 2,
       "title": "上交所召开并购重组专题座谈会 汇聚市场合力助推上市公司提质增效",
@@ -419,38 +567,6 @@
       "evidenceItemIds": [
         "news_eff5dfe2e087",
         "news_547e4a9cd7d0"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_9e320dba578d",
-      "clusterVersion": 2,
-      "title": "ADP好于预期，10月非农如何影响美联储加息前景",
-      "firstSeenAt": "2026-11-06T07:06:11.933Z",
-      "lastSeenAt": "2026-11-06T07:06:11.933Z",
-      "latestItemPublishedAt": "2026-11-06T04:04:54.000Z",
-      "primaryItemId": "news_e3dfc68073f5",
-      "evidenceItemIds": [
-        "news_e3dfc68073f5",
-        "news_db2f75a6b4f0"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_5c7f6d796fe3",
-      "clusterVersion": 2,
-      "title": "直击华泰证券业绩会：当“All in AI”驶入“深水区”后",
-      "firstSeenAt": "2026-11-06T07:06:11.933Z",
-      "lastSeenAt": "2026-11-06T07:06:11.933Z",
-      "latestItemPublishedAt": "2026-11-06T03:29:55.000Z",
-      "primaryItemId": "news_1080c9363c7e",
-      "evidenceItemIds": [
-        "news_1080c9363c7e",
-        "news_f883e6f801f7"
       ],
       "status": "developing",
       "summary": "",

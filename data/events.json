@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-05T20:07:28.640Z",
+  "generatedAt": "2026-11-06T07:06:11.933Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -9,15 +9,10 @@
       "clusterVersion": 2,
       "title": "多邻国暴涨26%逆转“AI受害者”叙事，美股AI投资正在进入下半场？",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-05T20:07:28.640Z",
-      "latestItemPublishedAt": "2026-11-05T15:43:45.000Z",
+      "lastSeenAt": "2026-11-06T07:06:11.933Z",
+      "latestItemPublishedAt": "2026-11-06T02:37:19.000Z",
       "primaryItemId": "news_1c40eb9f2048",
       "evidenceItemIds": [
-        "news_737efbd0b9e2",
-        "news_6f863c18dc45",
-        "news_64ed0e805733",
-        "news_6daf3fc5b933",
-        "news_c207ac9361f8",
         "news_212d89b8247a",
         "news_3d1e60feb323",
         "news_5def72190027",
@@ -62,23 +57,26 @@
         "news_53b6564717f7",
         "news_869bebcc8da8",
         "news_f8e6134024ba",
-        "news_cbb6a1975664"
+        "news_cbb6a1975664",
+        "news_283e2cf2603f",
+        "news_89113a6059bd",
+        "news_1762dc1837ce",
+        "news_d8e2ca6bd98a",
+        "news_c816f0eaf169"
       ],
       "status": "developing",
-      "summary": "诺和诺德Q3业绩超预期并上调全年指引，美股股价涨逾6%。",
-      "latestProgress": "最新报道显示美股科技巨头的AI投资正面临两难困境。"
+      "summary": "多邻国暴涨26%逆转AI受害者叙事，美股AI投资格局生变",
+      "latestProgress": "美股AI板块分化，多邻国逆势涨26%扭转市场悲观预期"
     },
     {
       "eventId": "event_a3c5d0364922",
       "clusterVersion": 2,
-      "title": "香港私人财富管理业界呼吁：扩大A股市场准入",
+      "title": "下半年A股新开户逐月降温，前10个月总量仍超去年全年",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-05T20:07:28.640Z",
-      "latestItemPublishedAt": "2026-11-05T12:38:49.000Z",
-      "primaryItemId": "news_28f20db44f1b",
+      "lastSeenAt": "2026-11-06T07:06:11.933Z",
+      "latestItemPublishedAt": "2026-11-06T05:34:37.000Z",
+      "primaryItemId": "news_b27af0efe8f8",
       "evidenceItemIds": [
-        "news_2e9ced049a7f",
-        "news_ee663cbdfc0f",
         "news_5650e393aa7f",
         "news_b75c84d36617",
         "news_7ea584ec1727",
@@ -126,24 +124,23 @@
         "news_00d90610100c",
         "news_810a84b5b0c2",
         "news_28f20db44f1b",
-        "news_b27af0efe8f8"
+        "news_b27af0efe8f8",
+        "news_88102ef247ba",
+        "news_e6949d729759"
       ],
       "status": "developing",
-      "summary": "2026年10月A股新开户150.06万户，同比降35.04%创年内新低",
-      "latestProgress": "11月4日A股双创指数早盘震荡上涨，半导体反弹医药股拉升"
+      "summary": "下半年A股新开户逐月降温，前10个月总量仍超去年全年",
+      "latestProgress": "多位首席研判A股大波段向上趋势未改，机构关注产业韧性与长期配置价值"
     },
     {
       "eventId": "event_c68d651d4ff9",
       "clusterVersion": 2,
-      "title": "港股暴涨韩股暴跌：人工智能叙事生变？｜市场观察",
+      "title": "港股异动 | 博安生物(06955)午后涨超4% BA2201在中国获批开展临床 拟用于治疗炎症性肠病",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-11-05T20:07:28.640Z",
-      "latestItemPublishedAt": "2026-11-05T13:15:16.000Z",
-      "primaryItemId": "news_05053833c974",
+      "lastSeenAt": "2026-11-06T07:06:11.933Z",
+      "latestItemPublishedAt": "2026-11-06T02:40:21.000Z",
+      "primaryItemId": "news_28bc0ce86ead",
       "evidenceItemIds": [
-        "news_e1ac968d3bd0",
-        "news_1da38c08debb",
-        "news_49bb0a55fec7",
         "news_4ae42929d8ef",
         "news_fec775f073f5",
         "news_138c989ad4b4",
@@ -190,44 +187,24 @@
         "news_490da392ee38",
         "news_71d58afbcb39",
         "news_623097a3e44a",
-        "news_5b10d03deae9"
+        "news_5b10d03deae9",
+        "news_28bc0ce86ead",
+        "news_a9bc91ea3f05",
+        "news_fafb3ff5ebaf"
       ],
       "status": "developing",
-      "summary": "映恩生物获多名董事及高管自愿禁售承诺，Elfe-D有望成重磅产品，股价涨近6%。",
-      "latestProgress": "2026年11月3日映恩生物披露董高自愿禁售承诺及Elfe-D潜力，股价涨近6%。"
-    },
-    {
-      "eventId": "event_413564c93754",
-      "clusterVersion": 2,
-      "title": "中信证券-开元单一资产管理计划减持中广核电力(01816)2582.3万股 每股作价3.4港元",
-      "firstSeenAt": "2026-10-31T10:28:54.938Z",
-      "lastSeenAt": "2026-11-05T20:07:28.640Z",
-      "latestItemPublishedAt": "2026-11-05T03:35:17.000Z",
-      "primaryItemId": "news_793e1107aa30",
-      "evidenceItemIds": [
-        "news_2f260ca29782",
-        "news_8a64461a9692",
-        "news_a89fd0e14ee7",
-        "news_d35df84b2d51",
-        "news_41923e10b75c",
-        "news_05b1bb65e77f",
-        "news_dd0a39bf0629",
-        "news_793e1107aa30"
-      ],
-      "status": "developing",
-      "summary": "科技股领涨A股放量反弹，中信证券称多数板块估值收缩主要进程已完成",
-      "latestProgress": "当日A股放量反弹，科技股领涨，中信证券指出多数板块估值收缩主要进程已完成"
+      "summary": "博安生物BA2201在华获批开展临床，拟用于治疗炎症性肠病，港股午后涨超4%。",
+      "latestProgress": "11月6日港股科技股空头规模骤增，建滔积层板卖空股数一周增3倍创历史新高。"
     },
     {
       "eventId": "event_2cf716748ce1",
       "clusterVersion": 2,
-      "title": "3个月买断式逆回购缩量续作，央行“削峰填谷”净回笼2000亿",
+      "title": "三年来首次加息！英国央行：不会是最后一次",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-05T20:07:28.640Z",
-      "latestItemPublishedAt": "2026-11-05T19:00:30.000Z",
-      "primaryItemId": "news_b984e444501e",
+      "lastSeenAt": "2026-11-06T07:06:11.933Z",
+      "latestItemPublishedAt": "2026-11-06T00:17:43.000Z",
+      "primaryItemId": "news_5f1a2c67505e",
       "evidenceItemIds": [
-        "news_764a54ec02e0",
         "news_23b9b517fb6c",
         "news_785885f9c534",
         "news_03fd9f35461e",
@@ -276,18 +253,19 @@
         "news_697be358a579",
         "news_3f1c7c185573",
         "news_e967b4ce976f",
-        "news_ca9af26f11a9"
+        "news_ca9af26f11a9",
+        "news_5f1a2c67505e"
       ],
       "status": "developing",
-      "summary": "易方达黄金矿业ETF涨超6%，受全球央行三季度购金、美中期选举民主党占优影响。",
-      "latestProgress": "11月4日央行下调回购增持再贷款利率，东山精密涨近6%领涨相关港股。"
+      "summary": "英国央行三年来首次加息25BP至4%，暗示后续或继续收紧货币政策",
+      "latestProgress": "英国央行表示三年来首次加息不会是最后一次"
     },
     {
       "eventId": "event_33f311e54d32",
       "clusterVersion": 2,
       "title": "中国证监会与阿曼金融服务管理局签署《证券期货监管合作谅解备忘录》",
       "firstSeenAt": "2026-11-03T11:57:43.416Z",
-      "lastSeenAt": "2026-11-05T20:07:28.640Z",
+      "lastSeenAt": "2026-11-06T07:06:11.933Z",
       "latestItemPublishedAt": "2026-11-05T11:30:38.000Z",
       "primaryItemId": "news_df8570abda18",
       "evidenceItemIds": [
@@ -296,15 +274,15 @@
         "news_df8570abda18"
       ],
       "status": "developing",
-      "summary": "品茗科技实控人莫绪军因涉嫌操纵证券市场遭证监会立案调查。",
-      "latestProgress": "证监会已对莫绪军涉嫌操纵证券市场的行为正式立案。"
+      "summary": "中国证监会与阿曼金融服务管理局签署《证券期货监管合作谅解备忘录》，深化双方监管协作。",
+      "latestProgress": "2026年11月5日，中阿双方正式签署该备忘录，推动证券期货领域监管合作落地。"
     },
     {
       "eventId": "event_d4b9c9afda23",
       "clusterVersion": 2,
       "title": "百济神州：上调2026年度营业收入预测为463亿元-470亿元",
       "firstSeenAt": "2026-11-05T12:18:41.783Z",
-      "lastSeenAt": "2026-11-05T20:07:28.640Z",
+      "lastSeenAt": "2026-11-06T07:06:11.933Z",
       "latestItemPublishedAt": "2026-11-05T11:45:17.000Z",
       "primaryItemId": "news_bf92b240176d",
       "evidenceItemIds": [
@@ -312,15 +290,15 @@
         "news_0658f659f179"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "百济神州上调2026年度营业收入预测至463亿元-470亿元",
+      "latestProgress": "百济神州正式公布2026年营收预测上调至463亿-470亿元区间"
     },
     {
       "eventId": "event_1a8998c42dc6",
       "clusterVersion": 2,
       "title": "财联社11月5日电，巴克莱将优步目标价从106美元下调至100美元。",
       "firstSeenAt": "2026-11-05T12:18:41.783Z",
-      "lastSeenAt": "2026-11-05T20:07:28.640Z",
+      "lastSeenAt": "2026-11-06T07:06:11.933Z",
       "latestItemPublishedAt": "2026-11-05T11:36:45.000Z",
       "primaryItemId": "news_1242001d8ef4",
       "evidenceItemIds": [
@@ -328,15 +306,15 @@
         "news_b66d6ca01b3e"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "11月5日巴克莱下调优步、ARM目标价，分别降至100美元、325美元",
+      "latestProgress": "巴克莱同日下调优步目标价至100美元"
     },
     {
       "eventId": "event_be10f9f66c7f",
       "clusterVersion": 2,
       "title": "南向资金追踪｜净卖出超213亿港元 抛售三大ETF和小米流入建滔积层板",
       "firstSeenAt": "2026-11-05T12:18:41.783Z",
-      "lastSeenAt": "2026-11-05T20:07:28.640Z",
+      "lastSeenAt": "2026-11-06T07:06:11.933Z",
       "latestItemPublishedAt": "2026-11-05T11:43:56.000Z",
       "primaryItemId": "news_1ce80f4a5a6d",
       "evidenceItemIds": [
@@ -344,15 +322,15 @@
         "news_447e1b0b9dc2"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "南向资金当日净卖出超213亿港元，抛售三大ETF与小米，流入建滔积层板。",
+      "latestProgress": "11月5日南向资金净卖出超213亿港元，抛售三大ETF与小米，加仓建滔积层板。"
     },
     {
       "eventId": "event_8cf978cc6b3a",
       "clusterVersion": 2,
       "title": "中国连续17年稳居全球第二大进口国，还能买什么？",
       "firstSeenAt": "2026-11-05T16:34:07.698Z",
-      "lastSeenAt": "2026-11-05T20:07:28.640Z",
+      "lastSeenAt": "2026-11-06T07:06:11.933Z",
       "latestItemPublishedAt": "2026-11-05T12:43:29.000Z",
       "primaryItemId": "news_1d48b9ca74ae",
       "evidenceItemIds": [
@@ -360,15 +338,15 @@
         "news_8f5e7e156f5f"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "中国连续17年稳居全球第二大进口国，持续扩大优质产品进口。",
+      "latestProgress": "2026年11月5日相关报道探讨中国进一步扩大进口的潜在领域。"
     },
     {
       "eventId": "event_1dfbcf81d29c",
       "clusterVersion": 2,
       "title": "财联社11月6日电，恒生指数主连夜盘收跌1.58%，恒生科技指数主连夜盘收跌2.18%。",
       "firstSeenAt": "2026-11-05T20:07:28.640Z",
-      "lastSeenAt": "2026-11-05T20:07:28.640Z",
+      "lastSeenAt": "2026-11-06T07:06:11.933Z",
       "latestItemPublishedAt": "2026-11-05T19:01:19.000Z",
       "primaryItemId": "news_9a5a941840f2",
       "evidenceItemIds": [
@@ -376,15 +354,15 @@
         "news_2dcedee2abb7"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "财联社11月6日电，恒生指数主连夜盘收跌1.58%，恒生科技指数主连夜盘收跌2.18%",
+      "latestProgress": "恒生指数及恒生科技指数主连夜盘分别收跌1.58%、2.18%"
     },
     {
       "eventId": "event_9c0697946625",
       "clusterVersion": 2,
       "title": "财联社11月6日电，美国2至5年期国债收益率当日均下跌10个基点。",
       "firstSeenAt": "2026-11-05T20:07:28.640Z",
-      "lastSeenAt": "2026-11-05T20:07:28.640Z",
+      "lastSeenAt": "2026-11-06T07:06:11.933Z",
       "latestItemPublishedAt": "2026-11-05T18:06:08.000Z",
       "primaryItemId": "news_08d22c897d67",
       "evidenceItemIds": [
@@ -392,8 +370,113 @@
         "news_ef50ee3422ab"
       ],
       "status": "developing",
+      "summary": "财联社11月6日电，美国2至5年期国债收益率当日均下跌10个基点。",
+      "latestProgress": "其中美国两年期国债收益率下跌10个基点后报4.48%。"
+    },
+    {
+      "eventId": "event_2d62b41df74b",
+      "clusterVersion": 2,
+      "title": "中期选举对美国医疗政策的影响",
+      "firstSeenAt": "2026-11-02T12:24:31.599Z",
+      "lastSeenAt": "2026-11-06T07:06:11.933Z",
+      "latestItemPublishedAt": "2026-11-06T02:05:17.000Z",
+      "primaryItemId": "news_9d807736a7d5",
+      "evidenceItemIds": [
+        "news_23ad830f1d25",
+        "news_ab4a79d8289d",
+        "news_ab6743a0f133",
+        "news_3305fae90863",
+        "news_9d807736a7d5"
+      ],
+      "status": "developing",
+      "summary": "2026年美国中期选举结果将直接影响美国医疗政策后续调整方向，引发行业高度关注",
+      "latestProgress": "2026年11月6日中期选举结果正式落地，美国医疗政策走向成市场关注焦点"
+    },
+    {
+      "eventId": "event_d69fa2909cb3",
+      "clusterVersion": 2,
+      "title": "六部门：加快推进具身智能、大语言模型、脑机接口、外骨骼等前沿技术在养老领域应用",
+      "firstSeenAt": "2026-11-06T07:06:11.933Z",
+      "lastSeenAt": "2026-11-06T07:06:11.933Z",
+      "latestItemPublishedAt": "2026-11-06T05:38:19.000Z",
+      "primaryItemId": "news_1186f044b68f",
+      "evidenceItemIds": [
+        "news_1186f044b68f",
+        "news_144a697c6067"
+      ],
+      "status": "developing",
       "summary": "",
       "latestProgress": ""
+    },
+    {
+      "eventId": "event_4c55087a58b9",
+      "clusterVersion": 2,
+      "title": "上交所召开并购重组专题座谈会 汇聚市场合力助推上市公司提质增效",
+      "firstSeenAt": "2026-11-06T07:06:11.933Z",
+      "lastSeenAt": "2026-11-06T07:06:11.933Z",
+      "latestItemPublishedAt": "2026-11-05T12:57:17.000Z",
+      "primaryItemId": "news_eff5dfe2e087",
+      "evidenceItemIds": [
+        "news_eff5dfe2e087",
+        "news_547e4a9cd7d0"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_9e320dba578d",
+      "clusterVersion": 2,
+      "title": "ADP好于预期，10月非农如何影响美联储加息前景",
+      "firstSeenAt": "2026-11-06T07:06:11.933Z",
+      "lastSeenAt": "2026-11-06T07:06:11.933Z",
+      "latestItemPublishedAt": "2026-11-06T04:04:54.000Z",
+      "primaryItemId": "news_e3dfc68073f5",
+      "evidenceItemIds": [
+        "news_e3dfc68073f5",
+        "news_db2f75a6b4f0"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_5c7f6d796fe3",
+      "clusterVersion": 2,
+      "title": "直击华泰证券业绩会：当“All in AI”驶入“深水区”后",
+      "firstSeenAt": "2026-11-06T07:06:11.933Z",
+      "lastSeenAt": "2026-11-06T07:06:11.933Z",
+      "latestItemPublishedAt": "2026-11-06T03:29:55.000Z",
+      "primaryItemId": "news_1080c9363c7e",
+      "evidenceItemIds": [
+        "news_1080c9363c7e",
+        "news_f883e6f801f7"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_413564c93754",
+      "clusterVersion": 2,
+      "title": "中信证券-开元单一资产管理计划减持中广核电力(01816)2582.3万股 每股作价3.4港元",
+      "firstSeenAt": "2026-10-31T10:28:54.938Z",
+      "lastSeenAt": "2026-11-05T20:07:28.640Z",
+      "latestItemPublishedAt": "2026-11-05T03:35:17.000Z",
+      "primaryItemId": "news_793e1107aa30",
+      "evidenceItemIds": [
+        "news_2f260ca29782",
+        "news_8a64461a9692",
+        "news_a89fd0e14ee7",
+        "news_d35df84b2d51",
+        "news_41923e10b75c",
+        "news_05b1bb65e77f",
+        "news_dd0a39bf0629",
+        "news_793e1107aa30"
+      ],
+      "status": "developing",
+      "summary": "科技股领涨A股放量反弹，中信证券称多数板块估值收缩主要进程已完成",
+      "latestProgress": "当日A股放量反弹，科技股领涨，中信证券指出多数板块估值收缩主要进程已完成"
     },
     {
       "eventId": "event_312f5390b82d",
@@ -411,24 +494,6 @@
       "status": "developing",
       "summary": "11月4日现货白银日内涨幅扩大至5%，报52.26美元/盎司。",
       "latestProgress": "最新报道显示现货白银日内涨超5%，报价52.26美元/盎司。"
-    },
-    {
-      "eventId": "event_2d62b41df74b",
-      "clusterVersion": 2,
-      "title": "美国众议院民主党领导人Jeffries表示，将通过立法来阻止特朗普关税政策，并结束伊朗战争。 布伦特原油日内跌幅达9.5",
-      "firstSeenAt": "2026-11-02T12:24:31.599Z",
-      "lastSeenAt": "2026-11-05T12:18:41.783Z",
-      "latestItemPublishedAt": "2026-11-04T17:37:22.000Z",
-      "primaryItemId": "news_3305fae90863",
-      "evidenceItemIds": [
-        "news_23ad830f1d25",
-        "news_ab4a79d8289d",
-        "news_ab6743a0f133",
-        "news_3305fae90863"
-      ],
-      "status": "developing",
-      "summary": "美众议院民主党领袖Jeffries称将立法阻止特朗普关税政策、结束伊朗战争，布伦特原油大跌9.5%",
-      "latestProgress": "布伦特原油日内跌9.5%，报93.74美元/桶"
     },
     {
       "eventId": "event_25919815bffc",

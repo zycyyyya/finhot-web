@@ -1,17 +1,17 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-07T15:02:16.546Z",
+  "generatedAt": "2026-11-07T17:53:03.349Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
       "eventId": "event_f101880ef7bc",
       "clusterVersion": 2,
-      "title": "美股科技股血洗蔓延！日韩股市双双入熊，分析师怎么看？",
+      "title": "美股惊魂一周！AI抛售暂歇，但强劲非农敲响加息警钟，周五反弹恐只是“死猫跳”？",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-07T15:02:16.546Z",
+      "lastSeenAt": "2026-11-07T17:53:03.349Z",
       "latestItemPublishedAt": "2026-11-07T07:07:30.000Z",
-      "primaryItemId": "news_c816f0eaf169",
+      "primaryItemId": "news_c09024bcbe1a",
       "evidenceItemIds": [
         "news_8f4179ff1193",
         "news_cc5b62c0c92a",
@@ -73,7 +73,7 @@
       "clusterVersion": 2,
       "title": "美股大跌：有哪些原因？对A股有何影响？",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-07T15:02:16.546Z",
+      "lastSeenAt": "2026-11-07T17:53:03.349Z",
       "latestItemPublishedAt": "2026-11-07T12:24:01.000Z",
       "primaryItemId": "news_71ed20b9426c",
       "evidenceItemIds": [
@@ -137,7 +137,7 @@
       "clusterVersion": 2,
       "title": "智通港股空仓持单统计|11月7日",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-11-07T15:02:16.546Z",
+      "lastSeenAt": "2026-11-07T17:53:03.349Z",
       "latestItemPublishedAt": "2026-11-07T02:35:57.000Z",
       "primaryItemId": "news_ddd1eaff90e3",
       "evidenceItemIds": [
@@ -201,7 +201,7 @@
       "clusterVersion": 2,
       "title": "中国证监会与阿曼金融服务管理局签署《证券期货监管合作谅解备忘录》",
       "firstSeenAt": "2026-11-03T11:57:43.416Z",
-      "lastSeenAt": "2026-11-07T15:02:16.546Z",
+      "lastSeenAt": "2026-11-07T17:53:03.349Z",
       "latestItemPublishedAt": "2026-11-06T12:38:36.000Z",
       "primaryItemId": "news_f0f5113a90ef",
       "evidenceItemIds": [
@@ -219,11 +219,11 @@
     {
       "eventId": "event_9e320dba578d",
       "clusterVersion": 2,
-      "title": "新增16.5万！美国10月非农大超预期，美联储下月加息稳了？",
+      "title": "美国10月新增就业16.5万，超出预期，美联储12月加息预期升温",
       "firstSeenAt": "2026-11-06T07:06:11.933Z",
-      "lastSeenAt": "2026-11-07T15:02:16.546Z",
+      "lastSeenAt": "2026-11-07T17:53:03.349Z",
       "latestItemPublishedAt": "2026-11-07T00:14:34.000Z",
-      "primaryItemId": "news_0414d8ed1b59",
+      "primaryItemId": "news_a5fa068df6c1",
       "evidenceItemIds": [
         "news_e3dfc68073f5",
         "news_db2f75a6b4f0",
@@ -244,7 +244,7 @@
       "clusterVersion": 2,
       "title": "中国证监会同意氢氧化锂期货和期权注册",
       "firstSeenAt": "2026-11-06T12:07:36.692Z",
-      "lastSeenAt": "2026-11-07T15:02:16.546Z",
+      "lastSeenAt": "2026-11-07T17:53:03.349Z",
       "latestItemPublishedAt": "2026-11-05T23:28:09.000Z",
       "primaryItemId": "news_0e0e861c68d3",
       "evidenceItemIds": [
@@ -263,7 +263,7 @@
       "clusterVersion": 2,
       "title": "欧洲央行据称拟审查银行数据中心贷款 AI信贷风险持续发酵",
       "firstSeenAt": "2026-11-04T16:27:29.182Z",
-      "lastSeenAt": "2026-11-07T15:02:16.546Z",
+      "lastSeenAt": "2026-11-07T17:53:03.349Z",
       "latestItemPublishedAt": "2026-11-07T04:42:44.000Z",
       "primaryItemId": "news_e76b7c02aff5",
       "evidenceItemIds": [
@@ -283,7 +283,7 @@
       "clusterVersion": 2,
       "title": "国家发改委再次召开民企座谈会，研究明年政策举措",
       "firstSeenAt": "2026-11-06T16:04:59.190Z",
-      "lastSeenAt": "2026-11-07T15:02:16.546Z",
+      "lastSeenAt": "2026-11-07T17:53:03.349Z",
       "latestItemPublishedAt": "2026-11-07T07:09:42.000Z",
       "primaryItemId": "news_c07fdb3e2943",
       "evidenceItemIds": [
@@ -296,28 +296,11 @@
       "latestProgress": "郑栅洁主持召开民营企业座谈会，就抓好年内经济工作落实、研究明年政策举措听取民企意见建议。"
     },
     {
-      "eventId": "event_546632f4870c",
-      "clusterVersion": 2,
-      "title": "财联社11月7日电，上期所原油期货2612合约夜盘收涨0.36%，报639.10元人民币/桶。沪金夜盘收跌0.53%，沪",
-      "firstSeenAt": "2026-11-04T19:54:55.710Z",
-      "lastSeenAt": "2026-11-07T15:02:16.546Z",
-      "latestItemPublishedAt": "2026-11-06T18:31:43.000Z",
-      "primaryItemId": "news_9b8abce3a34e",
-      "evidenceItemIds": [
-        "news_814228fbcc07",
-        "news_36b11212b5a1",
-        "news_9b8abce3a34e"
-      ],
-      "status": "developing",
-      "summary": "11月5日夜盘上期所原油期货2612合约收跌7.07%，沪金沪银上涨。",
-      "latestProgress": "上期所原油期货2612合约夜盘收跌7.07%，沪金涨2.61%、沪银涨4.80%"
-    },
-    {
       "eventId": "event_982d1612c59a",
       "clusterVersion": 2,
       "title": "日股大跌难挡加息步伐？日本央行前经济学家：12月加息或成定局",
       "firstSeenAt": "2026-11-06T19:35:32.744Z",
-      "lastSeenAt": "2026-11-07T15:02:16.546Z",
+      "lastSeenAt": "2026-11-07T17:53:03.349Z",
       "latestItemPublishedAt": "2026-11-06T16:36:37.000Z",
       "primaryItemId": "news_806744848584",
       "evidenceItemIds": [
@@ -331,11 +314,11 @@
     {
       "eventId": "event_2cf716748ce1",
       "clusterVersion": 2,
-      "title": "日央行行长：通胀存在上行风险，若未来遭遇严重冲击，或再次启用非常规宽松工具",
+      "title": "中国央行连续24个月扩大黄金储备",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-07T15:02:16.546Z",
+      "lastSeenAt": "2026-11-07T17:53:03.349Z",
       "latestItemPublishedAt": "2026-11-07T12:00:14.000Z",
-      "primaryItemId": "news_7a27059f9432",
+      "primaryItemId": "news_682e5d38817f",
       "evidenceItemIds": [
         "news_0fefeb16dc4a",
         "news_1459a058ea76",
@@ -397,7 +380,7 @@
       "clusterVersion": 2,
       "title": "链接全球康养资源，中国银行“银发伙伴计划”专场活动在沪举办",
       "firstSeenAt": "2026-11-07T06:15:29.114Z",
-      "lastSeenAt": "2026-11-07T15:02:16.546Z",
+      "lastSeenAt": "2026-11-07T17:53:03.349Z",
       "latestItemPublishedAt": "2026-11-07T00:46:50.000Z",
       "primaryItemId": "news_d56b18d44e6e",
       "evidenceItemIds": [
@@ -413,7 +396,7 @@
       "clusterVersion": 2,
       "title": "前三季度广告业头部企事业单位收入同比增长8.5%",
       "firstSeenAt": "2026-11-07T06:15:29.114Z",
-      "lastSeenAt": "2026-11-07T15:02:16.546Z",
+      "lastSeenAt": "2026-11-07T17:53:03.349Z",
       "latestItemPublishedAt": "2026-11-07T03:36:40.000Z",
       "primaryItemId": "news_af344c66cc1e",
       "evidenceItemIds": [
@@ -429,7 +412,7 @@
       "clusterVersion": 2,
       "title": "国家外汇管理局：截至2026年10月末，我国外汇储备规模为34052亿美元",
       "firstSeenAt": "2026-11-07T06:15:29.114Z",
-      "lastSeenAt": "2026-11-07T15:02:16.546Z",
+      "lastSeenAt": "2026-11-07T17:53:03.349Z",
       "latestItemPublishedAt": "2026-11-07T02:01:59.000Z",
       "primaryItemId": "news_65b50ded0083",
       "evidenceItemIds": [
@@ -445,7 +428,7 @@
       "clusterVersion": 2,
       "title": "中期选举对美国医疗政策的影响",
       "firstSeenAt": "2026-11-02T12:24:31.599Z",
-      "lastSeenAt": "2026-11-07T15:02:16.546Z",
+      "lastSeenAt": "2026-11-07T17:53:03.349Z",
       "latestItemPublishedAt": "2026-11-07T08:02:48.000Z",
       "primaryItemId": "news_9d807736a7d5",
       "evidenceItemIds": [
@@ -459,6 +442,23 @@
       "status": "developing",
       "summary": "2026年美国中期选举结果将直接影响美国医疗政策后续调整方向，引发行业高度关注",
       "latestProgress": "2026年11月6日中期选举结果正式落地，美国医疗政策走向成市场关注焦点"
+    },
+    {
+      "eventId": "event_546632f4870c",
+      "clusterVersion": 2,
+      "title": "财联社11月7日电，上期所原油期货2612合约夜盘收涨0.36%，报639.10元人民币/桶。沪金夜盘收跌0.53%，沪",
+      "firstSeenAt": "2026-11-04T19:54:55.710Z",
+      "lastSeenAt": "2026-11-07T15:02:16.546Z",
+      "latestItemPublishedAt": "2026-11-06T18:31:43.000Z",
+      "primaryItemId": "news_9b8abce3a34e",
+      "evidenceItemIds": [
+        "news_814228fbcc07",
+        "news_36b11212b5a1",
+        "news_9b8abce3a34e"
+      ],
+      "status": "developing",
+      "summary": "11月5日夜盘上期所原油期货2612合约收跌7.07%，沪金沪银上涨。",
+      "latestProgress": "上期所原油期货2612合约夜盘收跌7.07%，沪金涨2.61%、沪银涨4.80%"
     },
     {
       "eventId": "event_8cf978cc6b3a",

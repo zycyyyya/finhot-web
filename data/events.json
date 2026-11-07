@@ -1,21 +1,18 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-07T11:08:27.441Z",
+  "generatedAt": "2026-11-07T15:02:16.546Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
       "eventId": "event_f101880ef7bc",
       "clusterVersion": 2,
-      "title": "美股惊魂一周！AI抛售暂歇，但强劲非农敲响加息警钟，周五反弹恐只是“死猫跳”？",
+      "title": "美股科技股血洗蔓延！日韩股市双双入熊，分析师怎么看？",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-07T11:08:27.441Z",
+      "lastSeenAt": "2026-11-07T15:02:16.546Z",
       "latestItemPublishedAt": "2026-11-07T07:07:30.000Z",
-      "primaryItemId": "news_c09024bcbe1a",
+      "primaryItemId": "news_c816f0eaf169",
       "evidenceItemIds": [
-        "news_8d1cc3f32bd9",
-        "news_d802b1da84be",
-        "news_92532f73d9b9",
         "news_8f4179ff1193",
         "news_cc5b62c0c92a",
         "news_01cd7038640f",
@@ -62,7 +59,10 @@
         "news_59dd940bcf39",
         "news_fb5f76528b48",
         "news_11fe09fe1829",
-        "news_5356420b62f7"
+        "news_5356420b62f7",
+        "news_5635c66139ff",
+        "news_ed4f442b8386",
+        "news_c558551d5c02"
       ],
       "status": "developing",
       "summary": "美股惊魂一周，AI抛售暂歇，强劲非农敲响加息警钟，周五反弹存疑。",
@@ -71,14 +71,12 @@
     {
       "eventId": "event_a3c5d0364922",
       "clusterVersion": 2,
-      "title": "【周刊提前读】A股巨震 险企权益投资经受考验",
+      "title": "美股大跌：有哪些原因？对A股有何影响？",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-07T11:08:27.441Z",
-      "latestItemPublishedAt": "2026-11-07T06:18:27.000Z",
-      "primaryItemId": "news_79b2b5b20821",
+      "lastSeenAt": "2026-11-07T15:02:16.546Z",
+      "latestItemPublishedAt": "2026-11-07T12:24:01.000Z",
+      "primaryItemId": "news_71ed20b9426c",
       "evidenceItemIds": [
-        "news_ca47157c8d9b",
-        "news_77858778c6f7",
         "news_a85906bfbee8",
         "news_9b99c55edda5",
         "news_487755f6b524",
@@ -126,7 +124,9 @@
         "news_207c23061514",
         "news_79b2b5b20821",
         "news_881bcbc1f2c5",
-        "news_25efa1300e07"
+        "news_25efa1300e07",
+        "news_71ed20b9426c",
+        "news_647333564279"
       ],
       "status": "developing",
       "summary": "A股巨震背景下险企权益投资经受考验，市场同时频现回购利好信号。",
@@ -137,7 +137,7 @@
       "clusterVersion": 2,
       "title": "智通港股空仓持单统计|11月7日",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-11-07T11:08:27.441Z",
+      "lastSeenAt": "2026-11-07T15:02:16.546Z",
       "latestItemPublishedAt": "2026-11-07T02:35:57.000Z",
       "primaryItemId": "news_ddd1eaff90e3",
       "evidenceItemIds": [
@@ -201,7 +201,7 @@
       "clusterVersion": 2,
       "title": "中国证监会与阿曼金融服务管理局签署《证券期货监管合作谅解备忘录》",
       "firstSeenAt": "2026-11-03T11:57:43.416Z",
-      "lastSeenAt": "2026-11-07T11:08:27.441Z",
+      "lastSeenAt": "2026-11-07T15:02:16.546Z",
       "latestItemPublishedAt": "2026-11-06T12:38:36.000Z",
       "primaryItemId": "news_f0f5113a90ef",
       "evidenceItemIds": [
@@ -221,7 +221,7 @@
       "clusterVersion": 2,
       "title": "新增16.5万！美国10月非农大超预期，美联储下月加息稳了？",
       "firstSeenAt": "2026-11-06T07:06:11.933Z",
-      "lastSeenAt": "2026-11-07T11:08:27.441Z",
+      "lastSeenAt": "2026-11-07T15:02:16.546Z",
       "latestItemPublishedAt": "2026-11-07T00:14:34.000Z",
       "primaryItemId": "news_0414d8ed1b59",
       "evidenceItemIds": [
@@ -244,7 +244,7 @@
       "clusterVersion": 2,
       "title": "中国证监会同意氢氧化锂期货和期权注册",
       "firstSeenAt": "2026-11-06T12:07:36.692Z",
-      "lastSeenAt": "2026-11-07T11:08:27.441Z",
+      "lastSeenAt": "2026-11-07T15:02:16.546Z",
       "latestItemPublishedAt": "2026-11-05T23:28:09.000Z",
       "primaryItemId": "news_0e0e861c68d3",
       "evidenceItemIds": [
@@ -263,7 +263,7 @@
       "clusterVersion": 2,
       "title": "欧洲央行据称拟审查银行数据中心贷款 AI信贷风险持续发酵",
       "firstSeenAt": "2026-11-04T16:27:29.182Z",
-      "lastSeenAt": "2026-11-07T11:08:27.441Z",
+      "lastSeenAt": "2026-11-07T15:02:16.546Z",
       "latestItemPublishedAt": "2026-11-07T04:42:44.000Z",
       "primaryItemId": "news_e76b7c02aff5",
       "evidenceItemIds": [
@@ -283,7 +283,7 @@
       "clusterVersion": 2,
       "title": "国家发改委再次召开民企座谈会，研究明年政策举措",
       "firstSeenAt": "2026-11-06T16:04:59.190Z",
-      "lastSeenAt": "2026-11-07T11:08:27.441Z",
+      "lastSeenAt": "2026-11-07T15:02:16.546Z",
       "latestItemPublishedAt": "2026-11-07T07:09:42.000Z",
       "primaryItemId": "news_c07fdb3e2943",
       "evidenceItemIds": [
@@ -300,7 +300,7 @@
       "clusterVersion": 2,
       "title": "财联社11月7日电，上期所原油期货2612合约夜盘收涨0.36%，报639.10元人民币/桶。沪金夜盘收跌0.53%，沪",
       "firstSeenAt": "2026-11-04T19:54:55.710Z",
-      "lastSeenAt": "2026-11-07T11:08:27.441Z",
+      "lastSeenAt": "2026-11-07T15:02:16.546Z",
       "latestItemPublishedAt": "2026-11-06T18:31:43.000Z",
       "primaryItemId": "news_9b8abce3a34e",
       "evidenceItemIds": [
@@ -315,11 +315,11 @@
     {
       "eventId": "event_982d1612c59a",
       "clusterVersion": 2,
-      "title": "财联社11月7日电，日本央行行长植田和男表示，基础通胀数十年来首次达到2%。对通胀的普遍看法是，还需付出更多努力。",
+      "title": "日股大跌难挡加息步伐？日本央行前经济学家：12月加息或成定局",
       "firstSeenAt": "2026-11-06T19:35:32.744Z",
-      "lastSeenAt": "2026-11-07T11:08:27.441Z",
+      "lastSeenAt": "2026-11-07T15:02:16.546Z",
       "latestItemPublishedAt": "2026-11-06T16:36:37.000Z",
-      "primaryItemId": "news_b90c0c15da70",
+      "primaryItemId": "news_806744848584",
       "evidenceItemIds": [
         "news_b90c0c15da70",
         "news_806744848584"
@@ -333,12 +333,10 @@
       "clusterVersion": 2,
       "title": "日央行行长：通胀存在上行风险，若未来遭遇严重冲击，或再次启用非常规宽松工具",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-07T11:08:27.441Z",
-      "latestItemPublishedAt": "2026-11-07T04:38:47.000Z",
+      "lastSeenAt": "2026-11-07T15:02:16.546Z",
+      "latestItemPublishedAt": "2026-11-07T12:00:14.000Z",
       "primaryItemId": "news_7a27059f9432",
       "evidenceItemIds": [
-        "news_dc50070dac9c",
-        "news_e52b5f91be07",
         "news_0fefeb16dc4a",
         "news_1459a058ea76",
         "news_fd8eb03326fc",
@@ -386,7 +384,9 @@
         "news_88d1b90d065c",
         "news_4be3d9013d3f",
         "news_682e5d38817f",
-        "news_77e8b347634b"
+        "news_77e8b347634b",
+        "news_9377a13f88d0",
+        "news_d252c44c39bc"
       ],
       "status": "developing",
       "summary": "英国央行三年来首次加息25BP至4%，暗示后续或继续收紧货币政策",
@@ -397,7 +397,7 @@
       "clusterVersion": 2,
       "title": "链接全球康养资源，中国银行“银发伙伴计划”专场活动在沪举办",
       "firstSeenAt": "2026-11-07T06:15:29.114Z",
-      "lastSeenAt": "2026-11-07T11:08:27.441Z",
+      "lastSeenAt": "2026-11-07T15:02:16.546Z",
       "latestItemPublishedAt": "2026-11-07T00:46:50.000Z",
       "primaryItemId": "news_d56b18d44e6e",
       "evidenceItemIds": [
@@ -413,7 +413,7 @@
       "clusterVersion": 2,
       "title": "前三季度广告业头部企事业单位收入同比增长8.5%",
       "firstSeenAt": "2026-11-07T06:15:29.114Z",
-      "lastSeenAt": "2026-11-07T11:08:27.441Z",
+      "lastSeenAt": "2026-11-07T15:02:16.546Z",
       "latestItemPublishedAt": "2026-11-07T03:36:40.000Z",
       "primaryItemId": "news_af344c66cc1e",
       "evidenceItemIds": [
@@ -429,7 +429,7 @@
       "clusterVersion": 2,
       "title": "国家外汇管理局：截至2026年10月末，我国外汇储备规模为34052亿美元",
       "firstSeenAt": "2026-11-07T06:15:29.114Z",
-      "lastSeenAt": "2026-11-07T11:08:27.441Z",
+      "lastSeenAt": "2026-11-07T15:02:16.546Z",
       "latestItemPublishedAt": "2026-11-07T02:01:59.000Z",
       "primaryItemId": "news_65b50ded0083",
       "evidenceItemIds": [
@@ -445,7 +445,7 @@
       "clusterVersion": 2,
       "title": "中期选举对美国医疗政策的影响",
       "firstSeenAt": "2026-11-02T12:24:31.599Z",
-      "lastSeenAt": "2026-11-07T11:08:27.441Z",
+      "lastSeenAt": "2026-11-07T15:02:16.546Z",
       "latestItemPublishedAt": "2026-11-07T08:02:48.000Z",
       "primaryItemId": "news_9d807736a7d5",
       "evidenceItemIds": [
@@ -459,6 +459,38 @@
       "status": "developing",
       "summary": "2026年美国中期选举结果将直接影响美国医疗政策后续调整方向，引发行业高度关注",
       "latestProgress": "2026年11月6日中期选举结果正式落地，美国医疗政策走向成市场关注焦点"
+    },
+    {
+      "eventId": "event_8cf978cc6b3a",
+      "clusterVersion": 2,
+      "title": "中国连续17年稳居全球第二大进口国，还能买什么？",
+      "firstSeenAt": "2026-11-05T16:34:07.698Z",
+      "lastSeenAt": "2026-11-07T15:02:16.546Z",
+      "latestItemPublishedAt": "2026-11-05T12:43:29.000Z",
+      "primaryItemId": "news_1d48b9ca74ae",
+      "evidenceItemIds": [
+        "news_1d48b9ca74ae",
+        "news_8f5e7e156f5f"
+      ],
+      "status": "developing",
+      "summary": "中国连续17年稳居全球第二大进口国，持续扩大优质产品进口。",
+      "latestProgress": "2026年11月5日相关报道探讨中国进一步扩大进口的潜在领域。"
+    },
+    {
+      "eventId": "event_4c55087a58b9",
+      "clusterVersion": 2,
+      "title": "上交所召开并购重组专题座谈会 汇聚市场合力助推上市公司提质增效",
+      "firstSeenAt": "2026-11-06T07:06:11.933Z",
+      "lastSeenAt": "2026-11-07T15:02:16.546Z",
+      "latestItemPublishedAt": "2026-11-05T12:57:17.000Z",
+      "primaryItemId": "news_eff5dfe2e087",
+      "evidenceItemIds": [
+        "news_eff5dfe2e087",
+        "news_547e4a9cd7d0"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
     },
     {
       "eventId": "event_618aaf3e7c02",
@@ -704,38 +736,6 @@
       "status": "developing",
       "summary": "11月5日巴克莱下调优步、ARM目标价，分别降至100美元、325美元",
       "latestProgress": "巴克莱同日下调优步目标价至100美元"
-    },
-    {
-      "eventId": "event_8cf978cc6b3a",
-      "clusterVersion": 2,
-      "title": "中国连续17年稳居全球第二大进口国，还能买什么？",
-      "firstSeenAt": "2026-11-05T16:34:07.698Z",
-      "lastSeenAt": "2026-11-06T07:06:11.933Z",
-      "latestItemPublishedAt": "2026-11-05T12:43:29.000Z",
-      "primaryItemId": "news_1d48b9ca74ae",
-      "evidenceItemIds": [
-        "news_1d48b9ca74ae",
-        "news_8f5e7e156f5f"
-      ],
-      "status": "developing",
-      "summary": "中国连续17年稳居全球第二大进口国，持续扩大优质产品进口。",
-      "latestProgress": "2026年11月5日相关报道探讨中国进一步扩大进口的潜在领域。"
-    },
-    {
-      "eventId": "event_4c55087a58b9",
-      "clusterVersion": 2,
-      "title": "上交所召开并购重组专题座谈会 汇聚市场合力助推上市公司提质增效",
-      "firstSeenAt": "2026-11-06T07:06:11.933Z",
-      "lastSeenAt": "2026-11-06T07:06:11.933Z",
-      "latestItemPublishedAt": "2026-11-05T12:57:17.000Z",
-      "primaryItemId": "news_eff5dfe2e087",
-      "evidenceItemIds": [
-        "news_eff5dfe2e087",
-        "news_547e4a9cd7d0"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
     },
     {
       "eventId": "event_413564c93754",

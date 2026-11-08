@@ -1,19 +1,18 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-08T11:21:43.216Z",
+  "generatedAt": "2026-11-08T15:29:45.163Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
       "eventId": "event_f101880ef7bc",
       "clusterVersion": 2,
-      "title": "美股点金丨一周蒸发超4万亿美元，数据中心恐慌何时结束",
+      "title": "美股科技股重挫后，高盛称AI债务供给压力正在信用市场累积",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-08T11:21:43.216Z",
-      "latestItemPublishedAt": "2026-11-08T09:35:22.000Z",
-      "primaryItemId": "news_4506ade3ade6",
+      "lastSeenAt": "2026-11-08T15:29:45.163Z",
+      "latestItemPublishedAt": "2026-11-08T10:20:57.000Z",
+      "primaryItemId": "news_c1e91c501f33",
       "evidenceItemIds": [
-        "news_74238f197479",
         "news_a733460fd4e5",
         "news_6dd83a8a82e3",
         "news_f6ad3a469c4d",
@@ -62,7 +61,8 @@
         "news_4506ade3ade6",
         "news_0af1cf880189",
         "news_105662defb47",
-        "news_29106a19c555"
+        "news_29106a19c555",
+        "news_c1e91c501f33"
       ],
       "status": "developing",
       "summary": "美股一周蒸发超4万亿美元，数据中心恐慌蔓延，科技股九年来首次比大盘便宜。",
@@ -73,12 +73,10 @@
       "clusterVersion": 2,
       "title": "美股大跌：有哪些原因？对A股有何影响？",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-08T11:21:43.216Z",
-      "latestItemPublishedAt": "2026-11-08T10:20:52.000Z",
+      "lastSeenAt": "2026-11-08T15:29:45.163Z",
+      "latestItemPublishedAt": "2026-11-08T13:32:03.000Z",
       "primaryItemId": "news_71ed20b9426c",
       "evidenceItemIds": [
-        "news_9b99c55edda5",
-        "news_487755f6b524",
         "news_9ed6ac176634",
         "news_3e9607555bea",
         "news_b7374bd7e7c6",
@@ -126,7 +124,9 @@
         "news_25efa1300e07",
         "news_71ed20b9426c",
         "news_647333564279",
-        "news_a8fdfff29dcb"
+        "news_a8fdfff29dcb",
+        "news_9a2beeefef80",
+        "news_671b5f990089"
       ],
       "status": "developing",
       "summary": "A股剧烈震荡，险企权益投资面临考验，市场情绪与个股表现分化。",
@@ -137,7 +137,7 @@
       "clusterVersion": 2,
       "title": "港股AI产业链新股密集“破发”，中际旭创基石投资者浮亏超百亿",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-11-08T11:21:43.216Z",
+      "lastSeenAt": "2026-11-08T15:29:45.163Z",
       "latestItemPublishedAt": "2026-11-08T10:27:10.000Z",
       "primaryItemId": "news_df3f7c94f009",
       "evidenceItemIds": [
@@ -201,7 +201,7 @@
       "clusterVersion": 2,
       "title": "中国证监会与阿曼金融服务管理局签署《证券期货监管合作谅解备忘录》",
       "firstSeenAt": "2026-11-03T11:57:43.416Z",
-      "lastSeenAt": "2026-11-08T11:21:43.216Z",
+      "lastSeenAt": "2026-11-08T15:29:45.163Z",
       "latestItemPublishedAt": "2026-11-06T12:38:36.000Z",
       "primaryItemId": "news_f0f5113a90ef",
       "evidenceItemIds": [
@@ -221,7 +221,7 @@
       "clusterVersion": 2,
       "title": "美国10月新增就业16.5万，超出预期，美联储12月加息预期升温",
       "firstSeenAt": "2026-11-06T07:06:11.933Z",
-      "lastSeenAt": "2026-11-08T11:21:43.216Z",
+      "lastSeenAt": "2026-11-08T15:29:45.163Z",
       "latestItemPublishedAt": "2026-11-07T00:14:34.000Z",
       "primaryItemId": "news_a5fa068df6c1",
       "evidenceItemIds": [
@@ -244,7 +244,7 @@
       "clusterVersion": 2,
       "title": "中国证监会同意氢氧化锂期货和期权注册",
       "firstSeenAt": "2026-11-06T12:07:36.692Z",
-      "lastSeenAt": "2026-11-08T11:21:43.216Z",
+      "lastSeenAt": "2026-11-08T15:29:45.163Z",
       "latestItemPublishedAt": "2026-11-05T23:28:09.000Z",
       "primaryItemId": "news_0e0e861c68d3",
       "evidenceItemIds": [
@@ -259,28 +259,11 @@
       "latestProgress": "2026年11月5日，氢氧化锂期货和期权注册已获中国证监会同意。"
     },
     {
-      "eventId": "event_1c1a532448c0",
-      "clusterVersion": 2,
-      "title": "国家发改委再次召开民企座谈会，研究明年政策举措",
-      "firstSeenAt": "2026-11-06T16:04:59.190Z",
-      "lastSeenAt": "2026-11-08T11:21:43.216Z",
-      "latestItemPublishedAt": "2026-11-07T07:09:42.000Z",
-      "primaryItemId": "news_c07fdb3e2943",
-      "evidenceItemIds": [
-        "news_c235a0a3f5ab",
-        "news_b461a753d4a4",
-        "news_c07fdb3e2943"
-      ],
-      "status": "developing",
-      "summary": "国家发改委再次召开民企座谈会，研讨明年支持民企发展的政策举措。",
-      "latestProgress": "2026年11月7日，国家发改委召开民企座谈会研究明年相关政策举措。"
-    },
-    {
       "eventId": "event_2cf716748ce1",
       "clusterVersion": 2,
       "title": "央行连续24个月增持黄金，创近两年最大加仓手笔",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-08T11:21:43.216Z",
+      "lastSeenAt": "2026-11-08T15:29:45.163Z",
       "latestItemPublishedAt": "2026-11-08T05:58:04.000Z",
       "primaryItemId": "news_3a46d128ff7c",
       "evidenceItemIds": [
@@ -340,6 +323,72 @@
       "latestProgress": "央行连续24个月增持黄金，创近两年最大加仓手笔"
     },
     {
+      "eventId": "event_72144a048038",
+      "clusterVersion": 2,
+      "title": "报告：2026年我国能源投资总额或达9400亿美元",
+      "firstSeenAt": "2026-11-08T06:20:06.246Z",
+      "lastSeenAt": "2026-11-08T15:29:45.163Z",
+      "latestItemPublishedAt": "2026-11-08T06:15:30.000Z",
+      "primaryItemId": "news_6e61ca2bf036",
+      "evidenceItemIds": [
+        "news_6e61ca2bf036",
+        "news_31896790033a",
+        "news_9e53ebdd5551"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_b7bee533a412",
+      "clusterVersion": 2,
+      "title": "Anthropic斥资34亿美元采购燃气发电设备，为数据中心供电",
+      "firstSeenAt": "2026-11-08T15:29:45.163Z",
+      "lastSeenAt": "2026-11-08T15:29:45.163Z",
+      "latestItemPublishedAt": "2026-11-08T12:33:42.000Z",
+      "primaryItemId": "news_6e45272d725c",
+      "evidenceItemIds": [
+        "news_6e45272d725c",
+        "news_2917631b1bcc"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_4053be76b710",
+      "clusterVersion": 2,
+      "title": "逢低买入还是静待时机？美国银行为芯片股绘制三大情景及精选标的",
+      "firstSeenAt": "2026-11-08T15:29:45.163Z",
+      "lastSeenAt": "2026-11-08T15:29:45.163Z",
+      "latestItemPublishedAt": "2026-11-08T03:27:01.000Z",
+      "primaryItemId": "news_ae075161ff6d",
+      "evidenceItemIds": [
+        "news_ae075161ff6d",
+        "news_3aea414337e7"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_1c1a532448c0",
+      "clusterVersion": 2,
+      "title": "国家发改委再次召开民企座谈会，研究明年政策举措",
+      "firstSeenAt": "2026-11-06T16:04:59.190Z",
+      "lastSeenAt": "2026-11-08T11:21:43.216Z",
+      "latestItemPublishedAt": "2026-11-07T07:09:42.000Z",
+      "primaryItemId": "news_c07fdb3e2943",
+      "evidenceItemIds": [
+        "news_c235a0a3f5ab",
+        "news_b461a753d4a4",
+        "news_c07fdb3e2943"
+      ],
+      "status": "developing",
+      "summary": "国家发改委再次召开民企座谈会，研讨明年支持民企发展的政策举措。",
+      "latestProgress": "2026年11月7日，国家发改委召开民企座谈会研究明年相关政策举措。"
+    },
+    {
       "eventId": "event_2d62b41df74b",
       "clusterVersion": 2,
       "title": "中期选举对美国医疗政策的影响",
@@ -358,23 +407,6 @@
       "status": "developing",
       "summary": "美国中期选举后，多名国会议员称将推动撤销不合理关税政策，影响医疗政策走向。",
       "latestProgress": "2026年11月7日，美国多名国会议员称将推动撤销不合理关税政策。"
-    },
-    {
-      "eventId": "event_72144a048038",
-      "clusterVersion": 2,
-      "title": "报告：2026年我国能源投资总额或达9400亿美元",
-      "firstSeenAt": "2026-11-08T06:20:06.246Z",
-      "lastSeenAt": "2026-11-08T11:21:43.216Z",
-      "latestItemPublishedAt": "2026-11-08T06:15:30.000Z",
-      "primaryItemId": "news_6e61ca2bf036",
-      "evidenceItemIds": [
-        "news_6e61ca2bf036",
-        "news_31896790033a",
-        "news_9e53ebdd5551"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
     },
     {
       "eventId": "event_25919815bffc",

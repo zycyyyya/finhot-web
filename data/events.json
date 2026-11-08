@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-08T06:20:06.246Z",
+  "generatedAt": "2026-11-08T11:21:43.216Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -9,11 +9,10 @@
       "clusterVersion": 2,
       "title": "美股点金丨一周蒸发超4万亿美元，数据中心恐慌何时结束",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-08T06:20:06.246Z",
-      "latestItemPublishedAt": "2026-11-08T05:55:48.000Z",
+      "lastSeenAt": "2026-11-08T11:21:43.216Z",
+      "latestItemPublishedAt": "2026-11-08T09:35:22.000Z",
       "primaryItemId": "news_4506ade3ade6",
       "evidenceItemIds": [
-        "news_68937085917e",
         "news_74238f197479",
         "news_a733460fd4e5",
         "news_6dd83a8a82e3",
@@ -62,7 +61,8 @@
         "news_c558551d5c02",
         "news_4506ade3ade6",
         "news_0af1cf880189",
-        "news_105662defb47"
+        "news_105662defb47",
+        "news_29106a19c555"
       ],
       "status": "developing",
       "summary": "美股一周蒸发超4万亿美元，数据中心恐慌蔓延，科技股九年来首次比大盘便宜。",
@@ -71,13 +71,12 @@
     {
       "eventId": "event_a3c5d0364922",
       "clusterVersion": 2,
-      "title": "【周刊提前读】A股巨震 险企权益投资经受考验",
+      "title": "美股大跌：有哪些原因？对A股有何影响？",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-08T06:20:06.246Z",
-      "latestItemPublishedAt": "2026-11-07T12:24:01.000Z",
-      "primaryItemId": "news_79b2b5b20821",
+      "lastSeenAt": "2026-11-08T11:21:43.216Z",
+      "latestItemPublishedAt": "2026-11-08T10:20:52.000Z",
+      "primaryItemId": "news_71ed20b9426c",
       "evidenceItemIds": [
-        "news_a85906bfbee8",
         "news_9b99c55edda5",
         "news_487755f6b524",
         "news_9ed6ac176634",
@@ -126,7 +125,8 @@
         "news_881bcbc1f2c5",
         "news_25efa1300e07",
         "news_71ed20b9426c",
-        "news_647333564279"
+        "news_647333564279",
+        "news_a8fdfff29dcb"
       ],
       "status": "developing",
       "summary": "A股剧烈震荡，险企权益投资面临考验，市场情绪与个股表现分化。",
@@ -135,13 +135,12 @@
     {
       "eventId": "event_c68d651d4ff9",
       "clusterVersion": 2,
-      "title": "智通港股空仓持单统计|11月7日",
+      "title": "港股AI产业链新股密集“破发”，中际旭创基石投资者浮亏超百亿",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-11-08T06:20:06.246Z",
-      "latestItemPublishedAt": "2026-11-07T02:35:57.000Z",
-      "primaryItemId": "news_ddd1eaff90e3",
+      "lastSeenAt": "2026-11-08T11:21:43.216Z",
+      "latestItemPublishedAt": "2026-11-08T10:27:10.000Z",
+      "primaryItemId": "news_df3f7c94f009",
       "evidenceItemIds": [
-        "news_038bceafb5da",
         "news_92417e213a51",
         "news_89d278dc2c90",
         "news_75d702cfd4aa",
@@ -190,7 +189,8 @@
         "news_4699b05a3b76",
         "news_3ff30cf78cbc",
         "news_292841eba207",
-        "news_ddd1eaff90e3"
+        "news_ddd1eaff90e3",
+        "news_df3f7c94f009"
       ],
       "status": "developing",
       "summary": "小摩指税费转嫁较预期困难，下调锂电池行业盈利预测，港股相关概念股走低。",
@@ -201,7 +201,7 @@
       "clusterVersion": 2,
       "title": "中国证监会与阿曼金融服务管理局签署《证券期货监管合作谅解备忘录》",
       "firstSeenAt": "2026-11-03T11:57:43.416Z",
-      "lastSeenAt": "2026-11-08T06:20:06.246Z",
+      "lastSeenAt": "2026-11-08T11:21:43.216Z",
       "latestItemPublishedAt": "2026-11-06T12:38:36.000Z",
       "primaryItemId": "news_f0f5113a90ef",
       "evidenceItemIds": [
@@ -221,7 +221,7 @@
       "clusterVersion": 2,
       "title": "美国10月新增就业16.5万，超出预期，美联储12月加息预期升温",
       "firstSeenAt": "2026-11-06T07:06:11.933Z",
-      "lastSeenAt": "2026-11-08T06:20:06.246Z",
+      "lastSeenAt": "2026-11-08T11:21:43.216Z",
       "latestItemPublishedAt": "2026-11-07T00:14:34.000Z",
       "primaryItemId": "news_a5fa068df6c1",
       "evidenceItemIds": [
@@ -244,7 +244,7 @@
       "clusterVersion": 2,
       "title": "中国证监会同意氢氧化锂期货和期权注册",
       "firstSeenAt": "2026-11-06T12:07:36.692Z",
-      "lastSeenAt": "2026-11-08T06:20:06.246Z",
+      "lastSeenAt": "2026-11-08T11:21:43.216Z",
       "latestItemPublishedAt": "2026-11-05T23:28:09.000Z",
       "primaryItemId": "news_0e0e861c68d3",
       "evidenceItemIds": [
@@ -259,31 +259,11 @@
       "latestProgress": "2026年11月5日，氢氧化锂期货和期权注册已获中国证监会同意。"
     },
     {
-      "eventId": "event_25919815bffc",
-      "clusterVersion": 2,
-      "title": "欧洲央行据称拟审查银行数据中心贷款 AI信贷风险持续发酵",
-      "firstSeenAt": "2026-11-04T16:27:29.182Z",
-      "lastSeenAt": "2026-11-08T06:20:06.246Z",
-      "latestItemPublishedAt": "2026-11-07T04:42:44.000Z",
-      "primaryItemId": "news_e76b7c02aff5",
-      "evidenceItemIds": [
-        "news_23cf3dbf1721",
-        "news_9721abeadc67",
-        "news_e13d065215af",
-        "news_b28f88258127",
-        "news_e76b7c02aff5",
-        "news_9b9cf3547033"
-      ],
-      "status": "developing",
-      "summary": "欧洲央行拟审查银行数据中心贷款，应对AI信贷风险",
-      "latestProgress": "欧洲央行考虑审查银行对数据中心贷款，评估AI相关风险"
-    },
-    {
       "eventId": "event_1c1a532448c0",
       "clusterVersion": 2,
       "title": "国家发改委再次召开民企座谈会，研究明年政策举措",
       "firstSeenAt": "2026-11-06T16:04:59.190Z",
-      "lastSeenAt": "2026-11-08T06:20:06.246Z",
+      "lastSeenAt": "2026-11-08T11:21:43.216Z",
       "latestItemPublishedAt": "2026-11-07T07:09:42.000Z",
       "primaryItemId": "news_c07fdb3e2943",
       "evidenceItemIds": [
@@ -298,13 +278,12 @@
     {
       "eventId": "event_2cf716748ce1",
       "clusterVersion": 2,
-      "title": "中国央行连续24个月扩大黄金储备",
+      "title": "央行连续24个月增持黄金，创近两年最大加仓手笔",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-08T06:20:06.246Z",
+      "lastSeenAt": "2026-11-08T11:21:43.216Z",
       "latestItemPublishedAt": "2026-11-08T05:58:04.000Z",
-      "primaryItemId": "news_682e5d38817f",
+      "primaryItemId": "news_3a46d128ff7c",
       "evidenceItemIds": [
-        "news_1459a058ea76",
         "news_fd8eb03326fc",
         "news_5c5fc22edc19",
         "news_9aac93f99c72",
@@ -353,11 +332,69 @@
         "news_77e8b347634b",
         "news_9377a13f88d0",
         "news_d252c44c39bc",
-        "news_3a46d128ff7c"
+        "news_3a46d128ff7c",
+        "news_b149998b6c34"
       ],
       "status": "developing",
       "summary": "中国央行连续24个月扩大黄金储备，持续增持态势明确",
       "latestProgress": "央行连续24个月增持黄金，创近两年最大加仓手笔"
+    },
+    {
+      "eventId": "event_2d62b41df74b",
+      "clusterVersion": 2,
+      "title": "中期选举对美国医疗政策的影响",
+      "firstSeenAt": "2026-11-02T12:24:31.599Z",
+      "lastSeenAt": "2026-11-08T11:21:43.216Z",
+      "latestItemPublishedAt": "2026-11-07T08:02:48.000Z",
+      "primaryItemId": "news_9d807736a7d5",
+      "evidenceItemIds": [
+        "news_23ad830f1d25",
+        "news_ab4a79d8289d",
+        "news_ab6743a0f133",
+        "news_3305fae90863",
+        "news_9d807736a7d5",
+        "news_dee86752deca"
+      ],
+      "status": "developing",
+      "summary": "美国中期选举后，多名国会议员称将推动撤销不合理关税政策，影响医疗政策走向。",
+      "latestProgress": "2026年11月7日，美国多名国会议员称将推动撤销不合理关税政策。"
+    },
+    {
+      "eventId": "event_72144a048038",
+      "clusterVersion": 2,
+      "title": "报告：2026年我国能源投资总额或达9400亿美元",
+      "firstSeenAt": "2026-11-08T06:20:06.246Z",
+      "lastSeenAt": "2026-11-08T11:21:43.216Z",
+      "latestItemPublishedAt": "2026-11-08T06:15:30.000Z",
+      "primaryItemId": "news_6e61ca2bf036",
+      "evidenceItemIds": [
+        "news_6e61ca2bf036",
+        "news_31896790033a",
+        "news_9e53ebdd5551"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_25919815bffc",
+      "clusterVersion": 2,
+      "title": "欧洲央行据称拟审查银行数据中心贷款 AI信贷风险持续发酵",
+      "firstSeenAt": "2026-11-04T16:27:29.182Z",
+      "lastSeenAt": "2026-11-08T06:20:06.246Z",
+      "latestItemPublishedAt": "2026-11-07T04:42:44.000Z",
+      "primaryItemId": "news_e76b7c02aff5",
+      "evidenceItemIds": [
+        "news_23cf3dbf1721",
+        "news_9721abeadc67",
+        "news_e13d065215af",
+        "news_b28f88258127",
+        "news_e76b7c02aff5",
+        "news_9b9cf3547033"
+      ],
+      "status": "developing",
+      "summary": "欧洲央行拟审查银行数据中心贷款，应对AI信贷风险",
+      "latestProgress": "欧洲央行考虑审查银行对数据中心贷款，评估AI相关风险"
     },
     {
       "eventId": "event_ed56fe49bb4e",
@@ -390,42 +427,6 @@
       "status": "developing",
       "summary": "国家外汇管理局公布，截至2026年10月末我国外汇储备规模为34052亿美元",
       "latestProgress": "2026年11月7日，国家外汇管理局公布10月末我国外汇储备规模为34052亿美元"
-    },
-    {
-      "eventId": "event_2d62b41df74b",
-      "clusterVersion": 2,
-      "title": "中期选举对美国医疗政策的影响",
-      "firstSeenAt": "2026-11-02T12:24:31.599Z",
-      "lastSeenAt": "2026-11-08T06:20:06.246Z",
-      "latestItemPublishedAt": "2026-11-07T08:02:48.000Z",
-      "primaryItemId": "news_9d807736a7d5",
-      "evidenceItemIds": [
-        "news_23ad830f1d25",
-        "news_ab4a79d8289d",
-        "news_ab6743a0f133",
-        "news_3305fae90863",
-        "news_9d807736a7d5",
-        "news_dee86752deca"
-      ],
-      "status": "developing",
-      "summary": "美国中期选举后，多名国会议员称将推动撤销不合理关税政策，影响医疗政策走向。",
-      "latestProgress": "2026年11月7日，美国多名国会议员称将推动撤销不合理关税政策。"
-    },
-    {
-      "eventId": "event_72144a048038",
-      "clusterVersion": 2,
-      "title": "报告：2026年我国能源投资总额或达9400亿美元",
-      "firstSeenAt": "2026-11-08T06:20:06.246Z",
-      "lastSeenAt": "2026-11-08T06:20:06.246Z",
-      "latestItemPublishedAt": "2026-11-08T02:56:13.000Z",
-      "primaryItemId": "news_6e61ca2bf036",
-      "evidenceItemIds": [
-        "news_6e61ca2bf036",
-        "news_31896790033a"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
     },
     {
       "eventId": "event_982d1612c59a",

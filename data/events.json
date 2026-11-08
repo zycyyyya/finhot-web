@@ -1,21 +1,18 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-07T17:53:03.349Z",
+  "generatedAt": "2026-11-08T06:20:06.246Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
       "eventId": "event_f101880ef7bc",
       "clusterVersion": 2,
-      "title": "美股惊魂一周！AI抛售暂歇，但强劲非农敲响加息警钟，周五反弹恐只是“死猫跳”？",
+      "title": "美股点金丨一周蒸发超4万亿美元，数据中心恐慌何时结束",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-07T17:53:03.349Z",
-      "latestItemPublishedAt": "2026-11-07T07:07:30.000Z",
-      "primaryItemId": "news_c09024bcbe1a",
+      "lastSeenAt": "2026-11-08T06:20:06.246Z",
+      "latestItemPublishedAt": "2026-11-08T05:55:48.000Z",
+      "primaryItemId": "news_4506ade3ade6",
       "evidenceItemIds": [
-        "news_8f4179ff1193",
-        "news_cc5b62c0c92a",
-        "news_01cd7038640f",
         "news_68937085917e",
         "news_74238f197479",
         "news_a733460fd4e5",
@@ -62,20 +59,23 @@
         "news_5356420b62f7",
         "news_5635c66139ff",
         "news_ed4f442b8386",
-        "news_c558551d5c02"
+        "news_c558551d5c02",
+        "news_4506ade3ade6",
+        "news_0af1cf880189",
+        "news_105662defb47"
       ],
       "status": "developing",
-      "summary": "美股惊魂一周，AI抛售暂歇，强劲非农敲响加息警钟，周五反弹存疑。",
-      "latestProgress": "美股惊魂一周，AI抛售暂歇，非农强劲引加息担忧，反弹或为“死猫跳”。"
+      "summary": "美股一周蒸发超4万亿美元，数据中心恐慌蔓延，科技股九年来首次比大盘便宜。",
+      "latestProgress": "美股科技股九年来首次迈入“比大盘便宜”时代。"
     },
     {
       "eventId": "event_a3c5d0364922",
       "clusterVersion": 2,
-      "title": "美股大跌：有哪些原因？对A股有何影响？",
+      "title": "【周刊提前读】A股巨震 险企权益投资经受考验",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-07T17:53:03.349Z",
+      "lastSeenAt": "2026-11-08T06:20:06.246Z",
       "latestItemPublishedAt": "2026-11-07T12:24:01.000Z",
-      "primaryItemId": "news_71ed20b9426c",
+      "primaryItemId": "news_79b2b5b20821",
       "evidenceItemIds": [
         "news_a85906bfbee8",
         "news_9b99c55edda5",
@@ -129,15 +129,15 @@
         "news_647333564279"
       ],
       "status": "developing",
-      "summary": "A股巨震背景下险企权益投资经受考验，市场同时频现回购利好信号。",
-      "latestProgress": "大摩A股情绪指数突破过度悲观阈值，预示一至两个月内市场或反弹。"
+      "summary": "A股剧烈震荡，险企权益投资面临考验，市场情绪与个股表现分化。",
+      "latestProgress": "大摩A股情绪指数突破过度悲观阈值，预示一到两月内市场或反弹。"
     },
     {
       "eventId": "event_c68d651d4ff9",
       "clusterVersion": 2,
       "title": "智通港股空仓持单统计|11月7日",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-11-07T17:53:03.349Z",
+      "lastSeenAt": "2026-11-08T06:20:06.246Z",
       "latestItemPublishedAt": "2026-11-07T02:35:57.000Z",
       "primaryItemId": "news_ddd1eaff90e3",
       "evidenceItemIds": [
@@ -201,7 +201,7 @@
       "clusterVersion": 2,
       "title": "中国证监会与阿曼金融服务管理局签署《证券期货监管合作谅解备忘录》",
       "firstSeenAt": "2026-11-03T11:57:43.416Z",
-      "lastSeenAt": "2026-11-07T17:53:03.349Z",
+      "lastSeenAt": "2026-11-08T06:20:06.246Z",
       "latestItemPublishedAt": "2026-11-06T12:38:36.000Z",
       "primaryItemId": "news_f0f5113a90ef",
       "evidenceItemIds": [
@@ -213,15 +213,15 @@
         "news_cb7cf9243d75"
       ],
       "status": "developing",
-      "summary": "中国证监会与阿曼金融服务管理局签署证券期货监管合作备忘录，深化跨境监管协作。",
-      "latestProgress": "ST龙大实控人戴学斌刑拘后被证监会立案。"
+      "summary": "中国证监会与阿曼金融服务管理局签署《证券期货监管合作谅解备忘录》，加强监管协作。",
+      "latestProgress": "双方已完成《证券期货监管合作谅解备忘录》签署，将推进相关监管合作落地。"
     },
     {
       "eventId": "event_9e320dba578d",
       "clusterVersion": 2,
       "title": "美国10月新增就业16.5万，超出预期，美联储12月加息预期升温",
       "firstSeenAt": "2026-11-06T07:06:11.933Z",
-      "lastSeenAt": "2026-11-07T17:53:03.349Z",
+      "lastSeenAt": "2026-11-08T06:20:06.246Z",
       "latestItemPublishedAt": "2026-11-07T00:14:34.000Z",
       "primaryItemId": "news_a5fa068df6c1",
       "evidenceItemIds": [
@@ -236,15 +236,15 @@
         "news_d4983c9bef70"
       ],
       "status": "developing",
-      "summary": "10月非农大超预期重燃12月加息预期，华尔街押注超八成，AI抛售或成政策变量。",
-      "latestProgress": "美国10月非农大超预期，美联储12月加息预期进一步升温。"
+      "summary": "美国10月新增就业16.5万超预期，美联储12月加息预期升温",
+      "latestProgress": "美联储戴利仍倾向进一步收紧政策，12月加息押注升至近八成"
     },
     {
       "eventId": "event_a4c277bef24a",
       "clusterVersion": 2,
       "title": "中国证监会同意氢氧化锂期货和期权注册",
       "firstSeenAt": "2026-11-06T12:07:36.692Z",
-      "lastSeenAt": "2026-11-07T17:53:03.349Z",
+      "lastSeenAt": "2026-11-08T06:20:06.246Z",
       "latestItemPublishedAt": "2026-11-05T23:28:09.000Z",
       "primaryItemId": "news_0e0e861c68d3",
       "evidenceItemIds": [
@@ -255,15 +255,15 @@
         "news_63e9f32c1023"
       ],
       "status": "developing",
-      "summary": "2026年11月5日证监会同意葵花籽油、氢氧化锂期货及期权注册，扩充大宗商品衍生品供给",
-      "latestProgress": "2026年11月6日广期所氢氧化锂期货及期权获批，为锂产业链提供风险管理工具"
+      "summary": "2026年11月5日，中国证监会同意氢氧化锂、葵花籽油期货和期权注册。",
+      "latestProgress": "2026年11月5日，氢氧化锂期货和期权注册已获中国证监会同意。"
     },
     {
       "eventId": "event_25919815bffc",
       "clusterVersion": 2,
       "title": "欧洲央行据称拟审查银行数据中心贷款 AI信贷风险持续发酵",
       "firstSeenAt": "2026-11-04T16:27:29.182Z",
-      "lastSeenAt": "2026-11-07T17:53:03.349Z",
+      "lastSeenAt": "2026-11-08T06:20:06.246Z",
       "latestItemPublishedAt": "2026-11-07T04:42:44.000Z",
       "primaryItemId": "news_e76b7c02aff5",
       "evidenceItemIds": [
@@ -275,15 +275,15 @@
         "news_9b9cf3547033"
       ],
       "status": "developing",
-      "summary": "欧元区通胀高企，欧洲央行拟审查银行数据中心贷款评估AI信贷风险",
-      "latestProgress": "欧洲央行考虑审查银行对数据中心贷款，评估人工智能相关风险"
+      "summary": "欧洲央行拟审查银行数据中心贷款，应对AI信贷风险",
+      "latestProgress": "欧洲央行考虑审查银行对数据中心贷款，评估AI相关风险"
     },
     {
       "eventId": "event_1c1a532448c0",
       "clusterVersion": 2,
       "title": "国家发改委再次召开民企座谈会，研究明年政策举措",
       "firstSeenAt": "2026-11-06T16:04:59.190Z",
-      "lastSeenAt": "2026-11-07T17:53:03.349Z",
+      "lastSeenAt": "2026-11-08T06:20:06.246Z",
       "latestItemPublishedAt": "2026-11-07T07:09:42.000Z",
       "primaryItemId": "news_c07fdb3e2943",
       "evidenceItemIds": [
@@ -292,35 +292,18 @@
         "news_c07fdb3e2943"
       ],
       "status": "developing",
-      "summary": "国家发改委主任郑栅洁主持召开民营企业座谈会，围绕抓好年内经济工作落实、研究明年政策举措听取意见建议。",
-      "latestProgress": "郑栅洁主持召开民营企业座谈会，就抓好年内经济工作落实、研究明年政策举措听取民企意见建议。"
-    },
-    {
-      "eventId": "event_982d1612c59a",
-      "clusterVersion": 2,
-      "title": "日股大跌难挡加息步伐？日本央行前经济学家：12月加息或成定局",
-      "firstSeenAt": "2026-11-06T19:35:32.744Z",
-      "lastSeenAt": "2026-11-07T17:53:03.349Z",
-      "latestItemPublishedAt": "2026-11-06T16:36:37.000Z",
-      "primaryItemId": "news_806744848584",
-      "evidenceItemIds": [
-        "news_b90c0c15da70",
-        "news_806744848584"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "国家发改委再次召开民企座谈会，研讨明年支持民企发展的政策举措。",
+      "latestProgress": "2026年11月7日，国家发改委召开民企座谈会研究明年相关政策举措。"
     },
     {
       "eventId": "event_2cf716748ce1",
       "clusterVersion": 2,
       "title": "中国央行连续24个月扩大黄金储备",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-07T17:53:03.349Z",
-      "latestItemPublishedAt": "2026-11-07T12:00:14.000Z",
+      "lastSeenAt": "2026-11-08T06:20:06.246Z",
+      "latestItemPublishedAt": "2026-11-08T05:58:04.000Z",
       "primaryItemId": "news_682e5d38817f",
       "evidenceItemIds": [
-        "news_0fefeb16dc4a",
         "news_1459a058ea76",
         "news_fd8eb03326fc",
         "news_5c5fc22edc19",
@@ -369,11 +352,96 @@
         "news_682e5d38817f",
         "news_77e8b347634b",
         "news_9377a13f88d0",
-        "news_d252c44c39bc"
+        "news_d252c44c39bc",
+        "news_3a46d128ff7c"
       ],
       "status": "developing",
-      "summary": "英国央行三年来首次加息25BP至4%，暗示后续或继续收紧货币政策",
-      "latestProgress": "英国央行表示三年来首次加息不会是最后一次"
+      "summary": "中国央行连续24个月扩大黄金储备，持续增持态势明确",
+      "latestProgress": "央行连续24个月增持黄金，创近两年最大加仓手笔"
+    },
+    {
+      "eventId": "event_ed56fe49bb4e",
+      "clusterVersion": 2,
+      "title": "前三季度广告业头部企事业单位收入同比增长8.5%",
+      "firstSeenAt": "2026-11-07T06:15:29.114Z",
+      "lastSeenAt": "2026-11-08T06:20:06.246Z",
+      "latestItemPublishedAt": "2026-11-07T03:36:40.000Z",
+      "primaryItemId": "news_af344c66cc1e",
+      "evidenceItemIds": [
+        "news_af344c66cc1e",
+        "news_b93272557d99"
+      ],
+      "status": "developing",
+      "summary": "市场监管总局公布前三季度广告业头部企事业单位收入同比增长8.5%",
+      "latestProgress": "市场监管总局披露前三季度广告业头部企事业单位收入同比增长8.5%"
+    },
+    {
+      "eventId": "event_4b636b3bfef9",
+      "clusterVersion": 2,
+      "title": "国家外汇管理局：截至2026年10月末，我国外汇储备规模为34052亿美元",
+      "firstSeenAt": "2026-11-07T06:15:29.114Z",
+      "lastSeenAt": "2026-11-08T06:20:06.246Z",
+      "latestItemPublishedAt": "2026-11-07T02:01:59.000Z",
+      "primaryItemId": "news_65b50ded0083",
+      "evidenceItemIds": [
+        "news_65b50ded0083",
+        "news_3a82f6b860cc"
+      ],
+      "status": "developing",
+      "summary": "国家外汇管理局公布，截至2026年10月末我国外汇储备规模为34052亿美元",
+      "latestProgress": "2026年11月7日，国家外汇管理局公布10月末我国外汇储备规模为34052亿美元"
+    },
+    {
+      "eventId": "event_2d62b41df74b",
+      "clusterVersion": 2,
+      "title": "中期选举对美国医疗政策的影响",
+      "firstSeenAt": "2026-11-02T12:24:31.599Z",
+      "lastSeenAt": "2026-11-08T06:20:06.246Z",
+      "latestItemPublishedAt": "2026-11-07T08:02:48.000Z",
+      "primaryItemId": "news_9d807736a7d5",
+      "evidenceItemIds": [
+        "news_23ad830f1d25",
+        "news_ab4a79d8289d",
+        "news_ab6743a0f133",
+        "news_3305fae90863",
+        "news_9d807736a7d5",
+        "news_dee86752deca"
+      ],
+      "status": "developing",
+      "summary": "美国中期选举后，多名国会议员称将推动撤销不合理关税政策，影响医疗政策走向。",
+      "latestProgress": "2026年11月7日，美国多名国会议员称将推动撤销不合理关税政策。"
+    },
+    {
+      "eventId": "event_72144a048038",
+      "clusterVersion": 2,
+      "title": "报告：2026年我国能源投资总额或达9400亿美元",
+      "firstSeenAt": "2026-11-08T06:20:06.246Z",
+      "lastSeenAt": "2026-11-08T06:20:06.246Z",
+      "latestItemPublishedAt": "2026-11-08T02:56:13.000Z",
+      "primaryItemId": "news_6e61ca2bf036",
+      "evidenceItemIds": [
+        "news_6e61ca2bf036",
+        "news_31896790033a"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_982d1612c59a",
+      "clusterVersion": 2,
+      "title": "日股大跌难挡加息步伐？日本央行前经济学家：12月加息或成定局",
+      "firstSeenAt": "2026-11-06T19:35:32.744Z",
+      "lastSeenAt": "2026-11-07T17:53:03.349Z",
+      "latestItemPublishedAt": "2026-11-06T16:36:37.000Z",
+      "primaryItemId": "news_806744848584",
+      "evidenceItemIds": [
+        "news_b90c0c15da70",
+        "news_806744848584"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
     },
     {
       "eventId": "event_3b81f2b19bbd",
@@ -390,58 +458,6 @@
       "status": "developing",
       "summary": "",
       "latestProgress": ""
-    },
-    {
-      "eventId": "event_ed56fe49bb4e",
-      "clusterVersion": 2,
-      "title": "前三季度广告业头部企事业单位收入同比增长8.5%",
-      "firstSeenAt": "2026-11-07T06:15:29.114Z",
-      "lastSeenAt": "2026-11-07T17:53:03.349Z",
-      "latestItemPublishedAt": "2026-11-07T03:36:40.000Z",
-      "primaryItemId": "news_af344c66cc1e",
-      "evidenceItemIds": [
-        "news_af344c66cc1e",
-        "news_b93272557d99"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_4b636b3bfef9",
-      "clusterVersion": 2,
-      "title": "国家外汇管理局：截至2026年10月末，我国外汇储备规模为34052亿美元",
-      "firstSeenAt": "2026-11-07T06:15:29.114Z",
-      "lastSeenAt": "2026-11-07T17:53:03.349Z",
-      "latestItemPublishedAt": "2026-11-07T02:01:59.000Z",
-      "primaryItemId": "news_65b50ded0083",
-      "evidenceItemIds": [
-        "news_65b50ded0083",
-        "news_3a82f6b860cc"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_2d62b41df74b",
-      "clusterVersion": 2,
-      "title": "中期选举对美国医疗政策的影响",
-      "firstSeenAt": "2026-11-02T12:24:31.599Z",
-      "lastSeenAt": "2026-11-07T17:53:03.349Z",
-      "latestItemPublishedAt": "2026-11-07T08:02:48.000Z",
-      "primaryItemId": "news_9d807736a7d5",
-      "evidenceItemIds": [
-        "news_23ad830f1d25",
-        "news_ab4a79d8289d",
-        "news_ab6743a0f133",
-        "news_3305fae90863",
-        "news_9d807736a7d5",
-        "news_dee86752deca"
-      ],
-      "status": "developing",
-      "summary": "2026年美国中期选举结果将直接影响美国医疗政策后续调整方向，引发行业高度关注",
-      "latestProgress": "2026年11月6日中期选举结果正式落地，美国医疗政策走向成市场关注焦点"
     },
     {
       "eventId": "event_546632f4870c",

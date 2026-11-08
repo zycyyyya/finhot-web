@@ -1,20 +1,18 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-08T15:29:45.163Z",
+  "generatedAt": "2026-11-08T18:05:37.116Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
       "eventId": "event_f101880ef7bc",
       "clusterVersion": 2,
-      "title": "美股科技股重挫后，高盛称AI债务供给压力正在信用市场累积",
+      "title": "美股点金丨一周蒸发超4万亿美元，数据中心恐慌何时结束",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-08T15:29:45.163Z",
-      "latestItemPublishedAt": "2026-11-08T10:20:57.000Z",
-      "primaryItemId": "news_c1e91c501f33",
+      "lastSeenAt": "2026-11-08T18:05:37.116Z",
+      "latestItemPublishedAt": "2026-11-08T14:14:17.000Z",
+      "primaryItemId": "news_4506ade3ade6",
       "evidenceItemIds": [
-        "news_a733460fd4e5",
-        "news_6dd83a8a82e3",
         "news_f6ad3a469c4d",
         "news_57d02b8b056d",
         "news_ed9e442aa6d2",
@@ -62,7 +60,9 @@
         "news_0af1cf880189",
         "news_105662defb47",
         "news_29106a19c555",
-        "news_c1e91c501f33"
+        "news_c1e91c501f33",
+        "news_f95519ea41da",
+        "news_feb3406b0076"
       ],
       "status": "developing",
       "summary": "美股一周蒸发超4万亿美元，数据中心恐慌蔓延，科技股九年来首次比大盘便宜。",
@@ -71,13 +71,12 @@
     {
       "eventId": "event_a3c5d0364922",
       "clusterVersion": 2,
-      "title": "美股大跌：有哪些原因？对A股有何影响？",
+      "title": "机构论后市丨A股在指数层面将迎来量价温和回升的反弹",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-08T15:29:45.163Z",
-      "latestItemPublishedAt": "2026-11-08T13:32:03.000Z",
-      "primaryItemId": "news_71ed20b9426c",
+      "lastSeenAt": "2026-11-08T18:05:37.116Z",
+      "latestItemPublishedAt": "2026-11-08T14:13:33.000Z",
+      "primaryItemId": "news_a8fdfff29dcb",
       "evidenceItemIds": [
-        "news_9ed6ac176634",
         "news_3e9607555bea",
         "news_b7374bd7e7c6",
         "news_0d2e1adbe188",
@@ -126,7 +125,8 @@
         "news_647333564279",
         "news_a8fdfff29dcb",
         "news_9a2beeefef80",
-        "news_671b5f990089"
+        "news_671b5f990089",
+        "news_dd204a0ff51f"
       ],
       "status": "developing",
       "summary": "A股剧烈震荡，险企权益投资面临考验，市场情绪与个股表现分化。",
@@ -137,11 +137,10 @@
       "clusterVersion": 2,
       "title": "港股AI产业链新股密集“破发”，中际旭创基石投资者浮亏超百亿",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-11-08T15:29:45.163Z",
+      "lastSeenAt": "2026-11-08T18:05:37.116Z",
       "latestItemPublishedAt": "2026-11-08T10:27:10.000Z",
       "primaryItemId": "news_df3f7c94f009",
       "evidenceItemIds": [
-        "news_92417e213a51",
         "news_89d278dc2c90",
         "news_75d702cfd4aa",
         "news_e138eb4c13fe",
@@ -190,7 +189,8 @@
         "news_3ff30cf78cbc",
         "news_292841eba207",
         "news_ddd1eaff90e3",
-        "news_df3f7c94f009"
+        "news_df3f7c94f009",
+        "news_52aba9261d28"
       ],
       "status": "developing",
       "summary": "小摩指税费转嫁较预期困难，下调锂电池行业盈利预测，港股相关概念股走低。",
@@ -201,7 +201,7 @@
       "clusterVersion": 2,
       "title": "中国证监会与阿曼金融服务管理局签署《证券期货监管合作谅解备忘录》",
       "firstSeenAt": "2026-11-03T11:57:43.416Z",
-      "lastSeenAt": "2026-11-08T15:29:45.163Z",
+      "lastSeenAt": "2026-11-08T18:05:37.116Z",
       "latestItemPublishedAt": "2026-11-06T12:38:36.000Z",
       "primaryItemId": "news_f0f5113a90ef",
       "evidenceItemIds": [
@@ -221,7 +221,7 @@
       "clusterVersion": 2,
       "title": "美国10月新增就业16.5万，超出预期，美联储12月加息预期升温",
       "firstSeenAt": "2026-11-06T07:06:11.933Z",
-      "lastSeenAt": "2026-11-08T15:29:45.163Z",
+      "lastSeenAt": "2026-11-08T18:05:37.116Z",
       "latestItemPublishedAt": "2026-11-07T00:14:34.000Z",
       "primaryItemId": "news_a5fa068df6c1",
       "evidenceItemIds": [
@@ -244,7 +244,7 @@
       "clusterVersion": 2,
       "title": "中国证监会同意氢氧化锂期货和期权注册",
       "firstSeenAt": "2026-11-06T12:07:36.692Z",
-      "lastSeenAt": "2026-11-08T15:29:45.163Z",
+      "lastSeenAt": "2026-11-08T18:05:37.116Z",
       "latestItemPublishedAt": "2026-11-05T23:28:09.000Z",
       "primaryItemId": "news_0e0e861c68d3",
       "evidenceItemIds": [
@@ -263,7 +263,7 @@
       "clusterVersion": 2,
       "title": "央行连续24个月增持黄金，创近两年最大加仓手笔",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-08T15:29:45.163Z",
+      "lastSeenAt": "2026-11-08T18:05:37.116Z",
       "latestItemPublishedAt": "2026-11-08T05:58:04.000Z",
       "primaryItemId": "news_3a46d128ff7c",
       "evidenceItemIds": [
@@ -327,7 +327,7 @@
       "clusterVersion": 2,
       "title": "报告：2026年我国能源投资总额或达9400亿美元",
       "firstSeenAt": "2026-11-08T06:20:06.246Z",
-      "lastSeenAt": "2026-11-08T15:29:45.163Z",
+      "lastSeenAt": "2026-11-08T18:05:37.116Z",
       "latestItemPublishedAt": "2026-11-08T06:15:30.000Z",
       "primaryItemId": "news_6e61ca2bf036",
       "evidenceItemIds": [
@@ -344,7 +344,7 @@
       "clusterVersion": 2,
       "title": "Anthropic斥资34亿美元采购燃气发电设备，为数据中心供电",
       "firstSeenAt": "2026-11-08T15:29:45.163Z",
-      "lastSeenAt": "2026-11-08T15:29:45.163Z",
+      "lastSeenAt": "2026-11-08T18:05:37.116Z",
       "latestItemPublishedAt": "2026-11-08T12:33:42.000Z",
       "primaryItemId": "news_6e45272d725c",
       "evidenceItemIds": [
@@ -360,7 +360,7 @@
       "clusterVersion": 2,
       "title": "逢低买入还是静待时机？美国银行为芯片股绘制三大情景及精选标的",
       "firstSeenAt": "2026-11-08T15:29:45.163Z",
-      "lastSeenAt": "2026-11-08T15:29:45.163Z",
+      "lastSeenAt": "2026-11-08T18:05:37.116Z",
       "latestItemPublishedAt": "2026-11-08T03:27:01.000Z",
       "primaryItemId": "news_ae075161ff6d",
       "evidenceItemIds": [

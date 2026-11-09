@@ -1,21 +1,18 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-09T06:58:07.451Z",
+  "generatedAt": "2026-11-09T12:55:00.169Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
       "eventId": "event_f101880ef7bc",
       "clusterVersion": 2,
-      "title": "美股踩踏风暴！量化+杠杆ETF一天抛售700亿美元，还有500亿美元卖盘在路上",
+      "title": "动量崩盘！美股历史性抛售之后，反弹还会远吗？",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-09T06:58:07.451Z",
-      "latestItemPublishedAt": "2026-11-08T14:14:17.000Z",
-      "primaryItemId": "news_283e2cf2603f",
+      "lastSeenAt": "2026-11-09T12:55:00.169Z",
+      "latestItemPublishedAt": "2026-11-09T12:17:24.000Z",
+      "primaryItemId": "news_f5e401aea4a1",
       "evidenceItemIds": [
-        "news_51ad14751285",
-        "news_0dbdb701ce8c",
-        "news_961679c4e14d",
         "news_e1be8a2476b9",
         "news_cd928ee322e8",
         "news_eca57c9ded15",
@@ -62,7 +59,10 @@
         "news_7b15e8ec6184",
         "news_fbd52d81ece5",
         "news_f9cf745a0356",
-        "news_f5848b4485db"
+        "news_f5848b4485db",
+        "news_f5e401aea4a1",
+        "news_47419d4d8268",
+        "news_c4ad16cfa6a7"
       ],
       "status": "developing",
       "summary": "量化叠加杠杆ETF抛售引发美股踩踏，单日抛售700亿美元，后续还有500亿美元卖盘待释放。",
@@ -71,14 +71,12 @@
     {
       "eventId": "event_a3c5d0364922",
       "clusterVersion": 2,
-      "title": "A股四大指数集体高开，市场逾4800股上涨",
+      "title": "A股底部构筑完善但反弹待政策资金，东南亚股市普遍回调但政策托底分化，厄尔尼诺下中国种业供给优化---1109宏观脱水",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-09T06:58:07.451Z",
-      "latestItemPublishedAt": "2026-11-09T02:30:30.000Z",
-      "primaryItemId": "news_eee1cd9cc5d7",
+      "lastSeenAt": "2026-11-09T12:55:00.169Z",
+      "latestItemPublishedAt": "2026-11-09T11:42:00.000Z",
+      "primaryItemId": "news_8bb70fdc80ff",
       "evidenceItemIds": [
-        "news_7d1aeafe3b72",
-        "news_ff05a98a208d",
         "news_0493c2e0e322",
         "news_801c473dba23",
         "news_aa63f5c7dd7f",
@@ -126,7 +124,9 @@
         "news_eee1cd9cc5d7",
         "news_84e7046e66f1",
         "news_1f29952c4f02",
-        "news_a1975669ee44"
+        "news_a1975669ee44",
+        "news_8bb70fdc80ff",
+        "news_dd650a1266cd"
       ],
       "status": "developing",
       "summary": "多路资金入场叠加外部扰动缓和，A股反弹行情启动，逾4800股上涨。",
@@ -137,8 +137,8 @@
       "clusterVersion": 2,
       "title": "港股异动 | 麦科医药-B(02335)午后飙升近30% 所有入组参与者完成MT1013的III期临床试验",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-11-09T06:58:07.451Z",
-      "latestItemPublishedAt": "2026-11-08T22:15:51.000Z",
+      "lastSeenAt": "2026-11-09T12:55:00.169Z",
+      "latestItemPublishedAt": "2026-11-09T00:57:33.000Z",
       "primaryItemId": "news_4417dbb7cde3",
       "evidenceItemIds": [
         "news_e138eb4c13fe",
@@ -201,7 +201,7 @@
       "clusterVersion": 2,
       "title": "中国证监会与阿曼金融服务管理局签署《证券期货监管合作谅解备忘录》",
       "firstSeenAt": "2026-11-03T11:57:43.416Z",
-      "lastSeenAt": "2026-11-09T06:58:07.451Z",
+      "lastSeenAt": "2026-11-09T12:55:00.169Z",
       "latestItemPublishedAt": "2026-11-06T12:38:36.000Z",
       "primaryItemId": "news_f0f5113a90ef",
       "evidenceItemIds": [
@@ -221,7 +221,7 @@
       "clusterVersion": 2,
       "title": "美国10月新增就业16.5万，超出预期，美联储12月加息预期升温",
       "firstSeenAt": "2026-11-06T07:06:11.933Z",
-      "lastSeenAt": "2026-11-09T06:58:07.451Z",
+      "lastSeenAt": "2026-11-09T12:55:00.169Z",
       "latestItemPublishedAt": "2026-11-07T00:14:34.000Z",
       "primaryItemId": "news_a5fa068df6c1",
       "evidenceItemIds": [
@@ -242,11 +242,11 @@
     {
       "eventId": "event_a4c277bef24a",
       "clusterVersion": 2,
-      "title": "中国证监会同意葵花籽油期货和期权注册",
+      "title": "中国证监会同意氢氧化锂期货和期权注册",
       "firstSeenAt": "2026-11-06T12:07:36.692Z",
-      "lastSeenAt": "2026-11-09T06:58:07.451Z",
-      "latestItemPublishedAt": "2026-11-06T08:34:32.000Z",
-      "primaryItemId": "news_ea0c0a809eb4",
+      "lastSeenAt": "2026-11-09T12:55:00.169Z",
+      "latestItemPublishedAt": "2026-11-05T23:28:09.000Z",
+      "primaryItemId": "news_0e0e861c68d3",
       "evidenceItemIds": [
         "news_f29e9054dccc",
         "news_52303c0c72da",
@@ -257,6 +257,60 @@
       "status": "developing",
       "summary": "中国证监会同意葵花籽油、氢氧化锂期货和期权注册。",
       "latestProgress": "证监会同日完成两类商品期货期权上市注册审批。"
+    },
+    {
+      "eventId": "event_b7bee533a412",
+      "clusterVersion": 2,
+      "title": "Anthropic斥资34亿美元采购燃气发电设备，为数据中心供电",
+      "firstSeenAt": "2026-11-08T15:29:45.163Z",
+      "lastSeenAt": "2026-11-09T12:55:00.169Z",
+      "latestItemPublishedAt": "2026-11-08T12:33:42.000Z",
+      "primaryItemId": "news_6e45272d725c",
+      "evidenceItemIds": [
+        "news_6e45272d725c",
+        "news_2917631b1bcc",
+        "news_b045e3896559"
+      ],
+      "status": "developing",
+      "summary": "Anthropic斥资34亿美元采购燃气发电设备，为数据中心供电",
+      "latestProgress": "11月8日Anthropic斥资34亿美元采购燃气发电设备为数据中心供电的交易落地"
+    },
+    {
+      "eventId": "event_2d62b41df74b",
+      "clusterVersion": 2,
+      "title": "民主党\"蓝潮\"后美国政策走向：博弈制衡为主，激进转向概率低",
+      "firstSeenAt": "2026-11-02T12:24:31.599Z",
+      "lastSeenAt": "2026-11-09T12:55:00.169Z",
+      "latestItemPublishedAt": "2026-11-09T03:12:05.000Z",
+      "primaryItemId": "news_5691a46e32b5",
+      "evidenceItemIds": [
+        "news_23ad830f1d25",
+        "news_ab4a79d8289d",
+        "news_ab6743a0f133",
+        "news_3305fae90863",
+        "news_9d807736a7d5",
+        "news_dee86752deca",
+        "news_5691a46e32b5"
+      ],
+      "status": "developing",
+      "summary": "民主党“蓝潮”后，美国政策走向以博弈制衡为主，激进转向概率低。",
+      "latestProgress": "最新研判指出，民主党“蓝潮”后美国政策仍以博弈制衡为主，激进转向概率低。"
+    },
+    {
+      "eventId": "event_8a9240dbe8b5",
+      "clusterVersion": 2,
+      "title": "财联社11月9日电，罗森布拉特证券将Coreweave的目标价从250美元下调至160美元。",
+      "firstSeenAt": "2026-11-09T12:55:00.169Z",
+      "lastSeenAt": "2026-11-09T12:55:00.169Z",
+      "latestItemPublishedAt": "2026-11-09T12:10:25.000Z",
+      "primaryItemId": "news_eca9a1dd6e6b",
+      "evidenceItemIds": [
+        "news_eca9a1dd6e6b",
+        "news_70dbf9954f89"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
     },
     {
       "eventId": "event_2cf716748ce1",
@@ -340,23 +394,6 @@
       "latestProgress": "最新报道称该能源投资规模位列全球首位"
     },
     {
-      "eventId": "event_b7bee533a412",
-      "clusterVersion": 2,
-      "title": "Anthropic斥资34亿美元采购燃气发电设备，为数据中心供电",
-      "firstSeenAt": "2026-11-08T15:29:45.163Z",
-      "lastSeenAt": "2026-11-09T06:58:07.451Z",
-      "latestItemPublishedAt": "2026-11-08T12:33:42.000Z",
-      "primaryItemId": "news_6e45272d725c",
-      "evidenceItemIds": [
-        "news_6e45272d725c",
-        "news_2917631b1bcc",
-        "news_b045e3896559"
-      ],
-      "status": "developing",
-      "summary": "Anthropic斥资34亿美元采购燃气发电设备，为数据中心供电",
-      "latestProgress": "11月8日Anthropic斥资34亿美元采购燃气发电设备为数据中心供电的交易落地"
-    },
-    {
       "eventId": "event_4053be76b710",
       "clusterVersion": 2,
       "title": "逢低买入还是静待时机？美国银行为芯片股绘制三大情景及精选标的",
@@ -371,27 +408,6 @@
       "status": "developing",
       "summary": "美国银行针对芯片股绘制三大情景及精选标的，探讨逢低买入还是静待时机",
       "latestProgress": "美国银行发布芯片股三大情景分析及对应标的，提示择时投资"
-    },
-    {
-      "eventId": "event_2d62b41df74b",
-      "clusterVersion": 2,
-      "title": "民主党\"蓝潮\"后美国政策走向：博弈制衡为主，激进转向概率低",
-      "firstSeenAt": "2026-11-02T12:24:31.599Z",
-      "lastSeenAt": "2026-11-09T06:58:07.451Z",
-      "latestItemPublishedAt": "2026-11-09T03:12:05.000Z",
-      "primaryItemId": "news_5691a46e32b5",
-      "evidenceItemIds": [
-        "news_23ad830f1d25",
-        "news_ab4a79d8289d",
-        "news_ab6743a0f133",
-        "news_3305fae90863",
-        "news_9d807736a7d5",
-        "news_dee86752deca",
-        "news_5691a46e32b5"
-      ],
-      "status": "developing",
-      "summary": "民主党“蓝潮”后，美国政策走向以博弈制衡为主，激进转向概率低。",
-      "latestProgress": "最新研判指出，民主党“蓝潮”后美国政策仍以博弈制衡为主，激进转向概率低。"
     },
     {
       "eventId": "event_b66e85c0f6de",

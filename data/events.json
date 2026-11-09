@@ -1,22 +1,18 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-08T18:05:37.116Z",
+  "generatedAt": "2026-11-09T06:58:07.451Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
       "eventId": "event_f101880ef7bc",
       "clusterVersion": 2,
-      "title": "美股点金丨一周蒸发超4万亿美元，数据中心恐慌何时结束",
+      "title": "美股踩踏风暴！量化+杠杆ETF一天抛售700亿美元，还有500亿美元卖盘在路上",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-08T18:05:37.116Z",
+      "lastSeenAt": "2026-11-09T06:58:07.451Z",
       "latestItemPublishedAt": "2026-11-08T14:14:17.000Z",
-      "primaryItemId": "news_4506ade3ade6",
+      "primaryItemId": "news_283e2cf2603f",
       "evidenceItemIds": [
-        "news_f6ad3a469c4d",
-        "news_57d02b8b056d",
-        "news_ed9e442aa6d2",
-        "news_e65cbce01c12",
         "news_51ad14751285",
         "news_0dbdb701ce8c",
         "news_961679c4e14d",
@@ -62,25 +58,25 @@
         "news_29106a19c555",
         "news_c1e91c501f33",
         "news_f95519ea41da",
-        "news_feb3406b0076"
+        "news_feb3406b0076",
+        "news_7b15e8ec6184",
+        "news_fbd52d81ece5",
+        "news_f9cf745a0356",
+        "news_f5848b4485db"
       ],
       "status": "developing",
-      "summary": "美股一周蒸发超4万亿美元，数据中心恐慌蔓延，科技股九年来首次比大盘便宜。",
-      "latestProgress": "美股科技股九年来首次迈入“比大盘便宜”时代。"
+      "summary": "量化叠加杠杆ETF抛售引发美股踩踏，单日抛售700亿美元，后续还有500亿美元卖盘待释放。",
+      "latestProgress": "2026年11月9日，黄仁勋承认婚外情，英伟达美股夜盘大跌。"
     },
     {
       "eventId": "event_a3c5d0364922",
       "clusterVersion": 2,
-      "title": "机构论后市丨A股在指数层面将迎来量价温和回升的反弹",
+      "title": "A股四大指数集体高开，市场逾4800股上涨",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-08T18:05:37.116Z",
-      "latestItemPublishedAt": "2026-11-08T14:13:33.000Z",
-      "primaryItemId": "news_a8fdfff29dcb",
+      "lastSeenAt": "2026-11-09T06:58:07.451Z",
+      "latestItemPublishedAt": "2026-11-09T02:30:30.000Z",
+      "primaryItemId": "news_eee1cd9cc5d7",
       "evidenceItemIds": [
-        "news_3e9607555bea",
-        "news_b7374bd7e7c6",
-        "news_0d2e1adbe188",
-        "news_adbda4541877",
         "news_7d1aeafe3b72",
         "news_ff05a98a208d",
         "news_0493c2e0e322",
@@ -126,23 +122,25 @@
         "news_a8fdfff29dcb",
         "news_9a2beeefef80",
         "news_671b5f990089",
-        "news_dd204a0ff51f"
+        "news_dd204a0ff51f",
+        "news_eee1cd9cc5d7",
+        "news_84e7046e66f1",
+        "news_1f29952c4f02",
+        "news_a1975669ee44"
       ],
       "status": "developing",
-      "summary": "A股剧烈震荡，险企权益投资面临考验，市场情绪与个股表现分化。",
-      "latestProgress": "大摩A股情绪指数突破过度悲观阈值，预示一到两月内市场或反弹。"
+      "summary": "多路资金入场叠加外部扰动缓和，A股反弹行情启动，逾4800股上涨。",
+      "latestProgress": "11月9日A股三大股指早盘齐涨，创业板涨超1%，物理AI爆发，恒指冲高回落。"
     },
     {
       "eventId": "event_c68d651d4ff9",
       "clusterVersion": 2,
-      "title": "港股AI产业链新股密集“破发”，中际旭创基石投资者浮亏超百亿",
+      "title": "港股异动 | 麦科医药-B(02335)午后飙升近30% 所有入组参与者完成MT1013的III期临床试验",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-11-08T18:05:37.116Z",
-      "latestItemPublishedAt": "2026-11-08T10:27:10.000Z",
-      "primaryItemId": "news_df3f7c94f009",
+      "lastSeenAt": "2026-11-09T06:58:07.451Z",
+      "latestItemPublishedAt": "2026-11-08T22:15:51.000Z",
+      "primaryItemId": "news_4417dbb7cde3",
       "evidenceItemIds": [
-        "news_89d278dc2c90",
-        "news_75d702cfd4aa",
         "news_e138eb4c13fe",
         "news_3a7ac76a5722",
         "news_8ecce7401f2c",
@@ -190,18 +188,20 @@
         "news_292841eba207",
         "news_ddd1eaff90e3",
         "news_df3f7c94f009",
-        "news_52aba9261d28"
+        "news_52aba9261d28",
+        "news_91b3c403d192",
+        "news_4417dbb7cde3"
       ],
       "status": "developing",
-      "summary": "小摩指税费转嫁较预期困难，下调锂电池行业盈利预测，港股相关概念股走低。",
-      "latestProgress": "2026年11月6日港股恒指反弹受阻缩量，AI监管叙事持续扰动市场。"
+      "summary": "麦科医药-B因MT1013 III期临床完成全部入组，午后股价飙升近30%",
+      "latestProgress": "本周港股远信储能等新股将集中挂牌，AI产业链迎多重催化"
     },
     {
       "eventId": "event_33f311e54d32",
       "clusterVersion": 2,
       "title": "中国证监会与阿曼金融服务管理局签署《证券期货监管合作谅解备忘录》",
       "firstSeenAt": "2026-11-03T11:57:43.416Z",
-      "lastSeenAt": "2026-11-08T18:05:37.116Z",
+      "lastSeenAt": "2026-11-09T06:58:07.451Z",
       "latestItemPublishedAt": "2026-11-06T12:38:36.000Z",
       "primaryItemId": "news_f0f5113a90ef",
       "evidenceItemIds": [
@@ -213,15 +213,15 @@
         "news_cb7cf9243d75"
       ],
       "status": "developing",
-      "summary": "中国证监会与阿曼金融服务管理局签署《证券期货监管合作谅解备忘录》，加强监管协作。",
-      "latestProgress": "双方已完成《证券期货监管合作谅解备忘录》签署，将推进相关监管合作落地。"
+      "summary": "中国证监会与阿曼金融服务管理局签署证券期货监管合作谅解备忘录",
+      "latestProgress": "2026年11月5日双方正式签署该合作备忘录"
     },
     {
       "eventId": "event_9e320dba578d",
       "clusterVersion": 2,
       "title": "美国10月新增就业16.5万，超出预期，美联储12月加息预期升温",
       "firstSeenAt": "2026-11-06T07:06:11.933Z",
-      "lastSeenAt": "2026-11-08T18:05:37.116Z",
+      "lastSeenAt": "2026-11-09T06:58:07.451Z",
       "latestItemPublishedAt": "2026-11-07T00:14:34.000Z",
       "primaryItemId": "news_a5fa068df6c1",
       "evidenceItemIds": [
@@ -237,16 +237,16 @@
       ],
       "status": "developing",
       "summary": "美国10月新增就业16.5万超预期，美联储12月加息预期升温",
-      "latestProgress": "美联储戴利仍倾向进一步收紧政策，12月加息押注升至近八成"
+      "latestProgress": "最新报道称美国10月就业数据超预期，美联储12月加息预期升温"
     },
     {
       "eventId": "event_a4c277bef24a",
       "clusterVersion": 2,
-      "title": "中国证监会同意氢氧化锂期货和期权注册",
+      "title": "中国证监会同意葵花籽油期货和期权注册",
       "firstSeenAt": "2026-11-06T12:07:36.692Z",
-      "lastSeenAt": "2026-11-08T18:05:37.116Z",
-      "latestItemPublishedAt": "2026-11-05T23:28:09.000Z",
-      "primaryItemId": "news_0e0e861c68d3",
+      "lastSeenAt": "2026-11-09T06:58:07.451Z",
+      "latestItemPublishedAt": "2026-11-06T08:34:32.000Z",
+      "primaryItemId": "news_ea0c0a809eb4",
       "evidenceItemIds": [
         "news_f29e9054dccc",
         "news_52303c0c72da",
@@ -255,15 +255,15 @@
         "news_63e9f32c1023"
       ],
       "status": "developing",
-      "summary": "2026年11月5日，中国证监会同意氢氧化锂、葵花籽油期货和期权注册。",
-      "latestProgress": "2026年11月5日，氢氧化锂期货和期权注册已获中国证监会同意。"
+      "summary": "中国证监会同意葵花籽油、氢氧化锂期货和期权注册。",
+      "latestProgress": "证监会同日完成两类商品期货期权上市注册审批。"
     },
     {
       "eventId": "event_2cf716748ce1",
       "clusterVersion": 2,
       "title": "央行连续24个月增持黄金，创近两年最大加仓手笔",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-08T18:05:37.116Z",
+      "lastSeenAt": "2026-11-09T06:58:07.451Z",
       "latestItemPublishedAt": "2026-11-08T05:58:04.000Z",
       "primaryItemId": "news_3a46d128ff7c",
       "evidenceItemIds": [
@@ -319,15 +319,15 @@
         "news_b149998b6c34"
       ],
       "status": "developing",
-      "summary": "中国央行连续24个月扩大黄金储备，持续增持态势明确",
-      "latestProgress": "央行连续24个月增持黄金，创近两年最大加仓手笔"
+      "summary": "央行连续24个月增持黄金，本轮加仓规模创近两年新高。",
+      "latestProgress": "2026年11月央行落地本轮黄金增持，加仓规模为近两年最大。"
     },
     {
       "eventId": "event_72144a048038",
       "clusterVersion": 2,
       "title": "报告：2026年我国能源投资总额或达9400亿美元",
       "firstSeenAt": "2026-11-08T06:20:06.246Z",
-      "lastSeenAt": "2026-11-08T18:05:37.116Z",
+      "lastSeenAt": "2026-11-09T06:58:07.451Z",
       "latestItemPublishedAt": "2026-11-08T06:15:30.000Z",
       "primaryItemId": "news_6e61ca2bf036",
       "evidenceItemIds": [
@@ -336,36 +336,138 @@
         "news_9e53ebdd5551"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "报告预测2026年我国能源投资总额将达9400亿美元，居全球第一",
+      "latestProgress": "最新报道称该能源投资规模位列全球首位"
     },
     {
       "eventId": "event_b7bee533a412",
       "clusterVersion": 2,
       "title": "Anthropic斥资34亿美元采购燃气发电设备，为数据中心供电",
       "firstSeenAt": "2026-11-08T15:29:45.163Z",
-      "lastSeenAt": "2026-11-08T18:05:37.116Z",
+      "lastSeenAt": "2026-11-09T06:58:07.451Z",
       "latestItemPublishedAt": "2026-11-08T12:33:42.000Z",
       "primaryItemId": "news_6e45272d725c",
       "evidenceItemIds": [
         "news_6e45272d725c",
-        "news_2917631b1bcc"
+        "news_2917631b1bcc",
+        "news_b045e3896559"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "Anthropic斥资34亿美元采购燃气发电设备，为数据中心供电",
+      "latestProgress": "11月8日Anthropic斥资34亿美元采购燃气发电设备为数据中心供电的交易落地"
     },
     {
       "eventId": "event_4053be76b710",
       "clusterVersion": 2,
       "title": "逢低买入还是静待时机？美国银行为芯片股绘制三大情景及精选标的",
       "firstSeenAt": "2026-11-08T15:29:45.163Z",
-      "lastSeenAt": "2026-11-08T18:05:37.116Z",
+      "lastSeenAt": "2026-11-09T06:58:07.451Z",
       "latestItemPublishedAt": "2026-11-08T03:27:01.000Z",
       "primaryItemId": "news_ae075161ff6d",
       "evidenceItemIds": [
         "news_ae075161ff6d",
         "news_3aea414337e7"
+      ],
+      "status": "developing",
+      "summary": "美国银行针对芯片股绘制三大情景及精选标的，探讨逢低买入还是静待时机",
+      "latestProgress": "美国银行发布芯片股三大情景分析及对应标的，提示择时投资"
+    },
+    {
+      "eventId": "event_2d62b41df74b",
+      "clusterVersion": 2,
+      "title": "民主党\"蓝潮\"后美国政策走向：博弈制衡为主，激进转向概率低",
+      "firstSeenAt": "2026-11-02T12:24:31.599Z",
+      "lastSeenAt": "2026-11-09T06:58:07.451Z",
+      "latestItemPublishedAt": "2026-11-09T03:12:05.000Z",
+      "primaryItemId": "news_5691a46e32b5",
+      "evidenceItemIds": [
+        "news_23ad830f1d25",
+        "news_ab4a79d8289d",
+        "news_ab6743a0f133",
+        "news_3305fae90863",
+        "news_9d807736a7d5",
+        "news_dee86752deca",
+        "news_5691a46e32b5"
+      ],
+      "status": "developing",
+      "summary": "民主党“蓝潮”后，美国政策走向以博弈制衡为主，激进转向概率低。",
+      "latestProgress": "最新研判指出，民主党“蓝潮”后美国政策仍以博弈制衡为主，激进转向概率低。"
+    },
+    {
+      "eventId": "event_b66e85c0f6de",
+      "clusterVersion": 2,
+      "title": "中国10月CPI同比 0.7%，前值 0.9%。中国10月PPI同比 5.7%，前值 5%",
+      "firstSeenAt": "2026-11-09T06:58:07.451Z",
+      "lastSeenAt": "2026-11-09T06:58:07.451Z",
+      "latestItemPublishedAt": "2026-11-09T01:30:36.000Z",
+      "primaryItemId": "news_06dba94e3be0",
+      "evidenceItemIds": [
+        "news_06dba94e3be0",
+        "news_f0d5a2026e3a"
+      ],
+      "status": "developing",
+      "summary": "10月中国CPI同比上涨0.7%涨幅回落，PPI同比上涨5.7%涨幅扩大",
+      "latestProgress": "最新数据显示10月CPI同比0.7%较前值回落，PPI同比5.7%较前值扩大"
+    },
+    {
+      "eventId": "event_4f97d9ae17f4",
+      "clusterVersion": 2,
+      "title": "国家统计局：10月份CPI同比继续上涨 PPI环比涨幅回落",
+      "firstSeenAt": "2026-11-09T06:58:07.451Z",
+      "lastSeenAt": "2026-11-09T06:58:07.451Z",
+      "latestItemPublishedAt": "2026-11-09T01:38:09.000Z",
+      "primaryItemId": "news_aba1166fec24",
+      "evidenceItemIds": [
+        "news_aba1166fec24",
+        "news_477252b99072"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_1045475346dd",
+      "clusterVersion": 2,
+      "title": "下周重磅日程：中美CPI、俄美乌三方会谈、CoreWeave财报与Anthropic路演",
+      "firstSeenAt": "2026-11-09T06:58:07.451Z",
+      "lastSeenAt": "2026-11-09T06:58:07.451Z",
+      "latestItemPublishedAt": "2026-11-08T13:50:09.000Z",
+      "primaryItemId": "news_e641fbe72fc4",
+      "evidenceItemIds": [
+        "news_e641fbe72fc4",
+        "news_883fca426c95"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_28bfd5845116",
+      "clusterVersion": 2,
+      "title": "世运电路：拟2亿元至3亿元回购股份用于员工持股计划或股权激励",
+      "firstSeenAt": "2026-11-09T06:58:07.451Z",
+      "lastSeenAt": "2026-11-09T06:58:07.451Z",
+      "latestItemPublishedAt": "2026-11-08T09:02:00.000Z",
+      "primaryItemId": "news_1623c105e7fa",
+      "evidenceItemIds": [
+        "news_1623c105e7fa",
+        "news_8a450b0b4d1c"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_cc143d188e8d",
+      "clusterVersion": 2,
+      "title": "英伟达大劫案！超7600万元AI芯片和硬件离奇失踪",
+      "firstSeenAt": "2026-11-09T06:58:07.451Z",
+      "lastSeenAt": "2026-11-09T06:58:07.451Z",
+      "latestItemPublishedAt": "2026-11-08T07:40:45.000Z",
+      "primaryItemId": "news_830ce9f588e5",
+      "evidenceItemIds": [
+        "news_830ce9f588e5",
+        "news_679ccaca3deb"
       ],
       "status": "developing",
       "summary": "",
@@ -387,26 +489,6 @@
       "status": "developing",
       "summary": "国家发改委再次召开民企座谈会，研讨明年支持民企发展的政策举措。",
       "latestProgress": "2026年11月7日，国家发改委召开民企座谈会研究明年相关政策举措。"
-    },
-    {
-      "eventId": "event_2d62b41df74b",
-      "clusterVersion": 2,
-      "title": "中期选举对美国医疗政策的影响",
-      "firstSeenAt": "2026-11-02T12:24:31.599Z",
-      "lastSeenAt": "2026-11-08T11:21:43.216Z",
-      "latestItemPublishedAt": "2026-11-07T08:02:48.000Z",
-      "primaryItemId": "news_9d807736a7d5",
-      "evidenceItemIds": [
-        "news_23ad830f1d25",
-        "news_ab4a79d8289d",
-        "news_ab6743a0f133",
-        "news_3305fae90863",
-        "news_9d807736a7d5",
-        "news_dee86752deca"
-      ],
-      "status": "developing",
-      "summary": "美国中期选举后，多名国会议员称将推动撤销不合理关税政策，影响医疗政策走向。",
-      "latestProgress": "2026年11月7日，美国多名国会议员称将推动撤销不合理关税政策。"
     },
     {
       "eventId": "event_25919815bffc",

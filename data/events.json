@@ -1,19 +1,18 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-10T07:32:18.070Z",
+  "generatedAt": "2026-11-10T12:38:07.665Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
       "eventId": "event_f101880ef7bc",
       "clusterVersion": 2,
-      "title": "稳市组合拳密集发力；民主党“蓝色浪潮”冲击美股｜一周热点回顾",
+      "title": "富达：美股AI估值修正传导至亚太市场 高杠杆资金流动引发震荡",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-10T07:32:18.070Z",
-      "latestItemPublishedAt": "2026-11-10T03:11:25.000Z",
-      "primaryItemId": "news_5356420b62f7",
+      "lastSeenAt": "2026-11-10T12:38:07.665Z",
+      "latestItemPublishedAt": "2026-11-10T12:18:49.000Z",
+      "primaryItemId": "news_10973d1b2596",
       "evidenceItemIds": [
-        "news_d69a133f3c6b",
         "news_a89ad43e37d4",
         "news_c3c6ab72241f",
         "news_86077c1c6ffb",
@@ -62,7 +61,8 @@
         "news_c1f0d1eb0c80",
         "news_ab127bb09021",
         "news_2d6e7b6bf9c9",
-        "news_0fe9f59faf1c"
+        "news_0fe9f59faf1c",
+        "news_10973d1b2596"
       ],
       "status": "developing",
       "summary": "美股经历抛售后机构普遍判断回调接近尾声，稳市组合拳密集发力",
@@ -73,13 +73,10 @@
       "clusterVersion": 2,
       "title": "A股三大指数集体高开，创业板涨超2%，AI硬件反弹、“易中天”拉升",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-10T07:32:18.070Z",
-      "latestItemPublishedAt": "2026-11-10T06:20:03.000Z",
+      "lastSeenAt": "2026-11-10T12:38:07.665Z",
+      "latestItemPublishedAt": "2026-11-10T11:01:48.000Z",
       "primaryItemId": "news_bf44564be414",
       "evidenceItemIds": [
-        "news_39134a7f3b4a",
-        "news_0dd415050f65",
-        "news_13e15eb68940",
         "news_59aa9172b6d0",
         "news_ae6d9e5d2c8a",
         "news_f2cfa640556a",
@@ -126,7 +123,10 @@
         "news_87e3f9f8c5d8",
         "news_f511477e7911",
         "news_6f58e99e8fd5",
-        "news_080becc9bd98"
+        "news_080becc9bd98",
+        "news_acc8685deb75",
+        "news_6d9adf87b173",
+        "news_b89ae6c29023"
       ],
       "status": "developing",
       "summary": "2026年11月10日A股三大指数集体高开，创业板涨超2%，AI硬件、“易中天”拉升",
@@ -137,11 +137,10 @@
       "clusterVersion": 2,
       "title": "港股异动 | 富智康集团(02038)再涨超8% 三季度纯利同比增近53% 预计全年度纯利显著改善",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-11-10T07:32:18.070Z",
-      "latestItemPublishedAt": "2026-11-10T07:07:35.000Z",
+      "lastSeenAt": "2026-11-10T12:38:07.665Z",
+      "latestItemPublishedAt": "2026-11-10T08:46:39.000Z",
       "primaryItemId": "news_3b9437463324",
       "evidenceItemIds": [
-        "news_ff31f7c687cd",
         "news_94741aa51393",
         "news_f21d06cc607e",
         "news_c0b1cae99a54",
@@ -190,7 +189,8 @@
         "news_3b9437463324",
         "news_ab6068272b05",
         "news_1e8710daf2ee",
-        "news_1da331c36ae8"
+        "news_1da331c36ae8",
+        "news_6160549fa471"
       ],
       "status": "developing",
       "summary": "麦科医药-B因MT1013 III期临床完成全部入组，午后股价飙升近30%",
@@ -199,11 +199,11 @@
     {
       "eventId": "event_9e320dba578d",
       "clusterVersion": 2,
-      "title": "美联储12月会加息吗？今晚CPI一锤定音！",
+      "title": "美联储理事沃勒支持12月加息，并表示对加息50个基点持开放态度",
       "firstSeenAt": "2026-11-06T07:06:11.933Z",
-      "lastSeenAt": "2026-11-10T07:32:18.070Z",
-      "latestItemPublishedAt": "2026-11-10T07:10:22.000Z",
-      "primaryItemId": "news_b884e99b0703",
+      "lastSeenAt": "2026-11-10T12:38:07.665Z",
+      "latestItemPublishedAt": "2026-11-10T10:53:31.000Z",
+      "primaryItemId": "news_90198d6025fa",
       "evidenceItemIds": [
         "news_e3dfc68073f5",
         "news_db2f75a6b4f0",
@@ -216,7 +216,11 @@
         "news_d4983c9bef70",
         "news_45c0611cd29f",
         "news_b884e99b0703",
-        "news_ebd814e31aed"
+        "news_ebd814e31aed",
+        "news_90198d6025fa",
+        "news_08e1c2a52263",
+        "news_cbf584081e05",
+        "news_f20e6a7b2b2b"
       ],
       "status": "developing",
       "summary": "美国10月新增就业16.5万超预期，美联储12月加息预期升温",
@@ -227,7 +231,7 @@
       "clusterVersion": 2,
       "title": "中国证监会同意氢氧化锂期货和期权注册",
       "firstSeenAt": "2026-11-06T12:07:36.692Z",
-      "lastSeenAt": "2026-11-10T07:32:18.070Z",
+      "lastSeenAt": "2026-11-10T12:38:07.665Z",
       "latestItemPublishedAt": "2026-11-05T23:28:09.000Z",
       "primaryItemId": "news_0e0e861c68d3",
       "evidenceItemIds": [
@@ -240,6 +244,95 @@
       "status": "developing",
       "summary": "中国证监会同意葵花籽油、氢氧化锂期货和期权注册。",
       "latestProgress": "证监会同日完成两类商品期货期权上市注册审批。"
+    },
+    {
+      "eventId": "event_25919815bffc",
+      "clusterVersion": 2,
+      "title": "财联社11月10日电，欧洲央行管委穆兰表示，若诺特或德科斯接任欧洲央行行长，预计欧洲央行将保持政策连续性。",
+      "firstSeenAt": "2026-11-04T16:27:29.182Z",
+      "lastSeenAt": "2026-11-10T12:38:07.665Z",
+      "latestItemPublishedAt": "2026-11-10T07:06:06.000Z",
+      "primaryItemId": "news_1a38cbd8efe1",
+      "evidenceItemIds": [
+        "news_23cf3dbf1721",
+        "news_9721abeadc67",
+        "news_e13d065215af",
+        "news_b28f88258127",
+        "news_e76b7c02aff5",
+        "news_9b9cf3547033",
+        "news_fd90017fc9ed",
+        "news_1a38cbd8efe1"
+      ],
+      "status": "developing",
+      "summary": "欧洲央行拟审查银行数据中心贷款，应对AI信贷风险",
+      "latestProgress": "欧洲央行考虑审查银行对数据中心贷款，评估AI相关风险"
+    },
+    {
+      "eventId": "event_1c858f7b5b9d",
+      "clusterVersion": 2,
+      "title": "美国劳工统计局将不公布10月CPI同比数据 受去年政府停摆影响",
+      "firstSeenAt": "2026-11-10T12:38:07.665Z",
+      "lastSeenAt": "2026-11-10T12:38:07.665Z",
+      "latestItemPublishedAt": "2026-11-10T11:25:36.000Z",
+      "primaryItemId": "news_ad42f0762375",
+      "evidenceItemIds": [
+        "news_ad42f0762375",
+        "news_d54003554018"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_dabc8e14a556",
+      "clusterVersion": 2,
+      "title": "华为新型存储系统即将启动试商用，温冷数据存储成为新战场",
+      "firstSeenAt": "2026-11-10T12:38:07.665Z",
+      "lastSeenAt": "2026-11-10T12:38:07.665Z",
+      "latestItemPublishedAt": "2026-11-10T12:26:24.000Z",
+      "primaryItemId": "news_a15e6f6d7cf3",
+      "evidenceItemIds": [
+        "news_a15e6f6d7cf3",
+        "news_8ba8004c9b55"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_b6e9763f96c7",
+      "clusterVersion": 2,
+      "title": "WTO高级经济学家鲁比诺娃：AI赋能型商品需求表现强劲，增速持续加快",
+      "firstSeenAt": "2026-11-10T12:38:07.665Z",
+      "lastSeenAt": "2026-11-10T12:38:07.665Z",
+      "latestItemPublishedAt": "2026-11-10T09:08:27.000Z",
+      "primaryItemId": "news_a11bd8e3547a",
+      "evidenceItemIds": [
+        "news_a11bd8e3547a",
+        "news_f8a07d9e829e"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_491012f17c2a",
+      "clusterVersion": 2,
+      "title": "财联社11月10日电，纳斯达克100ETF招商(159659)将于2026年11月11日开市起至当日10:30停牌。",
+      "firstSeenAt": "2026-11-10T12:38:07.665Z",
+      "lastSeenAt": "2026-11-10T12:38:07.665Z",
+      "latestItemPublishedAt": "2026-11-10T11:15:29.000Z",
+      "primaryItemId": "news_a87c4f85b8e0",
+      "evidenceItemIds": [
+        "news_a87c4f85b8e0",
+        "news_aa5a07b50e22",
+        "news_ad6c498e372a",
+        "news_e6b3877a7892",
+        "news_3429c79d7fd8"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
     },
     {
       "eventId": "event_8a9240dbe8b5",
@@ -256,28 +349,6 @@
       "status": "developing",
       "summary": "",
       "latestProgress": ""
-    },
-    {
-      "eventId": "event_25919815bffc",
-      "clusterVersion": 2,
-      "title": "财联社11月10日电，欧洲央行管委穆兰表示，若诺特或德科斯接任欧洲央行行长，预计欧洲央行将保持政策连续性。",
-      "firstSeenAt": "2026-11-04T16:27:29.182Z",
-      "lastSeenAt": "2026-11-10T07:32:18.070Z",
-      "latestItemPublishedAt": "2026-11-10T07:06:06.000Z",
-      "primaryItemId": "news_1a38cbd8efe1",
-      "evidenceItemIds": [
-        "news_23cf3dbf1721",
-        "news_9721abeadc67",
-        "news_e13d065215af",
-        "news_b28f88258127",
-        "news_e76b7c02aff5",
-        "news_9b9cf3547033",
-        "news_fd90017fc9ed",
-        "news_1a38cbd8efe1"
-      ],
-      "status": "developing",
-      "summary": "欧洲央行拟审查银行数据中心贷款，应对AI信贷风险",
-      "latestProgress": "欧洲央行考虑审查银行对数据中心贷款，评估AI相关风险"
     },
     {
       "eventId": "event_546632f4870c",

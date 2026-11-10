@@ -1,21 +1,18 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-09T22:34:07.812Z",
+  "generatedAt": "2026-11-10T07:32:18.070Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
       "eventId": "event_f101880ef7bc",
       "clusterVersion": 2,
-      "title": "动量崩盘！美股历史性抛售之后，反弹还会远吗？",
+      "title": "稳市组合拳密集发力；民主党“蓝色浪潮”冲击美股｜一周热点回顾",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-09T22:34:07.812Z",
-      "latestItemPublishedAt": "2026-11-09T22:12:50.000Z",
-      "primaryItemId": "news_f5e401aea4a1",
+      "lastSeenAt": "2026-11-10T07:32:18.070Z",
+      "latestItemPublishedAt": "2026-11-10T03:11:25.000Z",
+      "primaryItemId": "news_5356420b62f7",
       "evidenceItemIds": [
-        "news_47a33c470165",
-        "news_11e3d7419867",
-        "news_3b9e5ace7928",
         "news_d69a133f3c6b",
         "news_a89ad43e37d4",
         "news_c3c6ab72241f",
@@ -62,26 +59,24 @@
         "news_c4ad16cfa6a7",
         "news_a74d152cc3fc",
         "news_2b7bfab73f5c",
-        "news_c1f0d1eb0c80"
+        "news_c1f0d1eb0c80",
+        "news_ab127bb09021",
+        "news_2d6e7b6bf9c9",
+        "news_0fe9f59faf1c"
       ],
       "status": "developing",
-      "summary": "量化叠加杠杆ETF抛售引发美股踩踏，单日抛售700亿美元，后续还有500亿美元卖盘待释放。",
-      "latestProgress": "2026年11月9日，黄仁勋承认婚外情，英伟达美股夜盘大跌。"
+      "summary": "美股经历抛售后机构普遍判断回调接近尾声，稳市组合拳密集发力",
+      "latestProgress": "11月10日华尔街三巨头齐发声称美股回调即将结束，光通信股受提振上涨"
     },
     {
       "eventId": "event_a3c5d0364922",
       "clusterVersion": 2,
-      "title": "A股底部构筑完善但反弹待政策资金，东南亚股市普遍回调但政策托底分化，厄尔尼诺下中国种业供给优化---1109宏观脱水",
+      "title": "A股三大指数集体高开，创业板涨超2%，AI硬件反弹、“易中天”拉升",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-09T22:34:07.812Z",
-      "latestItemPublishedAt": "2026-11-09T11:42:00.000Z",
-      "primaryItemId": "news_8bb70fdc80ff",
+      "lastSeenAt": "2026-11-10T07:32:18.070Z",
+      "latestItemPublishedAt": "2026-11-10T06:20:03.000Z",
+      "primaryItemId": "news_bf44564be414",
       "evidenceItemIds": [
-        "news_801c473dba23",
-        "news_aa63f5c7dd7f",
-        "news_125dcece1d31",
-        "news_79d96f1447a2",
-        "news_22b876741753",
         "news_39134a7f3b4a",
         "news_0dd415050f65",
         "news_13e15eb68940",
@@ -126,25 +121,26 @@
         "news_a1975669ee44",
         "news_8bb70fdc80ff",
         "news_dd650a1266cd",
-        "news_378aed5375cd"
+        "news_378aed5375cd",
+        "news_bf44564be414",
+        "news_87e3f9f8c5d8",
+        "news_f511477e7911",
+        "news_6f58e99e8fd5",
+        "news_080becc9bd98"
       ],
       "status": "developing",
-      "summary": "多路资金入场叠加外部扰动缓和，A股反弹行情启动，逾4800股上涨。",
-      "latestProgress": "11月9日A股三大股指早盘齐涨，创业板涨超1%，物理AI爆发，恒指冲高回落。"
+      "summary": "2026年11月10日A股三大指数集体高开，创业板涨超2%，AI硬件、“易中天”拉升",
+      "latestProgress": "宇树科技股价一度冲高至A股第三，多重催化点燃人形机器人板块"
     },
     {
       "eventId": "event_c68d651d4ff9",
       "clusterVersion": 2,
-      "title": "港股异动 | 麦科医药-B(02335)午后飙升近30% 所有入组参与者完成MT1013的III期临床试验",
+      "title": "港股异动 | 富智康集团(02038)再涨超8% 三季度纯利同比增近53% 预计全年度纯利显著改善",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-11-09T22:34:07.812Z",
-      "latestItemPublishedAt": "2026-11-09T13:22:06.000Z",
-      "primaryItemId": "news_4417dbb7cde3",
+      "lastSeenAt": "2026-11-10T07:32:18.070Z",
+      "latestItemPublishedAt": "2026-11-10T07:07:35.000Z",
+      "primaryItemId": "news_3b9437463324",
       "evidenceItemIds": [
-        "news_8ecce7401f2c",
-        "news_cb411c303bfb",
-        "news_c28c788f26c3",
-        "news_fcd2056078a7",
         "news_ff31f7c687cd",
         "news_94741aa51393",
         "news_f21d06cc607e",
@@ -190,11 +186,148 @@
         "news_91b3c403d192",
         "news_4417dbb7cde3",
         "news_f79d90e24758",
-        "news_0c91fb86b645"
+        "news_0c91fb86b645",
+        "news_3b9437463324",
+        "news_ab6068272b05",
+        "news_1e8710daf2ee",
+        "news_1da331c36ae8"
       ],
       "status": "developing",
       "summary": "麦科医药-B因MT1013 III期临床完成全部入组，午后股价飙升近30%",
       "latestProgress": "本周港股远信储能等新股将集中挂牌，AI产业链迎多重催化"
+    },
+    {
+      "eventId": "event_9e320dba578d",
+      "clusterVersion": 2,
+      "title": "美联储12月会加息吗？今晚CPI一锤定音！",
+      "firstSeenAt": "2026-11-06T07:06:11.933Z",
+      "lastSeenAt": "2026-11-10T07:32:18.070Z",
+      "latestItemPublishedAt": "2026-11-10T07:10:22.000Z",
+      "primaryItemId": "news_b884e99b0703",
+      "evidenceItemIds": [
+        "news_e3dfc68073f5",
+        "news_db2f75a6b4f0",
+        "news_a5fa068df6c1",
+        "news_97934923a02d",
+        "news_0a163c089f85",
+        "news_08f48011512c",
+        "news_0414d8ed1b59",
+        "news_5d0020879563",
+        "news_d4983c9bef70",
+        "news_45c0611cd29f",
+        "news_b884e99b0703",
+        "news_ebd814e31aed"
+      ],
+      "status": "developing",
+      "summary": "美国10月新增就业16.5万超预期，美联储12月加息预期升温",
+      "latestProgress": "最新报道称美国10月就业数据超预期，美联储12月加息预期升温"
+    },
+    {
+      "eventId": "event_a4c277bef24a",
+      "clusterVersion": 2,
+      "title": "中国证监会同意氢氧化锂期货和期权注册",
+      "firstSeenAt": "2026-11-06T12:07:36.692Z",
+      "lastSeenAt": "2026-11-10T07:32:18.070Z",
+      "latestItemPublishedAt": "2026-11-05T23:28:09.000Z",
+      "primaryItemId": "news_0e0e861c68d3",
+      "evidenceItemIds": [
+        "news_f29e9054dccc",
+        "news_52303c0c72da",
+        "news_0e0e861c68d3",
+        "news_ea0c0a809eb4",
+        "news_63e9f32c1023"
+      ],
+      "status": "developing",
+      "summary": "中国证监会同意葵花籽油、氢氧化锂期货和期权注册。",
+      "latestProgress": "证监会同日完成两类商品期货期权上市注册审批。"
+    },
+    {
+      "eventId": "event_8a9240dbe8b5",
+      "clusterVersion": 2,
+      "title": "财联社11月9日电，罗森布拉特证券将Coreweave的目标价从250美元下调至160美元。",
+      "firstSeenAt": "2026-11-09T12:55:00.169Z",
+      "lastSeenAt": "2026-11-10T07:32:18.070Z",
+      "latestItemPublishedAt": "2026-11-09T12:10:25.000Z",
+      "primaryItemId": "news_eca9a1dd6e6b",
+      "evidenceItemIds": [
+        "news_eca9a1dd6e6b",
+        "news_70dbf9954f89"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_25919815bffc",
+      "clusterVersion": 2,
+      "title": "财联社11月10日电，欧洲央行管委穆兰表示，若诺特或德科斯接任欧洲央行行长，预计欧洲央行将保持政策连续性。",
+      "firstSeenAt": "2026-11-04T16:27:29.182Z",
+      "lastSeenAt": "2026-11-10T07:32:18.070Z",
+      "latestItemPublishedAt": "2026-11-10T07:06:06.000Z",
+      "primaryItemId": "news_1a38cbd8efe1",
+      "evidenceItemIds": [
+        "news_23cf3dbf1721",
+        "news_9721abeadc67",
+        "news_e13d065215af",
+        "news_b28f88258127",
+        "news_e76b7c02aff5",
+        "news_9b9cf3547033",
+        "news_fd90017fc9ed",
+        "news_1a38cbd8efe1"
+      ],
+      "status": "developing",
+      "summary": "欧洲央行拟审查银行数据中心贷款，应对AI信贷风险",
+      "latestProgress": "欧洲央行考虑审查银行对数据中心贷款，评估AI相关风险"
+    },
+    {
+      "eventId": "event_546632f4870c",
+      "clusterVersion": 2,
+      "title": "财联社11月10日电，上期所原油期货2612合约夜盘收跌3.62%，报614.40元人民币/桶。沪金夜盘收涨0.6%，沪",
+      "firstSeenAt": "2026-11-04T19:54:55.710Z",
+      "lastSeenAt": "2026-11-10T07:32:18.070Z",
+      "latestItemPublishedAt": "2026-11-09T18:30:51.000Z",
+      "primaryItemId": "news_b10d2e303d00",
+      "evidenceItemIds": [
+        "news_814228fbcc07",
+        "news_36b11212b5a1",
+        "news_9b8abce3a34e",
+        "news_b10d2e303d00"
+      ],
+      "status": "developing",
+      "summary": "11月5日夜盘上期所原油期货2612合约收跌7.07%，沪金沪银上涨。",
+      "latestProgress": "上期所原油期货2612合约夜盘收跌7.07%，沪金涨2.61%、沪银涨4.80%"
+    },
+    {
+      "eventId": "event_f65b15670e6f",
+      "clusterVersion": 2,
+      "title": "财联社11月10日电，美国财政部拍卖580亿美元三年期国债，得标利率4.627%（10月6日为4.932%、2006年以",
+      "firstSeenAt": "2026-11-09T18:57:00.208Z",
+      "lastSeenAt": "2026-11-10T07:32:18.070Z",
+      "latestItemPublishedAt": "2026-11-09T18:14:39.000Z",
+      "primaryItemId": "news_eb7d96a0254b",
+      "evidenceItemIds": [
+        "news_eb7d96a0254b",
+        "news_0d1a0ce53512"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_f5df21469062",
+      "clusterVersion": 2,
+      "title": "金价波动加大催生更灵活交易工具，多家银行上线积存金“挂单”功能",
+      "firstSeenAt": "2026-11-09T18:57:00.208Z",
+      "lastSeenAt": "2026-11-10T07:32:18.070Z",
+      "latestItemPublishedAt": "2026-11-09T12:46:37.000Z",
+      "primaryItemId": "news_d7e86e059b72",
+      "evidenceItemIds": [
+        "news_d7e86e059b72",
+        "news_8e581d6de365"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
     },
     {
       "eventId": "event_33f311e54d32",
@@ -217,136 +350,6 @@
       "latestProgress": "2026年11月5日双方正式签署该合作备忘录"
     },
     {
-      "eventId": "event_9e320dba578d",
-      "clusterVersion": 2,
-      "title": "美国10月新增就业16.5万，超出预期，美联储12月加息预期升温",
-      "firstSeenAt": "2026-11-06T07:06:11.933Z",
-      "lastSeenAt": "2026-11-09T22:34:07.812Z",
-      "latestItemPublishedAt": "2026-11-06T20:16:30.000Z",
-      "primaryItemId": "news_a5fa068df6c1",
-      "evidenceItemIds": [
-        "news_e3dfc68073f5",
-        "news_db2f75a6b4f0",
-        "news_a5fa068df6c1",
-        "news_97934923a02d",
-        "news_0a163c089f85",
-        "news_08f48011512c",
-        "news_0414d8ed1b59",
-        "news_5d0020879563",
-        "news_d4983c9bef70",
-        "news_45c0611cd29f"
-      ],
-      "status": "developing",
-      "summary": "美国10月新增就业16.5万超预期，美联储12月加息预期升温",
-      "latestProgress": "最新报道称美国10月就业数据超预期，美联储12月加息预期升温"
-    },
-    {
-      "eventId": "event_a4c277bef24a",
-      "clusterVersion": 2,
-      "title": "中国证监会同意氢氧化锂期货和期权注册",
-      "firstSeenAt": "2026-11-06T12:07:36.692Z",
-      "lastSeenAt": "2026-11-09T22:34:07.812Z",
-      "latestItemPublishedAt": "2026-11-05T23:28:09.000Z",
-      "primaryItemId": "news_0e0e861c68d3",
-      "evidenceItemIds": [
-        "news_f29e9054dccc",
-        "news_52303c0c72da",
-        "news_0e0e861c68d3",
-        "news_ea0c0a809eb4",
-        "news_63e9f32c1023"
-      ],
-      "status": "developing",
-      "summary": "中国证监会同意葵花籽油、氢氧化锂期货和期权注册。",
-      "latestProgress": "证监会同日完成两类商品期货期权上市注册审批。"
-    },
-    {
-      "eventId": "event_8a9240dbe8b5",
-      "clusterVersion": 2,
-      "title": "财联社11月9日电，罗森布拉特证券将Coreweave的目标价从250美元下调至160美元。",
-      "firstSeenAt": "2026-11-09T12:55:00.169Z",
-      "lastSeenAt": "2026-11-09T22:34:07.812Z",
-      "latestItemPublishedAt": "2026-11-09T12:10:25.000Z",
-      "primaryItemId": "news_eca9a1dd6e6b",
-      "evidenceItemIds": [
-        "news_eca9a1dd6e6b",
-        "news_70dbf9954f89"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_25919815bffc",
-      "clusterVersion": 2,
-      "title": "欧洲央行掌门人争夺战打响！两大候选人相继发声",
-      "firstSeenAt": "2026-11-04T16:27:29.182Z",
-      "lastSeenAt": "2026-11-09T22:34:07.812Z",
-      "latestItemPublishedAt": "2026-11-09T14:33:32.000Z",
-      "primaryItemId": "news_fd90017fc9ed",
-      "evidenceItemIds": [
-        "news_23cf3dbf1721",
-        "news_9721abeadc67",
-        "news_e13d065215af",
-        "news_b28f88258127",
-        "news_e76b7c02aff5",
-        "news_9b9cf3547033",
-        "news_fd90017fc9ed"
-      ],
-      "status": "developing",
-      "summary": "欧洲央行拟审查银行数据中心贷款，应对AI信贷风险",
-      "latestProgress": "欧洲央行考虑审查银行对数据中心贷款，评估AI相关风险"
-    },
-    {
-      "eventId": "event_546632f4870c",
-      "clusterVersion": 2,
-      "title": "财联社11月10日电，上期所原油期货2612合约夜盘收跌3.62%，报614.40元人民币/桶。沪金夜盘收涨0.6%，沪",
-      "firstSeenAt": "2026-11-04T19:54:55.710Z",
-      "lastSeenAt": "2026-11-09T22:34:07.812Z",
-      "latestItemPublishedAt": "2026-11-09T18:30:51.000Z",
-      "primaryItemId": "news_b10d2e303d00",
-      "evidenceItemIds": [
-        "news_814228fbcc07",
-        "news_36b11212b5a1",
-        "news_9b8abce3a34e",
-        "news_b10d2e303d00"
-      ],
-      "status": "developing",
-      "summary": "11月5日夜盘上期所原油期货2612合约收跌7.07%，沪金沪银上涨。",
-      "latestProgress": "上期所原油期货2612合约夜盘收跌7.07%，沪金涨2.61%、沪银涨4.80%"
-    },
-    {
-      "eventId": "event_f65b15670e6f",
-      "clusterVersion": 2,
-      "title": "财联社11月10日电，美国财政部拍卖580亿美元三年期国债，得标利率4.627%（10月6日为4.932%、2006年以",
-      "firstSeenAt": "2026-11-09T18:57:00.208Z",
-      "lastSeenAt": "2026-11-09T22:34:07.812Z",
-      "latestItemPublishedAt": "2026-11-09T18:14:39.000Z",
-      "primaryItemId": "news_eb7d96a0254b",
-      "evidenceItemIds": [
-        "news_eb7d96a0254b",
-        "news_0d1a0ce53512"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_f5df21469062",
-      "clusterVersion": 2,
-      "title": "金价波动加大催生更灵活交易工具，多家银行上线积存金“挂单”功能",
-      "firstSeenAt": "2026-11-09T18:57:00.208Z",
-      "lastSeenAt": "2026-11-09T22:34:07.812Z",
-      "latestItemPublishedAt": "2026-11-09T12:46:37.000Z",
-      "primaryItemId": "news_d7e86e059b72",
-      "evidenceItemIds": [
-        "news_d7e86e059b72",
-        "news_8e581d6de365"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
       "eventId": "event_4f97d9ae17f4",
       "clusterVersion": 2,
       "title": "国家统计局：10月份CPI同比继续上涨 PPI环比涨幅回落",
@@ -360,8 +363,8 @@
         "news_e2e1f67ad027"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "国家统计局：10月CPI同比继续上涨，PPI同比涨5.7%、环比涨幅回落",
+      "latestProgress": "国家统计局公布10月PPI同比上涨5.7%，环比上涨0.7%"
     },
     {
       "eventId": "event_2d62b41df74b",

@@ -1,19 +1,18 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-10T19:53:59.584Z",
+  "generatedAt": "2026-11-11T06:42:43.788Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
       "eventId": "event_f101880ef7bc",
       "clusterVersion": 2,
-      "title": "富达：美股AI估值修正传导至亚太市场 高杠杆资金流动引发震荡",
+      "title": "培风客：美股尚无明确见底信号，美债明年或迎阶段性反弹，镍值得关注【大鹏说8】",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-10T19:53:59.584Z",
-      "latestItemPublishedAt": "2026-11-10T12:18:49.000Z",
-      "primaryItemId": "news_10973d1b2596",
+      "lastSeenAt": "2026-11-11T06:42:43.788Z",
+      "latestItemPublishedAt": "2026-11-11T04:17:06.000Z",
+      "primaryItemId": "news_ab127bb09021",
       "evidenceItemIds": [
-        "news_c3c6ab72241f",
         "news_86077c1c6ffb",
         "news_db2399a219e0",
         "news_d5d9f7f83479",
@@ -62,23 +61,22 @@
         "news_2d6e7b6bf9c9",
         "news_0fe9f59faf1c",
         "news_10973d1b2596",
-        "news_81713491a633"
+        "news_81713491a633",
+        "news_0a63e60dc49d"
       ],
       "status": "developing",
-      "summary": "美股经历抛售后机构普遍判断回调接近尾声，稳市组合拳密集发力",
-      "latestProgress": "11月10日华尔街三巨头齐发声称美股回调即将结束，光通信股受提振上涨"
+      "summary": "培风客指出美股暂无明确见底信号，美债明年或迎阶段性反弹，镍值得关注。",
+      "latestProgress": "经济学家称激进加息或成2027年美股主要威胁。"
     },
     {
       "eventId": "event_a3c5d0364922",
       "clusterVersion": 2,
-      "title": "重磅策略会｜近600家上市公司、800余场交流，申万宏源看多明年下半年A股",
+      "title": "A股三大股指盘初齐涨，创业板涨超1%，光模块大涨、“易中天”拉升，AI短剧调整，恒科指跌超1%，权重股科网股回落",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-10T19:53:59.584Z",
-      "latestItemPublishedAt": "2026-11-10T17:18:03.000Z",
-      "primaryItemId": "news_6d9adf87b173",
+      "lastSeenAt": "2026-11-11T06:42:43.788Z",
+      "latestItemPublishedAt": "2026-11-11T02:03:57.000Z",
+      "primaryItemId": "news_e08755af4c74",
       "evidenceItemIds": [
-        "news_ae6d9e5d2c8a",
-        "news_f2cfa640556a",
         "news_8cacc1ab05aa",
         "news_e2bd93655d79",
         "news_a620dd99c055",
@@ -126,24 +124,23 @@
         "news_acc8685deb75",
         "news_6d9adf87b173",
         "news_b89ae6c29023",
-        "news_fa2c806bfe90"
+        "news_fa2c806bfe90",
+        "news_e08755af4c74",
+        "news_f5bf780008fb"
       ],
       "status": "developing",
-      "summary": "2026年11月10日A股三大指数集体高开，创业板涨超2%，AI硬件、“易中天”拉升",
-      "latestProgress": "宇树科技股价一度冲高至A股第三，多重催化点燃人形机器人板块"
+      "summary": "A股三大股指齐涨，创业板涨超1%，光模块、“易中天”拉升，短剧调整，恒科指跌超1%",
+      "latestProgress": "A股三大股指齐涨，创业板涨超1%，光模块、“易中天”拉升，短剧调整，恒科指跌逾1%"
     },
     {
       "eventId": "event_c68d651d4ff9",
       "clusterVersion": 2,
       "title": "中国10月PPI超预期而CPI回落，中国10月出口高增高技术支撑外需，港股明年或具备均值回归空间---1110宏观脱水",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-11-10T19:53:59.584Z",
-      "latestItemPublishedAt": "2026-11-10T13:11:37.000Z",
+      "lastSeenAt": "2026-11-11T06:42:43.788Z",
+      "latestItemPublishedAt": "2026-11-10T22:17:17.000Z",
       "primaryItemId": "news_489682f54d2b",
       "evidenceItemIds": [
-        "news_4bc0c8475fc1",
-        "news_4a2e31a08990",
-        "news_4e69402797c8",
         "news_54e72a40d9fd",
         "news_2e14392284ad",
         "news_514a7684ebd1",
@@ -190,20 +187,23 @@
         "news_6160549fa471",
         "news_489682f54d2b",
         "news_678fcc2750e4",
-        "news_efb904ed3fdb"
+        "news_efb904ed3fdb",
+        "news_7b606a5675e7",
+        "news_cc8a6dba989f",
+        "news_074ff1e7e7e0"
       ],
       "status": "developing",
-      "summary": "麦科医药-B因MT1013 III期临床完成全部入组，午后股价飙升近30%",
-      "latestProgress": "本周港股远信储能等新股将集中挂牌，AI产业链迎多重催化"
+      "summary": "10月PPI超预期CPI回落，出口高技术支撑外需，机构称港股明年具均值回归空间",
+      "latestProgress": "11月11日光通信概念港股逆市走强，剑桥科技涨近18%"
     },
     {
       "eventId": "event_9e320dba578d",
       "clusterVersion": 2,
-      "title": "美CPI又超预期、沃勒警告应验！华尔街聚焦12月加息25还是50基点，“新美联储通讯社”：加加停停策略面临考验",
+      "title": "美股三大股指齐跌！英伟达再跌5.53%，通胀超预期，美联储加息预期上升，中概股普跌，国际油价回落",
       "firstSeenAt": "2026-11-06T07:06:11.933Z",
-      "lastSeenAt": "2026-11-10T19:53:59.584Z",
-      "latestItemPublishedAt": "2026-11-10T19:45:37.000Z",
-      "primaryItemId": "news_68bada6ca940",
+      "lastSeenAt": "2026-11-11T06:42:43.788Z",
+      "latestItemPublishedAt": "2026-11-11T05:16:54.000Z",
+      "primaryItemId": "news_cfc9cadb65a0",
       "evidenceItemIds": [
         "news_e3dfc68073f5",
         "news_db2f75a6b4f0",
@@ -224,18 +224,23 @@
         "news_cdc0d802be17",
         "news_68bada6ca940",
         "news_4207dfab01d4",
-        "news_d92f6bf45f97"
+        "news_d92f6bf45f97",
+        "news_cfc9cadb65a0",
+        "news_2414ac0c3a8c",
+        "news_bb3e23a67343",
+        "news_490720f0a412",
+        "news_d9c15b49fcf9"
       ],
       "status": "developing",
-      "summary": "美国10月新增就业16.5万超预期，美联储12月加息预期升温",
-      "latestProgress": "最新报道称美国10月就业数据超预期，美联储12月加息预期升温"
+      "summary": "美10月CPI超预期，美联储加息预期升温，美股跌，英伟达、中概股普跌，油价回落。",
+      "latestProgress": "高盛联储利率预测：明年3月再加息，降息推迟至明年底，有专家指市场夸大了加息预期。"
     },
     {
       "eventId": "event_a4c277bef24a",
       "clusterVersion": 2,
       "title": "中国证监会同意氢氧化锂期货和期权注册",
       "firstSeenAt": "2026-11-06T12:07:36.692Z",
-      "lastSeenAt": "2026-11-10T19:53:59.584Z",
+      "lastSeenAt": "2026-11-11T06:42:43.788Z",
       "latestItemPublishedAt": "2026-11-05T23:28:09.000Z",
       "primaryItemId": "news_0e0e861c68d3",
       "evidenceItemIds": [
@@ -246,15 +251,15 @@
         "news_63e9f32c1023"
       ],
       "status": "developing",
-      "summary": "中国证监会同意葵花籽油、氢氧化锂期货和期权注册。",
-      "latestProgress": "证监会同日完成两类商品期货期权上市注册审批。"
+      "summary": "中国证监会同意氢氧化锂、葵花籽油期货和期权注册，丰富商品衍生品品种供给",
+      "latestProgress": "2026年11月5日，中国证监会正式同意氢氧化锂期货和期权注册"
     },
     {
       "eventId": "event_1c858f7b5b9d",
       "clusterVersion": 2,
       "title": "美国劳工统计局将不公布10月CPI同比数据 受去年政府停摆影响",
       "firstSeenAt": "2026-11-10T12:38:07.665Z",
-      "lastSeenAt": "2026-11-10T19:53:59.584Z",
+      "lastSeenAt": "2026-11-11T06:42:43.788Z",
       "latestItemPublishedAt": "2026-11-10T11:25:36.000Z",
       "primaryItemId": "news_ad42f0762375",
       "evidenceItemIds": [
@@ -262,15 +267,15 @@
         "news_d54003554018"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "美国劳工统计局因受去年政府停摆影响，将不公布10月CPI同比数据。",
+      "latestProgress": "美国劳工统计局11月10日宣布，因去年政府停摆影响不公布10月CPI同比数据。"
     },
     {
       "eventId": "event_dabc8e14a556",
       "clusterVersion": 2,
       "title": "华为新型存储系统即将启动试商用，温冷数据存储成为新战场",
       "firstSeenAt": "2026-11-10T12:38:07.665Z",
-      "lastSeenAt": "2026-11-10T19:53:59.584Z",
+      "lastSeenAt": "2026-11-11T06:42:43.788Z",
       "latestItemPublishedAt": "2026-11-10T12:26:24.000Z",
       "primaryItemId": "news_a15e6f6d7cf3",
       "evidenceItemIds": [
@@ -278,34 +283,37 @@
         "news_8ba8004c9b55"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "华为新型存储系统即将启动试商用，温冷数据存储成为行业新竞争赛道",
+      "latestProgress": "华为新型存储系统即将启动试商用"
     },
     {
       "eventId": "event_491012f17c2a",
       "clusterVersion": 2,
-      "title": "财联社11月10日电，纳斯达克100ETF招商(159659)将于2026年11月11日开市起至当日10:30停牌。",
+      "title": "财联社11月10日电，纳指ETF易方达(159696)将于2026年11月11日开市起至当日10:30停牌。",
       "firstSeenAt": "2026-11-10T12:38:07.665Z",
-      "lastSeenAt": "2026-11-10T19:53:59.584Z",
-      "latestItemPublishedAt": "2026-11-10T11:15:29.000Z",
-      "primaryItemId": "news_a87c4f85b8e0",
+      "lastSeenAt": "2026-11-11T06:42:43.788Z",
+      "latestItemPublishedAt": "2026-11-10T11:15:27.000Z",
+      "primaryItemId": "news_aa5a07b50e22",
       "evidenceItemIds": [
         "news_a87c4f85b8e0",
         "news_aa5a07b50e22",
         "news_ad6c498e372a",
         "news_e6b3877a7892",
-        "news_3429c79d7fd8"
+        "news_3429c79d7fd8",
+        "news_1c706e104f30",
+        "news_637c8bc1018d",
+        "news_e03d7e0d59ff"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "多只纳指相关ETF及全球芯片LOF将于2026年11月11日开市至10:30停牌",
+      "latestProgress": "财联社11月10日集中披露上述产品停牌安排"
     },
     {
       "eventId": "event_2cf716748ce1",
       "clusterVersion": 2,
       "title": "新加坡推500吨央行级黄金储备托管 副总理：与香港非零和博弈",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-10T19:53:59.584Z",
+      "lastSeenAt": "2026-11-11T06:42:43.788Z",
       "latestItemPublishedAt": "2026-11-10T13:30:59.000Z",
       "primaryItemId": "news_674f25f91f21",
       "evidenceItemIds": [
@@ -361,15 +369,15 @@
         "news_674f25f91f21"
       ],
       "status": "developing",
-      "summary": "央行连续24个月增持黄金，本轮加仓规模创近两年新高。",
-      "latestProgress": "2026年11月央行落地本轮黄金增持，加仓规模为近两年最大。"
+      "summary": "新加坡推出500吨央行级黄金储备托管服务，副总理称与香港非零和博弈。",
+      "latestProgress": "新加坡正式推出500吨央行级黄金储备托管业务，副总理称与香港非零和博弈。"
     },
     {
       "eventId": "event_546632f4870c",
       "clusterVersion": 2,
       "title": "财联社11月11日电，上期所原油期货2612合约夜盘收跌0.77%，报604.4元人民币/桶。沪金夜盘收跌2.29%，沪",
       "firstSeenAt": "2026-11-04T19:54:55.710Z",
-      "lastSeenAt": "2026-11-10T19:53:59.584Z",
+      "lastSeenAt": "2026-11-11T06:42:43.788Z",
       "latestItemPublishedAt": "2026-11-10T18:31:41.000Z",
       "primaryItemId": "news_74fd0c95a7aa",
       "evidenceItemIds": [
@@ -380,20 +388,74 @@
         "news_74fd0c95a7aa"
       ],
       "status": "developing",
-      "summary": "11月5日夜盘上期所原油期货2612合约收跌7.07%，沪金沪银上涨。",
-      "latestProgress": "上期所原油期货2612合约夜盘收跌7.07%，沪金涨2.61%、沪银涨4.80%"
+      "summary": "11月11日夜盘上期所原油、黄金、白银期货集体收跌",
+      "latestProgress": "上期所原油2612合约夜盘收跌0.77%，沪金跌2.29%、沪银跌3.41%"
     },
     {
       "eventId": "event_c973c2a5a8f0",
       "clusterVersion": 2,
       "title": "美国经济再加速，市场重新定价“更高利率更久”",
       "firstSeenAt": "2026-11-10T19:53:59.584Z",
-      "lastSeenAt": "2026-11-10T19:53:59.584Z",
+      "lastSeenAt": "2026-11-11T06:42:43.788Z",
       "latestItemPublishedAt": "2026-11-10T18:03:09.000Z",
       "primaryItemId": "news_02844ed8fc8f",
       "evidenceItemIds": [
         "news_02844ed8fc8f",
         "news_efb07489e646"
+      ],
+      "status": "developing",
+      "summary": "美国10年期国债中标收益率高于预发行，票面利率创2006年新高，市场重新定价更高更久利率。",
+      "latestProgress": "财联社11月11日电，美国10年期国债中标收益率5.02%，高于预发行5.01%，票面利率5%为2006年来最高。"
+    },
+    {
+      "eventId": "event_2d62b41df74b",
+      "clusterVersion": 2,
+      "title": "美国逾四成数据中心规划容量面临政策风险 中期选举影响几何？",
+      "firstSeenAt": "2026-11-02T12:24:31.599Z",
+      "lastSeenAt": "2026-11-11T06:42:43.788Z",
+      "latestItemPublishedAt": "2026-11-11T06:21:06.000Z",
+      "primaryItemId": "news_0f887f844297",
+      "evidenceItemIds": [
+        "news_23ad830f1d25",
+        "news_ab4a79d8289d",
+        "news_ab6743a0f133",
+        "news_3305fae90863",
+        "news_9d807736a7d5",
+        "news_dee86752deca",
+        "news_5691a46e32b5",
+        "news_0f887f844297"
+      ],
+      "status": "developing",
+      "summary": "美国逾四成数据中心规划容量面临政策风险，与中期选举关联引发关注。",
+      "latestProgress": "目前该事件已引发业界对数据中心布局及相关保险风险的讨论。"
+    },
+    {
+      "eventId": "event_d913a22cb626",
+      "clusterVersion": 2,
+      "title": "《海外资管机构赴上海投资指南（2026版）》发布，今年有这些要点更新！（附全文下载）",
+      "firstSeenAt": "2026-11-11T06:42:43.788Z",
+      "lastSeenAt": "2026-11-11T06:42:43.788Z",
+      "latestItemPublishedAt": "2026-11-11T02:32:05.000Z",
+      "primaryItemId": "news_74a39cfa31a1",
+      "evidenceItemIds": [
+        "news_74a39cfa31a1",
+        "news_6b8fbe694dd0"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_311dafe82967",
+      "clusterVersion": 2,
+      "title": "法国专家报告建议对生成式人工智能加强监管",
+      "firstSeenAt": "2026-11-11T06:42:43.788Z",
+      "lastSeenAt": "2026-11-11T06:42:43.788Z",
+      "latestItemPublishedAt": "2026-11-11T05:55:32.000Z",
+      "primaryItemId": "news_1607142e4db9",
+      "evidenceItemIds": [
+        "news_1607142e4db9",
+        "news_c839a56889bf"
       ],
       "status": "developing",
       "summary": "",
@@ -521,27 +583,6 @@
       "status": "developing",
       "summary": "国家统计局：10月CPI同比继续上涨，PPI同比涨5.7%、环比涨幅回落",
       "latestProgress": "国家统计局公布10月PPI同比上涨5.7%，环比上涨0.7%"
-    },
-    {
-      "eventId": "event_2d62b41df74b",
-      "clusterVersion": 2,
-      "title": "民主党\"蓝潮\"后美国政策走向：博弈制衡为主，激进转向概率低",
-      "firstSeenAt": "2026-11-02T12:24:31.599Z",
-      "lastSeenAt": "2026-11-09T18:57:00.208Z",
-      "latestItemPublishedAt": "2026-11-09T03:12:05.000Z",
-      "primaryItemId": "news_5691a46e32b5",
-      "evidenceItemIds": [
-        "news_23ad830f1d25",
-        "news_ab4a79d8289d",
-        "news_ab6743a0f133",
-        "news_3305fae90863",
-        "news_9d807736a7d5",
-        "news_dee86752deca",
-        "news_5691a46e32b5"
-      ],
-      "status": "developing",
-      "summary": "民主党“蓝潮”后，美国政策走向以博弈制衡为主，激进转向概率低。",
-      "latestProgress": "最新研判指出，民主党“蓝潮”后美国政策仍以博弈制衡为主，激进转向概率低。"
     },
     {
       "eventId": "event_b7bee533a412",

@@ -1,17 +1,17 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-11T16:22:12.430Z",
+  "generatedAt": "2026-11-11T19:44:36.999Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
       "eventId": "event_f101880ef7bc",
       "clusterVersion": 2,
-      "title": "动量崩盘！美股历史性抛售之后，反弹还会远吗？",
+      "title": "美股异动 | 光通信概念股普涨 Lumentum(LITE.US)涨超12%",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-11T16:22:12.430Z",
+      "lastSeenAt": "2026-11-11T19:44:36.999Z",
       "latestItemPublishedAt": "2026-11-11T13:22:42.000Z",
-      "primaryItemId": "news_f5e401aea4a1",
+      "primaryItemId": "news_77d90901d51c",
       "evidenceItemIds": [
         "news_1c40eb9f2048",
         "news_53b6564717f7",
@@ -73,7 +73,7 @@
       "clusterVersion": 2,
       "title": "东财陈果：A股半导体或已计入28年悲观预期，AI应用关注局部突破",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-11T16:22:12.430Z",
+      "lastSeenAt": "2026-11-11T19:44:36.999Z",
       "latestItemPublishedAt": "2026-11-11T13:39:04.000Z",
       "primaryItemId": "news_4a04d6b22d36",
       "evidenceItemIds": [
@@ -137,7 +137,7 @@
       "clusterVersion": 2,
       "title": "进博会发声：华证指数发布绿色低碳榜单与港股通ESG报告，ESG评分前50%组合三年年化",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-11-11T16:22:12.430Z",
+      "lastSeenAt": "2026-11-11T19:44:36.999Z",
       "latestItemPublishedAt": "2026-11-11T13:10:08.000Z",
       "primaryItemId": "news_3031ffa06909",
       "evidenceItemIds": [
@@ -201,7 +201,7 @@
       "clusterVersion": 2,
       "title": "中国证监会同意氢氧化锂期货和期权注册",
       "firstSeenAt": "2026-11-06T12:07:36.692Z",
-      "lastSeenAt": "2026-11-11T16:22:12.430Z",
+      "lastSeenAt": "2026-11-11T19:44:36.999Z",
       "latestItemPublishedAt": "2026-11-05T23:28:09.000Z",
       "primaryItemId": "news_0e0e861c68d3",
       "evidenceItemIds": [
@@ -220,7 +220,7 @@
       "clusterVersion": 2,
       "title": "中国央行：支持符合条件的科技企业发行科技创新债券，拓宽直接融资渠道",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-11T16:22:12.430Z",
+      "lastSeenAt": "2026-11-11T19:44:36.999Z",
       "latestItemPublishedAt": "2026-11-11T15:05:22.000Z",
       "primaryItemId": "news_2d5feb32f104",
       "evidenceItemIds": [
@@ -278,6 +278,42 @@
       "status": "developing",
       "summary": "新加坡推出500吨央行级黄金储备托管服务，副总理称与香港非零和博弈。",
       "latestProgress": "新加坡正式推出500吨央行级黄金储备托管业务，副总理称与香港非零和博弈。"
+    },
+    {
+      "eventId": "event_546632f4870c",
+      "clusterVersion": 2,
+      "title": "财联社11月12日电，上期所原油期货2612合约夜盘收涨1.54%，报607.30元人民币/桶。沪金夜盘收跌1.3%，沪",
+      "firstSeenAt": "2026-11-04T19:54:55.710Z",
+      "lastSeenAt": "2026-11-11T19:44:36.999Z",
+      "latestItemPublishedAt": "2026-11-11T18:31:30.000Z",
+      "primaryItemId": "news_d0c6159fc1df",
+      "evidenceItemIds": [
+        "news_814228fbcc07",
+        "news_36b11212b5a1",
+        "news_9b8abce3a34e",
+        "news_b10d2e303d00",
+        "news_74fd0c95a7aa",
+        "news_d0c6159fc1df"
+      ],
+      "status": "developing",
+      "summary": "11月11日夜盘上期所原油、黄金、白银期货集体收跌",
+      "latestProgress": "上期所原油2612合约夜盘收跌0.77%，沪金跌2.29%、沪银跌3.41%"
+    },
+    {
+      "eventId": "event_7655cc8d2b41",
+      "clusterVersion": 2,
+      "title": "LME期铜收涨138美元",
+      "firstSeenAt": "2026-11-11T19:44:36.999Z",
+      "lastSeenAt": "2026-11-11T19:44:36.999Z",
+      "latestItemPublishedAt": "2026-11-11T17:53:18.000Z",
+      "primaryItemId": "news_fbe20197d60a",
+      "evidenceItemIds": [
+        "news_fbe20197d60a",
+        "news_bb3a35295765"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
     },
     {
       "eventId": "event_2d62b41df74b",
@@ -356,25 +392,6 @@
       "status": "developing",
       "summary": "美10月CPI超预期，美联储加息预期升温，美股跌，英伟达、中概股普跌，油价回落。",
       "latestProgress": "高盛联储利率预测：明年3月再加息，降息推迟至明年底，有专家指市场夸大了加息预期。"
-    },
-    {
-      "eventId": "event_546632f4870c",
-      "clusterVersion": 2,
-      "title": "财联社11月11日电，上期所原油期货2612合约夜盘收跌0.77%，报604.4元人民币/桶。沪金夜盘收跌2.29%，沪",
-      "firstSeenAt": "2026-11-04T19:54:55.710Z",
-      "lastSeenAt": "2026-11-11T11:54:48.637Z",
-      "latestItemPublishedAt": "2026-11-10T18:31:41.000Z",
-      "primaryItemId": "news_74fd0c95a7aa",
-      "evidenceItemIds": [
-        "news_814228fbcc07",
-        "news_36b11212b5a1",
-        "news_9b8abce3a34e",
-        "news_b10d2e303d00",
-        "news_74fd0c95a7aa"
-      ],
-      "status": "developing",
-      "summary": "11月11日夜盘上期所原油、黄金、白银期货集体收跌",
-      "latestProgress": "上期所原油2612合约夜盘收跌0.77%，沪金跌2.29%、沪银跌3.41%"
     },
     {
       "eventId": "event_c973c2a5a8f0",

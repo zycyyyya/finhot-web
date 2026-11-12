@@ -1,19 +1,18 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-11T19:44:36.999Z",
+  "generatedAt": "2026-11-12T08:00:42.399Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
       "eventId": "event_f101880ef7bc",
       "clusterVersion": 2,
-      "title": "美股异动 | 光通信概念股普涨 Lumentum(LITE.US)涨超12%",
+      "title": "培风客：美股尚无明确见底信号，美债明年或迎阶段性反弹，镍值得关注【大鹏说8】",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-11T19:44:36.999Z",
-      "latestItemPublishedAt": "2026-11-11T13:22:42.000Z",
-      "primaryItemId": "news_77d90901d51c",
+      "lastSeenAt": "2026-11-12T08:00:42.399Z",
+      "latestItemPublishedAt": "2026-11-11T21:56:20.000Z",
+      "primaryItemId": "news_ab127bb09021",
       "evidenceItemIds": [
-        "news_1c40eb9f2048",
         "news_53b6564717f7",
         "news_869bebcc8da8",
         "news_f8e6134024ba",
@@ -62,25 +61,22 @@
         "news_4e58e8778d8c",
         "news_1a05c5837146",
         "news_a2640f93d630",
-        "news_77d90901d51c"
+        "news_77d90901d51c",
+        "news_a2dee9715453"
       ],
       "status": "developing",
-      "summary": "培风客指出美股暂无明确见底信号，美债明年或迎阶段性反弹，镍值得关注。",
-      "latestProgress": "经济学家称激进加息或成2027年美股主要威胁。"
+      "summary": "培风客称美股尚无明确见底信号，美债明年或迎阶段性反弹，镍值得关注。",
+      "latestProgress": "美股收盘科技板块延续反弹，多只存储、光通信牛股涨幅超10%。"
     },
     {
       "eventId": "event_a3c5d0364922",
       "clusterVersion": 2,
       "title": "东财陈果：A股半导体或已计入28年悲观预期，AI应用关注局部突破",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-11T19:44:36.999Z",
-      "latestItemPublishedAt": "2026-11-11T13:39:04.000Z",
+      "lastSeenAt": "2026-11-12T08:00:42.399Z",
+      "latestItemPublishedAt": "2026-11-12T07:01:34.000Z",
       "primaryItemId": "news_4a04d6b22d36",
       "evidenceItemIds": [
-        "news_72343aaee1db",
-        "news_cbe482e399b6",
-        "news_3c3068b51359",
-        "news_e3ad5de94680",
         "news_81c52239f90b",
         "news_6a9ba03ceab9",
         "news_80b509bd2c4f",
@@ -126,22 +122,25 @@
         "news_f5bf780008fb",
         "news_aa974ab0b180",
         "news_4a04d6b22d36",
-        "news_7dfafbb00a89"
+        "news_7dfafbb00a89",
+        "news_e382f05b6799",
+        "news_a28d87b0f4fb",
+        "news_12cec0094470",
+        "news_728f0622fb40"
       ],
       "status": "developing",
-      "summary": "A股三大股指齐涨，创业板涨超1%，光模块、“易中天”拉升，短剧调整，恒科指跌超1%",
-      "latestProgress": "A股三大股指齐涨，创业板涨超1%，光模块、“易中天”拉升，短剧调整，恒科指跌逾1%"
+      "summary": "东财陈果称A股半导体或已计入28年悲观预期，建议关注AI应用局部突破。",
+      "latestProgress": "2026年11月12日A股三大指数集体收跌，全市场超4600股飘绿。"
     },
     {
       "eventId": "event_c68d651d4ff9",
       "clusterVersion": 2,
       "title": "进博会发声：华证指数发布绿色低碳榜单与港股通ESG报告，ESG评分前50%组合三年年化",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-11-11T19:44:36.999Z",
-      "latestItemPublishedAt": "2026-11-11T13:10:08.000Z",
+      "lastSeenAt": "2026-11-12T08:00:42.399Z",
+      "latestItemPublishedAt": "2026-11-11T23:29:34.000Z",
       "primaryItemId": "news_3031ffa06909",
       "evidenceItemIds": [
-        "news_d904c1befaa7",
         "news_b414cef0b064",
         "news_89c3307b2fdb",
         "news_3da5a4f78dc8",
@@ -190,42 +189,22 @@
         "news_a35d0123a2a1",
         "news_4871171a1787",
         "news_2f6d06781189",
-        "news_d32c9dca69c6"
+        "news_d32c9dca69c6",
+        "news_a632d0bccd2d"
       ],
       "status": "developing",
       "summary": "10月PPI超预期CPI回落，出口高技术支撑外需，机构称港股明年具均值回归空间",
       "latestProgress": "11月11日光通信概念港股逆市走强，剑桥科技涨近18%"
     },
     {
-      "eventId": "event_a4c277bef24a",
-      "clusterVersion": 2,
-      "title": "中国证监会同意氢氧化锂期货和期权注册",
-      "firstSeenAt": "2026-11-06T12:07:36.692Z",
-      "lastSeenAt": "2026-11-11T19:44:36.999Z",
-      "latestItemPublishedAt": "2026-11-05T23:28:09.000Z",
-      "primaryItemId": "news_0e0e861c68d3",
-      "evidenceItemIds": [
-        "news_f29e9054dccc",
-        "news_52303c0c72da",
-        "news_0e0e861c68d3",
-        "news_ea0c0a809eb4",
-        "news_63e9f32c1023"
-      ],
-      "status": "developing",
-      "summary": "中国证监会同意氢氧化锂、葵花籽油期货和期权注册，丰富商品衍生品品种供给",
-      "latestProgress": "2026年11月5日，中国证监会正式同意氢氧化锂期货和期权注册"
-    },
-    {
       "eventId": "event_2cf716748ce1",
       "clusterVersion": 2,
-      "title": "中国央行：支持符合条件的科技企业发行科技创新债券，拓宽直接融资渠道",
+      "title": "中金点评央行Q3货币政策执行报告：更重框架改革与防范风险",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-11T19:44:36.999Z",
-      "latestItemPublishedAt": "2026-11-11T15:05:22.000Z",
-      "primaryItemId": "news_2d5feb32f104",
+      "lastSeenAt": "2026-11-12T08:00:42.399Z",
+      "latestItemPublishedAt": "2026-11-12T07:01:21.000Z",
+      "primaryItemId": "news_314a3ea3cbaa",
       "evidenceItemIds": [
-        "news_67f5ce88ce5b",
-        "news_f56a621fce0e",
         "news_210c0f1966c2",
         "news_4a290f0b85a0",
         "news_6c7c1e1ad3ff",
@@ -273,7 +252,9 @@
         "news_5281b5d49d41",
         "news_2d0d50a042aa",
         "news_9538d4f5bbcc",
-        "news_cec05dba791b"
+        "news_cec05dba791b",
+        "news_314a3ea3cbaa",
+        "news_6583c776c95f"
       ],
       "status": "developing",
       "summary": "新加坡推出500吨央行级黄金储备托管服务，副总理称与香港非零和博弈。",
@@ -284,7 +265,7 @@
       "clusterVersion": 2,
       "title": "财联社11月12日电，上期所原油期货2612合约夜盘收涨1.54%，报607.30元人民币/桶。沪金夜盘收跌1.3%，沪",
       "firstSeenAt": "2026-11-04T19:54:55.710Z",
-      "lastSeenAt": "2026-11-11T19:44:36.999Z",
+      "lastSeenAt": "2026-11-12T08:00:42.399Z",
       "latestItemPublishedAt": "2026-11-11T18:31:30.000Z",
       "primaryItemId": "news_d0c6159fc1df",
       "evidenceItemIds": [
@@ -296,15 +277,15 @@
         "news_d0c6159fc1df"
       ],
       "status": "developing",
-      "summary": "11月11日夜盘上期所原油、黄金、白银期货集体收跌",
-      "latestProgress": "上期所原油2612合约夜盘收跌0.77%，沪金跌2.29%、沪银跌3.41%"
+      "summary": "财联社消息，上期所原油期货2612合约夜盘收涨，沪金收跌、沪银收涨。",
+      "latestProgress": "11月12日夜盘收盘，原油涨1.54%，沪金跌1.3%、沪银涨0.22%。"
     },
     {
       "eventId": "event_7655cc8d2b41",
       "clusterVersion": 2,
       "title": "LME期铜收涨138美元",
       "firstSeenAt": "2026-11-11T19:44:36.999Z",
-      "lastSeenAt": "2026-11-11T19:44:36.999Z",
+      "lastSeenAt": "2026-11-12T08:00:42.399Z",
       "latestItemPublishedAt": "2026-11-11T17:53:18.000Z",
       "primaryItemId": "news_fbe20197d60a",
       "evidenceItemIds": [
@@ -312,8 +293,133 @@
         "news_bb3a35295765"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "LME期铜收涨138美元，反映市场对铜需求前景的乐观预期",
+      "latestProgress": "2026年11月11日LME期铜收盘上涨138美元"
+    },
+    {
+      "eventId": "event_9e320dba578d",
+      "clusterVersion": 2,
+      "title": "华尔街紧急上调利率预期！美股最大风险变成美联储？",
+      "firstSeenAt": "2026-11-06T07:06:11.933Z",
+      "lastSeenAt": "2026-11-12T08:00:42.399Z",
+      "latestItemPublishedAt": "2026-11-12T00:58:39.000Z",
+      "primaryItemId": "news_4ce6caf10c53",
+      "evidenceItemIds": [
+        "news_e3dfc68073f5",
+        "news_db2f75a6b4f0",
+        "news_a5fa068df6c1",
+        "news_97934923a02d",
+        "news_0a163c089f85",
+        "news_08f48011512c",
+        "news_0414d8ed1b59",
+        "news_5d0020879563",
+        "news_d4983c9bef70",
+        "news_45c0611cd29f",
+        "news_b884e99b0703",
+        "news_ebd814e31aed",
+        "news_90198d6025fa",
+        "news_08e1c2a52263",
+        "news_cbf584081e05",
+        "news_f20e6a7b2b2b",
+        "news_cdc0d802be17",
+        "news_68bada6ca940",
+        "news_4207dfab01d4",
+        "news_d92f6bf45f97",
+        "news_cfc9cadb65a0",
+        "news_2414ac0c3a8c",
+        "news_bb3e23a67343",
+        "news_490720f0a412",
+        "news_d9c15b49fcf9",
+        "news_b171f3297ac9",
+        "news_4ce6caf10c53",
+        "news_f658cedb904c"
+      ],
+      "status": "developing",
+      "summary": "华尔街紧急上调利率预期，美联储政策被视为美股最大风险。",
+      "latestProgress": "华尔街已紧急上调利率预期，市场担忧美联储政策冲击美股。"
+    },
+    {
+      "eventId": "event_6e8583a40fc4",
+      "clusterVersion": 2,
+      "title": "财联社11月12日电，韩国KOSPI指数日内跌1.44%，失守5300点。",
+      "firstSeenAt": "2026-11-12T08:00:42.399Z",
+      "lastSeenAt": "2026-11-12T08:00:42.399Z",
+      "latestItemPublishedAt": "2026-11-12T05:19:04.000Z",
+      "primaryItemId": "news_a758e2dfbc14",
+      "evidenceItemIds": [
+        "news_a758e2dfbc14",
+        "news_b2c2582d7afd"
+      ],
+      "status": "developing",
+      "summary": "11月12日韩国KOSPI指数早盘一度涨超1%，最终跌1.44%失守5300点",
+      "latestProgress": "财联社11月12日电，韩国KOSPI指数日内跌1.44%，失守5300点"
+    },
+    {
+      "eventId": "event_af85a87918f7",
+      "clusterVersion": 2,
+      "title": "11月12日投资避雷针：16天9板人气股提示风险 AI漫剧营收占比仅约2.57%",
+      "firstSeenAt": "2026-11-12T08:00:42.399Z",
+      "lastSeenAt": "2026-11-12T08:00:42.399Z",
+      "latestItemPublishedAt": "2026-11-12T00:16:21.000Z",
+      "primaryItemId": "news_299587dbc577",
+      "evidenceItemIds": [
+        "news_299587dbc577",
+        "news_5b33f53e884e"
+      ],
+      "status": "developing",
+      "summary": "16天9板短剧概念人气股提示风险，其AI漫剧营收占比仅约2.57%",
+      "latestProgress": "11月12日该人气股被纳入当日投资避雷针提示投资风险"
+    },
+    {
+      "eventId": "event_137189ea07e7",
+      "clusterVersion": 2,
+      "title": "Anthropic IPO遭疯抢！认购需求数倍超额，目标估值1.4万亿美元",
+      "firstSeenAt": "2026-11-12T08:00:42.399Z",
+      "lastSeenAt": "2026-11-12T08:00:42.399Z",
+      "latestItemPublishedAt": "2026-11-11T14:30:30.000Z",
+      "primaryItemId": "news_dc13f81ca33c",
+      "evidenceItemIds": [
+        "news_dc13f81ca33c",
+        "news_2c414a5d0db4"
+      ],
+      "status": "developing",
+      "summary": "Anthropic IPO获数倍超额认购，目标估值1.4万亿美元",
+      "latestProgress": "消息称Anthropic IPO投资者需求强劲，认购数倍超额"
+    },
+    {
+      "eventId": "event_572fbc9e9a70",
+      "clusterVersion": 2,
+      "title": "珠免集团：筹划购买免税公司剩余49%股权，股票12日起停牌",
+      "firstSeenAt": "2026-11-12T08:00:42.399Z",
+      "lastSeenAt": "2026-11-12T08:00:42.399Z",
+      "latestItemPublishedAt": "2026-11-11T11:09:35.000Z",
+      "primaryItemId": "news_060637e1f640",
+      "evidenceItemIds": [
+        "news_060637e1f640",
+        "news_d045a4c46375"
+      ],
+      "status": "developing",
+      "summary": "珠免集团筹划收购免税公司剩余49%股权，股票12日起停牌",
+      "latestProgress": "珠免集团披露拟购买免税公司剩余49%股权，股票自12日起停牌"
+    },
+    {
+      "eventId": "event_a4c277bef24a",
+      "clusterVersion": 2,
+      "title": "中国证监会同意氢氧化锂期货和期权注册",
+      "firstSeenAt": "2026-11-06T12:07:36.692Z",
+      "lastSeenAt": "2026-11-11T19:44:36.999Z",
+      "latestItemPublishedAt": "2026-11-05T23:28:09.000Z",
+      "primaryItemId": "news_0e0e861c68d3",
+      "evidenceItemIds": [
+        "news_f29e9054dccc",
+        "news_52303c0c72da",
+        "news_0e0e861c68d3",
+        "news_ea0c0a809eb4",
+        "news_63e9f32c1023"
+      ],
+      "status": "developing",
+      "summary": "中国证监会2026年11月5日同意氢氧化锂期货和期权注册，同日核准葵花籽油期货期权注册。",
+      "latestProgress": "2026年11月5日证监会同步核准氢氧化锂、葵花籽油期货及期权注册。"
     },
     {
       "eventId": "event_2d62b41df74b",
@@ -352,46 +458,6 @@
       "status": "developing",
       "summary": "",
       "latestProgress": ""
-    },
-    {
-      "eventId": "event_9e320dba578d",
-      "clusterVersion": 2,
-      "title": "美CPI又超预期、沃勒警告应验！华尔街聚焦12月加息25还是50基点，“新美联储通讯社”：加加停停策略面临考验",
-      "firstSeenAt": "2026-11-06T07:06:11.933Z",
-      "lastSeenAt": "2026-11-11T11:54:48.637Z",
-      "latestItemPublishedAt": "2026-11-11T05:16:54.000Z",
-      "primaryItemId": "news_68bada6ca940",
-      "evidenceItemIds": [
-        "news_e3dfc68073f5",
-        "news_db2f75a6b4f0",
-        "news_a5fa068df6c1",
-        "news_97934923a02d",
-        "news_0a163c089f85",
-        "news_08f48011512c",
-        "news_0414d8ed1b59",
-        "news_5d0020879563",
-        "news_d4983c9bef70",
-        "news_45c0611cd29f",
-        "news_b884e99b0703",
-        "news_ebd814e31aed",
-        "news_90198d6025fa",
-        "news_08e1c2a52263",
-        "news_cbf584081e05",
-        "news_f20e6a7b2b2b",
-        "news_cdc0d802be17",
-        "news_68bada6ca940",
-        "news_4207dfab01d4",
-        "news_d92f6bf45f97",
-        "news_cfc9cadb65a0",
-        "news_2414ac0c3a8c",
-        "news_bb3e23a67343",
-        "news_490720f0a412",
-        "news_d9c15b49fcf9",
-        "news_b171f3297ac9"
-      ],
-      "status": "developing",
-      "summary": "美10月CPI超预期，美联储加息预期升温，美股跌，英伟达、中概股普跌，油价回落。",
-      "latestProgress": "高盛联储利率预测：明年3月再加息，降息推迟至明年底，有专家指市场夸大了加息预期。"
     },
     {
       "eventId": "event_c973c2a5a8f0",

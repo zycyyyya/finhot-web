@@ -1,19 +1,18 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-12T08:00:42.399Z",
+  "generatedAt": "2026-11-12T16:57:51.489Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
       "eventId": "event_f101880ef7bc",
       "clusterVersion": 2,
-      "title": "培风客：美股尚无明确见底信号，美债明年或迎阶段性反弹，镍值得关注【大鹏说8】",
+      "title": "美股回调溢价难降，跨境ETF“门票”究竟值多少",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-12T08:00:42.399Z",
-      "latestItemPublishedAt": "2026-11-11T21:56:20.000Z",
-      "primaryItemId": "news_ab127bb09021",
+      "lastSeenAt": "2026-11-12T16:57:51.489Z",
+      "latestItemPublishedAt": "2026-11-12T12:45:01.000Z",
+      "primaryItemId": "news_723d0e089617",
       "evidenceItemIds": [
-        "news_53b6564717f7",
         "news_869bebcc8da8",
         "news_f8e6134024ba",
         "news_cbb6a1975664",
@@ -62,7 +61,8 @@
         "news_1a05c5837146",
         "news_a2640f93d630",
         "news_77d90901d51c",
-        "news_a2dee9715453"
+        "news_a2dee9715453",
+        "news_723d0e089617"
       ],
       "status": "developing",
       "summary": "培风客称美股尚无明确见底信号，美债明年或迎阶段性反弹，镍值得关注。",
@@ -71,15 +71,12 @@
     {
       "eventId": "event_a3c5d0364922",
       "clusterVersion": 2,
-      "title": "东财陈果：A股半导体或已计入28年悲观预期，AI应用关注局部突破",
+      "title": "A股明年怎么走？多家龙头券商最新研判",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-12T08:00:42.399Z",
-      "latestItemPublishedAt": "2026-11-12T07:01:34.000Z",
-      "primaryItemId": "news_4a04d6b22d36",
+      "lastSeenAt": "2026-11-12T16:57:51.489Z",
+      "latestItemPublishedAt": "2026-11-12T13:51:34.000Z",
+      "primaryItemId": "news_2ea42c5e2879",
       "evidenceItemIds": [
-        "news_81c52239f90b",
-        "news_6a9ba03ceab9",
-        "news_80b509bd2c4f",
         "news_8c1bb1d3a5e1",
         "news_d3acb352b901",
         "news_6f891b042f64",
@@ -126,7 +123,10 @@
         "news_e382f05b6799",
         "news_a28d87b0f4fb",
         "news_12cec0094470",
-        "news_728f0622fb40"
+        "news_728f0622fb40",
+        "news_2ea42c5e2879",
+        "news_1c603ed23026",
+        "news_73bdeb29c44f"
       ],
       "status": "developing",
       "summary": "东财陈果称A股半导体或已计入28年悲观预期，建议关注AI应用局部突破。",
@@ -135,14 +135,12 @@
     {
       "eventId": "event_c68d651d4ff9",
       "clusterVersion": 2,
-      "title": "进博会发声：华证指数发布绿色低碳榜单与港股通ESG报告，ESG评分前50%组合三年年化",
+      "title": "港股异动 | 麦科医药-B(02335)再涨超10% 多款创新药研发迎来进展 MT1013完成III期全部受试者入组随访",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-11-12T08:00:42.399Z",
-      "latestItemPublishedAt": "2026-11-11T23:29:34.000Z",
-      "primaryItemId": "news_3031ffa06909",
+      "lastSeenAt": "2026-11-12T16:57:51.489Z",
+      "latestItemPublishedAt": "2026-11-12T12:59:16.000Z",
+      "primaryItemId": "news_a632d0bccd2d",
       "evidenceItemIds": [
-        "news_b414cef0b064",
-        "news_89c3307b2fdb",
         "news_3da5a4f78dc8",
         "news_88fd141087ee",
         "news_b16e8360d76f",
@@ -190,7 +188,9 @@
         "news_4871171a1787",
         "news_2f6d06781189",
         "news_d32c9dca69c6",
-        "news_a632d0bccd2d"
+        "news_a632d0bccd2d",
+        "news_15e624c00ecb",
+        "news_dec19cb92f15"
       ],
       "status": "developing",
       "summary": "10月PPI超预期CPI回落，出口高技术支撑外需，机构称港股明年具均值回归空间",
@@ -201,7 +201,7 @@
       "clusterVersion": 2,
       "title": "中金点评央行Q3货币政策执行报告：更重框架改革与防范风险",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-12T08:00:42.399Z",
+      "lastSeenAt": "2026-11-12T16:57:51.489Z",
       "latestItemPublishedAt": "2026-11-12T07:01:21.000Z",
       "primaryItemId": "news_314a3ea3cbaa",
       "evidenceItemIds": [
@@ -265,7 +265,7 @@
       "clusterVersion": 2,
       "title": "财联社11月12日电，上期所原油期货2612合约夜盘收涨1.54%，报607.30元人民币/桶。沪金夜盘收跌1.3%，沪",
       "firstSeenAt": "2026-11-04T19:54:55.710Z",
-      "lastSeenAt": "2026-11-12T08:00:42.399Z",
+      "lastSeenAt": "2026-11-12T16:57:51.489Z",
       "latestItemPublishedAt": "2026-11-11T18:31:30.000Z",
       "primaryItemId": "news_d0c6159fc1df",
       "evidenceItemIds": [
@@ -281,27 +281,11 @@
       "latestProgress": "11月12日夜盘收盘，原油涨1.54%，沪金跌1.3%、沪银涨0.22%。"
     },
     {
-      "eventId": "event_7655cc8d2b41",
-      "clusterVersion": 2,
-      "title": "LME期铜收涨138美元",
-      "firstSeenAt": "2026-11-11T19:44:36.999Z",
-      "lastSeenAt": "2026-11-12T08:00:42.399Z",
-      "latestItemPublishedAt": "2026-11-11T17:53:18.000Z",
-      "primaryItemId": "news_fbe20197d60a",
-      "evidenceItemIds": [
-        "news_fbe20197d60a",
-        "news_bb3a35295765"
-      ],
-      "status": "developing",
-      "summary": "LME期铜收涨138美元，反映市场对铜需求前景的乐观预期",
-      "latestProgress": "2026年11月11日LME期铜收盘上涨138美元"
-    },
-    {
       "eventId": "event_9e320dba578d",
       "clusterVersion": 2,
       "title": "华尔街紧急上调利率预期！美股最大风险变成美联储？",
       "firstSeenAt": "2026-11-06T07:06:11.933Z",
-      "lastSeenAt": "2026-11-12T08:00:42.399Z",
+      "lastSeenAt": "2026-11-12T16:57:51.489Z",
       "latestItemPublishedAt": "2026-11-12T00:58:39.000Z",
       "primaryItemId": "news_4ce6caf10c53",
       "evidenceItemIds": [
@@ -332,11 +316,80 @@
         "news_d9c15b49fcf9",
         "news_b171f3297ac9",
         "news_4ce6caf10c53",
-        "news_f658cedb904c"
+        "news_f658cedb904c",
+        "news_150b08451009",
+        "news_282afc0a97e8"
       ],
       "status": "developing",
       "summary": "华尔街紧急上调利率预期，美联储政策被视为美股最大风险。",
       "latestProgress": "华尔街已紧急上调利率预期，市场担忧美联储政策冲击美股。"
+    },
+    {
+      "eventId": "event_a4c277bef24a",
+      "clusterVersion": 2,
+      "title": "中国证监会同意氢氧化锂期货和期权注册",
+      "firstSeenAt": "2026-11-06T12:07:36.692Z",
+      "lastSeenAt": "2026-11-12T16:57:51.489Z",
+      "latestItemPublishedAt": "2026-11-05T23:28:09.000Z",
+      "primaryItemId": "news_0e0e861c68d3",
+      "evidenceItemIds": [
+        "news_f29e9054dccc",
+        "news_52303c0c72da",
+        "news_0e0e861c68d3",
+        "news_ea0c0a809eb4",
+        "news_63e9f32c1023"
+      ],
+      "status": "developing",
+      "summary": "中国证监会2026年11月5日同意氢氧化锂期货和期权注册，同日核准葵花籽油期货期权注册。",
+      "latestProgress": "2026年11月5日证监会同步核准氢氧化锂、葵花籽油期货及期权注册。"
+    },
+    {
+      "eventId": "event_823f626108ed",
+      "clusterVersion": 2,
+      "title": "特朗普称美国不需要与伊朗达成协议，油价直线拉升",
+      "firstSeenAt": "2026-11-12T16:57:51.489Z",
+      "lastSeenAt": "2026-11-12T16:57:51.489Z",
+      "latestItemPublishedAt": "2026-11-12T13:20:55.000Z",
+      "primaryItemId": "news_020c9d135b1b",
+      "evidenceItemIds": [
+        "news_020c9d135b1b",
+        "news_c49e1a2a3a93"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_978010484107",
+      "clusterVersion": 2,
+      "title": "英国2年期国债收益率上升7个基点至4.98%，为2023年10月以来最高。",
+      "firstSeenAt": "2026-11-12T16:57:51.489Z",
+      "lastSeenAt": "2026-11-12T16:57:51.489Z",
+      "latestItemPublishedAt": "2026-11-12T13:18:48.000Z",
+      "primaryItemId": "news_e4067b8bf71f",
+      "evidenceItemIds": [
+        "news_e4067b8bf71f",
+        "news_58e5d71cf58b"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_7655cc8d2b41",
+      "clusterVersion": 2,
+      "title": "LME期铜收涨138美元",
+      "firstSeenAt": "2026-11-11T19:44:36.999Z",
+      "lastSeenAt": "2026-11-12T08:00:42.399Z",
+      "latestItemPublishedAt": "2026-11-11T17:53:18.000Z",
+      "primaryItemId": "news_fbe20197d60a",
+      "evidenceItemIds": [
+        "news_fbe20197d60a",
+        "news_bb3a35295765"
+      ],
+      "status": "developing",
+      "summary": "LME期铜收涨138美元，反映市场对铜需求前景的乐观预期",
+      "latestProgress": "2026年11月11日LME期铜收盘上涨138美元"
     },
     {
       "eventId": "event_6e8583a40fc4",
@@ -401,25 +454,6 @@
       "status": "developing",
       "summary": "珠免集团筹划收购免税公司剩余49%股权，股票12日起停牌",
       "latestProgress": "珠免集团披露拟购买免税公司剩余49%股权，股票自12日起停牌"
-    },
-    {
-      "eventId": "event_a4c277bef24a",
-      "clusterVersion": 2,
-      "title": "中国证监会同意氢氧化锂期货和期权注册",
-      "firstSeenAt": "2026-11-06T12:07:36.692Z",
-      "lastSeenAt": "2026-11-11T19:44:36.999Z",
-      "latestItemPublishedAt": "2026-11-05T23:28:09.000Z",
-      "primaryItemId": "news_0e0e861c68d3",
-      "evidenceItemIds": [
-        "news_f29e9054dccc",
-        "news_52303c0c72da",
-        "news_0e0e861c68d3",
-        "news_ea0c0a809eb4",
-        "news_63e9f32c1023"
-      ],
-      "status": "developing",
-      "summary": "中国证监会2026年11月5日同意氢氧化锂期货和期权注册，同日核准葵花籽油期货期权注册。",
-      "latestProgress": "2026年11月5日证监会同步核准氢氧化锂、葵花籽油期货及期权注册。"
     },
     {
       "eventId": "event_2d62b41df74b",

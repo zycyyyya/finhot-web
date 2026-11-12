@@ -334,6 +334,8 @@ model: step-3.7-flash
 
 这些约束都有契约测试（`tests/ci-workflow.test.js`）锁着，包括「workflow 里不允许出现裸 `git push`」和「脚本必须是 LF 换行」。
 
+> **改了 `update.yml` 之后，别只看 Actions 页面。** workflow 文件解析失败时**不会产生任何运行记录**，页面上一切照旧，但定时任务其实已经全停。唯一快的判据是调一次 `workflow_dispatch` 接口，返回 `204` 才算文件仍被 GitHub 正确解析；返回 `422`（`Workflow does not have 'workflow_dispatch' trigger`）就是文件坏了。2026-11-12 踩过一次：把某 step 的 `run` 从 block scalar 改成单行，值里带着 `chore: persist ...`，而 YAML 的 plain scalar 里「冒号 + 空格」是禁止的，整行被解析成映射，文件当场作废。这类错误正则抓不住，所以测试直接交给解析器。
+
 ### 调度延迟与监控
 
 GitHub 自带的 `schedule` 是 **best-effort 派发，不是精确时钟**。本仓库 2026-09 至 2026-10 连续 40+ 次运行实测：每个槽位实际启动时间比计划晚 **5.3–6.7 小时**，且每天 4 个槽位通常只有 2–3 个真正被派发。这是平台侧行为，与站点代码无关。

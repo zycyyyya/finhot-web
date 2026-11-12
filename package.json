@@ -1,4 +1,4 @@
-﻿{
+{
   "name": "finhot-web",
   "version": "2.7.0",
   "private": true,
@@ -13,5 +13,8 @@
   },
   "dependencies": {
     "xml2js": "^0.6.0"
+  },
+  "devDependencies": {
+    "js-yaml": "^5.5.0"
   }
 }

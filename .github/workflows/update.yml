@@ -158,7 +158,11 @@ jobs:
 
       - name: Persist alert state after failed run
         if: failure() && hashFiles('data/alert-state.json') != ''
-        run: bash scripts/ci-push.sh "chore: persist finhot alert state" data/alert-state.json
+        # 必须用 block scalar：单行 run 里写 "chore: persist ..." 会踩 YAML 的
+        # plain scalar 规则——冒号加空格是禁止的，整行会被解析成映射，
+        # 结果是整个 workflow 文件失效，连带定时任务一起停掉。
+        run: |
+          bash scripts/ci-push.sh "chore: persist finhot alert state" data/alert-state.json
 
       - name: Commit updated data when changed
         if: success()

@@ -75,4 +75,56 @@ assert.ok(
   'ci-push.sh 必须是 LF 换行，否则 CI 上 bash 无法执行'
 );
 
+// 必须真解析 YAML，不能只看字符串。
+// 2026-11-12 把一处 run 从 block scalar 改成单行时写了
+//   run: bash scripts/ci-push.sh "chore: persist ..." data/alert-state.json
+// YAML 的 plain scalar 里「冒号 + 空格」是禁止的，整行被当成映射，
+// 结果是 bad indentation of a mapping entry，整个 workflow 文件失效：
+// 定时任务全部停跑，workflow_dispatch 接口报 422
+// "Workflow does not have 'workflow_dispatch' trigger"。
+// 正则永远盖不住这类错误，必须交给解析器。实测旧版解析报 (161:44)。
+const yaml = require('js-yaml');
+
+const workflows = ['update.yml', 'watchdog.yml'];
+workflows.forEach(name => {
+  const file = path.join(root, '.github/workflows', name);
+  const raw = fs.readFileSync(file, 'utf8');
+  let doc;
+  try {
+    doc = yaml.load(raw);
+  } catch (e) {
+    assert.fail(`.github/workflows/${name} YAML 解析失败：${e.message.split('\n')[0]}`);
+  }
+  assert.ok(doc && typeof doc === 'object', `${name} 解析结果必须是对象`);
+  const on = doc.on || doc[true];
+  assert.ok(on && typeof on === 'object', `${name} 的 on 必须可解析为映射`);
+  // 注意用 "键是否存在" 而不是 assert.ok(on.workflow_dispatch)：
+  // `workflow_dispatch:` 后面没有配置任何输入，解析出来是 null，
+  // 用真值判断会把一个完全正常的 workflow 判成失败。
+  assert.ok(
+    Object.prototype.hasOwnProperty.call(on, 'workflow_dispatch'),
+    `${name} 必须保留 workflow_dispatch，否则无法手动补跑`
+  );
+  // update.yml 定要靠 schedule 定时跑，触发器丢了就等于站点停更。
+  if (name === 'update.yml') {
+    assert.ok(
+      Object.prototype.hasOwnProperty.call(on, 'schedule'),
+      'update.yml 必须保留 schedule 触发器'
+    );
+  }
+  assert.ok(doc.jobs && Object.keys(doc.jobs).length > 0, `${name} 必须有 job`);
+
+  // 每个 step 的 run 必须是可执行字符串，而不是被 YAML 切碎的映射。
+  Object.entries(doc.jobs).forEach(([jobId, job]) => {
+    (job.steps || []).forEach((step, i) => {
+      if (step.run === undefined) return;
+      assert.strictEqual(
+        typeof step.run, 'string',
+        `${name} ${jobId} 第 ${i + 1} 个 step 的 run 被解析成了 ${typeof step.run}，` +
+        '单行 run 里不要出现「冒号+空格」'
+      );
+    });
+  });
+});
+
 console.log('ci-workflow tests passed');

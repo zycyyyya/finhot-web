@@ -3,7 +3,8 @@
  * 共享 LLM 客户端（OpenAI 兼容 /v1/chat/completions）。
  *
  * 多提供方可配置：
- * - 默认 SenseNova（token.sensenova.cn，deepseek-v4-flash），沿用 DEEPSEEK_API_KEY；
+ * - 默认 SenseNova（token.sensenova.cn，deepseek-flash 即 DeepSeek V4.1 Flash），沿用 DEEPSEEK_API_KEY；
+ *   v4 旧 ID `deepseek-v4-flash` 于 2026-11-24 下线，已切换。
  * - 可用 FINHOT_LLM_BASE_URL + FINHOT_LLM_API_KEY + FINHOT_LLM_MODEL 切到任意兼容端点
  *   （实测过 LongCat：https://api.longcat.chat/openai/v1/chat/completions，
  *    模型 LongCat-2.5-Preview，额度到 2026-10-25）。
@@ -18,7 +19,7 @@ const https = require('https');
 
 const DEFAULT_HOST = 'token.sensenova.cn';
 const DEFAULT_PATH = '/v1/chat/completions';
-const DEFAULT_MODEL = 'deepseek-v4-flash';
+const DEFAULT_MODEL = 'deepseek-flash';
 // 各渠道的默认模型。不能统一回落到 DEFAULT_MODEL——那是 SenseNova 的模型名，
 // 发给 StepFun 会直接「模型不存在」。渠道没给 model 时用这里对应的值。
 const CHANNEL_DEFAULT_MODELS = {

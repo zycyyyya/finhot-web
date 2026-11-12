@@ -117,7 +117,7 @@ assert.strictEqual(coerceScore('abc'), null);
   const r1 = await callChat([{ role: 'user', content: 'hi' }], {
     apiKey: 'k',
     fetchImpl: async (messages, opts) => {
-      assert.strictEqual(opts.model, 'deepseek-v4-flash', '默认模型');
+      assert.strictEqual(opts.model, 'deepseek-flash', '默认模型（V4.1，旧 ID 于 2026-11-24 下线）');
       return '{"attentionScore": 60}';
     },
   });
@@ -380,8 +380,8 @@ assert.strictEqual(coerceScore('abc'), null);
   // 渠道没给 model 时必须回落到本渠道默认模型，不能跨渠道复用 deepseek 名
   const noModel = resolveLLMConfig({ STEPFUN_API_KEY: 'sk-x', DEEPSEEK_API_KEY: 'sk-sensenova' });
   assert.strictEqual(noModel.channels[0].model, 'step-3.7-flash',
-    'StepFun 未给 model 时应用 StepFun 默认模型，不能是 deepseek-v4-flash');
-  assert.strictEqual(noModel.channels[1].model, 'deepseek-v4-flash', 'SenseNova 用自己的默认模型');
+    'StepFun 未给 model 时应用 StepFun 默认模型，不能是 deepseek-flash');
+  assert.strictEqual(noModel.channels[1].model, 'deepseek-flash', 'SenseNova 用自己的默认模型');
 
   // === resolveLLMConfig ===
   const custom = resolveLLMConfig({

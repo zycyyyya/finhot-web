@@ -59,7 +59,7 @@ const {
   fetchZhihu,
 } = require('./zhihu');
 const { fetchHuibaoxian } = require('./huibaoxian');
-const { resolveLLMConfig } = require('./llm');
+const { DEFAULT_MODEL, resolveLLMConfig } = require('./llm');
 const {
   applyLLMScores,
   resolveOptions: resolveLLMSelectOptions,
@@ -717,13 +717,23 @@ function httpsPost(host, path, data, apiKey, timeout) {
 
 async function callLLM(messages, apiKey, maxTokens) {
   const raw = await httpsPost(LLM_API_HOST, LLM_API_PATH, {
-    model: 'deepseek-v4-flash',
+    // 模型名只在 llm.js 维护一份：写死在这里的话，下次厂商换 ID 又要改两个地方。
+    model: DEFAULT_MODEL,
     messages,
     temperature: 0.7,
-    max_tokens: maxTokens || 3500,
+    max_tokens: maxTokens || 16000,
   }, apiKey, LLM_TIMEOUT_MS);
   const data = JSON.parse(raw);
-  return data.choices[0].message.content;
+  const choice = data.choices && data.choices[0];
+  const content = choice && choice.message && choice.message.content;
+  // 空 content 必须显式报错。之前直接 return，调用方拿到 '' 交给 extractJSON 会
+  // 静默得到 {}，于是所有板块回落到规则模板、而 generatedBy 仍标成 'llm'——
+  // 界面看起来是 AI 分析，其实是关键词模板。实测 max_tokens=3000 时就是这个结果：
+  // finish_reason=length，completion_tokens 打满 3000，content 长度 0。
+  if (typeof content !== 'string' || !content.trim()) {
+    throw new Error(`LLM returned empty content (finish_reason=${choice && choice.finish_reason})`);
+  }
+  return content;
 }
 
 async function callLLMWithRateLimitRetry(messages, apiKey, maxTokens, label) {
@@ -799,8 +809,13 @@ async function generateAIAnalysisWithLLM(items, apiKey, macroContext) {
   ];
   let parsed1 = {};
   try {
-    const raw1 = await callLLMWithRateLimitRetry(call1Messages, apiKey, 3000, 'call 1/2');
+    // max_tokens 必须给足：模型把推理量也算进配额，3000 实测会被 reasoning 吃光，
+    // 返回空 content。max_tokens 是上限、不是预生成量，调高不额外计费。
+    const raw1 = await callLLMWithRateLimitRetry(call1Messages, apiKey, 16000, 'call 1/2');
     parsed1 = extractJSON(raw1, {});
+    if (!Object.keys(parsed1).length) {
+      console.error('[llm] call 1/2 returned unparsable JSON; those sections will use rules');
+    }
   } catch (error) {
     console.error(`[llm] call 1/2 failed: ${error.message}; affected sections will use rules`);
   }
@@ -814,8 +829,11 @@ async function generateAIAnalysisWithLLM(items, apiKey, macroContext) {
   let parsed2 = {};
   try {
     await new Promise(resolve => setTimeout(resolve, 5000));
-    const raw2 = await callLLMWithRateLimitRetry(call2Messages, apiKey, 1500, 'call 2/2');
+    const raw2 = await callLLMWithRateLimitRetry(call2Messages, apiKey, 8000, 'call 2/2');
     parsed2 = extractJSON(raw2, {});
+    if (!Object.keys(parsed2).length) {
+      console.error('[llm] call 2/2 returned unparsable JSON; those sections will use rules');
+    }
   } catch (error) {
     console.error(`[llm] call 2/2 failed: ${error.message}; affected sections will use rules`);
   }
@@ -855,6 +873,13 @@ async function generateAIAnalysisWithFallback(items, eventClusters, cachedAnalys
     try {
       console.error('[llm] generating AI analysis with SenseNova API...');
       const result = await generateAIAnalysisWithLLM(items, apiKey, macroContext);
+      // 两次调用都没拿到可用 JSON 时 result 是 {}，内容其实全部来自规则兜底。
+      // 这种情况必须标 rules：否则界面写着「AI 生成」，读者看到的却是关键词模板，
+      // 而且从外部完全无法分辨——这是最容易长期潜伏的一类故障。
+      if (!result || !Object.keys(result).length) {
+        console.error('[llm] no usable section returned, marking analysis as rules');
+        return normalizeAIAnalysis(ruleBased, items, ruleBased, 'rules', eventClusters);
+      }
       const normalized = normalizeAIAnalysis(result, items, ruleBased, 'llm', eventClusters);
       console.error('[llm] AI analysis generated and evidence-validated successfully');
       return normalized;

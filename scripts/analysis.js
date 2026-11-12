@@ -358,6 +358,21 @@ function normalizeList(value, maxItems, normalizeItem, fallback) {
   return value.slice(0, maxItems).map(normalizeItem).filter(Boolean);
 }
 
+// 总评按字数硬截断会把话说一半，读起来像页面出错。
+// 优先在长度内的最后一个句末标点收尾；断点太靠前就放弃，宁可硬截。
+function clipProse(value, maxLength) {
+  const raw = typeof value === 'string' ? value.trim() : '';
+  if (raw.length <= maxLength) return raw;
+  const head = raw.slice(0, maxLength);
+  const cut = Math.max(
+    head.lastIndexOf('。'),
+    head.lastIndexOf('；'),
+    head.lastIndexOf('！'),
+    head.lastIndexOf('？')
+  );
+  return cut >= maxLength * 0.6 ? head.slice(0, cut + 1) : head;
+}
+
 function normalizeAIAnalysis(result, items, fallback, generatedBy, eventClusters) {
   const source = result && typeof result === 'object' ? result : {};
   const safeFallback = fallback && typeof fallback === 'object' ? fallback : {};
@@ -392,9 +407,23 @@ function normalizeAIAnalysis(result, items, fallback, generatedBy, eventClusters
       items: normalizeList(raw.items, 3, entry => normalizeEvidenceObject(entry, [['title', 80], ['impact', 240], ['suggestion', 240]]), []),
     };
   });
+  // 今日主线是全文最容易写成「看着像洞察、其实全是套话」的一段，
+  // 所以它比别的板块多两道闸：必须有正文，且 LLM 模式下必须有原文支撑。
+  // 规则兜底拼不出真正的串联，因此这里刻意不提供 fallback ——
+  // 拿不到就返回 null，让前端整块不渲染，而不是拿拼接文案冒充分析。
+  const takeawayRaw = source.dailyTakeaway && typeof source.dailyTakeaway === 'object' ? source.dailyTakeaway : null;
+  const takeawayText = typeof source.dailyTakeaway === 'string'
+    ? source.dailyTakeaway
+    : (takeawayRaw ? takeawayRaw.text : '');
+  const takeawayBody = clipProse(takeawayText, 180);
+  const takeawayEvidence = evidence(takeawayRaw && takeawayRaw.evidenceItemIds, validIds, []);
+  const dailyTakeaway = takeawayBody && (generatedBy !== 'llm' || takeawayEvidence.length > 0)
+    ? { text: takeawayBody, evidenceItemIds: takeawayEvidence }
+    : null;
   return {
     schemaVersion: '2.0',
     generatedBy: generatedBy === 'llm' ? 'llm' : 'rules',
+    dailyTakeaway,
     eventClusters: Array.isArray(eventClusters) ? eventClusters.slice(0, 10) : clusterEvents(items),
     dailySummary: {
       highlights: normalizeList(daily.highlights, 4, entry => {
@@ -445,6 +474,7 @@ module.exports = {
   businessCurationStats,
   canonicalizeUrl,
   clusterEvents,
+  clipProse,
   normalizeAIAnalysis,
   selectFeaturedItems,
   stableItemId,

@@ -26,6 +26,7 @@
       <p class="report-lead" id="reportLead"></p>
     </div>
     <div class="divider"></div>
+    <div id="takeawayArea"></div>
     <div id="dailySummaryArea"></div>
     <div class="divider"></div>
     <div id="aiAnalysisArea"></div>
@@ -87,6 +88,26 @@
     : reportDate.toLocaleDateString('zh-CN', { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' });
 
   document.getElementById('reportLead').textContent = data.lead || '';
+
+  // === 今日主线（每日一条，串联当日多条资讯）===
+  // 只有拿到 LLM 写出且带原文支撑的正文才渲染：这块最像「分析」，
+  // 也最容易被套话糊弄，宁可空着也不放拼接文案。
+  (function renderTakeaway(analysis) {
+    var area = document.getElementById('takeawayArea');
+    if (!area) return;
+    var takeaway = analysis && analysis.dailyTakeaway;
+    var body = takeaway && typeof takeaway.text === 'string' ? takeaway.text.trim() : '';
+    if (!body) {
+      area.innerHTML = '';
+      return;
+    }
+    var html = '<div class="daily-takeaway">';
+    html += '  <div class="daily-takeaway-label">今日主线</div>';
+    html += '  <p class="daily-takeaway-text">' + escapeHtml(body) + '</p>';
+    html += renderEvidence(takeaway.evidenceItemIds);
+    html += '</div>';
+    area.innerHTML = html;
+  })(data.aiAnalysis);
 
   // === Daily Summary (3-line takeaways) ===
   (function renderSummary(analysis) {

@@ -8,6 +8,7 @@ const {
   businessCurationStats,
   canonicalizeUrl,
   clusterEvents,
+  clipProse,
   normalizeAIAnalysis,
   stableItemId,
 } = require('../scripts/analysis');
@@ -152,5 +153,42 @@ assert.strictEqual(mixedFeatured.filter(item => item.evidenceType !== 'ugc_opini
 const ugcOnlyPool = scoreBuilders('ugc_opinion', 80, 'o');
 applyBusinessCuration(ugcOnlyPool, 24);
 assert.strictEqual(ugcOnlyPool.filter(item => item.selectedForFeatured).length, 24);
+
+// === 今日主线（dailyTakeaway）===
+
+// LLM 给出正文且有原文支撑时保留，无效 ID 剔除。
+const withTakeaway = normalizeAIAnalysis({
+  dailyTakeaway: {
+    text: '央行降息落地后债市先反应，银行理财与保险负债端成本预期同步下修。',
+    evidenceItemIds: ['news_a00000000001', 'news_a00000000002', 'bad'],
+  },
+}, items, fallback, 'llm');
+assert.ok(withTakeaway.dailyTakeaway.text.length > 0);
+assert.deepStrictEqual(withTakeaway.dailyTakeaway.evidenceItemIds, ['news_a00000000001', 'news_a00000000002']);
+
+// 没有原文支撑的总评等于无源结论，LLM 模式下必须整条丢弃。
+const unsourcedTakeaway = normalizeAIAnalysis({
+  dailyTakeaway: { text: '今日主线分散，各板块方向不一。', evidenceItemIds: ['invalid'] },
+}, items, fallback, 'llm');
+assert.strictEqual(unsourcedTakeaway.dailyTakeaway, null, 'LLM 总评缺原文支撑时必须丢弃');
+
+// 超长正文要在句末收尾：说到一半被切断，读起来像页面出错。
+const longTakeaway = normalizeAIAnalysis({
+  dailyTakeaway: { text: '甲。'.repeat(130), evidenceItemIds: ['news_a00000000001'] },
+}, items, fallback, 'llm');
+assert.ok(longTakeaway.dailyTakeaway.text.length <= 180);
+assert.ok(longTakeaway.dailyTakeaway.text.endsWith('。'), '截断必须落在句末标点');
+
+// 空正文与非对象容器不产生空壳区块。
+assert.strictEqual(normalizeAIAnalysis({ dailyTakeaway: { text: '   ' } }, items, fallback, 'llm').dailyTakeaway, null);
+assert.strictEqual(normalizeAIAnalysis({ dailyTakeaway: [] }, items, fallback, 'llm').dailyTakeaway, null);
+
+// 规则兜底拼不出真正的串联，所以这条不许有 fallback 版本。
+assert.strictEqual(normalizeAIAnalysis({}, items, fallback, 'rules').dailyTakeaway, null, '规则模式不生成总评');
+
+// clipProse：断点太靠前时宁可硬截，也不返回只剩半句主语的片段。
+assert.strictEqual(clipProse('甲'.repeat(200), 180).length, 180, '无标点长文按长度硬截');
+assert.strictEqual(clipProse('短句。', 180), '短句。', '未超长时原样返回');
+assert.strictEqual(clipProse('甲'.repeat(120) + '。' + '乙'.repeat(120), 180).endsWith('。'), true);
 
 console.log('analysis tests passed');

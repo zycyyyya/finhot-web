@@ -1338,6 +1338,38 @@ a {
   }
 }
 
+/* === 今日主线（整页最顶部的串联总评）=== */
+/* 这是每天唯一一条「把几件事连起来讲」的段落，视觉权重应该高于下面的
+   分点摘要，又不能抢过标题。用左侧竖条 + 极淡蓝底把它框成一段引言。 */
+.daily-takeaway {
+  position: relative;
+  padding: 16px 18px 16px 20px;
+  border-radius: var(--radius-md);
+  background: rgba(59, 130, 246, 0.07);
+  border: 1px solid rgba(59, 130, 246, 0.16);
+  border-left: 3px solid var(--accent-blue);
+}
+
+.daily-takeaway-label {
+  display: inline-block;
+  margin-bottom: 8px;
+  padding: 2px 8px;
+  border-radius: var(--radius-full);
+  background: rgba(59, 130, 246, 0.16);
+  color: var(--accent-blue);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+}
+
+.daily-takeaway-text {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.9;
+  color: var(--text-primary);
+  /* 中文正文 15px 下每行约 40 字，三到四行读完，符合 150 字的体量。 */
+}
+
 /* === Daily Summary Highlight === */
 .daily-highlights {
   display: flex;

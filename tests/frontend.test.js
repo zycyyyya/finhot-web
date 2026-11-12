@@ -102,4 +102,19 @@ assert.ok(!indexHtml.includes('if (ta > cap) ta = cap;'),
 assert.ok(!indexHtml.includes('function pad2(n)'),
   'pad2 became dead code after healing was introduced');
 
+// === 今日主线（daily.html）===
+// dailyHtml 与 styles 已在文件顶部读取，这里直接复用。
+// 总评必须渲染在分点摘要之前：它是当天的总纲，不是补充说明。
+assert.ok(dailyHtml.indexOf('id="takeawayArea"') > -1, 'daily.html must have a takeaway container');
+assert.ok(dailyHtml.indexOf('id="takeawayArea"') < dailyHtml.indexOf('id="dailySummaryArea"'),
+  'takeaway must come before the point-by-point summary');
+assert.ok(dailyHtml.includes('renderTakeaway'), 'daily.html must render the takeaway block');
+// 没有总评时整块不渲染，不留空壳。
+assert.ok(/if \(!body\) \{\s*area\.innerHTML = '';\s*return;/.test(dailyHtml),
+  'empty takeaway must clear the container, not leave an empty shell');
+// 正文字段名必须与 normalizer 输出一致，否则永远取不到值。
+assert.ok(dailyHtml.includes('analysis.dailyTakeaway'), 'daily.html must read analysis.dailyTakeaway');
+assert.ok(/escapeHtml\(body\)/.test(dailyHtml), 'takeaway text must be escaped before injection');
+assert.ok(styles.includes('.daily-takeaway-text'), 'takeaway needs its own typography rule');
+
 console.log('frontend tests passed');

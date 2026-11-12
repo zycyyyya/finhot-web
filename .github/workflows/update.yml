@@ -158,27 +158,15 @@ jobs:
 
       - name: Persist alert state after failed run
         if: failure() && hashFiles('data/alert-state.json') != ''
-        run: |
-          if git diff --quiet -- data/alert-state.json; then
-            exit 0
-          fi
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/alert-state.json
-          git commit -m "chore: persist finhot alert state"
-          git push
+        run: bash scripts/ci-push.sh "chore: persist finhot alert state" data/alert-state.json
 
       - name: Commit updated data when changed
         if: success()
         run: |
           # data/zhihu-usage.json 记录知乎开放平台的当日调用次数。提交它可以让
           # 一天内的 4 次运行共享同一份配额账本，避免手动重跑打穿 5000 次/天的上限。
-          if git diff --quiet -- data.js data/history.json data/events.json data/alert-state.json data/macro.json data/zhihu-usage.json; then
-            echo "No data changes"
-            exit 0
-          fi
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data.js data/history.json data/events.json data/alert-state.json data/macro.json data/zhihu-usage.json
-          git commit -m "chore: update finhot data"
-          git push
+          # 推送走 ci-push.sh：本轮要跑十几分钟，期间任何外部推送都会让裸的
+          # git push 被拒，把整轮取数白扔掉。
+          bash scripts/ci-push.sh "chore: update finhot data" \
+            data.js data/history.json data/events.json data/alert-state.json \
+            data/macro.json data/zhihu-usage.json

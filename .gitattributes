@@ -1,0 +1,4 @@
+# CI 里要直接执行的 shell 脚本，必须全平台都用 LF。
+# 本机 core.autocrlf=true 时，不加这条会在检出后变成 CRLF，
+# CI（Linux）上不一定受影响，但本地跑脚本或跑契约测试会直接失败。
+*.sh text eol=lf

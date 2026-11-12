@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-12T16:57:51.489Z",
+  "generatedAt": "2026-11-12T20:03:09.045Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -9,7 +9,7 @@
       "clusterVersion": 2,
       "title": "美股回调溢价难降，跨境ETF“门票”究竟值多少",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-12T16:57:51.489Z",
+      "lastSeenAt": "2026-11-12T20:03:09.045Z",
       "latestItemPublishedAt": "2026-11-12T12:45:01.000Z",
       "primaryItemId": "news_723d0e089617",
       "evidenceItemIds": [
@@ -73,11 +73,10 @@
       "clusterVersion": 2,
       "title": "A股明年怎么走？多家龙头券商最新研判",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-12T16:57:51.489Z",
+      "lastSeenAt": "2026-11-12T20:03:09.045Z",
       "latestItemPublishedAt": "2026-11-12T13:51:34.000Z",
       "primaryItemId": "news_2ea42c5e2879",
       "evidenceItemIds": [
-        "news_8c1bb1d3a5e1",
         "news_d3acb352b901",
         "news_6f891b042f64",
         "news_b4b557fcb708",
@@ -126,7 +125,8 @@
         "news_728f0622fb40",
         "news_2ea42c5e2879",
         "news_1c603ed23026",
-        "news_73bdeb29c44f"
+        "news_73bdeb29c44f",
+        "news_929206f468ef"
       ],
       "status": "developing",
       "summary": "东财陈果称A股半导体或已计入28年悲观预期，建议关注AI应用局部突破。",
@@ -135,11 +135,11 @@
     {
       "eventId": "event_c68d651d4ff9",
       "clusterVersion": 2,
-      "title": "港股异动 | 麦科医药-B(02335)再涨超10% 多款创新药研发迎来进展 MT1013完成III期全部受试者入组随访",
+      "title": "智通港股投资日志|11月13日",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-11-12T16:57:51.489Z",
+      "lastSeenAt": "2026-11-12T20:03:09.045Z",
       "latestItemPublishedAt": "2026-11-12T12:59:16.000Z",
-      "primaryItemId": "news_a632d0bccd2d",
+      "primaryItemId": "news_dec19cb92f15",
       "evidenceItemIds": [
         "news_3da5a4f78dc8",
         "news_88fd141087ee",
@@ -201,11 +201,10 @@
       "clusterVersion": 2,
       "title": "中金点评央行Q3货币政策执行报告：更重框架改革与防范风险",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-12T16:57:51.489Z",
-      "latestItemPublishedAt": "2026-11-12T07:01:21.000Z",
+      "lastSeenAt": "2026-11-12T20:03:09.045Z",
+      "latestItemPublishedAt": "2026-11-12T18:07:25.000Z",
       "primaryItemId": "news_314a3ea3cbaa",
       "evidenceItemIds": [
-        "news_210c0f1966c2",
         "news_4a290f0b85a0",
         "news_6c7c1e1ad3ff",
         "news_355e2696f96c",
@@ -254,7 +253,8 @@
         "news_9538d4f5bbcc",
         "news_cec05dba791b",
         "news_314a3ea3cbaa",
-        "news_6583c776c95f"
+        "news_6583c776c95f",
+        "news_0d1bd161627a"
       ],
       "status": "developing",
       "summary": "新加坡推出500吨央行级黄金储备托管服务，副总理称与香港非零和博弈。",
@@ -263,18 +263,19 @@
     {
       "eventId": "event_546632f4870c",
       "clusterVersion": 2,
-      "title": "财联社11月12日电，上期所原油期货2612合约夜盘收涨1.54%，报607.30元人民币/桶。沪金夜盘收跌1.3%，沪",
+      "title": "财联社11月13日电，上期所原油期货2612合约夜盘收涨1.65%，报617.90元人民币/桶。沪金夜盘收跌2.87%，",
       "firstSeenAt": "2026-11-04T19:54:55.710Z",
-      "lastSeenAt": "2026-11-12T16:57:51.489Z",
-      "latestItemPublishedAt": "2026-11-11T18:31:30.000Z",
-      "primaryItemId": "news_d0c6159fc1df",
+      "lastSeenAt": "2026-11-12T20:03:09.045Z",
+      "latestItemPublishedAt": "2026-11-12T18:30:43.000Z",
+      "primaryItemId": "news_fb3b6dde316d",
       "evidenceItemIds": [
         "news_814228fbcc07",
         "news_36b11212b5a1",
         "news_9b8abce3a34e",
         "news_b10d2e303d00",
         "news_74fd0c95a7aa",
-        "news_d0c6159fc1df"
+        "news_d0c6159fc1df",
+        "news_fb3b6dde316d"
       ],
       "status": "developing",
       "summary": "财联社消息，上期所原油期货2612合约夜盘收涨，沪金收跌、沪银收涨。",
@@ -283,11 +284,11 @@
     {
       "eventId": "event_9e320dba578d",
       "clusterVersion": 2,
-      "title": "华尔街紧急上调利率预期！美股最大风险变成美联储？",
+      "title": "【华尔街原声】美联储鲍曼：通胀压力持续，进一步加息需权衡经济成本",
       "firstSeenAt": "2026-11-06T07:06:11.933Z",
-      "lastSeenAt": "2026-11-12T16:57:51.489Z",
-      "latestItemPublishedAt": "2026-11-12T00:58:39.000Z",
-      "primaryItemId": "news_4ce6caf10c53",
+      "lastSeenAt": "2026-11-12T20:03:09.045Z",
+      "latestItemPublishedAt": "2026-11-12T12:53:48.000Z",
+      "primaryItemId": "news_2414ac0c3a8c",
       "evidenceItemIds": [
         "news_e3dfc68073f5",
         "news_db2f75a6b4f0",
@@ -318,7 +319,8 @@
         "news_4ce6caf10c53",
         "news_f658cedb904c",
         "news_150b08451009",
-        "news_282afc0a97e8"
+        "news_282afc0a97e8",
+        "news_17c9c3987748"
       ],
       "status": "developing",
       "summary": "华尔街紧急上调利率预期，美联储政策被视为美股最大风险。",
@@ -329,7 +331,7 @@
       "clusterVersion": 2,
       "title": "中国证监会同意氢氧化锂期货和期权注册",
       "firstSeenAt": "2026-11-06T12:07:36.692Z",
-      "lastSeenAt": "2026-11-12T16:57:51.489Z",
+      "lastSeenAt": "2026-11-12T20:03:09.045Z",
       "latestItemPublishedAt": "2026-11-05T23:28:09.000Z",
       "primaryItemId": "news_0e0e861c68d3",
       "evidenceItemIds": [
@@ -348,7 +350,7 @@
       "clusterVersion": 2,
       "title": "特朗普称美国不需要与伊朗达成协议，油价直线拉升",
       "firstSeenAt": "2026-11-12T16:57:51.489Z",
-      "lastSeenAt": "2026-11-12T16:57:51.489Z",
+      "lastSeenAt": "2026-11-12T20:03:09.045Z",
       "latestItemPublishedAt": "2026-11-12T13:20:55.000Z",
       "primaryItemId": "news_020c9d135b1b",
       "evidenceItemIds": [
@@ -364,12 +366,44 @@
       "clusterVersion": 2,
       "title": "英国2年期国债收益率上升7个基点至4.98%，为2023年10月以来最高。",
       "firstSeenAt": "2026-11-12T16:57:51.489Z",
-      "lastSeenAt": "2026-11-12T16:57:51.489Z",
+      "lastSeenAt": "2026-11-12T20:03:09.045Z",
       "latestItemPublishedAt": "2026-11-12T13:18:48.000Z",
       "primaryItemId": "news_e4067b8bf71f",
       "evidenceItemIds": [
         "news_e4067b8bf71f",
         "news_58e5d71cf58b"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_ce7afcbf8d35",
+      "clusterVersion": 2,
+      "title": "财联社11月13日电，恒生指数主连夜盘收跌0.29%，恒生科技指数主连夜盘收跌0.25%。",
+      "firstSeenAt": "2026-11-12T20:03:09.045Z",
+      "lastSeenAt": "2026-11-12T20:03:09.045Z",
+      "latestItemPublishedAt": "2026-11-12T19:04:24.000Z",
+      "primaryItemId": "news_2a02f9685137",
+      "evidenceItemIds": [
+        "news_2a02f9685137",
+        "news_567fea623fea"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_3411605a5439",
+      "clusterVersion": 2,
+      "title": "LME期铜收跌229美元",
+      "firstSeenAt": "2026-11-12T20:03:09.045Z",
+      "lastSeenAt": "2026-11-12T20:03:09.045Z",
+      "latestItemPublishedAt": "2026-11-12T17:52:58.000Z",
+      "primaryItemId": "news_2542eae7ecc6",
+      "evidenceItemIds": [
+        "news_2542eae7ecc6",
+        "news_52110800f747"
       ],
       "status": "developing",
       "summary": "",

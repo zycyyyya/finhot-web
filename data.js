@@ -1,5 +1,5 @@
 // finhot auto-generated data - powered by RSSHub + financial sources + Zhihu OpenAPI
-// Generated: 2026-11-12T16:57:51.489Z
+// Generated: 2026-11-12T20:03:09.045Z
 // Practitioner value scoring: relevance(30) + impact(25) + evidence(20) + recency(15) + actionability(10)
 // Source tier decides the selection gate only (S0 50 / S1 55 / S2 60 / S3 70), not the score.
 // P1 model selection: full mode double-scores via LLM (both passes >= FINHOT_LLM_GATE, default 60; displayed = average); any failure falls back to heuristic.
@@ -97,9 +97,705 @@ window.CATEGORY_CONFIG = {
 
 window.FINHOT_DATA = {
   "date": "2026-11-13",
-  "generatedAt": "2026-11-12T16:57:51.489Z",
-  "lead": "今日新增 140 条，共 150 条精选资讯",
+  "generatedAt": "2026-11-12T20:03:09.045Z",
+  "lead": "今日新增 35 条，共 150 条精选资讯",
   "items": [
+    {
+      "title": "SpaceX拟投资740亿美元建两大算力园区 着重强调“对所在社区有益”",
+      "sourceUrl": "https://www.cls.cn/detail/2533232",
+      "publishedAt": "2026-11-12T19:16:32.000Z",
+      "fetchedAt": "2026-11-12T20:02:20.240Z",
+      "timeConfidence": "source",
+      "summary": "财联社11月13日讯（编辑 史正丞）当地时间周四，全球商业航天与AI巨头SpaceX发布题为《建设未来》（Building the Future）的更新，宣布计划在得克萨斯州和亚利桑那州建设两座超级算力园区，投资合计超过740亿美元。\n\n（来源：公司官网）\n似乎是因为美国中期选举后的“风向变化”， SpaceX在公告中特别强调项目对所在社区的益处：得州园区将自行发电，并配套投资改善当地水务设施；亚",
+      "sourceName": "财联社",
+      "category": "research",
+      "tags": [
+        "研究报告"
+      ],
+      "evidenceType": "financial_media",
+      "discoveredVia": "RSSHub",
+      "id": "news_7f4d7e139a26",
+      "tier": "S3",
+      "sourceTier": "S3",
+      "sourceTierLabel": "快讯/观点线索",
+      "score": 53,
+      "rawScore": 53,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 12,
+        "impact": 8,
+        "evidence": 14,
+        "recency": 15,
+        "actionability": 4
+      },
+      "evidenceBreakdown": {
+        "namedSubject": 6,
+        "quantity": 5,
+        "explicitDate": 3
+      },
+      "noiseCaps": [],
+      "tierGate": 70,
+      "passesTierGate": false,
+      "confidence": "medium",
+      "why": [
+        "快讯线索，需结合原文判断",
+        "含机构、文号或可核对数据",
+        "时效性高"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 20,
+          "reasons": [
+            "含可核对要素"
+          ]
+        },
+        "marketEducation": {
+          "score": 20,
+          "reasons": [
+            "含可核对要素"
+          ]
+        },
+        "privateFundSales": {
+          "score": 20,
+          "reasons": [
+            "含可核对要素"
+          ]
+        }
+      },
+      "primaryScene": "insurance",
+      "selectedForFeatured": false,
+      "contentTags": [
+        "深度研究"
+      ],
+      "eventId": null
+    },
+    {
+      "title": "美国30年期国债发行需求不及预期 中标收益率高于发行前水平",
+      "sourceUrl": "https://www.cls.cn/detail/2533233",
+      "publishedAt": "2026-11-12T19:12:34.000Z",
+      "fetchedAt": "2026-11-12T20:00:52.008Z",
+      "timeConfidence": "source",
+      "summary": "【美国30年期国债发行需求不及预期 中标收益率高于发行前水平】财联社11月13日电，250亿美元30年期美国国债发行的中标收益率为5.441%，高于纽约时间下午1点投标截止时5.437%的发行前交易收益率，显示需求不及预期。当时该期限国债收益率日内上涨约9个基点，发行结果公布后仍维持这一跌幅；5年期和30年期国债收益率之差小幅扩大，但日内仍收窄约4个基点。一级交易商获配比例为11.4%，高于上次发",
+      "sourceName": "财联社",
+      "category": "industry",
+      "tags": [
+        "行业动态"
+      ],
+      "evidenceType": "news_flash",
+      "discoveredVia": "RSSHub",
+      "id": "news_2f68f2117e27",
+      "tier": "S3",
+      "sourceTier": "S3",
+      "sourceTierLabel": "快讯/观点线索",
+      "score": 30,
+      "rawScore": 53,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 12,
+        "impact": 8,
+        "evidence": 14,
+        "recency": 15,
+        "actionability": 4
+      },
+      "evidenceBreakdown": {
+        "namedSubject": 6,
+        "quantity": 5,
+        "explicitDate": 3
+      },
+      "noiseCaps": [
+        "无口径收益宣传"
+      ],
+      "tierGate": 70,
+      "passesTierGate": false,
+      "confidence": "medium",
+      "why": [
+        "快讯线索，需结合原文判断",
+        "含机构、文号或可核对数据",
+        "时效性高"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 20,
+          "reasons": [
+            "含可核对要素"
+          ]
+        },
+        "marketEducation": {
+          "score": 20,
+          "reasons": [
+            "含可核对要素"
+          ]
+        },
+        "privateFundSales": {
+          "score": 20,
+          "reasons": [
+            "含可核对要素"
+          ]
+        }
+      },
+      "primaryScene": "insurance",
+      "selectedForFeatured": false,
+      "contentTags": [
+        "行业动态",
+        "快讯"
+      ],
+      "eventId": null
+    },
+    {
+      "title": "财联社11月13日电，恒生指数主连夜盘收跌0.29%，恒生科技指数主连夜盘收跌0.25%。",
+      "sourceUrl": "https://www.cls.cn/detail/2533231",
+      "publishedAt": "2026-11-12T19:04:24.000Z",
+      "fetchedAt": "2026-11-12T20:00:52.008Z",
+      "timeConfidence": "source",
+      "summary": "财联社11月13日电，恒生指数主连夜盘收跌0.29%，恒生科技指数主连夜盘收跌0.25%。",
+      "sourceName": "财联社",
+      "category": "industry",
+      "tags": [
+        "行业动态"
+      ],
+      "evidenceType": "news_flash",
+      "discoveredVia": "RSSHub",
+      "id": "news_2a02f9685137",
+      "tier": "S3",
+      "sourceTier": "S3",
+      "sourceTierLabel": "快讯/观点线索",
+      "score": 53,
+      "rawScore": 53,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 12,
+        "impact": 8,
+        "evidence": 14,
+        "recency": 15,
+        "actionability": 4
+      },
+      "evidenceBreakdown": {
+        "namedSubject": 6,
+        "quantity": 5,
+        "explicitDate": 3
+      },
+      "noiseCaps": [],
+      "tierGate": 70,
+      "passesTierGate": false,
+      "confidence": "medium",
+      "why": [
+        "快讯线索，需结合原文判断",
+        "含机构、文号或可核对数据",
+        "时效性高"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 20,
+          "reasons": [
+            "含可核对要素"
+          ]
+        },
+        "marketEducation": {
+          "score": 42,
+          "reasons": [
+            "命中二级市场投教核心主题 1 项",
+            "含可核对要素"
+          ]
+        },
+        "privateFundSales": {
+          "score": 20,
+          "reasons": [
+            "含可核对要素"
+          ]
+        }
+      },
+      "primaryScene": "marketEducation",
+      "selectedForFeatured": false,
+      "contentTags": [
+        "行业动态",
+        "快讯"
+      ],
+      "eventId": "event_ce7afcbf8d35"
+    },
+    {
+      "title": "财联社11月13日电，上期所原油期货2612合约夜盘收涨1.65%，报617.90元人民币/桶。沪金夜盘收跌2.87%，沪银收跌3.43%。",
+      "sourceUrl": "https://www.cls.cn/detail/2533225",
+      "publishedAt": "2026-11-12T18:30:43.000Z",
+      "fetchedAt": "2026-11-12T20:00:52.008Z",
+      "timeConfidence": "source",
+      "summary": "财联社11月13日电，上期所原油期货2612合约夜盘收涨1.65%，报617.90元人民币/桶。沪金夜盘收跌2.87%，沪银收跌3.43%。",
+      "sourceName": "财联社",
+      "category": "industry",
+      "tags": [
+        "行业动态"
+      ],
+      "evidenceType": "news_flash",
+      "discoveredVia": "RSSHub",
+      "id": "news_fb3b6dde316d",
+      "tier": "S3",
+      "sourceTier": "S3",
+      "sourceTierLabel": "快讯/观点线索",
+      "score": 55,
+      "rawScore": 55,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 20,
+        "impact": 8,
+        "evidence": 8,
+        "recency": 15,
+        "actionability": 4
+      },
+      "evidenceBreakdown": {
+        "quantity": 5,
+        "explicitDate": 3
+      },
+      "noiseCaps": [],
+      "tierGate": 70,
+      "passesTierGate": false,
+      "confidence": "medium",
+      "why": [
+        "快讯线索，需结合原文判断",
+        "时效性高"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 17,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "marketEducation": {
+          "score": 17,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "privateFundSales": {
+          "score": 17,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        }
+      },
+      "primaryScene": "insurance",
+      "selectedForFeatured": false,
+      "contentTags": [
+        "行业动态",
+        "快讯"
+      ],
+      "eventId": "event_546632f4870c"
+    },
+    {
+      "title": "财联社11月13日电，美联储隔夜逆回购协议（RRP）周四使用规模为2.5亿美元，上个交易日（11月11日美债休市）报1.52亿美元。",
+      "sourceUrl": "https://www.cls.cn/detail/2533223",
+      "publishedAt": "2026-11-12T18:16:20.000Z",
+      "fetchedAt": "2026-11-12T20:00:52.008Z",
+      "timeConfidence": "source",
+      "summary": "财联社11月13日电，美联储隔夜逆回购协议（RRP）周四使用规模为2.5亿美元，上个交易日（11月11日美债休市）报1.52亿美元。",
+      "sourceName": "财联社",
+      "category": "industry",
+      "tags": [
+        "行业动态"
+      ],
+      "evidenceType": "news_flash",
+      "discoveredVia": "RSSHub",
+      "id": "news_2cbaef27eb5f",
+      "tier": "S3",
+      "sourceTier": "S3",
+      "sourceTierLabel": "快讯/观点线索",
+      "score": 53,
+      "rawScore": 53,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 12,
+        "impact": 8,
+        "evidence": 14,
+        "recency": 15,
+        "actionability": 4
+      },
+      "evidenceBreakdown": {
+        "namedSubject": 6,
+        "quantity": 5,
+        "explicitDate": 3
+      },
+      "noiseCaps": [],
+      "tierGate": 70,
+      "passesTierGate": false,
+      "confidence": "medium",
+      "why": [
+        "快讯线索，需结合原文判断",
+        "含机构、文号或可核对数据",
+        "时效性高"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 20,
+          "reasons": [
+            "含可核对要素"
+          ]
+        },
+        "marketEducation": {
+          "score": 20,
+          "reasons": [
+            "含可核对要素"
+          ]
+        },
+        "privateFundSales": {
+          "score": 20,
+          "reasons": [
+            "含可核对要素"
+          ]
+        }
+      },
+      "primaryScene": "insurance",
+      "selectedForFeatured": false,
+      "contentTags": [
+        "行业动态",
+        "快讯"
+      ],
+      "eventId": null
+    },
+    {
+      "title": "“AI央行”大地震，冲击会沿融资链传多远？",
+      "sourceUrl": "https://www.cls.cn/detail/2533216",
+      "publishedAt": "2026-11-12T18:07:25.000Z",
+      "fetchedAt": "2026-11-12T20:02:20.240Z",
+      "timeConfidence": "source",
+      "summary": "财联社11月13日讯（编辑 赵昊）英伟达首席执行官黄仁勋突然辞职，引发了一个令人担忧的问题：如果这家芯片巨头陷入困境，冲击会不会沿着它为支撑人工智能（AI）热潮而搭建的、环环相扣的金融网络蔓延？\n为推动AI行业发展，英伟达已向其他企业作出数千亿美元的财务承诺，获得了“AI央行”的称号。因此，一旦英伟达出现严重问题，可能给美国经济和金融市场带来深远冲击。\n早在7月，美国真正的央行——美联储官员就已讨",
+      "sourceName": "财联社",
+      "category": "research",
+      "tags": [
+        "研究报告"
+      ],
+      "evidenceType": "financial_media",
+      "discoveredVia": "RSSHub",
+      "id": "news_0d1bd161627a",
+      "tier": "S3",
+      "sourceTier": "S3",
+      "sourceTierLabel": "快讯/观点线索",
+      "score": 56,
+      "rawScore": 56,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 20,
+        "impact": 8,
+        "evidence": 9,
+        "recency": 15,
+        "actionability": 4
+      },
+      "evidenceBreakdown": {
+        "namedSubject": 6,
+        "explicitDate": 3
+      },
+      "noiseCaps": [],
+      "tierGate": 70,
+      "passesTierGate": false,
+      "confidence": "medium",
+      "why": [
+        "快讯线索，需结合原文判断",
+        "时效性高"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 17,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "marketEducation": {
+          "score": 61,
+          "reasons": [
+            "命中二级市场投教核心主题 2 项"
+          ]
+        },
+        "privateFundSales": {
+          "score": 26,
+          "reasons": [
+            "命中关联主题 1 项"
+          ]
+        }
+      },
+      "primaryScene": "marketEducation",
+      "selectedForFeatured": false,
+      "contentTags": [
+        "深度研究"
+      ],
+      "eventId": "event_2cf716748ce1"
+    },
+    {
+      "title": "财联社11月13日电，美国财政部拍卖250亿美元30年期国债，得标利率5.441%，投标倍数2.36（前次为2.54）。美国财政部拍卖四个月期国债，得标利率4.225%，投标倍数2...",
+      "sourceUrl": "https://www.cls.cn/detail/2533220",
+      "publishedAt": "2026-11-12T18:03:51.000Z",
+      "fetchedAt": "2026-11-12T20:00:52.008Z",
+      "timeConfidence": "source",
+      "summary": "财联社11月13日电，美国财政部拍卖250亿美元30年期国债，得标利率5.441%，投标倍数2.36（前次为2.54）。美国财政部拍卖四个月期国债，得标利率4.225%，投标倍数2.78。",
+      "sourceName": "财联社",
+      "category": "industry",
+      "tags": [
+        "行业动态"
+      ],
+      "evidenceType": "news_flash",
+      "discoveredVia": "RSSHub",
+      "id": "news_37f75f3a0ba1",
+      "tier": "S3",
+      "sourceTier": "S3",
+      "sourceTierLabel": "快讯/观点线索",
+      "score": 30,
+      "rawScore": 65,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 20,
+        "impact": 8,
+        "evidence": 14,
+        "recency": 15,
+        "actionability": 8
+      },
+      "evidenceBreakdown": {
+        "namedSubject": 6,
+        "quantity": 5,
+        "explicitDate": 3
+      },
+      "noiseCaps": [
+        "无口径收益宣传"
+      ],
+      "tierGate": 70,
+      "passesTierGate": false,
+      "confidence": "medium",
+      "why": [
+        "快讯线索，需结合原文判断",
+        "可转化为客户沟通或投研关注",
+        "含机构、文号或可核对数据"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 29,
+          "reasons": [
+            "命中关联主题 1 项",
+            "含可核对要素"
+          ]
+        },
+        "marketEducation": {
+          "score": 42,
+          "reasons": [
+            "命中二级市场投教核心主题 1 项",
+            "含可核对要素"
+          ]
+        },
+        "privateFundSales": {
+          "score": 20,
+          "reasons": [
+            "含可核对要素"
+          ]
+        }
+      },
+      "primaryScene": "marketEducation",
+      "selectedForFeatured": false,
+      "contentTags": [
+        "行业动态",
+        "快讯"
+      ],
+      "eventId": null
+    },
+    {
+      "title": "LME期铜收跌229美元",
+      "sourceUrl": "https://www.cls.cn/detail/2533217",
+      "publishedAt": "2026-11-12T17:52:58.000Z",
+      "fetchedAt": "2026-11-12T20:00:52.008Z",
+      "timeConfidence": "source",
+      "summary": "【LME期铜收跌229美元】财联社11月13日电，LME期铜收跌229美元，报13588美元/吨。LME期铝收跌38美元，报3030美元/吨。LME期锌收跌40美元，报3716美元/吨。LME期铅收涨4美元，报1886美元/吨。LME期镍收涨25美元，报16226美元/吨。LME期锡收涨124美元，报46652美元/吨。LME期钴收平，报33525美元/吨。",
+      "sourceName": "财联社",
+      "category": "industry",
+      "tags": [
+        "行业动态"
+      ],
+      "evidenceType": "news_flash",
+      "discoveredVia": "RSSHub",
+      "id": "news_2542eae7ecc6",
+      "tier": "S3",
+      "sourceTier": "S3",
+      "sourceTierLabel": "快讯/观点线索",
+      "score": 42,
+      "rawScore": 42,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 12,
+        "impact": 8,
+        "evidence": 3,
+        "recency": 15,
+        "actionability": 4
+      },
+      "evidenceBreakdown": {
+        "explicitDate": 3
+      },
+      "noiseCaps": [],
+      "tierGate": 70,
+      "passesTierGate": false,
+      "confidence": "low",
+      "why": [
+        "快讯线索，需结合原文判断",
+        "时效性高"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 14,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "marketEducation": {
+          "score": 14,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "privateFundSales": {
+          "score": 14,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        }
+      },
+      "primaryScene": "insurance",
+      "selectedForFeatured": false,
+      "contentTags": [
+        "行业动态",
+        "快讯"
+      ],
+      "eventId": "event_3411605a5439"
+    },
+    {
+      "title": "美国上周EIA原油库存增加466万桶",
+      "sourceUrl": "https://www.cls.cn/detail/2533209",
+      "publishedAt": "2026-11-12T17:04:19.000Z",
+      "fetchedAt": "2026-11-12T20:00:52.008Z",
+      "timeConfidence": "source",
+      "summary": "【美国上周EIA原油库存增加466万桶】财联社11月13日电，美国上周EIA原油库存增加466万桶，分析师预期减少85.260万桶，之前一周下降86.5万桶。EIA周度数据还显示：库欣地区原油库存增加10.6万桶至2736万桶；乙醇产量减少1.3万桶/日至113万桶/日；乙醇库存减少8.9万桶至2435万桶；取暖油库存增加33.5万桶至746万桶；原油净进口增加54.4万桶/日至324万桶/日；成",
+      "sourceName": "财联社",
+      "category": "industry",
+      "tags": [
+        "行业动态"
+      ],
+      "evidenceType": "news_flash",
+      "discoveredVia": "RSSHub",
+      "id": "news_2a0f749fd901",
+      "tier": "S3",
+      "sourceTier": "S3",
+      "sourceTierLabel": "快讯/观点线索",
+      "score": 53,
+      "rawScore": 53,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 12,
+        "impact": 8,
+        "evidence": 14,
+        "recency": 15,
+        "actionability": 4
+      },
+      "evidenceBreakdown": {
+        "namedSubject": 6,
+        "quantity": 5,
+        "explicitDate": 3
+      },
+      "noiseCaps": [],
+      "tierGate": 70,
+      "passesTierGate": false,
+      "confidence": "medium",
+      "why": [
+        "快讯线索，需结合原文判断",
+        "含机构、文号或可核对数据",
+        "时效性高"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 20,
+          "reasons": [
+            "含可核对要素"
+          ]
+        },
+        "marketEducation": {
+          "score": 20,
+          "reasons": [
+            "含可核对要素"
+          ]
+        },
+        "privateFundSales": {
+          "score": 20,
+          "reasons": [
+            "含可核对要素"
+          ]
+        }
+      },
+      "primaryScene": "insurance",
+      "selectedForFeatured": false,
+      "contentTags": [
+        "行业动态",
+        "快讯"
+      ],
+      "eventId": null
+    },
+    {
+      "title": "美联储：取消2027年10月利率会议",
+      "sourceUrl": "https://wallstreetcn.com/livenews/3199258",
+      "publishedAt": "2026-11-12T17:00:33.000Z",
+      "fetchedAt": "2026-11-12T20:00:16.548Z",
+      "timeConfidence": "source",
+      "summary": "美联储更新2027年联邦公开市场委员会（FOMC）会议日程，取消10月份利率会议。",
+      "sourceName": "华尔街见闻",
+      "category": "industry",
+      "tags": [
+        "行业动态"
+      ],
+      "evidenceType": "financial_media",
+      "discoveredVia": "RSSHub",
+      "id": "news_17c9c3987748",
+      "tier": "S2",
+      "sourceTier": "S2",
+      "sourceTierLabel": "专业财经媒体",
+      "score": 60,
+      "rawScore": 60,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 20,
+        "impact": 8,
+        "evidence": 9,
+        "recency": 15,
+        "actionability": 8
+      },
+      "evidenceBreakdown": {
+        "namedSubject": 6,
+        "explicitDate": 3
+      },
+      "noiseCaps": [],
+      "tierGate": 60,
+      "passesTierGate": true,
+      "confidence": "medium",
+      "why": [
+        "专业财经媒体跟进",
+        "可转化为客户沟通或投研关注",
+        "时效性高"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 26,
+          "reasons": [
+            "命中关联主题 1 项"
+          ]
+        },
+        "marketEducation": {
+          "score": 61,
+          "reasons": [
+            "命中二级市场投教核心主题 2 项"
+          ]
+        },
+        "privateFundSales": {
+          "score": 26,
+          "reasons": [
+            "命中关联主题 1 项"
+          ]
+        }
+      },
+      "primaryScene": "marketEducation",
+      "selectedForFeatured": false,
+      "contentTags": [
+        "行业动态"
+      ],
+      "eventId": "event_9e320dba578d"
+    },
     {
       "title": "新云厂商Nebius下调营收预期 巨额资本开支引发市场担忧 股价重挫20%",
       "sourceUrl": "https://www.cls.cn/detail/2533177",
@@ -231,6 +927,75 @@ window.FINHOT_DATA = {
       "selectedForFeatured": false,
       "contentTags": [
         "深度研究"
+      ],
+      "eventId": null
+    },
+    {
+      "title": "见闻历11.11大促最后1天！买日历送超千元知识礼包，送什么都不如送“搞钱的智慧”！",
+      "sourceUrl": "https://wallstreetcn.com/articles/3782813",
+      "publishedAt": "2026-11-12T15:56:54.000Z",
+      "fetchedAt": "2026-11-12T20:00:16.548Z",
+      "timeConfidence": "source",
+      "summary": "&nbsp;\n\n&nbsp;\n&nbsp;\n\n风险提示及免责条款\n          \n            市场有风险，投资需谨慎。本文不构成个人投资建议，也未考虑到个别用户特殊的投资目标、财务状况或需要。用户应考虑本文中的任何意见、观点或结论是否符合其特定状况。据此投资，责任自负。",
+      "sourceName": "华尔街见闻",
+      "category": "industry",
+      "tags": [
+        "行业动态"
+      ],
+      "evidenceType": "financial_media",
+      "discoveredVia": "RSSHub",
+      "id": "news_507412a7e275",
+      "tier": "S2",
+      "sourceTier": "S2",
+      "sourceTierLabel": "专业财经媒体",
+      "score": 20,
+      "rawScore": 58,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 12,
+        "impact": 21,
+        "evidence": 0,
+        "recency": 15,
+        "actionability": 10
+      },
+      "evidenceBreakdown": {},
+      "noiseCaps": [
+        "营销与活动推广"
+      ],
+      "tierGate": 60,
+      "passesTierGate": false,
+      "confidence": "low",
+      "why": [
+        "专业财经媒体跟进",
+        "对展业/配置/合规有直接影响",
+        "可转化为客户沟通或投研关注"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 20,
+          "reasons": [
+            "业务影响较高"
+          ]
+        },
+        "marketEducation": {
+          "score": 43,
+          "reasons": [
+            "命中二级市场投教核心主题 1 项",
+            "业务影响较高"
+          ]
+        },
+        "privateFundSales": {
+          "score": 30,
+          "reasons": [
+            "命中关联主题 1 项",
+            "业务影响较高"
+          ]
+        }
+      },
+      "primaryScene": "marketEducation",
+      "selectedForFeatured": false,
+      "contentTags": [
+        "行业动态"
       ],
       "eventId": null
     },
@@ -511,7 +1276,7 @@ window.FINHOT_DATA = {
         }
       },
       "primaryScene": "marketEducation",
-      "selectedForFeatured": false,
+      "selectedForFeatured": true,
       "contentTags": [
         "行业动态"
       ],
@@ -789,7 +1554,7 @@ window.FINHOT_DATA = {
         }
       },
       "primaryScene": "marketEducation",
-      "selectedForFeatured": false,
+      "selectedForFeatured": true,
       "contentTags": [
         "行业动态"
       ],
@@ -1085,13 +1850,13 @@ window.FINHOT_DATA = {
       "sourceTier": "S3",
       "sourceTierLabel": "快讯/观点线索",
       "score": 20,
-      "rawScore": 61,
+      "rawScore": 59,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 20,
         "impact": 8,
         "evidence": 14,
-        "recency": 15,
+        "recency": 13,
         "actionability": 4
       },
       "evidenceBreakdown": {
@@ -1112,20 +1877,20 @@ window.FINHOT_DATA = {
       ],
       "scenarioScores": {
         "insurance": {
-          "score": 20,
+          "score": 19,
           "reasons": [
             "含可核对要素"
           ]
         },
         "marketEducation": {
-          "score": 64,
+          "score": 63,
           "reasons": [
             "命中二级市场投教核心主题 2 项",
             "含可核对要素"
           ]
         },
         "privateFundSales": {
-          "score": 29,
+          "score": 28,
           "reasons": [
             "命中关联主题 1 项",
             "含可核对要素"
@@ -1157,14 +1922,14 @@ window.FINHOT_DATA = {
       "tier": "S2",
       "sourceTier": "S2",
       "sourceTierLabel": "专业财经媒体",
-      "score": 61,
-      "rawScore": 61,
+      "score": 59,
+      "rawScore": 59,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 12,
         "impact": 16,
         "evidence": 8,
-        "recency": 15,
+        "recency": 13,
         "actionability": 10
       },
       "evidenceBreakdown": {
@@ -1173,7 +1938,7 @@ window.FINHOT_DATA = {
       },
       "noiseCaps": [],
       "tierGate": 60,
-      "passesTierGate": true,
+      "passesTierGate": false,
       "confidence": "medium",
       "why": [
         "专业财经媒体跟进",
@@ -1225,14 +1990,14 @@ window.FINHOT_DATA = {
       "tier": "S2",
       "sourceTier": "S2",
       "sourceTierLabel": "专业财经媒体",
-      "score": 63,
-      "rawScore": 63,
+      "score": 61,
+      "rawScore": 61,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 26,
         "impact": 8,
         "evidence": 6,
-        "recency": 15,
+        "recency": 13,
         "actionability": 8
       },
       "evidenceBreakdown": {
@@ -1249,20 +2014,20 @@ window.FINHOT_DATA = {
       ],
       "scenarioScores": {
         "insurance": {
-          "score": 16,
+          "score": 15,
           "reasons": [
             "与该场景关联度较弱"
           ]
         },
         "marketEducation": {
-          "score": 69,
+          "score": 68,
           "reasons": [
             "命中二级市场投教核心主题 2 项",
             "命中关联主题 1 项"
           ]
         },
         "privateFundSales": {
-          "score": 56,
+          "score": 55,
           "reasons": [
             "命中私募销售运营核心主题 1 项",
             "命中关联主题 2 项"
@@ -1294,14 +2059,14 @@ window.FINHOT_DATA = {
       "tier": "S2",
       "sourceTier": "S2",
       "sourceTierLabel": "专业财经媒体",
-      "score": 68,
-      "rawScore": 68,
+      "score": 66,
+      "rawScore": 66,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 26,
         "impact": 8,
         "evidence": 9,
-        "recency": 15,
+        "recency": 13,
         "actionability": 10
       },
       "evidenceBreakdown": {
@@ -1319,27 +2084,27 @@ window.FINHOT_DATA = {
       ],
       "scenarioScores": {
         "insurance": {
-          "score": 17,
+          "score": 16,
           "reasons": [
             "与该场景关联度较弱"
           ]
         },
         "marketEducation": {
-          "score": 70,
+          "score": 69,
           "reasons": [
             "命中二级市场投教核心主题 2 项",
             "命中关联主题 1 项"
           ]
         },
         "privateFundSales": {
-          "score": 44,
+          "score": 43,
           "reasons": [
             "命中关联主题 3 项"
           ]
         }
       },
       "primaryScene": "marketEducation",
-      "selectedForFeatured": false,
+      "selectedForFeatured": true,
       "contentTags": [
         "行业动态"
       ],
@@ -1363,14 +2128,14 @@ window.FINHOT_DATA = {
       "tier": "S2",
       "sourceTier": "S2",
       "sourceTierLabel": "专业财经媒体",
-      "score": 79,
-      "rawScore": 79,
+      "score": 77,
+      "rawScore": 77,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 26,
         "impact": 25,
         "evidence": 9,
-        "recency": 15,
+        "recency": 13,
         "actionability": 4
       },
       "evidenceBreakdown": {
@@ -1388,7 +2153,7 @@ window.FINHOT_DATA = {
       ],
       "scenarioScores": {
         "insurance": {
-          "score": 38,
+          "score": 37,
           "reasons": [
             "命中关联主题 1 项",
             "业务影响较高"
@@ -1418,6 +2183,76 @@ window.FINHOT_DATA = {
       "eventId": null
     },
     {
+      "title": "黄仁勋辞职！英伟达盘前暴跌10%",
+      "sourceUrl": "https://wallstreetcn.com/articles/3785829",
+      "publishedAt": "2026-11-12T13:49:39.000Z",
+      "fetchedAt": "2026-11-12T20:00:16.548Z",
+      "timeConfidence": "source",
+      "summary": "英伟达创始人、首席执行官黄仁勋宣布即时辞职，公司任命首席财务官Colette Kress出任临时CEO，并启动永久继任者搜寻程序。\n英伟达董事会宣布黄仁勋辞去总裁及首席执行官职务，即时生效。Kress在保留首席财务官职务的同时，兼任临时CEO。与此同时，Harvey C. Jones获任命为英伟达史上首位董事会主席。\n消息传出后，英伟达美股盘前跌幅迅速扩大至逾10%，反映出投资者对这一突发人事变动",
+      "sourceName": "华尔街见闻",
+      "category": "industry",
+      "tags": [
+        "行业动态"
+      ],
+      "evidenceType": "financial_media",
+      "discoveredVia": "RSSHub",
+      "id": "news_c4377303a316",
+      "tier": "S2",
+      "sourceTier": "S2",
+      "sourceTierLabel": "专业财经媒体",
+      "score": 20,
+      "rawScore": 48,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 12,
+        "impact": 8,
+        "evidence": 11,
+        "recency": 13,
+        "actionability": 4
+      },
+      "evidenceBreakdown": {
+        "namedSubject": 6,
+        "quantity": 5
+      },
+      "noiseCaps": [
+        "招聘与例行人事",
+        "行情播报"
+      ],
+      "tierGate": 60,
+      "passesTierGate": false,
+      "confidence": "medium",
+      "why": [
+        "专业财经媒体跟进",
+        "时效性高"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 18,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "marketEducation": {
+          "score": 40,
+          "reasons": [
+            "命中二级市场投教核心主题 1 项"
+          ]
+        },
+        "privateFundSales": {
+          "score": 18,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        }
+      },
+      "primaryScene": "marketEducation",
+      "selectedForFeatured": false,
+      "contentTags": [
+        "行业动态"
+      ],
+      "eventId": null
+    },
+    {
       "title": "美联储哈马克：通胀正朝着错误的方向发展，需要转向限制性政策立场",
       "sourceUrl": "https://wallstreetcn.com/articles/3785828",
       "publishedAt": "2026-11-12T13:45:29.000Z",
@@ -1435,14 +2270,14 @@ window.FINHOT_DATA = {
       "tier": "S2",
       "sourceTier": "S2",
       "sourceTierLabel": "专业财经媒体",
-      "score": 64,
-      "rawScore": 64,
+      "score": 62,
+      "rawScore": 62,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 12,
         "impact": 21,
         "evidence": 6,
-        "recency": 15,
+        "recency": 13,
         "actionability": 10
       },
       "evidenceBreakdown": {
@@ -1465,14 +2300,14 @@ window.FINHOT_DATA = {
           ]
         },
         "marketEducation": {
-          "score": 69,
+          "score": 68,
           "reasons": [
             "命中二级市场投教核心主题 2 项",
             "业务影响较高"
           ]
         },
         "privateFundSales": {
-          "score": 34,
+          "score": 33,
           "reasons": [
             "命中关联主题 1 项",
             "业务影响较高"
@@ -1504,14 +2339,14 @@ window.FINHOT_DATA = {
       "tier": "S2",
       "sourceTier": "S2",
       "sourceTierLabel": "专业财经媒体",
-      "score": 44,
-      "rawScore": 44,
+      "score": 42,
+      "rawScore": 42,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 12,
         "impact": 8,
         "evidence": 5,
-        "recency": 15,
+        "recency": 13,
         "actionability": 4
       },
       "evidenceBreakdown": {
@@ -1527,19 +2362,19 @@ window.FINHOT_DATA = {
       ],
       "scenarioScores": {
         "insurance": {
-          "score": 15,
+          "score": 14,
           "reasons": [
             "与该场景关联度较弱"
           ]
         },
         "marketEducation": {
-          "score": 37,
+          "score": 36,
           "reasons": [
             "命中二级市场投教核心主题 1 项"
           ]
         },
         "privateFundSales": {
-          "score": 24,
+          "score": 23,
           "reasons": [
             "命中关联主题 1 项"
           ]
@@ -1571,13 +2406,13 @@ window.FINHOT_DATA = {
       "sourceTier": "S2",
       "sourceTierLabel": "专业财经媒体",
       "score": 30,
-      "rawScore": 60,
+      "rawScore": 58,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 12,
         "impact": 21,
         "evidence": 8,
-        "recency": 15,
+        "recency": 13,
         "actionability": 4
       },
       "evidenceBreakdown": {
@@ -1603,14 +2438,14 @@ window.FINHOT_DATA = {
           ]
         },
         "marketEducation": {
-          "score": 92,
+          "score": 91,
           "reasons": [
             "命中二级市场投教核心主题 3 项",
             "业务影响较高"
           ]
         },
         "privateFundSales": {
-          "score": 35,
+          "score": 34,
           "reasons": [
             "命中关联主题 1 项",
             "业务影响较高"
@@ -1642,14 +2477,14 @@ window.FINHOT_DATA = {
       "tier": "S3",
       "sourceTier": "S3",
       "sourceTierLabel": "快讯/观点线索",
-      "score": 53,
-      "rawScore": 53,
+      "score": 51,
+      "rawScore": 51,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 12,
         "impact": 8,
         "evidence": 14,
-        "recency": 15,
+        "recency": 13,
         "actionability": 4
       },
       "evidenceBreakdown": {
@@ -1668,19 +2503,19 @@ window.FINHOT_DATA = {
       ],
       "scenarioScores": {
         "insurance": {
-          "score": 20,
+          "score": 19,
           "reasons": [
             "含可核对要素"
           ]
         },
         "marketEducation": {
-          "score": 20,
+          "score": 19,
           "reasons": [
             "含可核对要素"
           ]
         },
         "privateFundSales": {
-          "score": 20,
+          "score": 19,
           "reasons": [
             "含可核对要素"
           ]
@@ -1712,14 +2547,14 @@ window.FINHOT_DATA = {
       "tier": "S3",
       "sourceTier": "S3",
       "sourceTierLabel": "快讯/观点线索",
-      "score": 47,
-      "rawScore": 47,
+      "score": 45,
+      "rawScore": 45,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 12,
         "impact": 8,
         "evidence": 8,
-        "recency": 15,
+        "recency": 13,
         "actionability": 4
       },
       "evidenceBreakdown": {
@@ -1736,19 +2571,19 @@ window.FINHOT_DATA = {
       ],
       "scenarioScores": {
         "insurance": {
-          "score": 17,
+          "score": 16,
           "reasons": [
             "与该场景关联度较弱"
           ]
         },
         "marketEducation": {
-          "score": 17,
+          "score": 16,
           "reasons": [
             "与该场景关联度较弱"
           ]
         },
         "privateFundSales": {
-          "score": 17,
+          "score": 16,
           "reasons": [
             "与该场景关联度较弱"
           ]
@@ -1780,14 +2615,14 @@ window.FINHOT_DATA = {
       "tier": "S3",
       "sourceTier": "S3",
       "sourceTierLabel": "快讯/观点线索",
-      "score": 47,
-      "rawScore": 47,
+      "score": 45,
+      "rawScore": 45,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 12,
         "impact": 8,
         "evidence": 8,
-        "recency": 15,
+        "recency": 13,
         "actionability": 4
       },
       "evidenceBreakdown": {
@@ -1804,19 +2639,19 @@ window.FINHOT_DATA = {
       ],
       "scenarioScores": {
         "insurance": {
-          "score": 17,
+          "score": 16,
           "reasons": [
             "与该场景关联度较弱"
           ]
         },
         "marketEducation": {
-          "score": 17,
+          "score": 16,
           "reasons": [
             "与该场景关联度较弱"
           ]
         },
         "privateFundSales": {
-          "score": 17,
+          "score": 16,
           "reasons": [
             "与该场景关联度较弱"
           ]
@@ -1848,14 +2683,14 @@ window.FINHOT_DATA = {
       "tier": "S3",
       "sourceTier": "S3",
       "sourceTierLabel": "快讯/观点线索",
-      "score": 47,
-      "rawScore": 47,
+      "score": 45,
+      "rawScore": 45,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 12,
         "impact": 8,
         "evidence": 8,
-        "recency": 15,
+        "recency": 13,
         "actionability": 4
       },
       "evidenceBreakdown": {
@@ -1872,19 +2707,19 @@ window.FINHOT_DATA = {
       ],
       "scenarioScores": {
         "insurance": {
-          "score": 17,
+          "score": 16,
           "reasons": [
             "与该场景关联度较弱"
           ]
         },
         "marketEducation": {
-          "score": 17,
+          "score": 16,
           "reasons": [
             "与该场景关联度较弱"
           ]
         },
         "privateFundSales": {
-          "score": 17,
+          "score": 16,
           "reasons": [
             "与该场景关联度较弱"
           ]
@@ -1916,14 +2751,14 @@ window.FINHOT_DATA = {
       "tier": "S2",
       "sourceTier": "S2",
       "sourceTierLabel": "专业财经媒体",
-      "score": 53,
-      "rawScore": 53,
+      "score": 51,
+      "rawScore": 51,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 12,
         "impact": 8,
         "evidence": 14,
-        "recency": 15,
+        "recency": 13,
         "actionability": 4
       },
       "evidenceBreakdown": {
@@ -1942,19 +2777,19 @@ window.FINHOT_DATA = {
       ],
       "scenarioScores": {
         "insurance": {
-          "score": 20,
+          "score": 19,
           "reasons": [
             "含可核对要素"
           ]
         },
         "marketEducation": {
-          "score": 20,
+          "score": 19,
           "reasons": [
             "含可核对要素"
           ]
         },
         "privateFundSales": {
-          "score": 20,
+          "score": 19,
           "reasons": [
             "含可核对要素"
           ]
@@ -1986,13 +2821,13 @@ window.FINHOT_DATA = {
       "sourceTier": "S2",
       "sourceTierLabel": "专业财经媒体",
       "score": 30,
-      "rawScore": 53,
+      "rawScore": 51,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 12,
         "impact": 8,
         "evidence": 14,
-        "recency": 15,
+        "recency": 13,
         "actionability": 4
       },
       "evidenceBreakdown": {
@@ -2013,19 +2848,19 @@ window.FINHOT_DATA = {
       ],
       "scenarioScores": {
         "insurance": {
-          "score": 20,
+          "score": 19,
           "reasons": [
             "含可核对要素"
           ]
         },
         "marketEducation": {
-          "score": 20,
+          "score": 19,
           "reasons": [
             "含可核对要素"
           ]
         },
         "privateFundSales": {
-          "score": 20,
+          "score": 19,
           "reasons": [
             "含可核对要素"
           ]
@@ -2057,13 +2892,13 @@ window.FINHOT_DATA = {
       "sourceTier": "S3",
       "sourceTierLabel": "快讯/观点线索",
       "score": 30,
-      "rawScore": 53,
+      "rawScore": 51,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 12,
         "impact": 8,
         "evidence": 14,
-        "recency": 15,
+        "recency": 13,
         "actionability": 4
       },
       "evidenceBreakdown": {
@@ -2084,19 +2919,19 @@ window.FINHOT_DATA = {
       ],
       "scenarioScores": {
         "insurance": {
-          "score": 20,
+          "score": 19,
           "reasons": [
             "含可核对要素"
           ]
         },
         "marketEducation": {
-          "score": 20,
+          "score": 19,
           "reasons": [
             "含可核对要素"
           ]
         },
         "privateFundSales": {
-          "score": 20,
+          "score": 19,
           "reasons": [
             "含可核对要素"
           ]
@@ -2128,14 +2963,14 @@ window.FINHOT_DATA = {
       "tier": "S3",
       "sourceTier": "S3",
       "sourceTierLabel": "快讯/观点线索",
-      "score": 42,
-      "rawScore": 42,
+      "score": 40,
+      "rawScore": 40,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 12,
         "impact": 8,
         "evidence": 3,
-        "recency": 15,
+        "recency": 13,
         "actionability": 4
       },
       "evidenceBreakdown": {
@@ -2151,19 +2986,19 @@ window.FINHOT_DATA = {
       ],
       "scenarioScores": {
         "insurance": {
-          "score": 14,
+          "score": 13,
           "reasons": [
             "与该场景关联度较弱"
           ]
         },
         "marketEducation": {
-          "score": 14,
+          "score": 13,
           "reasons": [
             "与该场景关联度较弱"
           ]
         },
         "privateFundSales": {
-          "score": 14,
+          "score": 13,
           "reasons": [
             "与该场景关联度较弱"
           ]
@@ -2195,14 +3030,14 @@ window.FINHOT_DATA = {
       "tier": "S3",
       "sourceTier": "S3",
       "sourceTierLabel": "快讯/观点线索",
-      "score": 47,
-      "rawScore": 47,
+      "score": 45,
+      "rawScore": 45,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 12,
         "impact": 8,
         "evidence": 8,
-        "recency": 15,
+        "recency": 13,
         "actionability": 4
       },
       "evidenceBreakdown": {
@@ -2219,19 +3054,19 @@ window.FINHOT_DATA = {
       ],
       "scenarioScores": {
         "insurance": {
-          "score": 17,
+          "score": 16,
           "reasons": [
             "与该场景关联度较弱"
           ]
         },
         "marketEducation": {
-          "score": 17,
+          "score": 16,
           "reasons": [
             "与该场景关联度较弱"
           ]
         },
         "privateFundSales": {
-          "score": 17,
+          "score": 16,
           "reasons": [
             "与该场景关联度较弱"
           ]
@@ -2264,13 +3099,13 @@ window.FINHOT_DATA = {
       "sourceTier": "S3",
       "sourceTierLabel": "快讯/观点线索",
       "score": 30,
-      "rawScore": 53,
+      "rawScore": 51,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 12,
         "impact": 8,
         "evidence": 14,
-        "recency": 15,
+        "recency": 13,
         "actionability": 4
       },
       "evidenceBreakdown": {
@@ -2291,19 +3126,19 @@ window.FINHOT_DATA = {
       ],
       "scenarioScores": {
         "insurance": {
-          "score": 20,
+          "score": 19,
           "reasons": [
             "含可核对要素"
           ]
         },
         "marketEducation": {
-          "score": 20,
+          "score": 19,
           "reasons": [
             "含可核对要素"
           ]
         },
         "privateFundSales": {
-          "score": 20,
+          "score": 19,
           "reasons": [
             "含可核对要素"
           ]
@@ -2336,13 +3171,13 @@ window.FINHOT_DATA = {
       "sourceTier": "S3",
       "sourceTierLabel": "快讯/观点线索",
       "score": 30,
-      "rawScore": 53,
+      "rawScore": 51,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 12,
         "impact": 8,
         "evidence": 14,
-        "recency": 15,
+        "recency": 13,
         "actionability": 4
       },
       "evidenceBreakdown": {
@@ -2363,20 +3198,20 @@ window.FINHOT_DATA = {
       ],
       "scenarioScores": {
         "insurance": {
-          "score": 20,
+          "score": 19,
           "reasons": [
             "含可核对要素"
           ]
         },
         "marketEducation": {
-          "score": 42,
+          "score": 41,
           "reasons": [
             "命中二级市场投教核心主题 1 项",
             "含可核对要素"
           ]
         },
         "privateFundSales": {
-          "score": 20,
+          "score": 19,
           "reasons": [
             "含可核对要素"
           ]
@@ -2408,14 +3243,14 @@ window.FINHOT_DATA = {
       "tier": "S3",
       "sourceTier": "S3",
       "sourceTierLabel": "快讯/观点线索",
-      "score": 61,
-      "rawScore": 61,
+      "score": 59,
+      "rawScore": 59,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 20,
         "impact": 8,
         "evidence": 14,
-        "recency": 15,
+        "recency": 13,
         "actionability": 4
       },
       "evidenceBreakdown": {
@@ -2434,19 +3269,19 @@ window.FINHOT_DATA = {
       ],
       "scenarioScores": {
         "insurance": {
-          "score": 20,
+          "score": 19,
           "reasons": [
             "含可核对要素"
           ]
         },
         "marketEducation": {
-          "score": 20,
+          "score": 19,
           "reasons": [
             "含可核对要素"
           ]
         },
         "privateFundSales": {
-          "score": 20,
+          "score": 19,
           "reasons": [
             "含可核对要素"
           ]
@@ -2478,14 +3313,14 @@ window.FINHOT_DATA = {
       "tier": "S3",
       "sourceTier": "S3",
       "sourceTierLabel": "快讯/观点线索",
-      "score": 61,
-      "rawScore": 61,
+      "score": 59,
+      "rawScore": 59,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 20,
         "impact": 8,
         "evidence": 14,
-        "recency": 15,
+        "recency": 13,
         "actionability": 4
       },
       "evidenceBreakdown": {
@@ -2504,19 +3339,19 @@ window.FINHOT_DATA = {
       ],
       "scenarioScores": {
         "insurance": {
-          "score": 20,
+          "score": 19,
           "reasons": [
             "含可核对要素"
           ]
         },
         "marketEducation": {
-          "score": 20,
+          "score": 19,
           "reasons": [
             "含可核对要素"
           ]
         },
         "privateFundSales": {
-          "score": 20,
+          "score": 19,
           "reasons": [
             "含可核对要素"
           ]
@@ -2548,14 +3383,14 @@ window.FINHOT_DATA = {
       "tier": "S3",
       "sourceTier": "S3",
       "sourceTierLabel": "快讯/观点线索",
-      "score": 56,
-      "rawScore": 56,
+      "score": 54,
+      "rawScore": 54,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 20,
         "impact": 8,
         "evidence": 9,
-        "recency": 15,
+        "recency": 13,
         "actionability": 4
       },
       "evidenceBreakdown": {
@@ -2572,19 +3407,19 @@ window.FINHOT_DATA = {
       ],
       "scenarioScores": {
         "insurance": {
-          "score": 17,
+          "score": 16,
           "reasons": [
             "与该场景关联度较弱"
           ]
         },
         "marketEducation": {
-          "score": 39,
+          "score": 38,
           "reasons": [
             "命中二级市场投教核心主题 1 项"
           ]
         },
         "privateFundSales": {
-          "score": 17,
+          "score": 16,
           "reasons": [
             "与该场景关联度较弱"
           ]
@@ -2616,14 +3451,14 @@ window.FINHOT_DATA = {
       "tier": "S3",
       "sourceTier": "S3",
       "sourceTierLabel": "快讯/观点线索",
-      "score": 42,
-      "rawScore": 42,
+      "score": 40,
+      "rawScore": 40,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 12,
         "impact": 8,
         "evidence": 3,
-        "recency": 15,
+        "recency": 13,
         "actionability": 4
       },
       "evidenceBreakdown": {
@@ -2639,19 +3474,19 @@ window.FINHOT_DATA = {
       ],
       "scenarioScores": {
         "insurance": {
-          "score": 14,
+          "score": 13,
           "reasons": [
             "与该场景关联度较弱"
           ]
         },
         "marketEducation": {
-          "score": 14,
+          "score": 13,
           "reasons": [
             "与该场景关联度较弱"
           ]
         },
         "privateFundSales": {
-          "score": 14,
+          "score": 13,
           "reasons": [
             "与该场景关联度较弱"
           ]
@@ -2683,14 +3518,14 @@ window.FINHOT_DATA = {
       "tier": "S3",
       "sourceTier": "S3",
       "sourceTierLabel": "快讯/观点线索",
-      "score": 48,
-      "rawScore": 48,
+      "score": 46,
+      "rawScore": 46,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 12,
         "impact": 8,
         "evidence": 9,
-        "recency": 15,
+        "recency": 13,
         "actionability": 4
       },
       "evidenceBreakdown": {
@@ -2707,19 +3542,19 @@ window.FINHOT_DATA = {
       ],
       "scenarioScores": {
         "insurance": {
-          "score": 17,
+          "score": 16,
           "reasons": [
             "与该场景关联度较弱"
           ]
         },
         "marketEducation": {
-          "score": 17,
+          "score": 16,
           "reasons": [
             "与该场景关联度较弱"
           ]
         },
         "privateFundSales": {
-          "score": 17,
+          "score": 16,
           "reasons": [
             "与该场景关联度较弱"
           ]
@@ -2751,14 +3586,14 @@ window.FINHOT_DATA = {
       "tier": "S3",
       "sourceTier": "S3",
       "sourceTierLabel": "快讯/观点线索",
-      "score": 42,
-      "rawScore": 42,
+      "score": 40,
+      "rawScore": 40,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 12,
         "impact": 8,
         "evidence": 3,
-        "recency": 15,
+        "recency": 13,
         "actionability": 4
       },
       "evidenceBreakdown": {
@@ -2774,19 +3609,19 @@ window.FINHOT_DATA = {
       ],
       "scenarioScores": {
         "insurance": {
-          "score": 14,
+          "score": 13,
           "reasons": [
             "与该场景关联度较弱"
           ]
         },
         "marketEducation": {
-          "score": 14,
+          "score": 13,
           "reasons": [
             "与该场景关联度较弱"
           ]
         },
         "privateFundSales": {
-          "score": 14,
+          "score": 13,
           "reasons": [
             "与该场景关联度较弱"
           ]
@@ -2818,14 +3653,14 @@ window.FINHOT_DATA = {
       "tier": "S2",
       "sourceTier": "S2",
       "sourceTierLabel": "专业财经媒体",
-      "score": 42,
-      "rawScore": 42,
+      "score": 40,
+      "rawScore": 40,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 12,
         "impact": 8,
         "evidence": 3,
-        "recency": 15,
+        "recency": 13,
         "actionability": 4
       },
       "evidenceBreakdown": {
@@ -2841,19 +3676,19 @@ window.FINHOT_DATA = {
       ],
       "scenarioScores": {
         "insurance": {
-          "score": 14,
+          "score": 13,
           "reasons": [
             "与该场景关联度较弱"
           ]
         },
         "marketEducation": {
-          "score": 14,
+          "score": 13,
           "reasons": [
             "与该场景关联度较弱"
           ]
         },
         "privateFundSales": {
-          "score": 14,
+          "score": 13,
           "reasons": [
             "与该场景关联度较弱"
           ]
@@ -2885,13 +3720,13 @@ window.FINHOT_DATA = {
       "sourceTier": "S3",
       "sourceTierLabel": "快讯/观点线索",
       "score": 50,
-      "rawScore": 60,
+      "rawScore": 58,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 12,
         "impact": 21,
         "evidence": 8,
-        "recency": 15,
+        "recency": 13,
         "actionability": 4
       },
       "evidenceBreakdown": {
@@ -2955,13 +3790,13 @@ window.FINHOT_DATA = {
       "sourceTier": "S3",
       "sourceTierLabel": "快讯/观点线索",
       "score": 30,
-      "rawScore": 61,
+      "rawScore": 59,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 20,
         "impact": 8,
         "evidence": 14,
-        "recency": 15,
+        "recency": 13,
         "actionability": 4
       },
       "evidenceBreakdown": {
@@ -2982,20 +3817,20 @@ window.FINHOT_DATA = {
       ],
       "scenarioScores": {
         "insurance": {
-          "score": 20,
+          "score": 19,
           "reasons": [
             "含可核对要素"
           ]
         },
         "marketEducation": {
-          "score": 86,
+          "score": 85,
           "reasons": [
             "命中二级市场投教核心主题 3 项",
             "含可核对要素"
           ]
         },
         "privateFundSales": {
-          "score": 29,
+          "score": 28,
           "reasons": [
             "命中关联主题 1 项",
             "含可核对要素"
@@ -3029,13 +3864,13 @@ window.FINHOT_DATA = {
       "sourceTier": "S3",
       "sourceTierLabel": "快讯/观点线索",
       "score": 30,
-      "rawScore": 50,
+      "rawScore": 48,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 12,
         "impact": 8,
         "evidence": 11,
-        "recency": 15,
+        "recency": 13,
         "actionability": 4
       },
       "evidenceBreakdown": {
@@ -3054,19 +3889,19 @@ window.FINHOT_DATA = {
       ],
       "scenarioScores": {
         "insurance": {
-          "score": 19,
+          "score": 18,
           "reasons": [
             "与该场景关联度较弱"
           ]
         },
         "marketEducation": {
-          "score": 41,
+          "score": 40,
           "reasons": [
             "命中二级市场投教核心主题 1 项"
           ]
         },
         "privateFundSales": {
-          "score": 19,
+          "score": 18,
           "reasons": [
             "与该场景关联度较弱"
           ]
@@ -3098,14 +3933,14 @@ window.FINHOT_DATA = {
       "tier": "S3",
       "sourceTier": "S3",
       "sourceTierLabel": "快讯/观点线索",
-      "score": 65,
-      "rawScore": 65,
+      "score": 63,
+      "rawScore": 63,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 20,
         "impact": 8,
         "evidence": 14,
-        "recency": 15,
+        "recency": 13,
         "actionability": 8
       },
       "evidenceBreakdown": {
@@ -3124,21 +3959,21 @@ window.FINHOT_DATA = {
       ],
       "scenarioScores": {
         "insurance": {
-          "score": 29,
+          "score": 28,
           "reasons": [
             "命中关联主题 1 项",
             "含可核对要素"
           ]
         },
         "marketEducation": {
-          "score": 86,
+          "score": 85,
           "reasons": [
             "命中二级市场投教核心主题 3 项",
             "含可核对要素"
           ]
         },
         "privateFundSales": {
-          "score": 20,
+          "score": 19,
           "reasons": [
             "含可核对要素"
           ]
@@ -3170,13 +4005,13 @@ window.FINHOT_DATA = {
       "sourceTier": "S3",
       "sourceTierLabel": "快讯/观点线索",
       "score": 30,
-      "rawScore": 50,
+      "rawScore": 48,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 12,
         "impact": 8,
         "evidence": 11,
-        "recency": 15,
+        "recency": 13,
         "actionability": 4
       },
       "evidenceBreakdown": {
@@ -3195,19 +4030,19 @@ window.FINHOT_DATA = {
       ],
       "scenarioScores": {
         "insurance": {
-          "score": 19,
+          "score": 18,
           "reasons": [
             "与该场景关联度较弱"
           ]
         },
         "marketEducation": {
-          "score": 41,
+          "score": 40,
           "reasons": [
             "命中二级市场投教核心主题 1 项"
           ]
         },
         "privateFundSales": {
-          "score": 19,
+          "score": 18,
           "reasons": [
             "与该场景关联度较弱"
           ]
@@ -3239,14 +4074,14 @@ window.FINHOT_DATA = {
       "tier": "S3",
       "sourceTier": "S3",
       "sourceTierLabel": "快讯/观点线索",
-      "score": 60,
-      "rawScore": 60,
+      "score": 58,
+      "rawScore": 58,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 20,
         "impact": 8,
         "evidence": 9,
-        "recency": 15,
+        "recency": 13,
         "actionability": 8
       },
       "evidenceBreakdown": {
@@ -3264,20 +4099,20 @@ window.FINHOT_DATA = {
       ],
       "scenarioScores": {
         "insurance": {
-          "score": 26,
+          "score": 25,
           "reasons": [
             "命中关联主题 1 项"
           ]
         },
         "marketEducation": {
-          "score": 92,
+          "score": 91,
           "reasons": [
             "命中二级市场投教核心主题 3 项",
             "命中关联主题 1 项"
           ]
         },
         "privateFundSales": {
-          "score": 26,
+          "score": 25,
           "reasons": [
             "命中关联主题 1 项"
           ]
@@ -3308,14 +4143,14 @@ window.FINHOT_DATA = {
       "tier": "S3",
       "sourceTier": "S3",
       "sourceTierLabel": "快讯/观点线索",
-      "score": 56,
-      "rawScore": 56,
+      "score": 54,
+      "rawScore": 54,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 26,
         "impact": 8,
         "evidence": 3,
-        "recency": 15,
+        "recency": 13,
         "actionability": 4
       },
       "evidenceBreakdown": {
@@ -3331,20 +4166,20 @@ window.FINHOT_DATA = {
       ],
       "scenarioScores": {
         "insurance": {
-          "score": 14,
+          "score": 13,
           "reasons": [
             "与该场景关联度较弱"
           ]
         },
         "marketEducation": {
-          "score": 45,
+          "score": 44,
           "reasons": [
             "命中二级市场投教核心主题 1 项",
             "命中关联主题 1 项"
           ]
         },
         "privateFundSales": {
-          "score": 23,
+          "score": 22,
           "reasons": [
             "命中关联主题 1 项"
           ]
@@ -3376,14 +4211,14 @@ window.FINHOT_DATA = {
       "tier": "S2",
       "sourceTier": "S2",
       "sourceTierLabel": "专业财经媒体",
-      "score": 47,
-      "rawScore": 47,
+      "score": 45,
+      "rawScore": 45,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 12,
         "impact": 8,
         "evidence": 8,
-        "recency": 15,
+        "recency": 13,
         "actionability": 4
       },
       "evidenceBreakdown": {
@@ -3400,19 +4235,19 @@ window.FINHOT_DATA = {
       ],
       "scenarioScores": {
         "insurance": {
-          "score": 17,
+          "score": 16,
           "reasons": [
             "与该场景关联度较弱"
           ]
         },
         "marketEducation": {
-          "score": 83,
+          "score": 82,
           "reasons": [
             "命中二级市场投教核心主题 3 项"
           ]
         },
         "privateFundSales": {
-          "score": 35,
+          "score": 34,
           "reasons": [
             "命中关联主题 2 项"
           ]
@@ -3443,14 +4278,14 @@ window.FINHOT_DATA = {
       "tier": "S2",
       "sourceTier": "S2",
       "sourceTierLabel": "专业财经媒体",
-      "score": 73,
-      "rawScore": 73,
+      "score": 71,
+      "rawScore": 71,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 20,
         "impact": 25,
         "evidence": 9,
-        "recency": 15,
+        "recency": 13,
         "actionability": 4
       },
       "evidenceBreakdown": {
@@ -3513,14 +4348,14 @@ window.FINHOT_DATA = {
       "tier": "S3",
       "sourceTier": "S3",
       "sourceTierLabel": "快讯/观点线索",
-      "score": 47,
-      "rawScore": 47,
+      "score": 45,
+      "rawScore": 45,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 12,
         "impact": 8,
         "evidence": 8,
-        "recency": 15,
+        "recency": 13,
         "actionability": 4
       },
       "evidenceBreakdown": {
@@ -3537,19 +4372,19 @@ window.FINHOT_DATA = {
       ],
       "scenarioScores": {
         "insurance": {
-          "score": 17,
+          "score": 16,
           "reasons": [
             "与该场景关联度较弱"
           ]
         },
         "marketEducation": {
-          "score": 17,
+          "score": 16,
           "reasons": [
             "与该场景关联度较弱"
           ]
         },
         "privateFundSales": {
-          "score": 17,
+          "score": 16,
           "reasons": [
             "与该场景关联度较弱"
           ]
@@ -3581,14 +4416,14 @@ window.FINHOT_DATA = {
       "tier": "S2",
       "sourceTier": "S2",
       "sourceTierLabel": "专业财经媒体",
-      "score": 44,
-      "rawScore": 44,
+      "score": 42,
+      "rawScore": 42,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 12,
         "impact": 8,
         "evidence": 5,
-        "recency": 15,
+        "recency": 13,
         "actionability": 4
       },
       "evidenceBreakdown": {
@@ -3604,19 +4439,19 @@ window.FINHOT_DATA = {
       ],
       "scenarioScores": {
         "insurance": {
-          "score": 15,
+          "score": 14,
           "reasons": [
             "与该场景关联度较弱"
           ]
         },
         "marketEducation": {
-          "score": 15,
+          "score": 14,
           "reasons": [
             "与该场景关联度较弱"
           ]
         },
         "privateFundSales": {
-          "score": 15,
+          "score": 14,
           "reasons": [
             "与该场景关联度较弱"
           ]
@@ -3647,14 +4482,14 @@ window.FINHOT_DATA = {
       "tier": "S2",
       "sourceTier": "S2",
       "sourceTierLabel": "专业财经媒体",
-      "score": 42,
-      "rawScore": 42,
+      "score": 40,
+      "rawScore": 40,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 12,
         "impact": 8,
         "evidence": 3,
-        "recency": 15,
+        "recency": 13,
         "actionability": 4
       },
       "evidenceBreakdown": {
@@ -3670,19 +4505,19 @@ window.FINHOT_DATA = {
       ],
       "scenarioScores": {
         "insurance": {
-          "score": 14,
+          "score": 13,
           "reasons": [
             "与该场景关联度较弱"
           ]
         },
         "marketEducation": {
-          "score": 14,
+          "score": 13,
           "reasons": [
             "与该场景关联度较弱"
           ]
         },
         "privateFundSales": {
-          "score": 14,
+          "score": 13,
           "reasons": [
             "与该场景关联度较弱"
           ]
@@ -3713,14 +4548,14 @@ window.FINHOT_DATA = {
       "tier": "S2",
       "sourceTier": "S2",
       "sourceTierLabel": "专业财经媒体",
-      "score": 86,
-      "rawScore": 86,
+      "score": 84,
+      "rawScore": 84,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 26,
         "impact": 21,
         "evidence": 14,
-        "recency": 15,
+        "recency": 13,
         "actionability": 10
       },
       "evidenceBreakdown": {
@@ -3753,7 +4588,7 @@ window.FINHOT_DATA = {
           ]
         },
         "privateFundSales": {
-          "score": 69,
+          "score": 68,
           "reasons": [
             "命中私募销售运营核心主题 1 项",
             "命中关联主题 2 项",
@@ -3786,14 +4621,14 @@ window.FINHOT_DATA = {
       "tier": "S2",
       "sourceTier": "S2",
       "sourceTierLabel": "专业财经媒体",
-      "score": 62,
-      "rawScore": 62,
+      "score": 60,
+      "rawScore": 60,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 12,
         "impact": 25,
         "evidence": 6,
-        "recency": 15,
+        "recency": 13,
         "actionability": 4
       },
       "evidenceBreakdown": {
@@ -3816,14 +4651,14 @@ window.FINHOT_DATA = {
           ]
         },
         "marketEducation": {
-          "score": 50,
+          "score": 49,
           "reasons": [
             "命中二级市场投教核心主题 1 项",
             "业务影响较高"
           ]
         },
         "privateFundSales": {
-          "score": 37,
+          "score": 36,
           "reasons": [
             "命中关联主题 1 项",
             "业务影响较高"
@@ -3855,14 +4690,14 @@ window.FINHOT_DATA = {
       "tier": "S3",
       "sourceTier": "S3",
       "sourceTierLabel": "快讯/观点线索",
-      "score": 76,
-      "rawScore": 76,
+      "score": 74,
+      "rawScore": 74,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 26,
         "impact": 16,
         "evidence": 9,
-        "recency": 15,
+        "recency": 13,
         "actionability": 10
       },
       "evidenceBreakdown": {
@@ -3886,7 +4721,7 @@ window.FINHOT_DATA = {
           ]
         },
         "marketEducation": {
-          "score": 75,
+          "score": 74,
           "reasons": [
             "命中二级市场投教核心主题 2 项",
             "命中关联主题 1 项",
@@ -3894,7 +4729,7 @@ window.FINHOT_DATA = {
           ]
         },
         "privateFundSales": {
-          "score": 40,
+          "score": 39,
           "reasons": [
             "命中关联主题 2 项",
             "业务影响较高"
@@ -3926,14 +4761,14 @@ window.FINHOT_DATA = {
       "tier": "S3",
       "sourceTier": "S3",
       "sourceTierLabel": "快讯/观点线索",
-      "score": 60,
-      "rawScore": 60,
+      "score": 58,
+      "rawScore": 58,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 12,
         "impact": 21,
         "evidence": 8,
-        "recency": 15,
+        "recency": 13,
         "actionability": 4
       },
       "evidenceBreakdown": {
@@ -3957,14 +4792,14 @@ window.FINHOT_DATA = {
           ]
         },
         "marketEducation": {
-          "score": 48,
+          "score": 47,
           "reasons": [
             "命中二级市场投教核心主题 1 项",
             "业务影响较高"
           ]
         },
         "privateFundSales": {
-          "score": 35,
+          "score": 34,
           "reasons": [
             "命中关联主题 1 项",
             "业务影响较高"
@@ -3997,14 +4832,14 @@ window.FINHOT_DATA = {
       "tier": "S2",
       "sourceTier": "S2",
       "sourceTierLabel": "专业财经媒体",
-      "score": 39,
-      "rawScore": 39,
+      "score": 37,
+      "rawScore": 37,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 12,
         "impact": 8,
         "evidence": 0,
-        "recency": 15,
+        "recency": 13,
         "actionability": 4
       },
       "evidenceBreakdown": {},
@@ -4018,19 +4853,19 @@ window.FINHOT_DATA = {
       ],
       "scenarioScores": {
         "insurance": {
-          "score": 12,
+          "score": 11,
           "reasons": [
             "与该场景关联度较弱"
           ]
         },
         "marketEducation": {
-          "score": 12,
+          "score": 11,
           "reasons": [
             "与该场景关联度较弱"
           ]
         },
         "privateFundSales": {
-          "score": 12,
+          "score": 11,
           "reasons": [
             "与该场景关联度较弱"
           ]
@@ -4061,14 +4896,14 @@ window.FINHOT_DATA = {
       "tier": "S3",
       "sourceTier": "S3",
       "sourceTierLabel": "快讯/观点线索",
-      "score": 57,
-      "rawScore": 57,
+      "score": 55,
+      "rawScore": 55,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 12,
         "impact": 8,
         "evidence": 14,
-        "recency": 15,
+        "recency": 13,
         "actionability": 8
       },
       "evidenceBreakdown": {
@@ -4087,13 +4922,13 @@ window.FINHOT_DATA = {
       ],
       "scenarioScores": {
         "insurance": {
-          "score": 20,
+          "score": 19,
           "reasons": [
             "含可核对要素"
           ]
         },
         "marketEducation": {
-          "score": 51,
+          "score": 50,
           "reasons": [
             "命中二级市场投教核心主题 1 项",
             "命中关联主题 1 项",
@@ -4101,7 +4936,7 @@ window.FINHOT_DATA = {
           ]
         },
         "privateFundSales": {
-          "score": 29,
+          "score": 28,
           "reasons": [
             "命中关联主题 1 项",
             "含可核对要素"
@@ -4134,14 +4969,14 @@ window.FINHOT_DATA = {
       "tier": "S3",
       "sourceTier": "S3",
       "sourceTierLabel": "快讯/观点线索",
-      "score": 45,
-      "rawScore": 45,
+      "score": 43,
+      "rawScore": 43,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 12,
         "impact": 8,
         "evidence": 6,
-        "recency": 15,
+        "recency": 13,
         "actionability": 4
       },
       "evidenceBreakdown": {
@@ -4157,19 +4992,19 @@ window.FINHOT_DATA = {
       ],
       "scenarioScores": {
         "insurance": {
-          "score": 16,
+          "score": 15,
           "reasons": [
             "与该场景关联度较弱"
           ]
         },
         "marketEducation": {
-          "score": 16,
+          "score": 15,
           "reasons": [
             "与该场景关联度较弱"
           ]
         },
         "privateFundSales": {
-          "score": 16,
+          "score": 15,
           "reasons": [
             "与该场景关联度较弱"
           ]
@@ -4201,14 +5036,14 @@ window.FINHOT_DATA = {
       "tier": "S2",
       "sourceTier": "S2",
       "sourceTierLabel": "专业财经媒体",
-      "score": 44,
-      "rawScore": 44,
+      "score": 42,
+      "rawScore": 42,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 12,
         "impact": 8,
         "evidence": 5,
-        "recency": 15,
+        "recency": 13,
         "actionability": 4
       },
       "evidenceBreakdown": {
@@ -4224,19 +5059,19 @@ window.FINHOT_DATA = {
       ],
       "scenarioScores": {
         "insurance": {
-          "score": 15,
+          "score": 14,
           "reasons": [
             "与该场景关联度较弱"
           ]
         },
         "marketEducation": {
-          "score": 15,
+          "score": 14,
           "reasons": [
             "与该场景关联度较弱"
           ]
         },
         "privateFundSales": {
-          "score": 15,
+          "score": 14,
           "reasons": [
             "与该场景关联度较弱"
           ]
@@ -4267,14 +5102,14 @@ window.FINHOT_DATA = {
       "tier": "S3",
       "sourceTier": "S3",
       "sourceTierLabel": "快讯/观点线索",
-      "score": 39,
-      "rawScore": 39,
+      "score": 37,
+      "rawScore": 37,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 12,
         "impact": 8,
         "evidence": 0,
-        "recency": 15,
+        "recency": 13,
         "actionability": 4
       },
       "evidenceBreakdown": {},
@@ -4288,19 +5123,19 @@ window.FINHOT_DATA = {
       ],
       "scenarioScores": {
         "insurance": {
-          "score": 12,
+          "score": 11,
           "reasons": [
             "与该场景关联度较弱"
           ]
         },
         "marketEducation": {
-          "score": 34,
+          "score": 33,
           "reasons": [
             "命中二级市场投教核心主题 1 项"
           ]
         },
         "privateFundSales": {
-          "score": 21,
+          "score": 20,
           "reasons": [
             "命中关联主题 1 项"
           ]
@@ -4332,14 +5167,14 @@ window.FINHOT_DATA = {
       "tier": "S2",
       "sourceTier": "S2",
       "sourceTierLabel": "专业财经媒体",
-      "score": 44,
-      "rawScore": 44,
+      "score": 42,
+      "rawScore": 42,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 12,
         "impact": 8,
         "evidence": 5,
-        "recency": 15,
+        "recency": 13,
         "actionability": 4
       },
       "evidenceBreakdown": {
@@ -4355,19 +5190,19 @@ window.FINHOT_DATA = {
       ],
       "scenarioScores": {
         "insurance": {
-          "score": 15,
+          "score": 14,
           "reasons": [
             "与该场景关联度较弱"
           ]
         },
         "marketEducation": {
-          "score": 37,
+          "score": 36,
           "reasons": [
             "命中二级市场投教核心主题 1 项"
           ]
         },
         "privateFundSales": {
-          "score": 24,
+          "score": 23,
           "reasons": [
             "命中关联主题 1 项"
           ]
@@ -4398,14 +5233,14 @@ window.FINHOT_DATA = {
       "tier": "S3",
       "sourceTier": "S3",
       "sourceTierLabel": "快讯/观点线索",
-      "score": 50,
-      "rawScore": 50,
+      "score": 48,
+      "rawScore": 48,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 12,
         "impact": 8,
         "evidence": 11,
-        "recency": 15,
+        "recency": 13,
         "actionability": 4
       },
       "evidenceBreakdown": {
@@ -4422,19 +5257,19 @@ window.FINHOT_DATA = {
       ],
       "scenarioScores": {
         "insurance": {
-          "score": 19,
+          "score": 18,
           "reasons": [
             "与该场景关联度较弱"
           ]
         },
         "marketEducation": {
-          "score": 19,
+          "score": 18,
           "reasons": [
             "与该场景关联度较弱"
           ]
         },
         "privateFundSales": {
-          "score": 19,
+          "score": 18,
           "reasons": [
             "与该场景关联度较弱"
           ]
@@ -4466,14 +5301,14 @@ window.FINHOT_DATA = {
       "tier": "S3",
       "sourceTier": "S3",
       "sourceTierLabel": "快讯/观点线索",
-      "score": 61,
-      "rawScore": 61,
+      "score": 59,
+      "rawScore": 59,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 26,
         "impact": 8,
         "evidence": 8,
-        "recency": 15,
+        "recency": 13,
         "actionability": 4
       },
       "evidenceBreakdown": {
@@ -4490,20 +5325,20 @@ window.FINHOT_DATA = {
       ],
       "scenarioScores": {
         "insurance": {
-          "score": 17,
+          "score": 16,
           "reasons": [
             "与该场景关联度较弱"
           ]
         },
         "marketEducation": {
-          "score": 48,
+          "score": 47,
           "reasons": [
             "命中二级市场投教核心主题 1 项",
             "命中关联主题 1 项"
           ]
         },
         "privateFundSales": {
-          "score": 70,
+          "score": 69,
           "reasons": [
             "命中私募销售运营核心主题 2 项",
             "命中关联主题 1 项"
@@ -4536,14 +5371,14 @@ window.FINHOT_DATA = {
       "tier": "S2",
       "sourceTier": "S2",
       "sourceTierLabel": "专业财经媒体",
-      "score": 47,
-      "rawScore": 47,
+      "score": 45,
+      "rawScore": 45,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 12,
         "impact": 8,
         "evidence": 8,
-        "recency": 15,
+        "recency": 13,
         "actionability": 4
       },
       "evidenceBreakdown": {
@@ -4560,19 +5395,19 @@ window.FINHOT_DATA = {
       ],
       "scenarioScores": {
         "insurance": {
-          "score": 17,
+          "score": 16,
           "reasons": [
             "与该场景关联度较弱"
           ]
         },
         "marketEducation": {
-          "score": 17,
+          "score": 16,
           "reasons": [
             "与该场景关联度较弱"
           ]
         },
         "privateFundSales": {
-          "score": 17,
+          "score": 16,
           "reasons": [
             "与该场景关联度较弱"
           ]
@@ -4603,14 +5438,14 @@ window.FINHOT_DATA = {
       "tier": "S3",
       "sourceTier": "S3",
       "sourceTierLabel": "快讯/观点线索",
-      "score": 72,
-      "rawScore": 72,
+      "score": 70,
+      "rawScore": 70,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 12,
         "impact": 21,
         "evidence": 14,
-        "recency": 15,
+        "recency": 13,
         "actionability": 10
       },
       "evidenceBreakdown": {
@@ -4673,14 +5508,14 @@ window.FINHOT_DATA = {
       "tier": "S2",
       "sourceTier": "S2",
       "sourceTierLabel": "专业财经媒体",
-      "score": 70,
-      "rawScore": 70,
+      "score": 68,
+      "rawScore": 68,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 26,
         "impact": 16,
         "evidence": 9,
-        "recency": 15,
+        "recency": 13,
         "actionability": 4
       },
       "evidenceBreakdown": {
@@ -4703,7 +5538,7 @@ window.FINHOT_DATA = {
           ]
         },
         "marketEducation": {
-          "score": 84,
+          "score": 83,
           "reasons": [
             "命中二级市场投教核心主题 2 项",
             "命中关联主题 2 项",
@@ -4711,7 +5546,7 @@ window.FINHOT_DATA = {
           ]
         },
         "privateFundSales": {
-          "score": 62,
+          "score": 61,
           "reasons": [
             "命中私募销售运营核心主题 1 项",
             "命中关联主题 2 项",
@@ -4744,14 +5579,14 @@ window.FINHOT_DATA = {
       "tier": "S3",
       "sourceTier": "S3",
       "sourceTierLabel": "快讯/观点线索",
-      "score": 79,
-      "rawScore": 79,
+      "score": 77,
+      "rawScore": 77,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 26,
         "impact": 25,
         "evidence": 9,
-        "recency": 15,
+        "recency": 13,
         "actionability": 4
       },
       "evidenceBreakdown": {
@@ -4769,14 +5604,14 @@ window.FINHOT_DATA = {
       ],
       "scenarioScores": {
         "insurance": {
-          "score": 38,
+          "score": 37,
           "reasons": [
             "命中关联主题 1 项",
             "业务影响较高"
           ]
         },
         "marketEducation": {
-          "score": 60,
+          "score": 59,
           "reasons": [
             "命中二级市场投教核心主题 1 项",
             "命中关联主题 1 项",
@@ -4817,14 +5652,14 @@ window.FINHOT_DATA = {
       "tier": "S3",
       "sourceTier": "S3",
       "sourceTierLabel": "快讯/观点线索",
-      "score": 48,
-      "rawScore": 48,
+      "score": 46,
+      "rawScore": 46,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 12,
         "impact": 8,
         "evidence": 9,
-        "recency": 15,
+        "recency": 13,
         "actionability": 4
       },
       "evidenceBreakdown": {
@@ -4841,19 +5676,19 @@ window.FINHOT_DATA = {
       ],
       "scenarioScores": {
         "insurance": {
-          "score": 17,
+          "score": 16,
           "reasons": [
             "与该场景关联度较弱"
           ]
         },
         "marketEducation": {
-          "score": 17,
+          "score": 16,
           "reasons": [
             "与该场景关联度较弱"
           ]
         },
         "privateFundSales": {
-          "score": 17,
+          "score": 16,
           "reasons": [
             "与该场景关联度较弱"
           ]
@@ -4884,14 +5719,14 @@ window.FINHOT_DATA = {
       "tier": "S3",
       "sourceTier": "S3",
       "sourceTierLabel": "快讯/观点线索",
-      "score": 50,
-      "rawScore": 50,
+      "score": 48,
+      "rawScore": 48,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 12,
         "impact": 8,
         "evidence": 11,
-        "recency": 15,
+        "recency": 13,
         "actionability": 4
       },
       "evidenceBreakdown": {
@@ -4908,19 +5743,19 @@ window.FINHOT_DATA = {
       ],
       "scenarioScores": {
         "insurance": {
-          "score": 19,
+          "score": 18,
           "reasons": [
             "与该场景关联度较弱"
           ]
         },
         "marketEducation": {
-          "score": 41,
+          "score": 40,
           "reasons": [
             "命中二级市场投教核心主题 1 项"
           ]
         },
         "privateFundSales": {
-          "score": 28,
+          "score": 27,
           "reasons": [
             "命中关联主题 1 项"
           ]
@@ -4952,14 +5787,14 @@ window.FINHOT_DATA = {
       "tier": "S3",
       "sourceTier": "S3",
       "sourceTierLabel": "快讯/观点线索",
-      "score": 74,
-      "rawScore": 74,
+      "score": 72,
+      "rawScore": 72,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 30,
         "impact": 16,
         "evidence": 3,
-        "recency": 15,
+        "recency": 13,
         "actionability": 10
       },
       "evidenceBreakdown": {
@@ -4976,20 +5811,20 @@ window.FINHOT_DATA = {
       ],
       "scenarioScores": {
         "insurance": {
-          "score": 85,
+          "score": 84,
           "reasons": [
             "命中保险运营核心主题 3 项",
             "业务影响较高"
           ]
         },
         "marketEducation": {
-          "score": 19,
+          "score": 18,
           "reasons": [
             "业务影响较高"
           ]
         },
         "privateFundSales": {
-          "score": 19,
+          "score": 18,
           "reasons": [
             "业务影响较高"
           ]
@@ -5021,14 +5856,14 @@ window.FINHOT_DATA = {
       "tier": "S3",
       "sourceTier": "S3",
       "sourceTierLabel": "快讯/观点线索",
-      "score": 61,
-      "rawScore": 61,
+      "score": 59,
+      "rawScore": 59,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 12,
         "impact": 16,
         "evidence": 8,
-        "recency": 15,
+        "recency": 13,
         "actionability": 10
       },
       "evidenceBreakdown": {
@@ -5052,14 +5887,14 @@ window.FINHOT_DATA = {
           ]
         },
         "marketEducation": {
-          "score": 44,
+          "score": 43,
           "reasons": [
             "命中二级市场投教核心主题 1 项",
             "业务影响较高"
           ]
         },
         "privateFundSales": {
-          "score": 31,
+          "score": 30,
           "reasons": [
             "命中关联主题 1 项",
             "业务影响较高"
@@ -5092,14 +5927,14 @@ window.FINHOT_DATA = {
       "tier": "S2",
       "sourceTier": "S2",
       "sourceTierLabel": "专业财经媒体",
-      "score": 39,
-      "rawScore": 39,
+      "score": 37,
+      "rawScore": 37,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 12,
         "impact": 8,
         "evidence": 0,
-        "recency": 15,
+        "recency": 13,
         "actionability": 4
       },
       "evidenceBreakdown": {},
@@ -5113,19 +5948,19 @@ window.FINHOT_DATA = {
       ],
       "scenarioScores": {
         "insurance": {
-          "score": 12,
+          "score": 11,
           "reasons": [
             "与该场景关联度较弱"
           ]
         },
         "marketEducation": {
-          "score": 12,
+          "score": 11,
           "reasons": [
             "与该场景关联度较弱"
           ]
         },
         "privateFundSales": {
-          "score": 12,
+          "score": 11,
           "reasons": [
             "与该场景关联度较弱"
           ]
@@ -5156,14 +5991,14 @@ window.FINHOT_DATA = {
       "tier": "S3",
       "sourceTier": "S3",
       "sourceTierLabel": "快讯/观点线索",
-      "score": 53,
-      "rawScore": 53,
+      "score": 51,
+      "rawScore": 51,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 12,
         "impact": 16,
         "evidence": 0,
-        "recency": 15,
+        "recency": 13,
         "actionability": 10
       },
       "evidenceBreakdown": {},
@@ -5178,20 +6013,20 @@ window.FINHOT_DATA = {
       ],
       "scenarioScores": {
         "insurance": {
-          "score": 17,
+          "score": 16,
           "reasons": [
             "业务影响较高"
           ]
         },
         "marketEducation": {
-          "score": 39,
+          "score": 38,
           "reasons": [
             "命中二级市场投教核心主题 1 项",
             "业务影响较高"
           ]
         },
         "privateFundSales": {
-          "score": 26,
+          "score": 25,
           "reasons": [
             "命中关联主题 1 项",
             "业务影响较高"
@@ -5224,14 +6059,14 @@ window.FINHOT_DATA = {
       "tier": "S3",
       "sourceTier": "S3",
       "sourceTierLabel": "快讯/观点线索",
-      "score": 53,
-      "rawScore": 53,
+      "score": 51,
+      "rawScore": 51,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 12,
         "impact": 8,
         "evidence": 14,
-        "recency": 15,
+        "recency": 13,
         "actionability": 4
       },
       "evidenceBreakdown": {
@@ -5250,20 +6085,20 @@ window.FINHOT_DATA = {
       ],
       "scenarioScores": {
         "insurance": {
-          "score": 20,
+          "score": 19,
           "reasons": [
             "含可核对要素"
           ]
         },
         "marketEducation": {
-          "score": 42,
+          "score": 41,
           "reasons": [
             "命中二级市场投教核心主题 1 项",
             "含可核对要素"
           ]
         },
         "privateFundSales": {
-          "score": 20,
+          "score": 19,
           "reasons": [
             "含可核对要素"
           ]
@@ -5294,14 +6129,14 @@ window.FINHOT_DATA = {
       "tier": "S2",
       "sourceTier": "S2",
       "sourceTierLabel": "专业财经媒体",
-      "score": 62,
-      "rawScore": 62,
+      "score": 60,
+      "rawScore": 60,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 26,
         "impact": 8,
         "evidence": 9,
-        "recency": 15,
+        "recency": 13,
         "actionability": 4
       },
       "evidenceBreakdown": {
@@ -5318,7 +6153,7 @@ window.FINHOT_DATA = {
       ],
       "scenarioScores": {
         "insurance": {
-          "score": 17,
+          "score": 16,
           "reasons": [
             "与该场景关联度较弱"
           ]
@@ -5331,7 +6166,7 @@ window.FINHOT_DATA = {
           ]
         },
         "privateFundSales": {
-          "score": 35,
+          "score": 34,
           "reasons": [
             "命中关联主题 2 项"
           ]
@@ -5362,14 +6197,14 @@ window.FINHOT_DATA = {
       "tier": "S3",
       "sourceTier": "S3",
       "sourceTierLabel": "快讯/观点线索",
-      "score": 54,
-      "rawScore": 54,
+      "score": 52,
+      "rawScore": 52,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 20,
         "impact": 8,
         "evidence": 3,
-        "recency": 15,
+        "recency": 13,
         "actionability": 8
       },
       "evidenceBreakdown": {
@@ -5386,19 +6221,19 @@ window.FINHOT_DATA = {
       ],
       "scenarioScores": {
         "insurance": {
-          "score": 23,
+          "score": 22,
           "reasons": [
             "命中关联主题 1 项"
           ]
         },
         "marketEducation": {
-          "score": 36,
+          "score": 35,
           "reasons": [
             "命中二级市场投教核心主题 1 项"
           ]
         },
         "privateFundSales": {
-          "score": 14,
+          "score": 13,
           "reasons": [
             "与该场景关联度较弱"
           ]
@@ -5429,14 +6264,14 @@ window.FINHOT_DATA = {
       "tier": "S3",
       "sourceTier": "S3",
       "sourceTierLabel": "快讯/观点线索",
-      "score": 62,
-      "rawScore": 62,
+      "score": 60,
+      "rawScore": 60,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 26,
         "impact": 8,
         "evidence": 9,
-        "recency": 15,
+        "recency": 13,
         "actionability": 4
       },
       "evidenceBreakdown": {
@@ -5453,19 +6288,19 @@ window.FINHOT_DATA = {
       ],
       "scenarioScores": {
         "insurance": {
-          "score": 17,
+          "score": 16,
           "reasons": [
             "与该场景关联度较弱"
           ]
         },
         "marketEducation": {
-          "score": 26,
+          "score": 25,
           "reasons": [
             "命中关联主题 1 项"
           ]
         },
         "privateFundSales": {
-          "score": 26,
+          "score": 25,
           "reasons": [
             "命中关联主题 1 项"
           ]
@@ -5497,14 +6332,14 @@ window.FINHOT_DATA = {
       "tier": "S3",
       "sourceTier": "S3",
       "sourceTierLabel": "快讯/观点线索",
-      "score": 71,
-      "rawScore": 71,
+      "score": 69,
+      "rawScore": 69,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 26,
         "impact": 8,
         "evidence": 14,
-        "recency": 15,
+        "recency": 13,
         "actionability": 8
       },
       "evidenceBreakdown": {
@@ -5514,7 +6349,7 @@ window.FINHOT_DATA = {
       },
       "noiseCaps": [],
       "tierGate": 70,
-      "passesTierGate": true,
+      "passesTierGate": false,
       "confidence": "high",
       "why": [
         "快讯线索，需结合原文判断",
@@ -5523,21 +6358,21 @@ window.FINHOT_DATA = {
       ],
       "scenarioScores": {
         "insurance": {
-          "score": 29,
+          "score": 28,
           "reasons": [
             "命中关联主题 1 项",
             "含可核对要素"
           ]
         },
         "marketEducation": {
-          "score": 29,
+          "score": 28,
           "reasons": [
             "命中关联主题 1 项",
             "含可核对要素"
           ]
         },
         "privateFundSales": {
-          "score": 29,
+          "score": 28,
           "reasons": [
             "命中关联主题 1 项",
             "含可核对要素"
@@ -5545,7 +6380,7 @@ window.FINHOT_DATA = {
         }
       },
       "primaryScene": "insurance",
-      "selectedForFeatured": true,
+      "selectedForFeatured": false,
       "contentTags": [
         "深度研究"
       ],
@@ -5569,14 +6404,14 @@ window.FINHOT_DATA = {
       "tier": "S2",
       "sourceTier": "S2",
       "sourceTierLabel": "专业财经媒体",
-      "score": 83,
-      "rawScore": 83,
+      "score": 81,
+      "rawScore": 81,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 30,
         "impact": 25,
         "evidence": 3,
-        "recency": 15,
+        "recency": 13,
         "actionability": 10
       },
       "evidenceBreakdown": {
@@ -5593,7 +6428,7 @@ window.FINHOT_DATA = {
       ],
       "scenarioScores": {
         "insurance": {
-          "score": 57,
+          "score": 56,
           "reasons": [
             "命中保险运营核心主题 1 项",
             "命中关联主题 1 项",
@@ -5601,14 +6436,14 @@ window.FINHOT_DATA = {
           ]
         },
         "marketEducation": {
-          "score": 35,
+          "score": 34,
           "reasons": [
             "命中关联主题 1 项",
             "业务影响较高"
           ]
         },
         "privateFundSales": {
-          "score": 57,
+          "score": 56,
           "reasons": [
             "命中私募销售运营核心主题 1 项",
             "命中关联主题 1 项",
@@ -5641,14 +6476,14 @@ window.FINHOT_DATA = {
       "tier": "S3",
       "sourceTier": "S3",
       "sourceTierLabel": "快讯/观点线索",
-      "score": 52,
-      "rawScore": 52,
+      "score": 50,
+      "rawScore": 50,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 12,
         "impact": 16,
         "evidence": 5,
-        "recency": 15,
+        "recency": 13,
         "actionability": 4
       },
       "evidenceBreakdown": {
@@ -5664,19 +6499,19 @@ window.FINHOT_DATA = {
       ],
       "scenarioScores": {
         "insurance": {
-          "score": 20,
+          "score": 19,
           "reasons": [
             "业务影响较高"
           ]
         },
         "marketEducation": {
-          "score": 20,
+          "score": 19,
           "reasons": [
             "业务影响较高"
           ]
         },
         "privateFundSales": {
-          "score": 42,
+          "score": 41,
           "reasons": [
             "命中私募销售运营核心主题 1 项",
             "业务影响较高"
@@ -5709,14 +6544,14 @@ window.FINHOT_DATA = {
       "tier": "S2",
       "sourceTier": "S2",
       "sourceTierLabel": "专业财经媒体",
-      "score": 70,
-      "rawScore": 70,
+      "score": 68,
+      "rawScore": 68,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 12,
         "impact": 25,
         "evidence": 14,
-        "recency": 15,
+        "recency": 13,
         "actionability": 4
       },
       "evidenceBreakdown": {
@@ -5778,14 +6613,14 @@ window.FINHOT_DATA = {
       "tier": "S2",
       "sourceTier": "S2",
       "sourceTierLabel": "专业财经媒体",
-      "score": 47,
-      "rawScore": 47,
+      "score": 45,
+      "rawScore": 45,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 12,
         "impact": 8,
         "evidence": 8,
-        "recency": 15,
+        "recency": 13,
         "actionability": 4
       },
       "evidenceBreakdown": {
@@ -5802,19 +6637,19 @@ window.FINHOT_DATA = {
       ],
       "scenarioScores": {
         "insurance": {
-          "score": 17,
+          "score": 16,
           "reasons": [
             "与该场景关联度较弱"
           ]
         },
         "marketEducation": {
-          "score": 17,
+          "score": 16,
           "reasons": [
             "与该场景关联度较弱"
           ]
         },
         "privateFundSales": {
-          "score": 17,
+          "score": 16,
           "reasons": [
             "与该场景关联度较弱"
           ]
@@ -5845,14 +6680,14 @@ window.FINHOT_DATA = {
       "tier": "S3",
       "sourceTier": "S3",
       "sourceTierLabel": "快讯/观点线索",
-      "score": 67,
-      "rawScore": 67,
+      "score": 65,
+      "rawScore": 65,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 26,
         "impact": 8,
         "evidence": 14,
-        "recency": 15,
+        "recency": 13,
         "actionability": 4
       },
       "evidenceBreakdown": {
@@ -5871,20 +6706,20 @@ window.FINHOT_DATA = {
       ],
       "scenarioScores": {
         "insurance": {
-          "score": 20,
+          "score": 19,
           "reasons": [
             "含可核对要素"
           ]
         },
         "marketEducation": {
-          "score": 29,
+          "score": 28,
           "reasons": [
             "命中关联主题 1 项",
             "含可核对要素"
           ]
         },
         "privateFundSales": {
-          "score": 29,
+          "score": 28,
           "reasons": [
             "命中关联主题 1 项",
             "含可核对要素"
@@ -5916,14 +6751,14 @@ window.FINHOT_DATA = {
       "tier": "S3",
       "sourceTier": "S3",
       "sourceTierLabel": "快讯/观点线索",
-      "score": 67,
-      "rawScore": 67,
+      "score": 65,
+      "rawScore": 65,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 12,
         "impact": 16,
         "evidence": 14,
-        "recency": 15,
+        "recency": 13,
         "actionability": 10
       },
       "evidenceBreakdown": {
@@ -5948,14 +6783,14 @@ window.FINHOT_DATA = {
           ]
         },
         "marketEducation": {
-          "score": 47,
+          "score": 46,
           "reasons": [
             "命中二级市场投教核心主题 1 项",
             "含可核对要素"
           ]
         },
         "privateFundSales": {
-          "score": 34,
+          "score": 33,
           "reasons": [
             "命中关联主题 1 项",
             "含可核对要素"
@@ -5987,14 +6822,14 @@ window.FINHOT_DATA = {
       "tier": "S2",
       "sourceTier": "S2",
       "sourceTierLabel": "专业财经媒体",
-      "score": 43,
-      "rawScore": 43,
+      "score": 41,
+      "rawScore": 41,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 12,
         "impact": 8,
         "evidence": 0,
-        "recency": 15,
+        "recency": 13,
         "actionability": 8
       },
       "evidenceBreakdown": {},
@@ -6009,19 +6844,19 @@ window.FINHOT_DATA = {
       ],
       "scenarioScores": {
         "insurance": {
-          "score": 12,
+          "score": 11,
           "reasons": [
             "与该场景关联度较弱"
           ]
         },
         "marketEducation": {
-          "score": 34,
+          "score": 33,
           "reasons": [
             "命中二级市场投教核心主题 1 项"
           ]
         },
         "privateFundSales": {
-          "score": 12,
+          "score": 11,
           "reasons": [
             "与该场景关联度较弱"
           ]
@@ -6052,14 +6887,14 @@ window.FINHOT_DATA = {
       "tier": "S2",
       "sourceTier": "S2",
       "sourceTierLabel": "专业财经媒体",
-      "score": 42,
-      "rawScore": 42,
+      "score": 40,
+      "rawScore": 40,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 12,
         "impact": 8,
         "evidence": 3,
-        "recency": 15,
+        "recency": 13,
         "actionability": 4
       },
       "evidenceBreakdown": {
@@ -6075,19 +6910,19 @@ window.FINHOT_DATA = {
       ],
       "scenarioScores": {
         "insurance": {
-          "score": 14,
+          "score": 13,
           "reasons": [
             "与该场景关联度较弱"
           ]
         },
         "marketEducation": {
-          "score": 36,
+          "score": 35,
           "reasons": [
             "命中二级市场投教核心主题 1 项"
           ]
         },
         "privateFundSales": {
-          "score": 23,
+          "score": 22,
           "reasons": [
             "命中关联主题 1 项"
           ]
@@ -6119,13 +6954,13 @@ window.FINHOT_DATA = {
       "sourceTier": "S2",
       "sourceTierLabel": "专业财经媒体",
       "score": 30,
-      "rawScore": 53,
+      "rawScore": 51,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 12,
         "impact": 8,
         "evidence": 14,
-        "recency": 15,
+        "recency": 13,
         "actionability": 4
       },
       "evidenceBreakdown": {
@@ -6146,13 +6981,13 @@ window.FINHOT_DATA = {
       ],
       "scenarioScores": {
         "insurance": {
-          "score": 20,
+          "score": 19,
           "reasons": [
             "含可核对要素"
           ]
         },
         "marketEducation": {
-          "score": 51,
+          "score": 50,
           "reasons": [
             "命中二级市场投教核心主题 1 项",
             "命中关联主题 1 项",
@@ -6160,7 +6995,7 @@ window.FINHOT_DATA = {
           ]
         },
         "privateFundSales": {
-          "score": 29,
+          "score": 28,
           "reasons": [
             "命中关联主题 1 项",
             "含可核对要素"
@@ -6192,14 +7027,14 @@ window.FINHOT_DATA = {
       "tier": "S3",
       "sourceTier": "S3",
       "sourceTierLabel": "快讯/观点线索",
-      "score": 53,
-      "rawScore": 53,
+      "score": 51,
+      "rawScore": 51,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 12,
         "impact": 8,
         "evidence": 14,
-        "recency": 15,
+        "recency": 13,
         "actionability": 4
       },
       "evidenceBreakdown": {
@@ -6218,20 +7053,20 @@ window.FINHOT_DATA = {
       ],
       "scenarioScores": {
         "insurance": {
-          "score": 20,
+          "score": 19,
           "reasons": [
             "含可核对要素"
           ]
         },
         "marketEducation": {
-          "score": 64,
+          "score": 63,
           "reasons": [
             "命中二级市场投教核心主题 2 项",
             "含可核对要素"
           ]
         },
         "privateFundSales": {
-          "score": 29,
+          "score": 28,
           "reasons": [
             "命中关联主题 1 项",
             "含可核对要素"
@@ -6263,14 +7098,14 @@ window.FINHOT_DATA = {
       "tier": "S3",
       "sourceTier": "S3",
       "sourceTierLabel": "快讯/观点线索",
-      "score": 53,
-      "rawScore": 53,
+      "score": 51,
+      "rawScore": 51,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 12,
         "impact": 8,
         "evidence": 14,
-        "recency": 15,
+        "recency": 13,
         "actionability": 4
       },
       "evidenceBreakdown": {
@@ -6289,20 +7124,20 @@ window.FINHOT_DATA = {
       ],
       "scenarioScores": {
         "insurance": {
-          "score": 20,
+          "score": 19,
           "reasons": [
             "含可核对要素"
           ]
         },
         "marketEducation": {
-          "score": 42,
+          "score": 41,
           "reasons": [
             "命中二级市场投教核心主题 1 项",
             "含可核对要素"
           ]
         },
         "privateFundSales": {
-          "score": 20,
+          "score": 19,
           "reasons": [
             "含可核对要素"
           ]
@@ -6333,14 +7168,14 @@ window.FINHOT_DATA = {
       "tier": "S2",
       "sourceTier": "S2",
       "sourceTierLabel": "专业财经媒体",
-      "score": 44,
-      "rawScore": 44,
+      "score": 42,
+      "rawScore": 42,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 12,
         "impact": 8,
         "evidence": 5,
-        "recency": 15,
+        "recency": 13,
         "actionability": 4
       },
       "evidenceBreakdown": {
@@ -6356,25 +7191,89 @@ window.FINHOT_DATA = {
       ],
       "scenarioScores": {
         "insurance": {
-          "score": 15,
+          "score": 14,
           "reasons": [
             "与该场景关联度较弱"
           ]
         },
         "marketEducation": {
-          "score": 15,
+          "score": 14,
           "reasons": [
             "与该场景关联度较弱"
           ]
         },
         "privateFundSales": {
-          "score": 15,
+          "score": 14,
           "reasons": [
             "与该场景关联度较弱"
           ]
         }
       },
       "primaryScene": "insurance",
+      "selectedForFeatured": false,
+      "contentTags": [
+        "行业动态"
+      ],
+      "eventId": null
+    },
+    {
+      "title": "古根海姆精选生物科技板块顶尖股票",
+      "sourceUrl": "https://cn.investing.com/news/stock-market-news/article-3665375",
+      "publishedAt": "2026-11-12T11:13:47.000Z",
+      "fetchedAt": "2026-11-12T20:02:41.853Z",
+      "timeConfidence": "source",
+      "summary": "",
+      "sourceName": "英为财情",
+      "category": "industry",
+      "tags": [
+        "行业动态"
+      ],
+      "evidenceType": "financial_media",
+      "discoveredVia": "Investing.com",
+      "id": "news_2d8e2ab9950d",
+      "tier": "S2",
+      "sourceTier": "S2",
+      "sourceTierLabel": "专业财经媒体",
+      "score": 37,
+      "rawScore": 37,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 12,
+        "impact": 8,
+        "evidence": 0,
+        "recency": 13,
+        "actionability": 4
+      },
+      "evidenceBreakdown": {},
+      "noiseCaps": [],
+      "tierGate": 60,
+      "passesTierGate": false,
+      "confidence": "low",
+      "why": [
+        "专业财经媒体跟进",
+        "时效性高"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 11,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "marketEducation": {
+          "score": 33,
+          "reasons": [
+            "命中二级市场投教核心主题 1 项"
+          ]
+        },
+        "privateFundSales": {
+          "score": 11,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        }
+      },
+      "primaryScene": "marketEducation",
       "selectedForFeatured": false,
       "contentTags": [
         "行业动态"
@@ -6399,14 +7298,14 @@ window.FINHOT_DATA = {
       "tier": "S2",
       "sourceTier": "S2",
       "sourceTierLabel": "专业财经媒体",
-      "score": 42,
-      "rawScore": 42,
+      "score": 40,
+      "rawScore": 40,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 12,
         "impact": 8,
         "evidence": 3,
-        "recency": 15,
+        "recency": 13,
         "actionability": 4
       },
       "evidenceBreakdown": {
@@ -6422,19 +7321,19 @@ window.FINHOT_DATA = {
       ],
       "scenarioScores": {
         "insurance": {
-          "score": 14,
+          "score": 13,
           "reasons": [
             "与该场景关联度较弱"
           ]
         },
         "marketEducation": {
-          "score": 14,
+          "score": 13,
           "reasons": [
             "与该场景关联度较弱"
           ]
         },
         "privateFundSales": {
-          "score": 14,
+          "score": 13,
           "reasons": [
             "与该场景关联度较弱"
           ]
@@ -6465,14 +7364,14 @@ window.FINHOT_DATA = {
       "tier": "S2",
       "sourceTier": "S2",
       "sourceTierLabel": "专业财经媒体",
-      "score": 42,
-      "rawScore": 42,
+      "score": 40,
+      "rawScore": 40,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 12,
         "impact": 8,
         "evidence": 3,
-        "recency": 15,
+        "recency": 13,
         "actionability": 4
       },
       "evidenceBreakdown": {
@@ -6488,19 +7387,19 @@ window.FINHOT_DATA = {
       ],
       "scenarioScores": {
         "insurance": {
-          "score": 14,
+          "score": 13,
           "reasons": [
             "与该场景关联度较弱"
           ]
         },
         "marketEducation": {
-          "score": 14,
+          "score": 13,
           "reasons": [
             "与该场景关联度较弱"
           ]
         },
         "privateFundSales": {
-          "score": 14,
+          "score": 13,
           "reasons": [
             "与该场景关联度较弱"
           ]
@@ -6531,14 +7430,14 @@ window.FINHOT_DATA = {
       "tier": "S3",
       "sourceTier": "S3",
       "sourceTierLabel": "快讯/观点线索",
-      "score": 56,
-      "rawScore": 56,
+      "score": 54,
+      "rawScore": 54,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 26,
         "impact": 8,
         "evidence": 3,
-        "recency": 15,
+        "recency": 13,
         "actionability": 4
       },
       "evidenceBreakdown": {
@@ -6554,20 +7453,20 @@ window.FINHOT_DATA = {
       ],
       "scenarioScores": {
         "insurance": {
-          "score": 14,
+          "score": 13,
           "reasons": [
             "与该场景关联度较弱"
           ]
         },
         "marketEducation": {
-          "score": 76,
+          "score": 75,
           "reasons": [
             "命中二级市场投教核心主题 2 项",
             "命中关联主题 2 项"
           ]
         },
         "privateFundSales": {
-          "score": 85,
+          "score": 84,
           "reasons": [
             "命中私募销售运营核心主题 2 项",
             "命中关联主题 3 项"
@@ -6599,14 +7498,14 @@ window.FINHOT_DATA = {
       "tier": "S2",
       "sourceTier": "S2",
       "sourceTierLabel": "专业财经媒体",
-      "score": 42,
-      "rawScore": 42,
+      "score": 40,
+      "rawScore": 40,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 12,
         "impact": 8,
         "evidence": 3,
-        "recency": 15,
+        "recency": 13,
         "actionability": 4
       },
       "evidenceBreakdown": {
@@ -6622,19 +7521,19 @@ window.FINHOT_DATA = {
       ],
       "scenarioScores": {
         "insurance": {
-          "score": 14,
+          "score": 13,
           "reasons": [
             "与该场景关联度较弱"
           ]
         },
         "marketEducation": {
-          "score": 14,
+          "score": 13,
           "reasons": [
             "与该场景关联度较弱"
           ]
         },
         "privateFundSales": {
-          "score": 14,
+          "score": 13,
           "reasons": [
             "与该场景关联度较弱"
           ]
@@ -6665,14 +7564,14 @@ window.FINHOT_DATA = {
       "tier": "S2",
       "sourceTier": "S2",
       "sourceTierLabel": "专业财经媒体",
-      "score": 60,
-      "rawScore": 60,
+      "score": 58,
+      "rawScore": 58,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 12,
         "impact": 21,
         "evidence": 8,
-        "recency": 15,
+        "recency": 13,
         "actionability": 4
       },
       "evidenceBreakdown": {
@@ -6681,7 +7580,7 @@ window.FINHOT_DATA = {
       },
       "noiseCaps": [],
       "tierGate": 60,
-      "passesTierGate": true,
+      "passesTierGate": false,
       "confidence": "medium",
       "why": [
         "专业财经媒体跟进",
@@ -6696,7 +7595,7 @@ window.FINHOT_DATA = {
           ]
         },
         "marketEducation": {
-          "score": 70,
+          "score": 69,
           "reasons": [
             "命中二级市场投教核心主题 2 项",
             "业务影响较高"
@@ -6734,14 +7633,14 @@ window.FINHOT_DATA = {
       "tier": "S2",
       "sourceTier": "S2",
       "sourceTierLabel": "专业财经媒体",
-      "score": 81,
-      "rawScore": 81,
+      "score": 79,
+      "rawScore": 79,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 26,
         "impact": 25,
         "evidence": 11,
-        "recency": 15,
+        "recency": 13,
         "actionability": 4
       },
       "evidenceBreakdown": {
@@ -6765,14 +7664,14 @@ window.FINHOT_DATA = {
           ]
         },
         "marketEducation": {
-          "score": 53,
+          "score": 52,
           "reasons": [
             "命中二级市场投教核心主题 1 项",
             "业务影响较高"
           ]
         },
         "privateFundSales": {
-          "score": 62,
+          "score": 61,
           "reasons": [
             "命中私募销售运营核心主题 1 项",
             "命中关联主题 1 项",
@@ -6805,14 +7704,14 @@ window.FINHOT_DATA = {
       "tier": "S2",
       "sourceTier": "S2",
       "sourceTierLabel": "专业财经媒体",
-      "score": 58,
-      "rawScore": 58,
+      "score": 56,
+      "rawScore": 56,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 20,
         "impact": 8,
         "evidence": 11,
-        "recency": 15,
+        "recency": 13,
         "actionability": 4
       },
       "evidenceBreakdown": {
@@ -6829,19 +7728,19 @@ window.FINHOT_DATA = {
       ],
       "scenarioScores": {
         "insurance": {
-          "score": 28,
+          "score": 27,
           "reasons": [
             "命中关联主题 1 项"
           ]
         },
         "marketEducation": {
-          "score": 19,
+          "score": 18,
           "reasons": [
             "与该场景关联度较弱"
           ]
         },
         "privateFundSales": {
-          "score": 19,
+          "score": 18,
           "reasons": [
             "与该场景关联度较弱"
           ]
@@ -7135,6 +8034,70 @@ window.FINHOT_DATA = {
       "eventId": null
     },
     {
+      "title": "投资者对AI的热情是否已近尾声？Ranmore为何将目光转向亚洲",
+      "sourceUrl": "https://cn.investing.com/news/stock-market-news/article-3665358",
+      "publishedAt": "2026-11-12T10:43:50.000Z",
+      "fetchedAt": "2026-11-12T20:02:41.853Z",
+      "timeConfidence": "source",
+      "summary": "",
+      "sourceName": "英为财情",
+      "category": "industry",
+      "tags": [
+        "行业动态"
+      ],
+      "evidenceType": "financial_media",
+      "discoveredVia": "Investing.com",
+      "id": "news_e3898c2abab6",
+      "tier": "S2",
+      "sourceTier": "S2",
+      "sourceTierLabel": "专业财经媒体",
+      "score": 37,
+      "rawScore": 37,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 12,
+        "impact": 8,
+        "evidence": 0,
+        "recency": 13,
+        "actionability": 4
+      },
+      "evidenceBreakdown": {},
+      "noiseCaps": [],
+      "tierGate": 60,
+      "passesTierGate": false,
+      "confidence": "low",
+      "why": [
+        "专业财经媒体跟进",
+        "时效性高"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 11,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "marketEducation": {
+          "score": 11,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "privateFundSales": {
+          "score": 11,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        }
+      },
+      "primaryScene": "insurance",
+      "selectedForFeatured": false,
+      "contentTags": [
+        "行业动态"
+      ],
+      "eventId": null
+    },
+    {
       "title": "香港证监会：香港代币化发展从试验阶段迈向商业应用",
       "sourceUrl": "https://finance.caixin.com/2026-11-12/102504113.html",
       "publishedAt": "2026-11-12T10:38:40.000Z",
@@ -7196,11 +8159,77 @@ window.FINHOT_DATA = {
         }
       },
       "primaryScene": "insurance",
-      "selectedForFeatured": false,
+      "selectedForFeatured": true,
       "contentTags": [
         "行业动态"
       ],
       "eventId": null
+    },
+    {
+      "title": "谷歌A股价今日为何大幅上涨？",
+      "sourceUrl": "https://cn.investing.com/news/stock-market-news/article-93CH-3665347",
+      "publishedAt": "2026-11-12T10:35:49.000Z",
+      "fetchedAt": "2026-11-12T20:02:41.853Z",
+      "timeConfidence": "source",
+      "summary": "",
+      "sourceName": "英为财情",
+      "category": "industry",
+      "tags": [
+        "行业动态"
+      ],
+      "evidenceType": "financial_media",
+      "discoveredVia": "Investing.com",
+      "id": "news_929206f468ef",
+      "tier": "S2",
+      "sourceTier": "S2",
+      "sourceTierLabel": "专业财经媒体",
+      "score": 43,
+      "rawScore": 43,
+      "scoreLabel": "从业价值",
+      "scoreBreakdown": {
+        "relevance": 12,
+        "impact": 8,
+        "evidence": 6,
+        "recency": 13,
+        "actionability": 4
+      },
+      "evidenceBreakdown": {
+        "namedSubject": 6
+      },
+      "noiseCaps": [],
+      "tierGate": 60,
+      "passesTierGate": false,
+      "confidence": "low",
+      "why": [
+        "专业财经媒体跟进",
+        "时效性高"
+      ],
+      "scenarioScores": {
+        "insurance": {
+          "score": 15,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        },
+        "marketEducation": {
+          "score": 37,
+          "reasons": [
+            "命中二级市场投教核心主题 1 项"
+          ]
+        },
+        "privateFundSales": {
+          "score": 15,
+          "reasons": [
+            "与该场景关联度较弱"
+          ]
+        }
+      },
+      "primaryScene": "marketEducation",
+      "selectedForFeatured": false,
+      "contentTags": [
+        "行业动态"
+      ],
+      "eventId": "event_a3c5d0364922"
     },
     {
       "title": "图集｜故宫太和门封闭修缮 被红色围挡包裹成独特景观",
@@ -8552,971 +9581,6 @@ window.FINHOT_DATA = {
       "eventId": null
     },
     {
-      "title": "德经济专家委员会警告德国财政风险",
-      "sourceUrl": "https://www.36kr.com/newsflashes/4066447830996103",
-      "publishedAt": "2026-11-12T07:31:35.000Z",
-      "fetchedAt": "2026-11-12T07:49:35.626Z",
-      "timeConfidence": "source",
-      "summary": "德国经济专家委员会11月11日发布年度经济报告，将2026年德国经济增长预期从此前预测的0.5%上调至1.3%，但警告说，德国公共财政面临日益严峻压力，政府亟需采取财政整顿措施。报告指出，此次上调预测主要原因是出口表现好于预期。报告认为，在出口增长和政府支出增加推动下，德国经济复苏势头持续，2026年国内生产总值预计将自2022年以来首次明显增长。（新华社）",
-      "sourceName": "36氪",
-      "category": "insights",
-      "tags": [
-        "观点"
-      ],
-      "evidenceType": "news_flash",
-      "discoveredVia": "RSSHub",
-      "id": "news_a516dda1e634",
-      "tier": "S3",
-      "sourceTier": "S3",
-      "sourceTierLabel": "快讯/观点线索",
-      "score": 51,
-      "rawScore": 51,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 12,
-        "impact": 8,
-        "evidence": 14,
-        "recency": 13,
-        "actionability": 4
-      },
-      "evidenceBreakdown": {
-        "namedSubject": 6,
-        "quantity": 5,
-        "explicitDate": 3
-      },
-      "noiseCaps": [],
-      "tierGate": 70,
-      "passesTierGate": false,
-      "confidence": "medium",
-      "why": [
-        "快讯线索，需结合原文判断",
-        "含机构、文号或可核对数据",
-        "时效性高"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 19,
-          "reasons": [
-            "含可核对要素"
-          ]
-        },
-        "marketEducation": {
-          "score": 19,
-          "reasons": [
-            "含可核对要素"
-          ]
-        },
-        "privateFundSales": {
-          "score": 19,
-          "reasons": [
-            "含可核对要素"
-          ]
-        }
-      },
-      "primaryScene": "insurance",
-      "selectedForFeatured": false,
-      "contentTags": [
-        "观点",
-        "快讯"
-      ],
-      "eventId": null
-    },
-    {
-      "title": "收盘丨创业板指跌2.44% 贵金属板块下挫",
-      "sourceUrl": "https://www.yicai.com/news/103438146.html",
-      "publishedAt": "2026-11-12T07:18:36.000Z",
-      "fetchedAt": "2026-11-12T07:48:51.624Z",
-      "timeConfidence": "source",
-      "summary": "沪深两市成交额1.93万亿，较上一个交易日放量2558亿。11月12日，沪指跌0.67%，深成指跌1.68%，创业板指跌2.44%，科创综指跌0.35%。\n\n\n\n盘面上，贵金属、AI漫剧、机器人、物理AI概念走低，燃气、农业、白酒板块表现活跃。\n\n具体来看，贵金属板块全线下挫，山金国际跌超9%，赤峰黄金跌超8%，西部黄金、招金黄金、山东黄金、中金黄金跌超6%。\n\n\n\n燃气板块表现活跃，东方环宇、洪",
-      "sourceName": "第一财经",
-      "category": "industry",
-      "tags": [
-        "行业动态"
-      ],
-      "evidenceType": "financial_media",
-      "discoveredVia": "RSSHub",
-      "id": "news_612ab23bd1a2",
-      "tier": "S2",
-      "sourceTier": "S2",
-      "sourceTierLabel": "专业财经媒体",
-      "score": 45,
-      "rawScore": 45,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 12,
-        "impact": 8,
-        "evidence": 8,
-        "recency": 13,
-        "actionability": 4
-      },
-      "evidenceBreakdown": {
-        "quantity": 5,
-        "explicitDate": 3
-      },
-      "noiseCaps": [],
-      "tierGate": 60,
-      "passesTierGate": false,
-      "confidence": "medium",
-      "why": [
-        "专业财经媒体跟进",
-        "时效性高"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 16,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        },
-        "marketEducation": {
-          "score": 16,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        },
-        "privateFundSales": {
-          "score": 16,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        }
-      },
-      "primaryScene": "insurance",
-      "selectedForFeatured": false,
-      "contentTags": [
-        "行业动态"
-      ],
-      "eventId": null
-    },
-    {
-      "title": "国家发改委：11月12日24时起汽、柴油价格每吨分别下调645元、625元",
-      "sourceUrl": "https://www.36kr.com/newsflashes/4066439482905733",
-      "publishedAt": "2026-11-12T07:16:09.000Z",
-      "fetchedAt": "2026-11-12T07:49:35.626Z",
-      "timeConfidence": "source",
-      "summary": "36氪获悉，据国家发改委消息，10月29日国内成品油价格调整以来，国际市场原油价格震荡回落，本次调价的前10个工作日平均价格低于上次调价前10个工作日平均价格。根据国际市场油价变化情况，自11月12日24时起，国内汽、柴油（标准品）价格每吨分别下调645元、625元。",
-      "sourceName": "36氪",
-      "category": "insights",
-      "tags": [
-        "观点"
-      ],
-      "evidenceType": "news_flash",
-      "discoveredVia": "RSSHub",
-      "id": "news_3f7b6133e38f",
-      "tier": "S3",
-      "sourceTier": "S3",
-      "sourceTierLabel": "快讯/观点线索",
-      "score": 51,
-      "rawScore": 51,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 12,
-        "impact": 8,
-        "evidence": 14,
-        "recency": 13,
-        "actionability": 4
-      },
-      "evidenceBreakdown": {
-        "namedSubject": 6,
-        "quantity": 5,
-        "explicitDate": 3
-      },
-      "noiseCaps": [],
-      "tierGate": 70,
-      "passesTierGate": false,
-      "confidence": "medium",
-      "why": [
-        "快讯线索，需结合原文判断",
-        "含机构、文号或可核对数据",
-        "时效性高"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 19,
-          "reasons": [
-            "含可核对要素"
-          ]
-        },
-        "marketEducation": {
-          "score": 41,
-          "reasons": [
-            "命中二级市场投教核心主题 1 项",
-            "含可核对要素"
-          ]
-        },
-        "privateFundSales": {
-          "score": 28,
-          "reasons": [
-            "命中关联主题 1 项",
-            "含可核对要素"
-          ]
-        }
-      },
-      "primaryScene": "marketEducation",
-      "selectedForFeatured": false,
-      "contentTags": [
-        "观点",
-        "快讯"
-      ],
-      "eventId": null
-    },
-    {
-      "title": "华人影业总裁应旭珺：观影需求依然存在 电影创作的核心依然是人",
-      "sourceUrl": "https://topics.caixin.com/2026-11-12/102503994.html",
-      "publishedAt": "2026-11-12T07:10:24.000Z",
-      "fetchedAt": "2026-11-12T07:48:35.394Z",
-      "timeConfidence": "source",
-      "summary": "目前很多AI电影已经完成制作并到电影局送审，未来也许会有大量作品涌向市场，但能不能被观众认可，比较难说\n       　　[查看更多峰会报道，请访问本届财新峰会首页。可点此打开]\n　　【财新网】电影市场发生结构性变化，爆款动画电影带动暑期档票房。在11月12日下午的财新峰会“服务消费：增长新曲线”专题会议上，华人文化集团公司副总裁、华人影业总裁、东方梦工厂总裁应旭珺表示，“需求依然在，市场依然在，",
-      "sourceName": "财新网",
-      "category": "industry",
-      "tags": [
-        "行业动态"
-      ],
-      "evidenceType": "financial_media",
-      "discoveredVia": "RSSHub",
-      "id": "news_4b10ccc6a15c",
-      "tier": "S2",
-      "sourceTier": "S2",
-      "sourceTierLabel": "专业财经媒体",
-      "score": 40,
-      "rawScore": 40,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 12,
-        "impact": 8,
-        "evidence": 3,
-        "recency": 13,
-        "actionability": 4
-      },
-      "evidenceBreakdown": {
-        "explicitDate": 3
-      },
-      "noiseCaps": [],
-      "tierGate": 60,
-      "passesTierGate": false,
-      "confidence": "low",
-      "why": [
-        "专业财经媒体跟进",
-        "时效性高"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 13,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        },
-        "marketEducation": {
-          "score": 35,
-          "reasons": [
-            "命中二级市场投教核心主题 1 项"
-          ]
-        },
-        "privateFundSales": {
-          "score": 22,
-          "reasons": [
-            "命中关联主题 1 项"
-          ]
-        }
-      },
-      "primaryScene": "marketEducation",
-      "selectedForFeatured": false,
-      "contentTags": [
-        "行业动态"
-      ],
-      "eventId": null
-    },
-    {
-      "title": "商务部回应欧盟有关国家禁用中国企业设备",
-      "sourceUrl": "https://www.36kr.com/newsflashes/4066433580077956",
-      "publishedAt": "2026-11-12T07:10:08.000Z",
-      "fetchedAt": "2026-11-12T07:49:35.626Z",
-      "timeConfidence": "source",
-      "summary": "针对欧盟有关国家禁用中国企业设备的问题，商务部新闻发言人何亚东在11月12日举行的例行新闻发布会上说，我们注意到有关报道，已向相关国家政府表达严重关切。中方一贯认为，5G是全球数字经济发展的重要基础设施，其建设和运营应当尊重市场规律、技术中立和国际规则。中方坚决反对将技术问题政治化、泛安全化。希望相关国家及时纠正错误做法，为中国企业提供公平、公正、非歧视的营商环境。（新华社）",
-      "sourceName": "36氪",
-      "category": "insights",
-      "tags": [
-        "观点"
-      ],
-      "evidenceType": "news_flash",
-      "discoveredVia": "RSSHub",
-      "id": "news_102a79038567",
-      "tier": "S3",
-      "sourceTier": "S3",
-      "sourceTierLabel": "快讯/观点线索",
-      "score": 40,
-      "rawScore": 40,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 12,
-        "impact": 8,
-        "evidence": 3,
-        "recency": 13,
-        "actionability": 4
-      },
-      "evidenceBreakdown": {
-        "explicitDate": 3
-      },
-      "noiseCaps": [],
-      "tierGate": 70,
-      "passesTierGate": false,
-      "confidence": "low",
-      "why": [
-        "快讯线索，需结合原文判断",
-        "时效性高"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 13,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        },
-        "marketEducation": {
-          "score": 35,
-          "reasons": [
-            "命中二级市场投教核心主题 1 项"
-          ]
-        },
-        "privateFundSales": {
-          "score": 22,
-          "reasons": [
-            "命中关联主题 1 项"
-          ]
-        }
-      },
-      "primaryScene": "marketEducation",
-      "selectedForFeatured": false,
-      "contentTags": [
-        "观点",
-        "快讯"
-      ],
-      "eventId": null
-    },
-    {
-      "title": "商务部：中美正就降税、贸易、投资等问题保持密切沟通",
-      "sourceUrl": "https://wallstreetcn.com/livenews/3198939",
-      "publishedAt": "2026-11-12T07:09:48.000Z",
-      "fetchedAt": "2026-11-12T07:48:38.366Z",
-      "timeConfidence": "source",
-      "summary": "商务部新闻发言人何亚东在12日举行的商务部例行新闻发布会上说，“300亿对300亿”对等降税框架安排有利于稳定和拓展中美双边贸易，中美两国工商界对此都抱有较高期待。目前，中美双方就实施这一安排保持密切沟通。希望美方与中方共同努力，尽快推动这一安排落地见效，为两国农产品贸易创造更多有利条件。关于经贸磋商，中美双方正在就贸易、投资等领域各自关切问题保持密切沟通，有关进展将适时公布。(新华社)",
-      "sourceName": "华尔街见闻",
-      "category": "industry",
-      "tags": [
-        "行业动态"
-      ],
-      "evidenceType": "financial_media",
-      "discoveredVia": "RSSHub",
-      "id": "news_35b1427844fc",
-      "tier": "S2",
-      "sourceTier": "S2",
-      "sourceTierLabel": "专业财经媒体",
-      "score": 56,
-      "rawScore": 56,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 12,
-        "impact": 16,
-        "evidence": 5,
-        "recency": 13,
-        "actionability": 10
-      },
-      "evidenceBreakdown": {
-        "quantity": 5
-      },
-      "noiseCaps": [],
-      "tierGate": 60,
-      "passesTierGate": false,
-      "confidence": "low",
-      "why": [
-        "专业财经媒体跟进",
-        "可转化为客户沟通或投研关注",
-        "时效性高"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 19,
-          "reasons": [
-            "业务影响较高"
-          ]
-        },
-        "marketEducation": {
-          "score": 19,
-          "reasons": [
-            "业务影响较高"
-          ]
-        },
-        "privateFundSales": {
-          "score": 19,
-          "reasons": [
-            "业务影响较高"
-          ]
-        }
-      },
-      "primaryScene": "insurance",
-      "selectedForFeatured": false,
-      "contentTags": [
-        "行业动态"
-      ],
-      "eventId": null
-    },
-    {
-      "title": "Anthropic CEO惊人预言：AI或在十年内攻克癌症、心脏病和精神疾病！",
-      "sourceUrl": "https://www.cls.cn/detail/2532591",
-      "publishedAt": "2026-11-12T07:06:20.000Z",
-      "fetchedAt": "2026-11-12T16:54:56.980Z",
-      "timeConfidence": "source",
-      "summary": "财联社11月12日讯（编辑 黄君芝）Anthropic首席执行官达里奥·阿莫代伊（Dario Amodei）最新表示，如果能妥善应用人工智能（AI）的“神奇力量”，癌症和精神疾病等广泛存在的健康问题可能会在十年内“不复存在”。\n阿莫代伊在公司IPO路演视频中说道：“你知道，如果我们今天审视癌症、阿尔茨海默病、心脏病、精神疾病等问题，我认为，不到十年，这些都将成为过去的遗迹。”\n“我认为，如果我们做",
-      "sourceName": "财联社",
-      "category": "research",
-      "tags": [
-        "研究报告"
-      ],
-      "evidenceType": "financial_media",
-      "discoveredVia": "RSSHub",
-      "id": "news_ccae859a2009",
-      "tier": "S3",
-      "sourceTier": "S3",
-      "sourceTierLabel": "快讯/观点线索",
-      "score": 40,
-      "rawScore": 40,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 12,
-        "impact": 8,
-        "evidence": 3,
-        "recency": 13,
-        "actionability": 4
-      },
-      "evidenceBreakdown": {
-        "explicitDate": 3
-      },
-      "noiseCaps": [],
-      "tierGate": 70,
-      "passesTierGate": false,
-      "confidence": "low",
-      "why": [
-        "快讯线索，需结合原文判断",
-        "时效性高"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 13,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        },
-        "marketEducation": {
-          "score": 13,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        },
-        "privateFundSales": {
-          "score": 13,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        }
-      },
-      "primaryScene": "insurance",
-      "selectedForFeatured": false,
-      "contentTags": [
-        "深度研究"
-      ],
-      "eventId": null
-    },
-    {
-      "title": "礼来口服减重药奥氟格列隆钙片获批上市",
-      "sourceUrl": "https://wallstreetcn.com/articles/3785798",
-      "publishedAt": "2026-11-12T07:05:44.000Z",
-      "fetchedAt": "2026-11-12T07:48:38.366Z",
-      "timeConfidence": "source",
-      "summary": "近日，国家药品监督管理局批准EliLilly Nederland B.V.申报的1类创新药奥氟格列隆钙片（商品名称：穆优达）上市，该药适用于在控制饮食和增加运动基础上，用于初始体重指数（BMI）符合以下要求的成人的长期体重管理：≥30 kg/m2（肥胖），或≥27 kg/m2至&lt;30 kg/m2（超重）并伴有至少一种体重相关合并症（例如高血压、血脂异常、高血糖、阻塞性睡眠呼吸暂停综合征、心血",
-      "sourceName": "华尔街见闻",
-      "category": "industry",
-      "tags": [
-        "行业动态"
-      ],
-      "evidenceType": "financial_media",
-      "discoveredVia": "RSSHub",
-      "id": "news_ff7730416c2f",
-      "tier": "S2",
-      "sourceTier": "S2",
-      "sourceTierLabel": "专业财经媒体",
-      "score": 37,
-      "rawScore": 37,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 12,
-        "impact": 8,
-        "evidence": 0,
-        "recency": 13,
-        "actionability": 4
-      },
-      "evidenceBreakdown": {},
-      "noiseCaps": [],
-      "tierGate": 60,
-      "passesTierGate": false,
-      "confidence": "low",
-      "why": [
-        "专业财经媒体跟进",
-        "时效性高"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 11,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        },
-        "marketEducation": {
-          "score": 33,
-          "reasons": [
-            "命中二级市场投教核心主题 1 项"
-          ]
-        },
-        "privateFundSales": {
-          "score": 11,
-          "reasons": [
-            "与该场景关联度较弱"
-          ]
-        }
-      },
-      "primaryScene": "marketEducation",
-      "selectedForFeatured": false,
-      "contentTags": [
-        "行业动态"
-      ],
-      "eventId": null
-    },
-    {
-      "title": "A股三大指数集体收跌，全市场超4600股飘绿",
-      "sourceUrl": "https://www.36kr.com/newsflashes/4066425144333446",
-      "publishedAt": "2026-11-12T07:01:34.000Z",
-      "fetchedAt": "2026-11-12T07:49:35.626Z",
-      "timeConfidence": "source",
-      "summary": "36氪获悉，A股三大指数集体收跌，沪指跌0.67%，深成指跌1.68%，创业板指跌2.44%；物理AI、AI短剧领跌，华策影视、上纬新材跌超10%，宇树科技跌超8%；食品饮料、银行涨幅居前，广百股份、皇台酒业涨停，金种子酒涨超6%；半导体板块走强，燧原科技、盛科通信涨超10%，沐曦股份、摩尔线程、寒武纪涨超8%；个股跌多涨少，全市场超4600股飘绿。",
-      "sourceName": "36氪",
-      "category": "insights",
-      "tags": [
-        "观点"
-      ],
-      "evidenceType": "news_flash",
-      "discoveredVia": "RSSHub",
-      "id": "news_728f0622fb40",
-      "tier": "S3",
-      "sourceTier": "S3",
-      "sourceTierLabel": "快讯/观点线索",
-      "score": 56,
-      "rawScore": 56,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 20,
-        "impact": 8,
-        "evidence": 11,
-        "recency": 13,
-        "actionability": 4
-      },
-      "evidenceBreakdown": {
-        "namedSubject": 6,
-        "quantity": 5
-      },
-      "noiseCaps": [],
-      "tierGate": 70,
-      "passesTierGate": false,
-      "confidence": "medium",
-      "why": [
-        "快讯线索，需结合原文判断",
-        "时效性高"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 27,
-          "reasons": [
-            "命中关联主题 1 项"
-          ]
-        },
-        "marketEducation": {
-          "score": 84,
-          "reasons": [
-            "命中二级市场投教核心主题 3 项"
-          ]
-        },
-        "privateFundSales": {
-          "score": 27,
-          "reasons": [
-            "命中关联主题 1 项"
-          ]
-        }
-      },
-      "primaryScene": "marketEducation",
-      "selectedForFeatured": false,
-      "contentTags": [
-        "观点",
-        "快讯"
-      ],
-      "eventId": "event_a3c5d0364922"
-    },
-    {
-      "title": "中金点评央行Q3货币政策执行报告：更重框架改革与防范风险",
-      "sourceUrl": "https://wallstreetcn.com/articles/3785796",
-      "publishedAt": "2026-11-12T07:01:21.000Z",
-      "fetchedAt": "2026-11-12T07:48:38.366Z",
-      "timeConfidence": "source",
-      "summary": "摘要\n三季度货币政策执行报告对外部环境判断更谨慎、内部强调供需矛盾，淡化高物价担忧，未提跨周期调节。央行更加重视防范化解风险，新设债市非银工具、加力资本市场工具以稳定金融市场，健全地方中小金融机构资本补充机制、依法提供中央支持，并指出尽管中国的政策利率高于疫情后美日欧最低的水平，但国债收益率、贷款利率、信用债利差更低，且合理的存贷利差有助稳定银行风险。我们预计防风险之下，央行或更多通过货币政策框架",
-      "sourceName": "华尔街见闻",
-      "category": "industry",
-      "tags": [
-        "行业动态"
-      ],
-      "evidenceType": "financial_media",
-      "discoveredVia": "RSSHub",
-      "id": "news_314a3ea3cbaa",
-      "tier": "S2",
-      "sourceTier": "S2",
-      "sourceTierLabel": "专业财经媒体",
-      "score": 68,
-      "rawScore": 58,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 20,
-        "impact": 8,
-        "evidence": 9,
-        "recency": 13,
-        "actionability": 8
-      },
-      "evidenceBreakdown": {
-        "namedSubject": 6,
-        "explicitDate": 3
-      },
-      "noiseCaps": [],
-      "tierGate": 60,
-      "passesTierGate": true,
-      "confidence": "medium",
-      "why": [
-        "专业财经媒体跟进",
-        "可转化为客户沟通或投研关注",
-        "时效性高"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 34,
-          "reasons": [
-            "命中关联主题 2 项"
-          ]
-        },
-        "marketEducation": {
-          "score": 100,
-          "reasons": [
-            "命中二级市场投教核心主题 4 项"
-          ]
-        },
-        "privateFundSales": {
-          "score": 25,
-          "reasons": [
-            "命中关联主题 1 项"
-          ]
-        }
-      },
-      "attentionScore": 68,
-      "llmScores": [
-        75,
-        61
-      ],
-      "scoredBy": "llm",
-      "primaryScene": "marketEducation",
-      "selectedForFeatured": true,
-      "contentTags": [
-        "行业动态"
-      ],
-      "eventId": "event_2cf716748ce1"
-    },
-    {
-      "title": "72家人身险公司超半数单季亏损 完善长周期考核与逆周期调节成保险业热议话题",
-      "sourceUrl": "https://www.cls.cn/detail/2532559",
-      "publishedAt": "2026-11-12T06:58:38.000Z",
-      "fetchedAt": "2026-11-12T16:54:56.980Z",
-      "timeConfidence": "source",
-      "summary": "财联社11月12日讯（记者 夏淑媛 高萍）上半年还创下超3500亿元盈利新高的72家人身险公司，在经历三季度权益市场波动后，交出了一份承压的成绩单。数据显示，2026年三季度，72家人身险公司中，超半数机构单季出现亏损。\n“三季度净利润大幅波动，是对人身险业资产负债匹配能力的一次压力测试。”一位保险行业人士对财联社记者表示，行业整体盈利回落是权益市场下行与高基数共同作用的结果。但综合来看，各家下滑",
-      "sourceName": "财联社",
-      "category": "research",
-      "tags": [
-        "研究报告"
-      ],
-      "evidenceType": "financial_media",
-      "discoveredVia": "RSSHub",
-      "id": "news_e9efbd2878af",
-      "tier": "S3",
-      "sourceTier": "S3",
-      "sourceTierLabel": "快讯/观点线索",
-      "score": 63,
-      "rawScore": 63,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 30,
-        "impact": 8,
-        "evidence": 8,
-        "recency": 13,
-        "actionability": 4
-      },
-      "evidenceBreakdown": {
-        "quantity": 5,
-        "explicitDate": 3
-      },
-      "noiseCaps": [],
-      "tierGate": 70,
-      "passesTierGate": false,
-      "confidence": "medium",
-      "why": [
-        "快讯线索，需结合原文判断",
-        "时效性高"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 38,
-          "reasons": [
-            "命中保险运营核心主题 1 项"
-          ]
-        },
-        "marketEducation": {
-          "score": 82,
-          "reasons": [
-            "命中二级市场投教核心主题 3 项"
-          ]
-        },
-        "privateFundSales": {
-          "score": 34,
-          "reasons": [
-            "命中关联主题 2 项"
-          ]
-        }
-      },
-      "primaryScene": "marketEducation",
-      "selectedForFeatured": false,
-      "contentTags": [
-        "深度研究"
-      ],
-      "eventId": null
-    },
-    {
-      "title": "鸿海第三季度净利润775.2亿新台币，创单季新高",
-      "sourceUrl": "https://www.36kr.com/newsflashes/4066416334984322",
-      "publishedAt": "2026-11-12T06:52:36.000Z",
-      "fetchedAt": "2026-11-12T07:49:35.626Z",
-      "timeConfidence": "source",
-      "summary": "11月12日，鸿海公布第三季度净利润775.2亿元新台币，创单季新高，季增29%，年增34%。鸿海前三季度净利润达1874.17亿元新台币，创同期新高，年增30%。鸿海表示，第三季度产品组合与营运规模提升，核心获利大幅成长。针对第四季度与全年展望，该公司表示，季对季及年对年皆强劲成长；全年展望上修。鸿海预计2027年AI机柜出货量将实现高双位数增长，市占率提升。（界面）",
-      "sourceName": "36氪",
-      "category": "insights",
-      "tags": [
-        "观点"
-      ],
-      "evidenceType": "news_flash",
-      "discoveredVia": "RSSHub",
-      "id": "news_ff84ba957c19",
-      "tier": "S3",
-      "sourceTier": "S3",
-      "sourceTierLabel": "快讯/观点线索",
-      "score": 65,
-      "rawScore": 59,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 12,
-        "impact": 16,
-        "evidence": 8,
-        "recency": 13,
-        "actionability": 10
-      },
-      "evidenceBreakdown": {
-        "quantity": 5,
-        "explicitDate": 3
-      },
-      "noiseCaps": [],
-      "tierGate": 70,
-      "passesTierGate": true,
-      "confidence": "medium",
-      "why": [
-        "快讯线索，需结合原文判断",
-        "可转化为客户沟通或投研关注",
-        "时效性高"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 20,
-          "reasons": [
-            "业务影响较高"
-          ]
-        },
-        "marketEducation": {
-          "score": 20,
-          "reasons": [
-            "业务影响较高"
-          ]
-        },
-        "privateFundSales": {
-          "score": 20,
-          "reasons": [
-            "业务影响较高"
-          ]
-        }
-      },
-      "attentionScore": 65,
-      "llmScores": [
-        68,
-        62
-      ],
-      "scoredBy": "llm",
-      "primaryScene": "insurance",
-      "selectedForFeatured": false,
-      "contentTags": [
-        "观点",
-        "快讯"
-      ],
-      "eventId": null
-    },
-    {
-      "title": "韩国监管机构称有关KOSDAQ市场额外措施的传言不实",
-      "sourceUrl": "https://wallstreetcn.com/livenews/3198904",
-      "publishedAt": "2026-11-12T06:51:43.000Z",
-      "fetchedAt": "2026-11-12T07:48:38.366Z",
-      "timeConfidence": "source",
-      "summary": "韩国金融委员会和金融监督院在一份声明中表示，网上和社交媒体流传的有关据称将于11月13日公布KOSDAQ市场额外措施的消息完全不实。监管机构表示，散布毫无根据的谣言可能构成《资本市场法》所规定的不公平交易行为，如发现违法行为，当局将严肃处理。监管机构呼吁投资者不要基于未经核实的传言作出投资决定，并应通过官方发布的信息确认相关政策。（彭博）",
-      "sourceName": "华尔街见闻",
-      "category": "industry",
-      "tags": [
-        "行业动态"
-      ],
-      "evidenceType": "financial_media",
-      "discoveredVia": "RSSHub",
-      "id": "news_fcd50c7cc944",
-      "tier": "S2",
-      "sourceTier": "S2",
-      "sourceTierLabel": "专业财经媒体",
-      "score": 71,
-      "rawScore": 71,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 20,
-        "impact": 25,
-        "evidence": 9,
-        "recency": 13,
-        "actionability": 4
-      },
-      "evidenceBreakdown": {
-        "namedSubject": 6,
-        "explicitDate": 3
-      },
-      "noiseCaps": [],
-      "tierGate": 60,
-      "passesTierGate": true,
-      "confidence": "medium",
-      "why": [
-        "专业财经媒体跟进",
-        "对展业/配置/合规有直接影响",
-        "时效性高"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 37,
-          "reasons": [
-            "命中关联主题 1 项",
-            "业务影响较高"
-          ]
-        },
-        "marketEducation": {
-          "score": 50,
-          "reasons": [
-            "命中二级市场投教核心主题 1 项",
-            "业务影响较高"
-          ]
-        },
-        "privateFundSales": {
-          "score": 46,
-          "reasons": [
-            "命中关联主题 2 项",
-            "业务影响较高"
-          ]
-        }
-      },
-      "primaryScene": "marketEducation",
-      "selectedForFeatured": true,
-      "contentTags": [
-        "行业动态"
-      ],
-      "eventId": null
-    },
-    {
-      "title": "富达基金中国公司增资至2.33亿美元",
-      "sourceUrl": "https://www.36kr.com/newsflashes/4066409522713728",
-      "publishedAt": "2026-11-12T06:45:40.000Z",
-      "fetchedAt": "2026-11-12T07:49:35.626Z",
-      "timeConfidence": "source",
-      "summary": "36氪获悉，天眼查App显示，近日，富达基金管理（中国）有限公司发生工商变更，注册资本由2.18亿美元增至2.33亿美元。该公司成立于2021年5月，法定代表人为EDMOND TANUWIDJAJA，经营范围为公募基金管理业务，由FIL ASIA HOLDINGS PTE. LIMITED全资持股。",
-      "sourceName": "36氪",
-      "category": "insights",
-      "tags": [
-        "观点"
-      ],
-      "evidenceType": "news_flash",
-      "discoveredVia": "RSSHub",
-      "id": "news_f497f4864ba8",
-      "tier": "S3",
-      "sourceTier": "S3",
-      "sourceTierLabel": "快讯/观点线索",
-      "score": 72,
-      "rawScore": 72,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 26,
-        "impact": 21,
-        "evidence": 8,
-        "recency": 13,
-        "actionability": 4
-      },
-      "evidenceBreakdown": {
-        "quantity": 5,
-        "explicitDate": 3
-      },
-      "noiseCaps": [],
-      "tierGate": 70,
-      "passesTierGate": true,
-      "confidence": "medium",
-      "why": [
-        "快讯线索，需结合原文判断",
-        "对展业/配置/合规有直接影响",
-        "时效性高"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 20,
-          "reasons": [
-            "业务影响较高"
-          ]
-        },
-        "marketEducation": {
-          "score": 34,
-          "reasons": [
-            "命中关联主题 1 项",
-            "业务影响较高"
-          ]
-        },
-        "privateFundSales": {
-          "score": 47,
-          "reasons": [
-            "命中私募销售运营核心主题 1 项",
-            "业务影响较高"
-          ]
-        }
-      },
-      "primaryScene": "privateFundSales",
-      "selectedForFeatured": true,
-      "contentTags": [
-        "观点",
-        "快讯"
-      ],
-      "eventId": null
-    },
-    {
       "id": "news_44438b314527",
       "title": "一张保单两域保障太保臻享无忧跨境版正式发布",
       "sourceUrl": "http://www.huibaoxian.com.cn//htm/pc/20261112/6247.html",
@@ -9587,80 +9651,6 @@ window.FINHOT_DATA = {
       "selectedForFeatured": false,
       "eventId": null,
       "timeConfidence": "source"
-    },
-    {
-      "title": "黑石出资15亿美元支持辉瑞减肥药研究",
-      "sourceUrl": "https://www.36kr.com/newsflashes/4066408784336006",
-      "publishedAt": "2026-11-12T06:44:55.000Z",
-      "fetchedAt": "2026-11-12T07:49:35.626Z",
-      "timeConfidence": "source",
-      "summary": "当地时间11月11日，辉瑞公司与黑石生命科学宣布达成一项战略共同资助协议。根据协议，黑石生命科学管理的基金将承担辉瑞一款正在测试的月度减肥注射药物截至2028年最高15亿美元的研发成本。作为交换，黑石将有资格获得与美国监管批准及特定销售里程碑挂钩的付款。辉瑞将保留对该项目完整的运营控制权和决策权。（界面）",
-      "sourceName": "36氪",
-      "category": "insights",
-      "tags": [
-        "观点"
-      ],
-      "evidenceType": "news_flash",
-      "discoveredVia": "RSSHub",
-      "id": "news_f478745ad239",
-      "tier": "S3",
-      "sourceTier": "S3",
-      "sourceTierLabel": "快讯/观点线索",
-      "score": 82,
-      "rawScore": 82,
-      "scoreLabel": "从业价值",
-      "scoreBreakdown": {
-        "relevance": 26,
-        "impact": 25,
-        "evidence": 14,
-        "recency": 13,
-        "actionability": 4
-      },
-      "evidenceBreakdown": {
-        "namedSubject": 6,
-        "quantity": 5,
-        "explicitDate": 3
-      },
-      "noiseCaps": [],
-      "tierGate": 70,
-      "passesTierGate": true,
-      "confidence": "high",
-      "why": [
-        "快讯线索，需结合原文判断",
-        "对展业/配置/合规有直接影响",
-        "含机构、文号或可核对数据"
-      ],
-      "scenarioScores": {
-        "insurance": {
-          "score": 40,
-          "reasons": [
-            "命中关联主题 1 项",
-            "含可核对要素"
-          ]
-        },
-        "marketEducation": {
-          "score": 40,
-          "reasons": [
-            "命中关联主题 1 项",
-            "含可核对要素"
-          ]
-        },
-        "privateFundSales": {
-          "score": 62,
-          "reasons": [
-            "命中私募销售运营核心主题 1 项",
-            "命中关联主题 1 项",
-            "含可核对要素"
-          ]
-        }
-      },
-      "primaryScene": "privateFundSales",
-      "selectedForFeatured": true,
-      "contentTags": [
-        "观点",
-        "快讯"
-      ],
-      "eventId": null
     },
     {
       "id": "news_092ca910691e",
@@ -9818,14 +9808,14 @@ window.FINHOT_DATA = {
       "tier": "S0",
       "sourceTier": "S0",
       "sourceTierLabel": "权威原始源",
-      "score": 74,
-      "rawScore": 74,
+      "score": 71,
+      "rawScore": 71,
       "scoreLabel": "从业价值",
       "scoreBreakdown": {
         "relevance": 26,
         "impact": 25,
         "evidence": 6,
-        "recency": 13,
+        "recency": 10,
         "actionability": 4
       },
       "evidenceBreakdown": {
@@ -9837,19 +9827,18 @@ window.FINHOT_DATA = {
       "confidence": "medium",
       "why": [
         "权威原始来源",
-        "对展业/配置/合规有直接影响",
-        "时效性高"
+        "对展业/配置/合规有直接影响"
       ],
       "scenarioScores": {
         "insurance": {
-          "score": 36,
+          "score": 35,
           "reasons": [
             "命中关联主题 1 项",
             "业务影响较高"
           ]
         },
         "marketEducation": {
-          "score": 58,
+          "score": 57,
           "reasons": [
             "命中二级市场投教核心主题 1 项",
             "命中关联主题 1 项",
@@ -9857,7 +9846,7 @@ window.FINHOT_DATA = {
           ]
         },
         "privateFundSales": {
-          "score": 54,
+          "score": 53,
           "reasons": [
             "命中关联主题 3 项",
             "业务影响较高"
@@ -10353,7 +10342,7 @@ window.FINHOT_DATA = {
         }
       },
       "primaryScene": "marketEducation",
-      "selectedForFeatured": false,
+      "selectedForFeatured": true,
       "contentTags": [
         "官方监管",
         "权威源"
@@ -10436,22 +10425,22 @@ window.FINHOT_DATA = {
   ],
   "curationStats": {
     "scenes": {
-      "insurance": 68,
-      "privateFundSales": 10,
+      "insurance": 70,
+      "privateFundSales": 8,
       "marketEducation": 72
     },
     "featured": 24,
     "gate": {
-      "passed": 36,
+      "passed": 29,
       "total": 150,
       "byTier": {
         "S3": {
           "total": 71,
-          "passed": 10
+          "passed": 6
         },
         "S2": {
           "total": 73,
-          "passed": 24
+          "passed": 21
         },
         "S0": {
           "total": 6,
@@ -10476,18 +10465,20 @@ window.FINHOT_DATA = {
       "news_00b8d1a10402"
     ],
     "industry": [
-      "news_274f4cac150c",
-      "news_ea34ebbd1231",
-      "news_64d1534a43fd",
-      "news_f080ab4835f2",
-      "news_e5dafa4f8cdb",
-      "news_6ac1f84db2d7",
-      "news_45534da9b48c",
-      "news_713da0921647",
-      "news_1c603ed23026",
-      "news_d5da8b65894b"
+      "news_2f68f2117e27",
+      "news_2a02f9685137",
+      "news_fb3b6dde316d",
+      "news_2cbaef27eb5f",
+      "news_37f75f3a0ba1",
+      "news_2542eae7ecc6",
+      "news_2a0f749fd901",
+      "news_17c9c3987748",
+      "news_507412a7e275",
+      "news_274f4cac150c"
     ],
     "research": [
+      "news_7f4d7e139a26",
+      "news_0d1bd161627a",
       "news_dc899b7c7c3b",
       "news_d3d2e97d8e07",
       "news_673a5583e068",
@@ -10495,9 +10486,7 @@ window.FINHOT_DATA = {
       "news_e58866435bd9",
       "news_22920590f826",
       "news_142f56ed16ad",
-      "news_7df3faaa9463",
-      "news_a4d59a610102",
-      "news_eed12e26a81a"
+      "news_7df3faaa9463"
     ],
     "insights": [
       "news_6eafcc6dc75e",
@@ -10514,35 +10503,35 @@ window.FINHOT_DATA = {
   },
   "flashes": [
     {
-      "id": "news_dc899b7c7c3b",
+      "id": "news_7f4d7e139a26",
       "dotClass": "flash-dot-blue"
     },
     {
-      "id": "news_d3d2e97d8e07",
+      "id": "news_2f68f2117e27",
       "dotClass": "flash-dot-blue"
     },
     {
-      "id": "news_673a5583e068",
+      "id": "news_2a02f9685137",
       "dotClass": "flash-dot-blue"
     },
     {
-      "id": "news_274f4cac150c",
+      "id": "news_fb3b6dde316d",
       "dotClass": "flash-dot-blue"
     },
     {
-      "id": "news_71c36a782e0f",
+      "id": "news_2cbaef27eb5f",
       "dotClass": "flash-dot-blue"
     },
     {
-      "id": "news_ea34ebbd1231",
+      "id": "news_0d1bd161627a",
       "dotClass": "flash-dot-blue"
     },
     {
-      "id": "news_64d1534a43fd",
+      "id": "news_37f75f3a0ba1",
       "dotClass": "flash-dot-blue"
     },
     {
-      "id": "news_f080ab4835f2",
+      "id": "news_2542eae7ecc6",
       "dotClass": "flash-dot-blue"
     }
   ],
@@ -10550,7 +10539,6 @@ window.FINHOT_DATA = {
     "保险": [
       "news_a890451b028d",
       "news_b27174e2c6cd",
-      "news_e9efbd2878af",
       "news_bdb06a7f4c20",
       "news_e90bc6b7d208",
       "news_dfaa9aab36e9"
@@ -10563,9 +10551,6 @@ window.FINHOT_DATA = {
     ],
     "保单": [
       "news_44438b314527"
-    ],
-    "保险业": [
-      "news_e9efbd2878af"
     ],
     "保险公司": [
       "news_dfaa9aab36e9"
@@ -10607,27 +10592,26 @@ window.FINHOT_DATA = {
       "news_99522d4209db",
       "news_4a96a8022db1",
       "news_2e21eec62cd1",
-      "news_728f0622fb40",
-      "news_314a3ea3cbaa",
       "news_dfaa9aab36e9"
     ],
     "央行": [
+      "news_0d1bd161627a",
       "news_215d56d47043",
       "news_198a36ed1fe8",
-      "news_eec16485bf6b",
-      "news_314a3ea3cbaa"
+      "news_eec16485bf6b"
     ],
     "农商行": [
       "news_2e21eec62cd1"
     ],
     "利率": [
+      "news_37f75f3a0ba1",
+      "news_17c9c3987748",
       "news_15e624c00ecb",
       "news_150b08451009",
-      "news_c01f42aa5906",
-      "news_314a3ea3cbaa"
+      "news_c01f42aa5906"
     ],
-    "贷款利率": [
-      "news_314a3ea3cbaa"
+    "逆回购": [
+      "news_2cbaef27eb5f"
     ],
     "降准": [
       "news_198a36ed1fe8"
@@ -10651,6 +10635,7 @@ window.FINHOT_DATA = {
       "news_17bbec1b603d",
       "news_99522d4209db",
       "news_f2adbed4def5",
+      "news_2d8e2ab9950d",
       "news_93c22d908459",
       "news_dfaa9aab36e9"
     ],
@@ -10660,7 +10645,7 @@ window.FINHOT_DATA = {
       "news_2ea42c5e2879",
       "news_73bdeb29c44f",
       "news_b27174e2c6cd",
-      "news_728f0622fb40"
+      "news_929206f468ef"
     ],
     "港股": [
       "news_15e624c00ecb",
@@ -10669,6 +10654,7 @@ window.FINHOT_DATA = {
     ],
     "美股": [
       "news_a4d59a610102",
+      "news_c4377303a316",
       "news_26eb414cd65d",
       "news_7a241b1931b9",
       "news_6eafcc6dc75e",
@@ -10680,20 +10666,16 @@ window.FINHOT_DATA = {
       "news_99522d4209db"
     ],
     "指数": [
+      "news_2a02f9685137",
       "news_140e2a790868",
       "news_7a241b1931b9",
       "news_150b08451009",
       "news_4591aefe9094",
       "news_fb599abe8c80",
-      "news_0943381eb7f7",
-      "news_ff7730416c2f",
-      "news_728f0622fb40"
+      "news_0943381eb7f7"
     ],
     "ETF": [
       "news_723d0e089617"
-    ],
-    "公募基金": [
-      "news_f497f4864ba8"
     ],
     "私募基金": [
       "news_b3e200707c8e"
@@ -10704,19 +10686,18 @@ window.FINHOT_DATA = {
       "news_5bdafc7d577c"
     ],
     "国债": [
+      "news_2f68f2117e27",
+      "news_37f75f3a0ba1",
       "news_e4067b8bf71f",
       "news_58e5d71cf58b",
       "news_3b2fd1fe79df",
-      "news_150b08451009",
-      "news_314a3ea3cbaa"
-    ],
-    "信用债": [
-      "news_314a3ea3cbaa"
+      "news_150b08451009"
     ],
     "公司债": [
       "news_5bdafc7d577c"
     ],
     "期货": [
+      "news_fb3b6dde316d",
       "news_a4d59a610102",
       "news_ecaeaff8fe36",
       "news_4c7862cbd341",
@@ -10729,9 +10710,6 @@ window.FINHOT_DATA = {
     "期权": [
       "news_0e0e861c68d3",
       "news_ea0c0a809eb4"
-    ],
-    "IPO": [
-      "news_ccae859a2009"
     ],
     "上市": [
       "news_d3d2e97d8e07",
@@ -10751,7 +10729,6 @@ window.FINHOT_DATA = {
       "news_c01f42aa5906",
       "news_9ad18e9af5f2",
       "news_d8c3fbec45be",
-      "news_ff7730416c2f",
       "news_dfaa9aab36e9"
     ],
     "退市": [
@@ -10764,6 +10741,7 @@ window.FINHOT_DATA = {
       "news_dfaa9aab36e9"
     ],
     "回购": [
+      "news_2cbaef27eb5f",
       "news_73bdeb29c44f",
       "news_dfaa9aab36e9"
     ],
@@ -10778,6 +10756,7 @@ window.FINHOT_DATA = {
       "news_71c36a782e0f",
       "news_713da0921647",
       "news_1c603ed23026",
+      "news_c4377303a316",
       "news_8fde743b6f92",
       "news_7a241b1931b9",
       "news_723d0e089617",
@@ -10785,9 +10764,9 @@ window.FINHOT_DATA = {
       "news_48b7ce81ad0a",
       "news_da7438a3291a",
       "news_b27174e2c6cd",
+      "news_e3898c2abab6",
       "news_c991f493b2a2",
       "news_89b961eacb62",
-      "news_fcd50c7cc944",
       "news_626adfe70753"
     ],
     "机构": [
@@ -10795,9 +10774,6 @@ window.FINHOT_DATA = {
       "news_88756b9e20e5",
       "news_61cecf0f3021",
       "news_28c09a289c37",
-      "news_314a3ea3cbaa",
-      "news_e9efbd2878af",
-      "news_fcd50c7cc944",
       "news_626adfe70753",
       "news_f0f5113a90ef"
     ],
@@ -10810,8 +10786,6 @@ window.FINHOT_DATA = {
       "news_61cecf0f3021",
       "news_cff3dd89a76a",
       "news_b27174e2c6cd",
-      "news_fcd50c7cc944",
-      "news_f478745ad239",
       "news_626adfe70753",
       "news_f0f5113a90ef",
       "news_dfaa9aab36e9"
@@ -10833,9 +10807,6 @@ window.FINHOT_DATA = {
       "news_dfaa9aab36e9",
       "news_24bb2ebaf068"
     ],
-    "金融委": [
-      "news_fcd50c7cc944"
-    ],
     "深交所": [
       "news_673a5583e068"
     ],
@@ -10849,6 +10820,7 @@ window.FINHOT_DATA = {
       "news_626adfe70753"
     ],
     "条款": [
+      "news_507412a7e275",
       "news_ea34ebbd1231",
       "news_e5dafa4f8cdb",
       "news_d5da8b65894b",
@@ -10867,14 +10839,12 @@ window.FINHOT_DATA = {
       "news_e6f6c4c52ccc"
     ],
     "意见": [
+      "news_507412a7e275",
       "news_ea34ebbd1231",
       "news_e5dafa4f8cdb",
       "news_55d1b7d94d8f",
       "news_1dc311528fd6",
       "news_6f0d99990c92"
-    ],
-    "规定": [
-      "news_fcd50c7cc944"
     ],
     "条例": [
       "news_1dc311528fd6"
@@ -10888,6 +10858,7 @@ window.FINHOT_DATA = {
       "news_201022a875c0"
     ],
     "经济": [
+      "news_0d1bd161627a",
       "news_45534da9b48c",
       "news_1c603ed23026",
       "news_215d56d47043",
@@ -10897,9 +10868,7 @@ window.FINHOT_DATA = {
       "news_173cf3b6a4ab",
       "news_bcad2ea17031",
       "news_eec16485bf6b",
-      "news_12efeea89163",
-      "news_a516dda1e634",
-      "news_102a79038567"
+      "news_12efeea89163"
     ],
     "高质量发展": [
       "news_215d56d47043",
@@ -10917,9 +10886,6 @@ window.FINHOT_DATA = {
       "news_150b08451009",
       "news_50456b8e91d3"
     ],
-    "M2": [
-      "news_ff7730416c2f"
-    ],
     "外贸": [
       "news_027567ad6984"
     ],
@@ -10928,14 +10894,7 @@ window.FINHOT_DATA = {
       "news_d5da8b65894b",
       "news_198a36ed1fe8",
       "news_eec16485bf6b",
-      "news_314a3ea3cbaa",
       "news_dfaa9aab36e9"
-    ],
-    "逆周期": [
-      "news_e9efbd2878af"
-    ],
-    "跨周期": [
-      "news_314a3ea3cbaa"
     ],
     "汇率": [
       "news_6ac1f84db2d7",
@@ -10943,6 +10902,7 @@ window.FINHOT_DATA = {
       "news_e6f6c4c52ccc"
     ],
     "人民币": [
+      "news_fb3b6dde316d",
       "news_ddac8f8cb4f1"
     ],
     "跨境": [
@@ -10952,6 +10912,12 @@ window.FINHOT_DATA = {
       "news_44438b314527"
     ],
     "美元": [
+      "news_7f4d7e139a26",
+      "news_2f68f2117e27",
+      "news_2cbaef27eb5f",
+      "news_0d1bd161627a",
+      "news_37f75f3a0ba1",
+      "news_2542eae7ecc6",
       "news_f080ab4835f2",
       "news_e5dafa4f8cdb",
       "news_6ac1f84db2d7",
@@ -10981,9 +10947,7 @@ window.FINHOT_DATA = {
       "news_f2adbed4def5",
       "news_e6f6c4c52ccc",
       "news_c991f493b2a2",
-      "news_9ad18e9af5f2",
-      "news_f497f4864ba8",
-      "news_f478745ad239"
+      "news_9ad18e9af5f2"
     ],
     "欧元": [
       "news_713da0921647",
@@ -10996,9 +10960,6 @@ window.FINHOT_DATA = {
       "news_50456b8e91d3",
       "news_f104c5e8c217"
     ],
-    "复苏": [
-      "news_a516dda1e634"
-    ],
     "地产": [
       "news_eec16485bf6b"
     ],
@@ -11009,11 +10970,12 @@ window.FINHOT_DATA = {
       "news_f6a899ba4d34",
       "news_28c09a289c37",
       "news_9f5a7fbcbbcd",
-      "news_8308b57abfcb",
-      "news_4b10ccc6a15c"
+      "news_8308b57abfcb"
     ],
     "投资": [
+      "news_7f4d7e139a26",
       "news_dc899b7c7c3b",
+      "news_507412a7e275",
       "news_71c36a782e0f",
       "news_ea34ebbd1231",
       "news_64d1534a43fd",
@@ -11022,6 +10984,7 @@ window.FINHOT_DATA = {
       "news_6ac1f84db2d7",
       "news_713da0921647",
       "news_1c603ed23026",
+      "news_c4377303a316",
       "news_8fde743b6f92",
       "news_cdc007b8a671",
       "news_7a241b1931b9",
@@ -11038,6 +11001,7 @@ window.FINHOT_DATA = {
       "news_b27174e2c6cd",
       "news_027567ad6984",
       "news_a112d69be901",
+      "news_e3898c2abab6",
       "news_5e34d3404c8e",
       "news_8a68773eccb8",
       "news_05ba59667889",
@@ -11046,17 +11010,16 @@ window.FINHOT_DATA = {
       "news_9ad18e9af5f2",
       "news_dec19cb92f15",
       "news_ddac8f8cb4f1",
-      "news_35b1427844fc",
-      "news_fcd50c7cc944",
       "news_626adfe70753"
     ],
     "出口": [
-      "news_c89d396b2282",
-      "news_a516dda1e634"
+      "news_c89d396b2282"
+    ],
+    "进口": [
+      "news_2a0f749fd901"
     ],
     "贸易": [
-      "news_e58866435bd9",
-      "news_35b1427844fc"
+      "news_e58866435bd9"
     ],
     "产业链": [
       "news_71c36a782e0f",
@@ -11091,19 +11054,19 @@ window.FINHOT_DATA = {
     "黄金": [
       "news_7df3faaa9463",
       "news_575e7d62587b",
-      "news_c991f493b2a2",
-      "news_612ab23bd1a2"
+      "news_c991f493b2a2"
     ],
     "金价": [
       "news_575e7d62587b"
     ],
     "原油": [
+      "news_fb3b6dde316d",
+      "news_2a0f749fd901",
       "news_e58866435bd9",
       "news_22920590f826",
       "news_020c9d135b1b",
       "news_ecaeaff8fe36",
-      "news_7a241b1931b9",
-      "news_3f7b6133e38f"
+      "news_7a241b1931b9"
     ],
     "大宗商品": [
       "news_e58866435bd9"
@@ -11122,9 +11085,7 @@ window.FINHOT_DATA = {
       "news_f415f6936ea2",
       "news_48b7ce81ad0a",
       "news_25980869dd85",
-      "news_c01f42aa5906",
-      "news_e9efbd2878af",
-      "news_ff84ba957c19"
+      "news_c01f42aa5906"
     ],
     "股市": [
       "news_7a241b1931b9",
@@ -11134,6 +11095,9 @@ window.FINHOT_DATA = {
       "news_0943381eb7f7"
     ],
     "美联储": [
+      "news_2cbaef27eb5f",
+      "news_0d1bd161627a",
+      "news_17c9c3987748",
       "news_d5da8b65894b",
       "news_150b08451009"
     ],
@@ -11164,7 +11128,6 @@ window.FINHOT_DATA = {
     "权益": [
       "news_6ac1f84db2d7",
       "news_54d5e4790827",
-      "news_e9efbd2878af",
       "news_626adfe70753"
     ],
     "另类": [
@@ -11191,16 +11154,16 @@ window.FINHOT_DATA = {
     ]
   },
   "sourceHealth": {
-    "generatedAt": "2026-11-12T16:57:51.489Z",
+    "generatedAt": "2026-11-12T20:03:09.045Z",
     "status": "healthy",
     "totalSources": 12,
-    "successfulSources": 9,
-    "usableSources": 9,
-    "failedSources": 3,
+    "successfulSources": 10,
+    "usableSources": 10,
+    "failedSources": 2,
     "staleSources": 1,
     "fetchLimitReachedSources": 0,
-    "coverageRate": 0.75,
-    "freshestPublishedAt": "2026-11-12T16:23:48.000Z",
+    "coverageRate": 0.8333,
+    "freshestPublishedAt": "2026-11-12T19:40:42.000Z",
     "sources": [
       {
         "sourceId": "source_a6a2153c0b",
@@ -11218,8 +11181,8 @@ window.FINHOT_DATA = {
         "fetchLimit": 30,
         "fetchLimitExpanded": false,
         "fetchLimitReached": false,
-        "addedCount": 11,
-        "durationMs": 524,
+        "addedCount": 0,
+        "durationMs": 4777,
         "latestPublishedAt": "2026-11-12T15:23:03.000Z",
         "usedEndpoint": "rsshub.rssforever.com"
       },
@@ -11232,17 +11195,17 @@ window.FINHOT_DATA = {
         "success": true,
         "usable": true,
         "stale": false,
-        "itemCount": 29,
-        "rawItemCount": 29,
-        "acceptedItemCount": 29,
+        "itemCount": 33,
+        "rawItemCount": 33,
+        "acceptedItemCount": 33,
         "initialFetchLimit": 30,
-        "fetchLimit": 30,
-        "fetchLimitExpanded": false,
+        "fetchLimit": 50,
+        "fetchLimitExpanded": true,
         "fetchLimitReached": false,
-        "addedCount": 19,
-        "durationMs": 49682,
-        "latestPublishedAt": "2026-11-12T15:31:03.000Z",
-        "usedEndpoint": "rsshub-balancer.virworks.moe"
+        "addedCount": 3,
+        "durationMs": 6920,
+        "latestPublishedAt": "2026-11-12T19:40:42.000Z",
+        "usedEndpoint": "rsshub.rssforever.com"
       },
       {
         "sourceId": "source_71b645ddf5",
@@ -11260,8 +11223,8 @@ window.FINHOT_DATA = {
         "fetchLimit": 50,
         "fetchLimitExpanded": true,
         "fetchLimitReached": false,
-        "addedCount": 24,
-        "durationMs": 2405,
+        "addedCount": 0,
+        "durationMs": 18121,
         "latestPublishedAt": "2026-11-12T14:57:19.000Z",
         "usedEndpoint": "rsshub.rssforever.com"
       },
@@ -11281,9 +11244,9 @@ window.FINHOT_DATA = {
         "fetchLimit": 30,
         "fetchLimitExpanded": false,
         "fetchLimitReached": false,
-        "addedCount": 16,
-        "durationMs": 43013,
-        "latestPublishedAt": "2026-11-12T13:30:14.000Z",
+        "addedCount": 7,
+        "durationMs": 17333,
+        "latestPublishedAt": "2026-11-12T19:17:45.000Z",
         "usedEndpoint": "rsshub-balancer.virworks.moe"
       },
       {
@@ -11302,9 +11265,9 @@ window.FINHOT_DATA = {
         "fetchLimit": 50,
         "fetchLimitExpanded": true,
         "fetchLimitReached": false,
-        "addedCount": 33,
-        "durationMs": 58219,
-        "latestPublishedAt": "2026-11-12T16:23:48.000Z",
+        "addedCount": 8,
+        "durationMs": 88228,
+        "latestPublishedAt": "2026-11-12T19:16:32.000Z",
         "usedEndpoint": "rsshub-balancer.virworks.moe"
       },
       {
@@ -11323,8 +11286,8 @@ window.FINHOT_DATA = {
         "fetchLimit": 30,
         "fetchLimitExpanded": false,
         "fetchLimitReached": false,
-        "addedCount": 18,
-        "durationMs": 155,
+        "addedCount": 0,
+        "durationMs": 3718,
         "latestPublishedAt": "2026-11-12T13:55:58.000Z",
         "usedEndpoint": "rsshub.rssforever.com"
       },
@@ -11345,7 +11308,7 @@ window.FINHOT_DATA = {
         "fetchLimitExpanded": false,
         "fetchLimitReached": false,
         "addedCount": 0,
-        "durationMs": 32473,
+        "durationMs": 11298,
         "latestPublishedAt": null,
         "usedEndpoint": null
       },
@@ -11355,20 +11318,20 @@ window.FINHOT_DATA = {
         "tier": "S0",
         "category": "regulatory",
         "transport": "rsshub",
-        "success": false,
-        "usable": false,
+        "success": true,
+        "usable": true,
         "stale": false,
-        "itemCount": 0,
-        "rawItemCount": 0,
-        "acceptedItemCount": 0,
-        "initialFetchLimit": 1,
-        "fetchLimit": 1,
+        "itemCount": 18,
+        "rawItemCount": 18,
+        "acceptedItemCount": 18,
+        "initialFetchLimit": 30,
+        "fetchLimit": 30,
         "fetchLimitExpanded": false,
         "fetchLimitReached": false,
         "addedCount": 0,
-        "durationMs": 99940,
-        "latestPublishedAt": null,
-        "usedEndpoint": null
+        "durationMs": 6447,
+        "latestPublishedAt": "2026-11-10T17:47:05.000Z",
+        "usedEndpoint": "rsshub.rssforever.com"
       },
       {
         "sourceId": "source_0936db37cf",
@@ -11386,9 +11349,9 @@ window.FINHOT_DATA = {
         "fetchLimit": 30,
         "fetchLimitExpanded": false,
         "fetchLimitReached": false,
-        "addedCount": 7,
-        "durationMs": 148,
-        "latestPublishedAt": "2026-11-12T08:38:08.000Z",
+        "addedCount": 3,
+        "durationMs": 144,
+        "latestPublishedAt": "2026-11-12T11:49:16.000Z",
         "usedEndpoint": "cn.investing.com"
       },
       {
@@ -11407,8 +11370,8 @@ window.FINHOT_DATA = {
         "fetchLimit": 30,
         "fetchLimitExpanded": false,
         "fetchLimitReached": false,
-        "addedCount": 7,
-        "durationMs": 63,
+        "addedCount": 9,
+        "durationMs": 88,
         "latestPublishedAt": "2026-11-12T03:50:26.000Z",
         "usedEndpoint": "cn.investing.com"
       },
@@ -11429,7 +11392,7 @@ window.FINHOT_DATA = {
         "fetchLimitExpanded": false,
         "fetchLimitReached": false,
         "addedCount": 0,
-        "durationMs": 1,
+        "durationMs": 0,
         "latestPublishedAt": null,
         "usedEndpoint": null
       },
@@ -11458,11 +11421,11 @@ window.FINHOT_DATA = {
   },
   "historyStats": {
     "itemCount": 5000,
-    "eventCount": 394,
+    "eventCount": 396,
     "retentionDays": 90
   },
   "macro": {
-    "updatedAt": "2026-11-12T16:57:51.489Z",
+    "updatedAt": "2026-11-12T20:03:09.045Z",
     "indicators": [
       {
         "key": "lpr1y",
@@ -11602,7 +11565,7 @@ window.FINHOT_DATA = {
       {
         "key": "gold",
         "name": "现货黄金",
-        "value": "$3,882",
+        "value": "$3,884",
         "note": "较11月11日 $3,989 下降",
         "direction": "down",
         "asOf": "2026-11-12",
@@ -11667,7 +11630,7 @@ window.FINHOT_DATA = {
         ],
         "historicalEvidenceCount": 49,
         "firstSeenAt": "2026-09-30T13:30:13.189Z",
-        "lastSeenAt": "2026-11-12T16:57:51.489Z",
+        "lastSeenAt": "2026-11-12T20:03:09.045Z",
         "status": "developing",
         "summary": "培风客称美股尚无明确见底信号，美债明年或迎阶段性反弹，镍值得关注。",
         "latestProgress": "美股收盘科技板块延续反弹，多只存储、光通信牛股涨幅超10%。"
@@ -11677,29 +11640,29 @@ window.FINHOT_DATA = {
         "title": "A股明年怎么走？多家龙头券商最新研判",
         "mainItemId": "news_2ea42c5e2879",
         "relatedItemIds": [
-          "news_728f0622fb40",
           "news_1c603ed23026",
-          "news_73bdeb29c44f"
+          "news_73bdeb29c44f",
+          "news_929206f468ef"
         ],
         "evidenceItemIds": [
-          "news_728f0622fb40",
           "news_2ea42c5e2879",
           "news_1c603ed23026",
-          "news_73bdeb29c44f"
+          "news_73bdeb29c44f",
+          "news_929206f468ef"
         ],
         "historicalEvidenceCount": 46,
         "firstSeenAt": "2026-09-30T13:30:13.189Z",
-        "lastSeenAt": "2026-11-12T16:57:51.489Z",
+        "lastSeenAt": "2026-11-12T20:03:09.045Z",
         "status": "developing",
         "summary": "东财陈果称A股半导体或已计入28年悲观预期，建议关注AI应用局部突破。",
         "latestProgress": "2026年11月12日A股三大指数集体收跌，全市场超4600股飘绿。"
       },
       {
         "eventId": "event_c68d651d4ff9",
-        "title": "港股异动 | 麦科医药-B(02335)再涨超10% 多款创新药研发迎来进展 MT1013完成III期全部受试者入组随访",
-        "mainItemId": "news_15e624c00ecb",
+        "title": "智通港股投资日志|11月13日",
+        "mainItemId": "news_dec19cb92f15",
         "relatedItemIds": [
-          "news_dec19cb92f15"
+          "news_15e624c00ecb"
         ],
         "evidenceItemIds": [
           "news_15e624c00ecb",
@@ -11707,7 +11670,7 @@ window.FINHOT_DATA = {
         ],
         "historicalEvidenceCount": 48,
         "firstSeenAt": "2026-09-30T15:04:45.414Z",
-        "lastSeenAt": "2026-11-12T16:57:51.489Z",
+        "lastSeenAt": "2026-11-12T20:03:09.045Z",
         "status": "developing",
         "summary": "10月PPI超预期CPI回落，出口高技术支撑外需，机构称港股明年具均值回归空间",
         "latestProgress": "11月11日光通信概念港股逆市走强，剑桥科技涨近18%"
@@ -11715,29 +11678,47 @@ window.FINHOT_DATA = {
       {
         "eventId": "event_2cf716748ce1",
         "title": "中金点评央行Q3货币政策执行报告：更重框架改革与防范风险",
-        "mainItemId": "news_314a3ea3cbaa",
+        "mainItemId": "news_0d1bd161627a",
         "relatedItemIds": [],
         "evidenceItemIds": [
-          "news_314a3ea3cbaa"
+          "news_0d1bd161627a"
         ],
         "historicalEvidenceCount": 49,
         "firstSeenAt": "2026-09-30T13:30:13.189Z",
-        "lastSeenAt": "2026-11-12T16:57:51.489Z",
+        "lastSeenAt": "2026-11-12T20:03:09.045Z",
         "status": "developing",
         "summary": "新加坡推出500吨央行级黄金储备托管服务，副总理称与香港非零和博弈。",
         "latestProgress": "新加坡正式推出500吨央行级黄金储备托管业务，副总理称与香港非零和博弈。"
       },
       {
-        "eventId": "event_9e320dba578d",
-        "title": "华尔街紧急上调利率预期！美股最大风险变成美联储？",
-        "mainItemId": "news_150b08451009",
+        "eventId": "event_546632f4870c",
+        "title": "财联社11月13日电，上期所原油期货2612合约夜盘收涨1.65%，报617.90元人民币/桶。沪金夜盘收跌2.87%，",
+        "mainItemId": "news_fb3b6dde316d",
         "relatedItemIds": [],
         "evidenceItemIds": [
-          "news_150b08451009"
+          "news_fb3b6dde316d"
+        ],
+        "historicalEvidenceCount": 6,
+        "firstSeenAt": "2026-11-04T19:54:55.710Z",
+        "lastSeenAt": "2026-11-12T20:03:09.045Z",
+        "status": "developing",
+        "summary": "财联社消息，上期所原油期货2612合约夜盘收涨，沪金收跌、沪银收涨。",
+        "latestProgress": "11月12日夜盘收盘，原油涨1.54%，沪金跌1.3%、沪银涨0.22%。"
+      },
+      {
+        "eventId": "event_9e320dba578d",
+        "title": "【华尔街原声】美联储鲍曼：通胀压力持续，进一步加息需权衡经济成本",
+        "mainItemId": "news_150b08451009",
+        "relatedItemIds": [
+          "news_17c9c3987748"
+        ],
+        "evidenceItemIds": [
+          "news_150b08451009",
+          "news_17c9c3987748"
         ],
         "historicalEvidenceCount": 29,
         "firstSeenAt": "2026-11-06T07:06:11.933Z",
-        "lastSeenAt": "2026-11-12T16:57:51.489Z",
+        "lastSeenAt": "2026-11-12T20:03:09.045Z",
         "status": "developing",
         "summary": "华尔街紧急上调利率预期，美联储政策被视为美股最大风险。",
         "latestProgress": "华尔街已紧急上调利率预期，市场担忧美联储政策冲击美股。"
@@ -11755,7 +11736,7 @@ window.FINHOT_DATA = {
         ],
         "historicalEvidenceCount": 3,
         "firstSeenAt": "2026-11-06T12:07:36.692Z",
-        "lastSeenAt": "2026-11-12T16:57:51.489Z",
+        "lastSeenAt": "2026-11-12T20:03:09.045Z",
         "status": "developing",
         "summary": "中国证监会2026年11月5日同意氢氧化锂期货和期权注册，同日核准葵花籽油期货期权注册。",
         "latestProgress": "2026年11月5日证监会同步核准氢氧化锂、葵花籽油期货及期权注册。"
@@ -11773,7 +11754,7 @@ window.FINHOT_DATA = {
         ],
         "historicalEvidenceCount": 0,
         "firstSeenAt": "2026-11-12T16:57:51.489Z",
-        "lastSeenAt": "2026-11-12T16:57:51.489Z",
+        "lastSeenAt": "2026-11-12T20:03:09.045Z",
         "status": "developing",
         "summary": "",
         "latestProgress": ""
@@ -11791,60 +11772,58 @@ window.FINHOT_DATA = {
         ],
         "historicalEvidenceCount": 0,
         "firstSeenAt": "2026-11-12T16:57:51.489Z",
-        "lastSeenAt": "2026-11-12T16:57:51.489Z",
+        "lastSeenAt": "2026-11-12T20:03:09.045Z",
         "status": "developing",
         "summary": "",
         "latestProgress": ""
       },
       {
-        "eventId": "event_33f311e54d32",
-        "title": "中国证监会与阿曼金融服务管理局签署《证券期货监管合作谅解备忘录》",
-        "mainItemId": "news_f0f5113a90ef",
+        "eventId": "event_ce7afcbf8d35",
+        "title": "财联社11月13日电，恒生指数主连夜盘收跌0.29%，恒生科技指数主连夜盘收跌0.25%。",
+        "mainItemId": "news_2a02f9685137",
         "relatedItemIds": [],
         "evidenceItemIds": [
-          "news_f0f5113a90ef"
-        ],
-        "historicalEvidenceCount": 5,
-        "firstSeenAt": "2026-11-03T11:57:43.416Z",
-        "lastSeenAt": "2026-11-09T22:34:07.812Z",
-        "status": "developing",
-        "summary": "中国证监会与阿曼金融服务管理局签署证券期货监管合作谅解备忘录",
-        "latestProgress": "2026年11月5日双方正式签署该合作备忘录"
-      },
-      {
-        "eventId": "event_3c1ee2f0a12d",
-        "title": "中国证监会有关部门负责人就近期稳市场稳预期相关工作答记者问",
-        "mainItemId": "news_dfaa9aab36e9",
-        "relatedItemIds": [],
-        "evidenceItemIds": [
-          "news_dfaa9aab36e9"
+          "news_2a02f9685137"
         ],
         "historicalEvidenceCount": 1,
-        "firstSeenAt": "2026-11-03T11:57:43.416Z",
-        "lastSeenAt": "2026-11-05T07:05:37.066Z",
+        "firstSeenAt": "2026-11-12T20:03:09.045Z",
+        "lastSeenAt": "2026-11-12T20:03:09.045Z",
         "status": "developing",
-        "summary": "中国证监会有关部门负责人就近期稳市场稳预期相关工作答记者问",
-        "latestProgress": "证监会就稳市场稳预期相关工作回应记者关切"
+        "summary": "",
+        "latestProgress": ""
       }
     ],
     "dailySummary": {
-      "highlights": []
-    },
-    "eventChain": {
-      "summary": "两条可辩护的链条：示范条款发布后险企表态跟进；央行报告提出互换便利后，财新与中金解读其边界。工行农行定增仅体现审核流程推进，未与其他事件构成因果。",
-      "chains": [
+      "highlights": [
         {
-          "title": "债市非银互换便利的政策边界",
-          "causalLink": "央行报告提出工具后，财新与中金分别解读其边界和政策取向；属于政策发布与解读关系，不能推断市场效果。",
+          "text": "[92] 监管释放市场韧性信号 加快形成“长钱长投”生态 — 社保、年金、保险等中长期资金入市规模和比例稳步提升，年初以来净买入A股超过6000亿元",
           "evidenceItemIds": [
-            "news_314a3ea3cbaa"
-          ],
-          "nodes": [
-            "中保协发布短期医疗险、长期医疗险、惠民保示范条款",
-            "多家险企表示采纳或跟进"
+            "news_b27174e2c6cd"
+          ]
+        },
+        {
+          "text": "[84] 美股回调溢价难降，跨境ETF“门票”究竟值多少 — 高溢价“十点半魔咒”难破，一切只为 “买得到”！纳指回调了，但投资者手里的“门票”却没有跟着“降价”。\n\n海外市场震荡回",
+          "evidenceItemIds": [
+            "news_723d0e089617"
+          ]
+        },
+        {
+          "text": "[81] 国务院：强化社保基金安全监管和保值增值，扩大企业年金覆盖面 — 11月12日，国务院以“健全多层次社会保障体系，进一步织密扎牢社会保障安全网”为主题，进行第二十二次专题学习。国务院总理",
+          "evidenceItemIds": [
+            "news_cff3dd89a76a"
+          ]
+        },
+        {
+          "text": "[79] 公司债资金开始流向项目端，房企融资新政效果仍待传导 — 转向“看项目”后，业内认为拥有优质项目的房企有望比过去更有机会发债。房企融资出现新风向。近日，华润置地200亿元公司债获",
+          "evidenceItemIds": [
+            "news_5bdafc7d577c"
           ]
         }
       ]
+    },
+    "eventChain": {
+      "summary": "两条可辩护的链条：示范条款发布后险企表态跟进；央行报告提出互换便利后，财新与中金解读其边界。工行农行定增仅体现审核流程推进，未与其他事件构成因果。",
+      "chains": []
     },
     "industryImpact": {
       "quadrants": {
@@ -11873,16 +11852,7 @@ window.FINHOT_DATA = {
         "pe": {
           "level": "high",
           "summary": "海外加息预期上修与A股风险偏好回落构成主要压制，AI主题从估值交易转向商业化验证。",
-          "items": [
-            {
-              "title": "A股三大指数集体收跌",
-              "impact": "沪指跌0.67%、创业板指跌2.44%，物理AI、AI短剧领跌，一级市场AI主题情绪同步承压。",
-              "suggestion": "以现金流和订单验证AI项目，避免按二级市场情绪定价。",
-              "evidenceItemIds": [
-                "news_728f0622fb40"
-              ]
-            }
-          ]
+          "items": []
         },
         "banking": {
           "level": "high",
@@ -11892,16 +11862,7 @@ window.FINHOT_DATA = {
         "trust": {
           "level": "medium",
           "summary": "信托无直接新闻，但债市非银流动性与资本市场长期资金政策影响非银资管展业边界。",
-          "items": [
-            {
-              "title": "中金点评央行Q3报告",
-              "impact": "政策更重框架改革与防范风险，信托风险处置和转型节奏受约束。",
-              "suggestion": "加快风险资产处置，聚焦标品和服务信托。",
-              "evidenceItemIds": [
-                "news_314a3ea3cbaa"
-              ]
-            }
-          ]
+          "items": []
         }
       }
     },
@@ -11911,57 +11872,15 @@ window.FINHOT_DATA = {
     },
     "insurancePlanner": {
       "summary": "高分资讯中医疗险示范条款与资本市场稳预期信号较多，适合用于客户保障检视和风险沟通；话术仅作内部参考，不构成收益承诺。",
-      "talkingPoints": [
-        {
-          "topic": "市场波动加大，先检视保障再谈长期配置",
-          "point": "A股三大指数集体收跌、超4600股飘绿，短期风险偏好回落；同时证监会表态拓宽中长期资金入市、维护市场平稳，客户沟通宜回到保障与长期规划。",
-          "action": "对焦虑客户先做家庭保障缺口检视，再讨论长期资金安排；避免以短期市场涨跌作为投保理由，不承诺投资收益。",
-          "evidenceItemIds": [
-            "news_728f0622fb40"
-          ]
-        },
-        {
-          "topic": "创新药研发获长期资金支持，健康管理话题升温",
-          "point": "黑石生命科学出资15亿美元支持辉瑞减肥药研究，反映生命科学领域长期资金活跃；减重与健康管理可能成为客户关注点，但短期不改变医疗险条款责任。",
-          "action": "与客户交流体重管理和健康服务时可作背景信息，提醒医疗险是否覆盖相关药品以条款为准，不作产品责任外承诺。",
-          "evidenceItemIds": [
-            "news_f478745ad239"
-          ]
-        }
-      ]
+      "talkingPoints": []
     },
     "peOperations": {
       "summary": "高分资讯显示生命科学共同投资、外资资管增资和资本市场中长期资金政策值得私募股权运营关注；重点跟踪募资来源、合作模式和退出环境。",
-      "talkingPoints": [
-        {
-          "topic": "黑石15亿美元共同资助辉瑞减肥药研究",
-          "point": "黑石生命科学管理的基金承担辉瑞月度减肥注射药物截至2028年的部分研发资金，体现PE与大型药企共同投资、分担研发风险的模式；可关注生命科学基金的项目结构、里程碑付款和退出安排。",
-          "action": "运营团队梳理生命科学类LP对共同投资和研发风险分担的偏好，评估与药企合作条款中的资金节奏、里程碑和治理权。",
-          "evidenceItemIds": [
-            "news_f478745ad239"
-          ]
-        },
-        {
-          "topic": "富达基金中国增资至2.33亿美元",
-          "point": "富达基金中国注册资本由2.18亿美元增至2.33亿美元，显示外资资管持续加码中国市场；私募股权机构可关注外资LP布局、QFLP及跨境产品合作机会。",
-          "action": "跟踪外资资管在华展业动态，评估与外资LP、QFLP渠道的合作空间，并关注合规与本地化团队建设。",
-          "evidenceItemIds": [
-            "news_f497f4864ba8"
-          ]
-        }
-      ]
+      "talkingPoints": []
     },
     "marketOutlook": {
       "summary": "海外通胀与加息预期、国内稳市场政策和医疗险标准化是本期主要线索；市场展望以风险提示和政策跟踪为主，不构成投资建议。",
-      "outlooks": [
-        {
-          "topic": "国内政策维护市场平稳，A股短期波动中关注流动性",
-          "content": "央行Q3货政报告强调用好债市非银大额赎回互换便利，阻断羊群效应；证监会提出拓宽中长期资金入市并维护市场平稳。A股三大指数收跌、超4600股飘绿，短期风险偏好承压，但政策工具丰富，关注后续资金面和情绪修复。",
-          "evidenceItemIds": [
-            "news_728f0622fb40"
-          ]
-        }
-      ]
+      "outlooks": []
     },
     "sourceGeneratedBy": "llm"
   }
@@ -11970,7 +11889,6 @@ window.KEYWORD_INDEX = {
   "保险": [
     "news_a890451b028d",
     "news_b27174e2c6cd",
-    "news_e9efbd2878af",
     "news_bdb06a7f4c20",
     "news_e90bc6b7d208",
     "news_dfaa9aab36e9"
@@ -11983,9 +11901,6 @@ window.KEYWORD_INDEX = {
   ],
   "保单": [
     "news_44438b314527"
-  ],
-  "保险业": [
-    "news_e9efbd2878af"
   ],
   "保险公司": [
     "news_dfaa9aab36e9"
@@ -12027,27 +11942,26 @@ window.KEYWORD_INDEX = {
     "news_99522d4209db",
     "news_4a96a8022db1",
     "news_2e21eec62cd1",
-    "news_728f0622fb40",
-    "news_314a3ea3cbaa",
     "news_dfaa9aab36e9"
   ],
   "央行": [
+    "news_0d1bd161627a",
     "news_215d56d47043",
     "news_198a36ed1fe8",
-    "news_eec16485bf6b",
-    "news_314a3ea3cbaa"
+    "news_eec16485bf6b"
   ],
   "农商行": [
     "news_2e21eec62cd1"
   ],
   "利率": [
+    "news_37f75f3a0ba1",
+    "news_17c9c3987748",
     "news_15e624c00ecb",
     "news_150b08451009",
-    "news_c01f42aa5906",
-    "news_314a3ea3cbaa"
+    "news_c01f42aa5906"
   ],
-  "贷款利率": [
-    "news_314a3ea3cbaa"
+  "逆回购": [
+    "news_2cbaef27eb5f"
   ],
   "降准": [
     "news_198a36ed1fe8"
@@ -12071,6 +11985,7 @@ window.KEYWORD_INDEX = {
     "news_17bbec1b603d",
     "news_99522d4209db",
     "news_f2adbed4def5",
+    "news_2d8e2ab9950d",
     "news_93c22d908459",
     "news_dfaa9aab36e9"
   ],
@@ -12080,7 +11995,7 @@ window.KEYWORD_INDEX = {
     "news_2ea42c5e2879",
     "news_73bdeb29c44f",
     "news_b27174e2c6cd",
-    "news_728f0622fb40"
+    "news_929206f468ef"
   ],
   "港股": [
     "news_15e624c00ecb",
@@ -12089,6 +12004,7 @@ window.KEYWORD_INDEX = {
   ],
   "美股": [
     "news_a4d59a610102",
+    "news_c4377303a316",
     "news_26eb414cd65d",
     "news_7a241b1931b9",
     "news_6eafcc6dc75e",
@@ -12100,20 +12016,16 @@ window.KEYWORD_INDEX = {
     "news_99522d4209db"
   ],
   "指数": [
+    "news_2a02f9685137",
     "news_140e2a790868",
     "news_7a241b1931b9",
     "news_150b08451009",
     "news_4591aefe9094",
     "news_fb599abe8c80",
-    "news_0943381eb7f7",
-    "news_ff7730416c2f",
-    "news_728f0622fb40"
+    "news_0943381eb7f7"
   ],
   "ETF": [
     "news_723d0e089617"
-  ],
-  "公募基金": [
-    "news_f497f4864ba8"
   ],
   "私募基金": [
     "news_b3e200707c8e"
@@ -12124,19 +12036,18 @@ window.KEYWORD_INDEX = {
     "news_5bdafc7d577c"
   ],
   "国债": [
+    "news_2f68f2117e27",
+    "news_37f75f3a0ba1",
     "news_e4067b8bf71f",
     "news_58e5d71cf58b",
     "news_3b2fd1fe79df",
-    "news_150b08451009",
-    "news_314a3ea3cbaa"
-  ],
-  "信用债": [
-    "news_314a3ea3cbaa"
+    "news_150b08451009"
   ],
   "公司债": [
     "news_5bdafc7d577c"
   ],
   "期货": [
+    "news_fb3b6dde316d",
     "news_a4d59a610102",
     "news_ecaeaff8fe36",
     "news_4c7862cbd341",
@@ -12149,9 +12060,6 @@ window.KEYWORD_INDEX = {
   "期权": [
     "news_0e0e861c68d3",
     "news_ea0c0a809eb4"
-  ],
-  "IPO": [
-    "news_ccae859a2009"
   ],
   "上市": [
     "news_d3d2e97d8e07",
@@ -12171,7 +12079,6 @@ window.KEYWORD_INDEX = {
     "news_c01f42aa5906",
     "news_9ad18e9af5f2",
     "news_d8c3fbec45be",
-    "news_ff7730416c2f",
     "news_dfaa9aab36e9"
   ],
   "退市": [
@@ -12184,6 +12091,7 @@ window.KEYWORD_INDEX = {
     "news_dfaa9aab36e9"
   ],
   "回购": [
+    "news_2cbaef27eb5f",
     "news_73bdeb29c44f",
     "news_dfaa9aab36e9"
   ],
@@ -12198,6 +12106,7 @@ window.KEYWORD_INDEX = {
     "news_71c36a782e0f",
     "news_713da0921647",
     "news_1c603ed23026",
+    "news_c4377303a316",
     "news_8fde743b6f92",
     "news_7a241b1931b9",
     "news_723d0e089617",
@@ -12205,9 +12114,9 @@ window.KEYWORD_INDEX = {
     "news_48b7ce81ad0a",
     "news_da7438a3291a",
     "news_b27174e2c6cd",
+    "news_e3898c2abab6",
     "news_c991f493b2a2",
     "news_89b961eacb62",
-    "news_fcd50c7cc944",
     "news_626adfe70753"
   ],
   "机构": [
@@ -12215,9 +12124,6 @@ window.KEYWORD_INDEX = {
     "news_88756b9e20e5",
     "news_61cecf0f3021",
     "news_28c09a289c37",
-    "news_314a3ea3cbaa",
-    "news_e9efbd2878af",
-    "news_fcd50c7cc944",
     "news_626adfe70753",
     "news_f0f5113a90ef"
   ],
@@ -12230,8 +12136,6 @@ window.KEYWORD_INDEX = {
     "news_61cecf0f3021",
     "news_cff3dd89a76a",
     "news_b27174e2c6cd",
-    "news_fcd50c7cc944",
-    "news_f478745ad239",
     "news_626adfe70753",
     "news_f0f5113a90ef",
     "news_dfaa9aab36e9"
@@ -12253,9 +12157,6 @@ window.KEYWORD_INDEX = {
     "news_dfaa9aab36e9",
     "news_24bb2ebaf068"
   ],
-  "金融委": [
-    "news_fcd50c7cc944"
-  ],
   "深交所": [
     "news_673a5583e068"
   ],
@@ -12269,6 +12170,7 @@ window.KEYWORD_INDEX = {
     "news_626adfe70753"
   ],
   "条款": [
+    "news_507412a7e275",
     "news_ea34ebbd1231",
     "news_e5dafa4f8cdb",
     "news_d5da8b65894b",
@@ -12287,14 +12189,12 @@ window.KEYWORD_INDEX = {
     "news_e6f6c4c52ccc"
   ],
   "意见": [
+    "news_507412a7e275",
     "news_ea34ebbd1231",
     "news_e5dafa4f8cdb",
     "news_55d1b7d94d8f",
     "news_1dc311528fd6",
     "news_6f0d99990c92"
-  ],
-  "规定": [
-    "news_fcd50c7cc944"
   ],
   "条例": [
     "news_1dc311528fd6"
@@ -12308,6 +12208,7 @@ window.KEYWORD_INDEX = {
     "news_201022a875c0"
   ],
   "经济": [
+    "news_0d1bd161627a",
     "news_45534da9b48c",
     "news_1c603ed23026",
     "news_215d56d47043",
@@ -12317,9 +12218,7 @@ window.KEYWORD_INDEX = {
     "news_173cf3b6a4ab",
     "news_bcad2ea17031",
     "news_eec16485bf6b",
-    "news_12efeea89163",
-    "news_a516dda1e634",
-    "news_102a79038567"
+    "news_12efeea89163"
   ],
   "高质量发展": [
     "news_215d56d47043",
@@ -12337,9 +12236,6 @@ window.KEYWORD_INDEX = {
     "news_150b08451009",
     "news_50456b8e91d3"
   ],
-  "M2": [
-    "news_ff7730416c2f"
-  ],
   "外贸": [
     "news_027567ad6984"
   ],
@@ -12348,14 +12244,7 @@ window.KEYWORD_INDEX = {
     "news_d5da8b65894b",
     "news_198a36ed1fe8",
     "news_eec16485bf6b",
-    "news_314a3ea3cbaa",
     "news_dfaa9aab36e9"
-  ],
-  "逆周期": [
-    "news_e9efbd2878af"
-  ],
-  "跨周期": [
-    "news_314a3ea3cbaa"
   ],
   "汇率": [
     "news_6ac1f84db2d7",
@@ -12363,6 +12252,7 @@ window.KEYWORD_INDEX = {
     "news_e6f6c4c52ccc"
   ],
   "人民币": [
+    "news_fb3b6dde316d",
     "news_ddac8f8cb4f1"
   ],
   "跨境": [
@@ -12372,6 +12262,12 @@ window.KEYWORD_INDEX = {
     "news_44438b314527"
   ],
   "美元": [
+    "news_7f4d7e139a26",
+    "news_2f68f2117e27",
+    "news_2cbaef27eb5f",
+    "news_0d1bd161627a",
+    "news_37f75f3a0ba1",
+    "news_2542eae7ecc6",
     "news_f080ab4835f2",
     "news_e5dafa4f8cdb",
     "news_6ac1f84db2d7",
@@ -12401,9 +12297,7 @@ window.KEYWORD_INDEX = {
     "news_f2adbed4def5",
     "news_e6f6c4c52ccc",
     "news_c991f493b2a2",
-    "news_9ad18e9af5f2",
-    "news_f497f4864ba8",
-    "news_f478745ad239"
+    "news_9ad18e9af5f2"
   ],
   "欧元": [
     "news_713da0921647",
@@ -12416,9 +12310,6 @@ window.KEYWORD_INDEX = {
     "news_50456b8e91d3",
     "news_f104c5e8c217"
   ],
-  "复苏": [
-    "news_a516dda1e634"
-  ],
   "地产": [
     "news_eec16485bf6b"
   ],
@@ -12429,11 +12320,12 @@ window.KEYWORD_INDEX = {
     "news_f6a899ba4d34",
     "news_28c09a289c37",
     "news_9f5a7fbcbbcd",
-    "news_8308b57abfcb",
-    "news_4b10ccc6a15c"
+    "news_8308b57abfcb"
   ],
   "投资": [
+    "news_7f4d7e139a26",
     "news_dc899b7c7c3b",
+    "news_507412a7e275",
     "news_71c36a782e0f",
     "news_ea34ebbd1231",
     "news_64d1534a43fd",
@@ -12442,6 +12334,7 @@ window.KEYWORD_INDEX = {
     "news_6ac1f84db2d7",
     "news_713da0921647",
     "news_1c603ed23026",
+    "news_c4377303a316",
     "news_8fde743b6f92",
     "news_cdc007b8a671",
     "news_7a241b1931b9",
@@ -12458,6 +12351,7 @@ window.KEYWORD_INDEX = {
     "news_b27174e2c6cd",
     "news_027567ad6984",
     "news_a112d69be901",
+    "news_e3898c2abab6",
     "news_5e34d3404c8e",
     "news_8a68773eccb8",
     "news_05ba59667889",
@@ -12466,17 +12360,16 @@ window.KEYWORD_INDEX = {
     "news_9ad18e9af5f2",
     "news_dec19cb92f15",
     "news_ddac8f8cb4f1",
-    "news_35b1427844fc",
-    "news_fcd50c7cc944",
     "news_626adfe70753"
   ],
   "出口": [
-    "news_c89d396b2282",
-    "news_a516dda1e634"
+    "news_c89d396b2282"
+  ],
+  "进口": [
+    "news_2a0f749fd901"
   ],
   "贸易": [
-    "news_e58866435bd9",
-    "news_35b1427844fc"
+    "news_e58866435bd9"
   ],
   "产业链": [
     "news_71c36a782e0f",
@@ -12511,19 +12404,19 @@ window.KEYWORD_INDEX = {
   "黄金": [
     "news_7df3faaa9463",
     "news_575e7d62587b",
-    "news_c991f493b2a2",
-    "news_612ab23bd1a2"
+    "news_c991f493b2a2"
   ],
   "金价": [
     "news_575e7d62587b"
   ],
   "原油": [
+    "news_fb3b6dde316d",
+    "news_2a0f749fd901",
     "news_e58866435bd9",
     "news_22920590f826",
     "news_020c9d135b1b",
     "news_ecaeaff8fe36",
-    "news_7a241b1931b9",
-    "news_3f7b6133e38f"
+    "news_7a241b1931b9"
   ],
   "大宗商品": [
     "news_e58866435bd9"
@@ -12542,9 +12435,7 @@ window.KEYWORD_INDEX = {
     "news_f415f6936ea2",
     "news_48b7ce81ad0a",
     "news_25980869dd85",
-    "news_c01f42aa5906",
-    "news_e9efbd2878af",
-    "news_ff84ba957c19"
+    "news_c01f42aa5906"
   ],
   "股市": [
     "news_7a241b1931b9",
@@ -12554,6 +12445,9 @@ window.KEYWORD_INDEX = {
     "news_0943381eb7f7"
   ],
   "美联储": [
+    "news_2cbaef27eb5f",
+    "news_0d1bd161627a",
+    "news_17c9c3987748",
     "news_d5da8b65894b",
     "news_150b08451009"
   ],
@@ -12584,7 +12478,6 @@ window.KEYWORD_INDEX = {
   "权益": [
     "news_6ac1f84db2d7",
     "news_54d5e4790827",
-    "news_e9efbd2878af",
     "news_626adfe70753"
   ],
   "另类": [

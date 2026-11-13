@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-12T20:03:09.045Z",
+  "generatedAt": "2026-11-13T06:46:53.984Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -9,11 +9,10 @@
       "clusterVersion": 2,
       "title": "美股回调溢价难降，跨境ETF“门票”究竟值多少",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-12T20:03:09.045Z",
+      "lastSeenAt": "2026-11-13T06:46:53.984Z",
       "latestItemPublishedAt": "2026-11-12T12:45:01.000Z",
       "primaryItemId": "news_723d0e089617",
       "evidenceItemIds": [
-        "news_869bebcc8da8",
         "news_f8e6134024ba",
         "news_cbb6a1975664",
         "news_283e2cf2603f",
@@ -62,22 +61,22 @@
         "news_a2640f93d630",
         "news_77d90901d51c",
         "news_a2dee9715453",
-        "news_723d0e089617"
+        "news_723d0e089617",
+        "news_49d8fd0869ea"
       ],
       "status": "developing",
-      "summary": "培风客称美股尚无明确见底信号，美债明年或迎阶段性反弹，镍值得关注。",
-      "latestProgress": "美股收盘科技板块延续反弹，多只存储、光通信牛股涨幅超10%。"
+      "summary": "美股回调背景下跨境ETF溢价难降，投资价值受市场关注。",
+      "latestProgress": "国会山\"翻蓝\"冲击美股银行股，多因素影响跨境ETF溢价走势。"
     },
     {
       "eventId": "event_a3c5d0364922",
       "clusterVersion": 2,
-      "title": "A股明年怎么走？多家龙头券商最新研判",
+      "title": "A股回报端反超融资端，外资重新定价中国资产",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-12T20:03:09.045Z",
+      "lastSeenAt": "2026-11-13T06:46:53.984Z",
       "latestItemPublishedAt": "2026-11-12T13:51:34.000Z",
-      "primaryItemId": "news_2ea42c5e2879",
+      "primaryItemId": "news_1c603ed23026",
       "evidenceItemIds": [
-        "news_d3acb352b901",
         "news_6f891b042f64",
         "news_b4b557fcb708",
         "news_1c04504c6054",
@@ -126,24 +125,22 @@
         "news_2ea42c5e2879",
         "news_1c603ed23026",
         "news_73bdeb29c44f",
-        "news_929206f468ef"
+        "news_929206f468ef",
+        "news_7922ad185882"
       ],
       "status": "developing",
-      "summary": "东财陈果称A股半导体或已计入28年悲观预期，建议关注AI应用局部突破。",
-      "latestProgress": "2026年11月12日A股三大指数集体收跌，全市场超4600股飘绿。"
+      "summary": "A股回报端反超融资端，叠加回购潮及券商看好预期，外资重新定价中国资产",
+      "latestProgress": "11月13日A股四大指数集体高开，半导体、通信设备等板块走强"
     },
     {
       "eventId": "event_c68d651d4ff9",
       "clusterVersion": 2,
-      "title": "智通港股投资日志|11月13日",
+      "title": "港股异动 | 阿里巴巴-W(09988)午后跌超4% 市场担忧芯片管制趋严 瑞银指相关影响可能被高估",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-11-12T20:03:09.045Z",
-      "latestItemPublishedAt": "2026-11-12T12:59:16.000Z",
-      "primaryItemId": "news_dec19cb92f15",
+      "lastSeenAt": "2026-11-13T06:46:53.984Z",
+      "latestItemPublishedAt": "2026-11-13T06:14:22.000Z",
+      "primaryItemId": "news_a64bbc8bf19b",
       "evidenceItemIds": [
-        "news_3da5a4f78dc8",
-        "news_88fd141087ee",
-        "news_b16e8360d76f",
         "news_15075deb8815",
         "news_adea2e7f9252",
         "news_c8656b86df79",
@@ -190,18 +187,21 @@
         "news_d32c9dca69c6",
         "news_a632d0bccd2d",
         "news_15e624c00ecb",
-        "news_dec19cb92f15"
+        "news_dec19cb92f15",
+        "news_a64bbc8bf19b",
+        "news_1e723812a02c",
+        "news_f796ec222fab"
       ],
       "status": "developing",
-      "summary": "10月PPI超预期CPI回落，出口高技术支撑外需，机构称港股明年具均值回归空间",
-      "latestProgress": "11月11日光通信概念港股逆市走强，剑桥科技涨近18%"
+      "summary": "阿里巴巴午后跌超4%，市场担忧芯片管制趋严，瑞银称相关影响或高估。",
+      "latestProgress": "陈茂波称前10个月港股IPO集资逾4000亿港元创同期新高。"
     },
     {
       "eventId": "event_2cf716748ce1",
       "clusterVersion": 2,
       "title": "中金点评央行Q3货币政策执行报告：更重框架改革与防范风险",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-12T20:03:09.045Z",
+      "lastSeenAt": "2026-11-13T06:46:53.984Z",
       "latestItemPublishedAt": "2026-11-12T18:07:25.000Z",
       "primaryItemId": "news_314a3ea3cbaa",
       "evidenceItemIds": [
@@ -257,15 +257,15 @@
         "news_0d1bd161627a"
       ],
       "status": "developing",
-      "summary": "新加坡推出500吨央行级黄金储备托管服务，副总理称与香港非零和博弈。",
-      "latestProgress": "新加坡正式推出500吨央行级黄金储备托管业务，副总理称与香港非零和博弈。"
+      "summary": "中金解读央行Q3货币政策执行报告，重点关注框架改革与风险防范。",
+      "latestProgress": "2026年11月报道指出AI央行变革冲击或沿融资链传导。"
     },
     {
       "eventId": "event_546632f4870c",
       "clusterVersion": 2,
       "title": "财联社11月13日电，上期所原油期货2612合约夜盘收涨1.65%，报617.90元人民币/桶。沪金夜盘收跌2.87%，",
       "firstSeenAt": "2026-11-04T19:54:55.710Z",
-      "lastSeenAt": "2026-11-12T20:03:09.045Z",
+      "lastSeenAt": "2026-11-13T06:46:53.984Z",
       "latestItemPublishedAt": "2026-11-12T18:30:43.000Z",
       "primaryItemId": "news_fb3b6dde316d",
       "evidenceItemIds": [
@@ -278,15 +278,15 @@
         "news_fb3b6dde316d"
       ],
       "status": "developing",
-      "summary": "财联社消息，上期所原油期货2612合约夜盘收涨，沪金收跌、沪银收涨。",
-      "latestProgress": "11月12日夜盘收盘，原油涨1.54%，沪金跌1.3%、沪银涨0.22%。"
+      "summary": "11月13日夜盘上期所原油期货收涨，沪金沪银双双收跌。",
+      "latestProgress": "上期所原油期货夜盘收涨1.65%报617.9，沪金跌2.87%沪银跌3.43%。"
     },
     {
       "eventId": "event_9e320dba578d",
       "clusterVersion": 2,
       "title": "【华尔街原声】美联储鲍曼：通胀压力持续，进一步加息需权衡经济成本",
       "firstSeenAt": "2026-11-06T07:06:11.933Z",
-      "lastSeenAt": "2026-11-12T20:03:09.045Z",
+      "lastSeenAt": "2026-11-13T06:46:53.984Z",
       "latestItemPublishedAt": "2026-11-12T12:53:48.000Z",
       "primaryItemId": "news_2414ac0c3a8c",
       "evidenceItemIds": [
@@ -323,8 +323,186 @@
         "news_17c9c3987748"
       ],
       "status": "developing",
-      "summary": "华尔街紧急上调利率预期，美联储政策被视为美股最大风险。",
-      "latestProgress": "华尔街已紧急上调利率预期，市场担忧美联储政策冲击美股。"
+      "summary": "美联储官员称通胀压力持续，进一步加息需权衡经济成本，美元走强加息预期升温",
+      "latestProgress": "美联储宣布取消2027年10月利率会议"
+    },
+    {
+      "eventId": "event_823f626108ed",
+      "clusterVersion": 2,
+      "title": "特朗普称美国不需要与伊朗达成协议，油价直线拉升",
+      "firstSeenAt": "2026-11-12T16:57:51.489Z",
+      "lastSeenAt": "2026-11-13T06:46:53.984Z",
+      "latestItemPublishedAt": "2026-11-12T14:23:22.000Z",
+      "primaryItemId": "news_020c9d135b1b",
+      "evidenceItemIds": [
+        "news_020c9d135b1b",
+        "news_c49e1a2a3a93",
+        "news_7df3faaa9463"
+      ],
+      "status": "developing",
+      "summary": "特朗普称美国无需与伊朗达成协议，国际油价大幅拉升，现货黄金失守3900美元关口",
+      "latestProgress": "受该表态影响，现货黄金失守3900美元关口"
+    },
+    {
+      "eventId": "event_978010484107",
+      "clusterVersion": 2,
+      "title": "财联社11月13日电，日本2年期国债收益率上升4个基点至1.890%。",
+      "firstSeenAt": "2026-11-12T16:57:51.489Z",
+      "lastSeenAt": "2026-11-13T06:46:53.984Z",
+      "latestItemPublishedAt": "2026-11-13T03:51:45.000Z",
+      "primaryItemId": "news_0528d830e758",
+      "evidenceItemIds": [
+        "news_e4067b8bf71f",
+        "news_58e5d71cf58b",
+        "news_0528d830e758"
+      ],
+      "status": "developing",
+      "summary": "近期多国2年期国债收益率上行，英国、日本均录得明显涨幅。",
+      "latestProgress": "11月13日日本2年期国债收益率上升4个基点至1.890%。"
+    },
+    {
+      "eventId": "event_ce7afcbf8d35",
+      "clusterVersion": 2,
+      "title": "财联社11月13日电，恒生指数主连夜盘收跌0.29%，恒生科技指数主连夜盘收跌0.25%。",
+      "firstSeenAt": "2026-11-12T20:03:09.045Z",
+      "lastSeenAt": "2026-11-13T06:46:53.984Z",
+      "latestItemPublishedAt": "2026-11-12T19:04:24.000Z",
+      "primaryItemId": "news_2a02f9685137",
+      "evidenceItemIds": [
+        "news_2a02f9685137",
+        "news_567fea623fea"
+      ],
+      "status": "developing",
+      "summary": "11月13日晚，恒生指数主连、恒生科技指数主连夜盘分别收跌0.29%、0.25%",
+      "latestProgress": "财联社11月13日电，恒生指数主连夜盘收跌0.29%，恒生科技指数主连夜盘收跌0.25%"
+    },
+    {
+      "eventId": "event_3411605a5439",
+      "clusterVersion": 2,
+      "title": "LME期铜收跌229美元",
+      "firstSeenAt": "2026-11-12T20:03:09.045Z",
+      "lastSeenAt": "2026-11-13T06:46:53.984Z",
+      "latestItemPublishedAt": "2026-11-12T17:52:58.000Z",
+      "primaryItemId": "news_2542eae7ecc6",
+      "evidenceItemIds": [
+        "news_2542eae7ecc6",
+        "news_52110800f747"
+      ],
+      "status": "developing",
+      "summary": "LME期铜收跌229美元",
+      "latestProgress": "LME期铜收跌229美元"
+    },
+    {
+      "eventId": "event_26514b0ab1fd",
+      "clusterVersion": 2,
+      "title": "报道：OpenAI融资150亿美元，公司估值达到1.25万亿美元",
+      "firstSeenAt": "2026-11-13T06:46:53.984Z",
+      "lastSeenAt": "2026-11-13T06:46:53.984Z",
+      "latestItemPublishedAt": "2026-11-13T02:38:01.000Z",
+      "primaryItemId": "news_e5dafa4f8cdb",
+      "evidenceItemIds": [
+        "news_e5dafa4f8cdb",
+        "news_0616406e0585"
+      ],
+      "status": "developing",
+      "summary": "OpenAI完成150亿美元融资，公司估值达1.25万亿美元",
+      "latestProgress": "该笔融资为OpenAI 2027年IPO铺路"
+    },
+    {
+      "eventId": "event_d6f1a73f28c5",
+      "clusterVersion": 2,
+      "title": "福特汽车（中国）有限公司召回部分林肯领航员汽车",
+      "firstSeenAt": "2026-11-13T06:46:53.984Z",
+      "lastSeenAt": "2026-11-13T06:46:53.984Z",
+      "latestItemPublishedAt": "2026-11-13T03:40:18.000Z",
+      "primaryItemId": "news_473ee2d81095",
+      "evidenceItemIds": [
+        "news_473ee2d81095",
+        "news_b53d5b1850f4"
+      ],
+      "status": "developing",
+      "summary": "2026年11月13日福特汽车（中国）有限公司宣布召回部分林肯领航员汽车。",
+      "latestProgress": "2026年11月13日福特汽车（中国）正式启动相关林肯领航员汽车召回。"
+    },
+    {
+      "eventId": "event_ac5f416066bc",
+      "clusterVersion": 2,
+      "title": "金融监管总局法规司司长：中小银行重组整合是大势所趋",
+      "firstSeenAt": "2026-11-13T06:46:53.984Z",
+      "lastSeenAt": "2026-11-13T06:46:53.984Z",
+      "latestItemPublishedAt": "2026-11-13T06:05:24.000Z",
+      "primaryItemId": "news_42bff6915a8f",
+      "evidenceItemIds": [
+        "news_42bff6915a8f",
+        "news_12519490ea99"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_48332d3f1f4f",
+      "clusterVersion": 2,
+      "title": "恒生科技指数跌幅扩大至3%",
+      "firstSeenAt": "2026-11-13T06:46:53.984Z",
+      "lastSeenAt": "2026-11-13T06:46:53.984Z",
+      "latestItemPublishedAt": "2026-11-13T05:56:54.000Z",
+      "primaryItemId": "news_d49f488e0dde",
+      "evidenceItemIds": [
+        "news_d49f488e0dde",
+        "news_57fa868ef136"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_6b7b9b64d817",
+      "clusterVersion": 2,
+      "title": "罗马尼亚10月通胀率升至6.9%",
+      "firstSeenAt": "2026-11-13T06:46:53.984Z",
+      "lastSeenAt": "2026-11-13T06:46:53.984Z",
+      "latestItemPublishedAt": "2026-11-12T03:50:26.000Z",
+      "primaryItemId": "news_d865a8971006",
+      "evidenceItemIds": [
+        "news_d865a8971006",
+        "news_1d3dd20bfe24"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_20e8014391ac",
+      "clusterVersion": 2,
+      "title": "财联社11月12日电，现货钯金跌破1000美元/盎司，日内跌2.77%。",
+      "firstSeenAt": "2026-11-13T06:46:53.984Z",
+      "lastSeenAt": "2026-11-13T06:46:53.984Z",
+      "latestItemPublishedAt": "2026-11-12T13:22:45.000Z",
+      "primaryItemId": "news_e92eb0fa53ae",
+      "evidenceItemIds": [
+        "news_e92eb0fa53ae",
+        "news_a856a40f53d6"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_0db9fdf36352",
+      "clusterVersion": 2,
+      "title": "财联社11月12日电，纳斯达克100期货跌幅扩大至1.5%。此前特朗普发表伊朗相关评论。",
+      "firstSeenAt": "2026-11-13T06:46:53.984Z",
+      "lastSeenAt": "2026-11-13T06:46:53.984Z",
+      "latestItemPublishedAt": "2026-11-12T13:11:47.000Z",
+      "primaryItemId": "news_4c7862cbd341",
+      "evidenceItemIds": [
+        "news_4c7862cbd341",
+        "news_140e2a790868"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
     },
     {
       "eventId": "event_a4c277bef24a",
@@ -344,70 +522,6 @@
       "status": "developing",
       "summary": "中国证监会2026年11月5日同意氢氧化锂期货和期权注册，同日核准葵花籽油期货期权注册。",
       "latestProgress": "2026年11月5日证监会同步核准氢氧化锂、葵花籽油期货及期权注册。"
-    },
-    {
-      "eventId": "event_823f626108ed",
-      "clusterVersion": 2,
-      "title": "特朗普称美国不需要与伊朗达成协议，油价直线拉升",
-      "firstSeenAt": "2026-11-12T16:57:51.489Z",
-      "lastSeenAt": "2026-11-12T20:03:09.045Z",
-      "latestItemPublishedAt": "2026-11-12T13:20:55.000Z",
-      "primaryItemId": "news_020c9d135b1b",
-      "evidenceItemIds": [
-        "news_020c9d135b1b",
-        "news_c49e1a2a3a93"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_978010484107",
-      "clusterVersion": 2,
-      "title": "英国2年期国债收益率上升7个基点至4.98%，为2023年10月以来最高。",
-      "firstSeenAt": "2026-11-12T16:57:51.489Z",
-      "lastSeenAt": "2026-11-12T20:03:09.045Z",
-      "latestItemPublishedAt": "2026-11-12T13:18:48.000Z",
-      "primaryItemId": "news_e4067b8bf71f",
-      "evidenceItemIds": [
-        "news_e4067b8bf71f",
-        "news_58e5d71cf58b"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_ce7afcbf8d35",
-      "clusterVersion": 2,
-      "title": "财联社11月13日电，恒生指数主连夜盘收跌0.29%，恒生科技指数主连夜盘收跌0.25%。",
-      "firstSeenAt": "2026-11-12T20:03:09.045Z",
-      "lastSeenAt": "2026-11-12T20:03:09.045Z",
-      "latestItemPublishedAt": "2026-11-12T19:04:24.000Z",
-      "primaryItemId": "news_2a02f9685137",
-      "evidenceItemIds": [
-        "news_2a02f9685137",
-        "news_567fea623fea"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_3411605a5439",
-      "clusterVersion": 2,
-      "title": "LME期铜收跌229美元",
-      "firstSeenAt": "2026-11-12T20:03:09.045Z",
-      "lastSeenAt": "2026-11-12T20:03:09.045Z",
-      "latestItemPublishedAt": "2026-11-12T17:52:58.000Z",
-      "primaryItemId": "news_2542eae7ecc6",
-      "evidenceItemIds": [
-        "news_2542eae7ecc6",
-        "news_52110800f747"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
     },
     {
       "eventId": "event_7655cc8d2b41",

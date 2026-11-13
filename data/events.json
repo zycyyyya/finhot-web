@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-13T06:46:53.984Z",
+  "generatedAt": "2026-11-13T12:16:34.843Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -9,11 +9,10 @@
       "clusterVersion": 2,
       "title": "美股回调溢价难降，跨境ETF“门票”究竟值多少",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-13T06:46:53.984Z",
-      "latestItemPublishedAt": "2026-11-12T12:45:01.000Z",
+      "lastSeenAt": "2026-11-13T12:16:34.843Z",
+      "latestItemPublishedAt": "2026-11-13T06:18:42.000Z",
       "primaryItemId": "news_723d0e089617",
       "evidenceItemIds": [
-        "news_f8e6134024ba",
         "news_cbb6a1975664",
         "news_283e2cf2603f",
         "news_89113a6059bd",
@@ -62,7 +61,8 @@
         "news_77d90901d51c",
         "news_a2dee9715453",
         "news_723d0e089617",
-        "news_49d8fd0869ea"
+        "news_49d8fd0869ea",
+        "news_eeb979dfd5ec"
       ],
       "status": "developing",
       "summary": "美股回调背景下跨境ETF溢价难降，投资价值受市场关注。",
@@ -73,11 +73,10 @@
       "clusterVersion": 2,
       "title": "A股回报端反超融资端，外资重新定价中国资产",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-13T06:46:53.984Z",
-      "latestItemPublishedAt": "2026-11-12T13:51:34.000Z",
+      "lastSeenAt": "2026-11-13T12:16:34.843Z",
+      "latestItemPublishedAt": "2026-11-13T10:58:20.000Z",
       "primaryItemId": "news_1c603ed23026",
       "evidenceItemIds": [
-        "news_6f891b042f64",
         "news_b4b557fcb708",
         "news_1c04504c6054",
         "news_00d90610100c",
@@ -126,7 +125,8 @@
         "news_1c603ed23026",
         "news_73bdeb29c44f",
         "news_929206f468ef",
-        "news_7922ad185882"
+        "news_7922ad185882",
+        "news_122cbd755728"
       ],
       "status": "developing",
       "summary": "A股回报端反超融资端，叠加回购潮及券商看好预期，外资重新定价中国资产",
@@ -137,7 +137,7 @@
       "clusterVersion": 2,
       "title": "港股异动 | 阿里巴巴-W(09988)午后跌超4% 市场担忧芯片管制趋严 瑞银指相关影响可能被高估",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-11-13T06:46:53.984Z",
+      "lastSeenAt": "2026-11-13T12:16:34.843Z",
       "latestItemPublishedAt": "2026-11-13T06:14:22.000Z",
       "primaryItemId": "news_a64bbc8bf19b",
       "evidenceItemIds": [
@@ -201,7 +201,7 @@
       "clusterVersion": 2,
       "title": "中金点评央行Q3货币政策执行报告：更重框架改革与防范风险",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-13T06:46:53.984Z",
+      "lastSeenAt": "2026-11-13T12:16:34.843Z",
       "latestItemPublishedAt": "2026-11-12T18:07:25.000Z",
       "primaryItemId": "news_314a3ea3cbaa",
       "evidenceItemIds": [
@@ -265,7 +265,7 @@
       "clusterVersion": 2,
       "title": "财联社11月13日电，上期所原油期货2612合约夜盘收涨1.65%，报617.90元人民币/桶。沪金夜盘收跌2.87%，",
       "firstSeenAt": "2026-11-04T19:54:55.710Z",
-      "lastSeenAt": "2026-11-13T06:46:53.984Z",
+      "lastSeenAt": "2026-11-13T12:16:34.843Z",
       "latestItemPublishedAt": "2026-11-12T18:30:43.000Z",
       "primaryItemId": "news_fb3b6dde316d",
       "evidenceItemIds": [
@@ -284,11 +284,11 @@
     {
       "eventId": "event_9e320dba578d",
       "clusterVersion": 2,
-      "title": "【华尔街原声】美联储鲍曼：通胀压力持续，进一步加息需权衡经济成本",
+      "title": "美联储：取消2027年10月利率会议",
       "firstSeenAt": "2026-11-06T07:06:11.933Z",
-      "lastSeenAt": "2026-11-13T06:46:53.984Z",
-      "latestItemPublishedAt": "2026-11-12T12:53:48.000Z",
-      "primaryItemId": "news_2414ac0c3a8c",
+      "lastSeenAt": "2026-11-13T12:16:34.843Z",
+      "latestItemPublishedAt": "2026-11-13T01:38:32.000Z",
+      "primaryItemId": "news_17c9c3987748",
       "evidenceItemIds": [
         "news_e3dfc68073f5",
         "news_db2f75a6b4f0",
@@ -320,7 +320,9 @@
         "news_f658cedb904c",
         "news_150b08451009",
         "news_282afc0a97e8",
-        "news_17c9c3987748"
+        "news_17c9c3987748",
+        "news_1276d8f44bc8",
+        "news_31aaed8881ee"
       ],
       "status": "developing",
       "summary": "美联储官员称通胀压力持续，进一步加息需权衡经济成本，美元走强加息预期升温",
@@ -331,8 +333,8 @@
       "clusterVersion": 2,
       "title": "特朗普称美国不需要与伊朗达成协议，油价直线拉升",
       "firstSeenAt": "2026-11-12T16:57:51.489Z",
-      "lastSeenAt": "2026-11-13T06:46:53.984Z",
-      "latestItemPublishedAt": "2026-11-12T14:23:22.000Z",
+      "lastSeenAt": "2026-11-13T12:16:34.843Z",
+      "latestItemPublishedAt": "2026-11-12T13:20:55.000Z",
       "primaryItemId": "news_020c9d135b1b",
       "evidenceItemIds": [
         "news_020c9d135b1b",
@@ -346,11 +348,11 @@
     {
       "eventId": "event_978010484107",
       "clusterVersion": 2,
-      "title": "财联社11月13日电，日本2年期国债收益率上升4个基点至1.890%。",
+      "title": "英国2年期国债收益率上升7个基点至4.98%，为2023年10月以来最高。",
       "firstSeenAt": "2026-11-12T16:57:51.489Z",
-      "lastSeenAt": "2026-11-13T06:46:53.984Z",
-      "latestItemPublishedAt": "2026-11-13T03:51:45.000Z",
-      "primaryItemId": "news_0528d830e758",
+      "lastSeenAt": "2026-11-13T12:16:34.843Z",
+      "latestItemPublishedAt": "2026-11-12T13:18:48.000Z",
+      "primaryItemId": "news_e4067b8bf71f",
       "evidenceItemIds": [
         "news_e4067b8bf71f",
         "news_58e5d71cf58b",
@@ -365,7 +367,7 @@
       "clusterVersion": 2,
       "title": "财联社11月13日电，恒生指数主连夜盘收跌0.29%，恒生科技指数主连夜盘收跌0.25%。",
       "firstSeenAt": "2026-11-12T20:03:09.045Z",
-      "lastSeenAt": "2026-11-13T06:46:53.984Z",
+      "lastSeenAt": "2026-11-13T12:16:34.843Z",
       "latestItemPublishedAt": "2026-11-12T19:04:24.000Z",
       "primaryItemId": "news_2a02f9685137",
       "evidenceItemIds": [
@@ -381,7 +383,7 @@
       "clusterVersion": 2,
       "title": "LME期铜收跌229美元",
       "firstSeenAt": "2026-11-12T20:03:09.045Z",
-      "lastSeenAt": "2026-11-13T06:46:53.984Z",
+      "lastSeenAt": "2026-11-13T12:16:34.843Z",
       "latestItemPublishedAt": "2026-11-12T17:52:58.000Z",
       "primaryItemId": "news_2542eae7ecc6",
       "evidenceItemIds": [
@@ -391,6 +393,96 @@
       "status": "developing",
       "summary": "LME期铜收跌229美元",
       "latestProgress": "LME期铜收跌229美元"
+    },
+    {
+      "eventId": "event_ac5f416066bc",
+      "clusterVersion": 2,
+      "title": "金融监管总局法规司司长：中小银行重组整合是大势所趋",
+      "firstSeenAt": "2026-11-13T06:46:53.984Z",
+      "lastSeenAt": "2026-11-13T12:16:34.843Z",
+      "latestItemPublishedAt": "2026-11-13T06:05:24.000Z",
+      "primaryItemId": "news_42bff6915a8f",
+      "evidenceItemIds": [
+        "news_42bff6915a8f",
+        "news_12519490ea99"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_48332d3f1f4f",
+      "clusterVersion": 2,
+      "title": "恒生科技指数跌幅扩大至3%",
+      "firstSeenAt": "2026-11-13T06:46:53.984Z",
+      "lastSeenAt": "2026-11-13T12:16:34.843Z",
+      "latestItemPublishedAt": "2026-11-13T05:56:54.000Z",
+      "primaryItemId": "news_d49f488e0dde",
+      "evidenceItemIds": [
+        "news_d49f488e0dde",
+        "news_57fa868ef136"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_a4c277bef24a",
+      "clusterVersion": 2,
+      "title": "中国证监会同意氢氧化锂期货和期权注册",
+      "firstSeenAt": "2026-11-06T12:07:36.692Z",
+      "lastSeenAt": "2026-11-13T12:16:34.843Z",
+      "latestItemPublishedAt": "2026-11-05T23:28:09.000Z",
+      "primaryItemId": "news_0e0e861c68d3",
+      "evidenceItemIds": [
+        "news_f29e9054dccc",
+        "news_52303c0c72da",
+        "news_0e0e861c68d3",
+        "news_ea0c0a809eb4",
+        "news_63e9f32c1023"
+      ],
+      "status": "developing",
+      "summary": "中国证监会2026年11月5日同意氢氧化锂期货和期权注册，同日核准葵花籽油期货期权注册。",
+      "latestProgress": "2026年11月5日证监会同步核准氢氧化锂、葵花籽油期货及期权注册。"
+    },
+    {
+      "eventId": "event_491012f17c2a",
+      "clusterVersion": 2,
+      "title": "财联社11月13日电，纳斯达克ETF华夏(513300)将于2026年11月16日开市起至当日10:30停牌。",
+      "firstSeenAt": "2026-11-10T12:38:07.665Z",
+      "lastSeenAt": "2026-11-13T12:16:34.843Z",
+      "latestItemPublishedAt": "2026-11-13T11:13:08.000Z",
+      "primaryItemId": "news_ba0143dc281f",
+      "evidenceItemIds": [
+        "news_a87c4f85b8e0",
+        "news_aa5a07b50e22",
+        "news_ad6c498e372a",
+        "news_e6b3877a7892",
+        "news_3429c79d7fd8",
+        "news_1c706e104f30",
+        "news_637c8bc1018d",
+        "news_e03d7e0d59ff",
+        "news_ba0143dc281f"
+      ],
+      "status": "developing",
+      "summary": "多只纳指相关ETF及全球芯片LOF将于2026年11月11日开市至10:30停牌",
+      "latestProgress": "财联社11月10日集中披露上述产品停牌安排"
+    },
+    {
+      "eventId": "event_d97b9373dc58",
+      "clusterVersion": 2,
+      "title": "港股收盘 | 恒生科技指数单周大跌6.5% 英伟达突发换帅重创AI算力链",
+      "firstSeenAt": "2026-11-13T12:16:34.843Z",
+      "lastSeenAt": "2026-11-13T12:16:34.843Z",
+      "latestItemPublishedAt": "2026-11-13T08:46:19.000Z",
+      "primaryItemId": "news_0f45ec03624d",
+      "evidenceItemIds": [
+        "news_0f45ec03624d",
+        "news_ed8fca4252cf"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
     },
     {
       "eventId": "event_26514b0ab1fd",
@@ -423,38 +515,6 @@
       "status": "developing",
       "summary": "2026年11月13日福特汽车（中国）有限公司宣布召回部分林肯领航员汽车。",
       "latestProgress": "2026年11月13日福特汽车（中国）正式启动相关林肯领航员汽车召回。"
-    },
-    {
-      "eventId": "event_ac5f416066bc",
-      "clusterVersion": 2,
-      "title": "金融监管总局法规司司长：中小银行重组整合是大势所趋",
-      "firstSeenAt": "2026-11-13T06:46:53.984Z",
-      "lastSeenAt": "2026-11-13T06:46:53.984Z",
-      "latestItemPublishedAt": "2026-11-13T06:05:24.000Z",
-      "primaryItemId": "news_42bff6915a8f",
-      "evidenceItemIds": [
-        "news_42bff6915a8f",
-        "news_12519490ea99"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_48332d3f1f4f",
-      "clusterVersion": 2,
-      "title": "恒生科技指数跌幅扩大至3%",
-      "firstSeenAt": "2026-11-13T06:46:53.984Z",
-      "lastSeenAt": "2026-11-13T06:46:53.984Z",
-      "latestItemPublishedAt": "2026-11-13T05:56:54.000Z",
-      "primaryItemId": "news_d49f488e0dde",
-      "evidenceItemIds": [
-        "news_d49f488e0dde",
-        "news_57fa868ef136"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
     },
     {
       "eventId": "event_6b7b9b64d817",
@@ -503,25 +563,6 @@
       "status": "developing",
       "summary": "",
       "latestProgress": ""
-    },
-    {
-      "eventId": "event_a4c277bef24a",
-      "clusterVersion": 2,
-      "title": "中国证监会同意氢氧化锂期货和期权注册",
-      "firstSeenAt": "2026-11-06T12:07:36.692Z",
-      "lastSeenAt": "2026-11-12T20:03:09.045Z",
-      "latestItemPublishedAt": "2026-11-05T23:28:09.000Z",
-      "primaryItemId": "news_0e0e861c68d3",
-      "evidenceItemIds": [
-        "news_f29e9054dccc",
-        "news_52303c0c72da",
-        "news_0e0e861c68d3",
-        "news_ea0c0a809eb4",
-        "news_63e9f32c1023"
-      ],
-      "status": "developing",
-      "summary": "中国证监会2026年11月5日同意氢氧化锂期货和期权注册，同日核准葵花籽油期货期权注册。",
-      "latestProgress": "2026年11月5日证监会同步核准氢氧化锂、葵花籽油期货及期权注册。"
     },
     {
       "eventId": "event_7655cc8d2b41",
@@ -704,28 +745,6 @@
       "status": "developing",
       "summary": "华为新型存储系统即将启动试商用，温冷数据存储成为行业新竞争赛道",
       "latestProgress": "华为新型存储系统即将启动试商用"
-    },
-    {
-      "eventId": "event_491012f17c2a",
-      "clusterVersion": 2,
-      "title": "财联社11月10日电，纳指ETF易方达(159696)将于2026年11月11日开市起至当日10:30停牌。",
-      "firstSeenAt": "2026-11-10T12:38:07.665Z",
-      "lastSeenAt": "2026-11-11T06:42:43.788Z",
-      "latestItemPublishedAt": "2026-11-10T11:15:27.000Z",
-      "primaryItemId": "news_aa5a07b50e22",
-      "evidenceItemIds": [
-        "news_a87c4f85b8e0",
-        "news_aa5a07b50e22",
-        "news_ad6c498e372a",
-        "news_e6b3877a7892",
-        "news_3429c79d7fd8",
-        "news_1c706e104f30",
-        "news_637c8bc1018d",
-        "news_e03d7e0d59ff"
-      ],
-      "status": "developing",
-      "summary": "多只纳指相关ETF及全球芯片LOF将于2026年11月11日开市至10:30停牌",
-      "latestProgress": "财联社11月10日集中披露上述产品停牌安排"
     },
     {
       "eventId": "event_b6e9763f96c7",

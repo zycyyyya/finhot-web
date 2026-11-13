@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-13T16:34:21.027Z",
+  "generatedAt": "2026-11-13T19:51:44.980Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -9,7 +9,7 @@
       "clusterVersion": 2,
       "title": "美股异动 | 英伟达(NVDA.US)高开低走跌超4% 知名投行称管理层变动仍存相当大不确定性",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-13T16:34:21.027Z",
+      "lastSeenAt": "2026-11-13T19:51:44.980Z",
       "latestItemPublishedAt": "2026-11-13T15:38:09.000Z",
       "primaryItemId": "news_9f060f936c4e",
       "evidenceItemIds": [
@@ -73,7 +73,7 @@
       "clusterVersion": 2,
       "title": "A股四大指数集体高开，半导体、通信设备等板块走强",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-13T16:34:21.027Z",
+      "lastSeenAt": "2026-11-13T19:51:44.980Z",
       "latestItemPublishedAt": "2026-11-13T10:58:20.000Z",
       "primaryItemId": "news_7922ad185882",
       "evidenceItemIds": [
@@ -137,7 +137,7 @@
       "clusterVersion": 2,
       "title": "港股异动 | 阿里巴巴-W(09988)午后跌超4% 市场担忧芯片管制趋严 瑞银指相关影响可能被高估",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-11-13T16:34:21.027Z",
+      "lastSeenAt": "2026-11-13T19:51:44.980Z",
       "latestItemPublishedAt": "2026-11-13T13:40:34.000Z",
       "primaryItemId": "news_a64bbc8bf19b",
       "evidenceItemIds": [
@@ -201,7 +201,7 @@
       "clusterVersion": 2,
       "title": "中金点评央行Q3货币政策执行报告：更重框架改革与防范风险",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-13T16:34:21.027Z",
+      "lastSeenAt": "2026-11-13T19:51:44.980Z",
       "latestItemPublishedAt": "2026-11-13T13:51:07.000Z",
       "primaryItemId": "news_314a3ea3cbaa",
       "evidenceItemIds": [
@@ -263,11 +263,11 @@
     {
       "eventId": "event_9e320dba578d",
       "clusterVersion": 2,
-      "title": "美联储：取消2027年10月利率会议",
+      "title": "美联储鹰派加息言论升温！沃勒所提加息50个基点可行吗？｜美联储观察",
       "firstSeenAt": "2026-11-06T07:06:11.933Z",
-      "lastSeenAt": "2026-11-13T16:34:21.027Z",
-      "latestItemPublishedAt": "2026-11-13T01:38:32.000Z",
-      "primaryItemId": "news_17c9c3987748",
+      "lastSeenAt": "2026-11-13T19:51:44.980Z",
+      "latestItemPublishedAt": "2026-11-13T18:08:37.000Z",
+      "primaryItemId": "news_1276d8f44bc8",
       "evidenceItemIds": [
         "news_e3dfc68073f5",
         "news_db2f75a6b4f0",
@@ -302,11 +302,130 @@
         "news_17c9c3987748",
         "news_1276d8f44bc8",
         "news_31aaed8881ee",
-        "news_e758e46d61d6"
+        "news_e758e46d61d6",
+        "news_52da0d2572e1",
+        "news_58244adebe83"
       ],
       "status": "developing",
       "summary": "美联储官员称通胀压力持续，进一步加息需权衡经济成本，美元走强加息预期升温",
       "latestProgress": "美联储宣布取消2027年10月利率会议"
+    },
+    {
+      "eventId": "event_a4c277bef24a",
+      "clusterVersion": 2,
+      "title": "中国证监会同意氢氧化锂期货和期权注册",
+      "firstSeenAt": "2026-11-06T12:07:36.692Z",
+      "lastSeenAt": "2026-11-13T19:51:44.980Z",
+      "latestItemPublishedAt": "2026-11-05T23:28:09.000Z",
+      "primaryItemId": "news_0e0e861c68d3",
+      "evidenceItemIds": [
+        "news_f29e9054dccc",
+        "news_52303c0c72da",
+        "news_0e0e861c68d3",
+        "news_ea0c0a809eb4",
+        "news_63e9f32c1023"
+      ],
+      "status": "developing",
+      "summary": "中国证监会2026年11月5日同意氢氧化锂期货和期权注册，同日核准葵花籽油期货期权注册。",
+      "latestProgress": "2026年11月5日证监会同步核准氢氧化锂、葵花籽油期货及期权注册。"
+    },
+    {
+      "eventId": "event_20e8014391ac",
+      "clusterVersion": 2,
+      "title": "财联社11月13日电，现货白银日内跌幅扩大至2%，报49.04美元/盎司。",
+      "firstSeenAt": "2026-11-13T06:46:53.984Z",
+      "lastSeenAt": "2026-11-13T19:51:44.980Z",
+      "latestItemPublishedAt": "2026-11-13T15:55:39.000Z",
+      "primaryItemId": "news_179e415cce02",
+      "evidenceItemIds": [
+        "news_e92eb0fa53ae",
+        "news_a856a40f53d6",
+        "news_179e415cce02"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_c721fd0eada1",
+      "clusterVersion": 2,
+      "title": "欧元区经济显现韧性，为欧洲央行加息留出空间",
+      "firstSeenAt": "2026-11-13T16:34:21.027Z",
+      "lastSeenAt": "2026-11-13T19:51:44.980Z",
+      "latestItemPublishedAt": "2026-11-13T16:22:35.000Z",
+      "primaryItemId": "news_2eefb9260b9e",
+      "evidenceItemIds": [
+        "news_2eefb9260b9e",
+        "news_b414a22fd817"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_5720598b36d2",
+      "clusterVersion": 2,
+      "title": "美联储哈马克：通胀正朝着错误的方向发展，需要转向限制性政策立场",
+      "firstSeenAt": "2026-11-13T16:34:21.027Z",
+      "lastSeenAt": "2026-11-13T19:51:44.980Z",
+      "latestItemPublishedAt": "2026-11-13T15:45:28.000Z",
+      "primaryItemId": "news_d5da8b65894b",
+      "evidenceItemIds": [
+        "news_d5da8b65894b",
+        "news_50ce2fc203d4"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_842a01972ce1",
+      "clusterVersion": 2,
+      "title": "利弗莫尔中概股龙头指数跌幅扩大至1%",
+      "firstSeenAt": "2026-11-13T16:34:21.027Z",
+      "lastSeenAt": "2026-11-13T19:51:44.980Z",
+      "latestItemPublishedAt": "2026-11-13T15:19:40.000Z",
+      "primaryItemId": "news_20149dc088d9",
+      "evidenceItemIds": [
+        "news_20149dc088d9",
+        "news_3d1b664ce8df"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_ee2c974f4da1",
+      "clusterVersion": 2,
+      "title": "美股前瞻 | 三大股指期货齐涨 Cerebras绩后飙涨 美国10月PPI今晚来袭",
+      "firstSeenAt": "2026-11-13T16:34:21.027Z",
+      "lastSeenAt": "2026-11-13T19:51:44.980Z",
+      "latestItemPublishedAt": "2026-11-13T13:57:44.000Z",
+      "primaryItemId": "news_81b52a65f9a3",
+      "evidenceItemIds": [
+        "news_81b52a65f9a3",
+        "news_991f408fd96d"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_3411605a5439",
+      "clusterVersion": 2,
+      "title": "LME期铜收跌189美元",
+      "firstSeenAt": "2026-11-12T20:03:09.045Z",
+      "lastSeenAt": "2026-11-13T19:51:44.980Z",
+      "latestItemPublishedAt": "2026-11-13T17:53:25.000Z",
+      "primaryItemId": "news_4ad46fa31b8c",
+      "evidenceItemIds": [
+        "news_2542eae7ecc6",
+        "news_52110800f747",
+        "news_4ad46fa31b8c"
+      ],
+      "status": "developing",
+      "summary": "LME期铜收跌229美元",
+      "latestProgress": "LME期铜收跌229美元"
     },
     {
       "eventId": "event_ac5f416066bc",
@@ -341,25 +460,6 @@
       "latestProgress": ""
     },
     {
-      "eventId": "event_a4c277bef24a",
-      "clusterVersion": 2,
-      "title": "中国证监会同意氢氧化锂期货和期权注册",
-      "firstSeenAt": "2026-11-06T12:07:36.692Z",
-      "lastSeenAt": "2026-11-13T16:34:21.027Z",
-      "latestItemPublishedAt": "2026-11-05T23:28:09.000Z",
-      "primaryItemId": "news_0e0e861c68d3",
-      "evidenceItemIds": [
-        "news_f29e9054dccc",
-        "news_52303c0c72da",
-        "news_0e0e861c68d3",
-        "news_ea0c0a809eb4",
-        "news_63e9f32c1023"
-      ],
-      "status": "developing",
-      "summary": "中国证监会2026年11月5日同意氢氧化锂期货和期权注册，同日核准葵花籽油期货期权注册。",
-      "latestProgress": "2026年11月5日证监会同步核准氢氧化锂、葵花籽油期货及期权注册。"
-    },
-    {
       "eventId": "event_d97b9373dc58",
       "clusterVersion": 2,
       "title": "港股收盘 | 恒生科技指数单周大跌6.5% 英伟达突发换帅重创AI算力链",
@@ -370,87 +470,6 @@
       "evidenceItemIds": [
         "news_0f45ec03624d",
         "news_ed8fca4252cf"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_20e8014391ac",
-      "clusterVersion": 2,
-      "title": "财联社11月13日电，现货白银日内跌幅扩大至2%，报49.04美元/盎司。",
-      "firstSeenAt": "2026-11-13T06:46:53.984Z",
-      "lastSeenAt": "2026-11-13T16:34:21.027Z",
-      "latestItemPublishedAt": "2026-11-13T15:55:39.000Z",
-      "primaryItemId": "news_179e415cce02",
-      "evidenceItemIds": [
-        "news_e92eb0fa53ae",
-        "news_a856a40f53d6",
-        "news_179e415cce02"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_c721fd0eada1",
-      "clusterVersion": 2,
-      "title": "欧元区经济显现韧性，为欧洲央行加息留出空间",
-      "firstSeenAt": "2026-11-13T16:34:21.027Z",
-      "lastSeenAt": "2026-11-13T16:34:21.027Z",
-      "latestItemPublishedAt": "2026-11-13T16:22:35.000Z",
-      "primaryItemId": "news_2eefb9260b9e",
-      "evidenceItemIds": [
-        "news_2eefb9260b9e",
-        "news_b414a22fd817"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_5720598b36d2",
-      "clusterVersion": 2,
-      "title": "美联储哈马克：通胀正朝着错误的方向发展，需要转向限制性政策立场",
-      "firstSeenAt": "2026-11-13T16:34:21.027Z",
-      "lastSeenAt": "2026-11-13T16:34:21.027Z",
-      "latestItemPublishedAt": "2026-11-13T15:45:28.000Z",
-      "primaryItemId": "news_d5da8b65894b",
-      "evidenceItemIds": [
-        "news_d5da8b65894b",
-        "news_50ce2fc203d4"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_842a01972ce1",
-      "clusterVersion": 2,
-      "title": "利弗莫尔中概股龙头指数跌幅扩大至1%",
-      "firstSeenAt": "2026-11-13T16:34:21.027Z",
-      "lastSeenAt": "2026-11-13T16:34:21.027Z",
-      "latestItemPublishedAt": "2026-11-13T15:19:40.000Z",
-      "primaryItemId": "news_20149dc088d9",
-      "evidenceItemIds": [
-        "news_20149dc088d9",
-        "news_3d1b664ce8df"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_ee2c974f4da1",
-      "clusterVersion": 2,
-      "title": "美股前瞻 | 三大股指期货齐涨 Cerebras绩后飙涨 美国10月PPI今晚来袭",
-      "firstSeenAt": "2026-11-13T16:34:21.027Z",
-      "lastSeenAt": "2026-11-13T16:34:21.027Z",
-      "latestItemPublishedAt": "2026-11-13T13:57:44.000Z",
-      "primaryItemId": "news_81b52a65f9a3",
-      "evidenceItemIds": [
-        "news_81b52a65f9a3",
-        "news_991f408fd96d"
       ],
       "status": "developing",
       "summary": "",
@@ -526,22 +545,6 @@
       "status": "developing",
       "summary": "11月13日晚，恒生指数主连、恒生科技指数主连夜盘分别收跌0.29%、0.25%",
       "latestProgress": "财联社11月13日电，恒生指数主连夜盘收跌0.29%，恒生科技指数主连夜盘收跌0.25%"
-    },
-    {
-      "eventId": "event_3411605a5439",
-      "clusterVersion": 2,
-      "title": "LME期铜收跌229美元",
-      "firstSeenAt": "2026-11-12T20:03:09.045Z",
-      "lastSeenAt": "2026-11-13T12:16:34.843Z",
-      "latestItemPublishedAt": "2026-11-12T17:52:58.000Z",
-      "primaryItemId": "news_2542eae7ecc6",
-      "evidenceItemIds": [
-        "news_2542eae7ecc6",
-        "news_52110800f747"
-      ],
-      "status": "developing",
-      "summary": "LME期铜收跌229美元",
-      "latestProgress": "LME期铜收跌229美元"
     },
     {
       "eventId": "event_491012f17c2a",

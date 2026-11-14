@@ -1,20 +1,18 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-13T19:51:44.980Z",
+  "generatedAt": "2026-11-14T06:23:15.009Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
       "eventId": "event_f101880ef7bc",
       "clusterVersion": 2,
-      "title": "美股异动 | 英伟达(NVDA.US)高开低走跌超4% 知名投行称管理层变动仍存相当大不确定性",
+      "title": "传统的圣诞行情，今年的美股还有吗？",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-13T19:51:44.980Z",
-      "latestItemPublishedAt": "2026-11-13T15:38:09.000Z",
-      "primaryItemId": "news_9f060f936c4e",
+      "lastSeenAt": "2026-11-14T06:23:15.009Z",
+      "latestItemPublishedAt": "2026-11-14T02:49:13.000Z",
+      "primaryItemId": "news_f709794d2d9f",
       "evidenceItemIds": [
-        "news_89113a6059bd",
-        "news_1762dc1837ce",
         "news_d8e2ca6bd98a",
         "news_c816f0eaf169",
         "news_f78b1c3de90c",
@@ -62,18 +60,20 @@
         "news_49d8fd0869ea",
         "news_eeb979dfd5ec",
         "news_9f060f936c4e",
-        "news_8434012b9784"
+        "news_8434012b9784",
+        "news_f709794d2d9f",
+        "news_c459f3f10def"
       ],
       "status": "developing",
-      "summary": "美股回调背景下跨境ETF溢价难降，投资价值受市场关注。",
-      "latestProgress": "国会山\"翻蓝\"冲击美股银行股，多因素影响跨境ETF溢价走势。"
+      "summary": "市场质疑2026年美股能否有传统圣诞行情，叠加半导体大跌、价值股跑赢成长股的分化表现。",
+      "latestProgress": "2026年11月14日，市场就美股今年是否有传统圣诞行情展开讨论。"
     },
     {
       "eventId": "event_a3c5d0364922",
       "clusterVersion": 2,
       "title": "A股四大指数集体高开，半导体、通信设备等板块走强",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-13T19:51:44.980Z",
+      "lastSeenAt": "2026-11-14T06:23:15.009Z",
       "latestItemPublishedAt": "2026-11-13T10:58:20.000Z",
       "primaryItemId": "news_7922ad185882",
       "evidenceItemIds": [
@@ -129,15 +129,15 @@
         "news_122cbd755728"
       ],
       "status": "developing",
-      "summary": "A股回报端反超融资端，叠加回购潮及券商看好预期，外资重新定价中国资产",
-      "latestProgress": "11月13日A股四大指数集体高开，半导体、通信设备等板块走强"
+      "summary": "A股四大指数集体高开，半导体、通信设备等板块走强，机构看好后续走势。",
+      "latestProgress": "申万宏源2027投资年会认为经济向好，A股静待第二阶段上涨。"
     },
     {
       "eventId": "event_c68d651d4ff9",
       "clusterVersion": 2,
       "title": "港股异动 | 阿里巴巴-W(09988)午后跌超4% 市场担忧芯片管制趋严 瑞银指相关影响可能被高估",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-11-13T19:51:44.980Z",
+      "lastSeenAt": "2026-11-14T06:23:15.009Z",
       "latestItemPublishedAt": "2026-11-13T13:40:34.000Z",
       "primaryItemId": "news_a64bbc8bf19b",
       "evidenceItemIds": [
@@ -193,19 +193,18 @@
         "news_21806568ef22"
       ],
       "status": "developing",
-      "summary": "阿里巴巴午后跌超4%，市场担忧芯片管制趋严，瑞银称相关影响或高估。",
-      "latestProgress": "陈茂波称前10个月港股IPO集资逾4000亿港元创同期新高。"
+      "summary": "港股阿里午后跌超4%，市场担忧芯片管制趋严，瑞银指相关影响或已被高估。",
+      "latestProgress": "2026年11月13日，AI调整情绪扩散，空头发力致恒指失守24000点。"
     },
     {
       "eventId": "event_2cf716748ce1",
       "clusterVersion": 2,
       "title": "中金点评央行Q3货币政策执行报告：更重框架改革与防范风险",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-13T19:51:44.980Z",
-      "latestItemPublishedAt": "2026-11-13T13:51:07.000Z",
+      "lastSeenAt": "2026-11-14T06:23:15.009Z",
+      "latestItemPublishedAt": "2026-11-14T05:09:19.000Z",
       "primaryItemId": "news_314a3ea3cbaa",
       "evidenceItemIds": [
-        "news_6c7c1e1ad3ff",
         "news_355e2696f96c",
         "news_7aa8a777ef3d",
         "news_9e62b7722155",
@@ -254,20 +253,21 @@
         "news_314a3ea3cbaa",
         "news_6583c776c95f",
         "news_0d1bd161627a",
-        "news_beaa24fcbb19"
+        "news_beaa24fcbb19",
+        "news_a32f5ef26e34"
       ],
       "status": "developing",
-      "summary": "中金解读央行Q3货币政策执行报告，重点关注框架改革与风险防范。",
-      "latestProgress": "2026年11月报道指出AI央行变革冲击或沿融资链传导。"
+      "summary": "中金点评央行Q3货币政策执行报告，更重框架改革与防范风险。",
+      "latestProgress": "英国央行首席经济学家皮尔称除12月加息外2027年还需进一步加息。"
     },
     {
       "eventId": "event_9e320dba578d",
       "clusterVersion": 2,
-      "title": "美联储鹰派加息言论升温！沃勒所提加息50个基点可行吗？｜美联储观察",
+      "title": "美联储二把手定调：通胀才是“最重要信号”，利率决策看它",
       "firstSeenAt": "2026-11-06T07:06:11.933Z",
-      "lastSeenAt": "2026-11-13T19:51:44.980Z",
-      "latestItemPublishedAt": "2026-11-13T18:08:37.000Z",
-      "primaryItemId": "news_1276d8f44bc8",
+      "lastSeenAt": "2026-11-14T06:23:15.009Z",
+      "latestItemPublishedAt": "2026-11-13T19:03:50.000Z",
+      "primaryItemId": "news_a72856298f64",
       "evidenceItemIds": [
         "news_e3dfc68073f5",
         "news_db2f75a6b4f0",
@@ -304,18 +304,22 @@
         "news_31aaed8881ee",
         "news_e758e46d61d6",
         "news_52da0d2572e1",
-        "news_58244adebe83"
+        "news_58244adebe83",
+        "news_a00f36e5c972",
+        "news_619210b030ab",
+        "news_a2021c26f2c4",
+        "news_a72856298f64"
       ],
       "status": "developing",
-      "summary": "美联储官员称通胀压力持续，进一步加息需权衡经济成本，美元走强加息预期升温",
-      "latestProgress": "美联储宣布取消2027年10月利率会议"
+      "summary": "美联储高官密集表态，通胀成利率决策核心依据，加息预期升温",
+      "latestProgress": "旧金山联储行长戴利称通胀是关键，美联储或需进一步加息"
     },
     {
       "eventId": "event_a4c277bef24a",
       "clusterVersion": 2,
       "title": "中国证监会同意氢氧化锂期货和期权注册",
       "firstSeenAt": "2026-11-06T12:07:36.692Z",
-      "lastSeenAt": "2026-11-13T19:51:44.980Z",
+      "lastSeenAt": "2026-11-14T06:23:15.009Z",
       "latestItemPublishedAt": "2026-11-05T23:28:09.000Z",
       "primaryItemId": "news_0e0e861c68d3",
       "evidenceItemIds": [
@@ -326,15 +330,15 @@
         "news_63e9f32c1023"
       ],
       "status": "developing",
-      "summary": "中国证监会2026年11月5日同意氢氧化锂期货和期权注册，同日核准葵花籽油期货期权注册。",
-      "latestProgress": "2026年11月5日证监会同步核准氢氧化锂、葵花籽油期货及期权注册。"
+      "summary": "中国证监会正式同意氢氧化锂期货和期权注册",
+      "latestProgress": "2026年11月5日，中国证监会完成氢氧化锂期货期权注册审批"
     },
     {
       "eventId": "event_20e8014391ac",
       "clusterVersion": 2,
       "title": "财联社11月13日电，现货白银日内跌幅扩大至2%，报49.04美元/盎司。",
       "firstSeenAt": "2026-11-13T06:46:53.984Z",
-      "lastSeenAt": "2026-11-13T19:51:44.980Z",
+      "lastSeenAt": "2026-11-14T06:23:15.009Z",
       "latestItemPublishedAt": "2026-11-13T15:55:39.000Z",
       "primaryItemId": "news_179e415cce02",
       "evidenceItemIds": [
@@ -343,31 +347,32 @@
         "news_179e415cce02"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "11月13日现货白银日内跌幅扩大至2%，报49.04美元/盎司。",
+      "latestProgress": "现货白银日内跌幅扩大至2%，报价49.04美元/盎司。"
     },
     {
       "eventId": "event_c721fd0eada1",
       "clusterVersion": 2,
       "title": "欧元区经济显现韧性，为欧洲央行加息留出空间",
       "firstSeenAt": "2026-11-13T16:34:21.027Z",
-      "lastSeenAt": "2026-11-13T19:51:44.980Z",
-      "latestItemPublishedAt": "2026-11-13T16:22:35.000Z",
+      "lastSeenAt": "2026-11-14T06:23:15.009Z",
+      "latestItemPublishedAt": "2026-11-14T03:02:29.000Z",
       "primaryItemId": "news_2eefb9260b9e",
       "evidenceItemIds": [
         "news_2eefb9260b9e",
-        "news_b414a22fd817"
+        "news_b414a22fd817",
+        "news_9e77a371ea8b"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "欧元区经济显现韧性，为欧洲央行加息留出空间。",
+      "latestProgress": "德国央行行长称欧洲央行很可能再次加息，通胀前景已明显恶化。"
     },
     {
       "eventId": "event_5720598b36d2",
       "clusterVersion": 2,
       "title": "美联储哈马克：通胀正朝着错误的方向发展，需要转向限制性政策立场",
       "firstSeenAt": "2026-11-13T16:34:21.027Z",
-      "lastSeenAt": "2026-11-13T19:51:44.980Z",
+      "lastSeenAt": "2026-11-14T06:23:15.009Z",
       "latestItemPublishedAt": "2026-11-13T15:45:28.000Z",
       "primaryItemId": "news_d5da8b65894b",
       "evidenceItemIds": [
@@ -375,15 +380,15 @@
         "news_50ce2fc203d4"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "美联储官员哈马克称通胀正朝错误方向发展，需转向限制性政策立场。",
+      "latestProgress": "财联社11月13日电，美联储官员柯林斯称通胀过高且范围扩大，谨慎调整政策恰当。"
     },
     {
       "eventId": "event_842a01972ce1",
       "clusterVersion": 2,
       "title": "利弗莫尔中概股龙头指数跌幅扩大至1%",
       "firstSeenAt": "2026-11-13T16:34:21.027Z",
-      "lastSeenAt": "2026-11-13T19:51:44.980Z",
+      "lastSeenAt": "2026-11-14T06:23:15.009Z",
       "latestItemPublishedAt": "2026-11-13T15:19:40.000Z",
       "primaryItemId": "news_20149dc088d9",
       "evidenceItemIds": [
@@ -391,31 +396,32 @@
         "news_3d1b664ce8df"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "利弗莫尔中概股龙头指数跌幅扩大至1%",
+      "latestProgress": "2026年11月13日利弗莫尔中概股龙头指数跌幅扩大至1%"
     },
     {
       "eventId": "event_ee2c974f4da1",
       "clusterVersion": 2,
       "title": "美股前瞻 | 三大股指期货齐涨 Cerebras绩后飙涨 美国10月PPI今晚来袭",
       "firstSeenAt": "2026-11-13T16:34:21.027Z",
-      "lastSeenAt": "2026-11-13T19:51:44.980Z",
-      "latestItemPublishedAt": "2026-11-13T13:57:44.000Z",
+      "lastSeenAt": "2026-11-14T06:23:15.009Z",
+      "latestItemPublishedAt": "2026-11-13T22:35:41.000Z",
       "primaryItemId": "news_81b52a65f9a3",
       "evidenceItemIds": [
         "news_81b52a65f9a3",
-        "news_991f408fd96d"
+        "news_991f408fd96d",
+        "news_8fa140e2c7c5"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "美国10月PPI低于预期，三大期指齐涨，Cerebras绩后飙涨",
+      "latestProgress": "美股收盘苹果等标的创新高，AI交易依然颠簸"
     },
     {
       "eventId": "event_3411605a5439",
       "clusterVersion": 2,
       "title": "LME期铜收跌189美元",
       "firstSeenAt": "2026-11-12T20:03:09.045Z",
-      "lastSeenAt": "2026-11-13T19:51:44.980Z",
+      "lastSeenAt": "2026-11-14T06:23:15.009Z",
       "latestItemPublishedAt": "2026-11-13T17:53:25.000Z",
       "primaryItemId": "news_4ad46fa31b8c",
       "evidenceItemIds": [
@@ -424,8 +430,120 @@
         "news_4ad46fa31b8c"
       ],
       "status": "developing",
-      "summary": "LME期铜收跌229美元",
-      "latestProgress": "LME期铜收跌229美元"
+      "summary": "LME期铜收跌189美元",
+      "latestProgress": "最新报道显示LME期铜收跌189美元"
+    },
+    {
+      "eventId": "event_b8a7e5986862",
+      "clusterVersion": 2,
+      "title": "从SpaceX到Anthropic，市场对巨头上市有了新的应对策略",
+      "firstSeenAt": "2026-11-14T06:23:15.009Z",
+      "lastSeenAt": "2026-11-14T06:23:15.009Z",
+      "latestItemPublishedAt": "2026-11-13T23:44:09.000Z",
+      "primaryItemId": "news_11d253d37415",
+      "evidenceItemIds": [
+        "news_11d253d37415",
+        "news_00f61910e135"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_d0c306eb334b",
+      "clusterVersion": 2,
+      "title": "吴清主席在首届中国资本市场学术年会开幕式上的致辞",
+      "firstSeenAt": "2026-11-14T06:23:15.009Z",
+      "lastSeenAt": "2026-11-14T06:23:15.009Z",
+      "latestItemPublishedAt": "2026-11-14T04:07:22.000Z",
+      "primaryItemId": "news_1cf62c3cb3a7",
+      "evidenceItemIds": [
+        "news_1cf62c3cb3a7",
+        "news_38c5dfd821c2"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_61969e83eb0f",
+      "clusterVersion": 2,
+      "title": "再创新高，51个一类新药进入新版国家医保药品目录",
+      "firstSeenAt": "2026-11-14T06:23:15.009Z",
+      "lastSeenAt": "2026-11-14T06:23:15.009Z",
+      "latestItemPublishedAt": "2026-11-14T03:05:26.000Z",
+      "primaryItemId": "news_a2d565911f81",
+      "evidenceItemIds": [
+        "news_a2d565911f81",
+        "news_ddd9ff3e8864"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_1b18cf811952",
+      "clusterVersion": 2,
+      "title": "2026年版国家基本医保药品目录发布，新增107种药品",
+      "firstSeenAt": "2026-11-14T06:23:15.009Z",
+      "lastSeenAt": "2026-11-14T06:23:15.009Z",
+      "latestItemPublishedAt": "2026-11-14T02:47:00.000Z",
+      "primaryItemId": "news_6b87508f4eb7",
+      "evidenceItemIds": [
+        "news_6b87508f4eb7",
+        "news_18ed218613b2"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_7df80d0e647a",
+      "clusterVersion": 2,
+      "title": "景林资产三季度瞄准巨头：新进英伟达、阿里，大幅增持台积电",
+      "firstSeenAt": "2026-11-14T06:23:15.009Z",
+      "lastSeenAt": "2026-11-14T06:23:15.009Z",
+      "latestItemPublishedAt": "2026-11-13T18:33:50.000Z",
+      "primaryItemId": "news_d536e6b6cbf8",
+      "evidenceItemIds": [
+        "news_d536e6b6cbf8",
+        "news_8e5744dc73a5"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_6e7c22caabd0",
+      "clusterVersion": 2,
+      "title": "财联社11月13日电，纳斯达克综合指数向下跌破25000点，最新报24918.71点，日内下跌1.76%。",
+      "firstSeenAt": "2026-11-14T06:23:15.009Z",
+      "lastSeenAt": "2026-11-14T06:23:15.009Z",
+      "latestItemPublishedAt": "2026-11-13T15:25:27.000Z",
+      "primaryItemId": "news_1ff58e065c61",
+      "evidenceItemIds": [
+        "news_1ff58e065c61",
+        "news_211e61b725e5"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_3466fca0ed48",
+      "clusterVersion": 2,
+      "title": "天普股份：股票交易严重异常波动，11月16日起停牌核查",
+      "firstSeenAt": "2026-11-14T06:23:15.009Z",
+      "lastSeenAt": "2026-11-14T06:23:15.009Z",
+      "latestItemPublishedAt": "2026-11-13T11:06:14.000Z",
+      "primaryItemId": "news_6f0a53cd304f",
+      "evidenceItemIds": [
+        "news_6f0a53cd304f",
+        "news_da3595e2869b"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
     },
     {
       "eventId": "event_ac5f416066bc",

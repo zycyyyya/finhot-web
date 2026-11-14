@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-14T15:17:03.999Z",
+  "generatedAt": "2026-11-14T18:14:13.224Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -9,7 +9,7 @@
       "clusterVersion": 2,
       "title": "“坏事全部撞在一起\"，美股却逆势反弹：华尔街上演“无票可卖”式逼空！",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-14T15:17:03.999Z",
+      "lastSeenAt": "2026-11-14T18:14:13.224Z",
       "latestItemPublishedAt": "2026-11-14T08:34:01.000Z",
       "primaryItemId": "news_5b9514f836b5",
       "evidenceItemIds": [
@@ -73,7 +73,7 @@
       "clusterVersion": 2,
       "title": "A股总市值超100万亿，吴清提出资本市场六个“进一步深化”",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-14T15:17:03.999Z",
+      "lastSeenAt": "2026-11-14T18:14:13.224Z",
       "latestItemPublishedAt": "2026-11-14T10:46:10.000Z",
       "primaryItemId": "news_90a75cd9926b",
       "evidenceItemIds": [
@@ -137,7 +137,7 @@
       "clusterVersion": 2,
       "title": "“AI央行”失去掌舵人，华尔街警告：黄仁勋离开将引爆“AI版量化紧缩”！",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-14T15:17:03.999Z",
+      "lastSeenAt": "2026-11-14T18:14:13.224Z",
       "latestItemPublishedAt": "2026-11-14T12:36:49.000Z",
       "primaryItemId": "news_ffdd35cbd4cb",
       "evidenceItemIds": [
@@ -201,7 +201,7 @@
       "clusterVersion": 2,
       "title": "美联储二把手定调：通胀才是“最重要信号”，利率决策看它",
       "firstSeenAt": "2026-11-06T07:06:11.933Z",
-      "lastSeenAt": "2026-11-14T15:17:03.999Z",
+      "lastSeenAt": "2026-11-14T18:14:13.224Z",
       "latestItemPublishedAt": "2026-11-13T19:03:50.000Z",
       "primaryItemId": "news_a72856298f64",
       "evidenceItemIds": [
@@ -244,7 +244,8 @@
         "news_a00f36e5c972",
         "news_619210b030ab",
         "news_a2021c26f2c4",
-        "news_a72856298f64"
+        "news_a72856298f64",
+        "news_1cdc132a325c"
       ],
       "status": "developing",
       "summary": "美联储高官密集表态，通胀成利率决策核心依据，加息预期升温",
@@ -255,7 +256,7 @@
       "clusterVersion": 2,
       "title": "中国证监会同意氢氧化锂期货和期权注册",
       "firstSeenAt": "2026-11-06T12:07:36.692Z",
-      "lastSeenAt": "2026-11-14T15:17:03.999Z",
+      "lastSeenAt": "2026-11-14T18:14:13.224Z",
       "latestItemPublishedAt": "2026-11-05T23:28:09.000Z",
       "primaryItemId": "news_0e0e861c68d3",
       "evidenceItemIds": [
@@ -268,6 +269,136 @@
       "status": "developing",
       "summary": "中国证监会正式同意氢氧化锂期货和期权注册",
       "latestProgress": "2026年11月5日，中国证监会完成氢氧化锂期货期权注册审批"
+    },
+    {
+      "eventId": "event_c721fd0eada1",
+      "clusterVersion": 2,
+      "title": "德国央行行长：欧洲央行很可能需要再次加息，通胀前景已明显恶化",
+      "firstSeenAt": "2026-11-13T16:34:21.027Z",
+      "lastSeenAt": "2026-11-14T18:14:13.224Z",
+      "latestItemPublishedAt": "2026-11-14T03:02:29.000Z",
+      "primaryItemId": "news_9e77a371ea8b",
+      "evidenceItemIds": [
+        "news_2eefb9260b9e",
+        "news_b414a22fd817",
+        "news_9e77a371ea8b"
+      ],
+      "status": "developing",
+      "summary": "欧元区经济显现韧性，为欧洲央行加息留出空间。",
+      "latestProgress": "德国央行行长称欧洲央行很可能再次加息，通胀前景已明显恶化。"
+    },
+    {
+      "eventId": "event_ee2c974f4da1",
+      "clusterVersion": 2,
+      "title": "美股前瞻 | 三大股指期货齐涨 Cerebras绩后飙涨 美国10月PPI今晚来袭",
+      "firstSeenAt": "2026-11-13T16:34:21.027Z",
+      "lastSeenAt": "2026-11-14T18:14:13.224Z",
+      "latestItemPublishedAt": "2026-11-13T22:35:41.000Z",
+      "primaryItemId": "news_81b52a65f9a3",
+      "evidenceItemIds": [
+        "news_81b52a65f9a3",
+        "news_991f408fd96d",
+        "news_8fa140e2c7c5"
+      ],
+      "status": "developing",
+      "summary": "美国10月PPI低于预期，三大期指齐涨，Cerebras绩后飙涨",
+      "latestProgress": "美股收盘苹果等标的创新高，AI交易依然颠簸"
+    },
+    {
+      "eventId": "event_d0c306eb334b",
+      "clusterVersion": 2,
+      "title": "吴清主席在首届中国资本市场学术年会开幕式上的致辞",
+      "firstSeenAt": "2026-11-14T06:23:15.009Z",
+      "lastSeenAt": "2026-11-14T18:14:13.224Z",
+      "latestItemPublishedAt": "2026-11-14T04:07:22.000Z",
+      "primaryItemId": "news_1cf62c3cb3a7",
+      "evidenceItemIds": [
+        "news_1cf62c3cb3a7",
+        "news_38c5dfd821c2"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_61969e83eb0f",
+      "clusterVersion": 2,
+      "title": "再创新高，51个一类新药进入新版国家医保药品目录",
+      "firstSeenAt": "2026-11-14T06:23:15.009Z",
+      "lastSeenAt": "2026-11-14T18:14:13.224Z",
+      "latestItemPublishedAt": "2026-11-14T03:05:26.000Z",
+      "primaryItemId": "news_a2d565911f81",
+      "evidenceItemIds": [
+        "news_a2d565911f81",
+        "news_ddd9ff3e8864"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_1b18cf811952",
+      "clusterVersion": 2,
+      "title": "2026年版国家基本医保药品目录发布，新增107种药品",
+      "firstSeenAt": "2026-11-14T06:23:15.009Z",
+      "lastSeenAt": "2026-11-14T18:14:13.224Z",
+      "latestItemPublishedAt": "2026-11-14T02:47:00.000Z",
+      "primaryItemId": "news_6b87508f4eb7",
+      "evidenceItemIds": [
+        "news_6b87508f4eb7",
+        "news_18ed218613b2"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_d1dcb2cf737d",
+      "clusterVersion": 2,
+      "title": "2026年中国资本市场学术年会在上海开幕，周小川吴清朱忠明出席",
+      "firstSeenAt": "2026-11-14T11:30:31.259Z",
+      "lastSeenAt": "2026-11-14T18:14:13.224Z",
+      "latestItemPublishedAt": "2026-11-14T11:10:25.000Z",
+      "primaryItemId": "news_5537f7bb3c81",
+      "evidenceItemIds": [
+        "news_5537f7bb3c81",
+        "news_54a041f3c5ad"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_08fd18523339",
+      "clusterVersion": 2,
+      "title": "中信证券：英伟达高管变局，如何影响中国科技资产？",
+      "firstSeenAt": "2026-11-14T11:30:31.259Z",
+      "lastSeenAt": "2026-11-14T18:14:13.224Z",
+      "latestItemPublishedAt": "2026-11-14T08:43:47.000Z",
+      "primaryItemId": "news_b388e2347d6a",
+      "evidenceItemIds": [
+        "news_b388e2347d6a",
+        "news_01b793fda91d"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_7730e597a1f0",
+      "clusterVersion": 2,
+      "title": "AI进化速递 | 吴清：深化人工智能与资本市场双向赋能研究",
+      "firstSeenAt": "2026-11-14T15:17:03.999Z",
+      "lastSeenAt": "2026-11-14T18:14:13.224Z",
+      "latestItemPublishedAt": "2026-11-14T11:53:35.000Z",
+      "primaryItemId": "news_06e226db19a4",
+      "evidenceItemIds": [
+        "news_06e226db19a4",
+        "news_e2205cea895e"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
     },
     {
       "eventId": "event_20e8014391ac",
@@ -287,23 +418,6 @@
       "latestProgress": "现货白银日内跌幅扩大至2%，报价49.04美元/盎司。"
     },
     {
-      "eventId": "event_c721fd0eada1",
-      "clusterVersion": 2,
-      "title": "德国央行行长：欧洲央行很可能需要再次加息，通胀前景已明显恶化",
-      "firstSeenAt": "2026-11-13T16:34:21.027Z",
-      "lastSeenAt": "2026-11-14T15:17:03.999Z",
-      "latestItemPublishedAt": "2026-11-14T03:02:29.000Z",
-      "primaryItemId": "news_9e77a371ea8b",
-      "evidenceItemIds": [
-        "news_2eefb9260b9e",
-        "news_b414a22fd817",
-        "news_9e77a371ea8b"
-      ],
-      "status": "developing",
-      "summary": "欧元区经济显现韧性，为欧洲央行加息留出空间。",
-      "latestProgress": "德国央行行长称欧洲央行很可能再次加息，通胀前景已明显恶化。"
-    },
-    {
       "eventId": "event_5720598b36d2",
       "clusterVersion": 2,
       "title": "美联储哈马克：通胀正朝着错误的方向发展，需要转向限制性政策立场",
@@ -318,23 +432,6 @@
       "status": "developing",
       "summary": "美联储官员哈马克称通胀正朝错误方向发展，需转向限制性政策立场。",
       "latestProgress": "财联社11月13日电，美联储官员柯林斯称通胀过高且范围扩大，谨慎调整政策恰当。"
-    },
-    {
-      "eventId": "event_ee2c974f4da1",
-      "clusterVersion": 2,
-      "title": "美股前瞻 | 三大股指期货齐涨 Cerebras绩后飙涨 美国10月PPI今晚来袭",
-      "firstSeenAt": "2026-11-13T16:34:21.027Z",
-      "lastSeenAt": "2026-11-14T15:17:03.999Z",
-      "latestItemPublishedAt": "2026-11-13T22:35:41.000Z",
-      "primaryItemId": "news_81b52a65f9a3",
-      "evidenceItemIds": [
-        "news_81b52a65f9a3",
-        "news_991f408fd96d",
-        "news_8fa140e2c7c5"
-      ],
-      "status": "developing",
-      "summary": "美国10月PPI低于预期，三大期指齐涨，Cerebras绩后飙涨",
-      "latestProgress": "美股收盘苹果等标的创新高，AI交易依然颠簸"
     },
     {
       "eventId": "event_3411605a5439",
@@ -352,102 +449,6 @@
       "status": "developing",
       "summary": "LME期铜收跌189美元",
       "latestProgress": "最新报道显示LME期铜收跌189美元"
-    },
-    {
-      "eventId": "event_d0c306eb334b",
-      "clusterVersion": 2,
-      "title": "吴清主席在首届中国资本市场学术年会开幕式上的致辞",
-      "firstSeenAt": "2026-11-14T06:23:15.009Z",
-      "lastSeenAt": "2026-11-14T15:17:03.999Z",
-      "latestItemPublishedAt": "2026-11-14T04:07:22.000Z",
-      "primaryItemId": "news_1cf62c3cb3a7",
-      "evidenceItemIds": [
-        "news_1cf62c3cb3a7",
-        "news_38c5dfd821c2"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_61969e83eb0f",
-      "clusterVersion": 2,
-      "title": "再创新高，51个一类新药进入新版国家医保药品目录",
-      "firstSeenAt": "2026-11-14T06:23:15.009Z",
-      "lastSeenAt": "2026-11-14T15:17:03.999Z",
-      "latestItemPublishedAt": "2026-11-14T03:05:26.000Z",
-      "primaryItemId": "news_a2d565911f81",
-      "evidenceItemIds": [
-        "news_a2d565911f81",
-        "news_ddd9ff3e8864"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_1b18cf811952",
-      "clusterVersion": 2,
-      "title": "2026年版国家基本医保药品目录发布，新增107种药品",
-      "firstSeenAt": "2026-11-14T06:23:15.009Z",
-      "lastSeenAt": "2026-11-14T15:17:03.999Z",
-      "latestItemPublishedAt": "2026-11-14T02:47:00.000Z",
-      "primaryItemId": "news_6b87508f4eb7",
-      "evidenceItemIds": [
-        "news_6b87508f4eb7",
-        "news_18ed218613b2"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_d1dcb2cf737d",
-      "clusterVersion": 2,
-      "title": "2026年中国资本市场学术年会在上海开幕，周小川吴清朱忠明出席",
-      "firstSeenAt": "2026-11-14T11:30:31.259Z",
-      "lastSeenAt": "2026-11-14T15:17:03.999Z",
-      "latestItemPublishedAt": "2026-11-14T11:10:25.000Z",
-      "primaryItemId": "news_5537f7bb3c81",
-      "evidenceItemIds": [
-        "news_5537f7bb3c81",
-        "news_54a041f3c5ad"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_08fd18523339",
-      "clusterVersion": 2,
-      "title": "中信证券：英伟达高管变局，如何影响中国科技资产？",
-      "firstSeenAt": "2026-11-14T11:30:31.259Z",
-      "lastSeenAt": "2026-11-14T15:17:03.999Z",
-      "latestItemPublishedAt": "2026-11-14T08:43:47.000Z",
-      "primaryItemId": "news_b388e2347d6a",
-      "evidenceItemIds": [
-        "news_b388e2347d6a",
-        "news_01b793fda91d"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_7730e597a1f0",
-      "clusterVersion": 2,
-      "title": "AI进化速递 | 吴清：深化人工智能与资本市场双向赋能研究",
-      "firstSeenAt": "2026-11-14T15:17:03.999Z",
-      "lastSeenAt": "2026-11-14T15:17:03.999Z",
-      "latestItemPublishedAt": "2026-11-14T11:53:35.000Z",
-      "primaryItemId": "news_06e226db19a4",
-      "evidenceItemIds": [
-        "news_06e226db19a4",
-        "news_e2205cea895e"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
     },
     {
       "eventId": "event_c68d651d4ff9",

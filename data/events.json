@@ -1,19 +1,18 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-14T06:23:15.009Z",
+  "generatedAt": "2026-11-14T11:30:31.259Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
       "eventId": "event_f101880ef7bc",
       "clusterVersion": 2,
-      "title": "传统的圣诞行情，今年的美股还有吗？",
+      "title": "“坏事全部撞在一起\"，美股却逆势反弹：华尔街上演“无票可卖”式逼空！",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-14T06:23:15.009Z",
-      "latestItemPublishedAt": "2026-11-14T02:49:13.000Z",
-      "primaryItemId": "news_f709794d2d9f",
+      "lastSeenAt": "2026-11-14T11:30:31.259Z",
+      "latestItemPublishedAt": "2026-11-14T08:34:01.000Z",
+      "primaryItemId": "news_5b9514f836b5",
       "evidenceItemIds": [
-        "news_d8e2ca6bd98a",
         "news_c816f0eaf169",
         "news_f78b1c3de90c",
         "news_023518922012",
@@ -62,7 +61,8 @@
         "news_9f060f936c4e",
         "news_8434012b9784",
         "news_f709794d2d9f",
-        "news_c459f3f10def"
+        "news_c459f3f10def",
+        "news_5b9514f836b5"
       ],
       "status": "developing",
       "summary": "市场质疑2026年美股能否有传统圣诞行情，叠加半导体大跌、价值股跑赢成长股的分化表现。",
@@ -71,14 +71,12 @@
     {
       "eventId": "event_a3c5d0364922",
       "clusterVersion": 2,
-      "title": "A股四大指数集体高开，半导体、通信设备等板块走强",
+      "title": "A股总市值超100万亿，吴清提出资本市场六个“进一步深化”",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-14T06:23:15.009Z",
-      "latestItemPublishedAt": "2026-11-13T10:58:20.000Z",
-      "primaryItemId": "news_7922ad185882",
+      "lastSeenAt": "2026-11-14T11:30:31.259Z",
+      "latestItemPublishedAt": "2026-11-14T10:46:10.000Z",
+      "primaryItemId": "news_90a75cd9926b",
       "evidenceItemIds": [
-        "news_b4b557fcb708",
-        "news_1c04504c6054",
         "news_00d90610100c",
         "news_810a84b5b0c2",
         "news_28f20db44f1b",
@@ -126,7 +124,9 @@
         "news_73bdeb29c44f",
         "news_929206f468ef",
         "news_7922ad185882",
-        "news_122cbd755728"
+        "news_122cbd755728",
+        "news_90a75cd9926b",
+        "news_33ca8a3265e6"
       ],
       "status": "developing",
       "summary": "A股四大指数集体高开，半导体、通信设备等板块走强，机构看好后续走势。",
@@ -137,7 +137,7 @@
       "clusterVersion": 2,
       "title": "港股异动 | 阿里巴巴-W(09988)午后跌超4% 市场担忧芯片管制趋严 瑞银指相关影响可能被高估",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-11-14T06:23:15.009Z",
+      "lastSeenAt": "2026-11-14T11:30:31.259Z",
       "latestItemPublishedAt": "2026-11-13T13:40:34.000Z",
       "primaryItemId": "news_a64bbc8bf19b",
       "evidenceItemIds": [
@@ -199,14 +199,12 @@
     {
       "eventId": "event_2cf716748ce1",
       "clusterVersion": 2,
-      "title": "中金点评央行Q3货币政策执行报告：更重框架改革与防范风险",
+      "title": "“AI央行”失去掌舵人，华尔街警告：黄仁勋离开将引爆“AI版量化紧缩”！",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-14T06:23:15.009Z",
-      "latestItemPublishedAt": "2026-11-14T05:09:19.000Z",
-      "primaryItemId": "news_314a3ea3cbaa",
+      "lastSeenAt": "2026-11-14T11:30:31.259Z",
+      "latestItemPublishedAt": "2026-11-14T09:44:04.000Z",
+      "primaryItemId": "news_ffdd35cbd4cb",
       "evidenceItemIds": [
-        "news_355e2696f96c",
-        "news_7aa8a777ef3d",
         "news_9e62b7722155",
         "news_7fe76b97cd63",
         "news_4f1c4fc34886",
@@ -254,7 +252,9 @@
         "news_6583c776c95f",
         "news_0d1bd161627a",
         "news_beaa24fcbb19",
-        "news_a32f5ef26e34"
+        "news_a32f5ef26e34",
+        "news_ffdd35cbd4cb",
+        "news_71ca786aee5a"
       ],
       "status": "developing",
       "summary": "中金点评央行Q3货币政策执行报告，更重框架改革与防范风险。",
@@ -265,7 +265,7 @@
       "clusterVersion": 2,
       "title": "美联储二把手定调：通胀才是“最重要信号”，利率决策看它",
       "firstSeenAt": "2026-11-06T07:06:11.933Z",
-      "lastSeenAt": "2026-11-14T06:23:15.009Z",
+      "lastSeenAt": "2026-11-14T11:30:31.259Z",
       "latestItemPublishedAt": "2026-11-13T19:03:50.000Z",
       "primaryItemId": "news_a72856298f64",
       "evidenceItemIds": [
@@ -319,7 +319,7 @@
       "clusterVersion": 2,
       "title": "中国证监会同意氢氧化锂期货和期权注册",
       "firstSeenAt": "2026-11-06T12:07:36.692Z",
-      "lastSeenAt": "2026-11-14T06:23:15.009Z",
+      "lastSeenAt": "2026-11-14T11:30:31.259Z",
       "latestItemPublishedAt": "2026-11-05T23:28:09.000Z",
       "primaryItemId": "news_0e0e861c68d3",
       "evidenceItemIds": [
@@ -338,7 +338,7 @@
       "clusterVersion": 2,
       "title": "财联社11月13日电，现货白银日内跌幅扩大至2%，报49.04美元/盎司。",
       "firstSeenAt": "2026-11-13T06:46:53.984Z",
-      "lastSeenAt": "2026-11-14T06:23:15.009Z",
+      "lastSeenAt": "2026-11-14T11:30:31.259Z",
       "latestItemPublishedAt": "2026-11-13T15:55:39.000Z",
       "primaryItemId": "news_179e415cce02",
       "evidenceItemIds": [
@@ -353,11 +353,11 @@
     {
       "eventId": "event_c721fd0eada1",
       "clusterVersion": 2,
-      "title": "欧元区经济显现韧性，为欧洲央行加息留出空间",
+      "title": "德国央行行长：欧洲央行很可能需要再次加息，通胀前景已明显恶化",
       "firstSeenAt": "2026-11-13T16:34:21.027Z",
-      "lastSeenAt": "2026-11-14T06:23:15.009Z",
+      "lastSeenAt": "2026-11-14T11:30:31.259Z",
       "latestItemPublishedAt": "2026-11-14T03:02:29.000Z",
-      "primaryItemId": "news_2eefb9260b9e",
+      "primaryItemId": "news_9e77a371ea8b",
       "evidenceItemIds": [
         "news_2eefb9260b9e",
         "news_b414a22fd817",
@@ -372,7 +372,7 @@
       "clusterVersion": 2,
       "title": "美联储哈马克：通胀正朝着错误的方向发展，需要转向限制性政策立场",
       "firstSeenAt": "2026-11-13T16:34:21.027Z",
-      "lastSeenAt": "2026-11-14T06:23:15.009Z",
+      "lastSeenAt": "2026-11-14T11:30:31.259Z",
       "latestItemPublishedAt": "2026-11-13T15:45:28.000Z",
       "primaryItemId": "news_d5da8b65894b",
       "evidenceItemIds": [
@@ -388,7 +388,7 @@
       "clusterVersion": 2,
       "title": "利弗莫尔中概股龙头指数跌幅扩大至1%",
       "firstSeenAt": "2026-11-13T16:34:21.027Z",
-      "lastSeenAt": "2026-11-14T06:23:15.009Z",
+      "lastSeenAt": "2026-11-14T11:30:31.259Z",
       "latestItemPublishedAt": "2026-11-13T15:19:40.000Z",
       "primaryItemId": "news_20149dc088d9",
       "evidenceItemIds": [
@@ -404,7 +404,7 @@
       "clusterVersion": 2,
       "title": "美股前瞻 | 三大股指期货齐涨 Cerebras绩后飙涨 美国10月PPI今晚来袭",
       "firstSeenAt": "2026-11-13T16:34:21.027Z",
-      "lastSeenAt": "2026-11-14T06:23:15.009Z",
+      "lastSeenAt": "2026-11-14T11:30:31.259Z",
       "latestItemPublishedAt": "2026-11-13T22:35:41.000Z",
       "primaryItemId": "news_81b52a65f9a3",
       "evidenceItemIds": [
@@ -421,7 +421,7 @@
       "clusterVersion": 2,
       "title": "LME期铜收跌189美元",
       "firstSeenAt": "2026-11-12T20:03:09.045Z",
-      "lastSeenAt": "2026-11-14T06:23:15.009Z",
+      "lastSeenAt": "2026-11-14T11:30:31.259Z",
       "latestItemPublishedAt": "2026-11-13T17:53:25.000Z",
       "primaryItemId": "news_4ad46fa31b8c",
       "evidenceItemIds": [
@@ -434,27 +434,11 @@
       "latestProgress": "最新报道显示LME期铜收跌189美元"
     },
     {
-      "eventId": "event_b8a7e5986862",
-      "clusterVersion": 2,
-      "title": "从SpaceX到Anthropic，市场对巨头上市有了新的应对策略",
-      "firstSeenAt": "2026-11-14T06:23:15.009Z",
-      "lastSeenAt": "2026-11-14T06:23:15.009Z",
-      "latestItemPublishedAt": "2026-11-13T23:44:09.000Z",
-      "primaryItemId": "news_11d253d37415",
-      "evidenceItemIds": [
-        "news_11d253d37415",
-        "news_00f61910e135"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
       "eventId": "event_d0c306eb334b",
       "clusterVersion": 2,
       "title": "吴清主席在首届中国资本市场学术年会开幕式上的致辞",
       "firstSeenAt": "2026-11-14T06:23:15.009Z",
-      "lastSeenAt": "2026-11-14T06:23:15.009Z",
+      "lastSeenAt": "2026-11-14T11:30:31.259Z",
       "latestItemPublishedAt": "2026-11-14T04:07:22.000Z",
       "primaryItemId": "news_1cf62c3cb3a7",
       "evidenceItemIds": [
@@ -470,7 +454,7 @@
       "clusterVersion": 2,
       "title": "再创新高，51个一类新药进入新版国家医保药品目录",
       "firstSeenAt": "2026-11-14T06:23:15.009Z",
-      "lastSeenAt": "2026-11-14T06:23:15.009Z",
+      "lastSeenAt": "2026-11-14T11:30:31.259Z",
       "latestItemPublishedAt": "2026-11-14T03:05:26.000Z",
       "primaryItemId": "news_a2d565911f81",
       "evidenceItemIds": [
@@ -486,12 +470,60 @@
       "clusterVersion": 2,
       "title": "2026年版国家基本医保药品目录发布，新增107种药品",
       "firstSeenAt": "2026-11-14T06:23:15.009Z",
-      "lastSeenAt": "2026-11-14T06:23:15.009Z",
+      "lastSeenAt": "2026-11-14T11:30:31.259Z",
       "latestItemPublishedAt": "2026-11-14T02:47:00.000Z",
       "primaryItemId": "news_6b87508f4eb7",
       "evidenceItemIds": [
         "news_6b87508f4eb7",
         "news_18ed218613b2"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_d1dcb2cf737d",
+      "clusterVersion": 2,
+      "title": "2026年中国资本市场学术年会在上海开幕，周小川吴清朱忠明出席",
+      "firstSeenAt": "2026-11-14T11:30:31.259Z",
+      "lastSeenAt": "2026-11-14T11:30:31.259Z",
+      "latestItemPublishedAt": "2026-11-14T11:10:25.000Z",
+      "primaryItemId": "news_5537f7bb3c81",
+      "evidenceItemIds": [
+        "news_5537f7bb3c81",
+        "news_54a041f3c5ad"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_08fd18523339",
+      "clusterVersion": 2,
+      "title": "中信证券：英伟达高管变局，如何影响中国科技资产？",
+      "firstSeenAt": "2026-11-14T11:30:31.259Z",
+      "lastSeenAt": "2026-11-14T11:30:31.259Z",
+      "latestItemPublishedAt": "2026-11-14T08:43:47.000Z",
+      "primaryItemId": "news_b388e2347d6a",
+      "evidenceItemIds": [
+        "news_b388e2347d6a",
+        "news_01b793fda91d"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_b8a7e5986862",
+      "clusterVersion": 2,
+      "title": "从SpaceX到Anthropic，市场对巨头上市有了新的应对策略",
+      "firstSeenAt": "2026-11-14T06:23:15.009Z",
+      "lastSeenAt": "2026-11-14T06:23:15.009Z",
+      "latestItemPublishedAt": "2026-11-13T23:44:09.000Z",
+      "primaryItemId": "news_11d253d37415",
+      "evidenceItemIds": [
+        "news_11d253d37415",
+        "news_00f61910e135"
       ],
       "status": "developing",
       "summary": "",

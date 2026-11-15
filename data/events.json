@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-15T06:33:30.157Z",
+  "generatedAt": "2026-11-15T12:02:56.182Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -9,11 +9,10 @@
       "clusterVersion": 2,
       "title": "“坏事全部撞在一起\"，美股却逆势反弹：华尔街上演“无票可卖”式逼空！",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-15T06:33:30.157Z",
-      "latestItemPublishedAt": "2026-11-15T02:02:11.000Z",
+      "lastSeenAt": "2026-11-15T12:02:56.182Z",
+      "latestItemPublishedAt": "2026-11-15T05:46:11.000Z",
       "primaryItemId": "news_5b9514f836b5",
       "evidenceItemIds": [
-        "news_f78b1c3de90c",
         "news_023518922012",
         "news_0b4f5fb5601c",
         "news_809d47b27c33",
@@ -62,7 +61,8 @@
         "news_f709794d2d9f",
         "news_c459f3f10def",
         "news_5b9514f836b5",
-        "news_934309bfaef9"
+        "news_934309bfaef9",
+        "news_a3f4924e64c0"
       ],
       "status": "developing",
       "summary": "“坏事全部撞在一起”美股逆势反弹，华尔街上演“无票可卖”式逼空。",
@@ -73,11 +73,10 @@
       "clusterVersion": 2,
       "title": "吴清：A股市场有2亿多股票投资者、8亿多基金持有人，这一国情市情在全球独一无二",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-15T06:33:30.157Z",
-      "latestItemPublishedAt": "2026-11-14T10:46:10.000Z",
+      "lastSeenAt": "2026-11-15T12:02:56.182Z",
+      "latestItemPublishedAt": "2026-11-15T11:10:17.000Z",
       "primaryItemId": "news_33ca8a3265e6",
       "evidenceItemIds": [
-        "news_00d90610100c",
         "news_810a84b5b0c2",
         "news_28f20db44f1b",
         "news_b27af0efe8f8",
@@ -126,7 +125,8 @@
         "news_7922ad185882",
         "news_122cbd755728",
         "news_90a75cd9926b",
-        "news_33ca8a3265e6"
+        "news_33ca8a3265e6",
+        "news_2f48a546d710"
       ],
       "status": "developing",
       "summary": "吴清指出A股有2亿多股票投资者、8亿多基金持有人，该国情市情全球独一无二。",
@@ -135,11 +135,11 @@
     {
       "eventId": "event_2cf716748ce1",
       "clusterVersion": 2,
-      "title": "英国央行首席经济学家：需进一步加息",
+      "title": "央行释放稳汇率信号",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-15T06:33:30.157Z",
-      "latestItemPublishedAt": "2026-11-14T07:55:03.000Z",
-      "primaryItemId": "news_71ca786aee5a",
+      "lastSeenAt": "2026-11-15T12:02:56.182Z",
+      "latestItemPublishedAt": "2026-11-15T05:11:39.000Z",
+      "primaryItemId": "news_7da1ff89010c",
       "evidenceItemIds": [
         "news_a68ea6c29bc7",
         "news_fc34ab501c6a",
@@ -199,11 +199,11 @@
     {
       "eventId": "event_9e320dba578d",
       "clusterVersion": 2,
-      "title": "黄金或创六月来最大单周跌幅，美联储加息押注升温施压贵金属",
+      "title": "美联储鹰派加息言论升温！沃勒所提加息50个基点可行吗？｜美联储观察",
       "firstSeenAt": "2026-11-06T07:06:11.933Z",
-      "lastSeenAt": "2026-11-15T06:33:30.157Z",
+      "lastSeenAt": "2026-11-15T12:02:56.182Z",
       "latestItemPublishedAt": "2026-11-14T14:32:53.000Z",
-      "primaryItemId": "news_619210b030ab",
+      "primaryItemId": "news_1276d8f44bc8",
       "evidenceItemIds": [
         "news_e3dfc68073f5",
         "news_db2f75a6b4f0",
@@ -252,6 +252,106 @@
       "latestProgress": "美联储柯林斯称通胀就业数据下，或需比近期预期更多加息，金融状况或更严重抑制经济"
     },
     {
+      "eventId": "event_d0c306eb334b",
+      "clusterVersion": 2,
+      "title": "吴清主席在首届中国资本市场学术年会开幕式上的致辞",
+      "firstSeenAt": "2026-11-14T06:23:15.009Z",
+      "lastSeenAt": "2026-11-15T12:02:56.182Z",
+      "latestItemPublishedAt": "2026-11-14T04:07:22.000Z",
+      "primaryItemId": "news_1cf62c3cb3a7",
+      "evidenceItemIds": [
+        "news_1cf62c3cb3a7",
+        "news_38c5dfd821c2"
+      ],
+      "status": "developing",
+      "summary": "证监会主席吴清在首届中国资本市场学术年会开幕式上致辞",
+      "latestProgress": "2026年11月14日，吴清主席于首届中国资本市场学术年会开幕式发表致辞"
+    },
+    {
+      "eventId": "event_d1dcb2cf737d",
+      "clusterVersion": 2,
+      "title": "2026年中国资本市场学术年会在上海开幕，周小川吴清朱忠明出席",
+      "firstSeenAt": "2026-11-14T11:30:31.259Z",
+      "lastSeenAt": "2026-11-15T12:02:56.182Z",
+      "latestItemPublishedAt": "2026-11-14T11:10:25.000Z",
+      "primaryItemId": "news_5537f7bb3c81",
+      "evidenceItemIds": [
+        "news_5537f7bb3c81",
+        "news_54a041f3c5ad"
+      ],
+      "status": "developing",
+      "summary": "2026年中国资本市场学术年会在上海开幕，周小川、吴清、朱忠明出席",
+      "latestProgress": "年会已开幕，周小川作开幕演讲，吴清、朱忠明现场致辞"
+    },
+    {
+      "eventId": "event_08fd18523339",
+      "clusterVersion": 2,
+      "title": "中信证券：英伟达高管变局，如何影响中国科技资产？",
+      "firstSeenAt": "2026-11-14T11:30:31.259Z",
+      "lastSeenAt": "2026-11-15T12:02:56.182Z",
+      "latestItemPublishedAt": "2026-11-14T08:43:47.000Z",
+      "primaryItemId": "news_b388e2347d6a",
+      "evidenceItemIds": [
+        "news_b388e2347d6a",
+        "news_01b793fda91d"
+      ],
+      "status": "developing",
+      "summary": "中信证券就英伟达高管变局影响中国科技资产发声，同步推进券商服务转型与私募生态建设",
+      "latestProgress": "2026年11月14日中信证券执委李勇进提出券商要从通道转向全生命周期服务共建私募生态"
+    },
+    {
+      "eventId": "event_7730e597a1f0",
+      "clusterVersion": 2,
+      "title": "AI进化速递 | 吴清：深化人工智能与资本市场双向赋能研究",
+      "firstSeenAt": "2026-11-14T15:17:03.999Z",
+      "lastSeenAt": "2026-11-15T12:02:56.182Z",
+      "latestItemPublishedAt": "2026-11-14T11:53:35.000Z",
+      "primaryItemId": "news_06e226db19a4",
+      "evidenceItemIds": [
+        "news_06e226db19a4",
+        "news_e2205cea895e"
+      ],
+      "status": "developing",
+      "summary": "吴清提出深化人工智能与资本市场双向赋能研究，推动二者协同发展。",
+      "latestProgress": "相关部门将推进AI与资本市场双向赋能研究落地相关工作。"
+    },
+    {
+      "eventId": "event_bcbdcf7217b2",
+      "clusterVersion": 2,
+      "title": "财联社11月15日电，比特币跌至62000美元，日内跌超5%。以太坊日内跌超6%。",
+      "firstSeenAt": "2026-11-15T06:33:30.157Z",
+      "lastSeenAt": "2026-11-15T12:02:56.182Z",
+      "latestItemPublishedAt": "2026-11-15T01:47:18.000Z",
+      "primaryItemId": "news_927224beff0c",
+      "evidenceItemIds": [
+        "news_927224beff0c",
+        "news_9e6864ab1642",
+        "news_ba2a2ef13ef2"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_a4c277bef24a",
+      "clusterVersion": 2,
+      "title": "中国证监会同意氢氧化锂期货和期权注册",
+      "firstSeenAt": "2026-11-06T12:07:36.692Z",
+      "lastSeenAt": "2026-11-15T12:02:56.182Z",
+      "latestItemPublishedAt": "2026-11-05T23:28:09.000Z",
+      "primaryItemId": "news_0e0e861c68d3",
+      "evidenceItemIds": [
+        "news_f29e9054dccc",
+        "news_52303c0c72da",
+        "news_0e0e861c68d3",
+        "news_ea0c0a809eb4",
+        "news_63e9f32c1023"
+      ],
+      "status": "developing",
+      "summary": "中国证监会正式同意氢氧化锂期货和期权注册",
+      "latestProgress": "2026年11月5日，中国证监会完成氢氧化锂期货期权注册审批"
+    },
+    {
       "eventId": "event_c721fd0eada1",
       "clusterVersion": 2,
       "title": "德国央行行长：欧洲央行很可能需要再次加息，通胀前景已明显恶化",
@@ -284,22 +384,6 @@
       "status": "developing",
       "summary": "美股前瞻三大期指齐涨，Cerebras绩后飙涨，10月PPI今晚来袭",
       "latestProgress": "2026年11月13日美股收盘，苹果及\"美国茅台\"创新高，AI交易颠簸"
-    },
-    {
-      "eventId": "event_d0c306eb334b",
-      "clusterVersion": 2,
-      "title": "吴清主席在首届中国资本市场学术年会开幕式上的致辞",
-      "firstSeenAt": "2026-11-14T06:23:15.009Z",
-      "lastSeenAt": "2026-11-15T06:33:30.157Z",
-      "latestItemPublishedAt": "2026-11-14T04:07:22.000Z",
-      "primaryItemId": "news_1cf62c3cb3a7",
-      "evidenceItemIds": [
-        "news_1cf62c3cb3a7",
-        "news_38c5dfd821c2"
-      ],
-      "status": "developing",
-      "summary": "证监会主席吴清在首届中国资本市场学术年会开幕式上致辞",
-      "latestProgress": "2026年11月14日，吴清主席于首届中国资本市场学术年会开幕式发表致辞"
     },
     {
       "eventId": "event_61969e83eb0f",
@@ -335,54 +419,6 @@
       "latestProgress": "2026年版国家基本医保药品目录已正式发布，新增107种药品纳入医保"
     },
     {
-      "eventId": "event_d1dcb2cf737d",
-      "clusterVersion": 2,
-      "title": "2026年中国资本市场学术年会在上海开幕，周小川吴清朱忠明出席",
-      "firstSeenAt": "2026-11-14T11:30:31.259Z",
-      "lastSeenAt": "2026-11-15T06:33:30.157Z",
-      "latestItemPublishedAt": "2026-11-14T11:10:25.000Z",
-      "primaryItemId": "news_5537f7bb3c81",
-      "evidenceItemIds": [
-        "news_5537f7bb3c81",
-        "news_54a041f3c5ad"
-      ],
-      "status": "developing",
-      "summary": "2026年中国资本市场学术年会在上海开幕，周小川、吴清、朱忠明出席",
-      "latestProgress": "年会已开幕，周小川作开幕演讲，吴清、朱忠明现场致辞"
-    },
-    {
-      "eventId": "event_08fd18523339",
-      "clusterVersion": 2,
-      "title": "中信证券：英伟达高管变局，如何影响中国科技资产？",
-      "firstSeenAt": "2026-11-14T11:30:31.259Z",
-      "lastSeenAt": "2026-11-15T06:33:30.157Z",
-      "latestItemPublishedAt": "2026-11-14T08:43:47.000Z",
-      "primaryItemId": "news_b388e2347d6a",
-      "evidenceItemIds": [
-        "news_b388e2347d6a",
-        "news_01b793fda91d"
-      ],
-      "status": "developing",
-      "summary": "中信证券就英伟达高管变局影响中国科技资产发声，同步推进券商服务转型与私募生态建设",
-      "latestProgress": "2026年11月14日中信证券执委李勇进提出券商要从通道转向全生命周期服务共建私募生态"
-    },
-    {
-      "eventId": "event_7730e597a1f0",
-      "clusterVersion": 2,
-      "title": "AI进化速递 | 吴清：深化人工智能与资本市场双向赋能研究",
-      "firstSeenAt": "2026-11-14T15:17:03.999Z",
-      "lastSeenAt": "2026-11-15T06:33:30.157Z",
-      "latestItemPublishedAt": "2026-11-14T11:53:35.000Z",
-      "primaryItemId": "news_06e226db19a4",
-      "evidenceItemIds": [
-        "news_06e226db19a4",
-        "news_e2205cea895e"
-      ],
-      "status": "developing",
-      "summary": "吴清提出深化人工智能与资本市场双向赋能研究，推动二者协同发展。",
-      "latestProgress": "相关部门将推进AI与资本市场双向赋能研究落地相关工作。"
-    },
-    {
       "eventId": "event_ecae59b343b7",
       "clusterVersion": 2,
       "title": "吴清：加强对大型和新型科技企业IPO制度适配性和风险应对机制研究",
@@ -397,42 +433,6 @@
       "status": "developing",
       "summary": "",
       "latestProgress": ""
-    },
-    {
-      "eventId": "event_bcbdcf7217b2",
-      "clusterVersion": 2,
-      "title": "财联社11月15日电，比特币跌至62000美元，日内跌超5%。以太坊日内跌超6%。",
-      "firstSeenAt": "2026-11-15T06:33:30.157Z",
-      "lastSeenAt": "2026-11-15T06:33:30.157Z",
-      "latestItemPublishedAt": "2026-11-15T02:05:03.000Z",
-      "primaryItemId": "news_927224beff0c",
-      "evidenceItemIds": [
-        "news_927224beff0c",
-        "news_9e6864ab1642",
-        "news_ba2a2ef13ef2"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_a4c277bef24a",
-      "clusterVersion": 2,
-      "title": "中国证监会同意氢氧化锂期货和期权注册",
-      "firstSeenAt": "2026-11-06T12:07:36.692Z",
-      "lastSeenAt": "2026-11-14T18:14:13.224Z",
-      "latestItemPublishedAt": "2026-11-05T23:28:09.000Z",
-      "primaryItemId": "news_0e0e861c68d3",
-      "evidenceItemIds": [
-        "news_f29e9054dccc",
-        "news_52303c0c72da",
-        "news_0e0e861c68d3",
-        "news_ea0c0a809eb4",
-        "news_63e9f32c1023"
-      ],
-      "status": "developing",
-      "summary": "中国证监会正式同意氢氧化锂期货和期权注册",
-      "latestProgress": "2026年11月5日，中国证监会完成氢氧化锂期货期权注册审批"
     },
     {
       "eventId": "event_20e8014391ac",

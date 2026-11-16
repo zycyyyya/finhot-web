@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-15T18:56:49.858Z",
+  "updatedAt": "2026-11-16T06:31:29.509Z",
   "note": "auto 指标由 scripts/macro.js 每日自动刷新；manual 指标为人工核实值，核实日期见 asOf。",
   "indicators": [
     {
@@ -123,10 +123,6 @@
       "prevAsOf": "2026-11-12",
       "series": [
         {
-          "date": "2026-11-05",
-          "value": 6.6684
-        },
-        {
           "date": "2026-11-06",
           "value": 6.6713
         },
@@ -155,16 +151,16 @@
     {
       "key": "gold",
       "name": "现货黄金",
-      "value": "$3,888",
-      "numericValue": 3887.600098,
-      "note": "较11月14日 $3,888 持平",
-      "direction": "flat",
-      "asOf": "2026-11-15",
+      "value": "$3,855",
+      "numericValue": 3854.52002,
+      "note": "较11月15日 $3,888 下降",
+      "direction": "down",
+      "asOf": "2026-11-16",
       "source": "gold-api.com",
       "mode": "auto",
       "prevValue": "$3,888",
       "prevNumericValue": 3887.600098,
-      "prevAsOf": "2026-11-14"
+      "prevAsOf": "2026-11-15"
     },
     {
       "key": "cngold",

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-15T18:56:49.858Z",
+  "generatedAt": "2026-11-16T06:31:29.509Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -9,11 +9,10 @@
       "clusterVersion": 2,
       "title": "黄仁勋走了 会不会带崩美股？",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-15T18:56:49.858Z",
-      "latestItemPublishedAt": "2026-11-15T05:46:11.000Z",
+      "lastSeenAt": "2026-11-16T06:31:29.509Z",
+      "latestItemPublishedAt": "2026-11-16T01:21:57.000Z",
       "primaryItemId": "news_a3f4924e64c0",
       "evidenceItemIds": [
-        "news_0b4f5fb5601c",
         "news_809d47b27c33",
         "news_3231c61520c2",
         "news_c09024bcbe1a",
@@ -62,23 +61,22 @@
         "news_5b9514f836b5",
         "news_934309bfaef9",
         "news_a3f4924e64c0",
-        "news_6669ca094f06"
+        "news_6669ca094f06",
+        "news_61f063bc37b0"
       ],
       "status": "developing",
-      "summary": "“坏事全部撞在一起”美股逆势反弹，华尔街上演“无票可卖”式逼空。",
-      "latestProgress": "英伟达带AI板块入迷茫期，下周三大风险事件将搅动美股。"
+      "summary": "黄仁勋动向引发市场对美股走势担忧，AI板块风险事件加剧波动预期。",
+      "latestProgress": "Anthropic超级IPO本周落地，美股AI板块信仰面临最严苛大考。"
     },
     {
       "eventId": "event_a3c5d0364922",
       "clusterVersion": 2,
-      "title": "A股总市值超100万亿，吴清提出资本市场六个“进一步深化”",
+      "title": "A股四大指数集体高开，半导体、通信设备等板块走强",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-15T18:56:49.858Z",
+      "lastSeenAt": "2026-11-16T06:31:29.509Z",
       "latestItemPublishedAt": "2026-11-15T14:27:21.000Z",
-      "primaryItemId": "news_90a75cd9926b",
+      "primaryItemId": "news_7922ad185882",
       "evidenceItemIds": [
-        "news_b27af0efe8f8",
-        "news_88102ef247ba",
         "news_e6949d729759",
         "news_179eb2fbc509",
         "news_207c23061514",
@@ -126,20 +124,22 @@
         "news_33ca8a3265e6",
         "news_2f48a546d710",
         "news_b9f8fedec3ce",
-        "news_5758c2dd83b1"
+        "news_5758c2dd83b1",
+        "news_5c557051eba0",
+        "news_c897afd90050"
       ],
       "status": "developing",
-      "summary": "吴清指出A股有2亿多股票投资者、8亿多基金持有人，该国情市情全球独一无二。",
-      "latestProgress": "吴清提出资本市场六个“进一步深化”，当前A股总市值已超100万亿。"
+      "summary": "近期A股开盘走势分化，板块轮动加快，算力、并购等成市场关注焦点",
+      "latestProgress": "11月16日A股四大指数集体低开，稀土网游逆势走强，黄仁勋辞职扰动算力链"
     },
     {
       "eventId": "event_2cf716748ce1",
       "clusterVersion": 2,
-      "title": "央行释放稳汇率信号",
+      "title": "央行“锁长放短”稳定资金预期，11月买断式逆回购净回笼3000亿",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-15T18:56:49.858Z",
+      "lastSeenAt": "2026-11-16T06:31:29.509Z",
       "latestItemPublishedAt": "2026-11-15T10:29:39.000Z",
-      "primaryItemId": "news_7da1ff89010c",
+      "primaryItemId": "news_7c78b0f47641",
       "evidenceItemIds": [
         "news_fc34ab501c6a",
         "news_e003b719d8ee",
@@ -193,15 +193,15 @@
         "news_7c78b0f47641"
       ],
       "status": "developing",
-      "summary": "英国央行首席经济学家皮尔表示需进一步加息，以使通胀回落至2%目标。",
-      "latestProgress": "2026年11月15日央行释放稳汇率信号。"
+      "summary": "央行“锁长放短”稳定资金预期，11月买断式逆回购净回笼3000亿元",
+      "latestProgress": "央行开展买断式逆回购操作净回笼3000亿，释放稳汇率信号"
     },
     {
       "eventId": "event_d0c306eb334b",
       "clusterVersion": 2,
       "title": "吴清主席在首届中国资本市场学术年会开幕式上的致辞",
       "firstSeenAt": "2026-11-14T06:23:15.009Z",
-      "lastSeenAt": "2026-11-15T18:56:49.858Z",
+      "lastSeenAt": "2026-11-16T06:31:29.509Z",
       "latestItemPublishedAt": "2026-11-14T04:07:22.000Z",
       "primaryItemId": "news_7c17994d15e5",
       "evidenceItemIds": [
@@ -210,16 +210,16 @@
         "news_7c17994d15e5"
       ],
       "status": "developing",
-      "summary": "证监会主席吴清在首届中国资本市场学术年会开幕式上致辞",
-      "latestProgress": "2026年11月14日，吴清主席于首届中国资本市场学术年会开幕式发表致辞"
+      "summary": "吴清于首届中国资本市场学术年会开幕式致辞，为中国资本市场发展明确方向",
+      "latestProgress": "2026年11月13日，吴清主席在首届中国资本市场学术年会开幕式正式发表致辞"
     },
     {
       "eventId": "event_bcbdcf7217b2",
       "clusterVersion": 2,
       "title": "财联社11月15日电，比特币跌至62000美元，日内跌超5%。以太坊日内跌超6%。",
       "firstSeenAt": "2026-11-15T06:33:30.157Z",
-      "lastSeenAt": "2026-11-15T18:56:49.858Z",
-      "latestItemPublishedAt": "2026-11-15T01:47:18.000Z",
+      "lastSeenAt": "2026-11-16T06:31:29.509Z",
+      "latestItemPublishedAt": "2026-11-15T02:05:03.000Z",
       "primaryItemId": "news_927224beff0c",
       "evidenceItemIds": [
         "news_927224beff0c",
@@ -227,15 +227,15 @@
         "news_ba2a2ef13ef2"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "11月15日比特币跌破63000美元后跌至62000美元，日内跌超5%，以太坊跌超6%",
+      "latestProgress": "比特币跌至62000美元，日内跌超5%，以太坊日内跌超6%"
     },
     {
       "eventId": "event_a4c277bef24a",
       "clusterVersion": 2,
       "title": "中国证监会同意氢氧化锂期货和期权注册",
       "firstSeenAt": "2026-11-06T12:07:36.692Z",
-      "lastSeenAt": "2026-11-15T18:56:49.858Z",
+      "lastSeenAt": "2026-11-16T06:31:29.509Z",
       "latestItemPublishedAt": "2026-11-05T23:28:09.000Z",
       "primaryItemId": "news_0e0e861c68d3",
       "evidenceItemIds": [
@@ -246,20 +246,18 @@
         "news_63e9f32c1023"
       ],
       "status": "developing",
-      "summary": "中国证监会正式同意氢氧化锂期货和期权注册",
-      "latestProgress": "2026年11月5日，中国证监会完成氢氧化锂期货期权注册审批"
+      "summary": "2026年11月5日中国证监会同意氢氧化锂、葵花籽油期货和期权注册。",
+      "latestProgress": "2026年11月5日证监会正式同意氢氧化锂期货及期权注册。"
     },
     {
       "eventId": "event_c68d651d4ff9",
       "clusterVersion": 2,
       "title": "智通港股投资日志|11月16日",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-11-15T18:56:49.858Z",
+      "lastSeenAt": "2026-11-16T06:31:29.509Z",
       "latestItemPublishedAt": "2026-11-15T08:09:17.000Z",
       "primaryItemId": "news_80d6f5d45cf0",
       "evidenceItemIds": [
-        "news_27b7dde03d65",
-        "news_c86872387577",
         "news_578decc7b31d",
         "news_920e409020d1",
         "news_5e02ca94b93c",
@@ -307,11 +305,191 @@
         "news_f796ec222fab",
         "news_1d5535cbeed6",
         "news_21806568ef22",
-        "news_80d6f5d45cf0"
+        "news_80d6f5d45cf0",
+        "news_3933aeaf2b5b",
+        "news_53dab9f8a29b"
       ],
       "status": "developing",
-      "summary": "港股阿里午后跌超4%，市场担忧芯片管制趋严，瑞银指相关影响或已被高估。",
-      "latestProgress": "2026年11月13日，AI调整情绪扩散，空头发力致恒指失守24000点。"
+      "summary": "智通发布11月16日港股投资日志，涵盖皖通高速异动、高盛中国股市展望相关内容。",
+      "latestProgress": "高盛发布2027年中国股市展望，称资金转向港股，MSCI中国指数有望涨23%。"
+    },
+    {
+      "eventId": "event_ecae59b343b7",
+      "clusterVersion": 2,
+      "title": "吴清：加强对大型和新型科技企业IPO制度适配性和风险应对机制研究",
+      "firstSeenAt": "2026-11-15T06:33:30.157Z",
+      "lastSeenAt": "2026-11-16T06:31:29.509Z",
+      "latestItemPublishedAt": "2026-11-15T01:11:42.000Z",
+      "primaryItemId": "news_5d71cfd77576",
+      "evidenceItemIds": [
+        "news_5d71cfd77576",
+        "news_938a0fe384ce"
+      ],
+      "status": "developing",
+      "summary": "证监会主席吴清要求加强大型和新型科技企业IPO制度适配性及风险应对机制研究。",
+      "latestProgress": "11月15日官方解读该讲话，回应近期部分科技企业上市估值溢价泡沫问题。"
+    },
+    {
+      "eventId": "event_d97b9373dc58",
+      "clusterVersion": 2,
+      "title": "港股午评：恒生指数涨0.84% 恒生科技指数涨0.54%",
+      "firstSeenAt": "2026-11-13T12:16:34.843Z",
+      "lastSeenAt": "2026-11-16T06:31:29.509Z",
+      "latestItemPublishedAt": "2026-11-16T04:00:34.000Z",
+      "primaryItemId": "news_8343ab64fc3d",
+      "evidenceItemIds": [
+        "news_0f45ec03624d",
+        "news_ed8fca4252cf",
+        "news_8343ab64fc3d"
+      ],
+      "status": "developing",
+      "summary": "港股午盘恒生指数涨0.84%，恒生科技指数涨0.54%，市场表现平稳向好",
+      "latestProgress": "2026年11月16日港股午盘恒指涨0.84%，恒生科技指数涨0.54%"
+    },
+    {
+      "eventId": "event_dbebdb4bee2a",
+      "clusterVersion": 2,
+      "title": "10月工业增加值同比增速放缓至4.8% 略低于市场预期",
+      "firstSeenAt": "2026-11-16T06:31:29.509Z",
+      "lastSeenAt": "2026-11-16T06:31:29.509Z",
+      "latestItemPublishedAt": "2026-11-16T03:58:22.000Z",
+      "primaryItemId": "news_c3e306f94ef9",
+      "evidenceItemIds": [
+        "news_c3e306f94ef9",
+        "news_a2455e6b65fc"
+      ],
+      "status": "developing",
+      "summary": "10月工业增加值同比增速放缓至4.8%略低于预期，同期社零同比增速也放缓至0.4%低于预期",
+      "latestProgress": "10月工业生产、消费增速双双放缓，均低于市场预期"
+    },
+    {
+      "eventId": "event_7aaf18040079",
+      "clusterVersion": 2,
+      "title": "国家统计局：1—10月份，全国房地产开发投资57215亿元，同比下降21.6%",
+      "firstSeenAt": "2026-11-16T06:31:29.509Z",
+      "lastSeenAt": "2026-11-16T06:31:29.509Z",
+      "latestItemPublishedAt": "2026-11-16T04:58:56.000Z",
+      "primaryItemId": "news_21eb72d5fef4",
+      "evidenceItemIds": [
+        "news_21eb72d5fef4",
+        "news_991464ce6cbd",
+        "news_f7290a6a5834"
+      ],
+      "status": "developing",
+      "summary": "国家统计局公布1—10月全国房地产开发投资57215亿元，同比下降21.6%，同期固定资产投资同比降8.1%",
+      "latestProgress": "国家统计局指出1—10月全国房地产市场出现了一定的积极变化"
+    },
+    {
+      "eventId": "event_19a5c0f10d8d",
+      "clusterVersion": 2,
+      "title": "国家统计局：10月一线城市商品住宅销售价格环比总体上涨，二三线城市环比下降",
+      "firstSeenAt": "2026-11-16T06:31:29.509Z",
+      "lastSeenAt": "2026-11-16T06:31:29.509Z",
+      "latestItemPublishedAt": "2026-11-16T01:45:41.000Z",
+      "primaryItemId": "news_4458c839d945",
+      "evidenceItemIds": [
+        "news_4458c839d945",
+        "news_96746b76563e"
+      ],
+      "status": "developing",
+      "summary": "国家统计局：10月一线城市商品住宅销售价格环比总体上涨，二三线城市环比下降",
+      "latestProgress": "国家统计局：10月各线城市商品住宅销售价格同比降幅继续收窄"
+    },
+    {
+      "eventId": "event_bdc29c58f12e",
+      "clusterVersion": 2,
+      "title": "习近平将同俄罗斯总统普京、美国总统特朗普举行中俄美元首会晤",
+      "firstSeenAt": "2026-11-16T06:31:29.509Z",
+      "lastSeenAt": "2026-11-16T06:31:29.509Z",
+      "latestItemPublishedAt": "2026-11-16T01:04:42.000Z",
+      "primaryItemId": "news_66fa9d036f0e",
+      "evidenceItemIds": [
+        "news_66fa9d036f0e",
+        "news_e68beb53056f"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_e4e2aed7a7e3",
+      "clusterVersion": 2,
+      "title": "财联社11月16日电，日本央行审议委员高田创表示，日本的政策利率直到最近才终于接近中性利率区间；为能灵活因应物价的第二轮",
+      "firstSeenAt": "2026-11-16T06:31:29.509Z",
+      "lastSeenAt": "2026-11-16T06:31:29.509Z",
+      "latestItemPublishedAt": "2026-11-16T05:16:43.000Z",
+      "primaryItemId": "news_2b1dcd0d3a69",
+      "evidenceItemIds": [
+        "news_2b1dcd0d3a69",
+        "news_9a5f9fed6322"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_488506150a68",
+      "clusterVersion": 2,
+      "title": "财联社11月16日午间新闻精选",
+      "firstSeenAt": "2026-11-16T06:31:29.509Z",
+      "lastSeenAt": "2026-11-16T06:31:29.509Z",
+      "latestItemPublishedAt": "2026-11-16T04:03:26.000Z",
+      "primaryItemId": "news_2da53d4bbbb0",
+      "evidenceItemIds": [
+        "news_2da53d4bbbb0",
+        "news_1c623abd641a"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_49c0e29801f5",
+      "clusterVersion": 2,
+      "title": "因内幕交易被监管部门行政处罚后 南卫股份实控人李平被刑事拘留|速读公告",
+      "firstSeenAt": "2026-11-16T06:31:29.509Z",
+      "lastSeenAt": "2026-11-16T06:31:29.509Z",
+      "latestItemPublishedAt": "2026-11-15T12:39:11.000Z",
+      "primaryItemId": "news_8ee0c5134764",
+      "evidenceItemIds": [
+        "news_8ee0c5134764",
+        "news_83e4140d6d3a"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_9c389ccc24fb",
+      "clusterVersion": 2,
+      "title": "亚太繁荣之路",
+      "firstSeenAt": "2026-11-16T06:31:29.509Z",
+      "lastSeenAt": "2026-11-16T06:31:29.509Z",
+      "latestItemPublishedAt": "2026-11-15T11:31:57.000Z",
+      "primaryItemId": "news_98d36e29977c",
+      "evidenceItemIds": [
+        "news_98d36e29977c",
+        "news_ae6e5e9de3f3"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_91d3a5efba72",
+      "clusterVersion": 2,
+      "title": "下周外盘看点丨英伟达迎财报大考，Anthropic冲刺“史上最大IPO”",
+      "firstSeenAt": "2026-11-16T06:31:29.509Z",
+      "lastSeenAt": "2026-11-16T06:31:29.509Z",
+      "latestItemPublishedAt": "2026-11-15T02:02:25.000Z",
+      "primaryItemId": "news_400cb6840911",
+      "evidenceItemIds": [
+        "news_400cb6840911",
+        "news_40c7661792ea"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
     },
     {
       "eventId": "event_9e320dba578d",
@@ -484,22 +662,6 @@
       "latestProgress": "2026年版国家基本医保药品目录已正式发布，新增107种药品纳入医保"
     },
     {
-      "eventId": "event_ecae59b343b7",
-      "clusterVersion": 2,
-      "title": "吴清：加强对大型和新型科技企业IPO制度适配性和风险应对机制研究",
-      "firstSeenAt": "2026-11-15T06:33:30.157Z",
-      "lastSeenAt": "2026-11-15T06:33:30.157Z",
-      "latestItemPublishedAt": "2026-11-15T01:11:42.000Z",
-      "primaryItemId": "news_5d71cfd77576",
-      "evidenceItemIds": [
-        "news_5d71cfd77576",
-        "news_938a0fe384ce"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
       "eventId": "event_20e8014391ac",
       "clusterVersion": 2,
       "title": "财联社11月13日电，现货白银日内跌幅扩大至2%，报49.04美元/盎司。",
@@ -656,22 +818,6 @@
       "evidenceItemIds": [
         "news_d49f488e0dde",
         "news_57fa868ef136"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_d97b9373dc58",
-      "clusterVersion": 2,
-      "title": "港股收盘 | 恒生科技指数单周大跌6.5% 英伟达突发换帅重创AI算力链",
-      "firstSeenAt": "2026-11-13T12:16:34.843Z",
-      "lastSeenAt": "2026-11-13T16:34:21.027Z",
-      "latestItemPublishedAt": "2026-11-13T08:46:19.000Z",
-      "primaryItemId": "news_0f45ec03624d",
-      "evidenceItemIds": [
-        "news_0f45ec03624d",
-        "news_ed8fca4252cf"
       ],
       "status": "developing",
       "summary": "",

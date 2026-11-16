@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-16T06:31:29.509Z",
+  "generatedAt": "2026-11-16T12:47:15.250Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -9,12 +9,10 @@
       "clusterVersion": 2,
       "title": "黄仁勋走了 会不会带崩美股？",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-16T06:31:29.509Z",
-      "latestItemPublishedAt": "2026-11-16T01:21:57.000Z",
+      "lastSeenAt": "2026-11-16T12:47:15.250Z",
+      "latestItemPublishedAt": "2026-11-16T09:20:24.000Z",
       "primaryItemId": "news_a3f4924e64c0",
       "evidenceItemIds": [
-        "news_809d47b27c33",
-        "news_3231c61520c2",
         "news_c09024bcbe1a",
         "news_59dd940bcf39",
         "news_fb5f76528b48",
@@ -62,7 +60,9 @@
         "news_934309bfaef9",
         "news_a3f4924e64c0",
         "news_6669ca094f06",
-        "news_61f063bc37b0"
+        "news_61f063bc37b0",
+        "news_0c5ee8b9118b",
+        "news_d9fe955c372c"
       ],
       "status": "developing",
       "summary": "黄仁勋动向引发市场对美股走势担忧，AI板块风险事件加剧波动预期。",
@@ -71,15 +71,12 @@
     {
       "eventId": "event_a3c5d0364922",
       "clusterVersion": 2,
-      "title": "A股四大指数集体高开，半导体、通信设备等板块走强",
+      "title": "半个月9家A股公司被立案，还涉及多位公司实控人",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-16T06:31:29.509Z",
-      "latestItemPublishedAt": "2026-11-15T14:27:21.000Z",
-      "primaryItemId": "news_7922ad185882",
+      "lastSeenAt": "2026-11-16T12:47:15.250Z",
+      "latestItemPublishedAt": "2026-11-16T12:39:02.000Z",
+      "primaryItemId": "news_bb67120d4a41",
       "evidenceItemIds": [
-        "news_e6949d729759",
-        "news_179eb2fbc509",
-        "news_207c23061514",
         "news_79b2b5b20821",
         "news_881bcbc1f2c5",
         "news_25efa1300e07",
@@ -126,7 +123,10 @@
         "news_b9f8fedec3ce",
         "news_5758c2dd83b1",
         "news_5c557051eba0",
-        "news_c897afd90050"
+        "news_c897afd90050",
+        "news_bb67120d4a41",
+        "news_a29698397f1d",
+        "news_676ec84b8dbe"
       ],
       "status": "developing",
       "summary": "近期A股开盘走势分化，板块轮动加快，算力、并购等成市场关注焦点",
@@ -137,11 +137,10 @@
       "clusterVersion": 2,
       "title": "央行“锁长放短”稳定资金预期，11月买断式逆回购净回笼3000亿",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-16T06:31:29.509Z",
-      "latestItemPublishedAt": "2026-11-15T10:29:39.000Z",
+      "lastSeenAt": "2026-11-16T12:47:15.250Z",
+      "latestItemPublishedAt": "2026-11-16T11:36:15.000Z",
       "primaryItemId": "news_7c78b0f47641",
       "evidenceItemIds": [
-        "news_fc34ab501c6a",
         "news_e003b719d8ee",
         "news_935af352cd4c",
         "news_762943903cae",
@@ -190,7 +189,8 @@
         "news_0c0f31cb4fb7",
         "news_7da1ff89010c",
         "news_60ec54146c4c",
-        "news_7c78b0f47641"
+        "news_7c78b0f47641",
+        "news_1a787add26bb"
       ],
       "status": "developing",
       "summary": "央行“锁长放短”稳定资金预期，11月买断式逆回购净回笼3000亿元",
@@ -201,7 +201,7 @@
       "clusterVersion": 2,
       "title": "吴清主席在首届中国资本市场学术年会开幕式上的致辞",
       "firstSeenAt": "2026-11-14T06:23:15.009Z",
-      "lastSeenAt": "2026-11-16T06:31:29.509Z",
+      "lastSeenAt": "2026-11-16T12:47:15.250Z",
       "latestItemPublishedAt": "2026-11-14T04:07:22.000Z",
       "primaryItemId": "news_7c17994d15e5",
       "evidenceItemIds": [
@@ -214,28 +214,11 @@
       "latestProgress": "2026年11月13日，吴清主席在首届中国资本市场学术年会开幕式正式发表致辞"
     },
     {
-      "eventId": "event_bcbdcf7217b2",
-      "clusterVersion": 2,
-      "title": "财联社11月15日电，比特币跌至62000美元，日内跌超5%。以太坊日内跌超6%。",
-      "firstSeenAt": "2026-11-15T06:33:30.157Z",
-      "lastSeenAt": "2026-11-16T06:31:29.509Z",
-      "latestItemPublishedAt": "2026-11-15T02:05:03.000Z",
-      "primaryItemId": "news_927224beff0c",
-      "evidenceItemIds": [
-        "news_927224beff0c",
-        "news_9e6864ab1642",
-        "news_ba2a2ef13ef2"
-      ],
-      "status": "developing",
-      "summary": "11月15日比特币跌破63000美元后跌至62000美元，日内跌超5%，以太坊跌超6%",
-      "latestProgress": "比特币跌至62000美元，日内跌超5%，以太坊日内跌超6%"
-    },
-    {
       "eventId": "event_a4c277bef24a",
       "clusterVersion": 2,
       "title": "中国证监会同意氢氧化锂期货和期权注册",
       "firstSeenAt": "2026-11-06T12:07:36.692Z",
-      "lastSeenAt": "2026-11-16T06:31:29.509Z",
+      "lastSeenAt": "2026-11-16T12:47:15.250Z",
       "latestItemPublishedAt": "2026-11-05T23:28:09.000Z",
       "primaryItemId": "news_0e0e861c68d3",
       "evidenceItemIds": [
@@ -252,14 +235,12 @@
     {
       "eventId": "event_c68d651d4ff9",
       "clusterVersion": 2,
-      "title": "智通港股投资日志|11月16日",
+      "title": "高盛2027年中国股市展望：AI交易面临盈利压力，资金转向港股，MSCI中国指数有望涨23%",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-11-16T06:31:29.509Z",
-      "latestItemPublishedAt": "2026-11-15T08:09:17.000Z",
-      "primaryItemId": "news_80d6f5d45cf0",
+      "lastSeenAt": "2026-11-16T12:47:15.250Z",
+      "latestItemPublishedAt": "2026-11-16T03:21:57.000Z",
+      "primaryItemId": "news_3933aeaf2b5b",
       "evidenceItemIds": [
-        "news_578decc7b31d",
-        "news_920e409020d1",
         "news_5e02ca94b93c",
         "news_05053833c974",
         "news_524f9e5d2fdd",
@@ -307,11 +288,208 @@
         "news_21806568ef22",
         "news_80d6f5d45cf0",
         "news_3933aeaf2b5b",
-        "news_53dab9f8a29b"
+        "news_53dab9f8a29b",
+        "news_9e121f8a062e",
+        "news_dbf02144ba17"
       ],
       "status": "developing",
       "summary": "智通发布11月16日港股投资日志，涵盖皖通高速异动、高盛中国股市展望相关内容。",
       "latestProgress": "高盛发布2027年中国股市展望，称资金转向港股，MSCI中国指数有望涨23%。"
+    },
+    {
+      "eventId": "event_d97b9373dc58",
+      "clusterVersion": 2,
+      "title": "港股午评：恒生指数涨0.84% 恒生科技指数涨0.54%",
+      "firstSeenAt": "2026-11-13T12:16:34.843Z",
+      "lastSeenAt": "2026-11-16T12:47:15.250Z",
+      "latestItemPublishedAt": "2026-11-16T04:00:34.000Z",
+      "primaryItemId": "news_8343ab64fc3d",
+      "evidenceItemIds": [
+        "news_0f45ec03624d",
+        "news_ed8fca4252cf",
+        "news_8343ab64fc3d"
+      ],
+      "status": "developing",
+      "summary": "港股午盘恒生指数涨0.84%，恒生科技指数涨0.54%，市场表现平稳向好",
+      "latestProgress": "2026年11月16日港股午盘恒指涨0.84%，恒生科技指数涨0.54%"
+    },
+    {
+      "eventId": "event_7aaf18040079",
+      "clusterVersion": 2,
+      "title": "国家统计局：1—10月份，全国房地产开发投资57215亿元，同比下降21.6%",
+      "firstSeenAt": "2026-11-16T06:31:29.509Z",
+      "lastSeenAt": "2026-11-16T12:47:15.250Z",
+      "latestItemPublishedAt": "2026-11-16T04:58:56.000Z",
+      "primaryItemId": "news_21eb72d5fef4",
+      "evidenceItemIds": [
+        "news_21eb72d5fef4",
+        "news_991464ce6cbd",
+        "news_f7290a6a5834"
+      ],
+      "status": "developing",
+      "summary": "国家统计局公布1—10月全国房地产开发投资57215亿元，同比下降21.6%，同期固定资产投资同比降8.1%",
+      "latestProgress": "国家统计局指出1—10月全国房地产市场出现了一定的积极变化"
+    },
+    {
+      "eventId": "event_e4e2aed7a7e3",
+      "clusterVersion": 2,
+      "title": "财联社11月16日电，日本央行审议委员高田创表示，日本的政策利率直到最近才终于接近中性利率区间；为能灵活因应物价的第二轮",
+      "firstSeenAt": "2026-11-16T06:31:29.509Z",
+      "lastSeenAt": "2026-11-16T12:47:15.250Z",
+      "latestItemPublishedAt": "2026-11-16T05:16:43.000Z",
+      "primaryItemId": "news_2b1dcd0d3a69",
+      "evidenceItemIds": [
+        "news_2b1dcd0d3a69",
+        "news_9a5f9fed6322"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_488506150a68",
+      "clusterVersion": 2,
+      "title": "财联社11月16日午间新闻精选",
+      "firstSeenAt": "2026-11-16T06:31:29.509Z",
+      "lastSeenAt": "2026-11-16T12:47:15.250Z",
+      "latestItemPublishedAt": "2026-11-16T04:03:26.000Z",
+      "primaryItemId": "news_2da53d4bbbb0",
+      "evidenceItemIds": [
+        "news_2da53d4bbbb0",
+        "news_1c623abd641a"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_dfaabb0d5325",
+      "clusterVersion": 2,
+      "title": "美联储官员警告：AI自动转账或成银行挤兑新推手",
+      "firstSeenAt": "2026-11-16T12:47:15.250Z",
+      "lastSeenAt": "2026-11-16T12:47:15.250Z",
+      "latestItemPublishedAt": "2026-11-16T12:04:28.000Z",
+      "primaryItemId": "news_8e057bcb28be",
+      "evidenceItemIds": [
+        "news_8e057bcb28be",
+        "news_4f257fabe20b"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_3a39bb170b2a",
+      "clusterVersion": 2,
+      "title": "SemiAnalysis大幅下修AI算力预测：2028年资本开支预测下调近三成，五年硅片出货面积下调17%，英伟达受冲击",
+      "firstSeenAt": "2026-11-16T12:47:15.250Z",
+      "lastSeenAt": "2026-11-16T12:47:15.250Z",
+      "latestItemPublishedAt": "2026-11-16T11:50:25.000Z",
+      "primaryItemId": "news_0d1e66c7eefd",
+      "evidenceItemIds": [
+        "news_0d1e66c7eefd",
+        "news_91a7022ffc11"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_df51e8083b3e",
+      "clusterVersion": 2,
+      "title": "中国汽车工业协会：将开展供应商账款支付调研评估，1月31日前报送年度报告",
+      "firstSeenAt": "2026-11-16T12:47:15.250Z",
+      "lastSeenAt": "2026-11-16T12:47:15.250Z",
+      "latestItemPublishedAt": "2026-11-16T09:16:07.000Z",
+      "primaryItemId": "news_4ff956be2c43",
+      "evidenceItemIds": [
+        "news_4ff956be2c43",
+        "news_cb90a24ebb18"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_09b982c2e9c2",
+      "clusterVersion": 2,
+      "title": "财联社11月16日电，NBA计划设立数十亿欧元基础设施基金，用于欧洲联赛。",
+      "firstSeenAt": "2026-11-16T12:47:15.250Z",
+      "lastSeenAt": "2026-11-16T12:47:15.250Z",
+      "latestItemPublishedAt": "2026-11-16T11:47:22.000Z",
+      "primaryItemId": "news_53bebaca4445",
+      "evidenceItemIds": [
+        "news_53bebaca4445",
+        "news_1d9d5218d659"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_de9d3aa743c5",
+      "clusterVersion": 2,
+      "title": "胜宏科技：拟1.5亿元至3亿元回购公司股份",
+      "firstSeenAt": "2026-11-16T12:47:15.250Z",
+      "lastSeenAt": "2026-11-16T12:47:15.250Z",
+      "latestItemPublishedAt": "2026-11-16T11:44:33.000Z",
+      "primaryItemId": "news_549b4b7a76af",
+      "evidenceItemIds": [
+        "news_549b4b7a76af",
+        "news_e91be4e61c4b"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_a2038ca2f870",
+      "clusterVersion": 2,
+      "title": "礼来公司拟以最高15亿美元收购Calytrix Bio",
+      "firstSeenAt": "2026-11-16T12:47:15.250Z",
+      "lastSeenAt": "2026-11-16T12:47:15.250Z",
+      "latestItemPublishedAt": "2026-11-16T12:15:26.000Z",
+      "primaryItemId": "news_d534ed065582",
+      "evidenceItemIds": [
+        "news_d534ed065582",
+        "news_b343fef80778"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_3cebb9212efe",
+      "clusterVersion": 2,
+      "title": "美股前瞻 | 三大股指期货涨跌不一 英伟达财报、Anthropic上市、美联储纪要本周接连登场 英特尔遭股东起诉",
+      "firstSeenAt": "2026-11-16T12:47:15.250Z",
+      "lastSeenAt": "2026-11-16T12:47:15.250Z",
+      "latestItemPublishedAt": "2026-11-16T04:12:54.000Z",
+      "primaryItemId": "news_06666b4053eb",
+      "evidenceItemIds": [
+        "news_06666b4053eb",
+        "news_121429e3673a"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_bcbdcf7217b2",
+      "clusterVersion": 2,
+      "title": "财联社11月15日电，比特币跌至62000美元，日内跌超5%。以太坊日内跌超6%。",
+      "firstSeenAt": "2026-11-15T06:33:30.157Z",
+      "lastSeenAt": "2026-11-16T06:31:29.509Z",
+      "latestItemPublishedAt": "2026-11-15T02:05:03.000Z",
+      "primaryItemId": "news_927224beff0c",
+      "evidenceItemIds": [
+        "news_927224beff0c",
+        "news_9e6864ab1642",
+        "news_ba2a2ef13ef2"
+      ],
+      "status": "developing",
+      "summary": "11月15日比特币跌破63000美元后跌至62000美元，日内跌超5%，以太坊跌超6%",
+      "latestProgress": "比特币跌至62000美元，日内跌超5%，以太坊日内跌超6%"
     },
     {
       "eventId": "event_ecae59b343b7",
@@ -330,23 +508,6 @@
       "latestProgress": "11月15日官方解读该讲话，回应近期部分科技企业上市估值溢价泡沫问题。"
     },
     {
-      "eventId": "event_d97b9373dc58",
-      "clusterVersion": 2,
-      "title": "港股午评：恒生指数涨0.84% 恒生科技指数涨0.54%",
-      "firstSeenAt": "2026-11-13T12:16:34.843Z",
-      "lastSeenAt": "2026-11-16T06:31:29.509Z",
-      "latestItemPublishedAt": "2026-11-16T04:00:34.000Z",
-      "primaryItemId": "news_8343ab64fc3d",
-      "evidenceItemIds": [
-        "news_0f45ec03624d",
-        "news_ed8fca4252cf",
-        "news_8343ab64fc3d"
-      ],
-      "status": "developing",
-      "summary": "港股午盘恒生指数涨0.84%，恒生科技指数涨0.54%，市场表现平稳向好",
-      "latestProgress": "2026年11月16日港股午盘恒指涨0.84%，恒生科技指数涨0.54%"
-    },
-    {
       "eventId": "event_dbebdb4bee2a",
       "clusterVersion": 2,
       "title": "10月工业增加值同比增速放缓至4.8% 略低于市场预期",
@@ -361,23 +522,6 @@
       "status": "developing",
       "summary": "10月工业增加值同比增速放缓至4.8%略低于预期，同期社零同比增速也放缓至0.4%低于预期",
       "latestProgress": "10月工业生产、消费增速双双放缓，均低于市场预期"
-    },
-    {
-      "eventId": "event_7aaf18040079",
-      "clusterVersion": 2,
-      "title": "国家统计局：1—10月份，全国房地产开发投资57215亿元，同比下降21.6%",
-      "firstSeenAt": "2026-11-16T06:31:29.509Z",
-      "lastSeenAt": "2026-11-16T06:31:29.509Z",
-      "latestItemPublishedAt": "2026-11-16T04:58:56.000Z",
-      "primaryItemId": "news_21eb72d5fef4",
-      "evidenceItemIds": [
-        "news_21eb72d5fef4",
-        "news_991464ce6cbd",
-        "news_f7290a6a5834"
-      ],
-      "status": "developing",
-      "summary": "国家统计局公布1—10月全国房地产开发投资57215亿元，同比下降21.6%，同期固定资产投资同比降8.1%",
-      "latestProgress": "国家统计局指出1—10月全国房地产市场出现了一定的积极变化"
     },
     {
       "eventId": "event_19a5c0f10d8d",
@@ -406,38 +550,6 @@
       "evidenceItemIds": [
         "news_66fa9d036f0e",
         "news_e68beb53056f"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_e4e2aed7a7e3",
-      "clusterVersion": 2,
-      "title": "财联社11月16日电，日本央行审议委员高田创表示，日本的政策利率直到最近才终于接近中性利率区间；为能灵活因应物价的第二轮",
-      "firstSeenAt": "2026-11-16T06:31:29.509Z",
-      "lastSeenAt": "2026-11-16T06:31:29.509Z",
-      "latestItemPublishedAt": "2026-11-16T05:16:43.000Z",
-      "primaryItemId": "news_2b1dcd0d3a69",
-      "evidenceItemIds": [
-        "news_2b1dcd0d3a69",
-        "news_9a5f9fed6322"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_488506150a68",
-      "clusterVersion": 2,
-      "title": "财联社11月16日午间新闻精选",
-      "firstSeenAt": "2026-11-16T06:31:29.509Z",
-      "lastSeenAt": "2026-11-16T06:31:29.509Z",
-      "latestItemPublishedAt": "2026-11-16T04:03:26.000Z",
-      "primaryItemId": "news_2da53d4bbbb0",
-      "evidenceItemIds": [
-        "news_2da53d4bbbb0",
-        "news_1c623abd641a"
       ],
       "status": "developing",
       "summary": "",

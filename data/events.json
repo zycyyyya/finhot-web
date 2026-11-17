@@ -1,20 +1,18 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-16T22:15:52.545Z",
+  "generatedAt": "2026-11-17T08:02:08.437Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
       "eventId": "event_f101880ef7bc",
       "clusterVersion": 2,
-      "title": "美股芯片股创4月来最大周涨幅，对冲基金为何逢高减持？华尔街：警惕AI版量化紧缩",
+      "title": "金价跌至一年多来最低水平 美股纳指期货跌近1.3% | 今夜看点",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-16T22:15:52.545Z",
+      "lastSeenAt": "2026-11-17T08:02:08.437Z",
       "latestItemPublishedAt": "2026-11-16T13:30:36.000Z",
-      "primaryItemId": "news_0c5ee8b9118b",
+      "primaryItemId": "news_4a186c81c816",
       "evidenceItemIds": [
-        "news_59dd940bcf39",
-        "news_fb5f76528b48",
         "news_11fe09fe1829",
         "news_5356420b62f7",
         "news_5635c66139ff",
@@ -62,25 +60,23 @@
         "news_61f063bc37b0",
         "news_0c5ee8b9118b",
         "news_d9fe955c372c",
-        "news_4a186c81c816"
+        "news_4a186c81c816",
+        "news_9d27a9bab376",
+        "news_5319b6d09b5c"
       ],
       "status": "developing",
-      "summary": "黄仁勋动向引发市场对美股走势担忧，AI板块风险事件加剧波动预期。",
-      "latestProgress": "Anthropic超级IPO本周落地，美股AI板块信仰面临最严苛大考。"
+      "summary": "2026年11月16日金价跌至一年多最低，纳指期货跌近1.3%，多起美股IPO动态更新",
+      "latestProgress": "眼科疗法新锐EIR Biopharma撤回1700万美元美股IPO，Core Specialty申请2.5亿美元美股IPO"
     },
     {
       "eventId": "event_a3c5d0364922",
       "clusterVersion": 2,
-      "title": "半个月9家A股公司被立案，还涉及多位公司实控人",
+      "title": "A股四大指数集体低开，传媒、光模块等板块调整",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-16T22:15:52.545Z",
-      "latestItemPublishedAt": "2026-11-16T13:09:42.000Z",
-      "primaryItemId": "news_bb67120d4a41",
+      "lastSeenAt": "2026-11-17T08:02:08.437Z",
+      "latestItemPublishedAt": "2026-11-17T07:01:55.000Z",
+      "primaryItemId": "news_b8a6deaee449",
       "evidenceItemIds": [
-        "news_881bcbc1f2c5",
-        "news_25efa1300e07",
-        "news_71ed20b9426c",
-        "news_647333564279",
         "news_a8fdfff29dcb",
         "news_9a2beeefef80",
         "news_671b5f990089",
@@ -126,23 +122,25 @@
         "news_bb67120d4a41",
         "news_a29698397f1d",
         "news_676ec84b8dbe",
-        "news_d0be612aa31a"
+        "news_d0be612aa31a",
+        "news_dea213a943be",
+        "news_b8a6deaee449",
+        "news_585070ed868d",
+        "news_303e34badea0"
       ],
       "status": "developing",
-      "summary": "近期A股开盘走势分化，板块轮动加快，算力、并购等成市场关注焦点",
-      "latestProgress": "11月16日A股四大指数集体低开，稀土网游逆势走强，黄仁勋辞职扰动算力链"
+      "summary": "近期A股指数调整板块分化，同时回购扩容、公司被立案、算力回应外部事件等消息同步释出。",
+      "latestProgress": "11月17日A股三大指数集体收跌，光刻机概念走强。"
     },
     {
       "eventId": "event_2cf716748ce1",
       "clusterVersion": 2,
-      "title": "加拿大央行行长宣布明年6月卸任，贝莱德经济学家等三人成接任热门",
+      "title": "黄仁勋离职震荡蔓延：“AI央行”紧缩，新云公司融资危险了",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-16T22:15:52.545Z",
-      "latestItemPublishedAt": "2026-11-16T21:03:33.000Z",
-      "primaryItemId": "news_df381a62beca",
+      "lastSeenAt": "2026-11-17T08:02:08.437Z",
+      "latestItemPublishedAt": "2026-11-17T05:52:01.000Z",
+      "primaryItemId": "news_7a950635f158",
       "evidenceItemIds": [
-        "news_762943903cae",
-        "news_4dba62f206fc",
         "news_3a44df05119d",
         "news_864d35be0dd9",
         "news_61e0bf602d72",
@@ -190,18 +188,20 @@
         "news_7c78b0f47641",
         "news_1a787add26bb",
         "news_df381a62beca",
-        "news_c92297e2a027"
+        "news_c92297e2a027",
+        "news_7a950635f158",
+        "news_de659997460e"
       ],
       "status": "developing",
-      "summary": "央行“锁长放短”稳定资金预期，11月买断式逆回购净回笼3000亿元",
-      "latestProgress": "央行开展买断式逆回购操作净回笼3000亿，释放稳汇率信号"
+      "summary": "黄仁勋离职引发连锁震荡，AI领域相关企业融资环境趋紧",
+      "latestProgress": "日本经济再现负增长，日央行12月加息悬念待解"
     },
     {
       "eventId": "event_d0c306eb334b",
       "clusterVersion": 2,
       "title": "吴清主席在首届中国资本市场学术年会开幕式上的致辞",
       "firstSeenAt": "2026-11-14T06:23:15.009Z",
-      "lastSeenAt": "2026-11-16T22:15:52.545Z",
+      "lastSeenAt": "2026-11-17T08:02:08.437Z",
       "latestItemPublishedAt": "2026-11-14T04:07:22.000Z",
       "primaryItemId": "news_7c17994d15e5",
       "evidenceItemIds": [
@@ -210,39 +210,18 @@
         "news_7c17994d15e5"
       ],
       "status": "developing",
-      "summary": "吴清于首届中国资本市场学术年会开幕式致辞，为中国资本市场发展明确方向",
-      "latestProgress": "2026年11月13日，吴清主席在首届中国资本市场学术年会开幕式正式发表致辞"
-    },
-    {
-      "eventId": "event_a4c277bef24a",
-      "clusterVersion": 2,
-      "title": "中国证监会同意氢氧化锂期货和期权注册",
-      "firstSeenAt": "2026-11-06T12:07:36.692Z",
-      "lastSeenAt": "2026-11-16T22:15:52.545Z",
-      "latestItemPublishedAt": "2026-11-05T23:28:09.000Z",
-      "primaryItemId": "news_0e0e861c68d3",
-      "evidenceItemIds": [
-        "news_f29e9054dccc",
-        "news_52303c0c72da",
-        "news_0e0e861c68d3",
-        "news_ea0c0a809eb4",
-        "news_63e9f32c1023"
-      ],
-      "status": "developing",
-      "summary": "2026年11月5日中国证监会同意氢氧化锂、葵花籽油期货和期权注册。",
-      "latestProgress": "2026年11月5日证监会正式同意氢氧化锂期货及期权注册。"
+      "summary": "吴清在首届中国资本市场学术年会开幕式致辞，为中国资本市场高质量发展指明路径",
+      "latestProgress": "2026年11月13日，吴清主席于首届中国资本市场学术年会开幕式发表致辞，释放资本市场改革利好"
     },
     {
       "eventId": "event_c68d651d4ff9",
       "clusterVersion": 2,
-      "title": "高盛2027年中国股市展望：AI交易面临盈利压力，资金转向港股，MSCI中国指数有望涨23%",
+      "title": "港股公告精选｜华住集团三季度净赚18亿元 华润电力前10月光伏发电量增约四成",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-11-16T22:15:52.545Z",
+      "lastSeenAt": "2026-11-17T08:02:08.437Z",
       "latestItemPublishedAt": "2026-11-16T13:11:31.000Z",
-      "primaryItemId": "news_3933aeaf2b5b",
+      "primaryItemId": "news_4ba23206e4a3",
       "evidenceItemIds": [
-        "news_05053833c974",
-        "news_524f9e5d2fdd",
         "news_490da392ee38",
         "news_71d58afbcb39",
         "news_623097a3e44a",
@@ -290,18 +269,20 @@
         "news_53dab9f8a29b",
         "news_9e121f8a062e",
         "news_dbf02144ba17",
-        "news_4ba23206e4a3"
+        "news_4ba23206e4a3",
+        "news_a2bf2608bf43",
+        "news_2ed2e4f127e9"
       ],
       "status": "developing",
-      "summary": "智通发布11月16日港股投资日志，涵盖皖通高速异动、高盛中国股市展望相关内容。",
-      "latestProgress": "高盛发布2027年中国股市展望，称资金转向港股，MSCI中国指数有望涨23%。"
+      "summary": "港股多公司发公告，华住Q3净赚18亿，华润电力前10月光伏发电量增四成。",
+      "latestProgress": "11月17日中泰证券维持华虹宏力买入评级，港股半导体股受提振走强。"
     },
     {
       "eventId": "event_dfaabb0d5325",
       "clusterVersion": 2,
       "title": "美联储官员警告：AI自动转账或成银行挤兑新推手",
       "firstSeenAt": "2026-11-16T12:47:15.250Z",
-      "lastSeenAt": "2026-11-16T22:15:52.545Z",
+      "lastSeenAt": "2026-11-17T08:02:08.437Z",
       "latestItemPublishedAt": "2026-11-16T12:04:28.000Z",
       "primaryItemId": "news_8e057bcb28be",
       "evidenceItemIds": [
@@ -309,15 +290,15 @@
         "news_4f257fabe20b"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "美联储官员警示AI自动转账可能成为银行挤兑新推手",
+      "latestProgress": "美联储巴尔警示AI或引发银行挤兑、交易踩踏等金融风险"
     },
     {
       "eventId": "event_3a39bb170b2a",
       "clusterVersion": 2,
       "title": "SemiAnalysis大幅下修AI算力预测：2028年资本开支预测下调近三成，五年硅片出货面积下调17%，英伟达受冲击",
       "firstSeenAt": "2026-11-16T12:47:15.250Z",
-      "lastSeenAt": "2026-11-16T22:15:52.545Z",
+      "lastSeenAt": "2026-11-17T08:02:08.437Z",
       "latestItemPublishedAt": "2026-11-16T11:50:25.000Z",
       "primaryItemId": "news_0d1e66c7eefd",
       "evidenceItemIds": [
@@ -325,15 +306,15 @@
         "news_91a7022ffc11"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "SemiAnalysis大幅下修AI算力预测，2028年资本开支预测下调近三成，五年硅片出货面积下调17%，英伟达受冲击最严重",
+      "latestProgress": "SemiAnalysis发布下修后的AI算力预测，相关产业链预期承压"
     },
     {
       "eventId": "event_09b982c2e9c2",
       "clusterVersion": 2,
       "title": "财联社11月16日电，NBA计划设立数十亿欧元基础设施基金，用于欧洲联赛。",
       "firstSeenAt": "2026-11-16T12:47:15.250Z",
-      "lastSeenAt": "2026-11-16T22:15:52.545Z",
+      "lastSeenAt": "2026-11-17T08:02:08.437Z",
       "latestItemPublishedAt": "2026-11-16T11:47:22.000Z",
       "primaryItemId": "news_53bebaca4445",
       "evidenceItemIds": [
@@ -341,15 +322,15 @@
         "news_1d9d5218d659"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "NBA计划设立数十亿欧元基础设施基金，用于支持欧洲联赛发展。",
+      "latestProgress": "NBA正式公布数十亿欧元基础设施基金计划，用于欧洲联赛建设。"
     },
     {
       "eventId": "event_de9d3aa743c5",
       "clusterVersion": 2,
       "title": "胜宏科技：拟1.5亿元至3亿元回购公司股份",
       "firstSeenAt": "2026-11-16T12:47:15.250Z",
-      "lastSeenAt": "2026-11-16T22:15:52.545Z",
+      "lastSeenAt": "2026-11-17T08:02:08.437Z",
       "latestItemPublishedAt": "2026-11-16T11:44:33.000Z",
       "primaryItemId": "news_549b4b7a76af",
       "evidenceItemIds": [
@@ -357,15 +338,15 @@
         "news_e91be4e61c4b"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "胜宏科技披露拟使用1.5亿元至3亿元资金回购公司股份",
+      "latestProgress": "胜宏科技公告拟斥资1.5亿至3亿元回购公司股份"
     },
     {
       "eventId": "event_a2038ca2f870",
       "clusterVersion": 2,
       "title": "礼来公司拟以最高15亿美元收购Calytrix Bio",
       "firstSeenAt": "2026-11-16T12:47:15.250Z",
-      "lastSeenAt": "2026-11-16T22:15:52.545Z",
+      "lastSeenAt": "2026-11-17T08:02:08.437Z",
       "latestItemPublishedAt": "2026-11-16T12:15:26.000Z",
       "primaryItemId": "news_d534ed065582",
       "evidenceItemIds": [
@@ -373,15 +354,15 @@
         "news_b343fef80778"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "礼来公司拟以最高15亿美元现金收购Calytrix Bio",
+      "latestProgress": "礼来15亿美元收购Calytrix Bio的计划正式披露"
     },
     {
       "eventId": "event_9e320dba578d",
       "clusterVersion": 2,
       "title": "贝森特与美联储高官交锋：通胀源于能源冲击还是需求过热，美联储加息路径争论升温",
       "firstSeenAt": "2026-11-06T07:06:11.933Z",
-      "lastSeenAt": "2026-11-16T22:15:52.545Z",
+      "lastSeenAt": "2026-11-17T08:02:08.437Z",
       "latestItemPublishedAt": "2026-11-16T19:13:04.000Z",
       "primaryItemId": "news_a00f36e5c972",
       "evidenceItemIds": [
@@ -429,24 +410,172 @@
         "news_68ff199885f0"
       ],
       "status": "developing",
-      "summary": "美联储加息押注升温施压贵金属，黄金或创六月来最大单周跌幅",
-      "latestProgress": "美联储柯林斯称通胀就业数据下，或需比近期预期更多加息，金融状况或更严重抑制经济"
+      "summary": "贝森特与美联储高官就通胀成因、加息路径交锋，相关争论升温。",
+      "latestProgress": "美联储哈马克表示倾向稳步缓慢加息，若通胀心态形成或需更大举措。"
     },
     {
       "eventId": "event_218c785f7e8c",
       "clusterVersion": 2,
       "title": "伯克希尔三季度减持美国银行。 重仓苹果、美国运通、可口可乐、谷歌A、美国银行",
       "firstSeenAt": "2026-11-16T22:15:52.545Z",
-      "lastSeenAt": "2026-11-16T22:15:52.545Z",
-      "latestItemPublishedAt": "2026-11-16T21:22:18.000Z",
+      "lastSeenAt": "2026-11-17T08:02:08.437Z",
+      "latestItemPublishedAt": "2026-11-17T00:53:47.000Z",
       "primaryItemId": "news_348e2011cf53",
       "evidenceItemIds": [
         "news_348e2011cf53",
-        "news_6726991f14af"
+        "news_6726991f14af",
+        "news_8929659beaa5"
+      ],
+      "status": "developing",
+      "summary": "伯克希尔三季度减持美国银行，重仓苹果、美国运通等标的。",
+      "latestProgress": "伯克希尔Q3持仓报告出炉，减持美国银行还新建仓软件股。"
+    },
+    {
+      "eventId": "event_fbbe267da343",
+      "clusterVersion": 2,
+      "title": "外交部批美国经济胁迫：美国无理打压中国高新技术产业发展",
+      "firstSeenAt": "2026-11-17T08:02:08.437Z",
+      "lastSeenAt": "2026-11-17T08:02:08.437Z",
+      "latestItemPublishedAt": "2026-11-17T07:30:29.000Z",
+      "primaryItemId": "news_faf7b56e3b17",
+      "evidenceItemIds": [
+        "news_faf7b56e3b17",
+        "news_fbd11f1b9f10"
       ],
       "status": "developing",
       "summary": "",
       "latestProgress": ""
+    },
+    {
+      "eventId": "event_a97b587d5a11",
+      "clusterVersion": 2,
+      "title": "瑞银认为中国股票有10%至15%上行空间 盈利和估值提供支撑",
+      "firstSeenAt": "2026-11-17T08:02:08.437Z",
+      "lastSeenAt": "2026-11-17T08:02:08.437Z",
+      "latestItemPublishedAt": "2026-11-17T06:41:45.000Z",
+      "primaryItemId": "news_221d998a5a92",
+      "evidenceItemIds": [
+        "news_221d998a5a92",
+        "news_36617cfc8155"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_92b44612ece9",
+      "clusterVersion": 2,
+      "title": "第二次中加经济财金战略对话联合成果文件发布",
+      "firstSeenAt": "2026-11-17T08:02:08.437Z",
+      "lastSeenAt": "2026-11-17T08:02:08.437Z",
+      "latestItemPublishedAt": "2026-11-17T05:54:16.000Z",
+      "primaryItemId": "news_f7f09fd8f8ff",
+      "evidenceItemIds": [
+        "news_f7f09fd8f8ff",
+        "news_470c47918818"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_d722d52c31dc",
+      "clusterVersion": 2,
+      "title": "解码AI\"思维\"的初创公司身价几何？OpenAI曾给出50亿美元",
+      "firstSeenAt": "2026-11-17T08:02:08.437Z",
+      "lastSeenAt": "2026-11-17T08:02:08.437Z",
+      "latestItemPublishedAt": "2026-11-17T02:44:41.000Z",
+      "primaryItemId": "news_8f7691d64bda",
+      "evidenceItemIds": [
+        "news_8f7691d64bda",
+        "news_f0f24fa80ef5"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_f4b64019fa38",
+      "clusterVersion": 2,
+      "title": "高盛一个月内第二次下调年底黄金目标价，金价会跌到哪儿？",
+      "firstSeenAt": "2026-11-17T08:02:08.437Z",
+      "lastSeenAt": "2026-11-17T08:02:08.437Z",
+      "latestItemPublishedAt": "2026-11-17T05:53:54.000Z",
+      "primaryItemId": "news_5b69aa3a1d3a",
+      "evidenceItemIds": [
+        "news_5b69aa3a1d3a",
+        "news_1b079b29edb8"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_ef339f6bd905",
+      "clusterVersion": 2,
+      "title": "财联社11月17日电，加拿大养老金计划基金加入北欧资本，参与30亿欧元的Cary交易。",
+      "firstSeenAt": "2026-11-17T08:02:08.437Z",
+      "lastSeenAt": "2026-11-17T08:02:08.437Z",
+      "latestItemPublishedAt": "2026-11-17T06:39:53.000Z",
+      "primaryItemId": "news_0bdd9dcfed8d",
+      "evidenceItemIds": [
+        "news_0bdd9dcfed8d",
+        "news_ee77cd8b07ad"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_03f9c70a811e",
+      "clusterVersion": 2,
+      "title": "胜宏科技：拟向多家银行申请合计707亿元授信额度",
+      "firstSeenAt": "2026-11-17T08:02:08.437Z",
+      "lastSeenAt": "2026-11-17T08:02:08.437Z",
+      "latestItemPublishedAt": "2026-11-16T12:17:31.000Z",
+      "primaryItemId": "news_350742ef192e",
+      "evidenceItemIds": [
+        "news_350742ef192e",
+        "news_4752d9370c44"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_8b9be067db9c",
+      "clusterVersion": 2,
+      "title": "胜宏科技：拟向马来西亚子公司增资不超1.7亿美元 用于承接核心国际客户FPC及软硬结合板订单",
+      "firstSeenAt": "2026-11-17T08:02:08.437Z",
+      "lastSeenAt": "2026-11-17T08:02:08.437Z",
+      "latestItemPublishedAt": "2026-11-16T11:42:20.000Z",
+      "primaryItemId": "news_7f58a37e6d6a",
+      "evidenceItemIds": [
+        "news_7f58a37e6d6a",
+        "news_e1f95386b43c"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_a4c277bef24a",
+      "clusterVersion": 2,
+      "title": "中国证监会同意氢氧化锂期货和期权注册",
+      "firstSeenAt": "2026-11-06T12:07:36.692Z",
+      "lastSeenAt": "2026-11-16T22:15:52.545Z",
+      "latestItemPublishedAt": "2026-11-05T23:28:09.000Z",
+      "primaryItemId": "news_0e0e861c68d3",
+      "evidenceItemIds": [
+        "news_f29e9054dccc",
+        "news_52303c0c72da",
+        "news_0e0e861c68d3",
+        "news_ea0c0a809eb4",
+        "news_63e9f32c1023"
+      ],
+      "status": "developing",
+      "summary": "2026年11月5日中国证监会同意氢氧化锂、葵花籽油期货和期权注册。",
+      "latestProgress": "2026年11月5日证监会正式同意氢氧化锂期货及期权注册。"
     },
     {
       "eventId": "event_df51e8083b3e",

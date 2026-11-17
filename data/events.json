@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-17T17:43:54.255Z",
+  "generatedAt": "2026-11-17T21:05:22.219Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -9,7 +9,7 @@
       "clusterVersion": 2,
       "title": "科技股巨震 美股投资大佬三季度布局现结构性分歧",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-17T17:43:54.255Z",
+      "lastSeenAt": "2026-11-17T21:05:22.219Z",
       "latestItemPublishedAt": "2026-11-17T15:54:47.000Z",
       "primaryItemId": "news_e98fcbc67e06",
       "evidenceItemIds": [
@@ -71,11 +71,11 @@
     {
       "eventId": "event_a3c5d0364922",
       "clusterVersion": 2,
-      "title": "A股公告精选 | 东吴证券(601555.SH)重组过会 拟收购东海证券83.68%股份",
+      "title": "A股低价股增至107只，面值退市预警拉响",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-17T17:43:54.255Z",
+      "lastSeenAt": "2026-11-17T21:05:22.219Z",
       "latestItemPublishedAt": "2026-11-17T13:20:33.000Z",
-      "primaryItemId": "news_35b494c50d44",
+      "primaryItemId": "news_5a6c9d76ef52",
       "evidenceItemIds": [
         "news_eee1cd9cc5d7",
         "news_84e7046e66f1",
@@ -137,7 +137,7 @@
       "clusterVersion": 2,
       "title": "日本经济再现负增长，日央行12月还加息吗",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-17T17:43:54.255Z",
+      "lastSeenAt": "2026-11-17T21:05:22.219Z",
       "latestItemPublishedAt": "2026-11-17T12:53:48.000Z",
       "primaryItemId": "news_de659997460e",
       "evidenceItemIds": [
@@ -201,7 +201,7 @@
       "clusterVersion": 2,
       "title": "港股异动｜药明巨诺-B(02126)再跌超9% CAR-T药降价百万进医保 拟折让2.97%配股筹1.6亿港元",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-11-17T17:43:54.255Z",
+      "lastSeenAt": "2026-11-17T21:05:22.219Z",
       "latestItemPublishedAt": "2026-11-17T13:08:24.000Z",
       "primaryItemId": "news_95302ca301f8",
       "evidenceItemIds": [
@@ -265,8 +265,8 @@
       "clusterVersion": 2,
       "title": "美联储官员Musalem：明年春季前或需“多次”加息，以控制通胀",
       "firstSeenAt": "2026-11-06T07:06:11.933Z",
-      "lastSeenAt": "2026-11-17T17:43:54.255Z",
-      "latestItemPublishedAt": "2026-11-17T12:32:25.000Z",
+      "lastSeenAt": "2026-11-17T21:05:22.219Z",
+      "latestItemPublishedAt": "2026-11-17T18:20:53.000Z",
       "primaryItemId": "news_a9ce3d3de796",
       "evidenceItemIds": [
         "news_e3dfc68073f5",
@@ -311,7 +311,8 @@
         "news_a72856298f64",
         "news_1cdc132a325c",
         "news_68ff199885f0",
-        "news_a9ce3d3de796"
+        "news_a9ce3d3de796",
+        "news_1fed81f3d7e2"
       ],
       "status": "developing",
       "summary": "贝森特与美联储高官就通胀成因、加息路径交锋，相关争论升温。",
@@ -322,7 +323,7 @@
       "clusterVersion": 2,
       "title": "中国证监会同意氢氧化锂期货和期权注册",
       "firstSeenAt": "2026-11-06T12:07:36.692Z",
-      "lastSeenAt": "2026-11-17T17:43:54.255Z",
+      "lastSeenAt": "2026-11-17T21:05:22.219Z",
       "latestItemPublishedAt": "2026-11-05T23:28:09.000Z",
       "primaryItemId": "news_0e0e861c68d3",
       "evidenceItemIds": [
@@ -341,7 +342,7 @@
       "clusterVersion": 2,
       "title": "Anthropic：亚马逊将持有已发行N类股票的48.2%。 亚马逊将持有已发行股本的23.8%。",
       "firstSeenAt": "2026-11-17T13:27:08.503Z",
-      "lastSeenAt": "2026-11-17T17:43:54.255Z",
+      "lastSeenAt": "2026-11-17T21:05:22.219Z",
       "latestItemPublishedAt": "2026-11-17T11:42:37.000Z",
       "primaryItemId": "news_2de69fd8a839",
       "evidenceItemIds": [
@@ -357,7 +358,7 @@
       "clusterVersion": 2,
       "title": "Anthropic：我们已获准在纳斯达克全球精选市场上市A类普通股，股票代码为“ANT”。",
       "firstSeenAt": "2026-11-17T13:27:08.503Z",
-      "lastSeenAt": "2026-11-17T17:43:54.255Z",
+      "lastSeenAt": "2026-11-17T21:05:22.219Z",
       "latestItemPublishedAt": "2026-11-17T11:36:54.000Z",
       "primaryItemId": "news_b7010c5cee3c",
       "evidenceItemIds": [
@@ -374,7 +375,7 @@
       "clusterVersion": 2,
       "title": "财联社11月17日电，瑞穗银行对贝莱德启动覆盖研究，给予“跑赢大盘”评级，目标价1450美元。",
       "firstSeenAt": "2026-11-17T13:27:08.503Z",
-      "lastSeenAt": "2026-11-17T17:43:54.255Z",
+      "lastSeenAt": "2026-11-17T21:05:22.219Z",
       "latestItemPublishedAt": "2026-11-17T11:43:31.000Z",
       "primaryItemId": "news_c7d3a39b8917",
       "evidenceItemIds": [
@@ -391,7 +392,7 @@
       "clusterVersion": 2,
       "title": "同宇新材(301630.SZ)拟投资约3亿元建设高性能树脂材料项目",
       "firstSeenAt": "2026-11-17T13:27:08.503Z",
-      "lastSeenAt": "2026-11-17T17:43:54.255Z",
+      "lastSeenAt": "2026-11-17T21:05:22.219Z",
       "latestItemPublishedAt": "2026-11-17T11:29:19.000Z",
       "primaryItemId": "news_2ab2a05757dd",
       "evidenceItemIds": [
@@ -407,7 +408,7 @@
       "clusterVersion": 2,
       "title": "同宇新材(301630.SZ)子公司拟投资约5.24亿元建设年产20万吨电子树脂项目二期",
       "firstSeenAt": "2026-11-17T13:27:08.503Z",
-      "lastSeenAt": "2026-11-17T17:43:54.255Z",
+      "lastSeenAt": "2026-11-17T21:05:22.219Z",
       "latestItemPublishedAt": "2026-11-17T11:29:14.000Z",
       "primaryItemId": "news_535afd631576",
       "evidenceItemIds": [
@@ -423,7 +424,7 @@
       "clusterVersion": 2,
       "title": "正泰电源：拟投资8.21亿元建设年产2GWh高功率UPS电源项目",
       "firstSeenAt": "2026-11-17T13:27:08.503Z",
-      "lastSeenAt": "2026-11-17T17:43:54.255Z",
+      "lastSeenAt": "2026-11-17T21:05:22.219Z",
       "latestItemPublishedAt": "2026-11-17T12:10:18.000Z",
       "primaryItemId": "news_1fb58f73de03",
       "evidenceItemIds": [
@@ -439,7 +440,7 @@
       "clusterVersion": 2,
       "title": "工信部：同意北京市、河北省、上海市、江苏省、浙江省、安徽省、湖北省、广东省作为6G创新发展部省协同试点省（市）",
       "firstSeenAt": "2026-11-17T17:43:54.255Z",
-      "lastSeenAt": "2026-11-17T17:43:54.255Z",
+      "lastSeenAt": "2026-11-17T21:05:22.219Z",
       "latestItemPublishedAt": "2026-11-17T15:16:39.000Z",
       "primaryItemId": "news_a68955604aa1",
       "evidenceItemIds": [
@@ -455,12 +456,28 @@
       "clusterVersion": 2,
       "title": "财政部：中加双方同意探索扩大双边贸易和投资中的本币使用 鼓励双向投资",
       "firstSeenAt": "2026-11-17T17:43:54.255Z",
-      "lastSeenAt": "2026-11-17T17:43:54.255Z",
+      "lastSeenAt": "2026-11-17T21:05:22.219Z",
       "latestItemPublishedAt": "2026-11-17T06:02:36.000Z",
       "primaryItemId": "news_675e2c42db56",
       "evidenceItemIds": [
         "news_675e2c42db56",
         "news_2579f7f55ee7"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_b53b996f4342",
+      "clusterVersion": 2,
+      "title": "利弗莫尔中概股龙头指数跌幅扩大至2%",
+      "firstSeenAt": "2026-11-17T21:05:22.219Z",
+      "lastSeenAt": "2026-11-17T21:05:22.219Z",
+      "latestItemPublishedAt": "2026-11-17T20:00:46.000Z",
+      "primaryItemId": "news_f8bb69031a51",
+      "evidenceItemIds": [
+        "news_f8bb69031a51",
+        "news_3feb3f809a6f"
       ],
       "status": "developing",
       "summary": "",

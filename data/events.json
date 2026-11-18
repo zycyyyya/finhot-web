@@ -1,19 +1,18 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-18T07:30:41.584Z",
+  "generatedAt": "2026-11-18T13:08:32.597Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
       "eventId": "event_f101880ef7bc",
       "clusterVersion": 2,
-      "title": "科技股巨震 美股投资大佬三季度布局现结构性分歧",
+      "title": "美股前瞻 | 三大股指期货涨跌不一 英伟达强劲财报缓解AI交易疑虑 Anthropic IPO定价在即",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-18T07:30:41.584Z",
-      "latestItemPublishedAt": "2026-11-17T13:04:50.000Z",
-      "primaryItemId": "news_e98fcbc67e06",
+      "lastSeenAt": "2026-11-18T13:08:32.597Z",
+      "latestItemPublishedAt": "2026-11-18T04:42:34.000Z",
+      "primaryItemId": "news_c7d71ed71214",
       "evidenceItemIds": [
-        "news_ed4f442b8386",
         "news_c558551d5c02",
         "news_4506ade3ade6",
         "news_0af1cf880189",
@@ -62,7 +61,8 @@
         "news_5319b6d09b5c",
         "news_e98fcbc67e06",
         "news_7fc4e3ee9d82",
-        "news_4e081e3a6567"
+        "news_4e081e3a6567",
+        "news_c7d71ed71214"
       ],
       "status": "developing",
       "summary": "科技股巨震下，美股投资大佬三季度布局现结构性分歧，中概普遍获加仓、AI硬件存巨大分歧。",
@@ -71,16 +71,12 @@
     {
       "eventId": "event_a3c5d0364922",
       "clusterVersion": 2,
-      "title": "A股低价股增至107只，面值退市预警拉响",
+      "title": "洛阳钼业(03993)11月18日斥资约9999.85万元回购825.4万股A股",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-18T07:30:41.584Z",
-      "latestItemPublishedAt": "2026-11-17T13:20:33.000Z",
-      "primaryItemId": "news_5a6c9d76ef52",
+      "lastSeenAt": "2026-11-18T13:08:32.597Z",
+      "latestItemPublishedAt": "2026-11-18T12:26:49.000Z",
+      "primaryItemId": "news_09fab3721d5d",
       "evidenceItemIds": [
-        "news_1f29952c4f02",
-        "news_a1975669ee44",
-        "news_8bb70fdc80ff",
-        "news_dd650a1266cd",
         "news_378aed5375cd",
         "news_bf44564be414",
         "news_87e3f9f8c5d8",
@@ -126,7 +122,11 @@
         "news_9efa18335b99",
         "news_35b494c50d44",
         "news_cf072a774d5a",
-        "news_2fce00e50316"
+        "news_2fce00e50316",
+        "news_09fab3721d5d",
+        "news_19f2578648cd",
+        "news_e524c143bb2b",
+        "news_37729827498b"
       ],
       "status": "developing",
       "summary": "A股低价股增至107只，5家公司股价跌破1元拉响面值退市警报",
@@ -135,14 +135,12 @@
     {
       "eventId": "event_2cf716748ce1",
       "clusterVersion": 2,
-      "title": "财联社11月18日电，印尼央行预测2026年印尼GDP增速为4.9%-5.7%。",
+      "title": "只剩央行一个买家！时隔11天，高盛再度下调黄金目标价至4650美元",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-18T07:30:41.584Z",
+      "lastSeenAt": "2026-11-18T13:08:32.597Z",
       "latestItemPublishedAt": "2026-11-18T07:14:29.000Z",
-      "primaryItemId": "news_68ec63728586",
+      "primaryItemId": "news_09e7fb3afed4",
       "evidenceItemIds": [
-        "news_7518ca5173a0",
-        "news_1e2162cce252",
         "news_9da75dba4050",
         "news_843faa5604d1",
         "news_59985e5be6cc",
@@ -190,7 +188,9 @@
         "news_22805ba4de9b",
         "news_09e7fb3afed4",
         "news_68ec63728586",
-        "news_d5169422c3cb"
+        "news_d5169422c3cb",
+        "news_bf10af887209",
+        "news_02f00fd6bc94"
       ],
       "status": "developing",
       "summary": "11月18日印尼央行预测2026年GDP增速4.9%-5.7%，同时称将采取措施维持印尼盾稳定。",
@@ -199,14 +199,12 @@
     {
       "eventId": "event_c68d651d4ff9",
       "clusterVersion": 2,
-      "title": "港股异动｜药明巨诺-B(02126)再跌超9% CAR-T药降价百万进医保 拟折让2.97%配股筹1.6亿港元",
+      "title": "港股异动 | 基石药业-B(02616)午后涨超11% 公司计划于2026年底启动CS2009全球III期注册临床",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-11-18T07:30:41.584Z",
-      "latestItemPublishedAt": "2026-11-18T07:17:35.000Z",
-      "primaryItemId": "news_95302ca301f8",
+      "lastSeenAt": "2026-11-18T13:08:32.597Z",
+      "latestItemPublishedAt": "2026-11-18T08:32:03.000Z",
+      "primaryItemId": "news_2024af7efb8c",
       "evidenceItemIds": [
-        "news_28bc0ce86ead",
-        "news_a9bc91ea3f05",
         "news_fafb3ff5ebaf",
         "news_4699b05a3b76",
         "news_3ff30cf78cbc",
@@ -254,7 +252,9 @@
         "news_95302ca301f8",
         "news_3730b529e94b",
         "news_300ab56f8d48",
-        "news_d600b6fd6554"
+        "news_d600b6fd6554",
+        "news_2024af7efb8c",
+        "news_f85b51fc7151"
       ],
       "status": "developing",
       "summary": "药明巨诺受CAR-T降价进医保及折让配股影响，股价再跌超9%",
@@ -263,11 +263,11 @@
     {
       "eventId": "event_9e320dba578d",
       "clusterVersion": 2,
-      "title": "美联储官员Musalem：明年春季前或需“多次”加息，以控制通胀",
+      "title": "美联储理事沃勒：如果不想释放1月加息的信号，就应该在12月加息50个基点",
       "firstSeenAt": "2026-11-06T07:06:11.933Z",
-      "lastSeenAt": "2026-11-18T07:30:41.584Z",
-      "latestItemPublishedAt": "2026-11-17T18:20:53.000Z",
-      "primaryItemId": "news_a9ce3d3de796",
+      "lastSeenAt": "2026-11-18T13:08:32.597Z",
+      "latestItemPublishedAt": "2026-11-18T12:43:38.000Z",
+      "primaryItemId": "news_547e35f53fc0",
       "evidenceItemIds": [
         "news_e3dfc68073f5",
         "news_db2f75a6b4f0",
@@ -312,11 +312,133 @@
         "news_1cdc132a325c",
         "news_68ff199885f0",
         "news_a9ce3d3de796",
-        "news_1fed81f3d7e2"
+        "news_1fed81f3d7e2",
+        "news_547e35f53fc0",
+        "news_56e6350b7ece"
       ],
       "status": "developing",
       "summary": "美联储官员Musalem称明年春季前或需多次加息以控制通胀",
       "latestProgress": "该官员释放迄今最鹰派信号，或连续加息四次控通胀"
+    },
+    {
+      "eventId": "event_b53b996f4342",
+      "clusterVersion": 2,
+      "title": "利弗莫尔中概股龙头指数跌幅扩大至2%",
+      "firstSeenAt": "2026-11-17T21:05:22.219Z",
+      "lastSeenAt": "2026-11-18T13:08:32.597Z",
+      "latestItemPublishedAt": "2026-11-17T20:00:46.000Z",
+      "primaryItemId": "news_f8bb69031a51",
+      "evidenceItemIds": [
+        "news_f8bb69031a51",
+        "news_3feb3f809a6f"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_218c785f7e8c",
+      "clusterVersion": 2,
+      "title": "摩根大通系统故障波及多家美国银行 基础服务稳定性受考验",
+      "firstSeenAt": "2026-11-16T22:15:52.545Z",
+      "lastSeenAt": "2026-11-18T13:08:32.597Z",
+      "latestItemPublishedAt": "2026-11-18T11:17:42.000Z",
+      "primaryItemId": "news_ab0d114c5e3c",
+      "evidenceItemIds": [
+        "news_348e2011cf53",
+        "news_6726991f14af",
+        "news_8929659beaa5",
+        "news_ab0d114c5e3c",
+        "news_9f2560264aff"
+      ],
+      "status": "developing",
+      "summary": "伯克希尔三季度减持美国银行，重仓苹果、美国运通等标的。",
+      "latestProgress": "伯克希尔Q3持仓报告出炉，减持美国银行还新建仓软件股。"
+    },
+    {
+      "eventId": "event_e14b215627f7",
+      "clusterVersion": 2,
+      "title": "证监会：“监管要求基金公司上报全部产品AI敞口”不实",
+      "firstSeenAt": "2026-11-18T07:30:41.584Z",
+      "lastSeenAt": "2026-11-18T13:08:32.597Z",
+      "latestItemPublishedAt": "2026-11-18T05:30:17.000Z",
+      "primaryItemId": "news_daa57c7d9ec3",
+      "evidenceItemIds": [
+        "news_daa57c7d9ec3",
+        "news_8d361b621bff"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_b4344a47b077",
+      "clusterVersion": 2,
+      "title": "3分钟读懂主动ETF（下篇）",
+      "firstSeenAt": "2026-11-18T07:30:41.584Z",
+      "lastSeenAt": "2026-11-18T13:08:32.597Z",
+      "latestItemPublishedAt": "2026-11-18T02:54:20.000Z",
+      "primaryItemId": "news_d04ab4d0eb65",
+      "evidenceItemIds": [
+        "news_d04ab4d0eb65",
+        "news_8d9cfa515c5f"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_a4c277bef24a",
+      "clusterVersion": 2,
+      "title": "中国证监会同意氢氧化锂期货和期权注册",
+      "firstSeenAt": "2026-11-06T12:07:36.692Z",
+      "lastSeenAt": "2026-11-18T13:08:32.597Z",
+      "latestItemPublishedAt": "2026-11-05T23:28:09.000Z",
+      "primaryItemId": "news_0e0e861c68d3",
+      "evidenceItemIds": [
+        "news_f29e9054dccc",
+        "news_52303c0c72da",
+        "news_0e0e861c68d3",
+        "news_ea0c0a809eb4",
+        "news_63e9f32c1023"
+      ],
+      "status": "developing",
+      "summary": "2026年11月5日中国证监会同意氢氧化锂、葵花籽油期货和期权注册。",
+      "latestProgress": "2026年11月5日证监会正式同意氢氧化锂期货及期权注册。"
+    },
+    {
+      "eventId": "event_e4e2aed7a7e3",
+      "clusterVersion": 2,
+      "title": "财联社11月18日电，日本央行行长植田和男定于11月19日上午10点起出席国会会议。",
+      "firstSeenAt": "2026-11-16T06:31:29.509Z",
+      "lastSeenAt": "2026-11-18T13:08:32.597Z",
+      "latestItemPublishedAt": "2026-11-18T11:31:28.000Z",
+      "primaryItemId": "news_d376d5188239",
+      "evidenceItemIds": [
+        "news_2b1dcd0d3a69",
+        "news_9a5f9fed6322",
+        "news_d376d5188239"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_afd95bcad936",
+      "clusterVersion": 2,
+      "title": "欧洲央行或于25日讨论将银行最低准备金要求从1%提高至2%",
+      "firstSeenAt": "2026-11-18T13:08:32.597Z",
+      "lastSeenAt": "2026-11-18T13:08:32.597Z",
+      "latestItemPublishedAt": "2026-11-18T12:53:56.000Z",
+      "primaryItemId": "news_3d2c9988f514",
+      "evidenceItemIds": [
+        "news_3d2c9988f514",
+        "news_6793eb6100ef",
+        "news_cf8282c9f1c1"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
     },
     {
       "eventId": "event_7fcbf9a9ee85",
@@ -434,72 +556,6 @@
       "latestProgress": "2026年11月17日工信部正式批复同意相关省市开展6G创新发展部省协同试点工作"
     },
     {
-      "eventId": "event_b53b996f4342",
-      "clusterVersion": 2,
-      "title": "利弗莫尔中概股龙头指数跌幅扩大至2%",
-      "firstSeenAt": "2026-11-17T21:05:22.219Z",
-      "lastSeenAt": "2026-11-18T07:30:41.584Z",
-      "latestItemPublishedAt": "2026-11-17T20:00:46.000Z",
-      "primaryItemId": "news_f8bb69031a51",
-      "evidenceItemIds": [
-        "news_f8bb69031a51",
-        "news_3feb3f809a6f"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_218c785f7e8c",
-      "clusterVersion": 2,
-      "title": "摩根大通系统故障波及多家美国银行 基础服务稳定性受考验",
-      "firstSeenAt": "2026-11-16T22:15:52.545Z",
-      "lastSeenAt": "2026-11-18T07:30:41.584Z",
-      "latestItemPublishedAt": "2026-11-18T06:44:17.000Z",
-      "primaryItemId": "news_ab0d114c5e3c",
-      "evidenceItemIds": [
-        "news_348e2011cf53",
-        "news_6726991f14af",
-        "news_8929659beaa5",
-        "news_ab0d114c5e3c"
-      ],
-      "status": "developing",
-      "summary": "伯克希尔三季度减持美国银行，重仓苹果、美国运通等标的。",
-      "latestProgress": "伯克希尔Q3持仓报告出炉，减持美国银行还新建仓软件股。"
-    },
-    {
-      "eventId": "event_e14b215627f7",
-      "clusterVersion": 2,
-      "title": "证监会：“监管要求基金公司上报全部产品AI敞口”不实",
-      "firstSeenAt": "2026-11-18T07:30:41.584Z",
-      "lastSeenAt": "2026-11-18T07:30:41.584Z",
-      "latestItemPublishedAt": "2026-11-18T05:30:17.000Z",
-      "primaryItemId": "news_daa57c7d9ec3",
-      "evidenceItemIds": [
-        "news_daa57c7d9ec3",
-        "news_8d361b621bff"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_b4344a47b077",
-      "clusterVersion": 2,
-      "title": "3分钟读懂主动ETF（下篇）",
-      "firstSeenAt": "2026-11-18T07:30:41.584Z",
-      "lastSeenAt": "2026-11-18T07:30:41.584Z",
-      "latestItemPublishedAt": "2026-11-18T02:54:20.000Z",
-      "primaryItemId": "news_d04ab4d0eb65",
-      "evidenceItemIds": [
-        "news_d04ab4d0eb65",
-        "news_8d9cfa515c5f"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
       "eventId": "event_5f1f58c822e3",
       "clusterVersion": 2,
       "title": "商务部新闻发言人就美商务部发布限制远程获取先进半导体相关措施答记者问",
@@ -546,25 +602,6 @@
       "status": "developing",
       "summary": "",
       "latestProgress": ""
-    },
-    {
-      "eventId": "event_a4c277bef24a",
-      "clusterVersion": 2,
-      "title": "中国证监会同意氢氧化锂期货和期权注册",
-      "firstSeenAt": "2026-11-06T12:07:36.692Z",
-      "lastSeenAt": "2026-11-17T21:05:22.219Z",
-      "latestItemPublishedAt": "2026-11-05T23:28:09.000Z",
-      "primaryItemId": "news_0e0e861c68d3",
-      "evidenceItemIds": [
-        "news_f29e9054dccc",
-        "news_52303c0c72da",
-        "news_0e0e861c68d3",
-        "news_ea0c0a809eb4",
-        "news_63e9f32c1023"
-      ],
-      "status": "developing",
-      "summary": "2026年11月5日中国证监会同意氢氧化锂、葵花籽油期货和期权注册。",
-      "latestProgress": "2026年11月5日证监会正式同意氢氧化锂期货及期权注册。"
     },
     {
       "eventId": "event_6ae99250235d",
@@ -856,22 +893,6 @@
       "status": "developing",
       "summary": "国家统计局公布1—10月全国房地产开发投资57215亿元，同比下降21.6%，同期固定资产投资同比降8.1%",
       "latestProgress": "国家统计局指出1—10月全国房地产市场出现了一定的积极变化"
-    },
-    {
-      "eventId": "event_e4e2aed7a7e3",
-      "clusterVersion": 2,
-      "title": "财联社11月16日电，日本央行审议委员高田创表示，日本的政策利率直到最近才终于接近中性利率区间；为能灵活因应物价的第二轮",
-      "firstSeenAt": "2026-11-16T06:31:29.509Z",
-      "lastSeenAt": "2026-11-16T12:47:15.250Z",
-      "latestItemPublishedAt": "2026-11-16T05:16:43.000Z",
-      "primaryItemId": "news_2b1dcd0d3a69",
-      "evidenceItemIds": [
-        "news_2b1dcd0d3a69",
-        "news_9a5f9fed6322"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
     },
     {
       "eventId": "event_488506150a68",

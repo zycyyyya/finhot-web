@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-17T21:05:22.219Z",
+  "generatedAt": "2026-11-18T07:30:41.584Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -9,8 +9,8 @@
       "clusterVersion": 2,
       "title": "科技股巨震 美股投资大佬三季度布局现结构性分歧",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-17T21:05:22.219Z",
-      "latestItemPublishedAt": "2026-11-17T15:54:47.000Z",
+      "lastSeenAt": "2026-11-18T07:30:41.584Z",
+      "latestItemPublishedAt": "2026-11-17T13:04:50.000Z",
       "primaryItemId": "news_e98fcbc67e06",
       "evidenceItemIds": [
         "news_ed4f442b8386",
@@ -65,20 +65,18 @@
         "news_4e081e3a6567"
       ],
       "status": "developing",
-      "summary": "2026年11月16日金价跌至一年多最低，纳指期货跌近1.3%，多起美股IPO动态更新",
-      "latestProgress": "眼科疗法新锐EIR Biopharma撤回1700万美元美股IPO，Core Specialty申请2.5亿美元美股IPO"
+      "summary": "科技股巨震下，美股投资大佬三季度布局现结构性分歧，中概普遍获加仓、AI硬件存巨大分歧。",
+      "latestProgress": "财联社11月17日电，美股恐慌指数VIX短线拉升近20%至27点。"
     },
     {
       "eventId": "event_a3c5d0364922",
       "clusterVersion": 2,
       "title": "A股低价股增至107只，面值退市预警拉响",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-17T21:05:22.219Z",
+      "lastSeenAt": "2026-11-18T07:30:41.584Z",
       "latestItemPublishedAt": "2026-11-17T13:20:33.000Z",
       "primaryItemId": "news_5a6c9d76ef52",
       "evidenceItemIds": [
-        "news_eee1cd9cc5d7",
-        "news_84e7046e66f1",
         "news_1f29952c4f02",
         "news_a1975669ee44",
         "news_8bb70fdc80ff",
@@ -126,24 +124,23 @@
         "news_5a6c9d76ef52",
         "news_8ac02173fc0e",
         "news_9efa18335b99",
-        "news_35b494c50d44"
+        "news_35b494c50d44",
+        "news_cf072a774d5a",
+        "news_2fce00e50316"
       ],
       "status": "developing",
-      "summary": "近期A股指数调整板块分化，同时回购扩容、公司被立案、算力回应外部事件等消息同步释出。",
-      "latestProgress": "11月17日A股三大指数集体收跌，光刻机概念走强。"
+      "summary": "A股低价股增至107只，5家公司股价跌破1元拉响面值退市警报",
+      "latestProgress": "11月18日A股三大股指早盘集体转跌，AI硬件局部回暖，京东大跌8%"
     },
     {
       "eventId": "event_2cf716748ce1",
       "clusterVersion": 2,
-      "title": "日本经济再现负增长，日央行12月还加息吗",
+      "title": "财联社11月18日电，印尼央行预测2026年印尼GDP增速为4.9%-5.7%。",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-17T21:05:22.219Z",
-      "latestItemPublishedAt": "2026-11-17T12:53:48.000Z",
-      "primaryItemId": "news_de659997460e",
+      "lastSeenAt": "2026-11-18T07:30:41.584Z",
+      "latestItemPublishedAt": "2026-11-18T07:14:29.000Z",
+      "primaryItemId": "news_68ec63728586",
       "evidenceItemIds": [
-        "news_864d35be0dd9",
-        "news_61e0bf602d72",
-        "news_9ca9131db184",
         "news_7518ca5173a0",
         "news_1e2162cce252",
         "news_9da75dba4050",
@@ -190,22 +187,24 @@
         "news_c92297e2a027",
         "news_7a950635f158",
         "news_de659997460e",
-        "news_22805ba4de9b"
+        "news_22805ba4de9b",
+        "news_09e7fb3afed4",
+        "news_68ec63728586",
+        "news_d5169422c3cb"
       ],
       "status": "developing",
-      "summary": "黄仁勋离职引发连锁震荡，AI领域相关企业融资环境趋紧",
-      "latestProgress": "日本经济再现负增长，日央行12月加息悬念待解"
+      "summary": "11月18日印尼央行预测2026年GDP增速4.9%-5.7%，同时称将采取措施维持印尼盾稳定。",
+      "latestProgress": "印尼央行称将优化运用所有货币工具，维持印尼盾稳定。"
     },
     {
       "eventId": "event_c68d651d4ff9",
       "clusterVersion": 2,
       "title": "港股异动｜药明巨诺-B(02126)再跌超9% CAR-T药降价百万进医保 拟折让2.97%配股筹1.6亿港元",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-11-17T21:05:22.219Z",
-      "latestItemPublishedAt": "2026-11-17T13:08:24.000Z",
+      "lastSeenAt": "2026-11-18T07:30:41.584Z",
+      "latestItemPublishedAt": "2026-11-18T07:17:35.000Z",
       "primaryItemId": "news_95302ca301f8",
       "evidenceItemIds": [
-        "news_5b10d03deae9",
         "news_28bc0ce86ead",
         "news_a9bc91ea3f05",
         "news_fafb3ff5ebaf",
@@ -254,18 +253,19 @@
         "news_2ed2e4f127e9",
         "news_95302ca301f8",
         "news_3730b529e94b",
-        "news_300ab56f8d48"
+        "news_300ab56f8d48",
+        "news_d600b6fd6554"
       ],
       "status": "developing",
-      "summary": "港股多公司发公告，华住Q3净赚18亿，华润电力前10月光伏发电量增四成。",
-      "latestProgress": "11月17日中泰证券维持华虹宏力买入评级，港股半导体股受提振走强。"
+      "summary": "药明巨诺受CAR-T降价进医保及折让配股影响，股价再跌超9%",
+      "latestProgress": "招银国际最新维持康方生物买入评级"
     },
     {
       "eventId": "event_9e320dba578d",
       "clusterVersion": 2,
       "title": "美联储官员Musalem：明年春季前或需“多次”加息，以控制通胀",
       "firstSeenAt": "2026-11-06T07:06:11.933Z",
-      "lastSeenAt": "2026-11-17T21:05:22.219Z",
+      "lastSeenAt": "2026-11-18T07:30:41.584Z",
       "latestItemPublishedAt": "2026-11-17T18:20:53.000Z",
       "primaryItemId": "news_a9ce3d3de796",
       "evidenceItemIds": [
@@ -315,8 +315,237 @@
         "news_1fed81f3d7e2"
       ],
       "status": "developing",
-      "summary": "贝森特与美联储高官就通胀成因、加息路径交锋，相关争论升温。",
-      "latestProgress": "美联储哈马克表示倾向稳步缓慢加息，若通胀心态形成或需更大举措。"
+      "summary": "美联储官员Musalem称明年春季前或需多次加息以控制通胀",
+      "latestProgress": "该官员释放迄今最鹰派信号，或连续加息四次控通胀"
+    },
+    {
+      "eventId": "event_7fcbf9a9ee85",
+      "clusterVersion": 2,
+      "title": "Anthropic：亚马逊将持有已发行N类股票的48.2%。 亚马逊将持有已发行股本的23.8%。",
+      "firstSeenAt": "2026-11-17T13:27:08.503Z",
+      "lastSeenAt": "2026-11-18T07:30:41.584Z",
+      "latestItemPublishedAt": "2026-11-17T11:42:37.000Z",
+      "primaryItemId": "news_2de69fd8a839",
+      "evidenceItemIds": [
+        "news_2de69fd8a839",
+        "news_f4b88822fed8",
+        "news_49c5a549f38c"
+      ],
+      "status": "developing",
+      "summary": "Anthropic获准纳斯达克上市A类普通股，代码ANT，披露亚马逊持股情况。",
+      "latestProgress": "Anthropic称亚马逊持有已发行N类股票48.2%、已发行股本23.8%。"
+    },
+    {
+      "eventId": "event_1224922cfcc4",
+      "clusterVersion": 2,
+      "title": "Anthropic：我们已获准在纳斯达克全球精选市场上市A类普通股，股票代码为“ANT”。",
+      "firstSeenAt": "2026-11-17T13:27:08.503Z",
+      "lastSeenAt": "2026-11-18T07:30:41.584Z",
+      "latestItemPublishedAt": "2026-11-17T11:36:54.000Z",
+      "primaryItemId": "news_b7010c5cee3c",
+      "evidenceItemIds": [
+        "news_b7010c5cee3c",
+        "news_49c5a549f38c",
+        "news_bc970845cd76"
+      ],
+      "status": "developing",
+      "summary": "Anthropic获准在纳斯达克全球精选市场上市A类普通股，股票代码为ANT。",
+      "latestProgress": "Anthropic官方确认已获准在纳斯达克全球精选市场上市A类普通股，股票代码为ANT。"
+    },
+    {
+      "eventId": "event_321dbbd921dc",
+      "clusterVersion": 2,
+      "title": "财联社11月17日电，德商银行预计明年年底锌价将跌至每吨3600美元。",
+      "firstSeenAt": "2026-11-17T13:27:08.503Z",
+      "lastSeenAt": "2026-11-18T07:30:41.584Z",
+      "latestItemPublishedAt": "2026-11-17T11:31:37.000Z",
+      "primaryItemId": "news_dffcea98e216",
+      "evidenceItemIds": [
+        "news_c7d3a39b8917",
+        "news_dffcea98e216",
+        "news_d8d1bea64ad9"
+      ],
+      "status": "developing",
+      "summary": "11月17日多家机构发布金属价格预测及个股评级研判",
+      "latestProgress": "瑞穗银行对贝莱德给予跑赢大盘评级，目标价1450美元"
+    },
+    {
+      "eventId": "event_01bfa99e8d88",
+      "clusterVersion": 2,
+      "title": "同宇新材(301630.SZ)拟投资约3亿元建设高性能树脂材料项目",
+      "firstSeenAt": "2026-11-17T13:27:08.503Z",
+      "lastSeenAt": "2026-11-18T07:30:41.584Z",
+      "latestItemPublishedAt": "2026-11-17T11:29:19.000Z",
+      "primaryItemId": "news_2ab2a05757dd",
+      "evidenceItemIds": [
+        "news_2ab2a05757dd",
+        "news_b1a3d96a59be"
+      ],
+      "status": "developing",
+      "summary": "同宇新材拟投资约3亿元建设高性能树脂材料项目",
+      "latestProgress": "公司2026年11月17日披露拟投资3亿元建设高性能树脂材料项目的公告"
+    },
+    {
+      "eventId": "event_0a179b323bd6",
+      "clusterVersion": 2,
+      "title": "同宇新材(301630.SZ)子公司拟投资约5.24亿元建设年产20万吨电子树脂项目二期",
+      "firstSeenAt": "2026-11-17T13:27:08.503Z",
+      "lastSeenAt": "2026-11-18T07:30:41.584Z",
+      "latestItemPublishedAt": "2026-11-17T11:29:14.000Z",
+      "primaryItemId": "news_535afd631576",
+      "evidenceItemIds": [
+        "news_535afd631576",
+        "news_fcc448a31b97"
+      ],
+      "status": "developing",
+      "summary": "同宇新材全资子公司拟投资5.24亿元建设年产20万吨电子树脂项目二期",
+      "latestProgress": "同宇新材2026年11月17日公告，全资子公司拟投5.24亿元建设年产20万吨电子树脂项目二期"
+    },
+    {
+      "eventId": "event_639c8d261270",
+      "clusterVersion": 2,
+      "title": "正泰电源：拟投资8.21亿元建设年产2GWh高功率UPS电源项目",
+      "firstSeenAt": "2026-11-17T13:27:08.503Z",
+      "lastSeenAt": "2026-11-18T07:30:41.584Z",
+      "latestItemPublishedAt": "2026-11-17T12:10:18.000Z",
+      "primaryItemId": "news_1fb58f73de03",
+      "evidenceItemIds": [
+        "news_1fb58f73de03",
+        "news_eada4d7a2522"
+      ],
+      "status": "developing",
+      "summary": "正泰电源拟投资8.21亿元建设年产2GWh高功率UPS电源项目",
+      "latestProgress": "正泰电源公告拟8.21亿元投建年产2GWh高功率UPS电源项目"
+    },
+    {
+      "eventId": "event_ca32570a13e0",
+      "clusterVersion": 2,
+      "title": "工信部：同意北京市、河北省、上海市、江苏省、浙江省、安徽省、湖北省、广东省作为6G创新发展部省协同试点省（市）",
+      "firstSeenAt": "2026-11-17T17:43:54.255Z",
+      "lastSeenAt": "2026-11-18T07:30:41.584Z",
+      "latestItemPublishedAt": "2026-11-17T15:16:39.000Z",
+      "primaryItemId": "news_a68955604aa1",
+      "evidenceItemIds": [
+        "news_a68955604aa1",
+        "news_84c073d9c01c"
+      ],
+      "status": "developing",
+      "summary": "工信部同意京津冀等8省市开展6G创新发展部省协同试点",
+      "latestProgress": "2026年11月17日工信部正式批复同意相关省市开展6G创新发展部省协同试点工作"
+    },
+    {
+      "eventId": "event_b53b996f4342",
+      "clusterVersion": 2,
+      "title": "利弗莫尔中概股龙头指数跌幅扩大至2%",
+      "firstSeenAt": "2026-11-17T21:05:22.219Z",
+      "lastSeenAt": "2026-11-18T07:30:41.584Z",
+      "latestItemPublishedAt": "2026-11-17T20:00:46.000Z",
+      "primaryItemId": "news_f8bb69031a51",
+      "evidenceItemIds": [
+        "news_f8bb69031a51",
+        "news_3feb3f809a6f"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_218c785f7e8c",
+      "clusterVersion": 2,
+      "title": "摩根大通系统故障波及多家美国银行 基础服务稳定性受考验",
+      "firstSeenAt": "2026-11-16T22:15:52.545Z",
+      "lastSeenAt": "2026-11-18T07:30:41.584Z",
+      "latestItemPublishedAt": "2026-11-18T06:44:17.000Z",
+      "primaryItemId": "news_ab0d114c5e3c",
+      "evidenceItemIds": [
+        "news_348e2011cf53",
+        "news_6726991f14af",
+        "news_8929659beaa5",
+        "news_ab0d114c5e3c"
+      ],
+      "status": "developing",
+      "summary": "伯克希尔三季度减持美国银行，重仓苹果、美国运通等标的。",
+      "latestProgress": "伯克希尔Q3持仓报告出炉，减持美国银行还新建仓软件股。"
+    },
+    {
+      "eventId": "event_e14b215627f7",
+      "clusterVersion": 2,
+      "title": "证监会：“监管要求基金公司上报全部产品AI敞口”不实",
+      "firstSeenAt": "2026-11-18T07:30:41.584Z",
+      "lastSeenAt": "2026-11-18T07:30:41.584Z",
+      "latestItemPublishedAt": "2026-11-18T05:30:17.000Z",
+      "primaryItemId": "news_daa57c7d9ec3",
+      "evidenceItemIds": [
+        "news_daa57c7d9ec3",
+        "news_8d361b621bff"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_b4344a47b077",
+      "clusterVersion": 2,
+      "title": "3分钟读懂主动ETF（下篇）",
+      "firstSeenAt": "2026-11-18T07:30:41.584Z",
+      "lastSeenAt": "2026-11-18T07:30:41.584Z",
+      "latestItemPublishedAt": "2026-11-18T02:54:20.000Z",
+      "primaryItemId": "news_d04ab4d0eb65",
+      "evidenceItemIds": [
+        "news_d04ab4d0eb65",
+        "news_8d9cfa515c5f"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_5f1f58c822e3",
+      "clusterVersion": 2,
+      "title": "商务部新闻发言人就美商务部发布限制远程获取先进半导体相关措施答记者问",
+      "firstSeenAt": "2026-11-18T07:30:41.584Z",
+      "lastSeenAt": "2026-11-18T07:30:41.584Z",
+      "latestItemPublishedAt": "2026-11-17T12:36:44.000Z",
+      "primaryItemId": "news_d3beb2ecb692",
+      "evidenceItemIds": [
+        "news_d3beb2ecb692",
+        "news_f53d155a7244"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_6a3eaa340b4e",
+      "clusterVersion": 2,
+      "title": "特朗普：泰国将取消对美国商品的所有关税",
+      "firstSeenAt": "2026-11-18T07:30:41.584Z",
+      "lastSeenAt": "2026-11-18T07:30:41.584Z",
+      "latestItemPublishedAt": "2026-11-17T12:32:58.000Z",
+      "primaryItemId": "news_60b72bd9e357",
+      "evidenceItemIds": [
+        "news_60b72bd9e357",
+        "news_de7dc33ec43d"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_9837a43b2491",
+      "clusterVersion": 2,
+      "title": "Anthropic最新招股文件：IPO发行价区间维持不变",
+      "firstSeenAt": "2026-11-18T07:30:41.584Z",
+      "lastSeenAt": "2026-11-18T07:30:41.584Z",
+      "latestItemPublishedAt": "2026-11-17T11:53:42.000Z",
+      "primaryItemId": "news_21d49d64eb99",
+      "evidenceItemIds": [
+        "news_21d49d64eb99",
+        "news_eadf2b89ba0e"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
     },
     {
       "eventId": "event_a4c277bef24a",
@@ -338,120 +567,6 @@
       "latestProgress": "2026年11月5日证监会正式同意氢氧化锂期货及期权注册。"
     },
     {
-      "eventId": "event_7fcbf9a9ee85",
-      "clusterVersion": 2,
-      "title": "Anthropic：亚马逊将持有已发行N类股票的48.2%。 亚马逊将持有已发行股本的23.8%。",
-      "firstSeenAt": "2026-11-17T13:27:08.503Z",
-      "lastSeenAt": "2026-11-17T21:05:22.219Z",
-      "latestItemPublishedAt": "2026-11-17T11:42:37.000Z",
-      "primaryItemId": "news_2de69fd8a839",
-      "evidenceItemIds": [
-        "news_2de69fd8a839",
-        "news_f4b88822fed8"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_1224922cfcc4",
-      "clusterVersion": 2,
-      "title": "Anthropic：我们已获准在纳斯达克全球精选市场上市A类普通股，股票代码为“ANT”。",
-      "firstSeenAt": "2026-11-17T13:27:08.503Z",
-      "lastSeenAt": "2026-11-17T21:05:22.219Z",
-      "latestItemPublishedAt": "2026-11-17T11:36:54.000Z",
-      "primaryItemId": "news_b7010c5cee3c",
-      "evidenceItemIds": [
-        "news_b7010c5cee3c",
-        "news_49c5a549f38c",
-        "news_bc970845cd76"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_321dbbd921dc",
-      "clusterVersion": 2,
-      "title": "财联社11月17日电，瑞穗银行对贝莱德启动覆盖研究，给予“跑赢大盘”评级，目标价1450美元。",
-      "firstSeenAt": "2026-11-17T13:27:08.503Z",
-      "lastSeenAt": "2026-11-17T21:05:22.219Z",
-      "latestItemPublishedAt": "2026-11-17T11:43:31.000Z",
-      "primaryItemId": "news_c7d3a39b8917",
-      "evidenceItemIds": [
-        "news_c7d3a39b8917",
-        "news_dffcea98e216",
-        "news_d8d1bea64ad9"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_01bfa99e8d88",
-      "clusterVersion": 2,
-      "title": "同宇新材(301630.SZ)拟投资约3亿元建设高性能树脂材料项目",
-      "firstSeenAt": "2026-11-17T13:27:08.503Z",
-      "lastSeenAt": "2026-11-17T21:05:22.219Z",
-      "latestItemPublishedAt": "2026-11-17T11:29:19.000Z",
-      "primaryItemId": "news_2ab2a05757dd",
-      "evidenceItemIds": [
-        "news_2ab2a05757dd",
-        "news_b1a3d96a59be"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_0a179b323bd6",
-      "clusterVersion": 2,
-      "title": "同宇新材(301630.SZ)子公司拟投资约5.24亿元建设年产20万吨电子树脂项目二期",
-      "firstSeenAt": "2026-11-17T13:27:08.503Z",
-      "lastSeenAt": "2026-11-17T21:05:22.219Z",
-      "latestItemPublishedAt": "2026-11-17T11:29:14.000Z",
-      "primaryItemId": "news_535afd631576",
-      "evidenceItemIds": [
-        "news_535afd631576",
-        "news_fcc448a31b97"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_639c8d261270",
-      "clusterVersion": 2,
-      "title": "正泰电源：拟投资8.21亿元建设年产2GWh高功率UPS电源项目",
-      "firstSeenAt": "2026-11-17T13:27:08.503Z",
-      "lastSeenAt": "2026-11-17T21:05:22.219Z",
-      "latestItemPublishedAt": "2026-11-17T12:10:18.000Z",
-      "primaryItemId": "news_1fb58f73de03",
-      "evidenceItemIds": [
-        "news_1fb58f73de03",
-        "news_eada4d7a2522"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_ca32570a13e0",
-      "clusterVersion": 2,
-      "title": "工信部：同意北京市、河北省、上海市、江苏省、浙江省、安徽省、湖北省、广东省作为6G创新发展部省协同试点省（市）",
-      "firstSeenAt": "2026-11-17T17:43:54.255Z",
-      "lastSeenAt": "2026-11-17T21:05:22.219Z",
-      "latestItemPublishedAt": "2026-11-17T15:16:39.000Z",
-      "primaryItemId": "news_a68955604aa1",
-      "evidenceItemIds": [
-        "news_a68955604aa1",
-        "news_84c073d9c01c"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
       "eventId": "event_6ae99250235d",
       "clusterVersion": 2,
       "title": "财政部：中加双方同意探索扩大双边贸易和投资中的本币使用 鼓励双向投资",
@@ -462,22 +577,6 @@
       "evidenceItemIds": [
         "news_675e2c42db56",
         "news_2579f7f55ee7"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_b53b996f4342",
-      "clusterVersion": 2,
-      "title": "利弗莫尔中概股龙头指数跌幅扩大至2%",
-      "firstSeenAt": "2026-11-17T21:05:22.219Z",
-      "lastSeenAt": "2026-11-17T21:05:22.219Z",
-      "latestItemPublishedAt": "2026-11-17T20:00:46.000Z",
-      "primaryItemId": "news_f8bb69031a51",
-      "evidenceItemIds": [
-        "news_f8bb69031a51",
-        "news_3feb3f809a6f"
       ],
       "status": "developing",
       "summary": "",
@@ -499,23 +598,6 @@
       "status": "developing",
       "summary": "吴清在首届中国资本市场学术年会开幕式致辞，为中国资本市场高质量发展指明路径",
       "latestProgress": "2026年11月13日，吴清主席于首届中国资本市场学术年会开幕式发表致辞，释放资本市场改革利好"
-    },
-    {
-      "eventId": "event_218c785f7e8c",
-      "clusterVersion": 2,
-      "title": "伯克希尔三季度减持美国银行。 重仓苹果、美国运通、可口可乐、谷歌A、美国银行",
-      "firstSeenAt": "2026-11-16T22:15:52.545Z",
-      "lastSeenAt": "2026-11-17T13:27:08.503Z",
-      "latestItemPublishedAt": "2026-11-17T00:53:47.000Z",
-      "primaryItemId": "news_348e2011cf53",
-      "evidenceItemIds": [
-        "news_348e2011cf53",
-        "news_6726991f14af",
-        "news_8929659beaa5"
-      ],
-      "status": "developing",
-      "summary": "伯克希尔三季度减持美国银行，重仓苹果、美国运通等标的。",
-      "latestProgress": "伯克希尔Q3持仓报告出炉，减持美国银行还新建仓软件股。"
     },
     {
       "eventId": "event_a97b587d5a11",

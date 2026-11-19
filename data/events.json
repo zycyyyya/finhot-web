@@ -1,20 +1,18 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-19T13:07:11.033Z",
+  "generatedAt": "2026-11-19T17:29:31.620Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
       "eventId": "event_f101880ef7bc",
       "clusterVersion": 2,
-      "title": "美股前瞻 | 三大股指期货齐涨 纳指期货涨超2% Anthropic创纪录IPO提振AI链",
+      "title": "美股多头迎来新麻烦：通胀、加息与盈利增长放缓同时来袭",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-19T13:07:11.033Z",
-      "latestItemPublishedAt": "2026-11-19T07:03:10.000Z",
-      "primaryItemId": "news_5f9e6830f20f",
+      "lastSeenAt": "2026-11-19T17:29:31.620Z",
+      "latestItemPublishedAt": "2026-11-19T14:52:32.000Z",
+      "primaryItemId": "news_2dbd844286f5",
       "evidenceItemIds": [
-        "news_105662defb47",
-        "news_29106a19c555",
         "news_c1e91c501f33",
         "news_f95519ea41da",
         "news_feb3406b0076",
@@ -62,7 +60,9 @@
         "news_c7d71ed71214",
         "news_00dc396a9f4b",
         "news_4ce19cc4d790",
-        "news_5f9e6830f20f"
+        "news_5f9e6830f20f",
+        "news_2dbd844286f5",
+        "news_e737ac98ff2f"
       ],
       "status": "developing",
       "summary": "Anthropic创纪录IPO提振市场，机构看好科技股，美股期货涨幅扩大",
@@ -71,11 +71,11 @@
     {
       "eventId": "event_a3c5d0364922",
       "clusterVersion": 2,
-      "title": "A股双创指数均跌超1%，AI算力调整，电力股逆势活跃，恒科指跌超2%，腾讯、阿里双双大跌超5%",
+      "title": "A股公告精选 | 燧原科技(688801.SH)三日跌幅偏离值累计超30% 无限售流通股仅占总股本4.16%",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-19T13:07:11.033Z",
+      "lastSeenAt": "2026-11-19T17:29:31.620Z",
       "latestItemPublishedAt": "2026-11-19T12:47:28.000Z",
-      "primaryItemId": "news_7dad651e6b27",
+      "primaryItemId": "news_bf0614ab3da9",
       "evidenceItemIds": [
         "news_6d9adf87b173",
         "news_b89ae6c29023",
@@ -137,7 +137,7 @@
       "clusterVersion": 2,
       "title": "港股异动 | 能源及能量环球(01142)涨超7% 拟收购中哈国际产业新城51%股权 或拓展哈萨克地域业务版图",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-11-19T13:07:11.033Z",
+      "lastSeenAt": "2026-11-19T17:29:31.620Z",
       "latestItemPublishedAt": "2026-11-18T22:56:42.000Z",
       "primaryItemId": "news_825390506e03",
       "evidenceItemIds": [
@@ -199,11 +199,11 @@
     {
       "eventId": "event_9e320dba578d",
       "clusterVersion": 2,
-      "title": "美联储纪要重磅信号！未来将有更多加息",
+      "title": "10月美联储FOMC会议纪要：为10月未加息“找一堆理由”，又强烈指引12月“至少加息25基点”",
       "firstSeenAt": "2026-11-06T07:06:11.933Z",
-      "lastSeenAt": "2026-11-19T13:07:11.033Z",
+      "lastSeenAt": "2026-11-19T17:29:31.620Z",
       "latestItemPublishedAt": "2026-11-19T11:36:28.000Z",
-      "primaryItemId": "news_8216144b96c2",
+      "primaryItemId": "news_91ca3df537e1",
       "evidenceItemIds": [
         "news_0a163c089f85",
         "news_08f48011512c",
@@ -265,7 +265,7 @@
       "clusterVersion": 2,
       "title": "摩根大通系统故障波及多家美国银行 基础服务稳定性受考验",
       "firstSeenAt": "2026-11-16T22:15:52.545Z",
-      "lastSeenAt": "2026-11-19T13:07:11.033Z",
+      "lastSeenAt": "2026-11-19T17:29:31.620Z",
       "latestItemPublishedAt": "2026-11-19T06:07:01.000Z",
       "primaryItemId": "news_ab0d114c5e3c",
       "evidenceItemIds": [
@@ -281,27 +281,11 @@
       "latestProgress": "亚利桑那州就失控智能体入侵银行系统对OpenAI等展开刑事调查"
     },
     {
-      "eventId": "event_7a4e444e912b",
-      "clusterVersion": 2,
-      "title": "报道：Anthropic正考虑扩大IPO规模，散户的认购需求接近1000亿美元",
-      "firstSeenAt": "2026-11-18T17:23:39.282Z",
-      "lastSeenAt": "2026-11-19T13:07:11.033Z",
-      "latestItemPublishedAt": "2026-11-18T15:19:13.000Z",
-      "primaryItemId": "news_fc48ed5d6e58",
-      "evidenceItemIds": [
-        "news_fc48ed5d6e58",
-        "news_598e2271bd9d"
-      ],
-      "status": "developing",
-      "summary": "AI企业Anthropic正考虑扩大IPO规模，散户认购需求接近1000亿美元",
-      "latestProgress": "Anthropic正评估扩大IPO规模可行性，散户认购需求近千亿美元"
-    },
-    {
       "eventId": "event_b326a8886e68",
       "clusterVersion": 2,
       "title": "中国证监会新闻发言人答记者问",
       "firstSeenAt": "2026-11-18T17:23:39.282Z",
-      "lastSeenAt": "2026-11-19T13:07:11.033Z",
+      "lastSeenAt": "2026-11-19T17:29:31.620Z",
       "latestItemPublishedAt": "2026-11-18T04:28:06.000Z",
       "primaryItemId": "news_8d6ef6bc050e",
       "evidenceItemIds": [
@@ -313,27 +297,11 @@
       "latestProgress": "2026年11月17日证监会新闻发言人出席记者会回应相关问题"
     },
     {
-      "eventId": "event_bbc464c3b40d",
-      "clusterVersion": 2,
-      "title": "伍戈：“三支箭”化解地方债务压力",
-      "firstSeenAt": "2026-11-19T07:30:19.730Z",
-      "lastSeenAt": "2026-11-19T13:07:11.033Z",
-      "latestItemPublishedAt": "2026-11-19T02:25:51.000Z",
-      "primaryItemId": "news_34fd18b0f85d",
-      "evidenceItemIds": [
-        "news_34fd18b0f85d",
-        "news_bad1787d0614"
-      ],
-      "status": "developing",
-      "summary": "经济学家伍戈提出以\"三支箭\"政策组合化解地方债务压力的方案",
-      "latestProgress": "2026年11月19日伍戈公开阐释\"三支箭\"化解地方债务的具体路径"
-    },
-    {
       "eventId": "event_a4c277bef24a",
       "clusterVersion": 2,
       "title": "中国证监会同意氢氧化锂期货和期权注册",
       "firstSeenAt": "2026-11-06T12:07:36.692Z",
-      "lastSeenAt": "2026-11-19T13:07:11.033Z",
+      "lastSeenAt": "2026-11-19T17:29:31.620Z",
       "latestItemPublishedAt": "2026-11-05T23:28:09.000Z",
       "primaryItemId": "news_0e0e861c68d3",
       "evidenceItemIds": [
@@ -352,7 +320,7 @@
       "clusterVersion": 2,
       "title": "欧央行新行长角逐加速！三个职位一盘棋，如何看欧元区共同债务也很重要",
       "firstSeenAt": "2026-11-18T17:23:39.282Z",
-      "lastSeenAt": "2026-11-19T13:07:11.033Z",
+      "lastSeenAt": "2026-11-19T17:29:31.620Z",
       "latestItemPublishedAt": "2026-11-19T10:47:37.000Z",
       "primaryItemId": "news_174fe8c0b0e7",
       "evidenceItemIds": [
@@ -369,7 +337,7 @@
       "clusterVersion": 2,
       "title": "只剩央行一个买家！时隔11天，高盛再度下调黄金目标价至4650美元",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-19T13:07:11.033Z",
+      "lastSeenAt": "2026-11-19T17:29:31.620Z",
       "latestItemPublishedAt": "2026-11-19T11:27:37.000Z",
       "primaryItemId": "news_09e7fb3afed4",
       "evidenceItemIds": [
@@ -433,7 +401,7 @@
       "clusterVersion": 2,
       "title": "京蓝科技：公司靶材产线尚未量产，亦未产生相关营业收入及利润",
       "firstSeenAt": "2026-11-19T13:07:11.033Z",
-      "lastSeenAt": "2026-11-19T13:07:11.033Z",
+      "lastSeenAt": "2026-11-19T17:29:31.620Z",
       "latestItemPublishedAt": "2026-11-19T11:28:25.000Z",
       "primaryItemId": "news_7be34182a541",
       "evidenceItemIds": [
@@ -449,7 +417,7 @@
       "clusterVersion": 2,
       "title": "财联社11月19日电，美国50ETF易方达(513850)将于2026年11月20日开市起至当日10:30停牌。",
       "firstSeenAt": "2026-11-19T13:07:11.033Z",
-      "lastSeenAt": "2026-11-19T13:07:11.033Z",
+      "lastSeenAt": "2026-11-19T17:29:31.620Z",
       "latestItemPublishedAt": "2026-11-19T11:06:08.000Z",
       "primaryItemId": "news_4a68e67164b5",
       "evidenceItemIds": [
@@ -468,7 +436,7 @@
       "clusterVersion": 2,
       "title": "高盛上调2027年AI项目融资预期逾八成至5450亿美元 并提示融资成本走高",
       "firstSeenAt": "2026-11-19T13:07:11.033Z",
-      "lastSeenAt": "2026-11-19T13:07:11.033Z",
+      "lastSeenAt": "2026-11-19T17:29:31.620Z",
       "latestItemPublishedAt": "2026-11-18T11:11:48.000Z",
       "primaryItemId": "news_d78f75977949",
       "evidenceItemIds": [
@@ -478,6 +446,70 @@
       "status": "developing",
       "summary": "",
       "latestProgress": ""
+    },
+    {
+      "eventId": "event_36735390d58b",
+      "clusterVersion": 2,
+      "title": "财联社11月20日电，Anthropic首日开盘市值预计达2万亿美元。",
+      "firstSeenAt": "2026-11-19T17:29:31.620Z",
+      "lastSeenAt": "2026-11-19T17:29:31.620Z",
+      "latestItemPublishedAt": "2026-11-19T16:45:25.000Z",
+      "primaryItemId": "news_156e42e4fef1",
+      "evidenceItemIds": [
+        "news_156e42e4fef1",
+        "news_a06342bbad4f"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_bc5e0b0b1b67",
+      "clusterVersion": 2,
+      "title": "欧洲三大股指集体收跌 德国DAX指数跌近1%",
+      "firstSeenAt": "2026-11-19T17:29:31.620Z",
+      "lastSeenAt": "2026-11-19T17:29:31.620Z",
+      "latestItemPublishedAt": "2026-11-19T16:37:17.000Z",
+      "primaryItemId": "news_c559654fe8a8",
+      "evidenceItemIds": [
+        "news_c559654fe8a8",
+        "news_40f6f3e50267"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_7a4e444e912b",
+      "clusterVersion": 2,
+      "title": "报道：Anthropic正考虑扩大IPO规模，散户的认购需求接近1000亿美元",
+      "firstSeenAt": "2026-11-18T17:23:39.282Z",
+      "lastSeenAt": "2026-11-19T13:07:11.033Z",
+      "latestItemPublishedAt": "2026-11-18T15:19:13.000Z",
+      "primaryItemId": "news_fc48ed5d6e58",
+      "evidenceItemIds": [
+        "news_fc48ed5d6e58",
+        "news_598e2271bd9d"
+      ],
+      "status": "developing",
+      "summary": "AI企业Anthropic正考虑扩大IPO规模，散户认购需求接近1000亿美元",
+      "latestProgress": "Anthropic正评估扩大IPO规模可行性，散户认购需求近千亿美元"
+    },
+    {
+      "eventId": "event_bbc464c3b40d",
+      "clusterVersion": 2,
+      "title": "伍戈：“三支箭”化解地方债务压力",
+      "firstSeenAt": "2026-11-19T07:30:19.730Z",
+      "lastSeenAt": "2026-11-19T13:07:11.033Z",
+      "latestItemPublishedAt": "2026-11-19T02:25:51.000Z",
+      "primaryItemId": "news_34fd18b0f85d",
+      "evidenceItemIds": [
+        "news_34fd18b0f85d",
+        "news_bad1787d0614"
+      ],
+      "status": "developing",
+      "summary": "经济学家伍戈提出以\"三支箭\"政策组合化解地方债务压力的方案",
+      "latestProgress": "2026年11月19日伍戈公开阐释\"三支箭\"化解地方债务的具体路径"
     },
     {
       "eventId": "event_afd95bcad936",

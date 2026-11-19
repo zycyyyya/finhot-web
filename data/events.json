@@ -1,19 +1,18 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-18T20:39:21.393Z",
+  "generatedAt": "2026-11-19T07:30:19.730Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
       "eventId": "event_f101880ef7bc",
       "clusterVersion": 2,
-      "title": "美股前瞻 | 三大股指期货涨跌不一 英伟达强劲财报缓解AI交易疑虑 Anthropic IPO定价在即",
+      "title": "Anthropic创纪录IPO提振市场，美股期货涨幅扩大，纳指100期货涨2%",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-18T20:39:21.393Z",
-      "latestItemPublishedAt": "2026-11-18T16:37:53.000Z",
-      "primaryItemId": "news_c7d71ed71214",
+      "lastSeenAt": "2026-11-19T07:30:19.730Z",
+      "latestItemPublishedAt": "2026-11-19T07:03:10.000Z",
+      "primaryItemId": "news_4ce19cc4d790",
       "evidenceItemIds": [
-        "news_4506ade3ade6",
         "news_0af1cf880189",
         "news_105662defb47",
         "news_29106a19c555",
@@ -62,24 +61,22 @@
         "news_7fc4e3ee9d82",
         "news_4e081e3a6567",
         "news_c7d71ed71214",
-        "news_00dc396a9f4b"
+        "news_00dc396a9f4b",
+        "news_4ce19cc4d790"
       ],
       "status": "developing",
-      "summary": "科技股巨震下，美股投资大佬三季度布局现结构性分歧，中概普遍获加仓、AI硬件存巨大分歧。",
-      "latestProgress": "财联社11月17日电，美股恐慌指数VIX短线拉升近20%至27点。"
+      "summary": "Anthropic创纪录IPO提振市场，机构看好科技股，美股期货涨幅扩大",
+      "latestProgress": "Anthropic创纪录IPO提振市场，美股期货涨幅扩大，纳指100期货涨2%"
     },
     {
       "eventId": "event_a3c5d0364922",
       "clusterVersion": 2,
       "title": "Comfort Systems USA股价今日大涨，回购扩大与大行看涨评级双重利好共振",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-18T20:39:21.393Z",
+      "lastSeenAt": "2026-11-19T07:30:19.730Z",
       "latestItemPublishedAt": "2026-11-18T12:26:49.000Z",
       "primaryItemId": "news_a9421df3aeb9",
       "evidenceItemIds": [
-        "news_bf44564be414",
-        "news_87e3f9f8c5d8",
-        "news_f511477e7911",
         "news_6f58e99e8fd5",
         "news_080becc9bd98",
         "news_acc8685deb75",
@@ -126,7 +123,10 @@
         "news_19f2578648cd",
         "news_e524c143bb2b",
         "news_37729827498b",
-        "news_a9421df3aeb9"
+        "news_a9421df3aeb9",
+        "news_7dad651e6b27",
+        "news_28e17019a220",
+        "news_7e14c7661375"
       ],
       "status": "developing",
       "summary": "A股低价股增至107只，5家公司股价跌破1元拉响面值退市警报",
@@ -135,13 +135,12 @@
     {
       "eventId": "event_c68d651d4ff9",
       "clusterVersion": 2,
-      "title": "港股异动 | 基石药业-B(02616)午后涨超11% 公司计划于2026年底启动CS2009全球III期注册临床",
+      "title": "港股异动 | 能源及能量环球(01142)涨超7% 拟收购中哈国际产业新城51%股权 或拓展哈萨克地域业务版图",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-11-18T20:39:21.393Z",
-      "latestItemPublishedAt": "2026-11-18T12:46:14.000Z",
-      "primaryItemId": "news_2024af7efb8c",
+      "lastSeenAt": "2026-11-19T07:30:19.730Z",
+      "latestItemPublishedAt": "2026-11-18T22:56:42.000Z",
+      "primaryItemId": "news_825390506e03",
       "evidenceItemIds": [
-        "news_4699b05a3b76",
         "news_3ff30cf78cbc",
         "news_292841eba207",
         "news_ddd1eaff90e3",
@@ -190,23 +189,22 @@
         "news_d600b6fd6554",
         "news_2024af7efb8c",
         "news_f85b51fc7151",
-        "news_c01a288d4ba6"
+        "news_c01a288d4ba6",
+        "news_825390506e03"
       ],
       "status": "developing",
-      "summary": "药明巨诺受CAR-T降价进医保及折让配股影响，股价再跌超9%",
-      "latestProgress": "招银国际最新维持康方生物买入评级"
+      "summary": "能源及能量环球拟收购中哈国际产业新城股权，股价涨超7%，拟拓展哈萨克地域业务。",
+      "latestProgress": "11月18日，能源及能量环球股价涨超7%，拟收购中哈国际产业新城股权拓展哈地业务。"
     },
     {
       "eventId": "event_9e320dba578d",
       "clusterVersion": 2,
-      "title": "美联储会议纪要：两名官员称12月加息超25个基点是有保障的，几乎所有与会者认为继续行动可能适宜",
+      "title": "美联储纪要重磅信号！未来将有更多加息",
       "firstSeenAt": "2026-11-06T07:06:11.933Z",
-      "lastSeenAt": "2026-11-18T20:39:21.393Z",
-      "latestItemPublishedAt": "2026-11-18T19:02:08.000Z",
-      "primaryItemId": "news_f22260794d45",
+      "lastSeenAt": "2026-11-19T07:30:19.730Z",
+      "latestItemPublishedAt": "2026-11-19T06:01:16.000Z",
+      "primaryItemId": "news_8216144b96c2",
       "evidenceItemIds": [
-        "news_e3dfc68073f5",
-        "news_db2f75a6b4f0",
         "news_a5fa068df6c1",
         "news_97934923a02d",
         "news_0a163c089f85",
@@ -254,30 +252,226 @@
         "news_e27982c871b4",
         "news_f22260794d45",
         "news_65289ae17eb9",
-        "news_95b43b909674"
+        "news_95b43b909674",
+        "news_8216144b96c2",
+        "news_91ca3df537e1"
       ],
       "status": "developing",
-      "summary": "美联储官员Musalem称明年春季前或需多次加息以控制通胀",
-      "latestProgress": "该官员释放迄今最鹰派信号，或连续加息四次控通胀"
+      "summary": "美联储会议纪要释放明确加息信号，多名官员支持后续加息，12月或加息超25基点",
+      "latestProgress": "10月美联储FOMC纪要强烈指引12月至少加息25基点，为10月未加息说明理由"
     },
     {
       "eventId": "event_218c785f7e8c",
       "clusterVersion": 2,
       "title": "摩根大通系统故障波及多家美国银行 基础服务稳定性受考验",
       "firstSeenAt": "2026-11-16T22:15:52.545Z",
-      "lastSeenAt": "2026-11-18T20:39:21.393Z",
-      "latestItemPublishedAt": "2026-11-18T11:17:42.000Z",
+      "lastSeenAt": "2026-11-19T07:30:19.730Z",
+      "latestItemPublishedAt": "2026-11-19T06:07:01.000Z",
       "primaryItemId": "news_ab0d114c5e3c",
       "evidenceItemIds": [
         "news_348e2011cf53",
         "news_6726991f14af",
         "news_8929659beaa5",
         "news_ab0d114c5e3c",
-        "news_9f2560264aff"
+        "news_9f2560264aff",
+        "news_804239ac96aa"
       ],
       "status": "developing",
-      "summary": "伯克希尔三季度减持美国银行，重仓苹果、美国运通等标的。",
-      "latestProgress": "伯克希尔Q3持仓报告出炉，减持美国银行还新建仓软件股。"
+      "summary": "摩根大通系统故障波及多家美国银行，基础服务稳定性受考验",
+      "latestProgress": "亚利桑那州就失控智能体入侵银行系统对OpenAI等展开刑事调查"
+    },
+    {
+      "eventId": "event_afd95bcad936",
+      "clusterVersion": 2,
+      "title": "欧洲央行或于25日讨论将银行最低准备金要求从1%提高至2%",
+      "firstSeenAt": "2026-11-18T13:08:32.597Z",
+      "lastSeenAt": "2026-11-19T07:30:19.730Z",
+      "latestItemPublishedAt": "2026-11-18T12:53:56.000Z",
+      "primaryItemId": "news_3d2c9988f514",
+      "evidenceItemIds": [
+        "news_3d2c9988f514",
+        "news_6793eb6100ef",
+        "news_cf8282c9f1c1"
+      ],
+      "status": "developing",
+      "summary": "欧洲央行或于25日讨论将银行最低准备金要求从1%提高至2%",
+      "latestProgress": "欧元区展现韧性，AI、财政、地缘政治风险影响前景"
+    },
+    {
+      "eventId": "event_7a4e444e912b",
+      "clusterVersion": 2,
+      "title": "报道：Anthropic正考虑扩大IPO规模，散户的认购需求接近1000亿美元",
+      "firstSeenAt": "2026-11-18T17:23:39.282Z",
+      "lastSeenAt": "2026-11-19T07:30:19.730Z",
+      "latestItemPublishedAt": "2026-11-18T15:19:13.000Z",
+      "primaryItemId": "news_fc48ed5d6e58",
+      "evidenceItemIds": [
+        "news_fc48ed5d6e58",
+        "news_598e2271bd9d"
+      ],
+      "status": "developing",
+      "summary": "AI企业Anthropic正考虑扩大IPO规模，散户认购需求接近1000亿美元",
+      "latestProgress": "Anthropic正评估扩大IPO规模可行性，散户认购需求近千亿美元"
+    },
+    {
+      "eventId": "event_b326a8886e68",
+      "clusterVersion": 2,
+      "title": "中国证监会新闻发言人答记者问",
+      "firstSeenAt": "2026-11-18T17:23:39.282Z",
+      "lastSeenAt": "2026-11-19T07:30:19.730Z",
+      "latestItemPublishedAt": "2026-11-18T04:28:06.000Z",
+      "primaryItemId": "news_8d6ef6bc050e",
+      "evidenceItemIds": [
+        "news_8d6ef6bc050e",
+        "news_2e2e3f034ef1"
+      ],
+      "status": "developing",
+      "summary": "中国证监会新闻发言人就市场关切问题回应媒体记者提问",
+      "latestProgress": "2026年11月17日证监会新闻发言人出席记者会回应相关问题"
+    },
+    {
+      "eventId": "event_bbc464c3b40d",
+      "clusterVersion": 2,
+      "title": "伍戈：“三支箭”化解地方债务压力",
+      "firstSeenAt": "2026-11-19T07:30:19.730Z",
+      "lastSeenAt": "2026-11-19T07:30:19.730Z",
+      "latestItemPublishedAt": "2026-11-19T02:25:51.000Z",
+      "primaryItemId": "news_34fd18b0f85d",
+      "evidenceItemIds": [
+        "news_34fd18b0f85d",
+        "news_bad1787d0614"
+      ],
+      "status": "developing",
+      "summary": "经济学家伍戈提出以\"三支箭\"政策组合化解地方债务压力的方案",
+      "latestProgress": "2026年11月19日伍戈公开阐释\"三支箭\"化解地方债务的具体路径"
+    },
+    {
+      "eventId": "event_69a144a22332",
+      "clusterVersion": 2,
+      "title": "首批主动ETF重仓股曝光：360亿新钱买了啥",
+      "firstSeenAt": "2026-11-19T07:30:19.730Z",
+      "lastSeenAt": "2026-11-19T07:30:19.730Z",
+      "latestItemPublishedAt": "2026-11-19T02:21:42.000Z",
+      "primaryItemId": "news_b1d41a350f9b",
+      "evidenceItemIds": [
+        "news_b1d41a350f9b",
+        "news_2cf760b5cb7b"
+      ],
+      "status": "developing",
+      "summary": "首批主动ETF重仓股随360亿新资金入场曝光，成为拉开业绩排名的关键。",
+      "latestProgress": "2026年11月19日首批主动ETF重仓股随360亿新资金入场曝光。"
+    },
+    {
+      "eventId": "event_6a45aea12e75",
+      "clusterVersion": 2,
+      "title": "晓数点丨Anthropic今夜登陆纳斯达克！史上最大IPO来了",
+      "firstSeenAt": "2026-11-19T07:30:19.730Z",
+      "lastSeenAt": "2026-11-19T07:30:19.730Z",
+      "latestItemPublishedAt": "2026-11-19T04:27:36.000Z",
+      "primaryItemId": "news_d3f4839f399c",
+      "evidenceItemIds": [
+        "news_d3f4839f399c",
+        "news_089a6b6538de"
+      ],
+      "status": "developing",
+      "summary": "Anthropic将登陆纳斯达克，为史上最大IPO，获近七倍超额认购。",
+      "latestProgress": "Anthropic于11月19日登陆纳斯达克，成史上最大规模IPO。"
+    },
+    {
+      "eventId": "event_770dd5d6f33c",
+      "clusterVersion": 2,
+      "title": "CoreWeave淡化黄仁勋离任影响，称英伟达仍是关键合作伙伴",
+      "firstSeenAt": "2026-11-19T07:30:19.730Z",
+      "lastSeenAt": "2026-11-19T07:30:19.730Z",
+      "latestItemPublishedAt": "2026-11-18T19:53:14.000Z",
+      "primaryItemId": "news_f4ce791b820a",
+      "evidenceItemIds": [
+        "news_f4ce791b820a",
+        "news_9e099dde6c3f"
+      ],
+      "status": "developing",
+      "summary": "CoreWeave淡化黄仁勋离任影响，称英伟达仍是关键合作伙伴",
+      "latestProgress": "CoreWeave高管称英伟达非一人决策，黄仁勋离任后双方将继续合作"
+    },
+    {
+      "eventId": "event_dcfddf3860b9",
+      "clusterVersion": 2,
+      "title": "财联社11月18日电，Anthropic IPO散户需求据悉接近1000亿美元。",
+      "firstSeenAt": "2026-11-19T07:30:19.730Z",
+      "lastSeenAt": "2026-11-19T07:30:19.730Z",
+      "latestItemPublishedAt": "2026-11-18T19:29:28.000Z",
+      "primaryItemId": "news_53e405a619d7",
+      "evidenceItemIds": [
+        "news_53e405a619d7",
+        "news_349ff6d84c52"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_340ac98c7a6f",
+      "clusterVersion": 2,
+      "title": "财联社11月19日电，ICE棉花期货下跌3%，最新报每磅78.86美分。",
+      "firstSeenAt": "2026-11-19T07:30:19.730Z",
+      "lastSeenAt": "2026-11-19T07:30:19.730Z",
+      "latestItemPublishedAt": "2026-11-18T19:20:49.000Z",
+      "primaryItemId": "news_e7aff4b1a0e4",
+      "evidenceItemIds": [
+        "news_e7aff4b1a0e4",
+        "news_e585472001f0"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_80603e2065d6",
+      "clusterVersion": 2,
+      "title": "财联社11月19日电，美联储会议纪要公布后，美国股市小幅走低，标普500指数最新下跌0.1%。",
+      "firstSeenAt": "2026-11-19T07:30:19.730Z",
+      "lastSeenAt": "2026-11-19T07:30:19.730Z",
+      "latestItemPublishedAt": "2026-11-18T19:12:09.000Z",
+      "primaryItemId": "news_2c8af092b917",
+      "evidenceItemIds": [
+        "news_2c8af092b917",
+        "news_67fddc6c2bee"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_09a6d0ed1016",
+      "clusterVersion": 2,
+      "title": "柏川数据完成5000万元Pre-A轮融资，星海图为投资方兼客户",
+      "firstSeenAt": "2026-11-19T07:30:19.730Z",
+      "lastSeenAt": "2026-11-19T07:30:19.730Z",
+      "latestItemPublishedAt": "2026-11-18T14:56:54.000Z",
+      "primaryItemId": "news_781aa8c04678",
+      "evidenceItemIds": [
+        "news_781aa8c04678",
+        "news_ed7e8fe13a95"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_146d1809c135",
+      "clusterVersion": 2,
+      "title": "财联社11月18日电，伯恩斯坦将京东目标价从40美元下调至38美元。",
+      "firstSeenAt": "2026-11-19T07:30:19.730Z",
+      "lastSeenAt": "2026-11-19T07:30:19.730Z",
+      "latestItemPublishedAt": "2026-11-18T11:20:10.000Z",
+      "primaryItemId": "news_6a69952248bd",
+      "evidenceItemIds": [
+        "news_6a69952248bd",
+        "news_f8460259154d"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
     },
     {
       "eventId": "event_a4c277bef24a",
@@ -299,23 +493,6 @@
       "latestProgress": "2026年11月5日证监会正式同意氢氧化锂期货及期权注册。"
     },
     {
-      "eventId": "event_afd95bcad936",
-      "clusterVersion": 2,
-      "title": "欧洲央行或于25日讨论将银行最低准备金要求从1%提高至2%",
-      "firstSeenAt": "2026-11-18T13:08:32.597Z",
-      "lastSeenAt": "2026-11-18T20:39:21.393Z",
-      "latestItemPublishedAt": "2026-11-18T12:53:56.000Z",
-      "primaryItemId": "news_3d2c9988f514",
-      "evidenceItemIds": [
-        "news_3d2c9988f514",
-        "news_6793eb6100ef",
-        "news_cf8282c9f1c1"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
       "eventId": "event_ef1a79a1b1f6",
       "clusterVersion": 2,
       "title": "欧央行行长：AI相关股票估值仍“非常激进”，市场终将面临修正，关键在于企业盈利",
@@ -326,38 +503,6 @@
       "evidenceItemIds": [
         "news_fc97280a24ce",
         "news_a6a90ad97d5e"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_7a4e444e912b",
-      "clusterVersion": 2,
-      "title": "报道：Anthropic正考虑扩大IPO规模，散户的认购需求接近1000亿美元",
-      "firstSeenAt": "2026-11-18T17:23:39.282Z",
-      "lastSeenAt": "2026-11-18T20:39:21.393Z",
-      "latestItemPublishedAt": "2026-11-18T15:19:13.000Z",
-      "primaryItemId": "news_fc48ed5d6e58",
-      "evidenceItemIds": [
-        "news_fc48ed5d6e58",
-        "news_598e2271bd9d"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_b326a8886e68",
-      "clusterVersion": 2,
-      "title": "中国证监会新闻发言人答记者问",
-      "firstSeenAt": "2026-11-18T17:23:39.282Z",
-      "lastSeenAt": "2026-11-18T20:39:21.393Z",
-      "latestItemPublishedAt": "2026-11-18T04:28:06.000Z",
-      "primaryItemId": "news_8d6ef6bc050e",
-      "evidenceItemIds": [
-        "news_8d6ef6bc050e",
-        "news_2e2e3f034ef1"
       ],
       "status": "developing",
       "summary": "",

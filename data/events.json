@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-19T17:29:31.620Z",
+  "generatedAt": "2026-11-19T20:46:29.658Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -9,12 +9,10 @@
       "clusterVersion": 2,
       "title": "美股多头迎来新麻烦：通胀、加息与盈利增长放缓同时来袭",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-19T17:29:31.620Z",
+      "lastSeenAt": "2026-11-19T20:46:29.658Z",
       "latestItemPublishedAt": "2026-11-19T14:52:32.000Z",
       "primaryItemId": "news_2dbd844286f5",
       "evidenceItemIds": [
-        "news_c1e91c501f33",
-        "news_f95519ea41da",
         "news_feb3406b0076",
         "news_7b15e8ec6184",
         "news_fbd52d81ece5",
@@ -62,7 +60,9 @@
         "news_4ce19cc4d790",
         "news_5f9e6830f20f",
         "news_2dbd844286f5",
-        "news_e737ac98ff2f"
+        "news_e737ac98ff2f",
+        "news_defb31120fc4",
+        "news_bcc059616dc4"
       ],
       "status": "developing",
       "summary": "Anthropic创纪录IPO提振市场，机构看好科技股，美股期货涨幅扩大",
@@ -73,11 +73,10 @@
       "clusterVersion": 2,
       "title": "A股公告精选 | 燧原科技(688801.SH)三日跌幅偏离值累计超30% 无限售流通股仅占总股本4.16%",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-19T17:29:31.620Z",
-      "latestItemPublishedAt": "2026-11-19T12:47:28.000Z",
+      "lastSeenAt": "2026-11-19T20:46:29.658Z",
+      "latestItemPublishedAt": "2026-11-19T13:57:48.000Z",
       "primaryItemId": "news_bf0614ab3da9",
       "evidenceItemIds": [
-        "news_6d9adf87b173",
         "news_b89ae6c29023",
         "news_fa2c806bfe90",
         "news_e08755af4c74",
@@ -126,7 +125,8 @@
         "news_7e14c7661375",
         "news_1b20b8c53ad7",
         "news_17f16481b4d1",
-        "news_bf0614ab3da9"
+        "news_bf0614ab3da9",
+        "news_9797031f4b46"
       ],
       "status": "developing",
       "summary": "A股低价股增至107只，5家公司股价跌破1元拉响面值退市警报",
@@ -137,12 +137,10 @@
       "clusterVersion": 2,
       "title": "港股异动 | 能源及能量环球(01142)涨超7% 拟收购中哈国际产业新城51%股权 或拓展哈萨克地域业务版图",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-11-19T17:29:31.620Z",
-      "latestItemPublishedAt": "2026-11-18T22:56:42.000Z",
+      "lastSeenAt": "2026-11-19T20:46:29.658Z",
+      "latestItemPublishedAt": "2026-11-19T13:40:21.000Z",
       "primaryItemId": "news_825390506e03",
       "evidenceItemIds": [
-        "news_292841eba207",
-        "news_ddd1eaff90e3",
         "news_df3f7c94f009",
         "news_52aba9261d28",
         "news_91b3c403d192",
@@ -190,7 +188,9 @@
         "news_f85b51fc7151",
         "news_c01a288d4ba6",
         "news_825390506e03",
-        "news_b327496a0d55"
+        "news_b327496a0d55",
+        "news_c2c337957d86",
+        "news_70a52465a7ab"
       ],
       "status": "developing",
       "summary": "能源及能量环球拟收购中哈国际产业新城股权，股价涨超7%，拟拓展哈萨克地域业务。",
@@ -201,11 +201,10 @@
       "clusterVersion": 2,
       "title": "10月美联储FOMC会议纪要：为10月未加息“找一堆理由”，又强烈指引12月“至少加息25基点”",
       "firstSeenAt": "2026-11-06T07:06:11.933Z",
-      "lastSeenAt": "2026-11-19T17:29:31.620Z",
+      "lastSeenAt": "2026-11-19T20:46:29.658Z",
       "latestItemPublishedAt": "2026-11-19T11:36:28.000Z",
       "primaryItemId": "news_91ca3df537e1",
       "evidenceItemIds": [
-        "news_0a163c089f85",
         "news_08f48011512c",
         "news_0414d8ed1b59",
         "news_5d0020879563",
@@ -254,7 +253,8 @@
         "news_8216144b96c2",
         "news_91ca3df537e1",
         "news_080efdf0b020",
-        "news_6244fd3cb0e4"
+        "news_6244fd3cb0e4",
+        "news_8d7f964f4aeb"
       ],
       "status": "developing",
       "summary": "美联储会议纪要释放明确加息信号，多名官员支持后续加息，12月或加息超25基点",
@@ -263,18 +263,21 @@
     {
       "eventId": "event_218c785f7e8c",
       "clusterVersion": 2,
-      "title": "摩根大通系统故障波及多家美国银行 基础服务稳定性受考验",
+      "title": "蒙特利尔银行金融集团重启美国油气投资银行业务",
       "firstSeenAt": "2026-11-16T22:15:52.545Z",
-      "lastSeenAt": "2026-11-19T17:29:31.620Z",
-      "latestItemPublishedAt": "2026-11-19T06:07:01.000Z",
-      "primaryItemId": "news_ab0d114c5e3c",
+      "lastSeenAt": "2026-11-19T20:46:29.658Z",
+      "latestItemPublishedAt": "2026-11-19T18:48:45.000Z",
+      "primaryItemId": "news_2daa2962f5ba",
       "evidenceItemIds": [
         "news_348e2011cf53",
         "news_6726991f14af",
         "news_8929659beaa5",
         "news_ab0d114c5e3c",
         "news_9f2560264aff",
-        "news_804239ac96aa"
+        "news_804239ac96aa",
+        "news_2daa2962f5ba",
+        "news_d63049749ba8",
+        "news_59353a771e22"
       ],
       "status": "developing",
       "summary": "摩根大通系统故障波及多家美国银行，基础服务稳定性受考验",
@@ -285,7 +288,7 @@
       "clusterVersion": 2,
       "title": "中国证监会新闻发言人答记者问",
       "firstSeenAt": "2026-11-18T17:23:39.282Z",
-      "lastSeenAt": "2026-11-19T17:29:31.620Z",
+      "lastSeenAt": "2026-11-19T20:46:29.658Z",
       "latestItemPublishedAt": "2026-11-18T04:28:06.000Z",
       "primaryItemId": "news_8d6ef6bc050e",
       "evidenceItemIds": [
@@ -301,7 +304,7 @@
       "clusterVersion": 2,
       "title": "中国证监会同意氢氧化锂期货和期权注册",
       "firstSeenAt": "2026-11-06T12:07:36.692Z",
-      "lastSeenAt": "2026-11-19T17:29:31.620Z",
+      "lastSeenAt": "2026-11-19T20:46:29.658Z",
       "latestItemPublishedAt": "2026-11-05T23:28:09.000Z",
       "primaryItemId": "news_0e0e861c68d3",
       "evidenceItemIds": [
@@ -320,7 +323,7 @@
       "clusterVersion": 2,
       "title": "欧央行新行长角逐加速！三个职位一盘棋，如何看欧元区共同债务也很重要",
       "firstSeenAt": "2026-11-18T17:23:39.282Z",
-      "lastSeenAt": "2026-11-19T17:29:31.620Z",
+      "lastSeenAt": "2026-11-19T20:46:29.658Z",
       "latestItemPublishedAt": "2026-11-19T10:47:37.000Z",
       "primaryItemId": "news_174fe8c0b0e7",
       "evidenceItemIds": [
@@ -337,7 +340,7 @@
       "clusterVersion": 2,
       "title": "只剩央行一个买家！时隔11天，高盛再度下调黄金目标价至4650美元",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-19T17:29:31.620Z",
+      "lastSeenAt": "2026-11-19T20:46:29.658Z",
       "latestItemPublishedAt": "2026-11-19T11:27:37.000Z",
       "primaryItemId": "news_09e7fb3afed4",
       "evidenceItemIds": [
@@ -401,7 +404,7 @@
       "clusterVersion": 2,
       "title": "京蓝科技：公司靶材产线尚未量产，亦未产生相关营业收入及利润",
       "firstSeenAt": "2026-11-19T13:07:11.033Z",
-      "lastSeenAt": "2026-11-19T17:29:31.620Z",
+      "lastSeenAt": "2026-11-19T20:46:29.658Z",
       "latestItemPublishedAt": "2026-11-19T11:28:25.000Z",
       "primaryItemId": "news_7be34182a541",
       "evidenceItemIds": [
@@ -417,7 +420,7 @@
       "clusterVersion": 2,
       "title": "财联社11月19日电，美国50ETF易方达(513850)将于2026年11月20日开市起至当日10:30停牌。",
       "firstSeenAt": "2026-11-19T13:07:11.033Z",
-      "lastSeenAt": "2026-11-19T17:29:31.620Z",
+      "lastSeenAt": "2026-11-19T20:46:29.658Z",
       "latestItemPublishedAt": "2026-11-19T11:06:08.000Z",
       "primaryItemId": "news_4a68e67164b5",
       "evidenceItemIds": [
@@ -426,6 +429,54 @@
         "news_5699034a96d7",
         "news_b1be82f9225c",
         "news_91601ee3baed"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_36735390d58b",
+      "clusterVersion": 2,
+      "title": "财联社11月20日电，Anthropic首日开盘市值预计达2万亿美元。",
+      "firstSeenAt": "2026-11-19T17:29:31.620Z",
+      "lastSeenAt": "2026-11-19T20:46:29.658Z",
+      "latestItemPublishedAt": "2026-11-19T16:45:25.000Z",
+      "primaryItemId": "news_156e42e4fef1",
+      "evidenceItemIds": [
+        "news_156e42e4fef1",
+        "news_a06342bbad4f"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_bc5e0b0b1b67",
+      "clusterVersion": 2,
+      "title": "欧洲三大股指集体收跌 德国DAX指数跌近1%",
+      "firstSeenAt": "2026-11-19T17:29:31.620Z",
+      "lastSeenAt": "2026-11-19T20:46:29.658Z",
+      "latestItemPublishedAt": "2026-11-19T16:37:17.000Z",
+      "primaryItemId": "news_c559654fe8a8",
+      "evidenceItemIds": [
+        "news_c559654fe8a8",
+        "news_40f6f3e50267"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_fe81652a78ed",
+      "clusterVersion": 2,
+      "title": "详讯丨习近平主持中俄美元首会晤",
+      "firstSeenAt": "2026-11-19T20:46:29.658Z",
+      "lastSeenAt": "2026-11-19T20:46:29.658Z",
+      "latestItemPublishedAt": "2026-11-19T12:03:01.000Z",
+      "primaryItemId": "news_a60894eb98d9",
+      "evidenceItemIds": [
+        "news_a60894eb98d9",
+        "news_d8eca309ada5"
       ],
       "status": "developing",
       "summary": "",
@@ -442,38 +493,6 @@
       "evidenceItemIds": [
         "news_d78f75977949",
         "news_66d3a9d67a4a"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_36735390d58b",
-      "clusterVersion": 2,
-      "title": "财联社11月20日电，Anthropic首日开盘市值预计达2万亿美元。",
-      "firstSeenAt": "2026-11-19T17:29:31.620Z",
-      "lastSeenAt": "2026-11-19T17:29:31.620Z",
-      "latestItemPublishedAt": "2026-11-19T16:45:25.000Z",
-      "primaryItemId": "news_156e42e4fef1",
-      "evidenceItemIds": [
-        "news_156e42e4fef1",
-        "news_a06342bbad4f"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_bc5e0b0b1b67",
-      "clusterVersion": 2,
-      "title": "欧洲三大股指集体收跌 德国DAX指数跌近1%",
-      "firstSeenAt": "2026-11-19T17:29:31.620Z",
-      "lastSeenAt": "2026-11-19T17:29:31.620Z",
-      "latestItemPublishedAt": "2026-11-19T16:37:17.000Z",
-      "primaryItemId": "news_c559654fe8a8",
-      "evidenceItemIds": [
-        "news_c559654fe8a8",
-        "news_40f6f3e50267"
       ],
       "status": "developing",
       "summary": "",

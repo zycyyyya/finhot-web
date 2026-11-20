@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-20T17:06:33.217Z",
+  "generatedAt": "2026-11-20T20:30:04.652Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -9,7 +9,7 @@
       "clusterVersion": 2,
       "title": "美股跌破关键支撑、VIX逼近30，市场在下跌中等待一场反弹？",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-20T17:06:33.217Z",
+      "lastSeenAt": "2026-11-20T20:30:04.652Z",
       "latestItemPublishedAt": "2026-11-20T15:18:21.000Z",
       "primaryItemId": "news_0453d6a44ca5",
       "evidenceItemIds": [
@@ -73,7 +73,7 @@
       "clusterVersion": 2,
       "title": "多家头部公募发声：外部扰动逐步消化，A股有望迎估值修复窗口",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-20T17:06:33.217Z",
+      "lastSeenAt": "2026-11-20T20:30:04.652Z",
       "latestItemPublishedAt": "2026-11-20T12:27:44.000Z",
       "primaryItemId": "news_72c2ccd7938a",
       "evidenceItemIds": [
@@ -137,11 +137,10 @@
       "clusterVersion": 2,
       "title": "港股异动 | 电力设备股跌幅扩大 软银砍单引发AI电源需求担忧 机构指订单高增或有所放缓",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-11-20T17:06:33.217Z",
-      "latestItemPublishedAt": "2026-11-20T09:07:09.000Z",
+      "lastSeenAt": "2026-11-20T20:30:04.652Z",
+      "latestItemPublishedAt": "2026-11-20T13:13:05.000Z",
       "primaryItemId": "news_daf12f0b983a",
       "evidenceItemIds": [
-        "news_3b9437463324",
         "news_ab6068272b05",
         "news_1e8710daf2ee",
         "news_1da331c36ae8",
@@ -190,7 +189,8 @@
         "news_1558b077feec",
         "news_bf0baf839408",
         "news_77699488e837",
-        "news_daf12f0b983a"
+        "news_daf12f0b983a",
+        "news_999e90ae2a03"
       ],
       "status": "developing",
       "summary": "腾讯控股续跌超2%，年内累跌超四成，AI投入加码令利润增速承压。",
@@ -201,11 +201,10 @@
       "clusterVersion": 2,
       "title": "10月美联储FOMC会议纪要：为10月未加息“找一堆理由”，又强烈指引12月“至少加息25基点”",
       "firstSeenAt": "2026-11-06T07:06:11.933Z",
-      "lastSeenAt": "2026-11-20T17:06:33.217Z",
-      "latestItemPublishedAt": "2026-11-20T12:53:22.000Z",
+      "lastSeenAt": "2026-11-20T20:30:04.652Z",
+      "latestItemPublishedAt": "2026-11-20T19:36:48.000Z",
       "primaryItemId": "news_91ca3df537e1",
       "evidenceItemIds": [
-        "news_5d0020879563",
         "news_d4983c9bef70",
         "news_45c0611cd29f",
         "news_b884e99b0703",
@@ -254,7 +253,8 @@
         "news_6244fd3cb0e4",
         "news_8d7f964f4aeb",
         "news_11b705b3aebd",
-        "news_f53947b32ed8"
+        "news_f53947b32ed8",
+        "news_9e7f2ab5eb44"
       ],
       "status": "developing",
       "summary": "10月美联储FOMC会议纪要既为未加息找理由，又强烈指引12月至少加息25基点。",
@@ -265,7 +265,7 @@
       "clusterVersion": 2,
       "title": "一文穿透：“AI界央行”英伟达钱都流向了哪？",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-20T17:06:33.217Z",
+      "lastSeenAt": "2026-11-20T20:30:04.652Z",
       "latestItemPublishedAt": "2026-11-20T01:45:41.000Z",
       "primaryItemId": "news_e9c41420d46d",
       "evidenceItemIds": [
@@ -325,27 +325,11 @@
       "latestProgress": "世界黄金协会称9月全球央行公开净购金61吨，创2026年单月最高纪录"
     },
     {
-      "eventId": "event_d1da54a5c439",
-      "clusterVersion": 2,
-      "title": "财联社11月20日电，截至目前，南向资金净买入额达40亿港元。",
-      "firstSeenAt": "2026-11-20T07:18:44.054Z",
-      "lastSeenAt": "2026-11-20T17:06:33.217Z",
-      "latestItemPublishedAt": "2026-11-20T06:07:28.000Z",
-      "primaryItemId": "news_650110869c87",
-      "evidenceItemIds": [
-        "news_650110869c87",
-        "news_f5fbf3a3b326"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
       "eventId": "event_75b3cf7ff697",
       "clusterVersion": 2,
       "title": "财联社11月20日电，美国10年期国债收益率当日下跌10个基点，至4.95%。",
       "firstSeenAt": "2026-11-20T07:18:44.054Z",
-      "lastSeenAt": "2026-11-20T17:06:33.217Z",
+      "lastSeenAt": "2026-11-20T20:30:04.652Z",
       "latestItemPublishedAt": "2026-11-20T15:41:20.000Z",
       "primaryItemId": "news_c00066b3d05e",
       "evidenceItemIds": [
@@ -364,7 +348,7 @@
       "clusterVersion": 2,
       "title": "欧洲央行拉加德：将扩大货币互换协议覆盖范围",
       "firstSeenAt": "2026-11-18T13:08:32.597Z",
-      "lastSeenAt": "2026-11-20T17:06:33.217Z",
+      "lastSeenAt": "2026-11-20T20:30:04.652Z",
       "latestItemPublishedAt": "2026-11-20T11:45:10.000Z",
       "primaryItemId": "news_add32f1d16d6",
       "evidenceItemIds": [
@@ -381,11 +365,11 @@
     {
       "eventId": "event_ce5285e4f9c0",
       "clusterVersion": 2,
-      "title": "因违反金融统计相关规定等，建设银行江西省分行被罚503.48万元",
+      "title": "建设银行发布贵金属业务市场风险提示",
       "firstSeenAt": "2026-11-20T12:56:04.454Z",
-      "lastSeenAt": "2026-11-20T17:06:33.217Z",
+      "lastSeenAt": "2026-11-20T20:30:04.652Z",
       "latestItemPublishedAt": "2026-11-20T12:33:01.000Z",
-      "primaryItemId": "news_443c6b322619",
+      "primaryItemId": "news_237bb10cbe55",
       "evidenceItemIds": [
         "news_443c6b322619",
         "news_237bb10cbe55"
@@ -399,7 +383,7 @@
       "clusterVersion": 2,
       "title": "华尔街各大银行纷纷发布2027年标普500目标位，牛市前景明朗",
       "firstSeenAt": "2026-11-20T12:56:04.454Z",
-      "lastSeenAt": "2026-11-20T17:06:33.217Z",
+      "lastSeenAt": "2026-11-20T20:30:04.652Z",
       "latestItemPublishedAt": "2026-11-20T12:24:18.000Z",
       "primaryItemId": "news_a99f90ab0ff8",
       "evidenceItemIds": [
@@ -416,12 +400,108 @@
       "clusterVersion": 2,
       "title": "工商银行云南省分行被罚100万元，涉违反金融统计相关规定",
       "firstSeenAt": "2026-11-20T12:56:04.454Z",
-      "lastSeenAt": "2026-11-20T17:06:33.217Z",
+      "lastSeenAt": "2026-11-20T20:30:04.652Z",
       "latestItemPublishedAt": "2026-11-20T09:25:52.000Z",
       "primaryItemId": "news_7b393e3668d6",
       "evidenceItemIds": [
         "news_7b393e3668d6",
         "news_4602ae88277f"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_25c1f87fe07c",
+      "clusterVersion": 2,
+      "title": "AI进化速递丨Anthropic IPO募集资金总额约为935亿美元",
+      "firstSeenAt": "2026-11-20T17:06:33.217Z",
+      "lastSeenAt": "2026-11-20T20:30:04.652Z",
+      "latestItemPublishedAt": "2026-11-20T13:03:25.000Z",
+      "primaryItemId": "news_0e9da74c5a71",
+      "evidenceItemIds": [
+        "news_0e9da74c5a71",
+        "news_c1742b277e82"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_daeae64f0624",
+      "clusterVersion": 2,
+      "title": "财联社11月20日电，纳斯达克100指数跌幅扩大至2.5%。",
+      "firstSeenAt": "2026-11-20T17:06:33.217Z",
+      "lastSeenAt": "2026-11-20T20:30:04.652Z",
+      "latestItemPublishedAt": "2026-11-20T15:39:45.000Z",
+      "primaryItemId": "news_cd2833ff6aa9",
+      "evidenceItemIds": [
+        "news_cd2833ff6aa9",
+        "news_9ddfcf2116b5"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_b23a371ab454",
+      "clusterVersion": 2,
+      "title": "财联社11月21日电，WTI原油期货结算价为83.98美元/桶，涨幅0.93%；布伦特原油期货结算价为92.57美元/桶",
+      "firstSeenAt": "2026-11-20T20:30:04.652Z",
+      "lastSeenAt": "2026-11-20T20:30:04.652Z",
+      "latestItemPublishedAt": "2026-11-20T19:53:51.000Z",
+      "primaryItemId": "news_33241cb83f2f",
+      "evidenceItemIds": [
+        "news_33241cb83f2f",
+        "news_0d5905b72d08"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_7a6a9bd05c25",
+      "clusterVersion": 2,
+      "title": "费城半导体指数跌幅扩大至10% 英伟达跌近12%",
+      "firstSeenAt": "2026-11-20T20:30:04.652Z",
+      "lastSeenAt": "2026-11-20T20:30:04.652Z",
+      "latestItemPublishedAt": "2026-11-20T19:33:21.000Z",
+      "primaryItemId": "news_916570c9168b",
+      "evidenceItemIds": [
+        "news_916570c9168b",
+        "news_58a6884f5a6c"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_49589aee9cc2",
+      "clusterVersion": 2,
+      "title": "《侠盗猎车手VI》首日销售额达37.9亿美元，创娱乐业纪录",
+      "firstSeenAt": "2026-11-20T20:30:04.652Z",
+      "lastSeenAt": "2026-11-20T20:30:04.652Z",
+      "latestItemPublishedAt": "2026-11-20T19:25:09.000Z",
+      "primaryItemId": "news_00c20b15ff32",
+      "evidenceItemIds": [
+        "news_00c20b15ff32",
+        "news_8272bb5d7e8e"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_d1da54a5c439",
+      "clusterVersion": 2,
+      "title": "财联社11月20日电，截至目前，南向资金净买入额达40亿港元。",
+      "firstSeenAt": "2026-11-20T07:18:44.054Z",
+      "lastSeenAt": "2026-11-20T17:06:33.217Z",
+      "latestItemPublishedAt": "2026-11-20T06:07:28.000Z",
+      "primaryItemId": "news_650110869c87",
+      "evidenceItemIds": [
+        "news_650110869c87",
+        "news_f5fbf3a3b326"
       ],
       "status": "developing",
       "summary": "",
@@ -439,38 +519,6 @@
         "news_f8bb69031a51",
         "news_3feb3f809a6f",
         "news_e30da6ddbbba"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_25c1f87fe07c",
-      "clusterVersion": 2,
-      "title": "AI进化速递丨Anthropic IPO募集资金总额约为935亿美元",
-      "firstSeenAt": "2026-11-20T17:06:33.217Z",
-      "lastSeenAt": "2026-11-20T17:06:33.217Z",
-      "latestItemPublishedAt": "2026-11-20T13:03:25.000Z",
-      "primaryItemId": "news_0e9da74c5a71",
-      "evidenceItemIds": [
-        "news_0e9da74c5a71",
-        "news_c1742b277e82"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_daeae64f0624",
-      "clusterVersion": 2,
-      "title": "财联社11月20日电，纳斯达克100指数跌幅扩大至2.5%。",
-      "firstSeenAt": "2026-11-20T17:06:33.217Z",
-      "lastSeenAt": "2026-11-20T17:06:33.217Z",
-      "latestItemPublishedAt": "2026-11-20T15:39:45.000Z",
-      "primaryItemId": "news_cd2833ff6aa9",
-      "evidenceItemIds": [
-        "news_cd2833ff6aa9",
-        "news_9ddfcf2116b5"
       ],
       "status": "developing",
       "summary": "",

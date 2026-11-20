@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-20T12:56:04.454Z",
+  "generatedAt": "2026-11-20T17:06:33.217Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -9,12 +9,10 @@
       "clusterVersion": 2,
       "title": "美股跌破关键支撑、VIX逼近30，市场在下跌中等待一场反弹？",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-20T12:56:04.454Z",
-      "latestItemPublishedAt": "2026-11-20T11:41:58.000Z",
+      "lastSeenAt": "2026-11-20T17:06:33.217Z",
+      "latestItemPublishedAt": "2026-11-20T15:18:21.000Z",
       "primaryItemId": "news_0453d6a44ca5",
       "evidenceItemIds": [
-        "news_f5e401aea4a1",
-        "news_47419d4d8268",
         "news_c4ad16cfa6a7",
         "news_a74d152cc3fc",
         "news_2b7bfab73f5c",
@@ -62,7 +60,9 @@
         "news_19de0eedbf4e",
         "news_83ef3977262b",
         "news_2e5940d870a0",
-        "news_0453d6a44ca5"
+        "news_0453d6a44ca5",
+        "news_ce5165a0d8cc",
+        "news_b982bbb04c43"
       ],
       "status": "developing",
       "summary": "Anthropic创纪录IPO一度提振美股期货，随后市场跳水，多空分歧显著。",
@@ -73,7 +73,7 @@
       "clusterVersion": 2,
       "title": "多家头部公募发声：外部扰动逐步消化，A股有望迎估值修复窗口",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-20T12:56:04.454Z",
+      "lastSeenAt": "2026-11-20T17:06:33.217Z",
       "latestItemPublishedAt": "2026-11-20T12:27:44.000Z",
       "primaryItemId": "news_72c2ccd7938a",
       "evidenceItemIds": [
@@ -135,11 +135,11 @@
     {
       "eventId": "event_c68d651d4ff9",
       "clusterVersion": 2,
-      "title": "港股异动｜腾讯控股(00700)续跌超2% 年内股价已累跌超四成 AI投入加码令利润增速承压",
+      "title": "港股异动 | 电力设备股跌幅扩大 软银砍单引发AI电源需求担忧 机构指订单高增或有所放缓",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-11-20T12:56:04.454Z",
+      "lastSeenAt": "2026-11-20T17:06:33.217Z",
       "latestItemPublishedAt": "2026-11-20T09:07:09.000Z",
-      "primaryItemId": "news_1558b077feec",
+      "primaryItemId": "news_daf12f0b983a",
       "evidenceItemIds": [
         "news_3b9437463324",
         "news_ab6068272b05",
@@ -201,11 +201,10 @@
       "clusterVersion": 2,
       "title": "10月美联储FOMC会议纪要：为10月未加息“找一堆理由”，又强烈指引12月“至少加息25基点”",
       "firstSeenAt": "2026-11-06T07:06:11.933Z",
-      "lastSeenAt": "2026-11-20T12:56:04.454Z",
-      "latestItemPublishedAt": "2026-11-20T03:33:33.000Z",
+      "lastSeenAt": "2026-11-20T17:06:33.217Z",
+      "latestItemPublishedAt": "2026-11-20T12:53:22.000Z",
       "primaryItemId": "news_91ca3df537e1",
       "evidenceItemIds": [
-        "news_0414d8ed1b59",
         "news_5d0020879563",
         "news_d4983c9bef70",
         "news_45c0611cd29f",
@@ -254,59 +253,21 @@
         "news_080efdf0b020",
         "news_6244fd3cb0e4",
         "news_8d7f964f4aeb",
-        "news_11b705b3aebd"
+        "news_11b705b3aebd",
+        "news_f53947b32ed8"
       ],
       "status": "developing",
       "summary": "10月美联储FOMC会议纪要既为未加息找理由，又强烈指引12月至少加息25基点。",
       "latestProgress": "摩根大通预计美联储加息三次，12月、1月、3月加息，利率达4.5%-4.75%。"
     },
     {
-      "eventId": "event_218c785f7e8c",
-      "clusterVersion": 2,
-      "title": "蒙特利尔银行金融集团重启美国油气投资银行业务",
-      "firstSeenAt": "2026-11-16T22:15:52.545Z",
-      "lastSeenAt": "2026-11-20T12:56:04.454Z",
-      "latestItemPublishedAt": "2026-11-19T18:48:45.000Z",
-      "primaryItemId": "news_2daa2962f5ba",
-      "evidenceItemIds": [
-        "news_348e2011cf53",
-        "news_6726991f14af",
-        "news_8929659beaa5",
-        "news_ab0d114c5e3c",
-        "news_9f2560264aff",
-        "news_804239ac96aa",
-        "news_2daa2962f5ba",
-        "news_d63049749ba8",
-        "news_59353a771e22"
-      ],
-      "status": "developing",
-      "summary": "蒙特利尔银行金融集团退出美国油气投资银行业务六年后重启该业务。",
-      "latestProgress": "财联社11月20日消息，蒙特利尔银行资本市场正重返美国油气投资银行业务。"
-    },
-    {
-      "eventId": "event_b326a8886e68",
-      "clusterVersion": 2,
-      "title": "中国证监会新闻发言人答记者问",
-      "firstSeenAt": "2026-11-18T17:23:39.282Z",
-      "lastSeenAt": "2026-11-20T12:56:04.454Z",
-      "latestItemPublishedAt": "2026-11-18T04:28:06.000Z",
-      "primaryItemId": "news_8d6ef6bc050e",
-      "evidenceItemIds": [
-        "news_8d6ef6bc050e",
-        "news_2e2e3f034ef1"
-      ],
-      "status": "developing",
-      "summary": "中国证监会新闻发言人就市场关切问题答记者问，传递监管政策导向",
-      "latestProgress": "2026年11月17日证监会新闻发言人完成记者问询回应工作"
-    },
-    {
       "eventId": "event_2cf716748ce1",
       "clusterVersion": 2,
-      "title": "只剩央行一个买家！时隔11天，高盛再度下调黄金目标价至4650美元",
+      "title": "一文穿透：“AI界央行”英伟达钱都流向了哪？",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-20T12:56:04.454Z",
+      "lastSeenAt": "2026-11-20T17:06:33.217Z",
       "latestItemPublishedAt": "2026-11-20T01:45:41.000Z",
-      "primaryItemId": "news_09e7fb3afed4",
+      "primaryItemId": "news_e9c41420d46d",
       "evidenceItemIds": [
         "news_59985e5be6cc",
         "news_53f9c3ae5ede",
@@ -364,6 +325,197 @@
       "latestProgress": "世界黄金协会称9月全球央行公开净购金61吨，创2026年单月最高纪录"
     },
     {
+      "eventId": "event_d1da54a5c439",
+      "clusterVersion": 2,
+      "title": "财联社11月20日电，截至目前，南向资金净买入额达40亿港元。",
+      "firstSeenAt": "2026-11-20T07:18:44.054Z",
+      "lastSeenAt": "2026-11-20T17:06:33.217Z",
+      "latestItemPublishedAt": "2026-11-20T06:07:28.000Z",
+      "primaryItemId": "news_650110869c87",
+      "evidenceItemIds": [
+        "news_650110869c87",
+        "news_f5fbf3a3b326"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_75b3cf7ff697",
+      "clusterVersion": 2,
+      "title": "财联社11月20日电，美国10年期国债收益率当日下跌10个基点，至4.95%。",
+      "firstSeenAt": "2026-11-20T07:18:44.054Z",
+      "lastSeenAt": "2026-11-20T17:06:33.217Z",
+      "latestItemPublishedAt": "2026-11-20T15:41:20.000Z",
+      "primaryItemId": "news_c00066b3d05e",
+      "evidenceItemIds": [
+        "news_b84af208cce3",
+        "news_1367709fe740",
+        "news_c00066b3d05e",
+        "news_ebca9ba2b3cc",
+        "news_c9012d3dc92b"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_afd95bcad936",
+      "clusterVersion": 2,
+      "title": "欧洲央行拉加德：将扩大货币互换协议覆盖范围",
+      "firstSeenAt": "2026-11-18T13:08:32.597Z",
+      "lastSeenAt": "2026-11-20T17:06:33.217Z",
+      "latestItemPublishedAt": "2026-11-20T11:45:10.000Z",
+      "primaryItemId": "news_add32f1d16d6",
+      "evidenceItemIds": [
+        "news_3d2c9988f514",
+        "news_6793eb6100ef",
+        "news_cf8282c9f1c1",
+        "news_add32f1d16d6",
+        "news_0930c31f05ae"
+      ],
+      "status": "developing",
+      "summary": "欧洲央行或于25日讨论将银行最低准备金要求从1%提高至2%",
+      "latestProgress": "欧元区展现韧性，AI、财政、地缘政治风险影响前景"
+    },
+    {
+      "eventId": "event_ce5285e4f9c0",
+      "clusterVersion": 2,
+      "title": "因违反金融统计相关规定等，建设银行江西省分行被罚503.48万元",
+      "firstSeenAt": "2026-11-20T12:56:04.454Z",
+      "lastSeenAt": "2026-11-20T17:06:33.217Z",
+      "latestItemPublishedAt": "2026-11-20T12:33:01.000Z",
+      "primaryItemId": "news_443c6b322619",
+      "evidenceItemIds": [
+        "news_443c6b322619",
+        "news_237bb10cbe55"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_ec42523135ca",
+      "clusterVersion": 2,
+      "title": "华尔街各大银行纷纷发布2027年标普500目标位，牛市前景明朗",
+      "firstSeenAt": "2026-11-20T12:56:04.454Z",
+      "lastSeenAt": "2026-11-20T17:06:33.217Z",
+      "latestItemPublishedAt": "2026-11-20T12:24:18.000Z",
+      "primaryItemId": "news_a99f90ab0ff8",
+      "evidenceItemIds": [
+        "news_a99f90ab0ff8",
+        "news_b885bb83b075",
+        "news_b3ff5c57ab83"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_98366ccd33d5",
+      "clusterVersion": 2,
+      "title": "工商银行云南省分行被罚100万元，涉违反金融统计相关规定",
+      "firstSeenAt": "2026-11-20T12:56:04.454Z",
+      "lastSeenAt": "2026-11-20T17:06:33.217Z",
+      "latestItemPublishedAt": "2026-11-20T09:25:52.000Z",
+      "primaryItemId": "news_7b393e3668d6",
+      "evidenceItemIds": [
+        "news_7b393e3668d6",
+        "news_4602ae88277f"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_b53b996f4342",
+      "clusterVersion": 2,
+      "title": "利弗莫尔中概股龙头指数跌幅扩大至3%",
+      "firstSeenAt": "2026-11-17T21:05:22.219Z",
+      "lastSeenAt": "2026-11-20T17:06:33.217Z",
+      "latestItemPublishedAt": "2026-11-20T15:45:49.000Z",
+      "primaryItemId": "news_e30da6ddbbba",
+      "evidenceItemIds": [
+        "news_f8bb69031a51",
+        "news_3feb3f809a6f",
+        "news_e30da6ddbbba"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_25c1f87fe07c",
+      "clusterVersion": 2,
+      "title": "AI进化速递丨Anthropic IPO募集资金总额约为935亿美元",
+      "firstSeenAt": "2026-11-20T17:06:33.217Z",
+      "lastSeenAt": "2026-11-20T17:06:33.217Z",
+      "latestItemPublishedAt": "2026-11-20T13:03:25.000Z",
+      "primaryItemId": "news_0e9da74c5a71",
+      "evidenceItemIds": [
+        "news_0e9da74c5a71",
+        "news_c1742b277e82"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_daeae64f0624",
+      "clusterVersion": 2,
+      "title": "财联社11月20日电，纳斯达克100指数跌幅扩大至2.5%。",
+      "firstSeenAt": "2026-11-20T17:06:33.217Z",
+      "lastSeenAt": "2026-11-20T17:06:33.217Z",
+      "latestItemPublishedAt": "2026-11-20T15:39:45.000Z",
+      "primaryItemId": "news_cd2833ff6aa9",
+      "evidenceItemIds": [
+        "news_cd2833ff6aa9",
+        "news_9ddfcf2116b5"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_218c785f7e8c",
+      "clusterVersion": 2,
+      "title": "蒙特利尔银行金融集团重启美国油气投资银行业务",
+      "firstSeenAt": "2026-11-16T22:15:52.545Z",
+      "lastSeenAt": "2026-11-20T12:56:04.454Z",
+      "latestItemPublishedAt": "2026-11-19T18:48:45.000Z",
+      "primaryItemId": "news_2daa2962f5ba",
+      "evidenceItemIds": [
+        "news_348e2011cf53",
+        "news_6726991f14af",
+        "news_8929659beaa5",
+        "news_ab0d114c5e3c",
+        "news_9f2560264aff",
+        "news_804239ac96aa",
+        "news_2daa2962f5ba",
+        "news_d63049749ba8",
+        "news_59353a771e22"
+      ],
+      "status": "developing",
+      "summary": "蒙特利尔银行金融集团退出美国油气投资银行业务六年后重启该业务。",
+      "latestProgress": "财联社11月20日消息，蒙特利尔银行资本市场正重返美国油气投资银行业务。"
+    },
+    {
+      "eventId": "event_b326a8886e68",
+      "clusterVersion": 2,
+      "title": "中国证监会新闻发言人答记者问",
+      "firstSeenAt": "2026-11-18T17:23:39.282Z",
+      "lastSeenAt": "2026-11-20T12:56:04.454Z",
+      "latestItemPublishedAt": "2026-11-18T04:28:06.000Z",
+      "primaryItemId": "news_8d6ef6bc050e",
+      "evidenceItemIds": [
+        "news_8d6ef6bc050e",
+        "news_2e2e3f034ef1"
+      ],
+      "status": "developing",
+      "summary": "中国证监会新闻发言人就市场关切问题答记者问，传递监管政策导向",
+      "latestProgress": "2026年11月17日证监会新闻发言人完成记者问询回应工作"
+    },
+    {
       "eventId": "event_36735390d58b",
       "clusterVersion": 2,
       "title": "财联社11月20日电，Anthropic首日开盘市值预计达2万亿美元。",
@@ -398,106 +550,6 @@
       "status": "developing",
       "summary": "新加坡数据中心运营商DayOne因数据中心及市场担忧暂停美国IPO计划",
       "latestProgress": "新加坡数据中心运营商DAYONE据悉暂停美国IPO计划"
-    },
-    {
-      "eventId": "event_d1da54a5c439",
-      "clusterVersion": 2,
-      "title": "财联社11月20日电，截至目前，南向资金净买入额达40亿港元。",
-      "firstSeenAt": "2026-11-20T07:18:44.054Z",
-      "lastSeenAt": "2026-11-20T12:56:04.454Z",
-      "latestItemPublishedAt": "2026-11-20T06:07:28.000Z",
-      "primaryItemId": "news_650110869c87",
-      "evidenceItemIds": [
-        "news_650110869c87",
-        "news_f5fbf3a3b326"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_75b3cf7ff697",
-      "clusterVersion": 2,
-      "title": "财联社11月20日电，日本40年期国债收益率下跌3.0个基点，至4.150%。",
-      "firstSeenAt": "2026-11-20T07:18:44.054Z",
-      "lastSeenAt": "2026-11-20T12:56:04.454Z",
-      "latestItemPublishedAt": "2026-11-20T05:53:07.000Z",
-      "primaryItemId": "news_b84af208cce3",
-      "evidenceItemIds": [
-        "news_b84af208cce3",
-        "news_1367709fe740"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_afd95bcad936",
-      "clusterVersion": 2,
-      "title": "欧洲央行拉加德：将扩大货币互换协议覆盖范围",
-      "firstSeenAt": "2026-11-18T13:08:32.597Z",
-      "lastSeenAt": "2026-11-20T12:56:04.454Z",
-      "latestItemPublishedAt": "2026-11-20T11:45:10.000Z",
-      "primaryItemId": "news_add32f1d16d6",
-      "evidenceItemIds": [
-        "news_3d2c9988f514",
-        "news_6793eb6100ef",
-        "news_cf8282c9f1c1",
-        "news_add32f1d16d6",
-        "news_0930c31f05ae"
-      ],
-      "status": "developing",
-      "summary": "欧洲央行或于25日讨论将银行最低准备金要求从1%提高至2%",
-      "latestProgress": "欧元区展现韧性，AI、财政、地缘政治风险影响前景"
-    },
-    {
-      "eventId": "event_ce5285e4f9c0",
-      "clusterVersion": 2,
-      "title": "因违反金融统计相关规定等，建设银行江西省分行被罚503.48万元",
-      "firstSeenAt": "2026-11-20T12:56:04.454Z",
-      "lastSeenAt": "2026-11-20T12:56:04.454Z",
-      "latestItemPublishedAt": "2026-11-20T12:33:01.000Z",
-      "primaryItemId": "news_443c6b322619",
-      "evidenceItemIds": [
-        "news_443c6b322619",
-        "news_237bb10cbe55"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_ec42523135ca",
-      "clusterVersion": 2,
-      "title": "华尔街各大银行纷纷发布2027年标普500目标位，牛市前景明朗",
-      "firstSeenAt": "2026-11-20T12:56:04.454Z",
-      "lastSeenAt": "2026-11-20T12:56:04.454Z",
-      "latestItemPublishedAt": "2026-11-20T12:24:18.000Z",
-      "primaryItemId": "news_a99f90ab0ff8",
-      "evidenceItemIds": [
-        "news_a99f90ab0ff8",
-        "news_b885bb83b075",
-        "news_b3ff5c57ab83"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_98366ccd33d5",
-      "clusterVersion": 2,
-      "title": "工商银行云南省分行被罚100万元，涉违反金融统计相关规定",
-      "firstSeenAt": "2026-11-20T12:56:04.454Z",
-      "lastSeenAt": "2026-11-20T12:56:04.454Z",
-      "latestItemPublishedAt": "2026-11-20T09:25:52.000Z",
-      "primaryItemId": "news_7b393e3668d6",
-      "evidenceItemIds": [
-        "news_7b393e3668d6",
-        "news_4602ae88277f"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
     },
     {
       "eventId": "event_daf1beb78032",
@@ -789,22 +841,6 @@
       "evidenceItemIds": [
         "news_6a69952248bd",
         "news_f8460259154d"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_b53b996f4342",
-      "clusterVersion": 2,
-      "title": "利弗莫尔中概股龙头指数跌幅扩大至2%",
-      "firstSeenAt": "2026-11-17T21:05:22.219Z",
-      "lastSeenAt": "2026-11-18T13:08:32.597Z",
-      "latestItemPublishedAt": "2026-11-17T20:00:46.000Z",
-      "primaryItemId": "news_f8bb69031a51",
-      "evidenceItemIds": [
-        "news_f8bb69031a51",
-        "news_3feb3f809a6f"
       ],
       "status": "developing",
       "summary": "",

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-19T20:46:29.658Z",
+  "updatedAt": "2026-11-20T07:18:44.054Z",
   "note": "auto 指标由 scripts/macro.js 每日自动刷新；manual 指标为人工核实值，核实日期见 asOf。",
   "indicators": [
     {
@@ -8,28 +8,28 @@
       "name": "LPR 1年期",
       "value": "3.00%",
       "numericValue": 3,
-      "note": "较9月20日 3.00% 持平",
+      "note": "较10月20日 3.00% 持平",
       "direction": "flat",
-      "asOf": "2026-10-20",
+      "asOf": "2026-11-20",
       "source": "中国货币网",
       "mode": "auto",
       "prevValue": "3.00%",
       "prevNumericValue": 3,
-      "prevAsOf": "2026-09-20"
+      "prevAsOf": "2026-10-20"
     },
     {
       "key": "lpr5y",
       "name": "LPR 5年期以上",
       "value": "3.50%",
       "numericValue": 3.5,
-      "note": "较9月20日 3.50% 持平",
+      "note": "较10月20日 3.50% 持平",
       "direction": "flat",
-      "asOf": "2026-10-20",
+      "asOf": "2026-11-20",
       "source": "中国货币网",
       "mode": "auto",
       "prevValue": "3.50%",
       "prevNumericValue": 3.5,
-      "prevAsOf": "2026-09-20"
+      "prevAsOf": "2026-10-20"
     },
     {
       "key": "cn10y",
@@ -56,21 +56,17 @@
     {
       "key": "us10y",
       "name": "美债 10年期",
-      "value": "5.07%",
-      "numericValue": 5.07,
-      "note": "较11月17日 5.10% 下降",
+      "value": "5.04%",
+      "numericValue": 5.04,
+      "note": "较11月18日 5.07% 下降",
       "direction": "down",
-      "asOf": "2026-11-18",
+      "asOf": "2026-11-19",
       "source": "美国财政部",
       "mode": "auto",
-      "prevValue": "5.10%",
-      "prevNumericValue": 5.1,
-      "prevAsOf": "2026-11-17",
+      "prevValue": "5.07%",
+      "prevNumericValue": 5.07,
+      "prevAsOf": "2026-11-18",
       "series": [
-        {
-          "date": "2026-11-09",
-          "value": 4.88
-        },
         {
           "date": "2026-11-10",
           "value": 4.98
@@ -94,6 +90,10 @@
         {
           "date": "2026-11-18",
           "value": 5.07
+        },
+        {
+          "date": "2026-11-19",
+          "value": 5.04
         }
       ]
     },
@@ -155,16 +155,16 @@
     {
       "key": "gold",
       "name": "现货黄金",
-      "value": "$3,666",
-      "numericValue": 3665.649902,
-      "note": "较11月18日 $3,731 下降",
+      "value": "$3,558",
+      "numericValue": 3558.050049,
+      "note": "较11月19日 $3,666 下降",
       "direction": "down",
-      "asOf": "2026-11-19",
+      "asOf": "2026-11-20",
       "source": "gold-api.com",
       "mode": "auto",
-      "prevValue": "$3,731",
-      "prevNumericValue": 3730.850098,
-      "prevAsOf": "2026-11-18"
+      "prevValue": "$3,666",
+      "prevNumericValue": 3665.649902,
+      "prevAsOf": "2026-11-19"
     },
     {
       "key": "cngold",

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-21T12:45:18.013Z",
+  "generatedAt": "2026-11-21T16:17:41.783Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -9,8 +9,8 @@
       "clusterVersion": 2,
       "title": "风险资产恐慌席卷币圈! 费城半导体单日重挫10% 美股收盘后比特币继续暴跌 创两年新低",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-21T12:45:18.013Z",
-      "latestItemPublishedAt": "2026-11-21T05:30:32.000Z",
+      "lastSeenAt": "2026-11-21T16:17:41.783Z",
+      "latestItemPublishedAt": "2026-11-21T07:27:29.000Z",
       "primaryItemId": "news_cdf5aa66781d",
       "evidenceItemIds": [
         "news_10973d1b2596",
@@ -73,7 +73,7 @@
       "clusterVersion": 2,
       "title": "多家头部公募发声：外部扰动逐步消化，A股有望迎估值修复窗口",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-21T12:45:18.013Z",
+      "lastSeenAt": "2026-11-21T16:17:41.783Z",
       "latestItemPublishedAt": "2026-11-20T12:27:44.000Z",
       "primaryItemId": "news_72c2ccd7938a",
       "evidenceItemIds": [
@@ -137,7 +137,7 @@
       "clusterVersion": 2,
       "title": "港股异动 | 电力设备股跌幅扩大 软银砍单引发AI电源需求担忧 机构指订单高增或有所放缓",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-11-21T12:45:18.013Z",
+      "lastSeenAt": "2026-11-21T16:17:41.783Z",
       "latestItemPublishedAt": "2026-11-21T02:43:00.000Z",
       "primaryItemId": "news_daf12f0b983a",
       "evidenceItemIds": [
@@ -199,11 +199,11 @@
     {
       "eventId": "event_9e320dba578d",
       "clusterVersion": 2,
-      "title": "2018年末的剧本：美联储持续加息，美股从9月高点暴跌20%，迫使美联储1月“转向”",
+      "title": "美联储理事库克为10月异见投票辩护：通胀压力紧迫，利率需更快上调",
       "firstSeenAt": "2026-11-06T07:06:11.933Z",
-      "lastSeenAt": "2026-11-21T12:45:18.013Z",
-      "latestItemPublishedAt": "2026-11-21T05:22:07.000Z",
-      "primaryItemId": "news_337730ad7c90",
+      "lastSeenAt": "2026-11-21T16:17:41.783Z",
+      "latestItemPublishedAt": "2026-11-21T10:48:34.000Z",
+      "primaryItemId": "news_c7ea9a128e1e",
       "evidenceItemIds": [
         "news_08e1c2a52263",
         "news_cbf584081e05",
@@ -265,7 +265,7 @@
       "clusterVersion": 2,
       "title": "财联社11月20日电，美国10年期国债收益率当日下跌10个基点，至4.95%。",
       "firstSeenAt": "2026-11-20T07:18:44.054Z",
-      "lastSeenAt": "2026-11-21T12:45:18.013Z",
+      "lastSeenAt": "2026-11-21T16:17:41.783Z",
       "latestItemPublishedAt": "2026-11-20T15:41:20.000Z",
       "primaryItemId": "news_c00066b3d05e",
       "evidenceItemIds": [
@@ -284,7 +284,7 @@
       "clusterVersion": 2,
       "title": "欧洲央行拉加德：将扩大货币互换协议覆盖范围",
       "firstSeenAt": "2026-11-18T13:08:32.597Z",
-      "lastSeenAt": "2026-11-21T12:45:18.013Z",
+      "lastSeenAt": "2026-11-21T16:17:41.783Z",
       "latestItemPublishedAt": "2026-11-20T11:45:10.000Z",
       "primaryItemId": "news_add32f1d16d6",
       "evidenceItemIds": [
@@ -303,7 +303,7 @@
       "clusterVersion": 2,
       "title": "AI进化速递丨Anthropic IPO募集资金总额约为935亿美元",
       "firstSeenAt": "2026-11-20T17:06:33.217Z",
-      "lastSeenAt": "2026-11-21T12:45:18.013Z",
+      "lastSeenAt": "2026-11-21T16:17:41.783Z",
       "latestItemPublishedAt": "2026-11-20T13:03:25.000Z",
       "primaryItemId": "news_0e9da74c5a71",
       "evidenceItemIds": [
@@ -322,7 +322,7 @@
       "clusterVersion": 2,
       "title": "财联社11月20日电，纳斯达克100指数跌幅扩大至2.5%。",
       "firstSeenAt": "2026-11-20T17:06:33.217Z",
-      "lastSeenAt": "2026-11-21T12:45:18.013Z",
+      "lastSeenAt": "2026-11-21T16:17:41.783Z",
       "latestItemPublishedAt": "2026-11-20T15:39:45.000Z",
       "primaryItemId": "news_cd2833ff6aa9",
       "evidenceItemIds": [
@@ -339,7 +339,7 @@
       "clusterVersion": 2,
       "title": "财联社11月21日电，WTI原油期货结算价为83.98美元/桶，涨幅0.93%；布伦特原油期货结算价为92.57美元/桶",
       "firstSeenAt": "2026-11-20T20:30:04.652Z",
-      "lastSeenAt": "2026-11-21T12:45:18.013Z",
+      "lastSeenAt": "2026-11-21T16:17:41.783Z",
       "latestItemPublishedAt": "2026-11-20T19:53:51.000Z",
       "primaryItemId": "news_33241cb83f2f",
       "evidenceItemIds": [
@@ -355,7 +355,7 @@
       "clusterVersion": 2,
       "title": "费城半导体指数跌幅扩大至10% 英伟达跌近12%",
       "firstSeenAt": "2026-11-20T20:30:04.652Z",
-      "lastSeenAt": "2026-11-21T12:45:18.013Z",
+      "lastSeenAt": "2026-11-21T16:17:41.783Z",
       "latestItemPublishedAt": "2026-11-20T19:33:21.000Z",
       "primaryItemId": "news_916570c9168b",
       "evidenceItemIds": [
@@ -371,7 +371,7 @@
       "clusterVersion": 2,
       "title": "《侠盗猎车手VI》首日销售额达37.9亿美元，创娱乐业纪录",
       "firstSeenAt": "2026-11-20T20:30:04.652Z",
-      "lastSeenAt": "2026-11-21T12:45:18.013Z",
+      "lastSeenAt": "2026-11-21T16:17:41.783Z",
       "latestItemPublishedAt": "2026-11-20T19:25:09.000Z",
       "primaryItemId": "news_00c20b15ff32",
       "evidenceItemIds": [

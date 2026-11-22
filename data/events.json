@@ -1,19 +1,18 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-22T16:26:50.428Z",
+  "generatedAt": "2026-11-22T19:47:58.254Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
       "eventId": "event_f101880ef7bc",
       "clusterVersion": 2,
-      "title": "付鹏：避风港即将失守？VIX倒挂叠加负Gamm效应，如何放大美股共振下杀？【付鹏说图表】",
+      "title": "付鹏：避风港即将失守？VIX倒挂叠加负Gamma效应，如何放大美股共振下杀？【付鹏说图表】",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-22T16:26:50.428Z",
-      "latestItemPublishedAt": "2026-11-22T06:26:33.000Z",
+      "lastSeenAt": "2026-11-22T19:47:58.254Z",
+      "latestItemPublishedAt": "2026-11-22T18:09:05.000Z",
       "primaryItemId": "news_1aaff135dfa1",
       "evidenceItemIds": [
-        "news_1a05c5837146",
         "news_a2640f93d630",
         "news_77d90901d51c",
         "news_a2dee9715453",
@@ -62,7 +61,8 @@
         "news_d7e240cdb9ee",
         "news_4c7f498bc1a9",
         "news_85ae9db0d410",
-        "news_8f0686a31a72"
+        "news_8f0686a31a72",
+        "news_81bf28c05e1c"
       ],
       "status": "developing",
       "summary": "科技股领跌美股跌入调整区间，高盛预警抛售潮，多家机构称属牛市调整。",
@@ -73,7 +73,7 @@
       "clusterVersion": 2,
       "title": "A股交易迎新一批降费措施，沪深市场预期合计让利超27亿元",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-22T16:26:50.428Z",
+      "lastSeenAt": "2026-11-22T19:47:58.254Z",
       "latestItemPublishedAt": "2026-11-22T14:12:08.000Z",
       "primaryItemId": "news_cdf2f050cad5",
       "evidenceItemIds": [
@@ -137,7 +137,7 @@
       "clusterVersion": 2,
       "title": "新股消息 | 聆讯通过！昆仑新材半年业绩超去年全年，全球第三大独立电解液厂商即将登陆港股",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-11-22T16:26:50.428Z",
+      "lastSeenAt": "2026-11-22T19:47:58.254Z",
       "latestItemPublishedAt": "2026-11-22T08:08:08.000Z",
       "primaryItemId": "news_a444d34a114f",
       "evidenceItemIds": [
@@ -199,13 +199,12 @@
     {
       "eventId": "event_9e320dba578d",
       "clusterVersion": 2,
-      "title": "美联储理事库克为10月异见投票辩护：通胀压力紧迫，利率需更快上调",
+      "title": "美联储加息与AI退潮共振，全球资产定价再校准",
       "firstSeenAt": "2026-11-06T07:06:11.933Z",
-      "lastSeenAt": "2026-11-22T16:26:50.428Z",
-      "latestItemPublishedAt": "2026-11-21T10:48:34.000Z",
-      "primaryItemId": "news_c7ea9a128e1e",
+      "lastSeenAt": "2026-11-22T19:47:58.254Z",
+      "latestItemPublishedAt": "2026-11-22T13:33:51.000Z",
+      "primaryItemId": "news_325ca4c9d061",
       "evidenceItemIds": [
-        "news_f20e6a7b2b2b",
         "news_cdc0d802be17",
         "news_68bada6ca940",
         "news_4207dfab01d4",
@@ -254,7 +253,8 @@
         "news_c7ea9a128e1e",
         "news_538ec7e49995",
         "news_67977307a1a7",
-        "news_325ca4c9d061"
+        "news_325ca4c9d061",
+        "news_24d9d5a979ce"
       ],
       "status": "developing",
       "summary": "美联储理事库克等鹰派称通胀紧迫需更快加息，面临多方反对压力",
@@ -265,7 +265,7 @@
       "clusterVersion": 2,
       "title": "欧洲央行拉加德：将扩大货币互换协议覆盖范围",
       "firstSeenAt": "2026-11-18T13:08:32.597Z",
-      "lastSeenAt": "2026-11-22T16:26:50.428Z",
+      "lastSeenAt": "2026-11-22T19:47:58.254Z",
       "latestItemPublishedAt": "2026-11-22T05:45:16.000Z",
       "primaryItemId": "news_add32f1d16d6",
       "evidenceItemIds": [
@@ -285,7 +285,7 @@
       "clusterVersion": 2,
       "title": "多家美国银行更新网银协议，AI智能体越权交易或由客户担责",
       "firstSeenAt": "2026-11-16T22:15:52.545Z",
-      "lastSeenAt": "2026-11-22T16:26:50.428Z",
+      "lastSeenAt": "2026-11-22T19:47:58.254Z",
       "latestItemPublishedAt": "2026-11-22T00:51:05.000Z",
       "primaryItemId": "news_8e00bb510087",
       "evidenceItemIds": [
@@ -309,7 +309,7 @@
       "clusterVersion": 2,
       "title": "报道：韩国将着手准备设立稳定股市基金",
       "firstSeenAt": "2026-11-22T12:40:06.425Z",
-      "lastSeenAt": "2026-11-22T16:26:50.428Z",
+      "lastSeenAt": "2026-11-22T19:47:58.254Z",
       "latestItemPublishedAt": "2026-11-22T09:36:56.000Z",
       "primaryItemId": "news_db6cc91a72e9",
       "evidenceItemIds": [
@@ -325,7 +325,7 @@
       "clusterVersion": 2,
       "title": "机构论后市丨关注芯片制造、军工和低波红利价值类资产",
       "firstSeenAt": "2026-11-22T12:40:06.425Z",
-      "lastSeenAt": "2026-11-22T16:26:50.428Z",
+      "lastSeenAt": "2026-11-22T19:47:58.254Z",
       "latestItemPublishedAt": "2026-11-22T10:07:03.000Z",
       "primaryItemId": "news_82a4d3d851b0",
       "evidenceItemIds": [
@@ -341,7 +341,7 @@
       "clusterVersion": 2,
       "title": "多地证监局披露罚单：中信证券分公司月内再被“点名”",
       "firstSeenAt": "2026-11-22T12:40:06.425Z",
-      "lastSeenAt": "2026-11-22T16:26:50.428Z",
+      "lastSeenAt": "2026-11-22T19:47:58.254Z",
       "latestItemPublishedAt": "2026-11-22T09:47:15.000Z",
       "primaryItemId": "news_41bcdabb24fd",
       "evidenceItemIds": [
@@ -357,7 +357,7 @@
       "clusterVersion": 2,
       "title": "垄断、暴利与资本管制：地球上最赚钱的“虚拟央行”",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-22T16:26:50.428Z",
+      "lastSeenAt": "2026-11-22T19:47:58.254Z",
       "latestItemPublishedAt": "2026-11-22T13:12:56.000Z",
       "primaryItemId": "news_ae5251b11683",
       "evidenceItemIds": [

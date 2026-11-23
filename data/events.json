@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-23T07:37:17.801Z",
+  "generatedAt": "2026-11-23T14:39:10.982Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -9,11 +9,10 @@
       "clusterVersion": 2,
       "title": "高盛恐慌指数飙至9.8！历史四次暴涨后美股均强势反弹，交易员称“战术性入场”点位快到了！",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-23T07:37:17.801Z",
-      "latestItemPublishedAt": "2026-11-23T07:17:03.000Z",
+      "lastSeenAt": "2026-11-23T14:39:10.982Z",
+      "latestItemPublishedAt": "2026-11-23T08:37:53.000Z",
       "primaryItemId": "news_8d72917528b6",
       "evidenceItemIds": [
-        "news_49d8fd0869ea",
         "news_eeb979dfd5ec",
         "news_9f060f936c4e",
         "news_8434012b9784",
@@ -62,7 +61,8 @@
         "news_8d72917528b6",
         "news_032a4d5ca68b",
         "news_cb9e445ae73d",
-        "news_7850fd7694e7"
+        "news_7850fd7694e7",
+        "news_0bdbfdd1ee65"
       ],
       "status": "developing",
       "summary": "高盛恐慌指数飙至9.8，历史四次暴涨后美股均强势反弹，交易员称战术性入场点位临近。",
@@ -71,17 +71,12 @@
     {
       "eventId": "event_a3c5d0364922",
       "clusterVersion": 2,
-      "title": "A股交易迎新一批降费措施，沪深市场预期合计让利超27亿元",
+      "title": "主动ETF助力长钱入市，稳市组合拳催化A股修复",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-23T07:37:17.801Z",
-      "latestItemPublishedAt": "2026-11-23T07:01:51.000Z",
-      "primaryItemId": "news_cdf2f050cad5",
+      "lastSeenAt": "2026-11-23T14:39:10.982Z",
+      "latestItemPublishedAt": "2026-11-23T13:13:15.000Z",
+      "primaryItemId": "news_4fddb72b685c",
       "evidenceItemIds": [
-        "news_90a75cd9926b",
-        "news_33ca8a3265e6",
-        "news_2f48a546d710",
-        "news_b9f8fedec3ce",
-        "news_5758c2dd83b1",
         "news_5c557051eba0",
         "news_c897afd90050",
         "news_bb67120d4a41",
@@ -126,7 +121,12 @@
         "news_82888f66184e",
         "news_62ea5673a642",
         "news_fa7c15c677c6",
-        "news_b9e23bb5890c"
+        "news_b9e23bb5890c",
+        "news_4fddb72b685c",
+        "news_c15583dfa9b0",
+        "news_cb7d2eef5ce6",
+        "news_9c176624e742",
+        "news_ad6121da529e"
       ],
       "status": "developing",
       "summary": "多家头部公募发声，外部扰动逐步消化，A股有望迎估值修复窗口。",
@@ -135,13 +135,12 @@
     {
       "eventId": "event_c68d651d4ff9",
       "clusterVersion": 2,
-      "title": "新股消息 | 聆讯通过！昆仑新材半年业绩超去年全年，全球第三大独立电解液厂商即将登陆港股",
+      "title": "港股异动 | 高鑫零售(06808)跌超7% 上半财年亏损扩大超3倍 里昂大降其目标价至1.1港元",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-11-23T07:37:17.801Z",
+      "lastSeenAt": "2026-11-23T14:39:10.982Z",
       "latestItemPublishedAt": "2026-11-23T03:38:24.000Z",
-      "primaryItemId": "news_a444d34a114f",
+      "primaryItemId": "news_6dbcbb8be4f9",
       "evidenceItemIds": [
-        "news_7b606a5675e7",
         "news_cc8a6dba989f",
         "news_074ff1e7e7e0",
         "news_3031ffa06909",
@@ -190,7 +189,8 @@
         "news_005f9021c363",
         "news_759f8053ca0c",
         "news_6dbcbb8be4f9",
-        "news_ce370ff7df63"
+        "news_ce370ff7df63",
+        "news_e7953446ca8d"
       ],
       "status": "developing",
       "summary": "港股电力设备股跌幅扩大，软银砍单引发AI电源需求担忧，机构指订单高增或放缓。",
@@ -199,13 +199,12 @@
     {
       "eventId": "event_9e320dba578d",
       "clusterVersion": 2,
-      "title": "美联储加息与AI退潮共振，全球资产定价再校准",
+      "title": "高盛谈美股“见底”三大条件：AI货币化、美联储转鸽与机构仓位下降",
       "firstSeenAt": "2026-11-06T07:06:11.933Z",
-      "lastSeenAt": "2026-11-23T07:37:17.801Z",
-      "latestItemPublishedAt": "2026-11-22T13:33:51.000Z",
-      "primaryItemId": "news_325ca4c9d061",
+      "lastSeenAt": "2026-11-23T14:39:10.982Z",
+      "latestItemPublishedAt": "2026-11-23T01:57:56.000Z",
+      "primaryItemId": "news_ced36ca2f576",
       "evidenceItemIds": [
-        "news_68bada6ca940",
         "news_4207dfab01d4",
         "news_d92f6bf45f97",
         "news_cfc9cadb65a0",
@@ -254,7 +253,8 @@
         "news_67977307a1a7",
         "news_325ca4c9d061",
         "news_24d9d5a979ce",
-        "news_ced36ca2f576"
+        "news_ced36ca2f576",
+        "news_a1aec32ce7c2"
       ],
       "status": "developing",
       "summary": "美联储理事库克等鹰派称通胀紧迫需更快加息，面临多方反对压力",
@@ -263,11 +263,11 @@
     {
       "eventId": "event_afd95bcad936",
       "clusterVersion": 2,
-      "title": "【商圈】卸任欧洲央行行长 精通花样游泳的拉加德望向下一站",
+      "title": "欧洲央行拉加德：将扩大货币互换协议覆盖范围",
       "firstSeenAt": "2026-11-18T13:08:32.597Z",
-      "lastSeenAt": "2026-11-23T07:37:17.801Z",
-      "latestItemPublishedAt": "2026-11-23T03:17:26.000Z",
-      "primaryItemId": "news_48567d3aa7f4",
+      "lastSeenAt": "2026-11-23T14:39:10.982Z",
+      "latestItemPublishedAt": "2026-11-22T05:45:16.000Z",
+      "primaryItemId": "news_add32f1d16d6",
       "evidenceItemIds": [
         "news_3d2c9988f514",
         "news_6793eb6100ef",
@@ -286,8 +286,8 @@
       "clusterVersion": 2,
       "title": "多家美国银行更新网银协议，AI智能体越权交易或由客户担责",
       "firstSeenAt": "2026-11-16T22:15:52.545Z",
-      "lastSeenAt": "2026-11-23T07:37:17.801Z",
-      "latestItemPublishedAt": "2026-11-22T00:51:05.000Z",
+      "lastSeenAt": "2026-11-23T14:39:10.982Z",
+      "latestItemPublishedAt": "2026-11-23T12:36:08.000Z",
       "primaryItemId": "news_8e00bb510087",
       "evidenceItemIds": [
         "news_348e2011cf53",
@@ -299,50 +299,19 @@
         "news_2daa2962f5ba",
         "news_d63049749ba8",
         "news_59353a771e22",
-        "news_8e00bb510087"
+        "news_8e00bb510087",
+        "news_8c412be6147a"
       ],
       "status": "developing",
       "summary": "多家美国银行更新网银协议，AI智能体越权交易责任或由客户承担",
       "latestProgress": "2026年11月22日，多家美国银行更新网银协议，AI越权交易或由客户担责"
     },
     {
-      "eventId": "event_6e4b6fb8b203",
-      "clusterVersion": 2,
-      "title": "报道：韩国将着手准备设立稳定股市基金",
-      "firstSeenAt": "2026-11-22T12:40:06.425Z",
-      "lastSeenAt": "2026-11-23T07:37:17.801Z",
-      "latestItemPublishedAt": "2026-11-22T09:36:56.000Z",
-      "primaryItemId": "news_db6cc91a72e9",
-      "evidenceItemIds": [
-        "news_db6cc91a72e9",
-        "news_8dc3b3b3e42f"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_22b8174be6ee",
-      "clusterVersion": 2,
-      "title": "多地证监局披露罚单：中信证券分公司月内再被“点名”",
-      "firstSeenAt": "2026-11-22T12:40:06.425Z",
-      "lastSeenAt": "2026-11-23T07:37:17.801Z",
-      "latestItemPublishedAt": "2026-11-22T09:47:15.000Z",
-      "primaryItemId": "news_41bcdabb24fd",
-      "evidenceItemIds": [
-        "news_41bcdabb24fd",
-        "news_107294decc86"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
       "eventId": "event_2cf716748ce1",
       "clusterVersion": 2,
       "title": "垄断、暴利与资本管制：地球上最赚钱的“虚拟央行”",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-23T07:37:17.801Z",
+      "lastSeenAt": "2026-11-23T14:39:10.982Z",
       "latestItemPublishedAt": "2026-11-22T13:12:56.000Z",
       "primaryItemId": "news_ae5251b11683",
       "evidenceItemIds": [
@@ -406,12 +375,108 @@
       "clusterVersion": 2,
       "title": "马斯克：下一代AI5芯片不会应用于特斯拉车辆",
       "firstSeenAt": "2026-11-23T07:37:17.801Z",
-      "lastSeenAt": "2026-11-23T07:37:17.801Z",
+      "lastSeenAt": "2026-11-23T14:39:10.982Z",
       "latestItemPublishedAt": "2026-11-23T06:26:42.000Z",
       "primaryItemId": "news_68907e5ee086",
       "evidenceItemIds": [
         "news_68907e5ee086",
         "news_5da67fcb3441"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_4487b8857594",
+      "clusterVersion": 2,
+      "title": "中际旭创：拟以20亿元-40亿元回购股份，回购价格不超过600元/股",
+      "firstSeenAt": "2026-11-23T14:39:10.982Z",
+      "lastSeenAt": "2026-11-23T14:39:10.982Z",
+      "latestItemPublishedAt": "2026-11-23T12:31:06.000Z",
+      "primaryItemId": "news_3ea3837057f8",
+      "evidenceItemIds": [
+        "news_3ea3837057f8",
+        "news_a20c629d12f4"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_c4c3322ba813",
+      "clusterVersion": 2,
+      "title": "德意志银行预测标普500指数将于2027年触及9,000点",
+      "firstSeenAt": "2026-11-23T14:39:10.982Z",
+      "lastSeenAt": "2026-11-23T14:39:10.982Z",
+      "latestItemPublishedAt": "2026-11-23T12:44:13.000Z",
+      "primaryItemId": "news_be1504db2a28",
+      "evidenceItemIds": [
+        "news_be1504db2a28",
+        "news_8b102d96b0cd"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_cd4527c10230",
+      "clusterVersion": 2,
+      "title": "财联社11月23日电，德意志银行预计2027年欧元区GDP增速为1.2%；预计英国国内生产总值增长1.3%。",
+      "firstSeenAt": "2026-11-23T14:39:10.982Z",
+      "lastSeenAt": "2026-11-23T14:39:10.982Z",
+      "latestItemPublishedAt": "2026-11-23T12:39:39.000Z",
+      "primaryItemId": "news_626327ed2ff7",
+      "evidenceItemIds": [
+        "news_626327ed2ff7",
+        "news_f4368fc3e4c8"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_e983422144e0",
+      "clusterVersion": 2,
+      "title": "久日新材：拟1.5亿元—2.5亿元回购公司股份",
+      "firstSeenAt": "2026-11-23T14:39:10.982Z",
+      "lastSeenAt": "2026-11-23T14:39:10.982Z",
+      "latestItemPublishedAt": "2026-11-23T12:40:19.000Z",
+      "primaryItemId": "news_518f99829d8e",
+      "evidenceItemIds": [
+        "news_518f99829d8e",
+        "news_804362bf15ef"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_6e4b6fb8b203",
+      "clusterVersion": 2,
+      "title": "报道：韩国将着手准备设立稳定股市基金",
+      "firstSeenAt": "2026-11-22T12:40:06.425Z",
+      "lastSeenAt": "2026-11-23T07:37:17.801Z",
+      "latestItemPublishedAt": "2026-11-22T09:36:56.000Z",
+      "primaryItemId": "news_db6cc91a72e9",
+      "evidenceItemIds": [
+        "news_db6cc91a72e9",
+        "news_8dc3b3b3e42f"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_22b8174be6ee",
+      "clusterVersion": 2,
+      "title": "多地证监局披露罚单：中信证券分公司月内再被“点名”",
+      "firstSeenAt": "2026-11-22T12:40:06.425Z",
+      "lastSeenAt": "2026-11-23T07:37:17.801Z",
+      "latestItemPublishedAt": "2026-11-22T09:47:15.000Z",
+      "primaryItemId": "news_41bcdabb24fd",
+      "evidenceItemIds": [
+        "news_41bcdabb24fd",
+        "news_107294decc86"
       ],
       "status": "developing",
       "summary": "",

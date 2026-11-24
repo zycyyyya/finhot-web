@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-24T14:57:48.749Z",
+  "updatedAt": "2026-11-24T19:36:47.892Z",
   "note": "auto 指标由 scripts/macro.js 每日自动刷新；manual 指标为人工核实值，核实日期见 asOf。",
   "indicators": [
     {
@@ -111,21 +111,17 @@
     {
       "key": "usdcny",
       "name": "美元兑人民币",
-      "value": "6.6647",
-      "numericValue": 6.6647,
-      "note": "较11月20日 6.6777 下降",
-      "direction": "down",
-      "asOf": "2026-11-23",
+      "value": "6.6645",
+      "numericValue": 6.6645,
+      "note": "较11月23日 6.6647 持平",
+      "direction": "flat",
+      "asOf": "2026-11-24",
       "source": "Frankfurter/ECB",
       "mode": "auto",
-      "prevValue": "6.6777",
-      "prevNumericValue": 6.6777,
-      "prevAsOf": "2026-11-20",
+      "prevValue": "6.6647",
+      "prevNumericValue": 6.6647,
+      "prevAsOf": "2026-11-23",
       "series": [
-        {
-          "date": "2026-11-13",
-          "value": 6.6719
-        },
         {
           "date": "2026-11-16",
           "value": 6.6665
@@ -149,6 +145,10 @@
         {
           "date": "2026-11-23",
           "value": 6.6647
+        },
+        {
+          "date": "2026-11-24",
+          "value": 6.6645
         }
       ]
     },

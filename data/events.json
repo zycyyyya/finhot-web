@@ -1,19 +1,18 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-24T14:57:48.749Z",
+  "generatedAt": "2026-11-24T19:36:47.892Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
       "eventId": "event_f101880ef7bc",
       "clusterVersion": 2,
-      "title": "对冲失效，空头止损，杠杆ETF狂扫410亿！复盘老黄回归，美股“惊心动魄”的一天",
+      "title": "美股VIX飙升！芯片股盘初重挫6%，英伟达市值蒸发2500亿美元，Anthropic破发",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-24T14:57:48.749Z",
-      "latestItemPublishedAt": "2026-11-24T13:29:29.000Z",
-      "primaryItemId": "news_d02d4b2c98d2",
+      "lastSeenAt": "2026-11-24T19:36:47.892Z",
+      "latestItemPublishedAt": "2026-11-24T15:04:57.000Z",
+      "primaryItemId": "news_2864163cdfa8",
       "evidenceItemIds": [
-        "news_d9fe955c372c",
         "news_4a186c81c816",
         "news_9d27a9bab376",
         "news_5319b6d09b5c",
@@ -62,7 +61,8 @@
         "news_c22d809ce280",
         "news_0dcdb5c3bc2d",
         "news_802c164f0c40",
-        "news_51f874cdc341"
+        "news_51f874cdc341",
+        "news_2864163cdfa8"
       ],
       "status": "developing",
       "summary": "英伟达暴涨31%引爆美股大涨，纳指狂飙6.5%，黄金反弹，多家机构看好后续走势",
@@ -73,7 +73,7 @@
       "clusterVersion": 2,
       "title": "A股光模块冲高回落，产业链确定性是否修复仍待验证",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-24T14:57:48.749Z",
+      "lastSeenAt": "2026-11-24T19:36:47.892Z",
       "latestItemPublishedAt": "2026-11-24T12:35:15.000Z",
       "primaryItemId": "news_6e8e597a7eae",
       "evidenceItemIds": [
@@ -137,7 +137,7 @@
       "clusterVersion": 2,
       "title": "黄仁勋回归亚股弹 港股跟升后倒跌",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-11-24T14:57:48.749Z",
+      "lastSeenAt": "2026-11-24T19:36:47.892Z",
       "latestItemPublishedAt": "2026-11-24T13:27:54.000Z",
       "primaryItemId": "news_06011bdb5f42",
       "evidenceItemIds": [
@@ -201,7 +201,7 @@
       "clusterVersion": 2,
       "title": "12月加息或成衰退导火索？对冲大佬阿克曼呼吁美联储将2%通胀红线上移至3%",
       "firstSeenAt": "2026-11-06T07:06:11.933Z",
-      "lastSeenAt": "2026-11-24T14:57:48.749Z",
+      "lastSeenAt": "2026-11-24T19:36:47.892Z",
       "latestItemPublishedAt": "2026-11-24T08:20:02.000Z",
       "primaryItemId": "news_a1aec32ce7c2",
       "evidenceItemIds": [
@@ -261,47 +261,14 @@
       "latestProgress": "美联储威廉姆斯称如有需要不排除连续加息可能，利率行动将依据数据决定"
     },
     {
-      "eventId": "event_98510ee79fdc",
-      "clusterVersion": 2,
-      "title": "全球首只离岸人民币债券ETF香港上市",
-      "firstSeenAt": "2026-11-24T00:01:07.714Z",
-      "lastSeenAt": "2026-11-24T14:57:48.749Z",
-      "latestItemPublishedAt": "2026-11-23T23:39:06.000Z",
-      "primaryItemId": "news_3329c0f4fb6d",
-      "evidenceItemIds": [
-        "news_3329c0f4fb6d",
-        "news_b0ce057ff0b9"
-      ],
-      "status": "developing",
-      "summary": "全球首只离岸人民币债券ETF正式在香港上市，丰富离岸人民币投资产品供给",
-      "latestProgress": "该ETF已于11月23日在香港交易所正式挂牌上市"
-    },
-    {
-      "eventId": "event_748527ab150b",
-      "clusterVersion": 2,
-      "title": "华尔街见闻早餐FM-Radio | 2026年11月24日",
-      "firstSeenAt": "2026-11-24T00:01:07.714Z",
-      "lastSeenAt": "2026-11-24T14:57:48.749Z",
-      "latestItemPublishedAt": "2026-11-23T23:03:10.000Z",
-      "primaryItemId": "news_2a5a7866259e",
-      "evidenceItemIds": [
-        "news_2a5a7866259e",
-        "news_cbd725866772"
-      ],
-      "status": "developing",
-      "summary": "华尔街见闻发布2026年11月24日早餐FM-Radio相关内容",
-      "latestProgress": "该音频内容已于2026年11月23日正式上线"
-    },
-    {
       "eventId": "event_2cf716748ce1",
       "clusterVersion": 2,
       "title": "韩国央行后天或再加息！AI暴跌之际，高盛警告：消费撑不住了",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-24T14:57:48.749Z",
-      "latestItemPublishedAt": "2026-11-24T13:50:09.000Z",
+      "lastSeenAt": "2026-11-24T19:36:47.892Z",
+      "latestItemPublishedAt": "2026-11-24T17:41:57.000Z",
       "primaryItemId": "news_3a26a10b4215",
       "evidenceItemIds": [
-        "news_ca9af26f11a9",
         "news_5f1a2c67505e",
         "news_7a27059f9432",
         "news_88d1b90d065c",
@@ -350,7 +317,8 @@
         "news_4a31d65fb67f",
         "news_3a26a10b4215",
         "news_7afe5a443c46",
-        "news_2500f3d26b75"
+        "news_2500f3d26b75",
+        "news_ce0735c37bb6"
       ],
       "status": "developing",
       "summary": "高盛时隔11天再度下调黄金目标价至4650美元，同期全球央行9月净购金创新高",
@@ -361,7 +329,7 @@
       "clusterVersion": 2,
       "title": "联创股份：拟5000万元—1亿元回购公司股份",
       "firstSeenAt": "2026-11-24T09:59:02.309Z",
-      "lastSeenAt": "2026-11-24T14:57:48.749Z",
+      "lastSeenAt": "2026-11-24T19:36:47.892Z",
       "latestItemPublishedAt": "2026-11-24T12:03:36.000Z",
       "primaryItemId": "news_f5b522f9e248",
       "evidenceItemIds": [
@@ -379,7 +347,7 @@
       "clusterVersion": 2,
       "title": "三元生物：拟3000万元—5000万元回购公司股份",
       "firstSeenAt": "2026-11-24T09:59:02.309Z",
-      "lastSeenAt": "2026-11-24T14:57:48.749Z",
+      "lastSeenAt": "2026-11-24T19:36:47.892Z",
       "latestItemPublishedAt": "2026-11-24T09:05:46.000Z",
       "primaryItemId": "news_87938d64ea46",
       "evidenceItemIds": [
@@ -396,7 +364,7 @@
       "clusterVersion": 2,
       "title": "达利欧最新警告：伟大的技术，不等于伟大的投资",
       "firstSeenAt": "2026-11-24T14:57:48.749Z",
-      "lastSeenAt": "2026-11-24T14:57:48.749Z",
+      "lastSeenAt": "2026-11-24T19:36:47.892Z",
       "latestItemPublishedAt": "2026-11-24T11:46:43.000Z",
       "primaryItemId": "news_b816a2e607ae",
       "evidenceItemIds": [
@@ -412,7 +380,7 @@
       "clusterVersion": 2,
       "title": "大烨智能：11月26日复牌并实施其他风险警示，股票简称变更为“ST大烨”",
       "firstSeenAt": "2026-11-24T14:57:48.749Z",
-      "lastSeenAt": "2026-11-24T14:57:48.749Z",
+      "lastSeenAt": "2026-11-24T19:36:47.892Z",
       "latestItemPublishedAt": "2026-11-24T13:35:20.000Z",
       "primaryItemId": "news_35d351f7b478",
       "evidenceItemIds": [
@@ -428,7 +396,7 @@
       "clusterVersion": 2,
       "title": "华资实业：董事长提议1亿元—2亿元回购公司股份",
       "firstSeenAt": "2026-11-24T14:57:48.749Z",
-      "lastSeenAt": "2026-11-24T14:57:48.749Z",
+      "lastSeenAt": "2026-11-24T19:36:47.892Z",
       "latestItemPublishedAt": "2026-11-24T09:09:55.000Z",
       "primaryItemId": "news_808085b6eb72",
       "evidenceItemIds": [
@@ -438,6 +406,38 @@
       "status": "developing",
       "summary": "",
       "latestProgress": ""
+    },
+    {
+      "eventId": "event_98510ee79fdc",
+      "clusterVersion": 2,
+      "title": "全球首只离岸人民币债券ETF香港上市",
+      "firstSeenAt": "2026-11-24T00:01:07.714Z",
+      "lastSeenAt": "2026-11-24T14:57:48.749Z",
+      "latestItemPublishedAt": "2026-11-23T23:39:06.000Z",
+      "primaryItemId": "news_3329c0f4fb6d",
+      "evidenceItemIds": [
+        "news_3329c0f4fb6d",
+        "news_b0ce057ff0b9"
+      ],
+      "status": "developing",
+      "summary": "全球首只离岸人民币债券ETF正式在香港上市，丰富离岸人民币投资产品供给",
+      "latestProgress": "该ETF已于11月23日在香港交易所正式挂牌上市"
+    },
+    {
+      "eventId": "event_748527ab150b",
+      "clusterVersion": 2,
+      "title": "华尔街见闻早餐FM-Radio | 2026年11月24日",
+      "firstSeenAt": "2026-11-24T00:01:07.714Z",
+      "lastSeenAt": "2026-11-24T14:57:48.749Z",
+      "latestItemPublishedAt": "2026-11-23T23:03:10.000Z",
+      "primaryItemId": "news_2a5a7866259e",
+      "evidenceItemIds": [
+        "news_2a5a7866259e",
+        "news_cbd725866772"
+      ],
+      "status": "developing",
+      "summary": "华尔街见闻发布2026年11月24日早餐FM-Radio相关内容",
+      "latestProgress": "该音频内容已于2026年11月23日正式上线"
     },
     {
       "eventId": "event_218c785f7e8c",

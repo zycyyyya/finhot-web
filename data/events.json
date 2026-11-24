@@ -1,22 +1,18 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-23T20:21:39.870Z",
+  "generatedAt": "2026-11-24T00:01:07.714Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
       "eventId": "event_f101880ef7bc",
       "clusterVersion": 2,
-      "title": "高盛恐慌指数飙至9.8！历史四次暴涨后美股均强势反弹，交易员称“战术性入场”点位快到了！",
+      "title": "英伟达暴涨31.48%，“黄仁勋行情”引爆美股，纳指狂飙6.5%，道指涨近1500点",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-23T20:21:39.870Z",
-      "latestItemPublishedAt": "2026-11-23T12:47:27.000Z",
-      "primaryItemId": "news_8d72917528b6",
+      "lastSeenAt": "2026-11-24T00:01:07.714Z",
+      "latestItemPublishedAt": "2026-11-23T23:00:25.000Z",
+      "primaryItemId": "news_30da4f49fc63",
       "evidenceItemIds": [
-        "news_9f060f936c4e",
-        "news_8434012b9784",
-        "news_f709794d2d9f",
-        "news_c459f3f10def",
         "news_5b9514f836b5",
         "news_934309bfaef9",
         "news_a3f4924e64c0",
@@ -62,7 +58,11 @@
         "news_cb9e445ae73d",
         "news_7850fd7694e7",
         "news_0bdbfdd1ee65",
-        "news_1fc89cc568d0"
+        "news_1fc89cc568d0",
+        "news_30da4f49fc63",
+        "news_9978c625decf",
+        "news_a7a1d6d147a7",
+        "news_1a53096acfed"
       ],
       "status": "developing",
       "summary": "高盛恐慌指数飙至9.8，历史四次暴涨后美股均强势反弹，交易员称战术性入场点位临近。",
@@ -73,14 +73,10 @@
       "clusterVersion": 2,
       "title": "主动ETF助力长钱入市，稳市组合拳催化A股修复",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-23T20:21:39.870Z",
-      "latestItemPublishedAt": "2026-11-23T15:04:40.000Z",
+      "lastSeenAt": "2026-11-24T00:01:07.714Z",
+      "latestItemPublishedAt": "2026-11-23T23:49:29.000Z",
       "primaryItemId": "news_4fddb72b685c",
       "evidenceItemIds": [
-        "news_a29698397f1d",
-        "news_676ec84b8dbe",
-        "news_d0be612aa31a",
-        "news_dea213a943be",
         "news_b8a6deaee449",
         "news_585070ed868d",
         "news_303e34badea0",
@@ -126,7 +122,11 @@
         "news_ad6121da529e",
         "news_466532c195e1",
         "news_ef0128698514",
-        "news_a20c629d12f4"
+        "news_a20c629d12f4",
+        "news_08a3e2b72631",
+        "news_47529134d306",
+        "news_24d81b57b600",
+        "news_3fc157c598c6"
       ],
       "status": "developing",
       "summary": "多家头部公募发声，外部扰动逐步消化，A股有望迎估值修复窗口。",
@@ -135,16 +135,12 @@
     {
       "eventId": "event_c68d651d4ff9",
       "clusterVersion": 2,
-      "title": "港股异动 | 高鑫零售(06808)跌超7% 上半财年亏损扩大超3倍 里昂大降其目标价至1.1港元",
+      "title": "智通港股早知道 | 黄仁勋复职引发全球大类资产共振 粤港湾智算(01396)在手算力订单逾370亿元",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-11-23T20:21:39.870Z",
-      "latestItemPublishedAt": "2026-11-23T14:53:05.000Z",
-      "primaryItemId": "news_6dbcbb8be4f9",
+      "lastSeenAt": "2026-11-24T00:01:07.714Z",
+      "latestItemPublishedAt": "2026-11-23T23:44:56.000Z",
+      "primaryItemId": "news_b878df0be08f",
       "evidenceItemIds": [
-        "news_57731cb8f424",
-        "news_a35d0123a2a1",
-        "news_4871171a1787",
-        "news_2f6d06781189",
         "news_d32c9dca69c6",
         "news_a632d0bccd2d",
         "news_15e624c00ecb",
@@ -190,7 +186,11 @@
         "news_e7953446ca8d",
         "news_4974ce674377",
         "news_b58e67c3a6d3",
-        "news_08abd859e276"
+        "news_08abd859e276",
+        "news_b878df0be08f",
+        "news_002556c25654",
+        "news_977be85c3c5d",
+        "news_7679bbc45721"
       ],
       "status": "developing",
       "summary": "港股电力设备股跌幅扩大，软银砍单引发AI电源需求担忧，机构指订单高增或放缓。",
@@ -201,12 +201,10 @@
       "clusterVersion": 2,
       "title": "12月加息或成衰退导火索？对冲大佬阿克曼呼吁美联储将2%通胀红线上移至3%",
       "firstSeenAt": "2026-11-06T07:06:11.933Z",
-      "lastSeenAt": "2026-11-23T20:21:39.870Z",
-      "latestItemPublishedAt": "2026-11-23T11:24:05.000Z",
+      "lastSeenAt": "2026-11-24T00:01:07.714Z",
+      "latestItemPublishedAt": "2026-11-23T22:57:08.000Z",
       "primaryItemId": "news_a1aec32ce7c2",
       "evidenceItemIds": [
-        "news_4207dfab01d4",
-        "news_d92f6bf45f97",
         "news_cfc9cadb65a0",
         "news_2414ac0c3a8c",
         "news_bb3e23a67343",
@@ -254,7 +252,9 @@
         "news_325ca4c9d061",
         "news_24d9d5a979ce",
         "news_ced36ca2f576",
-        "news_a1aec32ce7c2"
+        "news_a1aec32ce7c2",
+        "news_61e2009156c5",
+        "news_aa0f226e3bdb"
       ],
       "status": "developing",
       "summary": "美联储理事库克等鹰派称通胀紧迫需更快加息，面临多方反对压力",
@@ -265,7 +265,7 @@
       "clusterVersion": 2,
       "title": "欧洲央行拉加德：将扩大货币互换协议覆盖范围",
       "firstSeenAt": "2026-11-18T13:08:32.597Z",
-      "lastSeenAt": "2026-11-23T20:21:39.870Z",
+      "lastSeenAt": "2026-11-24T00:01:07.714Z",
       "latestItemPublishedAt": "2026-11-22T05:45:16.000Z",
       "primaryItemId": "news_add32f1d16d6",
       "evidenceItemIds": [
@@ -286,7 +286,7 @@
       "clusterVersion": 2,
       "title": "多家美国银行更新网银协议，AI智能体越权交易或由客户担责",
       "firstSeenAt": "2026-11-16T22:15:52.545Z",
-      "lastSeenAt": "2026-11-23T20:21:39.870Z",
+      "lastSeenAt": "2026-11-24T00:01:07.714Z",
       "latestItemPublishedAt": "2026-11-23T12:36:08.000Z",
       "primaryItemId": "news_8e00bb510087",
       "evidenceItemIds": [
@@ -311,7 +311,7 @@
       "clusterVersion": 2,
       "title": "德意志银行预测标普500指数将于2027年触及9,000点",
       "firstSeenAt": "2026-11-23T14:39:10.982Z",
-      "lastSeenAt": "2026-11-23T20:21:39.870Z",
+      "lastSeenAt": "2026-11-24T00:01:07.714Z",
       "latestItemPublishedAt": "2026-11-23T12:44:13.000Z",
       "primaryItemId": "news_be1504db2a28",
       "evidenceItemIds": [
@@ -327,7 +327,7 @@
       "clusterVersion": 2,
       "title": "财联社11月23日电，德意志银行预计2027年欧元区GDP增速为1.2%；预计英国国内生产总值增长1.3%。",
       "firstSeenAt": "2026-11-23T14:39:10.982Z",
-      "lastSeenAt": "2026-11-23T20:21:39.870Z",
+      "lastSeenAt": "2026-11-24T00:01:07.714Z",
       "latestItemPublishedAt": "2026-11-23T12:39:39.000Z",
       "primaryItemId": "news_626327ed2ff7",
       "evidenceItemIds": [
@@ -343,7 +343,7 @@
       "clusterVersion": 2,
       "title": "久日新材：拟1.5亿元—2.5亿元回购公司股份",
       "firstSeenAt": "2026-11-23T14:39:10.982Z",
-      "lastSeenAt": "2026-11-23T20:21:39.870Z",
+      "lastSeenAt": "2026-11-24T00:01:07.714Z",
       "latestItemPublishedAt": "2026-11-23T12:40:19.000Z",
       "primaryItemId": "news_518f99829d8e",
       "evidenceItemIds": [
@@ -359,7 +359,7 @@
       "clusterVersion": 2,
       "title": "吴悦风旗下私募陷清盘传闻，最新回应：是假的，不会清盘；基金主要投向韩国存储股票，并且买了一些杠杆ETF，因此放大了波动",
       "firstSeenAt": "2026-11-22T12:40:06.425Z",
-      "lastSeenAt": "2026-11-23T20:21:39.870Z",
+      "lastSeenAt": "2026-11-24T00:01:07.714Z",
       "latestItemPublishedAt": "2026-11-23T16:05:13.000Z",
       "primaryItemId": "news_4d971130fec8",
       "evidenceItemIds": [
@@ -376,12 +376,44 @@
       "clusterVersion": 2,
       "title": "亚马逊拟斥资约75亿美元收购Decart 加码Trainium芯片挑战英伟达",
       "firstSeenAt": "2026-11-23T20:21:39.870Z",
-      "lastSeenAt": "2026-11-23T20:21:39.870Z",
+      "lastSeenAt": "2026-11-24T00:01:07.714Z",
       "latestItemPublishedAt": "2026-11-23T18:26:59.000Z",
       "primaryItemId": "news_bf8c0b343ee0",
       "evidenceItemIds": [
         "news_bf8c0b343ee0",
         "news_91c0c438393e"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_98510ee79fdc",
+      "clusterVersion": 2,
+      "title": "全球首只离岸人民币债券ETF香港上市",
+      "firstSeenAt": "2026-11-24T00:01:07.714Z",
+      "lastSeenAt": "2026-11-24T00:01:07.714Z",
+      "latestItemPublishedAt": "2026-11-23T23:39:06.000Z",
+      "primaryItemId": "news_3329c0f4fb6d",
+      "evidenceItemIds": [
+        "news_3329c0f4fb6d",
+        "news_b0ce057ff0b9"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_748527ab150b",
+      "clusterVersion": 2,
+      "title": "华尔街见闻早餐FM-Radio | 2026年11月24日",
+      "firstSeenAt": "2026-11-24T00:01:07.714Z",
+      "lastSeenAt": "2026-11-24T00:01:07.714Z",
+      "latestItemPublishedAt": "2026-11-23T23:03:10.000Z",
+      "primaryItemId": "news_2a5a7866259e",
+      "evidenceItemIds": [
+        "news_2a5a7866259e",
+        "news_cbd725866772"
       ],
       "status": "developing",
       "summary": "",

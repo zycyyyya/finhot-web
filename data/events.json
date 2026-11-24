@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-24T19:36:47.892Z",
+  "generatedAt": "2026-11-24T22:36:55.403Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -9,7 +9,7 @@
       "clusterVersion": 2,
       "title": "美股VIX飙升！芯片股盘初重挫6%，英伟达市值蒸发2500亿美元，Anthropic破发",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-24T19:36:47.892Z",
+      "lastSeenAt": "2026-11-24T22:36:55.403Z",
       "latestItemPublishedAt": "2026-11-24T15:04:57.000Z",
       "primaryItemId": "news_2864163cdfa8",
       "evidenceItemIds": [
@@ -73,7 +73,7 @@
       "clusterVersion": 2,
       "title": "A股光模块冲高回落，产业链确定性是否修复仍待验证",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-24T19:36:47.892Z",
+      "lastSeenAt": "2026-11-24T22:36:55.403Z",
       "latestItemPublishedAt": "2026-11-24T12:35:15.000Z",
       "primaryItemId": "news_6e8e597a7eae",
       "evidenceItemIds": [
@@ -137,7 +137,7 @@
       "clusterVersion": 2,
       "title": "黄仁勋回归亚股弹 港股跟升后倒跌",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-11-24T19:36:47.892Z",
+      "lastSeenAt": "2026-11-24T22:36:55.403Z",
       "latestItemPublishedAt": "2026-11-24T13:27:54.000Z",
       "primaryItemId": "news_06011bdb5f42",
       "evidenceItemIds": [
@@ -201,11 +201,10 @@
       "clusterVersion": 2,
       "title": "12月加息或成衰退导火索？对冲大佬阿克曼呼吁美联储将2%通胀红线上移至3%",
       "firstSeenAt": "2026-11-06T07:06:11.933Z",
-      "lastSeenAt": "2026-11-24T19:36:47.892Z",
-      "latestItemPublishedAt": "2026-11-24T08:20:02.000Z",
+      "lastSeenAt": "2026-11-24T22:36:55.403Z",
+      "latestItemPublishedAt": "2026-11-24T22:03:08.000Z",
       "primaryItemId": "news_a1aec32ce7c2",
       "evidenceItemIds": [
-        "news_bb3e23a67343",
         "news_490720f0a412",
         "news_d9c15b49fcf9",
         "news_b171f3297ac9",
@@ -254,7 +253,8 @@
         "news_61e2009156c5",
         "news_aa0f226e3bdb",
         "news_07bf181a2c3d",
-        "news_baabab566390"
+        "news_baabab566390",
+        "news_fd1ffa2b46ad"
       ],
       "status": "developing",
       "summary": "对冲大佬阿克曼呼吁美联储将2%通胀红线上移至3%，担忧12月加息或成衰退导火索",
@@ -265,7 +265,7 @@
       "clusterVersion": 2,
       "title": "韩国央行后天或再加息！AI暴跌之际，高盛警告：消费撑不住了",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-24T19:36:47.892Z",
+      "lastSeenAt": "2026-11-24T22:36:55.403Z",
       "latestItemPublishedAt": "2026-11-24T17:41:57.000Z",
       "primaryItemId": "news_3a26a10b4215",
       "evidenceItemIds": [
@@ -329,7 +329,7 @@
       "clusterVersion": 2,
       "title": "联创股份：拟5000万元—1亿元回购公司股份",
       "firstSeenAt": "2026-11-24T09:59:02.309Z",
-      "lastSeenAt": "2026-11-24T19:36:47.892Z",
+      "lastSeenAt": "2026-11-24T22:36:55.403Z",
       "latestItemPublishedAt": "2026-11-24T12:03:36.000Z",
       "primaryItemId": "news_f5b522f9e248",
       "evidenceItemIds": [
@@ -337,6 +337,54 @@
         "news_e057dc392db9",
         "news_f5b522f9e248",
         "news_cc5ff35ef73b"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_a4f72a95e7b2",
+      "clusterVersion": 2,
+      "title": "达利欧最新警告：伟大的技术，不等于伟大的投资",
+      "firstSeenAt": "2026-11-24T14:57:48.749Z",
+      "lastSeenAt": "2026-11-24T22:36:55.403Z",
+      "latestItemPublishedAt": "2026-11-24T11:46:43.000Z",
+      "primaryItemId": "news_b816a2e607ae",
+      "evidenceItemIds": [
+        "news_b816a2e607ae",
+        "news_75dde0513fe5"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_4a122eba04e5",
+      "clusterVersion": 2,
+      "title": "大烨智能：11月26日复牌并实施其他风险警示，股票简称变更为“ST大烨”",
+      "firstSeenAt": "2026-11-24T14:57:48.749Z",
+      "lastSeenAt": "2026-11-24T22:36:55.403Z",
+      "latestItemPublishedAt": "2026-11-24T13:35:20.000Z",
+      "primaryItemId": "news_35d351f7b478",
+      "evidenceItemIds": [
+        "news_35d351f7b478",
+        "news_f26a6e7fc907"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_887a44d2a2bb",
+      "clusterVersion": 2,
+      "title": "城堡证券前三季度交易收入已超2025年全年纪录",
+      "firstSeenAt": "2026-11-24T22:36:55.403Z",
+      "lastSeenAt": "2026-11-24T22:36:55.403Z",
+      "latestItemPublishedAt": "2026-11-24T20:31:42.000Z",
+      "primaryItemId": "news_c4b9ad5e2a6f",
+      "evidenceItemIds": [
+        "news_c4b9ad5e2a6f",
+        "news_282e84c228d8"
       ],
       "status": "developing",
       "summary": "",
@@ -354,38 +402,6 @@
         "news_87938d64ea46",
         "news_cc5ff35ef73b",
         "news_b08e26b68828"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_a4f72a95e7b2",
-      "clusterVersion": 2,
-      "title": "达利欧最新警告：伟大的技术，不等于伟大的投资",
-      "firstSeenAt": "2026-11-24T14:57:48.749Z",
-      "lastSeenAt": "2026-11-24T19:36:47.892Z",
-      "latestItemPublishedAt": "2026-11-24T11:46:43.000Z",
-      "primaryItemId": "news_b816a2e607ae",
-      "evidenceItemIds": [
-        "news_b816a2e607ae",
-        "news_75dde0513fe5"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_4a122eba04e5",
-      "clusterVersion": 2,
-      "title": "大烨智能：11月26日复牌并实施其他风险警示，股票简称变更为“ST大烨”",
-      "firstSeenAt": "2026-11-24T14:57:48.749Z",
-      "lastSeenAt": "2026-11-24T19:36:47.892Z",
-      "latestItemPublishedAt": "2026-11-24T13:35:20.000Z",
-      "primaryItemId": "news_35d351f7b478",
-      "evidenceItemIds": [
-        "news_35d351f7b478",
-        "news_f26a6e7fc907"
       ],
       "status": "developing",
       "summary": "",

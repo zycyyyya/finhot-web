@@ -1,20 +1,18 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-24T00:01:07.714Z",
+  "generatedAt": "2026-11-24T09:59:02.309Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
       "eventId": "event_f101880ef7bc",
       "clusterVersion": 2,
-      "title": "英伟达暴涨31.48%，“黄仁勋行情”引爆美股，纳指狂飙6.5%，道指涨近1500点",
+      "title": "美股遭遇黑色星期五，国际金价失守3600｜一周热点回顾",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-24T00:01:07.714Z",
-      "latestItemPublishedAt": "2026-11-23T23:00:25.000Z",
-      "primaryItemId": "news_30da4f49fc63",
+      "lastSeenAt": "2026-11-24T09:59:02.309Z",
+      "latestItemPublishedAt": "2026-11-23T08:37:53.000Z",
+      "primaryItemId": "news_ec1697e851bb",
       "evidenceItemIds": [
-        "news_5b9514f836b5",
-        "news_934309bfaef9",
         "news_a3f4924e64c0",
         "news_6669ca094f06",
         "news_61f063bc37b0",
@@ -62,24 +60,23 @@
         "news_30da4f49fc63",
         "news_9978c625decf",
         "news_a7a1d6d147a7",
-        "news_1a53096acfed"
+        "news_1a53096acfed",
+        "news_d02d4b2c98d2",
+        "news_6a9c47c70607"
       ],
       "status": "developing",
-      "summary": "高盛恐慌指数飙至9.8，历史四次暴涨后美股均强势反弹，交易员称战术性入场点位临近。",
-      "latestProgress": "高盛恐慌指数飙至9.8，交易员称美股战术性入场点位即将到来。"
+      "summary": "英伟达暴涨31%引爆美股大涨，纳指狂飙6.5%，黄金反弹，多家机构看好后续走势",
+      "latestProgress": "最新报道复盘英伟达回归行情，对冲失效、空头止损，杠杆ETF狂扫410亿"
     },
     {
       "eventId": "event_a3c5d0364922",
       "clusterVersion": 2,
       "title": "主动ETF助力长钱入市，稳市组合拳催化A股修复",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-24T00:01:07.714Z",
+      "lastSeenAt": "2026-11-24T09:59:02.309Z",
       "latestItemPublishedAt": "2026-11-23T23:49:29.000Z",
       "primaryItemId": "news_4fddb72b685c",
       "evidenceItemIds": [
-        "news_b8a6deaee449",
-        "news_585070ed868d",
-        "news_303e34badea0",
         "news_5a6c9d76ef52",
         "news_8ac02173fc0e",
         "news_9efa18335b99",
@@ -126,22 +123,24 @@
         "news_08a3e2b72631",
         "news_47529134d306",
         "news_24d81b57b600",
-        "news_3fc157c598c6"
+        "news_3fc157c598c6",
+        "news_749adb770f60",
+        "news_90a43d126d7f",
+        "news_58d98a0c4446"
       ],
       "status": "developing",
-      "summary": "多家头部公募发声，外部扰动逐步消化，A股有望迎估值修复窗口。",
-      "latestProgress": "2026年11月20日英伟达三季报落地，市场关注其对A股入链企业影响。"
+      "summary": "主动ETF助力长钱入市，叠加回购增持稳市组合拳催化A股修复",
+      "latestProgress": "11月24日A股四大指数集体高开，英伟达概念等板块领涨，半夏投资已做多A股宽基指数"
     },
     {
       "eventId": "event_c68d651d4ff9",
       "clusterVersion": 2,
       "title": "智通港股早知道 | 黄仁勋复职引发全球大类资产共振 粤港湾智算(01396)在手算力订单逾370亿元",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-11-24T00:01:07.714Z",
+      "lastSeenAt": "2026-11-24T09:59:02.309Z",
       "latestItemPublishedAt": "2026-11-23T23:44:56.000Z",
       "primaryItemId": "news_b878df0be08f",
       "evidenceItemIds": [
-        "news_d32c9dca69c6",
         "news_a632d0bccd2d",
         "news_15e624c00ecb",
         "news_dec19cb92f15",
@@ -190,18 +189,19 @@
         "news_b878df0be08f",
         "news_002556c25654",
         "news_977be85c3c5d",
-        "news_7679bbc45721"
+        "news_7679bbc45721",
+        "news_06011bdb5f42"
       ],
       "status": "developing",
-      "summary": "港股电力设备股跌幅扩大，软银砍单引发AI电源需求担忧，机构指订单高增或放缓。",
-      "latestProgress": "2026年11月21日港股年内要约收购超70起，数量已超去年全年。"
+      "summary": "黄仁勋复职引发全球大类资产共振，粤港湾智算在手算力订单逾370亿元，带动港股波动。",
+      "latestProgress": "黄仁勋回归带动亚股反弹，港股跟升后倒跌。"
     },
     {
       "eventId": "event_9e320dba578d",
       "clusterVersion": 2,
       "title": "12月加息或成衰退导火索？对冲大佬阿克曼呼吁美联储将2%通胀红线上移至3%",
       "firstSeenAt": "2026-11-06T07:06:11.933Z",
-      "lastSeenAt": "2026-11-24T00:01:07.714Z",
+      "lastSeenAt": "2026-11-24T09:59:02.309Z",
       "latestItemPublishedAt": "2026-11-23T22:57:08.000Z",
       "primaryItemId": "news_a1aec32ce7c2",
       "evidenceItemIds": [
@@ -257,36 +257,15 @@
         "news_aa0f226e3bdb"
       ],
       "status": "developing",
-      "summary": "美联储理事库克等鹰派称通胀紧迫需更快加息，面临多方反对压力",
-      "latestProgress": "最新报道指出美股暴跌或成阻止美联储加息的最快施压方式"
-    },
-    {
-      "eventId": "event_afd95bcad936",
-      "clusterVersion": 2,
-      "title": "欧洲央行拉加德：将扩大货币互换协议覆盖范围",
-      "firstSeenAt": "2026-11-18T13:08:32.597Z",
-      "lastSeenAt": "2026-11-24T00:01:07.714Z",
-      "latestItemPublishedAt": "2026-11-22T05:45:16.000Z",
-      "primaryItemId": "news_add32f1d16d6",
-      "evidenceItemIds": [
-        "news_3d2c9988f514",
-        "news_6793eb6100ef",
-        "news_cf8282c9f1c1",
-        "news_add32f1d16d6",
-        "news_0930c31f05ae",
-        "news_3b8f996961f6",
-        "news_48567d3aa7f4"
-      ],
-      "status": "developing",
-      "summary": "欧洲央行行长拉加德宣布将扩大货币互换协议覆盖范围。",
-      "latestProgress": "韩国金融委员会与欧洲央行敲定银行监管合作谅解备忘录条款。"
+      "summary": "对冲大佬阿克曼呼吁美联储将2%通胀红线上移至3%，担忧12月加息或成衰退导火索",
+      "latestProgress": "美联储威廉姆斯称如有需要不排除连续加息可能，利率行动将依据数据决定"
     },
     {
       "eventId": "event_218c785f7e8c",
       "clusterVersion": 2,
       "title": "多家美国银行更新网银协议，AI智能体越权交易或由客户担责",
       "firstSeenAt": "2026-11-16T22:15:52.545Z",
-      "lastSeenAt": "2026-11-24T00:01:07.714Z",
+      "lastSeenAt": "2026-11-24T09:59:02.309Z",
       "latestItemPublishedAt": "2026-11-23T12:36:08.000Z",
       "primaryItemId": "news_8e00bb510087",
       "evidenceItemIds": [
@@ -303,15 +282,15 @@
         "news_8c412be6147a"
       ],
       "status": "developing",
-      "summary": "多家美国银行更新网银协议，AI智能体越权交易责任或由客户承担",
-      "latestProgress": "2026年11月22日，多家美国银行更新网银协议，AI越权交易或由客户担责"
+      "summary": "多家美国银行更新网银协议，AI智能体越权交易或由客户担责",
+      "latestProgress": "德意志银行预计2027年美国GDP增长率为2.3%"
     },
     {
       "eventId": "event_c4c3322ba813",
       "clusterVersion": 2,
       "title": "德意志银行预测标普500指数将于2027年触及9,000点",
       "firstSeenAt": "2026-11-23T14:39:10.982Z",
-      "lastSeenAt": "2026-11-24T00:01:07.714Z",
+      "lastSeenAt": "2026-11-24T09:59:02.309Z",
       "latestItemPublishedAt": "2026-11-23T12:44:13.000Z",
       "primaryItemId": "news_be1504db2a28",
       "evidenceItemIds": [
@@ -319,15 +298,15 @@
         "news_8b102d96b0cd"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "德意志银行2027年展望预计标普500指数2027年将触及9000点。",
+      "latestProgress": "财联社11月23日披露德意志银行上述2027年市场展望预测。"
     },
     {
       "eventId": "event_cd4527c10230",
       "clusterVersion": 2,
       "title": "财联社11月23日电，德意志银行预计2027年欧元区GDP增速为1.2%；预计英国国内生产总值增长1.3%。",
       "firstSeenAt": "2026-11-23T14:39:10.982Z",
-      "lastSeenAt": "2026-11-24T00:01:07.714Z",
+      "lastSeenAt": "2026-11-24T09:59:02.309Z",
       "latestItemPublishedAt": "2026-11-23T12:39:39.000Z",
       "primaryItemId": "news_626327ed2ff7",
       "evidenceItemIds": [
@@ -335,15 +314,15 @@
         "news_f4368fc3e4c8"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "德意志银行预计2027年欧元区GDP增速为1.2%，英国GDP增长1.3%。",
+      "latestProgress": "德银发布2027年欧元区、英国GDP增速预期，分别为1.2%、1.3%。"
     },
     {
       "eventId": "event_e983422144e0",
       "clusterVersion": 2,
       "title": "久日新材：拟1.5亿元—2.5亿元回购公司股份",
       "firstSeenAt": "2026-11-23T14:39:10.982Z",
-      "lastSeenAt": "2026-11-24T00:01:07.714Z",
+      "lastSeenAt": "2026-11-24T09:59:02.309Z",
       "latestItemPublishedAt": "2026-11-23T12:40:19.000Z",
       "primaryItemId": "news_518f99829d8e",
       "evidenceItemIds": [
@@ -351,15 +330,15 @@
         "news_804362bf15ef"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "久日新材披露拟斥资1.5亿至2.5亿元回购公司股份",
+      "latestProgress": "目前该回购方案仅完成公开披露，暂无后续进展"
     },
     {
       "eventId": "event_6e4b6fb8b203",
       "clusterVersion": 2,
       "title": "吴悦风旗下私募陷清盘传闻，最新回应：是假的，不会清盘；基金主要投向韩国存储股票，并且买了一些杠杆ETF，因此放大了波动",
       "firstSeenAt": "2026-11-22T12:40:06.425Z",
-      "lastSeenAt": "2026-11-24T00:01:07.714Z",
+      "lastSeenAt": "2026-11-24T09:59:02.309Z",
       "latestItemPublishedAt": "2026-11-23T16:05:13.000Z",
       "primaryItemId": "news_4d971130fec8",
       "evidenceItemIds": [
@@ -368,15 +347,15 @@
         "news_4d971130fec8"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "吴悦风旗下私募陷清盘传闻，其回应称不实，不会清盘，波动源于重仓韩国存储股及杠杆ETF",
+      "latestProgress": "吴悦风方面最新回应称不会清盘，基金因投向韩国存储股并买入杠杆ETF放大波动"
     },
     {
       "eventId": "event_c6d7c3544059",
       "clusterVersion": 2,
       "title": "亚马逊拟斥资约75亿美元收购Decart 加码Trainium芯片挑战英伟达",
       "firstSeenAt": "2026-11-23T20:21:39.870Z",
-      "lastSeenAt": "2026-11-24T00:01:07.714Z",
+      "lastSeenAt": "2026-11-24T09:59:02.309Z",
       "latestItemPublishedAt": "2026-11-23T18:26:59.000Z",
       "primaryItemId": "news_bf8c0b343ee0",
       "evidenceItemIds": [
@@ -384,15 +363,15 @@
         "news_91c0c438393e"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "亚马逊拟斥资约75亿美元收购Decart，加码Trainium芯片布局挑战英伟达",
+      "latestProgress": "目前该收购事项尚在推进中，具体交易落地安排尚未公布"
     },
     {
       "eventId": "event_98510ee79fdc",
       "clusterVersion": 2,
       "title": "全球首只离岸人民币债券ETF香港上市",
       "firstSeenAt": "2026-11-24T00:01:07.714Z",
-      "lastSeenAt": "2026-11-24T00:01:07.714Z",
+      "lastSeenAt": "2026-11-24T09:59:02.309Z",
       "latestItemPublishedAt": "2026-11-23T23:39:06.000Z",
       "primaryItemId": "news_3329c0f4fb6d",
       "evidenceItemIds": [
@@ -400,15 +379,15 @@
         "news_b0ce057ff0b9"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "全球首只离岸人民币债券ETF正式在香港上市，丰富离岸人民币投资产品供给",
+      "latestProgress": "该ETF已于11月23日在香港交易所正式挂牌上市"
     },
     {
       "eventId": "event_748527ab150b",
       "clusterVersion": 2,
       "title": "华尔街见闻早餐FM-Radio | 2026年11月24日",
       "firstSeenAt": "2026-11-24T00:01:07.714Z",
-      "lastSeenAt": "2026-11-24T00:01:07.714Z",
+      "lastSeenAt": "2026-11-24T09:59:02.309Z",
       "latestItemPublishedAt": "2026-11-23T23:03:10.000Z",
       "primaryItemId": "news_2a5a7866259e",
       "evidenceItemIds": [
@@ -416,20 +395,18 @@
         "news_cbd725866772"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "华尔街见闻发布2026年11月24日早餐FM-Radio相关内容",
+      "latestProgress": "该音频内容已于2026年11月23日正式上线"
     },
     {
       "eventId": "event_2cf716748ce1",
       "clusterVersion": 2,
       "title": "垄断、暴利与资本管制：地球上最赚钱的“虚拟央行”",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-23T14:39:10.982Z",
-      "latestItemPublishedAt": "2026-11-22T13:12:56.000Z",
+      "lastSeenAt": "2026-11-24T09:59:02.309Z",
+      "latestItemPublishedAt": "2026-11-24T09:25:34.000Z",
       "primaryItemId": "news_ae5251b11683",
       "evidenceItemIds": [
-        "news_b984e444501e",
-        "news_5ede4a295c1a",
         "news_697be358a579",
         "news_3f1c7c185573",
         "news_e967b4ce976f",
@@ -477,11 +454,67 @@
         "news_aa1851f89d8e",
         "news_e9c41420d46d",
         "news_ae5251b11683",
-        "news_00aa5eff7147"
+        "news_00aa5eff7147",
+        "news_a439d01f205f",
+        "news_4a31d65fb67f"
       ],
       "status": "developing",
       "summary": "高盛时隔11天再度下调黄金目标价至4650美元，同期全球央行9月净购金创新高",
       "latestProgress": "世界黄金协会称9月全球央行公开净购金61吨，创2026年单月最高纪录"
+    },
+    {
+      "eventId": "event_30a0369f2fb0",
+      "clusterVersion": 2,
+      "title": "赛恩斯：拟5000万元—1亿元回购公司股份",
+      "firstSeenAt": "2026-11-24T09:59:02.309Z",
+      "lastSeenAt": "2026-11-24T09:59:02.309Z",
+      "latestItemPublishedAt": "2026-11-24T09:38:16.000Z",
+      "primaryItemId": "news_efb2ac3b2262",
+      "evidenceItemIds": [
+        "news_efb2ac3b2262",
+        "news_e057dc392db9"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_de3f6a2f6fc5",
+      "clusterVersion": 2,
+      "title": "三元生物：拟3000万元—5000万元回购公司股份",
+      "firstSeenAt": "2026-11-24T09:59:02.309Z",
+      "lastSeenAt": "2026-11-24T09:59:02.309Z",
+      "latestItemPublishedAt": "2026-11-24T09:05:46.000Z",
+      "primaryItemId": "news_87938d64ea46",
+      "evidenceItemIds": [
+        "news_87938d64ea46",
+        "news_cc5ff35ef73b",
+        "news_b08e26b68828"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_afd95bcad936",
+      "clusterVersion": 2,
+      "title": "欧洲央行拉加德：将扩大货币互换协议覆盖范围",
+      "firstSeenAt": "2026-11-18T13:08:32.597Z",
+      "lastSeenAt": "2026-11-24T00:01:07.714Z",
+      "latestItemPublishedAt": "2026-11-22T05:45:16.000Z",
+      "primaryItemId": "news_add32f1d16d6",
+      "evidenceItemIds": [
+        "news_3d2c9988f514",
+        "news_6793eb6100ef",
+        "news_cf8282c9f1c1",
+        "news_add32f1d16d6",
+        "news_0930c31f05ae",
+        "news_3b8f996961f6",
+        "news_48567d3aa7f4"
+      ],
+      "status": "developing",
+      "summary": "欧洲央行行长拉加德宣布将扩大货币互换协议覆盖范围。",
+      "latestProgress": "韩国金融委员会与欧洲央行敲定银行监管合作谅解备忘录条款。"
     },
     {
       "eventId": "event_5558c5564551",

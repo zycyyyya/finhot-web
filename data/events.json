@@ -1,19 +1,18 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-25T18:44:22.651Z",
+  "generatedAt": "2026-11-25T21:47:32.713Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
       "eventId": "event_f101880ef7bc",
       "clusterVersion": 2,
-      "title": "美股23小时交易来了！A/H股资金虹吸几何？",
+      "title": "英伟达跌成美股“七巨头”最便宜！黄仁勋回归狂欢迅速消退，下周又将迎国会听证大考",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-25T18:44:22.651Z",
-      "latestItemPublishedAt": "2026-11-25T13:10:53.000Z",
-      "primaryItemId": "news_31a54a25dab0",
+      "lastSeenAt": "2026-11-25T21:47:32.713Z",
+      "latestItemPublishedAt": "2026-11-25T19:42:29.000Z",
+      "primaryItemId": "news_a8c0e1b9b893",
       "evidenceItemIds": [
-        "news_e98fcbc67e06",
         "news_7fc4e3ee9d82",
         "news_4e081e3a6567",
         "news_c7d71ed71214",
@@ -62,7 +61,8 @@
         "news_2864163cdfa8",
         "news_751f9e97e4d7",
         "news_31a54a25dab0",
-        "news_a8c0e1b9b893"
+        "news_a8c0e1b9b893",
+        "news_11c668ca0587"
       ],
       "status": "developing",
       "summary": "黄仁勋回归效应退潮，美股反弹仅维持一日，VIX飙升、芯片股重挫。",
@@ -73,7 +73,7 @@
       "clusterVersion": 2,
       "title": "四天8家A股公司“戴帽”！有的“摘帽”仅4个月再被ST",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-25T18:44:22.651Z",
+      "lastSeenAt": "2026-11-25T21:47:32.713Z",
       "latestItemPublishedAt": "2026-11-25T13:19:28.000Z",
       "primaryItemId": "news_0e44ee3a51c0",
       "evidenceItemIds": [
@@ -137,7 +137,7 @@
       "clusterVersion": 2,
       "title": "安永：今年港股IPO集资额4300亿港元 料2027年回落至3000亿",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-11-25T18:44:22.651Z",
+      "lastSeenAt": "2026-11-25T21:47:32.713Z",
       "latestItemPublishedAt": "2026-11-25T13:27:43.000Z",
       "primaryItemId": "news_a3ce4e7a0538",
       "evidenceItemIds": [
@@ -201,7 +201,7 @@
       "clusterVersion": 2,
       "title": "高盛：市场已替美联储“加息四次”，但沃什12月仍将继续加息",
       "firstSeenAt": "2026-11-06T07:06:11.933Z",
-      "lastSeenAt": "2026-11-25T18:44:22.651Z",
+      "lastSeenAt": "2026-11-25T21:47:32.713Z",
       "latestItemPublishedAt": "2026-11-25T14:54:04.000Z",
       "primaryItemId": "news_22058b74ade5",
       "evidenceItemIds": [
@@ -261,27 +261,11 @@
       "latestProgress": "美联储加息预期压制黄金股表现，中国黄金国际一度跌超4%。"
     },
     {
-      "eventId": "event_a26c4ded6498",
-      "clusterVersion": 2,
-      "title": "财联社11月25日电，截至目前，南向资金净买入额达60亿港元。",
-      "firstSeenAt": "2026-11-25T08:38:43.370Z",
-      "lastSeenAt": "2026-11-25T18:44:22.651Z",
-      "latestItemPublishedAt": "2026-11-25T07:55:36.000Z",
-      "primaryItemId": "news_135a07476f6b",
-      "evidenceItemIds": [
-        "news_135a07476f6b",
-        "news_686243fd9d7f"
-      ],
-      "status": "developing",
-      "summary": "财联社11月25日连续报道，南向资金净买入额持续增长。",
-      "latestProgress": "截至11月25日，南向资金净买入额达60亿港元。"
-    },
-    {
       "eventId": "event_6e4b6fb8b203",
       "clusterVersion": 2,
       "title": "10万亿不够“救市”，韩国酝酿扩大股市稳定基金！",
       "firstSeenAt": "2026-11-22T12:40:06.425Z",
-      "lastSeenAt": "2026-11-25T18:44:22.651Z",
+      "lastSeenAt": "2026-11-25T21:47:32.713Z",
       "latestItemPublishedAt": "2026-11-25T10:03:25.000Z",
       "primaryItemId": "news_621bb95f012c",
       "evidenceItemIds": [
@@ -299,7 +283,7 @@
       "clusterVersion": 2,
       "title": "黄金何时迎来转机",
       "firstSeenAt": "2026-11-25T14:26:42.699Z",
-      "lastSeenAt": "2026-11-25T18:44:22.651Z",
+      "lastSeenAt": "2026-11-25T21:47:32.713Z",
       "latestItemPublishedAt": "2026-11-25T04:27:39.000Z",
       "primaryItemId": "news_a48a02167f9f",
       "evidenceItemIds": [
@@ -315,7 +299,7 @@
       "clusterVersion": 2,
       "title": "财联社11月25日电，美国3年期国债收益率日内下跌10个基点，至4.59%。",
       "firstSeenAt": "2026-11-25T14:26:42.699Z",
-      "lastSeenAt": "2026-11-25T18:44:22.651Z",
+      "lastSeenAt": "2026-11-25T21:47:32.713Z",
       "latestItemPublishedAt": "2026-11-25T13:33:32.000Z",
       "primaryItemId": "news_c8d5b5748a35",
       "evidenceItemIds": [
@@ -331,7 +315,7 @@
       "clusterVersion": 2,
       "title": "南向资金追踪｜净买入超64亿港元 加仓三大ETF减持小米及建行",
       "firstSeenAt": "2026-11-25T14:26:42.699Z",
-      "lastSeenAt": "2026-11-25T18:44:22.651Z",
+      "lastSeenAt": "2026-11-25T21:47:32.713Z",
       "latestItemPublishedAt": "2026-11-25T12:13:08.000Z",
       "primaryItemId": "news_e40a3e1b9f52",
       "evidenceItemIds": [
@@ -347,7 +331,7 @@
       "clusterVersion": 2,
       "title": "夜盘期货收盘：沪铜跌超2% 沪锡跌超6%",
       "firstSeenAt": "2026-11-25T18:44:22.651Z",
-      "lastSeenAt": "2026-11-25T18:44:22.651Z",
+      "lastSeenAt": "2026-11-25T21:47:32.713Z",
       "latestItemPublishedAt": "2026-11-25T17:05:49.000Z",
       "primaryItemId": "news_eed009aa93f1",
       "evidenceItemIds": [
@@ -363,7 +347,7 @@
       "clusterVersion": 2,
       "title": "财联社11月26日电，美国7年期国债中标收益率为4.708%，发行前预发行收益率为4.698%。",
       "firstSeenAt": "2026-11-25T18:44:22.651Z",
-      "lastSeenAt": "2026-11-25T18:44:22.651Z",
+      "lastSeenAt": "2026-11-25T21:47:32.713Z",
       "latestItemPublishedAt": "2026-11-25T16:35:58.000Z",
       "primaryItemId": "news_ea1be8fec13e",
       "evidenceItemIds": [
@@ -373,6 +357,54 @@
       "status": "developing",
       "summary": "",
       "latestProgress": ""
+    },
+    {
+      "eventId": "event_0de6a233fdac",
+      "clusterVersion": 2,
+      "title": "财联社11月26日电，美国货币市场基金资产在ICI统计中升至7.979万亿美元。",
+      "firstSeenAt": "2026-11-25T21:47:32.713Z",
+      "lastSeenAt": "2026-11-25T21:47:32.713Z",
+      "latestItemPublishedAt": "2026-11-25T19:04:13.000Z",
+      "primaryItemId": "news_0ecfdf19b049",
+      "evidenceItemIds": [
+        "news_0ecfdf19b049",
+        "news_ef22225f6b7c"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_7c8c50398dff",
+      "clusterVersion": 2,
+      "title": "学习时报：算力供给要避免“一哄而上”",
+      "firstSeenAt": "2026-11-25T21:47:32.713Z",
+      "lastSeenAt": "2026-11-25T21:47:32.713Z",
+      "latestItemPublishedAt": "2026-11-25T09:55:33.000Z",
+      "primaryItemId": "news_9ac564fc12ee",
+      "evidenceItemIds": [
+        "news_9ac564fc12ee",
+        "news_ec946b93cec8"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_a26c4ded6498",
+      "clusterVersion": 2,
+      "title": "财联社11月25日电，截至目前，南向资金净买入额达60亿港元。",
+      "firstSeenAt": "2026-11-25T08:38:43.370Z",
+      "lastSeenAt": "2026-11-25T18:44:22.651Z",
+      "latestItemPublishedAt": "2026-11-25T07:55:36.000Z",
+      "primaryItemId": "news_135a07476f6b",
+      "evidenceItemIds": [
+        "news_135a07476f6b",
+        "news_686243fd9d7f"
+      ],
+      "status": "developing",
+      "summary": "财联社11月25日连续报道，南向资金净买入额持续增长。",
+      "latestProgress": "截至11月25日，南向资金净买入额达60亿港元。"
     },
     {
       "eventId": "event_2cf716748ce1",

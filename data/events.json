@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-25T14:26:42.699Z",
+  "generatedAt": "2026-11-25T18:44:22.651Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -9,11 +9,10 @@
       "clusterVersion": 2,
       "title": "美股23小时交易来了！A/H股资金虹吸几何？",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-25T14:26:42.699Z",
-      "latestItemPublishedAt": "2026-11-25T08:49:11.000Z",
+      "lastSeenAt": "2026-11-25T18:44:22.651Z",
+      "latestItemPublishedAt": "2026-11-25T13:10:53.000Z",
       "primaryItemId": "news_31a54a25dab0",
       "evidenceItemIds": [
-        "news_5319b6d09b5c",
         "news_e98fcbc67e06",
         "news_7fc4e3ee9d82",
         "news_4e081e3a6567",
@@ -62,7 +61,8 @@
         "news_51f874cdc341",
         "news_2864163cdfa8",
         "news_751f9e97e4d7",
-        "news_31a54a25dab0"
+        "news_31a54a25dab0",
+        "news_a8c0e1b9b893"
       ],
       "status": "developing",
       "summary": "黄仁勋回归效应退潮，美股反弹仅维持一日，VIX飙升、芯片股重挫。",
@@ -73,7 +73,7 @@
       "clusterVersion": 2,
       "title": "四天8家A股公司“戴帽”！有的“摘帽”仅4个月再被ST",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-25T14:26:42.699Z",
+      "lastSeenAt": "2026-11-25T18:44:22.651Z",
       "latestItemPublishedAt": "2026-11-25T13:19:28.000Z",
       "primaryItemId": "news_0e44ee3a51c0",
       "evidenceItemIds": [
@@ -137,7 +137,7 @@
       "clusterVersion": 2,
       "title": "安永：今年港股IPO集资额4300亿港元 料2027年回落至3000亿",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-11-25T14:26:42.699Z",
+      "lastSeenAt": "2026-11-25T18:44:22.651Z",
       "latestItemPublishedAt": "2026-11-25T13:27:43.000Z",
       "primaryItemId": "news_a3ce4e7a0538",
       "evidenceItemIds": [
@@ -199,14 +199,12 @@
     {
       "eventId": "event_9e320dba578d",
       "clusterVersion": 2,
-      "title": "美国10月PCE通胀同比上涨3.8%，顽固价格压力或推动美联储继续加息",
+      "title": "高盛：市场已替美联储“加息四次”，但沃什12月仍将继续加息",
       "firstSeenAt": "2026-11-06T07:06:11.933Z",
-      "lastSeenAt": "2026-11-25T14:26:42.699Z",
-      "latestItemPublishedAt": "2026-11-25T12:14:54.000Z",
-      "primaryItemId": "news_7fea28baec7a",
+      "lastSeenAt": "2026-11-25T18:44:22.651Z",
+      "latestItemPublishedAt": "2026-11-25T14:54:04.000Z",
+      "primaryItemId": "news_22058b74ade5",
       "evidenceItemIds": [
-        "news_f658cedb904c",
-        "news_150b08451009",
         "news_282afc0a97e8",
         "news_17c9c3987748",
         "news_1276d8f44bc8",
@@ -254,11 +252,127 @@
         "news_2ce673b9a659",
         "news_0fa47f8df6a6",
         "news_7fea28baec7a",
-        "news_1bfbbb771813"
+        "news_1bfbbb771813",
+        "news_22058b74ade5",
+        "news_8ce0e70cf8ce"
       ],
       "status": "developing",
       "summary": "摩根大通预计美联储将连续三次加息，12月加息概率近97%，黄金股承压。",
       "latestProgress": "美联储加息预期压制黄金股表现，中国黄金国际一度跌超4%。"
+    },
+    {
+      "eventId": "event_a26c4ded6498",
+      "clusterVersion": 2,
+      "title": "财联社11月25日电，截至目前，南向资金净买入额达60亿港元。",
+      "firstSeenAt": "2026-11-25T08:38:43.370Z",
+      "lastSeenAt": "2026-11-25T18:44:22.651Z",
+      "latestItemPublishedAt": "2026-11-25T07:55:36.000Z",
+      "primaryItemId": "news_135a07476f6b",
+      "evidenceItemIds": [
+        "news_135a07476f6b",
+        "news_686243fd9d7f"
+      ],
+      "status": "developing",
+      "summary": "财联社11月25日连续报道，南向资金净买入额持续增长。",
+      "latestProgress": "截至11月25日，南向资金净买入额达60亿港元。"
+    },
+    {
+      "eventId": "event_6e4b6fb8b203",
+      "clusterVersion": 2,
+      "title": "10万亿不够“救市”，韩国酝酿扩大股市稳定基金！",
+      "firstSeenAt": "2026-11-22T12:40:06.425Z",
+      "lastSeenAt": "2026-11-25T18:44:22.651Z",
+      "latestItemPublishedAt": "2026-11-25T10:03:25.000Z",
+      "primaryItemId": "news_621bb95f012c",
+      "evidenceItemIds": [
+        "news_db6cc91a72e9",
+        "news_8dc3b3b3e42f",
+        "news_4d971130fec8",
+        "news_621bb95f012c"
+      ],
+      "status": "developing",
+      "summary": "吴悦风旗下私募陷清盘传闻，其回应称不实，不会清盘，波动源于重仓韩国存储股及杠杆ETF",
+      "latestProgress": "吴悦风方面最新回应称不会清盘，基金因投向韩国存储股并买入杠杆ETF放大波动"
+    },
+    {
+      "eventId": "event_75d62eaaeaa6",
+      "clusterVersion": 2,
+      "title": "黄金何时迎来转机",
+      "firstSeenAt": "2026-11-25T14:26:42.699Z",
+      "lastSeenAt": "2026-11-25T18:44:22.651Z",
+      "latestItemPublishedAt": "2026-11-25T04:27:39.000Z",
+      "primaryItemId": "news_a48a02167f9f",
+      "evidenceItemIds": [
+        "news_a48a02167f9f",
+        "news_7414348bbe24"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_8bf12c301aec",
+      "clusterVersion": 2,
+      "title": "财联社11月25日电，美国3年期国债收益率日内下跌10个基点，至4.59%。",
+      "firstSeenAt": "2026-11-25T14:26:42.699Z",
+      "lastSeenAt": "2026-11-25T18:44:22.651Z",
+      "latestItemPublishedAt": "2026-11-25T13:33:32.000Z",
+      "primaryItemId": "news_c8d5b5748a35",
+      "evidenceItemIds": [
+        "news_c8d5b5748a35",
+        "news_61f43a921fd7"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_e37c1ba1fba6",
+      "clusterVersion": 2,
+      "title": "南向资金追踪｜净买入超64亿港元 加仓三大ETF减持小米及建行",
+      "firstSeenAt": "2026-11-25T14:26:42.699Z",
+      "lastSeenAt": "2026-11-25T18:44:22.651Z",
+      "latestItemPublishedAt": "2026-11-25T12:13:08.000Z",
+      "primaryItemId": "news_e40a3e1b9f52",
+      "evidenceItemIds": [
+        "news_e40a3e1b9f52",
+        "news_f747fbce9383"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_78759587d4f9",
+      "clusterVersion": 2,
+      "title": "夜盘期货收盘：沪铜跌超2% 沪锡跌超6%",
+      "firstSeenAt": "2026-11-25T18:44:22.651Z",
+      "lastSeenAt": "2026-11-25T18:44:22.651Z",
+      "latestItemPublishedAt": "2026-11-25T17:05:49.000Z",
+      "primaryItemId": "news_eed009aa93f1",
+      "evidenceItemIds": [
+        "news_eed009aa93f1",
+        "news_edd7d8148818"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_0a7767c975c9",
+      "clusterVersion": 2,
+      "title": "财联社11月26日电，美国7年期国债中标收益率为4.708%，发行前预发行收益率为4.698%。",
+      "firstSeenAt": "2026-11-25T18:44:22.651Z",
+      "lastSeenAt": "2026-11-25T18:44:22.651Z",
+      "latestItemPublishedAt": "2026-11-25T16:35:58.000Z",
+      "primaryItemId": "news_ea1be8fec13e",
+      "evidenceItemIds": [
+        "news_ea1be8fec13e",
+        "news_34609c1bfd86"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
     },
     {
       "eventId": "event_2cf716748ce1",
@@ -341,40 +455,6 @@
       "latestProgress": "2026年11月24日消息，城堡证券前三季度交易收入超2025年全年纪录"
     },
     {
-      "eventId": "event_a26c4ded6498",
-      "clusterVersion": 2,
-      "title": "财联社11月25日电，截至目前，南向资金净买入额达60亿港元。",
-      "firstSeenAt": "2026-11-25T08:38:43.370Z",
-      "lastSeenAt": "2026-11-25T14:26:42.699Z",
-      "latestItemPublishedAt": "2026-11-25T07:55:36.000Z",
-      "primaryItemId": "news_135a07476f6b",
-      "evidenceItemIds": [
-        "news_135a07476f6b",
-        "news_686243fd9d7f"
-      ],
-      "status": "developing",
-      "summary": "财联社11月25日连续报道，南向资金净买入额持续增长。",
-      "latestProgress": "截至11月25日，南向资金净买入额达60亿港元。"
-    },
-    {
-      "eventId": "event_6e4b6fb8b203",
-      "clusterVersion": 2,
-      "title": "10万亿不够“救市”，韩国酝酿扩大股市稳定基金！",
-      "firstSeenAt": "2026-11-22T12:40:06.425Z",
-      "lastSeenAt": "2026-11-25T14:26:42.699Z",
-      "latestItemPublishedAt": "2026-11-25T10:03:25.000Z",
-      "primaryItemId": "news_621bb95f012c",
-      "evidenceItemIds": [
-        "news_db6cc91a72e9",
-        "news_8dc3b3b3e42f",
-        "news_4d971130fec8",
-        "news_621bb95f012c"
-      ],
-      "status": "developing",
-      "summary": "吴悦风旗下私募陷清盘传闻，其回应称不实，不会清盘，波动源于重仓韩国存储股及杠杆ETF",
-      "latestProgress": "吴悦风方面最新回应称不会清盘，基金因投向韩国存储股并买入杠杆ETF放大波动"
-    },
-    {
       "eventId": "event_afd95bcad936",
       "clusterVersion": 2,
       "title": "【商圈】卸任欧洲央行行长 精通花样游泳的拉加德望向下一站",
@@ -395,54 +475,6 @@
       "status": "developing",
       "summary": "欧洲央行行长拉加德宣布将扩大货币互换协议覆盖范围。",
       "latestProgress": "韩国金融委员会与欧洲央行敲定银行监管合作谅解备忘录条款。"
-    },
-    {
-      "eventId": "event_75d62eaaeaa6",
-      "clusterVersion": 2,
-      "title": "黄金何时迎来转机",
-      "firstSeenAt": "2026-11-25T14:26:42.699Z",
-      "lastSeenAt": "2026-11-25T14:26:42.699Z",
-      "latestItemPublishedAt": "2026-11-25T04:27:39.000Z",
-      "primaryItemId": "news_a48a02167f9f",
-      "evidenceItemIds": [
-        "news_a48a02167f9f",
-        "news_7414348bbe24"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_8bf12c301aec",
-      "clusterVersion": 2,
-      "title": "财联社11月25日电，美国3年期国债收益率日内下跌10个基点，至4.59%。",
-      "firstSeenAt": "2026-11-25T14:26:42.699Z",
-      "lastSeenAt": "2026-11-25T14:26:42.699Z",
-      "latestItemPublishedAt": "2026-11-25T13:33:32.000Z",
-      "primaryItemId": "news_c8d5b5748a35",
-      "evidenceItemIds": [
-        "news_c8d5b5748a35",
-        "news_61f43a921fd7"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_e37c1ba1fba6",
-      "clusterVersion": 2,
-      "title": "南向资金追踪｜净买入超64亿港元 加仓三大ETF减持小米及建行",
-      "firstSeenAt": "2026-11-25T14:26:42.699Z",
-      "lastSeenAt": "2026-11-25T14:26:42.699Z",
-      "latestItemPublishedAt": "2026-11-25T12:13:08.000Z",
-      "primaryItemId": "news_e40a3e1b9f52",
-      "evidenceItemIds": [
-        "news_e40a3e1b9f52",
-        "news_f747fbce9383"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
     },
     {
       "eventId": "event_30a0369f2fb0",

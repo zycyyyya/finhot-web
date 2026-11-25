@@ -1,19 +1,18 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-24T22:36:55.403Z",
+  "generatedAt": "2026-11-25T08:38:43.370Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
       "eventId": "event_f101880ef7bc",
       "clusterVersion": 2,
-      "title": "美股VIX飙升！芯片股盘初重挫6%，英伟达市值蒸发2500亿美元，Anthropic破发",
+      "title": "美股反弹一日游？黄仁勋回归效应退潮，市场面临更多现实性考验",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-24T22:36:55.403Z",
-      "latestItemPublishedAt": "2026-11-24T15:04:57.000Z",
-      "primaryItemId": "news_2864163cdfa8",
+      "lastSeenAt": "2026-11-25T08:38:43.370Z",
+      "latestItemPublishedAt": "2026-11-25T00:15:19.000Z",
+      "primaryItemId": "news_751f9e97e4d7",
       "evidenceItemIds": [
-        "news_4a186c81c816",
         "news_9d27a9bab376",
         "news_5319b6d09b5c",
         "news_e98fcbc67e06",
@@ -62,24 +61,22 @@
         "news_0dcdb5c3bc2d",
         "news_802c164f0c40",
         "news_51f874cdc341",
-        "news_2864163cdfa8"
+        "news_2864163cdfa8",
+        "news_751f9e97e4d7"
       ],
       "status": "developing",
-      "summary": "英伟达暴涨31%引爆美股大涨，纳指狂飙6.5%，黄金反弹，多家机构看好后续走势",
-      "latestProgress": "最新报道复盘英伟达回归行情，对冲失效、空头止损，杠杆ETF狂扫410亿"
+      "summary": "黄仁勋回归效应退潮，美股反弹仅维持一日，VIX飙升、芯片股重挫。",
+      "latestProgress": "2026年11月25日，市场确认美股反弹为一日游，面临更多现实性考验。"
     },
     {
       "eventId": "event_a3c5d0364922",
       "clusterVersion": 2,
-      "title": "A股光模块冲高回落，产业链确定性是否修复仍待验证",
+      "title": "A股三大指数集体低开",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-24T22:36:55.403Z",
-      "latestItemPublishedAt": "2026-11-24T12:35:15.000Z",
-      "primaryItemId": "news_6e8e597a7eae",
+      "lastSeenAt": "2026-11-25T08:38:43.370Z",
+      "latestItemPublishedAt": "2026-11-25T07:02:12.000Z",
+      "primaryItemId": "news_e626cf80009f",
       "evidenceItemIds": [
-        "news_9efa18335b99",
-        "news_35b494c50d44",
-        "news_cf072a774d5a",
         "news_2fce00e50316",
         "news_09fab3721d5d",
         "news_19f2578648cd",
@@ -126,23 +123,24 @@
         "news_90a43d126d7f",
         "news_58d98a0c4446",
         "news_6e8e597a7eae",
-        "news_1e844639d6b4"
+        "news_1e844639d6b4",
+        "news_e626cf80009f",
+        "news_c98253586a05",
+        "news_06668c83df15"
       ],
       "status": "developing",
-      "summary": "主动ETF助力长钱入市，叠加回购增持稳市组合拳催化A股修复",
-      "latestProgress": "11月24日A股四大指数集体高开，英伟达概念等板块领涨，半夏投资已做多A股宽基指数"
+      "summary": "近期A股三大指数集体低开，多板块回调，市场普跌态势明显",
+      "latestProgress": "A股三大指数集体收跌，全市场超4900只个股下跌"
     },
     {
       "eventId": "event_c68d651d4ff9",
       "clusterVersion": 2,
-      "title": "黄仁勋回归亚股弹 港股跟升后倒跌",
+      "title": "港股异动｜先通医药-B(09941)上市次日反弹超7% 仍较招股价低17% 两年半累计亏损超13亿元",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-11-24T22:36:55.403Z",
-      "latestItemPublishedAt": "2026-11-24T13:27:54.000Z",
-      "primaryItemId": "news_06011bdb5f42",
+      "lastSeenAt": "2026-11-25T08:38:43.370Z",
+      "latestItemPublishedAt": "2026-11-25T07:11:21.000Z",
+      "primaryItemId": "news_c93ffe724510",
       "evidenceItemIds": [
-        "news_15e624c00ecb",
-        "news_dec19cb92f15",
         "news_a64bbc8bf19b",
         "news_1e723812a02c",
         "news_f796ec222fab",
@@ -190,23 +188,23 @@
         "news_977be85c3c5d",
         "news_7679bbc45721",
         "news_06011bdb5f42",
-        "news_ecc4bd9e4482"
+        "news_ecc4bd9e4482",
+        "news_c93ffe724510",
+        "news_9087d7dd93f4"
       ],
       "status": "developing",
-      "summary": "黄仁勋复职引发全球大类资产共振，粤港湾智算在手算力订单逾370亿元，带动港股波动。",
-      "latestProgress": "黄仁勋回归带动亚股反弹，港股跟升后倒跌。"
+      "summary": "港股先通医药上市次日反弹超7%，仍破发跌17%，两年半累计亏损超13亿元",
+      "latestProgress": "先通医药上市次日反弹超7%，仍较招股价低17%，累计亏损超13亿元"
     },
     {
       "eventId": "event_9e320dba578d",
       "clusterVersion": 2,
-      "title": "12月加息或成衰退导火索？对冲大佬阿克曼呼吁美联储将2%通胀红线上移至3%",
+      "title": "【华尔街原声】摩根大通预计美联储将连续三次加息",
       "firstSeenAt": "2026-11-06T07:06:11.933Z",
-      "lastSeenAt": "2026-11-24T22:36:55.403Z",
-      "latestItemPublishedAt": "2026-11-24T22:03:08.000Z",
-      "primaryItemId": "news_a1aec32ce7c2",
+      "lastSeenAt": "2026-11-25T08:38:43.370Z",
+      "latestItemPublishedAt": "2026-11-25T03:30:25.000Z",
+      "primaryItemId": "news_2ce673b9a659",
       "evidenceItemIds": [
-        "news_490720f0a412",
-        "news_d9c15b49fcf9",
         "news_b171f3297ac9",
         "news_4ce6caf10c53",
         "news_f658cedb904c",
@@ -254,18 +252,20 @@
         "news_aa0f226e3bdb",
         "news_07bf181a2c3d",
         "news_baabab566390",
-        "news_fd1ffa2b46ad"
+        "news_fd1ffa2b46ad",
+        "news_2ce673b9a659",
+        "news_0fa47f8df6a6"
       ],
       "status": "developing",
-      "summary": "对冲大佬阿克曼呼吁美联储将2%通胀红线上移至3%，担忧12月加息或成衰退导火索",
-      "latestProgress": "美联储威廉姆斯称如有需要不排除连续加息可能，利率行动将依据数据决定"
+      "summary": "摩根大通预计美联储将连续三次加息，12月加息概率近97%，黄金股承压。",
+      "latestProgress": "美联储加息预期压制黄金股表现，中国黄金国际一度跌超4%。"
     },
     {
       "eventId": "event_2cf716748ce1",
       "clusterVersion": 2,
       "title": "韩国央行后天或再加息！AI暴跌之际，高盛警告：消费撑不住了",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-24T22:36:55.403Z",
+      "lastSeenAt": "2026-11-25T08:38:43.370Z",
       "latestItemPublishedAt": "2026-11-24T17:41:57.000Z",
       "primaryItemId": "news_3a26a10b4215",
       "evidenceItemIds": [
@@ -321,15 +321,15 @@
         "news_ce0735c37bb6"
       ],
       "status": "developing",
-      "summary": "高盛时隔11天再度下调黄金目标价至4650美元，同期全球央行9月净购金创新高",
-      "latestProgress": "世界黄金协会称9月全球央行公开净购金61吨，创2026年单月最高纪录"
+      "summary": "韩国央行或再加息，高盛预警消费支撑不足，多国央行加息预期升温",
+      "latestProgress": "互换市场数据显示加拿大央行12月加息概率升至80%"
     },
     {
       "eventId": "event_30a0369f2fb0",
       "clusterVersion": 2,
       "title": "联创股份：拟5000万元—1亿元回购公司股份",
       "firstSeenAt": "2026-11-24T09:59:02.309Z",
-      "lastSeenAt": "2026-11-24T22:36:55.403Z",
+      "lastSeenAt": "2026-11-25T08:38:43.370Z",
       "latestItemPublishedAt": "2026-11-24T12:03:36.000Z",
       "primaryItemId": "news_f5b522f9e248",
       "evidenceItemIds": [
@@ -339,15 +339,15 @@
         "news_cc5ff35ef73b"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "联创股份披露拟斥资5000万元至1亿元回购公司股份",
+      "latestProgress": "2026年11月24日联创股份公告拟5000万至1亿元回购公司股份"
     },
     {
       "eventId": "event_a4f72a95e7b2",
       "clusterVersion": 2,
       "title": "达利欧最新警告：伟大的技术，不等于伟大的投资",
       "firstSeenAt": "2026-11-24T14:57:48.749Z",
-      "lastSeenAt": "2026-11-24T22:36:55.403Z",
+      "lastSeenAt": "2026-11-25T08:38:43.370Z",
       "latestItemPublishedAt": "2026-11-24T11:46:43.000Z",
       "primaryItemId": "news_b816a2e607ae",
       "evidenceItemIds": [
@@ -355,36 +355,116 @@
         "news_75dde0513fe5"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "桥水基金达利欧警示投资者，伟大的技术不等于伟大的投资，勿盲目追高。",
+      "latestProgress": "该警告发布后已引发市场对科技股估值合理性的广泛讨论。"
     },
     {
       "eventId": "event_4a122eba04e5",
       "clusterVersion": 2,
-      "title": "大烨智能：11月26日复牌并实施其他风险警示，股票简称变更为“ST大烨”",
+      "title": "神雾节能：2024年年报存在虚假记载 11月26日复牌并实施其他风险警示股票简称变更为ST节能",
       "firstSeenAt": "2026-11-24T14:57:48.749Z",
-      "lastSeenAt": "2026-11-24T22:36:55.403Z",
+      "lastSeenAt": "2026-11-25T08:38:43.370Z",
       "latestItemPublishedAt": "2026-11-24T13:35:20.000Z",
-      "primaryItemId": "news_35d351f7b478",
+      "primaryItemId": "news_f26a6e7fc907",
       "evidenceItemIds": [
         "news_35d351f7b478",
         "news_f26a6e7fc907"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "神雾节能因2024年年报存在虚假记载，11月26日复牌并实施其他风险警示，简称变更为ST节能",
+      "latestProgress": "神雾节能将于11月26日复牌并实施其他风险警示，股票简称变更为ST节能"
     },
     {
       "eventId": "event_887a44d2a2bb",
       "clusterVersion": 2,
       "title": "城堡证券前三季度交易收入已超2025年全年纪录",
       "firstSeenAt": "2026-11-24T22:36:55.403Z",
-      "lastSeenAt": "2026-11-24T22:36:55.403Z",
+      "lastSeenAt": "2026-11-25T08:38:43.370Z",
       "latestItemPublishedAt": "2026-11-24T20:31:42.000Z",
       "primaryItemId": "news_c4b9ad5e2a6f",
       "evidenceItemIds": [
         "news_c4b9ad5e2a6f",
         "news_282e84c228d8"
+      ],
+      "status": "developing",
+      "summary": "城堡证券2026年前三季度交易收入已超2025年全年纪录",
+      "latestProgress": "2026年11月24日消息，城堡证券前三季度交易收入超2025年全年纪录"
+    },
+    {
+      "eventId": "event_a26c4ded6498",
+      "clusterVersion": 2,
+      "title": "财联社11月25日电，截至目前，南向资金净买入额达60亿港元。",
+      "firstSeenAt": "2026-11-25T08:38:43.370Z",
+      "lastSeenAt": "2026-11-25T08:38:43.370Z",
+      "latestItemPublishedAt": "2026-11-25T07:55:36.000Z",
+      "primaryItemId": "news_135a07476f6b",
+      "evidenceItemIds": [
+        "news_135a07476f6b",
+        "news_686243fd9d7f"
+      ],
+      "status": "developing",
+      "summary": "财联社11月25日连续报道，南向资金净买入额持续增长。",
+      "latestProgress": "截至11月25日，南向资金净买入额达60亿港元。"
+    },
+    {
+      "eventId": "event_16396f5cc894",
+      "clusterVersion": 2,
+      "title": "Anthropic暴跌14%破发！创始人套现逾5.6亿美元，黄仁勋回归加剧AI路线之争",
+      "firstSeenAt": "2026-11-25T08:38:43.370Z",
+      "lastSeenAt": "2026-11-25T08:38:43.370Z",
+      "latestItemPublishedAt": "2026-11-25T02:45:35.000Z",
+      "primaryItemId": "news_64f177cab4fc",
+      "evidenceItemIds": [
+        "news_64f177cab4fc",
+        "news_019c2c87598b"
+      ],
+      "status": "developing",
+      "summary": "Anthropic上市暴跌14%破发，创始人兄妹套现逾5.6亿美元，黄仁勋回归加剧AI路线之争",
+      "latestProgress": "最新报道披露Anthropic上市次日，创始人兄妹合计套现5.6亿美元"
+    },
+    {
+      "eventId": "event_2bdff05f44dd",
+      "clusterVersion": 2,
+      "title": "黑石、华平、阿波罗洽谈入股，GTCR拟500亿美元私有化Global Payments",
+      "firstSeenAt": "2026-11-25T08:38:43.370Z",
+      "lastSeenAt": "2026-11-25T08:38:43.370Z",
+      "latestItemPublishedAt": "2026-11-24T21:05:12.000Z",
+      "primaryItemId": "news_31323cd5ba30",
+      "evidenceItemIds": [
+        "news_31323cd5ba30",
+        "news_ab7a5b229702"
+      ],
+      "status": "developing",
+      "summary": "黑石等正洽谈入股，支持GTCR 500亿美元完成私有化",
+      "latestProgress": "消息人士称黑石等正洽谈为GTCR该笔收购提供支持"
+    },
+    {
+      "eventId": "event_0a5c5ca76582",
+      "clusterVersion": 2,
+      "title": "财联社11月25日电，摩根大通预计标普500指数2027年底将达到8200点。",
+      "firstSeenAt": "2026-11-25T08:38:43.370Z",
+      "lastSeenAt": "2026-11-25T08:38:43.370Z",
+      "latestItemPublishedAt": "2026-11-24T20:47:38.000Z",
+      "primaryItemId": "news_7b4be6fd4057",
+      "evidenceItemIds": [
+        "news_7b4be6fd4057",
+        "news_108f5d624119"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_079e57dd6922",
+      "clusterVersion": 2,
+      "title": "Anthropic上市5天即破发，2万亿美元估值昙花一现！",
+      "firstSeenAt": "2026-11-25T08:38:43.370Z",
+      "lastSeenAt": "2026-11-25T08:38:43.370Z",
+      "latestItemPublishedAt": "2026-11-24T19:26:47.000Z",
+      "primaryItemId": "news_292c542c4694",
+      "evidenceItemIds": [
+        "news_292c542c4694",
+        "news_ef1509aad0e4"
       ],
       "status": "developing",
       "summary": "",

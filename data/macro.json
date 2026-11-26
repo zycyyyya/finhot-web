@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "updatedAt": "2026-11-26T08:20:49.150Z",
+  "updatedAt": "2026-11-26T13:55:27.283Z",
   "note": "auto 指标由 scripts/macro.js 每日自动刷新；manual 指标为人工核实值，核实日期见 asOf。",
   "indicators": [
     {
@@ -155,8 +155,8 @@
     {
       "key": "gold",
       "name": "现货黄金",
-      "value": "$3,565",
-      "numericValue": 3565,
+      "value": "$3,570",
+      "numericValue": 3569.699951,
       "note": "较11月25日 $3,575 下降",
       "direction": "down",
       "asOf": "2026-11-26",

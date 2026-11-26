@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-26T13:55:27.283Z",
+  "generatedAt": "2026-11-26T18:32:58.846Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -9,7 +9,7 @@
       "clusterVersion": 2,
       "title": "海外大抛售到哪个阶段了？美股尚未“全面投降”，金铜惨跌更像“流动性收紧”",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-26T13:55:27.283Z",
+      "lastSeenAt": "2026-11-26T18:32:58.846Z",
       "latestItemPublishedAt": "2026-11-26T13:52:08.000Z",
       "primaryItemId": "news_bac1e269a9e4",
       "evidenceItemIds": [
@@ -73,7 +73,7 @@
       "clusterVersion": 2,
       "title": "透视A股并购“爆雷”：大多栽在业绩对赌，风险埋在交割之后",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-26T13:55:27.283Z",
+      "lastSeenAt": "2026-11-26T18:32:58.846Z",
       "latestItemPublishedAt": "2026-11-26T12:55:38.000Z",
       "primaryItemId": "news_d51b827f7461",
       "evidenceItemIds": [
@@ -137,7 +137,7 @@
       "clusterVersion": 2,
       "title": "安永：今年港股IPO集资额4300亿港元 料2027年回落至3000亿",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-11-26T13:55:27.283Z",
+      "lastSeenAt": "2026-11-26T18:32:58.846Z",
       "latestItemPublishedAt": "2026-11-26T13:06:24.000Z",
       "primaryItemId": "news_a3ce4e7a0538",
       "evidenceItemIds": [
@@ -199,11 +199,11 @@
     {
       "eventId": "event_9e320dba578d",
       "clusterVersion": 2,
-      "title": "美联储重磅！最青睐通胀指标超预期，12月加息概率升高",
+      "title": "市场下跌能否让加息暂停？AI退潮会否迫使美联储转向？",
       "firstSeenAt": "2026-11-06T07:06:11.933Z",
-      "lastSeenAt": "2026-11-26T13:55:27.283Z",
+      "lastSeenAt": "2026-11-26T18:32:58.846Z",
       "latestItemPublishedAt": "2026-11-26T10:18:00.000Z",
-      "primaryItemId": "news_3bbbef1d1d59",
+      "primaryItemId": "news_d6d1933f3850",
       "evidenceItemIds": [
         "news_52da0d2572e1",
         "news_58244adebe83",
@@ -261,33 +261,14 @@
       "latestProgress": "美联储褐皮书显示全美物价升温范围扩大，12月加息势在必行"
     },
     {
-      "eventId": "event_a26c4ded6498",
-      "clusterVersion": 2,
-      "title": "财联社11月26日电，截至目前，南向资金净卖出额达150亿港元。",
-      "firstSeenAt": "2026-11-25T08:38:43.370Z",
-      "lastSeenAt": "2026-11-26T13:55:27.283Z",
-      "latestItemPublishedAt": "2026-11-26T07:10:34.000Z",
-      "primaryItemId": "news_c09a34cd708f",
-      "evidenceItemIds": [
-        "news_135a07476f6b",
-        "news_686243fd9d7f",
-        "news_c09a34cd708f",
-        "news_1f94f9e096d8"
-      ],
-      "status": "developing",
-      "summary": "11月26日南向资金净卖出额达150亿港元",
-      "latestProgress": "截至11月26日，南向资金净卖出规模达150亿港元"
-    },
-    {
       "eventId": "event_2cf716748ce1",
       "clusterVersion": 2,
       "title": "英国央行下调银行资本要求30个基点，同时警告：过度放松将危及金融稳定",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-26T13:55:27.283Z",
-      "latestItemPublishedAt": "2026-11-26T11:40:18.000Z",
+      "lastSeenAt": "2026-11-26T18:32:58.846Z",
+      "latestItemPublishedAt": "2026-11-26T16:53:12.000Z",
       "primaryItemId": "news_be8925f85840",
       "evidenceItemIds": [
-        "news_4be3d9013d3f",
         "news_682e5d38817f",
         "news_77e8b347634b",
         "news_9377a13f88d0",
@@ -336,11 +317,138 @@
         "news_ce0735c37bb6",
         "news_84a81cdbfbe6",
         "news_be8925f85840",
-        "news_ad44d21a8cd9"
+        "news_ad44d21a8cd9",
+        "news_8dac09d00af1"
       ],
       "status": "developing",
       "summary": "韩国央行或再度加息，AI暴跌背景下高盛警告韩消费撑不住了",
       "latestProgress": "2026年11月26日韩国央行重启加息，AI热潮引爆当地经济"
+    },
+    {
+      "eventId": "event_8417586a1c7c",
+      "clusterVersion": 2,
+      "title": "国家发改委：自11月26日24时起，国内汽、柴油价格每吨分别下调440元、425元",
+      "firstSeenAt": "2026-11-26T08:20:49.150Z",
+      "lastSeenAt": "2026-11-26T18:32:58.846Z",
+      "latestItemPublishedAt": "2026-11-26T07:26:10.000Z",
+      "primaryItemId": "news_221ee6193604",
+      "evidenceItemIds": [
+        "news_221ee6193604",
+        "news_e0bccd612c4f"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_63d23609aa10",
+      "clusterVersion": 2,
+      "title": "欧洲议会批准欧盟2027年度预算案",
+      "firstSeenAt": "2026-11-26T08:20:49.150Z",
+      "lastSeenAt": "2026-11-26T18:32:58.846Z",
+      "latestItemPublishedAt": "2026-11-26T07:45:41.000Z",
+      "primaryItemId": "news_d11c17394223",
+      "evidenceItemIds": [
+        "news_d11c17394223",
+        "news_e7eacf3ec57a"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_e37c1ba1fba6",
+      "clusterVersion": 2,
+      "title": "南向资金追踪｜单日卖出超213亿港元创近7个月新高 抛售三大ETF及智谱",
+      "firstSeenAt": "2026-11-25T14:26:42.699Z",
+      "lastSeenAt": "2026-11-26T18:32:58.846Z",
+      "latestItemPublishedAt": "2026-11-26T12:09:17.000Z",
+      "primaryItemId": "news_88bbcf634f61",
+      "evidenceItemIds": [
+        "news_e40a3e1b9f52",
+        "news_f747fbce9383",
+        "news_88bbcf634f61"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_afd95bcad936",
+      "clusterVersion": 2,
+      "title": "财联社11月27日电，欧洲理事会主席科斯塔表示，欧元区成员国已同意推荐巴勃罗·埃尔南德斯·德科斯（西班牙籍）担任欧洲央行",
+      "firstSeenAt": "2026-11-18T13:08:32.597Z",
+      "lastSeenAt": "2026-11-26T18:32:58.846Z",
+      "latestItemPublishedAt": "2026-11-26T17:14:25.000Z",
+      "primaryItemId": "news_c7a15a139cb2",
+      "evidenceItemIds": [
+        "news_3d2c9988f514",
+        "news_6793eb6100ef",
+        "news_cf8282c9f1c1",
+        "news_add32f1d16d6",
+        "news_0930c31f05ae",
+        "news_3b8f996961f6",
+        "news_48567d3aa7f4",
+        "news_cd26c971edc6",
+        "news_f77ff13b7518",
+        "news_e6f4d8e4e562",
+        "news_974c5715e9a3",
+        "news_c7a15a139cb2",
+        "news_c450fa57723a"
+      ],
+      "status": "developing",
+      "summary": "欧洲央行行长拉加德宣布将扩大货币互换协议覆盖范围。",
+      "latestProgress": "韩国金融委员会与欧洲央行敲定银行监管合作谅解备忘录条款。"
+    },
+    {
+      "eventId": "event_c2852fc9d3d3",
+      "clusterVersion": 2,
+      "title": "美股正处在美联储最容易犯错的阶段",
+      "firstSeenAt": "2026-11-26T13:55:27.283Z",
+      "lastSeenAt": "2026-11-26T18:32:58.846Z",
+      "latestItemPublishedAt": "2026-11-26T08:41:18.000Z",
+      "primaryItemId": "news_5ba65351d404",
+      "evidenceItemIds": [
+        "news_5ba65351d404",
+        "news_f8fb49486207"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_aec202926298",
+      "clusterVersion": 2,
+      "title": "财联社11月26日电，巴西基准股指日内涨约3%，巴西雷亚尔兑美元涨幅扩大至1.2%。",
+      "firstSeenAt": "2026-11-26T13:55:27.283Z",
+      "lastSeenAt": "2026-11-26T18:32:58.846Z",
+      "latestItemPublishedAt": "2026-11-26T13:19:56.000Z",
+      "primaryItemId": "news_c8c1840d0e48",
+      "evidenceItemIds": [
+        "news_c8c1840d0e48",
+        "news_dfa1b34f962a"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_a26c4ded6498",
+      "clusterVersion": 2,
+      "title": "财联社11月26日电，截至目前，南向资金净卖出额达150亿港元。",
+      "firstSeenAt": "2026-11-25T08:38:43.370Z",
+      "lastSeenAt": "2026-11-26T13:55:27.283Z",
+      "latestItemPublishedAt": "2026-11-26T07:10:34.000Z",
+      "primaryItemId": "news_c09a34cd708f",
+      "evidenceItemIds": [
+        "news_135a07476f6b",
+        "news_686243fd9d7f",
+        "news_c09a34cd708f",
+        "news_1f94f9e096d8"
+      ],
+      "status": "developing",
+      "summary": "11月26日南向资金净卖出额达150亿港元",
+      "latestProgress": "截至11月26日，南向资金净卖出规模达150亿港元"
     },
     {
       "eventId": "event_cbb3594d45ec",
@@ -357,112 +465,6 @@
       "status": "developing",
       "summary": "美国债务危机预计2029-2030年启动，当前有三条化债路径可选。",
       "latestProgress": "2026年11月报道指出美国债务危机2029-2030年启动，仅三条化债路径。"
-    },
-    {
-      "eventId": "event_8417586a1c7c",
-      "clusterVersion": 2,
-      "title": "国家发改委：自11月26日24时起，国内汽、柴油价格每吨分别下调440元、425元",
-      "firstSeenAt": "2026-11-26T08:20:49.150Z",
-      "lastSeenAt": "2026-11-26T13:55:27.283Z",
-      "latestItemPublishedAt": "2026-11-26T07:26:10.000Z",
-      "primaryItemId": "news_221ee6193604",
-      "evidenceItemIds": [
-        "news_221ee6193604",
-        "news_e0bccd612c4f"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_63d23609aa10",
-      "clusterVersion": 2,
-      "title": "欧洲议会批准欧盟2027年度预算案",
-      "firstSeenAt": "2026-11-26T08:20:49.150Z",
-      "lastSeenAt": "2026-11-26T13:55:27.283Z",
-      "latestItemPublishedAt": "2026-11-26T07:45:41.000Z",
-      "primaryItemId": "news_d11c17394223",
-      "evidenceItemIds": [
-        "news_d11c17394223",
-        "news_e7eacf3ec57a"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_e37c1ba1fba6",
-      "clusterVersion": 2,
-      "title": "南向资金追踪｜单日卖出超213亿港元创近7个月新高 抛售三大ETF及智谱",
-      "firstSeenAt": "2026-11-25T14:26:42.699Z",
-      "lastSeenAt": "2026-11-26T13:55:27.283Z",
-      "latestItemPublishedAt": "2026-11-26T12:09:17.000Z",
-      "primaryItemId": "news_88bbcf634f61",
-      "evidenceItemIds": [
-        "news_e40a3e1b9f52",
-        "news_f747fbce9383",
-        "news_88bbcf634f61"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_afd95bcad936",
-      "clusterVersion": 2,
-      "title": "财联社11月26日电，欧洲央行会议纪要显示，除非通胀前景“显著”改善，否则仍需加息。",
-      "firstSeenAt": "2026-11-18T13:08:32.597Z",
-      "lastSeenAt": "2026-11-26T13:55:27.283Z",
-      "latestItemPublishedAt": "2026-11-26T12:58:52.000Z",
-      "primaryItemId": "news_f77ff13b7518",
-      "evidenceItemIds": [
-        "news_3d2c9988f514",
-        "news_6793eb6100ef",
-        "news_cf8282c9f1c1",
-        "news_add32f1d16d6",
-        "news_0930c31f05ae",
-        "news_3b8f996961f6",
-        "news_48567d3aa7f4",
-        "news_cd26c971edc6",
-        "news_f77ff13b7518",
-        "news_e6f4d8e4e562",
-        "news_974c5715e9a3"
-      ],
-      "status": "developing",
-      "summary": "欧洲央行行长拉加德宣布将扩大货币互换协议覆盖范围。",
-      "latestProgress": "韩国金融委员会与欧洲央行敲定银行监管合作谅解备忘录条款。"
-    },
-    {
-      "eventId": "event_c2852fc9d3d3",
-      "clusterVersion": 2,
-      "title": "美股正处在美联储最容易犯错的阶段",
-      "firstSeenAt": "2026-11-26T13:55:27.283Z",
-      "lastSeenAt": "2026-11-26T13:55:27.283Z",
-      "latestItemPublishedAt": "2026-11-26T08:41:18.000Z",
-      "primaryItemId": "news_5ba65351d404",
-      "evidenceItemIds": [
-        "news_5ba65351d404",
-        "news_f8fb49486207"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_aec202926298",
-      "clusterVersion": 2,
-      "title": "财联社11月26日电，巴西基准股指日内涨约3%，巴西雷亚尔兑美元涨幅扩大至1.2%。",
-      "firstSeenAt": "2026-11-26T13:55:27.283Z",
-      "lastSeenAt": "2026-11-26T13:55:27.283Z",
-      "latestItemPublishedAt": "2026-11-26T13:19:56.000Z",
-      "primaryItemId": "news_c8c1840d0e48",
-      "evidenceItemIds": [
-        "news_c8c1840d0e48",
-        "news_dfa1b34f962a"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
     },
     {
       "eventId": "event_8bf12c301aec",

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-25T21:47:32.713Z",
+  "generatedAt": "2026-11-26T08:20:49.150Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -9,13 +9,10 @@
       "clusterVersion": 2,
       "title": "英伟达跌成美股“七巨头”最便宜！黄仁勋回归狂欢迅速消退，下周又将迎国会听证大考",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-25T21:47:32.713Z",
-      "latestItemPublishedAt": "2026-11-25T19:42:29.000Z",
+      "lastSeenAt": "2026-11-26T08:20:49.150Z",
+      "latestItemPublishedAt": "2026-11-26T03:04:34.000Z",
       "primaryItemId": "news_a8c0e1b9b893",
       "evidenceItemIds": [
-        "news_7fc4e3ee9d82",
-        "news_4e081e3a6567",
-        "news_c7d71ed71214",
         "news_00dc396a9f4b",
         "news_4ce19cc4d790",
         "news_5f9e6830f20f",
@@ -62,23 +59,24 @@
         "news_751f9e97e4d7",
         "news_31a54a25dab0",
         "news_a8c0e1b9b893",
-        "news_11c668ca0587"
+        "news_11c668ca0587",
+        "news_50ea1cf52636",
+        "news_4f309b8908df",
+        "news_9045adf0f09d"
       ],
       "status": "developing",
-      "summary": "黄仁勋回归效应退潮，美股反弹仅维持一日，VIX飙升、芯片股重挫。",
-      "latestProgress": "2026年11月25日，市场确认美股反弹为一日游，面临更多现实性考验。"
+      "summary": "英伟达跌成美股七巨头最便宜标的，黄仁勋回归利好消退，AI信用风险发酵叠加国会听证将至，美股巨震",
+      "latestProgress": "纳指逼近熊市后反弹收复失地，但三重阴云仍笼罩美股市场"
     },
     {
       "eventId": "event_a3c5d0364922",
       "clusterVersion": 2,
-      "title": "四天8家A股公司“戴帽”！有的“摘帽”仅4个月再被ST",
+      "title": "A股四大指数集体高开，珠免集团、山鹰国际复牌一字涨停",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-25T21:47:32.713Z",
-      "latestItemPublishedAt": "2026-11-25T13:19:28.000Z",
-      "primaryItemId": "news_0e44ee3a51c0",
+      "lastSeenAt": "2026-11-26T08:20:49.150Z",
+      "latestItemPublishedAt": "2026-11-26T04:34:49.000Z",
+      "primaryItemId": "news_ec771d7707a2",
       "evidenceItemIds": [
-        "news_19f2578648cd",
-        "news_e524c143bb2b",
         "news_37729827498b",
         "news_a9421df3aeb9",
         "news_7dad651e6b27",
@@ -126,7 +124,9 @@
         "news_c98253586a05",
         "news_06668c83df15",
         "news_0e44ee3a51c0",
-        "news_fc571b441449"
+        "news_fc571b441449",
+        "news_ec771d7707a2",
+        "news_e7b954022bda"
       ],
       "status": "developing",
       "summary": "近期A股三大指数集体低开，多板块回调，市场普跌态势明显",
@@ -135,16 +135,12 @@
     {
       "eventId": "event_c68d651d4ff9",
       "clusterVersion": 2,
-      "title": "安永：今年港股IPO集资额4300亿港元 料2027年回落至3000亿",
+      "title": "国际金价深V反转提振港股黄金股 紫金黄金国际涨近6%领跑相关个股",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-11-25T21:47:32.713Z",
-      "latestItemPublishedAt": "2026-11-25T13:27:43.000Z",
-      "primaryItemId": "news_a3ce4e7a0538",
+      "lastSeenAt": "2026-11-26T08:20:49.150Z",
+      "latestItemPublishedAt": "2026-11-26T02:21:30.000Z",
+      "primaryItemId": "news_46cc26579105",
       "evidenceItemIds": [
-        "news_21806568ef22",
-        "news_80d6f5d45cf0",
-        "news_3933aeaf2b5b",
-        "news_53dab9f8a29b",
         "news_9e121f8a062e",
         "news_dbf02144ba17",
         "news_4ba23206e4a3",
@@ -190,24 +186,25 @@
         "news_a3ce4e7a0538",
         "news_e2714582ec17",
         "news_2508e32ed786",
-        "news_3bda8f048bf6"
+        "news_3bda8f048bf6",
+        "news_ccdd0b9b8140",
+        "news_555a151d8aa9",
+        "news_9ed70b825be0",
+        "news_46cc26579105"
       ],
       "status": "developing",
-      "summary": "港股先通医药上市次日反弹超7%，仍破发跌17%，两年半累计亏损超13亿元",
-      "latestProgress": "先通医药上市次日反弹超7%，仍较招股价低17%，累计亏损超13亿元"
+      "summary": "国际金价深V反转，港股黄金股上涨，紫金黄金国际涨近6%领涨",
+      "latestProgress": "11月26日国际金价深V反转，港股黄金股上涨，紫金黄金国际涨近6%领跑"
     },
     {
       "eventId": "event_9e320dba578d",
       "clusterVersion": 2,
-      "title": "高盛：市场已替美联储“加息四次”，但沃什12月仍将继续加息",
+      "title": "美联储重磅！最青睐通胀指标超预期，12月加息概率升高",
       "firstSeenAt": "2026-11-06T07:06:11.933Z",
-      "lastSeenAt": "2026-11-25T21:47:32.713Z",
-      "latestItemPublishedAt": "2026-11-25T14:54:04.000Z",
-      "primaryItemId": "news_22058b74ade5",
+      "lastSeenAt": "2026-11-26T08:20:49.150Z",
+      "latestItemPublishedAt": "2026-11-26T01:37:03.000Z",
+      "primaryItemId": "news_3bbbef1d1d59",
       "evidenceItemIds": [
-        "news_282afc0a97e8",
-        "news_17c9c3987748",
-        "news_1276d8f44bc8",
         "news_31aaed8881ee",
         "news_e758e46d61d6",
         "news_52da0d2572e1",
@@ -254,52 +251,21 @@
         "news_7fea28baec7a",
         "news_1bfbbb771813",
         "news_22058b74ade5",
-        "news_8ce0e70cf8ce"
+        "news_8ce0e70cf8ce",
+        "news_3bbbef1d1d59",
+        "news_d6d1933f3850",
+        "news_7e9bf431a7f2"
       ],
       "status": "developing",
-      "summary": "摩根大通预计美联储将连续三次加息，12月加息概率近97%，黄金股承压。",
-      "latestProgress": "美联储加息预期压制黄金股表现，中国黄金国际一度跌超4%。"
-    },
-    {
-      "eventId": "event_6e4b6fb8b203",
-      "clusterVersion": 2,
-      "title": "10万亿不够“救市”，韩国酝酿扩大股市稳定基金！",
-      "firstSeenAt": "2026-11-22T12:40:06.425Z",
-      "lastSeenAt": "2026-11-25T21:47:32.713Z",
-      "latestItemPublishedAt": "2026-11-25T10:03:25.000Z",
-      "primaryItemId": "news_621bb95f012c",
-      "evidenceItemIds": [
-        "news_db6cc91a72e9",
-        "news_8dc3b3b3e42f",
-        "news_4d971130fec8",
-        "news_621bb95f012c"
-      ],
-      "status": "developing",
-      "summary": "吴悦风旗下私募陷清盘传闻，其回应称不实，不会清盘，波动源于重仓韩国存储股及杠杆ETF",
-      "latestProgress": "吴悦风方面最新回应称不会清盘，基金因投向韩国存储股并买入杠杆ETF放大波动"
-    },
-    {
-      "eventId": "event_75d62eaaeaa6",
-      "clusterVersion": 2,
-      "title": "黄金何时迎来转机",
-      "firstSeenAt": "2026-11-25T14:26:42.699Z",
-      "lastSeenAt": "2026-11-25T21:47:32.713Z",
-      "latestItemPublishedAt": "2026-11-25T04:27:39.000Z",
-      "primaryItemId": "news_a48a02167f9f",
-      "evidenceItemIds": [
-        "news_a48a02167f9f",
-        "news_7414348bbe24"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "美联储最青睐的PCE通胀指标超预期，12月加息概率升高",
+      "latestProgress": "美联储褐皮书显示全美物价升温范围扩大，12月加息势在必行"
     },
     {
       "eventId": "event_8bf12c301aec",
       "clusterVersion": 2,
       "title": "财联社11月25日电，美国3年期国债收益率日内下跌10个基点，至4.59%。",
       "firstSeenAt": "2026-11-25T14:26:42.699Z",
-      "lastSeenAt": "2026-11-25T21:47:32.713Z",
+      "lastSeenAt": "2026-11-26T08:20:49.150Z",
       "latestItemPublishedAt": "2026-11-25T13:33:32.000Z",
       "primaryItemId": "news_c8d5b5748a35",
       "evidenceItemIds": [
@@ -307,31 +273,15 @@
         "news_61f43a921fd7"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_e37c1ba1fba6",
-      "clusterVersion": 2,
-      "title": "南向资金追踪｜净买入超64亿港元 加仓三大ETF减持小米及建行",
-      "firstSeenAt": "2026-11-25T14:26:42.699Z",
-      "lastSeenAt": "2026-11-25T21:47:32.713Z",
-      "latestItemPublishedAt": "2026-11-25T12:13:08.000Z",
-      "primaryItemId": "news_e40a3e1b9f52",
-      "evidenceItemIds": [
-        "news_e40a3e1b9f52",
-        "news_f747fbce9383"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "财联社11月25日电，美国3年期国债收益率日内跌10个基点至4.59%",
+      "latestProgress": "财联社11月25日电，美国3年期国债收益率日内跌10个基点至4.59%"
     },
     {
       "eventId": "event_78759587d4f9",
       "clusterVersion": 2,
       "title": "夜盘期货收盘：沪铜跌超2% 沪锡跌超6%",
       "firstSeenAt": "2026-11-25T18:44:22.651Z",
-      "lastSeenAt": "2026-11-25T21:47:32.713Z",
+      "lastSeenAt": "2026-11-26T08:20:49.150Z",
       "latestItemPublishedAt": "2026-11-25T17:05:49.000Z",
       "primaryItemId": "news_eed009aa93f1",
       "evidenceItemIds": [
@@ -339,15 +289,15 @@
         "news_edd7d8148818"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "夜盘期货收盘，沪铜跌超2%，沪锡跌超6%",
+      "latestProgress": "2026年11月25日夜盘期货收盘，沪铜跌超2%，沪锡跌超6%"
     },
     {
       "eventId": "event_0a7767c975c9",
       "clusterVersion": 2,
       "title": "财联社11月26日电，美国7年期国债中标收益率为4.708%，发行前预发行收益率为4.698%。",
       "firstSeenAt": "2026-11-25T18:44:22.651Z",
-      "lastSeenAt": "2026-11-25T21:47:32.713Z",
+      "lastSeenAt": "2026-11-26T08:20:49.150Z",
       "latestItemPublishedAt": "2026-11-25T16:35:58.000Z",
       "primaryItemId": "news_ea1be8fec13e",
       "evidenceItemIds": [
@@ -355,15 +305,15 @@
         "news_34609c1bfd86"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "美国7年期国债中标收益率4.708%，高于发行前预发行收益率4.698%",
+      "latestProgress": "美国7年期国债中标结果已公布，中标收益率4.708%"
     },
     {
       "eventId": "event_0de6a233fdac",
       "clusterVersion": 2,
       "title": "财联社11月26日电，美国货币市场基金资产在ICI统计中升至7.979万亿美元。",
       "firstSeenAt": "2026-11-25T21:47:32.713Z",
-      "lastSeenAt": "2026-11-25T21:47:32.713Z",
+      "lastSeenAt": "2026-11-26T08:20:49.150Z",
       "latestItemPublishedAt": "2026-11-25T19:04:13.000Z",
       "primaryItemId": "news_0ecfdf19b049",
       "evidenceItemIds": [
@@ -371,51 +321,35 @@
         "news_ef22225f6b7c"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_7c8c50398dff",
-      "clusterVersion": 2,
-      "title": "学习时报：算力供给要避免“一哄而上”",
-      "firstSeenAt": "2026-11-25T21:47:32.713Z",
-      "lastSeenAt": "2026-11-25T21:47:32.713Z",
-      "latestItemPublishedAt": "2026-11-25T09:55:33.000Z",
-      "primaryItemId": "news_9ac564fc12ee",
-      "evidenceItemIds": [
-        "news_9ac564fc12ee",
-        "news_ec946b93cec8"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "据ICI统计，美国货币市场基金资产规模升至7.979万亿美元。",
+      "latestProgress": "财联社11月26日电，美国货币市场基金资产在ICI统计中升至7.979万亿美元。"
     },
     {
       "eventId": "event_a26c4ded6498",
       "clusterVersion": 2,
-      "title": "财联社11月25日电，截至目前，南向资金净买入额达60亿港元。",
+      "title": "财联社11月26日电，截至目前，南向资金净卖出额达150亿港元。",
       "firstSeenAt": "2026-11-25T08:38:43.370Z",
-      "lastSeenAt": "2026-11-25T18:44:22.651Z",
-      "latestItemPublishedAt": "2026-11-25T07:55:36.000Z",
-      "primaryItemId": "news_135a07476f6b",
+      "lastSeenAt": "2026-11-26T08:20:49.150Z",
+      "latestItemPublishedAt": "2026-11-26T07:10:34.000Z",
+      "primaryItemId": "news_c09a34cd708f",
       "evidenceItemIds": [
         "news_135a07476f6b",
-        "news_686243fd9d7f"
+        "news_686243fd9d7f",
+        "news_c09a34cd708f"
       ],
       "status": "developing",
-      "summary": "财联社11月25日连续报道，南向资金净买入额持续增长。",
-      "latestProgress": "截至11月25日，南向资金净买入额达60亿港元。"
+      "summary": "11月26日南向资金净卖出额达150亿港元",
+      "latestProgress": "截至11月26日，南向资金净卖出规模达150亿港元"
     },
     {
       "eventId": "event_2cf716748ce1",
       "clusterVersion": 2,
       "title": "韩国央行后天或再加息！AI暴跌之际，高盛警告：消费撑不住了",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-25T14:26:42.699Z",
-      "latestItemPublishedAt": "2026-11-24T17:41:57.000Z",
+      "lastSeenAt": "2026-11-26T08:20:49.150Z",
+      "latestItemPublishedAt": "2026-11-26T02:48:54.000Z",
       "primaryItemId": "news_3a26a10b4215",
       "evidenceItemIds": [
-        "news_5f1a2c67505e",
         "news_7a27059f9432",
         "news_88d1b90d065c",
         "news_4be3d9013d3f",
@@ -464,11 +398,175 @@
         "news_3a26a10b4215",
         "news_7afe5a443c46",
         "news_2500f3d26b75",
-        "news_ce0735c37bb6"
+        "news_ce0735c37bb6",
+        "news_84a81cdbfbe6"
       ],
       "status": "developing",
-      "summary": "韩国央行或再加息，高盛预警消费支撑不足，多国央行加息预期升温",
-      "latestProgress": "互换市场数据显示加拿大央行12月加息概率升至80%"
+      "summary": "韩国央行或再度加息，AI暴跌背景下高盛警告韩消费撑不住了",
+      "latestProgress": "2026年11月26日韩国央行重启加息，AI热潮引爆当地经济"
+    },
+    {
+      "eventId": "event_73ae50974c5e",
+      "clusterVersion": 2,
+      "title": "马斯克：美国每个孩子都将获得两股SpaceX股票，一股来自公司，一股来自我个人",
+      "firstSeenAt": "2026-11-26T08:20:49.150Z",
+      "lastSeenAt": "2026-11-26T08:20:49.150Z",
+      "latestItemPublishedAt": "2026-11-26T07:26:47.000Z",
+      "primaryItemId": "news_10d8c48024dc",
+      "evidenceItemIds": [
+        "news_10d8c48024dc",
+        "news_12274df73413",
+        "news_87587ec2367f"
+      ],
+      "status": "developing",
+      "summary": "马斯克宣布每名美国儿童将获其个人及SpaceX各赠一股公司股票",
+      "latestProgress": "马斯克承诺向全美儿童赠送两股SpaceX股票，分别由个人与公司提供"
+    },
+    {
+      "eventId": "event_cbb3594d45ec",
+      "clusterVersion": 2,
+      "title": "美国债务危机将在2029-2030年启动，只有三条路化债",
+      "firstSeenAt": "2026-11-26T08:20:49.150Z",
+      "lastSeenAt": "2026-11-26T08:20:49.150Z",
+      "latestItemPublishedAt": "2026-11-26T02:52:50.000Z",
+      "primaryItemId": "news_704511622485",
+      "evidenceItemIds": [
+        "news_704511622485",
+        "news_44501b0f6c19"
+      ],
+      "status": "developing",
+      "summary": "美国债务危机预计2029-2030年启动，当前有三条化债路径可选。",
+      "latestProgress": "2026年11月报道指出美国债务危机2029-2030年启动，仅三条化债路径。"
+    },
+    {
+      "eventId": "event_9271dc065321",
+      "clusterVersion": 2,
+      "title": "美国监管批准：SpaceX可发射“100万颗卫星”用于太空数据中心",
+      "firstSeenAt": "2026-11-26T08:20:49.150Z",
+      "lastSeenAt": "2026-11-26T08:20:49.150Z",
+      "latestItemPublishedAt": "2026-11-26T00:19:02.000Z",
+      "primaryItemId": "news_cfa53f9610bd",
+      "evidenceItemIds": [
+        "news_cfa53f9610bd",
+        "news_c5e6ef116dc1"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_8417586a1c7c",
+      "clusterVersion": 2,
+      "title": "国家发改委：自11月26日24时起，国内汽、柴油价格每吨分别下调440元、425元",
+      "firstSeenAt": "2026-11-26T08:20:49.150Z",
+      "lastSeenAt": "2026-11-26T08:20:49.150Z",
+      "latestItemPublishedAt": "2026-11-26T07:26:10.000Z",
+      "primaryItemId": "news_221ee6193604",
+      "evidenceItemIds": [
+        "news_221ee6193604",
+        "news_e0bccd612c4f"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_63d23609aa10",
+      "clusterVersion": 2,
+      "title": "欧洲议会批准欧盟2027年度预算案",
+      "firstSeenAt": "2026-11-26T08:20:49.150Z",
+      "lastSeenAt": "2026-11-26T08:20:49.150Z",
+      "latestItemPublishedAt": "2026-11-26T07:45:41.000Z",
+      "primaryItemId": "news_d11c17394223",
+      "evidenceItemIds": [
+        "news_d11c17394223",
+        "news_e7eacf3ec57a"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_9a459f9d7850",
+      "clusterVersion": 2,
+      "title": "美国三季度实际GDP年化季环比修正值升至4.3%，投资与消费支出双双走强",
+      "firstSeenAt": "2026-11-26T08:20:49.150Z",
+      "lastSeenAt": "2026-11-26T08:20:49.150Z",
+      "latestItemPublishedAt": "2026-11-25T13:46:16.000Z",
+      "primaryItemId": "news_8aca74374bd8",
+      "evidenceItemIds": [
+        "news_8aca74374bd8",
+        "news_bbc660cbfee6"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_6e4b6fb8b203",
+      "clusterVersion": 2,
+      "title": "10万亿不够“救市”，韩国酝酿扩大股市稳定基金！",
+      "firstSeenAt": "2026-11-22T12:40:06.425Z",
+      "lastSeenAt": "2026-11-25T21:47:32.713Z",
+      "latestItemPublishedAt": "2026-11-25T10:03:25.000Z",
+      "primaryItemId": "news_621bb95f012c",
+      "evidenceItemIds": [
+        "news_db6cc91a72e9",
+        "news_8dc3b3b3e42f",
+        "news_4d971130fec8",
+        "news_621bb95f012c"
+      ],
+      "status": "developing",
+      "summary": "吴悦风旗下私募陷清盘传闻，其回应称不实，不会清盘，波动源于重仓韩国存储股及杠杆ETF",
+      "latestProgress": "吴悦风方面最新回应称不会清盘，基金因投向韩国存储股并买入杠杆ETF放大波动"
+    },
+    {
+      "eventId": "event_75d62eaaeaa6",
+      "clusterVersion": 2,
+      "title": "黄金何时迎来转机",
+      "firstSeenAt": "2026-11-25T14:26:42.699Z",
+      "lastSeenAt": "2026-11-25T21:47:32.713Z",
+      "latestItemPublishedAt": "2026-11-25T04:27:39.000Z",
+      "primaryItemId": "news_a48a02167f9f",
+      "evidenceItemIds": [
+        "news_a48a02167f9f",
+        "news_7414348bbe24"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_e37c1ba1fba6",
+      "clusterVersion": 2,
+      "title": "南向资金追踪｜净买入超64亿港元 加仓三大ETF减持小米及建行",
+      "firstSeenAt": "2026-11-25T14:26:42.699Z",
+      "lastSeenAt": "2026-11-25T21:47:32.713Z",
+      "latestItemPublishedAt": "2026-11-25T12:13:08.000Z",
+      "primaryItemId": "news_e40a3e1b9f52",
+      "evidenceItemIds": [
+        "news_e40a3e1b9f52",
+        "news_f747fbce9383"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_7c8c50398dff",
+      "clusterVersion": 2,
+      "title": "学习时报：算力供给要避免“一哄而上”",
+      "firstSeenAt": "2026-11-25T21:47:32.713Z",
+      "lastSeenAt": "2026-11-25T21:47:32.713Z",
+      "latestItemPublishedAt": "2026-11-25T09:55:33.000Z",
+      "primaryItemId": "news_9ac564fc12ee",
+      "evidenceItemIds": [
+        "news_9ac564fc12ee",
+        "news_ec946b93cec8"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
     },
     {
       "eventId": "event_887a44d2a2bb",

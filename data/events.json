@@ -1,17 +1,17 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-27T08:33:33.749Z",
+  "generatedAt": "2026-11-27T13:54:35.759Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
       "eventId": "event_f101880ef7bc",
       "clusterVersion": 2,
-      "title": "海外大抛售到哪个阶段了？美股尚未“全面投降”，金铜惨跌更像“流动性收紧”",
+      "title": "美银Hartnett谈2027年美股：全面泡沫8888，软着陆7777，硬着陆6666",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-27T08:33:33.749Z",
+      "lastSeenAt": "2026-11-27T13:54:35.759Z",
       "latestItemPublishedAt": "2026-11-27T02:49:11.000Z",
-      "primaryItemId": "news_bac1e269a9e4",
+      "primaryItemId": "news_dbc41d218996",
       "evidenceItemIds": [
         "news_19de0eedbf4e",
         "news_83ef3977262b",
@@ -71,14 +71,12 @@
     {
       "eventId": "event_a3c5d0364922",
       "clusterVersion": 2,
-      "title": "透视A股并购“爆雷”：大多栽在业绩对赌，风险埋在交割之后",
+      "title": "“政策底”后“市场底”不远了？回看A股历史上的“稳市”",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-27T08:33:33.749Z",
-      "latestItemPublishedAt": "2026-11-26T12:55:38.000Z",
-      "primaryItemId": "news_d51b827f7461",
+      "lastSeenAt": "2026-11-27T13:54:35.759Z",
+      "latestItemPublishedAt": "2026-11-27T13:15:24.000Z",
+      "primaryItemId": "news_b0a73dfd980b",
       "evidenceItemIds": [
-        "news_bf0614ab3da9",
-        "news_9797031f4b46",
         "news_46d907d9d033",
         "news_dd781b0609ae",
         "news_72c2ccd7938a",
@@ -126,7 +124,9 @@
         "news_19c4291ec091",
         "news_b0a73dfd980b",
         "news_993ab5172aa0",
-        "news_febf8f3e6c5e"
+        "news_febf8f3e6c5e",
+        "news_1dcc4fe1ed1a",
+        "news_2d6d2c89c2e2"
       ],
       "status": "developing",
       "summary": "A股并购\"爆雷\"多因业绩对赌，风险常埋于交割之后。",
@@ -137,8 +137,8 @@
       "clusterVersion": 2,
       "title": "港股异动 | 诺诚健华(09969)涨超6% 佐来曲替尼获批治疗儿童实体瘤 此前获纳入2026年国家医保目录",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-11-27T08:33:33.749Z",
-      "latestItemPublishedAt": "2026-11-27T07:02:50.000Z",
+      "lastSeenAt": "2026-11-27T13:54:35.759Z",
+      "latestItemPublishedAt": "2026-11-27T07:38:38.000Z",
       "primaryItemId": "news_2632c451f39e",
       "evidenceItemIds": [
         "news_2024af7efb8c",
@@ -199,13 +199,12 @@
     {
       "eventId": "event_9e320dba578d",
       "clusterVersion": 2,
-      "title": "美联储加息50个基点？短端已经“提前交卷”",
+      "title": "特朗普政府拟加征新关税，美联储12月加息及利率走高可能性上升",
       "firstSeenAt": "2026-11-06T07:06:11.933Z",
-      "lastSeenAt": "2026-11-27T08:33:33.749Z",
-      "latestItemPublishedAt": "2026-11-27T03:54:09.000Z",
-      "primaryItemId": "news_fb7dba618b25",
+      "lastSeenAt": "2026-11-27T13:54:35.759Z",
+      "latestItemPublishedAt": "2026-11-27T08:46:40.000Z",
+      "primaryItemId": "news_14180afc34d2",
       "evidenceItemIds": [
-        "news_58244adebe83",
         "news_a00f36e5c972",
         "news_619210b030ab",
         "news_a2021c26f2c4",
@@ -254,7 +253,8 @@
         "news_7e9bf431a7f2",
         "news_fb7dba618b25",
         "news_4603256a90d5",
-        "news_45073e69578e"
+        "news_45073e69578e",
+        "news_14180afc34d2"
       ],
       "status": "developing",
       "summary": "美联储最青睐的PCE通胀指标超预期，12月加息概率升高",
@@ -263,17 +263,12 @@
     {
       "eventId": "event_2cf716748ce1",
       "clusterVersion": 2,
-      "title": "英国央行警告全球金融体系面临多重风险",
+      "title": "赞比亚通胀维持目标区间内，央行基准利率按兵不动于10.75%",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-27T08:33:33.749Z",
-      "latestItemPublishedAt": "2026-11-26T16:53:12.000Z",
-      "primaryItemId": "news_ad44d21a8cd9",
+      "lastSeenAt": "2026-11-27T13:54:35.759Z",
+      "latestItemPublishedAt": "2026-11-27T12:16:36.000Z",
+      "primaryItemId": "news_0f68521fd728",
       "evidenceItemIds": [
-        "news_77e8b347634b",
-        "news_9377a13f88d0",
-        "news_d252c44c39bc",
-        "news_3a46d128ff7c",
-        "news_b149998b6c34",
         "news_674f25f91f21",
         "news_2d5feb32f104",
         "news_8b94efd24b56",
@@ -318,11 +313,197 @@
         "news_be8925f85840",
         "news_ad44d21a8cd9",
         "news_8dac09d00af1",
-        "news_63dbd032f9f8"
+        "news_63dbd032f9f8",
+        "news_0f68521fd728",
+        "news_e34196e73cb5",
+        "news_11426d2ffda9",
+        "news_07632305f101",
+        "news_c2d1829c1d4a"
       ],
       "status": "developing",
       "summary": "英国央行下调银行资本要求30个基点，同时警告全球金融体系多重风险及AI债务隐患",
       "latestProgress": "土耳其央行暂停一周期回购拍卖"
+    },
+    {
+      "eventId": "event_afd95bcad936",
+      "clusterVersion": 2,
+      "title": "欧洲央行调查显示2026年10月欧元区通胀预期上升",
+      "firstSeenAt": "2026-11-18T13:08:32.597Z",
+      "lastSeenAt": "2026-11-27T13:54:35.759Z",
+      "latestItemPublishedAt": "2026-11-27T13:05:19.000Z",
+      "primaryItemId": "news_7b49dbe25f10",
+      "evidenceItemIds": [
+        "news_3d2c9988f514",
+        "news_6793eb6100ef",
+        "news_cf8282c9f1c1",
+        "news_add32f1d16d6",
+        "news_0930c31f05ae",
+        "news_3b8f996961f6",
+        "news_48567d3aa7f4",
+        "news_cd26c971edc6",
+        "news_f77ff13b7518",
+        "news_e6f4d8e4e562",
+        "news_974c5715e9a3",
+        "news_c7a15a139cb2",
+        "news_c450fa57723a",
+        "news_f4a1a4fca580",
+        "news_7b49dbe25f10",
+        "news_f91d9eff1613",
+        "news_51e250b00159"
+      ],
+      "status": "developing",
+      "summary": "欧洲央行新行长人选落定，会议纪要显示通胀压力仍存，货币政策短期难转向",
+      "latestProgress": "欧元区成员国已同意推荐德科斯担任欧洲央行行长"
+    },
+    {
+      "eventId": "event_d5b83d80b101",
+      "clusterVersion": 2,
+      "title": "能源内参｜商务部：坚决反对美对中国等经济体加征301关税；中国华能原总会计师王益华被开除党籍",
+      "firstSeenAt": "2026-11-26T21:42:32.900Z",
+      "lastSeenAt": "2026-11-27T13:54:35.759Z",
+      "latestItemPublishedAt": "2026-11-27T04:00:13.000Z",
+      "primaryItemId": "news_aee8f4335a08",
+      "evidenceItemIds": [
+        "news_461e0f8f6845",
+        "news_f517811bda28",
+        "news_aee8f4335a08"
+      ],
+      "status": "developing",
+      "summary": "商务部坚决反对美国对中国等相关经济体加征301关税",
+      "latestProgress": "2026年11月26日商务部明确表态反对美对华等经济体加征301关税"
+    },
+    {
+      "eventId": "event_832f59c51853",
+      "clusterVersion": 2,
+      "title": "欧央行10月会议纪要：通胀前景恶化，未来或需进一步加息",
+      "firstSeenAt": "2026-11-26T21:42:32.900Z",
+      "lastSeenAt": "2026-11-27T13:54:35.759Z",
+      "latestItemPublishedAt": "2026-11-26T20:23:59.000Z",
+      "primaryItemId": "news_8d0f9091a762",
+      "evidenceItemIds": [
+        "news_8d0f9091a762",
+        "news_2465eeae9f6a"
+      ],
+      "status": "developing",
+      "summary": "欧央行10月会议纪要披露通胀前景恶化，称未来或需进一步加息。",
+      "latestProgress": "欧央行新行长De Cos接替拉加德，货币政策偏鸽且强调财政纪律。"
+    },
+    {
+      "eventId": "event_6e4b6fb8b203",
+      "clusterVersion": 2,
+      "title": "10万亿不够“救市”，韩国酝酿扩大股市稳定基金！",
+      "firstSeenAt": "2026-11-22T12:40:06.425Z",
+      "lastSeenAt": "2026-11-27T13:54:35.759Z",
+      "latestItemPublishedAt": "2026-11-27T08:03:17.000Z",
+      "primaryItemId": "news_621bb95f012c",
+      "evidenceItemIds": [
+        "news_db6cc91a72e9",
+        "news_8dc3b3b3e42f",
+        "news_4d971130fec8",
+        "news_621bb95f012c",
+        "news_84a0f5d179d7"
+      ],
+      "status": "developing",
+      "summary": "韩国10万亿股市稳定基金被认为不足以救市，当局正酝酿扩大规模。",
+      "latestProgress": "2026年11月27日，韩国当局拟扩大股市稳定基金规模，遭散户抱怨行动太迟。"
+    },
+    {
+      "eventId": "event_cc19047dbbb1",
+      "clusterVersion": 2,
+      "title": "新华社：国常会关于资本市场部署释放五大鲜明信号",
+      "firstSeenAt": "2026-11-27T08:33:33.749Z",
+      "lastSeenAt": "2026-11-27T13:54:35.759Z",
+      "latestItemPublishedAt": "2026-11-27T07:42:47.000Z",
+      "primaryItemId": "news_207733f96afb",
+      "evidenceItemIds": [
+        "news_207733f96afb",
+        "news_251461e58b1d"
+      ],
+      "status": "developing",
+      "summary": "国常会围绕资本市场作出系列部署，释放五大鲜明信号稳市场预期促发展",
+      "latestProgress": "国常会相关部署明确资本市场工作导向，有力提振市场信心"
+    },
+    {
+      "eventId": "event_69907ecbc6dd",
+      "clusterVersion": 2,
+      "title": "李强主持召开国务院常务会议 研究持续深化资本市场投融资综合改革工作",
+      "firstSeenAt": "2026-11-27T08:33:33.749Z",
+      "lastSeenAt": "2026-11-27T13:54:35.759Z",
+      "latestItemPublishedAt": "2026-11-27T04:32:03.000Z",
+      "primaryItemId": "news_f238b748a348",
+      "evidenceItemIds": [
+        "news_f238b748a348",
+        "news_38a65d63aa2c"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_0ad0d5472df7",
+      "clusterVersion": 2,
+      "title": "2026年1—10月份全国规模以上工业企业利润增长16.0%",
+      "firstSeenAt": "2026-11-27T08:33:33.749Z",
+      "lastSeenAt": "2026-11-27T13:54:35.759Z",
+      "latestItemPublishedAt": "2026-11-27T02:01:58.000Z",
+      "primaryItemId": "news_48ebd015dbea",
+      "evidenceItemIds": [
+        "news_48ebd015dbea",
+        "news_cb8bd04053dc",
+        "news_c81aa8e2d104",
+        "news_f08c3d35955c"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_795ceffb8f96",
+      "clusterVersion": 2,
+      "title": "财联社11月27日电，土耳其主要银行指数持续下跌，现跌超5%，BIST-100基准指数跌0.9%。",
+      "firstSeenAt": "2026-11-27T08:33:33.749Z",
+      "lastSeenAt": "2026-11-27T13:54:35.759Z",
+      "latestItemPublishedAt": "2026-11-27T07:52:00.000Z",
+      "primaryItemId": "news_4b7ab296c723",
+      "evidenceItemIds": [
+        "news_4b7ab296c723",
+        "news_82e09d8fbff1"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_a631192880d4",
+      "clusterVersion": 2,
+      "title": "财联社11月27日电，广期所品种仓单及变化如下：碳酸锂期货仓单12024手，环比上个交易日减少1049手；多晶硅期货仓单",
+      "firstSeenAt": "2026-11-27T08:33:33.749Z",
+      "lastSeenAt": "2026-11-27T13:54:35.759Z",
+      "latestItemPublishedAt": "2026-11-27T07:47:48.000Z",
+      "primaryItemId": "news_c3cacb7de2bd",
+      "evidenceItemIds": [
+        "news_c3cacb7de2bd",
+        "news_27f8bb4ad14a"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_87c1aa38ff4b",
+      "clusterVersion": 2,
+      "title": "美团王兴：预计明年AI相关的资本支出将低于今年",
+      "firstSeenAt": "2026-11-27T13:54:35.759Z",
+      "lastSeenAt": "2026-11-27T13:54:35.759Z",
+      "latestItemPublishedAt": "2026-11-27T13:18:41.000Z",
+      "primaryItemId": "news_33899985e2da",
+      "evidenceItemIds": [
+        "news_33899985e2da",
+        "news_af8c85354a7a"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
     },
     {
       "eventId": "event_e37c1ba1fba6",
@@ -342,34 +523,6 @@
       "latestProgress": "11月26日南向资金单日卖出额创近7个月新高，抛售三大ETF及智谱。"
     },
     {
-      "eventId": "event_afd95bcad936",
-      "clusterVersion": 2,
-      "title": "危机频发之际，欧洲央行新领导层浮现：鸽派老将、金融学者与市场专家将如何应对下一场风暴？",
-      "firstSeenAt": "2026-11-18T13:08:32.597Z",
-      "lastSeenAt": "2026-11-27T08:33:33.749Z",
-      "latestItemPublishedAt": "2026-11-26T19:22:53.000Z",
-      "primaryItemId": "news_f4a1a4fca580",
-      "evidenceItemIds": [
-        "news_3d2c9988f514",
-        "news_6793eb6100ef",
-        "news_cf8282c9f1c1",
-        "news_add32f1d16d6",
-        "news_0930c31f05ae",
-        "news_3b8f996961f6",
-        "news_48567d3aa7f4",
-        "news_cd26c971edc6",
-        "news_f77ff13b7518",
-        "news_e6f4d8e4e562",
-        "news_974c5715e9a3",
-        "news_c7a15a139cb2",
-        "news_c450fa57723a",
-        "news_f4a1a4fca580"
-      ],
-      "status": "developing",
-      "summary": "欧洲央行新行长人选落定，会议纪要显示通胀压力仍存，货币政策短期难转向",
-      "latestProgress": "欧元区成员国已同意推荐德科斯担任欧洲央行行长"
-    },
-    {
       "eventId": "event_aec202926298",
       "clusterVersion": 2,
       "title": "财联社11月26日电，巴西基准股指日内涨约3%，巴西雷亚尔兑美元涨幅扩大至1.2%。",
@@ -384,139 +537,6 @@
       "status": "developing",
       "summary": "11月26日巴西基准股指日内涨约3%，雷亚尔兑美元涨幅扩大至1.2%",
       "latestProgress": "财联社11月26日电，巴西基准股指涨约3%，雷亚尔兑美元涨1.2%"
-    },
-    {
-      "eventId": "event_d5b83d80b101",
-      "clusterVersion": 2,
-      "title": "商务部：坚决反对美对中国等经济体加征301关税",
-      "firstSeenAt": "2026-11-26T21:42:32.900Z",
-      "lastSeenAt": "2026-11-27T08:33:33.749Z",
-      "latestItemPublishedAt": "2026-11-26T11:51:19.000Z",
-      "primaryItemId": "news_461e0f8f6845",
-      "evidenceItemIds": [
-        "news_461e0f8f6845",
-        "news_f517811bda28"
-      ],
-      "status": "developing",
-      "summary": "商务部坚决反对美国对中国等相关经济体加征301关税",
-      "latestProgress": "2026年11月26日商务部明确表态反对美对华等经济体加征301关税"
-    },
-    {
-      "eventId": "event_832f59c51853",
-      "clusterVersion": 2,
-      "title": "欧央行10月会议纪要：通胀前景恶化，未来或需进一步加息",
-      "firstSeenAt": "2026-11-26T21:42:32.900Z",
-      "lastSeenAt": "2026-11-27T08:33:33.749Z",
-      "latestItemPublishedAt": "2026-11-26T20:23:59.000Z",
-      "primaryItemId": "news_8d0f9091a762",
-      "evidenceItemIds": [
-        "news_8d0f9091a762",
-        "news_2465eeae9f6a"
-      ],
-      "status": "developing",
-      "summary": "欧央行10月会议纪要披露通胀前景恶化，称未来或需进一步加息。",
-      "latestProgress": "欧央行新行长De Cos接替拉加德，货币政策偏鸽且强调财政纪律。"
-    },
-    {
-      "eventId": "event_6e4b6fb8b203",
-      "clusterVersion": 2,
-      "title": "10万亿不够“救市”，韩国酝酿扩大股市稳定基金！",
-      "firstSeenAt": "2026-11-22T12:40:06.425Z",
-      "lastSeenAt": "2026-11-27T08:33:33.749Z",
-      "latestItemPublishedAt": "2026-11-27T08:03:17.000Z",
-      "primaryItemId": "news_621bb95f012c",
-      "evidenceItemIds": [
-        "news_db6cc91a72e9",
-        "news_8dc3b3b3e42f",
-        "news_4d971130fec8",
-        "news_621bb95f012c",
-        "news_84a0f5d179d7"
-      ],
-      "status": "developing",
-      "summary": "韩国10万亿股市稳定基金被认为不足以救市，当局正酝酿扩大规模。",
-      "latestProgress": "2026年11月27日，韩国当局拟扩大股市稳定基金规模，遭散户抱怨行动太迟。"
-    },
-    {
-      "eventId": "event_cc19047dbbb1",
-      "clusterVersion": 2,
-      "title": "新华社：国常会关于资本市场部署释放五大鲜明信号",
-      "firstSeenAt": "2026-11-27T08:33:33.749Z",
-      "lastSeenAt": "2026-11-27T08:33:33.749Z",
-      "latestItemPublishedAt": "2026-11-27T07:42:47.000Z",
-      "primaryItemId": "news_207733f96afb",
-      "evidenceItemIds": [
-        "news_207733f96afb",
-        "news_251461e58b1d"
-      ],
-      "status": "developing",
-      "summary": "国常会围绕资本市场作出系列部署，释放五大鲜明信号稳市场预期促发展",
-      "latestProgress": "国常会相关部署明确资本市场工作导向，有力提振市场信心"
-    },
-    {
-      "eventId": "event_69907ecbc6dd",
-      "clusterVersion": 2,
-      "title": "李强主持召开国务院常务会议 研究持续深化资本市场投融资综合改革工作",
-      "firstSeenAt": "2026-11-27T08:33:33.749Z",
-      "lastSeenAt": "2026-11-27T08:33:33.749Z",
-      "latestItemPublishedAt": "2026-11-27T04:32:03.000Z",
-      "primaryItemId": "news_f238b748a348",
-      "evidenceItemIds": [
-        "news_f238b748a348",
-        "news_38a65d63aa2c"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_0ad0d5472df7",
-      "clusterVersion": 2,
-      "title": "2026年1—10月份全国规模以上工业企业利润增长16.0%",
-      "firstSeenAt": "2026-11-27T08:33:33.749Z",
-      "lastSeenAt": "2026-11-27T08:33:33.749Z",
-      "latestItemPublishedAt": "2026-11-27T02:01:58.000Z",
-      "primaryItemId": "news_48ebd015dbea",
-      "evidenceItemIds": [
-        "news_48ebd015dbea",
-        "news_cb8bd04053dc",
-        "news_c81aa8e2d104",
-        "news_f08c3d35955c"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_795ceffb8f96",
-      "clusterVersion": 2,
-      "title": "财联社11月27日电，土耳其主要银行指数持续下跌，现跌超5%，BIST-100基准指数跌0.9%。",
-      "firstSeenAt": "2026-11-27T08:33:33.749Z",
-      "lastSeenAt": "2026-11-27T08:33:33.749Z",
-      "latestItemPublishedAt": "2026-11-27T07:52:00.000Z",
-      "primaryItemId": "news_4b7ab296c723",
-      "evidenceItemIds": [
-        "news_4b7ab296c723",
-        "news_82e09d8fbff1"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_a631192880d4",
-      "clusterVersion": 2,
-      "title": "财联社11月27日电，广期所品种仓单及变化如下：碳酸锂期货仓单12024手，环比上个交易日减少1049手；多晶硅期货仓单",
-      "firstSeenAt": "2026-11-27T08:33:33.749Z",
-      "lastSeenAt": "2026-11-27T08:33:33.749Z",
-      "latestItemPublishedAt": "2026-11-27T07:47:48.000Z",
-      "primaryItemId": "news_c3cacb7de2bd",
-      "evidenceItemIds": [
-        "news_c3cacb7de2bd",
-        "news_27f8bb4ad14a"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
     },
     {
       "eventId": "event_8417586a1c7c",

@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-27T18:19:04.925Z",
+  "generatedAt": "2026-11-27T21:25:09.999Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -9,12 +9,10 @@
       "clusterVersion": 2,
       "title": "美银Hartnett谈2027年美股：全面泡沫8888，软着陆7777，硬着陆6666",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-27T18:19:04.925Z",
-      "latestItemPublishedAt": "2026-11-27T17:47:33.000Z",
+      "lastSeenAt": "2026-11-27T21:25:09.999Z",
+      "latestItemPublishedAt": "2026-11-27T20:06:04.000Z",
       "primaryItemId": "news_dbc41d218996",
       "evidenceItemIds": [
-        "news_2e5940d870a0",
-        "news_0453d6a44ca5",
         "news_ce5165a0d8cc",
         "news_b982bbb04c43",
         "news_366ef54fa01e",
@@ -62,7 +60,9 @@
         "news_b303e4f8cb82",
         "news_da2701136ed7",
         "news_90a0f49e0282",
-        "news_a6a83ab39959"
+        "news_a6a83ab39959",
+        "news_6d3f8385defa",
+        "news_5fa38b55d25c"
       ],
       "status": "developing",
       "summary": "海外大抛售已近尾声，美股未全面投降，金铜下跌主因是流动性收紧。",
@@ -73,7 +73,7 @@
       "clusterVersion": 2,
       "title": "A股重要指数调整，万科A被调出深证100",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-27T18:19:04.925Z",
+      "lastSeenAt": "2026-11-27T21:25:09.999Z",
       "latestItemPublishedAt": "2026-11-27T14:08:48.000Z",
       "primaryItemId": "news_da5233a4b2ff",
       "evidenceItemIds": [
@@ -137,7 +137,7 @@
       "clusterVersion": 2,
       "title": "港股异动 | 诺诚健华(09969)涨超6% 佐来曲替尼获批治疗儿童实体瘤 此前获纳入2026年国家医保目录",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-11-27T18:19:04.925Z",
+      "lastSeenAt": "2026-11-27T21:25:09.999Z",
       "latestItemPublishedAt": "2026-11-27T13:19:06.000Z",
       "primaryItemId": "news_2632c451f39e",
       "evidenceItemIds": [
@@ -201,7 +201,7 @@
       "clusterVersion": 2,
       "title": "特朗普政府拟加征新关税，美联储12月加息及利率走高可能性上升",
       "firstSeenAt": "2026-11-06T07:06:11.933Z",
-      "lastSeenAt": "2026-11-27T18:19:04.925Z",
+      "lastSeenAt": "2026-11-27T21:25:09.999Z",
       "latestItemPublishedAt": "2026-11-27T08:46:40.000Z",
       "primaryItemId": "news_14180afc34d2",
       "evidenceItemIds": [
@@ -265,11 +265,10 @@
       "clusterVersion": 2,
       "title": "赞比亚通胀维持目标区间内，央行基准利率按兵不动于10.75%",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-27T18:19:04.925Z",
+      "lastSeenAt": "2026-11-27T21:25:09.999Z",
       "latestItemPublishedAt": "2026-11-27T12:49:37.000Z",
       "primaryItemId": "news_0f68521fd728",
       "evidenceItemIds": [
-        "news_7e24a9c406e1",
         "news_5281b5d49d41",
         "news_2d0d50a042aa",
         "news_9538d4f5bbcc",
@@ -318,7 +317,8 @@
         "news_c2d1829c1d4a",
         "news_8bf146afaa28",
         "news_f67e844b55f6",
-        "news_66e4aff7118e"
+        "news_66e4aff7118e",
+        "news_a20e43527d60"
       ],
       "status": "developing",
       "summary": "英国央行下调银行资本要求30个基点，同时警告全球金融体系多重风险及AI债务隐患",
@@ -329,7 +329,7 @@
       "clusterVersion": 2,
       "title": "欧洲央行调查显示2026年10月欧元区通胀预期上升",
       "firstSeenAt": "2026-11-18T13:08:32.597Z",
-      "lastSeenAt": "2026-11-27T18:19:04.925Z",
+      "lastSeenAt": "2026-11-27T21:25:09.999Z",
       "latestItemPublishedAt": "2026-11-27T14:27:46.000Z",
       "primaryItemId": "news_7b49dbe25f10",
       "evidenceItemIds": [
@@ -355,6 +355,71 @@
       "status": "developing",
       "summary": "欧洲央行新行长人选落定，会议纪要显示通胀压力仍存，货币政策短期难转向",
       "latestProgress": "欧元区成员国已同意推荐德科斯担任欧洲央行行长"
+    },
+    {
+      "eventId": "event_87c1aa38ff4b",
+      "clusterVersion": 2,
+      "title": "美团王兴：预计明年AI相关的资本支出将低于今年",
+      "firstSeenAt": "2026-11-27T13:54:35.759Z",
+      "lastSeenAt": "2026-11-27T21:25:09.999Z",
+      "latestItemPublishedAt": "2026-11-27T13:18:41.000Z",
+      "primaryItemId": "news_33899985e2da",
+      "evidenceItemIds": [
+        "news_33899985e2da",
+        "news_af8c85354a7a"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_4c2be59a3230",
+      "clusterVersion": 2,
+      "title": "欧洲三大股指集体收涨 德国DAX指数涨近1%",
+      "firstSeenAt": "2026-11-27T18:19:04.925Z",
+      "lastSeenAt": "2026-11-27T21:25:09.999Z",
+      "latestItemPublishedAt": "2026-11-27T16:34:04.000Z",
+      "primaryItemId": "news_2bcf9f5eebd4",
+      "evidenceItemIds": [
+        "news_2bcf9f5eebd4",
+        "news_91543e52faf4",
+        "news_b4c70f86bf1e"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_1719338f0343",
+      "clusterVersion": 2,
+      "title": "欧洲AI数据中心开发商LIAN选定伦敦上市 拟募资约5亿美元",
+      "firstSeenAt": "2026-11-27T18:19:04.925Z",
+      "lastSeenAt": "2026-11-27T21:25:09.999Z",
+      "latestItemPublishedAt": "2026-11-27T15:07:20.000Z",
+      "primaryItemId": "news_9cd00481feb6",
+      "evidenceItemIds": [
+        "news_9cd00481feb6",
+        "news_2051011c59c2"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
+    },
+    {
+      "eventId": "event_ce0ad577e997",
+      "clusterVersion": 2,
+      "title": "财联社11月28日电，在岸人民币兑美元（CNY）北京时间03:00收报6.6541元，较周四夜盘收盘涨68点。成交量49",
+      "firstSeenAt": "2026-11-27T21:25:09.999Z",
+      "lastSeenAt": "2026-11-27T21:25:09.999Z",
+      "latestItemPublishedAt": "2026-11-27T19:07:14.000Z",
+      "primaryItemId": "news_2455774564fa",
+      "evidenceItemIds": [
+        "news_2455774564fa",
+        "news_0d9da82c7d27"
+      ],
+      "status": "developing",
+      "summary": "",
+      "latestProgress": ""
     },
     {
       "eventId": "event_6e4b6fb8b203",
@@ -418,55 +483,6 @@
       "evidenceItemIds": [
         "news_c3cacb7de2bd",
         "news_27f8bb4ad14a"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_87c1aa38ff4b",
-      "clusterVersion": 2,
-      "title": "美团王兴：预计明年AI相关的资本支出将低于今年",
-      "firstSeenAt": "2026-11-27T13:54:35.759Z",
-      "lastSeenAt": "2026-11-27T18:19:04.925Z",
-      "latestItemPublishedAt": "2026-11-27T13:18:41.000Z",
-      "primaryItemId": "news_33899985e2da",
-      "evidenceItemIds": [
-        "news_33899985e2da",
-        "news_af8c85354a7a"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_4c2be59a3230",
-      "clusterVersion": 2,
-      "title": "欧洲三大股指集体收涨 德国DAX指数涨近1%",
-      "firstSeenAt": "2026-11-27T18:19:04.925Z",
-      "lastSeenAt": "2026-11-27T18:19:04.925Z",
-      "latestItemPublishedAt": "2026-11-27T16:34:04.000Z",
-      "primaryItemId": "news_2bcf9f5eebd4",
-      "evidenceItemIds": [
-        "news_2bcf9f5eebd4",
-        "news_91543e52faf4",
-        "news_b4c70f86bf1e"
-      ],
-      "status": "developing",
-      "summary": "",
-      "latestProgress": ""
-    },
-    {
-      "eventId": "event_1719338f0343",
-      "clusterVersion": 2,
-      "title": "欧洲AI数据中心开发商LIAN选定伦敦上市 拟募资约5亿美元",
-      "firstSeenAt": "2026-11-27T18:19:04.925Z",
-      "lastSeenAt": "2026-11-27T18:19:04.925Z",
-      "latestItemPublishedAt": "2026-11-27T15:07:20.000Z",
-      "primaryItemId": "news_9cd00481feb6",
-      "evidenceItemIds": [
-        "news_9cd00481feb6",
-        "news_2051011c59c2"
       ],
       "status": "developing",
       "summary": "",

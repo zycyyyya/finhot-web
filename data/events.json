@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-28T07:50:28.407Z",
+  "generatedAt": "2026-11-28T13:02:00.050Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
@@ -9,7 +9,7 @@
       "clusterVersion": 2,
       "title": "特朗普拯救黄仁勋，也救了美股！高盛交易员感叹“全市场命运系于一人，这是好事还是坏事，管他呢！”",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-28T07:50:28.407Z",
+      "lastSeenAt": "2026-11-28T13:02:00.050Z",
       "latestItemPublishedAt": "2026-11-28T02:03:35.000Z",
       "primaryItemId": "news_b2373274a25b",
       "evidenceItemIds": [
@@ -71,13 +71,12 @@
     {
       "eventId": "event_a3c5d0364922",
       "clusterVersion": 2,
-      "title": "国常会稳市引爆A股；黄仁勋闪电复职｜一周热点回顾",
+      "title": "A股重要指数调整，万科A被调出深证100",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-28T07:50:28.407Z",
-      "latestItemPublishedAt": "2026-11-28T02:50:55.000Z",
-      "primaryItemId": "news_8e4befac4332",
+      "lastSeenAt": "2026-11-28T13:02:00.050Z",
+      "latestItemPublishedAt": "2026-11-28T11:12:28.000Z",
+      "primaryItemId": "news_da5233a4b2ff",
       "evidenceItemIds": [
-        "news_752aba286fab",
         "news_a5d15d8b31b5",
         "news_cdf2f050cad5",
         "news_3a0b89e0d27c",
@@ -126,7 +125,8 @@
         "news_2d6d2c89c2e2",
         "news_da5233a4b2ff",
         "news_4db8b7ef424a",
-        "news_8e4befac4332"
+        "news_8e4befac4332",
+        "news_c3afd36c6300"
       ],
       "status": "developing",
       "summary": "国常会稳市举措引爆A股波动，黄仁勋复职成科技圈热点。",
@@ -137,7 +137,7 @@
       "clusterVersion": 2,
       "title": "港股异动 | 诺诚健华(09969)涨超6% 佐来曲替尼获批治疗儿童实体瘤 此前获纳入2026年国家医保目录",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-11-28T07:50:28.407Z",
+      "lastSeenAt": "2026-11-28T13:02:00.050Z",
       "latestItemPublishedAt": "2026-11-28T02:25:48.000Z",
       "primaryItemId": "news_2632c451f39e",
       "evidenceItemIds": [
@@ -201,7 +201,7 @@
       "clusterVersion": 2,
       "title": "特朗普政府拟加征新关税，美联储12月加息及利率走高可能性上升",
       "firstSeenAt": "2026-11-06T07:06:11.933Z",
-      "lastSeenAt": "2026-11-28T07:50:28.407Z",
+      "lastSeenAt": "2026-11-28T13:02:00.050Z",
       "latestItemPublishedAt": "2026-11-28T02:01:04.000Z",
       "primaryItemId": "news_14180afc34d2",
       "evidenceItemIds": [
@@ -263,11 +263,11 @@
     {
       "eventId": "event_2cf716748ce1",
       "clusterVersion": 2,
-      "title": "赞比亚通胀维持目标区间内，央行基准利率按兵不动于10.75%",
+      "title": "央行完善贷款罚息规则：从“加收30%—50%”改为“协商确定”",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-28T07:50:28.407Z",
+      "lastSeenAt": "2026-11-28T13:02:00.050Z",
       "latestItemPublishedAt": "2026-11-28T03:52:54.000Z",
-      "primaryItemId": "news_0f68521fd728",
+      "primaryItemId": "news_f56de5dc3b01",
       "evidenceItemIds": [
         "news_9538d4f5bbcc",
         "news_cec05dba791b",
@@ -329,7 +329,7 @@
       "clusterVersion": 2,
       "title": "视线｜从花游运动员到欧洲央行行长 拉加德期待新角色",
       "firstSeenAt": "2026-11-18T13:08:32.597Z",
-      "lastSeenAt": "2026-11-28T07:50:28.407Z",
+      "lastSeenAt": "2026-11-28T13:02:00.050Z",
       "latestItemPublishedAt": "2026-11-27T17:40:11.000Z",
       "primaryItemId": "news_2ed3a27b6a8e",
       "evidenceItemIds": [
@@ -363,7 +363,7 @@
       "clusterVersion": 2,
       "title": "美团王兴：预计明年AI相关的资本支出将低于今年",
       "firstSeenAt": "2026-11-27T13:54:35.759Z",
-      "lastSeenAt": "2026-11-28T07:50:28.407Z",
+      "lastSeenAt": "2026-11-28T13:02:00.050Z",
       "latestItemPublishedAt": "2026-11-27T13:18:41.000Z",
       "primaryItemId": "news_33899985e2da",
       "evidenceItemIds": [
@@ -379,7 +379,7 @@
       "clusterVersion": 2,
       "title": "欧洲三大股指集体收涨 德国DAX指数涨近1%",
       "firstSeenAt": "2026-11-27T18:19:04.925Z",
-      "lastSeenAt": "2026-11-28T07:50:28.407Z",
+      "lastSeenAt": "2026-11-28T13:02:00.050Z",
       "latestItemPublishedAt": "2026-11-27T16:34:04.000Z",
       "primaryItemId": "news_2bcf9f5eebd4",
       "evidenceItemIds": [
@@ -396,7 +396,7 @@
       "clusterVersion": 2,
       "title": "欧洲AI数据中心开发商LIAN选定伦敦上市 拟募资约5亿美元",
       "firstSeenAt": "2026-11-27T18:19:04.925Z",
-      "lastSeenAt": "2026-11-28T07:50:28.407Z",
+      "lastSeenAt": "2026-11-28T13:02:00.050Z",
       "latestItemPublishedAt": "2026-11-27T15:07:20.000Z",
       "primaryItemId": "news_9cd00481feb6",
       "evidenceItemIds": [
@@ -412,7 +412,7 @@
       "clusterVersion": 2,
       "title": "财联社11月28日电，在岸人民币兑美元（CNY）北京时间03:00收报6.6541元，较周四夜盘收盘涨68点。成交量49",
       "firstSeenAt": "2026-11-27T21:25:09.999Z",
-      "lastSeenAt": "2026-11-28T07:50:28.407Z",
+      "lastSeenAt": "2026-11-28T13:02:00.050Z",
       "latestItemPublishedAt": "2026-11-27T19:07:14.000Z",
       "primaryItemId": "news_2455774564fa",
       "evidenceItemIds": [
@@ -428,7 +428,7 @@
       "clusterVersion": 2,
       "title": "每人每月补助5000元，澳门居民珠海养老服务落地：参与计划的澳门居民须年满65岁，持有有效证件，并已参加珠海医保",
       "firstSeenAt": "2026-11-28T07:50:28.407Z",
-      "lastSeenAt": "2026-11-28T07:50:28.407Z",
+      "lastSeenAt": "2026-11-28T13:02:00.050Z",
       "latestItemPublishedAt": "2026-11-28T06:39:35.000Z",
       "primaryItemId": "news_520c7b5dd2f3",
       "evidenceItemIds": [
@@ -444,7 +444,7 @@
       "clusterVersion": 2,
       "title": "中信证券：AH两地上市公司数量或仍将快速提升 AH价差研究愈发重要",
       "firstSeenAt": "2026-11-28T07:50:28.407Z",
-      "lastSeenAt": "2026-11-28T07:50:28.407Z",
+      "lastSeenAt": "2026-11-28T13:02:00.050Z",
       "latestItemPublishedAt": "2026-11-28T04:08:16.000Z",
       "primaryItemId": "news_365481b6c473",
       "evidenceItemIds": [

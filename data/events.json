@@ -1,19 +1,18 @@
 {
   "schemaVersion": "1.0",
-  "generatedAt": "2026-11-27T21:25:09.999Z",
+  "generatedAt": "2026-11-28T07:50:28.407Z",
   "retentionDays": 120,
   "maxEvents": 1000,
   "events": [
     {
       "eventId": "event_f101880ef7bc",
       "clusterVersion": 2,
-      "title": "美银Hartnett谈2027年美股：全面泡沫8888，软着陆7777，硬着陆6666",
+      "title": "特朗普拯救黄仁勋，也救了美股！高盛交易员感叹“全市场命运系于一人，这是好事还是坏事，管他呢！”",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-27T21:25:09.999Z",
-      "latestItemPublishedAt": "2026-11-27T20:06:04.000Z",
-      "primaryItemId": "news_dbc41d218996",
+      "lastSeenAt": "2026-11-28T07:50:28.407Z",
+      "latestItemPublishedAt": "2026-11-28T02:03:35.000Z",
+      "primaryItemId": "news_b2373274a25b",
       "evidenceItemIds": [
-        "news_ce5165a0d8cc",
         "news_b982bbb04c43",
         "news_366ef54fa01e",
         "news_da914c82bd57",
@@ -62,22 +61,22 @@
         "news_90a0f49e0282",
         "news_a6a83ab39959",
         "news_6d3f8385defa",
-        "news_5fa38b55d25c"
+        "news_5fa38b55d25c",
+        "news_b2373274a25b"
       ],
       "status": "developing",
-      "summary": "海外大抛售已近尾声，美股未全面投降，金铜下跌主因是流动性收紧。",
-      "latestProgress": "特朗普发声力挺黄仁勋，美股AI投资风向转向软件赛道。"
+      "summary": "特朗普相关举措救黄仁勋也提振美股，AI、芯片股集体走强。",
+      "latestProgress": "高盛交易员感叹全市场命运系于黄仁勋，感慨利弊难论。"
     },
     {
       "eventId": "event_a3c5d0364922",
       "clusterVersion": 2,
-      "title": "A股重要指数调整，万科A被调出深证100",
+      "title": "国常会稳市引爆A股；黄仁勋闪电复职｜一周热点回顾",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-27T21:25:09.999Z",
-      "latestItemPublishedAt": "2026-11-27T14:08:48.000Z",
-      "primaryItemId": "news_da5233a4b2ff",
+      "lastSeenAt": "2026-11-28T07:50:28.407Z",
+      "latestItemPublishedAt": "2026-11-28T02:50:55.000Z",
+      "primaryItemId": "news_8e4befac4332",
       "evidenceItemIds": [
-        "news_72c2ccd7938a",
         "news_752aba286fab",
         "news_a5d15d8b31b5",
         "news_cdf2f050cad5",
@@ -126,22 +125,22 @@
         "news_1dcc4fe1ed1a",
         "news_2d6d2c89c2e2",
         "news_da5233a4b2ff",
-        "news_4db8b7ef424a"
+        "news_4db8b7ef424a",
+        "news_8e4befac4332"
       ],
       "status": "developing",
-      "summary": "A股并购\"爆雷\"多因业绩对赌，风险常埋于交割之后。",
-      "latestProgress": "2026年11月27日A股三大指数集体收涨，创业板指大涨超11%"
+      "summary": "国常会稳市举措引爆A股波动，黄仁勋复职成科技圈热点。",
+      "latestProgress": "11月28日发布一周热点回顾，涵盖国常会稳市、黄仁勋复职等事件。"
     },
     {
       "eventId": "event_c68d651d4ff9",
       "clusterVersion": 2,
       "title": "港股异动 | 诺诚健华(09969)涨超6% 佐来曲替尼获批治疗儿童实体瘤 此前获纳入2026年国家医保目录",
       "firstSeenAt": "2026-09-30T15:04:45.414Z",
-      "lastSeenAt": "2026-11-27T21:25:09.999Z",
-      "latestItemPublishedAt": "2026-11-27T13:19:06.000Z",
+      "lastSeenAt": "2026-11-28T07:50:28.407Z",
+      "latestItemPublishedAt": "2026-11-28T02:25:48.000Z",
       "primaryItemId": "news_2632c451f39e",
       "evidenceItemIds": [
-        "news_f85b51fc7151",
         "news_c01a288d4ba6",
         "news_825390506e03",
         "news_b327496a0d55",
@@ -190,22 +189,22 @@
         "news_eb9ae122a8b8",
         "news_a79b7b532832",
         "news_03c869b4db7c",
-        "news_e5b86ab8d720"
+        "news_e5b86ab8d720",
+        "news_88c348843e75"
       ],
       "status": "developing",
-      "summary": "国际金价深V反转，港股黄金股上涨，紫金黄金国际涨近6%领涨",
-      "latestProgress": "11月26日国际金价深V反转，港股黄金股上涨，紫金黄金国际涨近6%领跑"
+      "summary": "诺诚健华因佐来曲替尼获批治疗儿童实体瘤且纳入2026年国家医保目录，港股涨超6%。",
+      "latestProgress": "2026年前11月港股IPO募资超4300亿港元，\"A+H\"与科技企业成主力。"
     },
     {
       "eventId": "event_9e320dba578d",
       "clusterVersion": 2,
       "title": "特朗普政府拟加征新关税，美联储12月加息及利率走高可能性上升",
       "firstSeenAt": "2026-11-06T07:06:11.933Z",
-      "lastSeenAt": "2026-11-27T21:25:09.999Z",
-      "latestItemPublishedAt": "2026-11-27T08:46:40.000Z",
+      "lastSeenAt": "2026-11-28T07:50:28.407Z",
+      "latestItemPublishedAt": "2026-11-28T02:01:04.000Z",
       "primaryItemId": "news_14180afc34d2",
       "evidenceItemIds": [
-        "news_a00f36e5c972",
         "news_619210b030ab",
         "news_a2021c26f2c4",
         "news_a72856298f64",
@@ -254,23 +253,22 @@
         "news_fb7dba618b25",
         "news_4603256a90d5",
         "news_45073e69578e",
-        "news_14180afc34d2"
+        "news_14180afc34d2",
+        "news_41a32f2bdf54"
       ],
       "status": "developing",
-      "summary": "美联储最青睐的PCE通胀指标超预期，12月加息概率升高",
-      "latestProgress": "美联储褐皮书显示全美物价升温范围扩大，12月加息势在必行"
+      "summary": "特朗普政府拟加征新关税，美联储12月加息及利率走高可能性上升",
+      "latestProgress": "交易员缩减对美联储加息押注，预计明年晚些转向宽松"
     },
     {
       "eventId": "event_2cf716748ce1",
       "clusterVersion": 2,
       "title": "赞比亚通胀维持目标区间内，央行基准利率按兵不动于10.75%",
       "firstSeenAt": "2026-09-30T13:30:13.189Z",
-      "lastSeenAt": "2026-11-27T21:25:09.999Z",
-      "latestItemPublishedAt": "2026-11-27T12:49:37.000Z",
+      "lastSeenAt": "2026-11-28T07:50:28.407Z",
+      "latestItemPublishedAt": "2026-11-28T03:52:54.000Z",
       "primaryItemId": "news_0f68521fd728",
       "evidenceItemIds": [
-        "news_5281b5d49d41",
-        "news_2d0d50a042aa",
         "news_9538d4f5bbcc",
         "news_cec05dba791b",
         "news_314a3ea3cbaa",
@@ -318,20 +316,22 @@
         "news_8bf146afaa28",
         "news_f67e844b55f6",
         "news_66e4aff7118e",
-        "news_a20e43527d60"
+        "news_a20e43527d60",
+        "news_f56de5dc3b01",
+        "news_78857759f909"
       ],
       "status": "developing",
-      "summary": "英国央行下调银行资本要求30个基点，同时警告全球金融体系多重风险及AI债务隐患",
-      "latestProgress": "土耳其央行暂停一周期回购拍卖"
+      "summary": "赞比亚通胀维持目标区间，央行基准利率按兵不动于10.75%，同期出台系列金融新规",
+      "latestProgress": "11.28央行调贷款罚息规则，改加收30%-50%为协商，研究推大额存单转让服务"
     },
     {
       "eventId": "event_afd95bcad936",
       "clusterVersion": 2,
-      "title": "欧洲央行调查显示2026年10月欧元区通胀预期上升",
+      "title": "视线｜从花游运动员到欧洲央行行长 拉加德期待新角色",
       "firstSeenAt": "2026-11-18T13:08:32.597Z",
-      "lastSeenAt": "2026-11-27T21:25:09.999Z",
-      "latestItemPublishedAt": "2026-11-27T14:27:46.000Z",
-      "primaryItemId": "news_7b49dbe25f10",
+      "lastSeenAt": "2026-11-28T07:50:28.407Z",
+      "latestItemPublishedAt": "2026-11-27T17:40:11.000Z",
+      "primaryItemId": "news_2ed3a27b6a8e",
       "evidenceItemIds": [
         "news_3d2c9988f514",
         "news_6793eb6100ef",
@@ -350,18 +350,20 @@
         "news_7b49dbe25f10",
         "news_f91d9eff1613",
         "news_51e250b00159",
-        "news_b178dd20dc9b"
+        "news_b178dd20dc9b",
+        "news_2ed3a27b6a8e",
+        "news_2ee3c5453f4a"
       ],
       "status": "developing",
-      "summary": "欧洲央行新行长人选落定，会议纪要显示通胀压力仍存，货币政策短期难转向",
-      "latestProgress": "欧元区成员国已同意推荐德科斯担任欧洲央行行长"
+      "summary": "拉加德履新欧洲央行行长，欧元区通胀高企，欧央行暗示将延续加息",
+      "latestProgress": "欧央行管委内格尔预计2027年通胀将持续高于3%，释放继续加息信号"
     },
     {
       "eventId": "event_87c1aa38ff4b",
       "clusterVersion": 2,
       "title": "美团王兴：预计明年AI相关的资本支出将低于今年",
       "firstSeenAt": "2026-11-27T13:54:35.759Z",
-      "lastSeenAt": "2026-11-27T21:25:09.999Z",
+      "lastSeenAt": "2026-11-28T07:50:28.407Z",
       "latestItemPublishedAt": "2026-11-27T13:18:41.000Z",
       "primaryItemId": "news_33899985e2da",
       "evidenceItemIds": [
@@ -369,15 +371,15 @@
         "news_af8c85354a7a"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "美团王兴预计明年AI相关资本支出将低于今年",
+      "latestProgress": "2026年11月27日美团王兴公开表态明年AI相关资本支出低于今年"
     },
     {
       "eventId": "event_4c2be59a3230",
       "clusterVersion": 2,
       "title": "欧洲三大股指集体收涨 德国DAX指数涨近1%",
       "firstSeenAt": "2026-11-27T18:19:04.925Z",
-      "lastSeenAt": "2026-11-27T21:25:09.999Z",
+      "lastSeenAt": "2026-11-28T07:50:28.407Z",
       "latestItemPublishedAt": "2026-11-27T16:34:04.000Z",
       "primaryItemId": "news_2bcf9f5eebd4",
       "evidenceItemIds": [
@@ -386,15 +388,15 @@
         "news_b4c70f86bf1e"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "2026年11月27日欧洲三大股指集体收涨，德国DAX指数涨近1%",
+      "latestProgress": "2026年11月27日欧洲三大股指集体收涨，德国DAX指数涨近1%"
     },
     {
       "eventId": "event_1719338f0343",
       "clusterVersion": 2,
       "title": "欧洲AI数据中心开发商LIAN选定伦敦上市 拟募资约5亿美元",
       "firstSeenAt": "2026-11-27T18:19:04.925Z",
-      "lastSeenAt": "2026-11-27T21:25:09.999Z",
+      "lastSeenAt": "2026-11-28T07:50:28.407Z",
       "latestItemPublishedAt": "2026-11-27T15:07:20.000Z",
       "primaryItemId": "news_9cd00481feb6",
       "evidenceItemIds": [
@@ -402,20 +404,69 @@
         "news_2051011c59c2"
       ],
       "status": "developing",
-      "summary": "",
-      "latestProgress": ""
+      "summary": "欧洲AI数据中心开发商LIAN选定伦敦上市，拟募资约5亿美元",
+      "latestProgress": "LIAN已敲定伦敦上市，IPO拟募资约5亿美元"
     },
     {
       "eventId": "event_ce0ad577e997",
       "clusterVersion": 2,
       "title": "财联社11月28日电，在岸人民币兑美元（CNY）北京时间03:00收报6.6541元，较周四夜盘收盘涨68点。成交量49",
       "firstSeenAt": "2026-11-27T21:25:09.999Z",
-      "lastSeenAt": "2026-11-27T21:25:09.999Z",
+      "lastSeenAt": "2026-11-28T07:50:28.407Z",
       "latestItemPublishedAt": "2026-11-27T19:07:14.000Z",
       "primaryItemId": "news_2455774564fa",
       "evidenceItemIds": [
         "news_2455774564fa",
         "news_0d9da82c7d27"
+      ],
+      "status": "developing",
+      "summary": "11月28日财联社消息，在岸人民币兑美元收报6.6541元，较前一收盘涨68点，成交496.49亿美元。",
+      "latestProgress": "在岸人民币兑美元最新收盘报6.6541元，较前一收盘上涨68点，成交496.49亿美元。"
+    },
+    {
+      "eventId": "event_df92815718a0",
+      "clusterVersion": 2,
+      "title": "每人每月补助5000元，澳门居民珠海养老服务落地：参与计划的澳门居民须年满65岁，持有有效证件，并已参加珠海医保",
+      "firstSeenAt": "2026-11-28T07:50:28.407Z",
+      "lastSeenAt": "2026-11-28T07:50:28.407Z",
+      "latestItemPublishedAt": "2026-11-28T06:39:35.000Z",
+      "primaryItemId": "news_520c7b5dd2f3",
+      "evidenceItemIds": [
+        "news_520c7b5dd2f3",
+        "news_caf13a750d7e"
+      ],
+      "status": "developing",
+      "summary": "澳门年满65岁、持有效证件且参加珠海医保的居民可享珠海养老每人每月5000元补助。",
+      "latestProgress": "该计划明确参与需年满65岁、持有效证件并已参加珠海医保。"
+    },
+    {
+      "eventId": "event_724b092c24ae",
+      "clusterVersion": 2,
+      "title": "中信证券：AH两地上市公司数量或仍将快速提升 AH价差研究愈发重要",
+      "firstSeenAt": "2026-11-28T07:50:28.407Z",
+      "lastSeenAt": "2026-11-28T07:50:28.407Z",
+      "latestItemPublishedAt": "2026-11-28T04:08:16.000Z",
+      "primaryItemId": "news_365481b6c473",
+      "evidenceItemIds": [
+        "news_365481b6c473",
+        "news_caad9c3a17fc",
+        "news_0ccb6c7d2925"
+      ],
+      "status": "developing",
+      "summary": "中信证券指出AH两地上市公司数量或快速提升，AH价差研究重要性上升。",
+      "latestProgress": "中信证券重申AH两地上市公司数量或仍将快速提升。"
+    },
+    {
+      "eventId": "event_02ed3f9449a8",
+      "clusterVersion": 2,
+      "title": "通胀和高油价也没拦住美国人“剁手”！Adobe预计黑五线上消费突破130亿美元",
+      "firstSeenAt": "2026-11-28T07:50:28.407Z",
+      "lastSeenAt": "2026-11-28T07:50:28.407Z",
+      "latestItemPublishedAt": "2026-11-27T17:42:57.000Z",
+      "primaryItemId": "news_426d8daefc3b",
+      "evidenceItemIds": [
+        "news_426d8daefc3b",
+        "news_73aecdee5eed"
       ],
       "status": "developing",
       "summary": "",
